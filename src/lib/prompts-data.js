@@ -3212,8 +3212,7 @@ export const imagePrompts = [
     id: "img-retrato-neon-creador",
     title: "Retrato creativo con luces de neón",
     category: "Retratos",
-    summary:
-      "Retrato llamativo tipo gamer / streamer con luces fucsia y azul.",
+    summary: "Retrato llamativo tipo gamer / streamer con luces fucsia y azul.",
     prompt: `Retrato frontal de un creador digital con luces de neón rosa y azul, fondo oscuro con formas geométricas brillantes, estilo futurista, contraste alto, reflejos de color en el rostro, expresión concentrada pero amigable, iluminación tipo estudio, estética cyber neon moderna.`,
     thumbnail: "/images/retrato-neon.png",
   },
@@ -3242,8 +3241,7 @@ export const imagePrompts = [
     id: "img-retrato-exterior-naturaleza",
     title: "Retrato natural en exterior",
     category: "Retratos",
-    summary:
-      "Sesión al aire libre con árboles desenfocados y luz suave.",
+    summary: "Sesión al aire libre con árboles desenfocados y luz suave.",
     prompt: `Retrato en exteriores de una persona caminando por un parque con árboles de fondo, luz suave tipo golden hour, fondo verde desenfocado, expresión tranquila, estilo fotografía lifestyle natural, tonos cálidos y verdes, sensación de calma y libertad.`,
     thumbnail: "/images/retrato-naturaleza.png",
   },
@@ -3252,8 +3250,7 @@ export const imagePrompts = [
     id: "img-retrato-escritorio-ia",
     title: "Retrato con ambiente de IA y pantallas",
     category: "Retratos",
-    summary:
-      "Creador de IA rodeado de pantallas con gráficos futuristas.",
+    summary: "Creador de IA rodeado de pantallas con gráficos futuristas.",
     prompt: `Fotografía de un profesional sentado frente a varias pantallas con interfaces futuristas, gráficos de datos y elementos de inteligencia artificial, luces azules y cian, ambiente tecnológico, silla ergonómica, iluminación tenue tipo sci-fi, estilo high-tech pero realista.`,
     thumbnail: "/images/retrato-ia.png",
   },
@@ -3284,8 +3281,7 @@ export const imagePrompts = [
     id: "img-mockup-ebook-tablet",
     title: "Mockup de e-book en tablet",
     category: "Productos",
-    summary:
-      "Mockup limpio de e-book mostrado en una tablet sobre mesa.",
+    summary: "Mockup limpio de e-book mostrado en una tablet sobre mesa.",
     prompt: `Mockup realista de una tablet en una mesa de madera clara, mostrando la portada de un e-book de marketing digital, fondo minimalista con pocos objetos (lentes, bolígrafo, taza de café), iluminación suave, estilo clean, ideal para landing page.`,
     thumbnail: "/images/mockup-ebook-tablet.png",
   },
@@ -3294,8 +3290,7 @@ export const imagePrompts = [
     id: "img-mockup-curso-online-laptop",
     title: "Mockup de curso online en laptop",
     category: "Productos",
-    summary:
-      "Imagen para mostrar tu curso en una pantalla de laptop.",
+    summary: "Imagen para mostrar tu curso en una pantalla de laptop.",
     prompt: `Laptop moderna sobre escritorio elegante, pantalla mostrando la interfaz de un curso online (panel de lecciones, video player), fondo desenfocado con decoración minimalista, luz natural lateral, estilo profesional, sensación de producto premium.`,
     thumbnail: "/images/mockup-curso-laptop.png",
   },
@@ -3304,8 +3299,7 @@ export const imagePrompts = [
     id: "img-mockup-membresia-multipantalla",
     title: "Mockup de membresía multipantalla",
     category: "Productos",
-    summary:
-      "Curso/membresía visible en laptop, tablet y móvil a la vez.",
+    summary: "Curso/membresía visible en laptop, tablet y móvil a la vez.",
     prompt: `Composición con tres dispositivos: laptop, tablet y smartphone, todos mostrando partes de una misma plataforma de cursos o membresía, fondo degradado oscuro con luz suave, estilo tech premium, reflejos suaves, composición simétrica.`,
     thumbnail: "/images/mockup-membresia-multipantalla.png",
   },
@@ -3314,8 +3308,7 @@ export const imagePrompts = [
     id: "img-producto-caja-digital",
     title: "Caja digital de infoproducto",
     category: "Productos",
-    summary:
-      "Caja 3D de infoproducto tipo software / curso.",
+    summary: "Caja 3D de infoproducto tipo software / curso.",
     prompt: `Caja 3D de producto digital con diseño moderno, combinación de colores azul, violeta y cian, tipografía clara, fondo ligeramente desenfocado con textura abstracta, luz suave que resalta los bordes, estilo presentación de software.`,
     thumbnail: "/images/mockup-caja-digital.png",
   },
@@ -3324,8 +3317,7 @@ export const imagePrompts = [
     id: "img-producto-pack-recursos",
     title: "Pack de recursos digitales",
     category: "Productos",
-    summary:
-      "Varias cajas, hojas y mockups simulando un gran pack.",
+    summary: "Varias cajas, hojas y mockups simulando un gran pack.",
     prompt: `Composición de varios elementos: cajas 3D, hojas impresas, tablet y laptop, todos representando un “pack de recursos digitales”, fondo neutro con luz suave, estilo limpio, sensación de abundancia y valor, colores armoniosos en tonos azules y morados.`,
     thumbnail: "/images/mockup-pack-recursos.png",
   },
@@ -3334,8 +3326,7 @@ export const imagePrompts = [
     id: "img-producto-plantillas-social-media",
     title: "Plantillas de redes sociales en pantalla",
     category: "Productos",
-    summary:
-      "Mockup mostrando templates de Instagram en la pantalla.",
+    summary: "Mockup mostrando templates de Instagram en la pantalla.",
     prompt: `Pantalla de computador o laptop con varias miniaturas de plantillas de Instagram, grid organizado, colores vivos pero elegantes, fondo de escritorio minimalista, luz suave, estilo portfolio de diseñador.`,
     thumbnail: "/images/mockup-plantillas-social.png",
   },
@@ -3344,8 +3335,7 @@ export const imagePrompts = [
     id: "img-producto-app-movil",
     title: "Preview de app móvil de productividad",
     category: "Productos",
-    summary:
-      "Teléfono mostrando una app de notas / tareas organizada.",
+    summary: "Teléfono mostrando una app de notas / tareas organizada.",
     prompt: `Teléfono inteligente moderno en primer plano, pantalla mostrando una app de productividad con lista de tareas y calendario, fondo difuminado con escritorio y planta, iluminación suave, estilo UI limpia y moderna.`,
     thumbnail: "/images/mockup-app-movil.png",
   },
@@ -3364,8 +3354,7 @@ export const imagePrompts = [
     id: "img-producto-membership-ia",
     title: "Membresía de IA tipo hub",
     category: "Productos",
-    summary:
-      "Centro de mando de IA con tarjetas y paneles flotando.",
+    summary: "Centro de mando de IA con tarjetas y paneles flotando.",
     prompt: `Ilustración semi-realista de un hub digital de inteligencia artificial, paneles flotando con iconos de prompts, vídeos, comunidad, gráficos de crecimiento, fondo oscuro con luces cian y púrpura, estilo futurista pero limpio, sensación de ecosistema organizado.`,
     thumbnail: "/images/mockup-membership-ia.png",
   },
@@ -3374,8 +3363,7 @@ export const imagePrompts = [
     id: "img-producto-biblioteca-prompts",
     title: "Biblioteca de prompts visual",
     category: "Productos",
-    summary:
-      "Concepto de biblioteca digital llena de tarjetas de prompts.",
+    summary: "Concepto de biblioteca digital llena de tarjetas de prompts.",
     prompt: `Ilustración de una biblioteca digital donde en lugar de libros hay tarjetas flotantes con líneas de texto y iconos de IA, fondo oscuro con un ligero degradado azul, luz brillante en el centro, sensación de abundancia y organización, estilo moderno futurista.`,
     thumbnail: "/images/mockup-biblioteca-prompts.png",
   },
@@ -3386,8 +3374,7 @@ export const imagePrompts = [
     id: "img-fondo-cita-inspiracional",
     title: "Fondo para frase inspiracional",
     category: "Social media",
-    summary:
-      "Fondo suave minimalista para colocar una frase encima.",
+    summary: "Fondo suave minimalista para colocar una frase encima.",
     prompt: `Fondo abstracto minimalista con degradado suave en tonos morado oscuro y cian, textura ligera, sin elementos distractores, centro más claro para colocar texto, estilo elegante para quotes motivacionales.`,
     thumbnail: "/images/fondo-cita-inspiracional.png",
   },
@@ -3396,8 +3383,7 @@ export const imagePrompts = [
     id: "img-fondo-historias-vertical",
     title: "Fondo vertical para historias",
     category: "Social media",
-    summary:
-      "Fondo 9:16 con textura sutil y espacio para texto.",
+    summary: "Fondo 9:16 con textura sutil y espacio para texto.",
     prompt: `Fondo vertical estilo historia, degradado en tonos azul oscuro y violeta, textura sutil en diagonal, marco suave o viñeta ligera en los bordes, centro limpio para colocar texto o stickers, estilo moderno y elegante.`,
     thumbnail: "/images/fondo-historias-vertical.png",
   },
@@ -3416,8 +3402,7 @@ export const imagePrompts = [
     id: "img-portada-video-ia",
     title: "Portada para vídeo sobre IA",
     category: "Social media",
-    summary:
-      "Visual llamativo con cerebro digital y circuitos.",
+    summary: "Visual llamativo con cerebro digital y circuitos.",
     prompt: `Ilustración de un cerebro hecho de circuitos y luz, mitad orgánico mitad digital, fondo oscuro con líneas de código y partículas brillantes azul cian, estilo moderno de tecnología, alto contraste, ideal para portada de vídeo sobre IA.`,
     thumbnail: "/images/portada-video-ia.png",
   },
@@ -3426,8 +3411,7 @@ export const imagePrompts = [
     id: "img-infografia-simple-3-pasos",
     title: "Infografía simple de 3 pasos",
     category: "Social media",
-    summary:
-      "Gráfico limpio de 3 bloques con números grandes.",
+    summary: "Gráfico limpio de 3 bloques con números grandes.",
     prompt: `Infografía minimalista con 3 bloques horizontales numerados 1, 2 y 3, fondo claro o muy oscuro, cada bloque con un recuadro de color y espacio para texto, estética flat, iconos sencillos, estilo profesional y fácil de leer.`,
     thumbnail: "/images/infografia-3-pasos.png",
   },
@@ -3436,8 +3420,7 @@ export const imagePrompts = [
     id: "img-tablero-vision-digital",
     title: "Tablero de visión digital",
     category: "Social media",
-    summary:
-      "Collage estético de metas: dinero, libertad, creatividad, IA.",
+    summary: "Collage estético de metas: dinero, libertad, creatividad, IA.",
     prompt: `Collage digital estético que represente un “vision board”: imágenes de laptop, avión, naturaleza, gráfico de crecimiento, iconos de IA, colores cálidos con toques de cian, estilo moderno y aspiracional, composición equilibrada.`,
     thumbnail: "/images/tablero-vision-digital.png",
   },
@@ -3446,8 +3429,7 @@ export const imagePrompts = [
     id: "img-checklist-digital",
     title: "Checklist digital minimalista",
     category: "Social media",
-    summary:
-      "Ilustración de lista con íconos de check en pantalla.",
+    summary: "Ilustración de lista con íconos de check en pantalla.",
     prompt: `Ilustración de una pantalla o tarjeta con lista de tareas y varios checkmarks verdes, fondo limpio, estilo flat minimalista, colores suaves, perfecta para representar checklist o pasos a seguir.`,
     thumbnail: "/images/checklist-digital.png",
   },
@@ -3456,8 +3438,7 @@ export const imagePrompts = [
     id: "img-feed-grid-estetico",
     title: "Grid de feed estético",
     category: "Social media",
-    summary:
-      "Vista conceptual de un feed de Instagram limpio y cuidado.",
+    summary: "Vista conceptual de un feed de Instagram limpio y cuidado.",
     prompt: `Vista isométrica de un teléfono mostrando un feed de Instagram con publicaciones armoniosas, colores coherentes, diseño estético, iconos y fotos pequeñas bien alineadas, fondo simple, estilo moderno, luz suave.`,
     thumbnail: "/images/feed-grid-estetico.png",
   },
@@ -3476,8 +3457,7 @@ export const imagePrompts = [
     id: "img-comunidad-creadores",
     title: "Comunidad de creadores conectados",
     category: "Social media",
-    summary:
-      "Red de personas conectadas con laptops y luces.",
+    summary: "Red de personas conectadas con laptops y luces.",
     prompt: `Ilustración de varias siluetas de personas sentadas con laptops, conectadas entre sí por líneas de luz, fondo oscuro con puntos brillantes como si fuera una red, colores cian y violeta, sensación de comunidad digital y colaboración.`,
     thumbnail: "/images/comunidad-creadores.png",
   },
@@ -3488,8 +3468,7 @@ export const imagePrompts = [
     id: "img-panel-control-ia",
     title: "Panel de control de IA",
     category: "Tecnología",
-    summary:
-      "Pantalla futurista con gráficos, prompts y resultados.",
+    summary: "Pantalla futurista con gráficos, prompts y resultados.",
     prompt: `Ilustración de un panel de control futurista de inteligencia artificial, tarjetas con prompts, gráficos de crecimiento, ventanas de chat estilo IA, fondo oscuro con detalles azul neón, estilo HUD (heads-up display) moderno.`,
     thumbnail: "/images/panel-control-ia.png",
   },
@@ -3498,8 +3477,7 @@ export const imagePrompts = [
     id: "img-robot-amigable-escritorio",
     title: "Robot amigable en escritorio",
     category: "Tecnología",
-    summary:
-      "Pequeño asistente robótico junto a laptop y café.",
+    summary: "Pequeño asistente robótico junto a laptop y café.",
     prompt: `Ilustración de un pequeño robot amigable sentado sobre un escritorio junto a una laptop y una taza de café, expresión simpática, luces azules en sus ojos, ambiente cálido de oficina, estilo semirealista, sensación de asistente digital personal.`,
     thumbnail: "/images/robot-amigable.png",
   },
@@ -3528,8 +3506,7 @@ export const imagePrompts = [
     id: "img-avatar-ia-hablante",
     title: "Avatar IA tipo presentador",
     category: "Tecnología",
-    summary:
-      "Figura tipo presentador/host digital en un entorno 3D.",
+    summary: "Figura tipo presentador/host digital en un entorno 3D.",
     prompt: `Avatar digital humanoide hablando frente a un fondo de estudio virtual, pantallas con gráficos detrás, iluminación suave, rasgos amables y neutrales, estilo semi-realista 3D, ambiente de presentación profesional impulsada por IA.`,
     thumbnail: "/images/avatar-ia-hablante.png",
   },
@@ -3538,8 +3515,7 @@ export const imagePrompts = [
     id: "img-dashboard-analytics",
     title: "Dashboard de métricas y analíticas",
     category: "Tecnología",
-    summary:
-      "Pantalla con gráficos, barras y KPIs resaltados.",
+    summary: "Pantalla con gráficos, barras y KPIs resaltados.",
     prompt: `Pantalla estilo dashboard con gráficos de barras, líneas de crecimiento, tarjetas de métricas, fondo oscuro, acentos en cian y verde, estilo UI moderna, reflejos suaves, sensación de control y datos en tiempo real.`,
     thumbnail: "/images/dashboard-analytics.png",
   },
@@ -3548,8 +3524,7 @@ export const imagePrompts = [
     id: "img-holograma-prompts",
     title: "Holograma de prompts flotando",
     category: "Tecnología",
-    summary:
-      "Tarjetas de texto flotando alrededor de un usuario.",
+    summary: "Tarjetas de texto flotando alrededor de un usuario.",
     prompt: `Persona de espaldas mirando hologramas de tarjetas de texto flotando en el aire, cada tarjeta con líneas de texto simuladas, fondo oscuro, luces azules y moradas, estilo futurista cinemático, sensación de estar rodeado de posibilidades de prompts.`,
     thumbnail: "/images/holograma-prompts.png",
   },
@@ -3558,8 +3533,7 @@ export const imagePrompts = [
     id: "img-tunel-datos-luz",
     title: "Túnel de datos luminosos",
     category: "Tecnología",
-    summary:
-      "Visual abstracto de datos fluyendo como túnel de luz.",
+    summary: "Visual abstracto de datos fluyendo como túnel de luz.",
     prompt: `Túnel abstracto de luz formado por líneas de datos y bits en movimiento, colores azul y cian, sensación de velocidad y flujo, estilo futurista, perfecto como fondo tecnológico dinámico.`,
     thumbnail: "/images/tunel-datos-luz.png",
   },
@@ -3568,8 +3542,7 @@ export const imagePrompts = [
     id: "img-mano-humana-robot",
     title: "Mano humana y mano robótica",
     category: "Tecnología",
-    summary:
-      "Referencia visual a colaboración humano–IA.",
+    summary: "Referencia visual a colaboración humano–IA.",
     prompt: `Ilustración de una mano humana y una mano robótica acercándose para tocarse (como una versión moderna de la creación de Adán), fondo oscuro con luz suave en el punto de contacto, chispas de luz cian, estilo elegante y simbólico.`,
     thumbnail: "/images/mano-humana-robot.png",
   },
@@ -3578,8 +3551,7 @@ export const imagePrompts = [
     id: "img-ia-escribiendo-pantalla",
     title: "IA escribiendo texto en pantalla",
     category: "Tecnología",
-    summary:
-      "Pantalla de chat con IA generando ideas.",
+    summary: "Pantalla de chat con IA generando ideas.",
     prompt: `Ilustración de una interfaz de chat con IA escribiendo automáticamente en cuadros de texto, mensajes apareciendo, icono de IA brillando, fondo limpio, estilo moderno, ideal para representar generación de contenido con IA.`,
     thumbnail: "/images/ia-escribiendo-pantalla.png",
   },
@@ -3590,8 +3562,7 @@ export const imagePrompts = [
     id: "img-escritorio-setup-creador",
     title: "Escritorio estético de creador",
     category: "Fondos",
-    summary:
-      "Setup de escritorio con luz suave, laptop y elementos minimal.",
+    summary: "Setup de escritorio con luz suave, laptop y elementos minimal.",
     prompt: `Escritorio minimalista con laptop abierta, planta pequeña, libreta y bolígrafo, luz cálida entrando por la ventana, fondo limpio, estilo fotografía lifestyle productiva, colores suaves, sensación de orden y enfoque.`,
     thumbnail: "/images/fondo-escritorio-setup.png",
   },
@@ -3610,8 +3581,7 @@ export const imagePrompts = [
     id: "img-ciudad-futurista-nocturna",
     title: "Ciudad futurista nocturna",
     category: "Fondos",
-    summary:
-      "Skyline futurista iluminado en tonos cian y fucsia.",
+    summary: "Skyline futurista iluminado en tonos cian y fucsia.",
     prompt: `Vista de ciudad futurista de noche, rascacielos con luces de neón cian y magenta, reflejos en edificios de vidrio, cielo oscuro con ligera neblina luminosa, estilo sci-fi cinematográfico.`,
     thumbnail: "/images/fondo-ciudad-futurista.png",
   },
@@ -3620,8 +3590,7 @@ export const imagePrompts = [
     id: "img-parque-minimal-limpio",
     title: "Parque minimalista para fondos",
     category: "Fondos",
-    summary:
-      "Escena de parque limpia con espacio para texto.",
+    summary: "Escena de parque limpia con espacio para texto.",
     prompt: `Parque minimalista con camino amplio, árboles bien espaciados, cielo claro, profundidad de campo suave, estilo fotografía limpia, sin demasiados detalles distractores, ideal para usar de fondo y superponer texto.`,
     thumbnail: "/images/fondo-parque-minimal.png",
   },
@@ -3630,8 +3599,7 @@ export const imagePrompts = [
     id: "img-fondo-abstracto-neon",
     title: "Abstracto con neón y humo suave",
     category: "Fondos",
-    summary:
-      "Fondo abstracto con luces degradadas y humo.",
+    summary: "Fondo abstracto con luces degradadas y humo.",
     prompt: `Fondo abstracto oscuro con luces de neón rosa, morado y cian, humo suave difuminado, textura sutil, sensación de profundidad y glow, perfecto para usar detrás de retratos o texto.`,
     thumbnail: "/images/fondo-abstracto-neon.png",
   },
@@ -3640,8 +3608,7 @@ export const imagePrompts = [
     id: "img-fondo-minimal-blanco-sombra",
     title: "Fondo minimal blanco con sombra suave",
     category: "Fondos",
-    summary:
-      "Fondo ultra minimal para maquetas y screenshots.",
+    summary: "Fondo ultra minimal para maquetas y screenshots.",
     prompt: `Fondo claro casi blanco, ligera sombra en diagonal, textura muy sutil, estilo ultraminimalista, pensado para colocar mockups encima, atmósfera limpia y moderna.`,
     thumbnail: "/images/fondo-minimal-blanco.png",
   },
@@ -3650,8 +3617,7 @@ export const imagePrompts = [
     id: "img-espacio-trabajo-equipo",
     title: "Espacio de trabajo en equipo",
     category: "Fondos",
-    summary:
-      "Mesa grande con varias personas colaborando.",
+    summary: "Mesa grande con varias personas colaborando.",
     prompt: `Oficina creativa con mesa grande compartida, personas trabajando con laptops, post-its en la pared, ambiente luminoso, plantas decorativas, estilo fotografía moderna de equipo colaborando.`,
     thumbnail: "/images/fondo-espacio-trabajo-equipo.png",
   },
@@ -3660,8 +3626,7 @@ export const imagePrompts = [
     id: "img-calle-estilo-foto-moda",
     title: "Calle estilo sesión de moda urbana",
     category: "Fondos",
-    summary:
-      "Calle limpia con edificios y luz bonita para fotomontajes.",
+    summary: "Calle limpia con edificios y luz bonita para fotomontajes.",
     prompt: `Calle urbana elegante con edificios modernos, luz de atardecer, sombras largas, ambiente limpio, gran profundidad de campo, estilo fotografía de moda urbana, ideal como fondo para recortar sujetos encima.`,
     thumbnail: "/images/fondo-calle-moda.png",
   },
@@ -3670,8 +3635,7 @@ export const imagePrompts = [
     id: "img-fondo-pizarra-estrategia",
     title: "Pizarra de estrategia",
     category: "Fondos",
-    summary:
-      "Pizarra llena de esquemas, flechas y notas.",
+    summary: "Pizarra llena de esquemas, flechas y notas.",
     prompt: `Pizarra grande con diagramas de flechas, palabras clave de estrategia (sin texto real legible), dibujos simples, colores de marcadores, ambiente de sala de reuniones creativa, estilo realista.`,
     thumbnail: "/images/fondo-pizarra-estrategia.png",
   },
@@ -3680,13 +3644,108 @@ export const imagePrompts = [
     id: "img-fondo-graficos-marketing",
     title: "Gráficos de marketing en pantalla",
     category: "Fondos",
-    summary:
-      "Pantalla grande con gráficas y KPIs para usar como fondo.",
+    summary: "Pantalla grande con gráficas y KPIs para usar como fondo.",
     prompt: `Pantalla grande mostrando varios gráficos de marketing: barras, líneas, pastel, indicadores, colores vibrantes pero equilibrados, fondo de oficina moderno, estilo fotografía corporativa tecnológica.`,
     thumbnail: "/images/fondo-graficos-marketing.png",
   },
-];
+  // 🔽 Nuevas categorías para el anuncio
 
+  {
+    id: "img-negocio-agencia-marketing",
+    title: "Escena agencia de marketing en acción",
+    category: "Negocios",
+    summary:
+      "Oficina moderna con equipo de marketing revisando campañas en pantallas.",
+    prompt: `Oficina de agencia de marketing digital con mesa larga, varias personas mirando pantallas grandes con dashboards, anuncios y gráficos de rendimiento, post-its de colores en la pared, ambiente dinámico pero ordenado, luz natural entrando por grandes ventanas, estilo fotografía corporativa moderna.`,
+    thumbnail: "/images/negocio-agencia-marketing.png",
+  },
+
+  {
+    id: "img-educacion-curso-online",
+    title: "Aula moderna de curso online",
+    category: "Educación",
+    summary:
+      "Sala de formación con pantalla grande y estudiantes conectados online.",
+    prompt: `Sala de entrenamiento moderna con una gran pantalla mostrando diapositivas de un curso online, algunas personas tomando notas en laptops, otras conectadas en pequeñas ventanas de videollamada en la pantalla, iluminación suave, ambiente de aprendizaje profesional, colores neutros con detalles azul y verde.`,
+    thumbnail: "/images/educacion-curso-online.png",
+  },
+
+  {
+    id: "img-emprendedor-solo-oficina",
+    title: "Emprendedor trabajando solo en su proyecto",
+    category: "Emprendedores",
+    summary: "Persona sola en oficina pequeña, enfocada en su laptop y notas.",
+    prompt: `Emprendedor o emprendedora trabajando de noche en una oficina pequeña, luz cálida de escritorio iluminando la laptop y una libreta llena de anotaciones, taza de café a un lado, fondo ligeramente desenfocado con estantería simple, sensación de enfoque, esfuerzo y sueños grandes, estilo fotografía lifestyle emprendedora.`,
+    thumbnail: "/images/emprendedor-solo-oficina.png",
+  },
+
+  {
+    id: "img-freelancer-cafe-viaje",
+    title: "Freelancer viajando y trabajando",
+    category: "Freelancers",
+    summary: "Escena de trabajo remoto en aeropuerto/cafetería de viaje.",
+    prompt: `Freelancer con mochila y laptop abierto sentado cerca de una ventana grande de aeropuerto, aviones desenfocados al fondo, luz natural intensa, auriculares puestos, expresión concentrada, bebida al lado, estilo fotografía de nómada digital en viaje, colores limpios y modernos.`,
+    thumbnail: "/images/freelancer-cafe-viaje.png",
+  },
+
+  {
+    id: "img-coach-session-cliente",
+    title: "Coach en sesión con cliente",
+    category: "Coaching",
+    summary:
+      "Escena uno a uno: coach escuchando y cliente hablando en oficina acogedora.",
+    prompt: `Coach sentado frente a un cliente en una oficina acogedora con sillones cómodos, planta en una esquina, luz cálida, cuaderno abierto con notas, expresión de escucha atenta por parte del coach, ambiente de confianza y claridad, estilo fotografía profesional humana y cercana.`,
+    thumbnail: "/images/coach-session-cliente.png",
+  },
+
+  {
+    id: "img-lanzamiento-producto",
+    title: "Lanzamiento de producto digital",
+    category: "Lanzamientos",
+    summary:
+      "Pantallas mostrando ventas/inscripciones subiendo durante un lanzamiento.",
+    prompt: `Escritorio con laptop y monitor extra mostrando gráficos de ventas subiendo y notificaciones de nuevas inscripciones, teléfono con mensajes de pago recibido, luz de pantalla reflejada en el rostro de una persona sonriente, confeti digital o pequeños destellos de luz alrededor, estilo escena de lanzamiento exitoso.`,
+    thumbnail: "/images/lanzamiento-producto.png",
+  },
+
+  {
+    id: "img-comunidad-online-zoom",
+    title: "Comunidad online reunida",
+    category: "Comunidad",
+    summary:
+      "Mosaico de personas conectadas en videollamada, estilo mastermind.",
+    prompt: `Pantalla de computador mostrando una videollamada grupal tipo mastermind, muchas pequeñas ventanas con personas sonriendo y hablando, algunas levantando la mano, fondo del entorno físico ligeramente desenfocado, colores cálidos, sensación de comunidad y apoyo mutuo, estilo ilustración realista o fotomontaje limpio.`,
+    thumbnail: "/images/comunidad-online-zoom.png",
+  },
+
+  {
+    id: "img-productividad-bloques-tiempo",
+    title: "Plan de productividad visual",
+    category: "Productividad",
+    summary:
+      "Agenda/planificador con bloques de tiempo coloreados y laptop al lado.",
+    prompt: `Mesa ordenada con un planner abierto mostrando bloques de tiempo coloreados, bolígrafo fino, laptop abierta al costado con calendario digital, taza de té o café, luz natural suave, estilo fotografía estética de productividad y organización, colores suaves pastel con algunos acentos vivos.`,
+    thumbnail: "/images/productividad-bloques-tiempo.png",
+  },
+
+  {
+    id: "img-branding-mesa-creativa",
+    title: "Mesa creativa de branding",
+    category: "Branding",
+    summary: "Mesa llena de muestras de color, logos y bocetos de marca.",
+    prompt: `Mesa creativa vista desde arriba con paletas de color, tarjetas de visita, logotipos impresos, muestras tipográficas y un cuaderno con bocetos de marca, manos moviendo o señalando algunos elementos, ambiente luminoso y artístico, estilo fotografía de estudio de diseño gráfico.`,
+    thumbnail: "/images/branding-mesa-creativa.png",
+  },
+
+  {
+    id: "img-evento-networking",
+    title: "Evento de networking profesional",
+    category: "Eventos",
+    summary: "Personas charlando con credenciales en un evento de negocios.",
+    prompt: `Escena de evento de networking en un salón moderno, varias personas de pie conversando en grupos pequeños, todas con credenciales colgando, mesas altas con bebidas, pantallas al fondo mostrando gráficos o logotipos, iluminación cálida, ambiente profesional pero relajado, estilo fotografía corporativa de evento.`,
+    thumbnail: "/images/evento-networking.png",
+  },
+];
 
 // 🎬 Prompts de VÍDEO
 // 🎬 Prompts de VÍDEO (sin texto en pantalla)
@@ -3875,8 +3934,7 @@ No generes texto legible sobre la mesa ni en la pantalla, solo formas abstractas
     id: "vid-oh-moment-mirada-camara",
     title: "Momento '¡ahora lo entiendo!'",
     category: "Storytelling",
-    summary:
-      "Primer plano de reacción de comprensión con zoom-in, sin textos.",
+    summary: "Primer plano de reacción de comprensión con zoom-in, sin textos.",
     prompt: `Duración 6–8 segundos.
 
 Primer plano del rostro del creador.
@@ -3913,8 +3971,7 @@ No generes texto legible en el vídeo, solo la escena con el creador de fondo y 
     id: "vid-anuncio-hero-mockup",
     title: "Mockup del producto con glow",
     category: "Anuncios",
-    summary:
-      "Producto digital flotando con partículas y luz, sin texto.",
+    summary: "Producto digital flotando con partículas y luz, sin texto.",
     prompt: `Duración 6–8 segundos.
 
 Escena única: una caja 3D o panel digital que representa un producto online flota en el centro del encuadre sobre un fondo oscuro.
@@ -4038,8 +4095,7 @@ No generes texto legible en ningún objeto, es solo un plano estético.`,
     id: "vid-broll-ciudad-time-lapse-suave",
     title: "B-roll ciudad urbana suave",
     category: "B-roll",
-    summary:
-      "Plano de ciudad moderna con tráfico ligero y luces, sin rótulos.",
+    summary: "Plano de ciudad moderna con tráfico ligero y luces, sin rótulos.",
     prompt: `Duración 6–8 segundos.
 
 Plano general de una ciudad moderna al atardecer.
@@ -4106,5 +4162,166 @@ La cámara permanece fija, sin texto ni gráficos en pantalla.
 
 No generes texto legible en el vídeo, sólo la escena de entrevista limpia.`,
     thumbnail: "",
+  },
+    // 🔽 Nuevas categorías para el anuncio (VIDEO)
+
+  {
+    id: "vid-negocio-reunion-estrategica",
+    title: "Mini reunión estratégica de negocios",
+    category: "Negocios",
+    summary:
+      "Escena corta de equipo en reunión, ideal para hablar de estrategia y decisiones.",
+    prompt: `Duración 6–8 segundos.
+
+Mesa de reunión moderna con 3–4 personas sentadas, laptops abiertos y una hoja o tablet en el centro.
+Una persona señala algo en la mesa mientras los demás asienten o escuchan.
+Fondo con pared de cristal o pizarra borrosa, iluminación neutra profesional.
+Cámara fija o con leve movimiento lateral muy suave.
+No generes texto legible en pantallas ni pizarras, solo formas y gráficos abstractos.`,
+    // thumbnail: "/videos/negocio-reunion-estrategica.png",
+  },
+
+  {
+    id: "vid-educacion-estudiante-notas",
+    title: "Estudiante tomando notas con IA",
+    category: "Educación",
+    summary:
+      "Escena educativa con laptop y libreta, perfecta para hablar de aprendizaje con IA.",
+    prompt: `Duración 6–8 segundos.
+
+Plano medio de una persona sentada en escritorio estudiando: laptop frente a ella, libreta al lado y bolígrafo en mano.
+La persona mira la pantalla un momento y luego escribe unas notas en la libreta.
+Luz suave, ambiente tipo estudio o biblioteca moderna.
+En la pantalla se ven bloques de contenido abstracto, sin texto legible.
+No generes texto legible en la libreta ni en la pantalla, sólo trazos y bloques.`,
+    // thumbnail: "/videos/educacion-estudiante-notas.png",
+  },
+
+  {
+    id: "vid-emprendedor-noche-escritorio",
+    title: "Emprendedor trabajando de noche",
+    category: "Emprendedores",
+    summary:
+      "Escena de foco nocturno, ideal para hablar de esfuerzo y construcción de proyectos.",
+    prompt: `Duración 6–8 segundos.
+
+Persona sola frente a su escritorio en una habitación tenue, iluminada principalmente por la pantalla del computador y una lámpara de escritorio.
+Se ve la silueta concentrada, tecleando o revisando algo en la pantalla.
+Taza de café o termo al lado, ambiente silencioso e íntimo.
+La cámara hace un ligero movimiento de acercamiento.
+No generes texto legible en la pantalla, solo formas y bloques de contenido.`,
+    // thumbnail: "/videos/emprendedor-noche-escritorio.png",
+  },
+
+  {
+    id: "vid-freelancer-viaje-tren",
+    title: "Freelancer trabajando mientras viaja",
+    category: "Freelancers",
+    summary:
+      "Freelancer con laptop en transporte, ideal para hablar de libertad geográfica.",
+    prompt: `Duración 6–8 segundos.
+
+Plano lateral de una persona sentada junto a una ventana en un tren o bus cómodo, con laptop sobre una pequeña mesa o en las piernas.
+Por la ventana se ve el paisaje pasando suavemente (campos, ciudad lejana o costa).
+La persona escribe en el teclado o revisa algo, con expresión concentrada y tranquila.
+Luz natural entrando por la ventana, ambiente relajado de viaje.
+No generes texto legible en la pantalla, solo bloques y formas abstractas.`,
+    // thumbnail: "/videos/freelancer-viaje-tren.png",
+  },
+
+  {
+    id: "vid-coach-sesion-uno-a-uno",
+    title: "Coach en sesión uno a uno",
+    category: "Coaching",
+    summary:
+      "Coach escuchando a cliente en espacio acogedor, perfecto para hablar de acompañamiento.",
+    prompt: `Duración 6–8 segundos.
+
+Dos personas sentadas frente a frente en sillones cómodos, en una oficina o sala acogedora.
+El coach escucha con atención, asintiendo, mientras el cliente habla o gesticula con las manos.
+Luz cálida, planta o cuadro discreto en el fondo, ambiente cercano y profesional.
+La cámara se mantiene fija con un ligero zoom in muy suave.
+No generes texto legible en ningún elemento, es una escena limpia de conversación.`,
+    // thumbnail: "/videos/coach-sesion-uno-a-uno.png",
+  },
+
+  {
+    id: "vid-lanzamiento-celebracion-pequena",
+    title: "Mini celebración de lanzamiento",
+    category: "Lanzamientos",
+    summary:
+      "Persona celebrando frente a la pantalla con gráficas de crecimiento.",
+    prompt: `Duración 6–8 segundos.
+
+Persona sentada frente a laptop, de repente levanta los brazos en señal de alegría o hace un gesto de celebración (puño cerrado, sonrisa amplia).
+En la pantalla del laptop se ve un gráfico ascendente o panel de resultados abstractos, sin texto legible.
+Pequeños confetis digitales o destellos de luz aparecen alrededor en la escena, como efecto sutil.
+Luz moderada con tonos algo cálidos, ambiente de victoria.
+No generes texto legible en la pantalla, solo gráficos y barras.`,
+    // thumbnail: "/videos/lanzamiento-celebracion-pequena.png",
+  },
+
+  {
+    id: "vid-comunidad-mini-evento",
+    title: "Mini encuentro de comunidad",
+    category: "Comunidad",
+    summary:
+      "Grupo pequeño charlando de pie, ideal para hablar de comunidad o networking.",
+    prompt: `Duración 6–8 segundos.
+
+3–5 personas de pie en un espacio tipo coworking o evento pequeño, conversando en grupos.
+Risas suaves, gestos con manos, alguien sosteniendo una taza o vaso.
+Fondo con decoración ligera: plantas, estanterías, tal vez un cartel borroso.
+La cámara se mueve muy ligeramente en círculo alrededor del grupo.
+No generes texto legible en ningún cartel o elemento, sólo formas y colores.`,
+    // thumbnail: "/videos/comunidad-mini-evento.png",
+  },
+
+  {
+    id: "vid-productividad-planner-accion",
+    title: "Planner de productividad en acción",
+    category: "Productividad",
+    summary:
+      "Mano marcando tareas completadas y moviendo un marcador en un planner.",
+    prompt: `Duración 6–8 segundos.
+
+Plano cenital de un escritorio con un planner o agenda abierta, bolígrafo y algunos accesorios minimalistas.
+Una mano marca casillas con un tick o subraya una línea en el planner.
+Laptop o tablet desenfocada al fondo, tal vez mostrando un calendario abstracto.
+Luz natural suave, sensación de orden y enfoque.
+No generes texto legible en el planner ni en la pantalla, solo líneas y bloques.`,
+    // thumbnail: "/videos/productividad-planner-accion.png",
+  },
+
+  {
+    id: "vid-branding-postits-pared",
+    title: "Post-its de branding en una pared",
+    category: "Branding",
+    summary:
+      "Manos moviendo notas de colores en una pared, ideal para hablar de estrategia de marca.",
+    prompt: `Duración 6–8 segundos.
+
+Pared clara cubierta parcialmente con post-its de colores pastel.
+Dos manos van moviendo los post-its, reordenándolos de una zona a otra, como si estuvieran organizando ideas de branding.
+Se ven algunos dibujos simples o formas abstractas en los post-its, pero nada legible.
+Cámara fija o con ligera inclinación, estilo creativo de estudio de diseño.
+No generes texto legible en los post-its, sólo trazos y símbolos simples.`,
+    // thumbnail: "/videos/branding-postits-pared.png",
+  },
+
+  {
+    id: "vid-evento-escenario-speaker",
+    title: "Escena de speaker en escenario",
+    category: "Eventos",
+    summary:
+      "Ponente sobre escenario con público desenfocado, ideal para hablar de charlas y eventos.",
+    prompt: `Duración 6–8 segundos.
+
+Plano medio de un ponente visto desde un ángulo lateral, de pie en un escenario iluminado, con micrófono de mano o de diadema.
+Al fondo, se intuye una pantalla grande con formas y gráficos abstractos, sin texto legible.
+En primer o segundo plano se ven siluetas de público desenfocadas.
+Luz de escenario, tonos azules y violetas, ambiente de conferencia moderna.
+No generes texto legible en la pantalla ni en carteles, solo formas y gráficos.`,
+    // thumbnail: "/videos/evento-escenario-speaker.png",
   },
 ];
