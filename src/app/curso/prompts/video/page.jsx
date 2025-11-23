@@ -1,6 +1,6 @@
 // src/app/curso/prompts/video/page.jsx
 import { PromptLibrary } from "@/components/course/prompt-library";
-import { videoPrompts } from "@/lib/prompts-data";
+import { videoPrompts } from "@/lib/prompts/video";
 
 export default function PromptsVideoPage() {
   return (

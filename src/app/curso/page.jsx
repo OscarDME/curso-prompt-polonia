@@ -59,14 +59,14 @@ export default function CursoPage() {
               {row.title}
             </h2>
 
-            {/* Mensaje especial para los bonos */}
+            {/* Si quieres un texto introductorio para los bonos, puedes poner algo genérico aquí */}
+            {/* 
             {row.id === "bonuses" && (
               <p className="text-xs sm:text-sm text-slate-400">
-                Estos bonos se activarán automáticamente dentro de las próximas{" "}
-                <span className="font-semibold text-teal-300">48 horas</span>.
-                Gracias por tu paciencia 🙌
+                Aquí encontrarás todos los bonos extra incluidos en tu acceso.
               </p>
             )}
+            */}
 
             <div
               className="
@@ -123,7 +123,7 @@ function NetflixCard({ module }) {
           {isLocked && (
             <p className="mt-2 flex items-center gap-1 text-[10px] font-medium text-slate-300">
               <Lock className="h-3 w-3 text-teal-300" />
-              Disponible en 48 horas
+              Contenido disponible próximamente
             </p>
           )}
         </div>

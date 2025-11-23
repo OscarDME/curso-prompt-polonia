@@ -27,7 +27,8 @@ function getIconForType(type) {
 
 export function PromptLibrary({ title, subtitle, items, type }) {
   const [search, setSearch] = useState("");
-  const [category, setCategory] = useState("Todas");
+  const [area, setArea] = useState("Todas"); // macro categoría (solo texto/imagen)
+  const [category, setCategory] = useState("Todas"); // subcategoría
   const [expandedId, setExpandedId] = useState(null);
   const [copiedId, setCopiedId] = useState(null);
   const [page, setPage] = useState(1);
@@ -35,23 +36,53 @@ export function PromptLibrary({ title, subtitle, items, type }) {
   const pageSize = 18;
 
   const Icon = getIconForType(type);
+  const isVideo = type === "video";
 
-  const categories = useMemo(() => {
-    const set = new Set(items.map((i) => i.category).filter(Boolean));
+  // ÁREAS (macro categorías) — solo para texto/imagen
+  const areas = useMemo(() => {
+    if (isVideo) {
+      return ["Todas"];
+    }
+    const set = new Set(items.map((i) => i.area).filter(Boolean));
     return ["Todas", ...Array.from(set)];
-  }, [items]);
+  }, [items, isVideo]);
 
+  // CATEGORÍAS (subcategorías)
+  const categories = useMemo(() => {
+    // Para vídeo: categorías globales, sin depender de área
+    if (isVideo) {
+      const set = new Set(items.map((i) => i.category).filter(Boolean));
+      return ["Todas", ...Array.from(set)];
+    }
+
+    // Para texto/imagen: categorías según área seleccionada
+    const scopedItems =
+      area === "Todas" ? items : items.filter((i) => i.area === area);
+
+    const set = new Set(scopedItems.map((i) => i.category).filter(Boolean));
+    return ["Todas", ...Array.from(set)];
+  }, [items, area, isVideo]);
+
+  // FILTRO principal
   const filtered = useMemo(
     () =>
       items.filter((item) => {
-        const matchesCategory =
-          category === "Todas" || item.category === category;
         const matchesSearch = item.title
           .toLowerCase()
           .includes(search.toLowerCase());
-        return matchesCategory && matchesSearch;
+
+        const matchesCategory =
+          category === "Todas" || item.category === category;
+
+        if (isVideo) {
+          // En vídeo ignoramos área, solo categoría + búsqueda
+          return matchesCategory && matchesSearch;
+        }
+
+        const matchesArea = area === "Todas" || item.area === area;
+        return matchesArea && matchesCategory && matchesSearch;
       }),
-    [items, category, search]
+    [items, area, category, search, isVideo]
   );
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / pageSize));
@@ -62,10 +93,12 @@ export function PromptLibrary({ title, subtitle, items, type }) {
     return filtered.slice(start, end);
   }, [filtered, page, pageSize]);
 
+  // reset página cuando cambian filtros
   useEffect(() => {
     setPage(1);
-  }, [search, category]);
+  }, [search, area, category]);
 
+  // proteger si cambia el total de páginas
   useEffect(() => {
     if (page > totalPages) {
       setPage(totalPages);
@@ -115,23 +148,74 @@ export function PromptLibrary({ title, subtitle, items, type }) {
         </div>
 
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
-          {/* filtro por categoría */}
-          <div className="flex flex-wrap gap-2">
-            {categories.map((cat) => (
-              <button
-                key={cat}
-                type="button"
-                onClick={() => setCategory(cat)}
-                className={cn(
-                  "rounded-full border px-3 py-1 text-xs font-medium transition",
-                  category === cat
-                    ? "border-teal-400 bg-teal-400/10 text-teal-200"
-                    : "border-white/10 bg-white/5 text-slate-300 hover:border-teal-400/60 hover:text-teal-100"
-                )}
-              >
-                {cat}
-              </button>
-            ))}
+          {/* filtros */}
+          <div className="flex flex-col gap-2">
+            {/* 🔹 Texto e imagen: área + categoría */}
+            {!isVideo && (
+              <>
+                {/* filtro por área (macro categoría) */}
+                <div className="flex flex-wrap gap-2">
+                  {areas.map((ar) => (
+                    <button
+                      key={ar}
+                      type="button"
+                      onClick={() => {
+                        setArea(ar);
+                        setCategory("Todas"); // reset subcategoría al cambiar área
+                      }}
+                      className={cn(
+                        "rounded-full border px-3 py-1 text-xs font-medium transition",
+                        area === ar
+                          ? "border-teal-400 bg-teal-400/10 text-teal-200"
+                          : "border-white/10 bg-white/5 text-slate-300 hover:border-teal-400/60 hover:text-teal-100"
+                      )}
+                    >
+                      {ar}
+                    </button>
+                  ))}
+                </div>
+
+                {/* filtro por categoría (subcategoría) */}
+                <div className="flex flex-wrap gap-2">
+                  {categories.map((cat) => (
+                    <button
+                      key={cat}
+                      type="button"
+                      onClick={() => setCategory(cat)}
+                      className={cn(
+                        "rounded-full border px-3 py-1 text-xs font-medium transition",
+                        category === cat
+                          ? "border-teal-400 bg-teal-400/10 text-teal-200"
+                          : "border-white/10 bg-white/5 text-slate-300 hover:border-teal-400/60 hover:text-teal-100"
+                      )}
+                    >
+                      {cat}
+                    </button>
+                  ))}
+                </div>
+              </>
+            )}
+
+            {/* 🔹 Vídeo: solo categoría */}
+            {isVideo && (
+              <div className="flex flex-wrap gap-2">
+                {categories.map((cat) => (
+                  <button
+                    key={cat}
+                    type="button"
+                    onClick={() => setCategory(cat)}
+                    className={cn(
+                      "rounded-full border px-3 py-1 text-xs font-medium transition",
+                      category === cat
+                        ? "border-teal-400 bg-teal-400/10 text-teal-200"
+                        : "border-white/10 bg-white/5 text-slate-300 hover:border-teal-400/60 hover:text-teal-100"
+                    )}
+                  >
+                    {cat}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
 
           {/* buscador */}
@@ -210,6 +294,12 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                           {item.summary}
                         </p>
                       )}
+                      {/* Solo mostrar área para texto/imagen */}
+                      {item.area && !isVideo && (
+                        <p className="text-[11px] uppercase tracking-wide text-teal-300/80">
+                          {item.area}
+                        </p>
+                      )}
                     </CardHeader>
 
                     <CardContent className="mt-auto space-y-3 pb-4">
@@ -268,11 +358,6 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                 <span className="font-semibold text-teal-200">
                   {showingFrom}–{showingTo}
                 </span>{" "}
-                de{" "}
-                <span className="font-semibold text-teal-200">
-                  {filtered.length}
-                </span>{" "}
-                prompts
               </p>
 
               <div className="inline-flex items-center gap-2">

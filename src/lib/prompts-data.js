@@ -3852,7 +3852,7 @@ export const imagePrompts = [
     summary:
       "Escena de agencia creativa con equipo trabajando en ideas y campañas.",
     prompt: `Fotografía de una mesa grande en una agencia creativa, varias personas alrededor con laptops, post-its de colores, bocetos de anuncios y moodboards sobre la mesa, una persona señalando algo en la pantalla, fondo con pizarra y logos desenfocados, luz natural combinada con luces cálidas, estilo dinámico y profesional.`,
-    thumbnail: "/images/agencia-equipo-creativo.png",
+    thumbnail: "/images/vid01.gif",
   },
 
   {

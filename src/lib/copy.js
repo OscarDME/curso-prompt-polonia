@@ -177,21 +177,14 @@ export const audienceSectionCopy = {
   bottomTextHighlight: "sin necesidad de ser un especialista.",
 }
 
+// src/lib/copy.js (o donde tengas bonusesSectionCopy)
+
 export const bonusesSectionCopy = {
   title: "Bonos exclusivos",
   subtitle:
     "Al asegurar tu acceso hoy, no solo recibes prompts: te llevas un arsenal completo para dominar la IA.",
   items: [
-    {
-      id: "01",
-      label: "Bono #01",
-      title: "Comunidad VIP en WhatsApp",
-      description:
-        "No estarás solo. Entra a nuestro grupo con cientos de miembros activos, compartiendo estrategias, haciendo networking y recibiendo soporte diario para acelerar tus resultados.",
-      valueUSD: "USD $37",
-      imageSrc: "/bonuses/bonus-1.webp",
-      imageAlt: "Vista del área de comunidad VIP en el móvil",
-    },
+    // Bono #01 lo saltamos por ahora
     {
       id: "02",
       label: "Bono #02",
@@ -201,6 +194,8 @@ export const bonusesSectionCopy = {
       valueUSD: "USD $56",
       imageSrc: "/bonuses/bonus-2.webp",
       imageAlt: "Ilustración con varios asistentes virtuales de IA",
+      href: "/curso/asistentes-gpts",   // 👈 NUEVO: ruta real
+      locked: false,                    // 👈 YA NO ESTÁ BLOQUEADO
     },
     {
       id: "03",
@@ -211,6 +206,8 @@ export const bonusesSectionCopy = {
       valueUSD: "USD $18",
       imageSrc: "/bonuses/bonus-3.webp",
       imageAlt: "Ejemplos de carruseles virales en formato de historieta",
+      href: "/curso/manual-carruseles-virales", // 👈 nueva ruta del bono
+      locked: true,
     },
     {
       id: "04",
@@ -221,6 +218,8 @@ export const bonusesSectionCopy = {
       valueUSD: "USD $28",
       imageSrc: "/bonuses/bonus-4.webp",
       imageAlt: "Presentación y material profesional generado con IA",
+      href: "/curso/generador-ebooks-presentaciones", // 👈 nueva ruta
+      locked: true,
     },
     {
       id: "05",
@@ -231,6 +230,8 @@ export const bonusesSectionCopy = {
       valueUSD: "USD $47",
       imageSrc: "/bonuses/bonus-5.webp",
       imageAlt: "Curso en línea sobre ChatGPT y herramientas de IA",
+      href: "/curso/entrenamiento-chatgpt", // 👈 nueva ruta del bono
+      locked: true,
     },
     {
       id: "06",
@@ -241,6 +242,8 @@ export const bonusesSectionCopy = {
       valueUSD: "USD $37",
       imageSrc: "/bonuses/bonus-6.webp",
       imageAlt: "Panel con múltiples herramientas y apps de IA",
+      href: "/curso/arsenal-herramientas-ia", // 👈 nueva ruta
+      locked: true,
     },
     {
       id: "07",
@@ -251,6 +254,8 @@ export const bonusesSectionCopy = {
       valueUSD: "USD $94",
       imageSrc: "/bonuses/bonus-7.webp",
       imageAlt: "Avatar de IA grabando frente a un ordenador",
+      href: "/curso/avatar-hablante-ia", // 👈 nueva ruta
+      locked: true,
     },
     {
       id: "08",
@@ -260,10 +265,14 @@ export const bonusesSectionCopy = {
         "Te muestro el prompt estratégico que usé para construir un ecosistema de negocios con múltiples fuentes de ingreso. Es mi “cerebro” de negocios traducido a un comando de IA.",
       valueUSD: "Incalculable",
       imageSrc: "/bonuses/bonus-8.webp",
-      imageAlt: "Empresario trabajando junto a un robot con gráficos financieros",
+      imageAlt:
+        "Empresario trabajando junto a un robot con gráficos financieros",
+      href: "/curso/bonos/mega-prompt-millonario", // 👈 nueva ruta
+      locked: true,
     },
   ],
-}
+};
+
 
 export const recapSectionCopy = {
   totalTitlePrefix: "El valor total de todos los bonos es de ",

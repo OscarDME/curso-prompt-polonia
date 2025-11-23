@@ -84,14 +84,14 @@ export const courseModuleRows = [
   {
     id: "bonuses",
     title: bonusesSectionCopy.title,
-    modules: bonusesSectionCopy.items.map((bonus) => ({
+      modules: bonusesSectionCopy.items.map((bonus) => ({
       id: bonus.id.toLowerCase(),
       title: bonus.title,
       subtitle: bonus.description,
       image: bonus.imageSrc || "/modules/bonus-placeholder.jpg",
-      href: "#",
+      href: bonus.href || "/curso/bonos",
       tag: bonus.label,
-      locked: true, // 👈 IMPORTANTE
+      locked: false, // 👈 IMPORTANTE
     })),
   },
 ];
