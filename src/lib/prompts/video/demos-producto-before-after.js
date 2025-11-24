@@ -7,7 +7,7 @@ export const videoPromptsDemosProductoBeforeAfter = [
     summary:
       "Antes/después de una web e-commerce: de página desordenada y fea a tienda limpia y moderna.",
     area: "Demo / Producto",
-    category: "Before / After web",
+    category:"Antes/Después",
     prompt: `
 Genera un vídeo de 8 segundos en formato horizontal 16:9, sin ningún tipo de texto en pantalla.
 
@@ -32,7 +32,8 @@ Guion visual:
 - Segundos 6–8:
   • La cámara hace un ligero zoom out para mostrar todo el escritorio ahora más ordenado: ratón y teclado alineados, una pequeña planta, un cuaderno limpio.
   • El monitor muestra la nueva tienda online con un par de animaciones suaves (desplazamiento de carrusel de productos, por ejemplo).
-`
+`,
+thumbnail: "/videos/ba002.gif",
   },
   {
     id: "video-demo-before-after-02",
@@ -40,7 +41,7 @@ Guion visual:
     summary:
       "Demostración visual de cómo cambia un perfil de redes: antes caótico, después armónico.",
     area: "Demo / Producto",
-    category: "Before / After redes",
+    category:"Antes/Después",
     prompt: `
 Genera un vídeo de 8 segundos, horizontal 16:9, sin texto en pantalla.
 
@@ -64,7 +65,8 @@ Guion visual:
   • Plano más cercano a la pantalla mostrando el nuevo feed: fotos con paleta de colores coherente, encuadres similares, estética limpia y profesional.
   • La persona sostiene el móvil con las dos manos, hace un pequeño gesto de aprobación con la cabeza (se ve parte del rostro de perfil).
   • Todo sin texto, solo el cambio visual del feed.
-`
+`,
+thumbnail: "/videos/ba001.gif",
   },
   {
     id: "video-demo-before-after-03",
@@ -72,7 +74,7 @@ Guion visual:
     summary:
       "Transformación de escritorio físico lleno de papeles a un espacio de trabajo limpio y funcional.",
     area: "Demo / Producto",
-    category: "Before / After escritorio",
+    category:"Antes/Después",
     prompt: `
 Genera un vídeo de 8 segundos en formato horizontal 16:9, sin texto en pantalla.
 
@@ -94,7 +96,8 @@ Guion visual:
   • Los papeles desaparecen o se ordenan en bandejas, los bolígrafos se agrupan en un portalápices, los cables se ordenan, las tazas sucias desaparecen.
   • Plano final: escritorio minimalista, con portátil, cuaderno, bolígrafo alineado, una planta pequeña y el elemento clave (tu producto) en un lugar visible.
   • Luz más cálida, sensación de calma y productividad.
-`
+`,
+thumbnail: "/videos/ba003.gif",
   },
   {
     id: "video-demo-before-after-04",
@@ -102,7 +105,7 @@ Guion visual:
     summary:
       "Comparación visual entre una foto de producto amateur y otra versión con iluminación y composición profesionales.",
     area: "Demo / Producto",
-    category: "Before / After producto físico",
+    category:"Antes/Después",
     prompt: `
 Genera un vídeo de 8 segundos, 16:9 horizontal, sin texto en pantalla.
 
@@ -127,7 +130,8 @@ Guion visual:
   • El producto está centrado, con algunos elementos decorativos mínimos coherentes (hojas, piedras, accesorios según el tipo de producto).
   • La cámara realiza un pequeño movimiento lateral o giratorio muy suave alrededor del producto, mostrando sus detalles.
   • Todo limpio, sin texto ni logos.
-`
+`,
+thumbnail: "/videos/ba004.gif",
   },
   {
     id: "video-demo-before-after-05",
@@ -135,7 +139,7 @@ Guion visual:
     summary:
       "Antes/después en barbería o peluquería, centrado en el cambio de peinado y arreglo.",
     area: "Demo / Producto",
-    category: "Before / After servicio",
+    category:"Antes/Después",
     prompt: `
 Genera un vídeo de 8 segundos en formato horizontal 16:9, sin texto en pantalla.
 
@@ -156,7 +160,8 @@ Guion visual:
   • El cliente sonríe, se acomoda la chaqueta o camiseta, se mira al espejo satisfecho.
   • El barbero aparece brevemente detrás, cruzando los brazos o levantando el pulgar con una sonrisa.
   • La cámara termina con un pequeño movimiento de acercamiento al rostro del cliente, resaltando el look fresco.
-`
+`,
+thumbnail: "/videos/ba005.gif",
   },
   {
     id: "video-demo-before-after-06",
@@ -164,7 +169,7 @@ Guion visual:
     summary:
       "Transformación visual de un dormitorio o sala vacía a un espacio decorado y acogedor.",
     area: "Demo / Producto",
-    category: "Before / After interior",
+    category:"Antes/Después",
     prompt: `
 Genera un vídeo de 8 segundos, horizontal 16:9, sin texto en pantalla.
 
@@ -187,7 +192,8 @@ Guion visual:
     - Mesillas con lámparas cálidas, quizás una planta y un libro.
   • La iluminación es ahora mucho más cálida, con tono dorado suave.
   • La cámara hace un leve zoom in, destacando la sensación de confort.
-`
+`,
+thumbnail: "/videos/ba006.gif",
   },
   {
     id: "video-demo-before-after-07",
@@ -195,7 +201,7 @@ Guion visual:
     summary:
       "Metáfora visual de edición de audio: de ondas desordenadas a un flujo limpio y profesional.",
     area: "Demo / Producto",
-    category: "Before / After audio",
+    category:"Antes/Después",
     prompt: `
 Genera un vídeo de 8 segundos en 16:9 horizontal, sin texto en pantalla.
 
@@ -219,7 +225,8 @@ Guion visual:
 - Segundos 6–8:
   • La cámara hace un pequeño recorrido lateral mostrando otros elementos visuales tipo barras de nivel que se mueven de manera fluida.
   • Termina alejándose un poco para ver al usuario de perfil con auriculares, sonriendo mientras escucha, con gesto de aprobación.
-`
+`,
+thumbnail: "/videos/ba007.gif",
   },
   {
     id: "video-demo-before-after-08",
@@ -227,7 +234,7 @@ Guion visual:
     summary:
       "Cambio de diapositivas básicas a una presentación moderna y visual.",
     area: "Demo / Producto",
-    category: "Before / After presentación",
+    category:"Antes/Después",
     prompt: `
 Genera un vídeo de 8 segundos, horizontal 16:9, sin texto en pantalla.
 
@@ -249,7 +256,8 @@ Guion visual:
   • La iluminación del lugar se adapta ligeramente, se ve más profesional.
   • La persona en la silla endereza la postura, abre los ojos con interés y asiente con la cabeza.
   • La cámara se mueve ligeramente hacia la pantalla para cerrar en los elementos visuales atractivos.
-`
+`,
+thumbnail: "/videos/ba008.gif",
   },
   {
     id: "video-demo-before-after-09",
@@ -257,7 +265,7 @@ Guion visual:
     summary:
       "Comparación entre rutina de entreno desordenada en hojas sueltas y versión digital ordenada.",
     area: "Demo / Producto",
-    category: "Before / After fitness digital",
+    category:"Antes/Después",
     prompt: `
 Genera un vídeo de 8 segundos, formato horizontal 16:9, sin texto en pantalla.
 
@@ -278,7 +286,8 @@ Guion visual:
   • Plano más cercano de la pantalla del dispositivo mostrando una interfaz limpia: cajas organizadas, iconos de ejercicios, gráficos de progreso (todo sin texto legible).
   • La mano toca algunas secciones, se ven animaciones suaves de cambio entre pantallas.
   • La cámara hace un ligero acercamiento mientras la mano cierra el puño con gesto de motivación.
-`
+`,
+thumbnail: "/videos/ba009.gif",
   },
   {
     id: "video-demo-before-after-10",
@@ -286,7 +295,7 @@ Guion visual:
     summary:
       "Antes/después del escritorio del ordenador: iconos por todos lados vs organización clara en carpetas.",
     area: "Demo / Producto",
-    category: "Before / After digital",
+    category:"Antes/Después",
     prompt: `
 Genera un vídeo de 8 segundos en formato 16:9 horizontal, sin texto en pantalla.
 
@@ -310,6 +319,7 @@ Guion visual:
   • El cursor se posa sobre una de las carpetas y hace doble clic.
   • La carpeta se abre mostrando dentro una cuadrícula ordenada de iconos, sugeriendo organización perfecta (sin texto).
   • Termina con un ligero zoom out de la pantalla completa, limpia y ordenada.
-`
+`,
+thumbnail: "/videos/ba010.gif",
   },
 ];

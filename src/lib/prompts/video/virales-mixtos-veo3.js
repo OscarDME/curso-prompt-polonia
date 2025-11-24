@@ -3,310 +3,275 @@
 export const videoPromptsReelsViralesNegocio = [
   {
     id: "video-viral-mixto-01",
-    title: "Expectativa vs realidad trabajando desde casa",
+    title: "Perro jefe regañando a su humano",
     summary:
-      "Comparación cómica en un solo plano: la idea perfecta de home office frente al caos real del día a día.",
+      "Un perro sentado como jefe de oficina, hablando a cámara y regañando a su humano por procrastinar.",
     area: "Humor / Viral",
-    category: "Expectativa vs realidad",
+    category: "Videos Virales",
     prompt: `
-Genera un vídeo en formato horizontal 16:9 de exactamente 8 segundos, sin ningún tipo de texto en pantalla.
+Genera un vídeo en formato horizontal 16:9 de máximo 8 segundos, con audio y lipsync perfecto.
 
-Tema: expectativa vs realidad del home office, en un solo plano con una transición divertida.
+Escena:
+- Un perro mediano, tipo mestizo o labrador, sentado en una silla de oficina detrás de un escritorio.
+- Sobre el escritorio hay un portátil abierto, una libreta y una taza.
+- El perro está centrado en el encuadre, como si fuera el jefe en una reunión.
+- Fondo: oficina casera sencilla, con una planta y un cuadro desenfocado.
+- El perro mueve ligeramente la cabeza y la boca mientras habla, mirando directamente a cámara.
+- SIN texto ni subtítulos en pantalla.
 
-Guion visual:
+Requisitos de audio:
+- Voz en ESPAÑOL, tono serio pero cómico.
+- Asegura sincronización labial PERFECTA (lip sync) con el siguiente guion.
+- El personaje debe pronunciar exactamente este texto, sin añadir ni quitar palabras.
 
-- Segundos 0–3:
-  • Plano general de un salón luminoso y ordenado. A la izquierda, una persona (jóven, con ropa cómoda pero estilosa) trabaja en un escritorio minimalista: portátil limpio, planta, vela encendida, taza de café perfecta.
-  • La luz entra por una ventana grande, el ambiente es cálido; la persona teclea con calma, con postura impecable y expresión concentrada pero tranquila.
-  • La cámara está fija, ligeramente elevada, mostrando bien el entorno.
-
-- Segundos 3–4:
-  • De repente, la escena hace una transición tipo “glitch” o “sacudida de cámara” rápida (como si la realidad se rompiera).
-  • Todo el entorno cambia abruptamente, manteniendo el mismo encuadre.
-
-- Segundos 4–8:
-  • Misma habitación pero en “realidad”: el salón está algo desordenado, ropa en el sofá, platos en la mesa de centro.
-  • La misma persona ahora tiene el pelo despeinado, está con una sudadera vieja, sentado en una postura rara, con el portátil apoyado sobre una pila de libros.
-  • Un gato o perro pasa por delante de la pantalla del portátil, bloqueándola; la persona lo aparta suavemente pero con cara de resignación.
-  • En el fondo, se ve una pila de ropa sin doblar y una planta un poco caída.
-  • La cámara sigue fija, sin texto en ningún momento.
+Guion hablado en español:
+"Deja de scrollear, humano. Si tú no trabajas, ¿quién paga mis croquetas premium?"
 `,
-thumbnail: "/videos/vid001.gif",
+    thumbnail: "/videos/vids001.gif",
   },
   {
     id: "video-viral-mixto-02",
-    title: "Creador de contenido recargando energía con café",
+    title: "Gato influencer dando consejo absurdo",
     summary:
-      "Secuencia rápida tipo mini-montaje del ritual de café que salva la energía del creador.",
-    area: "Lifestyle",
-    category: "Rutina / Estilo de vida",
+      "Un gato frente a la cámara dando un consejo “profesional” totalmente ridículo, como si fuera experto.",
+    area: "Humor / Viral",
+    category: "Videos Virales",
     prompt: `
-Genera un vídeo cinematográfico de 8 segundos, formato horizontal 16:9, sin texto en pantalla.
+Genera un vídeo cinematográfico de máximo 8 segundos, formato horizontal 16:9, con audio y lipsync perfecto.
 
-Tema: ritual de café de un creador de contenido, mostrado como un montaje rápido pero estético.
+Escena:
+- Un gato sentado sobre un escritorio, justo frente a la cámara, como si estuviera grabando un tutorial.
+- A los lados se ven un portátil cerrado, una planta y una pequeña luz de escritorio.
+- El gato mira fijamente a la cámara y mueve la boca como si hablara.
+- De vez en cuando parpadea con aire de “experto”.
+- SIN texto ni subtítulos en pantalla.
 
-Guion visual:
+Requisitos de audio:
+- Voz en ESPAÑOL, tono serio irónico, como falso gurú.
+- Asegura sincronización labial PERFECTA (lip sync) con el guion.
+- El gato debe decir exactamente lo siguiente:
 
-- Segundos 0–2:
-  • Plano detalle de granos de café cayendo lentamente dentro de un molinillo o portafiltro, iluminados por luz cálida de mañana.
-  • El fondo está muy desenfocado, solo se ven colores cálidos de cocina acogedora.
-
-- Segundos 2–4:
-  • Corte a un plano medio de la cafetera sirviendo café en una taza blanca simple sobre encimera de madera.
-  • El café cae en cámara lenta, se ve bien el vapor que sube.
-  • La mano de la persona se apoya cerca de la taza, con pulsera o reloj que le da carácter.
-
-- Segundos 4–6:
-  • Corte a un plano detalle de la mano levantando la taza y acercándola a la boca.
-  • Se ve el rostro de perfil, ojos medio cerrados, inhalando el aroma antes de dar el primer sorbo, gesto de alivio.
-
-- Segundos 6–8:
-  • Corte a un plano general del escritorio: la misma taza ahora junto al portátil, luces suaves, una libreta abierta y auriculares al costado.
-  • La persona se sienta en la silla, deja la taza, crackea los dedos y coloca ambas manos sobre el teclado con actitud decidida.
-  • Nada de texto, solo acciones y gestos sutiles.
+Guion hablado en español:
+"Mi secreto de productividad es simple: dormir dieciséis horas al día y fingir que trabajo."
 `,
-thumbnail: "/videos/vid002.gif",
+    thumbnail: "/videos/vids002.gif",
   },
   {
     id: "video-viral-mixto-03",
-    title: "Mascota interrumpe videollamada importante",
+    title: "Bebé regañando a adulto desvelado",
     summary:
-      "Escena cómica donde un perro o gato se roba el plano en plena videollamada seria.",
+      "Un bebé sentado en la cuna mirando a cámara y reclamando que el adulto no duerme lo suficiente.",
     area: "Humor / Viral",
-    category: "Mascotas",
+    category: "Videos Virales",
     prompt: `
-Genera un vídeo en formato 16:9 horizontal de 8 segundos, sin texto en pantalla.
+Genera un vídeo en formato 16:9 horizontal de máximo 8 segundos, con audio y lipsync perfecto.
 
-Tema: una mascota interrumpe una videollamada importante.
+Escena:
+- Un bebé sentado en una cuna, agarrado a la barandilla, mirando directamente a la cámara.
+- Luz tenue de noche, lámpara cálida encendida al fondo.
+- El bebé mueve la boca y gesticula como si estuviera sermoneando a alguien.
+- De fondo se ve una habitación sencilla, quizá con un peluche en la cuna.
+- SIN texto ni subtítulos en pantalla.
 
-Guion visual:
+Requisitos de audio:
+- Voz en ESPAÑOL, suena como bebé “doblado” de forma cómica (tono infantil pero claro).
+- Asegura sincronización labial PERFECTA (lip sync) con el siguiente guion.
+- El bebé debe pronunciar exactamente este texto:
 
-- Segundos 0–3:
-  • Plano medio de una persona sentada frente a un escritorio, vestida de manera semiformal (camisa o blusa), con auriculares puestos.
-  • La persona está mirando fijamente al portátil con expresión seria, asintiendo, como si estuviera en una reunión importante.
-  • El fondo es un home office ordenado, con alguna planta y estantería.
-
-- Segundos 3–5:
-  • Sin cambiar el encuadre, un gato o perro entra lentamente en el plano desde abajo, subiéndose al regazo o posándose sobre el teclado del portátil.
-  • La mascota tapa parcialmente la pantalla; es el típico movimiento natural, curioso, mirando directamente hacia la cámara.
-
-- Segundos 5–7:
-  • La persona cambia a expresión de pánico cómico: abre los ojos, mira a la mascota, intenta mantener la compostura, la acaricia nervioso para apartarla un poco.
-  • Mantén el gesto exag erado pero creíble, como “por favor, ahora no”.
-
-- Segundos 7–8:
-  • La persona suspira resignado, se encoge de hombros y sonríe de forma divertida, dejando a la mascota quedarse.
-  • Todo ocurre en el mismo plano, con iluminación natural suave, sin ningún texto.
+Guion hablado en español:
+"Soy un bebé y duermo mejor que tú. Apaga el móvil y vete a la cama, por favor."
 `,
-thumbnail: "/videos/vid003.gif",
+    thumbnail: "/videos/vids003.gif",
   },
   {
     id: "video-viral-mixto-04",
-    title: "Estudiante tarde por todo vs estudiante organizado",
+    title: "Planta de escritorio reclamando agua",
     summary:
-      "Comparación rápida entre caos estudiantil y versión organizada, en una habitación juvenil.",
-    area: "Educación",
-    category: "Expectativa vs realidad",
+      "Una planta en una maceta habla a cámara y se queja dramáticamente de que nadie la riega.",
+    area: "Humor / Viral",
+    category: "Videos Virales",
     prompt: `
-Genera un vídeo de 8 segundos, horizontal 16:9, sin texto en pantalla.
+Genera un vídeo de máximo 8 segundos, horizontal 16:9, con audio y lipsync perfecto.
 
-Tema: contraste entre un estudiante caótico y una versión más organizada.
+Escena:
+- Primer plano de una planta de escritorio en una maceta sobre una mesa.
+- Fondo: portátil desenfocado, algunos papeles y una taza.
+- La planta se mueve ligeramente, como si sus hojas acompañaran el discurso.
+- La “boca” se sugiere en el centro de la planta o en el tallo, animada para sincronizar con la voz.
+- Luz de día suave entrando por una ventana cercana.
+- SIN texto ni subtítulos en pantalla.
 
-Guion visual:
+Requisitos de audio:
+- Voz en ESPAÑOL, tono dramático y exagerado.
+- Asegura sincronización labial PERFECTA (lip sync) con el guion.
+- La planta debe pronunciar exactamente este texto:
 
-- Segundos 0–3:
-  • Plano general de habitación de estudiante, algo desordenada: ropa en la silla, cama sin hacer, libros y mochilas por el suelo.
-  • En el centro, un estudiante en pijama, despeinado, sentado en el borde de la cama con el portátil sobre las piernas, mirando la hora en el reloj de la mesita con cara de susto.
-  • Se frota los ojos y se lleva la mano a la frente en gesto de “otra vez tarde”.
-
-- Segundos 3–4:
-  • Transición tipo flash blanco rápido o barrido de cámara que pasa por delante del personaje.
-
-- Segundos 4–8:
-  • Misma habitación pero ahora ordenada: cama hecha, escritorio despejado, luz de día más clara.
-  • El mismo estudiante, ahora vestido de forma casual y cuidada, está sentado en el escritorio, con una libreta abierta, bolígrafos alineados y el portátil frente a él.
-  • Se ve cómo consulta una agenda física o planner, asiente satisfecho y comienza a escribir concentrado.
-  • El gesto es calmado y confiado; la cámara se mantiene en un plano general estable.
-`
+Guion hablado en español:
+"Solo paso a recordar que llevo tres días sin agua y aún así sigo más vivo que tú los lunes."
+`,
+    thumbnail: "/videos/vids004.gif",
   },
   {
     id: "video-viral-mixto-05",
-    title: "La típica promesa de ‘mañana empiezo el gym’",
+    title: "Laptop quejándose de las pestañas abiertas",
     summary:
-      "Escena divertida del eterno ciclo: ropa de gimnasio lista, pero plan de sofá gana.",
+      "Un portátil habla a cámara y se queja de las cien pestañas abiertas como si tuviera dolor de cabeza.",
     area: "Humor / Viral",
-    category: "Rutina / Gym",
+    category: "Videos Virales",
     prompt: `
-Genera un vídeo horizontal 16:9 de 8 segundos, sin texto en pantalla.
+Genera un vídeo horizontal 16:9 de máximo 8 segundos, con audio y lipsync perfecto.
 
-Tema: la eterna promesa de empezar el gimnasio “mañana”.
+Escena:
+- Plano medio de un portátil abierto sobre un escritorio.
+- En la pantalla se insinúan muchas ventanas y pestañas abiertas, pero sin texto legible.
+- La “boca” aparece animada en la parte inferior de la pantalla, moviéndose al hablar.
+- Los ventiladores suenan ligeramente, como si el portátil estuviera forzado.
+- Fondo: habitación sencilla, algo de desorden, luz neutra.
+- SIN texto ni subtítulos en pantalla.
 
-Guion visual:
+Requisitos de audio:
+- Voz en ESPAÑOL, tono cansado y sarcástico.
+- Asegura sincronización labial PERFECTA (lip sync) con el siguiente guion.
+- El portátil debe pronunciar exactamente este texto:
 
-- Segundos 0–3:
-  • Plano general de un dormitorio sencillo por la tarde.
-  • En la cama está perfectamente colocada la ropa de gimnasio: camiseta, pantalón deportivo, tenis alineados y una botella de agua llena al lado.
-  • La cámara se acerca un poco a la cama, enfatizando el outfit deportivo listo.
-
-- Segundos 3–5:
-  • Corte a un plano medio del mismo espacio, pero ahora se ve a la persona tumbada en la cama, al lado de la ropa de gym, con ropa de casa cómoda (pijama o sudadera).
-  • Está usando el móvil, desplazando con el dedo, con expresión de total relajación, piernas cruzadas.
-
-- Segundos 5–7:
-  • La persona mira de reojo la ropa de gym, suspira profundamente, y vuelve a mirar el móvil, encogiéndose de hombros.
-  • Se da una pequeña vuelta en la cama para ponerse aún más cómodo.
-
-- Segundos 7–8:
-  • La cámara hace un ligero zoom hacia los tenis perfectamente colocados junto a la cama, mientras el cuerpo de la persona casi se sale de cuadro, enfatizando que siguen ahí, sin usarse.
-  • No hay texto ni rótulos, solo la situación visual.
-`
+Guion hablado en español:
+"No son ideas, son cien pestañas. Cierra algo o me voy a apagar por pura dignidad."
+`,
+    thumbnail: "/videos/vids005.gif",
   },
   {
     id: "video-viral-mixto-06",
-    title: "‘Soy productivo’ pero la habitación dice otra cosa",
+    title: "Taza de café dando discurso motivacional",
     summary:
-      "Plano cómico donde alguien finge productividad frente al portátil mientras el cuarto es un desastre.",
+      "Una taza de café habla directo a cámara como un coach de vida exagerado.",
     area: "Humor / Viral",
-    category: "Productividad",
+    category: "Videos Virales",
     prompt: `
-Genera un vídeo de 8 segundos, formato horizontal 16:9, sin texto en pantalla.
+Genera un vídeo de máximo 8 segundos, formato horizontal 16:9, con audio y lipsync perfecto.
 
-Tema: alguien que se siente muy productivo, pero su entorno grita lo contrario.
+Escena:
+- Primer plano de una taza de café humeante sobre la mesa.
+- El fondo está desenfocado: se intuye un portátil y una libreta.
+- La taza tiene una cara animada minimalista que mueve la boca mientras habla.
+- El vapor sube suavemente durante todo el clip.
+- SIN texto ni subtítulos en pantalla.
 
-Guion visual:
+Requisitos de audio:
+- Voz en ESPAÑOL, tono intenso y motivacional, casi de coach.
+- Asegura sincronización labial PERFECTA (lip sync) con el guion.
+- La taza debe decir exactamente lo siguiente:
 
-- Segundos 0–4:
-  • Plano medio de una persona sentada muy recta frente a un portátil en una pequeña mesa. Mira la pantalla con expresión súper seria y confiada, teclea rápido y mueve el ratón con intensidad.
-  • La cámara empieza centrada en la persona y el portátil, con un ligero desenfoque del fondo.
-
-- Segundos 4–8:
-  • La cámara va haciendo un zoom out lento y suave, revelando poco a poco el resto del cuarto.
-  • Al ampliarse el encuadre, se ve el caos: ropa por todos lados, cajas abiertas, basura acumulada en una papelera desbordada, platos sucios en el suelo, una planta claramente muerta, cables enredados.
-  • La persona sigue actuando totalmente concentrada y “profesional”, sin notar en absoluto el desastre de alrededor.
-  • El contraste es la broma visual, sin necesidad de texto.
-`
+Guion hablado en español:
+"No te rindas ahora, humano. Ya me tomaste, así que mínimo haz algo épico hoy."
+`,
+    thumbnail: "/videos/vids006.gif",
   },
   {
     id: "video-viral-mixto-07",
-    title: "Cuando te pones ‘solo un capítulo’",
+    title: "Perro celoso del celular",
     summary:
-      "Metáfora rápida de alguien que promete ver solo un episodio y acaba atrapado.",
+      "Un perro mira a cámara y reclama que su humano mira más el móvil que a él.",
     area: "Humor / Viral",
-    category: "Series / Procrastinación",
+    category: "Videos Virales",
     prompt: `
-Genera un vídeo de 8 segundos, horizontal 16:9, sin texto en pantalla.
+Genera un vídeo de máximo 8 segundos, horizontal 16:9, con audio y lipsync perfecto.
 
-Tema: ver “solo un capítulo” y acabar atrapado viendo la serie toda la noche.
+Escena:
+- Plano medio de un perro en un sofá, al lado de una persona cuyo rostro casi no se ve, solo el brazo con el móvil.
+- El perro mira primero al móvil con cara de celos y luego a la cámara.
+- El perro mueve la boca mientras habla; la persona sigue usando el móvil distraída.
+- Fondo: salón acogedor, manta, cojines.
+- SIN texto ni subtítulos en pantalla.
 
-Guion visual:
+Requisitos de audio:
+- Voz en ESPAÑOL, tono dolido pero gracioso.
+- Asegura sincronización labial PERFECTA (lip sync) con el guion.
+- El perro debe pronunciar exactamente este texto:
 
-- Segundos 0–2:
-  • Plano medio de un salón por la noche, con luz suave de la televisión iluminando la habitación.
-  • Una persona se sienta en el sofá con manta, mando en mano, con expresión relajada.
-  • Mira la pantalla (fuera de cuadro) y hace un gesto con la mano como diciendo “uno y ya”.
-
-- Segundos 2–4:
-  • Corte rápido a la misma escena pero un poco más tarde: la persona ya está más hundida en el sofá, el pelo algo despeinado, bolsa de snacks abierta por la mitad.
-  • Los ojos están un poco más abiertos, atrapados en la pantalla.
-
-- Segundos 4–6:
-  • Corte a la misma escena de madrugada: la luz de la televisión sigue encendida, el salón oscuro.
-  • La persona tiene ojeras, está envuelta completamente en la manta, la bolsa de snacks está vacía, hay latas o botellas en la mesa.
-  • El mando está tirado a un lado; la persona sigue mirando la pantalla con mezcla de cansancio y obsesión.
-
-- Segundos 6–8:
-  • La cámara se acerca ligeramente al rostro, mostrando ojos rojos y un pequeño gesto de “¿qué estoy haciendo con mi vida?” mientras no deja de ver.
-  • Todo sin texto, solo apoyado en la actuación y el cambio de ambiente.
-`
+Guion hablado en español:
+"Solo pregunto: ¿yo ladro poco o ese celular es más interesante que mi carita?"
+`,
+    thumbnail: "/videos/vids007.gif",
   },
   {
     id: "video-viral-mixto-08",
-    title: "Mini glow up de escritorio",
+    title: "Refrigerador cansado de que lo abran cada cinco minutos",
     summary:
-      "Transformación estética de escritorio desordenado a setup limpio y bonito.",
-    area: "Lifestyle",
-    category: "Before / After",
+      "Una nevera habla a cámara quejándose de que la abren sin saber qué quieren comer.",
+    area: "Humor / Viral",
+    category: "Videos Virales",
     prompt: `
-Genera un vídeo de 8 segundos, formato horizontal 16:9, sin texto en pantalla.
+Genera un vídeo de máximo 8 segundos, formato horizontal 16:9, con audio y lipsync perfecto.
 
-Tema: transformación de un escritorio desordenado en un setup estético.
+Escena:
+- Plano desde dentro del refrigerador mirando hacia afuera.
+- Se ven estantes con comida y bebidas; la puerta se abre y aparece la cara de una persona mirando indecisa.
+- Mientras la puerta está abierta, se escucha la voz del propio refrigerador.
+- La “boca” del refrigerador se sugiere en el borde interno de la puerta, moviéndose al hablar.
+- SIN texto ni subtítulos en pantalla.
 
-Guion visual:
+Requisitos de audio:
+- Voz en ESPAÑOL, tono pasivo-agresivo cómico.
+- Asegura sincronización labial PERFECTA (lip sync) con el guion.
+- El refrigerador debe decir exactamente lo siguiente:
 
-- Segundos 0–3:
-  • Plano cenital (desde arriba) de un escritorio completamente desordenado: cables enredados, papeles arrugados, tazas sucias, bolígrafos sueltos, migas de comida, etc.
-  • Las manos de la persona entran desde los bordes del encuadre recogiendo cosas de forma rápida, pero todavía se ve todo caótico.
-
-- Segundos 3–5:
-  • Realiza una transición tipo “barrido de mano”: una de las manos pasa por delante de la cámara, ocupando la mayor parte del encuadre, y al retirarse aparece ya parte del escritorio transformado.
-  • Muchos elementos han desaparecido, ya hay un portátil alineado, una alfombrilla de ratón limpia y una lámpara elegante.
-
-- Segundos 5–8:
-  • Plano final del escritorio ya totalmente organizado y estético: portátil centrado, teclado, ratón, una planta a un lado, una vela o pequeña lámpara de luz cálida, libreta alineada con bolígrafo.
-  • La iluminación es suave, con un ligero tono anaranjado, sensación de espacio acogedor.
-  • Una mano entra en plano y enciende la lámpara, reforzando el efecto “glow up”.
-`
+Guion hablado en español:
+"No hay comida nueva desde ayer, solo dudas nuevas. Ciérrame y toma agua, campeón."
+`,
+    thumbnail: "/videos/vids008.gif",
   },
   {
     id: "video-viral-mixto-09",
-    title: "Pareja intentando trabajar juntos en la misma mesa",
+    title: "Gato jefe de seguridad de la casa",
     summary:
-      "Escena divertida donde dos personas intentan concentrarse pero se distraen mutuamente.",
+      "Un gato mira por la ventana como guardia y presume que vigila todo, pero en realidad se distrae.",
     area: "Humor / Viral",
-    category: "Relaciones",
+    category: "Videos Virales",
     prompt: `
-Genera un vídeo de 8 segundos, horizontal 16:9, sin texto en pantalla.
+Genera un vídeo de máximo 8 segundos, horizontal 16:9, con audio y lipsync perfecto.
 
-Tema: una pareja intentando trabajar juntos en la misma mesa, pero terminan distrayéndose.
+Escena:
+- Plano medio de un gato sentado en el alféizar de una ventana, mirando hacia afuera con pose muy seria.
+- De fondo se ve un vecindario o edificios desenfocados.
+- El gato mueve la cabeza lentamente, como vigilando, y luego mira a cámara.
+- Cuando mira a cámara, abre la boca y habla.
+- SIN texto ni subtítulos en pantalla.
 
-Guion visual:
+Requisitos de audio:
+- Voz en ESPAÑOL, tono orgulloso y gracioso.
+- Asegura sincronización labial PERFECTA (lip sync) con el guion.
+- El gato debe pronunciar exactamente este texto:
 
-- Segundos 0–3:
-  • Plano general de una mesa de comedor convertida en mesa de trabajo. A un lado, una persona con portátil y auriculares; al otro lado, otra persona con tablet o portátil.
-  • Ambos al principio parecen concentrados, tecleando o escribiendo, sin mirarse.
-
-- Segundos 3–5:
-  • La persona de la izquierda levanta la mirada y observa a la de la derecha, con una sonrisa traviesa.
-  • Comienza a hacer un pequeño gesto para llamar su atención: mueve el pie bajo la mesa, hace una pequeña mueca o gesto divertido.
-
-- Segundos 5–7:
-  • La persona de la derecha intenta no reírse, pero finalmente sucumbe: se quita los auriculares, se ríe y se gira hacia la otra.
-  • Ambos dejan de trabajar al mismo tiempo, cerrando levemente sus dispositivos.
-
-- Segundos 7–8:
-  • Terminan chocando las manos o haciendo un pequeño gesto de complicidad (como un mini abrazo lateral o apoyando la cabeza en el hombro).
-  • La cámara permanece en plano general, mostrando el contraste entre “intento de productividad” y el cariño que rompe la concentración.
-`
+Guion hablado en español:
+"Yo no soy mascota, soy jefe de seguridad. Cualquier hoja que se mueva será investigada."
+`,
+    thumbnail: "/videos/vids0090.gif",
   },
   {
     id: "video-viral-mixto-10",
-    title: "Mini ‘día en la vida’ comprimido en 8 segundos",
+    title: "Almohada quejándose del horario de sueño",
     summary:
-      "Saltos rápidos de mañana, tarde y noche de un creador, todos en la misma casa.",
-    area: "Lifestyle",
-    category: "Día en la vida",
+      "Una almohada habla a cámara y se queja de que solo la usan de madrugada.",
+    area: "Humor / Viral",
+    category: "Videos Virales",
     prompt: `
-Genera un vídeo de 8 segundos, formato 16:9 horizontal, sin texto en pantalla.
+Genera un vídeo de máximo 8 segundos, formato horizontal 16:9, con audio y lipsync perfecto.
 
-Tema: mini “day in the life” de un creador, comprimido en tres momentos del día.
+Escena:
+- Primer plano de una almohada sobre una cama desordenada.
+- Luz tenue, como de madrugada, entra un poco desde la ventana.
+- La almohada tiene una cara animada muy simple que mueve la boca al hablar.
+- Al fondo se ve una persona con ojeras mirando el móvil, desenfocada.
+- SIN texto ni subtítulos en pantalla.
 
-Guion visual:
+Requisitos de audio:
+- Voz en ESPAÑOL, tono cansado y sarcástico.
+- Asegura sincronización labial PERFECTA (lip sync) con el siguiente guion.
+- La almohada debe decir exactamente este texto:
 
-- Segundos 0–2:
-  • Mañana: plano medio en la cocina. La persona, con ropa cómoda de casa, prepara desayuno: vierte café en una taza, muerde una tostada mientras mira su móvil con cara de sueño pero motivado.
-  • La luz es suave de primera hora del día, entrando por una ventana.
-
-- Segundos 2–4:
-  • Transición con un corte rápido a mediodía: misma persona ahora en el escritorio, con luz más intensa.
-  • Está frente al portátil, moviendo el ratón con rapidez, con auriculares puestos, con expresión concentrada. Hay una botella de agua y una libreta abierta al lado.
-
-- Segundos 4–6:
-  • Corte a tarde/noche: persona en el mismo escritorio pero con luz más cálida, ambiente más relajado.
-  • Está recostado en la silla, estirando los brazos hacia arriba, tomando un sorbo de una taza, mirando la pantalla satisfecho, como si hubiera terminado una jornada.
-
-- Segundos 6–8:
-  • Plano final en el sofá del mismo espacio, luces bajas, persona con manta, viendo algo en una pantalla fuera de cuadro, con una luz de televisión reflejada en su rostro.
-  • Se ve una pequeña sonrisa cansada pero contenta, cerrando la secuencia de “día en la vida”.
-`
+Guion hablado en español:
+"Me compras suave y caro, pero solo me visitas a las tres de la mañana, qué falta de respeto."
+`,
+    thumbnail: "/videos/vids010.gif",
   },
 ];

@@ -2,9 +2,10 @@
 
 import { videoPromptsReelsViralesNegocio } from "./virales-mixtos-veo3";
 import { videoPromptsDemosProductoBeforeAfter } from "./demos-producto-before-after";
+import { videoPromptsUGCTestimonios } from "./ugc-testimonios";
 // import { videoPromptsUGCTestimonios } from "./ugc-testimonios";
 // import { videoPromptsStorytellingMarcaPersonal } from "./storytelling-marca-personal";
-// import { videoPromptsTipsEducativos } from "./tips-educativos";
+import { videoPromptsTipsEducativos } from "./tips-educativos";
 // import { videoPromptsAutoridadMiniMasterclass } from "./autoridad-mini-masterclass";
 // import { videoPromptsAdsTopFunnel } from "./ads-top-funnel";
 // import { videoPromptsAdsMiddleFunnel } from "./ads-middle-funnel";
@@ -12,14 +13,15 @@ import { videoPromptsDemosProductoBeforeAfter } from "./demos-producto-before-af
 // import { videoPromptsAvatarHablante } from "./avatar-hablante";
 // import { videoPromptsHumorParodiasIA } from "./humor-parodias-ia";
 // import { videoPromptsTrendsPOVMemes } from "./trends-pov-memes";
+import { videoPromptsVidaDiariaMix } from "./vida-diaria-mix-veo3";
 
 export const videoPrompts = [
   ...videoPromptsReelsViralesNegocio,       // 20
   ...videoPromptsDemosProductoBeforeAfter,  // 18
-//   ...videoPromptsUGCTestimonios,            // 16
+  ...videoPromptsUGCTestimonios,            // 16
+  ...videoPromptsVidaDiariaMix,
 //   ...videoPromptsStorytellingMarcaPersonal, // 16
-//   ...videoPromptsTipsEducativos,            // 24
-//   ...videoPromptsAutoridadMiniMasterclass,  // 16
+  ...videoPromptsTipsEducativos,//   ...videoPromptsAutoridadMiniMasterclass,  // 16
 //   ...videoPromptsAdsTopFunnel,              // 14
 //   ...videoPromptsAdsMiddleFunnel,           // 14
 //   ...videoPromptsAdsBottomFunnel,           // 12
