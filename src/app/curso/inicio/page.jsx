@@ -30,6 +30,19 @@ export default function InicioCursoPage() {
         </Button>
       </div>
 
+      {/* 🎥 Video introductorio (lo primero del curso) */}
+      <div className="overflow-hidden rounded-2xl border border-white/10 bg-black">
+        <div className="relative aspect-video w-full">
+          <iframe
+            src="https://www.youtube.com/embed/jvVKKSTt6Kk"
+            title="Clase introductoria - Banco Secreto de Prompts"
+            className="h-full w-full"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
+      </div>
+
       <h1 className="text-2xl md:text-3xl font-bold text-slate-50">
         {courseIntro.title}
       </h1>

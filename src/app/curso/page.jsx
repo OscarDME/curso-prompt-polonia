@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Lock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import Link from "next/link";
 import { courseHero, courseModuleRows } from "@/lib/course-data";
 
 export default function CursoPage() {
@@ -43,9 +44,14 @@ export default function CursoPage() {
               {courseHero.description}
             </p>
 
-            <Button className="inline-flex items-center gap-2 rounded-full bg-teal-400 px-6 py-5 text-sm font-semibold uppercase tracking-wide text-slate-900 shadow-lg hover:bg-teal-300">
-              {courseHero.ctaLabel}
-              <ArrowRight className="h-4 w-4" />
+             <Button
+              asChild
+              className="inline-flex items-center gap-2 rounded-full bg-teal-400 px-6 py-5 text-sm font-semibold uppercase tracking-wide text-slate-900 shadow-lg hover:bg-teal-300"
+            >
+              <Link href="/curso/inicio">
+                {courseHero.ctaLabel}
+                <ArrowRight className="h-4 w-4" />
+              </Link>
             </Button>
           </motion.div>
         </div>
