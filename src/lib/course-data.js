@@ -80,6 +80,8 @@ export const courseModuleRows = [
     ],
   },
 
+
+  
   // Bonos bloqueados por ahora
   {
     id: "bonuses",
@@ -95,3 +97,19 @@ export const courseModuleRows = [
     })),
   },
 ];
+
+export const promptEngineeringCourseCopy = {
+  rowId: "prompt-engineering",
+  rowTitle: "Ingeniería de Prompts",
+  module: {
+    id: "prompt-engineering-course",
+    label: "Curso",
+    title: "Curso de Ingeniería de Prompts",
+    description:
+      "Domina cómo adaptar, optimizar y crear prompts para resultados profesionales.",
+    imageSrc: "/modules/ingenieria-prompts.png", // cambia por tu imagen
+    href: "/curso/ingenieria-de-prompts",
+    locked: false,
+  },
+};
+
