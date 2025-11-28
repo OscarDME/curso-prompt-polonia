@@ -4,7 +4,7 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
-import { Lock, ArrowRight } from "lucide-react";
+import { Lock, ArrowRight, Eye, EyeOff } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -13,6 +13,7 @@ import { Label } from "@/components/ui/label";
 
 export default function LoginPage() {
   const [code, setCode] = useState("");
+  const [showCode, setShowCode] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const router = useRouter();
@@ -36,7 +37,6 @@ export default function LoginPage() {
         return;
       }
 
-      // 🔁 Redirigimos siempre al área de curso
       router.push("/curso");
     } catch (err) {
       setError("Ocurrió un error. Inténtalo de nuevo.");
@@ -89,16 +89,33 @@ export default function LoginPage() {
                   Código de compra
                 </Label>
 
-                <Input
-                  id="code"
-                  type="password"
-                  autoComplete="off"
-                  value={code}
-                  onChange={(e) => setCode(e.target.value)}
-                  className="mt-2 h-14 rounded-xl border-white/20 bg-black/30 text-lg text-slate-100 placeholder:text-slate-500 focus-visible:ring-[#36C5FF]"
-                  placeholder="Pega aquí tu código..."
-                  required
-                />
+                {/* Input + eye toggle */}
+                <div className="relative mt-2">
+                  <Input
+                    id="code"
+                    type={showCode ? "text" : "password"}
+                    autoComplete="off"
+                    value={code}
+                    onChange={(e) => setCode(e.target.value)}
+                    className="h-14 rounded-xl border-white/20 bg-black/30 pr-12 text-lg text-slate-100 placeholder:text-slate-500 focus-visible:ring-[#36C5FF]"
+                    placeholder="Pega aquí tu código..."
+                    required
+                  />
+
+                  <button
+                    type="button"
+                    onClick={() => setShowCode((v) => !v)}
+                    className="absolute right-3 top-1/2 -translate-y-1/2 rounded-md p-2 text-slate-300 transition hover:bg-white/5 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-[#36C5FF]"
+                    aria-label={showCode ? "Ocultar código" : "Mostrar código"}
+                    title={showCode ? "Ocultar" : "Mostrar"}
+                  >
+                    {showCode ? (
+                      <EyeOff className="h-5 w-5" />
+                    ) : (
+                      <Eye className="h-5 w-5" />
+                    )}
+                  </button>
+                </div>
               </div>
 
               {error && (
