@@ -23,6 +23,31 @@ import { textPromptsRedesContenidoAutoridad } from "./redes-contenido-autoridad"
 import { textPromptsRedesCarruseles } from "./redes-carruseles";
 import { textPromptsCopyHumoristico } from "./copy-humoristico";
 import { textPromptsCopyScriptsVideo } from "./copy-scripts-video";
+import { textPromptsCreativaMundos } from "./creativa-mundos";
+import { textPromptsCreativaEscenas } from "./creativa-escenas";
+import { textPromptsCreativaDialogos } from "./creativa-dialogos";
+import { textPromptsCreativaStorytellingNegocios } from "./creativa-storytelling-negocios";
+import { textPromptsCreativaPoesiaTextos } from "./creativa-poesia-textos";
+import { textPromptsCreativaGuiones } from "./creativa-guiones";
+import { textPromptsCreativaTransformacionEstilo } from "./creativa-transformacion-estilo";
+import { textPromptsEduExplicacionesAvanzadas } from "./edu-explicaciones-avanzadas";
+import { textPromptsEduEjercicios } from "./edu-ejercicios";
+import { textPromptsEduQuizzes } from "./edu-quizzes";
+import { textPromptsEduResumenesAcademicos } from "./edu-resumenes-academicos";
+import { textPromptsEduPlanesClase } from "./edu-planes-clase";
+import { textPromptsSoporteGuionesAtencion } from "./soporte-guiones-atencion";
+import { textPromptsSoportePoliticasLegales } from "./soporte-politicas-legales";
+import { textPromptsSoporteDocs } from "./soporte-docs";
+import { textPromptsSoporteTecnicoScripts } from "./soporte-tecnico-scripts";
+import { textPromptsSoporteEmails } from "./soporte-emails";
+import { textPromptsMarketingWhatsappEmail } from "./marketing-whatsapp-email";
+import { textPromptsMarketingOfertasIrresistibles } from "./marketing-ofertas-irresistibles";
+import { textPromptsMarketingScriptsB2C } from "./marketing-scripts-b2c";
+import { textPromptsMarketingScriptsB2B } from "./marketing-scripts-b2b";
+import { textPromptsMarketingObjetivos } from "./marketing-objetivos";
+import { textPromptsMarketingNurturing } from "./marketing-nurturing";
+import { textPromptsMarketingSegmentacion } from "./marketing-segmentacion";
+import { textPromptsMarketingMensajesRapidos } from "./marketing-mensajes-rapidos";
 
 export const textPrompts = [
   ...textPromptsMarketingIdeasCampana,
@@ -48,6 +73,31 @@ export const textPrompts = [
   ...textPromptsRedesCarruseles,
   ...textPromptsCopyHumoristico,
   ...textPromptsCopyScriptsVideo,
+  ...textPromptsCreativaMundos,
+  ...textPromptsCreativaEscenas,
+  ...textPromptsCreativaDialogos,
+  ...textPromptsCreativaStorytellingNegocios,
+  ...textPromptsCreativaPoesiaTextos,
+  ...textPromptsCreativaGuiones,
+  ...textPromptsCreativaTransformacionEstilo,
+  ...textPromptsEduExplicacionesAvanzadas,
+  ...textPromptsEduEjercicios,
+  ...textPromptsEduQuizzes,
+  ...textPromptsEduResumenesAcademicos,
+  ...textPromptsEduPlanesClase,
+  ...textPromptsSoporteGuionesAtencion,
+  ...textPromptsSoportePoliticasLegales,
+  ...textPromptsSoporteDocs,
+  ...textPromptsSoporteTecnicoScripts,
+  ...textPromptsSoporteEmails,
+  ...textPromptsMarketingWhatsappEmail,
+  ...textPromptsMarketingOfertasIrresistibles,
+  ...textPromptsMarketingScriptsB2C,
+  ...textPromptsMarketingScriptsB2B,
+  ...textPromptsMarketingObjetivos,
+  ...textPromptsMarketingNurturing,
+  ...textPromptsMarketingSegmentacion,
+  ...textPromptsMarketingMensajesRapidos,
   // más adelante iremos añadiendo:
   // ...textPromptsMarketingEmbudos,
   // ...textPromptsMarketingCopyAnuncios,

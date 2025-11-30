@@ -38,11 +38,12 @@ export function PromptLibrary({ title, subtitle, items, type }) {
   const Icon = getIconForType(type);
   const isVideo = type === "video";
 
+  // 👇 NUEVO: en texto/imagen solo mostramos categorías cuando el usuario elige un área específica
+  const showCategories = isVideo ? true : area !== "Todas";
+
   // ÁREAS (macro categorías) — solo para texto/imagen
   const areas = useMemo(() => {
-    if (isVideo) {
-      return ["Todas"];
-    }
+    if (isVideo) return ["Todas"];
     const set = new Set(items.map((i) => i.area).filter(Boolean));
     return ["Todas", ...Array.from(set)];
   }, [items, isVideo]);
@@ -67,9 +68,9 @@ export function PromptLibrary({ title, subtitle, items, type }) {
   const filtered = useMemo(
     () =>
       items.filter((item) => {
-        const matchesSearch = item.title
+        const matchesSearch = (item.title || "")
           .toLowerCase()
-          .includes(search.toLowerCase());
+          .includes((search || "").toLowerCase());
 
         const matchesCategory =
           category === "Todas" || item.category === category;
@@ -100,10 +101,15 @@ export function PromptLibrary({ title, subtitle, items, type }) {
 
   // proteger si cambia el total de páginas
   useEffect(() => {
-    if (page > totalPages) {
-      setPage(totalPages);
-    }
+    if (page > totalPages) setPage(totalPages);
   }, [page, totalPages]);
+
+  // 👇 NUEVO: si vuelves a "Todas" en área, también reseteamos categoría (evita estados raros)
+  useEffect(() => {
+    if (!isVideo && area === "Todas" && category !== "Todas") {
+      setCategory("Todas");
+    }
+  }, [area, category, isVideo]);
 
   const handleCopy = async (id, text) => {
     try {
@@ -150,7 +156,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
           {/* filtros */}
           <div className="flex flex-col gap-2">
-            {/* 🔹 Texto e imagen: área + categoría */}
+            {/* 🔹 Texto e imagen: área + (categoría SOLO si area !== "Todas") */}
             {!isVideo && (
               <>
                 {/* filtro por área (macro categoría) */}
@@ -175,28 +181,37 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                   ))}
                 </div>
 
-                {/* filtro por categoría (subcategoría) */}
-                <div className="flex flex-wrap gap-2">
-                  {categories.map((cat) => (
-                    <button
-                      key={cat}
-                      type="button"
-                      onClick={() => setCategory(cat)}
-                      className={cn(
-                        "rounded-full border px-3 py-1 text-xs font-medium transition",
-                        category === cat
-                          ? "border-teal-400 bg-teal-400/10 text-teal-200"
-                          : "border-white/10 bg-white/5 text-slate-300 hover:border-teal-400/60 hover:text-teal-100"
-                      )}
-                    >
-                      {cat}
-                    </button>
-                  ))}
-                </div>
+                {/* 👇 NUEVO: solo renderiza categorías cuando se eligió un área */}
+                {showCategories && (
+                  <div className="flex flex-wrap gap-2">
+                    {categories.map((cat) => (
+                      <button
+                        key={cat}
+                        type="button"
+                        onClick={() => setCategory(cat)}
+                        className={cn(
+                          "rounded-full border px-3 py-1 text-xs font-medium transition",
+                          category === cat
+                            ? "border-teal-400 bg-teal-400/10 text-teal-200"
+                            : "border-white/10 bg-white/5 text-slate-300 hover:border-teal-400/60 hover:text-teal-100"
+                        )}
+                      >
+                        {cat}
+                      </button>
+                    ))}
+                  </div>
+                )}
+
+                {/* (Opcional) mensajito guía cuando no hay área seleccionada */}
+                {!showCategories && (
+                  <p className="text-[11px] text-slate-400">
+                    Selecciona un área para ver sus categorías.
+                  </p>
+                )}
               </>
             )}
 
-            {/* 🔹 Vídeo: solo categoría */}
+            {/* 🔹 Vídeo: solo categoría (IGUAL que antes) */}
             {isVideo && (
               <div className="flex flex-wrap gap-2">
                 {categories.map((cat) => (
@@ -373,10 +388,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                 </Button>
                 <span className="text-[11px] text-slate-400">
                   Página{" "}
-                  <span className="font-semibold text-teal-200">
-                    {page}
-                  </span>{" "}
-                  de{" "}
+                  <span className="font-semibold text-teal-200">{page}</span> de{" "}
                   <span className="font-semibold text-teal-200">
                     {totalPages}
                   </span>
@@ -386,9 +398,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                   variant="ghost"
                   type="button"
                   disabled={page === totalPages}
-                  onClick={() =>
-                    setPage((p) => Math.min(totalPages, p + 1))
-                  }
+                  onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
                   className="rounded-full border border-white/10 bg-white/5 px-3 text-xs text-slate-100 disabled:opacity-40"
                 >
                   Siguiente
