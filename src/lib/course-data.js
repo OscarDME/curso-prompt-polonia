@@ -33,6 +33,26 @@ export const courseModuleRows = [
         tag: "Texto IA",
       },
       {
+        id: "viral-prompts-text",
+        title: "Prompts virales",
+        subtitle:
+          "Prompts listos para hooks, guiones, estructuras virales, CTAs, títulos y contenido diseñado para maximizar retención.",
+        image: "/modules/prompts-virales.png", // crea esta imagen o cambia la ruta
+        href: "/curso/prompts/virales", // crea esta ruta luego
+        tag: "Texto IA",
+      },
+
+      {
+        id: "hyperrealism-pack-text",
+        title: "Pack de hiperrealismo",
+        subtitle:
+          "Prompts y frameworks para descripciones ultra realistas, consistencia, detalles y control de estilo (versión texto).",
+        image: "/modules/hiperrealismo-pro.png", // crea esta imagen o cambia la ruta
+        href: "/curso/prompts/hiperrealismo", // crea esta ruta luego
+        tag: "Texto IA",
+      },
+
+      {
         id: "image-prompts",
         title: "Prompts de imagen",
         subtitle:
@@ -56,7 +76,7 @@ export const courseModuleRows = [
         subtitle:
           "Tutoriales y recomendaciones de herramientas para crear webs, editar vídeos y automatizar tu negocio.",
         image: "/modules/herramientas-ia.png",
-        href: "/curso/herramientas-ia", 
+        href: "/curso/herramientas-ia",
         tag: "Herramientas",
       },
       {
@@ -80,13 +100,11 @@ export const courseModuleRows = [
     ],
   },
 
-
-  
   // Bonos bloqueados por ahora
   {
     id: "bonuses",
     title: bonusesSectionCopy.title,
-      modules: bonusesSectionCopy.items.map((bonus) => ({
+    modules: bonusesSectionCopy.items.map((bonus) => ({
       id: bonus.id.toLowerCase(),
       title: bonus.title,
       subtitle: bonus.description,
@@ -112,4 +130,3 @@ export const promptEngineeringCourseCopy = {
     locked: false,
   },
 };
-
