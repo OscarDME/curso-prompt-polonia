@@ -3,1042 +3,1042 @@
 export const textPromptsCreativaPoesiaTextos = [
   {
     id: "crea-poe-001",
-    title: "Poema libre cinematográfico: una escena en cámara lenta (5 sentidos)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz wolny filmowy: scena w zwolnionym tempie (5 zmysłów)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Poema en verso libre con imágenes sensoriales, ritmo visual y cierre contundente.",
-    prompt: `Dame:
-1) Tema central (ej. duelo, deseo, nostalgia, rabia, paz).
-2) Lugar exacto (con 3 objetos concretos).
-3) Época/hora (amanecer, noche, domingo, invierno).
-4) Emoción dominante y emoción escondida.
-5) Una frase que NO quieres usar (para evitar clichés).
+      "Wiersz w wolnym wersie z obrazami sensorycznymi, wizualnym rytmem i mocnym domknięciem.",
+    prompt: `Podaj:
+1) Temat główny (np. żałoba, pragnienie, nostalgia, złość, spokój).
+2) Dokładne miejsce (z 3 konkretnymi przedmiotami).
+3) Epoka/pora (świt, noc, niedziela, zima).
+4) Dominująca emocja i emocja ukryta.
+5) Zdanie, którego NIE chcesz użyć (żeby uniknąć klisz).
 
-Escribe un poema en verso libre de 28 a 42 versos:
-- Incluye los 5 sentidos (mínimo 1 imagen para cada sentido).
-- Usa imágenes concretas (nada abstracto sin ancla).
-- Ritmo: alterna versos cortos (3–6 palabras) con versos largos (10–16 palabras).
-- Inserta 3 metáforas novedosas (no típicas).
-- Incluye 1 giro a mitad: revelar la emoción escondida.
-- Cierra con un último verso que sea una sentencia (máx. 12 palabras).
+Napisz wiersz wolny w 28–42 wersach:
+- Uwzględnij 5 zmysłów (min. 1 obraz dla każdego zmysłu).
+- Używaj konkretnych obrazów (nic abstrakcyjnego bez „kotwicy”).
+- Rytm: przeplataj krótkie wersy (3–6 słów) z długimi (10–16 słów).
+- Wstaw 3 świeże metafory (nietypowe).
+- Dodaj 1 zwrot w połowie: ujawnij ukrytą emocję.
+- Zakończ ostatnim wersem, który jest jak wyrok (maks. 12 słów).
 
-Luego:
-A) Dame una versión “micro” de 6 versos (igual de potente).
-B) Dame 5 títulos alternativos.`,
+Następnie:
+A) Daj wersję „micro” w 6 wersach (równie mocną).
+B) Daj 5 alternatywnych tytułów.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-002",
-    title: "Soneto moderno: clásico en forma, actual en lenguaje",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Sonet nowoczesny: klasyczna forma, współczesny język",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Soneto de 14 versos con temática contemporánea y remate memorable.",
-    prompt: `Dame:
-- Tema (amor, ansiedad, ciudad, identidad, dinero, tiempo).
-- Tono (elegante, crudo, tierno, irónico).
-- 3 imágenes obligatorias (objetos o escenas).
-- Una palabra que debe aparecer 2 veces (con sentido distinto).
+      "Sonet 14-wersowy o współczesnej tematyce i zapamiętywalnym puencie.",
+    prompt: `Podaj:
+- Temat (miłość, lęk, miasto, tożsamość, pieniądze, czas).
+- Ton (elegancki, surowy, czuły, ironiczny).
+- 3 obowiązkowe obrazy (przedmioty lub sceny).
+- Słowo, które ma się pojawić 2 razy (za każdym razem w innym znaczeniu).
 
-Escribe un soneto (14 versos):
-- Métrica flexible (no perfecta, pero con musicalidad).
-- Rima sugerida (ABBA ABBA CDC DCD o similar), pero sin forzar.
-- Volta (giro) en el verso 9.
-- Último pareado o cierre que sea demoledor.
+Napisz sonet (14 wersów):
+- Metrum elastyczne (nie perfekcyjne, ale z muzykalnością).
+- Rymowanie sugerowane (ABBA ABBA CDC DCD lub podobne), ale bez wymuszania.
+- Volta (zwrot) w 9. wersie.
+- Ostatni dystych lub domknięcie ma rozwalać.
 
-Luego crea:
-- 1 versión sin rima (verso libre) manteniendo el contenido.`,
+Następnie stwórz:
+- 1 wersję bez rymów (wiersz wolny), zachowując treść.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-003",
-    title: "Haikus encadenados: 12 haikus sobre un mismo hilo emocional",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Łańcuch haiku: 12 haiku na jednej emocjonalnej nici",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Serie de haikus conectados por una historia invisible y un símbolo recurrente.",
-    prompt: `Dame:
-- Estación del año.
-- Símbolo recurrente (ej. taza, llave, sal, humo, ventana).
-- Emoción principal.
-- Lugar.
-- 1 secreto que la voz poética no confiesa.
+      "Seria haiku połączonych niewidzialną historią i powracającym symbolem.",
+    prompt: `Podaj:
+- Porę roku.
+- Powracający symbol (np. kubek, klucz, sól, dym, okno).
+- Główną emocję.
+- Miejsce.
+- 1 sekret, którego głos poetycki nie wyznaje.
 
-Escribe 12 haikus (5-7-5 aproximado):
-- Cada uno debe contener un detalle sensorial.
-- El símbolo recurrente aparece en al menos 6 haikus, con variación.
-- Debe sentirse un arco narrativo: inicio → tensión → revelación → calma rota.
-- Evita palabras cliché (alma, eternidad, destrozado, etc.).
+Napisz 12 haiku (5-7-5 w przybliżeniu):
+- Każde ma zawierać detal zmysłowy.
+- Powracający symbol pojawia się w co najmniej 6 haiku, za każdym razem inaczej.
+- Ma być wyczuwalny łuk narracyjny: początek → napięcie → ujawnienie → pęknięty spokój.
+- Unikaj kliszowych słów (dusza, wieczność, zrujnowany itd.).
 
-Al final:
-- Explica en 5 bullets el arco oculto (sin sobreexplicar).`,
+Na końcu:
+- Wyjaśnij w 5 bulletach ukryty łuk (bez przesadnego tłumaczenia).`,
     thumbnail: "",
   },
   {
     id: "crea-poe-004",
-    title: "Poema en segunda persona: tú como espejo (intimidad sin cursilería)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz w drugiej osobie: ty jako lustro (intymność bez lukru)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Un poema que habla a ‘tú’ con precisión emocional y escenas concretas.",
-    prompt: `Dame:
-- Quién es “tú” (amante, madre, amigo, yo del pasado).
-- Qué pasó entre ustedes.
-- 3 recuerdos concretos (lugares, objetos, sonidos).
-- Lo que el narrador nunca dijo en voz alta.
-- Tono (agrio, tierno, resignado, esperanzado).
+      "Wiersz, który mówi do „ty” z emocjonalną precyzją i konkretnymi scenami.",
+    prompt: `Podaj:
+- Kim jest „ty” (kochanek/kochanka, matka, przyjaciel, ja z przeszłości).
+- Co się między wami wydarzyło.
+- 3 konkretne wspomnienia (miejsca, przedmioty, dźwięki).
+- Co narrator nigdy nie powiedział na głos.
+- Ton (gorzki, czuły, pogodzona rezygnacja, pełen nadziei).
 
-Escribe un poema de 30–45 versos:
-- 70% imágenes concretas, 30% emoción nombrada.
-- 3 repeticiones deliberadas (anáfora) para ritmo.
-- 1 pregunta que duela a mitad.
-- Cierre: una promesa pequeña o una renuncia clara (máx. 2 versos).`,
+Napisz wiersz 30–45 wersów:
+- 70% konkretnych obrazów, 30% nazwanych emocji.
+- 3 celowe powtórzenia (anafory) dla rytmu.
+- 1 pytanie, które boli, w połowie.
+- Zakończenie: mała obietnica albo jasna rezygnacja (maks. 2 wersy).`,
     thumbnail: "",
   },
   {
     id: "crea-poe-005",
-    title: "Poema minimalista: decir mucho con poco (economía brutal)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz minimalistyczny: powiedzieć dużo mało (brutalna oszczędność)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Poema de líneas cortas, con silencios, cortes y un golpe final.",
-    prompt: `Dame:
-- Emoción.
-- Escena (una sola).
-- Un objeto protagonista.
-- Una contradicción interna (“quiero X pero temo Y”).
+      "Wiersz z krótkich linijek, z ciszą, cięciami i finałowym uderzeniem.",
+    prompt: `Podaj:
+- Emocję.
+- Scenę (jedną).
+- Przedmiot-protagonistę.
+- Wewnętrzną sprzeczność („chcę X, ale boję się Y”).
 
-Escribe un poema de 18–26 líneas:
-- Cada línea máximo 5 palabras.
-- Usa 2 líneas de una sola palabra.
-- No uses adjetivos obvios; prioriza verbos y sustantivos.
-- Final: 1 línea que cambie el significado de todo.`,
+Napisz wiersz 18–26 linijek:
+- Każda linijka maks. 5 słów.
+- Użyj 2 linijek jednowyrazowych.
+- Nie używaj oczywistych przymiotników; stawiaj na czasowniki i rzeczowniki.
+- Finał: 1 linijka, która zmienia znaczenie wszystkiego.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-006",
-    title: "Poema con estructura de lista: inventario emocional",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz w formie listy: emocjonalny inwentarz",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Poema tipo inventario (cosas que guardo, cosas que pierdo), con giro revelador.",
-    prompt: `Dame:
-- Tema.
-- Qué se guarda y por qué.
-- 10 elementos concretos en la lista (objetos, sonidos, nombres, lugares).
-- Giro final deseado (confesión, perdón, despedida).
+      "Wiersz-inwentarz (rzeczy, które chowam; rzeczy, które tracę) z ujawniającym zwrotem.",
+    prompt: `Podaj:
+- Temat.
+- Co się przechowuje i dlaczego.
+- 10 konkretnych elementów listy (przedmioty, dźwięki, imiona, miejsca).
+- Jakiego finałowego zwrotu chcesz (wyznanie, przebaczenie, pożegnanie).
 
-Escribe un poema de 22–40 líneas:
-- Formato lista, pero con ritmo poético (no prosa seca).
-- Inserta 3 líneas fuera de la lista para romper el patrón.
-- El giro ocurre en las últimas 5 líneas.
+Napisz wiersz 22–40 linijek:
+- Forma listy, ale z poetyckim rytmem (nie sucha proza).
+- Wstaw 3 linijki poza listą, żeby złamać wzór.
+- Zwrot ma nastąpić w ostatnich 5 linijkach.
 
-Luego:
-- Dame 8 elementos alternativos para la lista (por si quiero variar).`,
+Następnie:
+- Daj 8 alternatywnych elementów do listy (jeśli chcę wariant).`,
     thumbnail: "",
   },
   {
     id: "crea-poe-007",
-    title: "Prosa poética: una carta que parece poema",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Proza poetycka: list, który udaje wiersz",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Texto en prosa poética con cadencia, imágenes y una verdad final.",
-    prompt: `Dame:
-- Destinatario (quién).
-- Conflicto.
-- Tono (nostálgico, feroz, dulce, frío).
-- 3 símbolos (objetos) que representen la relación.
-- Lo que se pide (o se suelta) al final.
+      "Proza poetycka z kadencją, obrazami i końcową prawdą.",
+    prompt: `Podaj:
+- Adresata (kogo).
+- Konflikt.
+- Ton (nostalgiczny, zaciekły, słodki, chłodny).
+- 3 symbole (przedmioty) reprezentujące relację.
+- Co ma zostać poproszone (albo puszczone) na końcu.
 
-Escribe una prosa poética de 600–900 palabras:
-- Párrafos cortos (2–5 líneas).
-- Repetición como música (1 frase que vuelve 4 veces con pequeñas variaciones).
-- 2 escenas concretas dentro del texto.
-- Final: una frase que sea imposible de olvidar (máx. 12 palabras).
+Napisz prozę poetycką 600–900 słów:
+- Krótkie akapity (2–5 linijek).
+- Powtórzenie jak muzyka (1 zdanie wraca 4 razy z drobnymi zmianami).
+- 2 konkretne sceny w tekście.
+- Finał: zdanie, którego nie da się zapomnieć (maks. 12 słów).
 
-Después:
-- Extrae 12 frases (quotes) de 1 línea para usar en redes.`,
+Potem:
+- Wyciągnij 12 zdań (quote’ów) po 1 linijce do social mediów.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-008",
-    title: "Poesía de rabia elegante: furia contenida (sin gritar)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Poezja eleganckiej złości: furia w ryzach (bez krzyku)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Poema de rabia sofisticada con imágenes filosas, control y precisión.",
-    prompt: `Dame:
-- Qué te enfurece (situación concreta).
-- Contra quién/qué (persona, sistema, yo mismo).
-- Qué se perdió.
-- Qué límite se cruza en el poema (sin insultos directos).
-- Símbolo central (ej. vidrio, hierro, humo, tinta).
+      "Wiersz o wyrafinowanej złości: ostre obrazy, kontrola i precyzja.",
+    prompt: `Podaj:
+- Co cię wkurza (konkretna sytuacja).
+- Przeciw komu/czemu (osoba, system, ja sam).
+- Co zostało utracone.
+- Jaką granicę przekracza wiersz (bez bezpośrednich obelg).
+- Centralny symbol (np. szkło, żelazo, dym, atrament).
 
-Escribe un poema de 26–40 versos:
-- Voz controlada, como si hablieran con los dientes apretados.
-- 3 metáforas filosas (no violentas explícitas).
-- 2 momentos de vulnerabilidad (para que no sea solo rabia).
-- Final: ultimátum moral o despedida.
+Napisz wiersz 26–40 wersów:
+- Głos kontrolowany, jakby mówiono przez zaciśnięte zęby.
+- 3 ostre metafory (bez dosłownej przemocy).
+- 2 momenty podatności (żeby nie było tylko złości).
+- Finał: moralne ultimatum albo pożegnanie.
 
-Luego:
-- 1 versión más corta (10–14 versos) tipo “golpe”.`,
+Następnie:
+- 1 krótsza wersja (10–14 wersów) jak „cios”.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-009",
-    title: "Poesía de amor sin clichés: deseo + respeto + realidad",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Poezja miłości bez klisz: pragnienie + szacunek + rzeczywistość",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Poema amoroso realista, con detalles cotidianos y emoción adulta.",
-    prompt: `Dame:
-- Relación (cómo se conocen, cuánto tiempo).
-- 5 detalles cotidianos que los definan.
-- Un conflicto o miedo real.
-- Un gesto pequeño que sea el amor.
-- Tono (tierno, sensual, melancólico, juguetón).
+      "Realistyczny wiersz miłosny z codziennymi detalami i dojrzałą emocją.",
+    prompt: `Podaj:
+- Relację (jak się znacie, ile czasu).
+- 5 codziennych detali, które was definiują.
+- Realny konflikt albo lęk.
+- Mały gest, który jest miłością.
+- Ton (czuły, zmysłowy, melancholijny, figlarny).
 
-Escribe un poema de 28–44 versos:
-- Evita palabras cliché (alma, destino, eterno, perfecto).
-- Usa detalles cotidianos como símbolos (llaves, café, ropa, mensajes).
-- Inserta 1 referencia al cuerpo (sutil, no explícita).
-- Final: promesa pequeña (algo que sí pueden cumplir).`,
+Napisz wiersz 28–44 wersów:
+- Unikaj kliszowych słów (dusza, przeznaczenie, wieczny, perfekcyjny).
+- Użyj codziennych detali jako symboli (klucze, kawa, ubrania, wiadomości).
+- Wstaw 1 odniesienie do ciała (subtelne, nie dosłowne).
+- Finał: mała obietnica (coś, co realnie możecie spełnić).`,
     thumbnail: "",
   },
   {
     id: "crea-poe-010",
-    title: "Poema de duelo: lo que queda en la casa",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz żałoby: co zostaje w domu",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Duelo narrado por objetos y silencios, con escenas domésticas precisas.",
-    prompt: `Dame:
-- A quién se perdió (y cómo).
-- Lugar de la casa donde duele más.
-- 6 objetos que quedaron.
-- Recuerdo más luminoso y recuerdo más duro.
-- Tono (sereno, desgarrado, resignado).
+      "Żałoba opowiedziana przez przedmioty i cisze, z precyzyjnymi scenami domowymi.",
+    prompt: `Podaj:
+- Kogo stracono (i jak).
+- Miejsce w domu, które boli najbardziej.
+- 6 przedmiotów, które zostały.
+- Najjaśniejsze wspomnienie i najtwardsze wspomnienie.
+- Ton (spokojny, rozdzierający, pogodzona rezygnacja).
 
-Escribe un poema de 30–50 versos:
-- Cada estrofa se ancla a un objeto o rincón.
-- 2 líneas deben ser preguntas sin respuesta.
-- 1 escena breve de “antes” (flash).
-- Final: una imagen de continuidad (no final feliz, pero vida).`,
+Napisz wiersz 30–50 wersów:
+- Każda zwrotka ma się „kotwiczyć” w przedmiocie lub kącie.
+- 2 linijki mają być pytaniami bez odpowiedzi.
+- 1 krótka scena „sprzed” (flashback).
+- Finał: obraz ciągłości (nie happy end, ale życie).`,
     thumbnail: "",
   },
 
   {
     id: "crea-poe-011",
-    title: "Poema con restricción: sin usar la letra ‘a’ (reto creativo)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz z ograniczeniem: bez litery „a” (kreatywne wyzwanie)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Ejercicio de estilo: lírica bajo restricción para forzar imágenes nuevas.",
-    prompt: `Escribe un poema de 18–26 versos sobre:
-- Tema: (elige uno) deseo / pérdida / ciudad / infancia / fe / cansancio.
-Regla estricta:
-- No puede aparecer la letra “a” en ninguna palabra.
+      "Ćwiczenie stylu: liryka z ograniczeniem, żeby wymusić nowe obrazy.",
+    prompt: `Napisz wiersz 18–26 wersów o:
+- Temat: (wybierz jeden) pragnienie / strata / miasto / dzieciństwo / wiara / zmęczenie.
+Ścisła zasada:
+- Litera „a” nie może pojawić się w żadnym słowie.
 
-Además:
-- Mantén imágenes concretas y musicalidad.
-- Evita que suene artificial: que se sienta natural.
+Dodatkowo:
+- Zachowaj konkretne obrazy i muzykalność.
+- Unikaj sztuczności: ma brzmieć naturalnie.
 
-Al final:
-- Dame una segunda versión sin restricción, pero con el mismo tono y escenas.`,
+Na końcu:
+- Daj drugą wersję bez ograniczenia, ale w tym samym tonie i scenach.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-012",
-    title: "Poema con estribillo: repetición que aumenta el dolor",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz z refrenem: powtórzenie, które zwiększa ból",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Un estribillo que se repite y cambia de significado cada vez.",
-    prompt: `Dame:
-- Estribillo base (1 línea).
-- Tema.
-- Lugar.
-- Evolución emocional (de X a Y).
+      "Refren powraca i za każdym razem zmienia znaczenie.",
+    prompt: `Podaj:
+- Bazowy refren (1 linijka).
+- Temat.
+- Miejsce.
+- Ewolucję emocjonalną (od X do Y).
 
-Escribe un poema de 32–48 versos:
-- Estribillo se repite 5 veces.
-- Cada repetición cambia una palabra clave para cambiar el sentido.
-- 3 imágenes sensoriales fuertes.
-- Final: última repetición del estribillo con giro devastador.`,
+Napisz wiersz 32–48 wersów:
+- Refren powtarza się 5 razy.
+- Każde powtórzenie zmienia jedno kluczowe słowo, by przesunąć sens.
+- 3 mocne obrazy zmysłowe.
+- Finał: ostatnie powtórzenie refrenu z miażdżącym zwrotem.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-013",
-    title: "Poesía narrativa: una historia completa en versos",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Poezja narracyjna: kompletna historia w wersach",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Cuenta una historia (inicio, giro, final) en forma de poema narrativo.",
-    prompt: `Dame:
-- Protagonista.
-- Deseo.
-- Obstáculo.
-- Lugar.
-- Final (feliz amargo, derrota digna, victoria rara).
+      "Opowiedz historię (początek, zwrot, finał) jako wiersz narracyjny.",
+    prompt: `Podaj:
+- Bohatera/Bohaterkę.
+- Pragnienie.
+- Przeszkodę.
+- Miejsce.
+- Zakończenie (słodko-gorzkie szczęście, godna porażka, dziwne zwycięstwo).
 
-Escribe un poema narrativo de 40–60 versos:
-- Divide en 3 actos (marcados por subtítulos cortos).
-- Incluye 2 diálogos breves (1–2 líneas cada uno).
-- 1 símbolo que aparezca en cada acto.
-- Final: imagen que cierre el arco.`,
+Napisz wiersz narracyjny 40–60 wersów:
+- Podziel na 3 akty (oznaczone krótkimi śródtytułami).
+- Dodaj 2 krótkie dialogi (po 1–2 linijki każdy).
+- 1 symbol ma pojawić się w każdym akcie.
+- Finał: obraz, który domyka łuk.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-014",
-    title: "Poema ‘cuerpo y ciudad’: el paisaje como emoción",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz „ciało i miasto”: pejzaż jako emocja",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "La ciudad se vuelve espejo del cuerpo y la mente: metáforas contemporáneas.",
-    prompt: `Dame:
-- Ciudad/lugar urbano.
-- Emoción.
-- Hora del día.
-- Íconos urbanos (metro, semáforos, pantallas, lluvia en vidrio).
-- Conflicto interno.
+      "Miasto staje się lustrem ciała i umysłu: współczesne metafory.",
+    prompt: `Podaj:
+- Miasto/miejsce miejskie.
+- Emocję.
+- Porę dnia.
+- Ikony miejskie (metro, światła, ekrany, deszcz na szybie).
+- Wewnętrzny konflikt.
 
-Escribe un poema de 28–44 versos:
-- 5 imágenes urbanas que reflejen el estado interno.
-- 2 comparaciones inesperadas (no típicas).
-- Final: una línea que una cuerpo y ciudad con verdad.`,
+Napisz wiersz 28–44 wersów:
+- 5 miejskich obrazów odzwierciedlających stan wewnętrzny.
+- 2 nieoczekiwane porównania (nietypowe).
+- Finał: jedna linijka łącząca ciało i miasto prawdą.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-015",
-    title: "Prosa lírica corta: texto para voz en off (reel/short)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Krótka proza liryczna: tekst do voice-over (reel/short)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Texto poético en prosa para narración, con ritmo oral y golpes emocionales.",
-    prompt: `Dame:
-- Tema.
-- Tono (esperanzador, oscuro, irónico, íntimo).
-- Duración (30s o 60s).
-- Escena (lugar + acción).
-- Frase final que quieres (si no, inventa 3 y elige).
+      "Poetycka proza do narracji, z rytmem mówionym i emocjonalnymi uderzeniami.",
+    prompt: `Podaj:
+- Temat.
+- Ton (pełen nadziei, mroczny, ironiczny, intymny).
+- Długość (30 s lub 60 s).
+- Scenę (miejsce + działanie).
+- Finałowe zdanie, które chcesz (jeśli nie masz, wymyślę 3 i wybiorę najlepsze).
 
-Escribe un texto de voz en off:
-- Para 30s: 90–120 palabras.
-- Para 60s: 170–220 palabras.
-- Ritmo oral: frases que se digan bien en voz.
-- 3 “golpes” emocionales (frases cortas).
-- Final: cierre memorable.
+Napisz tekst do voice-over:
+- Na 30 s: 90–120 słów.
+- Na 60 s: 170–220 słów.
+- Rytm mówiony: zdania, które brzmią dobrze na głos.
+- 3 „uderzenia” emocjonalne (krótkie frazy).
+- Finał: zapadające w pamięć domknięcie.
 
-Luego:
-- Dame 5 hooks alternativos (primeras 2 líneas).`,
+Następnie:
+- Daj 5 alternatywnych hooków (pierwsze 2 linijki).`,
     thumbnail: "",
   },
   {
     id: "crea-poe-016",
-    title: "Poema final de capítulo: cierre con eco (literario)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz na koniec rozdziału: domknięcie z echem (literackie)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Poema breve para cerrar un capítulo de novela: atmósfera, presagio y eco.",
-    prompt: `Dame:
-- Género (thriller, romance, fantasía, drama).
-- Qué pasó en el capítulo (resumen).
-- Qué debe presagiar el cierre.
-- Símbolo que quede resonando.
-- Tono.
+      "Krótki wiersz na koniec rozdziału powieści: atmosfera, przeczucie i echo.",
+    prompt: `Podaj:
+- Gatunek (thriller, romans, fantasy, dramat).
+- Co się wydarzyło w rozdziale (streszczenie).
+- Co ma zapowiadać zakończenie.
+- Symbol, który ma zostać w głowie.
+- Ton.
 
-Escribe un poema de 16–24 versos:
-- Debe dejar un cliffhanger emocional.
-- 1 imagen final que sea presagio.
-- Evita exposición directa: sugiere.`,
+Napisz wiersz 16–24 wersy:
+- Ma zostawić emocjonalny cliffhanger.
+- 1 finałowy obraz ma być zapowiedzią.
+- Unikaj dosłownej ekspozycji: sugeruj.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-017",
-    title: "Poesía íntima: ‘lo que nunca dije’ (confesión)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Poezja intymna: „czego nigdy nie powiedziałem/am” (wyznanie)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Poema confesional con honestidad quirúrgica, sin melodrama.",
-    prompt: `Dame:
-- A quién se dirige.
-- Qué no se dijo.
-- Por qué no se dijo.
-- Consecuencia.
-- Imagen central (objeto/lugar).
+      "Wiersz wyznaniowy z chirurgiczną szczerością, bez melodramatu.",
+    prompt: `Podaj:
+- Do kogo jest skierowany.
+- Co nie zostało powiedziane.
+- Dlaczego nie zostało powiedziane.
+- Konsekwencję.
+- Centralny obraz (przedmiot/miejsce).
 
-Escribe un poema de 26–40 versos:
-- 2 estrofas deben comenzar con “Nunca…”.
-- 1 estrofa debe ser solo 2 versos (muy cortos).
-- Final: confesión final que cambie el significado del resto.`,
+Napisz wiersz 26–40 wersów:
+- 2 zwrotki muszą zaczynać się od „Nigdy…”.
+- 1 zwrotka ma mieć tylko 2 wersy (bardzo krótkie).
+- Finał: ostatnie wyznanie, które zmienia sens reszty.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-018",
-    title: "Poesía para ‘meme triste’: ironía + dolor (moderno)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Poezja do „smutnego mema”: ironia + ból (nowocześnie)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Texto poético con humor triste moderno: risa incómoda y verdad.",
-    prompt: `Dame:
-- Tema doloroso.
-- Mecanismo de defensa (ironía, cinismo, humor negro, nostalgia).
-- Escena cotidiana.
-- Palabra moderna obligatoria (ej. “notificación”, “scroll”, “algoritmo”).
+      "Poetycki tekst z nowoczesnym smutnym humorem: niezręczny śmiech i prawda.",
+    prompt: `Podaj:
+- Bolesny temat.
+- Mechanizm obronny (ironia, cynizm, czarny humor, nostalgia).
+- Codzienną scenę.
+- Obowiązkowe nowoczesne słowo (np. „powiadomienie”, „scroll”, „algorytm”).
 
-Escribe un poema de 22–34 versos:
-- Mezcla lenguaje cotidiano con imágenes poéticas.
-- 3 líneas deben sonar como frase de chat.
-- Final: una línea seria que rompa la ironía.`,
+Napisz wiersz 22–34 wersy:
+- Mieszaj język codzienny z poetyckimi obrazami.
+- 3 linijki mają brzmieć jak zdanie z czatu.
+- Finał: jedna poważna linijka, która łamie ironię.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-019",
-    title: "Poema ‘oración laica’: pedir sin religión (ritual personal)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz „świecka modlitwa”: prośba bez religii (osobisty rytuał)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Una ‘oración’ sin dios: un ritual íntimo para pedir fuerza y claridad.",
-    prompt: `Dame:
-- Qué necesitas pedir (paz, disciplina, perdón, fuerza).
-- Qué te pesa.
-- Qué quieres soltar.
-- Símbolo (vela, agua, ventana, pan, sal).
-- Tono (sereno, desesperado, esperanzado).
+      "„Modlitwa” bez boga: intymny rytuał proszenia o siłę i jasność.",
+    prompt: `Podaj:
+- O co chcesz prosić (spokój, dyscyplina, przebaczenie, siła).
+- Co cię przygniata.
+- Co chcesz puścić.
+- Symbol (świeca, woda, okno, chleb, sól).
+- Ton (spokojny, zdesperowany, pełen nadziei).
 
-Escribe un poema de 24–40 versos:
-- Forma de plegaria (repeticiones, invocaciones), pero laica.
-- 3 imágenes de naturaleza o hogar.
-- Final: una promesa a ti mismo.`,
+Napisz wiersz 24–40 wersów:
+- Forma modlitwy (powtórzenia, inwokacje), ale świecka.
+- 3 obrazy natury lub domu.
+- Finał: obietnica złożona samemu sobie.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-020",
-    title: "Poesía de futuro: carta a tu yo de 10 años (esperanza concreta)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Poezja przyszłości: list do siebie za 10 lat (konkretna nadzieja)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Poema/carta en verso con detalles de vida y esperanza aterrizada.",
-    prompt: `Dame:
-- Edad del yo futuro y del yo actual.
-- Miedo actual.
-- Sueño que se teme admitir.
-- 5 detalles concretos del futuro (lugares, hábitos, objetos).
-- Tono.
+      "Wiersz/list w wersach, z życiowymi detalami i uziemioną nadzieją.",
+    prompt: `Podaj:
+- Wiek „ja” przyszłego i „ja” obecnego.
+- Aktualny lęk.
+- Marzenie, którego boisz się przyznać.
+- 5 konkretnych detali przyszłości (miejsca, nawyki, przedmioty).
+- Ton.
 
-Escribe un poema de 30–50 versos:
-- Mezcla promesa y realismo.
-- 3 recomendaciones concretas.
-- Final: “cuando llegues aquí, recuerda…” con una imagen potente.`,
+Napisz wiersz 30–50 wersów:
+- Mieszaj obietnicę z realizmem.
+- 3 konkretne rekomendacje.
+- Finał: „kiedy tu dotrzesz, pamiętaj…” z mocnym obrazem.`,
     thumbnail: "",
   },
 
   {
     id: "crea-poe-021",
-    title: "Poema erótico sutil: tensión y sugerencia (sin explicitar)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Subtelna poezja erotyczna: napięcie i sugestia (bez dosłowności)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Erotismo elegante: insinuación, detalle, electricidad, sin crudeza explícita.",
-    prompt: `Dame:
-- Contexto (encuentro, recuerdo, ausencia).
-- Lugar.
-- Detalle físico no sexual (manos, cuello, espalda, voz).
-- Tono (lento, urgente, prohibido, tierno).
-- Límite: cosas que NO quieres mencionar.
+      "Elegancki erotyzm: aluzja, detal, elektryczność — bez brutalnej dosłowności.",
+    prompt: `Podaj:
+- Kontekst (spotkanie, wspomnienie, brak).
+- Miejsce.
+- Fizyczny detal nie-seksualny (dłonie, kark, plecy, głos).
+- Ton (powolny, pilny, zakazany, czuły).
+- Granicę: czego NIE chcesz wspominać.
 
-Escribe un poema de 24–38 versos:
-- Sensualidad por metáfora y detalle.
-- 3 imágenes táctiles.
-- Final: corte abrupto (como si alguien tocara la puerta).`,
+Napisz wiersz 24–38 wersów:
+- Zmysłowość przez metaforę i detal.
+- 3 dotykowe obrazy.
+- Finał: nagłe cięcie (jakby ktoś zapukał do drzwi).`,
     thumbnail: "",
   },
   {
     id: "crea-poe-022",
-    title: "Poema ‘objeto que habla’: voz personificada",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz „mówiący przedmiot”: spersonifikowany głos",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Un objeto narra la historia (carta, silla, espejo) y revela emociones humanas.",
-    prompt: `Dame:
-- Objeto narrador.
-- Dueño/a del objeto.
-- Relación del objeto con una pérdida o cambio.
-- Lugar donde vive el objeto.
-- Secreto que el objeto sabe.
+      "Przedmiot opowiada historię (list, krzesło, lustro) i zdradza ludzkie emocje.",
+    prompt: `Podaj:
+- Przedmiot-narratora.
+- Właściciela/Właścicielkę przedmiotu.
+- Związek przedmiotu ze stratą lub zmianą.
+- Miejsce, w którym „mieszka” przedmiot.
+- Sekret, który przedmiot zna.
 
-Escribe un poema de 28–44 versos:
-- Voz del objeto con personalidad coherente.
-- 2 recuerdos del pasado (flash) y 1 del presente.
-- Final: el objeto decide “soltar” o “guardar” algo.`,
+Napisz wiersz 28–44 wersów:
+- Głos przedmiotu z konsekwentną osobowością.
+- 2 wspomnienia z przeszłości (flashback) i 1 z teraźniejszości.
+- Finał: przedmiot decyduje „puścić” albo „zachować” coś.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-023",
-    title: "Poesía en forma de diálogo: dos voces que se contradicen",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Poezja w formie dialogu: dwa głosy, które sobie przeczą",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Poema dialogado entre dos voces internas (miedo vs deseo, razón vs corazón).",
-    prompt: `Dame:
-- Dos voces (quiénes son).
-- Tema.
-- Lugar simbólico.
-- Final (quién gana o si quedan empatadas).
+      "Wiersz-dialog między dwiema wewnętrznymi siłami (strach vs pragnienie, rozum vs serce).",
+    prompt: `Podaj:
+- Dwa głosy (kim są).
+- Temat.
+- Symboliczne miejsce.
+- Finał (kto wygrywa albo czy zostaje remis).
 
-Escribe un poema de 34–52 versos:
-- Marca las voces como “Voz A:” y “Voz B:”.
-- 3 momentos donde las voces se acercan.
-- 1 momento donde se hieren.
-- Final: una línea compartida por ambas (misma frase, distinto sentido).`,
+Napisz wiersz 34–52 wersów:
+- Oznacz głosy jako „Głos A:” i „Głos B:”.
+- 3 momenty, gdy głosy się zbliżają.
+- 1 moment, gdy się ranią.
+- Finał: jedna linijka wspólna dla obu (to samo zdanie, inny sens).`,
     thumbnail: "",
   },
   {
     id: "crea-poe-024",
-    title: "Poema de autoestima real: reconstrucción sin frases vacías",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz o prawdziwej samoocenie: odbudowa bez pustych haseł",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Poema de reconstrucción personal con pasos concretos y emoción honesta.",
-    prompt: `Dame:
-- Qué te rompió.
-- Qué aprendiste.
-- Qué hábito pequeño te sostuvo.
-- 3 señales de tu cambio.
-- Tono.
+      "Wiersz o odbudowie siebie z konkretnymi krokami i szczerą emocją.",
+    prompt: `Podaj:
+- Co cię złamało.
+- Czego się nauczyłeś/aś.
+- Jaki mały nawyk cię podtrzymał.
+- 3 oznaki zmiany.
+- Ton.
 
-Escribe un poema de 28–44 versos:
-- Evita frases motivacionales cliché.
-- Incluye 5 acciones concretas (levantarse, escribir, caminar, decir no, etc.).
-- Final: definición nueva de ti en 1 línea.`,
+Napisz wiersz 28–44 wersów:
+- Unikaj klisz motywacyjnych.
+- Dodaj 5 konkretnych działań (wstać, pisać, iść, powiedzieć nie itd.).
+- Finał: nowa definicja ciebie w 1 linijce.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-025",
-    title: "Poema para canción (letra): verso + pre + coro + puente",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz do piosenki (tekst): zwrotka + pre-chorus + refren + most",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Letra completa con estructura musical clara y frases pegajosas (sin sonar genérica).",
-    prompt: `Dame:
-- Género musical (pop, indie, urbano, balada, rock).
-- Tema.
-- Tono.
-- 3 imágenes obligatorias.
-- Frase gancho para el coro (si no tienes, inventa 5).
+      "Pełny tekst z jasną strukturą muzyczną i chwytliwymi frazami (bez generyczności).",
+    prompt: `Podaj:
+- Gatunek muzyczny (pop, indie, urban, ballada, rock).
+- Temat.
+- Ton.
+- 3 obowiązkowe obrazy.
+- Chwytliwą frazę do refrenu (jeśli nie masz, wymyślę 5).
 
-Escribe letra:
-- Verso 1 (6–8 líneas)
-- Pre-coro (4 líneas)
-- Coro (6 líneas, con 1 frase repetida)
-- Verso 2 (6–8 líneas)
-- Puente (4–6 líneas) con giro emocional
-- Último coro (variación)
+Napisz tekst:
+- Zwrotka 1 (6–8 linijek)
+- Pre-chorus (4 linijki)
+- Refren (6 linijek, z 1 powtarzaną frazą)
+- Zwrotka 2 (6–8 linijek)
+- Most (4–6 linijek) ze zwrotem emocjonalnym
+- Ostatni refren (wariacja)
 
-Incluye:
-- 3 opciones de frase gancho para coro.`,
+Dodaj:
+- 3 opcje chwytliwej frazy do refrenu.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-026",
-    title: "Poesía ‘postal’: un lugar habla de ti",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Poezja „pocztówka”: miejsce mówi o tobie",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Poema como postal: el lugar refleja tu estado interno y deja una firma emocional.",
-    prompt: `Dame:
-- Lugar específico (ciudad/barrio/playa/montaña).
-- Hora del día.
-- Emoción.
-- 5 detalles del lugar.
-- A quién va dirigida la postal.
+      "Wiersz jak pocztówka: miejsce odbija stan wewnętrzny i zostawia emocjonalny podpis.",
+    prompt: `Podaj:
+- Konkretne miejsce (miasto/dzielnica/plaża/góry).
+- Porę dnia.
+- Emocję.
+- 5 detali miejsca.
+- Do kogo jest adresowana pocztówka.
 
-Escribe un poema de 26–40 versos:
-- Sensaciones + observación.
-- 1 línea que funcione como “firma” al final (tu nombre o algo simbólico).`,
+Napisz wiersz 26–40 wersów:
+- Odczucia + obserwacja.
+- 1 linijka na końcu jako „podpis” (twoje imię lub coś symbolicznego).`,
     thumbnail: "",
   },
   {
     id: "crea-poe-027",
-    title: "Poema de ansiedad: mente acelerada, cuerpo quieto",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz o lęku: rozpędzony umysł, nieruchome ciało",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Ansiedad descrita con precisión física y mental, con un mini respiro al final.",
-    prompt: `Dame:
-- Disparador de ansiedad.
-- Lugar donde ocurre.
-- 6 síntomas (respiración, manos, pecho, etc.).
-- Pensamiento obsesivo.
-- Qué ayuda (acción mínima).
+      "Lęk opisany fizycznie i mentalnie z precyzją, z małym oddechem na końcu.",
+    prompt: `Podaj:
+- Wyzwalacz lęku.
+- Miejsce, gdzie się pojawia.
+- 6 symptomów (oddech, dłonie, klatka piersiowa itd.).
+- Natrętną myśl.
+- Co pomaga (minimalne działanie).
 
-Escribe un poema de 30–48 versos:
-- Ritmo con frases cortas y largas para simular aceleración.
-- 3 metáforas corporales originales.
-- En los últimos 6 versos: introduce una acción mínima que calme (sin “todo estará bien”).`,
+Napisz wiersz 30–48 wersów:
+- Rytm: krótkie i długie frazy, by zasymulować przyspieszenie.
+- 3 oryginalne metafory ciała.
+- W ostatnich 6 wersach: wprowadź minimalne działanie, które uspokaja (bez „wszystko będzie dobrze”).`,
     thumbnail: "",
   },
   {
     id: "crea-poe-028",
-    title: "Poesía “retrato”: describir a alguien sin decir su nombre",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Poezja „portret”: opisać kogoś bez podawania imienia",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Un retrato íntimo hecho de acciones, gestos y objetos, sin nombrar a la persona.",
-    prompt: `Dame:
-- Quién es (relación contigo).
-- 8 detalles de conducta/gestos.
-- 5 objetos que lo rodean.
-- Frase típica que dice.
-- Emoción que te provoca.
+      "Intymny portret z działań, gestów i przedmiotów, bez nazywania osoby.",
+    prompt: `Podaj:
+- Kto to jest (twoja relacja).
+- 8 detali zachowań/gestów.
+- 5 przedmiotów, które go/ją otaczają.
+- Typowe zdanie, które mówi.
+- Emocję, jaką w tobie budzi.
 
-Escribe un poema de 26–44 versos:
-- No uses el nombre ni “tú eres”.
-- Que el lector lo vea por movimientos y detalles.
-- Final: una línea que lo defina sin definirlo.`,
+Napisz wiersz 26–44 wersów:
+- Nie używaj imienia ani „ty jesteś”.
+- Niech czytelnik zobaczy tę osobę po ruchach i detalach.
+- Finał: jedna linijka, która definiuje bez definiowania.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-029",
-    title: "Poesía meta: escribir sobre escribir (autorreflexiva)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Poezja meta: pisać o pisaniu (autorefleksyjnie)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Poema sobre el acto de escribir: dudas, oficio, obsesión y verdad.",
-    prompt: `Dame:
-- Qué te cuesta escribir (tema).
-- Qué temes que pase si lo dices.
-- Tu ritual de escritura.
-- Lugar donde escribes.
-- Símbolo central (teclado, tinta, papel, luz).
+      "Wiersz o akcie pisania: wątpliwości, rzemiosło, obsesja i prawda.",
+    prompt: `Podaj:
+- Co trudno ci napisać (temat).
+- Czego się boisz, jeśli to powiesz.
+- Twój rytuał pisania.
+- Miejsce, gdzie piszesz.
+- Centralny symbol (klawiatura, atrament, papier, światło).
 
-Escribe un poema de 28–46 versos:
-- 2 estrofas deben incluir imágenes del oficio (borrar, corregir, tachar).
-- 1 giro: lo que realmente querías decir aparece al final.
-- Final: una frase sobre por qué escribes, sin cliché.`,
+Napisz wiersz 28–46 wersów:
+- 2 zwrotki mają zawierać obrazy rzemiosła (kasować, poprawiać, skreślać).
+- 1 zwrot: to, co naprawdę chciałeś/aś powiedzieć, pojawia się na końcu.
+- Finał: zdanie o tym, czemu piszesz — bez kliszy.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-030",
-    title: "Poema ‘dos finales’: esperanza vs cinismo (elige tu salida)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz „dwa zakończenia”: nadzieja vs cynizm (wybierz wyjście)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Mismo poema con dos cierres distintos: uno luminoso y otro oscuro.",
-    prompt: `Dame:
-- Tema.
-- Escena.
-- Símbolo.
-- Voz (1ª o 2ª persona).
-- Qué emoción quieres que domine.
+      "Ten sam wiersz z dwoma różnymi domknięciami: jednym jasnym i jednym ciemnym.",
+    prompt: `Podaj:
+- Temat.
+- Scenę.
+- Symbol.
+- Głos (1. lub 2. osoba).
+- Jaka emocja ma dominować.
 
-Escribe un poema de 30–44 versos con dos finales:
-- Final A (esperanzador): últimos 4–6 versos.
-- Final B (cínico/oscuro): últimos 4–6 versos.
-- Todo antes del final es idéntico.
+Napisz wiersz 30–44 wersy z dwoma zakończeniami:
+- Zakończenie A (pełne nadziei): ostatnie 4–6 wersów.
+- Zakończenie B (cyniczne/mroczne): ostatnie 4–6 wersów.
+- Wszystko przed zakończeniami jest identyczne.
 
-Incluye:
-- 5 títulos alternativos.`,
+Dodaj:
+- 5 alternatywnych tytułów.`,
     thumbnail: "",
   },
 
   {
     id: "crea-poe-031",
-    title: "Texto tipo aforismos: 20 verdades pequeñas (poéticas)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Tekst aforystyczny: 20 małych prawd (poetyckich)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "20 aforismos poéticos, originales, con imágenes y filo.",
-    prompt: `Dame:
-- Tema (amor, dinero, tiempo, duelo, identidad).
-- Tono (suave, duro, irónico, tierno).
-- 5 símbolos (objetos/lugares).
+      "20 oryginalnych poetyckich aforyzmów z obrazami i ostrzem.",
+    prompt: `Podaj:
+- Temat (miłość, pieniądze, czas, żałoba, tożsamość).
+- Ton (łagodny, twardy, ironiczny, czuły).
+- 5 symboli (przedmioty/miejsca).
 
-Escribe 20 aforismos:
-- Cada uno máximo 16 palabras.
-- Al menos 10 deben tener una imagen concreta.
-- 4 deben contradecirse entre sí (humanidad real).
-- Evita frases tipo “todo pasa por algo”.
+Napisz 20 aforyzmów:
+- Każdy maks. 16 słów.
+- Co najmniej 10 ma mieć konkretny obraz.
+- 4 mają sobie wzajemnie przeczyć (prawdziwa ludzkość).
+- Unikaj zdań typu „wszystko dzieje się po coś”.
 
-Luego:
-- Elige los 5 mejores y reescríbelos en versión “más literaria”.`,
+Następnie:
+- Wybierz 5 najlepszych i przepisz je w wersji „bardziej literackiej”.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-032",
-    title: "Poema ‘relación con el tiempo’: cronómetro, calendario, arrugas",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz „relacja z czasem”: stoper, kalendarz, zmarszczki",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Explora el tiempo como personaje: presión, nostalgia y futuro.",
-    prompt: `Dame:
-- Edad del narrador.
-- Qué siente que se le fue.
-- Qué quiere rescatar.
-- Símbolos del tiempo (reloj, calendario, fotos, recibos).
-- Lugar.
+      "Odkryj czas jako postać: presja, nostalgia i przyszłość.",
+    prompt: `Podaj:
+- Wiek narratora.
+- Co czuje, że mu uciekło.
+- Co chce odzyskać.
+- Symbole czasu (zegarek, kalendarz, zdjęcia, paragony).
+- Miejsce.
 
-Escribe un poema de 30–50 versos:
-- El tiempo debe “hablar” en 3 versos (como si fuera personaje).
-- Inserta 2 mini escenas (pasado y presente).
-- Final: una decisión respecto al tiempo (qué harás ahora).`,
+Napisz wiersz 30–50 wersów:
+- Czas ma „mówić” w 3 wersach (jak postać).
+- Wstaw 2 mini sceny (przeszłość i teraźniejszość).
+- Finał: decyzja wobec czasu (co zrobisz teraz).`,
     thumbnail: "",
   },
   {
     id: "crea-poe-033",
-    title: "Poema de naturaleza urbana: plantas en concreto",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz o miejskiej naturze: rośliny w betonie",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Contraste entre vida y ciudad: plantas, grietas, resistencia silenciosa.",
-    prompt: `Dame:
-- Ciudad/lugar.
-- Planta o elemento de vida (árbol, flor, musgo).
-- Emoción.
-- Escena (dónde aparece lo vivo).
-- Final deseado.
+      "Kontrast życia i miasta: rośliny, pęknięcia, cicha odporność.",
+    prompt: `Podaj:
+- Miasto/miejsce.
+- Roślinę lub element życia (drzewo, kwiat, mech).
+- Emocję.
+- Scenę (gdzie pojawia się życie).
+- Pożądany finał.
 
-Escribe un poema de 26–42 versos:
-- 6 imágenes de contraste (metal vs hoja, ruido vs quietud).
-- Final: la vida como decisión, no como accidente.`,
+Napisz wiersz 26–42 wersy:
+- 6 obrazów kontrastu (metal vs liść, hałas vs cisza).
+- Finał: życie jako decyzja, nie przypadek.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-034",
-    title: "Poema para foto: caption poético largo (Instagram)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz do zdjęcia: długi poetycki podpis (Instagram)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Caption largo, literario, con ritmo y final que invita a guardar/compartir.",
-    prompt: `Dame:
-- Qué hay en la foto (escena).
-- Emoción.
-- 3 detalles (colores, luz, objetos).
-- Tono (suave, oscuro, íntimo, esperanzador).
-- Mensaje final.
+      "Długi literacki caption z rytmem i finałem, który zachęca do zapisania/udostępnienia.",
+    prompt: `Podaj:
+- Co jest na zdjęciu (scena).
+- Emocję.
+- 3 detale (kolory, światło, przedmioty).
+- Ton (łagodny, mroczny, intymny, pełen nadziei).
+- Końcowy przekaz.
 
-Escribe un caption de 180–260 palabras:
-- 2 frases muy cortas (1–3 palabras) para ritmo.
-- 1 pregunta.
-- Final: una línea que funcione como “cierre” y quede resonando.
+Napisz caption 180–260 słów:
+- 2 bardzo krótkie zdania (1–3 słowa) dla rytmu.
+- 1 pytanie.
+- Finał: linijka, która działa jak „domknięcie” i zostaje w głowie.
 
-Incluye:
-- 8 variantes de última línea (para A/B).`,
+Dodaj:
+- 8 wariantów ostatniej linijki (do A/B).`,
     thumbnail: "",
   },
   {
     id: "crea-poe-035",
-    title: "Poema ‘promesa’: juramento íntimo (sin grandilocuencia)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz „obietnica”: intymna przysięga (bez patosu)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Promesa pequeña, creíble y hermosa: amor, amistad o yo mismo.",
-    prompt: `Dame:
-- A quién va la promesa.
-- Qué no pudiste cumplir antes.
-- Qué sí puedes prometer ahora (concreto).
-- Contexto (escena).
-- Tono.
+      "Mała, wiarygodna i piękna obietnica: miłość, przyjaźń albo sobie samemu.",
+    prompt: `Podaj:
+- Do kogo jest obietnica.
+- Czego nie udało się dotrzymać wcześniej.
+- Co możesz obiecać teraz (konkretnie).
+- Kontekst (scena).
+- Ton.
 
-Escribe un poema de 24–38 versos:
-- Debe incluir 6 acciones concretas (haré, cuidaré, diré, etc.) sin sonar lista.
-- Final: una sola frase promesa, simple y fuerte.`,
+Napisz wiersz 24–38 wersów:
+- Ma zawierać 6 konkretnych działań (zrobię, zadbam, powiem itd.) bez brzmienia jak lista.
+- Finał: jedno zdanie-obietnica, proste i mocne.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-036",
-    title: "Poema de ruptura: amor que se vuelve costumbre y se quiebra",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz rozstania: miłość, która staje się nawykiem i pęka",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Ruptura narrada desde rutina: objetos, horarios, silencios y distancia.",
-    prompt: `Dame:
-- Qué rutina compartían.
-- Qué empezó a fracturarse primero.
-- 5 objetos comunes.
-- Última conversación o último gesto.
-- Final deseado (rencor, calma, ambigüedad).
+      "Rozstanie opowiedziane przez rutynę: przedmioty, godziny, cisze i dystans.",
+    prompt: `Podaj:
+- Jaką rutynę dzieliliście.
+- Co zaczęło pękać jako pierwsze.
+- 5 wspólnych przedmiotów.
+- Ostatnią rozmowę lub ostatni gest.
+- Pożądany finał (uraza, spokój, niejednoznaczność).
 
-Escribe un poema de 30–50 versos:
-- Ancla cada estrofa a un objeto/hábito.
-- Final: una imagen de la casa vacía o del teléfono quieto.`,
+Napisz wiersz 30–50 wersów:
+- Zakotwicz każdą zwrotkę w przedmiocie/nawyku.
+- Finał: obraz pustego domu albo nieruchomego telefonu.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-037",
-    title: "Poema ‘extrañar’: presencia en ausencia",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz „tęsknota”: obecność w nieobecności",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Extrañar escrito con detalles reales que hacen doler: ausencia como textura.",
-    prompt: `Dame:
-- A quién extrañas.
-- Qué detalle mínimo te lo recuerda.
-- Lugar donde duele.
-- Sonido que activa recuerdo.
-- Tono.
+      "Tęsknota zapisana przez realne detale, które bolą: nieobecność jako faktura.",
+    prompt: `Podaj:
+- Za kim tęsknisz.
+- Jaki minimalny detal ci o nim/niej przypomina.
+- Miejsce, gdzie boli.
+- Dźwięk, który uruchamia wspomnienie.
+- Ton.
 
-Escribe un poema de 26–42 versos:
-- 2 estrofas deben terminar con la misma palabra (repetición).
-- Inserta 1 escena de recuerdo y 1 del presente.
-- Final: aceptación rara, no final feliz.`,
+Napisz wiersz 26–42 wersy:
+- 2 zwrotki muszą kończyć się tym samym słowem (powtórzenie).
+- Wstaw 1 scenę wspomnienia i 1 scenę z teraźniejszości.
+- Finał: dziwna akceptacja, nie happy end.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-038",
-    title: "Poesía ‘disociación’: sentirte afuera de ti (sutil)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Poezja „dysocjacja”: być poza sobą (subtelnie)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Poema que describe disociación con imágenes extrañas pero concretas.",
-    prompt: `Dame:
-- Situación que dispara disociación.
-- Lugar.
-- Sensación corporal.
-- Objeto que se vuelve símbolo.
-- Final (regresar/no regresar).
+      "Wiersz opisujący dysocjację przez dziwne, ale konkretne obrazy.",
+    prompt: `Podaj:
+- Sytuację, która wywołuje dysocjację.
+- Miejsce.
+- Odczucie w ciele.
+- Przedmiot, który staje się symbolem.
+- Finał (powrót/bez powrotu).
 
-Escribe un poema de 28–46 versos:
-- 3 imágenes de distancia (vidrio, pantalla, eco, pasillo).
-- 2 momentos de “regreso al cuerpo”.
-- Final: acción mínima (respirar, tocar, nombrar).`,
+Napisz wiersz 28–46 wersów:
+- 3 obrazy dystansu (szkło, ekran, echo, korytarz).
+- 2 momenty „powrotu do ciała”.
+- Finał: minimalne działanie (oddychać, dotknąć, nazwać).`,
     thumbnail: "",
   },
   {
     id: "crea-poe-039",
-    title: "Poema de gratitud rara: lo que agradezco aunque dolió",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz o dziwnej wdzięczności: za co dziękuję, choć bolało",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Gratitud no edulcorada: agradecer incluso lo difícil, con honestidad.",
-    prompt: `Dame:
-- Qué dolió.
-- Qué te enseñó.
-- Qué cambió en ti.
-- Símbolo.
-- Tono (sereno, intenso, humilde).
+      "Wdzięczność bez lukru: dziękować także za trudne, szczerze.",
+    prompt: `Podaj:
+- Co bolało.
+- Czego cię nauczyło.
+- Co się w tobie zmieniło.
+- Symbol.
+- Ton (spokojny, intensywny, pokorny).
 
-Escribe un poema de 26–44 versos:
-- Agradecimiento con contradicción.
-- 5 imágenes concretas de cambio.
-- Final: “gracias” dicho de una forma no literal (sin usar la palabra).`,
+Napisz wiersz 26–44 wersy:
+- Wdzięczność z wewnętrzną sprzecznością.
+- 5 konkretnych obrazów zmiany.
+- Finał: „dziękuję” powiedziane nie wprost (bez użycia słowa).`,
     thumbnail: "",
   },
   {
     id: "crea-poe-040",
-    title: "Poema ‘yo del pasado vs yo actual’: conversación en versos",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz „ja z przeszłości vs ja teraz”: rozmowa w wersach",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Dos versiones de ti hablan; choque, compasión y síntesis final.",
-    prompt: `Dame:
-- Edad del yo del pasado.
-- Qué le dolía.
-- Qué creyó mal.
-- Qué aprendiste.
-- Lugar simbólico del encuentro.
+      "Dwie wersje ciebie rozmawiają: zderzenie, współczucie i finałowa synteza.",
+    prompt: `Podaj:
+- Wiek „ja” z przeszłości.
+- Co bolało.
+- W co błędnie wierzyło.
+- Czego się nauczyłeś/aś.
+- Symboliczne miejsce spotkania.
 
-Escribe un poema de 34–52 versos:
-- Marca voces como “Antes:” y “Ahora:”.
-- 1 abrazo emocional (líneas donde se encuentran).
-- Final: una línea conjunta.`,
+Napisz wiersz 34–52 wersy:
+- Oznacz głosy jako „Wcześniej:” i „Teraz:” (albo „Przed:” i „Teraz:”).
+- 1 emocjonalny uścisk (linijki, gdzie się spotykają).
+- Finał: jedna wspólna linijka.`,
     thumbnail: "",
   },
 
   {
     id: "crea-poe-041",
-    title: "Poema de lluvia: cliché prohibido, imágenes nuevas",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz o deszczu: klisza zakazana, nowe obrazy",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Reto: escribir lluvia sin recurrir a metáforas típicas, con originalidad visual.",
-    prompt: `Escribe un poema de 28–44 versos sobre la lluvia con reglas:
-- Prohibido: “lágrimas”, “melancolía”, “nostalgia”, “gris”, “triste”.
-- Debes incluir 8 detalles concretos de lluvia (techos, charcos, paraguas, olor).
-- 2 imágenes deben ser inesperadas (no románticas).
-- Final: una revelación íntima que no mencione lluvia.
+      "Wyzwanie: napisać deszcz bez typowych metafor, z wizualną oryginalnością.",
+    prompt: `Napisz wiersz 28–44 wersy o deszczu z zasadami:
+- Zakazane: „łzy”, „melancholia”, „nostalgia”, „szary”, „smutny”.
+- Musisz zawrzeć 8 konkretnych detali deszczu (dachy, kałuże, parasole, zapach).
+- 2 obrazy mają być nieoczekiwane (nie romantyczne).
+- Finał: intymne ujawnienie, które nie wspomina deszczu.
 
-Luego:
-- Lista 10 metáforas nuevas para lluvia (no usadas en el poema).`,
+Następnie:
+- Wypisz 10 nowych metafor deszczu (nieużytych w wierszu).`,
     thumbnail: "",
   },
   {
     id: "crea-poe-042",
-    title: "Texto ‘mantra’ moderno: repetición que calma",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Tekst „mantra” nowoczesna: powtórzenie, które uspokaja",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Mantra laico con repetición y cadencia para calmar o sostener.",
-    prompt: `Dame:
-- Para qué emoción (ansiedad, culpa, duelo, incertidumbre).
-- Tono (suave, firme, protector).
-- 3 símbolos (agua, luz, piedra, ventana).
-- Longitud (200–300 palabras).
+      "Świecka mantra z powtórzeniem i kadencją do uspokojenia lub podtrzymania.",
+    prompt: `Podaj:
+- Na jaką emocję (lęk, poczucie winy, żałoba, niepewność).
+- Ton (łagodny, stanowczy, ochronny).
+- 3 symbole (woda, światło, kamień, okno).
+- Długość (200–300 słów).
 
-Escribe un texto-mantra:
-- Repite 1 frase central 7 veces, cambiando una palabra cada vez.
-- Frases cortas, respirables.
-- Final: una instrucción concreta (acción mínima).`,
+Napisz tekst-mantrę:
+- Powtórz 1 centralną frazę 7 razy, zmieniając za każdym razem jedno słowo.
+- Krótkie, „oddychalne” zdania.
+- Finał: konkretna instrukcja (minimalne działanie).`,
     thumbnail: "",
   },
   {
     id: "crea-poe-043",
-    title: "Poema ‘sin pronombres’: sin yo/tú/él (puro mundo)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz „bez zaimków”: bez ja/ty/on (czysty świat)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Poema atmosférico sin pronombres personales: emoción por paisaje y objetos.",
-    prompt: `Escribe un poema de 24–40 versos con reglas:
-- No usar “yo”, “tú”, “él”, “ella”, “nosotros”, “ustedes”.
-- Tema: pérdida o deseo (elige uno).
-- Lugar específico y 10 objetos concretos.
-- Final: una imagen que sugiera decisión.
+      "Atmosferyczny wiersz bez zaimków osobowych: emocja przez krajobraz i przedmioty.",
+    prompt: `Napisz wiersz 24–40 wersów z zasadami:
+- Nie używaj „ja”, „ty”, „on”, „ona”, „my”, „wy”.
+- Temat: strata albo pragnienie (wybierz jedno).
+- Konkretne miejsce i 10 konkretnych przedmiotów.
+- Finał: obraz sugerujący decyzję.
 
-Luego:
-- 1 versión alternativa con pronombres, para comparar.`,
+Następnie:
+- 1 wersja alternatywna z zaimkami, dla porównania.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-044",
-    title: "Poema con acrostico: mensaje oculto en vertical",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz z akrostychem: ukryta wiadomość w pionie",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Acrostico con frase oculta, pero poema fluido y hermoso.",
-    prompt: `Dame:
-- Frase oculta (8–14 letras, sin espacios) para el acrostico.
-- Tema y tono.
-- 3 imágenes obligatorias.
+      "Akrostych z ukrytą frazą, ale płynny i piękny wiersz.",
+    prompt: `Podaj:
+- Ukrytą frazę (8–14 liter, bez spacji) do akrostychu.
+- Temat i ton.
+- 3 obowiązkowe obrazy.
 
-Escribe un poema donde:
-- La primera letra de cada verso forme la frase oculta (acrostico).
-- Total de versos = longitud de la frase oculta.
-- Que no parezca forzado: debe leerse natural.
-- Final: golpe emocional (aunque sea acrostico).`,
+Napisz wiersz, w którym:
+- Pierwsza litera każdego wersu tworzy ukrytą frazę (akrostych).
+- Liczba wersów = długość ukrytej frazy.
+- Nie może wyglądać na wymuszone: ma czytać się naturalnie.
+- Finał: emocjonalny cios (mimo akrostychu).`,
     thumbnail: "",
   },
   {
     id: "crea-poe-045",
-    title: "Texto poético para marca personal: bio lírica (sin vender)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Poetycki tekst dla marki osobistej: liryczna bio (bez sprzedaży)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Bio poética de 120–180 palabras con identidad, ritmo y originalidad.",
-    prompt: `Dame:
-- Quién eres (rol).
-- Qué te obsesiona.
-- Qué prometes (sin vender).
-- 5 objetos o escenas que te representan.
-- Tono (suave, crudo, elegante).
+      "Poetycka bio 120–180 słów: tożsamość, rytm i oryginalność.",
+    prompt: `Podaj:
+- Kim jesteś (rola).
+- Co cię obsesyjnie kręci.
+- Co obiecujesz (bez sprzedawania).
+- 5 przedmiotów lub scen, które cię reprezentują.
+- Ton (łagodny, surowy, elegancki).
 
-Escribe una bio poética (120–180 palabras):
-- 1 frase corta al inicio (2–6 palabras).
-- 1 metáfora central sostenida.
-- Final: una invitación mínima (ej. “quédate”, “lee”, “caminemos”).`,
+Napisz poetycką bio (120–180 słów):
+- 1 krótkie zdanie na start (2–6 słów).
+- 1 centralna metafora prowadzona przez całość.
+- Finał: minimalne zaproszenie (np. „zostań”, „czytaj”, „chodźmy”).`,
     thumbnail: "",
   },
   {
     id: "crea-poe-046",
-    title: "Poema ‘culpa’: pedir perdón sin pedirlo",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz „wina”: przeprosić bez przepraszania",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Poema de culpa donde el perdón se sugiere por acciones y verdad, no por ‘lo siento’.",
-    prompt: `Dame:
-- Qué hiciste (o qué no hiciste).
-- A quién afectó.
-- Detalle concreto del daño.
-- Qué harás distinto.
-- Lugar simbólico.
+      "Wiersz o winie, w którym przebaczenie sugerują działania i prawda — nie słowa „przepraszam”.",
+    prompt: `Podaj:
+- Co zrobiłeś/aś (albo czego nie zrobiłeś/aś).
+- Kogo to dotknęło.
+- Konkretny detal szkody.
+- Co zrobisz inaczej.
+- Symboliczne miejsce.
 
-Escribe un poema de 28–44 versos:
-- Prohibido usar “perdón”, “lo siento”, “disculpa”.
-- Debe quedar clarísimo que hay arrepentimiento.
-- Final: acción concreta, no promesa abstracta.`,
+Napisz wiersz 28–44 wersy:
+- Zakazane słowa: „przebacz”, „przepraszam”, „wybacz”.
+- Ma być absolutnie jasne, że jest żal.
+- Finał: konkretne działanie, nie abstrakcyjna obietnica.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-047",
-    title: "Poema ‘madurez’: aprender a quedarse (o irse)",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz „dojrzałość”: nauczyć się zostać (albo odejść)",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Poema sobre madurez afectiva: decidir con calma, poner límites, sostener.",
-    prompt: `Dame:
-- Relación o situación.
-- Decisión (quedarse/irse).
-- Miedo.
-- 3 recuerdos.
-- Tono.
+      "Wiersz o dojrzałości emocjonalnej: spokojna decyzja, granice, podtrzymanie.",
+    prompt: `Podaj:
+- Relację lub sytuację.
+- Decyzję (zostać/odejść).
+- Lęk.
+- 3 wspomnienia.
+- Ton.
 
-Escribe un poema de 26–44 versos:
-- 3 líneas deben comenzar con “Aprendí…”.
-- 2 líneas deben ser preguntas.
-- Final: una definición de amor o paz (no cliché).`,
+Napisz wiersz 26–44 wersy:
+- 3 linijki muszą zaczynać się od „Nauczyłem/Nauczyłam się…”.
+- 2 linijki muszą być pytaniami.
+- Finał: definicja miłości albo spokoju (bez kliszy).`,
     thumbnail: "",
   },
   {
     id: "crea-poe-048",
-    title: "Texto ‘noche en vela’: insomnio como historia poética",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Tekst „nieprzespana noc”: bezsenność jako poetycka historia",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Insomnio narrado con objetos, pensamientos repetitivos y luz de pantalla.",
-    prompt: `Dame:
-- Motivo del insomnio.
-- Hora y lugar.
-- 5 objetos de la habitación.
-- Un pensamiento que vuelve.
-- Final (dormir/no dormir).
+      "Bezsenność opowiedziana przedmiotami, powracającymi myślami i światłem ekranu.",
+    prompt: `Podaj:
+- Powód bezsenności.
+- Godzinę i miejsce.
+- 5 przedmiotów w pokoju.
+- Jedną myśl, która wraca.
+- Finał (zaśniesz/nie zaśniesz).
 
-Escribe una prosa poética de 450–700 palabras:
-- Párrafos cortos.
-- Repite una frase 4 veces con variación.
-- Final: un pequeño acto (apagar, respirar, escribir, abrir ventana).`,
+Napisz prozę poetycką 450–700 słów:
+- Krótkie akapity.
+- Powtórz jedno zdanie 4 razy z wariacją.
+- Finał: mały gest (zgasić, oddychać, zapisać, otworzyć okno).`,
     thumbnail: "",
   },
   {
     id: "crea-poe-049",
-    title: "Poema ‘vida simple’: belleza en lo ordinario",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz „proste życie”: piękno w zwyczajnym",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Celebración del día común: detalle, gratitud y calma sin azúcar.",
-    prompt: `Dame:
-- Rutina (mañana/tarde/noche).
-- Lugar.
-- 10 detalles cotidianos.
-- Tono.
-- Final deseado.
+      "Celebracja zwykłego dnia: detal, wdzięczność i spokój bez cukru.",
+    prompt: `Podaj:
+- Rutynę (rano/popołudnie/noc).
+- Miejsce.
+- 10 codziennych detali.
+- Ton.
+- Pożądany finał.
 
-Escribe un poema de 28–44 versos:
-- 10 detalles deben aparecer (uno por verso o estrofa).
-- 2 metáforas discretas, no grandilocuentes.
-- Final: una línea que sea ‘hogar’ en palabras.`,
+Napisz wiersz 28–44 wersy:
+- Wszystkie 10 detali musi się pojawić (po jednym na wers albo zwrotkę).
+- 2 dyskretne metafory, bez patosu.
+- Finał: jedna linijka, która jest „domem” w słowach.`,
     thumbnail: "",
   },
   {
     id: "crea-poe-050",
-    title: "Poema ‘última línea viral’: construye hasta un cierre inolvidable",
-    area: "Escritura Creativa",
-    category: "Poesía & Textos",
+    title: "Wiersz „ostatnia linijka viral”: buduj do niezapomnianego domknięcia",
+    area: "Pisanie Kreatywne",
+    category: "Poezja i Teksty",
     summary:
-      "Poema diseñado para culminar en una última línea que golpea y queda.",
-    prompt: `Dame:
-- Tema.
-- Tono.
-- Escena.
-- Palabra final obligatoria (si no, inventa 5 opciones).
+      "Wiersz zaprojektowany tak, by kulminować w ostatniej linijce, która uderza i zostaje.",
+    prompt: `Podaj:
+- Temat.
+- Ton.
+- Scenę.
+- Obowiązkowe ostatnie słowo (jeśli nie masz, wymyślę 5 opcji).
 
-Escribe un poema de 24–38 versos:
-- Debe preparar progresivamente la última línea (sin que se vea venir).
-- 3 imágenes recurrentes que se repitan con variación.
-- Final: una sola línea (máx. 10 palabras) que termine con la palabra obligatoria.
+Napisz wiersz 24–38 wersów:
+- Ma stopniowo przygotowywać ostatnią linijkę (bez zdradzania).
+- 3 powracające obrazy mają się powtórzyć z wariacją.
+- Finał: jedna linijka (maks. 10 słów), kończąca się obowiązkowym słowem.
 
-Luego:
-- Dame 10 opciones de última línea alternativa (igual de fuertes).`,
+Następnie:
+- Daj 10 alternatywnych wersji ostatniej linijki (równie mocnych).`,
     thumbnail: "",
   },
 ];

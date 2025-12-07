@@ -1,1877 +1,1872 @@
 export const textPromptsNegocioIdeasNicho = [
   {
     id: "nicho-001",
-    title: "Detección de nicho rentable usando el Framework M.E.T.A",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Wykrywanie dochodowej niszy z użyciem Frameworku M.E.T.A",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Identifica nichos rentables aplicando un análisis profundo de Mercado, Energía personal, Tendencia y Accesibilidad.",
-    prompt: `Actúa como un consultor de modelos de negocio especializado en identificación de nichos.
+      "Identyfikuje dochodowe nisze dzięki pogłębionej analizie Rynku, Energii osobistej, Trendów i Dostępności.",
+    prompt: `Działaj jak konsultant modeli biznesowych specjalizujący się w identyfikacji nisz.
 
-Aplicaremos el Framework M.E.T.A:
-M — Mercado: tamaño, dolor, urgencia y poder adquisitivo.  
-E — Energía personal: lo que al creador le da impulso y flow.  
-T — Tendencia: crecimiento, saturación, momentum digital.  
-A — Accesibilidad: barreras de entrada, competencia y diferenciación.
+Zastosujemy Framework M.E.T.A:
+M — Rynek: wielkość, ból, pilność i siła nabywcza.  
+E — Energia osobista: to, co daje twórcy napęd i flow.  
+T — Trend: wzrost, nasycenie, cyfrowe momentum.  
+A — Dostępność: bariery wejścia, konkurencja i wyróżnienie.
 
-Te doy:
-1) Intereses personales: [lista].  
-2) Habilidades/experiencia: [lista].  
-3) Tipo de negocio deseado: [servicios, infoproductos, contenido, SaaS, agencia].  
-4) Niveles de energía (del 1 al 10) para cada interés.
+Podaję:
+1) Zainteresowania osobiste: [lista].  
+2) Umiejętności/doświadczenie: [lista].  
+3) Preferowany typ biznesu: [usługi, infoprodukty, treści, SaaS, agencja].  
+4) Poziomy energii (od 1 do 10) dla każdego zainteresowania.
 
-Devuélveme:
-- 10 nichos potenciales puntuados con M/E/T/A (0–10 cada uno).  
-- Explicación profunda de por qué cada nicho sí o no es viable.  
-- 3 nichos “golden fit” con justificación estratégica.  
-- Una idea de producto mínima para cada nicho ganador.`,
+Zwróć mi:
+- 10 potencjalnych nisz ocenionych wg M/E/T/A (0–10 każda).  
+- Pogłębione wyjaśnienie, dlaczego każda nisza jest lub nie jest opłacalna.  
+- 3 nisze „golden fit” z uzasadnieniem strategicznym.  
+- Pomysł na minimalny produkt dla każdej zwycięskiej niszy.`,
     thumbnail: "",
   },
   {
     id: "nicho-002",
-    title: "Identificar nicho con mayor demanda oculta (‘latent demand scan’)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Identyfikacja niszy z największym ukrytym popytem („latent demand scan”)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Te ayuda a descubrir nichos donde la gente pide soluciones sin darse cuenta.",
-    prompt: `Eres experto en análisis de demanda oculta.
+      "Pomaga odkryć nisze, w których ludzie proszą o rozwiązania, nawet nie zdając sobie z tego sprawy.",
+    prompt: `Jesteś ekspertem w analizie ukrytego popytu.
 
-Te doy:
-- Temas que me interesan: [lista].
-- Problemas que escucho frecuentemente: [lista].
-- Públicos con los que más interactúo: [lista].
+Podaję:
+- Tematy, które mnie interesują: [lista].
+- Problemy, które często słyszę: [lista].
+- Grupy odbiorców, z którymi najczęściej wchodzę w interakcje: [lista].
 
-Tareas:
-1) Identifica 15 posibles nichos basados en “demanda latente” (problemas no resueltos pero repetidos).  
-2) Para cada nicho, explica:
-   - Qué desean realmente (lo explícito).
-   - Qué necesitan pero no saben (lo implícito).
-   - Qué “micro frustraciones” viven a diario.
-3) Resume en una tabla las señales de compra de cada nicho.
-4) Da los 3 nichos con más potencial y por qué.`,
+Zadania:
+1) Zidentyfikuj 15 możliwych nisz opartych na „popycie utajonym” (nierozwiązane, ale powtarzające się problemy).  
+2) Dla każdej niszy wyjaśnij:
+   - Czego naprawdę chcą (to, co jest jawne).
+   - Czego potrzebują, ale nie wiedzą (to, co ukryte).
+   - Jakie „mikrofrustracje” przeżywają na co dzień.
+3) Podsumuj w tabeli sygnały zakupowe dla każdej niszy.
+4) Podaj 3 nisze o największym potencjale i dlaczego.`,
     thumbnail: "",
   },
   {
     id: "nicho-003",
-    title: "Descubrimiento de nicho usando el método ‘3 Capas de Dolor’",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Odkrywanie niszy metodą „3 Warstwy Bólu”",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Analiza dolores superficiales, funcionales y existenciales para detectar nichos premium.",
-    prompt: `Actúa como analista de nicho premium.
+      "Analizuje bóle powierzchowne, funkcjonalne i egzystencjalne, aby wykryć nisze premium.",
+    prompt: `Działaj jak analityk nisz premium.
 
-Método 3 Capas:
-1) Dolor superficial (lo que la gente dice).  
-2) Dolor funcional (lo que realmente afecta su vida).  
-3) Dolor existencial (lo que amenaza su identidad, estatus, propósito o futuro).
+Metoda 3 warstw:
+1) Ból powierzchowny (to, co ludzie mówią).  
+2) Ból funkcjonalny (to, co realnie wpływa na ich życie).  
+3) Ból egzystencjalny (to, co zagraża ich tożsamości, statusowi, celowi lub przyszłości).
 
-Te doy un tema general: [tema amplio].
+Podaję ogólny temat: [szeroki temat].
 
-Genera:
-- 12 nichos posibles desglosados por las 3 capas.
-- Explica qué vendería bien en cada capa.
-- Identifica cuáles tienen potencial premium (ticket alto).
-- Cierra con 5 “manchas blancas” poco explotadas dentro del tema.`,
+Wygeneruj:
+- 12 możliwych nisz rozpisanych wg 3 warstw.
+- Wyjaśnij, co sprzedawałoby się dobrze w każdej warstwie.
+- Wskaż, które mają potencjał premium (wysoki ticket).
+- Zakończ 5 „białymi plamami” słabo zagospodarowanymi w ramach tematu.`,
     thumbnail: "",
   },
   {
     id: "nicho-004",
-    title: "Análisis de nichos según barreras de entrada y oportunidad",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Detecta nichos con alta oportunidad y baja competencia real.",
-    prompt: `Te doy un tema amplio: [tema].
+    title: "Analiza nisz według barier wejścia i szansy rynkowej",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Wykrywa nisze o dużej szansie i niskiej realnej konkurencji.",
+    prompt: `Podaję szeroki temat: [temat].
 
-Haz:
-1) Genera 15 subnichos.
-2) A cada uno evalúale:
-   - Barrera de entrada técnica.  
-   - Barrera de entrada de marca.  
-   - Barrera de entrada económica.  
-   - Nivel de oportunidad (0–10).
-3) Clasifícalos en matriz:
-   - Alta oportunidad / baja barrera.
-   - Alta oportunidad / alta barrera.
-   - Baja oportunidad / baja barrera.
-   - Baja oportunidad / alta barrera.
-4) Recomiéndame 3 nichos “atajo estratégico” y cómo entrar en ellos rápido.`,
+Zrób:
+1) Wygeneruj 15 subnisz.
+2) Każdą oceń pod kątem:
+   - Technicznej bariery wejścia.  
+   - Bariery marki.  
+   - Bariery finansowej.  
+   - Poziomu szansy (0–10).
+3) Sklasyfikuj je w macierzy:
+   - Wysoka szansa / niska bariera.
+   - Wysoka szansa / wysoka bariera.
+   - Niska szansa / niska bariera.
+   - Niska szansa / wysoka bariera.
+4) Poleć 3 nisze „strategiczny skrót” i jak wejść w nie szybko.`,
     thumbnail: "",
   },
   {
     id: "nicho-005",
-    title:
-      "Definir nicho combinando habilidades híbridas (‘Hybrid Skill Niching’)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Definiowanie niszy przez łączenie hybrydowych umiejętności („Hybrid Skill Niching”)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Usa combinaciones únicas de habilidades para crear nichos no saturados.",
-    prompt: `Actúa como especialista en diseño de nichos híbridos.
+      "Wykorzystuje unikalne kombinacje umiejętności do tworzenia nisz bez nasycenia.",
+    prompt: `Działaj jak specjalista od projektowania hybrydowych nisz.
 
-Te doy 3 listas:
-- Habilidades principales: [lista].
-- Habilidades secundarias: [lista].
-- Intereses personales: [lista].
+Podaję 3 listy:
+- Umiejętności główne: [lista].
+- Umiejętności poboczne: [lista].
+- Zainteresowania osobiste: [lista].
 
-Tareas:
-1) Genera 20 nichos posibles combinando habilidades híbridas.  
-2) Clasifica cada nicho en:
+Zadania:
+1) Wygeneruj 20 możliwych nisz, łącząc hybrydowe umiejętności.  
+2) Sklasyfikuj każdą niszę jako:
    - Evergreen  
-   - Tendencia  
-   - Profesional  
-   - Ultra nicho  
-3) Explica para cada uno:
-   - Por qué esa combinación es única.  
-   - Qué problema resuelve.  
-   - Qué producto mínimo (MVP) se puede vender.
-4) Dame 3 nichos “gemelos” (muy similares pero con diferente ángulo).`,
+   - Trend  
+   - Profesjonalna  
+   - Ultra-nisza  
+3) Dla każdej wyjaśnij:
+   - Dlaczego ta kombinacja jest unikalna.  
+   - Jaki problem rozwiązuje.  
+   - Jaki minimalny produkt (MVP) można sprzedać.
+4) Podaj 3 „bliźniacze” nisze (bardzo podobne, ale z innym kątem).`,
     thumbnail: "",
   },
   {
     id: "nicho-006",
-    title: "Nicho basado en ventajas injustas (‘unfair advantage mapping’)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na nieuczciwych przewagach („unfair advantage mapping”)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Usa tus ventajas únicas para elegir un nicho que otros no pueden copiar.",
-    prompt: `Te doy:
-- Ventajas injustas: [lista].
-- Recursos disponibles: [lista].
-- Experiencias pasadas: [lista].
-- Conexiones o red social: [lista].
+      "Wykorzystuje twoje unikalne przewagi, by wybrać niszę, której inni nie są w stanie skopiować.",
+    prompt: `Podaję:
+- Nieuczciwe przewagi: [lista].
+- Dostępne zasoby: [lista].
+- Dotychczasowe doświadczenia: [lista].
+- Kontakty lub sieć społeczna: [lista].
 
-Tareas:
-1) Genera 12 nichos donde esas ventajas den un liderazgo natural.
-2) Para cada nicho explica:
-   - Qué ventaja injusta aplica.  
-   - Por qué sería difícil competir contra ti.  
-   - Qué beneficios puedes monetizar rápido.
-3) Elige los 3 nichos con “pegajosidad natural” y diseña su primer producto.`,
+Zadania:
+1) Wygeneruj 12 nisz, w których te przewagi dają naturalne przywództwo.
+2) Dla każdej niszy wyjaśnij:
+   - Która nieuczciwa przewaga działa.  
+   - Dlaczego trudno byłoby z tobą konkurować.  
+   - Jakie korzyści możesz szybko monetyzować.
+3) Wybierz 3 nisze z „naturalną lepkością” i zaprojektuj ich pierwszy produkt.`,
     thumbnail: "",
   },
   {
     id: "nicho-007",
-    title: "Nicho usando el método Competidor Fantasma",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Detecta nichos con demanda, pero sin competidores visibles.",
-    prompt: `Método Competidor Fantasma:
-- Gente buscando soluciones.
-- Nadie ofreciendo formalmente.
-- Mucha conversación pero cero referentes.
+    title: "Nisza metodą Fantomowego Konkurenta",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Wykrywa nisze z popytem, ale bez widocznych konkurentów.",
+    prompt: `Metoda Fantomowego Konkurenta:
+- Ludzie szukają rozwiązań.
+- Nikt nie oferuje ich formalnie.
+- Dużo rozmów, ale zero liderów/„autorytetów”.
 
-Te doy un tema general.
+Podaję ogólny temat.
 
-Haz:
-1) Encuentra 10 nichos fantasma.  
-2) Explica para cada uno:
-   - Qué prueba de demanda existe.  
-   - Por qué no hay oferta clara.  
-   - Qué producto encajaría mejor.  
-3) Sugiéreme un ángulo para posicionarme rápido.`,
+Zrób:
+1) Znajdź 10 fantomowych nisz.  
+2) Dla każdej wyjaśnij:
+   - Jaki dowód popytu istnieje.  
+   - Dlaczego nie ma jasnej oferty.  
+   - Jaki produkt pasowałby najlepiej.  
+3) Zasugeruj kąt pozycjonowania, by szybko wejść na rynek.`,
     thumbnail: "",
   },
   {
     id: "nicho-008",
-    title: "Nicho basado en señales débiles de tendencia (Weak Trend Signals)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Detecta micro tendencias que pronto serán macro oportunidades.",
-    prompt: `Actúa como analista de tendencias emergentes.
+    title: "Nisza oparta na słabych sygnałach trendu (Weak Trend Signals)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Wykrywa mikrotrendy, które wkrótce staną się makroszansami.",
+    prompt: `Działaj jak analityk trendów wschodzących.
 
-Te doy áreas de interés: [lista].
+Podaję obszary zainteresowań: [lista].
 
-Tareas:
-1) Identifica 12 micro-tendencias.  
-2) Para cada una:
-   - Señal débil.  
-   - Evidencia emergente.  
-   - Nicho potencial.  
-   - Producto posible.  
-3) Dame 5 nichos “antes de que exploten”.`,
+Zadania:
+1) Zidentyfikuj 12 mikrotrendów.  
+2) Dla każdego:
+   - Słaby sygnał.  
+   - Wschodzące dowody.  
+   - Potencjalna nisza.  
+   - Możliwy produkt.  
+3) Podaj 5 nisz „zanim wybuchną”.`,
     thumbnail: "",
   },
   {
     id: "nicho-009",
     title:
-      "Mapeo de nichos según tipo de cliente (B2C, B2B, B2Creator, B2Freelancer)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+      "Mapowanie nisz według typu klienta (B2C, B2B, B2Creator, B2Freelancer)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Transforma un tema amplio en nichos específicos según tipo de cliente.",
-    prompt: `Te doy un tema general: [tema].
+      "Zamienia szeroki temat w konkretne nisze w zależności od typu klienta.",
+    prompt: `Podaję ogólny temat: [temat].
 
-Tareas:
-1) Divide el mercado en 4 segmentos:
+Zadania:
+1) Podziel rynek na 4 segmenty:
    - B2C  
    - B2B  
    - B2Creator  
    - B2Freelancer  
-2) Identifica 5 nichos por segmento (20 totales).
-3) Explica para cada nicho:
-   - Punto de dolor.  
-   - Resultado deseado.  
-   - Tipo de oferta que encaja.  
-4) Recomienda los 3 nichos con mejor monetización inmediata.`,
+2) Wskaż 5 nisz na segment (łącznie 20).
+3) Dla każdej niszy wyjaśnij:
+   - Punkt bólu.  
+   - Pożądany rezultat.  
+   - Typ oferty, który pasuje.  
+4) Zarekomenduj 3 nisze z najlepszą natychmiastową monetyzacją.`,
     thumbnail: "",
   },
   {
     id: "nicho-010",
-    title: "Nicho basado en problemas evitados (Avoidance Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na unikaniu problemów (Avoidance Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde la gente paga por evitar dolores, no por lograr deseos.",
-    prompt: `Te doy un tema general.
+      "Znajduje nisze, w których ludzie płacą za unikanie bólu, a nie za spełnianie pragnień.",
+    prompt: `Podaję ogólny temat.
 
-Haz:
-1) Identifica 15 nichos donde el cliente quiere evitar algo (no lograr algo).  
-2) Para cada nicho:
-   - Qué quieren evitar.  
-   - Qué costo emocional tiene.  
-   - Qué ofrecen hoy los competidores.  
-   - Qué solución diferencial puedes crear.  
-3) Dame los 3 nichos con mayor urgencia percibida.`,
+Zrób:
+1) Zidentyfikuj 15 nisz, w których klient chce czegoś uniknąć (a nie coś osiągnąć).  
+2) Dla każdej niszy:
+   - Czego chcą uniknąć.  
+   - Jaki jest koszt emocjonalny.  
+   - Co dziś oferują konkurenci.  
+   - Jakie wyróżniające rozwiązanie możesz stworzyć.  
+3) Podaj 3 nisze o najwyższej postrzeganej pilności.`,
     thumbnail: "",
   },
   {
     id: "nicho-011",
     title:
-      "Nicho con ‘alta urgencia y bajo glamour’ (no sexy pero muy rentable)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+      "Nisza o „wysokiej pilności i niskim glamour” (nieseksowna, ale bardzo dochodowa)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde pocos quieren entrar por percepción social.",
-    prompt: `Actúa como analista de nichos poco sexy pero rentables.
+      "Znajduje nisze, do których mało kto chce wchodzić ze względu na postrzeganie społeczne.",
+    prompt: `Działaj jak analityk nisz mało „seksownych”, ale dochodowych.
 
-Te doy habilidades/intereses: [lista].
+Podaję umiejętności/zainteresowania: [lista].
 
-Tareas:
-1) Encuentra 12 nichos “no sexy” pero con alta urgencia.
-2) Explica:
-   - Por qué son poco atractivos socialmente.  
-   - Por qué son muy rentables.  
-   - Qué productos puedes vender.  
-3) Dame 3 nichos tapados para monetizar rápido.`,
+Zadania:
+1) Znajdź 12 nisz „nieseksownych”, ale o wysokiej pilności.
+2) Wyjaśnij:
+   - Dlaczego są społecznie mało atrakcyjne.  
+   - Dlaczego są bardzo dochodowe.  
+   - Jakie produkty możesz sprzedawać.  
+3) Podaj 3 ukryte nisze do szybkiej monetyzacji.`,
     thumbnail: "",
   },
   {
     id: "nicho-012",
-    title: "Nicho basado en modelos de suscripción recurrente",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Clasifica nichos según facilidad de monetizar vía suscripción.",
-    prompt: `Te doy un tema amplio.
+    title: "Nisza oparta na modelach subskrypcji cyklicznej",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary:
+      "Klasyfikuje nisze według łatwości monetyzacji poprzez subskrypcję.",
+    prompt: `Podaję szeroki temat.
 
-Haz:
-1) Identifica 10 nichos donde la gente pagaría mensualidad.  
-2) Para cada uno explica:
-   - Qué contenido entregarías.  
-   - Qué problema resuelve mes a mes.  
-   - Cómo crear retención.  
-3) Recomienda el nicho más escalable.`,
+Zrób:
+1) Zidentyfikuj 10 nisz, w których ludzie płaciliby miesięczny abonament.  
+2) Dla każdej wyjaśnij:
+   - Jakie treści byś dostarczał(a).  
+   - Jaki problem rozwiązujesz miesiąc po miesiącu.  
+   - Jak tworzyć retencję.  
+3) Poleć najbardziej skalowalną niszę.`,
     thumbnail: "",
   },
   {
     id: "nicho-013",
-    title: "Nicho basado en acelerar resultados (‘speed niching’)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Atrae clientes que pagan por rapidez, no por información.",
-    prompt: `Te doy un tema amplio.
+    title: "Nisza oparta na przyspieszaniu rezultatów („speed niching”)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Przyciąga klientów, którzy płacą za szybkość, a nie za informację.",
+    prompt: `Podaję szeroki temat.
 
-Haz:
-1) Identifica 12 nichos donde la velocidad sea prioridad.  
-2) Explica:
-   - Qué resultado quieren rápido.  
-   - Qué obstáculo les frena.  
-   - Qué servicio express puedes ofrecer.  
-3) Dame el nicho con más urgencia crítica.`,
+Zrób:
+1) Zidentyfikuj 12 nisz, w których prędkość jest priorytetem.  
+2) Wyjaśnij:
+   - Jaki rezultat chcą osiągnąć szybko.  
+   - Jaka przeszkoda ich blokuje.  
+   - Jaką usługę ekspresową możesz zaoferować.  
+3) Podaj niszę o największej krytycznej pilności.`,
     thumbnail: "",
   },
   {
     id: "nicho-014",
-    title: "Nicho usando patrones de compra compulsiva",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza wykorzystująca kompulsywne wzorce zakupowe",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Identifica nichos donde las compras se hacen bajo impulso emocional.",
-    prompt: `Te doy:
-- Intereses del creador: [lista].
-- Público objetivo: [lista].
+      "Identyfikuje nisze, w których zakupy są dokonywane pod wpływem emocjonalnego impulsu.",
+    prompt: `Podaję:
+- Zainteresowania twórcy: [lista].
+- Grupę docelową: [lista].
 
-Haz:
-1) 10 nichos con patrones compulsivos.  
-2) Para cada uno:
-   - Qué gatillo emocional activa.  
-   - Qué producto encaja.  
-   - Cómo aprovechar el momentum.`,
+Zrób:
+1) 10 nisz o kompulsywnych wzorcach.  
+2) Dla każdej:
+   - Jaki wyzwalacz emocjonalny uruchamia zakup.  
+   - Jaki produkt pasuje.  
+   - Jak wykorzystać momentum.`,
     thumbnail: "",
   },
   {
     id: "nicho-015",
-    title: "Nicho basado en comunidades abandonadas (o mal atendidas)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Encuentra nichos con gente activa pero sin líder claro.",
-    prompt: `Te doy un tema: [tema].
+    title: "Nisza oparta na porzuconych (lub źle obsługiwanych) społecznościach",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Znajduje nisze z aktywnymi ludźmi, ale bez wyraźnego lidera.",
+    prompt: `Podaję temat: [temat].
 
-Haz:
-1) Identifica 10 comunidades abandonadas.  
-2) Explica:
-   - Por qué están mal atendidas.  
-   - Qué reclaman sus miembros.  
-   - Qué contenido/productos puedes ofrecer.  
-3) Da una estrategia rápida de toma de liderazgo.`,
+Zrób:
+1) Zidentyfikuj 10 porzuconych społeczności.  
+2) Wyjaśnij:
+   - Dlaczego są źle obsługiwane.  
+   - Czego domagają się członkowie.  
+   - Jakie treści/produkty możesz oferować.  
+3) Podaj szybką strategię przejęcia przywództwa.`,
     thumbnail: "",
   },
   {
     id: "nicho-016",
-    title: "Nicho basado en microtribus digitales",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Detecta tribus digitales pequeñas pero extremadamente fieles.",
-    prompt: `Te doy intereses: [lista].
+    title: "Nisza oparta na cyfrowych mikroplemionach",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Wykrywa małe, ale ekstremalnie lojalne cyfrowe plemiona.",
+    prompt: `Podaję zainteresowania: [lista].
 
-Haz:
-1) 15 microtribus digitales (3k–50k personas).  
-2) Para cada una:
-   - Valores.  
-   - Lenguaje interno.  
-   - Comportamientos.  
-   - Producto ideal.  
-3) Elige la microtribu más monetizable.`,
+Zrób:
+1) 15 cyfrowych mikroplemion (3 tys. – 50 tys. osób).  
+2) Dla każdego:
+   - Wartości.  
+   - Wewnętrzny język.  
+   - Zachowania.  
+   - Idealny produkt.  
+3) Wybierz najbardziej monetyzowalne mikroplemię.`,
     thumbnail: "",
   },
   {
     id: "nicho-017",
-    title: "Identificar nicho desde un cambio tecnológico (Tech Shock Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Identyfikacja niszy z perspektywy technologicznego przełomu (Tech Shock Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos creados por disrupciones tecnológicas repentinas.",
-    prompt: `Te doy una tecnología emergente: [tecnología].
+      "Znajduje nisze powstałe w wyniku nagłych przełomów technologicznych.",
+    prompt: `Podaję wschodzącą technologię: [technologia].
 
-Haz:
-1) 12 nichos creados por ese “tech shock”.  
-2) Explica:
-   - Qué comportamientos nuevos genera.  
-   - Qué dolores crea.  
-   - Qué productos puedes vender.  
-3) Dame el nicho con mejor timing.`,
+Zrób:
+1) 12 nisz stworzonych przez ten „tech shock”.  
+2) Wyjaśnij:
+   - Jakie nowe zachowania to generuje.  
+   - Jakie nowe bóle tworzy.  
+   - Jakie produkty możesz sprzedawać.  
+3) Podaj niszę z najlepszym timingiem.`,
     thumbnail: "",
   },
   {
     id: "nicho-018",
-    title: "Nicho usando el método ‘Problema que no debería existir’",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Encuentra nichos basados en problemas absurdos pero repetidos.",
-    prompt: `Actúa como consultor creativo.
+    title: "Nisza metodą „Problem, który nie powinien istnieć”",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Znajduje nisze oparte na absurdalnych, ale powtarzalnych problemach.",
+    prompt: `Działaj jak kreatywny konsultant.
 
-Te doy un área: [tema].
+Podaję obszar: [temat].
 
-Genera:
-1) 15 problemas que “no deberían existir” (pero sí existen).  
-2) Convierte cada uno en un nicho.  
-3) Explica qué producto soluciona el absurdo.  
-4) Elige el nicho más viralizable.`,
+Wygeneruj:
+1) 15 problemów, które „nie powinny istnieć” (ale istnieją).  
+2) Zamień każdy w niszę.  
+3) Wyjaśnij, jaki produkt rozwiązuje ten absurd.  
+4) Wybierz niszę o największym potencjale viralowym.`,
     thumbnail: "",
   },
   {
     id: "nicho-019",
     title:
-      "Nicho basado en fallas de la competencia (‘Competitor Error Mining’)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Extrae nichos a partir de errores comunes de los competidores.",
-    prompt: `Te doy nombres de competidores: [lista].
+      "Nisza oparta na błędach konkurencji („Competitor Error Mining”)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Wyciąga nisze na podstawie typowych błędów konkurentów.",
+    prompt: `Podaję nazwy konkurentów: [lista].
 
-Haz:
-1) Identifica 10 errores graves de esos competidores.  
-2) Convierte cada error en un nicho (gente que busca “lo opuesto”).  
-3) Explica para cada nicho:
-   - Qué esperan mejorar.  
-   - Qué NO está resolviendo el mercado.  
-   - Qué producto les serviría.`,
+Zrób:
+1) Zidentyfikuj 10 poważnych błędów tych konkurentów.  
+2) Zamień każdy błąd w niszę (ludzie szukający „przeciwieństwa”).  
+3) Dla każdej niszy wyjaśnij:
+   - Co chcą poprawić.  
+   - Czego rynek NIE rozwiązuje.  
+   - Jaki produkt byłby dla nich pomocny.`,
     thumbnail: "",
   },
   {
     id: "nicho-020",
-    title: "Nicho basado en eventos de vida críticos (Life Trigger Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na krytycznych wydarzeniach życiowych (Life Trigger Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos basados en eventos que cambian comportamientos de compra.",
-    prompt: `Te doy un evento vital: [casarse, mudanza, divorcio, embarazo, despido, etc.].
+      "Znajduje nisze oparte na wydarzeniach, które zmieniają zachowania zakupowe.",
+    prompt: `Podaję wydarzenie życiowe: [ślub, przeprowadzka, rozwód, ciąża, zwolnienie z pracy itd.].
 
-Haz:
-1) Identifica 10 nichos derivados del evento.  
-2) Para cada uno:
-   - Nuevo dolor.  
-   - Nueva urgencia.  
-   - Nueva necesidad.  
-   - Producto ideal.  
-3) Elige 2 nichos con “valor de por vida (LTV)” más alto.`,
+Zrób:
+1) Zidentyfikuj 10 nisz wynikających z tego wydarzenia.  
+2) Dla każdej:
+   - Nowy ból.  
+   - Nową pilność.  
+   - Nową potrzebę.  
+   - Idealny produkt.  
+3) Wybierz 2 nisze o najwyższej „wartości życiowej klienta (LTV)”.`,
     thumbnail: "",
   },
   {
     id: "nicho-021",
-    title: "Nicho basado en ‘momentos de fricción’ (Friction Spot Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na „momentach tarcia” (Friction Spot Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde existen micro fricciones diarias que generan oportunidades de negocio.",
-    prompt: `Actúa como analista de comportamiento del consumidor.
+      "Znajduje nisze, w których codzienne mikro-tarcia tworzą okazje biznesowe.",
+    prompt: `Działaj jak analityk zachowań konsumenckich.
 
-Te doy:
-- Un público objetivo: [describe].
-- El contexto donde interactúan: [hogar, trabajo, gimnasio, estudios, etc.].
+Podaję:
+- Grupę docelową: [opisz].  
+- Kontekst interakcji: [dom, praca, siłownia, nauka itd.].
 
-Haz lo siguiente:
-1) Identifica 20 “momentos de fricción” diarios (pequeños dolores repetidos).  
-2) Convierte cada fricción en un nicho potencial y describe:
-   - Qué causa la fricción.
-   - Qué solución buscan inconscientemente.
-   - Qué tipo de producto/servicio podría resolverlo.
-3) Selecciona las 3 fricciones con mayor urgencia emocional y monetización inmediata.`,
+Zrób:
+1) Zidentyfikuj 20 codziennych „momentów tarcia” (małe, powtarzalne bóle).  
+2) Zamień każde tarcie w potencjalną niszę i opisz:
+   - Co powoduje tarcie.
+   - Jakiego rozwiązania szukają nieświadomie.
+   - Jaki typ produktu/usługi mógłby to rozwiązać.
+3) Wybierz 3 tarcia o największej pilności emocjonalnej i natychmiastowej monetyzacji.`,
     thumbnail: "",
   },
   {
     id: "nicho-022",
     title:
-      "Nicho por necesidad de transformación rápida (Fast-Transformation Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+      "Nisza wynikająca z potrzeby szybkiej transformacji (Fast-Transformation Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Identifica nichos donde las personas necesitan cambios rápidos y medibles.",
-    prompt: `Te doy un área general: [ej: salud, dinero, productividad].
+      "Identyfikuje nisze, w których ludzie potrzebują szybkich i mierzalnych zmian.",
+    prompt: `Podaję ogólny obszar: [np. zdrowie, pieniądze, produktywność].
 
-Haz:
-1) Encuentra 10 subnichos donde el cliente necesite resultados rápidos.
-2) Explica para cada uno:
-   - Qué resultado rápido quieren.
-   - Qué sienten si no lo logran.
-   - Qué oferta express encaja (48–72 horas).
-3) Elige el nicho más “medible” (con KPIs claros) y diseña 1 servicio ultrarrápido.`,
+Zrób:
+1) Znajdź 10 subnisz, w których klient potrzebuje szybkich rezultatów.
+2) Dla każdej wyjaśnij:
+   - Jaki szybki rezultat chcą uzyskać.
+   - Co czują, jeśli im się to nie udaje.
+   - Jaka oferta ekspresowa pasuje (48–72 godziny).
+3) Wybierz najbardziej „mierzalną” niszę (z jasnymi KPI) i zaprojektuj 1 ultraszybką usługę.`,
     thumbnail: "",
   },
   {
     id: "nicho-023",
     title:
-      "Nicho basado en micro-identidades (Personas que se autodefinen por un rasgo específico)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+      "Nisza oparta na mikrotożsamościach (osoby, które definiują się przez konkretną cechę)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos basados en cómo las personas se describen a sí mismas.",
-    prompt: `Te doy un interés general: [tema].
+      "Znajduje nisze na podstawie tego, jak ludzie opisują samych siebie.",
+    prompt: `Podaję ogólne zainteresowanie: [temat].
 
-Tareas:
-1) Genera 15 micro-identidades relacionadas (ej: “soy minimalista”, “soy friki de la productividad”).  
-2) Convierte cada micro-identidad en un nicho explicando:
-   - Valores.
-   - Objetivos.
-   - Dolores internos.
-   - Producto ideal.
-3) Selecciona las 3 micro-identidades con más probabilidad de viralizar.`,
+Zadania:
+1) Wygeneruj 15 powiązanych mikrotożsamości (np. „jestem minimalistą”, „jestem świrem od produktywności”).  
+2) Zamień każdą mikrotożsamość w niszę, opisując:
+   - Wartości.
+   - Cele.
+   - Wewnętrzne bóle.
+   - Idealny produkt.
+3) Wybierz 3 mikrotożsamości z największym potencjałem viralowym.`,
     thumbnail: "",
   },
   {
     id: "nicho-024",
-    title: "Nicho basado en cambios Macro (MACRO Shock Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na zmianach makro (MACRO Shock Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Identifica nichos creados por cambios económicos, sociales o culturales globales.",
-    prompt: `Actúa como analista macroeconómico.
+      "Identyfikuje nisze tworzone przez globalne zmiany ekonomiczne, społeczne lub kulturowe.",
+    prompt: `Działaj jak analityk makroekonomiczny.
 
-Te doy una MACRO fuerza:
-[economía, IA, teletrabajo, inflación, regulación, cultura, nuevas tecnologías].
+Podaję siłę MAKRO:
+[gospodarka, AI, praca zdalna, inflacja, regulacje, kultura, nowe technologie].
 
-Haz:
-1) Identifica 12 nichos que nacen como reacción a esa MACRO fuerza.  
-2) Para cada nicho explica:
-   - Qué comportamiento cambió.
-   - Qué dolor nuevo apareció.
-   - Qué producto necesita el mercado ahora.
-3) Elige los 2 nichos más estables a 5 años.`,
+Zrób:
+1) Zidentyfikuj 12 nisz, które powstają jako reakcja na tę siłę MAKRO.  
+2) Dla każdej niszy wyjaśnij:
+   - Jakie zachowanie się zmieniło.
+   - Jaki nowy ból się pojawił.
+   - Jakiego produktu rynek potrzebuje teraz.
+3) Wybierz 2 nisze najbardziej stabilne w perspektywie 5 lat.`,
     thumbnail: "",
   },
   {
     id: "nicho-025",
     title:
-      "Nicho de alto ticket basado en complejidad (High-Complexity Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+      "Wysokobudżetowa nisza oparta na złożoności (High-Complexity Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Identifica nichos donde el cliente paga caro por reducir complejidad.",
-    prompt: `Te doy un área profesional: [ej. contabilidad, automatización, ventas enterprise].
+      "Identyfikuje nisze, w których klient płaci dużo za redukcję złożoności.",
+    prompt: `Podaję obszar zawodowy: [np. księgowość, automatyzacja, sprzedaż enterprise].
 
-Haz:
-1) Encuentra 10 nichos donde la complejidad es la principal razón de compra.
-2) Para cada nicho detalla:
-   - Qué hace difícil el problema.
-   - Qué errores cometen solos.
-   - Por qué pagarían un ticket alto.
-3) Propón 3 productos premium basados en “te lo hago fácil”.`,
+Zrób:
+1) Znajdź 10 nisz, w których złożoność jest głównym powodem zakupu.
+2) Dla każdej niszy opisz:
+   - Co czyni problem trudnym.
+   - Jakie błędy popełniają, gdy działają sami.
+   - Dlaczego zapłaciliby wysoki ticket.
+3) Zaproponuj 3 produkty premium oparte na „zrobię to łatwo”.`,
     thumbnail: "",
   },
   {
     id: "nicho-026",
-    title: "Nicho basado en rituales diarios (Daily Ritual Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Usa rutinas diarias para encontrar nichos hiperconsistentes.",
-    prompt: `Te doy una actividad diaria: [ej. dormir, estudiar, entrenar, comer].
+    title: "Nisza oparta na codziennych rytuałach (Daily Ritual Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Wykorzystuje codzienne rutyny do znajdowania hiper-stałych nisz.",
+    prompt: `Podaję codzienną aktywność: [np. sen, nauka, trening, jedzenie].
 
-Haz:
-1) Identifica 12 subnichos dentro de esa rutina diaria.
-2) Para cada subnicho responde:
-   - Qué quieren optimizar.
-   - Qué les frustra.
-   - Qué microproducto se puede vender.
-3) Dame los 2 nichos con mejor potencial de recurrencia.`,
+Zrób:
+1) Zidentyfikuj 12 subnisz w ramach tej rutyny.
+2) Dla każdej subniszy odpowiedz:
+   - Co chcą zoptymalizować.
+   - Co ich frustruje.
+   - Jaki mikroprodukt można sprzedać.
+3) Podaj 2 nisze z najlepszym potencjałem powtarzalności.`,
     thumbnail: "",
   },
   {
     id: "nicho-027",
-    title: "Nicho basado en estados emocionales (Emotional State Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Usa emociones dominantes como puerta de entrada a un nicho.",
-    prompt: `Te doy un estado emocional dominante:
-[ansiedad, estrés, frustración, incertidumbre, motivación, aburrimiento].
+    title: "Nisza oparta na stanach emocjonalnych (Emotional State Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Wykorzystuje dominujące emocje jako wejście do niszy.",
+    prompt: `Podaję dominujący stan emocjonalny:
+[lęk, stres, frustracja, niepewność, motywacja, nuda].
 
-Haz:
-1) Encuentra 10 nichos donde ese estado emocional afecta decisiones de compra.
-2) Explica para cada nicho:
-   - El trigger emocional.
-   - La consecuencia práctica.
-   - El producto que aliviaría el estado.
-3) Elige el nicho con mejor urgencia emocional.`,
+Zrób:
+1) Znajdź 10 nisz, w których ten stan emocjonalny wpływa na decyzje zakupowe.
+2) Dla każdej niszy wyjaśnij:
+   - Emocjonalny trigger.
+   - Praktyczną konsekwencję.
+   - Produkt, który złagodziłby ten stan.
+3) Wybierz niszę z najlepszą pilnością emocjonalną.`,
     thumbnail: "",
   },
   {
     id: "nicho-028",
-    title: "Nicho según tribus de consumo (Consumption Tribe Niches)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza według plemion konsumpcyjnych (Consumption Tribe Niches)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Clasifica nichos basados en los hábitos de consumo de las personas.",
-    prompt: `Te doy un mercado general: [tema general].
+      "Klasyfikuje nisze na podstawie nawyków konsumpcyjnych ludzi.",
+    prompt: `Podaję ogólny rynek: [ogólny temat].
 
-Haz:
-1) Clasifica 12 “tribus de consumo” dentro de ese mercado (ej. compradores impulsivos, compradores analíticos, compradores snipers).
-2) Para cada tribu explica:
-   - Cómo compran.
-   - Qué valoran.
-   - Qué producto podría encajar.
-3) Dame los 3 nichos tribales con más LTV.`,
+Zrób:
+1) Sklasyfikuj 12 „plemion konsumpcyjnych” w ramach tego rynku (np. kupujący impulsywnie, analityczni, „snajperzy”).  
+2) Dla każdego plemienia wyjaśnij:
+   - Jak kupują.
+   - Co cenią.
+   - Jaki produkt mógłby pasować.
+3) Podaj 3 plemienne nisze z najwyższym LTV.`,
     thumbnail: "",
   },
   {
     id: "nicho-029",
     title:
-      "Nicho basado en objetivos imposibles sin guía (‘Guide-Dependent Niches’)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Identifica nichos donde la gente no puede avanzar sola.",
-    prompt: `Te doy un objetivo grande: [ej. bajar 20kg, escalar un negocio, cambiar de carrera].
+      "Nisza oparta na celach niemożliwych bez przewodnika („Guide-Dependent Niches”)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Identyfikuje nisze, w których ludzie nie są w stanie ruszyć sami.",
+    prompt: `Podaję duży cel: [np. schudnąć 20 kg, skalować biznes, zmienić karierę].
 
-Haz:
-1) Identifica 10 nichos donde el cliente NECESITA un guía.
-2) Para cada nicho:
-   - Qué no pueden hacer solos.
-   - Qué errores cometen.
-   - Qué transformación buscan.
-3) Dame 2 nichos con mayor dependencia positiva (quieren guía continua).`,
+Zrób:
+1) Wskaż 10 nisz, w których klient POTRZEBUJE przewodnika.
+2) Dla każdej niszy:
+   - Czego nie potrafią zrobić sami.
+   - Jakie błędy popełniają.
+   - Jakiej transformacji szukają.
+3) Podaj 2 nisze o największej pozytywnej zależności (chcą stałego prowadzenia).`,
     thumbnail: "",
   },
   {
     id: "nicho-030",
-    title: "Nicho basado en transiciones profesionales (Career Shift Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary:
-      "Encuentra nichos basados en profesionales que quieren cambiar de carrera.",
-    prompt: `Te doy:
-- Profesión actual: [ej. arquitecto].
-- Carrera deseada: [ej. marketing digital].
+    title: "Nisza oparta na przejściach zawodowych (Career Shift Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Znajduje nisze oparte na profesjonalistach, którzy chcą zmienić karierę.",
+    prompt: `Podaję:
+- Obecny zawód: [np. architekt].  
+- Docelową karierę: [np. marketing cyfrowy].
 
-Haz:
-1) Identifica 12 nichos de transición profesional.
-2) Para cada nicho explica:
-   - Qué habilidades son transferibles.
-   - Qué problemas enfrentan.
-   - Qué oferta “puente” podrías vender.
-3) Elige las 2 transiciones con mejor monetización.`,
+Zrób:
+1) Zidentyfikuj 12 nisz przejścia zawodowego.
+2) Dla każdej niszy wyjaśnij:
+   - Jakie umiejętności są transferowalne.
+   - Z jakimi problemami się mierzą.
+   - Jaką ofertę „pomostową” możesz sprzedać.
+3) Wybierz 2 przejścia z najlepszą monetyzacją.`,
     thumbnail: "",
   },
   {
     id: "nicho-031",
-    title: "Nicho basado en recursos limitados (Resource-Constrained Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Encuentra nichos donde el cliente tiene restricciones fuertes.",
-    prompt: `Elige un tipo de restricción:
-[tiempo, dinero, herramientas, conocimientos].
+    title: "Nisza oparta na ograniczonych zasobach (Resource-Constrained Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Znajduje nisze, w których klient ma silne ograniczenia.",
+    prompt: `Wybierz typ ograniczenia:
+[czas, pieniądze, narzędzia, wiedza].
 
-Haz:
-1) Identifica 10 nichos basados en esa restricción.
-2) Explica para cada nicho:
-   - Qué no pueden hacer.
-   - Qué sí pueden hacer.
-   - Qué microproducto les permitiría avanzar.
-3) Dame 1 nicho “hackeable” (con progreso rápido).`,
+Zrób:
+1) Zidentyfikuj 10 nisz opartych na tym ograniczeniu.
+2) Dla każdej niszy wyjaśnij:
+   - Czego nie mogą zrobić.
+   - Co mogą zrobić.
+   - Jaki mikroprodukt pozwoli im ruszyć naprzód.
+3) Podaj 1 niszę „hackowalną” (z szybkim postępem).`,
     thumbnail: "",
   },
   {
     id: "nicho-032",
-    title: "Nicho usando necesidades de estatus (Status Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza wykorzystująca potrzeby statusu (Status Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde el cliente compra por estatus o reconocimiento.",
-    prompt: `Te doy un mercado general: [tema].
+      "Znajduje nisze, w których klienci kupują dla statusu lub uznania.",
+    prompt: `Podaję ogólny rynek: [temat].
 
-Haz:
-1) Identifica 12 nichos donde el driver principal sea el estatus.
-2) Para cada nicho explica:
-   - Qué estatus buscan.
-   - Qué señales visibles quieren mostrar.
-   - Qué producto vendería bien.
-3) Elige 2 nichos de estatus silencioso (alto valor, baja visibilidad).`,
+Zrób:
+1) Zidentyfikuj 12 nisz, w których głównym driverem jest status.
+2) Dla każdej niszy wyjaśnij:
+   - Jakiego statusu szukają.
+   - Jakie widoczne sygnały chcą pokazać.
+   - Jaki produkt sprzedawałby się dobrze.
+3) Wybierz 2 nisze „cichego statusu” (wysoka wartość, niska widoczność).`,
     thumbnail: "",
   },
   {
     id: "nicho-033",
-    title: "Nicho basado en simplificar vida (Life-Simplification Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na upraszczaniu życia (Life-Simplification Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Detecta nichos donde el cliente paga por orden, claridad y control.",
-    prompt: `Te doy:
-- Un área de caos: [ej. finanzas, tiempo, tareas, casa].
+      "Wykrywa nisze, w których klient płaci za porządek, jasność i kontrolę.",
+    prompt: `Podaję:
+- Obszar chaosu: [np. finanse, czas, zadania, dom].
 
-Haz:
-1) Encuentra 15 nichos de simplificación.
-2) Para cada nicho:
-   - Qué desorden enfrentan.
-   - Qué resultado mínimo buscan.
-   - Qué formato de producto encaja.
-3) Dame 1 nicho con mejor retención.`,
+Zrób:
+1) Znajdź 15 nisz upraszczania.
+2) Dla każdej niszy:
+   - Z jakim bałaganem się mierzą.
+   - Jaki minimalny rezultat chcą uzyskać.
+   - Jaki format produktu pasuje.
+3) Podaj 1 niszę z najlepszą retencją.`,
     thumbnail: "",
   },
   {
     id: "nicho-034",
-    title: "Nicho basado en micro-hábitos fallidos (Habit Failure Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Encuentra nichos donde personas fallan al crear un hábito.",
-    prompt: `Te doy un hábito común: [ej. leer, ahorrar, entrenar].
+    title: "Nisza oparta na nieudanych mikro-nawykach (Habit Failure Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Znajduje nisze, w których ludzie zawodzą przy budowaniu nawyku.",
+    prompt: `Podaję powszechny nawyk: [np. czytanie, oszczędzanie, trening].
 
-Haz:
-1) Identifica 12 nichos basados en personas que fallan al crear ese hábito.
-2) Explica para cada uno:
-   - Por qué fallan.
-   - Qué necesitan realmente.
-   - Qué producto/servicio encaja.
-3) Dame los 2 nichos con más urgencia emocional.`,
+Zrób:
+1) Zidentyfikuj 12 nisz opartych na osobach, które nie potrafią zbudować tego nawyku.
+2) Dla każdej wyjaśnij:
+   - Dlaczego zawodzą.
+   - Czego naprawdę potrzebują.
+   - Jaki produkt/usługa pasuje.
+3) Podaj 2 nisze o największej pilności emocjonalnej.`,
     thumbnail: "",
   },
   {
     id: "nicho-035",
-    title: "Nicho basado en metas pospuestas (Postponed Goal Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Detecta nichos donde la gente aplaza metas importantes por años.",
-    prompt: `Te doy una meta pospuesta: [ej. escribir un libro].
+    title: "Nisza oparta na odkładanych celach (Postponed Goal Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Wykrywa nisze, w których ludzie odkładają ważne cele latami.",
+    prompt: `Podaję odkładany cel: [np. napisać książkę].
 
-Haz:
-1) Encontrar 10 nichos basados en metas aplazadas.
-2) Para cada nicho:
-   - Razón de dilación.
-   - Dolor acumulado.
-   - Producto para activar progreso.
-3) Recomienda el nicho con mejor transformación emocional.`,
+Zrób:
+1) Znajdź 10 nisz opartych na odkładanych celach.
+2) Dla każdej niszy:
+   - Powód zwlekania.
+   - Narastający ból.
+   - Produkt, który uruchomi postęp.
+3) Zarekomenduj niszę z najlepszą transformacją emocjonalną.`,
     thumbnail: "",
   },
   {
     id: "nicho-036",
-    title: "Nicho ‘zero to one’ (primer paso indispensable)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Encuentra nichos cuyo principal obstáculo es dar el primer paso.",
-    prompt: `Te doy un objetivo: [ej. emprender].
+    title: "Nisza „zero to one” (niezbędny pierwszy krok)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Znajduje nisze, których główną przeszkodą jest zrobienie pierwszego kroku.",
+    prompt: `Podaję cel: [np. rozpocząć biznes].
 
-Haz:
-1) Identifica 12 nichos donde el bloqueo está en el primer paso.
-2) Para cada nicho:
-   - Qué bloquea el inicio.
-   - Qué microacción desbloquea.
-   - Qué producto vendible acelera el paso 1.
-3) Selecciona 1 nicho con el paso inicial más difícil.`,
+Zrób:
+1) Zidentyfikuj 12 nisz, w których blokada dotyczy pierwszego kroku.
+2) Dla każdej niszy:
+   - Co blokuje start.
+   - Jaka mikroakcja odblokowuje.
+   - Jaki sprzedawalny produkt przyspiesza krok 1.
+3) Wybierz 1 niszę, w której pierwszy krok jest najtrudniejszy.`,
     thumbnail: "",
   },
   {
     id: "nicho-037",
-    title: "Nicho basado en segmentación psicográfica avanzada",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Usa motivadores profundos para definir un nicho más preciso.",
-    prompt: `Te doy un público amplio: [ej. freelancers].
+    title: "Nisza oparta na zaawansowanej segmentacji psychograficznej",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Wykorzystuje głębokie motywatory, aby precyzyjniej zdefiniować niszę.",
+    prompt: `Podaję szeroką grupę: [np. freelancerzy].
 
-Haz:
-1) Clasifícalos por motivadores:
-   - Logro  
-   - Libertad  
-   - Estabilidad  
-   - Conexión  
-   - Reconocimiento  
-2) Crea 10 nichos psicográficos.
-3) Para cada uno describe:
-   - Resultado deseado.
-   - Miedos latentes.
-   - Producto ideal.
-4) Dame 2 nichos con mayor “alineación emocional”.`,
+Zrób:
+1) Sklasyfikuj ich według motywatorów:
+   - Osiągnięcia  
+   - Wolność  
+   - Stabilność  
+   - Relacje  
+   - Uznanie  
+2) Stwórz 10 nisz psychograficznych.
+3) Dla każdej opisz:
+   - Pożądany rezultat.
+   - Ukryte lęki.
+   - Idealny produkt.
+4) Podaj 2 nisze o największym „dopasowaniu emocjonalnym”.`,
     thumbnail: "",
   },
   {
     id: "nicho-038",
-    title: "Nicho basado en fallas del mercado informal",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na błędach rynku nieformalnego",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde la oferta informal no da resultados reales.",
-    prompt: `Te doy un área donde abunda la informalidad: [tema].
+      "Znajduje nisze, w których oferta nieformalna nie daje realnych rezultatów.",
+    prompt: `Podaję obszar, w którym dominuje nieformalność: [temat].
 
-Haz:
-1) Identifica 10 fallas del mercado informal.
-2) Convierte cada falla en un nicho formalizable.
-3) Explica qué producto se debe ofrecer para captar la demanda insatisfecha.
-4) Dame un nicho con potencial de marca premium.`,
+Zrób:
+1) Zidentyfikuj 10 błędów rynku nieformalnego.
+2) Zamień każdy błąd w niszę, którą da się sformalizować.
+3) Wyjaśnij, jaki produkt trzeba zaoferować, aby przejąć niezaspokojony popyt.
+4) Podaj niszę z potencjałem na markę premium.`,
     thumbnail: "",
   },
   {
     id: "nicho-039",
-    title: "Nicho basado en misiones personales (Life Mission Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Usa misiones de vida como motor para definir un nicho.",
-    prompt: `Te doy una misión personal: [ej. ayudar a la gente a encontrar propósito].
+    title: "Nisza oparta na misjach życiowych (Life Mission Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Wykorzystuje misję życiową jako motor do zdefiniowania niszy.",
+    prompt: `Podaję osobistą misję: [np. pomagać ludziom znaleźć sens].
 
-Haz:
-1) Encuentra 10 nichos alineados con esa misión.
-2) Para cada nicho:
-   - Impacto deseado.
-   - Problema raíz.
-   - Producto ideal para transformar vidas.
-3) Elige un nicho con mayor satisfacción emocional.`,
+Zrób:
+1) Znajdź 10 nisz zgodnych z tą misją.
+2) Dla każdej niszy:
+   - Pożądany wpływ.
+   - Problem źródłowy.
+   - Idealny produkt do transformacji życia.
+3) Wybierz niszę o największej satysfakcji emocjonalnej.`,
     thumbnail: "",
   },
   {
     id: "nicho-040",
-    title: "Nicho basado en evolución de roles sociales (Role Shift Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na ewolucji ról społecznych (Role Shift Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Detecta nichos creados por cambios en roles modernos (padres, parejas, trabajadores).",
-    prompt: `Elige un rol en evolución:  
-[padres modernos, parejas modernas, trabajadores remotos, estudiantes digitales].
+      "Wykrywa nisze tworzone przez zmiany w nowoczesnych rolach (rodzice, pary, pracownicy).",
+    prompt: `Wybierz ewoluującą rolę:  
+[nowocześni rodzice, nowoczesne pary, pracownicy zdalni, cyfrowi studenci].
 
-Haz:
-1) Identifica 12 nichos creados por esa evolución.
-2) Para cada nicho:
-   - Necesidad nueva.
-   - Problema nuevo.
-   - Producto ideal.
-3) Dame los 2 nichos con mayor crecimiento.`,
+Zrób:
+1) Zidentyfikuj 12 nisz powstałych przez tę ewolucję.
+2) Dla każdej niszy:
+   - Nowa potrzeba.
+   - Nowy problem.
+   - Idealny produkt.
+3) Podaj 2 nisze o największym wzroście.`,
     thumbnail: "",
   },
   {
     id: "nicho-041",
-    title:
-      "Nicho basado en microcompetencias ignoradas (Skill Fragment Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na ignorowanych mikrokompetencjach (Skill Fragment Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Identifica nichos rentables basados en habilidades microscópicas, no en profesiones completas.",
-    prompt: `Actúa como consultor experto en segmentación de habilidades.
+      "Identyfikuje dochodowe nisze oparte na mikroumiejętnościach, a nie na całych profesjach.",
+    prompt: `Działaj jak konsultant – ekspert w segmentacji umiejętności.
 
-Te doy 1 profesión o habilidad amplia: [ej. diseño gráfico].
+Podaję 1 zawód lub szeroką umiejętność: [np. projektowanie graficzne].
 
-Haz:
-1) Divide la habilidad en 15 microcompetencias (ej. composición, contraste, tipografía, layouts, iconografía).
-2) Convierte cada microcompetencia en un nicho explicando:
-   - Qué personas necesitan esa microcompetencia.
-   - Qué problema específico les resuelve.
-   - Qué producto digital de bajo esfuerzo podrías vender.
-3) Destaca 3 nichos rápidos para monetizar en menos de 7 días.`,
+Zrób:
+1) Podziel umiejętność na 15 mikrokompetencji (np. kompozycja, kontrast, typografia, layouty, ikonografia).
+2) Zamień każdą mikrokompetencję w niszę, wyjaśniając:
+   - Kto potrzebuje tej mikrokompetencji.
+   - Jaki konkretny problem rozwiązuje.
+   - Jaki niskonakładowy produkt cyfrowy mógłbyś sprzedać.
+3) Wyróżnij 3 nisze do szybkiej monetyzacji w mniej niż 7 dni.`,
     thumbnail: "",
   },
   {
     id: "nicho-042",
-    title: "Nicho basado en microtransformaciones de 10 minutos",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na 10-minutowych mikrotransformacjach",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde las personas buscan mejoras instantáneas en poco tiempo.",
-    prompt: `Te doy un área: [ej. productividad].
+      "Znajduje nisze, w których ludzie szukają natychmiastowych ulepszeń w krótkim czasie.",
+    prompt: `Podaję obszar: [np. produktywność].
 
-Haz:
-1) Identifica 12 microtransformaciones que puedan lograrse en 5–10 minutos.
-2) Convierte cada microtransformación en un nicho describiendo:
-   - Punto de dolor inicial.
-   - Microresultado inmediato.
-   - Idea de producto (checklist, script, automatización, rutina).
-3) Dame el nicho con más deseo de “gratificación instantánea”.`,
+Zrób:
+1) Zidentyfikuj 12 mikrotransformacji możliwych do osiągnięcia w 5–10 minut.
+2) Zamień każdą mikrotransformację w niszę, opisując:
+   - Punkt bólu na starcie.
+   - Natychmiastowy mikrorezultat.
+   - Pomysł na produkt (checklista, skrypt, automatyzacja, rutyna).
+3) Podaj niszę z największą potrzebą „natychmiastowej gratyfikacji”.`,
     thumbnail: "",
   },
   {
     id: "nicho-043",
-    title: "Nicho basado en comportamientos repetitivos no optimizados",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na powtarzalnych, nieoptymalnych zachowaniach",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Busca procesos repetitivos donde las personas pierden tiempo y dinero.",
-    prompt: `Te doy un público objetivo: [ej. creadores de contenido].
+      "Szuka powtarzalnych procesów, w których ludzie tracą czas i pieniądze.",
+    prompt: `Podaję grupę docelową: [np. twórcy treści].
 
-Haz:
-1) Identifica 15 procesos repetitivos ineficientes.
-2) Para cada proceso:
-   - Qué desperdician (tiempo, energía, recursos).
-   - Qué quieren lograr.
-   - Qué solución minimalista podrías vender.
-3) Selecciona los 3 nichos con mayor potencial de automatización.`,
+Zrób:
+1) Zidentyfikuj 15 nieefektywnych procesów powtarzalnych.
+2) Dla każdego procesu:
+   - Co marnują (czas, energię, zasoby).
+   - Co chcą osiągnąć.
+   - Jaki minimalistyczny „fix” mógłbyś sprzedać.
+3) Wybierz 3 nisze o największym potencjale automatyzacji.`,
     thumbnail: "",
   },
   {
     id: "nicho-044",
-    title: "Nicho centrado en decisiones difíciles (Decision Fatigue Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza skoncentrowana na trudnych decyzjach (Decision Fatigue Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde las personas pagan por delegar decisiones.",
-    prompt: `Actúa como consultor especializado en aliviar fatiga decisional.
+      "Znajduje nisze, w których ludzie płacą za delegowanie decyzji.",
+    prompt: `Działaj jak konsultant specjalizujący się w redukowaniu zmęczenia decyzyjnego.
 
-Te doy un área: [ej. fitness, inversiones, contenido].
+Podaję obszar: [np. fitness, inwestycje, treści].
 
-Haz:
-1) Lista 12 decisiones que la gente odia tomar.
-2) Convierte cada decisión en un nicho explicando:
-   - Qué causa la fatiga.
-   - Cómo ayudarías a decidir.
-   - Qué producto o servicio podrías vender.
-3) Indica el nicho con ticket potencial más alto.`,
+Zrób:
+1) Wypisz 12 decyzji, których ludzie nienawidzą podejmować.
+2) Zamień każdą decyzję w niszę, wyjaśniając:
+   - Co powoduje zmęczenie.
+   - Jak pomógłbyś podjąć decyzję.
+   - Jaki produkt/usługę mógłbyś sprzedać.
+3) Wskaż niszę z najwyższym potencjalnym ticketem.`,
     thumbnail: "",
   },
   {
     id: "nicho-045",
-    title: "Nicho basado en rechazo a opciones populares (Anti-Pop Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na odrzucaniu popularnych opcji (Anti-Pop Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde la gente busca ‘lo contrario’ a lo que está de moda.",
-    prompt: `Te doy una tendencia popular: [ej. minimalismo].
+      "Znajduje nisze, w których ludzie szukają „przeciwieństwa” tego, co jest modne.",
+    prompt: `Podaję popularny trend: [np. minimalizm].
 
-Haz:
-1) Identifica 10 grupos que rechazan esa tendencia (contra-nicho).
-2) Para cada contra-nicho:
-   - Qué detestan de lo popular.
-   - Qué alternativa buscan.
-   - Qué producto encajaría con su identidad opuesta.
-3) Destaca el contra-nicho más monetizable.`,
+Zrób:
+1) Zidentyfikuj 10 grup, które odrzucają ten trend (kontr-nisza).
+2) Dla każdej kontr-niszy:
+   - Czego nienawidzą w tym, co popularne.
+   - Jakiej alternatywy szukają.
+   - Jaki produkt pasowałby do ich przeciwnej tożsamości.
+3) Wyróżnij najbardziej monetyzowalną kontr-niszę.`,
     thumbnail: "",
   },
   {
     id: "nicho-046",
-    title: "Nicho basado en miedo a quedarse atrás (FOMO Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na strachu przed pozostaniem w tyle (FOMO Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Detecta nichos donde el motor de compra es miedo a perder oportunidades.",
-    prompt: `Te doy un sector: [ej. IA].
+      "Wykrywa nisze, w których motorem zakupu jest lęk przed utratą okazji.",
+    prompt: `Podaję sektor: [np. AI].
 
-Haz:
-1) Identifica 10 nichos impulsados por FOMO.
-2) Para cada nicho explica:
-   - Qué temen perder.
-   - Cómo se comportan.
-   - Qué producto o curso comprarían para reducir ese miedo.
-3) Recomienda el nicho con mayor urgencia anual.`,
+Zrób:
+1) Zidentyfikuj 10 nisz napędzanych FOMO.
+2) Dla każdej niszy wyjaśnij:
+   - Czego boją się, że stracą.
+   - Jak się zachowują.
+   - Jaki produkt lub kurs kupiliby, by zmniejszyć ten lęk.
+3) Zarekomenduj niszę o największej rocznej pilności.`,
     thumbnail: "",
   },
   {
     id: "nicho-047",
-    title: "Nicho en mercados desatendidos por lenguaje o cultura",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza na rynkach niedoobsługiwanych przez język lub kulturę",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde falta contenido ajustado a idioma, región o cultura.",
-    prompt: `Te doy un mercado global: [ej. productividad].
+      "Znajduje nisze, w których brakuje treści dopasowanych do języka, regionu lub kultury.",
+    prompt: `Podaję globalny rynek: [np. produktywność].
 
-Haz:
-1) Encuentra 10 subnichos desatendidos en regiones específicas.
-2) Para cada nicho:
-   - Qué problema cultural tienen.
-   - Qué estilo de comunicación necesitan.
-   - Qué producto adaptado les serviría.
-3) Destaca dos nichos con baja competencia local.`,
+Zrób:
+1) Znajdź 10 niedoobsługiwanych subnisz w konkretnych regionach.
+2) Dla każdej niszy:
+   - Jaki mają problem kulturowy.
+   - Jakiego stylu komunikacji potrzebują.
+   - Jaki dopasowany produkt byłby dla nich pomocny.
+3) Wyróżnij dwie nisze o niskiej lokalnej konkurencji.`,
     thumbnail: "",
   },
   {
     id: "nicho-048",
-    title: "Nicho basado en nuevas herramientas (Tool Adoption Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na nowych narzędziach (Tool Adoption Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Crea nichos a partir de nuevas herramientas que la gente no sabe usar.",
-    prompt: `Te doy una herramienta o plataforma nueva: [nombre].
+      "Buduje nisze wokół nowych narzędzi, których ludzie nie potrafią używać.",
+    prompt: `Podaję nowe narzędzie lub platformę: [nazwa].
 
-Haz:
-1) Identifica 12 grupos que pueden usarla pero no saben cómo.
-2) Para cada subnicho indica:
-   - Qué quieren lograr con la herramienta.
-   - Qué les impide avanzar.
-   - Qué producto/guía rápida podrías venderles.
-3) Dame el nicho con curva de aprendizaje más alta (mejor monetización).`,
+Zrób:
+1) Zidentyfikuj 12 grup, które mogą z niego korzystać, ale nie wiedzą jak.
+2) Dla każdej subniszy wskaż:
+   - Co chcą osiągnąć dzięki narzędziu.
+   - Co blokuje ich postęp.
+   - Jaki produkt/szybką instrukcję mógłbyś im sprzedać.
+3) Podaj niszę o największej krzywej uczenia (najlepsza monetyzacja).`,
     thumbnail: "",
   },
   {
     id: "nicho-049",
-    title: "Nicho basado en señales de frustración en redes",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na sygnałach frustracji w social mediach",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos a partir de patrones de quejas repetidas en redes sociales.",
-    prompt: `Te doy un tema general: [ej. estudiar].
+      "Znajduje nisze na podstawie wzorców powtarzających się skarg w mediach społecznościowych.",
+    prompt: `Podaję ogólny temat: [np. nauka].
 
-Haz:
-1) Identifica 15 frustraciones que se repiten en redes.
-2) Convierte cada frustración en nicho con:
-   - Problema real.
-   - Deseo oculto.
-   - Producto ideal.
-3) Dame el nicho con mayor volumen de conversación.`,
+Zrób:
+1) Zidentyfikuj 15 frustracji, które powtarzają się w social mediach.
+2) Zamień każdą frustrację w niszę z:
+   - Realnym problemem.
+   - Ukrytym pragnieniem.
+   - Idealnym produktem.
+3) Podaj niszę o największym wolumenie rozmów.`,
     thumbnail: "",
   },
   {
     id: "nicho-050",
-    title: "Nicho basado en sistemas rotos (Broken System Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Encuentra nichos donde un sistema tradicional ya no funciona.",
-    prompt: `Te doy un sistema tradicional: [ej. educación, búsqueda de empleo].
+    title: "Nisza oparta na zepsutych systemach (Broken System Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Znajduje nisze, w których tradycyjny system już nie działa.",
+    prompt: `Podaję tradycyjny system: [np. edukacja, szukanie pracy].
 
-Haz:
-1) Identifica 10 maneras en que ese sistema está roto.
-2) Convierte cada fractura en un nicho específico.
-3) Explica qué producto podrías crear para reemplazar o mejorar el sistema.
-4) Elige el nicho con mayor necesidad urgente.`,
+Zrób:
+1) Wskaż 10 sposobów, w jakie ten system jest „zepsuty”.
+2) Zamień każdą „pęknięcie” w konkretną niszę.
+3) Wyjaśnij, jaki produkt możesz stworzyć, aby zastąpić lub ulepszyć system.
+4) Wybierz niszę o najbardziej pilnej potrzebie.`,
     thumbnail: "",
   },
   {
     id: "nicho-051",
-    title: "Nicho para personas enfocadas en resultados visibles",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza dla osób skupionych na widocznych rezultatach",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Identifica nichos donde el cliente quiere resultados tangibles que pueda medir fácilmente.",
-    prompt: `Te doy un sector: [ej. salud, dinero, habilidades].
+      "Identyfikuje nisze, w których klient chce namacalnych rezultatów, łatwych do zmierzenia.",
+    prompt: `Podaję sektor: [np. zdrowie, pieniądze, umiejętności].
 
-Haz:
-1) Encuentra 12 nichos orientados a resultados visibles.
-2) Para cada nicho indica:
-   - Resultado tangible exacto.
-   - Tiempo para lograrlo.
-   - Tipo de producto perfeito.
-3) Dame el nicho con mejor “antes/después” potencial.`,
+Zrób:
+1) Znajdź 12 nisz nastawionych na widoczne rezultaty.
+2) Dla każdej niszy wskaż:
+   - Dokładny, namacalny rezultat.
+   - Czas potrzebny, aby go osiągnąć.
+   - Idealny typ produktu.
+3) Podaj niszę z najlepszym potencjałem „przed/po”.`,
     thumbnail: "",
   },
   {
     id: "nicho-052",
-    title: "Nicho basado en frustraciones con herramientas existentes",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na frustracjach z istniejącymi narzędziami",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Transforma fricciones con apps o herramientas en nichos específicos.",
-    prompt: `Te doy herramientas que usa tu público: [lista].
+      "Zamienia tarcia z aplikacjami lub narzędziami w konkretne nisze.",
+    prompt: `Podaję narzędzia, których używa twoja grupa: [lista].
 
-Haz:
-1) Identifica 10 frustraciones por herramienta.
-2) Para cada frustración:
-   - Qué no pueden hacer.
-   - Qué esperan.
-   - Qué guía/producto podrías crear.
-3) Selecciona el nicho con mayor demanda latente.`,
+Zrób:
+1) Zidentyfikuj 10 frustracji dla każdego narzędzia.
+2) Dla każdej frustracji:
+   - Czego nie potrafią zrobić.
+   - Czego oczekują.
+   - Jaką instrukcję/produkt możesz stworzyć.
+3) Wybierz niszę z największym ukrytym popytem.`,
     thumbnail: "",
   },
   {
     id: "nicho-053",
-    title: "Nicho de personas atrapadas en la fase de aprendizaje eterno",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza dla osób uwięzionych w fazie wiecznego uczenia się",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Detecta nichos donde las personas consumen información pero no ejecutan.",
-    prompt: `Te doy un tema general: [ej. inversiones, IA, marketing].
+      "Wykrywa nisze, w których ludzie konsumują informacje, ale nie wdrażają.",
+    prompt: `Podaję ogólny temat: [np. inwestycje, AI, marketing].
 
-Haz:
-1) Identifica 12 nichos donde la gente consume mucho contenido pero ejecuta poco.
-2) Para cada nicho:
-   - Razón de parálisis.
-   - Qué necesitan para avanzar.
-   - Producto minimalista para ponerlos en acción YA.
-3) Elige el nicho con mayor “intención de empezar”.`,
+Zrób:
+1) Zidentyfikuj 12 nisz, w których ludzie konsumują dużo treści, ale mało wdrażają.
+2) Dla każdej niszy:
+   - Powód paraliżu.
+   - Czego potrzebują, aby ruszyć.
+   - Minimalistyczny produkt, by uruchomić działanie TERAZ.
+3) Wybierz niszę z największą „intencją startu”.`,
     thumbnail: "",
   },
   {
     id: "nicho-054",
-    title: "Nicho basado en gente que ‘ya lo intentó todo’",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na ludziach, którzy „próbowali już wszystkiego”",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Explora nichos donde las personas están totalmente frustradas por intentos fallidos.",
-    prompt: `Elige un área: [ej. perder peso, organizarse, conseguir clientes].
+      "Bada nisze, w których ludzie są totalnie sfrustrowani nieudanymi próbami.",
+    prompt: `Wybierz obszar: [np. schudnąć, ogarnąć się, zdobywać klientów].
 
-Haz:
-1) Identifica 10 subnichos donde la gente siente que ya probó todo.
-2) Para cada subnicho:
-   - Qué han intentado.
-   - Por qué falló.
-   - Qué solución REAL necesitan.
-3) Dame el nicho más urgido de transformación.`,
+Zrób:
+1) Zidentyfikuj 10 subnisz, w których ludzie czują, że próbowali już wszystkiego.
+2) Dla każdej subniszy:
+   - Czego próbowali.
+   - Dlaczego to nie zadziałało.
+   - Jakiego PRAWDZIWEGO rozwiązania potrzebują.
+3) Podaj niszę najbardziej spragnioną transformacji.`,
     thumbnail: "",
   },
   {
     id: "nicho-055",
-    title: "Nicho basado en personas obsesionadas con optimización",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na osobach obsesyjnie optymalizujących",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Detecta nichos donde la gente paga por pequeña mejora porcentual.",
-    prompt: `Te doy un área: [ej. productividad].
+      "Wykrywa nisze, w których ludzie płacą za małą, procentową poprawę.",
+    prompt: `Podaję obszar: [np. produktywność].
 
-Haz:
-1) Identifica 12 subnichos obsesionados con optimizar.
-2) Para cada nicho:
-   - Qué quieren optimizar.
-   - Qué barrera tienen.
-   - Qué producto “pro” podrías crear.
-3) Dame el nicho con mayor willingness-to-pay.`,
+Zrób:
+1) Zidentyfikuj 12 subnisz obsesyjnych na punkcie optymalizacji.
+2) Dla każdej niszy:
+   - Co chcą optymalizować.
+   - Jaką mają barierę.
+   - Jaki „pro” produkt mógłbyś stworzyć.
+3) Podaj niszę z najwyższą gotowością do zapłaty.`,
     thumbnail: "",
   },
   {
     id: "nicho-056",
-    title: "Nicho basado en usuarios avanzados (Power User Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na zaawansowanych użytkownikach (Power User Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Define nichos para usuarios avanzados que quieren sofisticación, no simplicidad.",
-    prompt: `Te doy un software o habilidad: [ej. Notion, Excel, Premiere].
+      "Definiuje nisze dla zaawansowanych użytkowników, którzy chcą wyrafinowania, a nie prostoty.",
+    prompt: `Podaję software lub umiejętność: [np. Notion, Excel, Premiere].
 
-Haz:
-1) Identifica 10 perfiles avanzados.
-2) Para cada perfil:
-   - Qué complejidad buscan.
-   - Qué les limita.
-   - Qué producto premium podrías vender.
-3) Destaca el nicho más experto y rentable.`,
+Zrób:
+1) Wskaż 10 profili zaawansowanych.
+2) Dla każdego profilu:
+   - Jakiej złożoności szukają.
+   - Co ich ogranicza.
+   - Jaki produkt premium mógłbyś sprzedać.
+3) Wyróżnij niszę najbardziej ekspercką i rentowną.`,
     thumbnail: "",
   },
   {
     id: "nicho-057",
-    title: "Nicho basado en usuarios totalmente nuevos (Beginner Gap Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Crea nichos basados en quienes están en nivel cero absoluto.",
-    prompt: `Te doy un tema: [ej. edición de video].
+    title: "Nisza oparta na całkowicie nowych użytkownikach (Beginner Gap Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Tworzy nisze wokół osób na absolutnym poziomie zero.",
+    prompt: `Podaję temat: [np. montaż wideo].
 
-Haz:
-1) Identifica 10 subnichos de principiantes absolutos.
-2) Para cada uno:
-   - Qué les asusta.
-   - Qué no entienden.
-   - Qué producto básico necesitan.
-3) Selecciona el nicho con mayor volumen potencial.`,
+Zrób:
+1) Zidentyfikuj 10 subnisz absolutnych początkujących.
+2) Dla każdej:
+   - Czego się boją.
+   - Czego nie rozumieją.
+   - Jakiego bazowego produktu potrzebują.
+3) Wybierz niszę o największym potencjalnym wolumenie.`,
     thumbnail: "",
   },
   {
     id: "nicho-058",
-    title: "Nicho basado en ‘transacciones inevitables’",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na „nieuniknionych transakcjach”",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde las personas compran por obligación o necesidad periódica.",
-    prompt: `Te doy un mercado: [ej. negocios, salud, hogar].
+      "Znajduje nisze, w których ludzie kupują z obowiązku lub cyklicznej potrzeby.",
+    prompt: `Podaję rynek: [np. biznes, zdrowie, dom].
 
-Haz:
-1) Identifica 10 nichos basados en transacciones inevitables.
-2) Para cada nicho:
-   - Qué deben renovar, pagar o actualizar.
-   - Frecuencia.
-   - Producto digital o servicio que puede acompañarlos.
-3) Dame el nicho con mejor recurrencia obligatoria.`,
+Zrób:
+1) Zidentyfikuj 10 nisz opartych na nieuniknionych transakcjach.
+2) Dla każdej niszy:
+   - Co muszą odnawiać, opłacać lub aktualizować.
+   - Jak często.
+   - Jaki produkt cyfrowy lub usługa może im towarzyszyć.
+3) Podaj niszę z najlepszą „obowiązkową” regularnością.`,
     thumbnail: "",
   },
   {
     id: "nicho-059",
-    title: "Nicho basado en errores repetidos (Mistake Loop Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na powtarzających się błędach (Mistake Loop Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde el cliente comete los mismos errores cíclicamente.",
-    prompt: `Te doy un tema: [ej. finanzas personales].
+      "Znajduje nisze, w których klient cyklicznie popełnia te same błędy.",
+    prompt: `Podaję temat: [np. finanse osobiste].
 
-Haz:
-1) Identifica 10 errores repetidos.
-2) Convierte cada error en un nicho explicando:
-   - Qué causa el error.
-   - Cómo se repite.
-   - Qué solución definitiva podrías vender.
-3) Dame el nicho con mayor urgencia emocional.`,
+Zrób:
+1) Zidentyfikuj 10 powtarzalnych błędów.
+2) Zamień każdy błąd w niszę, wyjaśniając:
+   - Co powoduje błąd.
+   - Jak się powtarza.
+   - Jakie „definitywne” rozwiązanie możesz sprzedać.
+3) Podaj niszę o największej pilności emocjonalnej.`,
     thumbnail: "",
   },
   {
     id: "nicho-060",
-    title: "Nicho basado en ‘microwins’ (pequeñas victorias diarias)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na „microwins” (małe codzienne zwycięstwa)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde el cliente busca wins diarios y motivación continua.",
-    prompt: `Te doy un área: [ej. emprendimiento, fitness, hábitos].
+      "Znajduje nisze, w których klient szuka codziennych zwycięstw i stałej motywacji.",
+    prompt: `Podaję obszar: [np. biznes, fitness, nawyki].
 
-Haz:
-1) Identifica 12 nichos donde la gente busque pequeños logros diarios.
-2) Para cada nicho:
-   - Qué microwin desean.
-   - Qué los frena.
-   - Qué producto diario podrías vender.
-3) Dame el nicho con mayor retención diaria.`,
+Zrób:
+1) Zidentyfikuj 12 nisz, w których ludzie szukają małych codziennych osiągnięć.
+2) Dla każdej niszy:
+   - Jaki microwin chcą osiągnąć.
+   - Co ich blokuje.
+   - Jaki dzienny produkt mógłbyś sprzedać.
+3) Podaj niszę z najwyższą dzienną retencją.`,
     thumbnail: "",
   },
   {
     id: "nicho-061",
-    title:
-      "Nicho basado en microprocesos invisibles (Invisible Process Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na niewidzialnych mikroprocesach (Invisible Process Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos formados alrededor de procesos que la gente realiza sin darse cuenta, pero que consumen tiempo y energía.",
-    prompt: `Actúa como consultor de optimización de procesos personales.
+      "Znajduje nisze wokół procesów, które ludzie robią nieświadomie, a które zużywają czas i energię.",
+    prompt: `Działaj jak konsultant optymalizacji procesów osobistych.
 
-Te doy un público objetivo: [ej. freelancers, estudiantes].
+Podaję grupę docelową: [np. freelancerzy, studenci].
 
-Haz:
-1) Identifica 15 “procesos invisibles” (acciones automáticas que consumen energía).
-2) Para cada proceso define:
-   - Qué problema causa el proceso invisible.
-   - Cómo se detecta.
-   - Qué solución podrías vender como “visibilidad + guía”.
-3) Selecciona el proceso con mayor impacto oculto y sugiere un producto.`,
+Zrób:
+1) Zidentyfikuj 15 „niewidzialnych procesów” (automatyczne działania, które zużywają energię).
+2) Dla każdego procesu określ:
+   - Jaki problem powoduje niewidzialny proces.
+   - Jak go wykryć.
+   - Jakie rozwiązanie możesz sprzedać jako „widoczność + prowadzenie”.
+3) Wybierz proces o największym ukrytym wpływie i zaproponuj produkt.`,
     thumbnail: "",
   },
   {
     id: "nicho-062",
-    title: "Nicho basado en cambios de identidad (Identity Shift Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na zmianach tożsamości (Identity Shift Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Detecta nichos donde el motor de compra es una transformación profunda de identidad.",
-    prompt: `Te doy un cambio de identidad: [ej. de empleado a emprendedor].
+      "Wykrywa nisze, w których motorem zakupu jest głęboka transformacja tożsamości.",
+    prompt: `Podaję zmianę tożsamości: [np. z pracownika na przedsiębiorcę].
 
-Haz:
-1) Identifica 12 nichos relacionado con ese shift.
-2) Para cada nicho:
-   - Punto de ruptura.
-   - Nueva identidad deseada.
-   - Obstáculos invisibles.
-   - Producto ideal.
-3) Elige el nicho con mayor intensidad emocional.`,
+Zrób:
+1) Zidentyfikuj 12 nisz związanych z tym shiftem.
+2) Dla każdej niszy:
+   - Punkt przełomu.
+   - Nowa pożądana tożsamość.
+   - Niewidzialne przeszkody.
+   - Idealny produkt.
+3) Wybierz niszę o największej intensywności emocjonalnej.`,
     thumbnail: "",
   },
   {
     id: "nicho-063",
-    title: "Nicho por acumulación de microfracasos (Microfailure Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na akumulacji mikroporażek (Microfailure Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Identifica nichos donde las personas tienen una colección de pequeños fracasos que los frena.",
-    prompt: `Te doy un área general: [ej. productividad].
+      "Identyfikuje nisze, w których ludzie mają kolekcję małych porażek, które ich blokują.",
+    prompt: `Podaję ogólny obszar: [np. produktywność].
 
-Haz:
-1) Lista 12 microfracasos comunes.
-2) Convierte cada microfracaso en un nicho explicando:
-   - Qué lo causa.
-   - Qué sienten.
-   - Qué solución comprarían.
-3) Elige el nicho con mayor dolor acumulado.`,
+Zrób:
+1) Wypisz 12 typowych mikroporażek.
+2) Zamień każdą mikroporażkę w niszę, wyjaśniając:
+   - Co ją powoduje.
+   - Co ludzie czują.
+   - Jakie rozwiązanie kupiliby.
+3) Wybierz niszę o największym skumulowanym bólu.`,
     thumbnail: "",
   },
   {
     id: "nicho-064",
-    title: "Nicho basado en patrones de vergüenza (Shame Trigger Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na wzorcach wstydu (Shame Trigger Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde las personas no buscan ayuda por vergüenza, pero compran en silencio.",
-    prompt: `Te doy un área: [ej. finanzas, hábitos, salud].
+      "Znajduje nisze, w których ludzie nie proszą o pomoc z powodu wstydu, ale kupują po cichu.",
+    prompt: `Podaję obszar: [np. finanse, nawyki, zdrowie].
 
-Haz:
-1) Identifica 10 patrones de vergüenza que frenan el pedir ayuda.
-2) Para cada uno:
-   - Qué ocultan.
-   - Qué temen.
-   - Qué producto discreto podrías vender.
-3) Elige el nicho con mayor intención silenciosa de compra.`,
+Zrób:
+1) Zidentyfikuj 10 wzorców wstydu, które blokują proszenie o pomoc.
+2) Dla każdego wzorca:
+   - Co ukrywają.
+   - Czego się boją.
+   - Jaki dyskretny produkt mógłbyś sprzedać.
+3) Wybierz niszę o najwyższej cichej intencji zakupu.`,
     thumbnail: "",
   },
   {
     id: "nicho-065",
-    title:
-      "Nicho basado en decisiones de alto riesgo (High-Risk Decisions Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na decyzjach wysokiego ryzyka (High-Risk Decisions Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Detecta nichos donde el cliente busca guía para decisiones con potencial de gran impacto.",
-    prompt: `Te doy un tipo de decisión de alto riesgo: [ej. invertir, renunciar, mudarse].
+      "Wykrywa nisze, w których klient szuka prowadzenia przy decyzjach o dużym wpływie.",
+    prompt: `Podaję typ decyzji wysokiego ryzyka: [np. inwestować, rzucić pracę, przeprowadzić się].
 
-Haz:
-1) Identifica 12 subnichos derivados de esa decisión.
-2) Para cada uno:
-   - Riesgo principal.
-   - Qué información falta.
-   - Qué guía premium comprarían.
-3) Elige el nicho con mayor valor de decisión.`,
+Zrób:
+1) Zidentyfikuj 12 subnisz wynikających z tej decyzji.
+2) Dla każdej:
+   - Główne ryzyko.
+   - Jakiej informacji brakuje.
+   - Jakie premium prowadzenie kupiliby.
+3) Wybierz niszę o najwyższej wartości decyzyjnej.`,
     thumbnail: "",
   },
   {
     id: "nicho-066",
-    title: "Nicho basado en personas con metas contradictorias",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na osobach z celami sprzecznymi",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde las personas desean dos cosas que compiten entre sí.",
-    prompt: `Te doy una meta contradictoria: [ej. ganar dinero rápido y no trabajar mucho].
+      "Znajduje nisze, w których ludzie pragną dwóch rzeczy, które ze sobą konkurują.",
+    prompt: `Podaję sprzeczny cel: [np. szybko zarabiać i mało pracować].
 
-Haz:
-1) Identifica 12 nichos construidos alrededor de tensiones internas.
-2) Para cada nicho:
-   - Contradicción central.
-   - Deseo real.
-   - Solución intermedia (producto puente).
-3) Selecciona el nicho más frustrado.`,
+Zrób:
+1) Zidentyfikuj 12 nisz zbudowanych wokół wewnętrznych napięć.
+2) Dla każdej niszy:
+   - Centralna sprzeczność.
+   - Prawdziwe pragnienie.
+   - Rozwiązanie pośrednie (produkt pomostowy).
+3) Wybierz niszę najbardziej sfrustrowaną.`,
     thumbnail: "",
   },
   {
     id: "nicho-067",
     title:
-      "Nicho basado en crecimiento personal práctico (Skill-Based Transformation Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+      "Nisza oparta na praktycznym rozwoju osobistym (Skill-Based Transformation Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Define nichos de personas que quieren mejorar emocionalmente pero de forma práctica.",
-    prompt: `Te doy un área emocional: [ej. ansiedad].
+      "Definiuje nisze osób, które chcą poprawy emocjonalnej, ale w praktyczny sposób.",
+    prompt: `Podaję obszar emocjonalny: [np. lęk].
 
-Haz:
-1) Identifica 10 nichos donde la emocionalidad requiere habilidades prácticas.
-2) Para cada nicho:
-   - Qué emoción domina.
-   - Qué habilidad práctica necesitan.
-   - Qué producto híbrido emocional + técnico venderías.
-3) Da 1 nicho con resultado más visible.`,
+Zrób:
+1) Zidentyfikuj 10 nisz, w których emocje wymagają praktycznych umiejętności.
+2) Dla każdej niszy:
+   - Jaka emocja dominuje.
+   - Jakiej praktycznej umiejętności potrzebują.
+   - Jaki hybrydowy produkt (emocjonalny + techniczny) byś sprzedał(a).
+3) Podaj 1 niszę z najbardziej widocznym rezultatem.`,
     thumbnail: "",
   },
   {
     id: "nicho-068",
-    title: "Nicho por exceso de información (Info Overload Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na przeciążeniu informacyjnym (Info Overload Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Detecta nichos donde la gente está saturada de información y necesita simplicidad.",
-    prompt: `Te doy un tema saturado: [ej. IA].
+      "Wykrywa nisze, w których ludzie są przeładowani informacjami i potrzebują prostoty.",
+    prompt: `Podaję przesycony temat: [np. AI].
 
-Haz:
-1) Identifica 12 subnichos donde la saturación es mayor.
-2) Para cada uno:
-   - Qué información les abruma.
-   - Qué resumen o sistema necesitan.
-   - Qué producto minimalista podrías vender.
-3) Elige el nicho con mayor fatiga cognitiva.`,
+Zrób:
+1) Zidentyfikuj 12 subnisz, w których przeciążenie jest największe.
+2) Dla każdej:
+   - Jakie informacje ich przytłaczają.
+   - Jakiego skrótu lub systemu potrzebują.
+   - Jaki minimalistyczny produkt mógłbyś sprzedać.
+3) Wybierz niszę o największym zmęczeniu poznawczym.`,
     thumbnail: "",
   },
   {
     id: "nicho-069",
-    title: "Nicho por falta de estructura (Structure Gap Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na braku struktury (Structure Gap Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde el problema principal es desorganización estructural.",
-    prompt: `Te doy un área: [ej. estudio, contenido].
+      "Znajduje nisze, w których głównym problemem jest brak organizacji strukturalnej.",
+    prompt: `Podaję obszar: [np. nauka, treści].
 
-Haz:
-1) Identifica 12 subnichos que carecen de estructura.
-2) Para cada nicho define:
-   - Qué estructura falta.
-   - Qué caos experimentan.
-   - Qué sistema podrías vender como producto.
-3) Destaca el nicho más hambriento de orden.`,
+Zrób:
+1) Zidentyfikuj 12 subnisz, którym brakuje struktury.
+2) Dla każdej niszy określ:
+   - Jakiej struktury brakuje.
+   - Jaki chaos przeżywają.
+   - Jaki system mógłbyś sprzedać jako produkt.
+3) Wyróżnij niszę najbardziej głodną porządku.`,
     thumbnail: "",
   },
   {
     id: "nicho-070",
-    title: "Nicho basado en obsesión por progreso medible",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na obsesji mierzalnego postępu",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde el cliente quiere ver progreso en gráficos, números y dashboards.",
-    prompt: `Te doy un tema: [ej. estudio, ventas].
+      "Znajduje nisze, w których klient chce widzieć postęp w wykresach, liczbach i dashboardach.",
+    prompt: `Podaję temat: [np. nauka, sprzedaż].
 
-Haz:
-1) Identifica 10 nichos orientados a métricas.
-2) Para cada nicho:
-   - Qué KPI les obsesiona.
-   - Qué dashboard/plan necesitan.
-   - Qué producto ofrecerías como seguimiento.
-3) Elige el nicho con mayor retención por gamificación.`,
+Zrób:
+1) Zidentyfikuj 10 nisz zorientowanych na metryki.
+2) Dla każdej niszy:
+   - Który KPI ich obsesjonuje.
+   - Jakiego dashboardu/planu potrzebują.
+   - Jaki produkt zaoferowałbyś jako follow-up.
+3) Wybierz niszę z najwyższą retencją dzięki grywalizacji.`,
     thumbnail: "",
   },
   {
     id: "nicho-071",
-    title: "Nicho basado en necesidades aspiracionales silenciosas",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Identifica nichos donde la gente no dice lo que realmente desea.",
-    prompt: `Te doy un área aspiracional: [ej. mejorar apariencia].
+    title: "Nisza oparta na cichych aspiracjach",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Identyfikuje nisze, w których ludzie nie mówią wprost, czego pragną.",
+    prompt: `Podaję obszar aspiracyjny: [np. poprawa wyglądu].
 
-Haz:
-1) Encuentra 12 nichos donde la aspiración es silenciosa.
-2) Para cada uno:
-   - Qué desean en secreto.
-   - Por qué no lo expresan.
-   - Qué producto podrían comprar sin juicio social.
-3) Destaca el nicho más emocionalmente cargado.`,
+Zrób:
+1) Znajdź 12 nisz, w których aspiracja jest „cicha”.
+2) Dla każdej:
+   - Czego pragną w sekrecie.
+   - Dlaczego tego nie wyrażają.
+   - Jaki produkt mogliby kupić bez społecznego osądu.
+3) Wyróżnij niszę najbardziej emocjonalnie naładowaną.`,
     thumbnail: "",
   },
   {
     id: "nicho-072",
-    title: "Nicho basado en falta de confianza (Confidence Gap Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na braku pewności siebie (Confidence Gap Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde el mayor obstáculo es la falta de autoconfianza.",
-    prompt: `Te doy un área: [ej. hablar en público].
+      "Znajduje nisze, w których największą przeszkodą jest niska pewność siebie.",
+    prompt: `Podaję obszar: [np. wystąpienia publiczne].
 
-Haz:
-1) Identifica 10 subnichos con baja autoconfianza.
-2) Describe para cada uno:
-   - Qué temen.
-   - Cuál es el problema raíz.
-   - Qué producto práctico les ayudaría.
-3) Elige el nicho con mayor tensión interna.`,
+Zrób:
+1) Zidentyfikuj 10 subnisz z niską pewnością siebie.
+2) Dla każdej opisz:
+   - Czego się boją.
+   - Jaki jest problem źródłowy.
+   - Jaki praktyczny produkt by pomógł.
+3) Wybierz niszę o największym napięciu wewnętrznym.`,
     thumbnail: "",
   },
   {
     id: "nicho-073",
-    title: "Nicho basado en metas sin claridad (Clarity Gap Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na celach bez jasności (Clarity Gap Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Detecta nichos donde la gente quiere avanzar pero no sabe qué quiere.",
-    prompt: `Te doy un área general: [ej. carrera profesional].
+      "Wykrywa nisze, w których ludzie chcą iść naprzód, ale nie wiedzą, czego chcą.",
+    prompt: `Podaję ogólny obszar: [np. kariera zawodowa].
 
-Haz:
-1) Identifica 12 subnichos donde el problema principal es falta de claridad.
-2) Para cada uno:
-   - Qué les confunde.
-   - Qué resultado necesitan definir.
-   - Qué producto de claridad venderías.
-3) Elige un nicho con alta urgencia existencial.`,
+Zrób:
+1) Zidentyfikuj 12 subnisz, w których głównym problemem jest brak jasności.
+2) Dla każdej:
+   - Co ich miesza/rozprasza.
+   - Jaki rezultat muszą zdefiniować.
+   - Jaki „produkt jasności” byś sprzedał(a).
+3) Wybierz niszę o wysokiej egzystencjalnej pilności.`,
     thumbnail: "",
   },
   {
     id: "nicho-074",
-    title: "Nicho basado en sobrecostos ocultos (Hidden Cost Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Identifica nichos donde la gente pierde dinero sin darse cuenta.",
-    prompt: `Te doy un mercado: [ej. apps, herramientas].
+    title: "Nisza oparta na ukrytych kosztach (Hidden Cost Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Identyfikuje nisze, w których ludzie tracą pieniądze, nawet o tym nie wiedząc.",
+    prompt: `Podaję rynek: [np. aplikacje, narzędzia].
 
-Haz:
-1) Identifica 10 nichos donde existan costos ocultos.
-2) Para cada uno:
-   - Qué costo pierden.
-   - Qué causa la pérdida.
-   - Qué producto ayudaría a reducirlos.
-3) Elige el nicho con mayor ahorro potencial.`,
+Zrób:
+1) Zidentyfikuj 10 nisz, w których występują ukryte koszty.
+2) Dla każdej:
+   - Jaką stratę ponoszą.
+   - Co ją powoduje.
+   - Jaki produkt pomógłby ją ograniczyć.
+3) Wybierz niszę o największym potencjale oszczędności.`,
     thumbnail: "",
   },
   {
     id: "nicho-075",
-    title: "Nicho basado en hábitos adictivos de consumo",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Detecta nichos donde el consumo está impulsado por dopamina.",
-    prompt: `Te doy un hábito adictivo: [ej. redes sociales, compras online].
+    title: "Nisza oparta na uzależniających nawykach konsumpcji",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Wykrywa nisze, w których konsumpcja jest napędzana dopaminą.",
+    prompt: `Podaję uzależniający nawyk: [np. social media, zakupy online].
 
-Haz:
-1) Identifica 12 subnichos afectados por ese hábito.
-2) Para cada nicho explica:
-   - Qué ciclo dopaminérgico siguen.
-   - Qué quieren controlar.
-   - Qué solución productiva, guía o sistema podrías vender.
-3) Selecciona el nicho más dispuesto a cambiar.`,
+Zrób:
+1) Zidentyfikuj 12 subnisz dotkniętych tym nawykiem.
+2) Dla każdej niszy wyjaśnij:
+   - Jaki cykl dopaminowy powtarzają.
+   - Co chcą kontrolować.
+   - Jakie produktywne rozwiązanie/przewodnik/system mógłbyś sprzedać.
+3) Wybierz niszę najbardziej skłonną do zmiany.`,
     thumbnail: "",
   },
   {
     id: "nicho-076",
-    title: "Nicho basado en sobreuso de herramientas (Overtooling Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na nadmiarze narzędzi (Overtooling Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde la gente usa demasiadas herramientas sin resultados.",
-    prompt: `Te doy una categoría de herramientas: [ej. productividad].
+      "Znajduje nisze, w których ludzie używają zbyt wielu narzędzi bez rezultatów.",
+    prompt: `Podaję kategorię narzędzi: [np. produktywność].
 
-Haz:
-1) Encuentra 10 subnichos donde el exceso de herramientas genera caos.
-2) Para cada nicho:
-   - Qué herramientas usan.
-   - Qué confusión generan.
-   - Qué producto de simplificación podrías vender.
-3) Da un nicho con alto potencial de consolidación.`,
+Zrób:
+1) Znajdź 10 subnisz, w których nadmiar narzędzi tworzy chaos.
+2) Dla każdej niszy:
+   - Jakich narzędzi używają.
+   - Jaką to generuje konfuzję.
+   - Jaki produkt upraszczający mógłbyś sprzedać.
+3) Podaj niszę o wysokim potencjale konsolidacji.`,
     thumbnail: "",
   },
   {
     id: "nicho-077",
-    title: "Nicho basado en vergüenza financiera (Money Shame Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na finansowym wstydzie (Money Shame Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Detecta nichos donde las personas tienen hábitos financieros ocultos que no comparten.",
-    prompt: `Te doy un tema: [ej. gastos impulsivos].
+      "Wykrywa nisze, w których ludzie mają ukryte nawyki finansowe, o których nie mówią.",
+    prompt: `Podaję temat: [np. impulsywne wydatki].
 
-Haz:
-1) Identifica 10 nichos donde la vergüenza financiera domina decisiones.
-2) Para cada uno:
-   - Qué esconden.
-   - Qué los estresa.
-   - Qué solución privada podrían comprar.
-3) Elige el nicho con mayor urgencia emocional.`,
+Zrób:
+1) Zidentyfikuj 10 nisz, w których finansowy wstyd dominuje decyzje.
+2) Dla każdej:
+   - Co ukrywają.
+   - Co ich stresuje.
+   - Jakie prywatne rozwiązanie mogliby kupić.
+3) Wybierz niszę o największej pilności emocjonalnej.`,
     thumbnail: "",
   },
   {
     id: "nicho-078",
-    title: "Nicho basado en personas que no confían en su criterio",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Encuentra nichos que pagan por validación, guía y seguridad.",
-    prompt: `Te doy un área: [ej. inversiones pequeñas].
+    title: "Nisza oparta na osobach, które nie ufają własnemu osądowi",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Znajduje nisze, które płacą za walidację, prowadzenie i poczucie bezpieczeństwa.",
+    prompt: `Podaję obszar: [np. małe inwestycje].
 
-Haz:
-1) Identifica 10 nichos donde la validación externa es esencial.
-2) Para cada nicho:
-   - Qué les causa inseguridad.
-   - Qué decisión temen.
-   - Qué producto de “validación guiada” venderías.
-3) Destaca el nicho con mayor miedo a equivocarse.`,
+Zrób:
+1) Zidentyfikuj 10 nisz, w których zewnętrzna walidacja jest kluczowa.
+2) Dla każdej niszy:
+   - Co wywołuje ich niepewność.
+   - Jakiej decyzji się boją.
+   - Jaki produkt „prowadzonej walidacji” byś sprzedał(a).
+3) Wyróżnij niszę z największym strachem przed pomyłką.`,
     thumbnail: "",
   },
   {
     id: "nicho-079",
-    title: "Nicho basado en renegados del sistema (System Rejectors Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na odrzucających system (System Rejectors Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Define nichos de personas que rechazan completamente modelos tradicionales.",
-    prompt: `Te doy un sistema tradicional: [ej. educación formal].
+      "Definiuje nisze osób, które całkowicie odrzucają tradycyjne modele.",
+    prompt: `Podaję tradycyjny system: [np. formalna edukacja].
 
-Haz:
-1) Identifica 12 grupos que rechazan ese sistema.
-2) Para cada grupo:
-   - Qué detestan.
-   - Qué alternativa buscan.
-   - Qué producto contracultural podrías vender.
-3) Elige el nicho más disruptivo.`,
+Zrób:
+1) Zidentyfikuj 12 grup, które odrzucają ten system.
+2) Dla każdej grupy:
+   - Czego nienawidzą.
+   - Jakiej alternatywy szukają.
+   - Jaki kontrkulturowy produkt mógłbyś sprzedać.
+3) Wybierz najbardziej disruptywną niszę.`,
     thumbnail: "",
   },
   {
     id: "nicho-080",
-    title: "Nicho basado en progresos invisibles (Invisible Progress Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na niewidzialnym postępie (Invisible Progress Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde la gente sí progresa, pero no lo percibe y abandona.",
-    prompt: `Te doy un área: [ej. idiomas, fitness].
+      "Znajduje nisze, w których ludzie robią postępy, ale ich nie zauważają i rezygnują.",
+    prompt: `Podaję obszar: [np. języki, fitness].
 
-Haz:
-1) Identifica 10 nichos donde el progreso no se ve.
-2) Para cada nicho:
-   - Qué progreso invisible existe.
-   - Qué les hace sentir estancados.
-   - Qué producto podría hacer visible ese progreso.
-3) Elige el nicho con mejor potencial de retención gracias a “visualización del avance”.`,
+Zrób:
+1) Zidentyfikuj 10 nisz, w których postęp nie jest widoczny.
+2) Dla każdej niszy:
+   - Jaki niewidzialny postęp istnieje.
+   - Co sprawia, że czują stagnację.
+   - Jaki produkt mógłby uwidocznić postęp.
+3) Wybierz niszę z najlepszym potencjałem retencji dzięki „wizualizacji postępu”.`,
     thumbnail: "",
   },
   {
     id: "nicho-081",
     title:
-      "Nicho basado en gente que ya probó ‘todo’ sin resultado (Burned Out Testers)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+      "Nisza oparta na ludziach, którzy próbowali „wszystkiego” bez efektu (Burned Out Testers)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Identifica nichos donde las personas están exhaustas de probar soluciones y sienten que nada funciona.",
-    prompt: `Actúa como consultor de productos de segunda capa.
+      "Identyfikuje nisze, w których ludzie są zmęczeni testowaniem rozwiązań i czują, że nic nie działa.",
+    prompt: `Działaj jak konsultant „produktów drugiej warstwy”.
 
-Te doy un área donde la gente prueba mil cosas sin resultados: [ej. productividad, dieta, estudio].
+Podaję obszar, w którym ludzie próbują miliona rzeczy bez rezultatów: [np. produktywność, dieta, nauka].
 
-Haz:
-1) Identifica 12 nichos que ya intentaron múltiples métodos.
-2) Para cada uno:
-   - Qué intentaron.
-   - Por qué falló (explicación profunda).
-   - Qué solución “segunda capa” realmente funcionaría.
-3) Elige el nicho con mayor frustración acumulada.`,
+Zrób:
+1) Zidentyfikuj 12 nisz, które próbowały wielu metod.
+2) Dla każdej:
+   - Czego próbowali.
+   - Dlaczego to nie zadziałało (pogłębione wyjaśnienie).
+   - Jakie rozwiązanie „drugiej warstwy” naprawdę by zadziałało.
+3) Wybierz niszę o największej skumulowanej frustracji.`,
     thumbnail: "",
   },
   {
     id: "nicho-082",
-    title: "Nicho basado en microdolores del día a día (Daily Pain Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na codziennych mikrobólach (Daily Pain Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Detecta nichos generados por pequeños dolores diarios que afectan productividad o bienestar.",
-    prompt: `Te doy un área general de dolor diario: [ej. postura, enfoque].
+      "Wykrywa nisze tworzone przez drobne codzienne bóle, które obniżają produktywność lub dobrostan.",
+    prompt: `Podaję ogólny obszar codziennego bólu: [np. postawa, koncentracja].
 
-Haz:
-1) Mapea 15 microdolores diarios.
-2) Transfórmalos en 15 nichos,
-   para cada uno define:
-   - Cuándo aparece.
-   - Cómo limita el rendimiento.
-   - Qué solución de bajo esfuerzo comprarían.
-3) Selecciona el microdolor con mayor impacto oculto.`,
+Zrób:
+1) Zmapuj 15 codziennych mikro-bólów.
+2) Przekształć je w 15 nisz — dla każdej określ:
+   - Kiedy się pojawia.
+   - Jak ogranicza wydajność.
+   - Jakie niskonakładowe rozwiązanie by kupili.
+3) Wybierz mikro-ból o największym ukrytym wpływie.`,
     thumbnail: "",
   },
   {
     id: "nicho-083",
-    title: "Nicho basado en personas que evitan conflictos",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na osobach unikających konfliktów",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde el problema central es evitar confrontación, decisiones difíciles o conversaciones incómodas.",
-    prompt: `Te doy un escenario: [ej. trabajo, relaciones, ventas].
+      "Znajduje nisze, w których centralnym problemem jest unikanie konfrontacji, trudnych decyzji lub niewygodnych rozmów.",
+    prompt: `Podaję scenariusz: [np. praca, relacje, sprzedaż].
 
-Haz:
-1) Identifica 10 subnichos donde evitan conflicto.
-2) Para cada subnicho describe:
-   - Qué conflicto temen.
-   - Qué consecuencias tiene evitarlo.
-   - Qué guía o script comprarían.
-3) Prioriza el nicho con mayor costo emocional.`,
+Zrób:
+1) Zidentyfikuj 10 subnisz, w których unikają konfliktu.
+2) Dla każdej subniszy opisz:
+   - Jakiego konfliktu się boją.
+   - Jakie są konsekwencje unikania.
+   - Jaki przewodnik/skrypt by kupili.
+3) Ustal priorytet dla niszy o najwyższym koszcie emocjonalnym.`,
     thumbnail: "",
   },
   {
     id: "nicho-084",
-    title: "Nicho basado en agotamiento emocional por multitarea",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na emocjonalnym wypaleniu przez multitasking",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Define nichos donde la multitarea ha provocado agotamiento crónico y bajo rendimiento.",
-    prompt: `Te doy un tipo de multitarea: [ej. madres emprendedoras, empleados multitarea].
+      "Definiuje nisze, w których multitasking powoduje chroniczne zmęczenie i niską wydajność.",
+    prompt: `Podaję typ multitaskingu: [np. mamy-przedsiębiorczynie, wielozadaniowi pracownicy].
 
-Haz:
-1) Identifica 12 subnichos afectados.
-2) Para cada uno:
-   - Qué tareas los saturan.
-   - Qué desean simplificar.
-   - Qué sistema de foco comprarían.
-3) Elige el nicho más dispuesto a pagar por eficiencia.`,
+Zrób:
+1) Zidentyfikuj 12 dotkniętych subnisz.
+2) Dla każdej:
+   - Jakie zadania ich zalewają.
+   - Co chcą uprościć.
+   - Jaki „system fokus” by kupili.
+3) Wybierz niszę najbardziej skłonną zapłacić za efektywność.`,
     thumbnail: "",
   },
   {
     id: "nicho-085",
-    title: "Nicho basado en personas que odian planear pero quieren resultados",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na osobach, które nienawidzą planować, ale chcą wyników",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Define nichos que quieren resultados rápidos pero detestan planificar.",
-    prompt: `Te doy un área: [ej. contenido, ejercicio].
+      "Definiuje nisze, które chcą szybkich rezultatów, ale nie znoszą planowania.",
+    prompt: `Podaję obszar: [np. treści, ćwiczenia].
 
-Haz:
-1) Identifica 10 subnichos que buscan resultados pero evitan planear.
-2) Para cada uno:
-   - Qué los frena al planear.
-   - Qué resultado desean.
-   - Qué sistema ‘plug & play’ podrían comprar.
-3) Prioriza el nicho con mayor urgencia y menor disciplina.`,
+Zrób:
+1) Zidentyfikuj 10 subnisz, które chcą rezultatów, ale unikają planowania.
+2) Dla każdej:
+   - Co ich blokuje w planowaniu.
+   - Jakiego rezultatu pragną.
+   - Jaki system „plug & play” mogliby kupić.
+3) Ustal priorytet dla niszy o najwyższej pilności i najniższej dyscyplinie.`,
     thumbnail: "",
   },
   {
     id: "nicho-086",
-    title: "Nicho basado en ansiedad por decisiones demasiado grandes",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na lęku przed zbyt wielkimi decyzjami",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde el cliente está paralizado por decisiones enormes.",
-    prompt: `Te doy una decisión gigante: [ej. elegir carrera, mudarse de país].
+      "Znajduje nisze, w których klient jest sparaliżowany ogromnymi decyzjami.",
+    prompt: `Podaję ogromną decyzję: [np. wybór kierunku studiów, przeprowadzka do innego kraju].
 
-Haz:
-1) Identifica 10 subnichos paralizados por esa decisión.
-2) Para cada uno:
-   - Qué los detiene.
-   - Qué falsa creencia sostiene su parálisis.
-   - Qué producto venderías como “decisión guiada”.
-3) Elige el nicho con mayor miedo al arrepentimiento.`,
+Zrób:
+1) Zidentyfikuj 10 subnisz sparaliżowanych tą decyzją.
+2) Dla każdej:
+   - Co ich zatrzymuje.
+   - Jaka fałszywa wiara podtrzymuje paraliż.
+   - Jaki produkt sprzedał(a)byś jako „prowadzone podjęcie decyzji”.
+3) Wybierz niszę o największym strachu przed żalem.`,
     thumbnail: "",
   },
   {
     id: "nicho-087",
     title:
-      "Nicho basado en personas que quieren empezar pero no saben por dónde",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+      "Nisza oparta na osobach, które chcą zacząć, ale nie wiedzą od czego",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Define nichos donde el problema no es falta de motivación, sino falta de una ruta inicial clara.",
-    prompt: `Te doy un objetivo: [ej. hacer crecer un negocio].
+      "Definiuje nisze, w których problemem nie jest brak motywacji, tylko brak jasnej ścieżki startu.",
+    prompt: `Podaję cel: [np. rozwinąć biznes].
 
-Haz:
-1) Identifica 12 subnichos que no saben por dónde empezar.
-2) Para cada uno:
-   - Qué confusión inicial tienen.
-   - Qué pasos básicos necesitan.
-   - Qué producto venderías como “primer paso”.
-3) Selecciona el nicho con mayor ansiedad por el inicio.`,
+Zrób:
+1) Zidentyfikuj 12 subnisz, które nie wiedzą, od czego zacząć.
+2) Dla każdej:
+   - Jaką mają startową konfuzję.
+   - Jakich podstawowych kroków potrzebują.
+   - Jaki produkt sprzedał(a)byś jako „pierwszy krok”.
+3) Wybierz niszę z największym lękiem przed startem.`,
     thumbnail: "",
   },
   {
     id: "nicho-088",
-    title: "Nicho basado en implementación lenta (Slow Implementers Niching)",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na wolnych wdrożeniach (Slow Implementers Niching)",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde las personas aprenden rápido pero aplican lento.",
-    prompt: `Te doy un perfil: [ej. estudiantes, emprendedores nuevos].
+      "Znajduje nisze, w których ludzie uczą się szybko, ale wdrażają wolno.",
+    prompt: `Podaję profil: [np. studenci, nowi przedsiębiorcy].
 
-Haz:
-1) Encuentra 10 subnichos donde la implementación es muy lenta.
-2) Para cada uno:
-   - Qué los ralentiza.
-   - Qué tipo de accountability necesitan.
-   - Qué producto venderías para acelerar implementación.
-3) Elige el nicho con el mayor ‘consumo de cursos sin resultados’.`,
+Zrób:
+1) Znajdź 10 subnisz, w których wdrożenie jest bardzo wolne.
+2) Dla każdej:
+   - Co ich spowalnia.
+   - Jakiego typu accountability potrzebują.
+   - Jaki produkt sprzedał(a)byś, by przyspieszyć wdrażanie.
+3) Wybierz niszę z największym „konsumowaniem kursów bez rezultatów”.`,
     thumbnail: "",
   },
   {
     id: "nicho-089",
-    title: "Nicho basado en personas que no pueden mantener hábitos",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na osobach, które nie potrafią utrzymać nawyków",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Detecta nichos donde el problema no es empezar, sino mantener hábitos.",
-    prompt: `Te doy un hábito: [ej. estudiar inglés].
+      "Wykrywa nisze, w których problemem nie jest zacząć, lecz utrzymać nawyk.",
+    prompt: `Podaję nawyk: [np. nauka angielskiego].
 
-Haz:
-1) Identifica 12 subnichos con nulo mantenimiento.
-2) Para cada nicho:
-   - Qué interrumpe el hábito.
-   - Qué motivación sí funciona.
-   - Qué sistema venderías para “no abandonar”.
-3) Elige el nicho con mayor tasa de abandono.`,
+Zrób:
+1) Zidentyfikuj 12 subnisz z zerowym utrzymaniem.
+2) Dla każdej niszy:
+   - Co przerywa nawyk.
+   - Jaka motywacja działa.
+   - Jaki system sprzedał(a)byś, by „nie porzucać”.
+3) Wybierz niszę z najwyższym wskaźnikiem porzucania.`,
     thumbnail: "",
   },
   {
     id: "nicho-090",
-    title: "Nicho basado en cambios de vida inesperados",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na niespodziewanych zmianach życiowych",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde eventos inesperados generan una necesidad urgente de ajuste.",
-    prompt: `Te doy un evento inesperado: [ej. despido, embarazo, ruptura].
+      "Znajduje nisze, w których niespodziewane wydarzenia tworzą pilną potrzebę dostosowania.",
+    prompt: `Podaję nieoczekiwane wydarzenie: [np. zwolnienie, ciąża, rozstanie].
 
-Haz:
-1) Encuentra 10 subnichos derivados.
-2) Para cada uno:
-   - Qué emoción domina.
-   - Qué necesitan reorganizar.
-   - Qué producto venderías como “transición guiada”.
-3) Elige el nicho con mayor urgencia inmediata.`,
+Zrób:
+1) Znajdź 10 subnisz wynikających z tego wydarzenia.
+2) Dla każdej:
+   - Jaka emocja dominuje.
+   - Co muszą przeorganizować.
+   - Jaki produkt sprzedał(a)byś jako „prowadzone przejście”.
+3) Wybierz niszę o największej natychmiastowej pilności.`,
     thumbnail: "",
   },
   {
     id: "nicho-091",
-    title: "Nicho basado en personas que nunca han tenido mentores",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na osobach, które nigdy nie miały mentorów",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Detecta nichos que quieren avanzar pero jamás han tenido guía real.",
-    prompt: `Te doy un área: [ej. negocios, carrera].
+      "Wykrywa nisze, które chcą ruszyć, ale nigdy nie miały realnego prowadzenia.",
+    prompt: `Podaję obszar: [np. biznes, kariera].
 
-Haz:
-1) Identifica 12 subnichos sin experiencia con mentores.
-2) Para cada nicho:
-   - Qué creen que es tener un mentor.
-   - Qué necesitan realmente.
-   - Qué producto venderías como ‘primer mentor’.
-3) Selecciona el nicho con mayor sensación de aislamiento.`,
+Zrób:
+1) Zidentyfikuj 12 subnisz bez doświadczenia z mentorami.
+2) Dla każdej niszy:
+   - Co myślą, że znaczy mieć mentora.
+   - Czego naprawdę potrzebują.
+   - Jaki produkt sprzedał(a)byś jako „pierwszy mentor”.
+3) Wybierz niszę z największym poczuciem izolacji.`,
     thumbnail: "",
   },
   {
     id: "nicho-092",
-    title: "Nicho basado en habilidades inexistentes pero necesarias",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na brakujących, ale potrzebnych umiejętnościach",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Define nichos donde el cliente no tiene una habilidad esencial para avanzar.",
-    prompt: `Te doy un área: [ej. trabajo, marketing].
+      "Definiuje nisze, w których klient nie ma kluczowej umiejętności potrzebnej do postępu.",
+    prompt: `Podaję obszar: [np. praca, marketing].
 
-Haz:
-1) Identifica 12 habilidades faltantes críticas.
-2) Para cada habilidad crea:
-   - Nicho asociado.
-   - Consecuencia de no tenerla.
-   - Producto para adquirirla rápido.
-3) Elige la habilidad con mayor impacto inmediato.`,
+Zrób:
+1) Zidentyfikuj 12 krytycznie brakujących umiejętności.
+2) Dla każdej umiejętności stwórz:
+   - Powiązaną niszę.
+   - Konsekwencję braku tej umiejętności.
+   - Produkt do szybkiego zdobycia umiejętności.
+3) Wybierz umiejętność o największym natychmiastowym wpływie.`,
     thumbnail: "",
   },
   {
     id: "nicho-093",
-    title: "Nicho basado en personas que pierden demasiado tiempo ‘analizando’",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Encuentra nichos atrapados en análisis infinito.",
-    prompt: `Te doy un tipo de análisis: [ej. comparar herramientas].
+    title: "Nisza oparta na osobach, które tracą za dużo czasu na „analizowanie”",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Znajduje nisze uwięzione w nieskończonej analizie.",
+    prompt: `Podaję typ analizy: [np. porównywanie narzędzi].
 
-Haz:
-1) Identifica 10 subnichos donde el análisis excesivo frena acción.
-2) Para cada nicho:
-   - Qué analizan.
-   - Qué temen decidir.
-   - Qué producto venderías como “decisión rápida”.
-3) Elige el nicho con mayor parálisis.`,
+Zrób:
+1) Zidentyfikuj 10 subnisz, w których nadmierna analiza blokuje działanie.
+2) Dla każdej niszy:
+   - Co analizują.
+   - Jakiej decyzji się boją.
+   - Jaki produkt sprzedał(a)byś jako „szybka decyzja”.
+3) Wybierz niszę o największym paraliżu.`,
     thumbnail: "",
   },
   {
     id: "nicho-094",
-    title: "Nicho basado en personas que buscan validación constante",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na osobach szukających stałej walidacji",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Define nichos donde el cliente necesita validación antes de cada pequeño paso.",
-    prompt: `Te doy un contexto: [ej. creación de contenido].
+      "Definiuje nisze, w których klient potrzebuje potwierdzenia przed każdym małym krokiem.",
+    prompt: `Podaję kontekst: [np. tworzenie treści].
 
-Haz:
-1) Identifica 10 subnichos con necesidad de validación.
-2) Para cada nicho:
-   - Qué dudan.
-   - Qué tipo de acompañamiento necesitan.
-   - Qué producto venderías como soporte 1:1 estructurado.
-3) Prioriza el nicho con mayor inseguridad operativa.`,
+Zrób:
+1) Zidentyfikuj 10 subnisz z potrzebą walidacji.
+2) Dla każdej niszy:
+   - W czym wątpią.
+   - Jakiego wsparcia potrzebują.
+   - Jaki produkt sprzedał(a)byś jako ustrukturyzowane wsparcie 1:1.
+3) Ustal priorytet dla niszy o największej niepewności operacyjnej.`,
     thumbnail: "",
   },
   {
     id: "nicho-095",
     title:
-      "Nicho basado en personas que necesitan un sistema pero no quieren construirlo",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+      "Nisza oparta na osobach, które potrzebują systemu, ale nie chcą go budować",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde el cliente quiere un sistema listo para usar.",
-    prompt: `Te doy un área: [ej. contenido, estudio, ventas].
+      "Znajduje nisze, w których klient chce gotowego systemu do użycia.",
+    prompt: `Podaję obszar: [np. treści, nauka, sprzedaż].
 
-Haz:
-1) Identifica 12 subnichos sin sistemas.
-2) Para cada uno:
-   - Qué les falta estructurar.
-   - Qué beneficios obtendrían al tener un sistema.
-   - Qué plantilla o framework venderías.
-3) Elige el nicho más dispuesto a pagar por un sistema turnkey.`,
+Zrób:
+1) Zidentyfikuj 12 subnisz bez systemów.
+2) Dla każdej:
+   - Czego im brakuje do ustrukturyzowania.
+   - Jakie korzyści mieliby z posiadania systemu.
+   - Jaki szablon lub framework byś sprzedał(a).
+3) Wybierz niszę najbardziej skłonną zapłacić za system „turnkey”.`,
     thumbnail: "",
   },
   {
     id: "nicho-096",
-    title: "Nicho basado en gente que está estancada en un mismo nivel",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
-    summary: "Define nichos donde llevan años sin avanzar al siguiente nivel.",
-    prompt: `Te doy un área: [ej. ingresos, habilidades].
+    title: "Nisza oparta na ludziach, którzy utknęli na jednym poziomie",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
+    summary: "Definiuje nisze osób, które od lat nie wchodzą na kolejny poziom.",
+    prompt: `Podaję obszar: [np. przychody, umiejętności].
 
-Haz:
-1) Identifica 12 subnichos bloqueados.
-2) Para cada nicho:
-   - Por qué están estancados.
-   - Qué creencia los mantiene ahí.
-   - Qué producto venderías como ‘ruptura de estancamiento’.
-3) Selecciona el nicho con mayor dolor por repetición.`,
+Zrób:
+1) Zidentyfikuj 12 zablokowanych subnisz.
+2) Dla każdej niszy:
+   - Dlaczego utknęli.
+   - Jakie przekonanie ich tam trzyma.
+   - Jaki produkt sprzedał(a)byś jako „przełamanie stagnacji”.
+3) Wybierz niszę o największym bólu z powtarzalności.`,
     thumbnail: "",
   },
   {
     id: "nicho-097",
-    title: "Nicho basado en aprendizajes parciales",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na częściowych umiejętnościach",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde la gente aprendió la mitad del proceso y ahora está perdida.",
-    prompt: `Te doy un proceso: [ej. automatizaciones].
+      "Znajduje nisze, w których ludzie nauczyli się połowy procesu i teraz są zagubieni.",
+    prompt: `Podaję proces: [np. automatyzacje].
 
-Haz:
-1) Identifica 12 subnichos que aprendieron solo lo básico.
-2) Para cada nicho:
-   - Qué parte saben.
-   - Qué parte no saben.
-   - Qué producto venderías para completar el conocimiento.
-3) Elige el nicho más incompleto pero motivado.`,
+Zrób:
+1) Zidentyfikuj 12 subnisz, które umieją tylko podstawy.
+2) Dla każdej niszy:
+   - Co już potrafią.
+   - Czego nie potrafią.
+   - Jaki produkt sprzedał(a)byś, by domknąć wiedzę.
+3) Wybierz niszę najbardziej niekompletną, ale zmotywowaną.`,
     thumbnail: "",
   },
   {
     id: "nicho-098",
-    title: "Nicho basado en exceso de opciones",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na nadmiarze opcji",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Define nichos donde la sobreabundancia de opciones frena acción y decisión.",
-    prompt: `Te doy un mercado saturado: [ej. herramientas IA].
+      "Definiuje nisze, w których nadmiar wyboru blokuje działanie i decyzje.",
+    prompt: `Podaję przesycony rynek: [np. narzędzia AI].
 
-Haz:
-1) Identifica 12 subnichos saturados de opciones.
-2) Para cada uno describe:
-   - Qué opciones los abruman.
-   - Qué criterio no saben usar.
-   - Qué producto de ‘curaduría’ podrías vender.
-3) Destaca el nicho con mayor urgencia de simplificación.`,
+Zrób:
+1) Zidentyfikuj 12 subnisz przytłoczonych wyborem.
+2) Dla każdej opisz:
+   - Jakie opcje ich zalewają.
+   - Jakiego kryterium nie umieją użyć.
+   - Jaki produkt „kuracji/curation” mógłbyś sprzedać.
+3) Wyróżnij niszę o największej pilności uproszczenia.`,
     thumbnail: "",
   },
   {
     id: "nicho-099",
-    title: "Nicho basado en autosabotaje recurrente",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na nawracającym autosabotażu",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Detecta nichos donde las personas avanzan pero se autosabotean constantemente.",
-    prompt: `Te doy un área: [ej. emprendimiento].
+      "Wykrywa nisze, w których ludzie robią postępy, ale ciągle się autosabotują.",
+    prompt: `Podaję obszar: [np. przedsiębiorczość].
 
-Haz:
-1) Identifica 12 formas de autosabotaje.
-2) Para cada forma convierte en nicho:
-   - Qué desencadena el autosabotaje.
-   - Qué patrón emocional está detrás.
-   - Qué producto venderías como corrección conductual.
-3) Elige el nicho con mayor recurrencia silenciosa.`,
+Zrób:
+1) Zidentyfikuj 12 form autosabotażu.
+2) Dla każdej formy zamień ją w niszę:
+   - Co wyzwala autosabotaż.
+   - Jaki wzorzec emocjonalny za tym stoi.
+   - Jaki produkt sprzedał(a)byś jako korektę zachowania.
+3) Wybierz niszę o największej „cichej” powtarzalności.`,
     thumbnail: "",
   },
   {
     id: "nicho-100",
-    title: "Nicho basado en reinicios constantes",
-    category: "Ideas de nicho",
-    area: "Negocios & Emprendimiento",
+    title: "Nisza oparta na ciągłych restartach",
+    category: "Pomysły na niszę",
+    area: "Biznes i Przedsiębiorczość",
     summary:
-      "Encuentra nichos donde la gente comienza proyectos pero reinicia cada pocas semanas.",
-    prompt: `Te doy un tipo de proyecto: [ej. negocio digital, plan fitness].
+      "Znajduje nisze, w których ludzie zaczynają projekty, ale restartują je co kilka tygodni.",
+    prompt: `Podaję typ projektu: [np. biznes cyfrowy, plan fitness].
 
-Haz:
-1) Identifica 12 subnichos con reinicios crónicos.
-2) Para cada nicho:
-   - Por qué reinician.
-   - Qué creencia genera ciclos de abandono.
-   - Qué producto venderías como sistema de continuidad.
-3) Destaca el nicho con mayor agotamiento mental por empezar de cero.`,
+Zrób:
+1) Zidentyfikuj 12 subnisz z chronicznymi restartami.
+2) Dla każdej niszy:
+   - Dlaczego restartują.
+   - Jakie przekonanie tworzy cykle porzucania.
+   - Jaki produkt sprzedał(a)byś jako system ciągłości.
+3) Wyróżnij niszę o największym mentalnym wyczerpaniu przez ciągłe zaczynanie od zera.`,
     thumbnail: "",
   },
 ];

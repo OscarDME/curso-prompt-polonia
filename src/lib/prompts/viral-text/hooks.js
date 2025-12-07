@@ -1,582 +1,582 @@
 // src/lib/prompts/viral-text/hooks.js
-// Área y categoría ÚNICAS para TODO este archivo:
-const AREA = "Hooks";
-const CATEGORY = "Sorpresa";
+// Unikalny obszar i kategoria dla CAŁEGO tego pliku:
+const AREA = "Hooki";
+const CATEGORY = "Zaskoczenie";
 
 export const viralTextPromptsHooks = [
   {
     id: "viral-hook-sorpresa-001",
-    title: "El error que todos cometen (y no lo notan)",
-    summary: "Hook de sorpresa + promesa de corrección inmediata.",
+    title: "Błąd, który wszyscy popełniają (i nie zauważają)",
+    summary: "Zaskoczenie + obietnica szybkiej poprawy.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Actúa como guionista de Reels/TikTok. Crea 10 hooks de 1 frase (máximo 9 palabras) para el nicho: [NICHO].
-Formato: Hook → (por qué engancha en 1 línea).
-Reglas:
-- Debe empezar con “Estás haciendo esto mal…”
-- Debe prometer un resultado concreto en 7 días.
-- Sin clickbait vacío: menciona una causa real.
-- Español neutro.`,
+    prompt: `Działaj jak scenarzysta Reels/TikTok. Stwórz 10 hooków w 1 zdaniu (maks. 9 słów) dla niszy: [NISZA].
+Format: Hook → (dlaczego wciąga w 1 linijce).
+Zasady:
+- Musi zaczynać się od „Robisz to źle…”
+- Ma obiecać konkretny efekt w 7 dni.
+- Bez pustego clickbaitu: wskaż realną przyczynę.
+- Neutralny polski.`,
   },
   {
     id: "viral-hook-sorpresa-002",
-    title: "Te están mintiendo con este consejo",
-    summary: "Hook de contradicción suave contra un “tip” popular.",
+    title: "Okłamują cię tym „tipem”",
+    summary: "Lekka kontradykcja wobec popularnej porady.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 12 hooks virales atacando un consejo popular de [TEMA].
-Estructura obligatoria:
-1) “Te están mintiendo con…” + [CONSEJO]
-2) mini-prueba en 6–10 palabras
-3) promesa: “en 20 segundos te lo explico”
-Hazlo para audiencia: [AUDIENCIA].`,
+    prompt: `Wygeneruj 12 viralowych hooków atakujących popularną poradę z [TEMAT].
+Obowiązkowa struktura:
+1) „Okłamują cię tym…” + [PORADA]
+2) mini-dowód w 6–10 słowach
+3) obietnica: „w 20 sekund ci to wyjaśnię”
+Dla odbiorcy: [ODBIORCA].`,
   },
   {
     id: "viral-hook-sorpresa-003",
-    title: "Lo probé y salió al revés",
-    summary: "Hook de experimento fallido que deja curiosidad.",
+    title: "Spróbowałem i wyszło na odwrót",
+    summary: "Eksperyment, który nie wyszedł — zostawia ciekawość.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks estilo “experimento” para [OBJETIVO].
-Cada hook debe:
-- Empezar con “Lo probé y…”
-- Incluir un giro inesperado.
-- Cerrar con una pregunta.
-Ejemplo de tono: directo, callejero, pero profesional.`,
+    prompt: `Napisz 15 hooków w stylu „eksperyment” dla [CEL].
+Każdy hook ma:
+- zaczynać się od „Spróbowałem i…”
+- zawierać nieoczekiwany zwrot
+- kończyć się pytaniem
+Ton: bezpośredni, uliczny, ale profesjonalny.`,
   },
   {
     id: "viral-hook-sorpresa-004",
-    title: "Nadie te cuenta esta parte",
-    summary: "Hook de secreto/omisión, sin exagerar.",
+    title: "Nikt nie mówi o tej części",
+    summary: "Hook o pomijanym elemencie, bez przesady.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks para [TEMA] con la frase “Nadie te cuenta…”.
-Reglas:
-- 6 a 10 palabras.
-- Debe insinuar una “parte incómoda” o subestimada.
-- Evita promesas ilegales o garantizadas.
-- Incluye 5 variaciones más suaves (menos confrontativas).`,
+    prompt: `Stwórz 20 hooków dla [TEMAT] z frazą „Nikt ci nie mówi…”.
+Zasady:
+- 6–10 słów.
+- Ma sugerować „niewygodną” lub niedocenianą część.
+- Unikaj obietnic nielegalnych lub gwarantowanych.
+- Dodaj 5 łagodniejszych wariantów (mniej konfrontacyjnych).`,
   },
   {
     id: "viral-hook-sorpresa-005",
-    title: "La verdad incómoda en 1 frase",
-    summary: "Hook corto, con punch, para abrir loop.",
+    title: "Niewygodna prawda w 1 zdaniu",
+    summary: "Krótko, mocno, otwiera pętlę.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 25 hooks (máximo 8 palabras) para [NICHO] que suenen como “verdades incómodas”.
-Estructura:
-- Afirmación fuerte + detalle específico.
-- No insultos.
-- Deben invitar a “qué hago entonces”.
-Entrega en lista numerada.`,
+    prompt: `Daj 25 hooków (maks. 8 słów) dla [NISZA] brzmiących jak „niewygodne prawdy”.
+Struktura:
+- Mocne stwierdzenie + konkretny detal.
+- Bez obrażania.
+- Mają wywołać myśl „okej, to co robić?”.
+Podaj w numerowanej liście.`,
   },
   {
     id: "viral-hook-sorpresa-006",
-    title: "El truco más raro que sí funciona",
-    summary: "Hook de rareza + validación.",
+    title: "Najdziwniejszy trik, który naprawdę działa",
+    summary: "Dziwność + walidacja.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks para [RESULTADO] usando “El truco más raro que…”.
-Incluye:
-- 5 hooks para principiantes
-- 5 para nivel intermedio
-- 5 para avanzados
-Añade al final de cada hook: (qué promete en 3 palabras).`,
+    prompt: `Stwórz 15 hooków dla [REZULTAT] używając „Najdziwniejszy trik, który…”.
+Uwzględnij:
+- 5 hooków dla początkujących
+- 5 dla średnio zaawansowanych
+- 5 dla zaawansowanych
+Na końcu każdego hooka dodaj: (co obiecuje w 3 słowach).`,
   },
   {
     id: "viral-hook-sorpresa-007",
-    title: "Lo que haría si empezara desde cero",
-    summary: "Hook de reinicio con sorpresa + claridad.",
+    title: "Co bym zrobił, gdybym zaczynał od zera",
+    summary: "Restart z zaskoczeniem i jasnością.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 12 hooks en primera persona para [OBJETIVO] empezando con:
-“Si empezara desde cero, haría esto:”
-Reglas:
-- 1 sola frase.
-- Menciona un paso que contradiga la intuición común.
-- Tono: mentor cercano.`,
+    prompt: `Napisz 12 hooków w pierwszej osobie dla [CEL] zaczynając od:
+„Gdybym zaczynał od zera, zrobiłbym to:”
+Zasady:
+- 1 zdanie.
+- Wspomnij krok, który przeczy powszechnej intuicji.
+- Ton: bliski mentor.`,
   },
   {
     id: "viral-hook-sorpresa-008",
-    title: "Esto suena mal, pero es lo mejor",
-    summary: "Hook que juega con tensión moral/extrañeza.",
+    title: "To brzmi źle, ale jest najlepsze",
+    summary: "Gra napięciem moralnym/„dziwnością” bez szkody.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 18 hooks para [TEMA] con esta plantilla:
-“Esto suena mal, pero… [beneficio]”
-Condiciones:
-- Que el “suena mal” sea ético (sin fraude/daño).
-- Que el beneficio sea tangible y específico.
-- 9–11 palabras máximo.`,
+    prompt: `Wygeneruj 18 hooków dla [TEMAT] wg szablonu:
+„To brzmi źle, ale… [korzyść]”
+Warunki:
+- „Brzmi źle” ma być etyczne (bez oszustw/szkody).
+- Korzyść ma być konkretna i namacalna.
+- Maks. 9–11 słów.`,
   },
   {
     id: "viral-hook-sorpresa-009",
-    title: "Tu problema no es lo que crees",
-    summary: "Hook de reencuadre con sorpresa.",
+    title: "Twój problem nie jest tym, co myślisz",
+    summary: "Reframing z zaskoczeniem.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks que empiecen con:
-“Tu problema no es [X], es [Y]”
-Para industria: [INDUSTRIA].
-Incluye 5 ejemplos para cada subtema: [SUBTEMA1], [SUBTEMA2], [SUBTEMA3], [SUBTEMA4].`,
+    prompt: `Stwórz 20 hooków zaczynających się od:
+„Twój problem to nie [X], tylko [Y]”
+Dla branży: [BRANŻA].
+Dodaj 5 przykładów dla każdego podtematu: [PODTEMAT1], [PODTEMAT2], [PODTEMAT3], [PODTEMAT4].`,
   },
   {
     id: "viral-hook-sorpresa-010",
-    title: "Te voy a ahorrar 6 meses",
-    summary: "Hook con promesa de ahorro de tiempo.",
+    title: "Zaoszczędzę ci 6 miesięcy",
+    summary: "Obietnica oszczędności czasu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 15 hooks para [RESULTADO] empezando con:
-“Te voy a ahorrar 6 meses…”
-Reglas:
-- Debe mencionar el error específico que evita.
-- Nada de “garantizado”.
-- Tono urgente pero realista.`,
+    prompt: `Daj 15 hooków dla [REZULTAT] zaczynających się od:
+„Zaoszczędzę ci 6 miesięcy…”
+Zasady:
+- Wskaż konkretny błąd, którego unikniesz.
+- Zero „gwarantowane”.
+- Ton pilny, ale realistyczny.`,
   },
 
   {
     id: "viral-hook-sorpresa-011",
-    title: "El consejo que me costó dinero",
-    summary: "Hook de aprendizaje caro (sorpresa + historia).",
+    title: "Porada, która kosztowała mnie pieniądze",
+    summary: "Droga lekcja (zaskoczenie + historia).",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 12 hooks tipo historia corta (1 frase) para [NICHO] que empiecen con:
-“El consejo que me costó dinero fue…”
-Debe cerrar con “y te digo qué hacer.”
-Manténlo creíble y concreto.`,
+    prompt: `Napisz 12 hooków-historii (1 zdanie) dla [NISZA] zaczynających się od:
+„Porada, która kosztowała mnie pieniądze, to…”
+Musi kończyć się „i powiem ci, co zrobić.”
+Ma być wiarygodnie i konkretnie.`,
   },
   {
     id: "viral-hook-sorpresa-012",
-    title: "No hagas esto si quieres resultados",
-    summary: "Hook de prohibición con giro específico.",
+    title: "Nie rób tego, jeśli chcesz wyniki",
+    summary: "Zakaz + konkretny zwrot.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks que empiecen con:
-“No hagas esto si quieres [RESULTADO]”
-Incluye un “esto” muy específico (acción concreta).
-Máximo 10 palabras por hook.`,
+    prompt: `Stwórz 20 hooków zaczynających się od:
+„Nie rób tego, jeśli chcesz [REZULTAT]”
+„Tego” ma być bardzo konkretne (konkretna akcja).
+Maks. 10 słów na hook.`,
   },
   {
     id: "viral-hook-sorpresa-013",
-    title: "El detalle mínimo que lo cambia todo",
-    summary: "Hook microdetalle + impacto alto.",
+    title: "Minimalny detal, który zmienia wszystko",
+    summary: "Mikro-detal + duży wpływ.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 25 hooks sobre microdetalles para [TEMA].
-Plantilla base:
-“El detalle mínimo que lo cambia todo: [DETALLE]”
-Haz que [DETALLE] sea accionable en 2 minutos.`,
+    prompt: `Wygeneruj 25 hooków o mikro-detalach dla [TEMAT].
+Szablon:
+„Minimalny detal, który zmienia wszystko: [DETAL]”
+[DETAL] ma być do zrobienia w 2 minuty.`,
   },
   {
     id: "viral-hook-sorpresa-014",
-    title: "Deja de seguir esta regla",
-    summary: "Hook anti-regla popular (sorpresa).",
+    title: "Przestań stosować tę zasadę",
+    summary: "Anti-zasada (zaskoczenie).",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks para [AUDIENCIA] usando:
-“Deja de seguir esta regla: [REGLA]”
-Luego agrega 1 mini-argumento (máximo 8 palabras).
-Sin agresividad. Simple, contundente.`,
+    prompt: `Napisz 15 hooków dla [ODBIORCA] używając:
+„Przestań stosować tę zasadę: [ZASADA]”
+Potem dodaj 1 mini-argument (maks. 8 słów).
+Bez agresji. Prosto i mocno.`,
   },
   {
     id: "viral-hook-sorpresa-015",
-    title: "Esto arruinó mis resultados (hasta hoy)",
-    summary: "Hook dramático controlado con resolución cercana.",
+    title: "To rozwalało moje wyniki (aż do dziś)",
+    summary: "Kontrolowany dramat z bliską ulgą.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 12 hooks para [OBJETIVO] con:
-“Esto arruinó mis resultados… hasta hoy”
-Incluye una pista del “arreglo” pero no lo reveles completo.
-Tono: honesto, sin exagerar.`,
+    prompt: `Stwórz 12 hooków dla [CEL] z:
+„To rozwalało moje wyniki… aż do dziś”
+Dodaj wskazówkę „naprawy”, ale nie zdradzaj jej wprost.
+Ton: szczery, bez przesady.`,
   },
   {
     id: "viral-hook-sorpresa-016",
-    title: "El atajo no es un atajo",
-    summary: "Hook paradójico para abrir loop.",
+    title: "Skrót nie jest skrótem",
+    summary: "Paradoks, który otwiera pętlę.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 20 hooks paradójicos sobre [TEMA].
-Estructura:
-“El atajo no es [X], es [Y]”
-Haz que [Y] sea sugerente y correcto.`,
+    prompt: `Daj 20 paradoksalnych hooków o [TEMAT].
+Struktura:
+„Skrót to nie [X], tylko [Y]”
+Spraw, żeby [Y] było trafne i intrygujące.`,
   },
   {
     id: "viral-hook-sorpresa-017",
-    title: "Tu fórmula está incompleta",
-    summary: "Hook de “te falta una pieza”.",
+    title: "Twoja formuła jest niepełna",
+    summary: "„Brakuje ci elementu”.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks que empiecen con:
-“Tu fórmula está incompleta: te falta [PIEZA]”
-Para: [AUDIENCIA].
-Cada [PIEZA] debe ser una acción concreta o un concepto claro.`,
+    prompt: `Wygeneruj 15 hooków zaczynających się od:
+„Twoja formuła jest niepełna: brakuje ci [ELEMENT]”
+Dla: [ODBIORCA].
+Każdy [ELEMENT] ma być konkretną akcją lub jasnym pojęciem.`,
   },
   {
     id: "viral-hook-sorpresa-018",
-    title: "Si haces esto, te frenas solo",
-    summary: "Hook de autosabotaje específico.",
+    title: "Jeśli robisz to, sam siebie blokujesz",
+    summary: "Konkretny autosabotaż.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 hooks de autosabotaje para [TEMA].
-Reglas:
-- Deben iniciar con “Si haces esto…”
-- Deben terminar con una consecuencia clara.
-- Sin generalidades (nada de “pensamiento negativo”).`,
+    prompt: `Napisz 20 hooków o autosabotażu dla [TEMAT].
+Zasady:
+- Zaczynają się od „Jeśli robisz to…”
+- Kończą się jasną konsekwencją.
+- Bez ogólników (żadnego „negatywnego myślenia”).`,
   },
   {
     id: "viral-hook-sorpresa-019",
-    title: "No es falta de talento, es esto",
-    summary: "Hook de reencuadre emocional + solución.",
+    title: "To nie brak talentu, tylko to",
+    summary: "Emocjonalny reframing + rozwiązanie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 18 hooks:
-“No es falta de talento, es [CAUSA]”
-Para [NICHO].
-[CAUSA] debe ser específica y corregible en 1 semana.`,
+    prompt: `Stwórz 18 hooków:
+„To nie brak talentu, tylko [PRZYCZYNA]”
+Dla [NISZA].
+[PRZYCZYNA] ma być konkretna i do poprawy w tydzień.`,
   },
   {
     id: "viral-hook-sorpresa-020",
-    title: "Lo estás midiendo mal",
-    summary: "Hook de métrica equivocada (sorpresa).",
+    title: "Źle to mierzysz",
+    summary: "Zła metryka (zaskoczenie).",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 15 hooks para [TEMA] en forma de corrección de métricas.
-Plantilla:
-“Lo estás midiendo mal: mira [MÉTRICA REAL]”
-Haz que [MÉTRICA REAL] sea concreta y útil.`,
+    prompt: `Daj 15 hooków dla [TEMAT] jako korekta metryk.
+Szablon:
+„Źle to mierzysz: patrz na [PRAWDZIWA_METRYKA]”
+[PRAWDZIWA_METRYKA] ma być konkretna i użyteczna.`,
   },
 
   {
     id: "viral-hook-sorpresa-021",
-    title: "Esto suena obvio, pero nadie lo hace",
-    summary: "Hook de obviedad ignorada.",
+    title: "To brzmi oczywiście, ale nikt tego nie robi",
+    summary: "Oczywistość ignorowana.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 25 hooks para [OBJETIVO] que comiencen con:
-“Esto suena obvio, pero…”
-Debe incluir una acción simple que casi nadie ejecuta.
-Máximo 11 palabras.`,
+    prompt: `Wygeneruj 25 hooków dla [CEL] zaczynających się od:
+„To brzmi oczywiście, ale…”
+Dodaj prostą akcję, której prawie nikt nie wykonuje.
+Maks. 11 słów.`,
   },
   {
     id: "viral-hook-sorpresa-022",
-    title: "La razón por la que no te funciona",
-    summary: "Hook causal directo con sorpresa.",
+    title: "Powód, dla którego to ci nie działa",
+    summary: "Hook przyczynowy z nieoczywistą prawdą.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 hooks con:
-“La razón por la que [X] no te funciona…”
-Completa con una causa inesperada pero real.
-Enfocado en: [TEMA].`,
+    prompt: `Napisz 20 hooków:
+„Powód, dla którego [X] ci nie działa…”
+Dopisz nieoczekiwaną, ale realną przyczynę.
+Skup się na: [TEMAT].`,
   },
   {
     id: "viral-hook-sorpresa-023",
-    title: "El consejo que te da resultados opuestos",
-    summary: "Hook de inversión de expectativas.",
+    title: "Porada, która daje odwrotne efekty",
+    summary: "Odwrócenie oczekiwań.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 12 hooks sobre “consejos que salen al revés” para [NICHO].
-Estructura por hook:
-- Consejo típico
-- Resultado opuesto en 4–7 palabras
-Todo en una sola frase.`,
+    prompt: `Stwórz 12 hooków o „radach, które działają na odwrót” dla [NISZA].
+Struktura każdego hooka:
+- Typowa rada
+- Odwrotny efekt w 4–7 słowach
+Wszystko w jednym zdaniu.`,
   },
   {
     id: "viral-hook-sorpresa-024",
-    title: "Haz lo contrario (pero así)",
-    summary: "Hook contracorriente con instrucción.",
+    title: "Zrób odwrotnie (ale tak)",
+    summary: "Kontrariańsko + instrukcja.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 18 hooks:
-“Haz lo contrario: en vez de [X], haz [Y]”
-Para [AUDIENCIA].
-[X] y [Y] deben ser acciones concretas y realistas.`,
+    prompt: `Daj 18 hooków:
+„Zrób odwrotnie: zamiast [X], zrób [Y]”
+Dla [ODBIORCA].
+[X] i [Y] muszą być konkretne i realistyczne.`,
   },
   {
     id: "viral-hook-sorpresa-025",
-    title: "Te falta una línea (literal)",
-    summary: "Hook de micro-cambio textual.",
+    title: "Brakuje ci jednej linijki (dosłownie)",
+    summary: "Mikro-zmiana w tekście.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks para copy/marketing donde el giro sea “una línea”.
-Plantilla:
-“Te falta una línea: [LÍNEA]”
-La [LÍNEA] debe ser una frase exacta que puedan pegar.`,
+    prompt: `Stwórz 15 hooków dla copy/marketingu, gdzie zwrotem jest „jedna linijka”.
+Szablon:
+„Brakuje ci jednej linijki: [LINIJKA]”
+[LINIJKA] ma być gotowym zdaniem do skopiowania.`,
   },
   {
     id: "viral-hook-sorpresa-026",
-    title: "El truco es aburrido (por eso funciona)",
-    summary: "Hook anti-hype, creíble.",
+    title: "Trik jest nudny (dlatego działa)",
+    summary: "Anti-hype, wiarygodne.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks con esta idea:
-“El truco es aburrido… por eso funciona.”
-Para [TEMA].
-Que cada hook termine con “Te muestro cómo.”`,
+    prompt: `Wygeneruj 20 hooków z ideą:
+„Trik jest nudny… dlatego działa.”
+Dla [TEMAT].
+Każdy hook ma kończyć się „Pokażę ci jak.”`,
   },
   {
     id: "viral-hook-sorpresa-027",
-    title: "Esto no es para todos",
-    summary: "Hook de exclusión suave (segmenta).",
+    title: "To nie jest dla wszystkich",
+    summary: "Łagodne wykluczenie (segmentacja).",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks que empiecen con:
-“Esto no es para todos, es para…”
-Define un perfil ultra específico de [AUDIENCIA].
-Sin elitismo agresivo.`,
+    prompt: `Napisz 15 hooków zaczynających się od:
+„To nie jest dla wszystkich — to dla…”
+Zdefiniuj ultra-konkretny profil [ODBIORCA].
+Bez agresywnego elitaryzmu.`,
   },
   {
     id: "viral-hook-sorpresa-028",
-    title: "La parte que más ignoras (y más pesa)",
-    summary: "Hook de foco incorrecto.",
+    title: "Część, którą najbardziej ignorujesz (a najbardziej waży)",
+    summary: "Zły fokus.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks para [OBJETIVO]:
-“La parte que más ignoras es la que más pesa: [PARTE]”
-Haz [PARTE] algo concreto (ej: “tu cierre”, “tu oferta”, “tu primer párrafo”).`,
+    prompt: `Stwórz 20 hooków dla [CEL]:
+„To, co najbardziej ignorujesz, waży najwięcej: [CZĘŚĆ]”
+[CZĘŚĆ] ma być konkretna (np. „twój finisz”, „twoja oferta”, „pierwszy akapit”).`,
   },
   {
     id: "viral-hook-sorpresa-029",
-    title: "Si solo haces 1 cosa hoy",
-    summary: "Hook de prioridad única (sorpresa).",
+    title: "Jeśli dziś zrobisz tylko 1 rzecz",
+    summary: "Jedna dźwignia (zaskoczenie).",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 25 hooks que empiecen con:
-“Si solo haces 1 cosa hoy…”
-Para [TEMA].
-Debe ser una acción de alto impacto, baja fricción.`,
+    prompt: `Daj 25 hooków zaczynających się od:
+„Jeśli dziś zrobisz tylko 1 rzecz…”
+Dla [TEMAT].
+Ma to być działanie o dużym wpływie i niskim tarciu.`,
   },
   {
     id: "viral-hook-sorpresa-030",
-    title: "La regla del 3-1-1",
-    summary: "Hook con mini-framework numérico.",
+    title: "Zasada 3-1-1",
+    summary: "Mini-framework liczbowy.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 12 hooks con frameworks numéricos inventados (pero útiles) para [TEMA].
-Ejemplo formato: “Regla del 3-1-1: [promesa]”
-Luego explica el nombre en 6 palabras dentro del hook.`,
+    prompt: `Stwórz 12 hooków z wymyślonymi (ale użytecznymi) frameworkami liczbowymi dla [TEMAT].
+Przykład: „Zasada 3-1-1: [obietnica]”
+Potem wyjaśnij nazwę w 6 słowach w obrębie hooka.`,
   },
 
   {
     id: "viral-hook-sorpresa-031",
-    title: "Te lo digo por experiencia (y duele)",
-    summary: "Hook de confesión + tensión.",
+    title: "Mówię z doświadczenia (i boli)",
+    summary: "Wyznanie + napięcie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks para [NICHO] que empiecen con:
-“Te lo digo por experiencia…”
-Incluye un mini “dolor” y una promesa de solución.
-Máximo 12 palabras.`,
+    prompt: `Napisz 15 hooków dla [NISZA] zaczynających się od:
+„Mówię z doświadczenia…”
+Dodaj mały „ból” i obietnicę rozwiązania.
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-sorpresa-032",
-    title: "Este hábito te roba resultados",
-    summary: "Hook de hábito invisible.",
+    title: "Ten nawyk kradnie ci wyniki",
+    summary: "Niewidzialny nawyk.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks sobre hábitos invisibles en [TEMA].
-Plantilla:
-“Este hábito te roba [RESULTADO]: [HÁBITO]”
-Que el hábito sea cotidiano y específico.`,
+    prompt: `Wygeneruj 20 hooków o niewidzialnych nawykach w [TEMAT].
+Szablon:
+„Ten nawyk kradnie ci [REZULTAT]: [NAWYK]”
+[NAWYK] ma być codzienny i konkretny.`,
   },
   {
     id: "viral-hook-sorpresa-033",
-    title: "No necesitas más info, necesitas esto",
-    summary: "Hook de saturación de información.",
+    title: "Nie potrzebujesz więcej info, potrzebujesz tego",
+    summary: "Przeciążenie informacją.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 18 hooks para [AUDIENCIA] que estén sobrecargados de información.
-Plantilla:
-“No necesitas más info, necesitas [X]”
-[X] debe ser una acción o sistema simple.`,
+    prompt: `Stwórz 18 hooków dla [ODBIORCA] przeciążonego informacjami.
+Szablon:
+„Nie potrzebujesz więcej info, potrzebujesz [X]”
+[X] ma być prostą akcją lub systemem.`,
   },
   {
     id: "viral-hook-sorpresa-034",
-    title: "Lo que nadie hace en el primer segundo",
-    summary: "Hook de primer segundo específico.",
+    title: "To, czego nikt nie robi w pierwszej sekundzie",
+    summary: "Pierwsza sekunda — konkret.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks sobre el “primer segundo” para [TEMA].
-Debe mencionar algo visual o verbal que se hace al inicio.
-Cierra con: “y por eso retiene.”`,
+    prompt: `Napisz 15 hooków o „pierwszej sekundzie” dla [TEMAT].
+Musi wspomnieć coś wizualnego lub słownego na start.
+Zakończ: „i dlatego trzyma uwagę.”`,
   },
   {
     id: "viral-hook-sorpresa-035",
-    title: "El enemigo no es el algoritmo",
-    summary: "Hook anti-creencia popular.",
+    title: "Wrogiem nie jest algorytm",
+    summary: "Anty-mit.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 12 hooks con esta idea:
-“El enemigo no es el algoritmo, es [X]”
-Para creadores en [PLATAFORMA].
-[X] debe ser un error de contenido o de oferta.`,
+    prompt: `Wygeneruj 12 hooków z ideą:
+„Wrogiem nie jest algorytm, tylko [X]”
+Dla twórców na [PLATFORMA].
+[X] ma być błędem treści lub oferty.`,
   },
   {
     id: "viral-hook-sorpresa-036",
-    title: "Tu contenido falla por esto (no por calidad)",
-    summary: "Hook de causa sorpresa no-obvia.",
+    title: "Twoje treści padają przez to (nie przez jakość)",
+    summary: "Nieoczywista przyczyna.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks:
-“Tu contenido falla por [X], no por calidad.”
-[X] debe variar: estructura, claridad, oferta, fricción, contexto, timing.
-Enfocado a [NICHO].`,
+    prompt: `Stwórz 20 hooków:
+„Twoje treści padają przez [X], nie przez jakość.”
+[X] zmieniaj: struktura, jasność, oferta, tarcie, kontekst, timing.
+Dla [NISZA].`,
   },
   {
     id: "viral-hook-sorpresa-037",
-    title: "Esto te hace ver amateur sin que lo notes",
-    summary: "Hook de “detalle amateur”.",
+    title: "To sprawia, że wyglądasz jak amator (i nie wiesz)",
+    summary: "„Amatorski detal”.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 25 hooks de “detalle amateur” para [TEMA].
-Plantilla:
-“Esto te hace ver amateur: [DETALLE]”
-[DETALLE] debe ser concreto y fácil de corregir.`,
+    prompt: `Napisz 25 hooków o „amatorskim detalu” dla [TEMAT].
+Szablon:
+„To sprawia, że wyglądasz jak amator: [DETAL]”
+[DETAL] ma być konkretny i łatwy do poprawy.`,
   },
   {
     id: "viral-hook-sorpresa-038",
-    title: "La frase que cambia tu respuesta",
-    summary: "Hook de guion/fórmula textual.",
+    title: "Zdanie, które zmienia odpowiedź",
+    summary: "Formuła tekstowa.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks basados en “UNA FRASE exacta”.
-Plantilla:
-“Di esta frase y cambia todo: ‘[FRASE]’”
-La [FRASE] debe estar lista para copiar y pegar para [AUDIENCIA].`,
+    prompt: `Stwórz 15 hooków opartych na „JEDNYM konkretnym zdaniu”.
+Szablon:
+„Powiedz to zdanie i wszystko się zmienia: ‘[ZDANIE]’”
+[ZDANIE] ma być gotowe do kopiuj-wklej dla [ODBIORCA].`,
   },
   {
     id: "viral-hook-sorpresa-039",
-    title: "No lo hagas más difícil",
-    summary: "Hook simplificador con giro.",
+    title: "Nie rób tego trudniej",
+    summary: "Upraszcza z twistem.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks que empiecen con:
-“No lo hagas más difícil…”
-Luego completa con una simplificación inesperada para [OBJETIVO].
-Máximo 10 palabras.`,
+    prompt: `Wygeneruj 20 hooków zaczynających się od:
+„Nie rób tego trudniej…”
+Potem dodaj nieoczekiwane uproszczenie dla [CEL].
+Maks. 10 słów.`,
   },
   {
     id: "viral-hook-sorpresa-040",
-    title: "El truco es quitar, no poner",
-    summary: "Hook de sustracción (sorpresa).",
+    title: "Trik to odejmować, nie dodawać",
+    summary: "Sztuka odejmowania (zaskoczenie).",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 15 hooks con:
-“El truco es quitar [X], no poner [Y].”
-Para [TEMA].
-[X] y [Y] deben ser cosas reales (pasos, palabras, hábitos).`,
+    prompt: `Daj 15 hooków:
+„Trik to odejmować [X], nie dodawać [Y].”
+Dla [TEMAT].
+[X] i [Y] muszą być realne (kroki, słowa, nawyki).`,
   },
 
   {
     id: "viral-hook-sorpresa-041",
-    title: "Este cambio de orden lo mejora todo",
-    summary: "Hook de reordenar pasos.",
+    title: "Ta zmiana kolejności poprawia wszystko",
+    summary: "Przestawienie kroków.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 18 hooks sobre “cambiar el orden” para [PROCESO].
-Plantilla:
-“Cambia el orden: primero [A], luego [B].”
-Que [A]/[B] sean acciones claras.`,
+    prompt: `Stwórz 18 hooków o „zmianie kolejności” dla [PROCES].
+Szablon:
+„Zmień kolejność: najpierw [A], potem [B].”
+[A]/[B] mają być jasnymi akcjami.`,
   },
   {
     id: "viral-hook-sorpresa-042",
-    title: "Lo que haces por “seguridad” te frena",
-    summary: "Hook de comportamiento protector.",
+    title: "To, co robisz dla „bezpieczeństwa”, cię hamuje",
+    summary: "Zachowanie ochronne jako hamulec.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks:
-“Eso que haces por seguridad… te frena.”
-Completa con una conducta típica de [AUDIENCIA].
-Añade un mini “por qué” en 5 palabras.`,
+    prompt: `Napisz 15 hooków:
+„To, co robisz dla bezpieczeństwa… hamuje cię.”
+Dopisz typowe zachowanie [ODBIORCA].
+Dodaj mini „dlaczego” w 5 słowach.`,
   },
   {
     id: "viral-hook-sorpresa-043",
-    title: "Te estás saltando el paso invisible",
-    summary: "Hook de paso omitido.",
+    title: "Pomijasz niewidzialny krok",
+    summary: "Pominięty etap.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks que incluyan la idea:
-“Paso invisible”
-Plantilla:
-“Te estás saltando el paso invisible: [PASO]”
-Para [TEMA]. [PASO] debe ser accionable.`,
+    prompt: `Wygeneruj 20 hooków zawierających ideę:
+„niewidzialny krok”
+Szablon:
+„Pomijasz niewidzialny krok: [KROK]”
+Dla [TEMAT]. [KROK] ma być do zrobienia.`,
   },
   {
     id: "viral-hook-sorpresa-044",
-    title: "Si esto te pasa, es buena señal",
-    summary: "Hook de reencuadre positivo sorpresa.",
+    title: "Jeśli to ci się zdarza, to dobry znak",
+    summary: "Pozytywne przeformułowanie (zaskoczenie).",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks:
-“Si [SÍNTOMA] te pasa, es buena señal.”
-Para [AUDIENCIA].
-[SÍNTOMA] debe ser algo común y no peligroso (ej: nervios, dudas, bajón).`,
+    prompt: `Stwórz 20 hooków:
+„Jeśli masz [OBJAW], to dobry znak.”
+Dla [ODBIORCA].
+[OBJAW] ma być częsty i niegroźny (np. stres, wątpliwości, spadek motywacji).`,
   },
   {
     id: "viral-hook-sorpresa-045",
-    title: "Esto es lo que yo no haría ni loco",
-    summary: "Hook de postura fuerte sin agresión.",
+    title: "Tego bym nie zrobił za nic",
+    summary: "Mocna opinia bez agresji.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks estilo opinión firme:
-“Esto yo no lo haría ni loco: [X]”
-Para [NICHO].
-[X] debe ser una estrategia común pero mala en cierto contexto.
-Cierra con: “te digo qué sí haría.”`,
+    prompt: `Wygeneruj 15 hooków w stylu stanowczej opinii:
+„Tego nie zrobiłbym za nic: [X]”
+Dla [NISZA].
+[X] ma być częstą strategią, ale złą w pewnym kontekście.
+Zakończ: „powiem, co bym zrobił.”`,
   },
   {
     id: "viral-hook-sorpresa-046",
-    title: "El cambio de 5 palabras",
-    summary: "Hook de micro-edición textual.",
+    title: "Zmiana w 5 słowach",
+    summary: "Mikro-edycja tekstu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 20 hooks:
-“El cambio de 5 palabras que mejora [RESULTADO]”
-Incluye en el hook las 5 palabras exactas entre comillas.
-Enfocado en [TEMA].`,
+    prompt: `Daj 20 hooków:
+„Zmiana w 5 słowach, która poprawia [REZULTAT]”
+W hooku podaj dokładne 5 słów w cudzysłowie.
+Dla [TEMAT].`,
   },
   {
     id: "viral-hook-sorpresa-047",
-    title: "La razón por la que te ignoran",
-    summary: "Hook que golpea un dolor real.",
+    title: "Powód, dla którego cię ignorują",
+    summary: "Uderza w realny ból.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 18 hooks para [PLATAFORMA] con:
-“La razón por la que te ignoran es…”
-Completa con un error de enfoque (no con insultos).
-Que suene directo y útil.`,
+    prompt: `Napisz 18 hooków dla [PLATFORMA] z:
+„Powód, dla którego cię ignorują, to…”
+Dopisz błąd w skupieniu (bez obelg).
+Ma być prosto i użytecznie.`,
   },
   {
     id: "viral-hook-sorpresa-048",
-    title: "Esto es más importante que la estrategia",
-    summary: "Hook de prioridad sorpresa.",
+    title: "To jest ważniejsze niż strategia",
+    summary: "Zaskakujący priorytet.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks:
-“Esto es más importante que la estrategia: [X]”
-Para [TEMA].
-[X] debe ser un fundamento (claridad, oferta, consistencia, energía, etc.) pero explicado específico.`,
+    prompt: `Stwórz 20 hooków:
+„To jest ważniejsze niż strategia: [X]”
+Dla [TEMAT].
+[X] = fundament (jasność, oferta, konsekwencja, energia itd.), ale opisany konkretnie.`,
   },
   {
     id: "viral-hook-sorpresa-049",
-    title: "Lo que hago antes de publicar",
-    summary: "Hook de ritual secreto (sorpresa).",
+    title: "Co robię przed publikacją",
+    summary: "Rytuał „sekret” (zaskoczenie).",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 15 hooks sobre “antes de publicar” para creadores de [NICHO].
-Plantilla:
-“Antes de publicar, hago esto: [ACCION]”
-[ACCION] debe ser simple y poco común.`,
+    prompt: `Daj 15 hooków o „przed publikacją” dla twórców w [NISZA].
+Szablon:
+„Przed publikacją robię to: [AKCJA]”
+[AKCJA] ma być prosta i mało oczywista.`,
   },
   {
     id: "viral-hook-sorpresa-050",
-    title: "El secreto es el final, no el inicio",
-    summary: "Hook de inversión (final > inicio).",
+    title: "Sekret jest w zakończeniu, nie w początku",
+    summary: "Odwrócenie: finisz > start.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 12 hooks sobre guiones donde la clave es el cierre.
-Plantilla:
-“El secreto es el final: [CLAVE]”
-[CLAVE] debe ser concreta (CTA, payoff, remate, prueba, ejemplo, etc.).
-Para [TEMA].`,
+    prompt: `Wygeneruj 12 hooków o scenariuszach, gdzie kluczem jest domknięcie.
+Szablon:
+„Sekret jest w zakończeniu: [KLUCZ]”
+[KLUCZ] ma być konkretny (CTA, payoff, puenta, dowód, przykład itd.).
+Dla [TEMAT].`,
   },
 ];

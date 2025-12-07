@@ -2,398 +2,398 @@
 
 export const iaToolsContent = {
   id: "ia-tools",
-  title: "Herramientas de IA recomendadas",
+  title: "Polecane narzędzia AI",
   heroText:
-    "En esta sección encontrarás una guía práctica de herramientas de inteligencia artificial para escribir, diseñar, crear vídeos y automatizar procesos. La idea no es que uses todas, sino que identifiques cuáles encajan con tu momento y tu tipo de proyecto.",
+    "W tej sekcji znajdziesz praktyczny przewodnik po narzędziach sztucznej inteligencji do pisania, projektowania, tworzenia wideo i automatyzacji procesów. Chodzi nie o to, żeby używać wszystkich, tylko żeby rozpoznać, które pasują do Twojego etapu i typu projektu.",
 
-  // 🧠 Secciones explicativas generales (texto que ya tienes en la página)
+  // 🧠 Ogólne sekcje wyjaśniające (tekst, który już masz na stronie)
   sections: [
     {
       id: "mentalidad",
-      title: "1. Antes de elegir una herramienta",
+      title: "1. Zanim wybierzesz narzędzie",
       body: [
-        "La herramienta es secundaria. Lo que realmente importa es el sistema que construyes alrededor: tener claro tu objetivo, el tipo de contenido que quieres crear y el flujo de trabajo que vas a repetir cada semana.",
-        "Piensa en las herramientas de IA como colaboradores: cada una hace muy bien una parte específica del proceso (ideas, escritura, diseño, edición, automatización…). Tu trabajo es orquestarlas.",
+        "Narzędzie jest drugorzędne. Najważniejszy jest system, który budujesz dookoła: jasny cel, typ treści, które chcesz tworzyć, oraz workflow, który będziesz powtarzać co tydzień.",
+        "Myśl o narzędziach AI jak o współpracownikach: każde świetnie robi jedną, konkretną część procesu (pomysły, pisanie, design, montaż, automatyzacja…). Twoim zadaniem jest je zorkiestrować."
       ],
       bullets: [
         {
-          label: "Empieza simple",
+          label: "Zacznij prosto",
           description:
-            "No intentes dominar 20 apps a la vez. Elige 1 para texto, 1 para imagen y, si es necesario, 1 para vídeo.",
+            "Nie próbuj opanować 20 aplikacji naraz. Wybierz 1 do tekstu, 1 do obrazów i — jeśli trzeba — 1 do wideo."
         },
         {
-          label: "Flujo primero, herramienta después",
+          label: "Najpierw workflow, potem narzędzie",
           description:
-            "Define qué quieres lograr (ejemplo: planear contenido del mes) y luego eliges qué herramienta encaja mejor en cada paso.",
+            "Zdefiniuj, co chcesz osiągnąć (np. zaplanować treści na miesiąc), a dopiero potem wybierz narzędzie, które najlepiej pasuje do każdego kroku."
         },
         {
-          label: "Evita la parálisis por análisis",
+          label: "Unikaj paraliżu analitycznego",
           description:
-            "Hay cientos de herramientas nuevas cada semana. Tu ventaja no es conocer todas, sino usar bien unas pocas.",
-        },
-      ],
+            "Co tydzień pojawiają się setki nowych narzędzi. Twoją przewagą nie jest znać wszystkie, tylko dobrze używać kilku."
+        }
+      ]
     },
 
     {
       id: "texto",
-      title: "2. Herramientas para texto y escritura",
+      title: "2. Narzędzia do tekstu i pisania",
       body: [
-        "Tu base para todo el contenido de texto será un modelo de lenguaje (como ChatGPT u otras IAs similares). Los prompts de este curso están pensados justamente para sacarle el máximo partido.",
-        "Puedes usar estas herramientas para escribir guiones, posts, newsletters, páginas de venta, e-mails de seguimiento, ideas de contenido y mucho más.",
+        "Twoją bazą dla wszystkich treści tekstowych będzie model językowy (jak ChatGPT lub inne podobne AI). Prompty z tego kursu są stworzone właśnie po to, żeby wycisnąć z tego maksimum.",
+        "Możesz używać tych narzędzi do pisania skryptów, postów, newsletterów, stron sprzedażowych, e-maili follow-up, pomysłów na content i wiele więcej."
       ],
       bullets: [
         {
-          label: "ChatGPT o modelos similares",
+          label: "ChatGPT lub podobne modele",
           description:
-            "Tu centro principal para aplicar los +13.500 prompts. Aquí escribes, corriges, resumes, reescribes y generas nuevas ideas.",
+            "Twoje główne centrum do wykorzystania ponad 13 500 promptów. Tutaj piszesz, poprawiasz, streszczasz, przeredagowujesz i generujesz nowe pomysły."
         },
         {
-          label: "Editores de texto con IA integrada",
+          label: "Edytory tekstu z wbudowaną AI",
           description:
-            "Plataformas como Notion, Google Docs o editores con IA integrada te ayudan a pulir estilo y gramática sin salir de tu espacio de trabajo.",
+            "Platformy takie jak Notion, Google Docs czy edytory z wbudowaną AI pomagają dopracować styl i gramatykę bez wychodzenia z przestrzeni roboczej."
         },
         {
-          label: "Extensiones de navegador",
+          label: "Rozszerzenia przeglądarki",
           description:
-            "Te permiten usar IA directamente en formularios, redes sociales o gestores de correo para responder rápido y con mejor calidad.",
-        },
+            "Pozwalają używać AI bezpośrednio w formularzach, social mediach lub klientach poczty, żeby odpowiadać szybciej i lepiej."
+        }
       ],
       highlight:
-        "Recomendación: centraliza tus mejores outputs en un solo documento maestro. Ahí mismo puedes pegar los prompts que más uses y las respuestas que hayan funcionado mejor.",
+        "Rekomendacja: trzymaj swoje najlepsze wyniki w jednym dokumencie „master”. Tam wklejaj prompty, których używasz najczęściej, oraz odpowiedzi, które zadziałały najlepiej."
     },
 
     {
       id: "imagen",
-      title: "3. Herramientas para imágenes y creatividades",
+      title: "3. Narzędzia do obrazów i kreacji",
       body: [
-        "Con los prompts de imagen del Banco Secreto puedes generar fotos, ilustraciones, portadas, miniaturas y creatividades para anuncios.",
-        "Aunque cada plataforma de imagen tenga nombres y botones distintos, la lógica es siempre la misma: prompt claro + estilo visual definido + pequeños ajustes.",
+        "Dzięki promptom obrazowym z Tajnego Banku możesz generować zdjęcia, ilustracje, okładki, miniatury i kreacje do reklam.",
+        "Chociaż każda platforma obrazowa ma inne nazwy i przyciski, logika jest zawsze ta sama: jasny prompt + zdefiniowany styl wizualny + drobne poprawki."
       ],
       bullets: [
         {
-          label: "Generadores de imagen con IA",
+          label: "Generatory obrazów z AI",
           description:
-            "Usa tus prompts para crear fotos de producto, retratos profesionales, escenas cinematográficas, fondos para carruseles y más.",
+            "Używaj promptów do tworzenia zdjęć produktowych, profesjonalnych portretów, scen filmowych, teł do karuzel i nie tylko."
         },
         {
-          label: "Edición y retoque ligero",
+          label: "Lekka edycja i retusz",
           description:
-            "Una vez generada la imagen, puedes retocarla en editores básicos (brillo, contraste, recorte) para adaptarla a cada red social.",
+            "Po wygenerowaniu obrazu możesz go doszlifować w prostych edytorach (jasność, kontrast, kadrowanie), aby dopasować do każdej platformy."
         },
         {
-          label: "Bancos personales de assets",
+          label: "Własne banki assetów",
           description:
-            "Guarda en carpetas tus imágenes más sólidas (portadas, fondos, texturas) para reutilizarlas en futuros contenidos.",
-        },
-      ],
+            "Zapisuj w folderach swoje najmocniejsze obrazy (okładki, tła, tekstury), aby wykorzystywać je ponownie w przyszłych treściach."
+        }
+      ]
     },
 
     {
       id: "video",
-      title: "4. Herramientas para vídeo corto con IA",
+      title: "4. Narzędzia do krótkiego wideo z AI",
       body: [
-        "Los prompts de vídeo están pensados para que puedas generar clips breves que luego uses en anuncios, reels, shorts o como B-roll con tu voz encima.",
-        "La clave está en combinar tres cosas: una buena idea (prompt), un estilo visual coherente con tu marca y un montaje rápido para adaptarlo a cada plataforma.",
+        "Prompty wideo są stworzone tak, abyś mógł/mogła generować krótkie klipy i używać ich później w reklamach, reels, shorts lub jako B-roll z Twoim głosem.",
+        "Kluczem jest połączenie trzech rzeczy: dobrego pomysłu (promptu), stylu wizualnego spójnego z marką oraz szybkiego montażu dopasowanego do każdej platformy."
       ],
       bullets: [
         {
-          label: "Generadores de vídeo con IA",
+          label: "Generatory wideo z AI",
           description:
-            "Ideales para clips cortos: B-roll de trabajo, escenas tecnológicas, fondos dinámicos o visuales conceptuales.",
+            "Idealne do krótkich klipów: B-roll z pracy, sceny technologiczne, dynamiczne tła lub wizualizacje koncepcyjne."
         },
         {
-          label: "Editores de vídeo sencillos",
+          label: "Proste edytory wideo",
           description:
-            "Herramientas de edición básica te permiten recortar, añadir subtítulos, música y llamadas a la acción sobre el material generado con IA.",
+            "Narzędzia do podstawowej edycji pozwalają przyciąć materiał, dodać napisy, muzykę i CTA na klipach wygenerowanych przez AI."
         },
         {
-          label: "Plantillas reutilizables",
+          label: "Szablony do ponownego użycia",
           description:
-            "Crea 2–3 plantillas de vídeo base (intro, consejo rápido, anuncio) y reutilízalas cambiando sólo texto y clips generados.",
-        },
-      ],
+            "Stwórz 2–3 bazowe szablony (intro, szybka porada, reklama) i używaj ich ponownie, zmieniając tylko tekst i wygenerowane klipy."
+        }
+      ]
     },
 
     {
       id: "automatizacion",
-      title: "5. Automatización y productividad con IA",
+      title: "5. Automatyzacja i produktywność z AI",
       body: [
-        "Además de ayudarte a crear contenido, la IA también puede reducir la carga operativa de tu día a día.",
-        "Desde responder correos frecuentes hasta preparar borradores de informes, muchos procesos repetitivos pueden automatizarse o, al menos, simplificarse.",
+        "Poza tworzeniem treści AI może też zmniejszyć operacyjne obciążenie Twojego dnia.",
+        "Od odpowiadania na powtarzalne maile po przygotowywanie szkiców raportów — wiele procesów da się zautomatyzować albo przynajmniej uprościć."
       ],
       bullets: [
         {
-          label: "Flujos semi-automatizados",
+          label: "Półautomatyczne przepływy",
           description:
-            "Por ejemplo: usas un formulario para recopilar información y luego un prompt específico genera el guion, el copy y el e-mail de entrega.",
+            "Np.: zbierasz dane formularzem, a potem konkretny prompt generuje skrypt, copy i e-mail z dostawą."
         },
         {
-          label: "Integraciones con otras apps",
+          label: "Integracje z innymi aplikacjami",
           description:
-            "Herramientas de automatización pueden conectar tu IA con hojas de cálculo, CRMs, gestores de tareas o formularios.",
+            "Narzędzia automatyzacji mogą połączyć Twoją AI z arkuszami, CRM-ami, menedżerami zadań lub formularzami."
         },
         {
-          label: "Plantillas de procesos",
+          label: "Szablony procesów",
           description:
-            "Documenta los pasos de los flujos que más repitas (ejemplo: lanzamiento de un nuevo post) para poder delegarlos o automatizarlos más adelante.",
-        },
+            "Dokumentuj kroki najczęściej powtarzanych przepływów (np. publikacja nowego posta), aby później łatwiej je delegować lub automatyzować."
+        }
       ],
       highlight:
-        "Empieza automatizando micro-tareas: respuestas frecuentes, resúmenes de reuniones, limpieza de información… y luego escala a flujos más complejos.",
+        "Zacznij od automatyzacji mikro-zadań: częste odpowiedzi, podsumowania spotkań, porządkowanie informacji… a potem skaluj do bardziej złożonych przepływów."
     },
 
     {
       id: "no-code",
-      title: "6. Herramientas no-code y espacios de trabajo",
+      title: "6. Narzędzia no-code i przestrzenie robocze",
       body: [
-        "Tu Banco Secreto de Prompts funciona aún mejor cuando lo combinas con un buen espacio de organización.",
-        "Las herramientas no-code y los sistemas de notas te permiten construir tu propia 'central de mando' sin saber programar.",
+        "Twój Tajny Bank Promptów działa jeszcze lepiej, gdy łączysz go z dobrą przestrzenią organizacji.",
+        "Narzędzia no-code i systemy notatek pozwalają zbudować własne „centrum dowodzenia” bez programowania."
       ],
       bullets: [
         {
-          label: "Sistemas de notas y organización",
+          label: "Systemy notatek i organizacji",
           description:
-            "Usa docs, bases de datos o wikis para guardar tus prompts favoritos, resultados que funcionaron y ejemplos de uso reales.",
+            "Używaj dokumentów, baz danych lub wiki do przechowywania ulubionych promptów, wyników, które działały, i realnych przykładów zastosowania."
         },
         {
-          label: "Dashboards personales",
+          label: "Osobiste dashboardy",
           description:
-            "Puedes crear paneles simples para ver tu calendario de contenido, campañas activas y métricas clave en un solo lugar.",
+            "Możesz tworzyć proste panele, aby w jednym miejscu widzieć kalendarz treści, aktywne kampanie i kluczowe metryki."
         },
         {
-          label: "Formularios internos",
+          label: "Wewnętrzne formularze",
           description:
-            "Un simple formulario interno puede alimentar a tus prompts: el usuario responde 3–5 preguntas y la IA genera el resultado final.",
-        },
-      ],
+            "Prosty formularz może zasilać Twoje prompty: użytkownik odpowiada na 3–5 pytań, a AI generuje wynik końcowy."
+        }
+      ]
     },
 
     {
       id: "como-elegir",
-      title: "7. Cómo elegir la herramienta correcta para ti",
+      title: "7. Jak wybrać właściwe narzędzie dla siebie",
       body: [
-        "No existe la herramienta perfecta, existe la que mejor encaja con tu contexto actual. Para decidir por dónde empezar, puedes usar este pequeño filtro mental:",
+        "Nie istnieje narzędzie idealne — istnieje takie, które najlepiej pasuje do Twojego obecnego kontekstu. Żeby zdecydować, od czego zacząć, możesz użyć takiego filtra w głowie:"
       ],
       bullets: [
         {
-          label: "Presupuesto y tiempo",
+          label: "Budżet i czas",
           description:
-            "Si tu presupuesto es bajo, prioriza herramientas gratuitas o con planes básicos. Si tu tiempo es limitado, busca lo que simplifique más pasos, aunque sea de pago.",
+            "Jeśli budżet jest niski, wybieraj narzędzia darmowe lub z podstawowymi planami. Jeśli masz mało czasu, szukaj tego, co upraszcza najwięcej kroków — nawet jeśli jest płatne."
         },
         {
-          label: "Tipo de contenido principal",
+          label: "Główny typ treści",
           description:
-            "Si vives de escribir, prioriza IA de texto. Si vendes productos visuales, prioriza imagen y vídeo. Si gestionas muchos clientes, prioriza automatización.",
+            "Jeśli żyjesz z pisania — priorytetem jest AI do tekstu. Jeśli sprzedajesz wizualne produkty — priorytetem są obrazy i wideo. Jeśli obsługujesz wielu klientów — priorytetem jest automatyzacja."
         },
         {
-          label: "Curva de aprendizaje",
+          label: "Krzywa uczenia",
           description:
-            "Es mejor dominar algo simple en 7 días que intentar usar algo complejo durante meses sin integrarlo realmente a tu rutina.",
-        },
+            "Lepiej opanować coś prostego w 7 dni, niż przez miesiące próbować używać czegoś złożonego, bez realnego wdrożenia do rutyny."
+        }
       ],
       highlight:
-        "Regla práctica: si una herramienta no te está ahorrando tiempo ni mejorando resultados en 2–3 semanas de uso consistente, probablemente no es la adecuada para ti en este momento.",
+        "Praktyczna zasada: jeśli narzędzie nie oszczędza Ci czasu ani nie poprawia wyników w 2–3 tygodnie konsekwentnego używania, prawdopodobnie nie jest teraz właściwe dla Ciebie."
     },
 
     {
       id: "siguientes-pasos",
-      title: "8. Siguientes pasos dentro del curso",
+      title: "8. Kolejne kroki w kursie",
       body: [
-        "Ahora que tienes una visión clara de las herramientas de IA y de cómo encajan en tu sistema, el siguiente paso es pasar a la acción.",
-        "Te recomiendo este orden:",
+        "Skoro masz już jasny obraz narzędzi AI i tego, jak wpisują się w Twój system, kolejnym krokiem jest działanie.",
+        "Polecam tę kolejność:"
       ],
       bullets: [
         {
-          label: "1) Define tu flujo principal",
+          label: "1) Zdefiniuj swój główny workflow",
           description:
-            "Por ejemplo: plan de contenido semanal, lanzamiento de un producto, creación de un lead magnet, etc.",
+            "Np.: tygodniowy plan treści, launch produktu, tworzenie lead magnetu itd."
         },
         {
-          label: "2) Elige 1–3 herramientas",
+          label: "2) Wybierz 1–3 narzędzia",
           description:
-            "Una para texto, una para imagen y, si aplica, una para vídeo. Nada más.",
+            "Jedno do tekstu, jedno do obrazów i — jeśli ma zastosowanie — jedno do wideo. Nic więcej."
         },
         {
-          label: "3) Usa los prompts del Banco Secreto",
+          label: "3) Używaj promptów z Tajnego Banku",
           description:
-            "Ve al módulo correspondiente (texto, imagen o vídeo) y elige los prompts que mejor encajan con tu objetivo.",
-        },
+            "Wejdź do odpowiedniego modułu (tekst, obraz lub wideo) i wybierz prompty, które najlepiej pasują do Twojego celu."
+        }
       ],
       highlight:
-        "Cuanto más uses este arsenal en situaciones reales (clientes, proyectos propios, lanzamientos), más valor le vas a sacar. Vuelve a esta sección siempre que quieras revisar o renovar tu stack de herramientas.",
-    },
+        "Im częściej używasz tego arsenału w realnych sytuacjach (klienci, własne projekty, premiery), tym większą wartość z niego wyciągniesz. Wracaj do tej sekcji, kiedy chcesz sprawdzić lub odświeżyć swój stack narzędzi."
+    }
   ],
 
-  // 🔹 Lista de herramientas concretas para mostrar en cards
+  // 🔹 Lista konkretnych narzędzi do pokazania w kartach
   tools: [
-    // --- TEXTO / ESCRITURA ---
+    // --- TEKST / PISANIE ---
     {
       id: "chatgpt",
       name: "ChatGPT",
-      category: "Texto y escritura",
+      category: "Tekst i pisanie",
       description:
-        "Tu base principal para aplicar los +13.500 prompts. Ideal para escribir, reescribir, resumir y generar ideas de contenido.",
+        "Twoja główna baza do wykorzystania ponad 13 500 promptów. Idealne do pisania, przeredagowywania, streszczania i generowania pomysłów na treści.",
       howToUseWithBank:
-        "Copia un prompt del módulo de texto, pégalo en ChatGPT, añade el contexto de tu negocio y guarda las respuestas que mejor funcionen.",
-      thumbnail: "/ia/Chat-GPT-logo.webp", // ej. "/ia-tools/chatgpt.png"
+        "Skopiuj prompt z modułu tekstowego, wklej go do ChatGPT, dodaj kontekst swojego biznesu i zapisuj odpowiedzi, które działają najlepiej.",
+      thumbnail: "/ia/Chat-GPT-logo.webp"
     },
     {
       id: "claude",
       name: "Claude",
-      category: "Texto y escritura",
+      category: "Tekst i pisanie",
       description:
-        "Modelo muy bueno para textos largos, documentación y trabajo con archivos extensos.",
+        "Model świetny do długich tekstów, dokumentacji i pracy z obszernymi plikami.",
       howToUseWithBank:
-        "Usa los prompts de investigación, estructuración de contenido y creación de manuales para generar documentación clara y fácil de entender.",
-      thumbnail: "/ia/Claude.webp", // "/ia-tools/claude.png"
+        "Używaj promptów do researchu, strukturyzacji treści i tworzenia manuali, aby generować dokumentację jasną i łatwą do zrozumienia.",
+      thumbnail: "/ia/Claude.webp"
     },
     {
       id: "gemini",
       name: "Gemini",
-      category: "Texto y escritura",
+      category: "Tekst i pisanie",
       description:
-        "IA de Google útil para tareas conectadas al ecosistema Google (Docs, Sheets, Slides).",
+        "AI od Google, przydatne przy zadaniach powiązanych z ekosystemem Google (Docs, Sheets, Slides).",
       howToUseWithBank:
-        "Combina prompts de planificación con hojas de cálculo, dashboards y reportes creados directamente en el ecosistema de Google.",
-      thumbnail: "/ia/Gemini.jpeg", // "/ia-tools/gemini.png"
+        "Łącz prompty planowania z arkuszami, dashboardami i raportami tworzonymi bezpośrednio w ekosystemie Google.",
+      thumbnail: "/ia/Gemini.jpeg"
     },
     {
       id: "notion-ai",
       name: "Notion AI",
-      category: "Texto y escritura",
+      category: "Tekst i pisanie",
       description:
-        "Ideal para escribir y organizar contenido dentro de tu espacio de trabajo: wikis, bases de datos y documentos.",
+        "Idealne do pisania i organizowania treści w przestrzeni roboczej: wiki, bazy danych i dokumenty.",
       howToUseWithBank:
-        "Crea una base de datos con tus prompts favoritos y usa Notion AI para pulir textos, resúmenes y documentación interna.",
-      thumbnail: "/ia/Notion.png", // "/ia-tools/notion-ai.png"
+        "Stwórz bazę danych z ulubionymi promptami i używaj Notion AI do dopracowywania tekstów, streszczeń oraz wewnętrznej dokumentacji.",
+      thumbnail: "/ia/Notion.png"
     },
     {
       id: "perplexity",
       name: "Perplexity",
-      category: "Investigación",
+      category: "Research",
       description:
-        "Asistente de investigación con IA y búsqueda web, perfecto para obtener contexto y referencias rápidas.",
+        "Asystent researchu z AI i wyszukiwaniem w sieci — idealny do szybkiego kontekstu i źródeł.",
       howToUseWithBank:
-        "Primero investiga un tema con Perplexity y luego usa los prompts de guiones, posts y newsletters para transformar la info en contenido.",
-      thumbnail: "/ia/Perplexity.png", // "/ia-tools/perplexity.png"
+        "Najpierw zbadaj temat w Perplexity, a potem użyj promptów do skryptów, postów i newsletterów, żeby zamienić informacje w treści.",
+      thumbnail: "/ia/Perplexity.png"
     },
 
-    // --- IMAGEN / DISEÑO ---
+    // --- OBRAZ / DESIGN ---
     {
       id: "dalle",
       name: "DALL·E",
-      category: "Imagen y diseño",
+      category: "Obraz i design",
       description:
-        "Generador de imágenes integrado con el mismo entorno de ChatGPT. Ideal para portadas, miniaturas y creatividades rápidas.",
+        "Generator obrazów zintegrowany ze środowiskiem ChatGPT. Idealny do okładek, miniatur i szybkich kreacji.",
       howToUseWithBank:
-        "Copia un prompt del módulo de imagen, pégalo en DALL·E y ajusta pequeñas cosas (ángulo, luz, colores) según tus necesidades.",
-      thumbnail: "/ia/Dalle.jpeg", // "/ia-tools/dalle.png"
+        "Skopiuj prompt z modułu obrazów, wklej go do DALL·E i dopasuj drobiazgi (kąt, światło, kolory) pod swoje potrzeby.",
+      thumbnail: "/ia/Dalle.jpeg"
     },
     {
       id: "midjourney",
       name: "Midjourney",
-      category: "Imagen y diseño",
+      category: "Obraz i design",
       description:
-        "Excelente para estilos artísticos, escenas cinematográficas y visuales muy detallados.",
+        "Świetne do stylów artystycznych, scen filmowych i bardzo szczegółowych wizuali.",
       howToUseWithBank:
-        "Adapta los prompts de imagen del curso al formato de Midjourney (comandos, parámetros) para crear packs visuales coherentes.",
-      thumbnail: "/ia/Midjourney.jpg", // "/ia-tools/midjourney.png"
+        "Dostosuj prompty obrazowe z kursu do formatu Midjourney (komendy, parametry), aby tworzyć spójne pakiety wizualne.",
+      thumbnail: "/ia/Midjourney.jpg"
     },
     {
       id: "leonardo",
       name: "Leonardo AI",
-      category: "Imagen y diseño",
+      category: "Obraz i design",
       description:
-        "Buen equilibrio entre calidad y facilidad de uso para creatividades de anuncios y recursos visuales.",
+        "Dobry balans jakości i prostoty: sprawdza się w kreacjach reklamowych i assetach wizualnych.",
       howToUseWithBank:
-        "Usa los prompts de anuncios, mockups de productos y fondos para redes sociales, generando lotes de imágenes en una sola sesión.",
-      thumbnail: "/ia/Leonardo.jpeg", // "/ia-tools/leonardo.png"
+        "Używaj promptów do reklam, mockupów produktów i teł do social media, generując serie obrazów w jednej sesji.",
+      thumbnail: "/ia/Leonardo.jpeg"
     },
     {
       id: "canva",
-      name: "Canva con IA",
-      category: "Imagen y diseño",
+      name: "Canva z AI",
+      category: "Obraz i design",
       description:
-        "Perfecto para montar piezas finales: carruseles, miniaturas, presentaciones y anuncios.",
+        "Idealne do składania finalnych materiałów: karuzele, miniatury, prezentacje i reklamy.",
       howToUseWithBank:
-        "Genera las imágenes base con tus prompts y luego combínalas en Canva con textos, logos y elementos de marca.",
-      thumbnail: "/ia/Canva.jpeg", // "/ia-tools/canva.png"
+        "Wygeneruj bazowe obrazy promptami, a potem połącz je w Canvie z tekstami, logo i elementami marki.",
+      thumbnail: "/ia/Canva.jpeg"
     },
 
-    // --- VÍDEO ---
+    // --- WIDEO ---
     {
       id: "runway",
       name: "Runway",
-      category: "Vídeo",
+      category: "Wideo",
       description:
-        "Generador de vídeo con IA excelente para B-roll, escenas abstractas y fondos dinámicos.",
+        "Generator wideo z AI świetny do B-roll, abstrakcyjnych scen i dynamicznych teł.",
       howToUseWithBank:
-        "Toma los prompts del módulo de vídeo (B-roll, escenas tecnológicas, fondos) y adáptalos a los campos de Runway.",
-      thumbnail: "/ia/runway.png", // "/ia-tools/runway.png"
+        "Weź prompty z modułu wideo (B-roll, sceny technologiczne, tła) i dopasuj je do pól w Runway.",
+      thumbnail: "/ia/runway.png"
     },
     {
       id: "capcut",
       name: "CapCut",
-      category: "Vídeo",
+      category: "Wideo",
       description:
-        "Editor de vídeo sencillo con plantillas, subtítulos automáticos y herramientas rápidas para redes sociales.",
+        "Prosty edytor wideo z szablonami, automatycznymi napisami i szybkimi narzędziami pod social media.",
       howToUseWithBank:
-        "Combina clips generados con IA y tus grabaciones, añadiendo subtítulos, música y CTAs usando la estructura de guiones del Banco.",
-      thumbnail: "/ia/capcut.jpg", // "/ia-tools/capcut.png"
+        "Łącz klipy z AI i własne nagrania, dodając napisy, muzykę i CTA, korzystając ze struktur skryptów z Banku.",
+      thumbnail: "/ia/capcut.jpg"
     },
     {
       id: "descript",
       name: "Descript",
-      category: "Vídeo",
+      category: "Wideo",
       description:
-        "Ideal para editar vídeo y audio a partir del texto transcrito, muy útil para podcasters y creadores educativos.",
+        "Idealne do edycji wideo i audio na podstawie transkrypcji — szczególnie dla podcasterów i twórców edukacyjnych.",
       howToUseWithBank:
-        "Usa los prompts de guiones y estructura de clases, graba el contenido y edítalo en Descript corrigiendo directamente desde el texto.",
-      thumbnail: "/ia/descript.jpg", // "/ia-tools/descript.png"
+        "Użyj promptów do skryptów i struktury lekcji, nagraj materiał i edytuj w Descript, poprawiając bezpośrednio w tekście.",
+      thumbnail: "/ia/descript.jpg"
     },
 
-    // --- AUTOMATIZACIÓN / SISTEMAS ---
+    // --- AUTOMATYZACJA / SYSTEMY ---
     {
       id: "zapier",
       name: "Zapier",
-      category: "Automatización",
+      category: "Automatyzacja",
       description:
-        "Conecta tus apps favoritas y dispara acciones automáticas sin programar.",
+        "Łączy Twoje ulubione aplikacje i uruchamia automatyczne działania bez programowania.",
       howToUseWithBank:
-        "Combina formularios + prompts: cuando alguien envía datos, Zapier los pasa a tu IA con un prompt específico y genera el resultado final.",
-      thumbnail: "/ia/zapier.png", // "/ia-tools/zapier.png"
+        "Połącz formularze z promptami: gdy ktoś wyśle dane, Zapier przekaże je do Twojej AI z konkretnym promptem i wygeneruje wynik końcowy.",
+      thumbnail: "/ia/zapier.png"
     },
     {
       id: "make",
       name: "Make (Integromat)",
-      category: "Automatización",
+      category: "Automatyzacja",
       description:
-        "Plataforma visual para crear flujos complejos que mezclan IA, bases de datos y múltiples apps.",
+        "Wizualna platforma do budowy złożonych procesów łączących AI, bazy danych i wiele aplikacji.",
       howToUseWithBank:
-        "Usa los prompts de workflows y sistemas para diseñar escenarios que automaticen partes de tu servicio o negocio.",
-      thumbnail: "/ia/make.png", // "/ia-tools/make.png"
+        "Użyj promptów do workflow i systemów, aby projektować scenariusze automatyzujące części Twojej usługi lub biznesu.",
+      thumbnail: "/ia/make.png"
     },
 
-    // --- ORGANIZACIÓN / PRESENTACIONES ---
+    // --- ORGANIZACJA / PREZENTACJE ---
     {
       id: "notion",
       name: "Notion",
-      category: "Organización",
+      category: "Organizacja",
       description:
-        "Tu ‘central de mando’ para guardar prompts, resultados, ideas y documentación de proyectos.",
+        "Twoje „centrum dowodzenia” do przechowywania promptów, wyników, pomysłów i dokumentacji projektów.",
       howToUseWithBank:
-        "Crea una base de datos con columnas para: categoría, objetivo, prompt, resultados top y notas. Así tu Banco se vuelve 100% personalizable.",
-      thumbnail: "/ia/notion.webp", // "/ia-tools/notion.png"
+        "Stwórz bazę danych z kolumnami: kategoria, cel, prompt, najlepsze wyniki i notatki. Dzięki temu Bank staje się w 100% konfigurowalny.",
+      thumbnail: "/ia/notion.webp"
     },
     {
       id: "gamma",
       name: "Gamma",
-      category: "Presentaciones",
+      category: "Prezentacje",
       description:
-        "Herramienta para crear presentaciones y documentos visuales generados con IA.",
+        "Narzędzie do tworzenia prezentacji i wizualnych dokumentów generowanych przez AI.",
       howToUseWithBank:
-        "Toma los prompts de guiones, clases y contenido educativo, y conviértelos en slides y presentaciones listas para entregar.",
-      thumbnail: "/ia/gamma.png", // "/ia-tools/gamma.png"
-    },
-  ],
+        "Weź prompty do skryptów, lekcji i treści edukacyjnych, a następnie zamień je w slajdy i prezentacje gotowe do oddania.",
+      thumbnail: "/ia/gamma.png"
+    }
+  ]
 };

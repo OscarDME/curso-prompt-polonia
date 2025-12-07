@@ -3,1293 +3,1343 @@
 export const textPromptsMarketingNurturing = [
   {
     id: "mnut-001",
-    title: "Diseñar estrategia de nurturing (30 días) — del lead frío al ‘listo para comprar’",
-    area: "Marketing & ventas",
+    title:
+      "Zaprojektuj strategię nurturingu (30 dni) — od zimnego leada do ‘gotowego do zakupu’",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Crea un plan completo de nurturing por 30 días con objetivos, piezas, métricas y reglas de segmentación.",
-    prompt: `Contexto (rellena):
-- Producto/servicio:
-- Precio / ticket:
-- Nicho / industria:
-- ICP (quién compra y por qué):
-- Principal objeción #1:
-- Principal objeción #2:
-- Tiempo típico de decisión (días):
-- Canal principal de nurturing (email, WhatsApp, DM, comunidad):
-- Lead magnet / razón por la que entran:
-- Oferta final (call, checkout, demo, consultoría):
-- Activos existentes (casos, testimonios, recursos):
-- Riesgo de spam / límites de frecuencia:
+      "Tworzy kompletny plan nurturingu na 30 dni: cele, treści, metryki i reguły segmentacji.",
+    prompt: `Kontekst (uzupełnij):
+- Produkt/usługa:
+- Cena / ticket:
+- Nisza / branża:
+- ICP (kto kupuje i dlaczego):
+- Główna obiekcja #1:
+- Główna obiekcja #2:
+- Typowy czas decyzji (dni):
+- Główny kanał nurturingu (email, WhatsApp, DM, społeczność):
+- Lead magnet / powód wejścia:
+- Oferta końcowa (call, checkout, demo, konsulting):
+- Dostępne aktywa (case’y, opinie, zasoby):
+- Ryzyko spamu / limity częstotliwości:
 
-Tarea:
-1) Define el “estado final” del lead nutrido (qué cree, qué sabe, qué está listo para hacer).
-2) Segmenta la lista en 3 niveles:
-   - Frío (solo curiosidad)
-   - Tibio (consideración)
-   - Caliente (intención)
-   Define criterios concretos de paso entre niveles.
-3) Diseña un calendario de 30 días con 12–16 impactos (piezas):
-   - objetivo de cada pieza
-   - idea principal (1 frase)
-   - CTA (micro-CTA) y CTA (macro)
-4) Define 5 “hilos narrativos” que se repiten (pilares): autoridad, prueba, educación, objeciones, oferta.
-5) Define métricas y umbrales (verde/amarillo/rojo) para saber si el nurturing funciona.
-6) Termina con reglas: cuándo acelerar (oferta) y cuándo desacelerar (valor / higiene).
-Formato: tabla en texto + checklist final.`,
+Zadanie:
+1) Zdefiniuj “stan końcowy” nurturingowanego leada (w co wierzy, co wie, co jest gotów zrobić).
+2) Podziel listę na 3 poziomy:
+   - Zimny (czysta ciekawość)
+   - Ciepły (rozważanie)
+   - Gorący (intencja)
+   Zdefiniuj konkretne kryteria przejścia między poziomami.
+3) Zaprojektuj kalendarz 30 dni z 12–16 kontaktami (materiałami):
+   - cel każdej wiadomości
+   - główna idea (1 zdanie)
+   - CTA (micro-CTA) i CTA (macro)
+4) Zdefiniuj 5 powtarzalnych “wątków narracyjnych” (filary): autorytet, dowód, edukacja, obiekcje, oferta.
+5) Zdefiniuj metryki i progi (zielony/żółty/czerwony), by ocenić, czy nurturing działa.
+6) Zakończ regułami: kiedy przyspieszać (oferta), a kiedy zwalniać (wartość / higiena).
+Format: tabela tekstowa + checklist na koniec.`,
     thumbnail: "",
   },
   {
     id: "mnut-002",
-    title: "Secuencia ‘Onboarding de lead magnet’ (7 días) — entregar valor + preparar venta",
-    area: "Marketing & ventas",
+    title:
+      "Sekwencja ‘Onboarding lead magnetu’ (7 dni) — dostarcz wartość + przygotuj sprzedaż",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Escribe una secuencia completa para nuevos leads que descargan un recurso.",
-    prompt: `Rellena:
+      "Kompletna sekwencja dla nowych leadów, którzy pobrali zasób.",
+    prompt: `Uzupełnij:
 - Lead magnet:
-- Promesa del lead magnet:
-- Oferta principal:
-- Tono de marca (cercano/premium/directo):
-- Objeción más común:
-- Historia del fundador (si existe):
-- Prueba social (si existe):
-- Canal (email/whatsapp):
+- Obietnica lead magnetu:
+- Główna oferta:
+- Ton marki (bliski/premium/bezpośredni):
+- Najczęstsza obiekcja:
+- Historia założyciela (jeśli jest):
+- Social proof (jeśli jest):
+- Kanał (email/whatsapp):
 
-Tarea:
-Crea 7 mensajes (uno por día) con:
-1) Asunto (si email) + preheader (si aplica) o gancho (si WhatsApp).
-2) Cuerpo completo:
-   - Día 1: entrega + “cómo usar” + micro compromiso
-   - Día 2: quick win guiado
-   - Día 3: error común + corrección
-   - Día 4: framework (3 pasos) + ejemplo
-   - Día 5: caso/mini historia (sin inventar resultados: usa lenguaje “en nuestra experiencia”)
-   - Día 6: objeción fuerte + respuesta
-   - Día 7: transición a CTA principal (call/checkout/demo) con urgencia ética
-3) Un micro-CTA por mensaje (responder, click, guardar, completar).
-4) Segmentación: qué etiqueta pondrías si hacen click / responden / ignoran.
-5) Variaciones: 2 versiones del Día 6 y Día 7 (tono suave vs directo).`,
+Zadanie:
+Stwórz 7 wiadomości (jedna dziennie) z:
+1) Tematem (jeśli email) + preheaderem (jeśli dotyczy) albo hookiem (jeśli WhatsApp).
+2) Pełnym tekstem:
+   - Dzień 1: dostarczenie + “jak używać” + mikro-zobowiązanie
+   - Dzień 2: quick win krok po kroku
+   - Dzień 3: typowy błąd + korekta
+   - Dzień 4: framework (3 kroki) + przykład
+   - Dzień 5: case/mini-historia (bez wymyślania wyników: użyj języka “z naszego doświadczenia”)
+   - Dzień 6: mocna obiekcja + odpowiedź
+   - Dzień 7: przejście do głównego CTA (call/checkout/demo) z etyczną pilnością
+3) Jedno micro-CTA na wiadomość (odpowiedz, kliknij, zapisz, zrób).
+4) Segmentację: jaką etykietę dodać, jeśli klikną / odpowiedzą / zignorują.
+5) Warianty: 2 wersje Dnia 6 i Dnia 7 (ton miękki vs bezpośredni).`,
     thumbnail: "",
   },
   {
     id: "mnut-003",
-    title: "Nurturing por objeciones (matriz) — 8 objeciones × 3 mensajes cada una",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing pod obiekcje (macierz) — 8 obiekcji × 3 wiadomości każda",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Crea un banco de nurturing que responde objeciones y calienta intención.",
-    prompt: `Rellena:
+      "Bank wiadomości, który odpowiada na obiekcje i podgrzewa intencję.",
+    prompt: `Uzupełnij:
 - Oferta:
 - ICP:
-- Lista de objeciones (mínimo 8): precio, tiempo, confianza, “ya intenté”, “no es para mí”, etc.
-- Prueba disponible (testimonios, garantías, procesos):
-- Canal:
+- Lista obiekcji (min. 8): cena, czas, zaufanie, “już próbowałem/am”, “to nie dla mnie” itd.
+- Dostępny dowód (opinie, gwarancje, proces):
+- Kanał:
 
-Tarea:
-1) Para cada objeción, crea 3 mensajes:
-   - Mensaje A: empatía + reframe
-   - Mensaje B: educación + framework
-   - Mensaje C: prueba + CTA suave
-2) Cada mensaje debe incluir:
-   - Hook inicial
-   - Idea central
+Zadanie:
+1) Dla każdej obiekcji stwórz 3 wiadomości:
+   - Wiadomość A: empatia + reframe
+   - Wiadomość B: edukacja + framework
+   - Wiadomość C: dowód + miękkie CTA
+2) Każda wiadomość musi zawierać:
+   - Hook na start
+   - Główną ideę
    - Micro-CTA
-3) Termina con una matriz “qué disparar” según comportamiento:
-   - abrió/leyó
-   - clic
-   - respondió
-   - silencioso 14 días`,
+3) Zakończ macierzą “co uruchamiać” wg zachowania:
+   - otworzył/przeczytał
+   - kliknął
+   - odpowiedział
+   - cisza 14 dni`,
     thumbnail: "",
   },
   {
     id: "mnut-004",
-    title: "Secuencia ‘Puente’ (5 mensajes) — pasar de contenido gratuito a oferta sin fricción",
-    area: "Marketing & ventas",
+    title:
+      "Sekwencja ‘Most’ (5 wiadomości) — przejście z darmowego contentu do oferty bez tarcia",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Transición suave de educación a venta: ideal después de un mini curso o challenge.",
-    prompt: `Rellena:
-- Contenido gratuito que consumieron (webinar, reto, video, lead magnet):
-- Transformación prometida:
+      "Płynne przejście z edukacji do sprzedaży: idealne po mini-kursie lub wyzwaniu.",
+    prompt: `Uzupełnij:
+- Darmowy content, który skonsumowali (webinar, wyzwanie, wideo, lead magnet):
+- Obiecana transformacja:
 - Oferta:
-- Precio:
-- Principal duda del buyer:
-- Canal:
+- Cena:
+- Główna wątpliwość kupującego:
+- Kanał:
 
-Tarea:
-Crea 5 mensajes:
-1) Recap del aprendizaje + “lo que falta” (gap).
-2) Diagnóstico: preguntas para autocalificar (checkbox style).
-3) Caso/ejemplo con detalle del proceso.
-4) Objeción principal + respuesta.
-5) Invitación clara a la oferta (CTA) + “para quién sí / no”.
-Incluye:
-- 3 versiones del CTA final (suave, directo, premium)
-- Script corto para responder si dicen “me interesa, dime más”.`,
+Zadanie:
+Stwórz 5 wiadomości:
+1) Podsumowanie nauki + “czego brakuje” (gap).
+2) Diagnoza: pytania do autokwalifikacji (styl checkbox).
+3) Case/przykład z detalami procesu.
+4) Główna obiekcja + odpowiedź.
+5) Jasne zaproszenie do oferty (CTA) + “dla kogo tak / dla kogo nie”.
+Dodaj:
+- 3 wersje finalnego CTA (miękkie, bezpośrednie, premium)
+- Krótki skrypt odpowiedzi, gdy ktoś napisze: “jestem zainteresowany/a, powiedz więcej”.`,
     thumbnail: "",
   },
   {
     id: "mnut-005",
-    title: "Nurturing evergreen (12 semanas) — calendario por temas y repetición inteligente",
-    area: "Marketing & ventas",
+    title:
+      "Evergreen nurturing (12 tygodni) — kalendarz tematów i inteligentne powtórki",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Diseña un sistema evergreen de nurturing que no dependa de lanzamientos.",
-    prompt: `Rellena:
+      "Projektuje evergreen system nurturingu, który nie zależy od launchy.",
+    prompt: `Uzupełnij:
 - Oferta:
 - ICP:
-- Frecuencia (emails/semana o mensajes/semana):
-- 5 pilares de contenido (educación, prueba, autoridad, objeciones, oferta):
-- Estacionalidad (si aplica):
+- Częstotliwość (maile/tydzień lub wiadomości/tydzień):
+- 5 filarów treści (edukacja, dowód, autorytet, obiekcje, oferta):
+- Sezonowość (jeśli dotyczy):
 
-Tarea:
-1) Crea un calendario de 12 semanas con:
-   - tema semanal
-   - objetivo semanal
-   - 2–3 piezas por semana con título + resumen + CTA
-2) Define “reglas de repetición”: qué reusar y cada cuánto sin cansar.
-3) Define segmentación por intención (3 niveles) y qué piezas ve cada nivel.
-4) Define 6 triggers automatizados (visita pricing, click CTA, reply, etc.) y qué secuencia dispara cada trigger.`,
+Zadanie:
+1) Stwórz kalendarz na 12 tygodni z:
+   - tematem tygodnia
+   - celem tygodnia
+   - 2–3 materiałami w tygodniu (tytuł + streszczenie + CTA)
+2) Zdefiniuj “reguły powtórzeń”: co reuse’ować i jak często, żeby nie męczyć.
+3) Zdefiniuj segmentację intencji (3 poziomy) i jakie treści widzi każdy poziom.
+4) Zdefiniuj 6 automatycznych triggerów (wizyta pricing, klik CTA, reply itd.) i jaka sekwencja uruchamia się po każdym triggerze.`,
     thumbnail: "",
   },
 
   {
     id: "mnut-006",
-    title: "Nurturing para B2B (MQL → SQL) — secuencia de 9 correos orientada a reunión",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla B2B (MQL → SQL) — sekwencja 9 maili nastawiona na rozmowę",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Secuencia consultiva para mover leads a call: enfoque, prueba, y autocalificación.",
-    prompt: `Rellena:
-- Servicio B2B:
-- ICP (industria, tamaño):
-- Rol objetivo:
-- Problema central:
-- KPI impactado:
-- Oferta de entrada (audit/diagnóstico):
-- Canal: email
+      "Sekwencja konsultacyjna, która przesuwa leady do call: podejście, dowód i autokwalifikacja.",
+    prompt: `Uzupełnij:
+- Usługa B2B:
+- ICP (branża, wielkość):
+- Rola docelowa:
+- Problem główny:
+- KPI, na który wpływacie:
+- Oferta wejściowa (audit/diagnoza):
+- Kanał: email
 
-Tarea:
-Crea 9 emails con:
-- Asunto: 4 opciones por email (sin spamwords)
-- Estructura:
-  1) Insight del problema + costo
-  2) Error común en el mercado
-  3) Framework (3 pasos)
-  4) Caso/mini caso (con disclaimers)
-  5) Objeción “ya tengo proveedor”
-  6) Objeción “no hay presupuesto”
-  7) Checklist de evaluación (para elegir proveedor)
-  8) Invitación a diagnóstico (soft CTA)
-  9) Último email: “breakup” elegante
-Incluye:
-- 10 preguntas de calificación para la llamada
-- 6 respuestas a objeciones en reply`,
+Zadanie:
+Stwórz 9 emaili:
+- Temat: 4 opcje na email (bez spamwords)
+- Struktura:
+  1) Insight o problemie + koszt
+  2) Typowy błąd na rynku
+  3) Framework (3 kroki)
+  4) Case/mini-case (z disclaimerami)
+  5) Obiekcja: “mamy już dostawcę”
+  6) Obiekcja: “nie ma budżetu”
+  7) Checklista oceny (jak wybrać dostawcę)
+  8) Zaproszenie do diagnozy (miękkie CTA)
+  9) Ostatni email: elegancki “breakup”
+Dodaj:
+- 10 pytań kwalifikacyjnych do rozmowy
+- 6 odpowiedzi na obiekcje w reply`,
     thumbnail: "",
   },
   {
     id: "mnut-007",
-    title: "Nurturing para eCommerce — post-compra que crea recompra (10 mensajes)",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla eCommerce — post-purchase, który buduje ponowny zakup (10 wiadomości)",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Secuencia post-compra: onboarding, uso, valor, reviews, cross-sell y recompra.",
-    prompt: `Rellena:
-- Producto:
-- Uso esperado (cómo se usa):
-- Objeciones post-compra:
-- Complementos (cross-sell):
-- Ventana de recompra:
-- Canales (email/whatsapp):
+      "Sekwencja po zakupie: onboarding, użycie, wartość, opinie, cross-sell i repurchase.",
+    prompt: `Uzupełnij:
+- Produkt:
+- Oczekiwane użycie (jak się używa):
+- Obiekcje po zakupie:
+- Dodatki (cross-sell):
+- Okno ponownego zakupu:
+- Kanały (email/whatsapp):
 
-Tarea:
-Crea 10 mensajes:
-1) Confirmación + expectativas claras
-2) Cómo usar en 5 pasos
-3) Errores comunes y cómo evitarlos
-4) Tips pro + “momento aha”
-5) Historia de cliente (uso real)
+Zadanie:
+Stwórz 10 wiadomości:
+1) Potwierdzenie + jasne oczekiwania
+2) Jak używać w 5 krokach
+3) Typowe błędy i jak ich unikać
+4) Pro tipy + “moment aha”
+5) Historia klienta (realne użycie)
 6) FAQ
-7) Solicitar review (sin presión)
-8) Cross-sell (educativo, no agresivo)
-9) Recompra (incentivo opcional)
-10) Re-engagement si no abren/leen
-Incluye segmentación por comportamiento (abrió/clic/no).`,
+7) Prośba o opinię (bez presji)
+8) Cross-sell (edukacyjnie, nie agresywnie)
+9) Ponowny zakup (opcjonalny bodziec)
+10) Re-engagement, jeśli nie otwierają/nie czytają
+Dodaj segmentację wg zachowania (otworzył/kliknął/nie).`,
     thumbnail: "",
   },
   {
     id: "mnut-008",
-    title: "Nurturing por ‘micro compromisos’ — 14 días para mover a acción sin vender",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing przez ‘mikro-zobowiązania’ — 14 dni do działania bez sprzedawania",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Secuencia de micro compromisos para aumentar confianza, replies y activación.",
-    prompt: `Rellena:
-- Oferta final:
-- Tipo de prospecto:
-- Principal fricción psicológica (miedo, duda, pereza):
-- Canal:
+      "Sekwencja mikro-zobowiązań zwiększająca zaufanie, odpowiedzi i aktywację.",
+    prompt: `Uzupełnij:
+- Oferta końcowa:
+- Typ prospekta:
+- Główne tarcie psychologiczne (strach, wątpliwość, lenistwo):
+- Kanał:
 
-Tarea:
-Crea un plan de 14 días donde cada día tiene:
-- Micro objetivo (una acción simple)
-- Texto del mensaje (corto pero con intención)
-- Pregunta final para responder
-- Etiqueta/segmento si responden “sí/no”
-Objetivo: que terminen listos para recibir oferta sin que parezca venta.`,
+Zadanie:
+Stwórz plan na 14 dni, gdzie każdy dzień ma:
+- Mikro-cel (prosta czynność)
+- Treść wiadomości (krótka, ale celowa)
+- Pytanie końcowe do odpowiedzi
+- Etykieta/segment, jeśli odpowiedzą “tak/nie”
+Cel: na końcu mają być gotowi na ofertę, bez wrażenia sprzedaży.`,
     thumbnail: "",
   },
   {
     id: "mnut-009",
-    title: "Nurturing narrativo (story arc) — 6 correos que cuentan una historia y venden",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing narracyjny (story arc) — 6 maili, które opowiadają historię i sprzedają",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Storytelling por capítulos: conflicto, aprendizajes, prueba y CTA.",
-    prompt: `Rellena:
-- Personaje (tú/cliente/avatar):
-- Conflicto:
-- Punto de quiebre:
-- Método:
-- Resultado (sin prometer):
+      "Storytelling w odcinkach: konflikt, lekcje, dowód i CTA.",
+    prompt: `Uzupełnij:
+- Bohater (Ty/klient/avatar):
+- Konflikt:
+- Punkt zwrotny:
+- Metoda:
+- Rezultat (bez obietnic):
 - Oferta:
-- Canal:
+- Kanał:
 
-Tarea:
-Escribe 6 emails tipo serie:
-1) “Antes” (situación real y dolor)
-2) “El error” (lo que no funcionó)
-3) “El insight” (descubrimiento)
-4) “El método” (framework)
-5) “La prueba” (mini caso, aprendizajes)
-6) “La invitación” (CTA + para quién sí/no)
-Incluye 3 asuntos por email y 2 CTAs alternas.`,
+Zadanie:
+Napisz serię 6 emaili:
+1) “Przed” (realna sytuacja i ból)
+2) “Błąd” (co nie działało)
+3) “Insight” (odkrycie)
+4) “Metoda” (framework)
+5) “Dowód” (mini-case, lekcje)
+6) “Zaproszenie” (CTA + dla kogo tak/nie)
+Dodaj 3 tematy na email i 2 alternatywne CTA.`,
     thumbnail: "",
   },
   {
     id: "mnut-010",
-    title: "Nurturing educativo (mini curso por email) — 5 lecciones + evaluación final",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing edukacyjny (mini-kurs email) — 5 lekcji + finalna ewaluacja",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Mini curso que enseña un sistema y termina con offer fit natural.",
-    prompt: `Rellena:
-- Tema del mini curso:
+      "Mini-kurs, który uczy systemu i naturalnie kończy się dopasowaną ofertą.",
+    prompt: `Uzupełnij:
+- Temat mini-kursu:
 - ICP:
-- Resultado que logran (aprendizaje):
-- Oferta relacionada:
-- Canal:
+- Wynik (czego się nauczą):
+- Powiązana oferta:
+- Kanał:
 
-Tarea:
-Crea:
-- Email 0 (bienvenida + expectativas)
-- 5 lecciones (cada una con ejercicio y ejemplo)
-- Email final (evaluación: check de readiness + CTA)
-Incluye:
-- checklist imprimible (en texto)
-- preguntas de autoevaluación (10)
-- segmentación por score (0–3, 4–7, 8–10) y qué CTA darle a cada uno.`,
+Zadanie:
+Stwórz:
+- Email 0 (powitanie + oczekiwania)
+- 5 lekcji (każda z ćwiczeniem i przykładem)
+- Email finałowy (ocena: check gotowości + CTA)
+Dodaj:
+- checklistę do wydruku (w tekście)
+- pytania do autoewaluacji (10)
+- segmentację wg score (0–3, 4–7, 8–10) i jakie CTA dać każdej grupie.`,
     thumbnail: "",
   },
 
   {
     id: "mnut-011",
-    title: "Nurturing por ‘problema → causa raíz → solución’ — 12 piezas para 4 semanas",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing ‘problem → przyczyna źródłowa → rozwiązanie’ — 12 materiałów na 4 tygodnie",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Plan semanal con repetición inteligente: problema, root cause, solución y prueba.",
-    prompt: `Rellena:
-- Problema principal del ICP:
-- Causas raíz (3):
-- Solución (tu método):
+      "Plan tygodniowy z inteligentną powtarzalnością: problem, root cause, rozwiązanie i dowód.",
+    prompt: `Uzupełnij:
+- Główny problem ICP:
+- Przyczyny źródłowe (3):
+- Rozwiązanie (Twoja metoda):
 - Oferta:
-- Canal:
+- Kanał:
 
-Tarea:
-Crea 12 piezas (4 semanas × 3):
-- Semana 1: problema (3 piezas, distintos ángulos)
-- Semana 2: causas raíz
-- Semana 3: solución (framework)
-- Semana 4: prueba + objeciones + CTA
-Cada pieza debe incluir:
+Zadanie:
+Stwórz 12 materiałów (4 tygodnie × 3):
+- Tydzień 1: problem (3 materiały, różne kąty)
+- Tydzień 2: przyczyny źródłowe
+- Tydzień 3: rozwiązanie (framework)
+- Tydzień 4: dowód + obiekcje + CTA
+Każdy materiał ma zawierać:
 - Hook
-- Idea central
+- Główną ideę
 - Micro-CTA
-- Segmento ideal (frío/tibio/caliente).`,
+- Idealny segment (zimny/ciepły/gorący).`,
     thumbnail: "",
   },
   {
     id: "mnut-012",
-    title: "Nurturing para leads ‘curiosos’ (no listos) — convertir curiosidad en intención",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla ‘ciekawskich’ leadów (niegotowych) — zamień ciekawość w intencję",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Secuencia para leads que descargan por curiosidad: elevar dolor/claridad y mover a acción.",
-    prompt: `Rellena:
+      "Sekwencja dla leadów z ciekawości: zwiększa ból/jasność i przesuwa do działania.",
+    prompt: `Uzupełnij:
 - Oferta:
 - Lead magnet:
-- Señales de curiosidad (poca urgencia):
-- Canal:
+- Sygnały ciekawości (mała pilność):
+- Kanał:
 
-Tarea:
-Crea 8 mensajes:
-- 2 de educación (errores comunes)
-- 2 de diagnóstico (preguntas para que se identifiquen)
-- 2 de prueba (caso / evidencia)
-- 1 de objeción “no es el momento”
-- 1 de CTA a paso pequeño (audit/guía/call corta)
-Incluye versiones para tono suave vs directo.`,
+Zadanie:
+Stwórz 8 wiadomości:
+- 2 edukacyjne (typowe błędy)
+- 2 diagnostyczne (pytania identyfikujące)
+- 2 dowodowe (case / evidence)
+- 1 na obiekcję “to nie moment”
+- 1 z CTA na mały krok (audit/poradnik/krótki call)
+Dodaj wersje: ton miękki vs bezpośredni.`,
     thumbnail: "",
   },
   {
     id: "mnut-013",
-    title: "Nurturing para leads que preguntan precio rápido — evitar ‘precio’ como filtro único",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla leadów, które szybko pytają o cenę — nie pozwól, by cena była jedynym filtrem",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Secuencia para cuando preguntan precio antes de entender valor: reframe, opciones y calificación.",
-    prompt: `Rellena:
+      "Sekwencja, gdy pytają o cenę zanim zrozumieją wartość: reframe, opcje i kwalifikacja.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Precio/rango:
-- Resultados típicos (sin prometer):
-- Diferenciador:
-- Canal (WhatsApp/DM/email):
+- Cena/przedział:
+- Typowe rezultaty (bez obietnic):
+- Wyróżnik:
+- Kanał (WhatsApp/DM/email):
 
-Tarea:
-1) Escribe 6 mensajes de nurturing (cortos pero potentes) que:
-   - establecen contexto de valor
-   - preguntan 2–3 cosas para calificar
-   - muestran opciones (starter/mid/premium)
-   - ofrecen un paso pequeño (diagnóstico)
-2) Incluye 10 respuestas rápidas a:
-   - “está caro”
-   - “lo pensaré”
-   - “mándame info”
-   - “tienes descuento?”.`,
+Zadanie:
+1) Napisz 6 wiadomości nurturingowych (krótkich, ale mocnych), które:
+   - ustawiają kontekst wartości
+   - zadają 2–3 pytania kwalifikujące
+   - pokazują opcje (starter/mid/premium)
+   - oferują mały krok (diagnoza)
+2) Dodaj 10 szybkich odpowiedzi na:
+   - “drogo”
+   - “pomyślę”
+   - “wyślij info”
+   - “masz rabat?”.`,
     thumbnail: "",
   },
   {
     id: "mnut-014",
-    title: "Nurturing para no-show (reunión agendada pero no asistió) — recuperar sin perseguir",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla no-show (spotkanie umówione, ale nie przyszli) — odzyskaj bez gonienia",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Secuencia de rescate para no-shows: empatía, valor, re-agenda y descalificación elegante.",
-    prompt: `Rellena:
-- Servicio:
-- Tipo de llamada:
-- Calendario:
-- Objecciones típicas:
-- Canal:
+      "Sekwencja ratunkowa dla no-show: empatia, wartość, re-book i elegancka dyskwalifikacja.",
+    prompt: `Uzupełnij:
+- Usługa:
+- Typ rozmowy:
+- Kalendarz:
+- Typowe obiekcje:
+- Kanał:
 
-Tarea:
-Crea 6 mensajes:
-1) “Todo bien” + re-agendar (suave)
-2) Resource drop (checklist/guía)
-3) Pregunta de prioridad (sí/no)
-4) Reframe del costo de no resolverlo
-5) Oferta alternativa (15 min / audit)
-6) Breakup elegante
-Incluye 2 versiones por mensaje: formal y cercano.`,
+Zadanie:
+Stwórz 6 wiadomości:
+1) “Wszystko OK” + propozycja przełożenia (miękko)
+2) Resource drop (checklista/poradnik)
+3) Pytanie o priorytet (tak/nie)
+4) Reframe kosztu nierozwiązania
+5) Alternatywa (15 min / audit)
+6) Elegancki breakup
+Dodaj 2 wersje per wiadomość: formalna i bliska.`,
     thumbnail: "",
   },
   {
     id: "mnut-015",
-    title: "Nurturing para carritos abandonados — 5 mensajes con psicología (sin desesperación)",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing porzuconych koszyków — 5 wiadomości z psychologią (bez desperacji)",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Secuencia de abandono: fricción, confianza, FAQ, prueba social y CTA.",
-    prompt: `Rellena:
-- Producto:
-- Precio:
-- Motivos de abandono (envío, confianza, tiempo):
-- Incentivo (opcional):
-- Canal:
+      "Sekwencja porzuceń: tarcie, zaufanie, FAQ, social proof i CTA.",
+    prompt: `Uzupełnij:
+- Produkt:
+- Cena:
+- Powody porzucenia (dostawa, zaufanie, czas):
+- Bodziec (opcjonalnie):
+- Kanał:
 
-Tarea:
-Crea 5 mensajes:
-1) Recordatorio + beneficio principal
-2) Pregunta simple (qué te detuvo)
-3) Objección principal + respuesta
-4) Prueba social + caso (sin exagerar)
-5) Última llamada + urgencia ética (deadline real)
-Incluye:
-- 10 respuestas rápidas si contestan
-- segmentación: si abrieron pero no compraron vs no abrieron.`,
+Zadanie:
+Stwórz 5 wiadomości:
+1) Przypomnienie + główna korzyść
+2) Proste pytanie (co Cię zatrzymało?)
+3) Główna obiekcja + odpowiedź
+4) Social proof + case (bez przesady)
+5) Ostatnie wezwanie + etyczna pilność (realny deadline)
+Dodaj:
+- 10 szybkich odpowiedzi, jeśli odpiszą
+- segmentację: otworzył, ale nie kupił vs nie otworzył.`,
     thumbnail: "",
   },
 
   {
     id: "mnut-016",
-    title: "Nurturing por ‘prueba social’ — 8 historias de clientes (plantillas) para rotar",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing przez ‘dowód społeczny’ — 8 historii klientów (szablony) do rotacji",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Plantillas para contar casos sin inventar: contexto, fricción, proceso, aprendizaje y CTA.",
-    prompt: `Rellena:
+      "Szablony case’ów bez zmyślania: kontekst, tarcie, proces, lekcja i CTA.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Tipos de clientes:
-- Resultados típicos (cualitativos o cuantitativos):
-- Canal:
+- Typy klientów:
+- Typowe rezultaty (jakościowe lub ilościowe):
+- Kanał:
 
-Tarea:
-Crea 8 plantillas de historia con estructura:
-- Contexto del cliente (sin exponer datos sensibles)
-- Problema y costo
-- Qué intentó antes
-- Qué hicimos (proceso)
-- Resultado (con disclaimers)
-- Lección aplicable a cualquiera
-- CTA suave
-Incluye variantes por industria/rol (B2B) o por situación (B2C).`,
+Zadanie:
+Stwórz 8 szablonów historii w strukturze:
+- Kontekst klienta (bez danych wrażliwych)
+- Problem i koszt
+- Co próbowali wcześniej
+- Co zrobiliśmy (proces)
+- Rezultat (z disclaimerami)
+- Lekcja do zastosowania dla każdego
+- Miękkie CTA
+Dodaj warianty: per branża/rola (B2B) lub per sytuacja (B2C).`,
     thumbnail: "",
   },
   {
     id: "mnut-017",
-    title: "Nurturing con ‘contenido puente’ — decidir qué recurso dar según etapa del lead",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing z ‘bridge contentem’ — jaki zasób wysłać w zależności od etapu leada",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Sistema de recursos puente: cuál enviar, cuándo y con qué objetivo.",
-    prompt: `Rellena:
+      "System zasobów pomostowych: co wysłać, kiedy i w jakim celu.",
+    prompt: `Uzupełnij:
 - Oferta:
-- 6 recursos disponibles (videos, guías, casos):
-- Etapas del lead:
-- Canal:
+- 6 dostępnych zasobów (wideo, poradniki, case’y):
+- Etapy leada:
+- Kanał:
 
-Tarea:
-1) Crea un mapa:
-   - Lead frío → recurso A (objetivo)
-   - Lead tibio → recurso B
-   - Lead caliente → recurso C
-2) Para cada recurso:
-   - mensaje de envío
+Zadanie:
+1) Stwórz mapę:
+   - Zimny lead → zasób A (cel)
+   - Ciepły lead → zasób B
+   - Gorący lead → zasób C
+2) Dla każdego zasobu:
+   - wiadomość wysyłki
    - micro-CTA
-   - qué etiqueta asignar si consumen
-3) Diseña 6 triggers (acciones del usuario) y qué recurso/flujo dispara cada uno.`,
+   - jaka etykieta, jeśli skonsumują
+3) Zaprojektuj 6 triggerów (akcje użytkownika) i jaki zasób/flow uruchamia każdy trigger.`,
     thumbnail: "",
   },
   {
     id: "mnut-018",
-    title: "Nurturing para leads ‘silenciosos’ — reactivar sin vender (re-engagement 7 días)",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla ‘cichych’ leadów — reaktywacja bez sprzedawania (7 dni re-engagement)",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Secuencia de reactivación: curiosidad, valor, encuesta, cleanup y CTA final.",
-    prompt: `Rellena:
-- Segmento inactivo (tiempo):
+      "Sekwencja reaktywacji: ciekawość, wartość, ankieta, porządki i finalne CTA.",
+    prompt: `Uzupełnij:
+- Nieaktywny segment (czas):
 - Oferta:
-- Recurso estrella:
-- Canal:
+- Najmocniejszy zasób:
+- Kanał:
 
-Tarea:
-Crea 7 mensajes:
-1) “¿Sigues en esto?” (humano)
-2) Quick win en 3 pasos
-3) Pregunta de diagnóstico (elige A/B)
-4) Caso corto / prueba
-5) Encuesta (qué te interesa)
-6) Oferta suave (paso pequeño)
-7) “Si no te interesa, dime y te saco” (higiene)
-Incluye:
-- 3 versiones de asuntos/gancho por mensaje.`,
+Zadanie:
+Stwórz 7 wiadomości:
+1) “Wciąż w tym jesteś?” (ludzko)
+2) Quick win w 3 krokach
+3) Pytanie diagnostyczne (wybierz A/B)
+4) Krótki case / dowód
+5) Ankieta (co Cię interesuje)
+6) Miękka oferta (mały krok)
+7) “Jeśli to nie dla Ciebie, daj znać — usunę” (higiena)
+Dodaj:
+- 3 wersje tematów/hooków na wiadomość.`,
     thumbnail: "",
   },
   {
     id: "mnut-019",
-    title: "Nurturing para leads que dijeron ‘después’ — sistema de seguimiento a 30/60/90 días",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla leadów, które powiedziały ‘później’ — follow-up 30/60/90 dni",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Secuencia de seguimiento largo: valor, check-in, pruebas y reactivación periódica.",
-    prompt: `Rellena:
+      "Długi follow-up: wartość, check-in, dowody i okresowa reaktywacja.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Motivo típico de “después” (dinero/tiempo/prioridad):
-- Canal:
+- Typowy powód “później” (pieniądze/czas/prioritet):
+- Kanał:
 
-Tarea:
-Diseña un sistema 30/60/90 días con:
-- qué enviar (valor) y qué preguntar (calificación)
-- 2 piezas por checkpoint (una educativa y una de prueba)
-- CTA suave en cada checkpoint
-- regla: cuándo cerrar el loop (breakup)
-Incluye plantillas listas para copiar/pegar.`,
+Zadanie:
+Zaprojektuj system 30/60/90 dni:
+- co wysyłać (wartość) i o co pytać (kwalifikacja)
+- 2 materiały per checkpoint (edukacyjny i dowodowy)
+- miękkie CTA w każdym checkpoint
+- reguła: kiedy zamknąć pętlę (breakup)
+Dodaj gotowe szablony copy-paste.`,
     thumbnail: "",
   },
   {
     id: "mnut-020",
-    title: "Nurturing de autoridad — 10 piezas que construyen ‘confianza’ sin presumir",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing autorytetu — 10 materiałów budujących zaufanie bez przechwałek",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Piezas para elevar autoridad: insights, procesos, estándares, criterios y transparencia.",
-    prompt: `Rellena:
-- Servicio:
+      "Treści budujące autorytet: insighty, procesy, standardy, kryteria i transparentność.",
+    prompt: `Uzupełnij:
+- Usługa:
 - ICP:
-- Diferenciador real:
-- Errores del mercado:
-- Canal:
+- Prawdziwy wyróżnik:
+- Błędy rynku:
+- Kanał:
 
-Tarea:
-Crea 10 piezas (mensajes) con:
-- Insight (qué casi nadie entiende)
-- Mini ejemplo
-- 1 regla/principio (tu estándar)
+Zadanie:
+Stwórz 10 materiałów (wiadomości) z:
+- Insightem (czego prawie nikt nie rozumie)
+- Mini przykładem
+- 1 zasadą/standardem (Twój standard)
 - Micro-CTA
-Incluye 2 piezas específicas:
-- “lo que nunca hacemos y por qué”
-- “cómo pensamos sobre resultados y riesgos”`,
+Dodaj 2 konkretne materiały:
+- “czego nigdy nie robimy i dlaczego”
+- “jak myślimy o wynikach i ryzykach”`,
     thumbnail: "",
   },
 
   {
     id: "mnut-021",
-    title: "Nurturing ‘pregunta-respuesta’ — secuencia basada en FAQs reales (12 mensajes)",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing ‘pytanie-odpowiedź’ — sekwencja na prawdziwych FAQ (12 wiadomości)",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Convierte FAQs en una secuencia que educa y acerca a la compra.",
-    prompt: `Rellena:
+      "Zamienia FAQ w sekwencję, która edukuje i przybliża do zakupu.",
+    prompt: `Uzupełnij:
 - Oferta:
-- 12 preguntas frecuentes del ICP:
-- Canal:
+- 12 FAQ od ICP:
+- Kanał:
 
-Tarea:
-Para cada pregunta, escribe un mensaje que incluya:
-- Hook: la pregunta como apertura
-- Respuesta con claridad (sin vender de inmediato)
-- Mini ejemplo o analogía
-- Micro-CTA (responder, ver recurso, etc.)
-Termina con:
-- 5 preguntas de “calificación” para detectar intención.`,
+Zadanie:
+Dla każdego pytania napisz wiadomość, która zawiera:
+- Hook: pytanie jako otwarcie
+- Jasna odpowiedź (bez natychmiastowej sprzedaży)
+- Mini przykład lub analogię
+- Micro-CTA (odpowiedz, zobacz zasób itd.)
+Zakończ:
+- 5 pytaniami kwalifikacyjnymi do wykrycia intencji.`,
     thumbnail: "",
   },
   {
     id: "mnut-022",
-    title: "Nurturing para leads que comparan (competencia) — ‘cómo elegir’ sin atacar",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla leadów porównujących (konkurencja) — ‘jak wybrać’ bez atakowania",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Guía comparativa consultiva para leads en evaluación: criterios, riesgos, preguntas y CTA.",
-    prompt: `Rellena:
+      "Konsultacyjny przewodnik dla leadów w ocenie: kryteria, ryzyka, pytania i CTA.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Alternativas típicas (DIY, agencia, software, competencia):
-- Criterios clave:
-- Canal:
+- Typowe alternatywy (DIY, agencja, software, konkurencja):
+- Kluczowe kryteria:
+- Kanał:
 
-Tarea:
-Crea 6 mensajes:
-1) “Cómo elegir” (framework de 5 criterios)
-2) Costo oculto de elegir mal
-3) Preguntas que debes hacerle a cualquier proveedor (10)
-4) Señales rojas (5)
-5) Cómo trabajamos (resumen de proceso)
-6) CTA a audit/diagnóstico para evaluar fit`,
+Zadanie:
+Stwórz 6 wiadomości:
+1) “Jak wybrać” (framework 5 kryteriów)
+2) Ukryty koszt złego wyboru
+3) Pytania do zadania każdemu dostawcy (10)
+4) Czerwone flagi (5)
+5) Jak pracujemy (skrót procesu)
+6) CTA do audytu/diagnozy dopasowania (fit)`,
     thumbnail: "",
   },
   {
     id: "mnut-023",
-    title: "Nurturing por ‘niveles de sofisticación’ — adaptar lenguaje según conciencia del lead",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing wg ‘poziomów świadomości’ — dopasuj język do świadomości leada",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Mensajes por nivel de conciencia: problema, solución, producto y más consciente.",
-    prompt: `Rellena:
+      "Wiadomości wg świadomości: problem, rozwiązanie, produkt, najbardziej świadomy.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Problema:
-- Mecanismo:
-- Canal:
+- Problem:
+- Mechanizm:
+- Kanał:
 
-Tarea:
-1) Define 4 niveles de conciencia de tu lead:
-   - no consciente
-   - consciente del problema
-   - consciente de la solución
-   - consciente del producto
-2) Crea 3 mensajes por nivel (12 total), cada uno con:
-   - hook
-   - idea central
-   - ejemplo
+Zadanie:
+1) Zdefiniuj 4 poziomy świadomości leada:
+   - nieświadomy
+   - świadomy problemu
+   - świadomy rozwiązania
+   - świadomy produktu
+2) Stwórz 3 wiadomości na poziom (12 łącznie), każda z:
+   - hookiem
+   - główną ideą
+   - przykładem
    - micro-CTA
-3) Define reglas para moverlos al siguiente nivel (acciones/etiquetas).`,
+3) Zdefiniuj reguły przejścia na kolejny poziom (akcje/etykiety).`,
     thumbnail: "",
   },
   {
     id: "mnut-024",
-    title: "Nurturing para leads de webinar — antes, durante, después (14 mensajes total)",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla leadów z webinaru — przed, w trakcie, po (łącznie 14 wiadomości)",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Sistema completo para webinar: show-up, engagement, oferta, follow-up.",
-    prompt: `Rellena:
+      "Kompletny system webinarowy: show-up, engagement, oferta, follow-up.",
+    prompt: `Uzupełnij:
 - Webinar:
 - Oferta:
-- Fecha/hora:
-- Bonos:
-- Objeciones:
-- Canales:
+- Data/godzina:
+- Bonusy:
+- Obiekcje:
+- Kanały:
 
-Tarea:
-Crea:
-- Pre-webinar: 5 mensajes (registro→asistencia)
-- Día del webinar: 3 mensajes (recordatorios + link)
-- Post-webinar: 6 mensajes (resumen + objeciones + CTA)
-Incluye segmentación:
-- asistió completo
-- asistió parcial
-- no asistió
-y distinta copy para cada uno.`,
+Zadanie:
+Stwórz:
+- Pre-webinar: 5 wiadomości (rejestracja → obecność)
+- Dzień webinaru: 3 wiadomości (przypomnienia + link)
+- Post-webinar: 6 wiadomości (podsumowanie + obiekcje + CTA)
+Dodaj segmentację:
+- obejrzał do końca
+- obejrzał częściowo
+- nie był
+I osobne copy dla każdej grupy.`,
     thumbnail: "",
   },
   {
     id: "mnut-025",
-    title: "Nurturing para leads de contenido orgánico — pasar de ‘me gusta’ a conversación",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla leadów z contentu organicznego — od ‘lajka’ do rozmowy",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Mensajes y pipelines para convertir engagement en DM/WhatsApp y luego a oferta.",
-    prompt: `Rellena:
-- Plataforma (IG/TikTok/LinkedIn):
+      "Wiadomości i pipeline’y, które zamieniają engagement w DM/WhatsApp, a potem w ofertę.",
+    prompt: `Uzupełnij:
+- Platforma (IG/TikTok/LinkedIn):
 - Oferta:
-- Palabra clave para DM:
-- Canal final (WhatsApp/Calendly):
-- Tono:
+- Słowo-klucz do DM:
+- Kanał docelowy (WhatsApp/Calendly):
+- Ton:
 
-Tarea:
-1) Diseña un flujo de 8 mensajes DM:
-   - inicio (keyword)
-   - entrega de recurso
-   - pregunta de diagnóstico
-   - profundización
-   - micro win
-   - objeción
-   - CTA a paso pequeño
-   - cierre elegante
-2) Añade 12 respuestas rápidas para:
-   - “me interesa”
-   - “cuánto cuesta”
-   - “no tengo tiempo”
-   - “lo pensaré”`,
+Zadanie:
+1) Zaprojektuj flow 8 wiadomości DM:
+   - start (keyword)
+   - dostarczenie zasobu
+   - pytanie diagnostyczne
+   - pogłębienie
+   - mikro-wygrana (micro win)
+   - obiekcja
+   - CTA na mały krok
+   - eleganckie zamknięcie
+2) Dodaj 12 szybkich odpowiedzi na:
+   - “jestem zainteresowany/a”
+   - “ile to kosztuje”
+   - “nie mam czasu”
+   - “pomyślę”`,
     thumbnail: "",
   },
 
   {
     id: "mnut-026",
-    title: "Nurturing para leads por referido — trato VIP sin sonar intenso",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla leadów z polecenia — VIP bez nadęcia",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Secuencia especial para leads recomendados: confianza rápida, contexto y CTA.",
-    prompt: `Rellena:
-- Quién refirió:
+      "Specjalna sekwencja dla poleconych leadów: szybkie zaufanie, kontekst i CTA.",
+    prompt: `Uzupełnij:
+- Kto polecił:
 - Oferta:
 - ICP:
-- Canal:
+- Kanał:
 
-Tarea:
-Crea 6 mensajes:
-1) Agradecimiento + referencia mencionada
-2) Contexto: qué hacemos y para quién
-3) Preguntas de diagnóstico (3)
-4) Caso corto (relevante al referido)
-5) Propuesta de next step (15 min)
-6) Breakup elegante
-Incluye 2 versiones: formal y cercano.`,
+Zadanie:
+Stwórz 6 wiadomości:
+1) Podziękowanie + wspomnienie osoby polecającej
+2) Kontekst: co robimy i dla kogo
+3) Pytania diagnostyczne (3)
+4) Krótki case (relewantny do polecenia)
+5) Propozycja next step (15 min)
+6) Elegancki breakup
+Dodaj 2 wersje: formalną i bliską.`,
     thumbnail: "",
   },
   {
     id: "mnut-027",
-    title: "Nurturing ‘anti-spam’ — plan de frecuencia, higiene y reputación (para listas sensibles)",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing ‘anti-spam’ — plan częstotliwości, higieny i reputacji (dla wrażliwych list)",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Define cómo nutrir sin quemar la lista: segmentos, caps, limpieza y contenido.",
-    prompt: `Rellena:
-- Canal:
-- Tamaño lista:
-- Frecuencia actual:
-- Quejas/unsubs:
+      "Jak nurture’ować bez przepalania listy: segmenty, caps, czyszczenie i content.",
+    prompt: `Uzupełnij:
+- Kanał:
+- Wielkość listy:
+- Aktualna częstotliwość:
+- Skargi/unsubs:
 - Oferta:
 
-Tarea:
-1) Define política de frecuencia:
-   - nuevos leads
-   - activos
-   - inactivos
-2) Define caps: máximo mensajes/semana por segmento.
-3) Define checklist de deliverability/higiene.
-4) Crea 8 ideas de emails de valor que reduzcan quejas.
-5) Define plan de re-permission (si aplica) con copy incluida.`,
+Zadanie:
+1) Zdefiniuj politykę częstotliwości:
+   - nowe leady
+   - aktywni
+   - nieaktywni
+2) Zdefiniuj caps: maks. wiadomości/tydzień per segment.
+3) Zdefiniuj checklistę deliverability/higieny.
+4) Stwórz 8 pomysłów na “value” maile, które zmniejszają skargi.
+5) Zdefiniuj plan re-permission (jeśli dotyczy) z gotowym copy.`,
     thumbnail: "",
   },
   {
     id: "mnut-028",
-    title: "Nurturing ‘score’ — asignar puntaje por comportamiento y disparar secuencias",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing ‘score’ — punktacja zachowań i uruchamianie sekwencji",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Sistema de lead scoring simple para activar ofertas según intención.",
-    prompt: `Rellena:
+      "Prosty lead scoring, który aktywuje oferty zgodnie z intencją.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Eventos trackeables (open, click, visita pricing, reply, etc.):
-- Canal:
-- CRM/ESP (si aplica):
+- Trackowalne zdarzenia (open, click, wizyta pricing, reply itd.):
+- Kanał:
+- CRM/ESP (jeśli dotyczy):
 
-Tarea:
-1) Define un modelo de scoring (0–100):
-   - qué suma puntos y cuánto
-   - qué resta
-2) Define 3 umbrales:
-   - frío
-   - tibio
-   - caliente
-3) Diseña qué secuencia se dispara en cada umbral (resumen).
-4) Escribe 6 mensajes para “calientes” (venta consultiva) y 6 para “fríos” (educación).`,
+Zadanie:
+1) Zdefiniuj model scoringu (0–100):
+   - co dodaje punkty i ile
+   - co odejmuje
+2) Zdefiniuj 3 progi:
+   - zimny
+   - ciepły
+   - gorący
+3) Zaprojektuj, jaka sekwencja uruchamia się na każdym progu (skrót).
+4) Napisz 6 wiadomości dla “gorących” (konsultacyjna sprzedaż) i 6 dla “zimnych” (edukacja).`,
     thumbnail: "",
   },
   {
     id: "mnut-029",
-    title: "Nurturing para ofertas high-ticket — construir valor, seguridad y fit (10 emails)",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla ofert high-ticket — buduj wartość, bezpieczeństwo i dopasowanie (10 maili)",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Secuencia para ticket alto: reduce riesgo percibido y mejora calificación.",
-    prompt: `Rellena:
+      "Sekwencja dla wysokiego ticketu: obniża postrzegane ryzyko i poprawia kwalifikację.",
+    prompt: `Uzupełnij:
 - Oferta high-ticket:
-- Precio:
+- Cena:
 - ICP:
-- Riesgos percibidos:
-- Prueba (credenciales/casos):
-- CTA (aplicación/llamada):
-- Canal: email
+- Postrzegane ryzyka:
+- Dowód (referencje/case’y):
+- CTA (aplikacja/rozmowa):
+- Kanał: email
 
-Tarea:
-Crea 10 emails:
-1) Reframe del problema (costo de no actuar)
-2) Estándares: qué requiere el resultado
-3) Framework completo (3–5 pasos)
-4) Caso detallado (proceso > resultado)
-5) Objeción precio + ROI + alternativas
-6) Objeción tiempo + cómo lo hacemos viable
-7) “Para quién NO es” (calificación)
-8) FAQ (seguridad, soporte, tiempos)
-9) Invitación a aplicar
-10) Breakup premium
-Incluye 3 asuntos por email y CTA suave vs directa.`,
+Zadanie:
+Stwórz 10 emaili:
+1) Reframe problemu (koszt braku działania)
+2) Standardy: co jest wymagane, żeby dowieźć wynik
+3) Pełny framework (3–5 kroków)
+4) Szczegółowy case (proces > wynik)
+5) Obiekcja cena + ROI + alternatywy
+6) Obiekcja czas + jak to robimy realnym
+7) “Dla kogo NIE jest” (kwalifikacja)
+8) FAQ (bezpieczeństwo, wsparcie, timing)
+9) Zaproszenie do aplikacji
+10) Premium breakup
+Dodaj 3 tematy na email i CTA: miękkie vs bezpośrednie.`,
     thumbnail: "",
   },
   {
     id: "mnut-030",
-    title: "Nurturing para productos de bajo ticket — subir AOV con ‘value ladder’",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla produktów o niskim ticketcie — podnieś AOV przez ‘value ladder’",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Secuencia para entry offer que prepara upsell: valor, hábito, upgrade.",
-    prompt: `Rellena:
-- Entry product:
+      "Sekwencja dla entry offer, która przygotowuje upsell: wartość, nawyk, upgrade.",
+    prompt: `Uzupełnij:
+- Produkt entry:
 - Upsell:
 - Cross-sell:
-- Ventana:
-- Canal:
+- Okno:
+- Kanał:
 
-Tarea:
-Crea 8 mensajes:
-- 3 de activación (usar y obtener quick win)
-- 2 de educación (mejorar resultados)
-- 2 de prueba (historias, ejemplos)
-- 1 de upgrade/upsell
-Incluye: segmentación según consumo del producto.`,
+Zadanie:
+Stwórz 8 wiadomości:
+- 3 aktywacyjne (użyj i osiągnij quick win)
+- 2 edukacyjne (popraw wyniki)
+- 2 dowodowe (historie, przykłady)
+- 1 upgrade/upsell
+Dodaj: segmentację wg wykorzystania produktu.`,
     thumbnail: "",
   },
 
   {
     id: "mnut-031",
-    title: "Nurturing por ‘comparación antes/después’ — 8 mensajes con contraste tangible",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing przez ‘porównanie przed/po’ — 8 wiadomości z namacalnym kontrastem",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Serie de mensajes que contrastan ‘antes vs después’ sin exagerar, centrado en proceso.",
-    prompt: `Rellena:
+      "Seria ‘przed vs po’ bez przesady, skupiona na procesie.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Antes típico (dolor):
-- Después esperado:
-- Proceso:
-- Canal:
+- Typowe “przed” (ból):
+- Oczekiwane “po”:
+- Proces:
+- Kanał:
 
-Tarea:
-Crea 8 mensajes, cada uno con:
-- “Antes” (1–2 frases)
-- “Después” (1–2 frases)
-- “Qué cambió” (acción concreta)
+Zadanie:
+Stwórz 8 wiadomości, każda zawiera:
+- “Przed” (1–2 zdania)
+- “Po” (1–2 zdania)
+- “Co się zmieniło” (konkretna akcja)
 - Micro-CTA
-Incluye 2 mensajes dedicados a objeción y 1 a invitación final.`,
+Dodaj 2 wiadomości o obiekcjach i 1 finalne zaproszenie.`,
     thumbnail: "",
   },
   {
     id: "mnut-032",
-    title: "Nurturing tipo ‘newsletter’ (semanal) — 12 ediciones con estructura fija",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing typu newsletter (tygodniowy) — 12 wydań ze stałą strukturą",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Sistema de newsletter que educa y vende sin saturar: 12 entregas con secciones.",
-    prompt: `Rellena:
-- Tema central:
+      "Newsletter, który edukuje i sprzedaje bez saturacji: 12 edycji z sekcjami.",
+    prompt: `Uzupełnij:
+- Motyw przewodni:
 - Oferta:
-- Audiencia:
-- Tono:
+- Odbiorcy:
+- Ton:
 
-Tarea:
-Diseña 12 ediciones con:
-- Título
-- 1 insight principal (resumen)
-- 1 mini caso/historia
-- 1 checklist rápido
-- CTA suave a recurso/oferta
-Incluye una plantilla base repetible y variaciones para no sonar igual.`,
+Zadanie:
+Zaprojektuj 12 wydań:
+- Tytuł
+- 1 główny insight (streszczenie)
+- 1 mini case/historia
+- 1 szybka checklista
+- Miękkie CTA do zasobu/oferty
+Dodaj bazowy szablon do powtarzania i warianty, żeby nie brzmieć identycznie.`,
     thumbnail: "",
   },
   {
     id: "mnut-033",
-    title: "Nurturing para ‘auditoría gratuita’ — convertir audit en propuesta (secuencia completa)",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla ‘darmowej audytu’ — zamień audit w ofertę (pełna sekwencja)",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Desde que piden auditoría hasta que reciben propuesta: seguimiento, valor y cierre.",
-    prompt: `Rellena:
-- Qué auditas:
-- Tiempo de entrega:
-- Qué incluye:
-- Oferta posterior:
-- Canal:
+      "Od prośby o audit do propozycji: follow-up, wartość i domknięcie.",
+    prompt: `Uzupełnij:
+- Co audytujesz:
+- Czas dostarczenia:
+- Co zawiera:
+- Oferta po audycie:
+- Kanał:
 
-Tarea:
-Crea:
-1) Mensaje de confirmación y expectativas (inmediato)
-2) Mensaje para pedir inputs (checklist)
-3) Mensaje de entrega del audit (estructura)
-4) Mensaje de “roadmap” (prioridades)
-5) Mensaje de propuesta (CTA a reunión)
-6) Follow-ups 1–3
-Incluye scripts para responder a ‘lo revisaré’ y ‘muy caro’.`,
+Zadanie:
+Stwórz:
+1) Wiadomość potwierdzająca i ustawiająca oczekiwania (od razu)
+2) Wiadomość z prośbą o inputy (checklista)
+3) Wiadomość dostarczenia audytu (struktura)
+4) Wiadomość “roadmapy” (priorytety)
+5) Wiadomość propozycji (CTA do rozmowy)
+6) Follow-up 1–3
+Dodaj skrypty odpowiedzi na: “przejrzę” oraz “za drogo”.`,
     thumbnail: "",
   },
   {
     id: "mnut-034",
-    title: "Nurturing por ‘preguntas de diagnóstico’ — secuencia socrática (8 mensajes)",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing przez ‘pytania diagnostyczne’ — sekwencja sokratyczna (8 wiadomości)",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Mensajes basados en preguntas que hacen que el lead se convenza a sí mismo.",
-    prompt: `Rellena:
+      "Wiadomości oparte na pytaniach, dzięki którym lead sam się przekonuje.",
+    prompt: `Uzupełnij:
 - Oferta:
 - ICP:
-- Dolor:
-- Canal:
+- Ból:
+- Kanał:
 
-Tarea:
-Crea 8 mensajes donde el núcleo es una pregunta poderosa.
-Reglas:
-- 1 pregunta principal por mensaje
-- añade contexto breve (2–3 líneas)
-- termina con micro-CTA (responder A/B o número)
-Incluye “árbol de respuestas”: si responden A, qué follow-up mandas; si B, qué mandas.`,
+Zadanie:
+Stwórz 8 wiadomości, w których rdzeniem jest jedno mocne pytanie.
+Zasady:
+- 1 główne pytanie na wiadomość
+- dodaj krótki kontekst (2–3 linie)
+- zakończ micro-CTA (odpowiedz A/B lub liczbą)
+Dodaj “drzewko odpowiedzi”: jeśli odpowiedzą A, jaki follow-up; jeśli B — jaki.`,
     thumbnail: "",
   },
   {
     id: "mnut-035",
-    title: "Nurturing de ‘prueba técnica’ — demostrar competencia sin abrumar (B2B)",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing ‘dowód techniczny’ — pokaż kompetencje bez przytłaczania (B2B)",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Secuencia que muestra thinking y rigor: procesos, estándares, ejemplos y límites.",
-    prompt: `Rellena:
-- Servicio:
+      "Sekwencja pokazująca rigor: procesy, standardy, przykłady i limity.",
+    prompt: `Uzupełnij:
+- Usługa:
 - ICP:
-- 5 decisiones técnicas del servicio:
-- Errores comunes del mercado:
-- Canal:
+- 5 decyzji technicznych w usłudze:
+- Typowe błędy rynku:
+- Kanał:
 
-Tarea:
-Crea 7 mensajes:
-- Cada uno explica 1 decisión técnica: qué es, por qué importa, cómo la hacemos, dónde falla lo típico.
-- Incluye mini ejemplo y un “si quieres, te mando plantilla”.
-- CTA final a diagnóstico o workshop.`,
+Zadanie:
+Stwórz 7 wiadomości:
+- Każda wyjaśnia 1 decyzję techniczną: co to jest, czemu ma znaczenie, jak to robimy, gdzie typowo się to psuje.
+- Dodaj mini przykład i “jeśli chcesz, podeślę szablon”.
+- Finalne CTA do diagnozy lub workshopu.`,
     thumbnail: "",
   },
 
   {
     id: "mnut-036",
-    title: "Nurturing para leads de campaña ‘precio’ — reconstruir valor (10 mensajes)",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla leadów z kampanii ‘cena’ — odbuduj wartość (10 wiadomości)",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Secuencia para leads atraídos por precio: elevar estándares, outcomes y fit.",
-    prompt: `Rellena:
+      "Sekwencja dla leadów przyciągniętych ceną: podnosi standardy, outcomes i dopasowanie.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Precio:
-- Segmento (sensibles al precio):
-- Diferenciador:
-- Canal:
+- Cena:
+- Segment (wrażliwi na cenę):
+- Wyróżnik:
+- Kanał:
 
-Tarea:
-Crea 10 mensajes:
-1) Estándares: lo barato sale caro (con tacto)
-2) Qué incluye / qué NO
-3) Cómo calcular ROI simple
-4) Caso/ejemplo centrado en proceso
-5) Objeción “puedo hacerlo yo”
-6) Alternativa más barata (entry) si existe
-7) “para quién sí/no”
+Zadanie:
+Stwórz 10 wiadomości:
+1) Standardy: tanio często wychodzi drogo (z wyczuciem)
+2) Co zawiera / czego NIE
+3) Jak policzyć proste ROI
+4) Case/przykład skupiony na procesie
+5) Obiekcja “zrobię sam/a”
+6) Tańsza alternatywa (entry), jeśli istnieje
+7) “dla kogo tak/nie”
 8) Q&A
 9) Oferta/CTA
 10) Breakup
-Incluye 2 tonos: cercano y premium.`,
+Dodaj 2 tony: bliski i premium.`,
     thumbnail: "",
   },
   {
     id: "mnut-037",
-    title: "Nurturing con ‘mini herramientas’ — 8 entregas (plantillas/checklists) que generan reciprocidad",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing z ‘mini-narzędziami’ — 8 dostaw (szablony/checklisty) budujących wzajemność",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Crea una serie de herramientas rápidas (texto) que el lead puede aplicar hoy.",
-    prompt: `Rellena:
+      "Seria szybkich narzędzi (w tekście), które lead może wdrożyć dziś.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Tema:
+- Temat:
 - ICP:
-- Canal:
+- Kanał:
 
-Tarea:
-Crea 8 entregas, cada una incluye:
-- herramienta (plantilla/checklist/script)
-- ejemplo rellenado
-- instrucción “cómo usar”
+Zadanie:
+Stwórz 8 dostaw, każda zawiera:
+- narzędzie (szablon/checklista/skrypt)
+- wypełniony przykład
+- instrukcję “jak użyć”
 - micro-CTA
-- CTA suave a la oferta
-No uses archivos adjuntos: todo debe ir en el texto.`,
+- miękkie CTA do oferty
+Bez załączników: wszystko w tekście.`,
     thumbnail: "",
   },
   {
     id: "mnut-038",
-    title: "Nurturing para leads con ‘miedo al compromiso’ — reduce riesgo percibido (7 mensajes)",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla leadów z ‘lękiem przed zobowiązaniem’ — obniż postrzegane ryzyko (7 wiadomości)",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Secuencia para buyers con miedo: claridad, control, experiencia, pasos pequeños.",
-    prompt: `Rellena:
+      "Sekwencja dla ostrożnych buyerów: jasność, kontrola, doświadczenie, małe kroki.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Riesgo percibido:
-- Alternativa de bajo riesgo (audit/pilot):
-- Canal:
+- Postrzegane ryzyko:
+- Niskoryzykowna alternatywa (audit/pilot):
+- Kanał:
 
-Tarea:
-Crea 7 mensajes:
-- valida miedo
-- muestra pasos pequeños
-- explica control y checkpoints
-- describe “cómo minimizar riesgo”
-- CTA a paso pequeño
-Incluye 10 respuestas rápidas a objeciones de riesgo.`,
+Zadanie:
+Stwórz 7 wiadomości:
+- uznaj obawy
+- pokaż małe kroki
+- wyjaśnij kontrolę i checkpointy
+- opisz “jak minimalizujemy ryzyko”
+- CTA na mały krok
+Dodaj 10 szybkich odpowiedzi na obiekcje związane z ryzykiem.`,
     thumbnail: "",
   },
   {
     id: "mnut-039",
-    title: "Nurturing para leads que consumen contenido pero no actúan — ‘barrera invisible’",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla leadów, którzy konsumują content, ale nie działają — ‘niewidzialna bariera’",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Secuencia para “lurkers”: convertir consumo pasivo en acciones pequeñas y luego CTA.",
-    prompt: `Rellena:
+      "Sekwencja dla lurkerów: z pasywnego konsumowania do małych działań, potem CTA.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Señal: consumen pero no responden
-- Canal:
+- Sygnał: konsumują, ale nie odpowiadają
+- Kanał:
 
-Tarea:
-Crea 8 mensajes:
-1) “si has estado mirando en silencio…”
-2) pregunta simple de diagnóstico
-3) quick win guiado
-4) objeción “no soy constante”
-5) prueba (historia)
-6) 3 errores por los que no avanzan
-7) paso pequeño (audit/check)
-8) CTA final
-Incluye etiquetas por comportamiento.`,
+Zadanie:
+Stwórz 8 wiadomości:
+1) “jeśli obserwujesz w ciszy…”
+2) proste pytanie diagnostyczne
+3) quick win krok po kroku
+4) obiekcja “nie jestem konsekwentny/a”
+5) dowód (historia)
+6) 3 błędy, przez które nie idą do przodu
+7) mały krok (audit/check)
+8) finalne CTA
+Dodaj etykiety wg zachowania.`,
     thumbnail: "",
   },
   {
     id: "mnut-040",
-    title: "Kit de nurturing: 20 ‘micro CTAs’ y cuándo usarlos",
-    area: "Marketing & ventas",
+    title:
+      "Zestaw nurturingowy: 20 ‘micro-CTA’ i kiedy ich używać",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Lista completa de micro CTAs para aumentar replies, clicks y señales de intención.",
-    prompt: `Contexto:
-- Canal (email/whatsapp/dm):
+      "Komplet micro-CTA, które zwiększają reply, kliknięcia i sygnały intencji.",
+    prompt: `Kontekst:
+- Kanał (email/whatsapp/dm):
 - Oferta:
-- Etapas del funnel:
+- Etapy lejka:
 
-Tarea:
-1) Crea 20 micro-CTAs clasificados por etapa:
-   - frío (curiosidad)
-   - tibio (consideración)
-   - caliente (intención)
-2) Para cada micro-CTA:
-   - ejemplo textual listo para copiar
-   - qué etiqueta/segmento asignar si responden
-3) Define 6 reglas: qué micro-CTA usar según comportamiento del lead.`,
+Zadanie:
+1) Stwórz 20 micro-CTA pogrupowanych per etap:
+   - zimny (ciekawość)
+   - ciepły (rozważanie)
+   - gorący (intencja)
+2) Dla każdego micro-CTA:
+   - gotowy przykład tekstu do skopiowania
+   - jaka etykieta/segment, jeśli zareagują
+3) Zdefiniuj 6 reguł: jakie micro-CTA stosować wg zachowania leada.`,
     thumbnail: "",
   },
 
   {
     id: "mnut-041",
-    title: "Nurturing para upsell B2B — de ‘proyecto’ a ‘retainer’ (8 mensajes)",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla upsellu B2B — od ‘projektu’ do ‘retaineru’ (8 wiadomości)",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Secuencia post proyecto para convertir a retainer: logros, roadmap, riesgos de parar.",
-    prompt: `Rellena:
-- Servicio realizado:
-- Resultado/avances:
-- Qué queda pendiente:
-- Propuesta retainer:
-- Canal:
+      "Sekwencja po projekcie, która prowadzi do retaineru: osiągnięcia, roadmap i ryzyko przerwania.",
+    prompt: `Uzupełnij:
+- Zrealizowana usługa:
+- Rezultat/postęp:
+- Co zostało do zrobienia:
+- Propozycja retaineru:
+- Kanał:
 
-Tarea:
-Crea 8 mensajes:
-1) Recap de lo logrado
-2) “lo que viene” (roadmap)
-3) Riesgo de detenerse (sin miedo, con lógica)
-4) Nuevas oportunidades detectadas
-5) ROI de continuidad
-6) Pautas de trabajo (cadencia)
-7) Propuesta clara (CTA)
-8) Breakup elegante`,
+Zadanie:
+Stwórz 8 wiadomości:
+1) Podsumowanie tego, co dowieźliśmy
+2) “Co dalej” (roadmap)
+3) Ryzyko zatrzymania (bez straszenia, logicznie)
+4) Nowe możliwości, które wykryliśmy
+5) ROI ciągłości
+6) Zasady współpracy (kadencja)
+7) Jasna propozycja (CTA)
+8) Elegancki breakup`,
     thumbnail: "",
   },
   {
     id: "mnut-042",
-    title: "Nurturing por segmentos (3 secuencias) — mismo producto, 3 perfiles distintos",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing segmentami (3 sekwencje) — ten sam produkt, 3 różne profile",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Crea 3 mini-secuencias (5 mensajes cada una) para segmentos distintos del ICP.",
-    prompt: `Rellena:
-- Producto:
-- Segmento A:
-- Segmento B:
-- Segmento C:
-- Diferencias (dolor, lenguaje, prioridad):
-- Canal:
+      "3 mini-sekwencje (po 5 wiadomości) dla różnych segmentów ICP.",
+    prompt: `Uzupełnij:
+- Produkt:
+- Segment A:
+- Segment B:
+- Segment C:
+- Różnice (ból, język, priorytet):
+- Kanał:
 
-Tarea:
-1) Para cada segmento, crea una secuencia de 5 mensajes:
-   - educación
-   - diagnóstico
-   - caso
-   - objeción
+Zadanie:
+1) Dla każdego segmentu stwórz sekwencję 5 wiadomości:
+   - edukacja
+   - diagnoza
+   - case
+   - obiekcja
    - CTA
-2) Asegura que:
-   - el vocabulario cambia
-   - la prueba cambia
-   - el CTA se ajusta (demo/call/checkout)
-3) Agrega reglas para detectar a qué segmento pertenece el lead.`,
+2) Upewnij się, że:
+   - zmienia się słownictwo
+   - zmienia się dowód
+   - dopasowuje się CTA (demo/call/checkout)
+3) Dodaj reguły wykrywania, do którego segmentu należy lead.`,
     thumbnail: "",
   },
   {
     id: "mnut-043",
-    title: "Nurturing para ofertas con lista de espera — mantener interés hasta abrir carrito",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla ofert z listą oczekujących — utrzymaj zainteresowanie do otwarcia sprzedaży",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Plan para waitlist: expectativa, valor, prueba, sneak peeks, y transición a apertura.",
-    prompt: `Rellena:
+      "Plan dla waitlisty: oczekiwanie, wartość, dowód, sneak peeks i przejście do otwarcia.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Fecha apertura:
-- Bonus/beneficio por esperar:
-- Canal:
+- Data otwarcia:
+- Bonus/korzyść za czekanie:
+- Kanał:
 
-Tarea:
-Crea 12 mensajes para la lista de espera:
-- 4 educación (provee valor real)
-- 3 sneak peeks (lo que incluye)
-- 2 prueba social
-- 2 objeciones
-- 1 aviso de apertura (CTA)
-Incluye “calendar” por semanas y reglas de frecuencia.`,
+Zadanie:
+Stwórz 12 wiadomości na listę oczekujących:
+- 4 edukacyjne (realna wartość)
+- 3 sneak peeks (co jest w środku)
+- 2 social proof
+- 2 obiekcje
+- 1 powiadomienie o otwarciu (CTA)
+Dodaj “kalendarz” tygodniowy i reguły częstotliwości.`,
     thumbnail: "",
   },
   {
     id: "mnut-044",
-    title: "Nurturing ‘lo que nadie te dice’ — 10 piezas anti-cliché (autoridad y verdad)",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing ‘czego nikt Ci nie powie’ — 10 anty-kliszowych materiałów (autorytet i prawda)",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Mensajes de autoridad basados en verdades incómodas (sin ser arrogante).",
-    prompt: `Rellena:
-- Nicho:
+      "Wiadomości autorytetu oparte na niewygodnych prawdach (bez arogancji).",
+    prompt: `Uzupełnij:
+- Nisza:
 - Oferta:
-- Mentiras/clichés comunes del mercado:
-- Tono:
+- Kłamstwa/klisze rynku:
+- Ton:
 
-Tarea:
-Crea 10 mensajes:
-- Hook: “lo que nadie te dice…”
-- Explicación con lógica + ejemplo
-- Qué hacer distinto (paso 1–2)
+Zadanie:
+Stwórz 10 wiadomości:
+- Hook: “czego nikt Ci nie powie…”
+- Wyjaśnienie z logiką + przykład
+- Co zrobić inaczej (krok 1–2)
 - Micro-CTA
-Incluye 5 comentarios/respuestas listos para haters/escépticos.`,
+Dodaj 5 komentarzy/odpowiedzi gotowych na hejterów/sceptyków.`,
     thumbnail: "",
   },
   {
     id: "mnut-045",
-    title: "Nurturing con ‘mini auditoría por mensaje’ — 6 prompts para analizar el caso del lead",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing z ‘mini-audytem w wiadomości’ — 6 promptów do analizy sytuacji leada",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Mensajes que piden datos mínimos y devuelven mini diagnóstico para generar reciprocidad.",
-    prompt: `Rellena:
-- Servicio:
-- Datos mínimos que necesitas (3–5):
-- Canal:
+      "Wiadomości, które proszą o minimum danych i odsyłają mini-diagnozę (wzajemność).",
+    prompt: `Uzupełnij:
+- Usługa:
+- Minimalne dane, których potrzebujesz (3–5):
+- Kanał:
 
-Tarea:
-Crea 6 mensajes tipo:
-1) Pide 3 datos (muy simple)
-2) Devuelve mini diagnóstico (estructura fija)
-3) Recomienda 1 acción (quick win)
-4) Pregunta de calificación
-5) Ofrece audit completo (CTA)
-6) Seguimiento suave
-Incluye versión WhatsApp y versión Email.`,
+Zadanie:
+Stwórz 6 wiadomości typu:
+1) Prośba o 3 dane (bardzo prosto)
+2) Mini-diagnoza (stała struktura)
+3) Rekomendacja 1 akcji (quick win)
+4) Pytanie kwalifikacyjne
+5) Propozycja pełnego audytu (CTA)
+6) Miękki follow-up
+Dodaj wersję WhatsApp i wersję Email.`,
     thumbnail: "",
   },
 
   {
     id: "mnut-046",
-    title: "Nurturing para leads que ya compraron otra cosa — cross-sell por resultados, no por catálogo",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing dla klientów, którzy kupili coś innego — cross-sell przez rezultaty, nie katalog",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Secuencia para ofrecer un producto complementario basado en el progreso del cliente.",
-    prompt: `Rellena:
-- Producto comprado:
-- Progreso esperado:
-- Complemento ideal:
-- Señales de readiness:
-- Canal:
+      "Sekwencja oferująca komplementarny produkt na bazie postępu klienta.",
+    prompt: `Uzupełnij:
+- Kupiony produkt:
+- Oczekiwany postęp:
+- Idealny dodatek:
+- Sygnały gotowości (readiness):
+- Kanał:
 
-Tarea:
-Crea 7 mensajes:
-- 3 de progreso (celebrar y guiar)
-- 2 de bloqueos típicos + solución
-- 1 de recomendación de complemento (CTA suave)
-- 1 de cierre con “si te sirve, te ayudo con X”
-Incluye segmentación por comportamiento.`,
+Zadanie:
+Stwórz 7 wiadomości:
+- 3 o postępie (świętowanie + prowadzenie)
+- 2 o typowych blokadach + rozwiązanie
+- 1 rekomendacja dodatku (miękkie CTA)
+- 1 domknięcie: “jeśli pomoże, wspieram Cię w X”
+Dodaj segmentację wg zachowania.`,
     thumbnail: "",
   },
   {
     id: "mnut-047",
-    title: "Nurturing de ‘prueba de competencia’ — 5 breakdowns de casos (tipo ‘te muestro cómo pienso’)",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing ‘dowód kompetencji’ — 5 analiz case’ów (w stylu ‘pokażę Ci jak myślę’)",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Mensajes donde analizas un caso (anónimo o hipotético) para demostrar criterio.",
-    prompt: `Rellena:
+      "Wiadomości, w których analizujesz case (anonimowy/hipotetyczny), by pokazać kryterium.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Tipo de casos comunes:
+- Typowe rodzaje case’ów:
 - KPI:
-- Canal:
+- Kanał:
 
-Tarea:
-Crea 5 breakdowns (mensajes largos) con:
-- Contexto del caso
-- Diagnóstico (3 hallazgos)
-- Prioridades (top 3)
-- Qué haría en 7 días
-- Qué mediría
-- CTA: “si quieres, reviso el tuyo”
-Incluye 2 CTAs: DM y call.`,
+Zadanie:
+Stwórz 5 analiz (dłuższe wiadomości) z:
+- Kontekstem case’u
+- Diagnozą (3 wnioski)
+- Priorytetami (top 3)
+- Co zrobił(a)bym w 7 dni
+- Co bym mierzył(a)
+- CTA: “jeśli chcesz, spojrzę na Twój”
+Dodaj 2 CTA: DM i call.`,
     thumbnail: "",
   },
   {
     id: "mnut-048",
-    title: "Nurturing con ‘mini retos’ — 4 retos semanales para activar leads",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing z ‘mini-wyzwaniami’ — 4 tygodniowe wyzwania aktywizujące leady",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Reto de 4 semanas (1 reto/semana) con instrucciones y seguimiento por mensajes.",
-    prompt: `Rellena:
-- Tema del reto:
+      "Wyzwanie 4-tygodniowe (1 wyzwanie/tydzień) z instrukcjami i follow-upami w wiadomościach.",
+    prompt: `Uzupełnij:
+- Temat wyzwania:
 - Oferta:
-- Canal:
+- Kanał:
 
-Tarea:
-Crea un plan de 4 semanas:
-- Semana 1–4: reto (tarea concreta), ejemplo, checklist
-- Mensaje de inicio + 2 seguimientos por semana
-- Mensaje de cierre semanal con reflexión y CTA suave
-Incluye cómo premiar (sin regalo obligatorio) y cómo segmentar por participación.`,
+Zadanie:
+Stwórz plan na 4 tygodnie:
+- Tydzień 1–4: wyzwanie (konkretne zadanie), przykład, checklista
+- Wiadomość startowa + 2 follow-upy w tygodniu
+- Tygodniowa wiadomość zamykająca z refleksją i miękkim CTA
+Dodaj: jak nagradzać (bez obowiązkowych prezentów) i jak segmentować wg udziału.`,
     thumbnail: "",
   },
   {
     id: "mnut-049",
-    title: "Nurturing ‘cierre ético’ — 6 mensajes finales para convertir sin presionar",
-    area: "Marketing & ventas",
+    title:
+      "Nurturing ‘etyczne domknięcie’ — 6 finalnych wiadomości, by konwertować bez nacisku",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Secuencia final antes de cerrar la venta: claridad, para quién es/no, y urgencia real.",
-    prompt: `Rellena:
+      "Finalna sekwencja przed sprzedażą: jasność, dla kogo jest/nie jest, i prawdziwa pilność.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Fecha límite real (si existe):
+- Prawdziwy deadline (jeśli jest):
 - Bonus:
-- Garantía (si existe):
-- Canal:
+- Gwarancja (jeśli jest):
+- Kanał:
 
-Tarea:
-Crea 6 mensajes:
-1) Recordatorio de valor (recap)
-2) “para quién sí / no”
-3) Caso/ejemplo (proceso y aprendizaje)
-4) Objeción principal (respuesta)
-5) Checklist de decisión (auto-calificación)
-6) Última llamada (urgencia ética) + breakup opcional
-Incluye 2 versiones: cálida y directa.`,
+Zadanie:
+Stwórz 6 wiadomości:
+1) Przypomnienie wartości (recap)
+2) “dla kogo tak / dla kogo nie”
+3) Case/przykład (proces i lekcja)
+4) Główna obiekcja (odpowiedź)
+5) Checklista decyzji (autokwalifikacja)
+6) Ostatnie wezwanie (etyczna pilność) + opcjonalny breakup
+Dodaj 2 wersje: ciepłą i bezpośrednią.`,
     thumbnail: "",
   },
   {
     id: "mnut-050",
-    title: "Sistema completo de nurturing (Playbook) — reglas, segmentos, contenido, triggers, métricas",
-    area: "Marketing & ventas",
+    title:
+      "Kompletny system nurturingu (Playbook) — reguły, segmenty, treści, triggery, metryki",
+    area: "Marketing i sprzedaż",
     category: "Nurturing",
     summary:
-      "Playbook integral para implementar nurturing: arquitectura, automatizaciones, calendario y KPIs.",
-    prompt: `Rellena:
+      "Kompletny playbook wdrożenia nurturingu: architektura, automatyzacje, kalendarz i KPI.",
+    prompt: `Uzupełnij:
 - Oferta:
 - ICP:
-- Canales (email/whatsapp/dm):
-- Activos (lead magnets, casos, webinars):
-- Restricciones (frecuencia, compliance):
-- Métrica norte (NSM): leads, ventas, calls, etc.
+- Kanały (email/whatsapp/dm):
+- Aktywa (lead magnets, case’y, webinary):
+- Ograniczenia (częstotliwość, compliance):
+- Metryka północna (NSM): leady, sprzedaż, rozmowy itd.
 
-Tarea:
-Construye un playbook listo para implementar que contenga:
-1) Arquitectura de segmentos (3–5 segmentos) con criterios concretos.
-2) Mapa de secuencias (qué secuencia ve cada segmento).
-3) Triggers (mínimo 10) y qué automatización dispara cada trigger.
-4) Librería de contenidos (mínimo 25 ideas) clasificadas por:
-   - educación
-   - prueba
-   - objeciones
+Zadanie:
+Zbuduj playbook gotowy do wdrożenia, który zawiera:
+1) Architekturę segmentów (3–5 segmentów) z konkretnymi kryteriami.
+2) Mapę sekwencji (jaką sekwencję widzi każdy segment).
+3) Triggery (min. 10) i jaką automatyzację uruchamia każdy trigger.
+4) Bibliotekę treści (min. 25 pomysłów) skategoryzowanych na:
+   - edukacja
+   - dowód
+   - obiekcje
    - oferta
-5) Reglas de frecuencia y caps anti-fatiga.
-6) Scoreboard (12 métricas max) con umbrales.
-7) Rituales operativos: qué revisar diario/semanal/mensual.
-8) Checklist de implementación (herramientas, etiquetas, UTMs, tracking).
-Formato: secciones con headings + listas accionables.`,
+5) Reguły częstotliwości i caps anti-fatigue.
+6) Scoreboard (max 12 metryk) z progami.
+7) Rytuały operacyjne: co sprawdzać codziennie/tygodniowo/miesięcznie.
+8) Checklistę wdrożenia (narzędzia, tagi, UTM-y, tracking).
+Format: sekcje z nagłówkami + listy akcyjne.`,
     thumbnail: "",
   },
 ];

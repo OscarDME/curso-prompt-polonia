@@ -3,1169 +3,1167 @@
 export const textPromptsEduResumenesAcademicos = [
   {
     id: "edu-res-001",
-    title: "Resumen académico IMRaD (paper completo) + aportes, límites y réplica",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie akademickie IMRaD (pełny artykuł) + wkład, ograniczenia i replikacja",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Resume un paper en formato IMRaD con aportes, limitaciones, y posibles réplicas.",
-    prompt: `Pega aquí el paper (o un extracto largo) y completa:
-- Disciplina: [ ]
-- Tipo de estudio: [experimental / observacional / teórico / revisión]
-- Audiencia: [estudiantes / investigadores / directivos]
-- Longitud deseada: [300 / 600 / 900 palabras]
-- Enfoque: [más técnico / más conceptual]
+      "Streszcza artykuł w formacie IMRaD wraz z wkładem, ograniczeniami oraz możliwymi replikacjami.",
+    prompt: `Wklej tutaj artykuł (lub długi fragment) i uzupełnij:
+- Dyscyplina: [ ]
+- Typ badania: [eksperymentalne / obserwacyjne / teoretyczne / przegląd]
+- Odbiorcy: [studenci / badacze / kadra zarządzająca]
+- Docelowa długość: [300 / 600 / 900 słów]
+- Akcent: [bardziej technicznie / bardziej koncepcyjnie]
 
-Tarea:
-1) Resume el trabajo en formato IMRaD:
-- Introducción: problema, brecha, objetivo, hipótesis.
-- Métodos: diseño, muestra/datos, variables, procedimiento, análisis.
-- Resultados: hallazgos clave (con números si existen), figuras/tablas importantes.
-- Discusión: interpretación, implicaciones, comparación con literatura, límites.
+Zadanie:
+1) Streść pracę w formacie IMRaD:
+- Wprowadzenie: problem, luka, cel, hipoteza.
+- Metody: projekt, próba/dane, zmienne, procedura, analiza.
+- Wyniki: kluczowe rezultaty (z liczbami, jeśli są), najważniejsze wykresy/tabele.
+- Dyskusja: interpretacja, implikacje, porównanie z literaturą, ograniczenia.
 
-2) Extrae:
-- 5 aportes principales (con precisión).
-- 5 límites/amenazas a validez (interna/externa/constructo).
-- 5 conceptos clave con definiciones operativas.
-- 5 citas “parafraseables” (sin copiar literal; idea + sección donde aparece).
+2) Wyodrębnij:
+- 5 głównych wkładów (precyzyjnie).
+- 5 ograniczeń/zagrożeń dla trafności (wewnętrznej/zewnętrznej/konstruktu).
+- 5 kluczowych pojęć z definicjami operacyjnymi.
+- 5 “cytatów do parafrazy” (bez kopiowania dosłownie; idea + sekcja, gdzie się pojawia).
 
-3) Cierre:
-- 3 preguntas abiertas de investigación.
-- 2 ideas de réplica (qué cambiarías y por qué).
-- 1 versión ultra-corta (tweet académico de 280 caracteres).`,
+3) Zakończenie:
+- 3 otwarte pytania badawcze.
+- 2 pomysły replikacji (co byś zmienił/a i dlaczego).
+- 1 ultra-krótka wersja (akademicki tweet do 280 znaków).`,
     thumbnail: "",
   },
   {
     id: "edu-res-002",
-    title: "Resumen crítico con matriz: qué dice, qué prueba, qué asume, qué falta",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie krytyczne z macierzą: co twierdzi, co dowodzi, co zakłada, czego brakuje",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Resumen crítico estructurado para lectura académica exigente.",
-    prompt: `Texto a resumir: [PEGA AQUÍ]
-Disciplina: [ ]
-Nivel de rigor: [alto]
+      "Ustrukturyzowane streszczenie krytyczne do wymagającej lektury akademickiej.",
+    prompt: `Tekst do streszczenia: [WKLEJ TUTAJ]
+Dyscyplina: [ ]
+Poziom rygoru: [wysoki]
 
-Devuelve un resumen en 4 bloques (con viñetas y frases cortas):
-A) Qué afirma (tesis) — 5 bullets
-B) Qué evidencia aporta — 5 bullets (datos, método, ejemplos)
-C) Qué asume — 6 bullets (supuestos explícitos e implícitos)
-D) Qué falta / riesgos — 6 bullets (sesgos, límites, datos ausentes)
+Zwróć streszczenie w 4 blokach (w punktach i krótkich zdaniach):
+A) Co stwierdza (teza) — 5 punktów
+B) Jakie daje dowody — 5 punktów (dane, metoda, przykłady)
+C) Co zakłada — 6 punktów (założenia jawne i ukryte)
+D) Czego brakuje / ryzyka — 6 punktów (biasy, ograniczenia, brakujące dane)
 
-Luego:
-- 3 contraargumentos fuertes (steelman) contra la tesis
-- 3 mejoras metodológicas concretas
-- 1 síntesis equilibrada (150–220 palabras) “lo bueno + lo débil”.
-`,
+Następnie:
+- 3 mocne kontrargumenty (steelman) przeciw tezie
+- 3 konkretne usprawnienia metodologiczne
+- 1 wyważona synteza (150–220 słów) “mocne strony + słabe strony”.`,
     thumbnail: "",
   },
   {
     id: "edu-res-003",
-    title: "Resumen para revisión bibliográfica (estado del arte) + mapa de temas",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie do przeglądu literatury (stan badań) + mapa tematów",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Convierte un paper o capítulo en una entrada lista para tu revisión de literatura.",
-    prompt: `Pega el texto: [PEGA AQUÍ]
-Tema de tu revisión: [ ]
-Estilo de citación (solo referencia textual): [APA/IEEE/Chicago]
+      "Zamienia artykuł lub rozdział w wpis gotowy do Twojej bibliografii/przeglądu literatury.",
+    prompt: `Wklej tekst: [WKLEJ TUTAJ]
+Temat Twojego przeglądu: [ ]
+Styl cytowania (tylko odwołanie tekstowe): [APA/IEEE/Chicago]
 
-Quiero:
-1) Resumen orientado a literatura (250–450 palabras):
-- problema, enfoque, hallazgos, aporte al campo.
-2) Cómo encaja en el estado del arte:
-- ¿qué línea/escuela representa?
-- ¿qué debate toca?
-- ¿qué contradice o confirma?
-3) Mapa temático:
-- 6 etiquetas (keywords) + por qué
-- 3 artículos “vecinos” hipotéticos que debería buscar (títulos sugeridos + qué aportarían)
-4) Nota de uso:
-- En qué párrafo de mi revisión convendría citarlo (introducción / marco / discusión) y con qué propósito.`,
+Chcę:
+1) Streszczenie ukierunkowane na literaturę (250–450 słów):
+- problem, podejście, wyniki, wkład w dziedzinę.
+2) Jak wpisuje się w stan badań:
+- jaką linię/szkołę reprezentuje?
+- jaką debatę porusza?
+- co podważa albo potwierdza?
+3) Mapa tematyczna:
+- 6 etykiet (słów kluczowych) + dlaczego
+- 3 hipotetyczne “sąsiednie” artykuły, które warto znaleźć (proponowane tytuły + co by wniosły)
+4) Nota użytkowa:
+- w którym akapicie mojego przeglądu najlepiej go zacytować (wstęp / rama teoretyczna / dyskusja) i w jakim celu.`,
     thumbnail: "",
   },
   {
     id: "edu-res-004",
-    title: "Resumen con extracción de variables y definiciones (operacionalización)",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie z ekstrakcją zmiennych i definicji (operacjonalizacja)",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Extrae variables, mediciones y definiciones: ideal para replicar o diseñar estudio.",
-    prompt: `Texto / paper: [PEGA AQUÍ]
-Objetivo: [replicar / diseñar estudio similar / entender variables]
+      "Wyodrębnia zmienne, pomiary i definicje: idealne do replikacji lub projektowania badania.",
+    prompt: `Tekst / artykuł: [WKLEJ TUTAJ]
+Cel: [zreplikować / zaprojektować podobne badanie / zrozumieć zmienne]
 
-Devuelve:
-1) Resumen general (200–350 palabras).
-2) Tabla en texto (con columnas):
-- Variable / Constructo
-- Definición (cómo la entienden)
-- Operacionalización (cómo la miden)
-- Tipo (IV/DV/Control/Moderadora/Mediadora)
-- Fuente/Sección (dónde aparece)
-3) Amenazas a validez:
-- 2 internas
-- 2 externas
-- 2 de constructo
-4) Recomendaciones:
-- 3 mejoras para medir mejor esas variables.`,
+Zwróć:
+1) Ogólne streszczenie (200–350 słów).
+2) Tabela w tekście (kolumny):
+- Zmienna / konstrukt
+- Definicja (jak to rozumieją)
+- Operacjonalizacja (jak to mierzą)
+- Typ (IV/DV/Kontrolna/Moderator/Mediator)
+- Źródło/Sekcja (gdzie się pojawia)
+3) Zagrożenia dla trafności:
+- 2 wewnętrzne
+- 2 zewnętrzne
+- 2 konstruktowe
+4) Rekomendacje:
+- 3 usprawnienia, by lepiej mierzyć te zmienne.`,
     thumbnail: "",
   },
   {
     id: "edu-res-005",
-    title: "Resumen con ‘hilo lógico’: premisas → método → inferencia → conclusión",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie z ‘nicią logiczną’: przesłanki → metoda → wnioskowanie → konkluzja",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Reconstruye el argumento del paper como un hilo lógico verificable.",
-    prompt: `Pega el texto: [PEGA AQUÍ]
-Nivel: [avanzado]
+      "Odtwarza argumentację artykułu jako weryfikowalny łańcuch logiczny.",
+    prompt: `Wklej tekst: [WKLEJ TUTAJ]
+Poziom: [zaawansowany]
 
-Quiero que reconstruyas el hilo lógico:
-1) Premisas (5–10) — qué debe ser cierto para que el argumento funcione.
-2) Método/operación (cómo pasan de premisas a evidencia).
-3) Inferencias clave (3–6): dónde “saltan” de datos a conclusión.
-4) Conclusiones (3): principal, secundaria, y una implícita.
+Chcę, abyś odtworzył/a nić logiczną:
+1) Przesłanki (5–10) — co musi być prawdą, żeby argument działał.
+2) Metoda/operacja (jak przechodzą od przesłanek do dowodów).
+3) Kluczowe inferencje (3–6): gdzie “przeskakują” od danych do wniosku.
+4) Wnioski (3): główny, poboczny i jeden implicytny.
 
-Luego:
-- Señala 3 puntos donde el argumento depende de un supuesto frágil.
-- Propón 2 pruebas adicionales que fortalecerían el hilo lógico.
-- Haz un resumen final de 180–250 palabras que conserve ese hilo.`,
+Następnie:
+- Wskaż 3 miejsca, gdzie argument zależy od kruchego założenia.
+- Zaproponuj 2 dodatkowe testy, które wzmocniłyby łańcuch.
+- Zrób streszczenie końcowe 180–250 słów, zachowujące tę nić.`,
     thumbnail: "",
   },
   {
     id: "edu-res-006",
-    title: "Resumen comparativo: Paper A vs Paper B (similitudes, diferencias, quién convence)",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie porównawcze: Artykuł A vs Artykuł B (podobieństwa, różnice, kto przekonuje)",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Comparación crítica entre dos papers con un veredicto razonado.",
-    prompt: `Pega Paper A: [ ]
-Pega Paper B: [ ]
-Tema general: [ ]
+      "Krytyczne porównanie dwóch artykułów z uzasadnionym werdyktem.",
+    prompt: `Wklej Artykuł A: [ ]
+Wklej Artykuł B: [ ]
+Temat ogólny: [ ]
 
-Devuelve:
-1) Resumen de A (150–250 palabras) y de B (150–250 palabras).
-2) Matriz comparativa:
-- Pregunta de investigación
-- Método/datos
-- Principales hallazgos
-- Fortalezas
-- Debilidades
-- Generalización
-3) Conflictos:
-- ¿Dónde se contradicen y por qué? (3 puntos)
-4) Veredicto:
-- ¿Cuál es más convincente bajo qué condiciones?
-- ¿Qué estudio haría para resolver la disputa?
+Zwróć:
+1) Streszczenie A (150–250 słów) i B (150–250 słów).
+2) Macierz porównawcza:
+- Pytanie badawcze
+- Metoda/dane
+- Najważniejsze wyniki
+- Mocne strony
+- Słabe strony
+- Uogólnianie (generalizacja)
+3) Konflikty:
+- Gdzie się sobie przeczą i dlaczego? (3 punkty)
+4) Werdykt:
+- Który jest bardziej przekonujący i pod jakimi warunkami?
+- Jakie badanie zrobił(a)byś, aby rozstrzygnąć spór?
 
-Cierra con:
-- 8 bullets para citar en una revisión de literatura.`,
+Zakończ:
+- 8 punktami do cytowania w przeglądzie literatury.`,
     thumbnail: "",
   },
   {
     id: "edu-res-007",
-    title: "Resumen ‘para exposición’: guion de 5 minutos + diapositivas sugeridas",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie ‘na prezentację’: scenariusz 5 minut + sugerowane slajdy",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Transforma un paper en un guion listo para presentar en clase o seminario.",
-    prompt: `Texto/paper: [PEGA AQUÍ]
-Duración de exposición: 5 minutos
-Audiencia: [clase / seminario / comité]
+      "Zamienia artykuł w gotowy do wygłoszenia scenariusz na zajęcia/seminarium.",
+    prompt: `Tekst/artykuł: [WKLEJ TUTAJ]
+Czas prezentacji: 5 minut
+Odbiorcy: [zajęcia / seminarium / komisja]
 
-Entrega:
-1) Guion narrado (450–650 palabras):
-- hook, problema, método, resultados, implicaciones, cierre.
-2) Estructura de slides (8–10):
-- título de slide + 3 bullets
-- qué gráfico/tabla pondrías y por qué
-3) Preguntas para el público (3) que abren debate.
-4) “Preguntas difíciles” que podrían hacerte (5) + respuestas breves.`,
+Dostarcz:
+1) Scenariusz narracyjny (450–650 słów):
+- hook, problem, metoda, wyniki, implikacje, zakończenie.
+2) Struktura slajdów (8–10):
+- tytuł slajdu + 3 punkty
+- jaki wykres/tabelę byś dodał/a i dlaczego
+3) 3 pytania do publiczności otwierające dyskusję.
+4) 5 “trudnych pytań”, które mogą paść + krótkie odpowiedzi.`,
     thumbnail: "",
   },
   {
     id: "edu-res-008",
-    title: "Resumen ‘para estudiar’: notas Cornell + glosario + autoexamen",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie ‘do nauki’: notatki Cornell + glosariusz + autotest",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Convierte un texto en notas de estudio y añade autoevaluación.",
-    prompt: `Texto: [PEGA AQUÍ]
-Nivel: [universidad/posgrado]
+      "Zamienia tekst w notatki do nauki i dodaje autoocenę.",
+    prompt: `Tekst: [WKLEJ TUTAJ]
+Poziom: [studia/magisterskie]
 
-Crea:
-1) Notas Cornell:
-- Columna de claves/preguntas (10–15)
-- Columna de notas (respuestas desarrolladas)
-- Resumen al final (120–180 palabras)
-2) Glosario:
-- 12–20 términos clave con definición + ejemplo
-3) Autoexamen:
-- 10 preguntas (6 MCQ + 4 abiertas)
-- respuestas correctas + explicación breve`,
+Stwórz:
+1) Notatki Cornell:
+- Kolumna haseł/pytań (10–15)
+- Kolumna notatek (rozwinięte odpowiedzi)
+- Podsumowanie na końcu (120–180 słów)
+2) Glosariusz:
+- 12–20 kluczowych terminów z definicją + przykładem
+3) Autotest:
+- 10 pytań (6 MCQ + 4 otwarte)
+- poprawne odpowiedzi + krótkie wyjaśnienie`,
     thumbnail: "",
   },
   {
     id: "edu-res-009",
-    title: "Resumen de capítulo de libro: tesis, estructura, conceptos, citas útiles",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie rozdziału książki: teza, struktura, pojęcia, użyteczne cytaty",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Resume un capítulo largo manteniendo estructura y conceptos clave.",
-    prompt: `Capítulo: [PEGA AQUÍ]
-Objetivo: [estudiar / reseñar / preparar clase]
-Longitud deseada: [400–800 palabras]
+      "Streszcza długi rozdział, zachowując strukturę i kluczowe pojęcia.",
+    prompt: `Rozdział: [WKLEJ TUTAJ]
+Cel: [uczyć się / zrecenzować / przygotować zajęcia]
+Docelowa długość: [400–800 słów]
 
-Quiero:
-1) Tesis principal del capítulo (1–2 frases).
-2) Estructura por secciones:
-- Sección → idea principal → 2 subideas + ejemplo.
-3) 10 conceptos clave (definición + cómo se usan aquí).
-4) 6 ideas “citable” (paráfrasis) indicando qué sección las sustenta.
-5) 3 críticas (lo débil / lo discutible) con argumentos.
-6) 1 aplicación práctica (cómo lo usaría en un proyecto real).`,
+Chcę:
+1) Główna teza rozdziału (1–2 zdania).
+2) Struktura wg sekcji:
+- Sekcja → główna idea → 2 podidee + przykład.
+3) 10 kluczowych pojęć (definicja + jak są tu użyte).
+4) 6 idei “do cytowania” (parafraza) z informacją, która sekcja je wspiera.
+5) 3 krytyki (co słabe / dyskusyjne) z argumentami.
+6) 1 zastosowanie praktyczne (jak wykorzystać w realnym projekcie).`,
     thumbnail: "",
   },
   {
     id: "edu-res-010",
-    title: "Resumen sistemático de una revisión (review): preguntas, criterios, hallazgos, gaps",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Systematyczne streszczenie przeglądu (review): pytania, kryteria, wyniki, luki",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Extrae lo esencial de una revisión, con huecos y recomendaciones futuras.",
-    prompt: `Texto de revisión: [PEGA AQUÍ]
-Campo: [ ]
-Objetivo: [capturar el estado actual]
+      "Wydobywa sedno przeglądu wraz z lukami i rekomendacjami na przyszłość.",
+    prompt: `Tekst przeglądu: [WKLEJ TUTAJ]
+Dziedzina: [ ]
+Cel: [uchwycić aktualny stan]
 
-Devuelve:
-1) Pregunta(s) de la revisión y motivación (100–150 palabras).
-2) Criterios:
-- inclusión/exclusión (si aparecen; si no, infiere con cautela)
-- tipo de evidencia
-3) Hallazgos principales:
-- 6–10 bullets, agrupados por tema
-4) Consenso vs controversias:
-- 3 consensos
-- 3 controversias
-5) Gaps:
-- 6 brechas reales y específicas
-6) Agenda futura:
-- 5 líneas de investigación recomendadas con “por qué ahora”.`,
+Zwróć:
+1) Pytanie(a) przeglądu i motywację (100–150 słów).
+2) Kryteria:
+- włączenia/wyłączenia (jeśli są; jeśli nie, ostrożnie wywnioskuj)
+- typ dowodów
+3) Najważniejsze ustalenia:
+- 6–10 punktów, pogrupowanych tematycznie
+4) Konsensus vs kontrowersje:
+- 3 konsensusy
+- 3 kontrowersje
+5) Luki:
+- 6 realnych i konkretnych luk
+6) Agenda przyszła:
+- 5 rekomendowanych linii badań z uzasadnieniem “dlaczego teraz”.`,
     thumbnail: "",
   },
 
   {
     id: "edu-res-011",
-    title: "Resumen para ‘related work’: 1 párrafo perfecto + 6 citas en bullets",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie do ‘related work’: idealny akapit + 6 cytowalnych punktów",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Output listo para pegar en un apartado de trabajos relacionados.",
-    prompt: `Paper/texto: [PEGA AQUÍ]
-Tu tema: [ESCRIBE AQUÍ]
+      "Output gotowy do wklejenia do sekcji prac powiązanych.",
+    prompt: `Artykuł/tekst: [WKLEJ TUTAJ]
+Mój temat: [WPISZ TUTAJ]
 
-Genera:
-1) Un párrafo de “trabajos relacionados” (160–220 palabras) con:
-- contexto del campo
-- qué hace este trabajo
-- cómo se diferencia
-- limitación importante
-2) 6 bullets “citable” (paráfrasis), cada uno con:
-- idea
-- por qué importa
-- qué parte del texto la respalda (sección o frase aproximada)
+Wygeneruj:
+1) Akapit “prace powiązane” (160–220 słów) zawierający:
+- kontekst dziedziny
+- co robi ta praca
+- czym się różni
+- istotne ograniczenie
+2) 6 punktów “do cytowania” (parafraza), każdy z:
+- ideą
+- dlaczego to ważne
+- która część tekstu to wspiera (sekcja lub przybliżona fraza)
 
-Cierre:
-- 3 frases alternativas para variar estilo y no repetir ‘este trabajo…’.`,
+Zakończenie:
+- 3 alternatywne zdania, by zmieniać styl i nie powtarzać “ta praca…”.`,
     thumbnail: "",
   },
   {
     id: "edu-res-012",
-    title: "Resumen con ‘claim chart’: afirmación → evidencia → fuerza → riesgo",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie z ‘claim chart’: twierdzenie → dowód → siła → ryzyko",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Mapa de afirmaciones y evidencia para evaluar solidez rápidamente.",
-    prompt: `Texto: [PEGA AQUÍ]
+      "Mapa twierdzeń i dowodów do szybkiej oceny solidności.",
+    prompt: `Tekst: [WKLEJ TUTAJ]
 
-Construye un Claim Chart en formato tabla de texto con columnas:
-- Claim (afirmación)
-- Evidencia (qué presentan)
-- Tipo de evidencia (dato/argumento/teoría/experimento/modelo)
-- Fuerza (alta/media/baja) + por qué
-- Riesgo/amenaza (sesgo, confusor, generalización)
-- Qué faltaría para subir fuerza
+Zbuduj Claim Chart w formie tabeli tekstowej z kolumnami:
+- Claim (twierdzenie)
+- Dowód (co przedstawiają)
+- Typ dowodu (dane/argument/teoria/eksperyment/model)
+- Siła (wysoka/średnia/niska) + dlaczego
+- Ryzyko/zagrożenie (bias, konfuzor, generalizacja)
+- Co brakuje, by zwiększyć siłę
 
-Incluye mínimo 8 claims.
+Uwzględnij minimum 8 claimów.
 
-Luego:
-- Resume en 200–300 palabras “qué está bien sustentado” vs “qué es tentativo”.`,
+Następnie:
+- Streść w 200–300 słowach: “co jest dobrze ugruntowane” vs “co jest tentative/niepewne”.`,
     thumbnail: "",
   },
   {
     id: "edu-res-013",
-    title: "Resumen para tesis: extrae aportes, marco teórico, método replicable",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie do pracy dyplomowej: wkład, rama teoretyczna, replikowalna metoda",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Orientado a redactar tesis: qué te sirve del paper y cómo incorporarlo.",
-    prompt: `Texto: [PEGA AQUÍ]
-Tema de mi tesis: [ ]
-Capítulo donde lo usaré: [marco teórico / metodología / discusión]
+      "Nastawione na pisanie pracy: co z artykułu Ci się przyda i jak to włączyć.",
+    prompt: `Tekst: [WKLEJ TUTAJ]
+Temat mojej pracy: [ ]
+Rozdział, w którym użyję: [rama teoretyczna / metodologia / dyskusja]
 
-Devuelve:
-1) Resumen del paper (200–300 palabras).
-2) Qué partes puedo usar y cómo:
-- 3 ideas para marco teórico (con relación a mi tema)
-- 2 ideas de método/medición
-- 2 hallazgos para discusión
-3) Riesgos al citarlo (2–4): malinterpretaciones comunes o límites.
-4) 5 frases “listas para integrar” (paráfrasis académica), en tono formal.`,
+Zwróć:
+1) Streszczenie artykułu (200–300 słów).
+2) Co mogę użyć i jak:
+- 3 idee do ramy teoretycznej (w relacji do mojego tematu)
+- 2 idee metody/pomiaru
+- 2 wyniki do dyskusji
+3) Ryzyka cytowania (2–4): typowe błędne interpretacje lub ograniczenia.
+4) 5 zdań “gotowych do wklejenia” (akademicka parafraza), formalnym tonem.`,
     thumbnail: "",
   },
   {
     id: "edu-res-014",
-    title: "Resumen con ‘concept map’: conceptos → relaciones → ejemplo aplicado",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie z ‘mapą pojęć’: pojęcia → relacje → przykład zastosowania",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Representa el texto como red de conceptos y relaciones para aprender profundo.",
-    prompt: `Texto: [PEGA AQUÍ]
+      "Przedstawia tekst jako sieć pojęć i relacji dla głębokiego zrozumienia.",
+    prompt: `Tekst: [WKLEJ TUTAJ]
 
-Entrega:
-1) Lista de 12–18 conceptos clave
-2) Relaciones entre conceptos (mínimo 20) en formato:
-- Concepto A —(relación)→ Concepto B [explicación 1 línea]
-3) 3 “rutas” importantes (cadenas de 4–6 conceptos) que expliquen el núcleo del texto
-4) Un ejemplo aplicado (caso realista) que use al menos 6 conceptos
-5) Resumen final (180–240 palabras) basándote en el mapa (no solo narrativo).`,
+Dostarcz:
+1) Listę 12–18 kluczowych pojęć
+2) Relacje między pojęciami (min. 20) w formacie:
+- Pojęcie A —(relacja)→ Pojęcie B [wyjaśnienie w 1 linii]
+3) 3 ważne “trasy” (łańcuchy 4–6 pojęć) wyjaśniające rdzeń tekstu
+4) Przykład zastosowania (realistyczny case) używający co najmniej 6 pojęć
+5) Końcowe streszczenie (180–240 słów) oparte na mapie (nie tylko narracyjne).`,
     thumbnail: "",
   },
   {
     id: "edu-res-015",
-    title: "Resumen ‘para reviewer’: evaluación rápida + decisiones (aceptar/revisar/rechazar)",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie ‘dla recenzenta’: szybka ocena + decyzja (zaakceptować/poprawić/odrzucić)",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Simula reporte de revisión: fortalezas, debilidades y mejoras concretas.",
-    prompt: `Paper/texto: [PEGA AQUÍ]
-Rol: reviewer de conferencia/journal
-Criterios: [novedad, claridad, rigor, reproducibilidad, impacto]
+      "Symuluje raport recenzencki: mocne strony, słabości i konkretne poprawki.",
+    prompt: `Artykuł/tekst: [WKLEJ TUTAJ]
+Rola: recenzent konferencji/czasopisma
+Kryteria: [nowość, klarowność, rygor, odtwarzalność, wpływ]
 
-Devuelve:
-1) Resumen neutral (150–220 palabras).
-2) Fortalezas (5 bullets).
-3) Debilidades (6 bullets) — técnicas y de claridad.
-4) Preguntas para autores (6) — concretas, no genéricas.
-5) Recomendaciones (5) — cambios accionables.
-6) Veredicto:
-- Aceptar / Revisar / Rechazar
-- 1 párrafo justificando, con foco en evidencia y estándares.
-`,
+Zwróć:
+1) Neutralne streszczenie (150–220 słów).
+2) Mocne strony (5 punktów).
+3) Słabe strony (6 punktów) — techniczne i związane z jasnością.
+4) Pytania do autorów (6) — konkretne, nie ogólnikowe.
+5) Rekomendacje (5) — zmiany możliwe do wdrożenia.
+6) Werdykt:
+- Zaakceptować / Do poprawy / Odrzucić
+- 1 akapit uzasadnienia, oparty na dowodach i standardach.`,
     thumbnail: "",
   },
 
   {
     id: "edu-res-016",
-    title: "Resumen de artículo teórico: conceptos, argumentos, contraejemplos, coherencia",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie artykułu teoretycznego: pojęcia, argumenty, kontrprzykłady, spójność",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Para textos sin datos: reconstruye argumento y evalúa consistencia.",
-    prompt: `Texto teórico: [PEGA AQUÍ]
+      "Dla tekstów bez danych: odtwarza argument i ocenia spójność.",
+    prompt: `Tekst teoretyczny: [WKLEJ TUTAJ]
 
-Quiero:
-1) Tesis y objetivo (1–2 frases).
-2) Argumento principal:
-- 6–10 pasos (premisa → conclusión)
-3) Conceptos clave:
-- 10 conceptos con definición según el autor + tu paráfrasis.
-4) Posibles contraejemplos (3):
-- dónde podría fallar la tesis
-5) Coherencia interna:
-- 3 puntos fuertes
-- 3 puntos débiles (saltos lógicos, definiciones circulares, ambigüedad)
-6) Resumen final (220–320 palabras).`,
+Chcę:
+1) Tezę i cel (1–2 zdania).
+2) Argument główny:
+- 6–10 kroków (przesłanka → wniosek)
+3) Kluczowe pojęcia:
+- 10 pojęć z definicją wg autora + Twoją parafrazą.
+4) Możliwe kontrprzykłady (3):
+- gdzie teza mogłaby się wyłożyć
+5) Spójność wewnętrzna:
+- 3 mocne punkty
+- 3 słabe punkty (przeskoki logiczne, definicje kołowe, niejednoznaczność)
+6) Streszczenie końcowe (220–320 słów).`,
     thumbnail: "",
   },
   {
     id: "edu-res-017",
-    title: "Resumen de metodología: dataset, procedimiento, pipeline, reproducibilidad",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie metodologii: zbiór danych, procedura, pipeline, odtwarzalność",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Extrae el pipeline metodológico y evalúa reproducibilidad, ideal para replicación.",
-    prompt: `Sección de metodología: [PEGA AQUÍ]
-Campo: [ ]
-Objetivo: [replicar / entender pipeline]
+      "Wydobywa pipeline metodologiczny i ocenia odtwarzalność; idealne pod replikację.",
+    prompt: `Sekcja metodologii: [WKLEJ TUTAJ]
+Dziedzina: [ ]
+Cel: [zreplikować / zrozumieć pipeline]
 
-Devuelve:
-1) Pipeline paso a paso (8–14 pasos).
-2) Detalles reproducibles:
-- datos requeridos
-- preprocesamiento
-- parámetros relevantes
-- métricas y evaluación
-- herramientas/entorno (si se menciona)
-3) Puntos ambiguos (lista): qué no está claro.
-4) Qué pedirías a los autores para replicar (10 preguntas).
-5) Resumen de 150–220 palabras de la metodología.`,
+Zwróć:
+1) Pipeline krok po kroku (8–14 kroków).
+2) Szczegóły odtwarzalne:
+- wymagane dane
+- preprocessing
+- istotne parametry
+- metryki i ewaluacja
+- narzędzia/środowisko (jeśli wspomniane)
+3) Niejasności (lista): co jest nieprecyzyjne.
+4) O co poprosić autorów, by zreplikować (10 pytań).
+5) Streszczenie metodologii (150–220 słów).`,
     thumbnail: "",
   },
   {
     id: "edu-res-018",
-    title: "Resumen de resultados: hallazgos, magnitud, incertidumbre, límites de interpretación",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie wyników: ustalenia, skala efektu, niepewność, granice interpretacji",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Convierte resultados en conclusiones correctas, sin sobreafirmar.",
-    prompt: `Sección de resultados (o tabla/figuras): [PEGA AQUÍ]
+      "Zamienia wyniki w poprawne wnioski bez nadinterpretacji.",
+    prompt: `Sekcja wyników (lub tabele/wykresy): [WKLEJ TUTAJ]
 
-Entrega:
-1) 6–10 hallazgos en bullets (incluye números y magnitud si existen).
-2) Incertidumbre:
-- intervalos/p-values/errores (si aparecen)
-- si no aparecen: qué falta para confiar más
-3) Interpretación responsable:
-- qué conclusiones SÍ se sostienen (3–5)
-- qué conclusiones NO se sostienen (3–5) y por qué
-4) Implicaciones prácticas (3) con cautela.
-5) Resumen final (180–260 palabras).`,
+Dostarcz:
+1) 6–10 ustaleń w punktach (uwzględnij liczby i skalę, jeśli są).
+2) Niepewność:
+- przedziały/p-values/błędy (jeśli są)
+- jeśli nie ma: czego brakuje, by bardziej ufać
+3) Odpowiedzialna interpretacja:
+- jakie wnioski TAK się bronią (3–5)
+- jakie wnioski NIE się bronią (3–5) i dlaczego
+4) Implikacje praktyczne (3) z ostrożnością.
+5) Streszczenie końcowe (180–260 słów).`,
     thumbnail: "",
   },
   {
     id: "edu-res-019",
-    title: "Resumen ‘para abstract’: crea 3 abstracts (técnico, general, ultra breve)",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie ‘do abstractu’: stwórz 3 abstrakty (techniczny, ogólny, ultra krótki)",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Genera abstracts adaptados a audiencias distintas, sin inventar resultados.",
-    prompt: `Texto/paper: [PEGA AQUÍ]
-Disciplina: [ ]
-Audiencias: [técnica / general / comité]
+      "Generuje abstrakty dopasowane do różnych odbiorców bez wymyślania wyników.",
+    prompt: `Tekst/artykuł: [WKLEJ TUTAJ]
+Dyscyplina: [ ]
+Odbiorcy: [techniczni / ogólni / komisja]
 
-Crea 3 abstracts:
-A) Técnico (150–250 palabras) — método y resultados con precisión
-B) General (120–180 palabras) — menos jerga, más intuición
-C) Ultra breve (50–80 palabras) — esencia
+Stwórz 3 abstrakty:
+A) Techniczny (150–250 słów) — metoda i wyniki z precyzją
+B) Ogólny (120–180 słów) — mniej żargonu, więcej intuicji
+C) Ultra krótki (50–80 słów) — esencja
 
-Reglas:
-- No inventes datos; si falta un dato, marca [DATO NO PRESENTE].
-- Mantén consistencia: problema → método → resultados → implicación.
-- Incluye 5 keywords finales para cada abstract.`,
+Zasady:
+- Nie wymyślaj danych; jeśli brakuje, oznacz [BRAK DANYCH].
+- Zachowaj spójność: problem → metoda → wyniki → implikacja.
+- Dodaj 5 słów kluczowych na końcu każdego abstraktu.`,
     thumbnail: "",
   },
   {
     id: "edu-res-020",
-    title: "Resumen con ‘preguntas de lectura’ (seminario): guía para discusión",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie z ‘pytaniami do lektury’ (seminarium): przewodnik do dyskusji",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Resumen + guía de preguntas para dirigir un seminario académico.",
-    prompt: `Texto: [PEGA AQUÍ]
+      "Streszczenie + zestaw pytań prowadzących seminarium akademickie.",
+    prompt: `Tekst: [WKLEJ TUTAJ]
 
-Entrega:
-1) Resumen (250–400 palabras).
-2) 12 preguntas para discusión (de fácil a difícil):
-- 4 de comprensión
-- 4 de crítica metodológica
-- 4 de implicaciones y extensión
-3) 6 “puntos calientes” (lugares donde suele haber debate o confusión).
-4) Un cierre: tu juicio equilibrado (120–180 palabras) del valor del texto.`,
+Dostarcz:
+1) Streszczenie (250–400 słów).
+2) 12 pytań do dyskusji (od łatwych do trudnych):
+- 4 na zrozumienie
+- 4 krytyka metodologii
+- 4 implikacje i rozszerzenia
+3) 6 “gorących punktów” (miejsca sporów lub typowych konfuzji).
+4) Zakończenie: wyważona ocena wartości tekstu (120–180 słów).`,
     thumbnail: "",
   },
 
   {
     id: "edu-res-021",
-    title: "Resumen para ‘nota de investigación’: idea + método + contribución en 1 página",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie do ‘notatki badawczej’: idea + metoda + wkład na 1 stronie",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Convierte un paper en una nota de investigación de una página lista para archivo personal.",
-    prompt: `Paper/texto: [PEGA AQUÍ]
-Formato final: 1 página (pero en texto)
+      "Zamienia artykuł w jednostronicową notatkę badawczą do archiwum.",
+    prompt: `Artykuł/tekst: [WKLEJ TUTAJ]
+Format końcowy: 1 strona (ale w tekście)
 
-Quiero una “research note” con secciones:
-- Referencia (autor/año/título si está disponible)
-- Problema y motivación
-- Pregunta/hipótesis
-- Método/datos (muy concreto)
-- Hallazgos clave
-- Contribución (por qué importa)
-- Limitaciones
-- Ideas propias (cómo lo usaría yo) + 3 citas para mi trabajo (paráfrasis)
+Chcę “research note” z sekcjami:
+- Referencja (autor/rok/tytuł, jeśli dostępne)
+- Problem i motywacja
+- Pytanie/hipoteza
+- Metoda/dane (bardzo konkretnie)
+- Kluczowe wyniki
+- Wkład (dlaczego to ważne)
+- Ograniczenia
+- Moje pomysły (jak bym tego użył/a) + 3 cytaty do mojej pracy (parafraza)
 
-Cierra con:
-- 5 keywords
-- 3 papers relacionados a buscar (títulos sugeridos).`,
+Zakończ:
+- 5 słów kluczowych
+- 3 powiązane prace do wyszukania (proponowane tytuły).`,
     thumbnail: "",
   },
   {
     id: "edu-res-022",
-    title: "Resumen ‘anti-plagio’: paráfrasis académica limpia + conservación de significado",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie ‘anty-plagiat’: czysta parafraza akademicka z zachowaniem znaczenia",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Parafrasea de forma académica sin copiar, manteniendo precisión y matices.",
-    prompt: `Texto: [PEGA AQUÍ]
-Idioma de salida: [español/inglés]
-Tono: formal académico
+      "Parafrazuje akademicko bez kopiowania, zachowując precyzję i niuanse.",
+    prompt: `Tekst: [WKLEJ TUTAJ]
+Język wyjścia: [polski/angielski]
+Ton: formalny akademicki
 
-Tarea:
-1) Resume en 250–350 palabras SIN copiar frases.
-2) Mantén:
-- mismos conceptos
-- mismos matices (condiciones, límites, incertidumbre)
-3) Señala:
-- 8 términos técnicos que conviene mantener tal cual (si aplica)
-- 6 lugares donde hay ambigüedad en el original (y cómo la resolviste o la preservaste)
+Zadanie:
+1) Streść w 250–350 słowach BEZ kopiowania zdań.
+2) Zachowaj:
+- te same pojęcia
+- te same niuanse (warunki, ograniczenia, niepewność)
+3) Wskaż:
+- 8 terminów technicznych, które warto zostawić bez zmian (jeśli dotyczy)
+- 6 miejsc, gdzie oryginał jest niejednoznaczny (i jak to rozwiązałeś/-aś lub zachowałeś/-aś)
 
-Cierre:
-- 3 versiones alternativas del primer párrafo (estilo distinto).`,
+Zakończenie:
+- 3 alternatywne wersje pierwszego akapitu (różny styl).`,
     thumbnail: "",
   },
   {
     id: "edu-res-023",
-    title: "Resumen para ‘matriz de evidencia’: hallazgo → evidencia → contexto → generalización",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie do ‘macierzy dowodów’: wynik → dowód → kontekst → uogólnienie",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Estructura tipo evidence matrix para decisiones basadas en evidencias.",
-    prompt: `Texto/paper: [PEGA AQUÍ]
-Decisión o pregunta práctica que me importa: [ ]
+      "Struktura typu evidence matrix do decyzji opartych o dowody.",
+    prompt: `Tekst/artykuł: [WKLEJ TUTAJ]
+Decyzja lub praktyczne pytanie, które mnie interesuje: [ ]
 
-Crea una matriz de evidencia (tabla en texto) con columnas:
-- Hallazgo
-- Evidencia (qué dato/resultado lo soporta)
-- Contexto (población/entorno)
-- Limitaciones
-- Qué tan generalizable (alta/media/baja + por qué)
-- Qué implicación práctica (con cautela)
+Zbuduj macierz dowodów (tabela w tekście) z kolumnami:
+- Ustalenie
+- Dowód (jaki wynik/dane to wspierają)
+- Kontekst (populacja/środowisko)
+- Ograniczenia
+- Jak bardzo uogólnialne (wys./śr./nis. + dlaczego)
+- Implikacja praktyczna (z ostrożnością)
 
-Incluye mínimo 8 hallazgos.
-Luego:
-- 1 resumen ejecutivo (180–260 palabras) orientado a decisión.
-- 5 recomendaciones “si-entonces” basadas en evidencia.`,
+Minimum 8 ustaleń.
+Następnie:
+- 1 streszczenie menedżerskie (180–260 słów) pod decyzję.
+- 5 rekomendacji “jeśli–to” opartych na dowodach.`,
     thumbnail: "",
   },
   {
     id: "edu-res-024",
-    title: "Resumen de multi-documentos: fusiona 3–5 textos en una síntesis coherente",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie wielu dokumentów: połącz 3–5 tekstów w spójną syntezę",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Sintetiza múltiples fuentes con acuerdos, conflictos y agenda futura.",
-    prompt: `Pega 3–5 textos (separados por ###):
+      "Syntetyzuje wiele źródeł: zgodności, konflikty i agenda na przyszłość.",
+    prompt: `Wklej 3–5 tekstów (oddzielone przez ###):
 ###
-[TEXTO 1]
+[TEKST 1]
 ###
-[TEXTO 2]
+[TEKST 2]
 ###
-[TEXTO 3]
+[TEKST 3]
 (…)
 
-Tema unificador: [ ]
+Temat przewodni: [ ]
 
-Entrega:
-1) Síntesis integrada (500–900 palabras):
-- qué problema comparten
-- qué aporta cada texto
-- dónde se complementan
-- dónde se contradicen
-2) Matriz de comparación por texto:
-- tesis, método/evidencia, hallazgos, límites
-3) Consensos (3–6) y controversias (3–6)
-4) Agenda de investigación:
-- 6 preguntas futuras
-5) “Qué citaría yo”:
-- 10 bullets de ideas para citar (paráfrasis), indicando de qué texto viene.`,
+Dostarcz:
+1) Zintegrowaną syntezę (500–900 słów):
+- jaki problem mają wspólny
+- co wnosi każdy tekst
+- gdzie się uzupełniają
+- gdzie się sobie przeczą
+2) Macierz porównawcza wg tekstu:
+- teza, metoda/dowody, wyniki, ograniczenia
+3) Konsensusy (3–6) i kontrowersje (3–6)
+4) Agenda badawcza:
+- 6 pytań na przyszłość
+5) “Co bym cytował/a”:
+- 10 punktów do cytowania (parafrazy) z informacją, z którego tekstu.`,
     thumbnail: "",
   },
   {
     id: "edu-res-025",
-    title: "Resumen para escritura de marco teórico: conceptos → definiciones → relaciones",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie do pisania ramy teoretycznej: pojęcia → definicje → relacje",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Construye un mini-marco teórico a partir de un texto: definiciones y relaciones.",
-    prompt: `Texto: [PEGA AQUÍ]
-Tema de mi investigación: [ ]
+      "Buduje mini-ramę teoretyczną z tekstu: definicje i relacje.",
+    prompt: `Tekst: [WKLEJ TUTAJ]
+Temat moich badań: [ ]
 
-Crea:
-1) Resumen (200–300 palabras).
-2) Núcleo conceptual:
-- 10 conceptos clave con definiciones
-- 15 relaciones entre conceptos (A → B) con explicación 1 línea
-3) Propuesta de “marco” (250–400 palabras):
-- cómo organizaría un marco teórico con estos conceptos
-- orden recomendado de presentación
-4) Huecos:
-- 5 cosas que faltan para que el marco esté completo (qué textos buscar).`,
+Stwórz:
+1) Streszczenie (200–300 słów).
+2) Rdzeń pojęciowy:
+- 10 kluczowych pojęć z definicjami
+- 15 relacji między pojęciami (A → B) z wyjaśnieniem w 1 linii
+3) Propozycja “ramy” (250–400 słów):
+- jak uporządkował(a)byś ramę teoretyczną z tych pojęć
+- rekomendowana kolejność prezentacji
+4) Luki:
+- 5 rzeczy, których brakuje, by rama była kompletna (jakich tekstów szukać).`,
     thumbnail: "",
   },
 
   {
     id: "edu-res-026",
-    title: "Resumen ‘para póster científico’: bullets, mensaje central, visuales sugeridos",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie ‘na poster naukowy’: punkty, przekaz główny, sugerowane wizualizacje",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Convierte un paper en contenido para póster: claro, visual y convincente.",
-    prompt: `Paper/texto: [PEGA AQUÍ]
-Audiencia: [congreso general / nicho técnico]
+      "Zamienia artykuł w treść na poster: jasno, wizualnie i przekonująco.",
+    prompt: `Artykuł/tekst: [WKLEJ TUTAJ]
+Odbiorcy: [konferencja ogólna / nisza techniczna]
 
-Quiero:
-1) Mensaje central (1 frase).
-2) 6 secciones de póster (títulos + 3–5 bullets c/u):
-- Background, Objective, Methods, Results, Discussion, Takeaways
-3) Visuales sugeridos:
-- 3 gráficos/figuras que pondrías y por qué
-4) “Pitch de pasillo” (90–140 palabras)
-5) 5 preguntas que te harían frente al póster + respuestas cortas.`,
+Chcę:
+1) Przekaz główny (1 zdanie).
+2) 6 sekcji postera (tytuły + 3–5 punktów każda):
+- Tło, Cel, Metody, Wyniki, Dyskusja, Wnioski (Takeaways)
+3) Sugerowane wizualizacje:
+- 3 wykresy/figury, które byś dodał/a, i dlaczego
+4) “Pitch korytarzowy” (90–140 słów)
+5) 5 pytań, które padną przy posterze + krótkie odpowiedzi.`,
     thumbnail: "",
   },
   {
     id: "edu-res-027",
-    title: "Resumen para ‘apunte de clase’: versión docente + ejemplos + ejercicios",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie ‘na notatki do zajęć’: wersja nauczycielska + przykłady + ćwiczenia",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Convierte un texto académico en apunte de clase con ejemplos y práctica.",
-    prompt: `Texto: [PEGA AQUÍ]
-Nivel del curso: [ ]
-Duración de clase: [45/60/90 min]
+      "Zamienia tekst akademicki w notatki do zajęć z przykładami i praktyką.",
+    prompt: `Tekst: [WKLEJ TUTAJ]
+Poziom kursu: [ ]
+Czas zajęć: [45/60/90 min]
 
-Entrega:
-1) Apunte estructurado:
-- objetivos de aprendizaje (5)
-- conceptos clave (10) con definiciones
-- explicación por secciones (con ejemplos)
-- analogías y advertencias (casos donde se confunden)
-2) 5 ejemplos desarrollados (del más simple al más complejo)
-3) 8 ejercicios (con solución breve)
-4) 10 preguntas de quiz (con respuestas)`,
+Dostarcz:
+1) Ustrukturyzowane notatki:
+- cele uczenia się (5)
+- kluczowe pojęcia (10) z definicjami
+- wyjaśnienie sekcja po sekcji (z przykładami)
+- analogie i ostrzeżenia (gdzie łatwo o pomyłkę)
+2) 5 rozwiniętych przykładów (od najprostszego do najbardziej złożonego)
+3) 8 ćwiczeń (z krótkim rozwiązaniem)
+4) 10 pytań quizowych (z odpowiedziami)`,
     thumbnail: "",
   },
   {
     id: "edu-res-028",
-    title: "Resumen con ‘timeline de ideas’: cómo evoluciona el argumento sección por sección",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie z ‘timeline idei’: jak argument ewoluuje sekcja po sekcji",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Sigue el flujo del texto como una línea temporal para comprender estructura.",
-    prompt: `Texto: [PEGA AQUÍ]
+      "Śledzi przepływ tekstu jak linię czasu, by zrozumieć strukturę.",
+    prompt: `Tekst: [WKLEJ TUTAJ]
 
-Crea un timeline de ideas:
-- Lista de 10–18 “beats” (puntos de giro) en orden:
-  - Beat #, sección aproximada, idea principal, por qué importa
+Stwórz timeline idei:
+- Lista 10–18 “beatów” (punktów zwrotnych) w kolejności:
+  - Beat #, przybliżona sekcja, główna idea, dlaczego ważna
 
-Luego:
-- 5 “puentes” (frases) que conectan un beat con el siguiente (paráfrasis)
-- 3 lugares donde el texto podría reordenarse para ser más claro
-- Resumen final 200–280 palabras siguiendo el timeline.`,
+Następnie:
+- 5 “mostów” (zdań) łączących beat z następnym (parafraza)
+- 3 miejsca, gdzie tekst można by przestawić, by był jaśniejszy
+- Streszczenie końcowe 200–280 słów podążające za timeline.`,
     thumbnail: "",
   },
   {
     id: "edu-res-029",
-    title: "Resumen ‘de control de calidad’: detecta inconsistencias y ambigüedades",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie ‘kontroli jakości’: wykryj niespójności i niejednoznaczności",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Auditoría de un texto académico: inconsistencias, definiciones flojas y huecos.",
-    prompt: `Texto: [PEGA AQUÍ]
+      "Audyt tekstu akademickiego: niespójności, luźne definicje i luki.",
+    prompt: `Tekst: [WKLEJ TUTAJ]
 
-Haz una auditoría:
-1) Resumen neutral (150–220 palabras).
-2) Inconsistencias (mínimo 6):
-- cita la idea (paráfrasis) + por qué es inconsistente
-3) Ambigüedades (mínimo 6):
-- término o frase ambigua
-- 2 interpretaciones posibles
-- cuál crees que es la intención del autor y por qué (si se puede inferir)
-4) Definiciones flojas (mínimo 5):
-- qué concepto necesita definición operativa
-- propuesta de definición mejor
-5) Recomendaciones concretas de mejora (8).`,
+Wykonaj audyt:
+1) Neutralne streszczenie (150–220 słów).
+2) Niespójności (min. 6):
+- przytocz ideę (parafraza) + dlaczego jest niespójna
+3) Niejednoznaczności (min. 6):
+- termin lub fraza niejednoznaczna
+- 2 możliwe interpretacje
+- którą intencję autor ma najpewniej i dlaczego (jeśli da się wywnioskować)
+4) Słabe definicje (min. 5):
+- które pojęcie potrzebuje definicji operacyjnej
+- propozycja lepszej definicji
+5) Konkretne rekomendacje ulepszeń (8).`,
     thumbnail: "",
   },
   {
     id: "edu-res-030",
-    title: "Resumen final “todo en uno”: académico + ejecutivo + estudio + discusión",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie końcowe “all-in-one”: akademickie + wykonawcze + nauka + dyskusja",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Un paquete completo: resumen académico, ejecutivo, notas de estudio y guía de discusión.",
-    prompt: `Texto/paper: [PEGA AQUÍ]
+      "Pełny pakiet: streszczenie akademickie, menedżerskie, notatki do nauki i przewodnik do dyskusji.",
+    prompt: `Tekst/artykuł: [WKLEJ TUTAJ]
 
-Entrega un paquete con:
-1) Resumen académico (300–450 palabras) con método y hallazgos.
-2) Resumen ejecutivo (120–180 palabras) para no expertos.
-3) Notas de estudio:
-- 12 bullets de conceptos
-- 10 definiciones
-- 6 confusiones típicas
-4) Guía de discusión:
-- 8 preguntas (de fácil a difícil)
-- 3 críticas metodológicas
-- 3 ideas de extensión/research
-5) Cierre:
-- 1 “one-liner” (1 frase) que capture exactamente el aporte.`,
+Dostarcz pakiet:
+1) Streszczenie akademickie (300–450 słów) z metodą i wynikami.
+2) Streszczenie menedżerskie (120–180 słów) dla nietechnicznych.
+3) Notatki do nauki:
+- 12 punktów z pojęciami
+- 10 definicji
+- 6 typowych konfuzji
+4) Przewodnik do dyskusji:
+- 8 pytań (od łatwych do trudnych)
+- 3 krytyki metodologiczne
+- 3 pomysły rozszerzeń/badań
+5) Zakończenie:
+- 1 “one-liner” (1 zdanie) oddający dokładnie wkład.`,
     thumbnail: "",
   },
 
   {
     id: "edu-res-031",
-    title: "Resumen de tesis/disertación: capítulos, aportes, método, resultados, límites",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie pracy magisterskiej/doktorskiej: rozdziały, wkład, metoda, wyniki, ograniczenia",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Resumen de trabajos largos (tesis) sin perder estructura por capítulos.",
-    prompt: `Pega extracto o índice + secciones clave: [PEGA AQUÍ]
-Longitud deseada: [500–1200 palabras]
+      "Streszcza długie prace (tezy), zachowując strukturę rozdziałów.",
+    prompt: `Wklej fragment lub spis treści + kluczowe sekcje: [WKLEJ TUTAJ]
+Docelowa długość: [500–1200 słów]
 
-Devuelve:
-1) Resumen general (200–300 palabras).
-2) Mapa por capítulos (si hay):
-- Capítulo → objetivo → hallazgo → cómo conecta con el todo
-3) Aportes:
-- 5 contribuciones (teóricas/metodológicas/aplicadas)
-4) Método:
-- diagrama textual del pipeline
-5) Resultados y evidencia:
-- 6–10 bullets con magnitud/indicadores si hay
-6) Limitaciones y trabajo futuro:
-- 6 límites + 6 líneas futuras
+Zwróć:
+1) Streszczenie ogólne (200–300 słów).
+2) Mapa rozdziałów (jeśli jest):
+- Rozdział → cel → wynik → jak łączy się z całością
+3) Wkład:
+- 5 wkładów (teoretycznych/metodologicznych/aplikacyjnych)
+4) Metoda:
+- tekstowy diagram pipeline’u
+5) Wyniki i dowody:
+- 6–10 punktów ze skalą/wskaźnikami, jeśli są
+6) Ograniczenia i przyszłe prace:
+- 6 ograniczeń + 6 kierunków na przyszłość
 
-Cierre:
-- 1 abstract “de congreso” (150–220 palabras).`,
+Zakończenie:
+- 1 abstrakt “konferencyjny” (150–220 słów).`,
     thumbnail: "",
   },
   {
     id: "edu-res-032",
-    title: "Resumen con enfoque ‘replicación’: pasos, materiales, recursos y riesgos",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie z naciskiem na ‘replikację’: kroki, materiały, zasoby i ryzyka",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Extrae todo lo necesario para replicar el estudio o experimento.",
-    prompt: `Paper/texto: [PEGA AQUÍ]
-Objetivo: replicar
+      "Wydobywa wszystko, co potrzebne do replikacji badania/eksperymentu.",
+    prompt: `Artykuł/tekst: [WKLEJ TUTAJ]
+Cel: replikacja
 
-Entrega:
-1) Resumen (150–250 palabras).
-2) Checklist de replicación:
-- datos (fuente, tamaño, formato)
-- variables (definición + medición)
-- procedimiento paso a paso
-- herramientas/softwares
-- métricas de evaluación
+Dostarcz:
+1) Streszczenie (150–250 słów).
+2) Checklista replikacji:
+- dane (źródło, rozmiar, format)
+- zmienne (definicja + pomiar)
+- procedura krok po kroku
+- narzędzia/oprogramowanie
+- metryki ewaluacji
 3) “Unknowns”:
-- 10 cosas que NO están claras y debes preguntar/decidir
-4) Riesgos:
-- 8 riesgos para replicar (sesgos, confusores, dependencias)
-5) Propuesta de réplica:
-- qué cambiarías (2–4 cambios) para probar robustez.`,
+- 10 rzeczy, których NIE da się jednoznacznie odtworzyć (co trzeba zapytać/zdecydować)
+4) Ryzyka:
+- 8 ryzyk replikacji (biasy, konfuzory, zależności)
+5) Propozycja replikacji:
+- co byś zmienił/a (2–4 zmiany), by sprawdzić odporność (robustness).`,
     thumbnail: "",
   },
   {
     id: "edu-res-033",
-    title: "Resumen en formato ‘op-ed académico’: idea central con cautela y matices",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie w formie ‘akademickiego op-edu’: centralna idea z ostrożnością i niuansami",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Convierte un paper en una pieza argumentativa para público general sin perder rigor.",
-    prompt: `Texto: [PEGA AQUÍ]
-Audiencia: público general informado
-Tono: claro, sin jerga, pero riguroso
+      "Zamienia artykuł w tekst dla szerokiej publiczności bez utraty rygoru.",
+    prompt: `Tekst: [WKLEJ TUTAJ]
+Odbiorcy: świadoma publiczność ogólna
+Ton: jasny, bez żargonu, ale rygorystyczny
 
-Crea:
-1) Resumen en formato op-ed (700–1000 palabras):
+Stwórz:
+1) Streszczenie w formie op-edu (700–1000 słów):
 - hook
-- problema
-- qué encontró el paper
-- qué NO significa (límites)
-- implicaciones prácticas (sin exagerar)
-- cierre con una pregunta potente
-2) 10 frases “anti-humo” para no sobreafirmar
-3) 5 analogías cuidadosas (con límites) para explicar el concepto`,
+- problem
+- co znalazł artykuł
+- czego to NIE oznacza (ograniczenia)
+- implikacje praktyczne (bez przesady)
+- zakończenie mocnym pytaniem
+2) 10 zdań “anty-dym” (by nie nadinterpretować)
+3) 5 ostrożnych analogii (z ograniczeniami) do wyjaśnienia pojęcia`,
     thumbnail: "",
   },
   {
     id: "edu-res-034",
-    title: "Resumen multi-audiencia: estudiante, profesor, investigador, ejecutivo",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie wielo-odbiorcze: student, nauczyciel, badacz, menedżer",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Cuatro versiones del mismo contenido adaptadas a necesidades diferentes.",
-    prompt: `Texto/paper: [PEGA AQUÍ]
+      "Cztery wersje tego samego materiału dopasowane do różnych potrzeb.",
+    prompt: `Tekst/artykuł: [WKLEJ TUTAJ]
 
-Crea 4 resúmenes consistentes (sin inventar):
-A) Estudiante (200–300 palabras, foco en aprender)
-B) Profesor (200–300 palabras, foco en enseñar y evaluar)
-C) Investigador (200–300 palabras, foco en método, gaps, replicación)
-D) Ejecutivo (120–180 palabras, foco en implicación y decisión)
+Stwórz 4 spójne streszczenia (bez wymyślania):
+A) Student (200–300 słów, nacisk na uczenie się)
+B) Nauczyciel (200–300 słów, nacisk na nauczanie i ocenę)
+C) Badacz (200–300 słów, nacisk na metodę, luki, replikację)
+D) Menedżer (120–180 słów, nacisk na implikacje i decyzję)
 
-Luego:
-- 12 términos clave con definición (glosario único para todos)
-- 6 “puntos de confusión” y cómo aclararlos`,
+Następnie:
+- 12 kluczowych terminów z definicjami (jeden glosariusz wspólny)
+- 6 “punktów konfuzji” i jak je wyjaśnić`,
     thumbnail: "",
   },
   {
     id: "edu-res-035",
-    title: "Resumen para ‘plan de lectura’: qué leer primero, qué saltar, qué anotar",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie do ‘planu czytania’: co czytać najpierw, co pominąć, co notować",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Crea estrategia de lectura: dónde poner atención y cómo tomar notas.",
-    prompt: `Paper/texto: [PEGA AQUÍ]
-Tiempo disponible: [15/30/60/120 min]
-Objetivo: [entender general / replicar / criticar / citar en tesis]
+      "Tworzy strategię lektury: gdzie skupić uwagę i jak robić notatki.",
+    prompt: `Artykuł/tekst: [WKLEJ TUTAJ]
+Dostępny czas: [15/30/60/120 min]
+Cel: [ogólnie zrozumieć / zreplikować / skrytykować / cytować w pracy]
 
-Entrega:
-1) Resumen rápido (120–180 palabras).
-2) Plan de lectura por tiempo:
-- 15 min: qué secciones leer + qué anotar
+Dostarcz:
+1) Szybkie streszczenie (120–180 słów).
+2) Plan czytania wg czasu:
+- 15 min: które sekcje + co notować
 - 30 min: …
 - 60 min: …
 - 120 min: …
-3) Lista de 12 preguntas guía mientras leo.
-4) Plantilla de notas: (problema, método, hallazgos, límites, citas útiles).`,
+3) Lista 12 pytań prowadzących podczas czytania.
+4) Szablon notatek: (problem, metoda, wyniki, ograniczenia, cytowalne idee).`,
     thumbnail: "",
   },
 
   {
     id: "edu-res-036",
-    title: "Resumen para ‘sistematización’: define categorías y clasifica hallazgos",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie do ‘systematyzacji’: zdefiniuj kategorie i sklasyfikuj ustalenia",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Crea categorías analíticas y clasifica los hallazgos del texto en ellas.",
-    prompt: `Texto: [PEGA AQUÍ]
-Meta: sistematizar para una revisión o informe
+      "Tworzy kategorie analityczne i przypisuje do nich ustalenia z tekstu.",
+    prompt: `Tekst: [WKLEJ TUTAJ]
+Cel: systematyzacja do przeglądu lub raportu
 
-1) Propón 6–10 categorías analíticas relevantes al texto.
-2) Resume el texto en bullets y asigna cada bullet a una categoría.
-3) Para cada categoría:
-- qué afirma el texto
-- qué evidencia usa
-- qué limitación aparece
+1) Zaproponuj 6–10 kategorii analitycznych istotnych dla tekstu.
+2) Streść tekst w punktach i przypisz każdy punkt do kategorii.
+3) Dla każdej kategorii:
+- co tekst twierdzi
+- jakich dowodów używa
+- jakie ograniczenie się pojawia
 
-Cierre:
-- 5 “insights” transversales (que aparezcan al cruzar categorías)
-- 5 preguntas futuras surgidas de la sistematización.`,
+Zakończenie:
+- 5 przekrojowych “insightów” (widocznych po skrzyżowaniu kategorii)
+- 5 pytań przyszłych wynikających z systematyzacji.`,
     thumbnail: "",
   },
   {
     id: "edu-res-037",
-    title: "Resumen de “paper con matemáticas”: intuición + formalismo + interpretación",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie ‘artykułu z matematyką’: intuicja + formalizm + interpretacja",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Explica papers técnicos con ecuaciones: qué significan y qué implican realmente.",
-    prompt: `Paper/extracto (incluye ecuaciones): [PEGA AQUÍ]
-Nivel del lector: [intermedio/avanzado]
+      "Wyjaśnia techniczne artykuły z równaniami: co znaczą i co naprawdę implikują.",
+    prompt: `Artykuł/fragment (z równaniami): [WKLEJ TUTAJ]
+Poziom czytelnika: [średniozaawansowany/zaawansowany]
 
-Entrega:
-1) Resumen conceptual (200–300 palabras): qué problema y qué idea.
-2) Ecuaciones clave (hasta 5):
-- escribe la ecuación (si está)
-- explica cada término en lenguaje natural
-- qué supuesto implica
-- cómo se usa en el argumento (resultado)
-3) Interpretación:
-- qué significa el resultado en la práctica
-- qué NO significa (límites)
-4) 5 preguntas de autoexamen con respuestas.`,
+Dostarcz:
+1) Streszczenie koncepcyjne (200–300 słów): jaki problem i jaka idea.
+2) Kluczowe równania (do 5):
+- przepisz równanie (jeśli jest)
+- wyjaśnij każdy składnik językiem naturalnym
+- jakie założenie implikuje
+- jak jest używane w argumencie (wynik)
+3) Interpretacja:
+- co wynik znaczy w praktyce
+- czego NIE znaczy (ograniczenia)
+4) 5 pytań do autoegzaminu z odpowiedziami.`,
     thumbnail: "",
   },
   {
     id: "edu-res-038",
-    title: "Resumen ‘con triada’: qué aporta, a quién le sirve, cuándo falla",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie ‘triadą’: co wnosi, komu się przydaje, kiedy zawodzi",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Resumen ultra útil: aporte, audiencia y límites operativos.",
-    prompt: `Texto/paper: [PEGA AQUÍ]
+      "Ultra-użyteczne streszczenie: wkład, odbiorcy i operacyjne ograniczenia.",
+    prompt: `Tekst/artykuł: [WKLEJ TUTAJ]
 
-Devuelve:
-1) Resumen (200–280 palabras).
-2) Qué aporta (5 bullets):
-- teórico/metodológico/aplicado
-3) A quién le sirve (4 perfiles) y cómo lo usaría cada uno.
-4) Cuándo falla:
-- 6 condiciones donde el resultado no aplica o se debilita
-5) Qué haría yo:
-- 3 ideas de extensión/uso en proyecto.
+Zwróć:
+1) Streszczenie (200–280 słów).
+2) Co wnosi (5 punktów):
+- teoretycznie/metodologicznie/aplikacyjnie
+3) Komu się przydaje (4 profile) i jak każdy by tego użył.
+4) Kiedy zawodzi:
+- 6 warunków, w których wynik nie działa lub słabnie
+5) Co zrobił(a)bym ja:
+- 3 pomysły rozszerzeń/użycia w projekcie.
 
-Cierre:
-- 1 frase “si solo recuerdas una cosa”`,
+Zakończenie:
+- 1 zdanie “jeśli zapamiętasz tylko jedno”.`,
     thumbnail: "",
   },
   {
     id: "edu-res-039",
-    title: "Resumen orientado a ‘pregunta de examen’: genera 10 preguntas y claves",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie pod ‘pytania egzaminacyjne’: wygeneruj 10 pytań i klucze",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Convierte un texto en material evaluable: preguntas, respuestas y rúbrica.",
-    prompt: `Texto: [PEGA AQUÍ]
-Nivel: [universidad/posgrado]
+      "Zamienia tekst w materiał ocenialny: pytania, odpowiedzi i rubrykę.",
+    prompt: `Tekst: [WKLEJ TUTAJ]
+Poziom: [studia/magisterskie]
 
-Crea:
-1) Resumen del texto (200–300 palabras).
-2) 10 preguntas de examen:
-- 4 comprensión
-- 3 aplicación/transferencia
-- 3 crítica/limitaciones
-3) Respuestas modelo para cada pregunta (80–180 palabras)
-4) Rúbrica breve para calificar (criterios por pregunta)
+Stwórz:
+1) Streszczenie tekstu (200–300 słów).
+2) 10 pytań egzaminacyjnych:
+- 4 na zrozumienie
+- 3 zastosowanie/transfer
+- 3 krytyka/ograniczenia
+3) Odpowiedzi modelowe do każdego pytania (80–180 słów)
+4) Krótka rubryka oceny (kryteria per pytanie)
 
-Cierre:
-- 6 errores típicos de alumnos al estudiar este texto.`,
+Zakończenie:
+- 6 typowych błędów studentów przy nauce tego tekstu.`,
     thumbnail: "",
   },
   {
     id: "edu-res-040",
-    title: "Resumen ‘evidence vs opinion’: separa hechos, inferencias y opiniones",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie ‘dowód vs opinia’: oddziel fakty, inferencje i interpretacje",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Separa niveles de afirmación para evitar confundir datos con interpretación.",
-    prompt: `Texto: [PEGA AQUÍ]
+      "Rozdziela poziomy twierdzeń, by nie mylić danych z interpretacją.",
+    prompt: `Tekst: [WKLEJ TUTAJ]
 
-Clasifica y resume en 3 capas:
-1) HECHOS (qué se observa/dice con evidencia) — mínimo 8 bullets
-2) INFERENCIAS (qué concluyen a partir de hechos) — mínimo 8 bullets
-3) OPINIONES/INTERPRETACIONES — mínimo 6 bullets
+Skategoryzuj i streść w 3 warstwach:
+1) FAKTY (co obserwują/mówią z dowodami) — min. 8 punktów
+2) INFERENCJE (co wnioskują na podstawie faktów) — min. 8 punktów
+3) OPINIE/INTERPRETACJE — min. 6 punktów
 
-Para cada bullet indica:
-- qué parte del texto lo respalda (sección aproximada)
-- qué tan fuerte es (alta/media/baja) y por qué
+Dla każdego punktu podaj:
+- która część tekstu to wspiera (przybliżona sekcja)
+- jak silne to jest (wys./śr./nis.) i dlaczego
 
-Cierre:
-- 1 resumen final (180–240 palabras) que mantenga separación clara.`,
+Zakończenie:
+- 1 podsumowanie (180–240 słów) z wyraźnym rozdziałem warstw.`,
     thumbnail: "",
   },
 
   {
     id: "edu-res-041",
-    title: "Resumen ‘para propuesta’: usa el paper para justificar tu proyecto",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie ‘pod propozycję’: użyj artykułu, by uzasadnić swój projekt",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Convierte evidencias del texto en argumentos para una propuesta o grant.",
-    prompt: `Texto/paper: [PEGA AQUÍ]
-Mi proyecto/propuesta: [DESCRIBE EN 3–6 LÍNEAS]
+      "Zamienia dowody z tekstu w argumenty do propozycji/grantu.",
+    prompt: `Tekst/artykuł: [WKLEJ TUTAJ]
+Mój projekt/propozycja: [OPISZ W 3–6 LINII]
 
-Entrega:
-1) Resumen del paper (150–220 palabras).
-2) Cómo usarlo para justificar mi propuesta:
-- 5 argumentos (evidencia → implicación → por qué mi proyecto es necesario)
-3) Limitaciones al usarlo (3–5) para ser honesto.
-4) Párrafo listo para pegar en “justificación” (180–260 palabras).
-5) 5 frases alternativas (para no repetir estilo).`,
+Dostarcz:
+1) Streszczenie artykułu (150–220 słów).
+2) Jak użyć go do uzasadnienia mojej propozycji:
+- 5 argumentów (dowód → implikacja → dlaczego mój projekt jest potrzebny)
+3) Ograniczenia użycia (3–5), by być uczciwym.
+4) Akapit gotowy do wklejenia do “uzasadnienia” (180–260 słów).
+5) 5 alternatywnych wersji zdań (żeby nie powtarzać stylu).`,
     thumbnail: "",
   },
   {
     id: "edu-res-042",
-    title: "Resumen ‘para discusión de resultados’: conecta con teoría y literatura",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie ‘do dyskusji wyników’: połącz z teorią i literaturą",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Útil para escribir discusión: implicaciones, mecanismos, comparación con literatura.",
-    prompt: `Texto/paper: [PEGA AQUÍ]
-Mi resultado o hipótesis: [ ]
+      "Przydatne do pisania dyskusji: implikacje, mechanizmy, porównania z literaturą.",
+    prompt: `Tekst/artykuł: [WKLEJ TUTAJ]
+Mój wynik lub hipoteza: [ ]
 
-Entrega:
-1) Resumen del paper (180–240 palabras).
-2) Mecanismos propuestos (3–6) y en qué evidencias se basan.
-3) Cómo conecta con teoría:
-- 3 marcos teóricos posibles o escuelas (si no hay, propón)
-4) Cómo lo usaría en discusión:
-- 6 frases “tipo discusión” (paráfrasis) conectando hallazgo→teoría→límite.
-5) 4 advertencias para no sobreinterpretar.`,
+Dostarcz:
+1) Streszczenie artykułu (180–240 słów).
+2) Proponowane mechanizmy (3–6) i na jakich dowodach się opierają.
+3) Jak łączy się z teorią:
+- 3 możliwe ramy teoretyczne lub szkoły (jeśli brak, zaproponuj)
+4) Jak użył(a)bym tego w dyskusji:
+- 6 zdań “w stylu dyskusji” (parafraza) łączących wynik→teoria→ograniczenie.
+5) 4 ostrzeżenia przed nadinterpretacją.`,
     thumbnail: "",
   },
   {
     id: "edu-res-043",
-    title: "Resumen ‘con checklist PRISMA-like’: qué reporta y qué no",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie z checklistą ‘PRISMA-like’: co raportuje, a czego nie",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Check de reporte (especialmente para revisiones/estudios) para evaluar transparencia.",
-    prompt: `Texto/paper: [PEGA AQUÍ]
-Tipo: [revisión/estudio]
+      "Kontrola raportowania (zwłaszcza dla przeglądów/badań) oceniająca transparentność.",
+    prompt: `Tekst/artykuł: [WKLEJ TUTAJ]
+Typ: [przegląd/badanie]
 
-Crea un checklist “PRISMA-like” adaptado:
-- 20 ítems (preguntas de reporte: datos, método, selección, análisis, sesgos)
+Stwórz checklistę “PRISMA-like” dopasowaną do tekstu:
+- 20 itemów (pytania o raportowanie: dane, metoda, selekcja, analiza, biasy)
 
-Luego evalúa el texto:
-- Para cada ítem marca: Sí / No / Parcial
-- Justifica en 1 línea (paráfrasis)
-- Señala 8 cosas críticas que faltan (si faltan)
+Następnie oceń tekst:
+- Dla każdego itemu zaznacz: Tak / Nie / Częściowo
+- Uzasadnij w 1 linii (parafraza)
+- Wskaż 8 krytycznych braków (jeśli są)
 
-Cierre:
-- Resumen del impacto de esas faltas en la confianza del resultado.`,
+Zakończenie:
+- Streszczenie wpływu tych braków na wiarygodność wyniku.`,
     thumbnail: "",
   },
   {
     id: "edu-res-044",
-    title: "Resumen para ‘notas Zettelkasten’: 8 fichas atómicas + enlaces",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie do notatek Zettelkasten: 8 atomowych fiszek + linki",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Transforma un texto en fichas atómicas enlazables (Zettelkasten).",
-    prompt: `Texto: [PEGA AQUÍ]
-Tema/archivo Zettelkasten: [ ]
+      "Zamienia tekst w łączalne notatki atomowe (Zettelkasten).",
+    prompt: `Tekst: [WKLEJ TUTAJ]
+Temat/zbiór Zettelkasten: [ ]
 
-Crea 8 notas atómicas:
-Para cada nota:
-- Título corto
-- Idea única (80–140 palabras)
-- Ejemplo breve
-- “Enlaces” a otras notas (2–3 títulos sugeridos)
-- Tags (3–6)
-- Pregunta que abre (para seguir pensando)
+Stwórz 8 notatek atomowych:
+Dla każdej:
+- Krótki tytuł
+- Jedna idea (80–140 słów)
+- Krótki przykład
+- “Linki” do innych notatek (2–3 sugerowane tytuły)
+- Tagi (3–6)
+- Pytanie otwierające (do dalszego myślenia)
 
-Cierre:
-- Una “nota índice” (map of content) de 6–10 bullets conectando las 8 notas.`,
+Zakończenie:
+- “Notatka indeks” (map of content) 6–10 punktów łączących 8 notatek.`,
     thumbnail: "",
   },
   {
     id: "edu-res-045",
-    title: "Resumen ‘de consistencia’: revisa si conclusiones siguen de resultados",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie ‘spójności’: sprawdź, czy wnioski wynikają z rezultatów",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Evalúa alineación: pregunta→método→resultados→conclusión; detecta sobreafirmación.",
-    prompt: `Texto/paper: [PEGA AQUÍ]
+      "Ocena zgodności: pytanie→metoda→wyniki→wniosek; wykrywa nadinterpretację.",
+    prompt: `Tekst/artykuł: [WKLEJ TUTAJ]
 
-Haz:
-1) Resumen de 180–240 palabras.
-2) Alineación:
-- Pregunta/hipótesis (¿cuál es exactamente?)
-- Método (¿puede responderla?)
-- Resultados (¿qué muestran?)
-- Conclusiones (¿qué afirman?)
+Wykonaj:
+1) Streszczenie 180–240 słów.
+2) Zgodność (alignment):
+- Pytanie/hipoteza (co dokładnie?)
+- Metoda (czy może na to odpowiedzieć?)
+- Wyniki (co pokazują?)
+- Wnioski (co twierdzą?)
 
-3) Señala 6 posibles sobreafirmaciones:
-- la afirmación
-- por qué no se sostiene completamente
-- cómo reescribirla con cautela
+3) Wskaż 6 możliwych nadinterpretacji:
+- twierdzenie
+- dlaczego nie jest w pełni uzasadnione
+- jak to przepisać ostrożniej
 
-Cierre:
-- 5 recomendaciones para mejorar alineación en una versión revisada.`,
+Zakończenie:
+- 5 rekomendacji poprawy spójności w wersji po revisie.`,
     thumbnail: "",
   },
 
   {
     id: "edu-res-046",
-    title: "Resumen en formato ‘ficha de lectura’: cita, idea clave, uso, crítica, preguntas",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie w formacie ‘fiszki lektury’: cytat, kluczowa idea, użycie, krytyka, pytania",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Formato de ficha de lectura completo para tu archivo académico.",
-    prompt: `Texto/paper: [PEGA AQUÍ]
-Referencia (si la tienes): [autor, año, título]
+      "Kompletny format fiszki lektury do Twojego archiwum akademickiego.",
+    prompt: `Tekst/artykuł: [WKLEJ TUTAJ]
+Referencja (jeśli masz): [autor, rok, tytuł]
 
-Devuelve una ficha:
-- Referencia
-- Idea clave (1–2 frases)
-- Resumen (200–300 palabras)
-- 5 conceptos clave (definición + ejemplo)
-- 3 citas para usar (paráfrasis, con sección)
-- 3 críticas (metodológicas o conceptuales)
-- 5 preguntas que me quedan
-- Cómo lo conecto con mi tema (120–180 palabras)`,
+Zwróć fiszkę:
+- Referencja
+- Kluczowa idea (1–2 zdania)
+- Streszczenie (200–300 słów)
+- 5 kluczowych pojęć (definicja + przykład)
+- 3 cytaty do użycia (parafraza, z sekcją)
+- 3 krytyki (metodologiczne lub koncepcyjne)
+- 5 pytań, które zostają
+- Jak to łączę z moim tematem (120–180 słów)`,
     thumbnail: "",
   },
   {
     id: "edu-res-047",
-    title: "Resumen ‘para alumnos’: explicación clara + analogías + ejercicios",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie ‘dla uczniów’: jasne wyjaśnienie + analogie + ćwiczenia",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Versión pedagógica: para enseñar contenido académico sin perder rigor.",
-    prompt: `Texto: [PEGA AQUÍ]
-Nivel del alumno: [secundaria/universidad]
-Tiempo: [30/60/90 min]
+      "Wersja dydaktyczna: do nauczania treści akademickich bez utraty rygoru.",
+    prompt: `Tekst: [WKLEJ TUTAJ]
+Poziom ucznia: [szkoła średnia/studia]
+Czas: [30/60/90 min]
 
-Crea:
-1) Resumen didáctico (250–400 palabras) con ejemplos.
-2) 5 analogías cuidadosas (y sus límites).
-3) 6 confusiones típicas (y cómo corregirlas).
-4) 8 ejercicios (con solución breve) sobre lo leído.
-5) 10 preguntas de quiz (con respuestas).`,
+Stwórz:
+1) Streszczenie dydaktyczne (250–400 słów) z przykładami.
+2) 5 ostrożnych analogii (i ich ograniczenia).
+3) 6 typowych konfuzji (i jak je korygować).
+4) 8 ćwiczeń (z krótkim rozwiązaniem) na podstawie lektury.
+5) 10 pytań quizowych (z odpowiedziami).`,
     thumbnail: "",
   },
   {
     id: "edu-res-048",
-    title: "Resumen de artículo con datos: extrae métricas, tamaños de efecto y relevancia práctica",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie artykułu z danymi: metryki, wielkości efektu i znaczenie praktyczne",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Convierte números en comprensión: magnitud, incertidumbre, importancia real.",
-    prompt: `Paper/extracto con datos: [PEGA AQUÍ]
+      "Zamienia liczby w zrozumienie: skala, niepewność i realna istotność.",
+    prompt: `Artykuł/fragment z danymi: [WKLEJ TUTAJ]
 
-Entrega:
-1) Resumen (180–260 palabras).
-2) Extracción cuantitativa:
-- métricas reportadas (lista)
-- tamaños de efecto (si hay)
-- significancia / incertidumbre (si hay)
-- comparaciones clave (baseline vs método)
-3) Interpretación práctica:
-- qué cambia “en la realidad” con esos números
-- cuándo sería irrelevante aunque sea significativo
-4) 5 preguntas para “auditar” números (¿cómo midieron?, ¿sesgos?, etc.).`,
+Dostarcz:
+1) Streszczenie (180–260 słów).
+2) Ekstrakcję ilościową:
+- raportowane metryki (lista)
+- wielkości efektu (jeśli są)
+- istotność / niepewność (jeśli są)
+- kluczowe porównania (baseline vs metoda)
+3) Interpretację praktyczną:
+- co zmienia się “w rzeczywistości” dzięki tym liczbom
+- kiedy byłoby to nieistotne, nawet jeśli statystycznie istotne
+4) 5 pytań do “audytu” liczb (jak mierzono? biasy? itd.).`,
     thumbnail: "",
   },
   {
     id: "edu-res-049",
-    title: "Resumen ‘con dos voces’: qué diría un defensor vs un crítico",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Streszczenie ‘dwoma głosami’: co powie obrońca vs krytyk",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Genera dos perspectivas para ver fortalezas y debilidades sin sesgo.",
-    prompt: `Texto/paper: [PEGA AQUÍ]
+      "Dwie perspektywy bez biasu: mocne i słabe strony.",
+    prompt: `Tekst/artykuł: [WKLEJ TUTAJ]
 
-Crea:
-1) Resumen neutral (180–240 palabras).
-2) Voz defensora:
-- 6 bullets de lo mejor (novedad, método, claridad, utilidad)
-- 1 párrafo de defensa (120–180 palabras)
-3) Voz crítica:
-- 6 bullets de lo más débil (sesgos, límites, sobreafirmación)
-- 1 párrafo crítico (120–180 palabras)
-4) Síntesis:
-- cuándo sería válido usar este trabajo y con qué cautelas
+Stwórz:
+1) Neutralne streszczenie (180–240 słów).
+2) Głos obrońcy:
+- 6 punktów tego, co najlepsze (nowość, metoda, jasność, użyteczność)
+- 1 akapit obrony (120–180 słów)
+3) Głos krytyka:
+- 6 punktów tego, co najsłabsze (biasy, ograniczenia, nadinterpretacja)
+- 1 akapit krytyczny (120–180 słów)
+4) Synteza:
+- kiedy warto użyć tej pracy i z jaką ostrożnością
 
-Cierre:
-- 5 recomendaciones concretas para mejorar el paper.`,
+Zakończenie:
+- 5 konkretnych rekomendacji ulepszenia artykułu.`,
     thumbnail: "",
   },
   {
     id: "edu-res-050",
-    title: "Paquete completo de resúmenes: abstract + IMRaD + ficha + preguntas + plan de estudio",
-    area: "Educación & Formación",
-    category: "Resúmenes Académicos",
+    title: "Kompletny pakiet streszczeń: abstrakt + IMRaD + fiszka + pytania + plan nauki",
+    area: "Edukacja & Szkolenia",
+    category: "Streszczenia Akademickie",
     summary:
-      "Un mega-output: varias formas de resumen + herramientas para estudiar y discutir.",
-    prompt: `Texto/paper: [PEGA AQUÍ]
-Nivel: [universidad/posgrado]
-Objetivo: [estudio / revisión / tesis]
+      "Mega-output: wiele form streszczenia + narzędzia do nauki i dyskusji.",
+    prompt: `Tekst/artykuł: [WKLEJ TUTAJ]
+Poziom: [studia/magisterskie]
+Cel: [nauka / przegląd / praca dyplomowa]
 
-Entrega:
-1) Abstract técnico (150–250 palabras).
-2) Resumen IMRaD (400–700 palabras).
-3) Ficha de lectura (referencia, idea clave, uso, críticas, preguntas).
-4) Glosario de 15 términos (definición + ejemplo).
-5) 12 preguntas de discusión (con 6 “difíciles”).
-6) Autoexamen:
-- 10 MCQ + 5 abiertas
-- respuestas correctas
-7) Plan de estudio 7 días:
-- qué repasar cada día
-- cómo evaluar progreso
-- qué hacer si fallo en X.`,
+Dostarcz:
+1) Abstrakt techniczny (150–250 słów).
+2) Streszczenie IMRaD (400–700 słów).
+3) Fiszka lektury (referencja, kluczowa idea, użycie, krytyka, pytania).
+4) Glosariusz 15 terminów (definicja + przykład).
+5) 12 pytań do dyskusji (z czego 6 “trudnych”).
+6) Autoegzamin:
+- 10 MCQ + 5 otwartych
+- poprawne odpowiedzi
+7) 7-dniowy plan nauki:
+- co powtarzać każdego dnia
+- jak oceniać postęp
+- co zrobić, jeśli polegnę na X.`,
     thumbnail: "",
   },
 ];

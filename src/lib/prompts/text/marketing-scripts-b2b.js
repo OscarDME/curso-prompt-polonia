@@ -3,1153 +3,1203 @@
 export const textPromptsMarketingScriptsB2B = [
   {
     id: "msb2b-001",
-    title: "Script LinkedIn (45–60s) — Dolor del rol → Insight → Marco → CTA a diagnóstico",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt LinkedIn (45–60s) — Ból roli → Insight → Ramy → CTA na diagnozę",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para video en LinkedIn dirigido a un rol específico con CTA a llamada/diagnóstico.",
-    prompt: `Contexto (rellena):
-- Producto/servicio:
-- ICP (industria, tamaño empresa):
-- Rol objetivo (CMO, Head of Sales, Founder, RevOps, etc.):
-- Dolor #1 (operativo):
-- Dolor #2 (impacto en KPI):
-- KPI principal (pipeline, CAC, churn, LTV, etc.):
-- Prueba disponible (caso, % mejora, benchmark):
-- Oferta de entrada (audit/diagnóstico):
-- Tono (consultivo/directo/premium):
+      "Skrypt do wideo na LinkedIn skierowany do konkretnej roli z CTA do rozmowy/diagnozy.",
+    prompt: `Kontekst (uzupełnij):
+- Produkt/usługa:
+- ICP (branża, wielkość firmy):
+- Docelowa rola (CMO, Head of Sales, Founder, RevOps itd.):
+- Ból #1 (operacyjny):
+- Ból #2 (wpływ na KPI):
+- Główny KPI (pipeline, CAC, churn, LTV itd.):
+- Dostępny dowód (case, % poprawy, benchmark):
+- Oferta wejściowa (audyt/diagnoza):
+- Ton (konsultacyjny/bezpośredni/premium):
 
-Tarea:
-Crea un guion 45–60s con:
-1) Hook (0–3s): 5 opciones dirigidas al rol (sin clickbait).
-2) Dolor (3–15s): describe el costo real (tiempo/dinero/errores) con ejemplo.
-3) Insight (15–30s): por qué pasa (causa raíz), sin tecnicismos excesivos.
-4) Marco (30–50s): 3 pasos accionables (qué revisar/hacer).
-5) CTA (50–60s): invita a diagnóstico (2 variantes: suave y directo).
-6) Texto en pantalla por tramo (frases cortas).
-7) “Comentario fijado” con CTA y criterio de calificación (para quién sí/no).
-8) 8 respuestas listas para comentarios escépticos.
+Zadanie:
+Stwórz skrypt 45–60s z:
+1) Hook (0–3s): 5 opcji skierowanych do roli (bez clickbaitu).
+2) Ból (3–15s): opisz realny koszt (czas/pieniądze/błędy) z przykładem.
+3) Insight (15–30s): dlaczego to się dzieje (przyczyna źródłowa) bez nadmiaru technikaliów.
+4) Ramy (30–50s): 3 działania od razu (co sprawdzić/zrobić).
+5) CTA (50–60s): zaproś na diagnozę (2 warianty: miękki i bezpośredni).
+6) Tekst na ekranie dla każdego segmentu (krótkie frazy).
+7) „Przypięty komentarz” z CTA i kryteriami kwalifikacji (dla kogo tak/nie).
+8) 8 gotowych odpowiedzi na sceptyczne komentarze.
 
-Restricciones:
-- No prometas resultados garantizados.
-- Habla de proceso, evidencia y condiciones.`,
+Ograniczenia:
+- Nie obiecuj gwarantowanych wyników.
+- Mów o procesie, dowodach i warunkach.`,
     thumbnail: "",
   },
   {
     id: "msb2b-002",
-    title: "Script ‘Cold outbound’ por video (30–45s) — Personalización + hipótesis + siguiente paso",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Cold outbound’ wideo (30–45s) — Personalizacja + hipoteza + następny krok",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para video personalizado (Loom) a prospectos B2B: breve, relevante y con CTA claro.",
-    prompt: `Contexto:
-- Empresa prospecto (tipo y ejemplo):
-- Rol destinatario:
-- Señal observada (web, ads, hiring, producto, pricing, reviews):
-- Hipótesis del problema:
-- Tu solución:
-- Oferta de inicio (audit, sprint, workshop):
-- Tiempo de la reunión propuesta:
+      "Skrypt do spersonalizowanego wideo (Loom) dla prospectów B2B: krótko, konkretnie i z jasnym CTA.",
+    prompt: `Kontekst:
+- Firma prospect (typ + przykład):
+- Rola odbiorcy:
+- Zauważony sygnał (www, reklamy, rekrutacja, produkt, pricing, opinie):
+- Hipoteza problemu:
+- Twoje rozwiązanie:
+- Oferta startowa (audyt, sprint, warsztat):
+- Czas proponowanego spotkania:
 
-Genera:
-1) Guion 30–45s estilo Loom:
-   - Saludo + por qué grabo
-   - Observación concreta (1)
-   - Hipótesis (1)
-   - Qué haría diferente (2 ideas)
-   - CTA: 2 opciones de siguiente paso (15 min / audit)
-2) 3 versiones de subject line para email que acompaña el video.
-3) Texto del email completo (corto, 80–120 palabras).
-4) Follow-up 1 y 2 (breves, con diferentes ángulos).`,
+Wygeneruj:
+1) Skrypt 30–45s w stylu Loom:
+   - Powitanie + dlaczego nagrywam
+   - Konkretna obserwacja (1)
+   - Hipoteza (1)
+   - Co zrobiłbym inaczej (2 pomysły)
+   - CTA: 2 opcje następnego kroku (15 min / audyt)
+2) 3 wersje tematu maila, który towarzyszy wideo.
+3) Treść maila (krótka, 80–120 słów).
+4) Follow-up 1 i 2 (krótkie, z innymi kątami).`,
     thumbnail: "",
   },
   {
     id: "msb2b-003",
-    title: "Script Webinar B2B (60–90s promo) — Promesa + agenda + prueba + CTA registro",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt Webinar B2B (promo 60–90s) — Obietnica + agenda + dowód + CTA rejestracja",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion promocional para invitar a webinar B2B con promesa y agenda concreta.",
-    prompt: `Rellena:
-- Tema del webinar:
+      "Skrypt promocyjny zapraszający na webinar B2B z konkretną obietnicą i agendą.",
+    prompt: `Uzupełnij:
+- Temat webinaru:
 - ICP:
-- Rol:
-- Resultado prometido (realista):
-- Agenda (3–5 puntos):
-- Prueba/credenciales:
-- Fecha/hora:
-- CTA registro:
-- Tono:
+- Rola:
+- Obiecany rezultat (realistyczny):
+- Agenda (3–5 punktów):
+- Dowód/wiarygodność:
+- Data/godzina:
+- CTA rejestracja:
+- Ton:
 
-Crea:
-1) Guion 60–90s para video promo:
+Stwórz:
+1) Skrypt 60–90s do wideo promo:
    - Hook (3)
-   - Problema + costo
-   - Promesa del webinar (sin humo)
-   - Agenda clara (bullets)
-   - Prueba/credenciales
-   - CTA registro + recordatorio
-2) Texto en pantalla por sección.
-3) 5 hooks alternativos.
-4) Copy para post de LinkedIn anunciando el webinar (2 versiones).`,
+   - Problem + koszt
+   - Obietnica webinaru (bez “hype’u”)
+   - Jasna agenda (bullets)
+   - Dowód/wiarygodność
+   - CTA rejestracja + przypomnienie
+2) Tekst na ekranie dla każdej sekcji.
+3) 5 alternatywnych hooków.
+4) Copy do posta na LinkedIn ogłaszającego webinar (2 wersje).`,
     thumbnail: "",
   },
   {
     id: "msb2b-004",
-    title: "Script ‘Case Study’ (60–75s) — Contexto → Problema → Intervención → Resultado → Lección",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Case Study’ (60–75s) — Kontekst → Problem → Interwencja → Wynik → Lekcja",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion corto de caso de estudio para LinkedIn: creíble y accionable.",
-    prompt: `Contexto:
-- Cliente (puede ser anónimo):
-- Industria/tamaño:
-- Problema:
-- KPI baseline:
-- Intervención (qué hiciste):
-- Resultado (con números si existen):
-- Limitaciones/condiciones:
+      "Krótki skrypt case study na LinkedIn: wiarygodny i praktyczny.",
+    prompt: `Kontekst:
+- Klient (może być anonimowy):
+- Branża/wielkość:
+- Problem:
+- KPI wyjściowe:
+- Interwencja (co zrobiłeś/-aś):
+- Wynik (z liczbami, jeśli są):
+- Ograniczenia/warunki:
 - CTA:
 
-Genera:
-1) Guion 60–75s con tiempos.
-2) 6 “b-roll ideas” (pantallas, gráficos, pizarras).
-3) Texto en pantalla (datos clave).
-4) 10 titulares para el post del case study (no clickbait).
-5) 6 FAQs para objeciones (atribución, tiempo, tamaño, etc.).`,
+Wygeneruj:
+1) Skrypt 60–75s z czasami.
+2) 6 pomysłów na b-roll (ekrany, wykresy, tablice).
+3) Tekst na ekranie (kluczowe dane).
+4) 10 tytułów do posta z case study (bez clickbaitu).
+5) 6 FAQ na obiekcje (atrybucja, czas, skala firmy itd.).`,
     thumbnail: "",
   },
   {
     id: "msb2b-005",
-    title: "Script ‘Myth-busting B2B’ (45–60s) — Mito del mercado → Realidad → Qué hacer",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Myth-busting B2B’ (45–60s) — Mit rynkowy → Rzeczywistość → Co robić",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Desmonta un mito común (ej. ‘más leads = más ventas’) y posiciona tu enfoque.",
-    prompt: `Rellena:
+      "Obala popularny mit (np. ‘więcej leadów = więcej sprzedaży’) i pozycjonuje Twoje podejście.",
+    prompt: `Uzupełnij:
 - ICP:
-- Mito común:
-- Por qué es falso:
-- Evidencia/razonamiento:
-- Framework alternativo:
+- Popularny mit:
+- Dlaczego to nieprawda:
+- Dowód/rozumowanie:
+- Alternatywne ramy (framework):
 - CTA:
 
-Crea:
-- 5 hooks
-- Guion 45–60s
-- 3 ejemplos concretos (ficticios pero realistas) para ilustrar
-- CTA final (2 versiones)
-- Comentario fijado con checklist descargable (si aplica).`,
+Stwórz:
+- 5 hooków
+- Skrypt 45–60s
+- 3 konkretne przykłady (fikcyjne, ale realistyczne) do zilustrowania
+- CTA na końcu (2 wersje)
+- Przypięty komentarz z checklistą do pobrania (jeśli dotyczy).`,
     thumbnail: "",
   },
 
   {
     id: "msb2b-006",
-    title: "Script ‘Objection-handling’ (45–60s) — ‘No tenemos presupuesto’ (consultivo)",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Objection-handling’ (45–60s) — ‘Nie mamy budżetu’ (konsultacyjnie)",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion respondiendo objeción de presupuesto con enfoque ROI, alternativas y next step.",
-    prompt: `Contexto:
-- Servicio:
+      "Skrypt odpowiadający na obiekcję budżetową: ROI, alternatywy i kolejny krok.",
+    prompt: `Kontekst:
+- Usługa:
 - ICP:
-- Ticket promedio:
-- KPI impactado:
-- Prueba:
+- Średni ticket:
+- KPI, na który wpływasz:
+- Dowód:
 - CTA:
 
-Crea guion 45–60s:
-1) Empatía (sin regañar).
-2) Reframe: presupuesto vs prioridad vs costo de oportunidad.
-3) 3 alternativas:
-   - scope reducido
-   - fase 1 audit
-   - plan de implementación interna
-4) Cierre con CTA a diagnóstico.
-Incluye:
-- 8 respuestas para comentarios tipo “carísimo”, “no vale”, etc.`,
+Stwórz skrypt 45–60s:
+1) Empatia (bez pouczania).
+2) Reframe: budżet vs priorytet vs koszt utraconych korzyści.
+3) 3 alternatywy:
+   - zawężony scope
+   - faza 1: audyt
+   - plan wdrożenia wewnętrznego
+4) Zakończenie z CTA na diagnozę.
+Uwzględnij:
+- 8 odpowiedzi na komentarze typu “za drogo”, “nie warto” itd.`,
     thumbnail: "",
   },
   {
     id: "msb2b-007",
-    title: "Script ‘Objection-handling’ (45–60s) — ‘Ya tenemos proveedor’",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Objection-handling’ (45–60s) — ‘Mamy już dostawcę’",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Posicionamiento sin atacar al proveedor: detecta gaps y ofrece auditoría/segunda opinión.",
-    prompt: `Rellena:
-- Servicio:
-- Qué suele fallar con proveedores:
-- Señales de alerta:
-- Oferta de entrada (segunda opinión / audit):
+      "Pozycjonowanie bez atakowania dostawcy: wykryj luki i zaproponuj audyt/drugą opinię.",
+    prompt: `Uzupełnij:
+- Usługa:
+- Co zwykle zawodzi u dostawców:
+- Sygnały ostrzegawcze:
+- Oferta wejściowa (druga opinia / audyt):
 - CTA:
 
-Genera:
+Wygeneruj:
 - Hook (3)
-- Por qué “tener proveedor” no garantiza outcomes
-- 5 señales de que hay gaps
-- Oferta de segunda opinión (qué incluye, breve)
+- Dlaczego “mieć dostawcę” nie gwarantuje outcome’ów
+- 5 sygnałów, że są luki
+- Oferta drugiej opinii (co zawiera, krótko)
 - CTA.`,
     thumbnail: "",
   },
   {
     id: "msb2b-008",
-    title: "Script ‘Pricing & Scope’ (60s) — Explicar precio en B2B sin defensiva",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Pricing & Scope’ (60s) — Wyjaśnij cenę w B2B bez defensywy",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para explicar el pricing: alcance, riesgos, trade-offs y cómo decidir.",
-    prompt: `Contexto:
-- Servicio:
-- Rango de precios:
-- Qué incluye:
-- Qué NO incluye:
-- Variables que afectan precio:
+      "Skrypt do tłumaczenia pricingu: zakres, ryzyka, trade-offy i jak podjąć decyzję.",
+    prompt: `Kontekst:
+- Usługa:
+- Przedział cenowy:
+- Co obejmuje:
+- Czego NIE obejmuje:
+- Zmienne wpływające na cenę:
 - CTA:
 
-Crea guion:
+Stwórz skrypt:
 - Hook (2)
-- 3 razones del rango de precio
-- 4 variables que lo cambian
-- Cómo elegir paquete (starter/growth/scale)
-- CTA a llamada o a audit
-Incluye texto en pantalla y mini tabla verbal.`,
+- 3 powody, skąd bierze się ten przedział
+- 4 zmienne, które go zmieniają
+- Jak wybrać pakiet (starter/growth/scale)
+- CTA na rozmowę lub audyt
+Dodaj tekst na ekranie i mini “tabelę” mówioną.`,
     thumbnail: "",
   },
   {
     id: "msb2b-009",
-    title: "Script ‘How we work’ (60–90s) — Proceso, roles, SLAs, comunicación",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘How we work’ (60–90s) — Proces, role, SLA, komunikacja",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para ventas: explica el proceso de trabajo con claridad (reduce fricción).",
-    prompt: `Rellena:
-- Servicio:
-- Duración típica:
-- Cadencia de reuniones:
-- Entregables:
-- Herramientas (Slack, Notion, Asana, etc.):
-- SLAs:
-- Responsabilidades cliente:
+      "Skrypt sprzedażowy: klarownie tłumaczy proces współpracy (zmniejsza tarcie).",
+    prompt: `Uzupełnij:
+- Usługa:
+- Typowy czas trwania:
+- Kadencja spotkań:
+- Deliverables:
+- Narzędzia (Slack, Notion, Asana itd.):
+- SLA:
+- Odpowiedzialności klienta:
 - CTA:
 
-Crea:
-1) Guion 60–90s por secciones (Kickoff → Implementación → Reporte → Optimización).
-2) Lista de “lo que esperamos del cliente” (5).
-3) Bloque FAQ (6).
-4) Copy corto para post de LinkedIn “Así trabajamos”.`,
+Stwórz:
+1) Skrypt 60–90s podzielony na sekcje (Kickoff → Wdrożenie → Raport → Optymalizacja).
+2) Lista “czego oczekujemy od klienta” (5).
+3) Blok FAQ (6).
+4) Krótkie copy do posta na LinkedIn “Tak pracujemy”.`,
     thumbnail: "",
   },
   {
     id: "msb2b-010",
-    title: "Script ‘Value prop’ (45–60s) — Unique Mechanism B2B (nombre + analogía + pasos)",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Value prop’ (45–60s) — Unikalny Mechanizm B2B (nazwa + analogia + kroki)",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Posiciona con mecanismo único: evita ‘somos full service’, enfócate en por qué funciona.",
-    prompt: `Datos:
-- Servicio:
-- Diferenciador real:
-- Competidores (cómo lo dicen):
-- Mecanismo (pasos reales):
+      "Pozycjonowanie unikalnym mechanizmem: unikaj ‘pełen serwis’, skup się na tym, dlaczego działa.",
+    prompt: `Dane:
+- Usługa:
+- Realny wyróżnik:
+- Konkurenci (jak to nazywają):
+- Mechanizm (realne kroki):
 - ICP:
 - CTA:
 
-Crea:
-1) 5 nombres para el mecanismo.
-2) Elige 1 y escribe guion 45–60s:
-   - Hook dirigido al ICP
-   - Analogía simple (1)
-   - Pasos (3–4)
-   - Resultado esperado + condición
+Stwórz:
+1) 5 nazw dla mechanizmu.
+2) Wybierz 1 i napisz skrypt 45–60s:
+   - Hook skierowany do ICP
+   - Prosta analogia (1)
+   - Kroki (3–4)
+   - Oczekiwany rezultat + warunek
    - CTA
-3) 10 bullets para landing con ese mecanismo.`,
+3) 10 bulletów na landing z tym mechanizmem.`,
     thumbnail: "",
   },
 
   {
     id: "msb2b-011",
-    title: "Script ‘Audit offer’ (45–60s) — vender auditoría como entrada",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Audit offer’ (45–60s) — sprzedaj audyt jako wejście",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para vender auditoría/diagnóstico: alcance, entregables y siguientes pasos.",
-    prompt: `Contexto:
-- Qué auditas:
+      "Skrypt do sprzedaży audytu/diagnozy: zakres, deliverables i kolejne kroki.",
+    prompt: `Kontekst:
+- Co audytujesz:
 - ICP:
-- Entregables (report, roadmap, call):
-- Tiempo (7/10/14 días):
-- Precio (opcional):
+- Deliverables (raport, roadmap, call):
+- Czas (7/10/14 dni):
+- Cena (opcjonalnie):
 - CTA:
 
-Crea guion:
+Stwórz skrypt:
 - Hook (3)
-- Problema típico que detectas
-- Qué incluye el audit (en bullets hablados)
-- Qué obtiene el cliente (claridad + prioridades)
-- CTA (2 versiones)
-Incluye comentario fijado con “para quién es/no es”.`,
+- Typowy problem, który wykrywasz
+- Co zawiera audyt (mówione bullets)
+- Co dostaje klient (jasność + priorytety)
+- CTA (2 wersje)
+Dodaj przypięty komentarz “dla kogo jest/nie jest”.`,
     thumbnail: "",
   },
   {
     id: "msb2b-012",
-    title: "Script ‘Workshop’ (60–90s) — vender taller ejecutivo (estrategia + roadmap)",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Workshop’ (60–90s) — sprzedaj warsztat executives (strategia + roadmap)",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para vender workshop B2B: notas, agenda, outcomes, participantes ideales.",
-    prompt: `Rellena:
-- Tema del workshop:
-- Duración (90min/half-day/full-day):
-- Participantes (roles):
-- Outcomes concretos:
-- Entregables:
-- Precio (opcional):
+      "Skrypt do sprzedaży workshopu B2B: notatki, agenda, outcomes, idealni uczestnicy.",
+    prompt: `Uzupełnij:
+- Temat warsztatu:
+- Czas trwania (90 min/half-day/full-day):
+- Uczestnicy (role):
+- Konkretne outcomes:
+- Deliverables:
+- Cena (opcjonalnie):
 - CTA:
 
-Crea:
+Stwórz:
 - Hook (3)
-- Por qué existe el workshop (problema)
-- Agenda (3–6 puntos)
+- Po co istnieje ten warsztat (problem)
+- Agenda (3–6 punktów)
 - Outcomes (lista)
-- CTA a agendar
-Incluye email corto para invitar (120–160 palabras).`,
+- CTA do umówienia terminu
+Dodaj krótki email zapraszający (120–160 słów).`,
     thumbnail: "",
   },
   {
     id: "msb2b-013",
-    title: "Script ‘Hiring signal’ (45s) — convertir señales (están contratando X) en pitch",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Hiring signal’ (45s) — zamień sygnały (rekrutują X) w pitch",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para outbound basado en señal de contratación o crecimiento.",
-    prompt: `Datos:
-- Señal (jobs, funding, expansión):
-- Empresa tipo:
-- Hipótesis de necesidad:
-- Tu oferta:
+      "Skrypt outbound oparty o sygnał rekrutacji lub wzrostu.",
+    prompt: `Dane:
+- Sygnał (ogłoszenia, funding, ekspansja):
+- Typ firmy:
+- Hipoteza potrzeby:
+- Twoja oferta:
 - CTA:
 
-Crea:
-1) Guion 45s para Loom:
-   - mención señal
-   - hipótesis
-   - 2 recomendaciones rápidas
+Stwórz:
+1) Skrypt 45s do Loom:
+   - wzmianka o sygnale
+   - hipoteza
+   - 2 szybkie rekomendacje
    - CTA
-2) 3 subject lines
-3) Follow-up 1 (breve) con recurso (checklist).`,
+2) 3 tematy maila
+3) Follow-up 1 (krótki) z zasobem (checklista).`,
     thumbnail: "",
   },
   {
     id: "msb2b-014",
-    title: "Script ‘Benchmark’ (45–60s) — comparación con estándar del sector (sin inventar datos)",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Benchmark’ (45–60s) — porównanie do standardu branży (bez wymyślania danych)",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion usando benchmarks (reales si los tienes, o ‘rangos típicos’ sin afirmar).",
-    prompt: `Rellena:
+      "Skrypt z benchmarkami (realnymi, jeśli je masz, albo ‘typowe widełki’ bez twierdzeń).",
+    prompt: `Uzupełnij:
 - KPI:
-- Rango típico (si no sabes, pide que el modelo proponga rango con cautela):
+- Typowy zakres (jeśli nie wiesz: poproś model o ostrożną propozycję widełek):
 - ICP:
-- Qué suele causar bajo rendimiento:
-- Solución:
+- Co zwykle powoduje słabe wyniki:
+- Rozwiązanie:
 - CTA:
 
-Crea:
-- hook (3)
-- benchmark explicado (con disclaimer)
-- 3 causas comunes
-- 3 acciones recomendadas
-- CTA a audit/diagnóstico.`,
+Stwórz:
+- Hook (3)
+- Wyjaśnienie benchmarku (z disclaimerem)
+- 3 częste przyczyny
+- 3 rekomendowane działania
+- CTA na audyt/diagnozę.`,
     thumbnail: "",
   },
   {
     id: "msb2b-015",
-    title: "Script ‘ROI narrative’ (60s) — contar ROI con historia (sin prometer)",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘ROI narrative’ (60s) — opowiedz ROI historią (bez obietnic)",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion que vuelve tangible el ROI: tiempo ahorrado, errores evitados, eficiencia ganada.",
-    prompt: `Contexto:
-- Servicio:
-- KPI/ROI esperado:
+      "Skrypt, który ‘uczynia’ ROI namacalnym: oszczędzony czas, uniknięte błędy, zyskana efektywność.",
+    prompt: `Kontekst:
+- Usługa:
+- Oczekiwany KPI/ROI:
 - Baseline:
-- Plazo típico:
-- Prueba:
+- Typowy horyzont czasowy:
+- Dowód:
 - CTA:
 
-Crea guion 60s:
+Stwórz skrypt 60s:
 - Hook (2)
-- Historia breve (antes)
-- Intervención (qué cambió)
-- Resultado (numérico o cualitativo)
-- Condición de éxito y límites
+- Krótka historia (przed)
+- Interwencja (co się zmieniło)
+- Wynik (liczbowy lub jakościowy)
+- Warunki sukcesu i limity
 - CTA
-Incluye 6 bullets de ROI para deck.`,
+Dodaj 6 bulletów ROI do decka.`,
     thumbnail: "",
   },
 
   {
     id: "msb2b-016",
-    title: "Script ‘Competitive positioning’ (60s) — cómo elegir proveedor (checklist)",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Competitive positioning’ (60s) — jak wybrać dostawcę (checklista)",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion educativo para buyers: ayuda a elegir proveedor (tú quedas como opción natural).",
-    prompt: `Rellena:
-- Servicio:
-- 5 criterios para elegir proveedor:
-- Errores comunes al contratar:
-- Tu punto fuerte:
+      "Edukacyjny skrypt dla buyerów: pomaga wybrać dostawcę (Ty jesteś naturalną opcją).",
+    prompt: `Uzupełnij:
+- Usługa:
+- 5 kryteriów wyboru dostawcy:
+- Typowe błędy przy zatrudnianiu:
+- Twoja mocna strona:
 - CTA:
 
-Crea:
+Stwórz:
 - Hook (3)
-- Checklist explicada (criterios)
-- Errores a evitar (3)
-- Cómo trabajas (1–2 puntos)
-- CTA a audit/llamada.`,
+- Wyjaśniona checklista (kryteria)
+- Błędy do uniknięcia (3)
+- Jak pracujesz (1–2 punkty)
+- CTA na audyt/rozmowę.`,
     thumbnail: "",
   },
   {
     id: "msb2b-017",
-    title: "Script ‘Stakeholder alignment’ (60–90s) — vender internamente la iniciativa",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Stakeholder alignment’ (60–90s) — jak sprzedać inicjatywę wewnętrznie",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para ayudar al champion a vender internamente (CFO/CEO/Legal).",
-    prompt: `Contexto:
-- Iniciativa (proyecto):
-- Stakeholders:
-- Objeciones internas típicas:
-- Beneficio para CFO/CEO:
-- Riesgos y mitigación:
-- CTA (kit interno / memo / deck):
+      "Skrypt pomagający championowi sprzedać to wewnątrz (CFO/CEO/Legal).",
+    prompt: `Kontekst:
+- Inicjatywa (projekt):
+- Stakeholderzy:
+- Typowe wewnętrzne obiekcje:
+- Korzyść dla CFO/CEO:
+- Ryzyka i ich redukcja:
+- CTA (pakiet wewnętrzny / memo / deck):
 
-Crea:
-1) Guion 60–90s dirigido al champion (“si necesitas vender esto internamente…”).
-2) 10 bullets para un memo interno.
-3) 6 respuestas a objeciones típicas (CFO/IT/Legal).`,
+Stwórz:
+1) Skrypt 60–90s dla championa (“jeśli musisz sprzedać to wewnętrznie…”).
+2) 10 bulletów do wewnętrznego memo.
+3) 6 odpowiedzi na typowe obiekcje (CFO/IT/Legal).`,
     thumbnail: "",
   },
   {
     id: "msb2b-018",
-    title: "Script ‘Security/Compliance’ (45–60s) — responder dudas de datos y privacidad",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Security/Compliance’ (45–60s) — odpowiedz na pytania o dane i prywatność",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para tranquilizar sobre seguridad/compliance (sin afirmar certificaciones falsas).",
-    prompt: `Rellena:
-- Producto/servicio:
-- Datos que tocas:
-- Qué NO almacenas:
-- Controles (accesos, contratos, NDAs):
-- Cumplimientos reales (si existen):
+      "Skrypt uspokajający w sprawie security/compliance (bez fałszywych certyfikatów).",
+    prompt: `Uzupełnij:
+- Produkt/usługa:
+- Jakie dane dotykasz:
+- Czego NIE przechowujesz:
+- Kontrole (dostępy, umowy, NDA):
+- Realne compliance (jeśli istnieje):
 - CTA:
 
-Crea:
+Stwórz:
 - Hook (2)
-- Explicación simple de tu postura de seguridad
-- 5 prácticas concretas
-- Qué documentos ofreces (DPA, NDA, etc.) si aplica
-- CTA a revisión técnica.`,
+- Proste wyjaśnienie podejścia do bezpieczeństwa
+- 5 konkretnych praktyk
+- Jakie dokumenty oferujesz (DPA, NDA itd.), jeśli dotyczy
+- CTA na przegląd techniczny.`,
     thumbnail: "",
   },
   {
     id: "msb2b-019",
-    title: "Script ‘Implementation plan’ (60s) — cómo se implementa en 30 días (sin caos)",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Plan wdrożenia’ (60s) — jak wdrożyć w 30 dni (bez chaosu)",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion de implementación: días 0–7 / 8–21 / 22–30 con entregables.",
-    prompt: `Contexto:
-- Servicio:
-- Herramientas:
-- Equipo del cliente:
-- Tiempo objetivo:
-- Resultado esperado:
+      "Skrypt implementacji: dni 0–7 / 8–21 / 22–30 z deliverables.",
+    prompt: `Kontekst:
+- Usługa:
+- Narzędzia:
+- Zespół klienta:
+- Docelowy czas:
+- Oczekiwany rezultat:
 
-Crea:
-- Guion 60s con plan de 30 días por fases
-- Entregables por fase
-- Responsabilidades cliente vs tu equipo
-- CTA a kickoff call.`,
+Stwórz:
+- Skrypt 60s z planem 30 dni w etapach
+- Deliverables na etap
+- Odpowiedzialności: klient vs Twój zespół
+- CTA na kickoff call.`,
     thumbnail: "",
   },
   {
     id: "msb2b-020",
-    title: "Script ‘Retainer’ (60s) — vender servicio mensual (qué cambia cada mes)",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Retainer’ (60s) — sprzedaj usługę miesięczną (co zmienia się co miesiąc)",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para retainer: cadencia, scoreboard, optimizaciones y reportes.",
-    prompt: `Rellena:
-- Servicio mensual:
+      "Skrypt do retainera: kadencja, scoreboard, optymalizacje i raporty.",
+    prompt: `Uzupełnij:
+- Usługa miesięczna:
 - KPI:
-- Cadencia:
-- Qué optimizas:
-- Reporte:
+- Kadencja:
+- Co optymalizujesz:
+- Raport:
 - CTA:
 
-Crea:
+Stwórz:
 - Hook
-- Qué haces semana a semana
-- Cómo se mide el progreso
-- Qué obtiene el cliente cada mes (entregables)
+- Co robisz tydzień po tygodniu
+- Jak mierzymy postęp
+- Co klient dostaje co miesiąc (deliverables)
 - CTA.`,
     thumbnail: "",
   },
 
   {
     id: "msb2b-021",
-    title: "Script ‘Reverse demo’ (45–60s) — muestra el resultado primero, luego el cómo",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Reverse demo’ (45–60s) — pokaż najpierw rezultat, potem jak",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion mostrando el outcome (dashboard / pipeline / sistema) y luego el sistema.",
-    prompt: `Datos:
-- Outcome visible (dashboard, report, pipeline):
-- Servicio:
+      "Skrypt pokazujący outcome (dashboard/pipeline/system), a potem system stojący za tym.",
+    prompt: `Dane:
+- Widoczny outcome (dashboard, raport, pipeline):
+- Usługa:
 - ICP:
-- Tiempo de implementación:
+- Czas wdrożenia:
 - CTA:
 
-Crea:
-- Hook mostrando el outcome (3 opciones)
-- Qué significa ese outcome
-- Qué lo produce (3 pilares)
-- Cómo empezar (audit/sprint)
+Stwórz:
+- Hook pokazujący outcome (3 opcje)
+- Co oznacza ten outcome
+- Co go produkuje (3 filary)
+- Jak zacząć (audyt/sprint)
 - CTA.`,
     thumbnail: "",
   },
   {
     id: "msb2b-022",
-    title: "Script ‘Founder POV’ (60s) — autoridad sin humo (lo que haría si fuera tu CMO/CRO)",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Founder POV’ (60s) — autorytet bez dymu (co zrobiłbym jako Twój CMO/CRO)",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion estilo POV: “si yo fuera tu X… haría esto” con pasos y CTA.",
-    prompt: `Rellena:
-- Rol asumido (CMO/CRO/RevOps):
+      "Skrypt POV: “gdybym był Twoim X… zrobiłbym to” z krokami i CTA.",
+    prompt: `Uzupełnij:
+- Przyjęta rola (CMO/CRO/RevOps):
 - ICP:
-- Problema:
-- 3 acciones prioritarias:
-- Por qué la mayoría falla:
+- Problem:
+- 3 priorytetowe działania:
+- Dlaczego większość polega:
 - CTA:
 
-Crea:
+Stwórz:
 - Hook (3)
-- 3 prioridades con explicación
-- Advertencia (un error típico)
-- CTA a diagnóstico.`,
+- 3 priorytety z wyjaśnieniem
+- Ostrzeżenie (typowy błąd)
+- CTA na diagnozę.`,
     thumbnail: "",
   },
   {
     id: "msb2b-023",
-    title: "Script ‘FAQ B2B’ (60–90s) — responde 6 preguntas de compra en una sola pieza",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘FAQ B2B’ (60–90s) — odpowiedz na 6 pytań zakupowych w jednym materiale",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion FAQ con ritmo: alcance, tiempo, precio, equipo, resultados y riesgos.",
-    prompt: `Contexto:
-- Servicio:
+      "Skrypt FAQ w rytmie: zakres, czas, cena, zespół, wyniki i ryzyka.",
+    prompt: `Kontekst:
+- Usługa:
 - ICP:
-- 6 preguntas típicas:
+- 6 typowych pytań:
 - CTA:
 
-Crea:
+Stwórz:
 - Hook
-- Responde 6 preguntas (1–2 frases cada una)
-- Cierre con CTA
-- Texto en pantalla para cada pregunta.`,
+- Odpowiedzi na 6 pytań (po 1–2 zdania)
+- Zakończenie z CTA
+- Tekst na ekranie do każdego pytania.`,
     thumbnail: "",
   },
   {
     id: "msb2b-024",
-    title: "Script ‘RFP shortcut’ (60s) — cómo evaluarnos rápido (criterios y señales)",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘RFP shortcut’ (60s) — jak ocenić nas szybko (kryteria i sygnały)",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para buyers en procesos largos: cómo evaluarte (y por qué tú) rápido.",
-    prompt: `Rellena:
-- Servicio:
-- Qué métricas importan:
-- Señales de buen proveedor:
-- Señales rojas:
+      "Skrypt dla buyerów w długich procesach: jak szybko Cię ocenić (i czemu Ty).",
+    prompt: `Uzupełnij:
+- Usługa:
+- Jakie metryki są ważne:
+- Sygnały dobrego dostawcy:
+- Czerwone flagi:
 - CTA:
 
-Crea:
+Stwórz:
 - Hook
-- 5 señales de buen proveedor
+- 5 sygnałów dobrego dostawcy
 - 3 red flags
-- Cómo trabajas (resumen)
+- Jak pracujesz (skrót)
 - CTA.`,
     thumbnail: "",
   },
   {
     id: "msb2b-025",
-    title: "Script ‘Mini training’ (90s) — enseñar algo útil y cerrar con oferta",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Mini training’ (90s) — naucz czegoś użytecznego i domknij ofertą",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Mini entrenamiento de 90s: aporta valor real y termina con CTA a audit.",
-    prompt: `Contexto:
-- Tema (relacionado a tu servicio):
+      "Mini szkolenie 90s: realna wartość + CTA na audyt.",
+    prompt: `Kontekst:
+- Temat (powiązany z Twoją usługą):
 - ICP:
-- 3 aprendizajes:
-- Error común:
+- 3 lekcje:
+- Częsty błąd:
 - CTA:
 
-Crea:
+Stwórz:
 - Hook (3)
-- Enseña 3 cosas (con ejemplo)
-- Error común y cómo corregirlo
-- CTA a audit/llamada
-Incluye:
-- 10 bullets para convertirlo a carrusel.`,
+- Naucz 3 rzeczy (z przykładem)
+- Częsty błąd i jak go poprawić
+- CTA na audyt/rozmowę
+Uwzględnij:
+- 10 bulletów, aby przerobić na karuzelę.`,
     thumbnail: "",
   },
 
   {
     id: "msb2b-026",
-    title: "Script ‘SLA & Delivery’ (60s) — expectativas claras para reducir fricción de compra",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘SLA & Delivery’ (60s) — jasne oczekiwania, mniejsze tarcie zakupowe",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion de delivery: SLAs, tiempos de respuesta, revisiones, aprobaciones.",
-    prompt: `Rellena:
-- Servicio:
-- Tiempo de respuesta:
-- Revisiones:
-- Canales:
-- Entregables:
+      "Skrypt o delivery: SLA, czasy odpowiedzi, rundy poprawek, akceptacje.",
+    prompt: `Uzupełnij:
+- Usługa:
+- Czas odpowiedzi:
+- Poprawki:
+- Kanały:
+- Deliverables:
 - CTA:
 
-Crea:
+Stwórz:
 - Hook
-- SLA explicado simple
-- Qué pasa si hay bloqueos
-- Cómo se escala
+- SLA wyjaśnione prosto
+- Co jeśli są blokady
+- Jak eskalujemy
 - CTA.`,
     thumbnail: "",
   },
   {
     id: "msb2b-027",
-    title: "Script ‘Procurement-friendly’ (60s) — habla a compras (riesgo, contrato, claridad)",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Procurement-friendly’ (60s) — mów do zakupów (ryzyko, umowa, jasność)",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion dirigido a procurement: claridad de alcance, documentos, riesgos y control.",
-    prompt: `Rellena:
-- Servicio:
-- Documentos disponibles (NDA, SOW, DPA):
-- Forma de facturar:
-- Alcance y límites:
+      "Skrypt pod procurement: jasny zakres, dokumenty, ryzyka i kontrola.",
+    prompt: `Uzupełnij:
+- Usługa:
+- Dostępne dokumenty (NDA, SOW, DPA):
+- Model fakturowania:
+- Zakres i limity:
 - CTA:
 
-Crea guion:
+Stwórz skrypt:
 - Hook
-- 4 puntos que procurement quiere oír
-- Cómo reduces riesgo
-- CTA a revisión de SOW.`,
+- 4 rzeczy, które procurement chce usłyszeć
+- Jak redukujesz ryzyko
+- CTA na przegląd SOW.`,
     thumbnail: "",
   },
   {
     id: "msb2b-028",
-    title: "Script ‘Integration’ (60s) — cómo encaja con el stack del cliente",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Integracje’ (60s) — jak pasuje do stacku klienta",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para explicar integración con herramientas: CRM, analytics, ads, etc.",
-    prompt: `Contexto:
-- Servicio:
-- Stack típico del cliente:
-- Integraciones:
-- Requisitos:
+      "Skrypt wyjaśniający integracje z narzędziami: CRM, analytics, ads itd.",
+    prompt: `Kontekst:
+- Usługa:
+- Typowy stack klienta:
+- Integracje:
+- Wymagania:
 - CTA:
 
-Crea:
+Stwórz:
 - Hook
-- Cómo se integra (por pasos)
-- Qué accesos necesitas y por qué
-- Seguridad/roles
+- Jak się integruje (krok po kroku)
+- Jakich dostępów potrzebujesz i dlaczego
+- Bezpieczeństwo/role
 - CTA.`,
     thumbnail: "",
   },
   {
     id: "msb2b-029",
-    title: "Script ‘Time-to-value’ (60s) — primer valor en 7 días (sin prometer milagros)",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Time-to-value’ (60s) — pierwsza wartość w 7 dni (bez cudów)",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion explicando quick wins reales en 7 días y la ruta completa.",
-    prompt: `Rellena:
-- Servicio:
-- Quick win real en 7 días:
-- Requisitos del cliente:
-- Ruta completa en 30–60 días:
+      "Skrypt o realnych quick winach w 7 dni i pełnej ścieżce.",
+    prompt: `Uzupełnij:
+- Usługa:
+- Realny quick win w 7 dni:
+- Wymagania po stronie klienta:
+- Pełna ścieżka w 30–60 dni:
 - CTA:
 
-Crea:
+Stwórz:
 - Hook (2)
-- Quick win (qué y cómo)
-- Condiciones
-- Ruta completa
+- Quick win (co i jak)
+- Warunki
+- Pełna ścieżka
 - CTA.`,
     thumbnail: "",
   },
   {
     id: "msb2b-030",
-    title: "Script ‘Competitor neutral’ (60s) — comparación sin mencionar marcas",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Competitor neutral’ (60s) — porównanie bez nazw marek",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Comparación por enfoques (DIY vs agencia vs consultoría) con recomendación honesta.",
-    prompt: `Rellena:
-- Servicio:
-- 3 enfoques del mercado:
-- Para quién conviene cada uno:
-- Tu enfoque:
+      "Porównanie podejść (DIY vs agencja vs konsulting) z uczciwą rekomendacją.",
+    prompt: `Uzupełnij:
+- Usługa:
+- 3 podejścia na rynku:
+- Dla kogo pasuje każde:
+- Twoje podejście:
 - CTA:
 
-Crea:
+Stwórz:
 - Hook
-- Comparación por 5 criterios
-- Recomendación “si eres X…”
+- Porównanie w 5 kryteriach
+- Rekomendacja “jeśli jesteś X…”
 - CTA.`,
     thumbnail: "",
   },
 
   {
     id: "msb2b-031",
-    title: "Script ‘Churn reduction’ (60s) — para SaaS: retención con proceso y métricas",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Churn reduction’ (60s) — dla SaaS: retencja procesem i metrykami",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion consultivo orientado a churn: diagnóstico, palancas y CTA a audit.",
-    prompt: `Rellena:
-- Producto SaaS:
-- Churn actual (si lo sabes):
-- Segmento:
-- Palancas (onboarding, activation, value moments):
+      "Konsultacyjny skrypt o churn: diagnoza, dźwignie i CTA na audyt.",
+    prompt: `Uzupełnij:
+- Produkt SaaS:
+- Obecny churn (jeśli wiesz):
+- Segment:
+- Dźwignie (onboarding, activation, value moments):
 - CTA:
 
-Crea:
+Stwórz:
 - Hook
-- 3 causas comunes de churn
-- 3 palancas de solución (acciones)
-- CTA a diagnóstico.`,
+- 3 częste przyczyny churnu
+- 3 dźwignie rozwiązania (działania)
+- CTA na diagnozę.`,
     thumbnail: "",
   },
   {
     id: "msb2b-032",
-    title: "Script ‘Pipeline’ (60s) — para B2B: mejorar pipeline quality, no solo volumen",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Pipeline’ (60s) — dla B2B: popraw jakość pipeline’u, nie tylko wolumen",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para hablar de pipeline calidad: ICP, messaging, qualification y handoff.",
-    prompt: `Rellena:
+      "Skrypt o jakości pipeline’u: ICP, messaging, kwalifikacja i handoff.",
+    prompt: `Uzupełnij:
 - ICP:
-- Problema (pipeline):
+- Problem (pipeline):
 - KPI:
-- 3 palancas:
+- 3 dźwignie:
 - CTA:
 
-Crea:
+Stwórz:
 - Hook
-- Problema y costo
-- 3 palancas con ejemplo
+- Problem i koszt
+- 3 dźwignie z przykładem
 - CTA.`,
     thumbnail: "",
   },
   {
     id: "msb2b-033",
-    title: "Script ‘Enablement’ (60–90s) — ventas más consistentes (playbooks, guiones, objeciones)",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Enablement’ (60–90s) — bardziej przewidywalna sprzedaż (playbooki, skrypty, obiekcje)",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para vender enablement: playbook, scripts, call reviews, coaching.",
-    prompt: `Rellena:
-- Servicio enablement:
-- Problema ventas:
-- Roles:
-- Entregables:
+      "Skrypt do sprzedaży enablementu: playbook, skrypty, review calli, coaching.",
+    prompt: `Uzupełnij:
+- Usługa enablement:
+- Problem sprzedażowy:
+- Role:
+- Deliverables:
 - CTA:
 
-Crea:
+Stwórz:
 - Hook
-- 4 entregables clave
-- Cómo impacta KPIs
-- CTA a workshop.`,
+- 4 kluczowe deliverables
+- Jak wpływa na KPI
+- CTA na warsztat.`,
     thumbnail: "",
   },
   {
     id: "msb2b-034",
-    title: "Script ‘Account-based’ (60s) — ABM simple: seleccionar cuentas, mensajes, secuencias",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Account-based’ (60s) — proste ABM: wybór kont, komunikaty, sekwencje",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion ABM sin humo: proceso por capas + CTA a pilot.",
-    prompt: `Rellena:
+      "ABM bez dymu: proces warstwowy + CTA na pilota.",
+    prompt: `Uzupełnij:
 - ICP:
-- Lista de cuentas objetivo:
-- Mensaje:
-- Canales:
+- Lista kont docelowych:
+- Komunikat:
+- Kanały:
 - CTA:
 
-Crea:
+Stwórz:
 - Hook
-- ABM en 3 capas (selección, mensaje, ejecución)
-- Qué medir
-- CTA a piloto de 14 días.`,
+- ABM w 3 warstwach (selekcja, komunikat, egzekucja)
+- Co mierzyć
+- CTA na pilota 14 dni.`,
     thumbnail: "",
   },
   {
     id: "msb2b-035",
-    title: "Script ‘Ops/RevOps’ (60s) — eficiencia, reporting y atribución (sin prometer perfección)",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Ops/RevOps’ (60s) — efektywność, raportowanie i atrybucja (bez obietnic perfekcji)",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para vender RevOps: orden, dashboards, handoff, definición de etapas.",
-    prompt: `Rellena:
-- Problema ops:
-- Herramientas:
+      "Skrypt do sprzedaży RevOps: porządek, dashboardy, handoff, definicja etapów.",
+    prompt: `Uzupełnij:
+- Problem ops:
+- Narzędzia:
 - KPI:
 - CTA:
 
-Crea:
+Stwórz:
 - Hook
-- 3 síntomas de ops roto
-- 3 acciones de arreglo
+- 3 symptomy ‘zepsutego’ ops
+- 3 działania naprawcze
 - CTA.`,
     thumbnail: "",
   },
 
   {
     id: "msb2b-036",
-    title: "Script ‘Pitch deck’ (60–90s) — relato de propuesta: problema → enfoque → plan → inversión",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Pitch deck’ (60–90s) — opowieść oferty: problem → podejście → plan → inwestycja",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion narrativo para presentar propuesta en reunión o video.",
-    prompt: `Rellena:
-- Cliente (tipo):
-- Problema:
-- Objetivo:
-- Enfoque:
+      "Narracyjny skrypt do prezentacji propozycji na spotkaniu lub wideo.",
+    prompt: `Uzupełnij:
+- Typ klienta:
+- Problem:
+- Cel:
+- Podejście:
 - Plan:
-- Inversión:
+- Inwestycja:
 - CTA:
 
-Crea:
-- Guion 60–90s por secciones
-- 10 bullets para slides
-- 6 respuestas a objeciones (timing, recursos, precio, riesgo).`,
+Stwórz:
+- Skrypt 60–90s podzielony na sekcje
+- 10 bulletów na slajdy
+- 6 odpowiedzi na obiekcje (timing, zasoby, cena, ryzyko).`,
     thumbnail: "",
   },
   {
     id: "msb2b-037",
-    title: "Script ‘Proposal walkthrough’ (90s) — recorrer propuesta sin leerla (claridad)",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Proposal walkthrough’ (90s) — omów propozycję bez czytania (klarownie)",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para explicar propuesta: alcance, timeline, entregables, riesgos.",
-    prompt: `Rellena:
-- Servicio:
+      "Skrypt do wyjaśnienia propozycji: zakres, timeline, deliverables, ryzyka.",
+    prompt: `Uzupełnij:
+- Usługa:
 - Timeline:
-- Entregables:
-- Límite de alcance:
+- Deliverables:
+- Limit zakresu:
 - CTA:
 
-Crea:
-- Guion 90s
-- Mini estructura de propuesta (índice)
-- Email corto para enviar propuesta + video.`,
+Stwórz:
+- Skrypt 90s
+- Mini struktura propozycji (spis treści)
+- Krótki email do wysłania propozycji + wideo.`,
     thumbnail: "",
   },
   {
     id: "msb2b-038",
-    title: "Script ‘Pilot’ (60s) — vender piloto de 14–30 días con métricas claras",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Pilot’ (60s) — sprzedaj pilota 14–30 dni z jasnymi metrykami",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para cerrar un piloto: outcome, métricas, condiciones y next step.",
-    prompt: `Rellena:
-- Servicio:
-- Outcome del piloto:
-- Métricas:
-- Requisitos:
-- Precio:
+      "Skrypt do domknięcia pilota: outcome, metryki, warunki i następny krok.",
+    prompt: `Uzupełnij:
+- Usługa:
+- Outcome pilota:
+- Metryki:
+- Wymagania:
+- Cena:
 - CTA:
 
-Crea:
+Stwórz:
 - Hook
-- Qué incluye el piloto
-- Qué se mide y cómo
-- Qué pasa si funciona (expansión)
+- Co obejmuje pilot
+- Co mierzymy i jak
+- Co jeśli działa (rozszerzenie)
 - CTA.`,
     thumbnail: "",
   },
   {
     id: "msb2b-039",
-    title: "Script ‘Renewal’ (60s) — renueva contrato: logros + próximos pasos + inversión",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Renewal’ (60s) — odnowienie umowy: wyniki + kolejne kroki + inwestycja",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para renovar: resumen de progreso, plan próximo trimestre y CTA.",
-    prompt: `Rellena:
-- Servicio:
-- Logros (3):
-- Lo que falta:
-- Plan próximo:
-- Inversión:
+      "Skrypt do renewalu: podsumowanie postępu, plan na kolejny kwartał i CTA.",
+    prompt: `Uzupełnij:
+- Usługa:
+- Osiągnięcia (3):
+- Co jeszcze zostało:
+- Kolejny plan:
+- Inwestycja:
 - CTA:
 
-Crea:
-- Guion 60s
-- Estructura de email de renovación
-- 6 objeciones + respuestas.`,
+Stwórz:
+- Skrypt 60s
+- Struktura maila do renewalu
+- 6 obiekcji + odpowiedzi.`,
     thumbnail: "",
   },
   {
     id: "msb2b-040",
-    title: "Script ‘Referral’ (45s) — pedir referidos B2B sin incomodar",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Referral’ (45s) — prośba o polecenia B2B bez niezręczności",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para pedir referidos a clientes actuales con claridad y bajo esfuerzo.",
-    prompt: `Rellena:
-- Servicio:
-- Resultado logrado:
-- Perfil ideal para referir:
-- Incentivo (opcional):
+      "Skrypt proszący o polecenia od obecnych klientów: jasno i niskim wysiłkiem.",
+    prompt: `Uzupełnij:
+- Usługa:
+- Uzyskany rezultat:
+- Idealny profil do polecenia:
+- Bonus (opcjonalnie):
 - CTA:
 
-Crea:
-- Guion 45s (mensaje video o audio)
-- Mensaje de email y WhatsApp (texto)
-- 3 variantes por tono (cercano/premium/directo).`,
+Stwórz:
+- Skrypt 45s (wiadomość wideo albo audio)
+- Wiadomość email i WhatsApp (tekst)
+- 3 warianty tonu (blisko/premium/bezpośrednio).`,
     thumbnail: "",
   },
 
   {
     id: "msb2b-041",
-    title: "Script ‘Event networking’ (30–45s) — pitch corto para evento B2B",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Event networking’ (30–45s) — krótki pitch na event B2B",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Pitch de pasillo: qué haces, para quién, prueba y pregunta de calificación.",
-    prompt: `Rellena:
-- Qué haces:
-- Para quién:
-- Resultado:
-- Prueba:
-- Pregunta de calificación:
+      "Pitch “korytarzowy”: co robisz, dla kogo, dowód i pytanie kwalifikujące.",
+    prompt: `Uzupełnij:
+- Co robisz:
+- Dla kogo:
+- Rezultat:
+- Dowód:
+- Pytanie kwalifikujące:
 
-Crea:
-- Pitch 30–45s (natural)
-- 3 variaciones (más técnica / más simple / más ejecutiva)
-- 5 preguntas para calificar rápido.`,
+Stwórz:
+- Pitch 30–45s (naturalny)
+- 3 wariacje (bardziej technicznie / prościej / bardziej “executive”)
+- 5 pytań do szybkiej kwalifikacji.`,
     thumbnail: "",
   },
   {
     id: "msb2b-042",
-    title: "Script ‘DM to meeting’ (30s) — convertir un DM de LinkedIn en reunión",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘DM → spotkanie’ (30s) — zamień DM na LinkedIn w rozmowę",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion corto para mandar por DM: contexto + valor + CTA a 15 min.",
-    prompt: `Rellena:
-- Rol:
-- Señal (post del prospecto):
-- Problema:
+      "Krótki skrypt na DM: kontekst + wartość + CTA na 15 min.",
+    prompt: `Uzupełnij:
+- Rola:
+- Sygnał (post prospecta):
+- Problem:
 - Oferta:
 - CTA:
 
-Crea:
-- 3 mensajes DM (1 inicial, 1 follow-up, 1 cierre)
-- 2 versiones por tono (consultivo y directo)
-- 3 aperturas personalizables.`,
+Stwórz:
+- 3 wiadomości DM (1 start, 1 follow-up, 1 domknięcie)
+- 2 wersje tonu (konsultacyjny i bezpośredni)
+- 3 personalizowalne otwarcia.`,
     thumbnail: "",
   },
   {
     id: "msb2b-043",
-    title: "Script ‘Email opener’ (30–45s) — video para acompañar email frío",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Email opener’ (30–45s) — wideo do zimnego maila",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion de video muy corto para aumentar replies: observación, hipótesis y CTA.",
-    prompt: `Rellena:
-- Empresa:
-- Señal:
-- Hipótesis:
-- Oferta de audit:
+      "Bardzo krótki skrypt wideo zwiększający odpowiedzi: obserwacja, hipoteza i CTA.",
+    prompt: `Uzupełnij:
+- Firma:
+- Sygnał:
+- Hipoteza:
+- Oferta audytu:
 - CTA:
 
-Crea:
-- Guion 30–45s
-- Subject line (5)
-- Email (80–120 palabras)
-- Follow-up 1 (60–90 palabras).`,
+Stwórz:
+- Skrypt 30–45s
+- Tematy maila (5)
+- Mail (80–120 słów)
+- Follow-up 1 (60–90 słów).`,
     thumbnail: "",
   },
   {
     id: "msb2b-044",
-    title: "Script ‘Internal training invite’ (60s) — vender formación in-company",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Zaproszenie na szkolenie wewnętrzne’ (60s) — sprzedaj szkolenie in-company",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para vender capacitación interna: outcomes, agenda y logística.",
-    prompt: `Rellena:
-- Tema:
-- Duración:
-- Roles:
+      "Skrypt do sprzedaży szkolenia wewnętrznego: outcomes, agenda i logistyka.",
+    prompt: `Uzupełnij:
+- Temat:
+- Czas trwania:
+- Role:
 - Outcomes:
-- Formato:
+- Format:
 - CTA:
 
-Crea:
+Stwórz:
 - Hook
 - Agenda
 - Outcomes
-- Logística simple
+- Prosta logistyka
 - CTA
-Incluye email invitación y FAQ (6).`,
+Dodaj mail zapraszający i FAQ (6).`,
     thumbnail: "",
   },
   {
     id: "msb2b-045",
-    title: "Script ‘Partnership’ (60s) — propuesta de alianza con otra empresa",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Partnership’ (60s) — propozycja współpracy z inną firmą",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion para proponer partnership: beneficio mutuo, estructura y next step.",
-    prompt: `Rellena:
-- Tu empresa:
-- Empresa partner:
-- Audiencias:
-- Propuesta de valor cruzada:
-- Formato (webinar, bundle, referral):
+      "Skrypt do zaproponowania partnerstwa: obopólne korzyści, struktura i next step.",
+    prompt: `Uzupełnij:
+- Twoja firma:
+- Firma partnera:
+- Odbiorcy:
+- Krzyżowa propozycja wartości:
+- Format (webinar, bundle, referral):
 - CTA:
 
-Crea:
-- Guion 60s
-- Email de propuesta (150–220 palabras)
-- 3 ideas de activación conjunta.`,
+Stwórz:
+- Skrypt 60s
+- Mail z propozycją (150–220 słów)
+- 3 pomysły na wspólną aktywację.`,
     thumbnail: "",
   },
 
   {
     id: "msb2b-046",
-    title: "Script ‘Riesgo y mitigación’ (60s) — para buyers cautelosos",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Ryzyko i mitigacja’ (60s) — dla ostrożnych buyerów",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion centrado en riesgo: límites, pilotos, checkpoints y control.",
-    prompt: `Rellena:
-- Servicio:
-- Riesgos del buyer:
-- Mitigaciones:
-- Pilot posible:
+      "Skrypt skupiony na ryzyku: limity, piloty, checkpointy i kontrola.",
+    prompt: `Uzupełnij:
+- Usługa:
+- Ryzyka po stronie buyer’a:
+- Mitigacje:
+- Możliwy pilot:
 - CTA:
 
-Crea:
+Stwórz:
 - Hook
-- 3 riesgos típicos
-- 4 mitigaciones concretas
-- CTA a piloto/diagnóstico.`,
+- 3 typowe ryzyka
+- 4 konkretne mitigacje
+- CTA na pilota/diagnozę.`,
     thumbnail: "",
   },
   {
     id: "msb2b-047",
-    title: "Script ‘Timeline real’ (60s) — expectativas de resultados (transparencia)",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Realny timeline’ (60s) — oczekiwania wyników (transparentnie)",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion de expectativas: quick wins, milestones y lo que no se controla.",
-    prompt: `Rellena:
-- Servicio:
+      "Skrypt o oczekiwaniach: quick wins, kamienie milowe i rzeczy poza kontrolą.",
+    prompt: `Uzupełnij:
+- Usługa:
 - Quick win:
 - Milestones:
-- Variables externas:
+- Zewnętrzne zmienne:
 - CTA:
 
-Crea:
+Stwórz:
 - Hook
-- Timeline por fases
-- Qué puede acelerar o retrasar
+- Timeline etapami
+- Co może przyspieszyć albo opóźnić
 - CTA.`,
     thumbnail: "",
   },
   {
     id: "msb2b-048",
-    title: "Script ‘Red flags’ (60s) — señales de que tu marketing/ventas están rotos",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Red flags’ (60s) — sygnały, że marketing/sprzedaż są ‘zepsute’",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion educativo: 7 señales + CTA a audit (muy compartible).",
-    prompt: `Rellena:
-- Servicio:
+      "Edukacyjny skrypt: 7 sygnałów + CTA na audyt (bardzo share’owalne).",
+    prompt: `Uzupełnij:
+- Usługa:
 - ICP:
-- 7 señales:
+- 7 sygnałów:
 - CTA:
 
-Crea:
+Stwórz:
 - Hook (3)
-- Lista señales (rápido, con ejemplo)
-- CTA a audit/diagnóstico
-- Comentario fijado con checklist.`,
+- Lista sygnałów (szybko, z przykładem)
+- CTA na audyt/diagnozę
+- Przypięty komentarz z checklistą.`,
     thumbnail: "",
   },
   {
     id: "msb2b-049",
-    title: "Script ‘One-slide pitch’ (45–60s) — todo en una diapositiva",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘One-slide pitch’ (45–60s) — wszystko na jednym slajdzie",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Guion que cabe en una sola slide: problema, enfoque, prueba y CTA.",
-    prompt: `Rellena:
-- Проблема:
+      "Skrypt mieszczący się na jednym slajdzie: problem, podejście, dowód i CTA.",
+    prompt: `Uzupełnij:
+- Problem:
 - ICP:
-- Enfoque:
-- Prueba:
+- Podejście:
+- Dowód:
 - CTA:
 
-Crea:
-- Texto exacto para 1 slide (máximo 40–60 palabras)
-- Guion hablado 45–60s explicando la slide
-- 3 variaciones del mensaje (más técnica / más ejecutiva / más simple).`,
+Stwórz:
+- Dokładny tekst na 1 slajd (max 40–60 słów)
+- Skrypt mówiony 45–60s wyjaśniający slajd
+- 3 warianty komunikatu (bardziej techniczny / bardziej executive / prostszy).`,
     thumbnail: "",
   },
   {
     id: "msb2b-050",
-    title: "Script ‘Paquete completo’ B2B — hooks + guion + texto pantalla + objeciones + CTA",
-    area: "Marketing & ventas",
-    category: "Scripts B2B",
+    title:
+      "Skrypt ‘Kompletny pakiet’ B2B — hooki + skrypt + tekst na ekran + obiekcje + CTA",
+    area: "Marketing i sprzedaż",
+    category: "Skrypty B2B",
     summary:
-      "Genera pieza completa para LinkedIn: guion, overlays, pinned comment y manejo de objeciones.",
-    prompt: `Rellena:
-- Servicio:
+      "Kompletna treść na LinkedIn: skrypt, overlaye, pinned comment i odpowiedzi na obiekcje.",
+    prompt: `Uzupełnij:
+- Usługa:
 - ICP:
-- Rol:
-- Dolor:
+- Rola:
+- Ból:
 - KPI:
-- Mecanismo:
-- Prueba:
-- Oferta de entrada:
+- Mechanizm:
+- Dowód:
+- Oferta wejściowa:
 - CTA:
-- Tono:
+- Ton:
 
-Genera:
-1) 10 hooks (dirigidos al rol).
-2) Guion final 60–90s con tiempos.
-3) Texto on-screen por tramo.
-4) Comentario fijado con:
-   - para quién es/no es
+Wygeneruj:
+1) 10 hooków (dla konkretnej roli).
+2) Finalny skrypt 60–90s z czasami.
+3) Tekst on-screen dla każdego segmentu.
+4) Przypięty komentarz z:
+   - dla kogo jest/nie jest
    - CTA
-   - pregunta final para engagement
-5) 12 respuestas a objeciones (precio, timing, proveedor actual, recursos, atribución, confianza).
-6) 5 variaciones de la misma pieza (ángulos diferentes) para A/B.`,
+   - pytaniem na koniec pod engagement
+5) 12 odpowiedzi na obiekcje (cena, timing, obecny dostawca, zasoby, atrybucja, zaufanie).
+6) 5 wariacji tego samego materiału (inne kąty) do testów A/B.`,
     thumbnail: "",
   },
 ];

@@ -3,1235 +3,1284 @@
 export const textPromptsMarketingSegmentacion = [
   {
     id: "mseg-001",
-    title: "Segmentación completa (ICP) — definir segmentos por problema, no por demografía",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Kompletna segmentacja (ICP) — zdefiniuj segmenty wg problemu, nie demografii",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Crea segmentos accionables basados en Jobs-To-Be-Done, dolor, intención y contexto de uso.",
-    prompt: `Contexto (rellena):
-- Producto/servicio:
-- Precio / ticket:
-- Mercado / país:
-- Canal principal (ads/orgánico/email/whatsapp):
-- Quién compra hoy (lo que sabes):
-- Principales casos de uso:
-- Competidores/alternativas:
-- Objeciones típicas:
-- Tiempo de decisión:
-- Qué significa ‘éxito’ para el cliente:
+      "Tworzy segmenty możliwe do wykorzystania w praktyce, oparte o Jobs-To-Be-Done, ból, intencję i kontekst użycia.",
+    prompt: `Kontekst (uzupełnij):
+- Produkt/usługa:
+- Cena / ticket:
+- Rynek / kraj:
+- Główny kanał (ads/organic/email/whatsapp):
+- Kto kupuje dziś (co wiesz):
+- Główne use case’y:
+- Konkurenci/alternatywy:
+- Typowe obiekcje:
+- Czas decyzji:
+- Co oznacza ‘sukces’ dla klienta:
 
-Tarea:
-1) Define 6–10 segmentos basados en:
-   - Problema principal (Job-To-Be-Done)
-   - Contexto (cuándo les duele más)
-   - Urgencia (alta/media/baja)
-   - Capacidad (dinero/tiempo/equipo)
-2) Para cada segmento escribe:
-   - nombre del segmento (claro y memorable)
-   - “frase de momento” (ej: “cuando ____ pasa, necesito ____”)
-   - disparadores de compra
-   - 3 mensajes clave
-   - oferta/CTA ideal (call, checkout, demo, lead magnet)
-   - señales de “no fit”
-3) Prioriza los segmentos (top 3) usando una matriz:
-   - TAM accesible, facilidad de adquisición, margen/LTV, urgencia
-4) Cierra con un plan de prueba de 2 semanas:
-   - cómo validar cada segmento (ads, contenido, encuesta, llamadas).`,
+Zadanie:
+1) Zdefiniuj 6–10 segmentów na podstawie:
+   - Głównego problemu (Job-To-Be-Done)
+   - Kontekstu (kiedy boli najbardziej)
+   - Pilności (wysoka/średnia/niska)
+   - Zdolności (pieniądze/czas/zespół)
+2) Dla każdego segmentu napisz:
+   - nazwę segmentu (jasną i zapadającą w pamięć)
+   - “zdanie-moment” (np. “kiedy ____ się dzieje, potrzebuję ____”)
+   - triggery zakupu
+   - 3 kluczowe komunikaty
+   - idealna oferta/CTA (call, checkout, demo, lead magnet)
+   - sygnały “no fit”
+3) Ustal priorytety segmentów (top 3) używając macierzy:
+   - dostępny TAM, łatwość pozyskania, marża/LTV, pilność
+4) Zakończ planem testu na 2 tygodnie:
+   - jak walidować każdy segment (ads, content, ankieta, rozmowy).`,
     thumbnail: "",
   },
   {
     id: "mseg-002",
-    title: "Segmentación por intención (cold / warm / hot) — reglas claras y triggers",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg intencji (cold / warm / hot) — jasne reguły i triggery",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Define segmentos por intención y automatiza qué contenido/oferta recibe cada uno.",
-    prompt: `Rellena:
-- Canales (email/whatsapp/ads/site):
-- Eventos trackeables (visita pricing, click CTA, reply, etc.):
+      "Definiuje segmenty wg intencji i automatyzuje, jaką treść/ofertę otrzymuje każdy segment.",
+    prompt: `Uzupełnij:
+- Kanały (email/whatsapp/ads/site):
+- Trackowalne zdarzenia (wizyta pricing, klik CTA, reply itd.):
 - Oferta:
-- Ventas (B2B/B2C) y ciclo:
+- Sprzedaż (B2B/B2C) i cykl:
 
-Tarea:
-1) Define 3 niveles:
-   - Frío: definición + criterio
-   - Tibio: definición + criterio
-   - Caliente: definición + criterio
-2) Define un scoring simple (0–100) con puntos por evento.
-3) Define 8 triggers y qué acción disparan:
-   - secuencia A/B/C
-   - cambio de mensaje
+Zadanie:
+1) Zdefiniuj 3 poziomy:
+   - Zimny: definicja + kryterium
+   - Ciepły: definicja + kryterium
+   - Gorący: definicja + kryterium
+2) Zdefiniuj prosty scoring (0–100) z punktami za zdarzenia.
+3) Zdefiniuj 8 triggerów i jaką akcję uruchamiają:
+   - sekwencja A/B/C
+   - zmiana komunikatu
    - oferta (soft/hard)
-4) Define “caps” para no saturar.
-5) Entrega una tabla con:
-   Nivel | Criterio | Mensaje principal | CTA | Contenido recomendado | Frecuencia`,
+4) Zdefiniuj “caps”, żeby nie spamować.
+5) Oddaj tabelę:
+   Poziom | Kryterium | Główny komunikat | CTA | Rekomendowane treści | Częstotliwość`,
     thumbnail: "",
   },
   {
     id: "mseg-003",
-    title: "Segmentación por etapa del funnel — awareness → consideración → conversión",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg etapu lejka — awareness → rozważanie → konwersja",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Crea segmentos por nivel de conciencia y adapta la narrativa para cada uno.",
-    prompt: `Rellena:
-- Producto:
-- Problema que resuelve:
-- Mecanismo/solución:
-- Objeciones:
-- Canales:
+      "Tworzy segmenty wg poziomu świadomości i dopasowuje narrację do każdego poziomu.",
+    prompt: `Uzupełnij:
+- Produkt:
+- Problem, który rozwiązuje:
+- Mechanizm/rozwiązanie:
+- Obiekcje:
+- Kanały:
 
-Tarea:
-1) Define 4 niveles de conciencia:
-   - No consciente
-   - Consciente del problema
-   - Consciente de la solución
-   - Consciente del producto
-2) Para cada nivel:
-   - objetivo de comunicación
-   - 5 ángulos de mensaje
-   - 3 tipos de contenido ideal
-   - CTA apropiado
-3) Da ejemplos (copy) de:
-   - 2 hooks
-   - 1 email/mensaje
-   - 1 anuncio corto
-por cada nivel.`,
+Zadanie:
+1) Zdefiniuj 4 poziomy świadomości:
+   - Nieświadomy
+   - Świadomy problemu
+   - Świadomy rozwiązania
+   - Świadomy produktu
+2) Dla każdego poziomu:
+   - cel komunikacji
+   - 5 kątów komunikatu
+   - 3 idealne typy treści
+   - właściwe CTA
+3) Podaj przykłady (copy) dla każdego poziomu:
+   - 2 hooki
+   - 1 email/wiadomość
+   - 1 krótka reklama`,
     thumbnail: "",
   },
   {
     id: "mseg-004",
-    title: "Segmentación por ‘Job-To-Be-Done’ — mapear jobs, pains, gains y ofertas",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg ‘Job-To-Be-Done’ — mapowanie jobs, pains, gains i ofert",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Descompone tu mercado en jobs y alinea mensajes + oferta por cada job.",
-    prompt: `Rellena:
-- Producto:
-- Principales usos:
-- Resultados que buscan:
-- Alternativas:
+      "Rozbija rynek na jobs i dopasowuje komunikaty + ofertę do każdego joba.",
+    prompt: `Uzupełnij:
+- Produkt:
+- Główne zastosowania:
+- Wyniki, których szukają:
+- Alternatywy:
 
-Tarea:
-1) Identifica 8 Jobs-To-Be-Done (JTBD) concretos.
-2) Para cada job:
-   - situación detonante
-   - resultado deseado
-   - pain principal
-   - alternativa actual
-   - por qué falla
-   - mensaje principal
-   - oferta ideal (lead magnet/entry/prime)
-3) Prioriza 3 JTBD por potencial y facilidad de adquisición.`,
+Zadanie:
+1) Zidentyfikuj 8 konkretnych Jobs-To-Be-Done (JTBD).
+2) Dla każdego joba:
+   - sytuacja wyzwalająca
+   - pożądany rezultat
+   - główny pain
+   - obecna alternatywa
+   - dlaczego zawodzi
+   - główny komunikat
+   - idealna oferta (lead magnet/entry/prime)
+3) Ustal priorytety 3 JTBD wg potencjału i łatwości pozyskania.`,
     thumbnail: "",
   },
   {
     id: "mseg-005",
-    title: "Segmentación por ‘capacidad’ (tiempo/dinero/equipo) — adaptar promesa y formato",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg ‘możliwości’ (czas/pieniądze/zespół) — dopasuj obietnicę i format",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Crea segmentos según recursos reales del cliente y ajusta promesa, pacing y soporte.",
-    prompt: `Rellena:
+      "Tworzy segmenty wg realnych zasobów klienta i dopasowuje obietnicę, tempo i wsparcie.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Formato (curso, servicio, SaaS):
-- Soporte disponible:
-- Precio:
+- Format (kurs, usługa, SaaS):
+- Dostępne wsparcie:
+- Cena:
 
-Tarea:
-1) Define 5 niveles de capacidad:
-   - Tiempo (alto/bajo)
-   - Dinero (alto/bajo)
-   - Equipo (solo/pequeño/empresa)
-2) Cruza y crea 4–6 segmentos finales.
-3) Para cada segmento:
-   - lo que NO debes prometer
-   - la promesa realista (cómo suena)
-   - formato recomendado (DIY, DFY, DWY)
-   - CTA ideal
-4) Termina con “cómo detectar capacidad” (preguntas para formulario/DM).`,
+Zadanie:
+1) Zdefiniuj 5 poziomów możliwości:
+   - Czas (wysoki/niski)
+   - Pieniądze (wysokie/niskie)
+   - Zespół (solo/mały/z firmą)
+2) Skrzyżuj je i zbuduj 4–6 finalnych segmentów.
+3) Dla każdego segmentu:
+   - czego NIE wolno obiecywać
+   - realistyczna obietnica (jak brzmi)
+   - rekomendowany format (DIY, DFY, DWY)
+   - idealne CTA
+4) Zakończ: “jak wykryć możliwości” (pytania do formularza/DM).`,
     thumbnail: "",
   },
 
   {
     id: "mseg-006",
-    title: "Segmentación por industria (B2B) — verticales y mensajes por vertical",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg branży (B2B) — verticale i komunikaty per vertical",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Construye 6 verticales con dolores, KPIs y ejemplos para adaptar landing/ads.",
-    prompt: `Rellena:
-- Servicio B2B:
-- KPI que mejoras:
-- Industrias objetivo (si tienes):
-- Casos o experiencia previa:
+      "Buduje 6 verticali z bólami, KPI i przykładami, by dopasować landing/ads.",
+    prompt: `Uzupełnij:
+- Usługa B2B:
+- KPI, które poprawiasz:
+- Docelowe branże (jeśli masz):
+- Case’y lub doświadczenie:
 
-Tarea:
-1) Propón 6 verticales relevantes.
-2) Para cada vertical:
-   - dolor #1 y #2
-   - KPI principal
-   - objeción típica
-   - ejemplo de caso de uso
-   - copy de 1 headline + 3 bullets
-   - CTA recomendada
-3) Recomienda 2 verticales para empezar y por qué.`,
+Zadanie:
+1) Zaproponuj 6 relewantnych verticali.
+2) Dla każdego verticala:
+   - ból #1 i #2
+   - główny KPI
+   - typowa obiekcja
+   - przykład use case’u
+   - copy: 1 headline + 3 bullets
+   - rekomendowane CTA
+3) Zarekomenduj 2 verticale na start i dlaczego.`,
     thumbnail: "",
   },
   {
     id: "mseg-007",
-    title: "Segmentación por rol (B2B) — decisor vs usuario vs campeón interno",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg roli (B2B) — decydent vs użytkownik vs wewnętrzny champion",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Adapta mensajes y assets según rol: CFO/CEO/marketing manager/ops, etc.",
-    prompt: `Rellena:
-- Producto/servicio:
-- Roles involucrados:
-- Proceso de compra:
-- Riesgos percibidos:
+      "Dopasowuje komunikaty i assety do roli: CFO/CEO/marketing manager/ops itd.",
+    prompt: `Uzupełnij:
+- Produkt/usługa:
+- Role zaangażowane:
+- Proces zakupu:
+- Postrzegane ryzyka:
 
-Tarea:
-1) Define 3 roles típicos:
-   - Decisor económico
-   - Usuario principal
-   - Campeón interno
-2) Para cada rol:
-   - qué le importa (prioridades)
-   - objeciones
-   - métricas de éxito
-   - proof que necesita
-   - mensaje principal y CTA
-3) Crea 1 email y 1 anuncio corto por rol.`,
+Zadanie:
+1) Zdefiniuj 3 typowe role:
+   - Decydent finansowy
+   - Główny użytkownik
+   - Wewnętrzny champion
+2) Dla każdej roli:
+   - co ich obchodzi (priorytety)
+   - obiekcje
+   - metryki sukcesu
+   - jaki proof jest potrzebny
+   - główny komunikat i CTA
+3) Napisz 1 email i 1 krótką reklamę na rolę.`,
     thumbnail: "",
   },
   {
     id: "mseg-008",
-    title: "Segmentación por comportamiento (RFM) — Recencia, Frecuencia, Valor",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja behawioralna (RFM) — Recent, Frequency, Monetary",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Crea segmentos RFM listos para email/WhatsApp: reactivación, upsell, VIP y más.",
-    prompt: `Rellena:
-- Tipo de negocio (ecom/servicios):
-- Ventana de compra/recompra:
-- Datos disponibles (fechas, #compras, gasto):
-- Productos/categorías:
+      "Tworzy segmenty RFM gotowe do email/WhatsApp: reaktywacja, upsell, VIP i inne.",
+    prompt: `Uzupełnij:
+- Typ biznesu (ecom/usługi):
+- Okno zakupu/ponownego zakupu:
+- Dostępne dane (daty, #zakupów, wydatki):
+- Produkty/kategorie:
 
-Tarea:
-1) Define umbrales RFM (alto/medio/bajo) para tu caso.
-2) Crea 8 segmentos:
-   - VIP (alto valor, alta frecuencia)
-   - Nuevos (reciente, baja frecuencia)
-   - En riesgo (no reciente)
-   - Dormidos
-   - Cazadores de ofertas, etc.
-3) Para cada segmento:
-   - objetivo (retener, upsell, winback)
-   - 3 mensajes/ángulos
-   - oferta recomendada
-   - frecuencia segura
-4) Crea un calendario de 4 semanas (qué segmento recibe qué).`,
+Zadanie:
+1) Zdefiniuj progi RFM (wysoki/średni/niski) pod Twoją sytuację.
+2) Stwórz 8 segmentów:
+   - VIP (wysoka wartość, wysoka częstotliwość)
+   - Nowi (świeży zakup, niska częstotliwość)
+   - W ryzyku (brak świeżości)
+   - Uśpieni
+   - Łowcy promocji itd.
+3) Dla każdego segmentu:
+   - cel (utrzymanie, upsell, winback)
+   - 3 komunikaty/kąty
+   - rekomendowana oferta
+   - bezpieczna częstotliwość
+4) Stwórz kalendarz na 4 tygodnie (który segment dostaje co).`,
     thumbnail: "",
   },
   {
     id: "mseg-009",
-    title: "Segmentación por engagement (email) — activos / tibios / inactivos con plan de higiene",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg engagementu (email) — aktywni / ciepli / nieaktywni + plan higieny",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Define reglas para segmentar por engagement y mejorar deliverability sin perder ventas.",
-    prompt: `Rellena:
+      "Ustala reguły segmentacji wg engagementu i poprawia deliverability bez utraty sprzedaży.",
+    prompt: `Uzupełnij:
 - ESP (Klaviyo/Mailchimp/etc.):
-- Frecuencia de envío:
-- Baseline de opens/clicks:
-- Objetivo (ventas/nurturing):
+- Częstotliwość wysyłki:
+- Bazowy poziom open/click:
+- Cel (sprzedaż/nurturing):
 
-Tarea:
-1) Define segmentos:
-   - Súper activos
-   - Activos
-   - Tibios
-   - Inactivos 30/60/90
-2) Define reglas exactas (ej: “ha abierto ≥2 de últimos 10”).
-3) Para cada segmento:
-   - tipo de contenido
-   - frecuencia
+Zadanie:
+1) Zdefiniuj segmenty:
+   - Super aktywni
+   - Aktywni
+   - Ciepławo aktywni
+   - Nieaktywni 30/60/90
+2) Zdefiniuj dokładne reguły (np. “otworzył ≥2 z ostatnich 10”).
+3) Dla każdego segmentu:
+   - typ treści
+   - częstotliwość
    - CTA
-4) Define un plan de re-engagement (7 días) y un plan de limpieza (cuándo y cómo).`,
+4) Zdefiniuj plan re-engagement (7 dni) i plan czyszczenia (kiedy i jak).`,
     thumbnail: "",
   },
   {
     id: "mseg-010",
-    title: "Segmentación por fuente de adquisición — adaptar promesa según ‘cómo llegaron’",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg źródła pozyskania — dopasuj obietnicę do tego, ‘skąd przyszli’",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Convierte sources (ads, orgánico, referral, webinar) en segmentos con narrativa distinta.",
-    prompt: `Rellena:
-- Fuentes: (Meta ads, Google, TikTok, orgánico, afiliado, etc.)
-- Lead magnets por fuente:
+      "Zamienia sources (ads, organic, referral, webinar) w segmenty z inną narracją.",
+    prompt: `Uzupełnij:
+- Źródła (Meta ads, Google, TikTok, organic, afiliacje itd.):
+- Lead magnety per źródło:
 - Oferta:
-- Objeciones:
+- Obiekcje:
 
-Tarea:
-1) Define 6 segmentos por fuente.
-2) Para cada fuente:
-   - expectativa con la que llegan
-   - qué deben aprender primero
-   - mensaje de bienvenida ideal
-   - CTA apropiada
-3) Crea 1 mensaje de onboarding por fuente (listo para copiar).`,
+Zadanie:
+1) Zdefiniuj 6 segmentów wg źródła.
+2) Dla każdego źródła:
+   - z jakimi oczekiwaniami przychodzą
+   - czego muszą się nauczyć najpierw
+   - idealna wiadomość powitalna
+   - właściwe CTA
+3) Napisz 1 onboarding message na źródło (gotowe do skopiowania).`,
     thumbnail: "",
   },
 
   {
     id: "mseg-011",
-    title: "Segmentación por ‘problema específico’ — 12 micro-segmentos con copy distinto",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg ‘konkretnego problemu’ — 12 mikrosegmentów z innym copy",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Genera micro-segmentos por problema concreto y crea mensajes y recursos por cada uno.",
-    prompt: `Rellena:
+      "Generuje mikrosegmenty wg konkretnego sub-problemu i tworzy komunikaty oraz zasoby per segment.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Problema general:
-- Sub-problemas conocidos (si tienes):
+- Problem ogólny:
+- Znane sub-problemy (jeśli masz):
 
-Tarea:
-1) Genera 12 micro-segmentos por sub-problema (muy específico).
-2) Para cada micro-segmento:
-   - nombre
-   - síntoma típico
-   - causa raíz probable
-   - solución (idea)
-   - recurso puente (lead magnet)
-   - CTA final
-3) Escribe 2 hooks y 1 headline por micro-segmento.`,
+Zadanie:
+1) Wygeneruj 12 mikrosegmentów wg sub-problemów (bardzo konkretnie).
+2) Dla każdego mikrosegmentu:
+   - nazwa
+   - typowy symptom
+   - prawdopodobna przyczyna źródłowa
+   - rozwiązanie (idea)
+   - zasób-pomost (lead magnet)
+   - finalne CTA
+3) Napisz 2 hooki i 1 headline na mikrosegment.`,
     thumbnail: "",
   },
   {
     id: "mseg-012",
-    title: "Segmentación por triggers (momentos) — ‘cuando pasa X, compran más rápido’",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg triggerów (momenty) — ‘gdy dzieje się X, kupują szybciej’",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Encuentra detonantes situacionales y crea mensajes específicos por trigger.",
-    prompt: `Rellena:
+      "Wyszukuje sytuacyjne wyzwalacze zakupu i tworzy komunikaty specyficzne dla triggera.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Momentos conocidos (ej: lanzamiento, crisis, contratar, salir al mercado):
-- Canal:
+- Znane momenty (np. launch, kryzys, zatrudnianie, wejście na rynek):
+- Kanał:
 
-Tarea:
-1) Lista 10 triggers de compra (situaciones).
-2) Para cada trigger:
-   - emoción dominante
-   - urgencia
-   - promesa más relevante
-   - objeción típica
-   - CTA ideal
-3) Escribe 1 anuncio corto y 1 DM por trigger.`,
+Zadanie:
+1) Wypisz 10 triggerów zakupu (sytuacji).
+2) Dla każdego triggera:
+   - dominująca emocja
+   - pilność
+   - najbardziej relewantna obietnica
+   - typowa obiekcja
+   - idealne CTA
+3) Napisz 1 krótką reklamę i 1 DM na trigger.`,
     thumbnail: "",
   },
   {
     id: "mseg-013",
-    title: "Segmentación por nivel de experiencia — principiante vs intermedio vs avanzado",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg poziomu doświadczenia — początkujący vs średniozaawansowany vs zaawansowany",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Adapta lenguaje, ejemplos y oferta según experiencia previa del cliente.",
-    prompt: `Rellena:
+      "Dopasowuje język, przykłady i ofertę wg doświadczenia klienta.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Tema:
-- Errores comunes:
-- Canal:
+- Temat:
+- Typowe błędy:
+- Kanał:
 
-Tarea:
-1) Define 3 niveles (principiante/intermedio/avanzado) con criterios claros.
-2) Para cada nivel:
-   - qué creen hoy (creencias)
-   - qué necesitan aprender
-   - qué evitar (lo que los frustra)
-   - mensaje principal y CTA
-3) Escribe:
+Zadanie:
+1) Zdefiniuj 3 poziomy (początkujący/średniozaawansowany/zaawansowany) z jasnymi kryteriami.
+2) Dla każdego poziomu:
+   - w co wierzą dziś (przekonania)
+   - czego muszą się nauczyć
+   - czego unikać (co frustruje)
+   - główny komunikat i CTA
+3) Napisz:
    - 1 email
-   - 1 anuncio
-   - 1 hook de video
-para cada nivel.`,
+   - 1 reklamę
+   - 1 hook do wideo
+dla każdego poziomu.`,
     thumbnail: "",
   },
   {
     id: "mseg-014",
-    title: "Segmentación por presupuesto — ‘precio sensible’ sin destruir margen",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg budżetu — ‘wrażliwi na cenę’ bez niszczenia marży",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Segmenta por sensibilidad al precio y define ofertas escalonadas y copy adecuada.",
-    prompt: `Rellena:
-- Precio actual:
-- Alternativas de menor ticket:
-- Alternativas premium:
-- Canal:
+      "Segmentuje wg wrażliwości cenowej i definiuje drabinkę ofert oraz dopasowane copy.",
+    prompt: `Uzupełnij:
+- Aktualna cena:
+- Tańsze alternatywy:
+- Premium alternatywy:
+- Kanał:
 
-Tarea:
-1) Define 3 segmentos:
-   - Sensible al precio
-   - Valor/ROI
-   - Premium (status/seguridad)
-2) Para cada segmento:
-   - lenguaje recomendado
-   - prueba que más pesa
-   - formato de oferta (bundle, plan, garantía, prueba)
+Zadanie:
+1) Zdefiniuj 3 segmenty:
+   - Wrażliwy na cenę
+   - Wartość/ROI
+   - Premium (status/bezpieczeństwo)
+2) Dla każdego segmentu:
+   - rekomendowany język
+   - proof, który waży najwięcej
+   - format oferty (bundle, plan, gwarancja, trial)
    - CTA
-3) Escribe 2 versiones de pitch por segmento (corto y largo).`,
+3) Napisz 2 wersje pitchu na segment (krótki i długi).`,
     thumbnail: "",
   },
   {
     id: "mseg-015",
-    title: "Segmentación por objeción dominante — 8 segmentos según la razón por la que NO compran",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg dominującej obiekcji — 8 segmentów wg powodu, dla którego NIE kupują",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Crea segmentos por objeción y asigna nurturing/ads específicos para cada uno.",
-    prompt: `Rellena:
+      "Tworzy segmenty wg obiekcji i przypisuje nurturing/ads specyficzne dla każdego segmentu.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Lista de objeciones reales (mínimo 8):
-- Canales:
+- Lista realnych obiekcji (min. 8):
+- Kanały:
 
-Tarea:
-1) Convierte cada objeción en un segmento (ej: “No tengo tiempo”).
-2) Para cada segmento:
-   - qué necesitan ver/entender
-   - mensaje principal (reframe)
-   - recurso puente ideal
-   - CTA final
-3) Escribe 1 anuncio y 1 email por objeción.`,
+Zadanie:
+1) Zamień każdą obiekcję w segment (np. “Nie mam czasu”).
+2) Dla każdego segmentu:
+   - co muszą zobaczyć/zrozumieć
+   - główny komunikat (reframe)
+   - idealny zasób-pomost
+   - finalne CTA
+3) Napisz 1 reklamę i 1 email na obiekcję.`,
     thumbnail: "",
   },
 
   {
     id: "mseg-016",
-    title: "Segmentación por categoría de producto (eCommerce) — colecciones y bundles por intención",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg kategorii produktu (eCommerce) — kolekcje i bundle’e wg intencji",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Crea segmentos por intención de compra (uso) y asigna colecciones/bundles.",
-    prompt: `Rellena:
-- Catálogo (categorías):
+      "Tworzy segmenty wg intencji zakupu (use case) i przypisuje kolekcje/bundle’e.",
+    prompt: `Uzupełnij:
+- Katalog (kategorie):
 - AOV:
-- productos top:
-- Estacionalidad:
+- top produkty:
+- Sezonowość:
 
-Tarea:
-1) Define 8 intenciones de compra (ej: regalo, uso diario, premium, urgente).
-2) Para cada intención:
-   - colección recomendada (productos)
-   - bundle sugerido
-   - copy de 1 headline + 5 bullets
+Zadanie:
+1) Zdefiniuj 8 intencji zakupu (np. prezent, codziennie, premium, pilne).
+2) Dla każdej intencji:
+   - rekomendowana kolekcja (produkty)
+   - sugerowany bundle
+   - copy: 1 headline + 5 bullets
    - CTA
-3) Define flujo post-click: landing/colección y upsell.`,
+3) Zdefiniuj flow po kliknięciu: landing/kolekcja i upsell.`,
     thumbnail: "",
   },
   {
     id: "mseg-017",
-    title: "Segmentación por ciclo de vida — nuevo → activado → recurrente → en riesgo",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg cyklu życia — nowy → aktywowany → powracający → w ryzyku",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Define lifecycle stages y qué debe recibir cada uno para mejorar LTV.",
-    prompt: `Rellena:
-- Ventana típica de recompra:
-- Producto:
-- Canales post-compra:
+      "Definiuje lifecycle stages i co powinien dostać każdy etap, żeby podnieść LTV.",
+    prompt: `Uzupełnij:
+- Typowe okno ponownego zakupu:
+- Produkt:
+- Kanały po zakupie:
 
-Tarea:
-1) Define 6 etapas del ciclo de vida con criterios numéricos.
-2) Para cada etapa:
-   - objetivo (activar, retener, upsell, winback)
-   - 3 mensajes clave
-   - oferta recomendada
-3) Crea una tabla de automatizaciones por etapa.`,
+Zadanie:
+1) Zdefiniuj 6 etapów cyklu życia z kryteriami liczbowymi.
+2) Dla każdego etapu:
+   - cel (aktywować, utrzymać, upsell, winback)
+   - 3 kluczowe komunikaty
+   - rekomendowana oferta
+3) Stwórz tabelę automatyzacji per etap.`,
     thumbnail: "",
   },
   {
     id: "mseg-018",
-    title: "Segmentación por ‘mecanismo de solución’ — personas que creen en enfoques distintos",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg ‘mechanizmu rozwiązania’ — ludzie wierzą w różne podejścia",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Segmenta por creencias: automatización vs creatividad vs disciplina vs herramientas.",
-    prompt: `Rellena:
-- Problema:
-- Tu solución/método:
-- “Escuelas” del mercado (si existen):
-- Canal:
+      "Segmentuje wg przekonań: automatyzacja vs kreatywność vs dyscyplina vs narzędzia.",
+    prompt: `Uzupełnij:
+- Problem:
+- Twoje rozwiązanie/metoda:
+- “Szkoły” na rynku (jeśli istnieją):
+- Kanał:
 
-Tarea:
-1) Define 4–6 segmentos por creencia/mecanismo.
-2) Para cada segmento:
-   - lenguaje y metáforas
-   - qué evidencia les convence
-   - qué objeción les frena
-   - CTA ideal
-3) Escribe 3 hooks por segmento.`,
+Zadanie:
+1) Zdefiniuj 4–6 segmentów wg przekonań/mechanizmu.
+2) Dla każdego segmentu:
+   - język i metafory
+   - jakie dowody ich przekonują
+   - jaka obiekcja ich blokuje
+   - idealne CTA
+3) Napisz 3 hooki na segment.`,
     thumbnail: "",
   },
   {
     id: "mseg-019",
-    title: "Segmentación a partir de data mínima — 5 preguntas mágicas de formulario/DM",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja z minimalnej ilości danych — 5 magicznych pytań do formularza/DM",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Diseña 5 preguntas que te permiten segmentar casi todo sin fricción.",
-    prompt: `Rellena:
+      "Projektuje 5 pytań, które pozwalają segmentować prawie wszystko bez tarcia.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Canal donde preguntar (form/DM/WhatsApp):
-- 3 resultados posibles del cliente:
-- Restricciones:
+- Kanał pytań (form/DM/WhatsApp):
+- 3 możliwe rezultaty klienta:
+- Ograniczenia:
 
-Tarea:
-1) Propón 5 preguntas (máx) y el set de respuestas (opciones) para segmentar:
-   - capacidad
-   - urgencia
-   - dolor
-   - experiencia
-   - presupuesto
-2) Mapea cada respuesta a un segmento (etiqueta).
-3) Escribe el mensaje/thank you screen distinto para cada segmento (5 variaciones).`,
+Zadanie:
+1) Zaproponuj 5 pytań (max) i zestawy odpowiedzi (opcje), aby segmentować:
+   - możliwości
+   - pilność
+   - ból
+   - doświadczenie
+   - budżet
+2) Zmapuj każdą odpowiedź do segmentu (etykiety).
+3) Napisz inne podziękowanie/thank you screen dla każdego segmentu (5 wariantów).`,
     thumbnail: "",
   },
   {
     id: "mseg-020",
-    title: "Segmentación por lenguaje — detectar ‘palabras’ que delatan el segmento",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja po języku — wykryj ‘słowa’, które zdradzają segment",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Identifica patrones de palabras por segmento y ajusta copy para resonar.",
-    prompt: `Rellena:
-- Nicho:
+      "Identyfikuje wzorce słów per segment i dopasowuje copy, by mocniej rezonowało.",
+    prompt: `Uzupełnij:
+- Nisza:
 - Oferta:
-- 20 frases reales de clientes (si no tienes, inventa ejemplos realistas):
-- Canal:
+- 20 realnych zdań od klientów (jeśli nie masz, wymyśl realistyczne przykłady):
+- Kanał:
 
-Tarea:
-1) Agrupa las frases en 4–6 clusters (segmentos).
-2) Para cada cluster:
-   - palabras que se repiten
-   - emoción dominante
-   - prioridad
-   - copy recomendado (headline + 3 bullets + CTA)
-3) Crea un glosario de ‘palabras prohibidas’ por segmento (lo que rechazan).`,
+Zadanie:
+1) Zgrupuj zdania w 4–6 klastrów (segmentów).
+2) Dla każdego klastra:
+   - powtarzające się słowa
+   - dominująca emocja
+   - priorytet
+   - rekomendowane copy (headline + 3 bullets + CTA)
+3) Stwórz glosariusz “zakazanych słów” per segment (czego nie znoszą).`,
     thumbnail: "",
   },
 
   {
     id: "mseg-021",
-    title: "Segmentación por ‘nivel de dolor’ — leve, moderado, crítico (mensajes distintos)",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg ‘poziomu bólu’ — lekki, umiarkowany, krytyczny (różne komunikaty)",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Diferencia el dolor y la urgencia para no sobre-vender ni infra-vender.",
-    prompt: `Rellena:
-- Problema:
+      "Rozróżnia ból i pilność, żeby nie przesprzedawać ani nie niedosprzedawać.",
+    prompt: `Uzupełnij:
+- Problem:
 - Oferta:
-- Señales de dolor:
+- Sygnały bólu:
 
-Tarea:
-1) Define 3 niveles de dolor con criterios observables.
-2) Para cada nivel:
-   - mensaje (qué decir)
-   - tono (qué evitar)
-   - CTA (paso apropiado)
-3) Escribe 2 anuncios cortos por nivel.`,
+Zadanie:
+1) Zdefiniuj 3 poziomy bólu z obserwowalnymi kryteriami.
+2) Dla każdego poziomu:
+   - komunikat (co mówić)
+   - ton (czego unikać)
+   - CTA (właściwy krok)
+3) Napisz 2 krótkie reklamy na poziom.`,
     thumbnail: "",
   },
   {
     id: "mseg-022",
-    title: "Segmentación por ‘momento de negocio’ — pre-lanzamiento, lanzamiento, escalado, crisis",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg ‘momentu biznesowego’ — pre-launch, launch, skalowanie, kryzys",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Segmenta por etapa del negocio y ajusta oferta, promesa y prueba.",
-    prompt: `Rellena:
-- Nicho:
+      "Segmentuje wg etapu biznesu klienta i dopasowuje ofertę, obietnicę i dowód.",
+    prompt: `Uzupełnij:
+- Nisza:
 - Oferta:
-- Etapas típicas de tus clientes:
-- Canal:
+- Typowe etapy Twoich klientów:
+- Kanał:
 
-Tarea:
-1) Define 5 etapas del negocio del cliente.
-2) Para cada etapa:
-   - objetivo del cliente
-   - miedo principal
-   - métrica clave
-   - mensaje y CTA
-3) Crea una mini landing outline por etapa (secciones y bullets).`,
+Zadanie:
+1) Zdefiniuj 5 etapów biznesu klienta.
+2) Dla każdego etapu:
+   - cel klienta
+   - główny strach
+   - kluczowa metryka
+   - komunikat i CTA
+3) Stwórz mini-outline landing page’a na etap (sekcje i bullets).`,
     thumbnail: "",
   },
   {
     id: "mseg-023",
-    title: "Segmentación por canal preferido — ‘solo WhatsApp’, ‘solo email’, ‘solo llamada’",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg preferowanego kanału — ‘tylko WhatsApp’, ‘tylko email’, ‘tylko call’",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Segmenta por preferencia de comunicación y adapta el nurturing al canal.",
-    prompt: `Rellena:
+      "Segmentuje wg preferencji komunikacji i dopasowuje nurturing do kanału.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Canales disponibles:
-- Assets por canal:
+- Dostępne kanały:
+- Assety per kanał:
 
-Tarea:
-1) Define 4 segmentos por preferencia de canal.
-2) Para cada segmento:
-   - frecuencia ideal
-   - estilo de copy
-   - CTA apropiada
-3) Crea 1 mensaje de onboarding y 1 de oferta por segmento.`,
+Zadanie:
+1) Zdefiniuj 4 segmenty wg preferencji kanału.
+2) Dla każdego segmentu:
+   - idealna częstotliwość
+   - styl copy
+   - właściwe CTA
+3) Napisz 1 onboarding message i 1 ofertową wiadomość na segment.`,
     thumbnail: "",
   },
   {
     id: "mseg-024",
-    title: "Segmentación por sensibilidad a riesgo — ‘quiero certeza’ vs ‘me gusta experimentar’",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg wrażliwości na ryzyko — ‘chcę pewności’ vs ‘lubię eksperymentować’",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Segmenta por tolerancia al riesgo y adapta prueba, garantías y estructura de oferta.",
-    prompt: `Rellena:
+      "Segmentuje wg tolerancji ryzyka i dopasowuje dowody, gwarancje oraz strukturę oferty.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Riesgos percibidos:
-- Garantías/pruebas:
-- Canal:
+- Postrzegane ryzyka:
+- Gwarancje/dowody:
+- Kanał:
 
-Tarea:
-1) Define 3 segmentos:
-   - riesgo bajo (necesita certeza)
-   - riesgo medio
-   - riesgo alto (experimentador)
-2) Para cada segmento:
-   - prueba que más funciona
-   - palabras a usar/evitar
+Zadanie:
+1) Zdefiniuj 3 segmenty:
+   - niska tolerancja ryzyka (potrzebuje pewności)
+   - średnia tolerancja ryzyka
+   - wysoka tolerancja ryzyka (eksperymentator)
+2) Dla każdego segmentu:
+   - jaki proof działa najlepiej
+   - jakich słów używać/unikać
    - CTA
-3) Escribe 2 versiones de pitch por segmento.`,
+3) Napisz 2 wersje pitchu na segment.`,
     thumbnail: "",
   },
   {
     id: "mseg-025",
-    title: "Segmentación por ‘lo que ya intentaron’ — DIY, agencia, cursos, herramientas",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg ‘tego, co już próbowali’ — DIY, agencja, kursy, narzędzia",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Segmenta por intentos previos y crea mensajes que respetan su historia sin juzgar.",
-    prompt: `Rellena:
+      "Segmentuje wg wcześniejszych prób i tworzy komunikaty, które szanują ich historię bez oceniania.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Alternativas que ya probaron:
-- Por qué falló:
-- Canal:
+- Alternatywy, które już testowali:
+- Dlaczego nie zadziałało:
+- Kanał:
 
-Tarea:
-1) Crea 5 segmentos por intento previo.
-2) Para cada segmento:
-   - validación (empatía)
-   - reframe (qué faltó)
-   - por qué tu método encaja
-   - CTA ideal
-3) Escribe 1 email y 1 DM por segmento.`,
+Zadanie:
+1) Stwórz 5 segmentów wg wcześniejszej próby.
+2) Dla każdego segmentu:
+   - walidacja (empatia)
+   - reframe (czego brakowało)
+   - dlaczego Twoja metoda pasuje
+   - idealne CTA
+3) Napisz 1 email i 1 DM na segment.`,
     thumbnail: "",
   },
 
   {
     id: "mseg-026",
-    title: "Segmentación por ‘resultado deseado’ — velocidad, calidad, estabilidad, crecimiento",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg ‘pożądanego rezultatu’ — szybkość, jakość, stabilność, wzrost",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Segmenta por el objetivo final del cliente y asigna promesa, proof y oferta.",
-    prompt: `Rellena:
+      "Segmentuje wg końcowego celu klienta i przypisuje obietnicę, proof i ofertę.",
+    prompt: `Uzupełnij:
 - Oferta:
-- 4 resultados deseados típicos:
-- Canal:
+- 4 typowe pożądane rezultaty:
+- Kanał:
 
-Tarea:
-1) Define 4–6 segmentos por resultado (ej: “quiero resultados rápidos”).
-2) Para cada segmento:
-   - promesa realista
-   - riesgos/limitaciones
-   - prueba ideal
+Zadanie:
+1) Zdefiniuj 4–6 segmentów wg rezultatu (np. “chcę szybko wyników”).
+2) Dla każdego segmentu:
+   - realistyczna obietnica
+   - ryzyka/ograniczenia
+   - idealny proof
    - CTA
-3) Genera 3 hooks y 1 headline por segmento.`,
+3) Wygeneruj 3 hooki i 1 headline na segment.`,
     thumbnail: "",
   },
   {
     id: "mseg-027",
-    title: "Segmentación por ‘madurez de sistema’ — sin sistema vs con sistema vs optimización",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg ‘dojrzałości systemu’ — brak systemu vs jest system vs optymalizacja",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Segmenta según nivel de procesos y sistemas del cliente y adapta la solución.",
-    prompt: `Rellena:
-- Nicho:
+      "Segmentuje wg poziomu procesów/systemów klienta i dopasowuje rozwiązanie.",
+    prompt: `Uzupełnij:
+- Nisza:
 - Oferta:
-- Qué requiere tu solución (datos, procesos, etc.):
+- Wymagania Twojego rozwiązania (dane, procesy itd.):
 
-Tarea:
-1) Define 3 niveles de madurez:
-   - caótico (sin sistema)
-   - estable (algo de sistema)
-   - optimización (sistema sólido)
-2) Para cada nivel:
-   - qué necesitan primero
-   - qué NO debes venderles aún
-   - beneficios que más les importan
-   - CTA apropiada
-3) Crea un cuestionario de 8 ítems para clasificar a alguien.`,
+Zadanie:
+1) Zdefiniuj 3 poziomy dojrzałości:
+   - chaos (brak systemu)
+   - stabilnie (jakiś system)
+   - optymalizacja (solidny system)
+2) Dla każdego poziomu:
+   - czego potrzebują najpierw
+   - czego NIE sprzedawać jeszcze
+   - jakie korzyści są najważniejsze
+   - właściwe CTA
+3) Stwórz kwestionariusz (8 pytań) do klasyfikacji.`,
     thumbnail: "",
   },
   {
     id: "mseg-028",
-    title: "Segmentación por geografía y cultura — adaptar ejemplos, referencias y promesas",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg geografii i kultury — dopasuj przykłady, odniesienia i obietnice",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Segmenta por país/ciudad/cultura y ajusta copy sin estereotipos baratos.",
-    prompt: `Rellena:
-- Países/mercados objetivo:
+      "Segmentuje wg kraju/miasta/kultury i dopasowuje copy bez tanich stereotypów.",
+    prompt: `Uzupełnij:
+- Kraje/rynki docelowe:
 - Oferta:
-- Diferencias culturales conocidas:
-- Canales:
+- Znane różnice kulturowe:
+- Kanały:
 
-Tarea:
-1) Define 4 segmentos geográficos (o culturales) razonables.
-2) Para cada segmento:
-   - referencias y ejemplos que resuenan
-   - tono (formal/informal)
-   - objeciones típicas
-   - CTA y oferta adaptada
-3) Escribe 1 anuncio y 1 email por segmento (idioma local).`,
+Zadanie:
+1) Zdefiniuj 4 sensowne segmenty geograficzne (lub kulturowe).
+2) Dla każdego segmentu:
+   - odniesienia i przykłady, które rezonują
+   - ton (formalny/nieformalny)
+   - typowe obiekcje
+   - dopasowane CTA i oferta
+3) Napisz 1 reklamę i 1 email na segment (w lokalnym języku).`,
     thumbnail: "",
   },
   {
     id: "mseg-029",
-    title: "Segmentación por comportamiento en web — rutas de página y contenido consumido",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg zachowania na stronie — ścieżki page’ów i konsumowane treści",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Crea segmentos según navegación: blog readers, pricing visitors, checkout starters, etc.",
-    prompt: `Rellena:
-- Páginas clave (home, pricing, casos, checkout):
-- Eventos trackeables:
+      "Tworzy segmenty wg nawigacji: czytelnicy bloga, odwiedzający pricing, startujący checkout itd.",
+    prompt: `Uzupełnij:
+- Kluczowe strony (home, pricing, case’y, checkout):
+- Trackowalne zdarzenia:
 - Oferta:
-- Canal de activación (email/ads):
+- Kanał aktywacji (email/ads):
 
-Tarea:
-1) Define 8 segmentos basados en rutas:
-   - visitó pricing 2+ veces
-   - leyó 3 artículos del mismo cluster
-   - inició checkout pero no compró
-   - revisó casos, etc.
-2) Para cada segmento:
-   - hipótesis de intención
-   - mensaje principal
-   - recurso puente
+Zadanie:
+1) Zdefiniuj 8 segmentów na podstawie ścieżek:
+   - odwiedził pricing 2+ razy
+   - przeczytał 3 artykuły z jednego klastra
+   - rozpoczął checkout, ale nie kupił
+   - obejrzał case’y itd.
+2) Dla każdego segmentu:
+   - hipoteza intencji
+   - główny komunikat
+   - zasób-pomost
    - CTA
-3) Diseña una secuencia de 4 mensajes para el segmento “pricing visitor”.`,
+3) Zaprojektuj sekwencję 4 wiadomości dla segmentu “pricing visitor”.`,
     thumbnail: "",
   },
   {
     id: "mseg-030",
-    title: "Segmentación por producto de entrada — mapear ‘entry’ → ‘core’ → ‘premium’",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg produktu wejściowego — zmapuj ‘entry’ → ‘core’ → ‘premium’",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Segmenta según qué producto compraron/descargaron y crea rutas de valor (ladder).",
-    prompt: `Rellena:
-- Entry offer:
-- Core offer:
-- Premium offer:
-- Ventana típica de upgrade:
-- Canal:
+      "Segmentuje wg tego, co kupili/pobrali i tworzy ścieżki wartości (ladder).",
+    prompt: `Uzupełnij:
+- Oferta entry:
+- Oferta core:
+- Oferta premium:
+- Typowe okno upgrade’u:
+- Kanał:
 
-Tarea:
-1) Define 5 segmentos por punto de entrada.
-2) Para cada segmento:
-   - qué deben lograr antes de subir de nivel
-   - contenidos de nurturing (3 ideas)
-   - momento correcto del upsell
-   - mensaje de upsell (copy)
-3) Crea un mapa de journey por niveles.`,
+Zadanie:
+1) Zdefiniuj 5 segmentów wg punktu wejścia.
+2) Dla każdego segmentu:
+   - co muszą osiągnąć, zanim przejdą poziom wyżej
+   - nurturing content (3 pomysły)
+   - właściwy moment upsellu
+   - wiadomość upsell (copy)
+3) Stwórz mapę journey wg poziomów.`,
     thumbnail: "",
   },
 
   {
     id: "mseg-031",
-    title: "Segmentación para anuncios (Meta/TikTok) — estructura de ad sets por segmento y creativos",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja do reklam (Meta/TikTok) — struktura ad setów per segment i kreacje",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Convierte segmentos en ad sets y define qué creativos y KPI deben tener.",
-    prompt: `Rellena:
+      "Zamienia segmenty w ad sety, definiuje kreacje i KPI dla każdego segmentu.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Segmentos candidatos:
-- Presupuesto:
-- KPI objetivo:
-- Creativos disponibles:
+- Segmenty-kandydaci:
+- Budżet:
+- KPI docelowy:
+- Dostępne kreacje:
 
-Tarea:
-1) Propón estructura de campañas:
-   - prospecting (segmentos)
-   - remarketing (segmentos)
-2) Para cada segmento:
-   - ángulos creativos (3)
-   - formatos recomendados (UGC, demo, prueba)
-   - métrica principal y umbral
-3) Define hipótesis por ad set y plan de test 14 días.`,
+Zadanie:
+1) Zaproponuj strukturę kampanii:
+   - prospecting (segmenty)
+   - remarketing (segmenty)
+2) Dla każdego segmentu:
+   - kąty kreatywne (3)
+   - rekomendowane formaty (UGC, demo, dowód)
+   - główna metryka i próg
+3) Zdefiniuj hipotezę per ad set i plan testu na 14 dni.`,
     thumbnail: "",
   },
   {
     id: "mseg-032",
-    title: "Segmentación para contenido orgánico — pilares por segmento y series repetibles",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja do contentu organicznego — filary per segment i powtarzalne serie",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Define series de contenido por segmento para captar demanda cualificada.",
-    prompt: `Rellena:
-- Plataforma:
+      "Definiuje serie treści per segment, aby łapać kwalifikowany popyt.",
+    prompt: `Uzupełnij:
+- Platforma:
 - Oferta:
-- Segmentos:
-- Frecuencia:
+- Segmenty:
+- Częstotliwość:
 
-Tarea:
-1) Escoge 3 segmentos prioridad.
-2) Para cada segmento:
-   - 4 pilares de contenido
-   - 3 series (ej: “errores”, “casos”, “cómo hacerlo”)
-   - 10 títulos específicos
-3) Define CTAs por segmento (DM keyword, link, comentario).`,
+Zadanie:
+1) Wybierz 3 segmenty priorytetowe.
+2) Dla każdego segmentu:
+   - 4 filary treści
+   - 3 serie (np. “błędy”, “case’y”, “jak to zrobić”)
+   - 10 konkretnych tytułów
+3) Zdefiniuj CTA per segment (keyword do DM, link, komentarz).`,
     thumbnail: "",
   },
   {
     id: "mseg-033",
-    title: "Segmentación por nivel de urgencia — ‘lo necesito ya’ vs ‘algún día’",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg pilności — ‘potrzebuję teraz’ vs ‘kiedyś’",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Separar urgencia cambia copy, oferta y seguimiento. Crea reglas y textos para cada uno.",
-    prompt: `Rellena:
+      "Rozdzielenie pilności zmienia copy, ofertę i follow-up. Reguły i teksty per poziom.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Señales de urgencia:
-- Canal:
+- Sygnały pilności:
+- Kanał:
 
-Tarea:
-1) Define 3 niveles de urgencia con criterios observables.
-2) Para cada nivel:
-   - mensaje principal
-   - frecuencia de follow-up
+Zadanie:
+1) Zdefiniuj 3 poziomy pilności z obserwowalnymi kryteriami.
+2) Dla każdego poziomu:
+   - główny komunikat
+   - częstotliwość follow-upu
    - CTA
-3) Escribe 3 mensajes de follow-up por urgencia.`,
+3) Napisz 3 follow-up wiadomości per pilność.`,
     thumbnail: "",
   },
   {
     id: "mseg-034",
-    title: "Segmentación por ‘nivel de confianza’ — escépticos vs creyentes vs fans",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg ‘poziomu zaufania’ — sceptycy vs neutralni vs wierzący",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Crea segmentos por confianza en la categoría y ajusta proof: datos, casos, garantía, demo.",
-    prompt: `Rellena:
+      "Tworzy segmenty wg zaufania do kategorii i dopasowuje proof: dane, case’y, gwarancja, demo.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Categoría (qué venden):
-- Pruebas disponibles:
-- Canal:
+- Kategoria (co sprzedajesz):
+- Dostępne dowody:
+- Kanał:
 
-Tarea:
-1) Define 3 segmentos: escéptico, neutral, creyente.
-2) Para cada uno:
-   - qué prueba pesa más
-   - qué lenguaje usar/evitar
+Zadanie:
+1) Zdefiniuj 3 segmenty: sceptyk, neutralny, wierzący.
+2) Dla każdego:
+   - jaki proof waży najbardziej
+   - jakiego języka używać/unikać
    - CTA
-3) Escribe un anuncio corto y un email corto por segmento.`,
+3) Napisz krótką reklamę i krótki email na segment.`,
     thumbnail: "",
   },
   {
     id: "mseg-035",
-    title: "Segmentación por ‘barrera principal’ — conocimiento, ejecución, disciplina, herramientas",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg ‘głównej bariery’ — wiedza, wykonanie, dyscyplina, narzędzia",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Define segmentos por la barrera dominante y re-framea tu oferta para resolverla.",
-    prompt: `Rellena:
+      "Definiuje segmenty wg dominującej bariery i reframuje ofertę, żeby ją rozwiązać.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Barreras típicas:
-- Canal:
+- Typowe bariery:
+- Kanał:
 
-Tarea:
-1) Define 4 segmentos por barrera.
-2) Para cada segmento:
-   - diagnóstico (cómo se ve)
-   - solución (cómo lo encaras)
-   - mensaje principal
+Zadanie:
+1) Zdefiniuj 4 segmenty wg bariery.
+2) Dla każdego segmentu:
+   - diagnoza (jak to wygląda)
+   - rozwiązanie (jak to ogarniasz)
+   - główny komunikat
    - CTA
-3) Escribe 5 hooks por segmento.`,
+3) Napisz 5 hooków na segment.`,
     thumbnail: "",
   },
 
   {
     id: "mseg-036",
-    title: "Segmentación avanzada (B2B) — cuentas objetivo (ABM lite) con hipótesis por cuenta",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Zaawansowana segmentacja (B2B) — konta docelowe (ABM lite) z hipotezami per konto",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Plan ABM ligero: define cuentas, hipótesis de dolor, mensajes y secuencias personalizadas.",
-    prompt: `Rellena:
-- Servicio B2B:
-- Lista de 10–30 cuentas objetivo (nombres):
-- Rol objetivo:
+      "Lekki ABM: definiuje konta, hipotezy bólu, komunikaty i spersonalizowane sekwencje.",
+    prompt: `Uzupełnij:
+- Usługa B2B:
+- Lista 10–30 kont docelowych (nazwy):
+- Rola docelowa:
 - KPI:
-- Canales (email, LinkedIn):
+- Kanały (email, LinkedIn):
 
-Tarea:
-1) Para cada cuenta (o tipo de cuenta), escribe hipótesis:
-   - 2 dolores probables
-   - 1 evento trigger (contratación, funding, expansión)
-   - propuesta de valor en 1 frase
-2) Crea 3 secuencias:
-   - cold email 4 pasos
-   - LinkedIn DM 4 pasos
-   - follow-up 2 pasos
-3) Define cómo medir éxito (replies, meetings, pipeline).`,
+Zadanie:
+1) Dla każdego konta (lub typu konta) napisz hipotezy:
+   - 2 prawdopodobne bóle
+   - 1 trigger (rekrutacja, funding, ekspansja)
+   - propozycja wartości w 1 zdaniu
+2) Stwórz 3 sekwencje:
+   - cold email (4 kroki)
+   - LinkedIn DM (4 kroki)
+   - follow-up (2 kroki)
+3) Zdefiniuj jak mierzyć sukces (replies, meetings, pipeline).`,
     thumbnail: "",
   },
   {
     id: "mseg-037",
-    title: "Segmentación tipo ‘personas’ — 5 buyer personas útiles (sin relleno) con copy",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja typu ‘persony’ — 5 użytecznych buyer person (bez waty) + copy",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Crea 5 personas accionables con lenguaje real, motivadores, objeciones y mensajes.",
-    prompt: `Rellena:
+      "Tworzy 5 person możliwych do użycia: realny język, motywatory, obiekcje i komunikaty.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Nicho:
-- Tipos de clientes actuales (si existen):
+- Nisza:
+- Typy obecnych klientów (jeśli są):
 
-Tarea:
-1) Crea 5 buyer personas con:
-   - nombre del avatar
-   - contexto y objetivo
-   - dolor principal
-   - objeciones
-   - qué los convence
-   - frases textuales (cómo hablan)
-2) Para cada persona:
+Zadanie:
+1) Stwórz 5 buyer person z:
+   - imieniem avatara
+   - kontekstem i celem
+   - głównym bólem
+   - obiekcjami
+   - co ich przekonuje
+   - cytatami (jak mówią)
+2) Dla każdej persony:
    - 1 headline
    - 3 bullets
    - 1 CTA
-3) Termina con un mapa de “contenido por persona” (5 ideas cada una).`,
+3) Zakończ mapą “content per persona” (po 5 pomysłów na personę).`,
     thumbnail: "",
   },
   {
     id: "mseg-038",
-    title: "Segmentación por ‘nivel de soporte requerido’ — autoservicio vs con guía vs DFY",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg ‘poziomu potrzebnego wsparcia’ — self-serve vs z prowadzeniem vs DFY",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Segmenta por necesidad de soporte y ajusta experiencia, onboarding y promesa.",
-    prompt: `Rellena:
+      "Segmentuje wg potrzeby wsparcia i dopasowuje doświadczenie, onboarding oraz obietnicę.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Capacidad de soporte (horas/semana):
-- Tipos de soporte (chat, calls, comunidad):
-- Canal:
+- Zdolność supportu (godz./tydzień):
+- Typy wsparcia (chat, call, społeczność):
+- Kanał:
 
-Tarea:
-1) Define 3 segmentos según soporte requerido.
-2) Para cada segmento:
-   - riesgos si les vendes el plan incorrecto
-   - promesa realista
-   - onboarding ideal
+Zadanie:
+1) Zdefiniuj 3 segmenty wg wymaganego wsparcia.
+2) Dla każdego segmentu:
+   - ryzyka, jeśli sprzedasz niewłaściwy plan
+   - realistyczna obietnica
+   - idealny onboarding
    - CTA
-3) Escribe copy de pricing (3 planes) alineado a estos segmentos.`,
+3) Napisz copy do pricingu (3 plany) spójne z tymi segmentami.`,
     thumbnail: "",
   },
   {
     id: "mseg-039",
-    title: "Segmentación por etapa de adopción (innovators → early majority) — lenguaje y prueba",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg etapu adopcji (innovators → early majority) — język i dowód",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Adapta copy según adopción: innovadores quieren novedad; majority quiere certeza.",
-    prompt: `Rellena:
+      "Dopasowuje copy wg adopcji: innowatorzy chcą nowości, większość chce pewności.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Categoría:
-- Pruebas:
-- Canal:
+- Kategoria:
+- Dowody:
+- Kanał:
 
-Tarea:
-1) Define 4 segmentos de adopción.
-2) Para cada segmento:
-   - qué les importa
-   - qué prueba necesitan
+Zadanie:
+1) Zdefiniuj 4 segmenty adopcji.
+2) Dla każdego segmentu:
+   - co jest ważne
+   - jakiego dowodu potrzebują
    - copy (headline + bullets + CTA)
-3) Recomienda en qué segmento enfocarte según ticket y marca.`,
+3) Zarekomenduj, na który segment postawić, biorąc pod uwagę ticket i markę.`,
     thumbnail: "",
   },
   {
     id: "mseg-040",
-    title: "Segmentación por dispositivo/experiencia — móvil-first vs desktop, fricciones y CTAs",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg urządzenia/doświadczenia — mobile-first vs desktop, tarcia i CTA",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Segmenta por comportamiento y fricción según dispositivo y ajusta funnel y mensajes.",
-    prompt: `Rellena:
-- Canales:
-- % móvil vs desktop (si tienes):
+      "Segmentuje wg zachowań i tarć zależnych od urządzenia, dopasowuje funnel i komunikaty.",
+    prompt: `Uzupełnij:
+- Kanały:
+- % mobile vs desktop (jeśli masz):
 - Oferta:
-- Fricciones actuales:
+- Aktualne tarcia:
 
-Tarea:
-1) Define 2–3 segmentos por dispositivo/experiencia:
-   - scroll rápido
-   - lectura profunda
-2) Para cada segmento:
-   - asset ideal (video corto, checklist, longform)
-   - CTA ideal
-   - cambios de página recomendados
-3) Crea 2 anuncios y 2 versiones de landing hero copy por segmento.`,
+Zadanie:
+1) Zdefiniuj 2–3 segmenty wg urządzenia/doświadczenia:
+   - szybki scroll
+   - głębokie czytanie
+2) Dla każdego segmentu:
+   - idealny asset (krótkie wideo, checklista, longform)
+   - idealne CTA
+   - rekomendowane zmiany na stronie
+3) Stwórz 2 reklamy i 2 wersje hero copy na landing dla segmentu.`,
     thumbnail: "",
   },
 
   {
     id: "mseg-041",
-    title: "Segmentación para WhatsApp/DM — etiquetas mínimas y árbol de conversación",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja dla WhatsApp/DM — minimalne etykiety i drzewko rozmowy",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Define etiquetas mínimas y flujo conversacional para segmentar en tiempo real.",
-    prompt: `Rellena:
+      "Definiuje minimalny zestaw etykiet i flow rozmowy do segmentowania w czasie rzeczywistym.",
+    prompt: `Uzupełnij:
 - Oferta:
-- 3 preguntas de calificación:
-- Canal (WhatsApp/IG DM):
-- CTAs:
+- 3 pytania kwalifikacyjne:
+- Kanał (WhatsApp/IG DM):
+- CTA:
 
-Tarea:
-1) Define 8 etiquetas mínimas (max) para segmentar:
-   - intención
-   - presupuesto
-   - urgencia
-   - experiencia
-2) Diseña un árbol de conversación con rutas A/B/C.
-3) Escribe los mensajes exactos para:
-   - preguntar
-   - responder
-   - cambiar de segmento
-4) Cierra con un scoreboard diario para el canal.`,
+Zadanie:
+1) Zdefiniuj 8 minimalnych etykiet (max) do segmentacji:
+   - intencja
+   - budżet
+   - pilność
+   - doświadczenie
+2) Zaprojektuj drzewko rozmowy z trasami A/B/C.
+3) Napisz dokładne wiadomości:
+   - jak pytasz
+   - jak odpowiadasz
+   - jak zmieniasz segment
+4) Zakończ dziennym scoreboardem dla kanału.`,
     thumbnail: "",
   },
   {
     id: "mseg-042",
-    title: "Segmentación por ‘fricción principal’ — credibilidad, claridad, complejidad, logística",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg ‘głównego tarcia’ — wiarygodność, jasność, złożoność, logistyka",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Segmenta por el tipo de fricción y crea mensajes/activos para resolverla.",
-    prompt: `Rellena:
+      "Segmentuje wg typu tarcia i tworzy komunikaty/asset’y, które je usuwają.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Fricciones típicas:
-- Canales:
+- Typowe tarcia:
+- Kanały:
 
-Tarea:
-1) Define 4 segmentos por fricción.
-2) Para cada segmento:
-   - activo ideal (caso, FAQ, demo, garantía, comparativa)
-   - copy de 1 mensaje y 1 headline
+Zadanie:
+1) Zdefiniuj 4 segmenty wg tarcia.
+2) Dla każdego segmentu:
+   - idealny asset (case, FAQ, demo, gwarancja, porównanie)
+   - copy: 1 wiadomość i 1 headline
    - CTA
-3) Plan 14 días para reducir fricción por prioridad.`,
+3) Plan 14 dni na redukcję tarcia wg priorytetu.`,
     thumbnail: "",
   },
   {
     id: "mseg-043",
-    title: "Segmentación por ‘tipo de decisión’ — impulsiva vs consultiva vs comité",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg ‘typu decyzji’ — impulsywna vs konsultacyjna vs komitet",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Define segmentos según cómo deciden: rápido, con investigación o con aprobación múltiple.",
-    prompt: `Rellena:
+      "Definiuje segmenty wg sposobu podejmowania decyzji: szybko, przez research, albo wieloosobowo.",
+    prompt: `Uzupełnij:
 - Oferta:
 - Ticket:
-- Quién decide:
-- Canal:
+- Kto decyduje:
+- Kanał:
 
-Tarea:
-1) Define 3 segmentos por tipo de decisión.
-2) Para cada uno:
-   - mejores assets (VSL, PDF, demo, call)
-   - mensajes y proof
+Zadanie:
+1) Zdefiniuj 3 segmenty wg typu decyzji.
+2) Dla każdego:
+   - najlepsze assety (VSL, PDF, demo, call)
+   - komunikaty i proof
    - CTA
-3) Crea 1 secuencia corta por segmento (3 mensajes).`,
+3) Stwórz krótką sekwencję na segment (3 wiadomości).`,
     thumbnail: "",
   },
   {
     id: "mseg-044",
-    title: "Segmentación para remarketing — ventanas por intención y frecuencia recomendada",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja remarketingu — okna intencji i rekomendowana częstotliwość",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Segmenta remarketing por intención (VC/ATC/IC) y define mensajes y límites.",
-    prompt: `Rellena:
-- Páginas/eventos:
-- Ventanas (1–3, 4–7, 8–14, 15–30):
+      "Segmentuje remarketing wg intencji (VC/ATC/IC) i definiuje komunikaty oraz limity.",
+    prompt: `Uzupełnij:
+- Strony/zdarzenia:
+- Okna (1–3, 4–7, 8–14, 15–30):
 - Oferta:
-- Creativos:
+- Kreacje:
 
-Tarea:
-1) Define segmentos de remarketing por evento y ventana.
-2) Para cada segmento:
-   - objetivo
-   - mensaje principal
-   - creativo recomendado
+Zadanie:
+1) Zdefiniuj segmenty remarketingu wg zdarzenia i okna.
+2) Dla każdego segmentu:
+   - cel
+   - główny komunikat
+   - rekomendowana kreacja
    - KPI (CTR/CVR/CPA)
-   - frecuencia máxima
-3) Define reglas de fatiga y rotación semanal.`,
+   - maks. częstotliwość
+3) Zdefiniuj reguły zmęczenia i tygodniową rotację.`,
     thumbnail: "",
   },
   {
     id: "mseg-045",
-    title: "Segmentación por ‘objeto de deseo’ — identidad futura (status, libertad, control, simplicidad)",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg ‘obiektu pragnienia’ — przyszła tożsamość (status, wolność, kontrola, prostota)",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Segmenta por motivación emocional e identidad para mejorar resonancia del copy.",
-    prompt: `Rellena:
+      "Segmentuje wg motywacji emocjonalnej i tożsamości, by zwiększyć rezonans copy.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Emociones/motivaciones del público:
-- Canales:
+- Emocje/motywacje odbiorców:
+- Kanały:
 
-Tarea:
-1) Define 5 motivaciones (status, libertad, seguridad, simplicidad, pertenencia).
-2) Para cada motivación:
-   - mensaje principal
-   - prueba ideal
+Zadanie:
+1) Zdefiniuj 5 motywacji (status, wolność, bezpieczeństwo, prostota, przynależność).
+2) Dla każdej motywacji:
+   - główny komunikat
+   - idealny proof
    - CTA
-3) Escribe 3 hooks y 1 párrafo de venta por motivación.`,
+3) Napisz 3 hooki i 1 akapit sprzedażowy na motywację.`,
     thumbnail: "",
   },
 
   {
     id: "mseg-046",
-    title: "Segmentación y personalización de landing — bloques dinámicos por segmento",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja i personalizacja landing page’a — dynamiczne bloki per segment",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Diseña una landing con bloques intercambiables según segmento (vertical, dolor, rol).",
-    prompt: `Rellena:
+      "Projektuje landing z wymiennymi blokami wg segmentu (vertical, ból, rola).",
+    prompt: `Uzupełnij:
 - Oferta:
-- Segmentos (3–5):
-- Bloques disponibles (hero, caso, bullets, FAQ):
-- Herramienta (si existe):
+- Segmenty (3–5):
+- Dostępne bloki (hero, case, bullets, FAQ):
+- Narzędzie (jeśli jest):
 
-Tarea:
-1) Define 3–5 segmentos que ameritan personalización.
-2) Para cada segmento escribe:
+Zadanie:
+1) Zdefiniuj 3–5 segmentów, które warto personalizować.
+2) Dla każdego segmentu napisz:
    - hero (headline + sub)
    - 5 bullets
-   - 3 FAQs
-   - 1 prueba social ideal
-3) Define reglas de enrutamiento (cómo detectas el segmento: UTM, formulario, quiz).
-4) Cierra con checklist de coherencia (mensaje-CTA).`,
+   - 3 FAQ
+   - 1 idealny social proof
+3) Zdefiniuj reguły routingu (jak wykrywasz segment: UTM, formularz, quiz).
+4) Zakończ checklistą spójności (komunikat-CTA).`,
     thumbnail: "",
   },
   {
     id: "mseg-047",
-    title: "Segmentación con quiz — diseñar quiz para clasificar y recomendar ruta",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja przez quiz — zaprojektuj quiz do klasyfikacji i rekomendacji ścieżki",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Crea un quiz completo con preguntas, scoring, segmentos finales y recomendaciones por segmento.",
-    prompt: `Rellena:
+      "Tworzy kompletny quiz: pytania, scoring, segmenty końcowe i rekomendacje per segment.",
+    prompt: `Uzupełnij:
 - Oferta:
-- 3–5 segmentos finales deseados:
-- Variables a medir (urgencia, experiencia, presupuesto, etc.):
+- 3–5 docelowych segmentów końcowych:
+- Zmienne do pomiaru (pilność, doświadczenie, budżet itd.):
 
-Tarea:
-1) Diseña un quiz de 8–12 preguntas (con opciones).
-2) Define scoring (puntos) y reglas para asignar segmento.
-3) Para cada segmento:
-   - resultado (texto largo)
-   - 3 recomendaciones
+Zadanie:
+1) Zaprojektuj quiz z 8–12 pytaniami (z opcjami).
+2) Zdefiniuj scoring (punkty) i reguły przypisania do segmentu.
+3) Dla każdego segmentu:
+   - rezultat (dłuższy tekst)
+   - 3 rekomendacje
    - CTA
-4) Escribe copy de la página del quiz (hero + bullets) y del email de resultados.`,
+4) Napisz copy strony quizu (hero + bullets) i maila z wynikami.`,
     thumbnail: "",
   },
   {
     id: "mseg-048",
-    title: "Segmentación por cohortes — comparar comportamiento según semana/mes de adquisición",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Segmentacja wg kohort — porównaj zachowania wg tygodnia/miesiąca pozyskania",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Segmenta por cohorte temporal para detectar cambios de calidad y optimizar fuentes.",
-    prompt: `Rellena:
-- Periodo de análisis:
-- Fuentes:
-- Métricas disponibles:
+      "Segmentuje po kohorcie czasowej, by wykrywać zmiany jakości i optymalizować źródła.",
+    prompt: `Uzupełnij:
+- Okres analizy:
+- Źródła:
+- Dostępne metryki:
 - Oferta:
 
-Tarea:
-1) Define cohortes por semana (o mes).
-2) Para cada cohorte, define KPIs a comparar:
+Zadanie:
+1) Zdefiniuj kohorty tygodniowe (lub miesięczne).
+2) Dla każdej kohorty zdefiniuj KPI do porównania:
    - CVR
    - CAC
    - LTV
-   - tasa de respuesta
-3) Propón hipótesis si una cohorte rinde distinto:
-   - cambio de mensaje
-   - cambio de canal
-   - cambio de oferta
-4) Define acciones recomendadas (qué probar) por cohorte.`,
+   - rate odpowiedzi
+3) Zaproponuj hipotezy, jeśli kohorta działa inaczej:
+   - zmiana komunikatu
+   - zmiana kanału
+   - zmiana oferty
+4) Zdefiniuj rekomendowane działania (co testować) per kohorta.`,
     thumbnail: "",
   },
   {
     id: "mseg-049",
-    title: "Segmentación final lista para ejecutar — 12 segmentos con mensajes, CTAs y assets",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "Finalna segmentacja gotowa do wdrożenia — 12 segmentów z komunikatami, CTA i assetami",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Entrega un paquete ejecutable de segmentos con copy listo y plan de activación.",
-    prompt: `Rellena:
+      "Dostarcza paczkę segmentów gotowych do użycia: copy, CTA i plan aktywacji.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Nicho:
-- Canales:
-- Activos disponibles:
-- Restricciones:
+- Nisza:
+- Kanały:
+- Dostępne aktywa:
+- Ograniczenia:
 
-Tarea:
-Crea 12 segmentos accionables y para cada uno escribe:
-- nombre
-- criterio exacto (cómo se identifica)
-- mensaje principal (1 frase)
-- 2 ángulos adicionales
-- oferta/CTA ideal
-- asset recomendado (lead magnet, demo, caso, checklist)
-- primer mensaje (copy listo)
-Cierra con prioridades (top 3) y plan 14 días (tests).`,
+Zadanie:
+Stwórz 12 segmentów do egzekucji i dla każdego napisz:
+- nazwa
+- dokładne kryterium (jak wykryć)
+- główny komunikat (1 zdanie)
+- 2 dodatkowe kąty
+- idealna oferta/CTA
+- rekomendowany asset (lead magnet, demo, case, checklista)
+- pierwsza wiadomość (copy gotowe)
+Zakończ priorytetami (top 3) i planem 14 dni (testy).`,
     thumbnail: "",
   },
   {
     id: "mseg-050",
-    title: "Sistema de segmentación (SOP) — etiquetas, reglas, fuentes, auditoría y mantenimiento",
-    area: "Marketing & ventas",
-    category: "Segmentación",
+    title:
+      "System segmentacji (SOP) — etykiety, reguły, źródła, audyt i utrzymanie",
+    area: "Marketing i sprzedaż",
+    category: "Segmentacja",
     summary:
-      "Crea un SOP completo para mantener la segmentación saludable y usable por el equipo.",
-    prompt: `Rellena:
-- Herramientas (CRM/Email/WhatsApp):
-- Canales:
+      "Tworzy pełny SOP utrzymania segmentacji w zdrowiu i użyteczności dla zespołu.",
+    prompt: `Uzupełnij:
+- Narzędzia (CRM/Email/WhatsApp):
+- Kanały:
 - Oferta:
-- Equipo (roles):
+- Zespół (role):
 
-Tarea:
-Escribe un SOP que incluya:
-1) Principios: qué es un segmento válido (accionable, medible, útil).
-2) Taxonomía de etiquetas (máx 30) y convenciones de nombres.
-3) Reglas de asignación (por fuente, comportamiento, manual).
-4) Auditoría semanal: qué revisar y cómo detectar etiquetas basura.
-5) Mantenimiento mensual: limpieza, merges, retirement de segmentos.
-6) Checklist de implementación (UTMs, eventos, formularios, consent).
-Formato: headings + bullets + ejemplos de etiquetas.`,
+Zadanie:
+Napisz SOP, który zawiera:
+1) Zasady: czym jest poprawny segment (wykonywalny, mierzalny, użyteczny).
+2) Taksonomię etykiet (max 30) i konwencje nazewnictwa.
+3) Reguły przypisywania (wg źródła, zachowania, manualnie).
+4) Tygodniowy audyt: co sprawdzać i jak wykrywać śmieciowe etykiety.
+5) Miesięczne utrzymanie: czyszczenie, mergowanie, wygaszanie segmentów.
+6) Checklistę wdrożenia (UTM, eventy, formularze, zgody).
+Format: nagłówki + bulletsy + przykłady etykiet.`,
     thumbnail: "",
   },
 ];

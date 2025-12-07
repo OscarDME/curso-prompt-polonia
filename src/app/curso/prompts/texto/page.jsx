@@ -5,8 +5,8 @@ import { textPrompts } from "@/lib/prompts/text";
 export default function PromptsTextoPage() {
   return (
     <PromptLibrary
-      title="Prompts de texto"
-      subtitle="Biblioteca completa de prompts profesionales de texto para educación, marketing, ventas y más."
+      title="Prompty tekstowe"
+      subtitle="Kompletna biblioteka profesjonalnych promptów tekstowych do edukacji, marketingu, sprzedaży i nie tylko."
       items={textPrompts}
       type="text"
     />

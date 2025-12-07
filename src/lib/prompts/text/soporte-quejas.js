@@ -1,762 +1,766 @@
 export const textPromptsSoporteQuejas = [
   {
     id: "soporte-quejas-001",
-    title: "Responder una queja con empatía profesional",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Genera respuestas profesionales que desactivan tensión y muestran empatía.",
-    prompt: `Dame:
-- Tipo de queja.
-- Tono del cliente (molesto, confundido, agresivo).
-- Contexto real.
+    title: "Odpowiedź na skargę z profesjonalną empatią",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary:
+      "Generuje profesjonalne odpowiedzi, które rozładowują napięcie i pokazują empatię.",
+    prompt: `Podaj:
+- Rodzaj skargi.
+- Ton klienta (zirytowany, zdezorientowany, agresywny).
+- Rzeczywisty kontekst.
 
-Genera una respuesta:
-1) Apertura empática.
-2) Validación del sentimiento sin admitir culpa innecesaria.
-3) Explicación clara y neutral.
-4) Solución o alternativa.
-5) Cierre tranquilo y positivo.
+Wygeneruj odpowiedź:
+1) Empatyczne otwarcie.
+2) Uznanie emocji bez niepotrzebnego przyznawania się do winy.
+3) Jasne i neutralne wyjaśnienie.
+4) Rozwiązanie lub alternatywa.
+5) Spokojne i pozytywne zakończenie.
 
-Incluye 3 versiones con distintos niveles de formalidad.`,
+Dodaj 3 wersje o różnym poziomie formalności.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-002",
-    title: "Responder una queja por retraso en entrega",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Respuesta calmada, clara y orientada a solución ante retrasos.",
-    prompt: `Dame:
-- Producto/servicio.
-- Tiempo de retraso.
-- Nivel de molestia del cliente.
+    title: "Odpowiedź na skargę dotyczącą opóźnienia w dostawie",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary:
+      "Spokojna, jasna i nastawiona na rozwiązanie odpowiedź w przypadku opóźnień.",
+    prompt: `Podaj:
+- Produkt/usługę.
+- Długość opóźnienia.
+- Poziom irytacji klienta.
 
-Genera:
-1) Empatía real.
-2) Explicación simple del retraso.
-3) Qué estamos haciendo ya.
-4) Compensación o alternativa opcional.
-5) Cierre profesional.`,
+Wygeneruj:
+1) Prawdziwą empatię.
+2) Proste wyjaśnienie opóźnienia.
+3) Co już robimy.
+4) Opcjonalną rekompensatę lub alternatywę.
+5) Profesjonalne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-003",
-    title: "Responder una queja por mal servicio",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Ofrece disculpas sin culpar al equipo y propone acciones.",
-    prompt: `Dame:
-- Qué salió mal.
-- Nivel de gravedad.
-- Política interna.
+    title: "Odpowiedź na skargę dotyczącą złej obsługi",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary:
+      "Przekazuje przeprosiny bez obwiniania zespołu i proponuje działania.",
+    prompt: `Podaj:
+- Co poszło nie tak.
+- Poziom powagi.
+- Politykę wewnętrzną.
 
-Genera:
-1) Validación emocional.
-2) Reconocimiento del problema.
-3) Explicación breve.
-4) Medidas correctivas.
-5) Siguiente paso.`,
+Wygeneruj:
+1) Walidację emocjonalną.
+2) Uznanie problemu.
+3) Krótkie wyjaśnienie.
+4) Działania naprawcze.
+5) Kolejny krok.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-004",
-    title: "Manejo de quejas agresivas sin perder la calma",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Comunicación profesional sin engancharse emocionalmente.",
-    prompt: `Dame:
-- Mensaje agresivo del cliente.
-- Tema de la queja.
-- Qué opciones tenemos.
+    title: "Obsługa agresywnych skarg bez tracenia spokoju",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary:
+      "Profesjonalna komunikacja bez wchodzenia w emocjonalne przepychanki.",
+    prompt: `Podaj:
+- Agresywną wiadomość klienta.
+- Temat skargi.
+- Jakie mamy opcje.
 
-Genera:
-1) Respuesta que desescala tensión.
-2) Reencuadre profesional.
-3) Límites claros sin sonar defensivo.
-4) Solución concreta.
-5) Cierre neutral.`,
+Wygeneruj:
+1) Odpowiedź, która obniża napięcie.
+2) Profesjonalne przeformułowanie sytuacji.
+3) Jasne granice bez defensywnego tonu.
+4) Konkretne rozwiązanie.
+5) Neutralne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-005",
-    title: "Responder quejas por error técnico o bug",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Para SaaS, apps y sistemas digitales.",
-    prompt: `Dame:
-- Tipo de error.
-- Impacto en el usuario.
-- Tiempo estimado de solución.
+    title: "Odpowiedź na skargi dotyczące błędu technicznego lub buga",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Dla SaaS, aplikacji i systemów cyfrowych.",
+    prompt: `Podaj:
+- Rodzaj błędu.
+- Wpływ na użytkownika.
+- Szacowany czas naprawy.
 
-Genera:
-1) Empatía sin tecnicismos.
-2) Reconocimiento del bug.
-3) Lo que el equipo está haciendo.
-4) Alternativas temporales.
-5) Cierre claro y amable.`,
+Wygeneruj:
+1) Empatię bez technicznego żargonu.
+2) Uznanie buga.
+3) Co robi zespół.
+4) Tymczasowe alternatywy.
+5) Jasne i miłe zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-006",
-    title: "Responder quejas por cobro incorrecto",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Transparencia financiera + calma + solución rápida.",
-    prompt: `Dame:
-- Monto cobrado.
-- Diferencia real.
-- Política de reembolsos.
+    title: "Odpowiedź na skargi dotyczące błędnego obciążenia/kwoty",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Przejrzystość finansowa + spokój + szybkie rozwiązanie.",
+    prompt: `Podaj:
+- Pobrana kwota.
+- Rzeczywista różnica.
+- Polityka zwrotów.
 
-Genera:
-1) Apertura empática.
-2) Explicación exacta de lo que sucedió.
-3) Pasos para corregirlo.
-4) Tiempos estimados.
-5) Cierre profesional.`,
+Wygeneruj:
+1) Empatyczne otwarcie.
+2) Dokładne wyjaśnienie, co się stało.
+3) Kroki, aby to naprawić.
+4) Szacowane terminy.
+5) Profesjonalne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-007",
-    title: "Responder quejas cuando el cliente tiene razón",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Reconocer sin perder autoridad ni profesionalismo.",
-    prompt: `Dame:
-- Qué se hizo mal.
-- Consecuencia para el cliente.
-- Solución posible.
+    title: "Odpowiedź na skargi, gdy klient ma rację",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Uznanie błędu bez utraty autorytetu i profesjonalizmu.",
+    prompt: `Podaj:
+- Co zostało zrobione źle.
+- Konsekwencję dla klienta.
+- Możliwe rozwiązanie.
 
-Genera:
-1) Reconocimiento claro.
-2) Disculpa profesional.
-3) Proceso para corregir.
-4) Medida de prevención futura.
-5) Cierre agradeciendo feedback.`,
+Wygeneruj:
+1) Jasne uznanie.
+2) Profesjonalne przeprosiny.
+3) Proces naprawy.
+4) Działanie zapobiegawcze na przyszłość.
+5) Zakończenie z podziękowaniem za feedback.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-008",
-    title: "Responder quejas cuando el cliente NO tiene razón",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Responder con tacto y sin culpar al cliente.",
-    prompt: `Dame:
-- Situación real.
-- Error del cliente.
-- Política interna.
+    title: "Odpowiedź na skargi, gdy klient NIE ma racji",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Odpowiedź z taktem, bez obwiniania klienta.",
+    prompt: `Podaj:
+- Rzeczywistą sytuację.
+- Błąd klienta.
+- Politykę wewnętrzną.
 
-Genera:
-1) Validación emocional.
-2) Explicación diplomática del error.
-3) Alternativa o guía.
-4) Cierre amable.
-Incluye versión corta y larga.`,
+Wygeneruj:
+1) Walidację emocjonalną.
+2) Dyplomatyczne wyjaśnienie błędu.
+3) Alternatywę lub instrukcję.
+4) Miłe zakończenie.
+Dodaj wersję krótką i długą.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-009",
-    title: "Responder queja por atención lenta",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Explicación + compromiso de mejora.",
-    prompt: `Dame:
-- Tiempo que tardamos.
-- Motivo del retraso.
-- Nivel de urgencia del cliente.
+    title: "Odpowiedź na skargę dotyczącą wolnej obsługi",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Wyjaśnienie + zobowiązanie do poprawy.",
+    prompt: `Podaj:
+- Jak długo to trwało.
+- Powód opóźnienia.
+- Poziom pilności u klienta.
 
-Genera:
-1) Empatía.
-2) Explicación concreta.
-3) Compromiso realista.
-4) Solución.
-5) Cierre positivo.`,
+Wygeneruj:
+1) Empatię.
+2) Konkretne wyjaśnienie.
+3) Realistyczne zobowiązanie.
+4) Rozwiązanie.
+5) Pozytywne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-010",
-    title: "Responder a clientes que exigen reembolso inmediato",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Manejo profesional de presión emocional o exigencias duras.",
-    prompt: `Dame:
-- Motivo del reembolso.
-- Política interna.
-- Estado del caso.
+    title: "Odpowiedź klientom, którzy żądają natychmiastowego zwrotu",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Profesjonalne zarządzanie presją emocjonalną i twardymi żądaniami.",
+    prompt: `Podaj:
+- Powód zwrotu.
+- Politykę wewnętrzną.
+- Status sprawy.
 
-Genera:
-1) Apertura calmada.
-2) Proceso de reembolso explicado.
-3) Tiempos reales.
-4) Alternativa para evitar reembolso (si aplica).
-5) Cierre profesional.`,
+Wygeneruj:
+1) Spokojne otwarcie.
+2) Wyjaśnienie procesu zwrotu.
+3) Realne terminy.
+4) Alternatywę, by uniknąć zwrotu (jeśli dotyczy).
+5) Profesjonalne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-011",
-    title: "Responder quejas sobre mala calidad del producto",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Guía clara para desacoplar emoción → solución.",
-    prompt: `Dame:
-- Producto.
-- Qué parte falló.
-- Política de reemplazo.
+    title: "Odpowiedź na skargi dotyczące słabej jakości produktu",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Jasny schemat: emocje → rozwiązanie.",
+    prompt: `Podaj:
+- Produkt.
+- Która część zawiodła.
+- Politykę wymiany.
 
-Genera:
-1) Empatía.
-2) Validación.
-3) Explicación breve.
-4) Solución (cambio/reembolso).
-5) Cierre agradeciendo feedback.`,
+Wygeneruj:
+1) Empatię.
+2) Walidację.
+3) Krótkie wyjaśnienie.
+4) Rozwiązanie (wymiana/zwrot).
+5) Zakończenie z podziękowaniem za feedback.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-012",
-    title: "Responder a clientes que amenazan con dejar mala reseña",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Manejo emocional de clientes frustrados + solución.",
-    prompt: `Dame:
-- Motivo de molestia.
-- Qué amenaza dijo.
-- Solución disponible.
+    title: "Odpowiedź klientom, którzy grożą negatywną opinią",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Rozbrajanie frustracji + rozwiązanie.",
+    prompt: `Podaj:
+- Powód zdenerwowania.
+- Jaką groźbę klient wypowiedział.
+- Dostępne rozwiązanie.
 
-Genera una respuesta calmada:
-1) Desescalar tensión.
-2) Mostrar intención genuina de resolver.
-3) Solicitar detalles específicos.
-4) Proponer solución.
-5) Cierre profesional.`,
+Wygeneruj spokojną odpowiedź:
+1) Obniżenie napięcia.
+2) Pokazanie realnej chęci rozwiązania.
+3) Prośbę o konkretne szczegóły.
+4) Propozycję rozwiązania.
+5) Profesjonalne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-013",
-    title: "Responder a quejas sobre experiencia negativa con soporte previo",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Cuando el cliente se queja del equipo.",
-    prompt: `Dame:
-- Qué ocurrió.
-- Cómo fue tratado.
-- Qué debería haber pasado.
+    title: "Odpowiedź na skargi dotyczące złych doświadczeń z wcześniejszym supportem",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Gdy klient skarży się na zespół.",
+    prompt: `Podaj:
+- Co się wydarzyło.
+- Jak został potraktowany.
+- Jak powinno było to wyglądać.
 
-Genera:
-1) Disculpa profesional.
-2) Validación emocional.
-3) Explicación breve.
-4) Compromiso de mejora.
-5) Solución práctica.`,
+Wygeneruj:
+1) Profesjonalne przeprosiny.
+2) Walidację emocjonalną.
+3) Krótkie wyjaśnienie.
+4) Zobowiązanie do poprawy.
+5) Praktyczne rozwiązanie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-014",
-    title: "Responder quejas por incompatibilidad de producto",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Guía para manejar frustración técnica.",
-    prompt: `Dame:
-- Producto.
-- Incompatibilidad encontrada.
-- Solución posible.
+    title: "Odpowiedź na skargi dotyczące niekompatybilności produktu",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Schemat na frustracje techniczne.",
+    prompt: `Podaj:
+- Produkt.
+- Wykrytą niekompatybilność.
+- Możliwe rozwiązanie.
 
-Genera:
-1) Validación del problema.
-2) Mini explicación técnica fácil.
-3) Alternativas compatibles.
-4) Paso a paso simple.
-5) Cierre amable.`,
+Wygeneruj:
+1) Uznanie problemu.
+2) Krótkie, proste wyjaśnienie techniczne.
+3) Kompatybilne alternatywy.
+4) Prosty krok po kroku.
+5) Miłe zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-015",
-    title: "Responder quejas de clientes que se sienten ignorados",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Reparar percepción emocional + activar solución inmediata.",
-    prompt: `Dame:
-- Tiempo que ha esperado.
-- Tema del caso.
-- Qué podemos hacer ahora.
+    title: "Odpowiedź na skargi klientów, którzy czują się ignorowani",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Naprawa emocji + natychmiastowa akcja.",
+    prompt: `Podaj:
+- Jak długo czekał.
+- Temat sprawy.
+- Co możemy zrobić teraz.
 
-Genera:
-1) Reconexión humana.
-2) Validación emocional.
-3) Acción inmediata.
-4) Compromiso de seguimiento.
-5) Cierre empático.`,
+Wygeneruj:
+1) Ludzki kontakt/ponowne połączenie.
+2) Walidację emocjonalną.
+3) Natychmiastowe działanie.
+4) Zobowiązanie do follow-upu.
+5) Empatyczne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-016",
-    title: "Responder cuando el cliente acusa fraude o estafa (sin razón)",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Calmar, aclarar, explicar, resolver sin escalar conflicto.",
-    prompt: `Dame:
-- Qué dijo el cliente.
-- Qué ocurrió realmente.
-- Evidencia disponible.
+    title: "Odpowiedź, gdy klient oskarża o oszustwo/wyłudzenie (bez podstaw)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Uspokoić, wyjaśnić, pokazać fakty i rozwiązać bez eskalacji.",
+    prompt: `Podaj:
+- Co powiedział klient.
+- Co wydarzyło się naprawdę.
+- Dostępne dowody.
 
-Genera:
-1) Respuesta calmada.
-2) Explicación clara.
-3) Evidencia neutral.
-4) Alternativa de solución.
-5) Cierre profesional.`,
+Wygeneruj:
+1) Spokojną odpowiedź.
+2) Jasne wyjaśnienie.
+3) Neutralne przedstawienie dowodów.
+4) Alternatywę rozwiązania.
+5) Profesjonalne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-017",
-    title: "Responder quejas sobre procesos demasiado largos",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Optimizar percepción de lentitud con claridad + tiempos reales.",
-    prompt: `Dame:
-- Proceso.
-- Tiempo esperado vs real.
-- Qué se puede acelerar.
+    title: "Odpowiedź na skargi dotyczące zbyt długich procesów",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Zoptymalizować odczucie „wolno” dzięki jasności i realnym terminom.",
+    prompt: `Podaj:
+- Proces.
+- Czas oczekiwany vs rzeczywisty.
+- Co można przyspieszyć.
 
-Genera:
-1) Empatía real.
-2) Explicación corta.
-3) Nuevo tiempo estimado.
-4) Alternativa rápida.
-5) Cierre claro.`,
+Wygeneruj:
+1) Prawdziwą empatię.
+2) Krótkie wyjaśnienie.
+3) Nowy szacowany czas.
+4) Szybszą alternatywę.
+5) Jasne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-018",
-    title: "Responder a clientes que malinterpretan una política interna",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Aclaración diplomática sin sonar defensivo.",
-    prompt: `Dame:
-- Política malinterpretada.
-- Qué entendió el cliente.
-- Cómo funciona realmente.
+    title: "Odpowiedź klientom, którzy źle rozumieją politykę wewnętrzną",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Dyplomatyczne wyjaśnienie bez tonu obronnego.",
+    prompt: `Podaj:
+- Źle zrozumianą politykę.
+- Co zrozumiał klient.
+- Jak to działa naprawdę.
 
-Genera:
-1) Validación.
-2) Aclaración diplomática.
-3) Ejemplo simple.
-4) Solución.
-5) Cierre amable.`,
+Wygeneruj:
+1) Walidację.
+2) Dyplomatyczne doprecyzowanie.
+3) Prosty przykład.
+4) Rozwiązanie.
+5) Miłe zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-019",
-    title: "Responder quejas extensas o muy largas",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Aprender a resumir, validar y resolver sin ignorar detalles.",
-    prompt: `Dame:
-- Queja larga completa.
-- Punto central.
-- Solución posible.
+    title: "Odpowiedź na bardzo długie/rozbudowane skargi",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Jak streścić, uznać emocje i rozwiązać bez pomijania szczegółów.",
+    prompt: `Podaj:
+- Pełną długą skargę.
+- Główny punkt.
+- Możliwe rozwiązanie.
 
-Genera:
-1) Resumen respetuoso.
-2) Validación emocional.
-3) Explicación corta.
-4) Acción inmediata.
-5) Cierre de apoyo.`,
+Wygeneruj:
+1) Szanujące streszczenie.
+2) Walidację emocjonalną.
+3) Krótkie wyjaśnienie.
+4) Natychmiastowe działanie.
+5) Wspierające zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-020",
-    title: "Responder quejas por mala experiencia previa en otra empresa",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Cuando el cliente teme repetir una mala experiencia.",
-    prompt: `Dame:
-- Experiencia previa del cliente.
-- Qué teme repetir.
-- Qué hacemos diferente.
+    title: "Odpowiedź na skargi wynikające ze złych doświadczeń z inną firmą",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Gdy klient boi się powtórki złej historii.",
+    prompt: `Podaj:
+- Wcześniejsze doświadczenie klienta.
+- Czego boi się powtórzyć.
+- Co robimy inaczej.
 
-Genera:
-1) Empatía.
-2) Aseguramiento profesional.
-3) Explicación de diferencias.
-4) Solución inmediata.
-5) Cierre seguro.`,
+Wygeneruj:
+1) Empatię.
+2) Profesjonalne zapewnienie.
+3) Wyjaśnienie różnic.
+4) Natychmiastowe rozwiązanie.
+5) Pewne zakończenie.`,
     thumbnail: "",
   },
-    {
+  {
     id: "soporte-quejas-021",
-    title: "Responder quejas por falta de información clara",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Cuando el cliente reclama que la explicación o manual no fue suficiente.",
-    prompt: `Dame:
-- Qué información faltó.
-- Qué entendió el cliente.
-- Qué quiere lograr.
+    title: "Odpowiedź na skargi dotyczące braku jasnych informacji",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Gdy klient twierdzi, że wyjaśnienie lub instrukcja były niewystarczające.",
+    prompt: `Podaj:
+- Jakiej informacji zabrakło.
+- Co zrozumiał klient.
+- Co chce osiągnąć.
 
-Genera:
-1) Empatía inicial.
-2) Aclaración simple sin tecnicismos.
-3) Recursos adicionales (video/guía).
-4) Pasos a seguir.
-5) Cierre amable.`,
+Wygeneruj:
+1) Wstępną empatię.
+2) Proste wyjaśnienie bez żargonu.
+3) Dodatkowe materiały (wideo/poradnik).
+4) Kroki do wykonania.
+5) Miłe zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-022",
-    title: "Responder quejas por atención robotizada o fría",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Hacer que el cliente sienta humanidad y atención real.",
-    prompt: `Dame:
-- Mensaje del cliente.
-- Por qué sintió atención robótica.
-- Información personalizable.
+    title: "Odpowiedź na skargi dotyczące „robotycznej” lub chłodnej obsługi",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Sprawić, by klient poczuł ludzkie podejście i realną uwagę.",
+    prompt: `Podaj:
+- Wiadomość klienta.
+- Dlaczego odebrał obsługę jako „robotyczną”.
+- Informacje do spersonalizowania.
 
-Genera:
-1) Conexión humana.
-2) Tono cálido.
-3) Solución personalizada.
-4) Cierre cercano.`,
+Wygeneruj:
+1) Ludzki kontakt.
+2) Ciepły ton.
+3) Spersonalizowane rozwiązanie.
+4) Bliskie, przyjazne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-023",
-    title: "Responder cuando el cliente exige hablar con un supervisor",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Manejo adecuado de escalamiento.",
-    prompt: `Dame:
-- Motivo por el que lo pide.
-- Qué se puede hacer sin supervisor.
-- Política de escalamiento.
+    title: "Odpowiedź, gdy klient żąda rozmowy z przełożonym",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Prawidłowe zarządzanie eskalacją.",
+    prompt: `Podaj:
+- Dlaczego o to prosi.
+- Co da się zrobić bez przełożonego.
+- Politykę eskalacji.
 
-Genera:
-1) Validación del deseo del cliente.
-2) Intento de resolver sin escalar.
-3) Alternativa real.
-4) Si aplica, activar escalamiento.
-5) Cierre profesional.`,
+Wygeneruj:
+1) Walidację potrzeby klienta.
+2) Próbę rozwiązania bez eskalacji.
+3) Realną alternatywę.
+4) Jeśli dotyczy: uruchomienie eskalacji.
+5) Profesjonalne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-024",
-    title: "Responder queja por confusión en términos y condiciones",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Explicar con claridad legal sin sonar legalista.",
-    prompt: `Dame:
-- El término malinterpretado.
-- Qué entendió el cliente.
-- La explicación correcta.
+    title: "Odpowiedź na skargę: niejasność w regulaminie (T&amp;C)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Wyjaśnić prawnie jasno, ale bez „prawniczego” tonu.",
+    prompt: `Podaj:
+- Źle zrozumiany zapis.
+- Jak zrozumiał to klient.
+- Poprawne wyjaśnienie.
 
-Genera:
-1) Empatía + aclaración.
-2) Ejemplo práctico.
-3) Qué significa en la práctica.
-4) Solución o alternativa.
-5) Cierre seguro.`,
+Wygeneruj:
+1) Empatię + doprecyzowanie.
+2) Praktyczny przykład.
+3) Co to oznacza w praktyce.
+4) Rozwiązanie lub alternatywę.
+5) Pewne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-025",
-    title: "Responder queja por envío duplicado o información duplicada",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Explicar duplicados sin sonar desorganizado.",
-    prompt: `Dame:
-- Qué se duplicó.
-- Consecuencia para el cliente.
-- Solución posible.
+    title: "Odpowiedź na skargę: duplikat wysyłki lub duplikat informacji",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Wyjaśnić duplikacje bez wrażenia chaosu.",
+    prompt: `Podaj:
+- Co się zduplikowało.
+- Konsekwencję dla klienta.
+- Możliwe rozwiązanie.
 
-Genera:
-1) Validación.
-2) Explicación breve.
-3) Corrección inmediata.
-4) Prevención futura.
-5) Cierre amable.`,
+Wygeneruj:
+1) Walidację.
+2) Krótkie wyjaśnienie.
+3) Natychmiastową korektę.
+4) Zapobieganie na przyszłość.
+5) Miłe zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-026",
-    title: "Responder queja por mala experiencia en tienda física o local",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Cuando el problema ocurre fuera del mundo digital.",
-    prompt: `Dame:
-- Qué ocurrió.
-- Quién atendió.
-- Política interna.
+    title: "Odpowiedź na skargę: zła obsługa w sklepie stacjonarnym/lokalu",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Gdy problem wydarzył się poza światem cyfrowym.",
+    prompt: `Podaj:
+- Co się stało.
+- Kto obsługiwał.
+- Politykę wewnętrzną.
 
-Genera:
-1) Disculpa.
-2) Reconocimiento del problema.
-3) Acción inmediata.
-4) Compensación opcional.
-5) Cierre profesional.`,
+Wygeneruj:
+1) Przeprosiny.
+2) Uznanie problemu.
+3) Natychmiastowe działanie.
+4) Opcjonalną rekompensatę.
+5) Profesjonalne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-027",
-    title: "Responder quejas por comportamiento inapropiado de un empleado",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Caso delicado que requiere tacto extremo.",
-    prompt: `Dame:
-- Qué ocurrió.
-- Nivel de gravedad.
-- Políticas de conducta.
+    title: "Odpowiedź na skargi dotyczące nieodpowiedniego zachowania pracownika",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Delikatna sprawa wymagająca maksymalnego taktu.",
+    prompt: `Podaj:
+- Co się wydarzyło.
+- Poziom powagi.
+- Polityki zachowania/etyki.
 
-Genera:
-1) Empatía profunda.
-2) Disculpa profesional.
-3) Acción interna (sin detalles sensibles).
-4) Solución al cliente.
-5) Cierre seguro.`,
+Wygeneruj:
+1) Głęboką empatię.
+2) Profesjonalne przeprosiny.
+3) Działanie wewnętrzne (bez wrażliwych szczegółów).
+4) Rozwiązanie dla klienta.
+5) Bezpieczne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-028",
-    title: "Responder quejas cuando el cliente amenaza con acciones legales",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Desescalar sin comprometer legalmente.",
-    prompt: `Dame:
-- Texto de la amenaza.
-- Tema de la queja.
-- Política interna.
+    title: "Odpowiedź na skargi, gdy klient grozi krokami prawnymi",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Rozładować napięcie bez ryzykownych deklaracji prawnych.",
+    prompt: `Podaj:
+- Treść groźby.
+- Temat skargi.
+- Politykę wewnętrzną.
 
-Genera:
-1) Respuesta calmada.
-2) Aclaración neutral.
-3) Opcción para resolver sin escalar.
-4) Procedimiento correcto.
-5) Cierre profesional.`,
+Wygeneruj:
+1) Spokojną odpowiedź.
+2) Neutralne doprecyzowanie.
+3) Opcję rozwiązania bez eskalacji.
+4) Właściwą procedurę.
+5) Profesjonalne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-029",
-    title: "Responder quejas por no recibir confirmación de compra o reserva",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Resolver confusión sin culpar al cliente.",
-    prompt: `Dame:
-- Tipo de compra/reserva.
-- Tiempo transcurrido.
-- Sistema que usamos.
+    title: "Odpowiedź na skargi: brak potwierdzenia zakupu lub rezerwacji",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Rozwiązać niepewność bez obwiniania klienta.",
+    prompt: `Podaj:
+- Typ zakupu/rezerwacji.
+- Ile czasu minęło.
+- Jakiego systemu używamy.
 
-Genera:
-1) Empatía.
-2) Revisión de estado.
-3) Reenvío o solución.
-4) Verificación final.
-5) Cierre amable.`,
+Wygeneruj:
+1) Empatię.
+2) Sprawdzenie statusu.
+3) Ponowne wysłanie lub rozwiązanie.
+4) Końcową weryfikację.
+5) Miłe zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-030",
-    title: "Responder quejas por producto incompleto o faltante",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Ideal para e-commerce.",
-    prompt: `Dame:
-- Producto.
-- Qué faltó.
-- Política de reemplazo.
+    title: "Odpowiedź na skargi: niekompletny produkt lub brakujące elementy",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Idealne dla e-commerce.",
+    prompt: `Podaj:
+- Produkt.
+- Czego brakuje.
+- Politykę wymiany.
 
-Genera:
-1) Empatía.
-2) Verificación breve.
-3) Reposición inmediata.
-4) Tiempo estimado.
-5) Cierre agradeciendo paciencia.`,
+Wygeneruj:
+1) Empatię.
+2) Krótką weryfikację.
+3) Natychmiastowe uzupełnienie/wysyłkę brakującego elementu.
+4) Szacowany czas.
+5) Zakończenie z podziękowaniem za cierpliwość.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-031",
-    title: "Responder cuando el cliente quiere cancelar por mala primera impresión",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Estrategia para recuperar la relación.",
-    prompt: `Dame:
-- Qué generó mala impresión.
-- Tipo de servicio.
-- Qué podemos ofrecer.
+    title: "Odpowiedź, gdy klient chce anulować z powodu złego pierwszego wrażenia",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Strategia na odzyskanie relacji.",
+    prompt: `Podaj:
+- Co wywołało złe wrażenie.
+- Typ usługi.
+- Co możemy zaoferować.
 
-Genera:
-1) Validación.
-2) Reencuadre positivo.
-3) Solución o compensación.
-4) Cierre para retener al cliente.`,
+Wygeneruj:
+1) Walidację.
+2) Pozytywne przeformułowanie.
+3) Rozwiązanie lub rekompensatę.
+4) Zakończenie, które pomaga zatrzymać klienta.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-032",
-    title: "Responder quejas por instrucciones confusas de instalación/uso",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Mejorar percepción de claridad.",
-    prompt: `Dame:
-- Producto.
-- Qué parte no entendió.
-- Nivel técnico del cliente.
+    title: "Odpowiedź na skargi: mylące instrukcje instalacji/użytkowania",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Poprawić odczucie jasności komunikacji.",
+    prompt: `Podaj:
+- Produkt.
+- Której części klient nie zrozumiał.
+- Poziom techniczny klienta.
 
-Genera:
-1) Aclaración clara.
-2) Instrucción paso a paso.
-3) Recursos visuales.
-4) Solución inmediata.
-5) Cierre amable.`,
+Wygeneruj:
+1) Bardzo jasne wyjaśnienie.
+2) Instrukcję krok po kroku.
+3) Materiały wizualne.
+4) Natychmiastowe rozwiązanie.
+5) Miłe zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-033",
-    title: "Responder quejas por servicio ‘muy caro’",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Defender valor sin sonar defensivo.",
-    prompt: `Dame:
-- Producto/servicio.
-- Precio.
-- Diferentes beneficios o valor.
+    title: "Odpowiedź na skargi: „usługa jest za droga”",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Obronić wartość bez defensywnego tonu.",
+    prompt: `Podaj:
+- Produkt/usługę.
+- Cenę.
+- Różne korzyści lub wartość.
 
-Genera:
-1) Validación sin ceder.
-2) Explicación del valor.
-3) Comparación neutral.
-4) Alternativas.
-5) Cierre profesional.`,
+Wygeneruj:
+1) Walidację bez ustępowania na siłę.
+2) Wyjaśnienie wartości.
+3) Neutralne porównanie.
+4) Alternatywy.
+5) Profesjonalne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-034",
-    title: "Responder quejas por políticas estrictas no entendidas",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Aclarar una política rígida sin perder al cliente.",
-    prompt: `Dame:
-- Política.
-- Qué entendió mal el cliente.
-- Motivo de la política.
+    title: "Odpowiedź na skargi: niezrozumiane restrykcyjne zasady",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Wyjaśnić twardą politykę bez utraty klienta.",
+    prompt: `Podaj:
+- Politykę.
+- Co klient źle zrozumiał.
+- Powód istnienia polityki.
 
-Genera:
-1) Empatía.
-2) Explicación simple.
-3) Motivo real.
-4) Alternativa.
-5) Cierre amable.`,
+Wygeneruj:
+1) Empatię.
+2) Proste wyjaśnienie.
+3) Prawdziwy powód.
+4) Alternatywę.
+5) Miłe zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-035",
-    title: "Responder quejas por no recibir soporte fuera de horario",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Explicar límites sin sonar indiferente.",
-    prompt: `Dame:
-- Horario de soporte.
-- Qué hizo el cliente.
-- Qué podemos hacer ahora.
+    title: "Odpowiedź na skargi: brak wsparcia poza godzinami pracy",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Wyjaśnić ograniczenia bez wrażenia obojętności.",
+    prompt: `Podaj:
+- Godziny wsparcia.
+- Co zrobił klient.
+- Co możemy zrobić teraz.
 
-Genera:
-1) Validación.
-2) Aclaración del horario.
-3) Solución inmediata.
-4) Alternativa nocturna (si aplica).
-5) Cierre positivo.`,
+Wygeneruj:
+1) Walidację.
+2) Doprecyzowanie godzin.
+3) Natychmiastowe rozwiązanie.
+4) Nocną alternatywę (jeśli dotyczy).
+5) Pozytywne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-036",
-    title: "Responder quejas por respuestas contradictorias del equipo",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Unificar información y reparar confianza.",
-    prompt: `Dame:
-- Qué se contradijo.
-- Qué entendió el cliente.
-- Cómo es realmente.
+    title: "Odpowiedź na skargi: sprzeczne odpowiedzi zespołu",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Ujednolicić informacje i odbudować zaufanie.",
+    prompt: `Podaj:
+- Co było sprzeczne.
+- Co zrozumiał klient.
+- Jak jest naprawdę.
 
-Genera:
-1) Disculpa profesional.
-2) Explicación clara.
-3) Resolución definitiva.
-4) Aseguramiento de consistencia.
-5) Cierre amable.`,
+Wygeneruj:
+1) Profesjonalne przeprosiny.
+2) Jasne wyjaśnienie.
+3) Ostateczne rozstrzygnięcie.
+4) Zapewnienie spójności na przyszłość.
+5) Miłe zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-037",
-    title: "Responder quejas por falta de seguimiento o abandono del caso",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Reparar relación y activar seguimiento inmediato.",
-    prompt: `Dame:
-- Caso.
-- Tiempo sin respuesta.
-- Próximo paso.
+    title: "Odpowiedź na skargi: brak follow-upu lub porzucenie sprawy",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Naprawić relację i uruchomić natychmiastowy follow-up.",
+    prompt: `Podaj:
+- Sprawę.
+- Czas bez odpowiedzi.
+- Następny krok.
 
-Genera:
-1) Disculpa genuina.
-2) Explicación corta.
-3) Acción inmediata.
-4) Calendario de seguimiento.
-5) Cierre agradecido.`,
+Wygeneruj:
+1) Szczere przeprosiny.
+2) Krótkie wyjaśnienie.
+3) Natychmiastowe działanie.
+4) Harmonogram follow-upu.
+5) Zakończenie z podziękowaniem.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-038",
-    title: "Responder quejas cuando hay un malentendido cultural o de lenguaje",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Bajar tensión y aclarar diferencias de comunicación.",
-    prompt: `Dame:
-- Qué se malinterpretó.
-- Cultura o idioma del cliente.
-- Intención real del mensaje.
+    title: "Odpowiedź na skargi przy nieporozumieniu kulturowym lub językowym",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Obniżyć napięcie i wyjaśnić różnice w komunikacji.",
+    prompt: `Podaj:
+- Co zostało źle zrozumiane.
+- Kulturę lub język klienta.
+- Rzeczywistą intencję wiadomości.
 
-Genera:
-1) Validación cultural.
-2) Aclaración suave.
-3) Ejemplo real.
-4) Solución.
-5) Cierre respetuoso.`,
+Wygeneruj:
+1) Walidację kulturową.
+2) Delikatne doprecyzowanie.
+3) Realny przykład.
+4) Rozwiązanie.
+5) Szanujące zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-039",
-    title: "Responder quejas por promesas que el cliente cree que vio",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Cuando el cliente entiende una oferta de forma incorrecta.",
-    prompt: `Dame:
-- Qué creyó el cliente.
-- Qué dice realmente la oferta.
-- Qué podemos ofrecer.
+    title: "Odpowiedź na skargi: „obietnice”, które klient myśli, że widział",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Gdy klient błędnie interpretuje ofertę.",
+    prompt: `Podaj:
+- Co sądził klient.
+- Co rzeczywiście mówi oferta.
+- Co możemy zaoferować.
 
-Genera:
-1) Empatía.
-2) Aclaración diplomática.
-3) Versión correcta.
-4) Alternativa atractiva.
-5) Cierre profesional.`,
+Wygeneruj:
+1) Empatię.
+2) Dyplomatyczne doprecyzowanie.
+3) Poprawną wersję informacji.
+4) Atrakcyjną alternatywę.
+5) Profesjonalne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "soporte-quejas-040",
-    title: "Responder queja por falta de personalización en el servicio",
-    area: "Atención al Cliente & SOPs",
-    category: "Quejas",
-    summary: "Transformar una mala experiencia en algo positivo.",
-    prompt: `Dame:
-- Servicio.
-- Qué esperaba el cliente.
-- Qué sí podemos personalizar.
+    title: "Odpowiedź na skargę: brak personalizacji usługi",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skargi",
+    summary: "Zamienić złe doświadczenie w coś pozytywnego.",
+    prompt: `Podaj:
+- Usługę.
+- Czego oczekiwał klient.
+- Co możemy spersonalizować.
 
-Genera:
-1) Validación emocional.
-2) Explicación del alcance real.
-3) Personalización disponible.
-4) Siguiente paso.
-5) Cierre amable.`,
+Wygeneruj:
+1) Walidację emocjonalną.
+2) Wyjaśnienie realnego zakresu.
+3) Dostępną personalizację.
+4) Następny krok.
+5) Miłe zakończenie.`,
     thumbnail: "",
   },
 ];

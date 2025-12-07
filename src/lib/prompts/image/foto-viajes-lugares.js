@@ -2,628 +2,628 @@
 
 export const imagePromptsFotoViajesLugares = [
   // =========================
-  // CATEGORY: Ciudad / urbano
+  // CATEGORY: Miasto / urban
   // =========================
   {
     id: "img-viaje-001",
-    title: "Ciudad al atardecer (calle icónica, luz dorada, look cinematográfico)",
-    area: "Fotografía Pro",
-    category: "Ciudad / urbano",
+    title: "Miasto o zachodzie słońca (ikoniczna ulica, złote światło, filmowy look)",
+    area: "Fotografia Profesjonalna",
+    category: "Miasto / urban",
     summary:
-      "Foto de viaje urbana realista al golden hour con profundidad, gente sutil y estética cinematográfica.",
-    prompt: `Genera una fotografía REALISTA de viaje en ciudad al atardecer.
+      "Realistyczne zdjęcie podróżnicze w mieście w złotej godzinie z głębią, subtelnymi ludźmi i filmową estetyką.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie podróżnicze w mieście o zachodzie słońca.
 
-DATOS:
-- Lugar: calle urbana icónica genérica (sin marcas ni letreros legibles)
-- Elementos: arquitectura interesante, faroles, tránsito sutil
-- Personas: algunas personas de fondo (desenfocadas), naturales
-- Estilo: cinematic travel, colores naturales (no exagerar saturación)
+DANE:
+- Miejsce: generyczna ikoniczna ulica miejska (bez marek i czytelnych szyldów)
+- Elementy: ciekawa architektura, latarnie, subtelny ruch uliczny
+- Ludzie: kilka osób w tle (rozmytych), naturalnie
+- Styl: cinematic travel, naturalne kolory (bez przesadnej saturacji)
 
-ILUMINACIÓN:
-- Golden hour (luz dorada lateral), sombras suaves
-- Reflejos realistas en ventanas y pavimento
+OŚWIETLENIE:
+- Golden hour (boczne złote światło), miękkie cienie
+- Realistyczne refleksy w oknach i na nawierzchni
 
-CÁMARA:
+KAMERA:
 - 35mm, f/2.2, ISO 200
-- Enfoque en el punto de interés, fondo con bokeh suave
+- Ostrość na punkcie zainteresowania, tło z miękkim bokeh
 
-COMPOSICIÓN:
-- Líneas guía (calle) hacia el fondo, sensación de profundidad
-- Espacio negativo ligero para uso en diseño (pero NO incluir texto)
+KOMPOZYCJA:
+- Linie prowadzące (ulica) w głąb kadru, poczucie głębi
+- Lekka negatywna przestrzeń do użycia w designie (ale NIE dodawaj tekstu)
 
-RESTRICCIONES:
-- Sin texto/watermarks
-- Evitar carteles o marcas legibles`,
+OGRANICZENIA:
+- Bez tekstu/znaków wodnych
+- Unikać czytelnych tablic i marek`,
     thumbnail: "/images/foto-pro/viaje1.webp",
   },
   {
     id: "img-viaje-002",
-    title: "Calle nocturna con neón sutil (lluvia ligera, reflejos, realista)",
-    area: "Fotografía Pro",
-    category: "Ciudad / urbano",
+    title: "Nocna ulica z subtelnym neonem (lekki deszcz, odbicia, realistycznie)",
+    area: "Fotografia Profesjonalna",
+    category: "Miasto / urban",
     summary:
-      "Escena nocturna urbana con suelo mojado y bokeh de luces, neón sutil sin exceso.",
-    prompt: `Genera una foto REALISTA de ciudad nocturna con estética cinematográfica.
+      "Nocna scena miejska z mokrą nawierzchnią i bokeh świateł, subtelny neon bez przesady.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie nocnego miasta w filmowej estetyce.
 
-DATOS:
-- Lugar: calle urbana genérica, moderna
-- Ambiente: suelo ligeramente mojado (reflejos), lluvia muy sutil opcional
-- Luces: neón sutil magenta/cian + faroles cálidos
-- Personas: opcional, pocas y desenfocadas
+DANE:
+- Miejsce: generyczna nowoczesna ulica miejska
+- Klimat: lekko mokra nawierzchnia (odbicia), opcjonalnie bardzo subtelny deszcz
+- Światła: subtelny neon magenta/cyjan + ciepłe latarnie
+- Ludzie: opcjonalnie, nieliczni i rozmyci
 
-ILUMINACIÓN:
-- Contraste medio-alto, mantener detalle en sombras
-- Reflejos realistas en pavimento
+OŚWIETLENIE:
+- Kontrast średnio-wysoki, zachować detal w cieniach
+- Realistyczne odbicia na jezdni
 
-CÁMARA:
+KAMERA:
 - 35mm, f/1.8, ISO 1600
-- Bokeh de luces al fondo, enfoque en punto medio
+- Bokeh świateł w tle, ostrość na średnim planie
 
-COMPOSICIÓN:
-- Perspectiva de calle con profundidad, look movie still
+KOMPOZYCJA:
+- Perspektywa ulicy z głębią, look jak kadr z filmu
 
-RESTRICCIONES:
-- Sin texto/logos legibles
-- Evitar exceso de glow artificial`,
+OGRANICZENIA:
+- Bez czytelnego tekstu/logo
+- Unikać nadmiernego sztucznego glow`,
     thumbnail: "/images/foto-pro/viaje2.webp",
   },
   {
     id: "img-viaje-003",
-    title: "Café en calle europea (mañana, luz suave, travel editorial)",
-    area: "Fotografía Pro",
-    category: "Ciudad / urbano",
+    title: "Kawiarnia na europejskiej ulicy (poranek, miękkie światło, travel editorial)",
+    area: "Fotografia Profesjonalna",
+    category: "Miasto / urban",
     summary:
-      "Vibe editorial: terraza de café en calle bonita, luz de mañana suave y realismo.",
-    prompt: `Genera una foto REALISTA editorial de viaje en una calle con terraza de café.
+      "Editorialowy klimat: taras kawiarni na ładnej ulicy, miękkie poranne światło i realizm.",
+    prompt: `Wygeneruj REALISTYCZNE editorialowe zdjęcie podróżnicze na ulicy z ogródkiem kawiarnianym.
 
-DATOS:
-- Escena: mesas en exterior, sillas, calle de piedra o pavimento bonito
-- Elementos: plantas, ventanas, detalles arquitectónicos (sin letreros legibles)
-- Personas: 1–2 personas desenfocadas opcional, ambiente relajado
-- Estilo: travel editorial, limpio y luminoso
+DANE:
+- Scena: stoliki na zewnątrz, krzesła, kamienna uliczka lub ładny chodnik
+- Elementy: rośliny, okna, detale architektoniczne (bez czytelnych szyldów)
+- Ludzie: opcjonalnie 1–2 osoby rozmyte, spokojna atmosfera
+- Styl: travel editorial, czysto i jasno
 
-ILUMINACIÓN:
-- Luz de mañana suave, sombras muy ligeras
-- Colores naturales, tonos cálidos neutros
+OŚWIETLENIE:
+- Miękkie poranne światło, bardzo lekkie cienie
+- Naturalne barwy, neutralnie ciepłe tony
 
-CÁMARA:
+KAMERA:
 - 50mm, f/2.2, ISO 200
-- Enfoque en mesa/elemento principal, fondo bokeh
+- Ostrość na stoliku/głównym elemencie, tło bokeh
 
-COMPOSICIÓN:
-- Regla de tercios, sensación acogedora
+KOMPOZYCJA:
+- Zasada trójpodziału, przytulne wrażenie
 
-RESTRICCIONES:
-- Sin texto/logos legibles
-- Evitar rostros raros en fondo`,
+OGRANICZENIA:
+- Bez czytelnego tekstu/logo
+- Unikać dziwnych twarzy w tle`,
     thumbnail: "/images/foto-pro/viaje3.webp",
   },
   {
     id: "img-viaje-004",
-    title: "Vista desde mirador urbano (skyline, atardecer, haze suave)",
-    area: "Fotografía Pro",
-    category: "Ciudad / urbano",
+    title: "Widok z miejskiego punktu widokowego (skyline, zachód, delikatna mgiełka)",
+    area: "Fotografia Profesjonalna",
+    category: "Miasto / urban",
     summary:
-      "Skyline realista desde mirador con bruma suave y luz de atardecer, look premium.",
-    prompt: `Genera una foto REALISTA de skyline urbano desde un mirador.
+      "Realistyczny skyline z punktu widokowego z delikatną mgiełką i światłem zachodu, premium look.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie panoramy miasta (skyline) z punktu widokowego.
 
-DATOS:
-- Lugar: vista panorámica de ciudad (edificios genéricos, sin marcas)
-- Atmósfera: bruma/haze suave realista (no exagerada)
-- Elementos: barandal o punto de mirador sutil en primer plano
+DANE:
+- Miejsce: panoramiczny widok na miasto (budynki generyczne, bez marek)
+- Atmosfera: delikatna realistyczna mgiełka/haze (bez przesady)
+- Elementy: subtelna barierka lub detal punktu widokowego na pierwszym planie
 
-ILUMINACIÓN:
-- Atardecer, luz cálida suave con gradiente en el cielo
-- Sombras suaves, detalle en edificios
+OŚWIETLENIE:
+- Zachód słońca, miękkie ciepłe światło i gradient na niebie
+- Miękkie cienie, detal na budynkach
 
-CÁMARA:
+KAMERA:
 - 70mm, f/4, ISO 200
-- Nitidez alta, leve compresión telefotográfica
+- Wysoka ostrość, lekkie „tele” spłaszczenie planów
 
-COMPOSICIÓN:
-- Horizonte recto, skyline en tercio superior
-- Espacio negativo en cielo (sin texto)
+KOMPOZYCJA:
+- Prosty horyzont, skyline w górnej części kadru
+- Negatywna przestrzeń na niebie (bez tekstu)
 
-RESTRICCIONES:
-- Sin texto/watermarks
-- Evitar edificios deformes`,
+OGRANICZENIA:
+- Bez tekstu/znaków wodnych
+- Unikać zdeformowanych budynków`,
     thumbnail: "/images/foto-pro/viaje4.webp",
   },
 
   // =========================
-  // CATEGORY: Naturaleza / paisajes
+  // CATEGORY: Natura / krajobrazy
   // =========================
   {
     id: "img-viaje-005",
-    title: "Montañas al amanecer (niebla ligera, épico pero realista)",
-    area: "Fotografía Pro",
-    category: "Naturaleza / paisajes",
+    title: "Góry o świcie (lekka mgła, epicko ale realistycznie)",
+    area: "Fotografia Profesjonalna",
+    category: "Natura / krajobrazy",
     summary:
-      "Paisaje de montaña al amanecer con niebla sutil y color natural, estilo travel premium.",
-    prompt: `Genera una foto REALISTA de montañas al amanecer.
+      "Górski krajobraz o świcie z subtelną mgłą warstwową i naturalnym kolorem, premium travel styl.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie gór o wschodzie słońca.
 
-DATOS:
-- Escena: cordillera con picos, valle y niebla ligera en capas (sutil)
-- Elementos: vegetación natural, sin elementos fantásticos
-- Estilo: travel premium, realista, sin HDR exagerado
+DANE:
+- Scena: pasmo górskie z szczytami, doliną i lekką mgłą w warstwach (subtelnie)
+- Elementy: naturalna roślinność, bez fantastycznych motywów
+- Styl: travel premium, realistycznie, bez przesadnego HDR
 
-ILUMINACIÓN:
-- Amanecer: luz suave dorada/rosada, sombras largas delicadas
-- Gradiente natural en el cielo
+OŚWIETLENIE:
+- Świt: miękkie złote/różowe światło, delikatne długie cienie
+- Naturalny gradient na niebie
 
-CÁMARA:
+KAMERA:
 - 24–35mm, f/5.6, ISO 100–200
-- Nitidez general, profundidad amplia
+- Ogólna ostrość, duża głębia
 
-COMPOSICIÓN:
-- Capas de profundidad (primer plano/medio/fondo), sensación épica
+KOMPOZYCJA:
+- Warstwy głębi (pierwszy plan/środek/tło), epickie wrażenie
 
-RESTRICCIONES:
-- Sin texto/watermarks
-- Evitar montañas “pintadas” irreales`,
+OGRANICZENIA:
+- Bez tekstu/znaków wodnych
+- Unikać „malowanych” nierealnych gór`,
     thumbnail: "/images/foto-pro/viaje5.webp",
   },
   {
     id: "img-viaje-006",
-    title: "Playa tropical (agua turquesa realista, palmeras, luz brillante)",
-    area: "Fotografía Pro",
-    category: "Naturaleza / paisajes",
+    title: "Tropikalna plaża (realistyczna turkusowa woda, palmy, jasne światło)",
+    area: "Fotografia Profesjonalna",
+    category: "Natura / krajobrazy",
     summary:
-      "Playa luminosa con agua turquesa realista, palmeras y estética veraniega premium.",
-    prompt: `Genera una foto REALISTA de playa tropical.
+      "Jasna plaża z realistyczną turkusową wodą, palmami i premium letnią estetyką.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie tropikalnej plaży.
 
-DATOS:
-- Escena: playa con arena clara, palmeras, mar turquesa realista
-- Elementos: olas suaves, espuma natural, cielo despejado
-- Personas: opcional, muy pequeñas y desenfocadas a lo lejos
+DANE:
+- Scena: plaża z jasnym piaskiem, palmy, realistyczne turkusowe morze
+- Elementy: łagodne fale, naturalna piana, bezchmurne niebo
+- Ludzie: opcjonalnie, bardzo mali i rozmyci w oddali
 
-ILUMINACIÓN:
-- Luz brillante de mediodía o mañana, sombras suaves
-- Colores naturales (no saturación excesiva)
+OŚWIETLENIE:
+- Jasne światło południa lub poranka, miękkie cienie
+- Naturalne kolory (bez nadmiernej saturacji)
 
-CÁMARA:
+KAMERA:
 - 24–28mm, f/5, ISO 100
-- Nitidez amplia, horizonte recto
+- Szeroka ostrość, prosty horyzont
 
-COMPOSICIÓN:
-- Horizonte en tercio superior, palmera en un lado para enmarcar
+KOMPOZYCJA:
+- Horyzont w górnym trzecim, palma z boku jako rama
 
-RESTRICCIONES:
-- Sin texto/watermarks
-- Evitar agua “neón” irreal`,
+OGRANICZENIA:
+- Bez tekstu/znaków wodnych
+- Unikać nierealnej „neonowej” wody`,
     thumbnail: "/images/foto-pro/viaje6.webp",
   },
   {
     id: "img-viaje-007",
-    title: "Bosque otoñal (camino, luz suave, colores cálidos naturales)",
-    area: "Fotografía Pro",
-    category: "Naturaleza / paisajes",
+    title: "Jesienny las (ścieżka, miękkie światło, naturalne ciepłe kolory)",
+    area: "Fotografia Profesjonalna",
+    category: "Natura / krajobrazy",
     summary:
-      "Bosque otoñal con camino y tonos cálidos naturales, estilo postal realista.",
-    prompt: `Genera una foto REALISTA de bosque en otoño con un camino.
+      "Jesienny las ze ścieżką i naturalnymi ciepłymi tonami, realistyczny styl pocztówkowy.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie jesiennego lasu ze ścieżką.
 
-DATOS:
-- Escena: camino entre árboles con hojas otoñales, suelo con hojas secas
-- Elementos: niebla suave opcional, rayos de luz muy sutiles
-- Estilo: travel natural, realista, sin filtros fuertes
+DANE:
+- Scena: ścieżka między drzewami z jesiennymi liśćmi, ziemia z suchymi liśćmi
+- Elementy: opcjonalnie miękka mgiełka, bardzo subtelne promienie światła
+- Styl: natural travel, realistycznie, bez mocnych filtrów
 
-ILUMINACIÓN:
-- Luz suave (tarde/nublado), sombras delicadas
-- Colores cálidos naturales (amarillo/naranja/rojo) sin exagerar
+OŚWIETLENIE:
+- Miękkie światło (popołudnie/pochmurnie), delikatne cienie
+- Naturalne ciepłe kolory (żółty/pomarańcz/czerwony) bez przesady
 
-CÁMARA:
+KAMERA:
 - 35mm, f/3.5, ISO 200
-- Enfoque en el camino, fondo con profundidad
+- Ostrość na ścieżce, tło z głębią
 
-COMPOSICIÓN:
-- Camino como línea guía hacia el centro
+KOMPOZYCJA:
+- Ścieżka jako linia prowadząca do środka
 
-RESTRICCIONES:
-- Sin texto/watermarks
-- Evitar patrones repetidos artificiales`,
+OGRANICZENIA:
+- Bez tekstu/znaków wodnych
+- Unikać sztucznych powtarzalnych wzorów`,
     thumbnail: "/images/foto-pro/viaje7.webp",
   },
   {
     id: "img-viaje-008",
-    title: "Cascada en selva (larga exposición ligera, realista, verde profundo)",
-    area: "Fotografía Pro",
-    category: "Naturaleza / paisajes",
+    title: "Wodospad w dżungli (lekka długa ekspozycja, realistycznie, głęboka zieleń)",
+    area: "Fotografia Profesjonalna",
+    category: "Natura / krajobrazy",
     summary:
-      "Cascada realista con efecto de agua suave tipo larga exposición y verde profundo natural.",
-    prompt: `Genera una foto REALISTA de cascada en entorno natural.
+      "Realistyczny wodospad z delikatnie „wygładzoną” wodą jak przy długiej ekspozycji i naturalną głęboką zielenią.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie wodospadu w naturalnym otoczeniu.
 
-DATOS:
-- Escena: cascada mediana con rocas y vegetación, agua clara realista
-- Estilo: travel naturaleza, limpio, sin fantasía
-- Agua: efecto suave tipo larga exposición (ligero, no “algodón exagerado”)
+DANE:
+- Scena: średni wodospad z kamieniami i roślinnością, realistyczna przejrzysta woda
+- Styl: travel natura, czysto, bez fantazji
+- Woda: delikatny efekt długiej ekspozycji (lekko, nie „przesadna wata”)
 
-ILUMINACIÓN:
-- Luz difusa (bosque), sombras suaves, contraste moderado
-- Verde profundo realista
+OŚWIETLENIE:
+- Rozproszone światło (las), miękkie cienie, umiarkowany kontrast
+- Realistyczna głęboka zieleń
 
-CÁMARA:
-- 24–35mm, f/8, ISO 100 (simular larga exposición)
-- Nitidez en rocas y vegetación
+KAMERA:
+- 24–35mm, f/8, ISO 100 (symuluj długą ekspozycję)
+- Ostrość na kamieniach i roślinności
 
-COMPOSICIÓN:
-- Cascada centrada, rocas en primer plano para profundidad
+KOMPOZYCJA:
+- Wodospad na środku, kamienie na pierwszym planie dla głębi
 
-RESTRICCIONES:
-- Sin texto/watermarks
-- Evitar agua irreal o vegetación duplicada`,
+OGRANICZENIA:
+- Bez tekstu/znaków wodnych
+- Unikać nierealnej wody lub zduplikowanej roślinności`,
     thumbnail: "/images/foto-pro/viaje8.webp",
   },
   {
     id: "img-viaje-009",
-    title: "Desierto con dunas (golden hour, sombras largas, minimal)",
-    area: "Fotografía Pro",
-    category: "Naturaleza / paisajes",
+    title: "Pustynia z wydmami (golden hour, długie cienie, minimal)",
+    area: "Fotografia Profesjonalna",
+    category: "Natura / krajobrazy",
     summary:
-      "Dunas minimalistas en golden hour con sombras largas, estética calm y premium.",
-    prompt: `Genera una foto REALISTA de desierto con dunas.
+      "Minimalistyczne wydmy w złotej godzinie z długimi cieniami, spokojna i premium estetyka.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie pustyni z wydmami.
 
-DATOS:
-- Escena: dunas onduladas minimalistas, sin elementos modernos
-- Elementos: huellas sutiles opcional, horizonte limpio
-- Estilo: minimal travel, premium, natural
+DANE:
+- Scena: minimalistyczne falujące wydmy, bez nowoczesnych elementów
+- Elementy: opcjonalnie subtelne ślady, czysty horyzont
+- Styl: minimal travel, premium, naturalnie
 
-ILUMINACIÓN:
-- Golden hour, sombras largas finas, tonos cálidos suaves
-- Contraste moderado para resaltar textura de arena
+OŚWIETLENIE:
+- Golden hour, długie delikatne cienie, miękkie ciepłe tony
+- Umiarkowany kontrast podkreślający fakturę piasku
 
-CÁMARA:
+KAMERA:
 - 50–70mm, f/5.6, ISO 100
-- Compresión leve para formas de dunas
+- Lekka kompresja dla kształtów wydm
 
-COMPOSICIÓN:
-- Líneas curvas de dunas como protagonistas, mucho espacio negativo
+KOMPOZYCJA:
+- Krzywizny wydm jako główny temat, dużo negatywnej przestrzeni
 
-RESTRICCIONES:
-- Sin texto/watermarks
-- Evitar arena “plástica” o patrones repetidos`,
+OGRANICZENIA:
+- Bez tekstu/znaków wodnych
+- Unikać „plastikowego” piasku i powtarzalnych wzorów`,
     thumbnail: "/images/foto-pro/viaje9.webp",
   },
 
   // =========================
-  // CATEGORY: Arquitectura / monumentos (genérico, sin marcas)
+  // CATEGORY: Architektura / zabytki (generyczne, bez marek)
   // =========================
   {
     id: "img-viaje-010",
-    title: "Catedral/templo (interior, luz por vitrales, realista)",
-    area: "Fotografía Pro",
-    category: "Arquitectura / monumentos",
+    title: "Katedra/świątynia (wnętrze, światło przez witraże, realistycznie)",
+    area: "Fotografia Profesjonalna",
+    category: "Architektura / zabytki",
     summary:
-      "Interior solemne con luz entrando por vitrales y atmósfera realista, sin elementos legibles.",
-    prompt: `Genera una foto REALISTA de interior de catedral/templo (arquitectura).
+      "Uroczyste wnętrze ze światłem wpadającym przez witraże i realistyczną atmosferą, bez czytelnych elementów.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie wnętrza katedry/świątyni (architektura).
 
-DATOS:
-- Escena: interior con arcos altos, vitrales, bancos, detalles ornamentales
-- Personas: opcional, pocas y pequeñas, desenfocadas para escala
-- Estilo: travel editorial, realista
+DANE:
+- Scena: wnętrze z wysokimi łukami, witrażami, ławkami, ornamentami
+- Ludzie: opcjonalnie, nieliczni i mali, rozmyci dla skali
+- Styl: travel editorial, realistycznie
 
-ILUMINACIÓN:
-- Luz entrando por vitrales (rayos suaves), polvo en el aire sutil opcional
-- Sombras suaves, mantener detalle
+OŚWIETLENIE:
+- Światło wpadające przez witraże (miękkie promienie), opcjonalnie subtelny kurz w powietrzu
+- Miękkie cienie, zachować detale
 
-CÁMARA:
+KAMERA:
 - 24mm, f/4.5, ISO 800
-- Gran angular moderado, líneas verticales rectas (sin distorsión)
+- Umiarkowany szeroki kąt, proste piony (bez dystorsji)
 
-COMPOSICIÓN:
-- Simetría central, pasillo hacia el altar (sin símbolos legibles)
+KOMPOZYCJA:
+- Centralna symetria, nawa prowadząca do ołtarza (bez czytelnych symboli)
 
-RESTRICCIONES:
-- Sin texto/watermarks
-- Evitar deformación de columnas/arcos`,
+OGRANICZENIA:
+- Bez tekstu/znaków wodnych
+- Unikać deformacji kolumn/łuków`,
     thumbnail: "/images/foto-pro/viaje10.webp",
   },
   {
     id: "img-viaje-011",
-    title: "Puente icónico genérico (amanecer, niebla leve, look postal)",
-    area: "Fotografía Pro",
-    category: "Arquitectura / monumentos",
+    title: "Generyczny ikoniczny most (świt, lekka mgła, pocztówkowy look)",
+    area: "Fotografia Profesjonalna",
+    category: "Architektura / zabytki",
     summary:
-      "Puente grande al amanecer con bruma leve y agua, estética postal realista sin marcas.",
-    prompt: `Genera una foto REALISTA de un puente grande icónico genérico (sin identificar).
+      "Duży most o świcie z lekką mgiełką i wodą, realistyczna estetyka pocztówki bez marek.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie dużego generycznego „ikonicznego” mostu (bez identyfikacji).
 
-DATOS:
-- Escena: puente sobre río o bahía, niebla suave opcional
-- Elementos: agua con reflejos, skyline lejano desenfocado
-- Estilo: travel postcard premium
+DANE:
+- Scena: most nad rzeką lub zatoką, opcjonalnie miękka mgła
+- Elementy: woda z odbiciami, daleki skyline rozmyty
+- Styl: travel postcard premium
 
-ILUMINACIÓN:
-- Amanecer, luz suave, tonos fríos-cálidos equilibrados
-- Reflejos realistas, contraste moderado
+OŚWIETLENIE:
+- Świt, miękkie światło, zbalansowane tony chłodne-ciepłe
+- Realistyczne refleksy, umiarkowany kontrast
 
-CÁMARA:
+KAMERA:
 - 35–50mm, f/5.6, ISO 200
-- Nitidez amplia, líneas rectas
+- Szeroka ostrość, proste linie
 
-COMPOSICIÓN:
-- Puente como diagonal o regla de tercios, horizonte recto
+KOMPOZYCJA:
+- Most jako diagonal lub w trójpodziale, prosty horyzont
 
-RESTRICCIONES:
-- Sin texto/watermarks
-- Evitar señales o logos legibles`,
+OGRANICZENIA:
+- Bez tekstu/znaków wodnych
+- Unikać czytelnych znaków i logotypów`,
     thumbnail: "/images/foto-pro/viaje11.webp",
   },
   {
     id: "img-viaje-012",
-    title: "Barrio colorido (fachadas, calle estrecha, luz suave, realista)",
-    area: "Fotografía Pro",
-    category: "Arquitectura / monumentos",
+    title: "Kolorowa dzielnica (fasady, wąska uliczka, miękkie światło, realistycznie)",
+    area: "Fotografia Profesjonalna",
+    category: "Architektura / zabytki",
     summary:
-      "Calle con fachadas coloridas y vibe travel, colores naturales y sin carteles legibles.",
-    prompt: `Genera una foto REALISTA de un barrio con fachadas coloridas.
+      "Ulica z kolorowymi fasadami i travel vibe, naturalne kolory i bez czytelnych szyldów.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie dzielnicy z kolorowymi fasadami.
 
-DATOS:
-- Escena: calle estrecha con fachadas pintadas, balcones, plantas
-- Elementos: adoquines, puertas, ventanas (sin letreros legibles)
-- Personas: opcional, pocas y desenfocadas
+DANE:
+- Scena: wąska ulica z malowanymi fasadami, balkonami i roślinami
+- Elementy: bruk, drzwi, okna (bez czytelnych szyldów)
+- Ludzie: opcjonalnie, nieliczni i rozmyci
 
-ILUMINACIÓN:
-- Luz suave (tarde/nublado), colores naturales
-- Sombras leves, look editorial
+OŚWIETLENIE:
+- Miękkie światło (popołudnie/pochmurnie), naturalne barwy
+- Lekkie cienie, editorial look
 
-CÁMARA:
+KAMERA:
 - 35mm, f/2.8, ISO 250
-- Enfoque en fachadas, profundidad de calle
+- Ostrość na fasadach, głębia ulicy
 
-COMPOSICIÓN:
-- Líneas guía por la calle, sensación de exploración
+KOMPOZYCJA:
+- Linie prowadzące ulicą, wrażenie odkrywania
 
-RESTRICCIONES:
-- Sin texto/watermarks
-- Evitar patrones repetidos artificiales`,
+OGRANICZENIA:
+- Bez tekstu/znaków wodnych
+- Unikać sztucznych powtarzalnych wzorów`,
     thumbnail: "/images/foto-pro/viaje12.webp",
   },
 
   // =========================
-  // CATEGORY: Interior / hotel / Airbnb
+  // CATEGORY: Wnętrza / hotel / Airbnb
   // =========================
   {
     id: "img-viaje-013",
-    title: "Habitación de hotel minimal (luz de ventana, cama impecable, realista)",
-    area: "Fotografía Pro",
-    category: "Interior / hotel / Airbnb",
+    title: "Minimalny pokój hotelowy (światło z okna, idealne łóżko, realistycznie)",
+    area: "Fotografia Profesjonalna",
+    category: "Wnętrza / hotel / Airbnb",
     summary:
-      "Interior hotel/Airbnb minimal con luz natural y estética limpia tipo travel influencer.",
-    prompt: `Genera una foto REALISTA de interior de hotel/Airbnb minimal.
+      "Minimalistyczne wnętrze hotelu/Airbnb z naturalnym światłem i czystą estetyką travel influencera.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie minimalistycznego wnętrza hotelu/Airbnb.
 
-DATOS:
-- Escena: habitación luminosa, cama impecable, mesitas, lámparas
-- Decoración: minimal cálida (madera, blanco, beige), sin marcas
-- Ventana: luz natural entrando, cortinas suaves
+DANE:
+- Scena: jasny pokój, idealnie pościelone łóżko, stoliki nocne, lampki
+- Wystrój: ciepły minimal (drewno, biel, beż), bez marek
+- Okno: wpadające naturalne światło, miękkie zasłony
 
-ILUMINACIÓN:
-- Luz de ventana suave, sombras delicadas
-- Colores neutros naturales, sin HDR exagerado
+OŚWIETLENIE:
+- Miękkie światło z okna, delikatne cienie
+- Naturalne neutralne kolory, bez przesadnego HDR
 
-CÁMARA:
+KAMERA:
 - 24mm, f/4, ISO 250
-- Gran angular moderado, líneas rectas (sin distorsión)
+- Umiarkowany szeroki kąt, proste linie (bez dystorsji)
 
-COMPOSICIÓN:
-- Simetría parcial, sensación de calma
+KOMPOZYCJA:
+- Częściowa symetria, poczucie spokoju
 
-RESTRICCIONES:
-- Sin texto/watermarks
-- Evitar objetos deformes o repetidos`,
+OGRANICZENIA:
+- Bez tekstu/znaków wodnych
+- Unikać zdeformowanych lub powtórzonych obiektów`,
     thumbnail: "/images/foto-pro/viaje13.webp",
   },
   {
     id: "img-viaje-014",
-    title: "Desayuno en cama (travel cozy, luz suave, editorial realista)",
-    area: "Fotografía Pro",
-    category: "Interior / hotel / Airbnb",
+    title: "Śniadanie do łóżka (travel cozy, miękkie światło, realistyczny editorial)",
+    area: "Fotografia Profesjonalna",
+    category: "Wnętrza / hotel / Airbnb",
     summary:
-      "Desayuno en cama estilo travel cozy para redes, luz suave y comida realista.",
-    prompt: `Genera una foto REALISTA editorial de desayuno en cama (travel cozy).
+      "Śniadanie w łóżku w stylu travel cozy na social media, miękkie światło i realistyczne jedzenie.",
+    prompt: `Wygeneruj REALISTYCZNE editorialowe zdjęcie śniadania do łóżka (travel cozy).
 
-DATOS:
-- Escena: bandeja con desayuno (café, fruta, pan), vajilla sin marcas
-- Cama: sábanas blancas arrugadas natural, estética cozy
-- Fondo: habitación elegante desenfocada, luz de ventana
+DANE:
+- Scena: taca ze śniadaniem (kawa, owoce, pieczywo), naczynia bez marek
+- Łóżko: naturalnie pogniecione białe prześcieradła, cozy estetyka
+- Tło: elegancki pokój rozmyty, światło z okna
 
-ILUMINACIÓN:
-- Luz suave natural, tonos cálidos neutros
-- Textures reales en comida y tela
+OŚWIETLENIE:
+- Miękkie naturalne światło, neutralnie ciepłe tony
+- Realistyczne tekstury jedzenia i tkanin
 
-CÁMARA:
+KAMERA:
 - 50mm, f/2.5, ISO 400
-- Enfoque en bandeja, fondo bokeh
+- Ostrość na tacy, tło bokeh
 
-COMPOSICIÓN:
-- Bandeja centrada, manos opcionales pero anatómica correcta
+KOMPOZYCJA:
+- Taca na środku, dłonie opcjonalnie, ale poprawna anatomia
 
-RESTRICCIONES:
-- Sin texto/watermarks
-- Evitar comida “plástica”`,
+OGRANICZENIA:
+- Bez tekstu/znaków wodnych
+- Unikać „plastikowego” jedzenia`,
     thumbnail: "/images/foto-pro/viaje14.webp",
   },
   {
     id: "img-viaje-015",
-    title: "Vistas desde balcón (taza en primer plano, ciudad/mar desenfocado)",
-    area: "Fotografía Pro",
-    category: "Interior / hotel / Airbnb",
+    title: "Widok z balkonu (kubek na pierwszym planie, miasto/morze rozmyte)",
+    area: "Fotografia Profesjonalna",
+    category: "Wnętrza / hotel / Airbnb",
     summary:
-      "POV travel desde balcón con taza en primer plano y vista desenfocada al fondo.",
-    prompt: `Genera una foto REALISTA tipo POV desde un balcón de hotel.
+      "POV travel z balkonu z kubkiem na pierwszym planie i rozmytym widokiem w tle.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie typu POV z hotelowego balkonu.
 
-DATOS:
-- Primer plano: mano sosteniendo una taza (sin logo), enfoque nítido
-- Fondo: vista a ciudad o mar, desenfocado con bokeh suave
-- Elementos: barandal del balcón, plantas opcionales, estética travel
+DANE:
+- Pierwszy plan: dłoń trzymająca kubek (bez logo), ostra
+- Tło: widok na miasto lub morze, rozmyty z miękkim bokeh
+- Elementy: balustrada balkonu, opcjonalnie rośliny, travel estetyka
 
-ILUMINACIÓN:
-- Luz de mañana o golden hour suave
-- Colores naturales, sensación relajada
+OŚWIETLENIE:
+- Poranne światło lub miękka golden hour
+- Naturalne kolory, relaksujący klimat
 
-CÁMARA:
+KAMERA:
 - 50mm, f/2.0, ISO 200
-- Enfoque en la taza y mano, bokeh fuerte atrás
+- Ostrość na kubku i dłoni, mocny bokeh w tle
 
-COMPOSICIÓN:
-- Taza en tercio, vista como contexto épico
+KOMPOZYCJA:
+- Kubek w trójpodziale, widok jako epicki kontekst
 
-RESTRICCIONES CRÍTICAS:
-- Mano anatómicamente correcta
-- Sin texto/watermarks`,
+KRYTYCZNE OGRANICZENIA:
+- Poprawna anatomicznie dłoń
+- Bez tekstu/znaków wodnych`,
     thumbnail: "/images/foto-pro/viaje15.webp",
   },
 
   // =========================
-  // CATEGORY: Calle / lifestyle travel
+  // CATEGORY: Ulica / lifestyle travel
   // =========================
   {
     id: "img-viaje-016",
-    title: "Viajero con maleta en calle (look editorial, profundidad, realista)",
-    area: "Fotografía Pro",
-    category: "Calle / lifestyle travel",
+    title: "Podróżnik z walizką na ulicy (editorial look, głębia, realistycznie)",
+    area: "Fotografia Profesjonalna",
+    category: "Ulica / lifestyle travel",
     summary:
-      "Lifestyle travel: persona con maleta caminando en ciudad, look editorial realista.",
-    prompt: `Genera una foto REALISTA lifestyle de viaje con una persona y maleta.
+      "Lifestyle travel: osoba z walizką idąca po mieście, realistyczny editorial look.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie lifestyle travel z osobą i walizką.
 
-DATOS:
-- Persona: [persona], [edad], outfit travel casual premium (sin logos)
-- Accesorios: maleta o mochila genérica (sin marcas)
-- Escena: calle urbana bonita, fondo desenfocado
-- Acción: caminando o mirando un mapa/teléfono (sin texto legible)
+DANE:
+- Osoba: [osoba], [wiek], travel casual premium outfit (bez logo)
+- Akcesoria: generyczna walizka lub plecak (bez marek)
+- Scena: ładna miejska ulica, tło rozmyte
+- Akcja: idzie albo sprawdza mapę/telefon (bez czytelnego tekstu)
 
-ILUMINACIÓN:
-- Luz suave (mañana o tarde), sombras ligeras
-- Colores naturales, estética editorial
+OŚWIETLENIE:
+- Miękkie światło (rano lub po południu), lekkie cienie
+- Naturalne kolory, editorial estetyka
 
-CÁMARA:
+KAMERA:
 - 35mm, f/2.2, ISO 250
-- Enfoque en persona, fondo bokeh moderado
+- Ostrość na osobie, umiarkowany bokeh
 
-COMPOSICIÓN:
-- Espacio hacia donde camina, líneas guía
+KOMPOZYCJA:
+- Przestrzeń w kierunku ruchu, linie prowadzące
 
-RESTRICCIONES:
-- Sin texto/watermarks
-- Evitar logos en maletas/ropa`,
+OGRANICZENIA:
+- Bez tekstu/znaków wodnych
+- Unikać logotypów na walizkach/ubraniach`,
     thumbnail: "/images/foto-pro/viaje16.webp",
   },
   {
     id: "img-viaje-017",
-    title: "POV pasaporte y boarding genérico (sin texto legible, travel aesthetic)",
-    area: "Fotografía Pro",
-    category: "Calle / lifestyle travel",
+    title: "POV: paszport i generyczny boarding (bez czytelnego tekstu, travel aesthetic)",
+    area: "Fotografia Profesjonalna",
+    category: "Ulica / lifestyle travel",
     summary:
-      "Travel aesthetic: pasaporte y boleto/boarding genérico, sin texto legible, estilo editorial.",
-    prompt: `Genera una foto REALISTA estilo travel aesthetic tipo POV.
+      "Travel aesthetic: paszport i generyczny bilet/boarding, bez czytelnego tekstu, editorial styl.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie typu POV w estetyce travel aesthetic.
 
-DATOS:
-- Primer plano: mano sosteniendo pasaporte genérico + boarding genérico (sin texto legible)
-- Fondo: aeropuerto desenfocado o ventanal con aviones (sin marcas)
-- Props: café o maleta desenfocados opcional
+DANE:
+- Pierwszy plan: dłoń trzymająca generyczny paszport + generyczny boarding (bez czytelnego tekstu)
+- Tło: rozmyte lotnisko lub okno z samolotami (bez marek)
+- Rekwizyty: opcjonalnie rozmyta kawa lub walizka
 
-ILUMINACIÓN:
-- Luz blanca suave tipo aeropuerto
-- Colores reales, look limpio
+OŚWIETLENIE:
+- Miękkie białe światło jak na lotnisku
+- Realne kolory, czysty look
 
-CÁMARA:
+KAMERA:
 - 50mm, f/2.0, ISO 500
-- Enfoque en mano y documentos, fondo bokeh
+- Ostrość na dłoni i dokumentach, tło bokeh
 
-COMPOSICIÓN:
-- Documentos centrados, estética social media
+KOMPOZYCJA:
+- Dokumenty na środku, social media estetyka
 
-RESTRICCIONES CRÍTICAS:
-- Mano anatómicamente correcta
-- Sin texto legible, sin logos/watermarks`,
+KRYTYCZNE OGRANICZENIA:
+- Poprawna anatomicznie dłoń
+- Bez czytelnego tekstu, bez logo/znaków wodnych`,
     thumbnail: "/images/foto-pro/viaje17.webp",
   },
   {
     id: "img-viaje-018",
-    title: "Sendero y mochila (espalda del viajero, naturaleza, realista)",
-    area: "Fotografía Pro",
-    category: "Calle / lifestyle travel",
+    title: "Szlak i plecak (plecy podróżnika, natura, realistycznie)",
+    area: "Fotografia Profesjonalna",
+    category: "Ulica / lifestyle travel",
     summary:
-      "Viajero de espaldas en sendero natural con mochila, vibe aventura realista.",
-    prompt: `Genera una foto REALISTA de viaje aventura en sendero.
+      "Podróżnik widziany od tyłu na naturalnym szlaku z plecakiem, realistyczny klimat przygody.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie podróży przygodowej na szlaku.
 
-DATOS:
-- Persona: [persona], [edad], de espaldas, mochila genérica sin logo
-- Escena: sendero en naturaleza (bosque/montaña), profundidad
-- Acción: caminando, postura creíble
+DANE:
+- Osoba: [osoba], [wiek], od tyłu, generyczny plecak bez logo
+- Scena: szlak w naturze (las/góry), głębia
+- Akcja: idzie, wiarygodna postawa
 
-ILUMINACIÓN:
-- Luz suave de mañana o tarde, sombras delicadas
-- Colores naturales, atmósfera aventura
+OŚWIETLENIE:
+- Miękkie światło poranka lub popołudnia, delikatne cienie
+- Naturalne kolory, przygodowa atmosfera
 
-CÁMARA:
+KAMERA:
 - 35mm, f/2.8, ISO 400
-- Enfoque en persona, fondo con detalle moderado
+- Ostrość na osobie, umiarkowany detal w tle
 
-COMPOSICIÓN:
-- Persona en tercio inferior, sendero como línea guía
+KOMPOZYCJA:
+- Osoba w dolnym trzecim, ścieżka jako linia prowadząca
 
-RESTRICCIONES:
-- Sin texto/watermarks
-- Evitar mochila con marca legible`,
+OGRANICZENIA:
+- Bez tekstu/znaków wodnych
+- Unikać czytelnych marek na plecaku`,
     thumbnail: "/images/foto-pro/viaje18.webp",
   },
   {
     id: "img-viaje-019",
-    title: "Mirador con persona (silhouette suave, paisaje épico, realista)",
-    area: "Fotografía Pro",
-    category: "Calle / lifestyle travel",
+    title: "Punkt widokowy z osobą (miękka sylwetka, epicki krajobraz, realistycznie)",
+    area: "Fotografia Profesjonalna",
+    category: "Ulica / lifestyle travel",
     summary:
-      "Persona en mirador contemplando paisaje, silhouette suave y estética épica pero realista.",
-    prompt: `Genera una foto REALISTA de viajero/a en mirador con paisaje.
+      "Osoba na punkcie widokowym kontemplująca krajobraz, miękka sylwetka i epicka, ale realistyczna estetyka.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie podróżnika na punkcie widokowym z krajobrazem.
 
-DATOS:
-- Persona: [persona], [edad], de espaldas o perfil, postura contemplativa
-- Escena: mirador con paisaje amplio (montañas/mar/valle)
-- Estilo: epic travel, realista, sin fantasía
+DANE:
+- Osoba: [osoba], [wiek], od tyłu lub w profilu, kontemplacyjna postawa
+- Scena: punkt widokowy z szerokim pejzażem (góry/morze/dolina)
+- Styl: epic travel, realistycznie, bez fantazji
 
-ILUMINACIÓN:
-- Amanecer o atardecer, contraluz suave (silhouette con detalle)
-- Bruma ligera opcional
+OŚWIETLENIE:
+- Świt lub zachód, miękki kontr-światło (sylwetka z detalem)
+- Opcjonalnie lekka mgiełka
 
-CÁMARA:
+KAMERA:
 - 24–35mm, f/5.0, ISO 200
-- Profundidad amplia, nitidez general
+- Duża głębia, ogólna ostrość
 
-COMPOSICIÓN:
-- Persona pequeña para escala, paisaje protagonista
+KOMPOZYCJA:
+- Mała postać dla skali, krajobraz jako główny bohater
 
-RESTRICCIONES:
-- Sin texto/watermarks
-- Evitar cielo hiper saturado`,
+OGRANICZENIA:
+- Bez tekstu/znaków wodnych
+- Unikać hiper nasyconego nieba`,
     thumbnail: "/images/foto-pro/viaje19.webp",
   },
   {
     id: "img-viaje-020",
-    title: "Mercado local (colores naturales, gente desenfocada, travel documental)",
-    area: "Fotografía Pro",
-    category: "Calle / lifestyle travel",
+    title: "Lokalny targ (naturalne kolory, rozmyci ludzie, travel dokumentalnie)",
+    area: "Fotografia Profesjonalna",
+    category: "Ulica / lifestyle travel",
     summary:
-      "Travel documental: mercado local con textura, colores reales y gente desenfocada.",
-    prompt: `Genera una foto REALISTA estilo travel documental en un mercado local.
+      "Travel dokument: lokalny targ z fakturą, realnymi kolorami i rozmytymi ludźmi.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie w stylu travel dokumental na lokalnym targu.
 
-DATOS:
-- Escena: puestos de frutas/especias/pan, colores vivos pero naturales
-- Personas: varias personas, desenfocadas o de espaldas (sin rostros extraños)
-- Detalles: texturas reales, luz ambiente del mercado
+DANE:
+- Scena: stoiska z owocami/przyprawami/pieczywem, żywe ale naturalne kolory
+- Ludzie: kilka osób, rozmytych lub od tyłu (bez dziwnych twarzy)
+- Detale: realistyczne faktury, światło otoczenia targu
 
-ILUMINACIÓN:
-- Luz natural filtrada o luz interior suave
-- Contraste medio, mantener detalle
+OŚWIETLENIE:
+- Naturalne światło filtrowane lub miękkie światło wewnętrzne
+- Umiarkowany kontrast, zachować detale
 
-CÁMARA:
+KAMERA:
 - 35mm, f/2.2, ISO 800
-- Enfoque en un puesto principal, fondo bokeh moderado
+- Ostrość na jednym głównym stoisku, umiarkowany bokeh w tle
 
-COMPOSICIÓN:
-- Capas de profundidad, sensación de “estar ahí”
+KOMPOZYCJA:
+- Warstwy głębi, poczucie „bycia tam”
 
-RESTRICCIONES:
-- Sin texto/watermarks
-- Evitar letreros o marcas legibles`,
+OGRANICZENIA:
+- Bez tekstu/znaków wodnych
+- Unikać czytelnych szyldów i marek`,
     thumbnail: "/images/foto-pro/viaje20.webp",
   },
 ];

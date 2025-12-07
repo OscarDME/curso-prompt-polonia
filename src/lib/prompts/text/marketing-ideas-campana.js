@@ -5,2140 +5,2140 @@
 export const textPromptsMarketingIdeasCampana = [
   {
     id: "mkt-idea-campana-01",
-    title: "Ideas de campaña para lanzamiento de producto nuevo",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Pomysły na kampanię na premierę nowego produktu",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Genera ideas de campaña para lanzar un producto nuevo según tu nicho, presupuesto y objetivo principal.",
-    prompt: `Actúa como un estratega de marketing senior especializado en lanzamientos.
+      "Generuje pomysły na kampanię, aby wypuścić nowy produkt zgodnie z Twoją niszą, budżetem i głównym celem.",
+    prompt: `Działaj jako starszy strateg marketingowy specjalizujący się w launchach.
 
-Te voy a dar:
-- Tipo de producto: [descríbelo].
-- Nicho / mercado objetivo: [descríbelo].
-- Presupuesto aproximado: [indica rango].
-- Objetivo principal: [ventas, visibilidad, captación de leads, etc.].
+Podam Ci:
+- Typ produktu: [opisz go].
+- Nisza / rynek docelowy: [opisz go].
+- Przybliżony budżet: [podaj zakres].
+- Główny cel: [sprzedaż, widoczność, pozyskanie leadów itd.].
 
-Con esta información:
-1) Propón 10 ideas de campaña diferentes para los primeros 30 días.
-2) Para cada idea indica:
-   - Nombre de la campaña (título creativo).
-   - Mensaje central / concepto.
-   - Principales canales sugeridos (ej. IG Reels, TikTok, email, ads, etc.).
-   - Tipo de contenido principal (ej. UGC, testimonios, retos, demos, etc.).
-3) Señala al final las 3 campañas con mayor potencial a corto plazo y explica por qué.`,
+Na podstawie tych informacji:
+1) Zaproponuj 10 różnych pomysłów na kampanię na pierwsze 30 dni.
+2) Dla każdego pomysłu wskaż:
+   - Nazwę kampanii (kreatywny tytuł).
+   - Centralny przekaz / koncepcję.
+   - Główne sugerowane kanały (np. IG Reels, TikTok, email, ads itd.).
+   - Główny typ treści (np. UGC, rekomendacje, wyzwania, demo itd.).
+3) Na końcu wskaż 3 kampanie o największym krótkoterminowym potencjale i wyjaśnij dlaczego.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-02",
-    title: "Campañas para reactivar audiencia fría",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampanie do reaktywacji zimnej publiczności",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Crea campañas específicas para reactivar leads o seguidores que dejaron de interactuar contigo.",
-    prompt: `Eres especialista en email marketing y remarketing.
+      "Tworzy konkretne kampanie do reaktywacji leadów lub obserwujących, którzy przestali wchodzić z Tobą w interakcje.",
+    prompt: `Jesteś specjalistą od email marketingu i remarketingu.
 
-Quiero reactivar una audiencia fría:
-- Contexto del negocio: [explica brevemente].
-- Tiempo de inactividad aproximado: [ej. 3 meses, 1 año, etc.].
-- Principal objeción de la audiencia: [precio, desconfianza, falta de tiempo, etc.].
+Chcę reaktywować zimną publiczność:
+- Kontekst biznesu: [krótko wyjaśnij].
+- Przybliżony czas nieaktywności: [np. 3 miesiące, 1 rok itd.].
+- Główna obiekcja publiczności: [cena, brak zaufania, brak czasu itd.].
 
-Haz lo siguiente:
-1) Genera 5 ideas de campaña para reactivación (email, redes, remarketing).
-2) Para cada campaña define:
-   - Enfoque psicológico principal (curiosidad, urgencia, pertenencia, etc.).
-   - Mensaje clave.
-   - Secuencia sugerida (número de impactos y canales).
-3) Crea un ejemplo de asunto de email y un hook de anuncio para cada campaña.`,
+Zrób następujące:
+1) Wygeneruj 5 pomysłów na kampanię reaktywacyjną (email, social, remarketing).
+2) Dla każdej kampanii zdefiniuj:
+   - Główne podejście psychologiczne (ciekawość, pilność, przynależność itd.).
+   - Kluczowy przekaz.
+   - Sugerowaną sekwencję (liczba kontaktów i kanały).
+3) Stwórz przykład tematu emaila i hook reklamy dla każdej kampanii.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-03",
-    title: "Campaña de generación de leads con recurso gratuito",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania generowania leadów z darmowym zasobem",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Diseña una campaña completa basada en un lead magnet: e-book, clase gratis, checklist, etc.",
-    prompt: `Actúa como estratega de funnels.
+      "Projektuje kompletną kampanię opartą o lead magnet: e-book, darmowa lekcja, checklist, itd.",
+    prompt: `Działaj jako strateg lejków (funnels).
 
-Quiero usar un recurso gratuito (lead magnet) para captar leads:
-- Tipo de recurso: [e-book, masterclass, checklist, mini curso, etc.].
-- Tema del recurso: [tema].
-- Tipo de lead ideal: [descríbelo].
+Chcę użyć darmowego zasobu (lead magnet), aby pozyskiwać leady:
+- Typ zasobu: [e-book, masterclass, checklist, mini kurs itd.].
+- Temat zasobu: [temat].
+- Typ idealnego leada: [opisz go].
 
-Con esto:
-1) Propón 5 conceptos de campaña distintos alrededor de este lead magnet.
-2) Para cada concepto indica:
-   - Título del lead magnet.
-   - Promesa principal.
-   - Formato de la landing (qué secciones sí o sí).
-   - Canales principales de tráfico recomendados.
-3) Escribe una mini secuencia de 3 emails para nutrir a los nuevos leads (bienvenida, contenido, invitación a siguiente paso).`,
+Na tej podstawie:
+1) Zaproponuj 5 różnych koncepcji kampanii wokół tego lead magnetu.
+2) Dla każdej koncepcji wskaż:
+   - Tytuł lead magnetu.
+   - Główną obietnicę.
+   - Format landing page (jakie sekcje muszą być).
+   - Główne rekomendowane kanały ruchu.
+3) Napisz mini sekwencję 3 emaili do „dogrzania” nowych leadów (powitanie, treść, zaproszenie do kolejnego kroku).`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-04",
-    title: "Campañas de prueba social y testimonios",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampanie oparte o dowód społeczny i testimoniale",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Genera ideas de campaña basadas en casos de éxito, testimonios y resultados de clientes.",
-    prompt: `Eres director creativo de una marca que quiere potenciar su prueba social.
+      "Generuje pomysły na kampanie oparte na case studies, testimonialach i wynikach klientów.",
+    prompt: `Jesteś dyrektorem kreatywnym marki, która chce wzmocnić swój dowód społeczny.
 
-Datos:
-- Tipo de producto/servicio: [describe].
-- Tipo de clientes que ya tienen resultados: [describe].
-- Formato actual de testimonios (si existe): [texto, video, nada, etc.].
+Dane:
+- Typ produktu/usługi: [opisz].
+- Typ klientów, którzy już mają wyniki: [opisz].
+- Obecny format testimoniali (jeśli istnieje): [tekst, wideo, brak itd.].
 
-Tareas:
-1) Propón 8 ideas de campaña basadas en testimonios, antes/después y casos de éxito.
-2) Para cada idea indica:
-   - Nombre de la campaña.
-   - Tipo de historia a contar (transformación, beneficio puntual, objeción derribada).
-   - Formato principal (reels, carruseles, email, live, etc.).
-3) Crea un guion de ejemplo para 1 reel y 1 carrusel de prueba social.`,
+Zadania:
+1) Zaproponuj 8 pomysłów na kampanię opartych na testimonialach, przed/po i case studies.
+2) Dla każdego pomysłu wskaż:
+   - Nazwę kampanii.
+   - Typ historii do opowiedzenia (transformacja, konkretny benefit, obalona obiekcja).
+   - Główny format (reels, karuzele, email, live itd.).
+3) Stwórz przykładowy scenariusz dla 1 reel i 1 karuzeli dowodu społecznego.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-05",
-    title: "Ideas de campaña para fechas especiales",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Pomysły na kampanię na specjalne okazje",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Crea campañas específicas para fechas clave como Black Friday, Navidad, San Valentín, etc.",
-    prompt: `Actúa como planner de campañas de temporada.
+      "Tworzy kampanie dedykowane kluczowym datom, takim jak Black Friday, Boże Narodzenie, Walentynki itd.",
+    prompt: `Działaj jako planner kampanii sezonowych.
 
-Información:
-- Fecha especial: [ej. Black Friday, Navidad, Año Nuevo, San Valentín, regreso a clases, etc.].
-- Tipo de negocio: [e-commerce, servicios, infoproducto, etc.].
-- Principal objetivo: [liquidar stock, captar leads, posicionar marca, etc.].
+Informacje:
+- Specjalna data: [np. Black Friday, Boże Narodzenie, Nowy Rok, Walentynki, powrót do szkoły itd.].
+- Typ biznesu: [e-commerce, usługi, infoprodukt itd.].
+- Główny cel: [wyprzedaż stocku, pozyskanie leadów, pozycjonowanie marki itd.].
 
-Haz lo siguiente:
-1) Propón 7 ideas de campaña adaptadas a esa fecha especial.
-2) Para cada campaña indica:
-   - Concepto creativo.
-   - Oferta sugerida (descuento, bonus, pack, acceso anticipado, etc.).
-   - Canales prioritarios.
-   - Duración recomendada (días antes y después de la fecha).
-3) Sugiere 5 frases de “big idea” o slogans para usar en creatividades y correos.`,
+Zrób następujące:
+1) Zaproponuj 7 pomysłów na kampanię dopasowanych do tej daty.
+2) Dla każdej kampanii wskaż:
+   - Kreatywną koncepcję.
+   - Sugerowaną ofertę (zniżka, bonus, pakiet, wcześniejszy dostęp itd.).
+   - Priorytetowe kanały.
+   - Rekomendowany czas trwania (dni przed i po dacie).
+3) Zaproponuj 5 fraz „big idea” lub sloganów do użycia w kreacjach i mailach.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-06",
-    title: "Campañas para lanzamiento tipo ‘reto’ o ‘challenge’",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampanie launchowe typu „wyzwanie” lub „challenge”",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Diseña campañas basadas en retos de varios días para activar a la comunidad y vender al final.",
-    prompt: `Eres especialista en lanzamientos con retos.
+      "Projektuje kampanie oparte na kilkudniowych wyzwaniach, aby aktywować społeczność i sprzedać na końcu.",
+    prompt: `Jesteś specjalistą od launchy opartych o wyzwania.
 
-Datos:
-- Tema del reto: [ej. 5 días para…].
-- Duración ideal (en días): [ej. 3, 5, 7].
-- Tipo de resultado que los participantes deberían obtener: [describe].
+Dane:
+- Temat wyzwania: [np. 5 dni, aby…].
+- Idealny czas trwania (w dniach): [np. 3, 5, 7].
+- Rodzaj efektu, jaki uczestnicy powinni osiągnąć: [opisz].
 
-Genera:
-1) 5 conceptos de reto diferentes con nombres atractivos.
-2) Para cada reto:
-   - Estructura diaria (qué se hace cada día).
-   - Tipo de contenido (video, texto, tarea práctica, live).
-   - Punto exacto donde se presenta la oferta de pago.
-3) Propón una mini campaña de calentamiento 7 días antes del reto (ideas de contenido + CTA).`,
+Wygeneruj:
+1) 5 różnych koncepcji wyzwań z atrakcyjnymi nazwami.
+2) Dla każdego wyzwania:
+   - Dziennej struktury (co robimy każdego dnia).
+   - Typu treści (wideo, tekst, zadanie praktyczne, live).
+   - Dokładnego momentu, w którym przedstawiasz płatną ofertę.
+3) Zaproponuj mini kampanię rozgrzewającą 7 dni przed wyzwaniem (pomysły na treści + CTA).`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-07",
-    title: "Ideas de campaña para upsell y cross-sell",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Pomysły na kampanię na upsell i cross-sell",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Crea campañas para vender más a clientes actuales a través de productos complementarios.",
-    prompt: `Actúa como estratega de ventas para clientes existentes.
+      "Tworzy kampanie, aby sprzedawać więcej obecnym klientom poprzez produkty uzupełniające.",
+    prompt: `Działaj jako strateg sprzedaży dla obecnych klientów.
 
-Información:
-- Producto principal más vendido: [descríbelo].
-- Otros productos/servicios complementarios: [lista].
-- Tipo de cliente ideal: [describe].
+Informacje:
+- Najlepiej sprzedający się produkt główny: [opisz go].
+- Inne produkty/usługi komplementarne: [lista].
+- Typ idealnego klienta: [opisz].
 
-Tareas:
-1) Propón 10 ideas de campaña de upsell y cross-sell.
-2) Para cada idea indica:
-   - Qué producto se promueve y en qué momento del viaje del cliente.
-   - Mensaje principal.
-   - Canal ideal (email, WhatsApp, dentro del producto, etc.).
-3) Crea 3 ejemplos de mensajes breves de upsell y 3 de cross-sell listos para usar.`,
+Zadania:
+1) Zaproponuj 10 pomysłów na kampanię upsell i cross-sell.
+2) Dla każdego pomysłu wskaż:
+   - Jaki produkt promujesz i na jakim etapie ścieżki klienta.
+   - Główny przekaz.
+   - Idealny kanał (email, WhatsApp, wewnątrz produktu itd.).
+3) Stwórz 3 przykłady krótkich wiadomości upsell i 3 cross-sell gotowych do użycia.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-08",
-    title: "Campañas para construir comunidad y engagement",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampanie budowania społeczności i zaangażowania",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Campañas centradas en interacción, pertenencia y conversación, no solo en venta directa.",
-    prompt: `Eres community builder para una marca personal o negocio digital.
+      "Kampanie skoncentrowane na interakcji, przynależności i rozmowie, a nie tylko na bezpośredniej sprzedaży.",
+    prompt: `Jesteś community builderem dla marki osobistej lub biznesu cyfrowego.
 
-Datos:
-- Nicho/tema central de la comunidad: [describir].
-- Tamaño aproximado de la audiencia actual: [indicar].
-- Principal plataforma donde hay más audiencia: [ej. IG, TikTok, YouTube, email].
+Dane:
+- Nisza/centralny temat społeczności: [opisz].
+- Przybliżona wielkość obecnej publiczności: [podaj].
+- Główna platforma, na której jest najwięcej odbiorców: [np. IG, TikTok, YouTube, email].
 
-Objetivo: aumentar engagement y sensación de comunidad.
+Cel: zwiększyć zaangażowanie i poczucie wspólnoty.
 
-Genera:
-1) 10 ideas de campaña centradas en participación (retos, dinámicas, encuestas, contenidos colaborativos, etc.).
-2) Para cada idea di:
-   - Objetivo de la dinámica (qué tipo de interacción buscamos).
-   - Tipo de contenido requerido.
-   - CTA específico (comentar, compartir, crear contenido, responder encuestas, etc.).
-3) Crea 5 ejemplos de publicaciones o mensajes para lanzar una de esas campañas.`,
+Wygeneruj:
+1) 10 pomysłów na kampanię skoncentrowanych na partycypacji (wyzwania, dynamiki, ankiety, treści współtworzone itd.).
+2) Dla każdego pomysłu podaj:
+   - Cel aktywności (jakiego typu interakcji szukamy).
+   - Wymagany typ treści.
+   - Konkretne CTA (komentowanie, udostępnianie, tworzenie treści, odpowiadanie na ankiety itd.).
+3) Stwórz 5 przykładów postów lub wiadomości, aby uruchomić jedną z tych kampanii.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-09",
-    title: "Campaña de reposicionamiento de marca",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania repozycjonowania marki",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Diseña una campaña para reposicionar tu marca cuando cambias de nicho, mensaje o propuesta.",
-    prompt: `Actúa como consultor de branding y reposicionamiento.
+      "Projektuje kampanię repozycjonowania marki, gdy zmieniasz niszę, przekaz lub propozycję.",
+    prompt: `Działaj jako konsultant brandingu i repozycjonowania.
 
-Información:
-- Cómo se percibe actualmente la marca: [descríbelo].
-- Cómo quieres que se perciba a partir de ahora: [nuevo posicionamiento deseado].
-- Qué cambia exactamente (productos, precios, público, estilo de comunicación, etc.).
+Informacje:
+- Jak marka jest obecnie postrzegana: [opisz].
+- Jak chcesz, żeby była postrzegana od teraz: [nowe pożądane pozycjonowanie].
+- Co dokładnie się zmienia (produkty, ceny, grupa docelowa, styl komunikacji itd.).
 
-Con esto:
-1) Propón 5 enfoques de campaña de reposicionamiento.
-2) Para cada enfoque indica:
-   - Mensaje central.
-   - Riesgos o fricciones con la audiencia actual y cómo mitigarlos.
-   - Canales y formatos de contenido recomendados.
-3) Diseña un anuncio tipo “manifesto de marca” en formato texto (para usar como guion o post largo).`,
+Na tej podstawie:
+1) Zaproponuj 5 podejść do kampanii repozycjonowania.
+2) Dla każdego podejścia wskaż:
+   - Centralny przekaz.
+   - Ryzyka lub tarcia z obecną publicznością i jak je zminimalizować.
+   - Rekomendowane kanały i formaty treści.
+3) Zaprojektuj reklamę typu „manifesto marki” w formacie tekstowym (do użycia jako scenariusz lub długi post).`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-10",
-    title: "Ideas de campaña de contenido evergreen",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Pomysły na kampanię evergreen content",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Crea campañas de contenido que funcionen todo el año y puedan reciclarse fácilmente.",
-    prompt: `Eres estratega de contenidos evergreen.
+      "Tworzy kampanie contentowe, które działają przez cały rok i łatwo je recyklingować.",
+    prompt: `Jesteś strategiem treści evergreen.
 
-Datos:
-- Tema principal del negocio: [describe].
-- Tipo de producto/servicio: [describe].
-- Canal prioritario: [ej. blog, YouTube, Instagram, TikTok].
+Dane:
+- Główny temat biznesu: [opisz].
+- Typ produktu/usługi: [opisz].
+- Priorytetowy kanał: [np. blog, YouTube, Instagram, TikTok].
 
-Objetivo: construir campañas de contenido evergreen que sigan trayendo leads y ventas en el tiempo.
+Cel: budować kampanie treści evergreen, które z czasem nadal będą przynosić leady i sprzedaż.
 
-Genera:
-1) 8 ideas de campaña evergreen (series, pilares de contenido, recursos descargables permanentes, etc.).
-2) Para cada campaña indica:
-   - Tipo de contenido principal.
-   - Cómo se recicla o reutiliza en otros formatos.
-   - Cómo se conecta con una oferta específica (producto o servicio).
-3) Da 10 ideas de piezas de contenido individuales que se puedan crear dentro de una de las campañas propuestas.`,
+Wygeneruj:
+1) 8 pomysłów na kampanię evergreen (serie, filary treści, stałe zasoby do pobrania itd.).
+2) Dla każdej kampanii wskaż:
+   - Główny typ treści.
+   - Jak ją przerabiać lub wykorzystywać w innych formatach.
+   - Jak łączy się z konkretną ofertą (produkt lub usługa).
+3) Podaj 10 pomysłów na pojedyncze elementy treści, które można tworzyć w ramach jednej z zaproponowanych kampanii.`,
     thumbnail: "",
   },
   {
     id: "mkt-idea-campana-11",
-    title: "Campaña de Alto Impacto para Microaudiencias",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Wysokiego Wpływu dla Mikroaudiencji",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Campañas ultra personalizadas para audiencias pequeñas pero muy activas.",
-    prompt: `Actúa como un estratega de marketing especializado en microaudiencias (100–3,000 seguidores altamente comprometidos).
+      "Ultra spersonalizowane kampanie dla małych, ale bardzo aktywnych audiencji.",
+    prompt: `Działaj jako strateg marketingowy wyspecjalizowany w mikroaudiencjach (100–3,000 bardzo zaangażowanych obserwujących).
 
-Te daré:
-- Tamaño de mi audiencia: [número].
-- Nicho: [descripción].
-- Objetivo principal: [ventas, engagement, feedback].
-- Tipo de contenido que más consume mi audiencia: [describe].
+Podam Ci:
+- Wielkość mojej audiencji: [liczba].
+- Nisza: [opis].
+- Główny cel: [sprzedaż, engagement, feedback].
+- Typ treści, które moja audiencja konsumuje najczęściej: [opisz].
 
-Genera una campaña que incluya:
+Wygeneruj kampanię, która zawiera:
 
-1) Diagnóstico inicial (3–5 observaciones claras).
-2) 7 ideas de campaña hiperpersonalizadas basadas en cercanía, identidad y comunidad.
-3) Para cada idea incluye:
-   - El gatillo psicológico usado (pertenencia, exclusividad, reciprocidad).
-   - Canal ideal.
-   - Tipo de contenido.
-   - CTA de alto impacto.
-4) Plantilla para un mensaje directo (DM) para activar manualmente la campaña.
-5) Versión PRO de toda la campaña (con técnicas avanzadas de segmentación).
-6) Lista de errores comunes al trabajar con audiencias pequeñas.
-7) Optimización final del prompt para reusarlo.`,
+1) Wstępną diagnozę (3–5 jasnych obserwacji).
+2) 7 hiperpersonalizowanych pomysłów na kampanię opartych na bliskości, tożsamości i społeczności.
+3) Dla każdego pomysłu uwzględnij:
+   - Użyty wyzwalacz psychologiczny (przynależność, ekskluzywność, wzajemność).
+   - Idealny kanał.
+   - Typ treści.
+   - CTA o wysokim wpływie.
+4) Szablon wiadomości bezpośredniej (DM) do ręcznego uruchomienia kampanii.
+5) Wersję PRO całej kampanii (z zaawansowanymi technikami segmentacji).
+6) Listę typowych błędów przy pracy z małymi audiencjami.
+7) Końcową optymalizację promptu, aby móc go ponownie używać.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-12",
-    title: "Campaña UGC Masiva Dirigida por la Audiencia",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Campañas en las que tu comunidad crea contenido orgánico masivo.",
-    prompt: `Eres experto en campañas UGC (User Generated Content) para marcas digitales.
+    title: "Masowa Kampania UGC Kierowana przez Audiencję",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Kampanie, w których Twoja społeczność tworzy masowo organiczne treści.",
+    prompt: `Jesteś ekspertem od kampanii UGC (User Generated Content) dla marek cyfrowych.
 
-Te daré:
-- Tipo de producto: [describe].
-- Objetivo del UGC: [ventas, awareness, prueba social].
-- Plataforma principal: [IG/TikTok/YouTube].
-- Incentivo disponible: [premio, concurso, visibilidad].
+Podam Ci:
+- Typ produktu: [opisz].
+- Cel UGC: [sprzedaż, awareness, dowód społeczny].
+- Główna platforma: [IG/TikTok/YouTube].
+- Dostępna zachęta: [nagroda, konkurs, widoczność].
 
-Genera:
+Wygeneruj:
 
-1) 10 ideas de campaña UGC totalmente diferentes entre sí.
-2) Para cada una indica:
-   - Tipo de UGC que se generará.
-   - Qué emoción activa (orgullo, humor, transformación, pertenencia).
-   - Hashtags y dinámica.
-   - Cómo reutilizar ese UGC para anuncios o páginas de venta.
-3) Framework “UGC 3C”: Captura, Curación y Conversión.
-4) 5 guiones cortos para anunciar la campaña en video.
-5) Versión PRO para escalar la campaña sin pagar influenciadores.
-6) Errores comunes en campañas UGC y cómo evitarlos.`,
+1) 10 pomysłów na kampanię UGC całkowicie różnych od siebie.
+2) Dla każdej wskaż:
+   - Jaki typ UGC będzie generowany.
+   - Jaką emocję uruchamia (duma, humor, transformacja, przynależność).
+   - Hashtagi i mechanikę.
+   - Jak ponownie wykorzystać to UGC do reklam lub stron sprzedażowych.
+3) Framework “UGC 3C”: Capture, Curate i Convert.
+4) 5 krótkich scenariuszy, aby ogłosić kampanię w wideo.
+5) Wersję PRO, aby skalować kampanię bez płacenia influencerom.
+6) Typowe błędy w kampaniach UGC i jak ich unikać.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-13",
-    title: "Campaña de Micro-Ofertas Irresistibles",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Campañas basadas en productos low-ticket que convierten en masa.",
-    prompt: `Actúa como creador de micro-ofertas (low ticket de $5–$49).
+    title: "Kampania Nieodpartych Mikro-Ofert",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Kampanie oparte na produktach low-ticket, które masowo konwertują.",
+    prompt: `Działaj jako twórca mikro-ofert (low ticket $5–$49).
 
-Te proporcionaré:
-- Producto principal: [describe].
-- Micro-oferta: [describe].
-- Objetivo del funnel: [validación, volumen, leads].
+Dostarczę Ci:
+- Produkt główny: [opisz].
+- Mikro-ofertę: [opisz].
+- Cel lejka: [walidacja, wolumen, leady].
 
-Genera:
+Wygeneruj:
 
-1) 7 campañas completas para promocionar la micro-oferta.
-2) Para cada campaña incluye:
-   - Psicología principal (impulso, reciprocidad, urgencia suave).
-   - Mensaje y ángulo creativo.
-   - Secuencia ideal de contenido.
-   - Oferta complementaria (upsell) en el punto exacto del funnel.
-3) Modelo de secuencia de emails (6 correos).
-4) 5 variaciones de anuncios cortos estilo TikTok.
-5) Versión PRO para duplicar la conversión.
-6) Errores comunes al vender low-tickets.`,
+1) 7 kompletnych kampanii promujących mikro-ofertę.
+2) Dla każdej kampanii uwzględnij:
+   - Główną psychologię (impuls, wzajemność, miękka pilność).
+   - Przekaz i kreatywny kąt.
+   - Idealną sekwencję treści.
+   - Ofertę uzupełniającą (upsell) w dokładnym punkcie lejka.
+3) Model sekwencji emaili (6 maili).
+4) 5 wariantów krótkich reklam w stylu TikTok.
+5) Wersję PRO, aby podwoić konwersję.
+6) Typowe błędy przy sprzedaży low-ticketów.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-14",
-    title: "Campaña de Retos Virales de 24–72h",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Wiralowych Wyzwań 24–72h",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Retos express diseñados para generar hype extremo en poco tiempo.",
-    prompt: `Eres experto en campañas virales rápidas basadas en retos.
+      "Ekspresowe wyzwania zaprojektowane, aby wygenerować ekstremalny hype w krótkim czasie.",
+    prompt: `Jesteś ekspertem od szybkich wiralowych kampanii opartych na wyzwaniach.
 
-Te daré:
-- Tema del reto: [explica].
-- Duración deseada: [24h, 48h, 72h].
-- Objetivo: [captar leads, ventas, engagement].
+Podam Ci:
+- Temat wyzwania: [wyjaśnij].
+- Pożądany czas trwania: [24h, 48h, 72h].
+- Cel: [pozyskanie leadów, sprzedaż, engagement].
 
-Genera:
+Wygeneruj:
 
-1) 6 conceptos de reto explosivo.
-2) Para cada uno:
-   - Mecánica exacta de participación.
-   - Entregables.
-   - Piezas de contenido recomendadas.
-   - Incentivo o motivador.
-3) Guion de 30s para lanzar el reto.
-4) Versión PRO con técnicas de viralidad avanzadas.
-5) Checklist de logística para ejecutar el reto.
-6) Errores comunes.`,
+1) 6 koncepcji wybuchowego wyzwania.
+2) Dla każdej:
+   - Dokładną mechanikę udziału.
+   - Deliverables.
+   - Rekomendowane elementy treści.
+   - Zachętę lub motywator.
+3) Scenariusz 30s, aby uruchomić wyzwanie.
+4) Wersję PRO z zaawansowanymi technikami wiralowości.
+5) Checklistę logistyki do przeprowadzenia wyzwania.
+6) Typowe błędy.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-15",
-    title: "Campaña para Revivir un Producto Muerto",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania, aby Ożywić Martwy Produkt",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Relanza un producto que dejó de vender con una estrategia renovada.",
-    prompt: `Actúa como consultor senior especializado en relanzamientos.
+      "Wypuść ponownie produkt, który przestał się sprzedawać, z odświeżoną strategią.",
+    prompt: `Działaj jako starszy konsultant specjalizujący się w relaunchach.
 
-Te daré:
-- Producto: [describe].
-- Razón de caída: [precio, competencia, desactualización…].
-- Audiencia meta: [describe].
+Podam Ci:
+- Produkt: [opisz].
+- Powód spadku: [cena, konkurencja, dezaktualizacja…].
+- Docelową publiczność: [opisz].
 
-Genera:
+Wygeneruj:
 
-1) Diagnóstico avanzado de por qué el producto murió.
-2) 5 ángulos de relanzamiento:
-   - Ángulo emocional
-   - Ángulo aspiracional
-   - Ángulo de dolor profundo
-   - Ángulo de novedad
-   - Ángulo de oportunidad perdida
-3) Para cada ángulo crea:
-   - Mensaje,
-   - Creatividad,
+1) Zaawansowaną diagnozę, dlaczego produkt „umarł”.
+2) 5 kątów relaunchu:
+   - Kąt emocjonalny
+   - Kąt aspiracyjny
+   - Kąt głębokiego bólu
+   - Kąt nowości
+   - Kąt utraconej szansy
+3) Dla każdego kąta stwórz:
+   - Przekaz,
+   - Kreację,
    - CTA,
-   - Ejemplo de anuncio.
-4) Mini video-guion estilo “el regreso”.
-5) Versión PRO para reposicionar precio.
-6) Errores comunes.`,
+   - Przykład reklamy.
+4) Mini scenariusz wideo w stylu „powrót”.
+5) Wersję PRO do repozycjonowania ceny.
+6) Typowe błędy.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-16",
-    title: "Campaña con Micro y Nano Influencers",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania z Mikro i Nano Influencerami",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Estrategias colaborativas con influencers pequeños pero altamente efectivos.",
-    prompt: `Eres experto en campañas con micro y nano influencers.
+      "Strategie współpracy z małymi influencerami o wysokiej skuteczności.",
+    prompt: `Jesteś ekspertem od kampanii z mikro i nano influencerami.
 
-Datos:
-- Nicho: [describe].
-- Presupuesto: [describe].
-- Objetivo: [awareness, ventas, UGC].
+Dane:
+- Nisza: [opisz].
+- Budżet: [opisz].
+- Cel: [awareness, sprzedaż, UGC].
 
-Genera:
+Wygeneruj:
 
-1) 8 campañas completas.
-2) Para cada campaña:
-   - Tipo de influencer ideal.
-   - Entregables.
-   - Estilo de contenido.
-   - Forma de medir resultados.
-3) Plantilla de mensaje para contactar influencers.
-4) Versión PRO: cómo negociar pagando casi nada.
-5) Errores comunes.`,
+1) 8 kompletnych kampanii.
+2) Dla każdej kampanii:
+   - Idealny typ influencera.
+   - Deliverables.
+   - Styl treści.
+   - Sposób mierzenia wyników.
+3) Szablon wiadomości do kontaktu z influencerami.
+4) Wersję PRO: jak negocjować, płacąc prawie nic.
+5) Typowe błędy.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-17",
-    title: "Campaña Basada en Controversia Estratégica",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Contenidos polarizantes seguros que generan conversación.",
-    prompt: `Actúa como psicólogo de marketing.
+    title: "Kampania Oparta na Strategicznie Kontrolowanej Kontrowersji",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Bezpiecznie polaryzujące treści, które generują rozmowę.",
+    prompt: `Działaj jako psycholog marketingu.
 
-Datos:
-- Tema polémico controlado: [describe].
-- Límites éticos: [describe].
+Dane:
+- Kontrolowany temat kontrowersyjny: [opisz].
+- Granice etyczne: [opisz].
 
-Genera:
+Wygeneruj:
 
-1) 6 campañas de controversia suave.
-2) Para cada una:
-   - Punto polémico.
-   - Contrapunto.
-   - Mensaje.
+1) 6 kampanii z łagodną kontrowersją.
+2) Dla każdej:
+   - Punkt kontrowersyjny.
+   - Kontrapunkt.
+   - Przekaz.
    - CTA.
-3) Framework “Polarización Segura”.
-4) Titulares polémicos pero no ofensivos.
-5) Errores comunes.`,
+3) Framework “Bezpieczna Polaryzacja”.
+4) Kontrowersyjne, ale nieobraźliwe nagłówki.
+5) Typowe błędy.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-18",
-    title: "Campaña para Elevar Valor Percibido",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Cómo reposicionar un producto como premium sin cambiarlo.",
-    prompt: `Eres consultor premium de branding.
+    title: "Kampania Podnosząca Postrzeganą Wartość",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Jak repozycjonować produkt jako premium bez jego zmiany.",
+    prompt: `Jesteś premium konsultantem brandingu.
 
-Datos:
-- Producto: [describe].
-- Problema: valor percibido bajo.
+Dane:
+- Produkt: [opisz].
+- Problem: niska postrzegana wartość.
 
-Genera:
+Wygeneruj:
 
-1) 8 campañas.
-2) Para cada una:
-   - Mensaje premium.
-   - Visuales recomendados.
-   - Prueba social ideal.
-3) Guion estilo Apple.
-4) Versión PRO con narrativa aspiracional.
-5) Errores comunes.`,
+1) 8 kampanii.
+2) Dla każdej:
+   - Premium przekaz.
+   - Rekomendowane wizualizacje.
+   - Idealny dowód społeczny.
+3) Scenariusz w stylu Apple.
+4) Wersję PRO z narracją aspiracyjną.
+5) Typowe błędy.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-19",
-    title: "Campaña Estilo Mini Documental",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Narra el origen de la marca como documental emocional.",
-    prompt: `Actúa como director creativo.
+    title: "Kampania w Stylu Mini Dokumentu",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Opowiedz pochodzenie marki jako emocjonalny dokument.",
+    prompt: `Działaj jako dyrektor kreatywny.
 
-Datos:
-- Historia: [describe].
-- Valores: [lista].
+Dane:
+- Historia: [opisz].
+- Wartości: [lista].
 
-Genera:
+Wygeneruj:
 
-1) 5 campañas tipo documental.
-2) Para cada una:
+1) 5 kampanii typu dokument.
+2) Dla każdej:
    - Storyline.
-   - Escenas.
-   - Formato.
-3) Guion de 40s emocional.
-4) Versión PRO.
-5) Errores comunes.`,
+   - Sceny.
+   - Format.
+3) Emocjonalny scenariusz 40s.
+4) Wersję PRO.
+5) Typowe błędy.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-20",
-    title: "Campaña Multipropósito Omnicanal",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Una campaña que funciona en todas las plataformas.",
-    prompt: `Eres experto en contenido omnicanal.
+    title: "Wielozadaniowa Kampania Omnichannel",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Jedna kampania, która działa na wszystkich platformach.",
+    prompt: `Jesteś ekspertem od treści omnichannel.
 
-Datos:
-- Tema: [describe].
-- Plataformas: [lista].
+Dane:
+- Temat: [opisz].
+- Platformy: [lista].
 
-Genera:
+Wygeneruj:
 
-1) 6 campañas.
-2) Para cada una:
-   - Versión para IG.
-   - Versión para TikTok.
-   - Versión para YouTube.
-   - Versión para Email.
-   - Versión para Web.
-3) Framework “1 pieza → 9 derivadas”.
-4) Errores comunes.`,
+1) 6 kampanii.
+2) Dla każdej:
+   - Wersję na IG.
+   - Wersję na TikTok.
+   - Wersję na YouTube.
+   - Wersję na Email.
+   - Wersję na Web.
+3) Framework “1 element → 9 pochodnych”.
+4) Typowe błędy.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-21",
-    title: "Campaña Basada en Storytelling del Cliente",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "El cliente como héroe de la historia.",
-    prompt: `Actúa como estratega narrativo.
+    title: "Kampania Oparta na Storytellingu Klienta",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Klient jako bohater historii.",
+    prompt: `Działaj jako strateg narracji.
 
-Datos:
-- Cliente ideal: [describe].
-- Transformación: [describe].
+Dane:
+- Idealny klient: [opisz].
+- Transformacja: [opisz].
 
-Genera:
+Wygeneruj:
 
-1) 7 campañas narrativas.
-2) Para cada una:
-   - Estructura: problema → camino → transformación.
-   - Formatos recomendados.
-3) Ejemplo de storytelling en primera persona.`,
+1) 7 narracyjnych kampanii.
+2) Dla każdej:
+   - Strukturę: problem → droga → transformacja.
+   - Rekomendowane formaty.
+3) Przykład storytellingu w pierwszej osobie.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-22",
-    title: "Campaña para Vender Servicios Invisibles",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Vender consultorías, mentorías y servicios intangibles.",
-    prompt: `Eres consultor B2B.
+    title: "Kampania, aby Sprzedawać Niewidzialne Usługi",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Sprzedaż konsultingu, mentoringu i usług niematerialnych.",
+    prompt: `Jesteś konsultantem B2B.
 
-Datos:
-- Servicio: [describe].
-- Cliente ideal: [describe].
+Dane:
+- Usługa: [opisz].
+- Idealny klient: [opisz].
 
-Genera:
+Wygeneruj:
 
-1) 7 campañas.
-2) Para cada una:
-   - Qué mostrar.
-   - Cómo crear tangibilidad.
-   - Prueba social ideal.
-3) Hooks para reels.`,
+1) 7 kampanii.
+2) Dla każdej:
+   - Co pokazać.
+   - Jak stworzyć namacalność.
+   - Idealny dowód społeczny.
+3) Hooki do reels.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-23",
-    title: "Campaña de Reactivación Express 48h",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Cómo despertar una audiencia dormida rápidamente.",
-    prompt: `Actúa como estratega de reactivación.
+    title: "Ekspresowa Kampania Reaktywacyjna 48h",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Jak szybko obudzić uśpioną publiczność.",
+    prompt: `Działaj jako strateg reaktywacji.
 
-Datos:
-- Tiempo inactiva: [indica].
+Dane:
+- Czas nieaktywności: [podaj].
 
-Genera:
+Wygeneruj:
 
-1) 5 campañas express.
-2) Para cada una:
-   - Mensaje.
-   - Objección a romper.
-   - Secuencia de impacto.
-3) Secuencia de 3 mensajes.`,
+1) 5 kampanii ekspresowych.
+2) Dla każdej:
+   - Przekaz.
+   - Obiekcję do przełamania.
+   - Sekwencję wpływu.
+3) Sekwencję 3 wiadomości.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-24",
-    title: "Campaña de Humor Estratégico",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Humor inteligente sin perder profesionalismo.",
-    prompt: `Eres copywriter de comedia.
+    title: "Kampania Strategicznego Humoru",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Inteligentny humor bez utraty profesjonalizmu.",
+    prompt: `Jesteś copywriterem komediowym.
 
-Datos:
-- Nicho: [describe].
+Dane:
+- Nisza: [opisz].
 
-Genera:
+Wygeneruj:
 
-1) 6 campañas humorísticas.
-2) Para cada una:
-   - Tipo de humor.
-   - Formato.
-3) Guiones humorísticos.`,
+1) 6 humorystycznych kampanii.
+2) Dla każdej:
+   - Typ humoru.
+   - Format.
+3) Humorystyczne scenariusze.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-25",
-    title: "Campaña Basada en Dolor Oculto",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Usa problemas profundos que el cliente rara vez verbaliza.",
-    prompt: `Actúa como psicólogo del consumidor.
+    title: "Kampania Oparta na Ukrytym Bólu",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Użyj głębokich problemów, których klient rzadko werbalizuje.",
+    prompt: `Działaj jako psycholog konsumenta.
 
-Datos:
-- Dolor oculto: [describe].
+Dane:
+- Ukryty ból: [opisz].
 
-Genera:
+Wygeneruj:
 
-1) 6 campañas.
-2) Para cada una:
-   - Por qué este dolor mueve acción.
-   - Contenidos recomendados.
-3) 3 anuncios basados en dolor.`,
+1) 6 kampanii.
+2) Dla każdej:
+   - Dlaczego ten ból uruchamia działanie.
+   - Rekomendowane treści.
+3) 3 reklamy oparte na bólu.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-26",
-    title: "Campaña de FOMO Pre-Lanzamiento",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Cómo generar anticipación extrema antes del lanzamiento.",
-    prompt: `Eres experto en FOMO.
+    title: "Kampania FOMO Przed Launch’em",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Jak wygenerować ekstremalne oczekiwanie przed premierą.",
+    prompt: `Jesteś ekspertem od FOMO.
 
-Datos:
-- Producto: [describe].
-- Fecha de lanzamiento: [indica].
+Dane:
+- Produkt: [opisz].
+- Data premiery: [podaj].
 
-Genera:
+Wygeneruj:
 
-1) 7 campañas previas.
-2) Para cada una:
-   - Qué mostrar.
-   - Qué ocultar.
+1) 7 kampanii przedpremierowych.
+2) Dla każdej:
+   - Co pokazać.
+   - Co ukryć.
    - CTA.
-3) Mensajes “algo grande viene…”`,
+3) Wiadomości “coś wielkiego nadchodzi…”`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-27",
-    title: "Campaña de Escasez Real y Ética",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Crea urgencia legítima sin manipular.",
-    prompt: `Actúa como estratega ético.
+    title: "Kampania Prawdziwej i Etycznej Rzadkości",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Stwórz realną pilność bez manipulacji.",
+    prompt: `Działaj jako etyczny strateg.
 
-Datos:
-- Tipo de producto.
-- Razón de escasez real.
+Dane:
+- Typ produktu.
+- Powód realnej rzadkości.
 
-Genera:
+Wygeneruj:
 
-1) 5 campañas basadas en escasez honesta.
-2) Para cada una:
-   - Mensaje.
-   - Canal.
+1) 5 kampanii opartych na uczciwej rzadkości.
+2) Dla każdej:
+   - Przekaz.
+   - Kanał.
    - CTA.
-3) Framework “Escasez Ética 3P”.`,
+3) Framework “Etyczna Rzadkość 3P”.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-28",
-    title: "Campaña Basada en Datos y Estadísticas",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Convierte insights y números en campañas irresistibles.",
-    prompt: `Actúa como analista de marketing.
+    title: "Kampania Oparta na Danych i Statystykach",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Zamień insighty i liczby w nieodparte kampanie.",
+    prompt: `Działaj jako analityk marketingowy.
 
-Datos:
-- Dataset disponible: [describe].
+Dane:
+- Dostępny dataset: [opisz].
 
-Genera:
+Wygeneruj:
 
-1) 6 campañas basadas en insights.
-2) Para cada una:
-   - Dato clave.
-   - Narrativa.
+1) 6 kampanii opartych na insightach.
+2) Dla każdej:
+   - Kluczową daną.
+   - Narrację.
    - CTA.
-3) 5 guiones breves.`,
+3) 5 krótkich scenariuszy.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-29",
-    title: "Campaña de Lanzamiento con Expectativa Cinematográfica",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Launchowa z Filmowym Oczekiwaniem",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Convierte tu lanzamiento en una experiencia estilo tráiler de película.",
-    prompt: `Actúa como director de cine.
+      "Zamień swój launch w doświadczenie w stylu trailera filmowego.",
+    prompt: `Działaj jako reżyser filmowy.
 
-Datos:
-- Producto: [describe].
+Dane:
+- Produkt: [opisz].
 
-Genera:
+Wygeneruj:
 
-1) Concepto cinematográfico.
-2) 5 campañas derivadas.
-3) Guion de tráiler de 40s.
-4) Versión PRO.`,
+1) Filmową koncepcję.
+2) 5 pochodnych kampanii.
+3) Scenariusz trailera 40s.
+4) Wersję PRO.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-30",
-    title: "Campaña Basada en Recompensas Progresivas",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Oparta na Progresywnych Nagrodach",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Cada acción desbloquea un beneficio; ideal para aumentar engagement.",
-    prompt: `Actúa como gamification designer.
+      "Każde działanie odblokowuje korzyść; idealne do zwiększania engagementu.",
+    prompt: `Działaj jako projektant gamifikacji.
 
-Datos:
-- Público objetivo: [describe].
+Dane:
+- Grupa docelowa: [opisz].
 
-Genera:
+Wygeneruj:
 
-1) 6 campañas progresivas.
-2) Para cada una:
-   - Niveles.
-   - Recompensas.
-   - Acciones.
-3) 3 mensajes promocionales.`,
+1) 6 progresywnych kampanii.
+2) Dla każdej:
+   - Poziomy.
+   - Nagrody.
+   - Działania.
+3) 3 wiadomości promocyjne.`,
     thumbnail: "",
   },
   /* ============================= */
-  /*      SUPER–PROMPTS (31–45)    */
+  /*      SUPER–PROMPTY (31–45)    */
   /* ============================= */
 
   {
     id: "mkt-idea-campana-31",
-    title: "Campaña Multicapa Basada en Arquetipos de Marca",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Wielowarstwowa Kampania Oparta na Archetypach Marki",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Campaña avanzada basada en el uso estratégico de arquetipos (Héroe, Sabio, Explorador, etc.).",
-    prompt: `Actúa como consultor senior de branding especializado en Arquetipos de Marca.
+      "Zaawansowana kampania oparta na strategicznym wykorzystaniu archetypów (Bohater, Mędrzec, Odkrywca itd.).",
+    prompt: `Działaj jako starszy konsultant brandingu specjalizujący się w Archetypach Marki.
 
-Te daré:
-- Arquetipo principal de mi marca: [selecciona uno: Héroe, Sabio, Cuidador, Mago, Explorador, Rebelde, etc.].
-- Audiencia principal: [describe].
-- Objetivo de la campaña: [ventas, reposicionamiento, awareness].
+Podam Ci:
+- Główny archetyp mojej marki: [wybierz jeden: Bohater, Mędrzec, Opiekun, Mag, Odkrywca, Buntownik itd.].
+- Główna publiczność: [opisz].
+- Cel kampanii: [sprzedaż, repozycjonowanie, awareness].
 
-Genera:
+Wygeneruj:
 
-1) Diagnóstico profesional explicando cómo este arquetipo influye en:
-   - Comunicación.
-   - Mensajes.
-   - Diseño.
-   - Tono.
-   - Psicología del cliente.
+1) Profesjonalną diagnozę wyjaśniającą, jak ten archetyp wpływa na:
+   - Komunikację.
+   - Przekazy.
+   - Design.
+   - Ton.
+   - Psychologię klienta.
 
-2) Propón **5 campañas multicapa** (cada una con 3 niveles: contenido, emocional y estratégico).
+2) Zaproponuj **5 wielowarstwowych kampanii** (każda z 3 poziomami: treściowym, emocjonalnym i strategicznym).
 
-3) Para cada campaña incluye:
-   - Nombre de campaña.
-   - Metáfora narrativa basada en el arquetipo.
-   - Mensaje central + contra mensaje.
-   - Secuencia narrativa: Inicio → Conflicto → Vínculo → Resolución.
-   - Canales recomendados con justificación.
-   - CTA específico basado en psicología arquetipal.
+3) Dla każdej kampanii uwzględnij:
+   - Nazwę kampanii.
+   - Metaforę narracyjną opartą o archetyp.
+   - Centralny przekaz + kontrprzekaz.
+   - Sekwencję narracyjną: Początek → Konflikt → Więź → Rozwiązanie.
+   - Rekomendowane kanały z uzasadnieniem.
+   - Konkretne CTA oparte na psychologii archetypów.
 
-4) Crea un **guion estilo branding cinematográfico** de 60 segundos.
+4) Stwórz **scenariusz w stylu filmowego brandingu** na 60 sekund.
 
-5) Versión PRO:
-   - Cómo extender esta campaña durante 90 días.
-   - Cómo combinar el arquetipo principal con uno secundario.
-   - Cómo usar storytelling profundo basado en motivaciones inconscientes.
+5) Wersja PRO:
+   - Jak rozciągnąć tę kampanię na 90 dni.
+   - Jak połączyć archetyp główny z archetypem wtórnym.
+   - Jak używać głębokiego storytellingu opartego na nieświadomych motywacjach.
 
-6) Errores comunes al usar arquetipos y cómo evitarlos.`,
+6) Typowe błędy w używaniu archetypów i jak ich unikać.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-32",
-    title: "Campaña de Conversión Basada en Buyer Stages (TOFU/MOFU/BOFU)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Konwersji Oparta na Buyer Stages (TOFU/MOFU/BOFU)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Campaña completa que cubre top, middle y bottom of funnel con mensajes especializados.",
-    prompt: `Eres consultor experto en funnels corporativos.
+      "Kompletna kampania obejmująca top, middle i bottom of funnel z wyspecjalizowanymi przekazami.",
+    prompt: `Jesteś ekspertem-konsultantem od korporacyjnych lejków.
 
-Datos:
-- Producto/servicio: [describe].
-- Tipo de cliente ideal: [describe].
-- Fase actual del negocio: [validación, escalado, madurez].
+Dane:
+- Produkt/usługa: [opisz].
+- Typ idealnego klienta: [opisz].
+- Aktualna faza biznesu: [walidacja, skalowanie, dojrzałość].
 
-Genera:
+Wygeneruj:
 
-1) Diagnóstico del embudo actual:
-   - Qué falta.
-   - Qué está débil.
-   - Qué oportunidad existe.
+1) Diagnozę obecnego lejka:
+   - Czego brakuje.
+   - Co jest słabe.
+   - Jakie istnieją szanse.
 
-2) Crea una campaña con 3 fases:
-   **TOFU (Atracción)**
-   - 10 ideas de contenido.
-   - Mensajes basados en curiosidad, descubrimiento y micro-problemas.
+2) Stwórz kampanię w 3 fazach:
+   **TOFU (Przyciąganie)**
+   - 10 pomysłów na treści.
+   - Przekazy oparte na ciekawości, odkryciu i mikro-problemach.
 
-   **MOFU (Consideración)**
-   - 10 ideas de contenido.
-   - Mensajes basados en demostración, credibilidad y objeciones.
+   **MOFU (Rozważanie)**
+   - 10 pomysłów na treści.
+   - Przekazy oparte na demonstracji, wiarygodności i obiekcjach.
 
-   **BOFU (Conversión)**
-   - 10 piezas específicas listas para convertir.
-   - Secuencias sugeridas de 5–7 impactos.
+   **BOFU (Konwersja)**
+   - 10 konkretnych elementów gotowych do konwersji.
+   - Sugerowane sekwencje 5–7 kontaktów.
 
-3) Framework “3 Niveles de Conciencia” aplicado al caso.
+3) Framework “3 Poziomy Świadomości” zastosowany do przypadku.
 
-4) Versión PRO:
-   - Cómo duplicar conversiones con remarketing.
-   - Cómo alinear TOFU–MOFU–BOFU en una sola narrativa.
+4) Wersja PRO:
+   - Jak podwoić konwersje dzięki remarketingowi.
+   - Jak spiąć TOFU–MOFU–BOFU w jedną narrację.
 
-5) Plantilla final de campaña en tabla (TOFU/MOFU/BOFU).
+5) Końcowy szablon kampanii w tabeli (TOFU/MOFU/BOFU).
 
-6) Errores comunes en embudos.`,
+6) Typowe błędy w lejkach.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-33",
-    title: "Campaña de Persuasión Basada en Sesgos Cognitivos",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Perswazji Oparta na Błędach Poznawczych",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Usa psicología del consumidor y sesgos cognitivos para impulsar ventas.",
-    prompt: `Actúa como consultor de psicología aplicada al marketing.
+      "Wykorzystaj psychologię konsumenta i błędy poznawcze, aby zwiększać sprzedaż.",
+    prompt: `Działaj jako konsultant psychologii stosowanej w marketingu.
 
-Te daré:
-- Producto/servicio: [describe].
-- Audiencia: [describe].
+Podam Ci:
+- Produkt/usługę: [opisz].
+- Audiencję: [opisz].
 
-Genera:
+Wygeneruj:
 
-1) Selección de los 10 sesgos cognitivos más relevantes.
-2) Explica por qué cada sesgo funciona en este nicho.
-3) Crea una campaña con:
-   - 10 anuncios.
-   - 10 guiones de video.
-   - 10 piezas para email.
-   - 10 piezas de contenido educativo.
+1) Wybór 10 najbardziej trafnych błędów poznawczych.
+2) Wyjaśnij, dlaczego każdy błąd działa w tej niszy.
+3) Stwórz kampanię z:
+   - 10 reklamami.
+   - 10 scenariuszami wideo.
+   - 10 elementami do emaila.
+   - 10 elementami treści edukacyjnych.
 
-4) Para cada pieza indica:
-   - Qué sesgo utiliza.
-   - Qué emoción activa.
-   - Por qué funciona.
+4) Dla każdego elementu wskaż:
+   - Jaki błąd poznawczy wykorzystuje.
+   - Jaką emocję aktywuje.
+   - Dlaczego to działa.
 
-5) Versión PRO:
-   - Cómo combinar sesgos en secuencia.
-   - Cómo evitar manipulación no ética.
+5) Wersja PRO:
+   - Jak łączyć błędy w sekwencji.
+   - Jak unikać nieetycznej manipulacji.
 
-6) Lista de errores comunes.`,
+6) Lista typowych błędów.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-34",
-    title: "Campaña de Posicionamiento Tipo Guerra de Marcas (Ries & Trout)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Pozycjonowania w Stylu Wojny Marek (Ries & Trout)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Campaña basada en principios clásicos de posicionamiento competitivo.",
-    prompt: `Eres experto en posicionamiento estratégico (Ries & Trout).
+      "Kampania oparta na klasycznych zasadach konkurencyjnego pozycjonowania.",
+    prompt: `Jesteś ekspertem od strategicznego pozycjonowania (Ries & Trout).
 
-Te daré:
-- Mi marca: [describe].
-- Competencia principal: [describe].
-- Diferenciador clave: [describe].
+Podam Ci:
+- Moją markę: [opisz].
+- Główną konkurencję: [opisz].
+- Kluczowy wyróżnik: [opisz].
 
-Genera:
+Wygeneruj:
 
-1) Análisis estratégico basado en:
-   - Ley de la mente
-   - Ley de la percepción
-   - Ley del foco
-   - Ley de la categoría
+1) Analizę strategiczną opartą na:
+   - Prawie umysłu
+   - Prawie percepcji
+   - Prawie fokusu
+   - Prawie kategorii
 
-2) Crea **4 campañas ofensivas** y **4 defensivas**.
+2) Stwórz **4 kampanie ofensywne** i **4 defensywne**.
 
-Cada campaña debe incluir:
-- Mensaje.
-- Canal.
-- Táctica persuasiva.
-- Riesgos.
-- Mitigación.
+Każda kampania musi zawierać:
+- Przekaz.
+- Kanał.
+- Taktykę perswazyjną.
+- Ryzyka.
+- Minimalizację ryzyka.
 
-3) Guion “manifesto de marca” con posicionamiento directo.
+3) Scenariusz “manifesto marki” z bezpośrednim pozycjonowaniem.
 
-4) Versión PRO:
-   - Cómo reposicionar a la competencia indirectamente.
-   - Cómo ocupar espacio mental en la categoría.
+4) Wersja PRO:
+   - Jak repozycjonować konkurencję pośrednio.
+   - Jak zająć miejsce w umyśle w kategorii.
 
-5) Errores comunes.`,
+5) Typowe błędy.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-35",
-    title: "Campaña Basada en el Viaje del Héroe del Cliente",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Oparta na Podróży Bohatera Klienta",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Convierte la transformación del cliente en una narrativa épica estilo Hollywood.",
-    prompt: `Actúa como guionista de narrativa transformacional.
+      "Zamień transformację klienta w epicką narrację w stylu Hollywood.",
+    prompt: `Działaj jako scenarzysta narracji transformacyjnej.
 
-Datos:
-- Cliente ideal: [describe].
-- Punto de dolor inicial: [describe].
-- Transformación final: [describe].
+Dane:
+- Idealny klient: [opisz].
+- Początkowy punkt bólu: [opisz].
+- Finalna transformacja: [opisz].
 
-Genera:
+Wygeneruj:
 
-1) Construcción del viaje del héroe en 12 etapas adaptado al cliente.
-2) Crea una campaña con contenido para cada etapa.
-3) 5 anuncios estilo película.
-4) 3 guiones para reels emotivos.
-5) Versión PRO: narrativa transmedia.
-6) Errores comunes.`,
+1) Konstrukcję podróży bohatera w 12 etapach dopasowaną do klienta.
+2) Stwórz kampanię z treściami dla każdego etapu.
+3) 5 reklam w stylu filmu.
+4) 3 scenariusze emocjonalnych reels.
+5) Wersja PRO: narracja transmedialna.
+6) Typowe błędy.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-36",
-    title: "Campaña Basada en Ciclos de Demanda (Predictiva)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Oparta na Cyklach Popytu (Predykcyjna)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Diseña campañas basadas en momentos predictivos donde tu cliente es más propenso a comprar.",
-    prompt: `Eres experto en demanda predictiva.
+      "Projektuj kampanie oparte na przewidywanych momentach, w których klient ma największą skłonność do zakupu.",
+    prompt: `Jesteś ekspertem od predykcyjnego popytu.
 
-Datos:
-- Tipo de producto.
-- Frecuencia de compra.
-- Eventos externos que afectan la demanda.
+Dane:
+- Typ produktu.
+- Częstotliwość zakupu.
+- Zewnętrzne wydarzenia wpływające na popyt.
 
-Genera:
+Wygeneruj:
 
-1) Identificación de 6–10 picos naturales de demanda.
-2) Crea una campaña para cada uno.
-3) Define contenido ideal por fase.
-4) Versión PRO: automatización por micro-eventos.
-5) Errores comunes.`,
+1) Identyfikację 6–10 naturalnych szczytów popytu.
+2) Kampanię dla każdego z nich.
+3) Idealne treści na każdą fazę.
+4) Wersja PRO: automatyzacja na mikro-wydarzeniach.
+5) Typowe błędy.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-37",
-    title: "Campaña de Cierre Intensiva (Últimos 48 horas)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Secuencia intensiva para maximizar ventas en los últimos 2 días.",
-    prompt: `Eres experto en cierre de ventas.
+    title: "Intensywna Kampania Domykająca (Ostatnie 48 godzin)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Intensywna sekwencja, aby zmaksymalizować sprzedaż w ostatnie 2 dni.",
+    prompt: `Jesteś ekspertem od domykania sprzedaży.
 
-Datos:
-- Precio del producto: [describe].
-- Objeciones típicas: [lista].
+Dane:
+- Cena produktu: [opisz].
+- Typowe obiekcje: [lista].
 
-Genera:
+Wygeneruj:
 
-1) Diagnóstico rápido.
-2) Campaña de 48h:
-   - 3 emails.
-   - 3 mensajes de WhatsApp.
-   - 2 videos cortos.
-   - 2 anuncios express.
-3) Versión PRO.
-4) Errores comunes.`,
+1) Szybką diagnozę.
+2) Kampanię 48h:
+   - 3 emaile.
+   - 3 wiadomości WhatsApp.
+   - 2 krótkie wideo.
+   - 2 reklamy express.
+3) Wersję PRO.
+4) Typowe błędy.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-38",
-    title: "Campaña Tipo Serie Educativa (Capítulos)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Diseña una serie de contenido educativo en formato episodios.",
-    prompt: `Actúa como productor de series educativas.
+    title: "Kampania Typu Seria Edukacyjna (Rozdziały)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Zaprojektuj serię treści edukacyjnych w formacie odcinków.",
+    prompt: `Działaj jako producent serii edukacyjnych.
 
-Datos:
-- Tema central.
-- Público meta.
+Dane:
+- Temat centralny.
+- Grupa docelowa.
 
-Genera:
+Wygeneruj:
 
-1) 6 posibles series.
-2) Para cada serie:
-   - Título.
-   - Episodios.
-   - CTA final.
-3) Versión PRO para YouTube.
-4) Errores comunes.`,
+1) 6 możliwych serii.
+2) Dla każdej serii:
+   - Tytuł.
+   - Odcinki.
+   - Końcowe CTA.
+3) Wersję PRO na YouTube.
+4) Typowe błędy.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-39",
-    title: "Campaña Basada en Gamificación Avanzada",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Usa mecánicas de juego para aumentar participación masiva.",
-    prompt: `Eres gamification designer senior.
+    title: "Kampania Oparta na Zaawansowanej Gamifikacji",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Użyj mechanik gry, aby zwiększyć masową partycypację.",
+    prompt: `Jesteś starszym projektantem gamifikacji.
 
-Datos:
-- Público.
-- Objetivo.
+Dane:
+- Publiczność.
+- Cel.
 
-Genera:
+Wygeneruj:
 
-1) 5 campañas gamificadas.
-2) Para cada una:
-   - Mecánica.
-   - Niveles.
-   - Recompensas.
-3) Versión PRO: gamificación con IA.
-4) Errores comunes.`,
+1) 5 kampanii gamifikowanych.
+2) Dla każdej:
+   - Mechanikę.
+   - Poziomy.
+   - Nagrody.
+3) Wersję PRO: gamifikacja z AI.
+4) Typowe błędy.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-40",
-    title: "Campaña Basada en Deep Storytelling Emocional",
-    area: "Marketing & ventas",
-    summary: "Aplica storytelling profundo basado en emociones primarias.",
-    category: "Ideas de campaña",
-    prompt: `Actúa como guionista emocional.
+    title: "Kampania Oparta na Głębokim Emocjonalnym Storytellingu",
+    area: "Marketing i sprzedaż",
+    summary: "Zastosuj głęboki storytelling oparty na emocjach pierwotnych.",
+    category: "Pomysły na kampanię",
+    prompt: `Działaj jako emocjonalny scenarzysta.
 
-Datos:
-- Emoción principal: [miedo, esperanza, orgullo…].
-- Producto: [describe].
+Dane:
+- Główna emocja: [strach, nadzieja, duma…].
+- Produkt: [opisz].
 
-Genera:
+Wygeneruj:
 
-1) 4 campañas por emoción.
-2) Guiones.
-3) Versión PRO.
-4) Errores comunes.`,
+1) 4 kampanie na emocję.
+2) Scenariusze.
+3) Wersję PRO.
+4) Typowe błędy.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-41",
-    title: "Campaña de Reposicionamiento con Evidence-Based Marketing",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Reposiciona tu marca basado en data en lugar de intuición.",
-    prompt: `Actúa como consultor de data marketing.
+    title: "Kampania Repozycjonowania z Evidence-Based Marketing",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Repozycjonuj markę w oparciu o dane zamiast intuicji.",
+    prompt: `Działaj jako konsultant data marketingu.
 
-Datos:
-- Dataset disponible: [describe].
+Dane:
+- Dostępny dataset: [opisz].
 
-Genera análisis + campañas basadas en insights.`,
+Wygeneruj analizę + kampanie oparte na insightach.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-42",
-    title: "Campaña Basada en Crisis Controlada (Narrativa 'Caos → Orden')",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Oparta na Kontrolowanym Kryzysie (Narracja 'Chaos → Porządek')",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Activa emocionalmente tu audiencia usando la narrativa caos/orden.",
-    prompt: `Eres experto narrativo.
+      "Aktywuj emocjonalnie publiczność, używając narracji chaos/porządek.",
+    prompt: `Jesteś ekspertem narracji.
 
-Genera:
-1) 5 campañas usando caos/orden.
-2) Mensajes.
-3) Ejemplos.
-4) Versión PRO.`,
+Wygeneruj:
+1) 5 kampanii używając chaos/porządek.
+2) Przekazy.
+3) Przykłady.
+4) Wersję PRO.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-43",
-    title: "Campaña de Prueba Social Multiformato",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Transforma testimonios en una campaña completa.",
-    prompt: `Actúa como estratega de social proof.
+    title: "Wielofomatowa Kampania Dowodu Społecznego",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Zamień testimoniale w kompletną kampanię.",
+    prompt: `Działaj jako strateg social proof.
 
-Genera:
-1) 8 campañas.
-2) Formatos.
-3) Scripts.
-4) Errores comunes.`,
+Wygeneruj:
+1) 8 kampanii.
+2) Formaty.
+3) Scenariusze.
+4) Typowe błędy.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-44",
-    title: "Campaña Basada en Reverse Thinking (pensamiento inverso)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Oparta na Reverse Thinking (myślenie odwrotne)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Genera campañas basadas en contradicciones y ángulos inesperados.",
-    prompt: `Genera 6 campañas basadas en invertir creencias del mercado.`,
+      "Generuj kampanie oparte na sprzecznościach i nieoczekiwanych kątach.",
+    prompt: `Wygeneruj 6 kampanii opartych na odwracaniu przekonań rynku.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-45",
-    title: "Campaña en Formato 'Experimento Social'",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Crea campañas tipo experimento social para generar viralidad.",
-    prompt: `Eres director creativo.
+    title: "Kampania w Formacie 'Eksperyment Społeczny'",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Twórz kampanie typu eksperyment społeczny, aby generować wiralowość.",
+    prompt: `Jesteś dyrektorem kreatywnym.
 
-Genera:
-1) 5 experimentos sociales.
-2) Guiones.
-3) Versión PRO.`,
+Wygeneruj:
+1) 5 eksperymentów społecznych.
+2) Scenariusze.
+3) Wersję PRO.`,
     thumbnail: "",
   },
 
   /* ============================= */
-  /*      PROMPTS ÁGILES (46–60)   */
+  /*      PROMPTY ZWINNE (46–60)   */
   /* ============================= */
 
   {
     id: "mkt-idea-campana-46",
-    title: "Campaña de Quick Wins para Nuevos Seguidores",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Campañas rápidas para convertir nuevos seguidores en leads.",
-    prompt: `Genera 6 campañas de quick wins para nuevos seguidores + CTA rápido.`,
+    title: "Kampania Quick Wins dla Nowych Obserwujących",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Szybkie kampanie, aby zamienić nowych obserwujących w leady.",
+    prompt: `Wygeneruj 6 kampanii quick wins dla nowych obserwujących + szybkie CTA.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-47",
-    title: "Campaña Flash de 24 Horas",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Campañas express que cierran ventas en un día.",
-    prompt: `Genera 5 campañas flash de 24h con mensajes + CTA + oferta.`,
+    title: "Flash Kampania 24 Godziny",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Ekspresowe kampanie, które domykają sprzedaż w jeden dzień.",
+    prompt: `Wygeneruj 5 flash kampanii 24h z przekazami + CTA + ofertą.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-48",
-    title: "Campaña Estilo 'Mito vs Realidad'",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Contrasta creencias del mercado con la verdad.",
-    prompt: `Genera 10 ideas estilo mito vs realidad para mi nicho.`,
+    title: "Kampania w Stylu 'Mit vs Rzeczywistość'",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Zestawiaj przekonania rynku z prawdą.",
+    prompt: `Wygeneruj 10 pomysłów w stylu mit vs rzeczywistość dla mojej niszy.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-49",
-    title: "Campaña Basada en Reels Educativos",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Genera mini lecciones tipo microlearning.",
-    prompt: `Crea 15 ideas de reels educativos sobre mi tema.`,
+    title: "Kampania Oparta na Edukacyjnych Reels",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Generuj mini-lekcje typu microlearning.",
+    prompt: `Stwórz 15 pomysłów na edukacyjne reels na mój temat.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-50",
-    title: "Campaña de Comparación (A vs B)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Destaca ventajas comparando productos.",
-    prompt: `Genera 6 campañas tipo comparación.`,
+    title: "Kampania Porównawcza (A vs B)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Podkreślaj przewagi, porównując produkty.",
+    prompt: `Wygeneruj 6 kampanii typu porównanie.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-51",
-    title: "Campaña Basada en Historias Reales",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Crea contenido basado en microhistorias reales.",
-    prompt: `Genera 10 campañas basadas en historias cortas.`,
+    title: "Kampania Oparta na Prawdziwych Historiach",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Twórz treści oparte na krótkich prawdziwych mikrohistoriach.",
+    prompt: `Wygeneruj 10 kampanii opartych na krótkich historiach.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-52",
-    title: "Campaña para Generar Comentarios Masivos",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Dinámicas diseñadas para encender comentarios.",
-    prompt: `Genera 12 ideas para aumentar comentarios.`,
+    title: "Kampania do Masowego Generowania Komentarzy",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Mechaniki zaprojektowane, aby rozpalić komentarze.",
+    prompt: `Wygeneruj 12 pomysłów na zwiększenie komentarzy.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-53",
-    title: "Campaña Basada en Preguntas Provocadoras",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Usa preguntas profundas para atraer engagement.",
-    prompt: `Genera 20 preguntas provocadoras ideales para reels/carruseles.`,
+    title: "Kampania Oparta na Prowokujących Pytaniach",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Użyj głębokich pytań, aby przyciągnąć engagement.",
+    prompt: `Wygeneruj 20 prowokujących pytań idealnych do reels/karuzel.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-54",
-    title: "Campaña de Prueba Gratuita Controlada",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Ideas para usar un free trial sin devaluar tu marca.",
-    prompt: `Genera 7 campañas para un free trial.`,
+    title: "Kampania Kontrolowanego Darmowego Okresu Próbnego",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Pomysły na użycie free trial bez dewaluowania marki.",
+    prompt: `Wygeneruj 7 kampanii dla free trial.`,
     thumbnail: "",
   },
 
-  {
+    {
     id: "mkt-idea-campana-55",
-    title: "Campaña de Bundles y Packs Especiales",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Ofertas empaquetadas para aumentar ticket promedio.",
-    prompt: `Genera 8 ideas de bundles o packs.`,
+    title: "Kampania Bundle i Specjalnych Pakietów",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Oferty pakietowe, aby zwiększyć średnią wartość koszyka.",
+    prompt: `Wygeneruj 8 pomysłów na bundle lub pakiety.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-56",
-    title: "Campaña Basada en Rankings y Listas",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Crea rankings tipo top 5 para enganchar a tu audiencia.",
-    prompt: `Genera 15 ideas de listas tipo top 5 / top 10.`,
+    title: "Kampania Oparta na Rankingach i Listach",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Twórz rankingi typu top 5, aby wciągnąć swoją publiczność.",
+    prompt: `Wygeneruj 15 pomysłów na listy typu top 5 / top 10.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-57",
-    title: "Campaña Basada en Opiniones Polémicas",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Opiniones fuertes que generan debate.",
-    prompt: `Genera 10 opiniones fuertes para abrir conversación.`,
+    title: "Kampania Oparta na Kontrowersyjnych Opiniach",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Mocne opinie, które wywołują debatę.",
+    prompt: `Wygeneruj 10 mocnych opinii, aby rozpocząć rozmowę.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-58",
-    title: "Campaña 'Lo que Nadie Te Dice'",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Revela verdades incómodas del nicho.",
-    prompt: `Genera 10 ideas estilo “lo que nadie te dice sobre X”.`,
+    title: "Kampania 'To, Czego Nikt Ci Nie Mówi'",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Ujawnia niewygodne prawdy o niszy.",
+    prompt: `Wygeneruj 10 pomysłów w stylu “to, czego nikt ci nie mówi o X”.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-59",
-    title: "Campaña de Lanzamiento Sorpresa",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Lanzamientos sin aviso previo.",
-    prompt: `Genera 5 campañas de lanzamiento sorpresa.`,
+    title: "Kampania Niespodziewanej Premiery",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Launch bez wcześniejszej zapowiedzi.",
+    prompt: `Wygeneruj 5 kampanii niespodziewanej premiery.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-60",
-    title: "Campaña Basada en Estadísticas Impactantes",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Campañas basadas en números que generan impacto.",
-    prompt: `Genera 15 ideas basadas en estadísticas relevantes de mi nicho.`,
+    title: "Kampania Oparta na Mocnych Statystykach",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Kampanie oparte na liczbach, które robią wrażenie.",
+    prompt: `Wygeneruj 15 pomysłów opartych na istotnych statystykach dla mojej niszy.`,
     thumbnail: "",
   },
   {
     id: "mkt-idea-campana-61",
     title:
-      "Campaña Estratégica de Penetración de Mercado Basada en Microsegmentación",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+      "Strategiczna Kampania Penetracji Rynku Oparta na Mikrosegmentacji",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Campaña avanzada diseñada para penetrar mercados saturados usando microsegmentación hiperprecisa.",
-    prompt: `Actúa como consultor senior en estrategia comercial para mercados saturados.
+      "Zaawansowana kampania zaprojektowana do penetracji nasyconych rynków przy użyciu hiperdokładnej mikrosegmentacji.",
+    prompt: `Działaj jako starszy konsultant strategii komercyjnej dla nasyconych rynków.
 
-Te daré:
-- Producto: [describe].
-- Mercado / industria: [describe].
-- Segmentos actuales de cliente: [describe].
-- Recursos disponibles: [describe].
+Podam Ci:
+- Produkt: [opisz].
+- Rynek / branża: [opisz].
+- Obecne segmenty klientów: [opisz].
+- Dostępne zasoby: [opisz].
 
-Genera:
+Wygeneruj:
 
-1) Diagnóstico completo:
-   - Nivel de saturación del mercado.
-   - Microsegmentos ocultos con potencial.
-   - Oportunidades no explotadas por competidores.
-   - Brechas emocionales, lógicas y aspiracionales del cliente.
+1) Pełną diagnozę:
+   - Poziom nasycenia rynku.
+   - Ukryte mikrosegmenty z potencjałem.
+   - Niewykorzystane szanse przez konkurencję.
+   - Emocjonalne, logiczne i aspiracyjne luki klienta.
 
-2) Identifica **6 microsegmentos específicos** con:
-   - Perfil exacto del cliente.
-   - Dolor no resuelto.
-   - Deseos reprimidos.
-   - Palabras clave emocionales.
+2) Zidentyfikuj **6 konkretnych mikrosegmentów** z:
+   - Dokładnym profilem klienta.
+   - Nierozwiązanym bólem.
+   - Tłumionymi pragnieniami.
+   - Emocjonalnymi słowami kluczowymi.
 
-3) Para cada microsegmento crea una **campaña de penetración** que incluya:
-   - Big Idea estratégica.
-   - Mensaje emocional dominante.
-   - Hook de primer impacto.
-   - Secuencia de 5–7 contenidos.
-   - Oferta más adecuada (premium, low-ticket, bundle…).
-   - Objetivo de conversión en cada pieza.
+3) Dla każdego mikrosegmentu stwórz **kampanię penetracji**, która zawiera:
+   - Strategiczną Big Idea.
+   - Dominujący przekaz emocjonalny.
+   - Hook pierwszego kontaktu.
+   - Sekwencję 5–7 treści.
+   - Najbardziej odpowiednią ofertę (premium, low-ticket, bundle…).
+   - Cel konwersji dla każdego elementu.
 
-4) Crea un **framework de narrativa posicionadora** basado en:
-   - Dolor invisible.
-   - Elevación aspiracional.
-   - Contradicción del mercado.
-   - Oportunidad única.
+4) Stwórz **framework narracji pozycjonującej** oparty na:
+   - Niewidzialnym bólu.
+   - Aspiracyjnej elevacji.
+   - Rynkowej sprzeczności.
+   - Unikalnej szansie.
 
-5) Versión PRO:
-   - Cómo escalar la campaña a nuevos microsegmentos sin rehacer contenido.
-   - Cómo usar IA para acelerar la penetración.
+5) Wersja PRO:
+   - Jak skalować kampanię na nowe mikrosegmenty bez przerabiania treści.
+   - Jak użyć AI, aby przyspieszyć penetrację.
 
-6) Errores que matan campañas de penetración y cómo evitarlos.`,
+6) Błędy, które zabijają kampanie penetracyjne, i jak ich unikać.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-62",
-    title: "Campaña Omnicanal Integrada con Mensajes Caudalizados",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Zintegrowana Kampania Omnichannel z Kaskadowymi Przekazami",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Una campaña omnicanal completa donde cada mensaje fluye al siguiente como un río narrativo.",
-    prompt: `Actúa como especialista en campañas omnicanal de grandes corporaciones.
+      "Pełna kampania omnichannel, w której każdy przekaz płynie do następnego jak narracyjna rzeka.",
+    prompt: `Działaj jako specjalista od kampanii omnichannel dla dużych korporacji.
 
-Datos:
-- Producto o servicio: [describir].
-- Canales disponibles: [IG, TikTok, Ads, Email, YouTube, WhatsApp].
-- Objetivo: [ventas, awareness, consideración].
+Dane:
+- Produkt lub usługa: [opisz].
+- Dostępne kanały: [IG, TikTok, Ads, Email, YouTube, WhatsApp].
+- Cel: [sprzedaż, awareness, rozważanie].
 
-Genera:
+Wygeneruj:
 
-1) Diseño del sistema omnicanal:
-   - Mensaje madre.
-   - Mensajes hijo derivados.
-   - Puntos de contacto críticos.
-   - Flujo de impacto narrativo cruzado.
+1) Projekt systemu omnichannel:
+   - Przekaz-matkę.
+   - Pochodne przekazy-dzieci.
+   - Krytyczne punkty kontaktu.
+   - Przepływ krzyżowego wpływu narracyjnego.
 
-2) Crea una campaña con **10 canales conectados**, donde cada pieza:
-   - Responde al mensaje anterior.
-   - Prepara el siguiente contenido.
-   - Construye tensión narrativa.
+2) Stwórz kampanię z **10 połączonymi kanałami**, gdzie każdy element:
+   - Odpowiada na poprzedni przekaz.
+   - Przygotowuje kolejną treść.
+   - Buduje napięcie narracyjne.
 
-3) Escribe:
-   - 4 guiones de reels.
-   - 4 scripts para ads.
-   - 3 correos secuenciales.
-   - 2 guiones largos estilo documental corto.
+3) Napisz:
+   - 4 scenariusze reels.
+   - 4 skrypty do ads.
+   - 3 sekwencyjne maile.
+   - 2 długie scenariusze w stylu krótkiego dokumentu.
 
-4) Crea un mapa completo del flujo omnicanal:
-   - Qué ve primero.
-   - Qué ve después.
-   - Qué lo lleva a la conversión.
+4) Stwórz pełną mapę przepływu omnichannel:
+   - Co widzi najpierw.
+   - Co widzi potem.
+   - Co prowadzi do konwersji.
 
-5) Versión PRO:
-   - Cómo duplicar retención con loops de contenido.
-   - Cómo evitar saturación mientras se aumenta frecuencia.
+5) Wersja PRO:
+   - Jak podwoić retencję dzięki pętlom treści (content loops).
+   - Jak unikać przesytu, jednocześnie zwiększając częstotliwość.
 
-6) Lista de errores al hacer omnicanal.`,
+6) Lista błędów w omnichannel.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-63",
-    title: "Campaña Basada en Diferenciación Radical (Blue Ocean Strategy)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Oparta na Radykalnej Dyferencjacji (Blue Ocean Strategy)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Aplica estrategia de océanos azules para crear campañas totalmente distintas al mercado.",
-    prompt: `Actúa como consultor experto en estrategia Blue Ocean.
+      "Zastosuj strategię błękitnego oceanu, aby tworzyć kampanie całkowicie odmienne od rynku.",
+    prompt: `Działaj jako konsultant ekspert od strategii Blue Ocean.
 
-Datos:
-- Producto/servicio.
-- Competidores.
-- Tendencias del sector.
+Dane:
+- Produkt/usługa.
+- Konkurenci.
+- Trendy w branży.
 
-Genera:
+Wygeneruj:
 
-1) Matriz ERRC:
-   - Eliminar
-   - Reducir
-   - Elevar
-   - Crear
+1) Macierz ERRC:
+   - Eliminuj
+   - Ogranicz
+   - Podnieś
+   - Stwórz
 
-2) Crea **4 campañas radicalmente distintas** que:
-   - Introduzcan nuevos factores de valor.
-   - Cambien la percepción del mercado.
-   - Desactiven la comparación directa con competidores.
+2) Stwórz **4 radykalnie różne kampanie**, które:
+   - Wprowadzą nowe czynniki wartości.
+   - Zmienią percepcję rynku.
+   - Wyłączą bezpośrednie porównanie z konkurencją.
 
-3) Para cada campaña entrega:
-   - Narrativa de desbloqueo mental.
-   - Mensaje anti-saturación.
-   - Oferta única tipo “nuevo estándar”.
+3) Dla każdej kampanii dostarcz:
+   - Narrację mentalnego „odblokowania”.
+   - Przekaz anty-przesytowy.
+   - Unikalną ofertę typu “nowy standard”.
 
-4) Escribe un manifiesto de marca para inaugurar un nuevo océano azul.
+4) Napisz manifest marki, aby otworzyć nowy błękitny ocean.
 
-5) Versión PRO:
-   - Riesgos del océano azul.
-   - Cómo blindar el posicionamiento.
+5) Wersja PRO:
+   - Ryzyka błękitnego oceanu.
+   - Jak zabezpieczyć pozycjonowanie.
 
-6) Lista de errores frecuentes.`,
+6) Lista częstych błędów.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-64",
-    title: "Campaña para Convertir Objeciones en Deseo Activo",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Transforma objeciones del cliente en razones para comprar.",
-    prompt: `Actúa como psicólogo del consumidor y estratega de ventas.
+    title: "Kampania, Która Zamienia Obiekcje w Aktywne Pragnienie",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Zamienia obiekcje klienta w powody, by kupić.",
+    prompt: `Działaj jako psycholog konsumenta i strateg sprzedaży.
 
-Datos:
-- Las 10 objeciones principales: [lista].
-- Producto: [describe].
-- Público: [describe].
+Dane:
+- 10 głównych obiekcji: [lista].
+- Produkt: [opisz].
+- Publiczność: [opisz].
 
-Genera:
+Wygeneruj:
 
-1) Análisis profundo:
-   - Origen psicológico de cada objeción.
-   - Emoción que la dispara.
-   - Necesidad oculta detrás.
+1) Głęboką analizę:
+   - Psychologiczne źródło każdej obiekcji.
+   - Emocję, która ją uruchamia.
+   - Ukrytą potrzebę za nią stojącą.
 
-2) Crea **10 campañas**, cada una enfocada en una objeción:
-   - Debunk emocional.
-   - Contrapunto aspiracional.
-   - Reencuadre lógico.
-   - CTA transformador.
+2) Stwórz **10 kampanii**, każda skupiona na jednej obiekcji:
+   - Emocjonalny debunk.
+   - Aspiracyjny kontrapunkt.
+   - Logiczne przeformułowanie.
+   - Transformujące CTA.
 
-3) Escribe:
-   - 10 anuncios basados en objeciones.
-   - 10 guiones de video.
-   - 10 publicaciones educativas.
+3) Napisz:
+   - 10 reklam opartych na obiekcjach.
+   - 10 scenariuszy wideo.
+   - 10 publikacji edukacyjnych.
 
-4) Versión PRO:
-   - Cómo anticipar objeciones en el contenido.
-   - Cómo convertir objeciones en identidad.
+4) Wersja PRO:
+   - Jak antycypować obiekcje w treściach.
+   - Jak zamieniać obiekcje w tożsamość.
 
-5) Lista de errores que destruyen conversiones.`,
+5) Lista błędów, które niszczą konwersje.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-65",
-    title: "Campaña Basada en Value Ladder y Reposicionamiento del Precio",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Oparta na Value Ladder i Repozycjonowaniu Ceny",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Crea una escalera de valor completa y una campaña que reposicione tu precio como una oportunidad.",
-    prompt: `Actúa como estratega de modelos de valor.
+      "Stwórz pełną drabinę wartości i kampanię, która repozycjonuje Twoją cenę jako okazję.",
+    prompt: `Działaj jako strateg modeli wartości.
 
-Datos:
-- Producto principal.
-- Productos complementarios.
-- Precios actuales.
-- Percepción del mercado.
+Dane:
+- Produkt główny.
+- Produkty komplementarne.
+- Obecne ceny.
+- Percepcja rynku.
 
-Genera:
+Wygeneruj:
 
-1) Value Ladder completa:
+1) Pełną Value Ladder:
    - Awareness Level
    - Micro offer
    - Core offer
    - Premium offer
    - Insider club
 
-2) Crea una campaña que:
-   - Justifique el precio.
-   - Eleve el valor percibido.
-   - Introduzca comparaciones inteligentes.
-   - Posicione la oferta como una oportunidad.
+2) Stwórz kampanię, która:
+   - Uzasadnia cenę.
+   - Podnosi postrzeganą wartość.
+   - Wprowadza inteligentne porównania.
+   - Pozycjonuje ofertę jako okazję.
 
-3) Crea:
-   - 6 guiones de reels.
-   - 5 correos narrativos.
-   - 4 anuncios.
+3) Stwórz:
+   - 6 scenariuszy reels.
+   - 5 maili narracyjnych.
+   - 4 reklamy.
 
-4) Versión PRO:
-   - Cómo aumentar el valor percibido en 30 días.
-   - Cómo cambiar la narrativa del precio sin bajar precios.
+4) Wersja PRO:
+   - Jak zwiększyć postrzeganą wartość w 30 dni.
+   - Jak zmienić narrację ceny bez obniżania cen.
 
-5) Errores comunes al reposicionar precios.`,
+5) Typowe błędy przy repozycjonowaniu cen.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-66",
-    title: "Campaña Basada en Insight Profundo del Cliente (Jobs To Be Done)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Oparta na Głębokim Insightcie Klienta (Jobs To Be Done)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Campaña basada en lo que el cliente realmente quiere lograr, no en el producto.",
-    prompt: `Actúa como consultor JTBD.
+      "Kampania oparta na tym, co klient naprawdę chce osiągnąć, a nie na produkcie.",
+    prompt: `Działaj jako konsultant JTBD.
 
-Te daré:
-- Producto/servicio.
-- Contexto del cliente.
+Podam Ci:
+- Produkt/usługę.
+- Kontekst klienta.
 
-Genera:
+Wygeneruj:
 
-1) Identifica 7 “trabajos” funcionales, emocionales y sociales.
-2) Crea campañas basadas en esos trabajos.
-3) Escribe contenido TOFU/MOFU/BOFU basado en JTBD.
-4) Versión PRO: cómo reescribir toda tu marca desde JTBD.`,
+1) Zidentyfikuj 7 “zadań” funkcjonalnych, emocjonalnych i społecznych.
+2) Stwórz kampanie oparte na tych zadaniach.
+3) Napisz treści TOFU/MOFU/BOFU oparte na JTBD.
+4) Wersja PRO: jak przepisać całą markę od nowa na bazie JTBD.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-67",
-    title: "Campaña Basada en Insights de Predicción de Comportamiento",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Oparta na Insightach Predykcji Zachowań",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Predice comportamiento del cliente para adelantarte a sus decisiones.",
-    prompt: `Actúa como estratega de comportamiento predictivo.
+      "Przewiduj zachowanie klienta, aby wyprzedzić jego decyzje.",
+    prompt: `Działaj jako strateg predykcyjnych zachowań.
 
-Genera:
-1) 10 patrones de comportamiento.
-2) 10 campañas basadas en predicciones.
-3) Scripts y mensajes.
-4) Versión PRO para IA predictiva.`,
+Wygeneruj:
+1) 10 wzorców zachowań.
+2) 10 kampanii opartych na predykcjach.
+3) Skrypty i przekazy.
+4) Wersja PRO dla predykcyjnej AI.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-68",
-    title: "Campaña Basada en Profundización de Comunidad (Tribu de Marca)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Convierte tu audiencia en una tribu con identidad compartida.",
-    prompt: `Actúa como experto en comunidades tipo tribu.
+    title: "Kampania Oparta na Pogłębianiu Społeczności (Plemienna Marka)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Zamień swoją publiczność w plemię ze wspólną tożsamością.",
+    prompt: `Działaj jako ekspert od społeczności typu plemię.
 
-Genera:
-1) Ritual de bienvenida.
-2) Lenguaje interno.
-3) 5 campañas de tribu.
-4) Versión PRO: gamificación de identidad.`,
+Wygeneruj:
+1) Rytuał powitalny.
+2) Wewnętrzny język.
+3) 5 kampanii plemiennych.
+4) Wersja PRO: gamifikacja tożsamości.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-69",
-    title: "Campaña de Posicionamiento Tipo 'Anti-Intuir'",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Pozycjonowania Typu 'Anti-Intuicja'",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Construye campañas que contradigan lo que la audiencia cree que esperarías.",
-    prompt: `Genera 6 campañas anti-intuitivas + guiones + racional emocional.`,
+      "Buduj kampanie, które przeczą temu, co publiczność myśli, że byś zrobił.",
+    prompt: `Wygeneruj 6 kampanii antyintuicyjnych + scenariusze + emocjonalne uzasadnienie.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-70",
-    title: "Campaña de Profundización de Autoridad Avanzada (3 Capas)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Pogłębiania Zaawansowanego Autorytetu (3 Warstwy)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Crea campañas de autoridad divididas en visión, conocimiento y liderazgo.",
-    prompt: `Genera:
-1) 3 campañas (visión, experiencia, liderazgo).
-2) 5 piezas por campaña.
-3) Versión PRO para expertos.`,
+      "Stwórz kampanie autorytetu podzielone na wizję, wiedzę i przywództwo.",
+    prompt: `Wygeneruj:
+1) 3 kampanie (wizja, doświadczenie, przywództwo).
+2) 5 elementów na kampanię.
+3) Wersję PRO dla ekspertów.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-71",
-    title: "Campaña Basada en Reframing Masivo de la Industria",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Cambiarás la forma en que tu industria piensa sobre tu nicho.",
-    prompt: `Genera:
-1) 5 reframes radicales.
-2) Campaña para cada reframe.
-3) Scripts PRO.`,
+    title: "Kampania Oparta na Masowym Reframingu Branży",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Zmienisz sposób, w jaki Twoja branża myśli o Twojej niszy.",
+    prompt: `Wygeneruj:
+1) 5 radykalnych reframów.
+2) Kampanię dla każdego reframu.
+3) Skrypty PRO.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-72",
-    title: "Campaña Tipo 'Movimiento' (no producto)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Convierte tu marca en un movimiento social o aspiracional.",
-    prompt: `Genera:
+    title: "Kampania Typu 'Ruch' (nie produkt)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Zamień markę w ruch społeczny lub aspiracyjny.",
+    prompt: `Wygeneruj:
 1) Manifesto.
-2) Identidad del movimiento.
-3) 5 campañas.
-4) Versión PRO: viralización.`,
+2) Tożsamość ruchu.
+3) 5 kampanii.
+4) Wersję PRO: wiralizacja.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-73",
-    title: "Campaña de Venta Basada en Metáforas Extendidas",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Usa metáforas profundas para vender sin parecer que vendes.",
-    prompt: `Genera 10 metáforas extendidas + campaña + script PRO.`,
+    title: "Kampania Sprzedażowa Oparta na Rozszerzonych Metaforach",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Używaj głębokich metafor, by sprzedawać bez wrażenia sprzedaży.",
+    prompt: `Wygeneruj 10 rozszerzonych metafor + kampanię + skrypt PRO.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-74",
-    title: "Campaña Basada en el Mecanismo Único (UCM)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Define un mecanismo único que diferencie tu oferta.",
-    prompt: `Genera:
-1) Mecanismo único.
-2) Campaña.
-3) Guiones.
-4) Versión PRO.`,
+    title: "Kampania Oparta na Unikalnym Mechanizmie (UCM)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Zdefiniuj unikalny mechanizm, który wyróżni Twoją ofertę.",
+    prompt: `Wygeneruj:
+1) Unikalny mechanizm.
+2) Kampanię.
+3) Scenariusze.
+4) Wersję PRO.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-75",
-    title: "Campaña de Profundización en Ciclo de Transformación del Cliente",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Pogłębiania Cyklu Transformacji Klienta",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Mapea el ciclo emocional del cliente y crea campañas para cada fase.",
-    prompt: `Genera:
-1) Mapa emocional.
-2) Campañas.
-3) Scripts.
-4) Versión PRO.`,
+      "Mapuj emocjonalny cykl klienta i twórz kampanie dla każdej fazy.",
+    prompt: `Wygeneruj:
+1) Mapę emocjonalną.
+2) Kampanie.
+3) Scenariusze.
+4) Wersję PRO.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-76",
-    title: "Campaña de Desobediencia Comercial (Anti-Reglas)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Campañas que rompen patrones y reglas del nicho.",
-    prompt: `Genera 6 campañas anti-regla con mensajes shock.`,
+    title: "Kampania Sprzedażowego Nieposłuszeństwa (Anty-Zasady)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Kampanie, które łamią schematy i zasady niszy.",
+    prompt: `Wygeneruj 6 kampanii anty-zasada z szokującymi przekazami.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-77",
-    title: "Campaña para Hacer Viral un Nuevo Concepto",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Crea un concepto nuevo y hazlo viral en 30 días.",
-    prompt: `Genera:
-1) concepto viral.
-2) 6 campañas.
-3) versión PRO.`,
+    title: "Kampania, Aby Zwiralizować Nowe Pojęcie",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Stwórz nowe pojęcie i spraw, by stało się viralem w 30 dni.",
+    prompt: `Wygeneruj:
+1) viralowe pojęcie.
+2) 6 kampanii.
+3) wersję PRO.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-78",
-    title: "Campaña Basada en Opinión Fuerte (Polarización Positiva)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Oparta na Mocnej Opinii (Pozytywna Polaryzacja)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Usa polarización positiva para atraer a quienes más se identifican contigo.",
-    prompt: `Genera:
-1) 5 opiniones fuertes.
-2) 5 campañas.
-3) Scripts.
+      "Użyj pozytywnej polaryzacji, aby przyciągnąć tych, którzy najbardziej się z Tobą identyfikują.",
+    prompt: `Wygeneruj:
+1) 5 mocnych opinii.
+2) 5 kampanii.
+3) Skrypty.
 4) PRO.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-79",
-    title: "Campaña de Profundización Sensorial (Marketing Multisensorial)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Campañas basadas en activar sentidos para generar deseo.",
-    prompt: `Genera 5 campañas multisensoriales + guiones.`,
+    title: "Kampania Pogłębiania Sensorycznego (Marketing Wielozmysłowy)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Kampanie oparte na aktywowaniu zmysłów, aby wytworzyć pragnienie.",
+    prompt: `Wygeneruj 5 wielozmysłowych kampanii + scenariusze.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-80",
-    title: "Campaña de Impacto Basada en Eventos Trigger",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Activa compras basándote en eventos específicos del cliente.",
-    prompt: `Genera 10 campañas basadas en triggers de vida + scripts PRO.`,
+    title: "Kampania Wpływu Oparta na Wydarzenia Trigger",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Aktywuj zakupy na podstawie konkretnych wydarzeń z życia klienta.",
+    prompt: `Wygeneruj 10 kampanii opartych na życiowych triggerach + skrypty PRO.`,
     thumbnail: "",
   },
   {
     id: "mkt-idea-campana-81",
     title:
-      "Campaña de Reposicionamiento Narrativo Basado en Arquetipos de Marca",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+      "Narracyjna Kampania Repozycjonowania Oparta na Archetypach Marki",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Campaña avanzada basada en los 12 arquetipos de marca para reconstruir tu narrativa y posicionamiento.",
-    prompt: `Actúa como consultor en branding narrativo basado en arquetipos.
+      "Zaawansowana kampania oparta na 12 archetypach marki, aby przebudować narrację i pozycjonowanie.",
+    prompt: `Działaj jako konsultant brandingu narracyjnego opartego na archetypach.
 
 Inputs:
-- Arquetipo actual de la marca (si existe).
-- Arquetipo deseado.
-- Público principal.
-- Producto/servicio central.
+- Obecny archetyp marki (jeśli istnieje).
+- Docelowy archetyp.
+- Główna publiczność.
+- Centralny produkt/usługa.
 
-Genera:
+Wygeneruj:
 
-1) Diagnóstico:
-   - Qué arquetipo proyecta hoy la marca.
-   - Qué arquetipo necesitaría para vender más.
-   - Riesgos de cambio narrativo.
+1) Diagnozę:
+   - Jaki archetyp marka projektuje dziś.
+   - Jakiego archetypu potrzebuje, aby sprzedawać więcej.
+   - Ryzyka zmiany narracji.
 
-2) Diseña una campaña basada en el “Arquetipo Dominante”:
-   - Mensaje emocional principal.
-   - Sombra del arquetipo (miedos, tensiones).
-   - Historia raíz.
-   - Lenguaje visual y verbal.
-   - CTA emocional.
+2) Zaprojektuj kampanię opartą na “Dominującym Archetypie”:
+   - Główny przekaz emocjonalny.
+   - Cień archetypu (lęki, napięcia).
+   - Historia rdzeniowa.
+   - Język wizualny i werbalny.
+   - Emocjonalne CTA.
 
-3) Crea 5 campañas derivadas:
-   - Una para cada etapa del customer journey.
-   - Con tono narrativo alineado al arquetipo.
+3) Stwórz 5 kampanii pochodnych:
+   - Jedną dla każdego etapu customer journey.
+   - Z tonem narracyjnym spójnym z archetypem.
 
-4) Escribe:
-   - 3 guiones de reels.
-   - 3 emails narrativos.
-   - 3 copy ads long-form.
+4) Napisz:
+   - 3 scenariusze reels.
+   - 3 narracyjne maile.
+   - 3 długie copy ads (long-form).
 
-5) Versión PRO:
-   - Cómo mezclar arquetipos secundarios.
-   - Cómo mantener consistencia narrativa durante 90 días.
+5) Wersja PRO:
+   - Jak mieszać archetypy wtórne.
+   - Jak utrzymać spójność narracyjną przez 90 dni.
 
-6) Lista de errores al mezclar arquetipos.`,
+6) Lista błędów przy mieszaniu archetypów.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-82",
     title:
-      "Campaña de Impacto Basada en Contrastes Extremos (Before/After Psicológico)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+      "Kampania Wpływu Oparta na Skrajne Kontrasty (Psychologiczne Before/After)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Usa contrastes extremos para mostrar transformación emocional y cognitiva.",
-    prompt: `Actúa como experto en narrativa de contraste.
+      "Użyj skrajnych kontrastów, by pokazać emocjonalną i poznawczą transformację.",
+    prompt: `Działaj jako ekspert od narracji kontrastu.
 
 Inputs:
-- Problema actual del cliente.
-- Transformación buscada.
-- Producto/servicio que produce cambio.
+- Obecny problem klienta.
+- Pożądana transformacja.
+- Produkt/usługa, która daje zmianę.
 
-Genera:
+Wygeneruj:
 
-1) Construcción del contraste:
-   - Estado emocional A (caos).
-   - Estado emocional B (claridad).
-   - Síntomas visibles del antes.
-   - Micro-victorias del después.
-   - Lenguaje corporal y visual asociado.
+1) Budowę kontrastu:
+   - Stan emocjonalny A (chaos).
+   - Stan emocjonalny B (jasność).
+   - Widoczne symptomy „przed”.
+   - Mikro-zwycięstwa „po”.
+   - Skojarzony język ciała i obrazów.
 
-2) Crea una campaña con:
-   - Big Idea de contraste.
-   - 10 piezas visuales extremas (sin texto).
-   - Narrativa psicológica que une ambos extremos.
-   - 3 guiones de video basados en tensión emocional.
+2) Stwórz kampanię z:
+   - Big Idea kontrastu.
+   - 10 skrajnych elementów wizualnych (bez tekstu).
+   - Psychologiczną narracją łączącą oba bieguny.
+   - 3 scenariuszami wideo opartymi na napięciu emocjonalnym.
 
-3) Diseña una experiencia Before→After interactiva para redes.
+3) Zaprojektuj interaktywne doświadczenie Before→After na social media.
 
-4) Versión PRO:
-   - Cómo hacer contraste sin manipulación.
-   - Cómo evitar saturación emocional.
+4) Wersja PRO:
+   - Jak robić kontrast bez manipulacji.
+   - Jak unikać przesytu emocjonalnego.
 
-5) Errores comunes en contrastes.`,
+5) Typowe błędy w kontrastach.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-83",
-    title: "Campaña de Activación de Prospectos Silenciosos",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Aktywacji Cichych Prospektów",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Campaña para activar leads que nunca hablan, nunca comentan y nunca responden.",
-    prompt: `Actúa como consultor en activación de audiencias pasivas.
+      "Kampania do aktywacji leadów, które nigdy nie mówią, nigdy nie komentują i nigdy nie odpowiadają.",
+    prompt: `Działaj jako konsultant aktywacji pasywnych audiencji.
 
 Inputs:
-- Tipo de lead silencioso.
-- Tiempo que lleva sin interactuar.
-- Oferta actual.
+- Typ cichego leada.
+- Czas bez interakcji.
+- Obecna oferta.
 
-Genera:
+Wygeneruj:
 
-1) Diagnóstico psicológico:
-   - Motivos del silencio.
-   - Barreras internas.
-   - Dudas no dicha.
-   - Triggers de activación.
+1) Diagnozę psychologiczną:
+   - Powody ciszy.
+   - Wewnętrzne bariery.
+   - Niewypowiedziane wątpliwości.
+   - Triggery aktywacji.
 
-2) Crea una campaña de 7 piezas:
-   - Mensaje de perturbación suave.
-   - Mensaje de espejo emocional.
-   - Invitación indirecta.
-   - Activador de urgencia suave.
-   - Reencuadre de identidad.
-   - Oferta mínima.
-   - CTA íntimo.
+2) Stwórz kampanię z 7 elementów:
+   - Przekaz łagodnego „zaburzenia”.
+   - Przekaz emocjonalnego lustra.
+   - Pośrednie zaproszenie.
+   - Aktywator miękkiej pilności.
+   - Reframing tożsamości.
+   - Minimalna oferta.
+   - Intymne CTA.
 
-3) Crea:
-   - 3 emails silenciosos.
-   - 3 mensajes de WhatsApp.
-   - 2 publicaciones detonantes.
+3) Stwórz:
+   - 3 „ciche” maile.
+   - 3 wiadomości WhatsApp.
+   - 2 posty-wyzwalacze.
 
-4) Versión PRO:
-   - Cómo detectar el “momento exacto” para activar a un lead pasivo.
-   - Señales predictivas.
+4) Wersja PRO:
+   - Jak wykryć “dokładny moment” aktywacji pasywnego leada.
+   - Sygnały predykcyjne.
 
-5) Errores comunes al activar prospectos silenciosos.`,
+5) Typowe błędy przy aktywacji cichych prospektów.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-84",
     title:
-      "Campaña Basada en Microhistorias de 15 Segundos (Storyselling Micro)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+      "Kampania Oparta na Mikrohistoriach 15 Sekund (Storyselling Micro)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Crea campañas hechas de microhistorias que venden sin parecer venta.",
-    prompt: `Actúa como director creativo de campañas basadas en microhistorias.
+      "Twórz kampanie z mikrohistorii, które sprzedają bez wrażenia sprzedaży.",
+    prompt: `Działaj jako dyrektor kreatywny kampanii opartych na mikrohistoriach.
 
 Inputs:
-- Producto/servicio.
-- Emoción que deseas activar.
-- Público objetivo.
+- Produkt/usługa.
+- Emocja, którą chcesz aktywować.
+- Docelowa publiczność.
 
-Genera:
+Wygeneruj:
 
 1) Framework MicroStory 15s:
    - Setup
-   - Tensión
-   - Resolución
-   - CTA emocional
+   - Napięcie
+   - Rozwiązanie
+   - Emocjonalne CTA
 
-2) Crea **10 microhistorias**:
-   - Cada una con un insight psicológico.
-   - Cada una conectada con un mini-dolor.
-   - Cada una resolviendo un micro-objeción.
+2) Stwórz **10 mikrohistorii**:
+   - Każda z psychologicznym insightem.
+   - Każda powiązana z mini-bólem.
+   - Każda rozwiązująca mikro-obiekcję.
 
-3) Convierte esas microhistorias en:
-   - 10 guiones reels.
-   - 10 hooks de copy.
-   - 10 storytelling posts.
+3) Zamień te mikrohistorie w:
+   - 10 scenariuszy reels.
+   - 10 hooków copy.
+   - 10 postów storytellingowych.
 
-4) Versión PRO:
-   - Cómo usar microhistorias para romper algoritmos.
-   - Cómo secuenciarlas en un arco mayor.
+4) Wersja PRO:
+   - Jak używać mikrohistorii do „łamania” algorytmów.
+   - Jak układać je w większy łuk narracyjny.
 
-5) Lista de errores en campañas basadas en microhistorias.`,
+5) Lista błędów w kampaniach opartych na mikrohistoriach.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-85",
     title:
-      "Campaña de Reactivación Basada en Inteligencia Emocional del Cliente",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+      "Kampania Reaktywacyjna Oparta na Inteligencji Emocjonalnej Klienta",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Campaña para reactivar clientes usando empatía técnica y comunicación emocional avanzada.",
-    prompt: `Actúa como consultor en comunicación emocional.
+      "Kampania do reaktywacji klientów poprzez techniczną empatię i zaawansowaną komunikację emocjonalną.",
+    prompt: `Działaj jako konsultant komunikacji emocjonalnej.
 
 Inputs:
-- Emoción primaria del cliente.
-- Emoción secundaria.
-- Contexto del mercado.
-- Última interacción con el cliente.
+- Emocja pierwotna klienta.
+- Emocja wtórna.
+- Kontekst rynku.
+- Ostatnia interakcja z klientem.
 
-Genera:
+Wygeneruj:
 
-1) Mapa emocional:
-   - Expectativas.
-   - Miedos.
-   - Tensiones.
-   - Deseos.
-   - Frustración visible vs invisible.
+1) Mapę emocjonalną:
+   - Oczekiwania.
+   - Lęki.
+   - Napięcia.
+   - Pragnienia.
+   - Widoczna vs niewidoczna frustracja.
 
-2) Crea una campaña de 5 fases:
-   - Reconexión emocional.
-   - Validación.
-   - Reencuadre.
-   - Relevancia actual.
-   - Reactivación.
+2) Stwórz kampanię w 5 fazach:
+   - Emocjonalne ponowne połączenie.
+   - Walidacja.
+   - Reframing.
+   - Aktualna relewantność.
+   - Reaktywacja.
 
-3) Entrega:
-   - 3 emails.
+3) Dostarcz:
+   - 3 maile.
    - 3 reels.
-   - 3 mensajes directos.
+   - 3 wiadomości bezpośrednie.
 
-4) Versión PRO:
-   - Cómo medir emocionalidad de leads.
-   - Cómo usar IA para leer tono emocional.
+4) Wersja PRO:
+   - Jak mierzyć emocjonalność leadów.
+   - Jak używać AI do odczytu tonu emocjonalnego.
 
-5) Errores al comunicar emocionalmente.`,
+5) Błędy w komunikacji emocjonalnej.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-86",
-    title: "Campaña Basada en Argumento de Autoridad Expandida",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Oparta na Rozszerzonym Argumencie Autorytetu",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Construye autoridad a través de múltiples dimensiones simultáneamente.",
-    prompt: `Actúa como consultor en posicionamiento de autoridad.
+      "Buduj autorytet poprzez wiele wymiarów jednocześnie.",
+    prompt: `Działaj jako konsultant pozycjonowania autorytetu.
 
-Genera:
+Wygeneruj:
 
-1) Las 7 dimensiones de autoridad:
-   - Técnica
-   - Narrativa
-   - Social
-   - Moral
-   - Científica
-   - Aspiracional
-   - Experiencial
+1) 7 wymiarów autorytetu:
+   - Techniczny
+   - Narracyjny
+   - Społeczny
+   - Moralny
+   - Naukowy
+   - Aspiracyjny
+   - Doświadczeniowy
 
-2) Crea una campaña que combine mínimo 4:
-   - Mensajes
-   - Pruebas
-   - Guiones
-   - Visuales
+2) Stwórz kampanię łączącą minimum 4:
+   - Przekazy
+   - Dowody
+   - Scenariusze
+   - Wizualizacje
 
-3) Versión PRO:
-   - Cómo sostener autoridad sin parecer arrogante.
+3) Wersja PRO:
+   - Jak utrzymać autorytet bez wychodzenia na aroganckiego.
 
-4) Errores que rompen la autoridad.`,
+4) Błędy, które niszczą autorytet.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-87",
-    title: "Campaña Tipo Serie Documental de 7 Capítulos",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Convierte tu producto en una miniserie documental narrada.",
-    prompt: `Actúa como productor de series documentales.
+    title: "Kampania Typu Seria Dokumentalna w 7 Rozdziałach",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Zamień produkt w narracyjną mini serię dokumentalną.",
+    prompt: `Działaj jako producent serii dokumentalnych.
 
-Genera:
-1) 7 capítulos temáticos.
-2) Narrativa emocional.
-3) Scripts.
+Wygeneruj:
+1) 7 tematycznych rozdziałów.
+2) Emocjonalną narrację.
+3) Skrypty.
 4) Visual storytelling.
-5) Versión PRO: cómo lanzar la serie.
-6) Errores comunes.`,
+5) Wersję PRO: jak wypuścić serię.
+6) Typowe błędy.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-88",
-    title: "Campaña Basada en Eliminación de Riesgos Perceptuales",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Elimina los miedos de compra y reemplázalos por seguridad.",
-    prompt: `Actúa como especialista en percepción de riesgo.
+    title: "Kampania Oparta na Eliminacji Postrzeganego Ryzyka",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Usuń lęki zakupowe i zastąp je poczuciem bezpieczeństwa.",
+    prompt: `Działaj jako specjalista percepcji ryzyka.
 
-Genera:
+Wygeneruj:
 
-1) 10 riesgos percibidos.
-2) 10 contraataques narrativos.
-3) 10 contenidos de seguridad.
-4) Versión PRO: blindaje psicológico.`,
+1) 10 postrzeganych ryzyk.
+2) 10 narracyjnych kontr-uderzeń.
+3) 10 treści budujących bezpieczeństwo.
+4) Wersję PRO: psychologiczne „opancerzenie”.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-89",
-    title: "Campaña Basada en Social Proof Multinivel",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Campaña que usa pruebas sociales en varios niveles simultáneos.",
-    prompt: `Genera:
-1) Social proof emocional, lógico, aspiracional.
-2) 5 campañas.
-3) Scripts PRO.`,
+    title: "Kampania Oparta na Wielopoziomowym Social Proof",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Kampania, która używa dowodu społecznego na kilku poziomach jednocześnie.",
+    prompt: `Wygeneruj:
+1) Emocjonalny, logiczny i aspiracyjny social proof.
+2) 5 kampanii.
+3) Skrypty PRO.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-90",
-    title: "Campaña Tipo 'Reescritura de Creencias del Mercado'",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+    title: "Kampania Typu 'Przepisywanie Przekonań Rynku'",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Transforma creencias limitantes del mercado para aumentar ventas.",
-    prompt: `Genera:
-1) 10 creencias limitantes.
-2) 10 reframes.
-3) 10 contenidos.
+      "Transformuj ograniczające przekonania rynku, by zwiększyć sprzedaż.",
+    prompt: `Wygeneruj:
+1) 10 przekonań ograniczających.
+2) 10 reframów.
+3) 10 treści.
 4) PRO.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-91",
-    title: "Campaña Híbrida Emoción–Lógica (Modelo Cerebro Triuno)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Campaña alineada con reptiliano, límbico y neocorteza.",
-    prompt: `Genera:
-1) Mensajes para cada cerebro.
-2) 3 campañas.
-3) Scripts PRO.`,
+    title: "Hybrydowa Kampania Emocja–Logika (Model Mózgu Trójjedynego)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Kampania dopasowana do mózgu gadziego, limbicznego i neokorteksu.",
+    prompt: `Wygeneruj:
+1) Przekazy dla każdego „mózgu”.
+2) 3 kampanie.
+3) Skrypty PRO.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-92",
-    title: "Campaña Basada en Deseo Aspiracional Futurológico",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Vende usando una visión del futuro alineada al cliente.",
-    prompt: `Genera:
-1) Futuro probable.
-2) Futuro deseado.
-3) 5 campañas.
+    title: "Kampania Oparta na Aspiracyjnym Pragnieniu Futurologicznym",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Sprzedawaj wizją przyszłości dopasowaną do klienta.",
+    prompt: `Wygeneruj:
+1) Prawdopodobną przyszłość.
+2) Pożądaną przyszłość.
+3) 5 kampanii.
 4) PRO.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-93",
-    title: "Campaña Inspirada en Storytelling Tipo Héroe Guía",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Convierte a tu marca en el guía, no en el héroe.",
-    prompt: `Genera:
-1) Mapa del héroe.
-2) Rol del guía.
-3) Campañas.
-4) Scripts.
+    title: "Kampania Zainspirowana Storytellingiem Typu Bohater–Przewodnik",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Zamień markę w przewodnika, a nie bohatera.",
+    prompt: `Wygeneruj:
+1) Mapę bohatera.
+2) Rolę przewodnika.
+3) Kampanie.
+4) Skrypty.
 5) PRO.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-94",
-    title: "Campaña Basada en Ciclos de Tensión Narrativa",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Ciclos de tensión y liberación para retener audiencia.",
-    prompt: `Genera:
-1) tensiones,
-2) liberaciones,
-3) 5 campañas,
+    title: "Kampania Oparta na Cyklach Napięcia Narracyjnego",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Cykle napięcia i ulgi, aby utrzymać uwagę publiczności.",
+    prompt: `Wygeneruj:
+1) napięcia,
+2) ulgi,
+3) 5 kampanii,
 4) PRO.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-95",
-    title: "Campaña Basada en Decisiones Inconscientes (Compra Automática)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Activa compras automáticas basadas en patrones inconscientes.",
-    prompt: `Genera:
-1) disparadores,
-2) señales,
-3) campañas,
+    title: "Kampania Oparta na Nieświadomych Decyzjach (Automatyczny Zakup)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Aktywuj automatyczne zakupy oparte na nieświadomych wzorcach.",
+    prompt: `Wygeneruj:
+1) wyzwalacze,
+2) sygnały,
+3) kampanie,
 4) PRO.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-96",
-    title: "Campaña Tipo 'Elevación de Estatus Social'",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Vende mostrando cómo mejora el estatus del cliente.",
-    prompt: `Genera:
-1) indicadores de estatus,
-2) campaña completa,
-3) scripts,
+    title: "Kampania Typu 'Podnoszenie Statusu Społecznego'",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Sprzedawaj, pokazując jak rośnie status klienta.",
+    prompt: `Wygeneruj:
+1) wskaźniki statusu,
+2) pełną kampanię,
+3) skrypty,
 4) PRO.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-97",
-    title: "Campaña Basada en Narrativa de Descubrimiento",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Campaña basada en la historia del descubrimiento del producto.",
-    prompt: `Genera:
-1) origen,
-2) revelación,
-3) transformación,
-4) campaña,
+    title: "Kampania Oparta na Narracji Odkrycia",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Kampania oparta na historii odkrycia produktu.",
+    prompt: `Wygeneruj:
+1) pochodzenie,
+2) objawienie,
+3) transformację,
+4) kampanię,
 5) PRO.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-98",
-    title: "Campaña de Conversión Basada en Símbolos de Pertenencia",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Vende creando símbolos que representen a la comunidad.",
-    prompt: `Genera:
-1) símbolos,
-2) significados,
-3) campañas,
+    title: "Kampania Konwersji Oparta na Symbolach Przynależności",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Sprzedawaj, tworząc symbole reprezentujące społeczność.",
+    prompt: `Wygeneruj:
+1) symbole,
+2) znaczenia,
+3) kampanie,
 4) PRO.`,
     thumbnail: "",
   },
@@ -2146,29 +2146,30 @@ Genera:
   {
     id: "mkt-idea-campana-99",
     title:
-      "Campaña Basada en Microactivaciones Diarias (Daily Activation Framework)",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
+      "Kampania Oparta na Codziennych Mikroaktywacjach (Daily Activation Framework)",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
     summary:
-      "Activa la audiencia día a día con impactos pequeños pero consistentes.",
-    prompt: `Genera:
-1) microactivaciones,
-2) 30 días de contenido,
+      "Aktywuj publiczność dzień po dniu małymi, ale konsekwentnymi impulsami.",
+    prompt: `Wygeneruj:
+1) mikroaktywacje,
+2) 30 dni treści,
 3) PRO.`,
     thumbnail: "",
   },
 
   {
     id: "mkt-idea-campana-100",
-    title: "Campaña Tipo Manifiesto de Nueva Era",
-    area: "Marketing & ventas",
-    category: "Ideas de campaña",
-    summary: "Crea un manifiesto que inaugure una nueva era en tu nicho.",
-    prompt: `Genera:
-1) manifiesto,
-2) narrativa,
-3) campaña,
+    title: "Kampania Typu Manifesto Nowej Ery",
+    area: "Marketing i sprzedaż",
+    category: "Pomysły na kampanię",
+    summary: "Stwórz manifesto, które otworzy nową erę w Twojej niszy.",
+    prompt: `Wygeneruj:
+1) manifesto,
+2) narrację,
+3) kampanię,
 4) PRO.`,
     thumbnail: "",
   },
 ];
+

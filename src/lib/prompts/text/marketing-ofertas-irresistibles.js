@@ -4,1430 +4,1430 @@ export const textPromptsMarketingOfertasIrresistibles = [
   {
     id: "moi-001",
     title:
-      "Diseño de Oferta Irresistible (v1): propuesta central + valor percibido + mecanismo + prueba",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Projekt Oferty Nieodpartej (v1): główna propozycja + postrzegana wartość + mechanizm + dowód",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Framework completo para construir una oferta que se sienta obvia: promesa, mecanismo, entregables, prueba y CTA.",
-    prompt: `Contexto (rellena):
-- Nicho/industria:
-- Avatar (quién compra y por qué):
-- Problema #1 (dolor):
-- Problema #2 (frustración secundaria):
-- Deseo #1 (resultado):
-- Deseo #2 (identidad/estatus):
-- Oferta actual (si existe):
-- Precio objetivo:
-- Plazo realista para ver resultados:
-- Restricciones del cliente (tiempo, herramientas, habilidades):
-- Prueba disponible (casos, métricas, reseñas, portfolio):
-- Tono de marca: (premium/cercano/directo)
+      "Kompletny framework do zbudowania oferty, która wydaje się oczywista: obietnica, mechanizm, deliverables, dowód i CTA.",
+    prompt: `Kontekst (uzupełnij):
+- Nisza/branża:
+- Avatar (kto kupuje i dlaczego):
+- Problem #1 (ból):
+- Problem #2 (wtórna frustracja):
+- Pragnienie #1 (rezultat):
+- Pragnienie #2 (tożsamość/status):
+- Obecna oferta (jeśli istnieje):
+- Docelowa cena:
+- Realistyczny czas na zobaczenie wyników:
+- Ograniczenia klienta (czas, narzędzia, umiejętności):
+- Dostępny dowód (case'y, metryki, opinie, portfolio):
+- Ton marki: (premium/bliski/bezpośredni)
 
-Tarea:
-1) Define la *Big Promise* en una frase:
-   - específica, medible y realista (sin humo).
-2) Escribe 3 “mecanismos” posibles (por qué tu solución funciona) y elige el mejor.
-3) Construye la oferta con esta estructura:
-   A) Qué es (1 párrafo)
-   B) Qué resuelve (bullets)
-   C) Qué incluye (entregables exactos, en bullets, con cantidades)
-   D) Cómo se usa (pasos)
-   E) Qué resultados esperar y en qué condiciones (honestidad)
-4) Crea un “Value Stack”:
-   - 6 componentes con nombre, resultado y “por qué es valioso”.
-   - asigna “valor percibido” a cada uno (en $) y suma total.
-5) Añade prueba y credibilidad:
-   - 3 frases de prueba (si no hay datos reales, escribe como “lo típico que vemos” sin afirmar).
-6) Crea 3 CTAs:
-   - suave, medio, fuerte.
-7) Redacta el copy final de la oferta:
-   - versión corta (120–180 palabras)
-   - versión larga (450–700 palabras)
+Zadanie:
+1) Zdefiniuj *Big Promise* w jednym zdaniu:
+   - konkretne, mierzalne i realistyczne (bez ściemy).
+2) Napisz 3 możliwe „mechanizmy” (dlaczego Twoje rozwiązanie działa) i wybierz najlepszy.
+3) Zbuduj ofertę wg tej struktury:
+   A) Co to jest (1 akapit)
+   B) Co rozwiązuje (bullets)
+   C) Co zawiera (dokładne deliverables, w bulletach, z ilościami)
+   D) Jak się tego używa (kroki)
+   E) Jakich wyników oczekiwać i w jakich warunkach (uczciwie)
+4) Stwórz “Value Stack”:
+   - 6 komponentów z nazwą, rezultatem i „dlaczego to jest wartościowe”.
+   - przypisz „postrzeganą wartość” do każdego (w $) i zsumuj.
+5) Dodaj dowód i wiarygodność:
+   - 3 zdania dowodu (jeśli nie masz realnych danych, napisz jako „to, co zwykle widzimy” bez twierdzeń).
+6) Stwórz 3 CTA:
+   - miękkie, średnie, mocne.
+7) Napisz finalny copy oferty:
+   - wersja krótka (120–180 słów)
+   - wersja długa (450–700 słów)
 
-Restricciones:
-- cero clichés (“cambia tu vida”, “secreto”, “garantizado”)
-- evita promesas médicas/financieras.`,
+Ograniczenia:
+- zero klisz („odmieni Twoje życie”, „sekret”, „gwarantowane”)
+- unikaj obietnic medycznych/finansowych.`,
     thumbnail: "",
   },
   {
     id: "moi-002",
     title:
-      "Oferta tipo ‘Grand Slam’ (hormozi-style) adaptada: Dream Outcome / Likelihood / Time / Effort",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta typu ‘Grand Slam’ (w stylu Hormoziego) — adaptacja: Dream Outcome / Likelihood / Time / Effort",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Optimiza tu oferta aumentando deseo, confianza, velocidad y facilidad (con acciones concretas).",
-    prompt: `Datos:
-- Producto/servicio:
-- Cliente ideal:
-- Resultado soñado (Dream Outcome):
-- Obstáculo principal (por qué no lo logra hoy):
-- Tiempo deseado (quick win):
-- Esfuerzo que quiere evitar:
-- Prueba/activos (casos, experiencia, recursos):
-- Precio objetivo:
+      "Optymalizuj ofertę, zwiększając pragnienie, pewność, szybkość i łatwość (konkretnymi działaniami).",
+    prompt: `Dane:
+- Produkt/usługa:
+- Idealny klient:
+- Wymarzony rezultat (Dream Outcome):
+- Główna przeszkoda (dlaczego nie osiąga tego dziś):
+- Pożądany czas (quick win):
+- Wysiłek, którego chce uniknąć:
+- Dowody/aktywa (case'y, doświadczenie, zasoby):
+- Docelowa cena:
 
-Genera:
-1) Matriz 2x2:
-   - Dream Outcome (alto/bajo)
-   - Likelihood of achievement (alto/bajo)
-   - Time delay (alto/bajo)
-   - Effort & sacrifice (alto/bajo)
-   Describe dónde está hoy tu oferta y dónde debe moverse.
-2) 25 ideas para mejorar Likelihood:
-   - garantías condicionadas
-   - “done-with-you” check-ins
-   - plantillas, auditorías, revisiones, pruebas
-3) 15 ideas para reducir Time delay (sin mentir):
-   - quick wins, orden de implementación, secuencia mínima viable
-4) 15 ideas para reducir Effort:
-   - automatizaciones, kits, checklists, acompañamiento, SOPs
-5) Redacta la nueva oferta:
-   - entregables, proceso, condiciones de éxito, límites
-6) Crea 10 bullets “oferta irresistible” (estilo landing).
-7) Crea 5 nombres de oferta (premium y memorables).`,
+Wygeneruj:
+1) Macierz 2x2:
+   - Dream Outcome (wysoki/niski)
+   - Likelihood of achievement (wysokie/niskie)
+   - Time delay (wysokie/niskie)
+   - Effort & sacrifice (wysokie/niskie)
+   Opisz, gdzie jest dziś Twoja oferta i w którą stronę powinna się przesunąć.
+2) 25 pomysłów na zwiększenie Likelihood:
+   - gwarancje warunkowe
+   - check-iny „done-with-you”
+   - szablony, audyty, poprawki, rewizje, testy
+3) 15 pomysłów na skrócenie Time delay (bez kłamstwa):
+   - quick wins, kolejność wdrożenia, minimalna sekwencja wykonalna
+4) 15 pomysłów na zmniejszenie Effort:
+   - automatyzacje, zestawy, checklisty, prowadzenie, SOP-y
+5) Napisz nową ofertę:
+   - deliverables, proces, warunki sukcesu, limity
+6) Stwórz 10 bulletów „oferta nieodparta” (styl landing page).
+7) Stwórz 5 name’ów oferty (premium i zapamiętywalne).`,
     thumbnail: "",
   },
   {
     id: "moi-003",
     title:
-      "Construcción de ‘Value Ladder’: oferta low / mid / high ticket con escalera de valor",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Budowa ‘Value Ladder’: oferta low / mid / high ticket jako drabina wartości",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Diseña 3 niveles (entrada, core, premium) con lógica de progresión y upsells.",
-    prompt: `Contexto:
-- Nicho:
-- Cliente ideal:
-- Problema principal:
-- Resultado final:
-- Recursos actuales (tiempo, equipo, plataforma):
-- Precio máximo razonable (techo):
-- Restricción principal del cliente: (tiempo/dinero/confianza)
+      "Zaprojektuj 3 poziomy (wejście, core, premium) z logiką progresu i upsellami.",
+    prompt: `Kontekst:
+- Nisza:
+- Idealny klient:
+- Główny problem:
+- Docelowy rezultat:
+- Aktualne zasoby (czas, zespół, platforma):
+- Maksymalna rozsądna cena (sufit):
+- Główne ograniczenie klienta: (czas/pieniądze/zaufanie)
 
-Crea una escalera de valor con:
-1) Oferta de entrada (low ticket):
-   - promesa, entregables exactos, formato, precio sugerido
-   - quick win que entrega en 24–72h
-2) Oferta central (mid ticket):
-   - transformación, proceso por etapas, soporte y comunidad
+Stwórz drabinę wartości:
+1) Oferta wejściowa (low ticket):
+   - obietnica, dokładne deliverables, format, sugerowana cena
+   - quick win dostarczany w 24–72h
+2) Oferta główna (mid ticket):
+   - transformacja, proces etapami, wsparcie i społeczność
 3) Oferta premium (high ticket):
-   - acceso, personalización, velocidad, accountability
-4) Para cada nivel:
-   - promesa exacta
-   - “lo que NO incluye”
-   - condiciones para resultados
-   - 3 objeciones + respuesta
-   - 3 CTAs
-5) Diseña 2 upsells y 1 cross-sell coherentes.
-6) Escribe el copy:
-   - 3 comparativas “si eres X, compra Y” (perfiles)
-   - 1 bloque de “elige tu camino” estilo landing.`,
+   - dostęp, personalizacja, szybkość, accountability
+4) Dla każdego poziomu:
+   - dokładna obietnica
+   - „czego NIE zawiera”
+   - warunki uzyskania wyników
+   - 3 obiekcje + odpowiedzi
+   - 3 CTA
+5) Zaprojektuj 2 upselle i 1 spójny cross-sell.
+6) Napisz copy:
+   - 3 porównania „jeśli jesteś X, kup Y” (profile)
+   - 1 blok „wybierz swoją drogę” w stylu landing.`,
     thumbnail: "",
   },
   {
     id: "moi-004",
     title:
-      "Oferta en ‘Bundle’: empaquetar recursos/servicios para maximizar valor percibido sin regalar margen",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta w formie ‘Bundle’: pakowanie zasobów/usług, by podbić wartość postrzeganą bez oddawania marży",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Crea un bundle con lógica: núcleo + aceleradores + soporte + confianza.",
-    prompt: `Datos:
-- Producto base:
-- Entregables actuales:
-- Precio actual:
-- Clientes: (B2B/B2C)
-- Objeciones típicas:
-- Resultado más valioso:
+      "Stwórz bundle z logiką: rdzeń + akceleratory + zmniejszenie ryzyka + wsparcie.",
+    prompt: `Dane:
+- Produkt bazowy:
+- Aktualne deliverables:
+- Aktualna cena:
+- Klienci: (B2B/B2C)
+- Typowe obiekcje:
+- Najbardziej wartościowy rezultat:
 
-Tarea:
-1) Diseña un bundle con 4 partes:
-   A) Núcleo (lo que realmente compra)
-   B) Aceleradores (2–3 piezas)
-   C) Reductores de riesgo (garantía, prueba, onboarding)
-   D) Soporte (mínimo viable)
-2) Asigna valor percibido a cada parte (en $) y suma.
-3) Define:
-   - por qué existe el bundle (historia corta)
-   - quién NO debería comprarlo
-4) Crea 12 bullets de valor (beneficio + mecanismo).
-5) Escribe 2 versiones de copy:
-   - “Directo y claro”
-   - “Story-selling”
-6) Crea 3 nombres para el bundle + tagline.`,
+Zadanie:
+1) Zaprojektuj bundle z 4 części:
+   A) Rdzeń (to, co naprawdę kupują)
+   B) Akceleratory (2–3 elementy)
+   C) Reduktory ryzyka (gwarancja, dowód, onboarding)
+   D) Wsparcie (minimum wykonalne)
+2) Przypisz wartość postrzeganą do każdej części (w $) i zsumuj.
+3) Zdefiniuj:
+   - dlaczego bundle istnieje (krótka historia)
+   - kto NIE powinien go kupować
+4) Stwórz 12 bulletów wartości (korzyść + mechanizm).
+5) Napisz 2 wersje copy:
+   - „Bezpośrednio i jasno”
+   - „Story-selling”
+6) Stwórz 3 nazwy bundle + tagline.`,
     thumbnail: "",
   },
   {
     id: "moi-005",
     title:
-      "Oferta ‘Done-For-You’ vs ‘Done-With-You’: cuál conviene y cómo vender cada una",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘Done-For-You’ vs ‘Done-With-You’: co lepsze i jak sprzedać każdą wersję",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Define dos formatos y escribe el posicionamiento, entregables y precios.",
-    prompt: `Contexto:
-- Servicio:
-- Cliente ideal:
-- Recursos del cliente (equipo/tiempo):
-- Problema:
-- KPI objetivo:
-- Competidores típicos:
-- Precio objetivo:
+      "Zdefiniuj dwa formaty i napisz pozycjonowanie, deliverables oraz ceny.",
+    prompt: `Kontekst:
+- Usługa:
+- Idealny klient:
+- Zasoby klienta (zespół/czas):
+- Problem:
+- Docelowy KPI:
+- Typowi konkurenci:
+- Docelowa cena:
 
-1) Genera dos versiones de oferta:
+1) Wygeneruj dwie wersje oferty:
    A) Done-For-You (DFY)
    B) Done-With-You (DWY)
-2) Para cada una:
-   - promesa
-   - entregables listados con cantidades
+2) Dla każdej:
+   - obietnica
+   - deliverables z ilościami
    - timeline
-   - responsabilidades (nosotros vs cliente)
-   - riesgos y condiciones
-3) Crea 10 bullets de venta para DFY y 10 para DWY.
-4) Crea 8 preguntas de calificación para decidir cuál recomendar.
-5) Escribe un guion corto (WhatsApp/email) para recomendar el plan ideal según respuestas.`,
+   - obowiązki (my vs klient)
+   - ryzyka i warunki
+3) Stwórz 10 bulletów sprzedażowych dla DFY i 10 dla DWY.
+4) Stwórz 8 pytań kwalifikujących, by zdecydować, co rekomendować.
+5) Napisz krótki skrypt (WhatsApp/email), aby polecić idealny plan na podstawie odpowiedzi.`,
     thumbnail: "",
   },
 
   {
     id: "moi-006",
     title:
-      "Oferta “Diagnóstico + Plan + Implementación”: triplete que vende sin sonar caro",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta „Diagnoza + Plan + Wdrożenie”: trójpak, który sprzedaje bez wrażenia ‘drogo’",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Diseña una oferta por fases que reduce riesgo y aumenta claridad.",
-    prompt: `Datos:
-- Nicho:
-- Problema:
-- Resultado:
-- Precio objetivo:
-- Duración total:
+      "Zaprojektuj ofertę etapami, która zmniejsza ryzyko i zwiększa klarowność.",
+    prompt: `Dane:
+- Nisza:
+- Problem:
+- Rezultat:
+- Docelowa cena:
+- Czas trwania całości:
 
-Crea una oferta en 3 fases:
-1) Fase 1: Diagnóstico (qué evalúas, qué entregas, duración)
-2) Fase 2: Plan (estrategia, roadmap, prioridades)
-3) Fase 3: Implementación (ejecución, revisiones, QA)
+Stwórz ofertę w 3 fazach:
+1) Faza 1: Diagnoza (co oceniasz, co dostarczasz, czas)
+2) Faza 2: Plan (strategia, roadmap, priorytety)
+3) Faza 3: Wdrożenie (egzekucja, rewizje, QA)
 
-Incluye:
-- entregables precisos por fase
-- criterios de éxito
-- cómo medir progreso (3–5 métricas)
-- 8 objeciones + respuestas
-- 3 opciones de precio (good/better/best)
-- copy final para landing (500–900 palabras).`,
+Uwzględnij:
+- precyzyjne deliverables dla każdej fazy
+- kryteria sukcesu
+- jak mierzyć postęp (3–5 metryk)
+- 8 obiekcji + odpowiedzi
+- 3 opcje cenowe (good/better/best)
+- finalny copy na landing (500–900 słów).`,
     thumbnail: "",
   },
   {
     id: "moi-007",
     title:
-      "Oferta con ‘Garantía Condicionada’ (sin suicidar el negocio): diseño legal y copy",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta z ‘Gwarancją Warunkową’ (bez zabicia biznesu): projekt legalny i copy",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Crea garantías condicionadas, ética y sostenibles, con términos claros y copy usable.",
-    prompt: `Contexto:
-- Tipo de oferta:
-- Resultados promedio:
-- Riesgos:
-- Qué controlas tú:
-- Qué controla el cliente:
-- País/mercado (por tono legal):
+      "Stwórz gwarancje warunkowe, etyczne i trwałe, z jasnymi zasadami i używalnym copy.",
+    prompt: `Kontekst:
+- Typ oferty:
+- Średnie rezultaty:
+- Ryzyka:
+- Co kontrolujesz Ty:
+- Co kontroluje klient:
+- Kraj/rynek (dla tonu prawnego):
 
-Crea:
-1) 7 modelos de garantía condicionada (ej. “si haces X y Y y no obtienes Z, entonces…”).
-2) Para los 2 mejores modelos:
-   - requisitos del cliente (checklist)
-   - verificación (cómo se prueba)
-   - límite temporal
-   - exclusiones razonables
-3) Redacta el copy:
-   - versión ultra clara (sin legalese)
-   - versión formal (aclaraciones)
-4) Crea un bloque FAQ de garantía (8 preguntas).`,
+Stwórz:
+1) 7 modeli gwarancji warunkowej (np. „jeśli zrobisz X i Y i nie uzyskasz Z, wtedy…”).
+2) Dla 2 najlepszych modeli:
+   - wymagania klienta (checklista)
+   - weryfikacja (jak to udowodnić)
+   - limit czasowy
+   - rozsądne wyłączenia
+3) Napisz copy:
+   - wersja ultra jasna (bez prawniczego żargonu)
+   - wersja formalna (doprecyzowania)
+4) Stwórz blok FAQ o gwarancji (8 pytań).`,
     thumbnail: "",
   },
   {
     id: "moi-008",
     title:
-      "Oferta por ‘Outcome’: vender resultado, no horas (productized service)",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘Outcome’: sprzedawaj rezultat, nie godziny (productized service)",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Transforma tu servicio en un paquete orientado a resultados con alcance y límites.",
-    prompt: `Servicio actual (horas):
-- Qué haces:
-- Para quién:
-- Resultado que más le importa:
-- Entradas que necesitas del cliente:
-- Tiempo promedio:
-- Precio deseado:
+      "Zamień usługę w pakiet zorientowany na wynik, z zakresem i limitami.",
+    prompt: `Obecna usługa (godziny):
+- Co robisz:
+- Dla kogo:
+- Najważniejszy rezultat:
+- Wejścia, których potrzebujesz od klienta:
+- Średni czas:
+- Pożądana cena:
 
-Tarea:
-1) Nombra el paquete por outcome.
-2) Define:
-   - problema
-   - resultado
-   - entregables (incluye números)
-   - límites (lo que no incluye)
+Zadanie:
+1) Nazwij pakiet wg outcome.
+2) Zdefiniuj:
+   - problem
+   - rezultat
+   - deliverables (z liczbami)
+   - limity (czego nie zawiera)
    - timeline
-3) Diseña 3 paquetes:
+3) Zaprojektuj 3 pakiety:
    - Starter
    - Growth
    - Scale
-4) Para cada paquete:
-   - para quién es/no es
-   - 6 bullets de venta
-   - 5 objeciones + respuestas
-5) Crea 1 página de oferta (copy largo) lista para pegar en landing.`,
+4) Dla każdego pakietu:
+   - dla kogo jest/nie jest
+   - 6 bulletów sprzedażowych
+   - 5 obiekcji + odpowiedzi
+5) Stwórz 1 stronę oferty (długi copy) gotową do wklejenia na landing.`,
     thumbnail: "",
   },
   {
     id: "moi-009",
     title:
-      "Oferta para ‘mercado escéptico’: cómo crear certeza sin prometer milagros",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta dla ‘rynku sceptycznego’: jak budować pewność bez obiecywania cudów",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Oferta basada en transparencia y pruebas: límites, proceso, evidencia y condiciones.",
-    prompt: `Contexto:
-- Nicho con escepticismo (ej. marketing, trading, fitness):
+      "Oferta oparta o transparentność i dowody: limity, proces, evidence i warunki.",
+    prompt: `Kontekst:
+- Nisza ze sceptycyzmem (np. marketing, trading, fitness):
 - Oferta:
-- Prueba disponible:
-- Resultados realistas:
-- Tono:
+- Dostępny dowód:
+- Realistyczne wyniki:
+- Ton:
 
-Crea:
-1) “Manifiesto anti-humo” (150–250 palabras).
-2) Stack de confianza:
-   - proceso (pasos)
-   - evidencias (qué sí puedes mostrar)
-   - límites (qué no prometes)
-3) 12 bullets “lo que sí / lo que no”.
-4) 10 FAQs enfocadas en escepticismo.
-5) Copy final de oferta (500–900 palabras) sin clichés.`,
+Stwórz:
+1) „Manifest anti-ściema” (150–250 słów).
+2) Stack zaufania:
+   - proces (kroki)
+   - dowody (co realnie możesz pokazać)
+   - limity (czego nie obiecujesz)
+3) 12 bulletów „co tak / co nie”.
+4) 10 FAQ pod sceptycyzm.
+5) Finalny copy oferty (500–900 słów) bez klisz.`,
     thumbnail: "",
   },
   {
     id: "moi-010",
     title:
-      "Oferta con ‘Bonos estratégicos’: cómo elegir bonos que aumentan conversión (no relleno)",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta z ‘bonusami strategicznymi’: jak wybierać bonusy, które zwiększają konwersję (bez zapychaczy)",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Crea bonos que atacan objeciones y aceleran resultados: selección, nombres y copy.",
-    prompt: `Datos:
-- Oferta principal:
-- Objeciones top 5:
-- Tiempo objetivo de resultado:
-- Nivel del cliente:
+      "Twórz bonusy, które uderzają w obiekcje i przyspieszają wyniki: selekcja, nazwy i copy.",
+    prompt: `Dane:
+- Główna oferta:
+- Top 5 obiekcji:
+- Docelowy czas do wyniku:
+- Poziom klienta:
 
-Tarea:
-1) Propón 12 ideas de bonos, cada uno ligado a:
-   - una objeción específica
-   - o reducción de tiempo/esfuerzo
-2) Elige 5 bonos:
-   - nómbralos (nombre + subtítulo)
-   - define qué incluye (contenido exacto)
-   - por qué acelera resultados
-3) Asigna valor percibido (en $) y suma total.
-4) Escribe copy de bonos:
+Zadanie:
+1) Zaproponuj 12 pomysłów na bonusy, każdy powiązany z:
+   - konkretną obiekcją
+   - lub redukcją czasu/wysiłku
+2) Wybierz 5 bonusów:
+   - nazwij je (nazwa + podtytuł)
+   - zdefiniuj, co dokładnie zawierają
+   - dlaczego przyspieszają wyniki
+3) Przypisz wartość postrzeganą (w $) i zsumuj.
+4) Napisz copy bonusów:
    - bullets (12)
-   - párrafo de presentación (120–180 palabras)
-   - bloque para landing (con formato fácil de escanear).`,
+   - akapit wprowadzający (120–180 słów)
+   - blok na landing (łatwy do skanowania).`,
     thumbnail: "",
   },
 
   {
     id: "moi-011",
     title:
-      "Oferta ‘Plazas limitadas’ (urgencia real): diseño de escasez legítima + copy",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘limitowane miejsca’ (realna pilność): projekt legalnej rzadkości + copy",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Crea escasez real (capacidad/soporte) y comunícala sin manipulación.",
-    prompt: `Contexto:
+      "Zbuduj realną rzadkość (moce przerobowe/wsparcie) i komunikuj ją bez manipulacji.",
+    prompt: `Kontekst:
 - Oferta:
-- Capacidad real (horas/semana, revisiones, soporte):
-- Cuántos clientes puedes atender:
-- Ventana de inscripción:
-- Tono:
+- Realna przepustowość (godz./tydz., poprawki, wsparcie):
+- Ilu klientów możesz obsłużyć:
+- Okno zapisów:
+- Ton:
 
-Crea:
-1) 5 razones legítimas de escasez (según tu modelo).
-2) Cómo explicarlas con claridad (sin drama).
-3) Copy para:
-   - landing (bloque de 120–200 palabras)
-   - email “last call” (350–550 palabras)
-   - WhatsApp (3 mensajes)
-4) Incluye “salida ética” para quien no entra:
-   - lista de espera o alternativa.`,
+Stwórz:
+1) 5 prawdziwych powodów rzadkości (wg Twojego modelu).
+2) Jak je wyjaśniać jasno (bez dramy).
+3) Copy do:
+   - landing (blok 120–200 słów)
+   - email “last call” (350–550 słów)
+   - WhatsApp (3 wiadomości)
+4) Dodaj „etyczne wyjście” dla tych, co się nie załapią:
+   - lista oczekujących albo alternatywa.`,
     thumbnail: "",
   },
   {
     id: "moi-012",
     title:
-      "Oferta para ‘audiencia nueva’: paquete de entrada + prueba + upgrade (sin fricción)",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta dla ‘nowej publiczności’: pakiet wejściowy + dowód + upgrade (bez tarcia)",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Oferta pensada para desconocidos: rápida, clara, riesgo bajo y siguiente escalón.",
-    prompt: `Datos:
-- Nicho:
-- Problema:
-- Oferta principal (más cara):
-- Prueba disponible:
-- Precio máximo para “probar”:
+      "Oferta dla nieznajomych: szybka, jasna, niskie ryzyko i kolejny stopień.",
+    prompt: `Dane:
+- Nisza:
+- Problem:
+- Główna oferta (droższa):
+- Dostępny dowód:
+- Maksymalna cena „na próbę”:
 
-Crea:
-1) Oferta de entrada (tripwire):
-   - promesa
-   - entregables
+Stwórz:
+1) Oferta wejściowa (tripwire):
+   - obietnica
+   - deliverables
    - quick win
-2) Mecanismo para generar confianza:
-   - garantía
+2) Mechanizm budowania zaufania:
+   - gwarancja
    - onboarding
-   - primer resultado en 48–72h
-3) Puente al upgrade:
-   - cuándo recomendar
-   - trigger de compra (señales)
+   - pierwszy rezultat w 48–72h
+3) Most do upgrade’u:
+   - kiedy rekomendować
+   - trigger zakupu (sygnały)
 4) Copy:
-   - 10 bullets de venta
-   - 3 CTAs
-   - 1 landing corta (250–400 palabras).`,
+   - 10 bulletów sprzedaży
+   - 3 CTA
+   - 1 krótki landing (250–400 słów).`,
     thumbnail: "",
   },
   {
     id: "moi-013",
     title:
-      "Oferta ‘Precio ancla’ (Good/Better/Best): arquitectura y copy para que el plan medio gane",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘cena kotwica’ (Good/Better/Best): architektura i copy, by plan środkowy wygrywał",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Diseña 3 planes con ancla psicológica y valor percibido sin confundir.",
+      "Zaprojektuj 3 plany z kotwicą psychologiczną i wartością postrzeganą bez chaosu.",
     prompt: `Oferta:
-- Qué vendes:
-- Qué incluye:
-- Precio objetivo (plan medio):
-- Cliente ideal:
-- Riesgos/limitaciones:
+- Co sprzedajesz:
+- Co zawiera:
+- Docelowa cena (plan środkowy):
+- Idealny klient:
+- Ryzyka/ograniczenia:
 
-Crea 3 planes:
-1) Good (entrada)
-2) Better (principal)
+Stwórz 3 plany:
+1) Good (wejście)
+2) Better (główny)
 3) Best (premium)
 
-Para cada uno:
-- nombre
-- ideal para (1–2 líneas)
-- entregables exactos
-- límites claros
-- 8 bullets de valor (sin repetir)
-- 3 objeciones + respuestas
+Dla każdego:
+- nazwa
+- idealne dla (1–2 linie)
+- dokładne deliverables
+- jasne limity
+- 8 bulletów wartości (bez powtórek)
+- 3 obiekcje + odpowiedzi
 
-Incluye:
-- tabla comparativa en texto (sin HTML) + recomendación “si eres X…”.`,
+Uwzględnij:
+- tabelę porównawczą w tekście (bez HTML) + rekomendację „jeśli jesteś X…”.`,
     thumbnail: "",
   },
   {
     id: "moi-014",
     title:
-      "Oferta ‘Retainer’ mensual: qué vender mes a mes para que NO cancelen",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘retainer’ miesięczny: co sprzedawać miesiąc w miesiąc, żeby NIE rezygnowali",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Diseña un retainer basado en outcomes recurrentes, métricas y rituales.",
-    prompt: `Contexto:
-- Servicio mensual:
-- KPI que impactas:
-- Cadencia (semanal/quincenal):
-- Precio objetivo:
-- Recursos del cliente:
+      "Zaprojektuj retainer oparty o cykliczne outcomes, metryki i rytuały.",
+    prompt: `Kontekst:
+- Usługa miesięczna:
+- KPI, na który wpływasz:
+- Kadencja (tygodniowa/co 2 tygodnie):
+- Docelowa cena:
+- Zasoby klienta:
 
-Crea:
-1) 3 modelos de retainer:
-   - ejecución
-   - estrategia + revisión
-   - híbrido
-2) Para el mejor modelo:
-   - entregables mensuales (con números)
-   - rituales (reuniones, reportes)
-   - métricas y scoreboard
-   - “escalation path” si hay problemas
-3) Copy (landing 500–800 palabras) + 12 bullets.
-4) Plan de onboarding (D0–D30) para asegurar retención.`,
+Stwórz:
+1) 3 modele retainer:
+   - wykonanie
+   - strategia + review
+   - hybryda
+2) Dla najlepszego modelu:
+   - miesięczne deliverables (z liczbami)
+   - rytuały (spotkania, raporty)
+   - metryki i scoreboard
+   - “ścieżka eskalacji”, jeśli są problemy
+3) Copy (landing 500–800 słów) + 12 bulletów.
+4) Plan onboardingu (D0–D30), aby zapewnić retencję.`,
     thumbnail: "",
   },
   {
     id: "moi-015",
     title:
-      "Oferta ‘High-ticket’ con aplicación: criterios, posicionamiento y promesa premium",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘high-ticket’ z aplikacją: kryteria, pozycjonowanie i premium obietnica",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Oferta premium con filtros: para quién es/no es, aplicación y copy de autoridad.",
-    prompt: `Datos:
-- Servicio/programa:
-- Precio:
-- Cliente ideal:
-- Resultados realistas:
-- Requisitos (tiempo, presupuesto, compromiso):
-- Pruebas/credenciales:
+      "Oferta premium z filtrami: dla kogo jest/nie jest, aplikacja i autorytetowy copy.",
+    prompt: `Dane:
+- Usługa/program:
+- Cena:
+- Idealny klient:
+- Realistyczne wyniki:
+- Wymagania (czas, budżet, zaangażowanie):
+- Dowody/kompetencje:
 
-Crea:
-1) Posicionamiento premium (por qué eres la opción premium) en 5 pilares.
-2) Criterios de aceptación (lista).
-3) Estructura de oferta:
-   - fases
-   - entregables
-   - soporte
-   - límites
-4) Preguntas de aplicación (10–15) que filtren curiosos.
-5) Copy final:
-   - landing larga (700–1,200 palabras)
-   - versión corta (180–250)
-   - 10 bullets premium.`,
+Stwórz:
+1) Premium pozycjonowanie (dlaczego jesteś opcją premium) w 5 filarach.
+2) Kryteria akceptacji (lista).
+3) Struktura oferty:
+   - fazy
+   - deliverables
+   - wsparcie
+   - limity
+4) Pytania aplikacyjne (10–15), które odfiltrują ciekawskich.
+5) Finalny copy:
+   - długa landing (700–1 200 słów)
+   - krótka wersja (180–250)
+   - 10 premium bulletów.`,
     thumbnail: "",
   },
 
   {
     id: "moi-016",
     title:
-      "Oferta con ‘Fast Action Bonus’ (FAB): bonificación por acción rápida con sentido estratégico",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta z ‘Fast Action Bonus’ (FAB): bonus za szybką decyzję z sensem strategicznym",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Diseña FAB que aumente velocidad de compra y reduzca objeciones (sin regalar).",
-    prompt: `Contexto:
+      "Zaprojektuj FAB, który przyspiesza zakup i zbija obiekcje (bez rozdawania).",
+    prompt: `Kontekst:
 - Oferta:
-- Ventana de acción rápida (horas/días):
-- Objeción más común:
-- Acelerador ideal:
-- Capacidad real:
+- Okno szybkiej akcji (godziny/dni):
+- Najczęstsza obiekcja:
+- Idealny akcelerator:
+- Realna przepustowość:
 
-Crea:
-1) 10 ideas de Fast Action Bonus (FAB) con:
-   - nombre
-   - qué incluye (exacto)
-   - cómo acelera resultados
-2) Elige 3 y escribe su copy:
-   - bloque para landing
-   - copy para email
-   - copy para WhatsApp (2 mensajes)
-3) Define restricciones éticas:
-   - límite real
-   - condiciones claras.`,
+Stwórz:
+1) 10 pomysłów na Fast Action Bonus (FAB) z:
+   - nazwą
+   - co zawiera (dokładnie)
+   - jak przyspiesza wyniki
+2) Wybierz 3 i napisz copy:
+   - blok na landing
+   - copy do emaila
+   - copy do WhatsApp (2 wiadomości)
+3) Zdefiniuj etyczne ograniczenia:
+   - realny limit
+   - jasne warunki.`,
     thumbnail: "",
   },
   {
     id: "moi-017",
     title:
-      "Oferta ‘Plantilla + Implementación’ (para que no se quede en teoría): kit accionable",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘Szablon + Wdrożenie’ (żeby nie zostało teorią): zestaw do działania",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Convierte conocimiento en kit: plantillas, checklist, ejemplos y revisión.",
-    prompt: `Datos:
-- Tema/resultado:
-- Cliente:
-- Obstáculos comunes:
-- Herramientas que usan:
+      "Zamień wiedzę w kit: szablony, checklisty, przykłady i review.",
+    prompt: `Dane:
+- Temat/rezultat:
+- Klient:
+- Typowe przeszkody:
+- Narzędzia, których używają:
 
-Diseña un kit accionable:
-1) Plantillas (5–10) con nombre y uso.
-2) Checklist por etapas (antes/durante/después).
-3) Ejemplos completados (3).
-4) Guía de implementación (pasos).
-5) Revisión/feedback mínimo viable (cómo, cuántas veces).
+Zaprojektuj zestaw do działania:
+1) Szablony (5–10) z nazwą i zastosowaniem.
+2) Checklista etapami (przed/w trakcie/po).
+3) Uzupełnione przykłady (3).
+4) Instrukcja wdrożenia (kroki).
+5) Minimalne review/feedback (jak, ile razy).
 
-Escribe copy para venderlo:
-- 12 bullets (beneficio + escenario)
-- 3 CTAs
-- 1 descripción larga (500–800 palabras).`,
+Napisz copy sprzedażowe:
+- 12 bulletów (korzyść + scenariusz)
+- 3 CTA
+- 1 długi opis (500–800 słów).`,
     thumbnail: "",
   },
   {
     id: "moi-018",
     title:
-      "Oferta para ‘resultado rápido’ sin mentir: quick win realista + ruta completa",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta na ‘szybki rezultat’ bez kłamstwa: realistyczny quick win + pełna ścieżka",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Diseña un quick win honesto que enganche y conecte con la transformación mayor.",
-    prompt: `Contexto:
+      "Zaprojektuj uczciwy quick win, który wciąga i łączy się z większą transformacją.",
+    prompt: `Kontekst:
 - Oferta:
-- Resultado final (transformación):
-- Quick win posible en 48–72h:
-- Requisitos mínimos:
-- Riesgos:
+- Rezultat końcowy (transformacja):
+- Quick win możliwy w 48–72h:
+- Minimalne wymagania:
+- Ryzyka:
 
-Crea:
-1) Quick win (qué se logra, cómo, condición).
-2) Ruta completa (etapas con tiempos).
-3) Copy de promesa responsable:
-   - “lo que sí”
-   - “lo que no”
-4) 10 bullets centrados en el quick win (sin prometer más).
-5) Diseño de onboarding para conseguir el quick win (paso a paso).`,
+Stwórz:
+1) Quick win (co osiągasz, jak, warunek).
+2) Pełna ścieżka (etapy z czasem).
+3) Odpowiedzialny copy obietnicy:
+   - „co tak”
+   - „co nie”
+4) 10 bulletów skupionych na quick win (bez obiecywania więcej).
+5) Projekt onboardingu, by dowieźć quick win (krok po kroku).`,
     thumbnail: "",
   },
   {
     id: "moi-019",
     title:
-      "Oferta para ‘objeción tiempo’: producto/servicio diseñado para gente ocupada (estructura y copy)",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta na ‘obiekcję czasu’: produkt/usługa dla zapracowanych (struktura i copy)",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Reestructura tu oferta para minimizar tiempo del cliente: cadencia, microtareas y soporte.",
-    prompt: `Contexto:
+      "Przebuduj ofertę, by minimalizować czas klienta: kadencja, mikro-zadania i wsparcie.",
+    prompt: `Kontekst:
 - Oferta:
-- Cliente (ocupado por qué):
-- Tiempo semanal disponible:
-- Resultado:
-- Tono:
+- Klient (czemu zapracowany):
+- Dostępny czas tygodniowo:
+- Rezultat:
+- Ton:
 
-Diseña:
-1) Plan mínimo viable (20–30 min/ día o 2–3 bloques/semana).
-2) Microtareas (10) con tiempo estimado.
-3) “Soporte anti-bloqueo” (cómo destrabas rápido).
+Zaprojektuj:
+1) Minimalny plan wykonalny (20–30 min/dzień lub 2–3 bloki/tydz.).
+2) Mikro-zadania (10) z szacowanym czasem.
+3) “Wsparcie anti-zacięcie” (jak szybko odblokowujesz).
 4) Copy:
-   - 12 bullets “para gente ocupada”
-   - bloque landing (450–700 palabras)
-   - 8 FAQs centradas en falta de tiempo.`,
+   - 12 bulletów „dla zapracowanych”
+   - blok landing (450–700 słów)
+   - 8 FAQ pod brak czasu.`,
     thumbnail: "",
   },
   {
     id: "moi-020",
     title:
-      "Oferta para ‘objeción dinero’: estructura de precio por resultados (sin prometer imposibles)",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta na ‘obiekcję pieniędzy’: struktura ceny pod wyniki (bez obiecywania niemożliwego)",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Modelos de pricing: por paquete, por KPI, por fases, con límites y condiciones claras.",
-    prompt: `Datos:
-- Servicio:
+      "Modele pricingu: pakiet, KPI, fazy — z limitami i jasnymi warunkami.",
+    prompt: `Dane:
+- Usługa:
 - KPI:
-- Baseline actual:
-- Resultado realista:
-- Riesgo:
+- Obecny baseline:
+- Realistyczny rezultat:
+- Ryzyko:
 
-Crea:
-1) 4 modelos de pricing (paquete/fase/híbrido/bonus por performance condicionado).
-2) Para el mejor modelo:
-   - cómo se mide el KPI
-   - qué pasa si baseline cambia
-   - límites y exclusiones
-3) Copy para explicar el precio (sin defensiva).
-4) 10 respuestas de objeción “caro” enfocadas en ROI.`,
+Stwórz:
+1) 4 modele pricingu (pakiet/faza/hybryda/bonus performance warunkowy).
+2) Dla najlepszego modelu:
+   - jak mierzyć KPI
+   - co jeśli baseline się zmienia
+   - limity i wyłączenia
+3) Copy wyjaśniające cenę (bez defensywy).
+4) 10 odpowiedzi na obiekcję „drogo” skupionych na ROI.`,
     thumbnail: "",
   },
 
   {
     id: "moi-021",
     title:
-      "Oferta ‘para principiantes’: remover fricción (glosario, onboarding, paso 0) + copy",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘dla początkujących’: usuń tarcie (glosariusz, onboarding, krok 0) + copy",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Diseña oferta friendly para novatos: onboarding, guías, checkpoints y soporte.",
-    prompt: `Contexto:
+      "Zaprojektuj ofertę przyjazną nowicjuszom: onboarding, przewodniki, checkpointy i wsparcie.",
+    prompt: `Kontekst:
 - Oferta:
-- Qué hace principiante al cliente:
-- Herramientas que NO domina:
-- Resultado:
+- Co czyni klienta początkującym:
+- Narzędzia, których NIE opanował:
+- Rezultat:
 
-Crea:
-1) “Paso 0” (setup) con checklist.
-2) Glosario de 15 términos clave.
-3) Ruta de aprendizaje:
-   - 1 semana
-   - 4 semanas
-4) Mecanismos anti-abandono (recordatorios, wins, soporte).
-5) Copy final para principiante:
-   - 10 bullets
-   - 8 FAQs
-   - versión corta y larga.`,
+Stwórz:
+1) “Krok 0” (setup) z checklistą.
+2) Glosariusz 15 kluczowych terminów.
+3) Ścieżkę nauki:
+   - 1 tydzień
+   - 4 tygodnie
+4) Mechanizmy anti-porzucenie (przypomnienia, wins, wsparcie).
+5) Finalny copy dla początkujących:
+   - 10 bulletów
+   - 8 FAQ
+   - wersja krótka i długa.`,
     thumbnail: "",
   },
   {
     id: "moi-022",
     title:
-      "Oferta ‘para avanzados’: especialización + exclusividad + benchmarks + copy",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘dla zaawansowanych’: specjalizacja + ekskluzywność + benchmarki + copy",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Oferta para clientes avanzados: menos teoría, más optimización, benchmarks y control.",
-    prompt: `Contexto:
+      "Oferta dla zaawansowanych: mniej teorii, więcej optymalizacji, benchmarki i kontrola.",
+    prompt: `Kontekst:
 - Oferta:
-- Nivel avanzado significa:
+- Co znaczy poziom zaawansowany:
 - KPI:
-- Benchmarks del mercado:
-- Precio:
+- Benchmarki rynkowe:
+- Cena:
 
-Crea:
-1) Propuesta para avanzados:
-   - enfoque de optimización
-   - auditoría + experimentos + revisión
-2) 10 entregables avanzados (con números).
-3) Cómo se mide éxito (dashboard).
+Stwórz:
+1) Propozycję dla zaawansowanych:
+   - podejście optymalizacyjne
+   - audyt + eksperymenty + review
+2) 10 zaawansowanych deliverables (z liczbami).
+3) Jak mierzyć sukces (dashboard).
 4) Copy:
-   - 12 bullets orientados a performance
-   - 8 FAQs
-   - 5 claims responsables (sin humo).`,
+   - 12 bulletów pod performance
+   - 8 FAQ
+   - 5 odpowiedzialnych claimów (bez ściemy).`,
     thumbnail: "",
   },
   {
     id: "moi-023",
     title:
-      "Oferta tipo ‘Sprint’ (7–14 días): intensa, clara, con entregables y resultado tangible",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta typu ‘Sprint’ (7–14 dni): intensywna, jasna, z deliverables i namacalnym efektem",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Crea una oferta sprint: alcance acotado, resultado tangible y timeline diario/semanal.",
-    prompt: `Contexto:
-- Servicio:
-- Resultado tangible en 7–14 días:
-- Entradas necesarias:
-- Restricciones:
-- Precio:
+      "Stwórz ofertę sprint: wąski zakres, namacalny rezultat i dzienny/tygodniowy timeline.",
+    prompt: `Kontekst:
+- Usługa:
+- Namacalny rezultat w 7–14 dni:
+- Potrzebne wejścia:
+- Ograniczenia:
+- Cena:
 
-Crea:
-1) Agenda del sprint (día a día o por semanas).
-2) Entregables concretos.
-3) Riesgos y mitigación.
-4) Requisitos del cliente.
+Stwórz:
+1) Agendę sprintu (dzień po dniu albo tygodniami).
+2) Konkretne deliverables.
+3) Ryzyka i mitigację.
+4) Wymagania po stronie klienta.
 5) Copy:
-   - 1 landing (600–900 palabras)
-   - 12 bullets
-   - 3 CTAs
-   - 6 objeciones + respuestas.`,
+   - 1 landing (600–900 słów)
+   - 12 bulletów
+   - 3 CTA
+   - 6 obiekcji + odpowiedzi.`,
     thumbnail: "",
   },
   {
     id: "moi-024",
     title:
-      "Oferta ‘audit + roadmap’: vender claridad (ideal para B2B) con upsell natural",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘audit + roadmap’: sprzedawaj klarowność (idealne dla B2B) z naturalnym upsellem",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Oferta de auditoría con roadmap: reduce riesgo, aumenta confianza y abre puerta a implementación.",
-    prompt: `Contexto:
-- Área a auditar (ads, SEO, CRM, funnels, contenido):
+      "Oferta audytu z roadmapą: mniejsze ryzyko, większe zaufanie i drzwi do wdrożenia.",
+    prompt: `Kontekst:
+- Obszar audytu (ads, SEO, CRM, funnel, content):
 - KPI:
-- Empresa tipo:
-- Precio audit:
-- Upsell implementación:
+- Typ firmy:
+- Cena audytu:
+- Upsell wdrożeniowy:
 
-Crea:
-1) Alcance exacto de la auditoría (qué sí/qué no).
-2) Entregables (report, call, roadmap, checklist).
-3) Timeline (7/10/14 días).
+Stwórz:
+1) Dokładny zakres audytu (co tak/co nie).
+2) Deliverables (raport, call, roadmap, checklista).
+3) Timeline (7/10/14 dni).
 4) Copy:
-   - 10 bullets
-   - 8 FAQs
-   - CTA a auditoría + CTA alterna a llamada.
-5) Puente al upsell:
-   - 3 formas de ofrecer implementación sin presión.`,
+   - 10 bulletów
+   - 8 FAQ
+   - CTA do audytu + CTA alternatywne do rozmowy.
+5) Most do upsellu:
+   - 3 sposoby zaproponowania wdrożenia bez presji.`,
     thumbnail: "",
   },
   {
     id: "moi-025",
     title:
-      "Oferta con ‘prueba social’ integrada: cómo presentar casos, comparables y evidencia sin mentir",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta z wbudowanym ‘social proof’: jak pokazywać case’y, analogie i dowody bez kłamania",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Estructura tu oferta para que la prueba sea parte del mecanismo (no solo testimonios).",
-    prompt: `Datos:
+      "Ułóż ofertę tak, żeby dowód był częścią mechanizmu (nie tylko testimonials).",
+    prompt: `Dane:
 - Oferta:
-- Tipo de prueba actual:
-- Qué NO puedes afirmar:
-- Métricas que sí puedes mostrar:
+- Aktualny typ dowodu:
+- Czego NIE możesz twierdzić:
+- Metryki, które możesz pokazać:
 
-Crea:
-1) 6 tipos de prueba alternativa:
-   - demostración
-   - antes/después
-   - mini estudio
-   - proceso
-   - benchmarks
-   - “prueba de esfuerzo”
-2) Para cada tipo:
-   - ejemplo de cómo se vería en tu negocio
-3) Redacta bloques de landing:
-   - “Evidencia”
-   - “Cómo lo hacemos”
-   - “Qué puedes esperar”
-4) 10 FAQs de prueba social (transparencia).`,
+Stwórz:
+1) 6 typów alternatywnego dowodu:
+   - demonstracja
+   - przed/po
+   - mini badanie
+   - proces
+   - benchmarki
+   - „dowód wysiłku”
+2) Dla każdego typu:
+   - przykład, jak wyglądałby u Ciebie
+3) Napisz bloki na landing:
+   - „Dowody”
+   - „Jak to robimy”
+   - „Czego możesz się spodziewać”
+4) 10 FAQ o social proof (transparentnie).`,
     thumbnail: "",
   },
 
   {
     id: "moi-026",
     title:
-      "Oferta ‘sin llamadas’: checkout directo + onboarding automático + soporte asíncrono",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘bez rozmów’: szybki checkout + automatyczny onboarding + asynchroniczne wsparcie",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Estructura oferta que se vende sin llamadas: claridad, riesgo bajo y onboarding sólido.",
-    prompt: `Contexto:
-- Producto/servicio:
-- Precio:
-- Nivel del cliente:
-- Soporte disponible:
-- Objetivo:
+      "Zbuduj ofertę sprzedającą się bez calli: jasność, niskie ryzyko i solidny onboarding.",
+    prompt: `Kontekst:
+- Produkt/usługa:
+- Cena:
+- Poziom klienta:
+- Dostępne wsparcie:
+- Cel:
 
-Diseña:
-1) Componentes para vender sin llamada:
-   - página clara
-   - FAQs
-   - garantía/condiciones
+Zaprojektuj:
+1) Elementy sprzedaży bez rozmowy:
+   - jasna strona
+   - FAQ
+   - gwarancja/warunki
    - onboarding
-2) Onboarding D0–D7 (pasos).
+2) Onboarding D0–D7 (kroki).
 3) Copy:
-   - bloque de landing “cómo funciona”
-   - 12 bullets
-   - 8 objeciones + respuestas
-4) Checklist de fricciones (pagos, dudas, técnica) y cómo resolverlas.`,
+   - blok landing “jak to działa”
+   - 12 bulletów
+   - 8 obiekcji + odpowiedzi
+4) Checklista tarć (płatności, wątpliwości, techniczne) i jak je rozwiązać.`,
     thumbnail: "",
   },
   {
     id: "moi-027",
     title:
-      "Oferta ‘con llamada’: pre-frame que aumenta cierres (qué pasa en la llamada y cómo decidir)",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘z rozmową’: pre-frame, który zwiększa domknięcia (co będzie na rozmowie i jak decydujemy)",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Crea pre-frame para llamadas: agenda, expectativa, criterios de decisión y next steps.",
-    prompt: `Contexto:
+      "Zbuduj pre-frame do rozmów: agenda, oczekiwania, kryteria decyzji i next steps.",
+    prompt: `Kontekst:
 - Oferta:
-- Duración llamada:
-- Objetivo llamada:
-- Precio:
-- Tono:
+- Długość rozmowy:
+- Cel rozmowy:
+- Cena:
+- Ton:
 
-Crea:
-1) Script de invitación a llamada (WhatsApp + email).
+Stwórz:
+1) Skrypt zaproszenia na rozmowę (WhatsApp + email).
 2) Pre-frame:
-   - qué veremos
-   - qué NO haremos
-   - cómo decidir al final
-3) 8 preguntas de diagnóstico para usar en llamada.
-4) Copy para “siguiente paso”:
-   - si califica: CTA pago/aplicación
-   - si no: alternativa.
-5) Mensajes de seguimiento post-llamada (3).`,
+   - co omówimy
+   - czego NIE zrobimy
+   - jak podejmiemy decyzję na końcu
+3) 8 pytań diagnostycznych do rozmowy.
+4) Copy na „następny krok”:
+   - jeśli kwalifikuje: CTA płatność/aplikacja
+   - jeśli nie: alternatywa.
+5) Wiadomości follow-up po rozmowie (3).`,
     thumbnail: "",
   },
   {
     id: "moi-028",
     title:
-      "Oferta ‘micro-resultado repetible’: define un deliverable que siempre sorprende al cliente",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘powtarzalny mikro-rezultat’: zdefiniuj deliverable, który zawsze pozytywnie zaskakuje",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Diseña un deliverable pequeño pero valioso que aumente referrals y retención.",
-    prompt: `Contexto:
-- Servicio:
-- Cliente:
-- Resultado:
-- Dolor:
-- Qué sería una sorpresa agradable:
+      "Zaprojektuj mały, ale cenny deliverable, który zwiększa polecenia i retencję.",
+    prompt: `Kontekst:
+- Usługa:
+- Klient:
+- Rezultat:
+- Ból:
+- Co byłoby miłą niespodzianką:
 
-Crea:
-1) 10 ideas de “micro-deliverable sorpresa” que:
-   - aumente valor percibido
-   - sea fácil de producir
-2) Elige 1:
-   - define plantilla
-   - cuándo se entrega
-   - cómo se presenta
-3) Copy para presentarlo al cliente:
-   - mensaje de entrega (WhatsApp)
-   - bloque en landing “incluye”
-4) Cómo usarlo como palanca de referral.`,
+Stwórz:
+1) 10 pomysłów na „mikro-deliverable niespodziankę”, który:
+   - podbija wartość postrzeganą
+   - jest łatwy do wytworzenia
+2) Wybierz 1:
+   - zdefiniuj szablon
+   - kiedy jest dostarczany
+   - jak to prezentujesz
+3) Copy do pokazania klientowi:
+   - wiadomość dostarczenia (WhatsApp)
+   - blok na landing „zawiera”
+4) Jak użyć tego jako dźwigni do poleceń.`,
     thumbnail: "",
   },
   {
     id: "moi-029",
     title:
-      "Oferta ‘por industria’: adapta la misma solución a 3 verticales con copy diferenciado",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘wg branży’: ta sama usługa dla 3 verticali z różnym copy",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Crea 3 versiones de la oferta para industrias diferentes: dolores, lenguaje y KPIs.",
-    prompt: `Solución base:
-- Qué haces:
-- Resultado:
-- 3 industrias objetivo:
-- Prueba por industria (si existe):
+      "Stwórz 3 wersje oferty dla różnych branż: bóle, język i KPI.",
+    prompt: `Bazowe rozwiązanie:
+- Co robisz:
+- Rezultat:
+- 3 docelowe branże:
+- Dowód wg branży (jeśli jest):
 
-Para cada industria:
-1) Dolor específico (3)
-2) KPI principal (1–2)
-3) Entregables adaptados (bullets)
-4) Objecciones típicas (3) + respuestas
-5) Copy de oferta (250–400 palabras)
-6) Titulares (10) y bullets (12).`,
+Dla każdej branży:
+1) Specyficzny ból (3)
+2) Główny KPI (1–2)
+3) Dopasowane deliverables (bullets)
+4) Typowe obiekcje (3) + odpowiedzi
+5) Copy oferty (250–400 słów)
+6) Nagłówki (10) i bullets (12).`,
     thumbnail: "",
   },
   {
     id: "moi-030",
     title:
-      "Oferta ‘con bonus de implementación’: revisión + feedback + “correcciones” para aumentar certeza",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta z ‘bonusem wdrożeniowym’: review + feedback + „poprawki”, by zwiększyć pewność",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Agrega un componente de revisión y corrección sin desbordarte: límites, cadencia y copy.",
-    prompt: `Contexto:
+      "Dodaj komponent review i poprawek bez zalania się: limity, kadencja i copy.",
+    prompt: `Kontekst:
 - Oferta:
-- Capacidad de revisión (número):
-- Tipo de revisión (copy, ads, creatividad, funnel):
-- Precio:
+- Pojemność review (liczba):
+- Typ review (copy, ads, kreacje, funnel):
+- Cena:
 
-Crea:
-1) Diseño del bonus de implementación:
-   - cuántas revisiones
-   - cómo se entrega (formato)
-   - SLA realista
-   - límites (qué no revisas)
-2) Copy del bonus para landing:
-   - 1 bloque largo
-   - 12 bullets
-3) FAQ del bonus (6).
-4) Reglas internas para evitar scope creep.`,
+Stwórz:
+1) Projekt bonusu wdrożeniowego:
+   - ile rewizji
+   - jak dostarczasz (format)
+   - realistyczne SLA
+   - limity (czego nie sprawdzasz)
+2) Copy bonusu na landing:
+   - 1 blok długi
+   - 12 bulletów
+3) FAQ bonusu (6).
+4) Wewnętrzne zasady, by uniknąć scope creep.`,
     thumbnail: "",
   },
 
   {
     id: "moi-031",
     title:
-      "Oferta con ‘mecanismo único’ (Unique Mechanism): inventario y narrativa para posicionarte distinto",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta z ‘unikalnym mechanizmem’ (Unique Mechanism): inwentarz i narracja, by pozycjonować się inaczej",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Crea un mecanismo único: nombre, analogía, pasos y por qué funciona.",
-    prompt: `Datos:
-- Qué haces:
-- Competidores (cómo lo explican ellos):
-- Resultado:
-- Proceso real (pasos):
-- Diferenciador real:
+      "Stwórz unikalny mechanizm: nazwa, analogia, kroki i dlaczego działa.",
+    prompt: `Dane:
+- Co robisz:
+- Konkurenci (jak oni to tłumaczą):
+- Rezultat:
+- Realny proces (kroki):
+- Realny wyróżnik:
 
-Crea:
-1) 5 nombres de mecanismo único (memorables).
-2) Para el mejor:
-   - definición en 1 frase
-   - analogía clara (2)
-   - pasos (4–7)
-   - “por qué funciona” (sin humo)
-3) Integra el mecanismo en:
-   - titulares (10)
+Stwórz:
+1) 5 nazw unikalnego mechanizmu (zapamiętywalne).
+2) Dla najlepszego:
+   - definicja w 1 zdaniu
+   - 2 jasne analogie
+   - kroki (4–7)
+   - „dlaczego działa” (bez ściemy)
+3) Wpleć mechanizm w:
+   - nagłówki (10)
    - bullets (12)
-   - párrafo de oferta (150–220 palabras).`,
+   - akapit oferty (150–220 słów).`,
     thumbnail: "",
   },
   {
     id: "moi-032",
     title:
-      "Oferta ‘stack de garantías’: garantía de proceso + garantía de soporte + garantía de satisfacción",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘stack gwarancji’: gwarancja procesu + gwarancja wsparcia + gwarancja satysfakcji",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Crea 3 garantías complementarias para aumentar confianza sin prometer imposibles.",
-    prompt: `Contexto:
+      "Zaprojektuj 3 uzupełniające się gwarancje, by podbić zaufanie bez obiecywania niemożliwego.",
+    prompt: `Kontekst:
 - Oferta:
-- Riesgos:
-- Qué controlas:
-- Qué controla el cliente:
+- Ryzyka:
+- Co kontrolujesz:
+- Co kontroluje klient:
 
-Diseña:
-1) Garantía de proceso (si haces X, te damos Y)
-2) Garantía de soporte (te respondemos/acompañamos con límites)
-3) Garantía de satisfacción (condicionada, ética)
+Zaprojektuj:
+1) Gwarancję procesu (jeśli robisz X, dostajesz Y)
+2) Gwarancję wsparcia (odpowiadamy/towarzyszymy z limitami)
+3) Gwarancję satysfakcji (warunkową, etyczną)
 
-Para cada una:
-- condiciones exactas
-- cómo se valida
-- límites y exclusiones
-- copy (versión simple + formal)
-- 6 FAQs totales.`,
+Dla każdej:
+- dokładne warunki
+- jak to weryfikujesz
+- limity i wyłączenia
+- copy (wersja prosta + formalna)
+- łącznie 6 FAQ.`,
     thumbnail: "",
   },
   {
     id: "moi-033",
     title:
-      "Oferta ‘sin equipo’: diseñada para solopreneurs (bajo esfuerzo, alto impacto, guía paso a paso)",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘bez zespołu’: dla solopreneurów (mały wysiłek, duży impact, prowadzenie krok po kroku)",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Adapta tu oferta para solopreneurs: microtareas, recursos, plantillas y soporte.",
-    prompt: `Contexto:
+      "Dopasuj ofertę do solopreneurów: mikro-zadania, zasoby, szablony i wsparcie.",
+    prompt: `Kontekst:
 - Oferta:
-- Cliente: solopreneur
-- Tiempo semanal:
-- Herramientas:
-- Resultado:
+- Klient: solopreneur
+- Czas tygodniowo:
+- Narzędzia:
+- Rezultat:
 
-Crea:
-1) Versión “solo” (sin equipo):
-   - entregables
-   - microtareas
+Stwórz:
+1) Wersję “solo” (bez zespołu):
+   - deliverables
+   - mikro-zadania
    - quick wins
-2) Checklist de implementación (10–20 pasos).
-3) Sistema de seguimiento (scoreboard simple).
+2) Checklistę wdrożenia (10–20 kroków).
+3) System monitoringu (prosty scoreboard).
 4) Copy:
-   - 12 bullets
-   - 8 FAQs
-   - 3 CTAs por tono (cercano/premium/directo).`,
+   - 12 bulletów
+   - 8 FAQ
+   - 3 CTA wg tonu (bliski/premium/bezpośredni).`,
     thumbnail: "",
   },
   {
     id: "moi-034",
     title:
-      "Oferta para ‘equipo/empresa’: paquete con stakeholders, gobernanza, reportes y control",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta dla ‘zespołu/firmy’: pakiet ze stakeholderami, governance, raportami i kontrolą",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Paquete B2B: roles, reportes, aprobaciones y métricas; copy listo para decks/landing.",
-    prompt: `Contexto:
-- Empresa tipo:
-- Área:
+      "Pakiet B2B: role, raporty, akceptacje i metryki; copy gotowe do decków/landingów.",
+    prompt: `Kontekst:
+- Typ firmy:
+- Obszar:
 - KPI:
 - Timeline:
-- Precio:
+- Cena:
 
-Crea:
-1) Estructura B2B:
+Stwórz:
+1) Strukturę B2B:
    - kickoff
-   - cadencia de reuniones
-   - reportes
-   - aprobaciones
-2) Roles y responsabilidades (Nosotros vs Cliente).
-3) Entregables (con números).
+   - kadencja spotkań
+   - raporty
+   - akceptacje
+2) Role i odpowiedzialności (My vs Klient).
+3) Deliverables (z liczbami).
 4) Copy:
-   - 10 bullets corporativos
-   - 8 FAQs
-   - 1 bloque “cómo trabajamos” (200–300 palabras).`,
+   - 10 korporacyjnych bulletów
+   - 8 FAQ
+   - 1 blok „jak pracujemy” (200–300 słów).`,
     thumbnail: "",
   },
   {
     id: "moi-035",
     title:
-      "Oferta para ‘mercado con demasiadas opciones’: cómo simplificar decisión (1 CTA, 1 camino)",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta dla ‘rynku zbyt dużego wyboru’: jak uprościć decyzję (1 CTA, 1 ścieżka)",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Reduce confusión: una sola ruta, comparativas por perfil y copy ultra claro.",
-    prompt: `Contexto:
+      "Zmniejsz chaos: jedna droga, porównania wg profilu i ultra jasne copy.",
+    prompt: `Kontekst:
 - Oferta:
-- Alternativas del mercado:
-- Por qué se confunden:
-- Resultado:
+- Alternatywy na rynku:
+- Dlaczego ludzie się gubią:
+- Rezultat:
 
-Crea:
-1) Mensaje central (1 frase) que simplifique.
-2) 4 perfiles de comprador y recomendación:
-   - “si eres X, compra Y”
-3) 1 CTA único.
-4) Copy de landing minimalista (300–450 palabras).
-5) 10 bullets “claridad” y 10 FAQ para reducir fricción.`,
+Stwórz:
+1) Centralny komunikat (1 zdanie), który upraszcza.
+2) 4 profile kupującego + rekomendacja:
+   - „jeśli jesteś X, kup Y”
+3) 1 jedyne CTA.
+4) Minimalistyczny landing (300–450 słów).
+5) 10 bulletów „klarowność” i 10 FAQ na redukcję tarcia.`,
     thumbnail: "",
   },
 
   {
     id: "moi-036",
     title:
-      "Oferta ‘competidor caro’ vs ‘competidor barato’: estrategia de precio y narrativa",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘drogi konkurent’ vs ‘tani konkurent’: strategia ceny i narracja",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Posiciona tu oferta contra barato/caro sin atacar: trade-offs, valor y confianza.",
-    prompt: `Contexto:
-- Tu oferta:
-- Competidor barato (qué ofrece):
-- Competidor caro (qué ofrece):
-- Diferenciador:
+      "Pozycjonuj się vs tanio/drogo bez ataku: trade-offy, wartość i zaufanie.",
+    prompt: `Kontekst:
+- Twoja oferta:
+- Tani konkurent (co oferuje):
+- Drogi konkurent (co oferuje):
+- Wyróżnik:
 
-Crea:
-1) Tabla de trade-offs (texto) en 6 criterios.
-2) Posicionamiento statement (1–2 frases) contra ambos.
-3) Copy para responder:
-   - “hay uno más barato”
-   - “hay uno mejor”
-4) 12 bullets y 6 FAQs para landing.`,
+Stwórz:
+1) Tabelę trade-offów (tekst) w 6 kryteriach.
+2) Statement pozycjonujący (1–2 zdania) vs obaj.
+3) Copy odpowiedzi na:
+   - „jest ktoś tańszy”
+   - „jest ktoś lepszy”
+4) 12 bulletów i 6 FAQ na landing.`,
     thumbnail: "",
   },
   {
     id: "moi-037",
     title:
-      "Oferta ‘con onboarding guiado’: blueprint de primeros 7 días para asegurar activación",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘z prowadzonym onboardingiem’: blueprint pierwszych 7 dni, by zapewnić aktywację",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Onboarding diseñado como parte del valor: reduce reembolsos y aumenta resultados.",
-    prompt: `Contexto:
+      "Onboarding jako część wartości: mniej zwrotów i lepsze wyniki.",
+    prompt: `Kontekst:
 - Oferta:
 - Quick win:
-- Razones de abandono:
-- Soporte:
+- Powody porzucenia:
+- Wsparcie:
 
-Crea onboarding D0–D7:
-- objetivo por día
-- tarea concreta (tiempo estimado)
-- recurso (plantilla/checklist)
-- validación (cómo sabes que lo hizo)
+Stwórz onboarding D0–D7:
+- cel na dzień
+- konkretne zadanie (szacowany czas)
+- zasób (szablon/checklista)
+- walidacja (skąd wiesz, że to zrobił)
 
-Luego:
-1) Explica por qué el onboarding es parte del valor (copy).
-2) 10 bullets específicos del onboarding.
-3) 8 FAQs sobre “cómo empezar”.`,
+Następnie:
+1) Wyjaśnij, dlaczego onboarding to część wartości (copy).
+2) 10 bulletów specyficznych dla onboardingu.
+3) 8 FAQ o „jak zacząć”.`,
     thumbnail: "",
   },
   {
     id: "moi-038",
     title:
-      "Oferta con ‘Roadmap personalizado’: personalización escalable (plantillas + selecciones)",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta z ‘personalizowanym roadmapem’: skalowalna personalizacja (szablony + wybór)",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Personaliza sin volverte loco: sistema de plantillas y selección por diagnóstico.",
-    prompt: `Contexto:
+      "Personalizuj bez szaleństwa: system szablonów i selekcji po diagnozie.",
+    prompt: `Kontekst:
 - Oferta:
-- Variables que cambian por cliente:
-- Capacidad de personalización:
-- Precio:
+- Zmienne, które różnią się między klientami:
+- Pojemność personalizacji:
+- Cena:
 
-Crea:
-1) Diagnóstico (10 preguntas) para segmentar.
-2) 4 “roadmaps” prehechos (por perfil).
-3) Cómo entregar el roadmap en 24–48h sin explotar.
+Stwórz:
+1) Diagnozę (10 pytań) do segmentacji.
+2) 4 gotowe roadmaps (dla profili).
+3) Jak dostarczyć roadmap w 24–48h bez zajechania się.
 4) Copy:
-   - 12 bullets
-   - 6 FAQs
-   - bloque landing (350–550 palabras).`,
+   - 12 bulletów
+   - 6 FAQ
+   - blok landing (350–550 słów).`,
     thumbnail: "",
   },
   {
     id: "moi-039",
     title:
-      "Oferta ‘retención’ (para SaaS/membresía): reduce churn con estructura de valor mensual",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘retencja’ (SaaS/membership): zmniejsz churn strukturą miesięcznej wartości",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Diseña entrega mensual para que el cliente sienta progreso continuo.",
-    prompt: `Contexto:
-- Membresía/SaaS:
-- Razón de churn:
-- Resultado mensual:
-- Tono:
+      "Zaprojektuj miesięczną dostawę, żeby klient czuł stały postęp.",
+    prompt: `Kontekst:
+- Membership/SaaS:
+- Powód churnu:
+- Miesięczny rezultat:
+- Ton:
 
-Crea:
-1) Calendario de valor de 12 semanas:
-   - tema por semana
-   - pieza principal
-   - pieza de implementación
-2) 3 mecanismos de “progreso visible”
+Stwórz:
+1) Kalendarz wartości na 12 tygodni:
+   - temat tygodnia
+   - główny element
+   - element wdrożeniowy
+2) 3 mechanizmy „widocznego progresu”
 3) Copy:
-   - promesa mensual
-   - 12 bullets
-   - 10 FAQs
-4) Oferta anual vs mensual (beneficios reales).`,
+   - miesięczna obietnica
+   - 12 bulletów
+   - 10 FAQ
+4) Oferta roczna vs miesięczna (realne benefity).`,
     thumbnail: "",
   },
   {
     id: "moi-040",
     title:
-      "Oferta ‘para black friday’ ética: descuento, bonus, límites y copy sin manipulación",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘na Black Friday’ etycznie: rabat, bonus, limity i copy bez manipulacji",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Estructura BF: condiciones, límites reales, copy convincente sin exagerar.",
-    prompt: `Contexto:
-- Producto:
-- Precio normal:
-- Oferta BF (descuento o bonus):
-- Ventana real:
-- Stock/cupos reales:
-- Tono:
+      "Struktura BF: warunki, realne limity i przekonujące copy bez przesady.",
+    prompt: `Kontekst:
+- Produkt:
+- Normalna cena:
+- Oferta BF (rabat lub bonus):
+- Realne okno:
+- Realny stock/miejsca:
+- Ton:
 
-Crea:
-1) 3 opciones de oferta BF (descuento / bonus / bundle).
-2) Elige la mejor por margen y percepción.
+Stwórz:
+1) 3 opcje oferty BF (rabat / bonus / bundle).
+2) Wybierz najlepszą pod marżę i percepcję.
 3) Copy:
-   - landing bloque (250–400 palabras)
+   - blok landing (250–400 słów)
    - email open (450–650)
    - email last (350–550)
-   - WhatsApp 3 mensajes
-4) Reglas de transparencia (qué debes aclarar).`,
+   - WhatsApp: 3 wiadomości
+4) Zasady transparentności (co trzeba doprecyzować).`,
     thumbnail: "",
   },
 
   {
     id: "moi-041",
     title:
-      "Oferta basada en ‘casos de uso’: 7 casos concretos que hacen obvia la utilidad",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta oparta o ‘use case’y’: 7 konkretnych przypadków, które czynią użyteczność oczywistą",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Vende por escenarios: casos de uso con antes/después, proceso y resultado.",
-    prompt: `Contexto:
+      "Sprzedawaj przez scenariusze: use case’y z przed/po, procesem i rezultatem.",
+    prompt: `Kontekst:
 - Oferta:
-- Cliente ideal:
-- Resultado principal:
-- Industrias o segmentos:
+- Idealny klient:
+- Główny rezultat:
+- Branże lub segmenty:
 
-Crea 7 casos de uso, cada uno con:
-- escenario (quién, situación)
-- problema
-- solución (cómo se usa tu oferta)
-- resultado esperado (realista)
-- objeción típica y respuesta
+Stwórz 7 use case’ów, każdy z:
+- scenariuszem (kto, sytuacja)
+- problemem
+- rozwiązaniem (jak używa się oferty)
+- oczekiwanym rezultatem (realistycznym)
+- typową obiekcją i odpowiedzią
 
-Luego:
-- 14 bullets (2 por caso)
-- 10 titulares basados en casos
-- copy de landing (500–800 palabras) usando estos casos.`,
+Następnie:
+- 14 bulletów (2 na case)
+- 10 nagłówków opartych o case’y
+- copy landing (500–800 słów) używając tych case’ów.`,
     thumbnail: "",
   },
   {
     id: "moi-042",
     title:
-      "Oferta con ‘stack de entregables’ + ‘stack de resultados’: separar entregables de outcomes",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ze ‘stackiem deliverables’ + ‘stackiem rezultatów’: oddziel deliverables od outcomes",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Organiza la oferta en dos capas: lo que recibes y lo que eso produce.",
-    prompt: `Contexto:
+      "Ułóż ofertę w dwóch warstwach: co dostajesz i co to daje.",
+    prompt: `Kontekst:
 - Oferta:
-- Entregables actuales:
-- Resultados típicos:
+- Obecne deliverables:
+- Typowe rezultaty:
 
-Crea:
-1) Stack de entregables (10–15 bullets) con cantidades.
-2) Stack de resultados (10–15 bullets) ligados a entregables.
-3) Mapa: entregable → resultado (al menos 8 relaciones).
+Stwórz:
+1) Stack deliverables (10–15 bulletów) z ilościami.
+2) Stack rezultatów (10–15 bulletów) powiązanych z deliverables.
+3) Mapa: deliverable → rezultat (min. 8 relacji).
 4) Copy:
-   - 12 bullets combinados
-   - bloque landing (350–550 palabras)
-   - 8 FAQs de expectativas.`,
+   - 12 bulletów łączonych
+   - blok landing (350–550 słów)
+   - 8 FAQ o oczekiwaniach.`,
     thumbnail: "",
   },
   {
     id: "moi-043",
     title:
-      "Oferta ‘anti-scope creep’: cómo poner límites sin reducir conversión (copy + contrato mental)",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘anti-scope creep’: jak stawiać granice bez spadku konwersji (copy + mentalny kontrakt)",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Define límites y alcance con copy elegante: protege margen y genera confianza.",
-    prompt: `Contexto:
-- Servicio:
-- Qué te piden de más:
-- Problemas de alcance:
-- Cliente ideal:
+      "Zdefiniuj granice i zakres eleganckim copy: ochrona marży i wzrost zaufania.",
+    prompt: `Kontekst:
+- Usługa:
+- O co proszą „ponad”:
+- Problemy zakresu:
+- Idealny klient:
 
-Crea:
-1) Alcance (sí) / No alcance (no) en bullets.
-2) “Reglas del juego” (5–7) en tono humano.
-3) Cómo pedir inputs al cliente (checklist).
-4) Copy que aumenta confianza:
-   - “por qué limitamos”
-   - “así aseguramos resultados”
-5) 6 FAQs de alcance.`,
+Stwórz:
+1) Zakres (tak) / poza zakresem (nie) w bulletach.
+2) „Zasady gry” (5–7) w ludzkim tonie.
+3) Jak prosić klienta o inputy (checklista).
+4) Copy budujące zaufanie:
+   - „dlaczego ograniczamy”
+   - „jak zapewniamy wyniki”
+5) 6 FAQ o zakresie.`,
     thumbnail: "",
   },
   {
     id: "moi-044",
     title:
-      "Oferta con ‘métricas de éxito’ (scoreboard): promesa responsable con KPIs y checkpoints",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta z ‘metrykami sukcesu’ (scoreboard): odpowiedzialna obietnica z KPI i checkpointami",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Diseña un scoreboard: métricas, checkpoints, umbrales y cómo reportas.",
-    prompt: `Contexto:
+      "Zaprojektuj scoreboard: metryki, checkpointy, progi i raportowanie.",
+    prompt: `Kontekst:
 - Oferta:
-- KPI primario:
-- KPIs secundarios:
-- Periodo:
-- Herramientas:
+- KPI główny:
+- KPI poboczne:
+- Okres:
+- Narzędzia:
 
-Crea:
+Stwórz:
 1) Scoreboard:
-   - 5 métricas
-   - cómo se miden
-   - umbrales (verde/amarillo/rojo)
-2) Checkpoints (semanales/quincenales): qué se revisa.
-3) Copy para explicar “cómo medimos éxito” en landing.
-4) 8 FAQs de métricas y atribución.`,
+   - 5 metryk
+   - jak je mierzyć
+   - progi (zielony/żółty/czerwony)
+2) Checkpointy (tygodniowe/co 2 tygodnie): co sprawdzacie.
+3) Copy wyjaśniające „jak mierzymy sukces” na landing.
+4) 8 FAQ o metrykach i atrybucji.`,
     thumbnail: "",
   },
   {
     id: "moi-045",
     title:
-      "Oferta ‘con comunidad’: cómo hacer que la comunidad aumente resultados (no relleno)",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘ze społecznością’: jak sprawić, by community zwiększało wyniki (bez zapychaczy)",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Diseña comunidad con rituales y roles que reduzcan abandono y mejoren implementación.",
-    prompt: `Contexto:
+      "Zaprojektuj społeczność z rytuałami i rolami, by zmniejszyć porzucenia i zwiększyć wdrożenie.",
+    prompt: `Kontekst:
 - Oferta:
-- Tipo de comunidad:
-- Nivel de soporte:
-- Objetivo:
+- Typ społeczności:
+- Poziom wsparcia:
+- Cel:
 
-Crea:
-1) Estructura de comunidad:
-   - canales
-   - rituales semanales
-   - normas
-2) 10 “momentos” donde la comunidad ayuda (bloqueos típicos).
+Stwórz:
+1) Strukturę społeczności:
+   - kanały
+   - tygodniowe rytuały
+   - zasady
+2) 10 momentów, w których społeczność pomaga (typowe blokady).
 3) Copy:
-   - 12 bullets de comunidad
-   - bloque landing (200–300 palabras)
-   - 6 FAQs de comunidad.`,
+   - 12 bulletów o społeczności
+   - blok landing (200–300 słów)
+   - 6 FAQ o społeczności.`,
     thumbnail: "",
   },
 
   {
     id: "moi-046",
     title:
-      "Oferta ‘educación + ejecución’: híbrido que sube conversiones (aprender y aplicar con revisiones)",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘edukacja + egzekucja’: hybryda, która podbija konwersje (nauka + wdrożenie z rewizjami)",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Diseña híbrido: contenido + implementación guiada + revisiones con límites.",
-    prompt: `Contexto:
+      "Zaprojektuj hybrydę: content + prowadzone wdrożenie + rewizje z limitami.",
+    prompt: `Kontekst:
 - Oferta:
-- Qué parte es educación:
-- Qué parte es ejecución:
-- Capacidad de revisión:
-- Precio:
+- Co jest edukacją:
+- Co jest wykonaniem:
+- Pojemność rewizji:
+- Cena:
 
-Crea:
-1) Arquitectura del programa:
-   - módulos
-   - sesiones
-   - entregables
-2) Ruta de implementación por semana.
-3) 8 revisiones con límites (qué revisas/no).
-4) Copy final:
-   - 12 bullets
-   - 10 FAQs
-   - 3 CTAs.`,
+Stwórz:
+1) Architekturę programu:
+   - moduły
+   - sesje
+   - deliverables
+2) Ścieżkę wdrożenia tydzień po tygodniu.
+3) 8 rewizji z limitami (co sprawdzasz/czego nie).
+4) Finalny copy:
+   - 12 bulletów
+   - 10 FAQ
+   - 3 CTA.`,
     thumbnail: "",
   },
   {
     id: "moi-047",
     title:
-      "Oferta para creators: ‘contenido + monetización’ con paquetes y resultados responsables",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta dla twórców: ‘content + monetyzacja’ z pakietami i odpowiedzialnymi rezultatami",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Crea oferta para creadores: calendario, guiones, sistema de ventas y soporte.",
-    prompt: `Contexto:
-- Tipo de creator:
-- Plataforma:
-- Oferta a vender:
-- Producción semanal:
+      "Oferta dla creatorów: kalendarz, skrypty, system sprzedaży i wsparcie.",
+    prompt: `Kontekst:
+- Typ twórcy:
+- Platforma:
+- Oferta do sprzedaży:
+- Tygodniowa produkcja:
 - KPI:
 
-Crea:
-1) 3 paquetes por nivel (starter/growth/scale).
-2) Entregables por paquete (calendario, guiones, hooks, CTA, funnels).
-3) Proceso semanal.
+Stwórz:
+1) 3 pakiety (starter/growth/scale).
+2) Deliverables w pakietach (kalendarz, skrypty, hooki, CTA, funnel).
+3) Proces tygodniowy.
 4) Copy:
-   - 10 titulares
-   - 12 bullets
-   - 8 FAQs
-5) Objeciones y respuestas (price/time/consistency).`,
+   - 10 nagłówków
+   - 12 bulletów
+   - 8 FAQ
+5) Obiekcje i odpowiedzi (cena/czas/konsekwencja).`,
     thumbnail: "",
   },
   {
     id: "moi-048",
     title:
-      "Oferta ‘para agencias’: paquete white-label / partnership con métricas y límites",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘dla agencji’: pakiet white-label / partnership z metrykami i limitami",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Oferta B2B para agencias: white-label, SLAs, entregables, reportes y pricing.",
-    prompt: `Contexto:
-- Servicio white-label:
-- Agencia tipo:
-- KPIs:
-- SLAs:
+      "Oferta B2B dla agencji: white-label, SLA, deliverables, raporty i pricing.",
+    prompt: `Kontekst:
+- Usługa white-label:
+- Typ agencji:
+- KPI:
+- SLA:
 - Pricing:
 
-Crea:
-1) Paquetes (3) con entregables por mes.
-2) Proceso y SLAs.
-3) Responsabilidades (agencia vs tú).
+Stwórz:
+1) 3 pakiety z deliverables na miesiąc.
+2) Proces i SLA.
+3) Odpowiedzialności (agencja vs Ty).
 4) Copy:
-   - 12 bullets
-   - 8 FAQs
-   - bloque “cómo trabajamos” (200–350 palabras).`,
+   - 12 bulletów
+   - 8 FAQ
+   - blok „jak pracujemy” (200–350 słów).`,
     thumbnail: "",
   },
   {
     id: "moi-049",
     title:
-      "Oferta con ‘riesgo cero’ percibido: cómo bajar riesgo sin regalar (métodos y copy)",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta z postrzeganym ‘zerowym ryzykiem’: jak obniżyć ryzyko bez rozdawania (metody i copy)",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Reduce riesgo: garantías condicionadas, prueba, onboarding, plan mínimo viable y transparencia.",
-    prompt: `Contexto:
+      "Zredukuj ryzyko: gwarancje warunkowe, dowód, onboarding, minimalny plan i transparentność.",
+    prompt: `Kontekst:
 - Oferta:
-- Riesgos del cliente:
-- Riesgos tuyos:
-- Capacidad de soporte:
+- Ryzyka klienta:
+- Twoje ryzyka:
+- Pojemność wsparcia:
 
-Crea:
-1) 12 ideas para reducir riesgo percibido:
-   - garantía
-   - prueba
+Stwórz:
+1) 12 pomysłów na obniżenie postrzeganego ryzyka:
+   - gwarancja
+   - dowód
    - onboarding
    - milestones
-2) Elige 5 y explica implementación real.
+2) Wybierz 5 i opisz realne wdrożenie.
 3) Copy:
-   - bloques de “sin riesgo” (2 estilos)
-   - 10 FAQs de riesgo
-   - 8 respuestas a “¿y si no funciona?”`,
+   - bloki „bez ryzyka” (2 style)
+   - 10 FAQ o ryzyku
+   - 8 odpowiedzi na „a jeśli nie zadziała?”`,
     thumbnail: "",
   },
   {
     id: "moi-050",
     title:
-      "Oferta ‘copy completo’: titulares + bullets + sección ‘cómo funciona’ + CTA + FAQs (paquete de conversión)",
-    area: "Marketing & ventas",
-    category: "Ofertas Irresistibles",
+      "Oferta ‘pełny copy’: nagłówki + bullets + „jak to działa” + CTA + FAQ (pakiet konwersji)",
+    area: "Marketing i sprzedaż",
+    category: "Oferty Nieodparte",
     summary:
-      "Genera todo el paquete de copy para tu oferta: titular, sub, bullets, cómo funciona, prueba, CTA, FAQs.",
-    prompt: `Contexto:
+      "Wygeneruj cały pakiet copy do oferty: nagłówek, sub, bullets, jak działa, dowód, CTA i FAQ.",
+    prompt: `Kontekst:
 - Oferta:
-- Cliente ideal:
-- Dolor principal:
-- Deseo principal:
-- Mecanismo:
-- Precio:
-- Urgencia real:
-- Prueba:
-- Tono:
+- Idealny klient:
+- Główny ból:
+- Główne pragnienie:
+- Mechanizm:
+- Cena:
+- Realna pilność:
+- Dowód:
+- Ton:
 
-Genera:
-1) 15 titulares (5 directos, 5 curiosidad, 5 premium).
-2) 5 sub-headlines.
-3) 18 bullets de beneficio (con escenarios).
-4) Sección “cómo funciona” (5 pasos) con detalle.
-5) Sección “qué incluye” con entregables y cantidades.
-6) Bloque “para quién es/no es”.
-7) Prueba (2 bloques):
-   - testimonios/ejemplos (si no hay, ‘lo típico que vemos’)
-   - credenciales/proceso
-8) 12 FAQs (precio, tiempo, soporte, expectativas, riesgos).
-9) 4 CTAs (suave/medio/fuerte/premium).
-10) Variante corta (200–280 palabras) lista para redes.`,
+Wygeneruj:
+1) 15 nagłówków (5 bezpośrednich, 5 ciekawość, 5 premium).
+2) 5 sub-headline’ów.
+3) 18 bulletów korzyści (ze scenariuszami).
+4) Sekcję “jak to działa” (5 kroków) ze szczegółami.
+5) Sekcję “co zawiera” z deliverables i ilościami.
+6) Blok “dla kogo jest/nie jest”.
+7) Dowód (2 bloki):
+   - testimoniale/przykłady (jeśli brak: „to, co zwykle widzimy”)
+   - kompetencje/proces
+8) 12 FAQ (cena, czas, wsparcie, oczekiwania, ryzyka).
+9) 4 CTA (miękkie/średnie/mocne/premium).
+10) Wariant krótki (200–280 słów) gotowy na social media.`,
     thumbnail: "",
   },
 ];

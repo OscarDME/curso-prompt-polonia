@@ -3,1214 +3,1214 @@
 export const textPromptsCreativaTransformacionEstilo = [
   {
     id: "crea-est-001",
-    title: "Reescritura total: 1 texto, 12 estilos (con guía de coherencia)",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Całkowite przepisanie: 1 tekst, 12 stylów (z przewodnikiem spójności)",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Transforma un texto base a 12 estilos distintos manteniendo significado y mejorando voz.",
-    prompt: `Pega aquí tu texto base (100–400 palabras) y dime:
-1) Audiencia (quién lo leerá).
-2) Objetivo (emocionar, vender, explicar, provocar).
-3) Emoción dominante (y una emoción oculta).
-4) 5 palabras prohibidas (clichés que no quieres).
-5) Nivel de crudeza (0–10).
+      "Przekształć tekst bazowy na 12 różnych stylów, zachowując znaczenie i wzmacniając głos.",
+    prompt: `Wklej tutaj swój tekst bazowy (100–400 słów) i powiedz:
+1) Odbiorca (kto to przeczyta).
+2) Cel (poruszyć, sprzedać, wyjaśnić, sprowokować).
+3) Dominująca emocja (i jedna ukryta emocja).
+4) 5 słów zakazanych (klisze, których nie chcesz).
+5) Poziom dosadności (0–10).
 
-Tarea:
-A) Extrae el “núcleo” del texto en 5 bullets (qué NO puede cambiar).
-B) Identifica la voz actual: ritmo, registro, metáforas, distancia emocional (breve diagnóstico).
-C) Reescribe el texto en estos 12 estilos (cada versión 150–250 palabras):
-  1) Minimalista (líneas cortas, cortes duros)
-  2) Lírico-cinematográfico (imágenes sensoriales)
-  3) Noir (voz en off, ironía)
-  4) Humor seco (deadpan)
-  5) Realismo sucio (concreto, áspero)
-  6) Romántico adulto (cálido, sin cursilería)
-  7) Terror sutil (tensión, insinuación)
-  8) Sci-fi íntimo (metáfora tecnológica)
-  9) Fantasía elegante (reglas poéticas)
- 10) Ensayo personal (honestidad directa)
- 11) Cuento infantil (simple, simbólico)
- 12) Carta confesional (subtexto)
+Zadanie:
+A) Wyciągnij „rdzeń” tekstu w 5 punktach (czego NIE wolno zmienić).
+B) Zidentyfikuj obecny głos: rytm, rejestr, metafory, dystans emocjonalny (krótka diagnoza).
+C) Przepisz tekst w tych 12 stylach (każda wersja 150–250 słów):
+  1) Minimalistyczny (krótkie linijki, twarde cięcia)
+  2) Liryczno-kinematograficzny (obrazy zmysłowe)
+  3) Noir (głos z offu, ironia)
+  4) Suchy humor (deadpan)
+  5) Brudny realizm (konkret, szorstko)
+  6) Dojrzały romantyzm (ciepło, bez słodzenia)
+  7) Subtelny horror (napięcie, sugestia)
+  8) Intymne sci-fi (technologiczna metafora)
+  9) Elegancka fantasy (poetyckie reguły)
+ 10) Esej osobisty (bezpośrednia szczerość)
+ 11) Bajka dla dzieci (prosto, symbolicznie)
+ 12) List wyznaniowy (podtekst)
 
-D) Para cada versión, añade:
-- 1 frase “firma” (la mejor línea).
-- 3 decisiones de estilo (por qué suena así).
-- 1 riesgo (dónde podría pasarse).
+D) Do każdej wersji dodaj:
+- 1 zdanie „podpis” (najlepsza linijka).
+- 3 decyzje stylu (dlaczego brzmi tak, a nie inaczej).
+- 1 ryzyko (gdzie może „przegiąć”).
 
-Al final:
-- Recomiéndame el mejor estilo para el objetivo y dime cómo mezclar 2 estilos sin romper coherencia.`,
+Na koniec:
+- Poleć najlepszy styl pod cel i powiedz, jak połączyć 2 style bez psucia spójności.`,
     thumbnail: "",
   },
   {
     id: "crea-est-002",
-    title: "Clon de estilo: imita una ‘voz’ sin copiar (huella lingüística)",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Klon stylu: naśladuj „głos” bez kopiowania (odcisk językowy)",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Imita rasgos de estilo (ritmo, sintaxis, imágenes) de un autor/voz sin replicar contenido literal.",
-    prompt: `Dame:
-- Un autor/voz de referencia (o describe la voz: “frases cortas, cinismo, metáforas urbanas…”).
-- Tema del texto a escribir.
-- Formato (cuento, poema, monólogo, escena).
-- Longitud (300–900 palabras).
-- 6 palabras que DEBEN aparecer.
+      "Naśladuj cechy stylu (rytm, składnię, obrazy) autora/głosu bez powielania dosłownej treści.",
+    prompt: `Podaj:
+- Autora/głos referencyjny (albo opisz głos: „krótkie zdania, cynizm, miejskie metafory…”).
+- Temat tekstu do napisania.
+- Format (opowiadanie, wiersz, monolog, scena).
+- Długość (300–900 słów).
+- 6 słów, które MUSZĄ się pojawić.
 
-Tarea:
-1) Define una “huella de estilo” con 10 reglas observables, por ejemplo:
-   - Longitud promedio de frase
-   - Tipo de metáfora (concreta/abstracta)
-   - Nivel de ironía
-   - Uso de preguntas
-   - Ritmo (cortes, repeticiones)
-2) Escribe el texto cumpliendo las 10 reglas.
-3) Luego crea una versión “aún más tuya”:
-   - Mantén 6 reglas
-   - Rompe 4 reglas con intención
+Zadanie:
+1) Zdefiniuj „odcisk stylu” w 10 obserwowalnych regułach, np.:
+   - Średnia długość zdania
+   - Typ metafory (konkretna/abstrakcyjna)
+   - Poziom ironii
+   - Użycie pytań
+   - Rytm (cięcia, powtórzenia)
+2) Napisz tekst, spełniając 10 reguł.
+3) Potem stwórz wersję „jeszcze bardziej twoją”:
+   - Zachowaj 6 reguł
+   - Złam 4 reguły celowo
 
-Al final:
-- Lista 8 rasgos que lograste imitar sin copiar contenido.`,
+Na koniec:
+- Lista 8 cech, które udało ci się naśladować bez kopiowania treści.`,
     thumbnail: "",
   },
   {
     id: "crea-est-003",
-    title: "Cambio de tono quirúrgico: mismo texto, 6 tonos con el mismo mensaje",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Chirurgiczna zmiana tonu: ten sam tekst, 6 tonów z tym samym przekazem",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Reescribe variando el tono sin cambiar la idea: útil para adaptar a audiencias.",
-    prompt: `Pega el texto base y dime:
-- Público (A) y público (B).
-- Emoción que NO debe perderse.
-- Nivel de formalidad deseado (0–10).
+      "Przepisz, zmieniając ton bez zmiany idei: przydatne do dopasowania do odbiorców.",
+    prompt: `Wklej tekst bazowy i powiedz:
+- Odbiorca (A) i odbiorca (B).
+- Emocja, której NIE wolno stracić.
+- Pożądany poziom formalności (0–10).
 
-Reescribe el texto en 6 tonos (150–300 palabras cada uno):
-1) Sereno y maduro
-2) Urgente y tenso (sin exagerar)
-3) Irónico elegante
-4) Tierno-intimista
-5) Humor negro moderado
-6) Minimalista contundente
+Przepisz tekst w 6 tonach (po 150–300 słów każdy):
+1) Spokojny i dojrzały
+2) Pilny i napięty (bez przesady)
+3) Elegancko ironiczny
+4) Czuły i intymny
+5) Umiarkowany czarny humor
+6) Minimalistyczny i miażdżący
 
-Para cada versión, agrega:
-- “Semillas” de tono: 5 palabras/recursos que usaste.
-- 1 línea de cierre alterna.
+Do każdej wersji dodaj:
+- „Nasiona” tonu: 5 słów/środków, których użyłeś/-aś.
+- 1 alternatywna linijka zamknięcia.
 
-Al final:
-- Recomienda cuál usar para (A) y cuál para (B) y por qué.`,
+Na koniec:
+- Poleć, której użyć dla (A), a której dla (B) i dlaczego.`,
     thumbnail: "",
   },
   {
     id: "crea-est-004",
-    title: "Traducción creativa: de prosa a poema y de poema a prosa",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Kreatywne tłumaczenie: z prozy w wiersz i z wiersza w prozę",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Convierte un texto en poema (verso libre) y luego vuelve a prosa sin perder alma.",
-    prompt: `Pega tu texto (120–400 palabras) y dime:
-- Tema
-- Tono
-- 3 imágenes obligatorias
-- Palabras prohibidas (3–8)
+      "Zamień tekst w wiersz (wolny) i wróć do prozy, nie tracąc duszy.",
+    prompt: `Wklej swój tekst (120–400 słów) i podaj:
+- Temat
+- Ton
+- 3 obowiązkowe obrazy
+- Słowa zakazane (3–8)
 
-Haz:
-A) Extrae 12 “imágenes núcleo” (frases o detalles visuales).
-B) Convierte el texto a un poema en verso libre (28–42 versos):
-   - 5 sentidos
-   - 3 repeticiones deliberadas
-   - giro a mitad (revelación)
-C) Convierte el poema a prosa poética (350–600 palabras):
-   - párrafos cortos
-   - musicalidad
-   - final memorable (máx. 12 palabras)
+Zrób:
+A) Wyodrębnij 12 „obrazów-rdzeni” (frazy lub detale wizualne).
+B) Zamień tekst w wiersz wolny (28–42 wersy):
+   - 5 zmysłów
+   - 3 celowe powtórzenia
+   - zwrot w połowie (ujawnienie)
+C) Zamień wiersz w prozę poetycką (350–600 słów):
+   - krótkie akapity
+   - muzykalność
+   - pamiętne zakończenie (maks. 12 słów)
 
-Al final:
-- Explica qué se ganó y qué se perdió en cada transformación (5 bullets).`,
+Na koniec:
+- Wyjaśnij, co zyskało i co straciło każde przekształcenie (5 punktów).`,
     thumbnail: "",
   },
   {
     id: "crea-est-005",
-    title: "Del cliché a la imagen: reescritura anti-frases hechas (nivel pro)",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Od kliszy do obrazu: przepisanie anty-frazowe (poziom pro)",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Detecta clichés y los reemplaza por imágenes originales ancladas a objetos/acciones.",
-    prompt: `Pega tu texto y dime:
-- Qué tipo de cliché te molesta más (motivacional, romántico, dramático, empresarial).
-- Tono objetivo.
+      "Wykrywa klisze i zastępuje je oryginalnymi obrazami zakotwiczonymi w przedmiotach/działaniach.",
+    prompt: `Wklej swój tekst i powiedz:
+- Jaki typ klisz najbardziej cię drażni (motywacyjne, romantyczne, dramatyczne, korporacyjne).
+- Docelowy ton.
 
-Tarea:
-1) Marca (en una lista) todas las frases genéricas o abstractas (mínimo 10 si existen).
-2) Por cada una:
-   - explica por qué es cliché (1 línea)
-   - propone 3 reemplazos con imagen concreta (objeto/acción/escena)
-3) Reescribe el texto completo:
-   - 70% concreto, 30% abstracto máximo
-   - verbos fuertes
-   - metáforas nuevas (mínimo 3)
+Zadanie:
+1) Zaznacz (na liście) wszystkie zdania ogólne lub abstrakcyjne (minimum 10, jeśli są).
+2) Dla każdego:
+   - wyjaśnij, czemu to klisza (1 linijka)
+   - zaproponuj 3 zamienniki z konkretnym obrazem (przedmiot/działanie/scena)
+3) Przepisz cały tekst:
+   - 70% konkretu, maks. 30% abstraktu
+   - mocne czasowniki
+   - nowe metafory (minimum 3)
 
-Al final:
-- Checklist de anti-cliché para usar en futuros textos (12 puntos).`,
+Na koniec:
+- Checklista anty-klisz do użycia w przyszłych tekstach (12 punktów).`,
     thumbnail: "",
   },
   {
     id: "crea-est-006",
-    title: "Cambio de POV: primera, segunda, tercera, y narrador poco fiable",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Zmiana POV: pierwsza, druga, trzecia osoba i niewiarygodny narrator",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Reescritura por puntos de vista para cambiar intimidad, tensión y misterio.",
-    prompt: `Pega una escena o texto (200–600 palabras) y dime:
-- Qué debe quedar igual (3 cosas).
-- Qué quieres potenciar (intimidad, misterio, tensión, humor).
-- Secreto que no debe revelarse del todo.
+      "Przepisanie z różnych perspektyw, by zmienić intymność, napięcie i tajemnicę.",
+    prompt: `Wklej scenę lub tekst (200–600 słów) i powiedz:
+- Co musi zostać takie samo (3 rzeczy).
+- Co chcesz wzmocnić (intymność, tajemnica, napięcie, humor).
+- Sekret, którego nie wolno ujawnić do końca.
 
-Reescribe en 4 POV:
-1) 1ª persona (íntima, confesional)
-2) 2ª persona (acusatoria o tierna)
-3) 3ª persona limitada (cerca del protagonista)
-4) Narrador poco fiable (distorsiona y se contradice)
+Przepisz w 4 perspektywach:
+1) 1. osoba (intymnie, wyznaniowo)
+2) 2. osoba (oskarżycielsko albo czule)
+3) 3. osoba ograniczona (blisko protagonisty)
+4) Niewiarygodny narrator (zniekształca i sobie przeczy)
 
-Para cada versión:
-- 1 línea “firma”
-- 3 cambios clave (qué hiciste distinto)
-- 1 riesgo
+Dla każdej wersji:
+- 1 linijka „podpis”
+- 3 kluczowe zmiany (co zrobiłeś/-aś inaczej)
+- 1 ryzyko
 
-Al final:
-- Recomienda el POV ideal según lo que quiero potenciar.`,
+Na koniec:
+- Poleć idealny POV zgodnie z tym, co chcesz wzmocnić.`,
     thumbnail: "",
   },
   {
     id: "crea-est-007",
-    title: "Condensación brutal: 900 → 300 → 100 → 30 palabras (sin perder esencia)",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Brutalne skracanie: 900 → 300 → 100 → 30 słów (bez utraty esencji)",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Reduce un texto por capas con preservación de núcleo, ideal para ritmo y precisión.",
-    prompt: `Pega tu texto (600–1200 palabras) y dime:
-- Mensaje central (1 frase)
-- Emoción principal
-- 5 frases/ideas que no pueden desaparecer
+      "Redukuj tekst warstwami, zachowując rdzeń — idealne dla rytmu i precyzji.",
+    prompt: `Wklej swój tekst (600–1200 słów) i powiedz:
+- Główny przekaz (1 zdanie)
+- Główna emocja
+- 5 zdań/idei, które nie mogą zniknąć
 
-Haz 4 versiones:
-A) 300–350 palabras (limpia, directa)
-B) 100–120 palabras (compacta y potente)
-C) 30–40 palabras (golpe emocional)
-D) 1 frase (máx 12 palabras) como cierre/aforismo
+Zrób 4 wersje:
+A) 300–350 słów (czysta, bezpośrednia)
+B) 100–120 słów (zwarta i mocna)
+C) 30–40 słów (emocjonalny cios)
+D) 1 zdanie (maks. 12 słów) jako zamknięcie/aforyzm
 
-Para cada reducción, explica:
-- Qué quitaste y por qué
-- Qué preservaste (núcleo)
-- Qué recurso usaste para mantener emocionalidad
+Przy każdej redukcji wyjaśnij:
+- Co usunąłeś/-aś i dlaczego
+- Co zachowałeś/-aś (rdzeń)
+- Jakiego środka użyłeś/-aś, by utrzymać emocje
 
-Al final:
-- Dame 10 titulares/cierres posibles basados en la versión de 30–40 palabras.`,
+Na koniec:
+- Daj 10 tytułów/zamknięć opartych na wersji 30–40 słów.`,
     thumbnail: "",
   },
   {
     id: "crea-est-008",
-    title: "Amplificación: 150 palabras → 900 (profundidad, capas, subtexto)",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Wzmacnianie: 150 słów → 900 (głębia, warstwy, podtekst)",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Expande un texto corto en uno largo sin relleno, agregando escenas, símbolos y ritmo.",
-    prompt: `Pega tu texto breve (80–200 palabras) y dime:
-- Lugar
-- Personaje(s)
-- 1 símbolo central
-- Emoción oculta
-- Qué NO quieres (nada de melodrama / nada de vulgaridad / etc.)
+      "Rozwiń krótki tekst w długi bez lania wody, dodając sceny, symbole i rytm.",
+    prompt: `Wklej swój krótki tekst (80–200 słów) i powiedz:
+- Miejsce
+- Postać/-cie
+- 1 centralny symbol
+- Ukryta emocja
+- Czego NIE chcesz (bez melodramatu / bez wulgarności / itp.)
 
-Tarea:
-1) Diagnóstico: qué falta para sentirlo (detalles sensoriales, conflicto, ritmo, subtexto).
-2) Expansión a 700–1000 palabras:
-   - añade 2 escenas concretas
-   - añade 5 detalles sensoriales por escena
-   - introduce 1 giro a mitad
-   - integra el símbolo 4 veces (variando significado)
-3) Final: una frase memorable (máx 12 palabras)
+Zadanie:
+1) Diagnoza: czego brakuje, by to poczuć (detale zmysłowe, konflikt, rytm, podtekst).
+2) Rozwinięcie do 700–1000 słów:
+   - dodaj 2 konkretne sceny
+   - dodaj 5 detali zmysłowych na scenę
+   - wprowadź 1 zwrot w połowie
+   - wpleć symbol 4 razy (zmieniając znaczenie)
+3) Finał: pamiętne zdanie (maks. 12 słów)
 
-Luego:
-- Lista de 12 “detalles específicos” que elevan el texto (para copiar y pegar).`,
+Potem:
+- Lista 12 „konkretnych detali”, które podnoszą tekst (do kopiuj-wklej).`,
     thumbnail: "",
   },
   {
     id: "crea-est-009",
-    title: "Transmutación de género: drama → thriller / romance → terror / etc.",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transmutacja gatunku: dramat → thriller / romans → horror / itd.",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Cambia el género manteniendo personaje y tema; reestructura tensión y escenas.",
-    prompt: `Dame:
-- Texto o sinopsis base (150–400 palabras).
-- Género actual.
-- Género destino.
-- Tema que debe mantenerse.
-- 2 escenas que deben sobrevivir (aunque cambien).
+      "Zmień gatunek, zachowując postać i temat; przestaw napięcie i sceny.",
+    prompt: `Podaj:
+- Tekst lub synopsę bazową (150–400 słów).
+- Obecny gatunek.
+- Docelowy gatunek.
+- Temat, który musi pozostać.
+- 2 sceny, które muszą przetrwać (choć mogą się zmienić).
 
-Tarea:
-A) Identifica el “motor” del género actual (qué lo hace funcionar).
-B) Define el “motor” del género destino (tensión, misterio, deseo, etc.).
-C) Reescribe la sinopsis y luego escribe 2 escenas clave (2–4 páginas cada una):
-   - Escena 1: nueva apertura en el género destino
-   - Escena 2: clímax adaptado al género destino
+Zadanie:
+A) Zidentyfikuj „silnik” obecnego gatunku (co sprawia, że działa).
+B) Zdefiniuj „silnik” gatunku docelowego (napięcie, tajemnica, pragnienie itd.).
+C) Przepisz synopsę, a potem napisz 2 kluczowe sceny (po 2–4 strony każda):
+   - Scena 1: nowe otwarcie w gatunku docelowym
+   - Scena 2: kulminacja dopasowana do gatunku docelowego
 
-Al final:
-- Tabla: elemento original → equivalente en nuevo género (8–12 filas).`,
+Na koniec:
+- Tabela: element oryginalny → odpowiednik w nowym gatunku (8–12 wierszy).`,
     thumbnail: "",
   },
   {
     id: "crea-est-010",
-    title: "Cirugía de ritmo: musicalidad, cadencia y respiración del texto",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Chirurgia rytmu: muzykalność, kadencja i oddech tekstu",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Mejora ritmo: alternancia de frases, cortes, repetición, variación y pausas.",
-    prompt: `Pega tu texto (200–700 palabras) y dime:
-- Qué emoción quieres que marque el ritmo (tensión/ternura/urgencia).
-- Si lo leerás en voz alta (sí/no).
-- Nivel de sofisticación (simple / medio / literario).
+      "Popraw rytm: zmienność zdań, cięcia, powtórzenia, wariacje i pauzy.",
+    prompt: `Wklej swój tekst (200–700 słów) i powiedz:
+- Jaka emocja ma prowadzić rytm (napięcie/czułość/pilność).
+- Czy będziesz czytać na głos (tak/nie).
+- Poziom wysmakowania (prosty / średni / literacki).
 
-Tarea:
-1) Análisis del ritmo: longitud promedio de frase, variedad, lugares donde se cae.
-2) Reescritura con ritmo mejorado:
-   - alterna frases cortas y largas
-   - usa 3 repeticiones deliberadas (anáfora o estribillo)
-   - añade 2 pausas dramáticas (línea sola)
-   - elimina muletillas y redundancias
-3) Versión “voz en off” (si aplica): 160–220 palabras con ritmo oral.
+Zadanie:
+1) Analiza rytmu: średnia długość zdań, różnorodność, miejsca, gdzie „siada”.
+2) Przepisanie z lepszym rytmem:
+   - przeplataj krótkie i długie zdania
+   - użyj 3 celowych powtórzeń (anafora albo refren)
+   - dodaj 2 pauzy dramatyczne (samodzielna linijka)
+   - usuń wypełniacze i powtórzenia znaczeń
+3) Wersja „voice-over” (jeśli dotyczy): 160–220 słów z mówionym rytmem.
 
-Al final:
-- 10 reglas de ritmo que puedo aplicar siempre.`,
+Na koniec:
+- 10 zasad rytmu, które mogę stosować zawsze.`,
     thumbnail: "",
   },
 
   {
     id: "crea-est-011",
-    title: "Transformación ‘estética de época’: el mismo texto en 4 periodos",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „estetyka epoki”: ten sam tekst w 4 okresach",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Reescribe un texto en estilos de época: detalle, registro y léxico.",
-    prompt: `Pega el texto base y dime:
-- Lugar.
-- Tema.
-- Qué palabras modernas debo evitar (5–10).
+      "Przepisz tekst w stylach epok: detale, rejestr i słownictwo.",
+    prompt: `Wklej tekst bazowy i powiedz:
+- Miejsce.
+- Temat.
+- Jakich nowoczesnych słów mam unikać (5–10).
 
-Reescribe en 4 estéticas (200–350 palabras cada una):
-1) Siglo XIX (elegante, frases largas, observación)
-2) Años 20 (ritmo, glamour/ruido)
-3) Años 80 (cultura pop, neón, velocidad)
-4) Futuro cercano (tecnología cotidiana, intimidad)
+Przepisz w 4 estetykach (po 200–350 słów każda):
+1) XIX wiek (elegancko, długie zdania, obserwacja)
+2) Lata 20. (rytm, glamour/hałas)
+3) Lata 80. (popkultura, neon, prędkość)
+4) Bliska przyszłość (codzienna technologia, intymność)
 
-Para cada estética:
-- 10 detalles de época integrados en acción (no exposición)
-- 1 línea final memorable
+Dla każdej estetyki:
+- 10 detali epoki wplecionych w działania (bez ekspozycji)
+- 1 pamiętna linijka na koniec
 
-Al final:
-- Recomendación: cuál estética potencia más el tema y por qué.`,
+Na koniec:
+- Rekomendacja: która estetyka najbardziej wzmacnia temat i dlaczego.`,
     thumbnail: "",
   },
   {
     id: "crea-est-012",
-    title: "Reescritura por ‘metáfora central’: todo el texto bajo un símbolo",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Przepisanie przez „centralną metaforę”: cały tekst pod jednym symbolem",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Transforma el texto para que gire alrededor de una metáfora sostenida (sin repetirse).",
-    prompt: `Pega tu texto y elige una metáfora central:
-- Opciones: “mar”, “casa”, “rueda”, “incendio”, “hielo”, “puente”, “jardín”, “máquina”.
-( o dime la tuya )
+      "Przekształć tekst tak, by krążył wokół podtrzymanej metafory (bez powtarzania się).",
+    prompt: `Wklej swój tekst i wybierz centralną metaforę:
+- Opcje: „morze”, „dom”, „koło”, „ogień”, „lód”, „most”, „ogród”, „maszyna”.
+(albo podaj własną)
 
-Tarea:
-1) Haz un mapa de metáfora: 12 asociaciones (objetos/acciones) del símbolo.
-2) Reescribe el texto (300–600 palabras):
-   - la metáfora aparece en detalles, no como “esto es como…”
-   - 4 apariciones sutiles + 1 aparición explícita al final
-   - evita repetir las mismas palabras del símbolo (sin spam)
+Zadanie:
+1) Zrób mapę metafory: 12 skojarzeń (przedmioty/działania) z symbolem.
+2) Przepisz tekst (300–600 słów):
+   - metafora ma się pojawiać w detalach, nie jako „to jest jak…”
+   - 4 subtelne wystąpienia + 1 jawne na końcu
+   - unikaj powtarzania tych samych słów symbolu (bez spamu)
 
-Al final:
-- 10 frases alternativas que usen la metáfora de forma distinta.`,
+Na koniec:
+- 10 alternatywnych zdań, które używają tej metafory inaczej.`,
     thumbnail: "",
   },
   {
     id: "crea-est-013",
-    title: "Eliminación de adjetivos: fuerza por verbos y sustantivos",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Usuwanie przymiotników: siła przez czasowniki i rzeczowniki",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Un ejercicio para ‘endurecer’ la prosa: quitar adjetivos y ganar precisión.",
-    prompt: `Pega un texto (150–500 palabras).
+      "Ćwiczenie na „utwardzenie” prozy: usuń przymiotniki i zyskaj precyzję.",
+    prompt: `Wklej tekst (150–500 słów).
 
-Tarea:
-A) Lista los 20 adjetivos más débiles o genéricos del texto (si hay menos, todos).
-B) Por cada uno, propón:
-   - 2 verbos más fuertes
-   - 2 sustantivos más concretos
-   - 1 imagen alternativa
-C) Reescribe el texto:
-   - máximo 6 adjetivos en total
-   - todo lo demás se logra con verbos, sustantivos y acciones
+Zadanie:
+A) Wypisz 20 najsłabszych lub najbardziej ogólnych przymiotników w tekście (jeśli jest mniej — wszystkie).
+B) Dla każdego zaproponuj:
+   - 2 mocniejsze czasowniki
+   - 2 bardziej konkretne rzeczowniki
+   - 1 alternatywny obraz
+C) Przepisz tekst:
+   - maksymalnie 6 przymiotników w całym tekście
+   - reszta ma wynikać z czasowników, rzeczowników i działań
 
-Al final:
-- Compara: qué se siente diferente (5 bullets).`,
+Na koniec:
+- Porównaj: co czuć inaczej (5 punktów).`,
     thumbnail: "",
   },
   {
     id: "crea-est-014",
-    title: "Transformación a ‘realismo sensorial’: 5 sentidos por escena",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja na „realizm sensoryczny”: 5 zmysłów na scenę",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Convierte un texto plano en uno sensorial con anclaje físico y atmósfera.",
-    prompt: `Pega tu texto o escena (200–600 palabras) y dime:
-- Lugar exacto
-- Hora/estación
-- Emoción dominante
+      "Zamień płaski tekst w zmysłowy: z fizycznym zakotwiczeniem i atmosferą.",
+    prompt: `Wklej tekst lub scenę (200–600 słów) i powiedz:
+- Dokładne miejsce
+- Godzina/pora roku
+- Dominująca emocja
 
-Reescribe:
-- Añade mínimo 2 detalles por sentido (vista, oído, olfato, tacto, gusto).
-- No agregues relleno: cada detalle debe revelar personaje o conflicto.
-- 1 gesto pequeño debe decir lo que no se dice.
+Przepisz:
+- Dodaj minimum 2 detale na każdy zmysł (wzrok, słuch, węch, dotyk, smak).
+- Bez lania wody: każdy detal ma ujawniać postać albo konflikt.
+- 1 mały gest ma powiedzieć to, czego się nie mówi.
 
-Al final:
-- Lista de 15 detalles sensoriales alternativos para el mismo lugar.`,
+Na koniec:
+- Lista 15 alternatywnych detali zmysłowych dla tego samego miejsca.`,
     thumbnail: "",
   },
   {
     id: "crea-est-015",
-    title: "Transformación a ‘subtexto’: decir menos, significar más",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja na „podtekst”: mówić mniej, znaczyć więcej",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Reescribe una escena para que el conflicto real no se diga, se actúe.",
-    prompt: `Pega una escena (diálogo o prosa) y dime:
-- Conflicto visible
-- Conflicto real oculto
-- Qué NO puede decirse explícitamente
-- Objeto que servirá de subtexto
+      "Przepisz scenę tak, by prawdziwy konflikt nie był wypowiedziany — tylko odegrany.",
+    prompt: `Wklej scenę (dialog albo proza) i powiedz:
+- Konflikt widoczny
+- Ukryty, prawdziwy konflikt
+- Czego NIE wolno powiedzieć wprost
+- Przedmiot, który posłuży jako podtekst
 
-Reescribe la escena:
-- Reduce explicaciones emocionales en 70%.
-- Usa acciones (miradas, pausas, objetos, interrupciones).
-- Cada personaje debe tener un objetivo y una táctica (cambia táctica 2 veces).
-- Final: una frase inocente que, por subtexto, sea devastadora.
+Przepisz scenę:
+- Ogranicz wyjaśnianie emocji o 70%.
+- Użyj działań (spojrzenia, pauzy, przedmioty, przerywanie).
+- Każda postać ma mieć cel i taktykę (zmień taktykę 2 razy).
+- Finał: niewinne zdanie, które przez podtekst jest miażdżące.
 
-Al final:
-- Tabla: línea original → subtexto nuevo (8–12 filas).`,
+Na koniec:
+- Tabela: oryginalna linijka → nowy podtekst (8–12 wierszy).`,
     thumbnail: "",
   },
 
   {
     id: "crea-est-016",
-    title: "Transformación a ‘humor’: convertir drama en comedia sin traicionar tema",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja na „humor”: zamień dramat w komedię bez zdrady tematu",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Reescribe en humor (seco/absurdo/irónico) manteniendo la verdad central.",
-    prompt: `Pega tu texto (200–600 palabras) y dime:
-- Tipo de humor (deadpan, absurdo, sarcasmo suave, comedia negra).
-- Qué tema NO se puede perder.
-- Qué tanto humor (0–10).
+      "Przepisz w humorze (suchym/absurdalnym/ironicznym), zachowując centralną prawdę.",
+    prompt: `Wklej swój tekst (200–600 słów) i powiedz:
+- Rodzaj humoru (deadpan, absurd, łagodny sarkazm, czarna komedia).
+- Jakiego tematu NIE wolno stracić.
+- Jak dużo humoru (0–10).
 
-Tarea:
-1) Identifica 5 puntos de tensión (lugares donde el drama pesa).
-2) Por cada punto, crea 2 mecanismos cómicos:
-   - contradicción
-   - mala interpretación
-   - exageración específica
-   - detalle ridículo realista
-3) Reescribe el texto en tono cómico:
-   - sin burlarte del dolor
-   - con remates basados en observación
-   - final: una línea seria que recuerde el tema
+Zadanie:
+1) Wskaż 5 punktów napięcia (miejsca, gdzie dramat ciąży).
+2) Dla każdego punktu stwórz 2 mechanizmy komiczne:
+   - sprzeczność
+   - błędna interpretacja
+   - konkretna przesada
+   - realistyczny, śmieszny detal
+3) Przepisz tekst w tonie komediowym:
+   - bez kpin z bólu
+   - z puentami opartymi na obserwacji
+   - finał: jedno poważne zdanie, które przypomina temat
 
-Incluye:
-- 12 remates alternativos (1 línea cada uno).`,
+Dodaj:
+- 12 alternatywnych puent (po 1 linijce).`,
     thumbnail: "",
   },
   {
     id: "crea-est-017",
-    title: "Transformación a ‘noir’: convertir cualquier historia en noir moderno",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja na „noir”: zamień dowolną historię w nowoczesne noir",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Voz en off, ironía, ciudad y culpa: reescritura noir con atmósfera.",
-    prompt: `Pega tu texto o sinopsis y dime:
-- Ciudad/lugar nocturno
-- Culpa del protagonista
-- Antagonista (persona o sistema)
-- Objeto clave
-- Final (ironía/castigo)
+      "Głos z offu, ironia, miasto i wina: noir z atmosferą.",
+    prompt: `Wklej swój tekst lub synopsę i powiedz:
+- Nocne miasto/miejsce
+- Wina protagonisty
+- Antagonista (osoba albo system)
+- Kluczowy przedmiot
+- Finał (ironia/kara)
 
-Reescribe en noir (350–700 palabras):
-- Voz en off en 6 momentos (corta).
-- La voz en off debe contradecir lo que se ve (subtexto).
-- 10 detalles urbanos.
-- Final: ironía moral.
+Przepisz w noir (350–700 słów):
+- Głos z offu w 6 momentach (krótko).
+- Głos z offu ma przeczyć temu, co widać (podtekst).
+- 10 miejskich detali.
+- Finał: moralna ironia.
 
-Luego:
-- 10 líneas de voz en off tipo “one-liner” para elegir.`,
+Potem:
+- 10 linijek z offu typu „one-liner” do wyboru.`,
     thumbnail: "",
   },
   {
     id: "crea-est-018",
-    title: "Transformación a ‘cuento infantil’: el mismo tema, apto y profundo",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja na „bajkę”: ten sam temat, odpowiednio i głęboko",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Convertir un tema adulto en cuento infantil simbólico sin perder profundidad.",
-    prompt: `Pega tu texto o tema y dime:
-- Edad objetivo (4–6, 7–9, 10–12).
-- Valor central (amistad, honradez, valentía, paciencia).
-- Personajes (animal/objeto/persona).
-- Escenario (bosque, ciudad, mar, escuela).
-- Final (lección sutil).
+      "Zamień dorosły temat w symboliczną bajkę bez utraty głębi.",
+    prompt: `Wklej swój tekst lub temat i powiedz:
+- Wiek docelowy (4–6, 7–9, 10–12).
+- Wartość centralna (przyjaźń, uczciwość, odwaga, cierpliwość).
+- Bohaterowie (zwierzę/przedmiot/człowiek).
+- Sceneria (las, miasto, morze, szkoła).
+- Finał (subtelna lekcja).
 
-Escribe un cuento infantil (600–900 palabras):
-- Lenguaje simple pero no tonto.
-- Repetición rítmica (1 frase que vuelve 4 veces).
-- 1 conflicto claro, 1 solución creativa.
-- Moraleja implícita (no sermón).
+Napisz bajkę (600–900 słów):
+- Język prosty, ale nie głupi.
+- Rytmiczne powtórzenie (1 zdanie wraca 4 razy).
+- 1 jasny konflikt, 1 kreatywne rozwiązanie.
+- Morał domyślny (bez kazania).
 
-Incluye:
-- 6 títulos + 10 frases para ilustraciones (ideas visuales).`,
+Dodaj:
+- 6 tytułów + 10 zdań do ilustracji (pomysły wizualne).`,
     thumbnail: "",
   },
   {
     id: "crea-est-019",
-    title: "Transformación a ‘ensayo personal’: honestidad y claridad (sin poesía excesiva)",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja na „esej osobisty”: szczerość i klarowność (bez nadmiaru poezji)",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Pasa de lírico a ensayo personal: ideas claras, escenas concretas, conclusión humana.",
-    prompt: `Pega el texto base y dime:
-- Tesis (qué quieres afirmar).
-- 2 escenas reales o inventadas que lo prueben.
-- Punto vulnerable que no quieres decir (pero deberías).
-- Tono (cálido, directo, firme).
+      "Przejście z liryki do eseju osobistego: jasne tezy, konkretne sceny, ludzki wniosek.",
+    prompt: `Wklej tekst bazowy i powiedz:
+- Teza (co chcesz stwierdzić).
+- 2 sceny (prawdziwe lub wymyślone), które to udowadniają.
+- Wrażliwy punkt, którego nie chcesz powiedzieć (ale powinieneś/-aś).
+- Ton (ciepły, bezpośredni, stanowczy).
 
-Reescribe como ensayo personal (800–1200 palabras):
-- Hook con escena (no frase genérica).
-- Tesis clara en el primer 20%.
-- 2 escenas completas con detalle.
-- 3 ideas explicadas con ejemplos.
-- Conclusión: una decisión o práctica concreta.
+Przepisz jako esej osobisty (800–1200 słów):
+- Hook ze sceną (nie ogólne zdanie).
+- Jasna teza w pierwszych 20%.
+- 2 pełne sceny z detalem.
+- 3 idee wyjaśnione na przykładach.
+- Wniosek: decyzja lub konkretna praktyka.
 
-Al final:
-- 10 posibles títulos de ensayo.`,
+Na koniec:
+- 10 możliwych tytułów eseju.`,
     thumbnail: "",
   },
   {
     id: "crea-est-020",
-    title: "Banco de recursos de estilo: metáforas, ritmos, cierres y ‘firmas’",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Bank narzędzi stylu: metafory, rytmy, zakończenia i „podpisy”",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Genera recursos reutilizables: metáforas originales, cierres, ritmos y líneas firma.",
-    prompt: `Dame:
-- Tema (amor, ciudad, pérdida, identidad, ambición, miedo).
-- Estética (urbana, natural, futurista, vintage).
-- Tono (tierno, oscuro, irónico, épico).
+      "Wygeneruj zasoby do ponownego użycia: oryginalne metafory, zakończenia, rytmy i linijki-podpisy.",
+    prompt: `Podaj:
+- Temat (miłość, miasto, strata, tożsamość, ambicja, strach).
+- Estetyka (miejska, naturalna, futurystyczna, vintage).
+- Ton (czuły, mroczny, ironiczny, epicki).
 
-Genera un banco con:
-A) 25 metáforas originales (no cliché) ancladas a objetos/acciones.
-B) 20 líneas de cierre (máx 12 palabras) en distintos tonos.
-C) 15 aperturas (hooks) con imagen concreta.
-D) 12 frases “firma” (una-liners) memorables.
-E) 10 recursos rítmicos (anáforas, cortes, repeticiones) con ejemplos.
+Wygeneruj bank:
+A) 25 oryginalnych metafor (bez klisz) zakotwiczonych w przedmiotach/działaniach.
+B) 20 linijek zamknięcia (maks. 12 słów) w różnych tonach.
+C) 15 otwarć (hooków) z konkretnym obrazem.
+D) 12 zdań „podpis” (one-linery) do zapamiętania.
+E) 10 środków rytmicznych (anafory, cięcia, powtórzenia) z przykładami.
 
-Luego:
-- Dime cómo combinar 2 recursos sin saturar el texto.`,
+Potem:
+- Powiedz, jak połączyć 2 środki bez przesycenia tekstu.`,
     thumbnail: "",
   },
 
   {
     id: "crea-est-021",
-    title: "Transformación por ‘limitación’: reescribe con reglas extremas",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja przez „ograniczenie”: przepisz z ekstremalnymi zasadami",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Reescritura con restricciones (vocabulario, longitud, estructura) para creatividad real.",
-    prompt: `Pega una escena o texto (200–600 palabras) y dime qué restricción quieres:
-Elige 2–3:
-1) Máximo 8 palabras por frase.
-2) Sin adverbios.
-3) Solo presente.
-4) Sin verbo “ser/estar”.
-5) 5 palabras obligatorias.
-6) Final en una sola frase.
+      "Przepisanie z ograniczeniami (słownictwo, długość, struktura) dla realnej kreatywności.",
+    prompt: `Wklej scenę lub tekst (200–600 słów) i powiedz, jakie ograniczenie chcesz:
+Wybierz 2–3:
+1) Maks. 8 słów na zdanie.
+2) Bez przysłówków.
+3) Tylko czas teraźniejszy.
+4) Bez czasowników „być” (w znaczeniu: być/znajdować się).
+5) 5 obowiązkowych słów.
+6) Finał w jednym zdaniu.
 
-Reescribe cumpliendo las restricciones.
-Luego:
-- Escribe una segunda versión “libre” que conserve la fuerza lograda.
-- Explica qué te forzó a descubrir la limitación (5 bullets).`,
+Przepisz tak, by spełnić ograniczenia.
+Potem:
+- Napisz drugą, „wolną” wersję, która zachowa uzyskaną siłę.
+- Wyjaśnij, co zmusiło cię do odkrycia ograniczenie (5 punktów).`,
     thumbnail: "",
   },
   {
     id: "crea-est-022",
-    title: "Transformación a ‘escena teatral’: prosa a diálogo con acotaciones",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja na „scenę teatralną”: proza w dialog z didaskaliami",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Convierte narración en teatro: subtexto, acotaciones, ritmo de escena.",
-    prompt: `Pega tu texto (200–600 palabras) y dime:
-- Personajes (2–4 máximo)
-- Lugar
-- Conflicto visible y conflicto real
-- Objeto de subtexto
-- Final
+      "Zamień narrację w teatr: podtekst, didaskalia, rytm sceny.",
+    prompt: `Wklej swój tekst (200–600 słów) i powiedz:
+- Postacie (maks. 2–4)
+- Miejsce
+- Konflikt widoczny i konflikt prawdziwy
+- Przedmiot podtekstu
+- Finał
 
-Convierte a escena teatral (6–10 páginas):
-- Diálogo con subtexto.
-- Acotaciones breves, precisas.
-- 2 cambios de poder entre personajes.
-- Final: gesto o frase que cierre con eco.
+Zamień w scenę teatralną (6–10 stron):
+- Dialog z podtekstem.
+- Didaskalia krótkie, precyzyjne.
+- 2 zmiany władzy między postaciami.
+- Finał: gest albo zdanie, które zamyka echem.
 
-Incluye:
-- Notas de dirección (ritmo, pausas, tono por personaje).`,
+Dodaj:
+- Notatki reżyserskie (rytm, pauzy, ton per postać).`,
     thumbnail: "",
   },
   {
     id: "crea-est-023",
-    title: "Transformación a ‘guion’: prosa a escenas con visualidad",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja na „scenariusz”: proza w sceny z obrazowością",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Pasa un texto narrativo a guion (formato cine) sin perder emoción.",
-    prompt: `Pega tu texto (300–900 palabras) y dime:
-- Duración objetivo (5–10 min)
-- Locaciones disponibles (máx 3)
-- Personajes disponibles (máx 4)
-- Qué emoción debe dominar
+      "Zamień tekst narracyjny w scenariusz (format filmowy) bez utraty emocji.",
+    prompt: `Wklej swój tekst (300–900 słów) i powiedz:
+- Docelowy czas trwania (5–10 min)
+- Dostępne lokacje (maks. 3)
+- Dostępne postacie (maks. 4)
+- Jaka emocja ma dominować
 
-Convierte a guion:
-- 10–18 escenas máximo.
-- Acciones visuales (no explicar).
-- Diálogo mínimo, con subtexto.
-- Final: imagen memorable.
+Zamień na scenariusz:
+- Maks. 10–18 scen.
+- Działania wizualne (bez tłumaczenia).
+- Minimalny dialog, z podtekstem.
+- Finał: pamiętny obraz.
 
-Al final:
-- Lista de 8 planos icónicos para dirigir la pieza.`,
+Na koniec:
+- Lista 8 ikonicznych ujęć do reżyserii.`,
     thumbnail: "",
   },
   {
     id: "crea-est-024",
-    title: "Transformación a ‘mensajes de chat’: una historia en WhatsApp/DMs",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja na „wiadomości czatu”: historia w WhatsApp/DM-ach",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Cuenta una historia completa solo con mensajes: ritmo, silencios y subtexto digital.",
-    prompt: `Dame:
-- Quiénes chatean y relación.
-- Conflicto.
-- Secreto.
-- Final (reconciliación, ruptura, giro).
-- Estilo: realista (sí/no).
+      "Opowiedz pełną historię tylko przez wiadomości: rytm, cisze i cyfrowy podtekst.",
+    prompt: `Podaj:
+- Kto pisze i jaka relacja.
+- Konflikt.
+- Sekret.
+- Finał (pojednanie, zerwanie, zwrot).
+- Styl: realistyczny (tak/nie).
 
-Escribe la historia solo en formato chat:
-- 80–140 mensajes.
-- Incluye silencios (… / “visto” / “escribiendo…”).
-- 2 malentendidos creíbles.
-- Final: un último mensaje que quede resonando.
+Napisz historię wyłącznie w formacie czatu:
+- 80–140 wiadomości.
+- Uwzględnij cisze (… / „wyświetlono” / „pisze…”).
+- 2 wiarygodne nieporozumienia.
+- Finał: ostatnia wiadomość, która zostaje w głowie.
 
-Luego:
-- 5 versiones alternativas del último mensaje.`,
+Potem:
+- 5 alternatywnych wersji ostatniej wiadomości.`,
     thumbnail: "",
   },
   {
     id: "crea-est-025",
-    title: "Transformación a ‘diario’: misma historia en 3 entradas",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja na „dziennik”: ta sama historia w 3 wpisach",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Reescribe como diario íntimo en tres días distintos mostrando evolución.",
-    prompt: `Pega tu historia o escena y dime:
-- 3 fechas (o rangos) para las entradas.
-- Qué cambia en cada fecha.
-- Qué verdad aparece al final.
+      "Przepisz jako intymny dziennik z trzech różnych dni, pokazując zmianę.",
+    prompt: `Wklej swoją historię albo scenę i powiedz:
+- 3 daty (albo zakresy) wpisów.
+- Co zmienia się w każdej dacie.
+- Jaka prawda pojawia się na końcu.
 
-Escribe 3 entradas de diario:
-- Entrada 1: negación / confusión (250–400 palabras)
-- Entrada 2: confrontación / ruptura (250–450 palabras)
-- Entrada 3: síntesis / decisión (250–450 palabras)
+Napisz 3 wpisy dziennika:
+- Wpis 1: zaprzeczenie / chaos (250–400 słów)
+- Wpis 2: konfrontacja / pęknięcie (250–450)
+- Wpis 3: synteza / decyzja (250–450)
 
-Incluye:
-- 1 frase repetida en las 3 entradas que cambie de sentido.`,
+Dodaj:
+- 1 zdanie powtarzające się we wszystkich 3 wpisach, zmieniające znaczenie.`,
     thumbnail: "",
   },
 
   {
     id: "crea-est-026",
-    title: "Transformación ‘publicidad literaria’: convierte texto en micro-anuncio poético",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „literacka reklama”: z tekstu w poetycką mikro-reklamę",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Crea piezas cortas tipo anuncio, pero con calidad literaria y subtexto.",
-    prompt: `Pega tu texto o dime tu tema/producto ficticio y:
-- Beneficio real (no promesa inflada)
-- Público
-- Tono (poético/noir/humor)
+      "Twórz krótkie formy reklamowe, ale z literacką jakością i podtekstem.",
+    prompt: `Wklej swój tekst albo opisz temat/fikcyjny produkt i:
+- Realną korzyść (bez napompowanych obietnic)
+- Odbiorcę
+- Ton (poetycki/noir/humor)
 
-Genera:
-A) 10 microcopys poéticos (1–2 líneas)
-B) 5 textos de 60–90 palabras (voz en off)
-C) 3 textos de 180–240 palabras (mini historia con cierre)
+Wygeneruj:
+A) 10 poetyckich mikrocopy (1–2 linijki)
+B) 5 tekstów 60–90 słów (voice-over)
+C) 3 teksty 180–240 słów (mini historia z finałem)
 
-Reglas:
-- Cero clichés.
-- Imágenes concretas.
-- Final con frase memorable.`,
+Zasady:
+- Zero klisz.
+- Konkretne obrazy.
+- Finał z pamiętnym zdaniem.`,
     thumbnail: "",
   },
   {
     id: "crea-est-027",
-    title: "Transformación ‘dureza’: vuelve el texto más crudo y realista",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „twardość”: uczyń tekst bardziej surowym i realistycznym",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Reescribe para subir realismo (sin caer en vulgaridad), con detalles precisos.",
-    prompt: `Pega tu texto (200–700 palabras) y dime:
-- Nivel de dureza objetivo (1–10)
-- Qué límites no cruzar
-- Qué emoción debe permanecer
+      "Przepisz, by podnieść realizm (bez wulgarności), z precyzyjnymi detalami.",
+    prompt: `Wklej tekst (200–700 słów) i powiedz:
+- Docelowy poziom surowości (1–10)
+- Jakich granic nie przekraczać
+- Jaka emocja ma zostać
 
-Reescribe:
-- Sustituye abstractos por escenas.
-- Añade 8 detalles físicos (manos, luz, ruido, olor).
-- Elimina sentimentalismo y explicaciones.
-- Mantén humanidad: incluye 2 momentos de ternura.
+Przepisz:
+- Zastąp abstrakty scenami.
+- Dodaj 8 fizycznych detali (dłonie, światło, hałas, zapach).
+- Usuń sentymentalizm i tłumaczenia.
+- Zachowaj człowieczeństwo: dodaj 2 momenty czułości.
 
-Al final:
-- Lista de 15 ‘detalles crudos’ alternativos para futuras escenas.`,
+Na koniec:
+- Lista 15 alternatywnych „surowych detali” do przyszłych scen.`,
     thumbnail: "",
   },
   {
     id: "crea-est-028",
-    title: "Transformación ‘ternura’: suaviza sin infantilizar",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „czułość”: zmiękcz bez infantylizacji",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Pasa un texto duro a uno tierno manteniendo verdad y dignidad.",
-    prompt: `Pega tu texto y dime:
-- Qué parte duele
-- Qué quieres proteger
-- Tono objetivo (tierno, sereno, cálido, esperanzador)
-- Palabras prohibidas (clichés)
+      "Zamień twardy tekst w czuły, zachowując prawdę i godność.",
+    prompt: `Wklej swój tekst i powiedz:
+- Co boli najbardziej
+- Co chcesz ochronić
+- Docelowy ton (czuły, spokojny, ciepły, pełen nadziei)
+- Słowa zakazane (klisze)
 
-Reescribe:
-- Cambia la agresividad por cuidado.
-- Mantén el conflicto, pero con compasión.
-- Añade 6 detalles de cuidado (gestos pequeños).
-- Final: promesa pequeña (realista).
+Przepisz:
+- Zamień agresję na troskę.
+- Zachowaj konflikt, ale z współczuciem.
+- Dodaj 6 detali opieki (małe gesty).
+- Finał: mała obietnica (realistyczna).
 
-Luego:
-- 10 frases alternativas para el cierre.`,
+Potem:
+- 10 alternatywnych zdań na zakończenie.`,
     thumbnail: "",
   },
   {
     id: "crea-est-029",
-    title: "Transformación ‘alta literatura’: eleva prosa a nivel estilístico premium",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „wysoka literatura”: podnieś prozę do premium",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Eleva sintaxis, imágenes y precisión sin volverlo pretencioso.",
-    prompt: `Pega tu texto (200–700 palabras) y dime:
-- Tono objetivo (elegante, íntimo, oscuro, luminoso)
-- Nivel de complejidad (medio/alto)
-- 5 palabras que te gustan y quieres incluir
+      "Wzmocnij składnię, obrazy i precyzję bez popadania w pretensjonalność.",
+    prompt: `Wklej tekst (200–700 słów) i powiedz:
+- Docelowy ton (elegancki, intymny, mroczny, jasny)
+- Poziom złożoności (średni/wysoki)
+- 5 słów, które lubisz i chcesz wpleść
 
-Reescribe en “alta literatura”:
-- Léxico preciso, no raro por raro.
-- Metáforas originales (mínimo 4).
-- Ritmo: alterna frases cortas y largas.
-- Evita moralina.
-- Final: una frase impecable (máx 14 palabras).
+Przepisz w „wysoką literaturę”:
+- Słownictwo precyzyjne, nie „dziwne dla dziwnego”.
+- Oryginalne metafory (minimum 4).
+- Rytm: przeplataj krótkie i długie zdania.
+- Unikaj moralizowania.
+- Finał: zdanie bezbłędne (maks. 14 słów).
 
-Al final:
-- 8 decisiones de estilo que hiciste y por qué.`,
+Na koniec:
+- 8 decyzji stylistycznych, które podjąłeś/-aś, i dlaczego.`,
     thumbnail: "",
   },
   {
     id: "crea-est-030",
-    title: "Transformación ‘voz contemporánea’: moderniza sin perder profundidad",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „współczesny głos”: unowocześnij bez utraty głębi",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Actualiza registro a contemporáneo (sin slang barato), con claridad y punch.",
-    prompt: `Pega tu texto y dime:
-- Audiencia y plataforma (blog, IG, newsletter, guion).
-- Qué quieres que sienta el lector.
-- 5 palabras prohibidas.
+      "Zaktualizuj rejestr na współczesny (bez taniego slangu), z jasnością i „punch’em”.",
+    prompt: `Wklej swój tekst i powiedz:
+- Odbiorca i platforma (blog, IG, newsletter, scenariusz).
+- Co ma poczuć czytelnik.
+- 5 słów zakazanych.
 
-Reescribe en voz contemporánea:
-- Claridad y punch.
-- Imágenes concretas.
-- 2 líneas tipo “golpe” (muy cortas).
-- Final: una línea que invite a releer.
+Przepisz współczesnym głosem:
+- Jasność i punch.
+- Konkretne obrazy.
+- 2 linijki „ciosy” (bardzo krótkie).
+- Finał: linijka, która zachęci do ponownego czytania.
 
-Incluye:
-- 6 titulares alternativos.`,
+Dodaj:
+- 6 alternatywnych tytułów.`,
     thumbnail: "",
   },
 
   {
     id: "crea-est-031",
-    title: "Transformación ‘bilingüe creativa’: español con “code-switch” elegante",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „kreatywnie dwujęzyczna”: hiszpański z eleganckim code-switch",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Reescritura con frases en inglés muy medidas para estilo, no por relleno.",
-    prompt: `Pega tu texto (200–600 palabras) y dime:
-- Nivel de “code-switch” (bajo/medio)
-- Qué palabras/frases en inglés NO quieres (cringe)
-- Tono (cool, íntimo, profesional, lírico)
+      "Przepisanie z bardzo oszczędnymi wstawkami po angielsku dla stylu — nie jako wypełniacz.",
+    prompt: `Wklej tekst (200–600 słów) i powiedz:
+- Poziom code-switch (niski/średni)
+- Jakich angielskich słów/fraz nie chcesz (cringe)
+- Ton (cool, intymny, profesjonalny, liryczny)
 
-Reescribe:
-- Mantén 85–90% español.
-- Inserta 6–10 frases cortas en inglés (máx 6 palabras cada una), con intención.
-- Que el inglés aporte matiz (no traducción literal).
-- Final: cierre en español, contundente.
+Przepisz:
+- Utrzymaj 85–90% hiszpańskiego.
+- Wstaw 6–10 krótkich fraz po angielsku (maks. 6 słów każda), celowo.
+- Angielski ma dodawać niuans (nie dosłowne tłumaczenie).
+- Finał: mocne zamknięcie po hiszpańsku.
 
-Luego:
-- Lista de 20 frases cortas en inglés útiles (sin cliché).`,
+Potem:
+- Lista 20 przydatnych krótkich fraz po angielsku (bez klisz).`,
     thumbnail: "",
   },
   {
     id: "crea-est-032",
-    title: "Transformación por ‘dicción’: cambia el registro (culto, coloquial, calle, formal)",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja przez „dykcję”: zmień rejestr (wysoki, potoczny, uliczny, formalny)",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Cambia el registro lingüístico para ajustar personaje/época/entorno.",
-    prompt: `Pega tu texto y dime:
-- Quién habla (personaje)
-- Contexto (dónde y con quién)
-- Qué quiere lograr
-- Nivel de vulgaridad permitido
+      "Zmień rejestr językowy, by dopasować postać/epokę/środowisko.",
+    prompt: `Wklej tekst i powiedz:
+- Kto mówi (postać)
+- Kontekst (gdzie i z kim)
+- Co chce osiągnąć
+- Dopuszczalny poziom wulgarności
 
-Reescribe en 4 registros:
-1) Formal/profesional
-2) Coloquial cercano
-3) Calle/argot moderado (sin caricatura)
-4) Culto/literario (sin pedantería)
+Przepisz w 4 rejestrach:
+1) Formalny/profesjonalny
+2) Potoczny, bliski
+3) Uliczny/żargon umiarkowany (bez karykatury)
+4) Wysoki/literacki (bez zadęcia)
 
-Para cada registro:
-- 8 cambios de dicción (palabras/frases) y por qué.
-- 1 línea final alternativa.`,
+Dla każdego rejestru:
+- 8 zmian dykcji (słowa/frazy) i dlaczego.
+- 1 alternatywna linijka finału.`,
     thumbnail: "",
   },
   {
     id: "crea-est-033",
-    title: "Transformación por ‘escala’: micro (tweet) vs macro (capítulo)",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja przez „skalę”: mikro (tweet) vs makro (rozdział)",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Convierte la misma idea en tweet poderoso y luego en capítulo largo.",
-    prompt: `Dame:
-- Idea central (1 frase)
-- Tema
-- Tono
+      "Zamień tę samą ideę w mocny tweet, a potem w długi rozdział.",
+    prompt: `Podaj:
+- Idee centralną (1 zdanie)
+- Temat
+- Ton
 
-Crea 3 versiones:
-A) Tweet/X: 240–280 caracteres (con imagen concreta, no moralina).
-B) Microcuento: 120–180 palabras con giro.
-C) Capítulo: 1200–1800 palabras con 2 escenas y subtexto.
+Stwórz 3 wersje:
+A) Tweet/X: 240–280 znaków (z konkretnym obrazem, bez moralizowania).
+B) Mikropowieść: 120–180 słów ze zwrotem.
+C) Rozdział: 1200–1800 słów z 2 scenami i podtekstem.
 
-Mantén el mismo núcleo en las 3.
-Al final:
-- Explica qué cambia en tensión/ritmo por escala (6 bullets).`,
+Zachowaj ten sam rdzeń we wszystkich 3.
+Na koniec:
+- Wyjaśnij, co zmienia się w napięciu/rytmie wraz ze skalą (6 punktów).`,
     thumbnail: "",
   },
   {
     id: "crea-est-034",
-    title: "Transformación a ‘lista literaria’: inventario con alma",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja na „literacką listę”: inwentarz z duszą",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Pasa tu texto a inventario poético (cosas que guardo, cosas que pierdo) con giro.",
-    prompt: `Pega tu texto y dime:
-- Tema
-- Símbolo central
-- Giro final (qué se revela)
+      "Zamień tekst w poetycki inwentarz (co zachowuję, co tracę) ze zwrotem.",
+    prompt: `Wklej swój tekst i powiedz:
+- Temat
+- Centralny symbol
+- Zwrot na końcu (co się ujawnia)
 
-Convierte a “lista literaria”:
-- 18–30 ítems.
-- 4 rupturas del patrón (líneas fuera de lista).
-- Cada ítem debe ser concreto y emocional a la vez.
-- Final: ítem final que reinterprete todo.
+Zamień w „literacką listę”:
+- 18–30 pozycji.
+- 4 złamania schematu (linijki poza listą).
+- Każda pozycja ma być konkretna i emocjonalna jednocześnie.
+- Finał: ostatnia pozycja, która przestawia znaczenie całości.
 
-Luego:
-- 10 ítems alternativos para variar.`,
+Potem:
+- 10 alternatywnych pozycji do wariantów.`,
     thumbnail: "",
   },
   {
     id: "crea-est-035",
-    title: "Transformación ‘una palabra’: reescribe para que una palabra sea protagonista",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „jedno słowo”: przepisz tak, by jedno słowo było bohaterem",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Una palabra guía el texto: repetición rítmica y variación semántica.",
-    prompt: `Pega tu texto y elige una palabra-protagonista (ej. “luz”, “llave”, “ruido”, “hielo”).
-Dime:
-- Cuántas veces quieres que aparezca (6–10).
-- Tono.
+      "Jedno słowo prowadzi tekst: rytmiczne powtórzenia i semantyczna zmienność.",
+    prompt: `Wklej swój tekst i wybierz słowo-bohatera (np. „światło”, „klucz”, „hałas”, „lód”).
+Powiedz:
+- Ile razy ma się pojawić (6–10).
+- Ton.
 
-Reescribe:
-- La palabra debe aparecer 6–10 veces.
-- Cada vez, cambia su significado por el contexto (no repetición vacía).
-- 2 apariciones deben ser metafóricas, 2 literales, 2 híbridas.
-- Final: última aparición con giro.
+Przepisz:
+- Słowo ma się pojawić 6–10 razy.
+- Za każdym razem zmienia znaczenie przez kontekst (bez pustego powtarzania).
+- 2 wystąpienia mają być metaforyczne, 2 dosłowne, 2 hybrydowe.
+- Finał: ostatnie wystąpienie ze zwrotem.
 
-Al final:
-- 6 palabras alternativas que funcionarían igual de bien.`,
+Na koniec:
+- 6 alternatywnych słów, które zadziałałyby równie dobrze.`,
     thumbnail: "",
   },
 
   {
     id: "crea-est-036",
-    title: "Transformación ‘diálogo’: convertir narración en escena conversada",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „dialog”: zamień narrację w scenę rozmowy",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Reescribe un fragmento de narración como diálogo con subtexto y acciones.",
-    prompt: `Pega un fragmento narrativo (200–600 palabras) y dime:
-- 2–3 personajes máximos
-- Lugar
-- Conflicto real (oculto)
-- Objeto de subtexto
-- Final (qué cambia)
+      "Przepisz fragment narracji jako dialog z podtekstem i działaniami.",
+    prompt: `Wklej fragment narracyjny (200–600 słów) i powiedz:
+- Maks. 2–3 postacie
+- Miejsce
+- Prawdziwy (ukryty) konflikt
+- Przedmiot podtekstu
+- Finał (co się zmienia)
 
-Reescribe como escena:
-- Formato guion o teatro (elige).
-- Diálogo con interrupciones, silencios y acciones.
-- 2 cambios de táctica por personaje.
-- Final: frase inocente con carga emocional.
+Przepisz jako scenę:
+- Format scenariusza lub teatru (wybierz).
+- Dialog z przerywaniem, ciszą i działaniami.
+- 2 zmiany taktyki na postać.
+- Finał: niewinne zdanie z ładunkiem emocjonalnym.
 
-Luego:
-- Lista de 10 “acciones de subtexto” para ese conflicto.`,
+Potem:
+- Lista 10 „działań podtekstu” dla tego konfliktu.`,
     thumbnail: "",
   },
   {
     id: "crea-est-037",
-    title: "Transformación ‘cámara’: reescribe como si la cámara lo contara",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „kamera”: przepisz, jakby opowiadała kamera",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Pasa tu texto a lenguaje audiovisual: planos, acciones, atmósfera.",
-    prompt: `Pega tu texto (200–700 palabras) y dime:
-- Género (drama/thriller/romance/terror)
-- Locación principal
-- Emoción dominante
+      "Zamień tekst na język audiowizualny: ujęcia, działania, atmosfera.",
+    prompt: `Wklej swój tekst (200–700 słów) i powiedz:
+- Gatunek (dramat/thriller/romans/horror)
+- Główna lokacja
+- Dominująca emocja
 
-Reescribe como “cámara”:
-- Describe en presente lo que se ve y se oye.
-- Inserta 12–20 planos (marcados como PLANO 1, PLANO 2…).
-- Reduce explicaciones internas; muestra por acciones.
-- Final: plano final memorable.
+Przepisz jako „kamera”:
+- Opisuj w czasie teraźniejszym to, co widać i słychać.
+- Wstaw 12–20 ujęć (oznacz jako UJĘCIE 1, UJĘCIE 2…).
+- Ogranicz wyjaśnienia wewnętrzne; pokaż działaniem.
+- Finał: pamiętne ujęcie końcowe.
 
-Incluye:
-- 8 ideas de sonido/ambiente para reforzar emoción.`,
+Dodaj:
+- 8 pomysłów na dźwięk/ambient wzmacniający emocję.`,
     thumbnail: "",
   },
   {
     id: "crea-est-038",
-    title: "Transformación ‘suspenso’: convertir cualquier escena en tensión",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „suspens”: zamień dowolną scenę w napięcie",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Reescribe para subir tensión con información parcial, ritmo y amenaza latente.",
-    prompt: `Pega tu escena (200–700 palabras) y dime:
-- Qué amenaza potencial existe (aunque sea emocional).
-- Qué información el lector no debe saber aún.
-- Qué detalle del entorno se volverá pista.
+      "Przepisz, by podbić napięcie przez częściową wiedzę, rytm i czającą się groźbę.",
+    prompt: `Wklej scenę (200–700 słów) i powiedz:
+- Jaka potencjalna groźba istnieje (nawet emocjonalna).
+- Jakiej informacji czytelnik nie może jeszcze znać.
+- Jaki detal otoczenia stanie się wskazówką.
 
-Reescribe en clave de suspenso:
-- Corta la información directa en 50%.
-- Añade 3 pistas pequeñas (sembradas).
-- Ritmo: frases cortas en momentos de tensión.
-- Final: micro-cliffhanger.
+Przepisz w kluczu suspensu:
+- Utnij bezpośrednie informacje o 50%.
+- Dodaj 3 drobne tropy (zasiane).
+- Rytm: krótkie zdania w momentach napięcia.
+- Finał: mikro-cliffhanger.
 
-Luego:
-- Lista de 10 recursos de tensión (aplicables) con ejemplo.`,
+Potem:
+- Lista 10 środków budowania napięcia (do zastosowania) z przykładem.`,
     thumbnail: "",
   },
   {
     id: "crea-est-039",
-    title: "Transformación ‘luz y sombra’: mismo texto en versión luminosa vs oscura",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „światło i cień”: jasna vs mroczna wersja tego samego tekstu",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Dos reescrituras opuestas en atmósfera manteniendo la historia.",
-    prompt: `Pega tu texto (200–600 palabras) y dime:
-- Qué debe permanecer igual (núcleo)
-- Qué quieres que cambie (atmósfera)
+      "Dwa przeciwstawne przepisania atmosfery przy zachowaniu tej samej historii.",
+    prompt: `Wklej tekst (200–600 słów) i powiedz:
+- Co musi zostać takie samo (rdzeń)
+- Co ma się zmienić (atmosfera)
 
-Haz 2 versiones:
-A) Versión luminosa: esperanza, claridad, aire (sin azúcar)
-B) Versión oscura: peso, noche, tensión (sin melodrama)
+Zrób 2 wersje:
+A) Wersja jasna: nadzieja, klarowność, oddech (bez cukru)
+B) Wersja mroczna: ciężar, noc, napięcie (bez melodramatu)
 
-Para cada una:
-- 10 decisiones de atmósfera (léxico, detalles, ritmo)
-- Un cierre alternativo (1 línea)
+Dla każdej:
+- 10 decyzji atmosfery (leksyka, detale, rytm)
+- Alternatywne zamknięcie (1 linijka)
 
-Al final:
-- Dime cuál funciona mejor y por qué.`,
+Na koniec:
+- Powiedz, która działa lepiej i dlaczego.`,
     thumbnail: "",
   },
   {
     id: "crea-est-040",
-    title: "Auditoría de estilo: detectar muletillas, patrones y mejorar tu voz",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Audyt stylu: wykryj wypełniacze, schematy i wzmocnij swój głos",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Análisis y reescritura para consolidar voz propia (sin sonar genérico).",
-    prompt: `Pega 2–4 textos tuyos (total 400–1200 palabras).
+      "Analiza i przepisanie, by scalić własny głos (bez brzmienia „generycznie”).",
+    prompt: `Wklej 2–4 swoje teksty (łącznie 400–1200 słów).
 
-Tarea:
-1) Detecta patrones:
-- muletillas
-- formas repetidas de iniciar frases
-- adjetivos frecuentes
-- estructuras de metáfora
-- ritmo (longitud de frase)
-2) Define tu voz actual en 8 rasgos.
-3) Propón una “guía de estilo personal” (12 reglas) para sonar más tú.
-4) Reescribe 1 texto aplicando la guía (300–600 palabras).
-5) Crea un glosario personal:
-- 20 palabras que te representan
-- 20 palabras que deberías evitar
+Zadanie:
+1) Wykryj schematy:
+- wypełniacze
+- powtarzalne początki zdań
+- częste przymiotniki
+- struktury metafor
+- rytm (długość zdań)
+2) Zdefiniuj twój obecny głos w 8 cechach.
+3) Zaproponuj „osobisty przewodnik stylu” (12 zasad), by brzmieć bardziej jak ty.
+4) Przepisz 1 tekst, stosując przewodnik (300–600 słów).
+5) Stwórz osobisty glosariusz:
+- 20 słów, które cię reprezentują
+- 20 słów, których powinieneś/-aś unikać
 
-Al final:
-- Un plan de 7 días para entrenar esa voz (acciones concretas).`,
+Na koniec:
+- Plan 7 dni trenowania tego głosu (konkretne działania).`,
     thumbnail: "",
   },
 
   {
     id: "crea-est-041",
-    title: "Transformación ‘mismo hecho, distinta emoción’: alegría, nostalgia, rabia, calma",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „to samo zdarzenie, inna emocja”: radość, nostalgia, złość, spokój",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Mantén el evento igual, cambia solo la emoción a través de detalles y ritmo.",
-    prompt: `Dame un hecho simple (1–2 frases) y:
-- Lugar
-- Personaje
-- 5 objetos de la escena
+      "Zostaw fakt bez zmian, zmień emocję samymi detalami i rytmem.",
+    prompt: `Podaj proste zdarzenie (1–2 zdania) oraz:
+- Miejsce
+- Postać
+- 5 przedmiotów w scenie
 
-Escribe 4 versiones (200–350 palabras cada una) donde el hecho sea idéntico:
-1) Alegría contenida
-2) Nostalgia suave
-3) Rabia elegante
-4) Calma melancólica
+Napisz 4 wersje (po 200–350 słów), gdzie zdarzenie jest identyczne:
+1) Powściągliwa radość
+2) Miękka nostalgia
+3) Elegancka złość
+4) Melancholijny spokój
 
-Reglas:
-- No cambies el hecho.
-- Cambia el mundo: detalles, ritmo, metáforas, foco.
+Zasady:
+- Nie zmieniaj zdarzenia.
+- Zmień świat: detale, rytm, metafory, fokus.
 
-Al final:
-- Explica qué cambió para provocar emoción (8 bullets).`,
+Na koniec:
+- Wyjaśnij, co się zmieniło, by wywołać emocję (8 punktów).`,
     thumbnail: "",
   },
   {
     id: "crea-est-042",
-    title: "Transformación ‘voz de objeto’: narrativa desde un objeto (estilo literario)",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „głos przedmiotu”: narracja z perspektywy rzeczy (literacko)",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Reescribe como si un objeto narrara la historia, con personalidad y coherencia.",
-    prompt: `Pega tu texto o escena y dime:
-- Objeto narrador
-- Dueño/a
-- Secreto que el objeto sabe
-- Final (guardar/soltar)
+      "Przepisz tak, jakby przedmiot opowiadał historię — z osobowością i spójnością.",
+    prompt: `Wklej swój tekst lub scenę i powiedz:
+- Przedmiot-narrator
+- Właściciel/-ka
+- Sekret, który zna przedmiot
+- Finał (zachować/puścić)
 
-Reescribe (500–900 palabras):
-- Voz del objeto consistente.
-- 2 flashbacks y 1 escena presente.
-- Detalles sensoriales reales (textura, polvo, peso).
-- Final: decisión del objeto.
+Przepisz (500–900 słów):
+- Konsekwentny głos przedmiotu.
+- 2 flashbacki i 1 scena w teraźniejszości.
+- Realne detale zmysłowe (faktura, kurz, ciężar).
+- Finał: decyzja przedmiotu.
 
-Luego:
-- 12 frases “firma” del objeto (una-liners).`,
+Potem:
+- 12 zdań „podpis” przedmiotu (one-linery).`,
     thumbnail: "",
   },
   {
     id: "crea-est-043",
-    title: "Transformación ‘revelación tardía’: esconder lo importante hasta el final",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „późne ujawnienie”: ukryj to, co ważne, do końca",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Reescribe para que la verdad clave se revele al cierre (sembrada y merecida).",
-    prompt: `Pega tu historia/escena y dime:
-- Qué verdad final quieres revelar.
-- 3 pistas que sí pueden aparecer antes.
-- 3 cosas que NO deben revelarse.
-- Final deseado (shock, ternura, ironía).
+      "Przepisz tak, by kluczowa prawda ujawniła się w finale (zasiana i zasłużona).",
+    prompt: `Wklej swoją historię/scenę i powiedz:
+- Jaką prawdę chcesz ujawnić na końcu.
+- 3 tropy, które mogą pojawić się wcześniej.
+- 3 rzeczy, których NIE wolno ujawnić.
+- Pożądany finał (szok, czułość, ironia).
 
-Reescribe (500–900 palabras):
-- Siembra las 3 pistas de forma natural.
-- Da explicaciones alternativas (sin mentir descaradamente).
-- Mantén ritmo que no “cante” twist.
-- Final: revela la verdad con una imagen (no discurso).
+Przepisz (500–900 słów):
+- Zasiejesz 3 tropy naturalnie.
+- Daj alternatywne wyjaśnienia (bez bezczelnego kłamania).
+- Utrzymaj rytm, by twist „nie śpiewał”.
+- Finał: pokaż prawdę obrazem (bez przemowy).
 
-Al final:
-- Lista: pista → línea donde aparece → payoff.`,
+Na koniec:
+- Lista: trop → linijka, gdzie się pojawia → payoff.`,
     thumbnail: "",
   },
   {
     id: "crea-est-044",
-    title: "Transformación ‘estilo epistolar’: convertir escena en cartas",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „epistolarna”: zamień scenę w listy",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Reescribe como intercambio de cartas: subtexto, omisiones y tiempo.",
-    prompt: `Pega tu escena/historia y dime:
-- Quién escribe
-- A quién
-- En qué periodo (días, años)
-- Qué se oculta
+      "Przepisz jako wymianę listów: podtekst, przemilczenia i czas.",
+    prompt: `Wklej scenę/historię i powiedz:
+- Kto pisze
+- Do kogo
+- W jakim okresie (dni, lata)
+- Co jest ukrywane
 
-Escribe 4 cartas:
-- Carta 1: expectativa/mentira bonita (200–350 palabras)
-- Carta 2: fricción (200–350)
-- Carta 3: distancia/ausencia (200–350)
-- Carta 4: verdad (200–350)
+Napisz 4 listy:
+- List 1: oczekiwanie/ładne kłamstwo (200–350 słów)
+- List 2: tarcie (200–350)
+- List 3: dystans/nieobecność (200–350)
+- List 4: prawda (200–350)
 
-Reglas:
-- Cada carta debe tener un objeto mencionado que cambia de sentido.
-- Final: una frase que cierre toda la correspondencia.
+Zasady:
+- W każdym liście ma pojawić się przedmiot, którego znaczenie się zmienia.
+- Finał: jedno zdanie, które domyka całą korespondencję.
 
-Incluye:
-- 8 frases de cierre alternas.`,
+Dodaj:
+- 8 alternatywnych zdań końcowych.`,
     thumbnail: "",
   },
   {
     id: "crea-est-045",
-    title: "Transformación ‘estilo periodístico’: convertir ficción en crónica",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „styl dziennikarski”: zamień fikcję w kronikę",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Reescribe una historia como crónica/nota: datos, escenas, testimonio, sin perder emoción.",
-    prompt: `Pega tu historia y dime:
-- Lugar y fecha (ficticia o real)
-- Qué “hecho” se reporta
-- 2 testigos
-- 1 dato duro (número) inventado pero plausible
+      "Przepisz historię jako kronikę/notkę: fakty, sceny, świadectwo — bez utraty emocji.",
+    prompt: `Wklej swoją historię i powiedz:
+- Miejsce i datę (fikcyjną lub realną)
+- Jaki „fakt” jest raportowany
+- 2 świadków
+- 1 twardą daną (liczba) wymyśloną, ale wiarygodną
 
-Escribe una crónica (800–1200 palabras):
-- Lead fuerte (primer párrafo)
-- Escenas concretas intercaladas con contexto
-- 2 testimonios con voz distinta
-- Cierre: reflexión corta, no moralina
+Napisz kronikę (800–1200 słów):
+- Mocny lead (pierwszy akapit)
+- Konkretne sceny przeplatane kontekstem
+- 2 wypowiedzi świadków o różnym głosie
+- Zakończenie: krótka refleksja, bez moralizowania
 
-Luego:
-- 10 titulares posibles.`,
+Potem:
+- 10 możliwych nagłówków.`,
     thumbnail: "",
   },
 
   {
     id: "crea-est-046",
-    title: "Transformación ‘delicado vs directo’: dos versiones de honestidad",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „delikatnie vs wprost”: dwie wersje szczerości",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Reescribe una confesión en dos registros: delicado (metáforas) y directo (sin metáfora).",
-    prompt: `Pega tu texto/confesión (150–400 palabras) y dime:
-- A quién va dirigido
-- Qué se teme perder
-- Qué verdad debe decirse
+      "Przepisz wyznanie w dwóch rejestrach: delikatnym (metafory) i bezpośrednim (bez metafor).",
+    prompt: `Wklej tekst/wyznanie (150–400 słów) i powiedz:
+- Do kogo jest skierowane
+- Czego boisz się stracić
+- Jaką prawdę trzeba powiedzieć
 
-Crea 2 versiones (250–450 palabras cada una):
-A) Delicada: metáforas, sugerencia, subtexto
-B) Directa: frases claras, sin adornos, verdad al frente
+Stwórz 2 wersje (po 250–450 słów):
+A) Delikatna: metafory, sugestia, podtekst
+B) Bezpośrednia: jasne zdania, bez ozdobników, prawda na przód
 
-Luego:
-- Señala 8 frases donde cambiaste forma pero no fondo (comparativa).`,
+Potem:
+- Wskaż 8 zdań, gdzie zmieniłeś/-aś formę, ale nie treść (porównanie).`,
     thumbnail: "",
   },
   {
     id: "crea-est-047",
-    title: "Transformación ‘ritual’: volver una experiencia en ceremonia literaria",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „rytuał”: zamień doświadczenie w literacką ceremonię",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Convertir un evento cotidiano en ritual simbólico con repetición y gesto final.",
-    prompt: `Dame:
-- Evento cotidiano (hacer café, lavar ropa, caminar).
-- Emoción.
-- 5 objetos del ritual.
-- Final (qué se suelta o se abraza).
+      "Zamień codzienne zdarzenie w symboliczny rytuał z powtórzeniami i gestem finałowym.",
+    prompt: `Podaj:
+- Codzienne zdarzenie (robienie kawy, pranie, spacer).
+- Emocję.
+- 5 przedmiotów rytuału.
+- Finał (co puszczasz albo obejmujesz).
 
-Escribe un texto (600–900 palabras):
-- Secciones cortas con repetición (un estribillo que vuelve 5 veces).
-- El evento se vuelve ceremonia.
-- Final: gesto mínimo con significado enorme.
+Napisz tekst (600–900 słów):
+- Krótkie sekcje z powtórzeniami (refren wraca 5 razy).
+- Zdarzenie staje się ceremonią.
+- Finał: minimalny gest o ogromnym znaczeniu.
 
-Incluye:
-- 12 líneas “mantra” que podrían funcionar como estribillo.`,
+Dodaj:
+- 12 linijek „mantry”, które mogłyby być refrenem.`,
     thumbnail: "",
   },
   {
     id: "crea-est-048",
-    title: "Transformación ‘anti-yo’: quitar el ‘yo’ sin perder intimidad",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „anty-ja”: usuń „ja” bez utraty intymności",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Reescribe un texto íntimo sin usar ‘yo’, creando cercanía por detalles.",
-    prompt: `Pega tu texto (200–600 palabras).
+      "Przepisz intymny tekst bez użycia „ja”, budując bliskość detalami.",
+    prompt: `Wklej tekst (200–600 słów).
 
-Reescribe con reglas:
-- Prohibido usar “yo”, “me”, “mi”, “mío”.
-- Mantén la intimidad con acciones, sensaciones y entorno.
-- 10 detalles concretos mínimos.
-- Final: una frase que suene como confesión sin “yo”.
+Przepisz z zasadami:
+- Zakaz używania: „ja”, „mnie”, „mi”, „mój”, „moja”, „moje”.
+- Zachowaj intymność działaniami, odczuciami i otoczeniem.
+- Minimum 10 konkretnych detali.
+- Finał: zdanie, które brzmi jak wyznanie bez „ja”.
 
-Luego:
-- Vuelve a reescribir permitiendo “yo”, pero conservando el estilo depurado.`,
+Potem:
+- Przepisz ponownie, pozwalając na „ja”, ale zachowując oczyszczony styl.`,
     thumbnail: "",
   },
   {
     id: "crea-est-049",
-    title: "Transformación ‘capas’: primera lectura simple, segunda lectura profunda",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Transformacja „warstwy”: pierwsze czytanie proste, drugie głębokie",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Reescribe para tener doble capa: superficie cotidiana + subtexto oscuro o tierno.",
-    prompt: `Pega tu texto y dime:
-- Capa 1 (lo que parece)
-- Capa 2 (lo que realmente es)
-- Símbolo que conecte ambas
+      "Przepisz tak, by mieć podwójną warstwę: codzienną powierzchnię + mroczny lub czuły podtekst.",
+    prompt: `Wklej tekst i powiedz:
+- Warstwa 1 (jak to wygląda)
+- Warstwa 2 (czym naprawdę jest)
+- Symbol, który łączy obie
 
-Reescribe (500–900 palabras):
-- La capa 1 debe funcionar sola.
-- La capa 2 debe entenderse con pistas (4–7 pistas).
-- Final: una línea que revele capa 2 sin explicarla.
+Przepisz (500–900 słów):
+- Warstwa 1 ma działać samodzielnie.
+- Warstwa 2 ma być czytelna przez wskazówki (4–7 tropów).
+- Finał: linijka, która ujawnia warstwę 2 bez tłumaczenia.
 
-Incluye:
-- Lista de pistas y dónde las pusiste.`,
+Dodaj:
+- Lista tropów i gdzie je umieściłeś/-aś.`,
     thumbnail: "",
   },
   {
     id: "crea-est-050",
-    title: "Kit de transformación final: 1 historia en 5 formatos listos para publicar",
-    area: "Escritura Creativa",
-    category: "Transformación & Estilo",
+    title: "Zestaw transformacji finalnej: 1 historia w 5 formatach gotowych do publikacji",
+    area: "Pisanie Kreatywne",
+    category: "Transformacja i Styl",
     summary:
-      "Convierte una historia en: cuento, poema, guion, caption, hilo (multiuso).",
-    prompt: `Pega tu historia base (300–800 palabras) y dime:
-- Plataforma objetivo (IG, TikTok, blog, newsletter, libro).
-- Tono.
-- Mensaje central.
+      "Zamień historię na: opowiadanie, wiersz, scenariusz, caption i wątek (multiużycie).",
+    prompt: `Wklej swoją historię bazową (300–800 słów) i powiedz:
+- Docelowa platforma (IG, TikTok, blog, newsletter, książka).
+- Ton.
+- Główny przekaz.
 
-Genera 5 formatos:
-1) Cuento breve (900–1300 palabras) con 2 escenas y final memorable.
-2) Poema (28–42 versos) con 5 sentidos y giro.
-3) Escena de guion (4–6 páginas) con subtexto.
-4) Caption IG (180–240 palabras) + 5 hooks de apertura.
-5) Hilo X/Twitter (8–12 tweets) con ritmo y cierre.
+Wygeneruj 5 formatów:
+1) Krótkie opowiadanie (900–1300 słów) z 2 scenami i pamiętnym finałem.
+2) Wiersz (28–42 wersy) z 5 zmysłami i zwrotem.
+3) Scena scenariuszowa (4–6 stron) z podtekstem.
+4) Caption IG (180–240 słów) + 5 hooków na otwarcie.
+5) Wątek X/Twitter (8–12 tweetów) z rytmem i zamknięciem.
 
-Al final:
-- Checklist de coherencia (qué se mantiene en todos).`,
+Na koniec:
+- Checklista spójności (co zostaje we wszystkich).`,
     thumbnail: "",
   },
 ];

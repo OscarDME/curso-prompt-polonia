@@ -17,7 +17,7 @@ export default function EntrenamientosPage() {
 
   return (
     <div className="space-y-8 py-6">
-      {/* 🔙 Back */}
+      {/* 🔙 Powrót */}
       <Button
         variant="ghost"
         size="sm"
@@ -26,11 +26,11 @@ export default function EntrenamientosPage() {
       >
         <Link href="/curso">
           <ArrowLeft className="mr-2 h-4 w-4" />
-          Volver al inicio del curso
+          Wróć do początku kursu
         </Link>
       </Button>
 
-      {/* Hero módulo */}
+      {/* Hero modułu */}
       <section className="space-y-3 rounded-3xl border border-teal-500/15 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 px-5 py-6 md:px-8 md:py-7">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-50">
           {title}
@@ -40,16 +40,16 @@ export default function EntrenamientosPage() {
         </p>
       </section>
 
-      {/* Grid de clases */}
+      {/* Siatka zajęć */}
       <section className="space-y-4">
         <div className="space-y-1">
           <h2 className="text-lg md:text-xl font-semibold text-slate-50">
-            Clases disponibles
+            Dostępne zajęcia
           </h2>
           <p className="max-w-2xl text-xs md:text-sm text-slate-300">
-            Haz clic en cualquier tarjeta para ver el contenido de la clase.
-            Por ahora todo está en texto, pensado para que copies ideas,
-            prompts y estructuras directamente a tu flujo de trabajo.
+            Kliknij dowolną kartę, aby zobaczyć treść zajęć. Na razie wszystko
+            jest w formie tekstu — tak, abyś mógł/mogła kopiować pomysły, prompty
+            i struktury bezpośrednio do swojego workflow.
           </p>
         </div>
 
@@ -64,7 +64,7 @@ export default function EntrenamientosPage() {
         </div>
       </section>
 
-      {/* Modal de clase */}
+      {/* Modal zajęć */}
       {selectedClass && (
         <ClassModal
           klass={selectedClass}
@@ -75,7 +75,7 @@ export default function EntrenamientosPage() {
   );
 }
 
-/* -------- Tarjeta individual -------- */
+/* -------- Pojedyncza karta -------- */
 
 function ClassCard({ klass, onOpen }) {
   return (
@@ -102,7 +102,13 @@ function ClassCard({ klass, onOpen }) {
                     "bg-fuchsia-500/15 text-fuchsia-200"
                 )}
               >
-                {klass.level}
+                {klass.level === "Principiante"
+                  ? "Początkujący"
+                  : klass.level === "Intermedio"
+                  ? "Średniozaawansowany"
+                  : klass.level === "Avanzado"
+                  ? "Zaawansowany"
+                  : klass.level}
               </Badge>
             )}
             {klass.duration && (
@@ -114,7 +120,7 @@ function ClassCard({ klass, onOpen }) {
         </div>
 
         {klass.summary && (
-          <p className="text-xs text-slate-300 line-clamp-3">
+          <p className="line-clamp-3 text-xs text-slate-300">
             {klass.summary}
           </p>
         )}
@@ -122,19 +128,28 @@ function ClassCard({ klass, onOpen }) {
 
       <CardContent className="mt-auto pb-4">
         <p className="text-[11px] font-semibold text-teal-200">
-          Haz clic para ver la clase
+          Kliknij, aby zobaczyć zajęcia
         </p>
       </CardContent>
     </Card>
   );
 }
 
-/* -------- Modal de contenido -------- */
+/* -------- Modal z treścią -------- */
 
 function ClassModal({ klass, onClose }) {
   const handleOverlayClick = (e) => {
     if (e.target === e.currentTarget) onClose();
   };
+
+  const levelLabel =
+    klass.level === "Principiante"
+      ? "Początkujący"
+      : klass.level === "Intermedio"
+      ? "Średniozaawansowany"
+      : klass.level === "Avanzado"
+      ? "Zaawansowany"
+      : klass.level;
 
   return (
     <div
@@ -142,24 +157,24 @@ function ClassModal({ klass, onClose }) {
       onClick={handleOverlayClick}
     >
       <div className="relative max-h-[80vh] w-full max-w-3xl overflow-hidden rounded-3xl border border-white/20 bg-slate-950 shadow-[0_0_40px_rgba(0,0,0,0.8)]">
-        {/* Header modal */}
+        {/* Nagłówek modala */}
         <div className="flex items-start justify-between gap-3 border-b border-white/10 px-5 py-4 md:px-7">
           <div className="space-y-1 pr-6">
             <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-teal-300">
-              Clase del módulo de entrenamientos
+              Zajęcia z modułu treningów
             </p>
-            <h3 className="text-lg md:text-xl font-bold text-slate-50">
+            <h3 className="text-lg font-bold text-slate-50 md:text-xl">
               {klass.title}
             </h3>
             <div className="flex flex-wrap items-center gap-2">
               {klass.level && (
                 <Badge className="bg-teal-500/15 text-[11px] text-teal-200">
-                  Nivel: {klass.level}
+                  Poziom: {levelLabel}
                 </Badge>
               )}
               {klass.duration && (
                 <Badge className="bg-black/70 text-[11px] text-slate-200">
-                  Duración estimada: {klass.duration}
+                  Szacowany czas: {klass.duration}
                 </Badge>
               )}
             </div>
@@ -169,13 +184,13 @@ function ClassModal({ klass, onClose }) {
             type="button"
             onClick={onClose}
             className="rounded-full border border-white/20 bg-white/5 p-1 text-slate-200 hover:bg-white/10"
-            aria-label="Cerrar"
+            aria-label="Zamknij"
           >
             <X className="h-4 w-4" />
           </button>
         </div>
 
-        {/* Contenido scrollable */}
+        {/* Przewijana treść */}
         <div className="max-h-[60vh] space-y-5 overflow-y-auto px-5 py-4 md:px-7 md:py-6">
           {klass.summary && (
             <p className="text-sm text-slate-200">{klass.summary}</p>
@@ -184,7 +199,7 @@ function ClassModal({ klass, onClose }) {
           {klass.goals && klass.goals.length > 0 && (
             <div className="space-y-2">
               <p className="text-xs font-semibold uppercase tracking-wide text-teal-300">
-                Qué vas a conseguir con esta clase
+                Co osiągniesz dzięki tym zajęciom
               </p>
               <ul className="space-y-1 text-sm text-slate-200">
                 {klass.goals.map((goal, idx) => (
@@ -200,7 +215,7 @@ function ClassModal({ klass, onClose }) {
           {klass.outline && klass.outline.length > 0 && (
             <div className="space-y-2">
               <p className="text-xs font-semibold uppercase tracking-wide text-slate-300">
-                Temas que veremos
+                Tematy, które omówimy
               </p>
               <ol className="space-y-1 text-sm text-slate-200">
                 {klass.outline.map((item, idx) => (
@@ -218,7 +233,7 @@ function ClassModal({ klass, onClose }) {
           {klass.content && klass.content.length > 0 && (
             <div className="space-y-2">
               <p className="text-xs font-semibold uppercase tracking-wide text-slate-300">
-                Desarrollo de la clase
+                Przebieg zajęć
               </p>
               {klass.content.map((p, idx) => (
                 <p key={idx} className="text-sm text-slate-200">
@@ -229,9 +244,9 @@ function ClassModal({ klass, onClose }) {
           )}
 
           <p className="mt-2 rounded-lg border border-teal-500/30 bg-teal-500/5 px-3 py-2 text-xs text-teal-100">
-            Sugerencia: mientras lees esta clase, abre otra pestaña con
-            ChatGPT y prueba los conceptos al mismo tiempo. Lo que pongas en
-            práctica ahora se quedará instalado en tu flujo de trabajo.
+            Wskazówka: czytając te zajęcia, otwórz w innej karcie ChatGPT i
+            testuj koncepcje równolegle. To, co przećwiczysz teraz, zostanie na
+            stałe „zainstalowane” w Twoim workflow.
           </p>
         </div>
       </div>

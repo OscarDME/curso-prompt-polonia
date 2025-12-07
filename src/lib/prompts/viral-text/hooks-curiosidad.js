@@ -1,560 +1,560 @@
 // src/lib/prompts/viral-text/hooks-curiosidad.js
-// Área y categoría ÚNICAS para TODO este archivo:
-const AREA = "Hooks";
-const CATEGORY = "Curiosidad";
+// Unikalny obszar i kategoria dla CAŁEGO tego pliku:
+const AREA = "Hooki";
+const CATEGORY = "Ciekawość";
 
 export const viralTextPromptsHooksCuriosidad = [
   {
     id: "viral-hook-curiosidad-001",
-    title: "Te voy a mostrar algo que casi nadie entiende",
-    summary: "Misterio + promesa clara.",
+    title: "Pokażę ci coś, czego prawie nikt nie rozumie",
+    summary: "Tajemnica + jasna obietnica.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Actúa como guionista viral. Escribe 20 hooks (7–11 palabras) para [TEMA] que empiecen con:
-“Te voy a mostrar…”
-Reglas:
-- Insinúa un mecanismo (“por qué pasa”, “qué lo dispara”, “qué lo frena”)
-- No reveles el “cómo” completo
-- Español neutro.`,
+    prompt: `Działaj jak wiralowy scenarzysta. Napisz 20 hooków (7–11 słów) dla [TEMAT], które zaczynają się od:
+„Pokażę ci…”
+Zasady:
+- Zasugeruj mechanizm („dlaczego to się dzieje”, „co to uruchamia”, „co to blokuje”)
+- Nie zdradzaj pełnego „jak”
+- Neutralny polski.`,
   },
   {
     id: "viral-hook-curiosidad-002",
-    title: "La razón real (no la obvia)",
-    summary: "Curiosidad por causa oculta.",
+    title: "Prawdziwy powód (nie ten oczywisty)",
+    summary: "Ciekawość ukrytej przyczyny.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 25 hooks para [AUDIENCIA] con estructura:
-“La razón real por la que [X] es…”
-[X] = meta o dolor (vender, crecer, concentrarte, etc.)
-Máximo 10 palabras. Sin clickbait vacío.`,
+    prompt: `Wygeneruj 25 hooków dla [ODBIORCY] w strukturze:
+„Prawdziwy powód, dla którego [X], to…”
+[X] = cel albo ból (sprzedać, rosnąć, skupić się itd.)
+Maks. 10 słów. Bez pustego clickbaitu.`,
   },
   {
     id: "viral-hook-curiosidad-003",
-    title: "El detalle que siempre se te pasa",
-    summary: "Curiosidad por “micro detalle”.",
+    title: "Detal, który zawsze ci umyka",
+    summary: "Ciekawość „mikrodetału”.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks (máx 9 palabras) para [NICHO] usando:
-“El detalle que siempre se te pasa: [DETALLE]”
-[DETALLE] debe ser concreto y accionable.`,
+    prompt: `Stwórz 20 hooków (maks. 9 słów) dla [NISZA] używając:
+„Detal, który zawsze ci umyka: [DETAL]”
+[DETAL] musi być konkretny i możliwy do wdrożenia.`,
   },
   {
     id: "viral-hook-curiosidad-004",
-    title: "Si entiendes esto, todo se vuelve más fácil",
-    summary: "Hook de comprensión clave.",
+    title: "Jeśli to zrozumiesz, wszystko staje się łatwiejsze",
+    summary: "Hook o kluczowym zrozumieniu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 18 hooks para [TEMA] con el inicio:
-“Si entiendes esto…”
-Condiciones:
-- 7–12 palabras
-- Debe insinuar el concepto clave sin explicarlo completo
-- Termina con “mira” o “escucha esto”.`,
+    prompt: `Napisz 18 hooków dla [TEMAT] zaczynając od:
+„Jeśli to zrozumiesz…”
+Warunki:
+- 7–12 słów
+- Zasugeruj kluczową ideę bez pełnego wyjaśnienia
+- Zakończ „zobacz” albo „posłuchaj tego”.`,
   },
   {
     id: "viral-hook-curiosidad-005",
-    title: "Te falta una pieza y ni sabes cuál",
-    summary: "Curiosidad por “pieza faltante”.",
+    title: "Brakuje ci jednego elementu i nawet nie wiesz jakiego",
+    summary: "Ciekawość „brakującego elementu”.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks para [RESULTADO]:
-“Te falta una pieza… y ni sabes cuál.”
-Añade una pista (2–4 palabras) de la pieza, sin revelarla del todo.`,
+    prompt: `Wygeneruj 20 hooków dla [REZULTAT]:
+„Brakuje ci jednego elementu… i nawet nie wiesz jakiego.”
+Dodaj wskazówkę (2–4 słowa) o tym elemencie, bez pełnego zdradzania.`,
   },
   {
     id: "viral-hook-curiosidad-006",
-    title: "Esto cambia cuando haces esta pregunta",
-    summary: "Abre loop por “pregunta clave”.",
+    title: "To się zmienia, gdy zadasz to pytanie",
+    summary: "Pętla ciekawości przez „kluczowe pytanie”.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks donde prometas una pregunta poderosa para [TEMA].
-Reglas:
-- Deben tener “una pregunta”
-- No digas la pregunta completa (solo insinúa)
-- Máx 11 palabras.`,
+    prompt: `Stwórz 15 hooków, w których obiecujesz mocne pytanie dla [TEMAT].
+Zasady:
+- Muszą zawierać „jedno pytanie”
+- Nie podawaj całego pytania (tylko zasugeruj)
+- Maks. 11 słów.`,
   },
   {
     id: "viral-hook-curiosidad-007",
-    title: "Te apuesto que no sabías esto",
-    summary: "Curiosidad tipo reto (sin agresión).",
+    title: "Założę się, że tego nie wiedziałeś",
+    summary: "Ciekawość w formie wyzwania (bez agresji).",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 hooks que empiecen con:
-“Te apuesto que…”
-Tema: [TEMA].
-Hazlo amigable, no arrogante. Máx 10 palabras.`,
+    prompt: `Napisz 20 hooków, które zaczynają się od:
+„Założę się, że…”
+Temat: [TEMAT].
+Niech będzie przyjazne, nie aroganckie. Maks. 10 słów.`,
   },
   {
     id: "viral-hook-curiosidad-008",
-    title: "Mira lo que pasa cuando cambias 1 cosa",
-    summary: "Curiosidad por micro-cambio.",
+    title: "Zobacz, co się dzieje, gdy zmienisz jedną rzecz",
+    summary: "Ciekawość mikro-zmiany.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 25 hooks con:
-“Mira lo que pasa cuando cambias [1 COSA]”
-Para [AUDIENCIA] en [NICHO].
-[1 COSA] debe ser súper concreta (frase, orden, punto, paso).`,
+    prompt: `Wygeneruj 25 hooków z:
+„Zobacz, co się dzieje, gdy zmienisz [1 RZECZ]”
+Dla [ODBIORCY] w [NISZA].
+[1 RZECZ] ma być super konkretna (fraza, kolejność, punkt, krok).`,
   },
   {
     id: "viral-hook-curiosidad-009",
-    title: "La forma rápida (pero rara) de hacerlo",
-    summary: "Curiosidad por método “raro”.",
+    title: "Szybki (ale dziwny) sposób, żeby to zrobić",
+    summary: "Ciekawość „dziwnej” metody.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 18 hooks para [OBJETIVO] con:
-“La forma rápida (pero rara) de [X]”
-[X] debe ser una acción del nicho.
-Máx 12 palabras. Cierra con “te lo enseño”.`,
+    prompt: `Stwórz 18 hooków dla [CEL] z:
+„Szybki (ale dziwny) sposób na [X]”
+[X] musi być działaniem z niszy.
+Maks. 12 słów. Zakończ „pokażę ci”.`,
   },
   {
     id: "viral-hook-curiosidad-010",
-    title: "Hay una razón por la que siempre te pasa",
-    summary: "Curiosidad por patrón repetido.",
+    title: "Jest powód, dla którego zawsze ci się to zdarza",
+    summary: "Ciekawość powtarzalnego wzorca.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 hooks que incluyan:
-“Siempre te pasa por…”
-Tema: [DOLOR] en [TEMA].
-No digas la razón completa, solo una pista accionable.`,
+    prompt: `Napisz 20 hooków, które zawierają:
+„Zawsze ci się to dzieje przez…”
+Temat: [BÓL] w [TEMAT].
+Nie podawaj całej przyczyny, tylko wdrażalną wskazówkę.`,
   },
 
   {
     id: "viral-hook-curiosidad-011",
-    title: "Te lo resumo en 1 idea (que nadie usa)",
-    summary: "Promesa simple + curiosidad.",
+    title: "Streszczę ci to w 1 idei (której nikt nie używa)",
+    summary: "Prosta obietnica + ciekawość.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks sobre [TEMA]:
-“Te lo resumo en 1 idea que nadie usa…”
-Debe cerrar con “mira esto” o “escucha”.
-Máx 12 palabras.`,
+    prompt: `Wygeneruj 15 hooków o [TEMAT]:
+„Streszczę ci to w 1 idei, której nikt nie używa…”
+Zakończ „zobacz to” albo „posłuchaj”.
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-curiosidad-012",
-    title: "Esto funciona por una razón inesperada",
-    summary: "Curiosidad por causa no obvia.",
+    title: "To działa z nieoczywistego powodu",
+    summary: "Ciekawość nieoczywistej przyczyny.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks para [TEMA] con:
-“Esto funciona por una razón inesperada…”
-Reglas:
-- 7–12 palabras
-- No reveles la razón completa
-- Evita promesas absolutas.`,
+    prompt: `Stwórz 20 hooków dla [TEMAT] z:
+„To działa z nieoczywistego powodu…”
+Zasady:
+- 7–12 słów
+- Nie zdradzaj całej przyczyny
+- Unikaj absolutnych obietnic.`,
   },
   {
     id: "viral-hook-curiosidad-013",
-    title: "La parte más importante está escondida",
-    summary: "Curiosidad por “parte escondida”.",
+    title: "Najważniejsza część jest ukryta",
+    summary: "Ciekawość „ukrytej części”.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 18 hooks:
-“La parte más importante está escondida en [LUGAR].”
-[LUGAR] = un paso/situación (ej: “tu primer mensaje”, “tu cierre”, “tu título”).
-Máx 12 palabras.`,
+    prompt: `Napisz 18 hooków:
+„Najważniejsza część jest ukryta w [MIEJSCE].”
+[MIEJSCE] = krok/sytuacja (np. „twoja pierwsza wiadomość”, „twoje zakończenie”, „twój tytuł”).
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-curiosidad-014",
-    title: "No es magia, es esto (y te lo muestro)",
-    summary: "Curiosidad+promesa de prueba.",
+    title: "To nie magia, to to (i pokażę ci)",
+    summary: "Ciekawość + obietnica dowodu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks con:
-“No es magia, es [X]…”
-[X] debe ser un concepto simple (estructura, fricción, claridad, prueba, etc.).
-Termina con “te lo muestro”.
-Máx 12 palabras.`,
+    prompt: `Wygeneruj 20 hooków z:
+„To nie magia, to [X]…”
+[X] ma być prostą ideą (struktura, tarcie, jasność, dowód itd.).
+Zakończ „pokażę ci”.
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-curiosidad-015",
-    title: "Esto te ahorra errores (y te digo cuáles)",
-    summary: "Curiosidad por “lista de errores”.",
+    title: "To oszczędza ci błędy (i powiem jakie)",
+    summary: "Ciekawość „listy błędów”.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks para [TEMA] que prometan:
-“te ahorra 3 errores”
-No enumeres los errores, solo insinúa que vienen.
-Máx 11 palabras.`,
+    prompt: `Stwórz 15 hooków dla [TEMAT], które obiecują:
+„oszczędza ci 3 błędy”
+Nie wymieniaj błędów — tylko zasugeruj, że zaraz będą.
+Maks. 11 słów.`,
   },
   {
     id: "viral-hook-curiosidad-016",
-    title: "La señal que te está diciendo la verdad",
-    summary: "Curiosidad por “señal”.",
+    title: "Sygnał, który mówi ci prawdę",
+    summary: "Ciekawość „sygnału”.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks:
-“La señal que te está diciendo la verdad: [SEÑAL].”
-SEÑAL debe ser medible/observable para [TEMA].`,
+    prompt: `Wygeneruj 20 hooków:
+„Sygnał, który mówi ci prawdę: [SYGNAŁ].”
+SYGNAŁ ma być mierzalny/obserwowalny dla [TEMAT].`,
   },
   {
     id: "viral-hook-curiosidad-017",
-    title: "Si te fijas en esto, cambia el resultado",
-    summary: "Curiosidad por foco.",
+    title: "Jeśli zwrócisz uwagę na to, zmienia się wynik",
+    summary: "Ciekawość przez fokus.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 25 hooks:
-“Si te fijas en [X], cambia el resultado.”
-Para [TEMA]. [X] debe ser un elemento concreto del proceso.`,
+    prompt: `Napisz 25 hooków:
+„Jeśli zwrócisz uwagę na [X], zmienia się wynik.”
+Dla [TEMAT]. [X] ma być konkretnym elementem procesu.`,
   },
   {
     id: "viral-hook-curiosidad-018",
-    title: "Este es el momento exacto donde se rompe",
-    summary: "Curiosidad por “momento exacto”.",
+    title: "To jest dokładny moment, w którym to się psuje",
+    summary: "Ciekawość „dokładnego momentu”.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks para [PROCESO] con:
-“El momento exacto donde se rompe es cuando [X].”
-[X] debe ser específico (paso, frase, decisión).
-Máx 13 palabras.`,
+    prompt: `Stwórz 15 hooków dla [PROCES] z:
+„Dokładny moment, w którym to się psuje, to gdy [X].”
+[X] ma być konkretny (krok, fraza, decyzja).
+Maks. 13 słów.`,
   },
   {
     id: "viral-hook-curiosidad-019",
-    title: "La regla que nadie te explicó bien",
-    summary: "Curiosidad por “regla”.",
+    title: "Zasada, której nikt ci dobrze nie wytłumaczył",
+    summary: "Ciekawość „zasady”.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks para [TEMA]:
-“La regla que nadie te explicó bien…”
-Cierra con “te la traduzco”.
-Máx 12 palabras.`,
+    prompt: `Wygeneruj 20 hooków dla [TEMAT]:
+„Zasada, której nikt ci dobrze nie wytłumaczył…”
+Zakończ „przetłumaczę ci to”.
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-curiosidad-020",
-    title: "Te muestro el antes (y el por qué)",
-    summary: "Curiosidad por transformación.",
+    title: "Pokażę ci „przed” (i dlaczego)",
+    summary: "Ciekawość transformacji.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks de transformación para [TEMA]:
-“Te muestro el antes… y el por qué.”
-Que suene creíble. Máx 11 palabras.`,
+    prompt: `Napisz 15 hooków transformacyjnych dla [TEMAT]:
+„Pokażę ci ‘przed’… i dlaczego.”
+Ma brzmieć wiarygodnie. Maks. 11 słów.`,
   },
 
   {
     id: "viral-hook-curiosidad-021",
-    title: "Hay un paso que estás saltando",
-    summary: "Curiosidad de “paso omitido”.",
+    title: "Jest krok, który pomijasz",
+    summary: "Ciekawość „pominiętego kroku”.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 25 hooks:
-“Hay un paso que estás saltando…”
-Tema: [TEMA].
-Añade una pista de ese paso (1–3 palabras), sin revelarlo completo.`,
+    prompt: `Stwórz 25 hooków:
+„Jest krok, który pomijasz…”
+Temat: [TEMAT].
+Dodaj wskazówkę o tym kroku (1–3 słowa), bez pełnego zdradzania.`,
   },
   {
     id: "viral-hook-curiosidad-022",
-    title: "Este truco no se nota, pero se siente",
-    summary: "Curiosidad sensorial/emocional.",
+    title: "Ten trik jest niewidoczny, ale czuć go",
+    summary: "Ciekawość sensoryczna/emocjonalna.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 18 hooks:
-“Este truco no se nota, pero se siente…”
-Para [AUDIENCIA] en [TEMA].
-Cierra con “mira” o “escucha esto”.`,
+    prompt: `Wygeneruj 18 hooków:
+„Ten trik jest niewidoczny, ale czuć go…”
+Dla [ODBIORCY] w [TEMAT].
+Zakończ „zobacz” albo „posłuchaj tego”.`,
   },
   {
     id: "viral-hook-curiosidad-023",
-    title: "Te falta 1 palabra (literal)",
-    summary: "Curiosidad por micro palabra.",
+    title: "Brakuje ci 1 słowa (dosłownie)",
+    summary: "Ciekawość mikro-słowa.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks:
-“Te falta 1 palabra: ‘[PALABRA]’”
-Para [TEMA]. La palabra debe ser útil en copy/ventas/contenido.
-No expliques por qué, solo insinúa “y cambia todo”.`,
+    prompt: `Stwórz 20 hooków:
+„Brakuje ci 1 słowa: ‘[SŁOWO]’”
+Dla [TEMAT]. Słowo ma być użyteczne w copy/sprzedaży/treści.
+Nie wyjaśniaj dlaczego — tylko zasugeruj „i wszystko się zmienia”.`,
   },
   {
     id: "viral-hook-curiosidad-024",
-    title: "Lo que nadie mira es lo que decide",
-    summary: "Curiosidad por variable oculta.",
+    title: "To, na co nikt nie patrzy, decyduje",
+    summary: "Ciekawość ukrytej zmiennej.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks:
-“Lo que nadie mira es lo que decide: [X].”
-[X] debe ser variable oculta (fricción, contexto, timing, oferta, energía…).`,
+    prompt: `Napisz 15 hooków:
+„To, na co nikt nie patrzy, decyduje: [X].”
+[X] ma być ukrytą zmienną (tarcie, kontekst, timing, oferta, energia…).`,
   },
   {
     id: "viral-hook-curiosidad-025",
-    title: "Dime si esto te pasa",
-    summary: "Curiosidad + identificación.",
+    title: "Powiedz mi, czy też tak masz",
+    summary: "Ciekawość + identyfikacja.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks que empiecen con:
-“Dime si esto te pasa…”
-Tema: [DOLOR] en [TEMA].
-Termina con: “porque hay una razón.”`,
+    prompt: `Wygeneruj 20 hooków, które zaczynają się od:
+„Powiedz mi, czy też tak masz…”
+Temat: [BÓL] w [TEMAT].
+Zakończ: „bo jest ku temu powód.”`,
   },
   {
     id: "viral-hook-curiosidad-026",
-    title: "Te explico lo que está pasando de verdad",
-    summary: "Curiosidad por explicación real.",
+    title: "Wyjaśnię ci, co naprawdę się dzieje",
+    summary: "Ciekawość prawdziwego wyjaśnienia.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 18 hooks que empiecen con:
-“Te explico lo que está pasando de verdad…”
-Tema: [TEMA]. Máx 12 palabras.`,
+    prompt: `Stwórz 18 hooków, które zaczynają się od:
+„Wyjaśnię ci, co naprawdę się dzieje…”
+Temat: [TEMAT]. Maks. 12 słów.`,
   },
   {
     id: "viral-hook-curiosidad-027",
-    title: "Esto es lo que cambia cuando entiendes X",
-    summary: "Curiosidad por salto de nivel.",
+    title: "To się zmienia, gdy zrozumiesz X",
+    summary: "Ciekawość skoku poziomu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks:
-“Esto cambia cuando entiendes [X]…”
-[X] = concepto clave del nicho.
-Cierra con “mira esto”.
-Máx 12 palabras.`,
+    prompt: `Napisz 15 hooków:
+„To się zmienia, gdy zrozumiesz [X]…”
+[X] = kluczowa koncepcja z niszy.
+Zakończ „zobacz to”.
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-curiosidad-028",
-    title: "Una vez lo ves, no puedes des-verlo",
-    summary: "Curiosidad por insight fuerte.",
+    title: "Gdy to zobaczysz, nie da się tego „od-zobaczyć”",
+    summary: "Ciekawość mocnego insightu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks con:
-“Una vez lo ves, no puedes des-verlo…”
-Tema: [TEMA].
-Debe sonar como insight (no exageración).`,
+    prompt: `Wygeneruj 15 hooków z:
+„Gdy to zobaczysz, nie da się tego ‘od-zobaczyć’…”
+Temat: [TEMAT].
+Ma brzmieć jak insight (bez przesady).`,
   },
   {
     id: "viral-hook-curiosidad-029",
-    title: "Lo que nadie te dijo del primer segundo",
-    summary: "Curiosidad por primer segundo.",
+    title: "Czego nikt ci nie powiedział o pierwszej sekundzie",
+    summary: "Ciekawość pierwszej sekundy.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks sobre “primer segundo” para [PLATAFORMA].
-Estructura:
-“Lo que nadie te dijo del primer segundo…”
-Cierra con “te enseño”.
-Máx 12 palabras.`,
+    prompt: `Stwórz 20 hooków o „pierwszej sekundzie” dla [PLATFORMA].
+Struktura:
+„Czego nikt ci nie powiedział o pierwszej sekundzie…”
+Zakończ „pokażę ci”.
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-curiosidad-030",
-    title: "Esto se arregla con un ajuste ridículo",
-    summary: "Curiosidad por ajuste pequeño.",
+    title: "To naprawisz jednym absurdalnym ustawieniem",
+    summary: "Ciekawość małej poprawki.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks:
-“Esto se arregla con un ajuste ridículo: [X].”
-[X] debe ser micro-ajuste real.
-Tema: [TEMA].`,
+    prompt: `Wygeneruj 15 hooków:
+„To naprawisz jednym absurdalnym ustawieniem: [X].”
+[X] ma być realną mikro-poprawką.
+Temat: [TEMAT].`,
   },
 
   {
     id: "viral-hook-curiosidad-031",
-    title: "Te muestro el truco sin complicarte",
-    summary: "Curiosidad + baja fricción.",
+    title: "Pokażę ci trik bez komplikowania",
+    summary: "Ciekawość + niskie tarcie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 18 hooks:
-“Te muestro el truco sin complicarte…”
-Tema: [TEMA]. Máx 11 palabras.`,
+    prompt: `Stwórz 18 hooków:
+„Pokażę ci trik bez komplikowania…”
+Temat: [TEMAT]. Maks. 11 słów.`,
   },
   {
     id: "viral-hook-curiosidad-032",
-    title: "La diferencia está en esto (y no te lo dijeron)",
-    summary: "Curiosidad por diferencia clave.",
+    title: "Różnica jest tutaj (a nikt ci tego nie powiedział)",
+    summary: "Ciekawość kluczowej różnicy.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks:
-“La diferencia está en [X]… y no te lo dijeron.”
-[X] debe ser la palanca clave de [TEMA].`,
+    prompt: `Wygeneruj 20 hooków:
+„Różnica jest w [X]… a nikt ci tego nie powiedział.”
+[X] ma być kluczową dźwignią w [TEMAT].`,
   },
   {
     id: "viral-hook-curiosidad-033",
-    title: "Lo que haces al final cambia todo",
-    summary: "Curiosidad por cierre.",
+    title: "To, co robisz na końcu, zmienia wszystko",
+    summary: "Ciekawość zakończenia.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 18 hooks sobre el final/cierre en [TEMA]:
-“Lo que haces al final cambia todo…”
-Cierra con “mira”.
-Máx 11 palabras.`,
+    prompt: `Napisz 18 hooków o finale/zamknięciu w [TEMAT]:
+„To, co robisz na końcu, zmienia wszystko…”
+Zakończ „zobacz”.
+Maks. 11 słów.`,
   },
   {
     id: "viral-hook-curiosidad-034",
-    title: "Aprende esto y te ahorras vueltas",
-    summary: "Curiosidad + ahorro de esfuerzo.",
+    title: "Naucz się tego i oszczędź sobie kręcenia w kółko",
+    summary: "Ciekawość + oszczędność wysiłku.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks:
-“Aprende esto y te ahorras vueltas…”
-Tema: [TEMA]. Debe sonar realista. Máx 11 palabras.`,
+    prompt: `Wygeneruj 15 hooków:
+„Naucz się tego i oszczędź sobie kręcenia w kółko…”
+Temat: [TEMAT]. Ma brzmieć realistycznie. Maks. 11 słów.`,
   },
   {
     id: "viral-hook-curiosidad-035",
-    title: "Si te digo esto, te cambia el enfoque",
-    summary: "Curiosidad por frase clave.",
+    title: "Jeśli ci to powiem, zmieni ci perspektywę",
+    summary: "Ciekawość kluczowej frazy.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks:
-“Si te digo esto, te cambia el enfoque…”
-Incluye “en 10 segundos”.
-Máx 12 palabras. Tema: [TEMA].`,
+    prompt: `Stwórz 20 hooków:
+„Jeśli ci to powiem, zmieni ci perspektywę…”
+Dodaj „w 10 sekund”.
+Maks. 12 słów. Temat: [TEMAT].`,
   },
   {
     id: "viral-hook-curiosidad-036",
-    title: "La clave está en lo que NO dices",
-    summary: "Curiosidad por omisión.",
+    title: "Klucz tkwi w tym, czego NIE mówisz",
+    summary: "Ciekawość przez pominięcie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 18 hooks para copy/contenido en [TEMA]:
-“La clave está en lo que no dices…”
-Cierra con “te muestro”.
-Máx 12 palabras.`,
+    prompt: `Napisz 18 hooków dla copy/treści w [TEMAT]:
+„Klucz tkwi w tym, czego nie mówisz…”
+Zakończ „pokażę ci”.
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-curiosidad-037",
-    title: "Este patrón se repite (y puedes usarlo)",
-    summary: "Curiosidad por patrón.",
+    title: "Ten wzorzec się powtarza (i możesz go użyć)",
+    summary: "Ciekawość wzorca.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks:
-“Este patrón se repite… y puedes usarlo.”
-Tema: [TEMA]. Añade pista 1–3 palabras del patrón.`,
+    prompt: `Wygeneruj 20 hooków:
+„Ten wzorzec się powtarza… i możesz go użyć.”
+Temat: [TEMAT]. Dodaj wskazówkę 1–3 słowa o wzorcu.`,
   },
   {
     id: "viral-hook-curiosidad-038",
-    title: "Te muestro el truco que uso (sin humo)",
-    summary: "Curiosidad + credibilidad.",
+    title: "Pokażę ci trik, którego używam (bez ściemy)",
+    summary: "Ciekawość + wiarygodność.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks:
-“Te muestro el truco que uso… (sin humo)”
-Tema: [TEMA]. Máx 11 palabras.`,
+    prompt: `Stwórz 15 hooków:
+„Pokażę ci trik, którego używam… (bez ściemy)”
+Temat: [TEMAT]. Maks. 11 słów.`,
   },
   {
     id: "viral-hook-curiosidad-039",
-    title: "No adivines: mira esto",
-    summary: "Curiosidad por prueba.",
+    title: "Nie zgaduj: zobacz to",
+    summary: "Ciekawość przez dowód.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks:
-“No adivines… mira esto.”
-Tema: [TEMA].
-Añade una pista de evidencia (dato, ejemplo, antes/después) sin mostrarlo.`,
+    prompt: `Wygeneruj 20 hooków:
+„Nie zgaduj… zobacz to.”
+Temat: [TEMAT].
+Dodaj wskazówkę dowodu (dane, przykład, przed/po) bez pokazywania.`,
   },
   {
     id: "viral-hook-curiosidad-040",
-    title: "Te dejo el método en 3 pasos (pero ojo con el 2)",
-    summary: "Curiosidad por paso crítico.",
+    title: "Dam ci metodę w 3 krokach (ale uważaj na 2.)",
+    summary: "Ciekawość krytycznego kroku.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 12 hooks sobre método de 3 pasos en [TEMA].
-Debe incluir:
-- “3 pasos”
-- “ojo con el 2”
-Máx 14 palabras.`,
+    prompt: `Napisz 12 hooków o metodzie 3 kroków w [TEMAT].
+Musi zawierać:
+- „3 kroki”
+- „uważaj na 2.”
+Maks. 14 słów.`,
   },
 
   {
     id: "viral-hook-curiosidad-041",
-    title: "Este error se ve pequeño, pero pega fuerte",
-    summary: "Curiosidad por impacto oculto.",
+    title: "Ten błąd wygląda mały, ale uderza mocno",
+    summary: "Ciekawość ukrytego wpływu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 18 hooks:
-“Este error se ve pequeño, pero pega fuerte…”
-Tema: [TEMA]. Cierra con “mira por qué”.
-Máx 12 palabras.`,
+    prompt: `Wygeneruj 18 hooków:
+„Ten błąd wygląda mały, ale uderza mocno…”
+Temat: [TEMAT]. Zakończ „zobacz dlaczego”.
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-curiosidad-042",
-    title: "Lo que nadie te dijo del 'por qué'",
-    summary: "Curiosidad por motivación real.",
+    title: "Czego nikt ci nie powiedział o „dlaczego”",
+    summary: "Ciekawość prawdziwej motywacji.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks:
-“Lo que nadie te dijo del ‘por qué’…”
-Tema: [TEMA].
-Que suene como insight real, no motivación barata.`,
+    prompt: `Stwórz 15 hooków:
+„Czego nikt ci nie powiedział o ‘dlaczego’…”
+Temat: [TEMAT].
+Ma brzmieć jak realny insight, nie tania motywacja.`,
   },
   {
     id: "viral-hook-curiosidad-043",
-    title: "Te muestro una forma distinta",
-    summary: "Curiosidad por alternativa.",
+    title: "Pokażę ci inny sposób",
+    summary: "Ciekawość alternatywy.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks:
-“Te muestro una forma distinta de [X]…”
-[X] = acción común del nicho.
-Cierra con “en 15 segundos”.
-Máx 13 palabras.`,
+    prompt: `Wygeneruj 20 hooków:
+„Pokażę ci inny sposób na [X]…”
+[X] = typowe działanie z niszy.
+Zakończ „w 15 sekund”.
+Maks. 13 słów.`,
   },
   {
     id: "viral-hook-curiosidad-044",
-    title: "Haz esto y dime si notas la diferencia",
-    summary: "Curiosidad por experimento.",
+    title: "Zrób to i powiedz, czy widzisz różnicę",
+    summary: "Ciekawość eksperymentu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks tipo experimento:
-“Haz esto y dime si notas la diferencia…”
-Tema: [TEMA]. Debe sugerir un cambio simple.`,
+    prompt: `Stwórz 15 hooków w formie eksperymentu:
+„Zrób to i powiedz, czy widzisz różnicę…”
+Temat: [TEMAT]. Ma sugerować prostą zmianę.`,
   },
   {
     id: "viral-hook-curiosidad-045",
-    title: "La frase que cambia la respuesta",
-    summary: "Curiosidad por frase mágica (realista).",
+    title: "Zdanie, które zmienia odpowiedź",
+    summary: "Ciekawość „magicznej” frazy (realistycznie).",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks:
-“La frase que cambia la respuesta: ‘[FRASE]’”
-[FRASE] debe ser copia/pega para [AUDIENCIA].
-No expliques por qué, solo insinúa “y verás”.`,
+    prompt: `Wygeneruj 20 hooków:
+„Zdanie, które zmienia odpowiedź: ‘[FRAZA]’”
+[FRAZA] ma być copy/paste dla [ODBIORCY].
+Nie wyjaśniaj dlaczego — tylko zasugeruj „i zobaczysz”.`,
   },
   {
     id: "viral-hook-curiosidad-046",
-    title: "Esto se siente raro, pero funciona",
-    summary: "Curiosidad por método no intuitivo.",
+    title: "To brzmi dziwnie, ale działa",
+    summary: "Ciekawość nieintuicyjnej metody.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 18 hooks:
-“Esto se siente raro, pero funciona…”
-Tema: [TEMA]. Cierra con “mira”.
-Máx 11 palabras.`,
+    prompt: `Napisz 18 hooków:
+„To brzmi dziwnie, ale działa…”
+Temat: [TEMAT]. Zakończ „zobacz”.
+Maks. 11 słów.`,
   },
   {
     id: "viral-hook-curiosidad-047",
-    title: "Te muestro lo que nadie está haciendo",
-    summary: "Curiosidad por ventaja.",
+    title: "Pokażę ci, czego nikt nie robi",
+    summary: "Ciekawość przewagi.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks:
-“Te muestro lo que nadie está haciendo en [TEMA]…”
-Debe sonar específico (no “algo secreto”).
-Máx 12 palabras.`,
+    prompt: `Wygeneruj 15 hooków:
+„Pokażę ci, czego nikt nie robi w [TEMAT]…”
+Ma brzmieć konkretnie (nie „coś sekretnego”).
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-curiosidad-048",
-    title: "¿Por qué te pasa esto? (te lo explico)",
-    summary: "Curiosidad por explicación.",
+    title: "Dlaczego to ci się dzieje? (już tłumaczę)",
+    summary: "Ciekawość wyjaśnienia.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks en forma de pregunta:
-“¿Por qué [SÍNTOMA]?”
-y agrega “te lo explico” al final.
-Tema: [TEMA].`,
+    prompt: `Stwórz 20 hooków w formie pytania:
+„Dlaczego [SYMPTOM]?”
+i dodaj na końcu „już tłumaczę”.
+Temat: [TEMAT].`,
   },
   {
     id: "viral-hook-curiosidad-049",
-    title: "Te muestro el punto exacto",
-    summary: "Curiosidad por detalle exacto.",
+    title: "Pokażę ci dokładny punkt",
+    summary: "Ciekawość dokładnego detalu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks:
-“Te muestro el punto exacto donde [X] cambia.”
-Tema: [TEMA]. X = conversión/retención/ventas/claridad/etc.
-Máx 12 palabras.`,
+    prompt: `Wygeneruj 15 hooków:
+„Pokażę ci dokładny punkt, w którym [X] się zmienia.”
+Temat: [TEMAT]. X = konwersja/retencja/sprzedaż/jasność/itd.
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-curiosidad-050",
-    title: "Si haces esto, entiendes el juego",
-    summary: "Curiosidad por “regla del juego”.",
+    title: "Jeśli zrobisz to, zrozumiesz grę",
+    summary: "Ciekawość „zasady gry”.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks:
-“Si haces esto, entiendes el juego…”
-Tema: [TEMA]. Debe insinuar la regla (claridad, oferta, retención, etc.).
-Cierra con “mira por qué”.`,
+    prompt: `Napisz 15 hooków:
+„Jeśli zrobisz to, zrozumiesz grę…”
+Temat: [TEMAT]. Zasugeruj zasadę (jasność, oferta, retencja itd.).
+Zakończ „zobacz dlaczego”.`,
   },
 ];

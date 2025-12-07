@@ -3,213 +3,213 @@
 export const videoPromptsTipsEducativos = [
   {
     id: "video-tip-edu-01",
-    title: "Tip de estudio: técnica de bloques de 25 minutos",
+    title: "Wskazówka do nauki: technika bloków 25 minut",
     summary:
-      "Persona explicando en 8 segundos cómo usar bloques cortos de estudio con descansos.",
-    area: "Educación",
-    category: "Tips educativos",
+      "Osoba w 8 sekund wyjaśnia, jak używać krótkich bloków nauki z przerwami.",
+    area: "Edukacja",
+    category: "Wskazówki edukacyjne",
     prompt: `
-Genera un vídeo de 8 segundos, horizontal 16:9, con una sola persona hablando a cámara, sin texto ni subtítulos en pantalla.
+Wygeneruj wideo trwające 8 sekund, poziome 16:9, z jedną osobą mówiącą do kamery, bez tekstu ani napisów na ekranie.
 
-Instrucciones generales:
-- Estilo UGC educativo, cercano.
-- Cámara a la altura de los ojos, plano medio desde el pecho hacia arriba.
-- Fondo: escritorio sencillo con portátil cerrado, libreta y taza; luz suave y neutra.
-- La persona habla en español, con gestos suaves de manos.
-- Asegura sincronización perfecta de labios con el guion y una voz clara, natural y amigable.
+Ogólne instrukcje:
+- Styl edukacyjny UGC, bliski i naturalny.
+- Kamera na wysokości oczu, plan średni od klatki piersiowej w górę.
+- Tło: proste biurko z zamkniętym laptopem, notesem i kubkiem; miękkie, neutralne światło.
+- Osoba mówi po hiszpańsku, z delikatnymi gestami dłoni.
+- Zapewnij idealną synchronizację ust z tekstem oraz wyraźny, naturalny i przyjazny głos.
 
-Guion (en español, máximo 8 segundos de duración):
+Scenariusz (po hiszpańsku, maks. 8 sekund):
 "Para estudiar mejor, usa bloques de veinticinco minutos, descansa cinco y repite tres veces."
 `,
-thumbnail: "/videos/tips001.gif",
+    thumbnail: "/videos/tips001.gif",
   },
   {
     id: "video-tip-edu-02",
-    title: "Tip de memoria: explicar con tus propias palabras",
+    title: "Wskazówka na pamięć: tłumacz własnymi słowami",
     summary:
-      "Mini explicación de cómo recordar mejor explicando el tema como si se lo contaras a un amigo.",
-    area: "Educación",
-    category: "Tips educativos",
+      "Krótka rada: zapamiętasz lepiej, gdy wyjaśnisz temat własnymi słowami, jakbyś mówił/a do znajomego.",
+    area: "Edukacja",
+    category: "Wskazówki edukacyjne",
     prompt: `
-Genera un vídeo de 8 segundos, horizontal 16:9, con una persona hablando directamente a cámara, sin texto ni subtítulos.
+Wygeneruj wideo trwające 8 sekund, poziome 16:9, z osobą mówiącą bezpośrednio do kamery, bez tekstu ani napisów.
 
-Escena:
-- Plano medio, fondo de habitación sencilla con estantería y algunas plantas.
-- La persona está de pie o sentada, ligeramente inclinada hacia delante, tono cercano.
-- Gesticula con una mano mientras con la otra sostiene una libreta cerrada.
-- Voz en español, ritmo natural, lip sync perfectamente sincronizado con el guion.
+Scena:
+- Plan średni, w tle proste pomieszczenie z regałem i kilkoma roślinami.
+- Osoba stoi lub siedzi, lekko pochylona do przodu, przyjazny ton.
+- Gestykuluje jedną ręką, a w drugiej trzyma zamknięty notes.
+- Głos po hiszpańsku, naturalne tempo, lip sync idealnie zsynchronizowany z tekstem.
 
-Guion en español:
+Scenariusz po hiszpańsku:
 "Cuando quieras memorizar algo, explícalo con tus propias palabras, como si se lo contaras a un amigo."
 `,
-thumbnail: "/videos/tips002.gif",
+    thumbnail: "/videos/tips002.gif",
   },
   {
     id: "video-tip-edu-03",
-    title: "Tip para aprender idiomas: micro hábitos diarios",
+    title: "Wskazówka do nauki języków: mikro-nawyki codziennie",
     summary:
-      "Consejo rápido sobre usar cinco minutos al día para exponerte al idioma.",
-    area: "Educación",
-    category: "Tips educativos",
+      "Szybka rada: poświęć pięć minut dziennie na kontakt z językiem.",
+    area: "Edukacja",
+    category: "Wskazówki edukacyjne",
     prompt: `
-Genera un vídeo de 8 segundos, formato horizontal 16:9, una persona hablando a cámara, sin texto ni subtítulos.
+Wygeneruj wideo trwające 8 sekund, poziome 16:9, jedna osoba mówi do kamery, bez tekstu ani napisów.
 
-Escena:
-- Plano medio, persona sentada en un sofá con auriculares alrededor del cuello.
-- Fondo: salón luminoso y sencillo, con una planta y una lámpara.
-- La persona mira directamente a cámara, tono motivador y relajado.
-- La voz debe ser en español, con lip sync preciso al guion.
+Scena:
+- Plan średni, osoba siedzi na kanapie ze słuchawkami na szyi.
+- Tło: jasny, prosty salon z rośliną i lampą.
+- Osoba patrzy prosto w kamerę, ton motywujący i spokojny.
+- Głos po hiszpańsku, z precyzyjną synchronizacją ust.
 
-Guion en español:
+Scenariusz po hiszpańsku:
 "Para aprender un idioma, escucha cinco minutos cada día: podcast, serie o canción, pero sin fallar."
 `,
-thumbnail: "/videos/tips003.gif",
+    thumbnail: "/videos/tips003.gif",
   },
   {
     id: "video-tip-edu-04",
-    title: "Tip de lectura: subrayar menos, pensar más",
+    title: "Wskazówka czytelnicza: mniej podkreślaj, więcej myśl",
     summary:
-      "Mini consejo sobre no subrayarlo todo y hacer pausas para pensar lo leído.",
-    area: "Educación",
-    category: "Tips educativos",
+      "Rada: nie podkreślaj wszystkiego — rób pauzy i myśl o tym, co czytasz.",
+    area: "Edukacja",
+    category: "Wskazówki edukacyjne",
     prompt: `
-Genera un vídeo de 8 segundos, horizontal 16:9, persona hablando a cámara, sin texto ni subtítulos.
+Wygeneruj wideo trwające 8 sekund, poziome 16:9, osoba mówi do kamery, bez tekstu ani napisów.
 
-Escena:
-- Plano medio, persona en un escritorio con un libro abierto y un resaltador al lado.
-- Luz cálida suave, ambiente de estudio tranquilo.
-- La persona toca ligeramente el libro mientras habla, tono calmado.
-- Voz en español, natural, con sincronización perfecta de labios.
+Scena:
+- Plan średni, osoba przy biurku z otwartą książką i zakreślaczem obok.
+- Ciepłe, miękkie światło, spokojny klimat nauki.
+- Osoba delikatnie dotyka książki podczas mówienia, ton spokojny.
+- Głos po hiszpańsku, naturalny, z perfekcyjną synchronizacją ust.
 
-Guion en español:
+Scenariusz po hiszpańsku:
 "No subrayes todo el libro. Lee un párrafo, para un momento y piensa qué idea importante te llevas."
 `,
-thumbnail: "/videos/tips004.gif",
+    thumbnail: "/videos/tips004.gif",
   },
   {
     id: "video-tip-edu-05",
-    title: "Tip de concentración: eliminar distracciones visibles",
+    title: "Wskazówka koncentracji: usuń widoczne rozpraszacze",
     summary:
-      "Consejo de quitar del escritorio cosas que distraen antes de ponerte a estudiar o trabajar.",
-    area: "Educación",
-    category: "Tips educativos",
+      "Rada: zanim zaczniesz naukę lub pracę, usuń z biurka rzeczy, które rozpraszają.",
+    area: "Edukacja",
+    category: "Wskazówki edukacyjne",
     prompt: `
-Genera un vídeo de 8 segundos, formato horizontal 16:9, persona hablando a cámara, sin texto ni subtítulos.
+Wygeneruj wideo trwające 8 sekund, poziome 16:9, osoba mówi do kamery, bez tekstu ani napisów.
 
-Escena:
-- Plano medio en un escritorio minimalista: portátil cerrado, una libreta, un bolígrafo.
-- Al inicio del plano se ve un móvil boca arriba que la persona mueve fuera del encuadre.
-- La persona mira a cámara y habla con tono práctico.
-- Voz en español, lip sync preciso con el guion.
+Scena:
+- Plan średni przy minimalistycznym biurku: zamknięty laptop, notes, długopis.
+- Na początku w kadrze widać telefon ekranem do góry, który osoba przesuwa poza kadr.
+- Osoba patrzy w kamerę i mówi praktycznym tonem.
+- Głos po hiszpańsku, lip sync precyzyjny.
 
-Guion en español:
+Scenariusz po hiszpańsku:
 "Antes de concentrarte, quita el móvil y todo lo que distraiga de tu mesa. Tu cerebro lo va a agradecer."
 `,
-thumbnail: "/videos/tips005.gif",
+    thumbnail: "/videos/tips005.gif",
   },
   {
     id: "video-tip-edu-06",
-    title: "Tip rápido de finanzas básicas: paga primero tus ahorros",
+    title: "Szybka wskazówka finansowa: najpierw płać swoim oszczędnościom",
     summary:
-      "Explicación sencilla de la idea de ahorrarte a ti mismo primero al cobrar.",
-    area: "Educación",
-    category: "Tips educativos",
+      "Proste wyjaśnienie zasady: najpierw odkładaj dla siebie, gdy dostajesz wypłatę.",
+    area: "Edukacja",
+    category: "Wskazówki edukacyjne",
     prompt: `
-Genera un vídeo de 8 segundos, horizontal 16:9, con una persona hablando a cámara, sin texto ni subtítulos.
+Wygeneruj wideo trwające 8 sekund, poziome 16:9, z osobą mówiącą do kamery, bez tekstu ani napisów.
 
-Escena:
-- Plano medio en cocina o comedor, persona sentada con una libreta y una calculadora pequeña.
-- Tono tranquilo, cercano, sin dramatismo.
-- La persona marca algo en la libreta mientras habla, y luego levanta la vista a cámara.
-- Voz en español, clara, con sincronización perfecta de labios.
+Scena:
+- Plan średni w kuchni lub jadalni: osoba siedzi z notesem i małym kalkulatorem.
+- Ton spokojny, bliski, bez dramatyzowania.
+- Osoba zaznacza coś w notesie podczas mówienia, potem podnosi wzrok na kamerę.
+- Głos po hiszpańsku, wyraźny, z perfekcyjną synchronizacją ust.
 
-Guion en español:
+Scenariusz po hiszpańsku:
 "Cuando cobres, primero aparta un porcentaje para ahorrar y después paga todo lo demás, nunca al revés."
 `,
-thumbnail: "/videos/tips006.gif",
+    thumbnail: "/videos/tips006.gif",
   },
   {
     id: "video-tip-edu-07",
-    title: "Tip de salud digital: pausas para tus ojos",
+    title: "Wskazówka higieny cyfrowej: przerwy dla oczu",
     summary:
-      "Consejo de descansar la vista mirando lejos después de estar frente a pantallas.",
-    area: "Educación",
-    category: "Tips educativos",
+      "Rada: odpocznij wzrok, patrząc w dal po dłuższym czasie przed ekranem.",
+    area: "Edukacja",
+    category: "Wskazówki edukacyjne",
     prompt: `
-Genera un vídeo de 8 segundos, formato horizontal 16:9, persona hablando a cámara, sin texto ni subtítulos.
+Wygeneruj wideo trwające 8 sekund, poziome 16:9, osoba mówi do kamery, bez tekstu ani napisów.
 
-Escena:
-- Plano medio, persona frente a un portátil, en un escritorio junto a una ventana.
-- Primero, la persona cierra el portátil suavemente y mira por la ventana a lo lejos.
-- Luego gira la cabeza hacia la cámara y da el consejo.
-- Voz en español, calmada, con lip sync perfectamente alineado.
+Scena:
+- Plan średni, osoba przed laptopem przy biurku obok okna.
+- Najpierw osoba delikatnie zamyka laptop i patrzy przez okno w dal.
+- Następnie odwraca głowę do kamery i podaje wskazówkę.
+- Głos po hiszpańsku, spokojny, lip sync idealnie dopasowany.
 
-Guion en español:
+Scenariusz po hiszpańsku:
 "Si pasas horas frente a una pantalla, cada veinte minutos mira algo lejano durante veinte segundos."
 `,
-thumbnail: "/videos/tips007.gif",
+    thumbnail: "/videos/tips007.gif",
   },
   {
     id: "video-tip-edu-08",
-    title: "Tip de creatividad: anotar ideas en el momento",
+    title: "Wskazówka kreatywności: zapisuj pomysły od razu",
     summary:
-      "Mini consejo sobre escribir las ideas apenas aparezcan para no perderlas.",
-    area: "Educación",
-    category: "Tips educativos",
+      "Krótka rada: zapisuj pomysły, gdy tylko się pojawią, żeby ich nie stracić.",
+    area: "Edukacja",
+    category: "Wskazówki edukacyjne",
     prompt: `
-Genera un vídeo de 8 segundos, horizontal 16:9, con una persona hablando a cámara, sin texto ni subtítulos.
+Wygeneruj wideo trwające 8 sekund, poziome 16:9, z osobą mówiącą do kamery, bez tekstu ani napisów.
 
-Escena:
-- Plano medio en un salón o cafetería, persona con una pequeña libreta en la mano y un bolígrafo.
-- Al inicio del plano, la persona finge recordar algo de repente, abre la libreta y escribe rápido.
-- Luego mira a cámara y da el tip con una pequeña sonrisa.
-- Voz en español, tono ligero y creativo, con sincronización perfecta de labios.
+Scena:
+- Plan średni w salonie lub kawiarni, osoba trzyma mały notes i długopis.
+- Na początku udaje, że nagle sobie o czymś przypomina, otwiera notes i szybko zapisuje.
+- Potem patrzy w kamerę i daje tip z małym uśmiechem.
+- Głos po hiszpańsku, lekki i kreatywny ton, z perfekcyjną synchronizacją ust.
 
-Guion en español:
+Scenariusz po hiszpańsku:
 "Las buenas ideas se olvidan rápido. Ten siempre una nota a mano y apúntalas en cuanto aparezcan."
 `,
-thumbnail: "/videos/tips008.gif",
+    thumbnail: "/videos/tips008.gif",
   },
   {
     id: "video-tip-edu-09",
-    title: "Tip para presentar mejor: practicar en voz alta",
+    title: "Wskazówka do lepszych prezentacji: ćwicz na głos",
     summary:
-      "Consejo simple sobre ensayar una presentación hablando en voz alta, no solo leyendo.",
-    area: "Educación",
-    category: "Tips educativos",
+      "Prosta rada: ćwicz prezentację, mówiąc na głos, nie tylko czytając.",
+    area: "Edukacja",
+    category: "Wskazówki edukacyjne",
     prompt: `
-Genera un vídeo de 8 segundos, formato horizontal 16:9, persona hablando a cámara, sin texto ni subtítulos.
+Wygeneruj wideo trwające 8 sekund, poziome 16:9, osoba mówi do kamery, bez tekstu ani napisów.
 
-Escena:
-- Plano medio en una habitación con pizarra pequeña o hoja grande pegada a la pared.
-- La persona sostiene unas hojas de papel, las mira un momento y luego mira a cámara.
-- Gesticula con la mano como si estuviera presentando a una audiencia imaginaria.
-- Voz en español, segura pero amigable, con lip sync perfecto.
+Scena:
+- Plan średni w pokoju z małą tablicą lub dużą kartką przyczepioną do ściany.
+- Osoba trzyma kilka kartek, patrzy na nie chwilę, potem patrzy w kamerę.
+- Gestykuluje dłonią, jakby prezentowała przed wyobrażoną publicznością.
+- Głos po hiszpańsku, pewny ale przyjazny, lip sync perfekcyjny.
 
-Guion en español:
+Scenariusz po hiszpańsku:
 "No prepares tu presentación solo leyendo. Ensáyala en voz alta, de pie, como si ya estuvieras ahí."
 `,
-thumbnail: "/videos/tips009.gif",
+    thumbnail: "/videos/tips009.gif",
   },
   {
     id: "video-tip-edu-10",
-    title: "Tip para organizar el día: tres prioridades máximo",
+    title: "Wskazówka organizacji dnia: maksymalnie trzy priorytety",
     summary:
-      "Mini explicación de elegir solo tres prioridades clave para el día.",
-    area: "Educación",
-    category: "Tips educativos",
+      "Mini wyjaśnienie: wybierz tylko trzy kluczowe priorytety na dziś.",
+    area: "Edukacja",
+    category: "Wskazówki edukacyjne",
     prompt: `
-Genera un vídeo de 8 segundos, horizontal 16:9, con una persona hablando a cámara, sin texto ni subtítulos.
+Wygeneruj wideo trwające 8 sekund, poziome 16:9, z osobą mówiącą do kamery, bez tekstu ani napisów.
 
-Escena:
-- Plano medio en escritorio con una hoja en blanco dividida en tres líneas.
-- La persona escribe tres puntos rápidos, luego levanta la vista a cámara.
-- Tono sereno y práctico, sin exageración.
-- Voz en español, clara, con sincronización labial muy precisa.
+Scena:
+- Plan średni przy biurku z białą kartką podzieloną na trzy linie.
+- Osoba szybko zapisuje trzy punkty, potem podnosi wzrok na kamerę.
+- Ton spokojny i praktyczny, bez przesady.
+- Głos po hiszpańsku, wyraźny, z bardzo precyzyjną synchronizacją ust.
 
-Guion en español:
+Scenariusz po hiszpańsku:
 "En vez de listas infinitas, elige solo tres prioridades importantes para hoy y hazlas primero."
 `,
-thumbnail: "/videos/tips010.gif",
+    thumbnail: "/videos/tips010.gif",
   },
 ];

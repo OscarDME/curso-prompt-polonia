@@ -2,438 +2,436 @@
 
 export const trainingsContent = {
   id: "trainings",
-  title: "Entrenamientos — Domina ChatGPT paso a paso",
+  title: "Treningi — Opanuj ChatGPT krok po kroku",
   heroText:
-    "Aquí tienes clases cortas y directas para aprender a usar ChatGPT de forma estratégica. No es teoría suelta: son entrenamientos diseñados para que conectes tu Banco Secreto de Prompts con tu día a día, negocios y proyectos.",
+    "Oto krótkie i konkretne lekcje, dzięki którym nauczysz się używać ChatGPT w sposób strategiczny. To nie luźna teoria: to treningi zaprojektowane tak, aby połączyć Twoj Tajny Bank Promptów z codziennością, biznesem i projektami.",
 
   classes: [
     {
       id: "fundamentos-chatgpt",
-      title: "Fundamentos de ChatGPT en 30 minutos",
+      title: "Podstawy ChatGPT w 30 minut",
       level: "Principiante",
       duration: "30 min",
       summary:
-        "Qué es ChatGPT, cómo piensa y qué puedes (y no puedes) esperar de él para no frustrarte.",
+        "Czym jest ChatGPT, jak „myśli” i czego możesz (a czego nie) od niego oczekiwać, żeby uniknąć frustracji.",
       goals: [
-        "Entender qué es realmente un modelo de lenguaje.",
-        "Evitar las expectativas irreales que hacen perder tiempo.",
-        "Aprender la forma básica de hablarle a la IA."
+        "Zrozumieć, czym naprawdę jest model językowy.",
+        "Unikać nierealnych oczekiwań, które zabierają czas.",
+        "Poznać podstawowy sposób komunikacji z AI."
       ],
       outline: [
-        "Qué es ChatGPT y cómo fue entrenado (explicado en lenguaje simple).",
-        "Qué cosas hace muy bien y en qué situaciones falla.",
-        "Diferencia entre pedir “cosas” y pedir “procesos”.",
-        "Buenas prácticas básicas: contexto, tono, ejemplos y límites.",
-        "Errores típicos que cometen casi todos al empezar."
+        "Czym jest ChatGPT i jak został wytrenowany (prosto wyjaśnione).",
+        "Co robi świetnie, a w jakich sytuacjach zawodzi.",
+        "Różnica między proszeniem o „rzeczy” a proszeniem o „procesy”.",
+        "Podstawowe dobre praktyki: kontekst, ton, przykłady i ograniczenia.",
+        "Typowe błędy, które popełnia prawie każdy na początku."
       ],
       content: [
-        "En esta clase te doy el mapa general para que dejes de ver a ChatGPT como una “caja mágica” y empieces a tratarlo como un colaborador. Entender esto cambia por completo la forma en la que le pides cosas.",
-        "Te muestro casos concretos donde la IA brilla (ideas, borradores, estructura, revisión) y situaciones donde necesitas revisar con lupa lo que te da. La idea es que a partir de esta clase ya no le tengas miedo, pero tampoco te dejes engañar."
+        "W tej lekcji dostajesz ogólną mapę, dzięki której przestaniesz postrzegać ChatGPT jako „magiczne pudełko” i zaczniesz traktować go jak współpracownika. To zrozumienie całkowicie zmienia sposób, w jaki o coś prosisz.",
+        "Pokazuję konkretne przypadki, w których AI błyszczy (pomysły, szkice, struktura, korekta) oraz sytuacje, w których trzeba bardzo uważnie sprawdzać odpowiedzi. Chodzi o to, żeby po tej lekcji nie bać się AI, ale też nie dać się jej zwieść."
       ]
     },
     {
       id: "arquitectura-prompt",
-      title: "Arquitectura de un buen prompt",
+      title: "Architektura dobrego promptu",
       level: "Principiante",
       duration: "35 min",
       summary:
-        "La estructura base para que casi cualquier prompt funcione mejor: rol, contexto, objetivo y formato.",
+        "Bazowa struktura, dzięki której prawie każdy prompt działa lepiej: rola, kontekst, cel i format.",
       goals: [
-        "Aprender la estructura mínima que debe tener un buen prompt.",
-        "Saber cómo traducir tu idea vaga en una instrucción clara.",
-        "Crear plantillas que puedas reutilizar una y otra vez."
+        "Poznać minimalną strukturę, jaką powinien mieć dobry prompt.",
+        "Wiedzieć, jak zamienić niejasny pomysł w jasną instrukcję.",
+        "Tworzyć szablony, które można używać wielokrotnie."
       ],
       outline: [
-        "Los 4 bloques principales de un prompt efectivo.",
-        "Cómo definir el rol de la IA (mentor, copywriter, analista, etc.).",
-        "Cómo darle contexto sin escribir una novela.",
-        "Pedir formato, extensión, tono y ejemplo de salida.",
-        "Ejemplos prácticos de prompts “malos” vs “buenos”."
+        "4 główne bloki skutecznego promptu.",
+        "Jak zdefiniować rolę AI (mentor, copywriter, analityk itd.).",
+        "Jak dać kontekst bez pisania powieści.",
+        "Proszenie o format, długość, ton i przykład wyniku.",
+        "Praktyczne przykłady promptów „złych” vs „dobrych”."
       ],
       content: [
-        "Aquí desmontamos el mito de que necesitas prompts súper complicados. Lo que necesitas es una estructura clara y repetible.",
-        "Al final de la clase tendrás 2–3 plantillas base que podrás adaptar para cualquier situación: contenido, negocio, organización personal y más."
+        "Rozbrajamy mit, że potrzebujesz super skomplikowanych promptów. Potrzebujesz jasnej, powtarzalnej struktury.",
+        "Na koniec będziesz mieć 2–3 bazowe szablony, które dopasujesz do każdej sytuacji: treści, biznesu, organizacji osobistej i nie tylko."
       ]
     },
     {
       id: "sistema-chatgpt",
-      title: "Convierte ChatGPT en tu sistema de trabajo",
+      title: "Zamień ChatGPT w swój system pracy",
       level: "Intermedio",
       duration: "40 min",
       summary:
-        "Cómo dejar de pedir cosas sueltas y montar flujos de trabajo completos con IA.",
+        "Jak przestać prosić o pojedyncze rzeczy i zbudować pełne workflow z AI.",
       goals: [
-        "Pasar de usar ChatGPT “a ratos” a integrarlo en tu rutina.",
-        "Diseñar un flujo de pasos donde la IA entra en cada etapa.",
-        "Conectar tus prompts favoritos con tareas concretas."
+        "Przejść od używania ChatGPT „od czasu do czasu” do włączenia go w rutynę.",
+        "Zaprojektować proces krok po kroku, w którym AI działa na każdym etapie.",
+        "Połączyć ulubione prompty z konkretnymi zadaniami."
       ],
       outline: [
-        "Qué es un “sistema” y por qué la IA encaja perfecto ahí.",
-        "Ejemplo: sistema para crear contenido semanal.",
-        "Ejemplo: sistema para lanzar un producto digital.",
-        "Cómo documentar tu flujo para poder repetirlo sin pensar.",
-        "Uso del Banco Secreto de Prompts dentro de cada paso."
+        "Czym jest „system” i dlaczego AI idealnie do niego pasuje.",
+        "Przykład: system tworzenia treści tygodniowych.",
+        "Przykład: system wypuszczania produktu cyfrowego.",
+        "Jak dokumentować workflow, żeby powtarzać go bez myślenia.",
+        "Wykorzystanie Tajnego Banku Promptów w każdym kroku."
       ],
       content: [
-        "En vez de abrir ChatGPT sin saber qué pedirle, vas a tener un mapa: paso 1, paso 2, paso 3… y en cada paso, uno o varios prompts recomendados.",
-        "La meta es que sientas que ChatGPT es parte de tu equipo y no un “juguete” que usas sólo cuando te acuerdas."
+        "Zamiast otwierać ChatGPT i nie wiedzieć, o co poprosić, będziesz mieć mapę: krok 1, krok 2, krok 3… a w każdym kroku — jeden lub kilka rekomendowanych promptów.",
+        "Celem jest, żebyś czuł(a), że ChatGPT jest częścią Twojego zespołu, a nie „zabawką”, po którą sięgasz tylko czasem."
       ]
     },
     {
       id: "favoritos-banco",
-      title: "Construye tu propio banco de prompts favoritos",
+      title: "Zbuduj własny bank ulubionych promptów",
       level: "Intermedio",
       duration: "25 min",
       summary:
-        "Cómo seleccionar, guardar y organizar los prompts que más uses para ir creando tu arsenal personal.",
+        "Jak wybierać, zapisywać i organizować prompty, których używasz najczęściej, aby stworzyć prywatny arsenał.",
       goals: [
-        "Saber elegir cuáles prompts se ganan un lugar fijo en tu sistema.",
-        "Evitar perder tiempo buscando el mismo prompt una y otra vez.",
-        "Crear una biblioteca personal simple pero potente."
+        "Wiedzieć, które prompty zasługują na stałe miejsce w Twoim systemie.",
+        "Nie tracić czasu na szukanie tego samego promptu w kółko.",
+        "Stworzyć prostą, ale bardzo mocną osobistą bibliotekę."
       ],
       outline: [
-        "Cómo marcar los prompts del curso que más resuenen contigo.",
-        "Ideas de estructura para tu banco personal (por objetivos, por cliente, por formato…).",
-        "Ejemplos de “colecciones” de prompts que trabajan juntos.",
-        "Cómo revisar y actualizar tu banco cada cierto tiempo."
+        "Jak oznaczać prompty z kursu, które najbardziej z Tobą rezonują.",
+        "Pomysły na strukturę Twojego prywatnego banku (po celach, klientach, formatach…).",
+        "Przykłady „kolekcji” promptów, które działają razem.",
+        "Jak co jakiś czas przeglądać i aktualizować swój bank."
       ],
       content: [
-        "La verdadera magia no está en tener 13.500 prompts, sino en saber cuáles 20–30 usas todo el tiempo para tu negocio.",
-        "En esta clase te enseño a armar ese banco personal y a que no se convierta en un caos imposible de mantener."
+        "Prawdziwa magia nie polega na posiadaniu 13 500 promptów, tylko na tym, żeby znać swoje 20–30, których używasz ciągle w biznesie.",
+        "W tej lekcji uczę, jak zbudować taki prywatny bank i nie zamienić go w chaos nie do utrzymania."
       ]
     },
     {
       id: "chatgpt-contenido-mes",
-      title: "Plan de contenido de 30 días con ChatGPT",
+      title: "Plan treści na 30 dni z ChatGPT",
       level: "Intermedio",
       duration: "45 min",
       summary:
-        "Cómo pasar de cero ideas a un calendario completo de contenido usando plantillas del Banco Secreto.",
+        "Jak przejść od zera pomysłów do pełnego kalendarza treści, używając szablonów z Tajnego Banku.",
       goals: [
-        "Salir de clase con un boceto real de tu calendario de contenido.",
-        "Aprender a conectar prompts de ideas, guion y publicación.",
-        "Evitar quedarte sólo en “tener ideas” y no ejecutarlas."
+        "Wyjść z zajęć z realnym szkicem kalendarza treści.",
+        "Nauczyć się łączyć prompty do pomysłów, scenariusza i publikacji.",
+        "Nie utknąć na etapie „mam pomysły”, tylko je wdrażać."
       ],
       outline: [
-        "Definir tu objetivo de contenido y tu público principal.",
-        "Usar prompts específicos para generar temas y ángulos.",
-        "Convertir ideas en guiones y piezas listas para publicar.",
-        "Definir frecuencia realista y tipos de contenido por semana.",
-        "Sistema rápido para reciclar y mejorar piezas que funcionen."
+        "Ustalenie celu treści i głównej grupy odbiorców.",
+        "Użycie konkretnych promptów do generowania tematów i kątów (angles).",
+        "Zamiana pomysłów w scenariusze i materiały gotowe do publikacji.",
+        "Ustalenie realistycznej częstotliwości i typów treści na tydzień.",
+        "Szybki system recyklingu i ulepszania treści, które działają."
       ],
       content: [
-        "Esta es una de las clases más prácticas: trabajas sobre tu propio nicho mientras ves los ejemplos.",
-        "Al final tendrás un calendario que puedes copiar/pegar en tu gestor de tareas o en tu herramienta de notas."
+        "To jedne z najbardziej praktycznych zajęć: pracujesz na własnej niszy, oglądając przykłady.",
+        "Na koniec będziesz mieć kalendarz, który możesz skopiować/wkleić do menedżera zadań albo narzędzia do notatek."
       ]
     },
     {
       id: "chatgpt-copy-ventas",
-      title: "ChatGPT como copywriter de ventas",
+      title: "ChatGPT jako copywriter sprzedażowy",
       level: "Intermedio",
       duration: "40 min",
       summary:
-        "Cómo usar la IA para escribir textos que venden sin sonar robóticos ni genéricos.",
+        "Jak używać AI do pisania tekstów, które sprzedają, bez brzmienia robotycznego i generycznego.",
       goals: [
-        "Aprender a darle a la IA el contexto comercial correcto.",
-        "Generar versiones, angles y pruebas A/B de forma rápida.",
-        "Mantener tu voz y tu promesa central en todo el copy."
+        "Nauczyć się dawać AI właściwy kontekst biznesowy.",
+        "Szybko generować wersje, kąty (angles) i testy A/B.",
+        "Utrzymać swój głos i główną obietnicę w całym copy."
       ],
       outline: [
-        "Qué info comercial necesita la IA antes de escribir.",
-        "Prompts del Banco para headlines, bullets y ofertas.",
-        "Cómo pedirle a ChatGPT que mejore un texto que ya tienes.",
-        "Uso de frameworks de copy (AIDA, PAS, etc.) con IA.",
-        "Checklist final para revisar cualquier copy generado."
+        "Jakich informacji biznesowych AI potrzebuje, zanim zacznie pisać.",
+        "Prompty z Banku do nagłówków, bulletów i ofert.",
+        "Jak poprosić ChatGPT o poprawę tekstu, który już masz.",
+        "Użycie frameworków copy (AIDA, PAS itd.) z AI.",
+        "Końcowa checklista do weryfikacji każdego wygenerowanego copy."
       ],
       content: [
-        "Aquí conectamos directamente tu producto/servicio con los prompts del Banco enfocados en ventas.",
-        "La idea es que termines con borradores sólidos para páginas de venta, anuncios y secuencias de e-mail."
+        "Łączymy Twoją ofertę z promptami z Banku nastawionymi na sprzedaż.",
+        "Celem są solidne szkice pod strony sprzedażowe, reklamy oraz sekwencje e-mail."
       ]
     },
     {
       id: "chatgpt-editor",
-      title: "ChatGPT como editor y revisor de tu trabajo",
+      title: "ChatGPT jako redaktor i recenzent Twojej pracy",
       level: "Intermedio",
       duration: "30 min",
       summary:
-        "Haz que la IA actúe como editor exigente para pulir textos, guiones y documentos.",
+        "Spraw, aby AI działała jak wymagający redaktor i dopracowywała teksty, scenariusze i dokumenty.",
       goals: [
-        "Dejar de publicar textos sin revisar por falta de tiempo.",
-        "Tener una segunda opinión rápida sobre lo que escribes.",
-        "Convertir a ChatGPT en tu “editor de confianza”."
+        "Przestać publikować bez korekty z braku czasu.",
+        "Mieć szybką drugą opinię do tego, co piszesz.",
+        "Zamienić ChatGPT w „zaufanego redaktora”."
       ],
       outline: [
-        "Cómo pedir feedback estructurado (no sólo “mejora este texto”).",
-        "Prompts para revisar claridad, tono, persuasión y errores.",
-        "Sistema de 3 rondas rápidas de corrección con IA.",
-        "Cuándo hacerle caso y cuándo seguir tu intuición."
+        "Jak prosić o ustrukturyzowany feedback (a nie tylko „popraw ten tekst”).",
+        "Prompty do korekty klarowności, tonu, perswazji i błędów.",
+        "System 3 szybkich rund poprawek z AI.",
+        "Kiedy słuchać AI, a kiedy swojej intuicji."
       ],
       content: [
-        "No se trata de que la IA tenga siempre la razón, sino de tener una mirada extra que te ahorra tiempo.",
-        "Aprenderás a configurar prompts para que revise tu contenido como si fuera un editor, profesor o cliente ideal."
+        "Nie chodzi o to, że AI zawsze ma rację — chodzi o dodatkowe „oko”, które oszczędza czas.",
+        "Nauczysz się ustawiać prompty tak, by treści były oceniane jak przez redaktora, nauczyciela albo idealnego klienta."
       ]
     },
-      {
+    {
       id: "marca-personal-redes",
-      title: "ChatGPT para marca personal en redes",
+      title: "ChatGPT do budowania marki osobistej w social media",
       level: "Intermedio",
       duration: "40 min",
       summary:
-        "Cómo usar la IA para definir tu voz, tus pilares de contenido y tu presencia en redes sin sonar igual que todos.",
+        "Jak używać AI do zdefiniowania głosu, filarów treści i obecności w social media bez brzmienia jak wszyscy.",
       goals: [
-        "Clarificar qué quieres representar con tu marca personal.",
-        "Definir pilares de contenido y tipos de publicaciones.",
-        "Usar prompts para mantener coherencia de voz en distintos formatos."
+        "Ustalić, co chcesz reprezentować poprzez swoją markę osobistą.",
+        "Zdefiniować filary treści i typy publikacji.",
+        "Używać promptów, by utrzymać spójny ton w różnych formatach."
       ],
       outline: [
-        "Ejercicios rápidos para que la IA te ayude a definir tu posicionamiento.",
-        "Prompts para encontrar temas recurrentes y enfoques únicos.",
-        "Crear una 'guía de estilo' de tu comunicación con ayuda de ChatGPT.",
-        "Ideas de publicaciones para distintas plataformas (shorts, carruseles, hilos).",
-        "Cómo revisar cada pieza para que suene realmente a ti."
+        "Szybkie ćwiczenia: AI pomaga zdefiniować Twoje pozycjonowanie.",
+        "Prompty do znajdowania powracających tematów i unikalnych ujęć.",
+        "Stworzenie „przewodnika stylu” komunikacji z pomocą ChatGPT.",
+        "Pomysły na publikacje dla różnych platform (shorty, karuzele, wątki).",
+        "Jak sprawdzać każdą treść, żeby brzmiała naprawdę jak Ty."
       ],
       content: [
-        "En vez de copiar la voz de otra persona, la idea es usar IA como espejo: tú le das ejemplos y descripciones, y ella te ayuda a poner en palabras quién eres cuando comunicas.",
-        "Al terminar, tendrás una mini guía de estilo y un listado de temas recurrentes que harán que tu contenido se sienta consistente, aunque cambies de formato o plataforma."
+        "Zamiast kopiować czyjś styl, użyj AI jak lustra: Ty dostarczasz przykłady i opisy, a ona pomaga ubrać w słowa to, kim jesteś, gdy komunikujesz.",
+        "Na koniec będziesz mieć mini przewodnik stylu i listę powracających tematów, dzięki którym Twoje treści będą spójne — nawet gdy zmienisz format lub platformę."
       ]
     },
     {
       id: "manual-marca-ia",
-      title: "Crea tu mini manual de marca con ChatGPT",
+      title: "Stwórz mini brand book z ChatGPT",
       level: "Intermedio",
       duration: "30 min",
       summary:
-        "Define tono, vocabulario, límites y mensajes clave de tu marca para usar siempre los mismos criterios.",
+        "Określ ton, słownictwo, granice i kluczowe komunikaty marki, żeby zawsze stosować te same kryteria.",
       goals: [
-        "Evitar que cada texto parezca escrito por una persona distinta.",
-        "Tener un documento de referencia para ti y para tu equipo.",
-        "Hacer que la IA respete el estilo de tu marca en cualquier pieza."
+        "Uniknąć sytuacji, w której każdy tekst wygląda jak od innej osoby.",
+        "Mieć dokument odniesienia dla siebie i zespołu.",
+        "Sprawić, by AI respektowała styl marki w każdej treści."
       ],
       outline: [
-        "Elementos básicos de un manual de marca sencillo.",
-        "Prompts para definir tono, persona de marca y palabras prohibidas.",
-        "Generar ejemplos de frases 'sí' y 'no' para guiar a la IA.",
-        "Cómo convertir ese manual en un prompt recurrente.",
-        "Uso del manual al trabajar con el Banco Secreto de Prompts."
+        "Podstawowe elementy prostego manuala marki.",
+        "Prompty do określenia tonu, persony marki i zakazanych słów.",
+        "Generowanie przykładów zdań „tak” i „nie”, by prowadzić AI.",
+        "Jak zamienić ten manual w powtarzalny prompt.",
+        "Jak używać manuala z Tajnym Bankiem Promptów."
       ],
       content: [
-        "No necesitas un manual de 40 páginas. Con una o dos páginas claras sobre cómo quieres sonar ya puedes dar instrucciones sólidas a ChatGPT.",
-        "Aprenderás a crear un prompt maestro que le recuerde siempre ese manual, de forma que cualquier texto generado se sienta alineado con tu identidad."
+        "Nie potrzebujesz 40-stronicowego brand booka. Wystarczą 1–2 strony z jasnymi zasadami, jak chcesz brzmieć, aby dawać ChatGPT bardzo dobre instrukcje.",
+        "Nauczysz się stworzyć master prompt, który stale przypomina AI te zasady, dzięki czemu każdy wygenerowany tekst będzie spójny z Twoją tożsamością."
       ]
     },
-     {
+    {
       id: "chatgpt-aprendizaje",
-      title: "Usa ChatGPT para aprender más rápido",
+      title: "Używaj ChatGPT, aby uczyć się szybciej",
       level: "Intermedio",
       duration: "30 min",
       summary:
-        "Convierte la IA en tu tutor personal para aprender temas nuevos 3 veces más rápido.",
+        "Zamień AI w osobistego tutora i ucz się nowych tematów 3× szybciej.",
       goals: [
-        "Aprender a pedir explicaciones a tu nivel, no al de un experto.",
-        "Diseñar planes de estudio personalizados con IA.",
-        "Usar ChatGPT como simulador de exámenes, tutor y compañero de práctica."
+        "Prosić o wyjaśnienia na Twoim poziomie, a nie jak dla eksperta.",
+        "Projektować spersonalizowane plany nauki z AI.",
+        "Używać ChatGPT jako symulatora egzaminów, tutora i partnera do ćwiczeń."
       ],
       outline: [
-        "Prompts para pedir explicaciones con ejemplos y metáforas.",
-        "Cómo armar un mini-plan de estudio guiado por IA.",
-        "Simular exámenes, entrevistas o preguntas de práctica.",
-        "Uso del Banco de prompts para profundizar en temas concretos."
+        "Prompty do wyjaśnień z przykładami i metaforami.",
+        "Jak zbudować mini plan nauki prowadzony przez AI.",
+        "Symulowanie egzaminów, rozmów kwalifikacyjnych i pytań treningowych.",
+        "Wykorzystanie Banku promptów do pogłębiania konkretnych tematów."
       ],
       content: [
-        "Si estás aprendiendo marketing, programación, negocios o cualquier tema, aquí verás cómo hacer que la IA sea tu mentor extra.",
-        "El objetivo es que puedas aprender con foco, sin perderte entre mil recursos sueltos."
+        "Jeśli uczysz się marketingu, programowania, biznesu lub czegokolwiek — zobaczysz, jak sprawić, żeby AI była Twoim dodatkowym mentorem.",
+        "Celem jest nauka z fokussem, bez gubienia się w tysiącu luźnych materiałów."
       ]
     },
-        {
+    {
       id: "chatgpt-email-marketing",
-      title: "ChatGPT para email marketing en 1 hora",
+      title: "ChatGPT do e-mail marketingu w 1 godzinę",
       level: "Intermedio",
       duration: "40 min",
       summary:
-        "Cómo usar la IA para planear, escribir y mejorar campañas de e-mail sin perder tu voz.",
+        "Jak planować, pisać i ulepszać kampanie e-mail z AI, nie tracąc swojego głosu.",
       goals: [
-        "Diseñar una mini-estrategia de email marketing en torno a un producto o servicio.",
-        "Generar secuencias de e-mails (bienvenida, lanzamiento, nutrición) usando prompts específicos.",
-        "Mejorar e-mails antiguos para aumentar apertura y clics."
+        "Zaprojektować mini strategię e-mail marketingu wokół produktu lub usługi.",
+        "Generować sekwencje maili (powitalna, launch, nurturing) konkretnymi promptami.",
+        "Ulepszać stare maile, by zwiększyć open rate i kliknięcia."
       ],
       outline: [
-        "Qué información necesita ChatGPT antes de escribir tus e-mails.",
-        "Prompts para líneas de asunto, preheaders y hooks de apertura.",
-        "Secuencias típicas: bienvenida, carrito abandonado, lanzamiento rápido.",
-        "Cómo pedir reescrituras con distintos tonos (amigable, directo, premium).",
-        "Checklist para revisar un e-mail antes de enviarlo."
+        "Jakich informacji ChatGPT potrzebuje, zanim napisze Twoje maile.",
+        "Prompty na tematy (subject lines), preheadery i hooki otwarcia.",
+        "Typowe sekwencje: powitalna, porzucony koszyk, szybki launch.",
+        "Jak prosić o przeróbki w różnych tonach (przyjazny, bezpośredni, premium).",
+        "Checklista przed wysłaniem maila."
       ],
       content: [
-        "En esta clase llevas un producto o servicio real y construyes alrededor una pequeña secuencia de e-mails. No buscamos textos perfectos, sino borradores sólidos que puedas ajustar rápido.",
-        "Verás cómo combinar prompts del Banco orientados a ventas con otros más creativos para historias, analogías y pruebas A/B de asuntos. La meta: que dejes de mirar una pantalla en blanco antes de enviar una campaña."
+        "Na tych zajęciach bierzesz realny produkt lub usługę i budujesz wokół tego krótką sekwencję maili. Nie polujemy na perfekcję — potrzebujemy solidnych szkiców, które szybko dopracujesz.",
+        "Zobaczysz, jak łączyć prompty sprzedażowe z Banku z bardziej kreatywnymi do historii, analogii i testów A/B tematów. Cel: koniec z patrzeniem w pusty ekran przed wysłaniem kampanii."
       ]
     },
     {
       id: "chatgpt-soporte-clientes",
-      title: "Sistemas de soporte al cliente con ChatGPT",
+      title: "Systemy obsługi klienta z ChatGPT",
       level: "Intermedio",
       duration: "35 min",
       summary:
-        "Crea respuestas base, FAQs inteligentes y plantillas para soporte usando IA, sin perder el toque humano.",
+        "Twórz odpowiedzi bazowe, inteligentne FAQ i szablony wsparcia z AI, nie tracąc ludzkiego tonu.",
       goals: [
-        "Reducir el tiempo que tardas respondiendo dudas repetidas.",
-        "Diseñar plantillas base para distintos tipos de cliente y tono.",
-        "Establecer límites claros para lo que la IA puede y no puede responder."
+        "Skrócić czas odpowiadania na powtarzające się pytania.",
+        "Zaprojektować bazowe szablony dla różnych typów klientów i tonów.",
+        "Ustalić jasne granice: na co AI może, a na co nie może odpowiadać."
       ],
       outline: [
-        "Mapeo de las 10 preguntas más frecuentes de tu negocio.",
-        "Prompts para generar respuestas claras, empáticas y breves.",
-        "Cómo adaptar una respuesta al tono de tu marca (más seria o más cercana).",
-        "Uso de ChatGPT para redactar políticas, explicaciones y tutoriales cortos.",
-        "Sistema simple para ir guardando y mejorando tus mejores respuestas."
+        "Mapa 10 najczęstszych pytań w Twoim biznesie.",
+        "Prompty do odpowiedzi jasnych, empatycznych i krótkich.",
+        "Jak dopasować odpowiedź do tonu marki (bardziej poważny lub bliższy).",
+        "ChatGPT do pisania polityk, wyjaśnień i krótkich tutoriali.",
+        "Prosty system zapisywania i ulepszania najlepszych odpowiedzi."
       ],
       content: [
-        "Aquí no buscamos reemplazar tu soporte, sino crear una base de respuestas que te ahorre energía mental. A partir de la clase, tendrás un pequeño 'manual de respuestas' listo para reutilizar.",
-        "También verás cómo usar la IA para convertir conversaciones largas con clientes en listas de mejoras, ideas de producto o cambios en tu onboarding."
+        "Nie chodzi o zastąpienie supportu, tylko o bazę odpowiedzi, która oszczędza energię mentalną. Po zajęciach będziesz mieć mały „manual odpowiedzi” gotowy do ponownego użycia.",
+        "Zobaczysz też, jak używać AI do zamiany długich rozmów z klientami w listy usprawnień, pomysły produktowe albo zmiany w onboardingu."
       ]
     },
     {
       id: "chatgpt-investigacion",
-      title: "Investigación y resumen de información con IA",
+      title: "Research i streszczanie informacji z AI",
       level: "Intermedio",
       duration: "35 min",
       summary:
-        "Usa ChatGPT para investigar temas, ordenar información y generar resúmenes accionables.",
+        "Używaj ChatGPT do researchu, porządkowania informacji i tworzenia streszczeń, które da się wdrożyć.",
       goals: [
-        "Evitar perder horas saltando entre pestañas y artículos.",
-        "Aprender a pedir resúmenes útiles, no genéricos.",
-        "Transformar investigación en ideas de contenido o decisiones concretas."
+        "Nie tracić godzin na skakanie po kartach i artykułach.",
+        "Prosić o przydatne streszczenia, a nie generyczne.",
+        "Zamieniać research na pomysły contentowe lub konkretne decyzje."
       ],
       outline: [
-        "Cómo delimitar bien un tema de investigación antes de preguntar.",
-        "Prompts para obtener resúmenes por niveles: básico, intermedio, experto.",
-        "Convertir un resumen en lista de ideas, guion o plan de acción.",
-        "Advertencias y límites: cómo no depender ciegamente de la IA.",
-        "Sistema para guardar y etiquetar hallazgos dentro de tu banco personal."
+        "Jak dobrze zawęzić temat researchu przed pytaniem.",
+        "Prompty na podsumowania na poziomach: podstawowy, średni, ekspercki.",
+        "Zamiana streszczenia w listę pomysłów, scenariusz lub plan działania.",
+        "Ostrzeżenia i limity: jak nie polegać ślepo na AI.",
+        "System zapisywania i tagowania wniosków w prywatnym banku."
       ],
       content: [
-        "Esta clase es clave si trabajas con mucha teoría, estudios, tendencias o información técnica. Verás cómo ir de 'no entiendo nada de esto' a 'tengo clarísimo qué hacer' con un par de prompts bien construidos.",
-        "El enfoque siempre es práctico: cada bloque de información debe transformarse en un guion, una decisión, una propuesta o una nueva pieza de contenido."
+        "Kluczowe zajęcia, jeśli pracujesz z teorią, badaniami, trendami albo informacją techniczną. Zobaczysz, jak przejść od „nic z tego nie rozumiem” do „dokładnie wiem, co robić” dzięki kilku dobrze zbudowanym promptom.",
+        "Podejście jest zawsze praktyczne: każdy blok informacji ma zostać zamieniony na scenariusz, decyzję, propozycję albo nową treść."
       ]
     },
     {
       id: "chatgpt-datos-estructuras",
-      title: "Trabajando con listas, tablas y estructuras",
+      title: "Praca z listami, tabelami i strukturami",
       level: "Avanzado",
       duration: "35 min",
       summary:
-        "Cómo pedir a ChatGPT que organice información en listas, tablas, pasos y esquemas claros.",
+        "Jak prosić ChatGPT o organizowanie informacji w listy, tabele, kroki i czytelne schematy.",
       goals: [
-        "Dominar la parte “ordenadora” de la IA: clasificar y estructurar.",
-        "Usar ChatGPT para preparar resúmenes, esquemas y planificaciones.",
-        "Aprovechar mejor los prompts del Banco que devuelven estructuras."
+        "Opanować „porządkującą” stronę AI: klasyfikowanie i strukturyzowanie.",
+        "Używać ChatGPT do tworzenia podsumowań, konspektów i planów.",
+        "Lepiej wykorzystywać prompty z Banku, które zwracają struktury."
       ],
       outline: [
-        "Pedir a la IA que clasifique, ordene y agrupe datos.",
-        "Prompts para transformar texto suelto en listas accionables.",
-        "Crear tablas simples que luego puedas llevarte a una hoja de cálculo.",
-        "Uso de estructuras tipo checklist, roadmap y plan paso a paso."
+        "Proszenie AI o klasyfikowanie, porządkowanie i grupowanie danych.",
+        "Prompty do zamiany luźnego tekstu w listy działań.",
+        "Tworzenie prostych tabel do przeniesienia do arkusza kalkulacyjnego.",
+        "Struktury typu checklista, roadmap i plan krok po kroku."
       ],
       content: [
-        "Esta clase es clave si trabajas con mucha información, ideas o notas dispersas.",
-        "Te enseño a convertir caos en claridad usando prompts muy específicos."
+        "To kluczowe zajęcia, jeśli pracujesz z dużą ilością informacji, pomysłów lub rozproszonych notatek.",
+        "Uczę, jak zamienić chaos w klarowność dzięki bardzo konkretnym promptom."
       ]
     },
     {
       id: "integracion-banco",
-      title: "Masterclass: integra el Banco Secreto en tu día a día",
+      title: "Masterclass: wpleć Tajny Bank w swoją codzienność",
       level: "Avanzado",
       duration: "45 min",
       summary:
-        "Cómo unir todo: ChatGPT + Banco Secreto de Prompts + tus proyectos reales.",
+        "Jak połączyć wszystko: ChatGPT + Tajny Bank Promptów + Twoje realne projekty.",
       goals: [
-        "Salir con un mapa claro de qué prompts usar según tu objetivo.",
-        "Crear un pequeño “manual personal” de uso del curso.",
-        "Evitar que este arsenal quede guardado y no lo aproveches."
+        "Wyjść z jasną mapą, których promptów używać w zależności od celu.",
+        "Stworzyć mały „osobisty podręcznik” korzystania z kursu.",
+        "Nie dopuścić, aby arsenał został schowany i niewykorzystany."
       ],
       outline: [
-        "Revisión rápida de los módulos clave del Banco.",
-        "Cómo elegir prompts según si estás en modo ideas, producción o ventas.",
-        "Ejemplos de combinaciones de prompts para distintos casos (cliente, negocio propio, creación de producto digital).",
-        "Cómo revisar tus resultados cada mes y ajustar tu forma de usar la IA."
+        "Szybki przegląd kluczowych modułów Banku.",
+        "Jak wybierać prompty: tryb pomysłów, produkcji lub sprzedaży.",
+        "Przykłady łączenia promptów dla różnych przypadków (klient, własny biznes, produkt cyfrowy).",
+        "Jak co miesiąc przeglądać wyniki i korygować sposób użycia AI."
       ],
       content: [
-        "Piensa en esta clase como el “manual de uso real” del curso.",
-        "Te muestro varias formas de integrar todo con tu contexto: negocio propio, agencia, freelancing o marca personal."
+        "Potraktuj to jako „instrukcję użycia w realnym życiu” dla całego kursu.",
+        "Pokazuję kilka sposobów integracji pod Twój kontekst: własny biznes, agencja, freelancing albo marka osobista."
       ]
     },
-   
     {
       id: "productos-digitales-ia",
-      title: "Diseña productos digitales usando IA",
+      title: "Projektuj produkty cyfrowe z pomocą AI",
       level: "Avanzado",
       duration: "45 min",
       summary:
-        "De idea suelta a índice, módulos y contenidos clave de un producto digital, apoyándote en prompts del Banco.",
+        "Od luźnego pomysłu do spisu treści, modułów i kluczowych elementów produktu cyfrowego — z promptami z Banku.",
       goals: [
-        "Convertir una idea vaga en una propuesta clara de producto.",
-        "Definir índice, módulos y promesas de transformación.",
-        "Usar ChatGPT para crear materiales de apoyo: guías, checklists y recursos."
+        "Zamienić mglisty pomysł w jasną propozycję produktu.",
+        "Zdefiniować spis treści, moduły i obietnice transformacji.",
+        "Użyć ChatGPT do tworzenia materiałów wspierających: poradników, checklist i zasobów."
       ],
       outline: [
-        "Explorar ideas de producto a partir de tu experiencia actual.",
-        "Prompts para definir transformación, público ideal y beneficios.",
-        "Crear índice y estructura modular de un curso, taller o ebook.",
-        "Generar borradores de lecciones, recursos y ejemplos.",
-        "Cómo no caer en el 'producto genérico' y mantener tu enfoque único."
+        "Eksploracja pomysłów produktowych na bazie Twojego doświadczenia.",
+        "Prompty do określenia transformacji, idealnego klienta i benefitów.",
+        "Tworzenie spisu i modułowej struktury kursu, warsztatu lub ebooka.",
+        "Generowanie szkiców lekcji, zasobów i przykładów.",
+        "Jak uniknąć „generycznego produktu” i utrzymać unikalny kierunek."
       ],
       content: [
-        "Si ya pensaste alguna vez 'debería hacer un curso/ebook sobre esto', esta clase te va a ayudar a sacarlo de tu cabeza y ponerlo en papel.",
-        "La IA no va a hacer el trabajo por ti, pero sí te dará versiones iniciales para que tú aportes experiencia, ejemplos reales y tu forma particular de explicar."
+        "Jeśli kiedyś pomyślałeś/pomyślałaś: „powinienem/powinnam zrobić kurs/ebook o tym”, te zajęcia pomogą przenieść to z głowy na papier.",
+        "AI nie zrobi pracy za Ciebie, ale da Ci wersje startowe, do których dołożysz doświadczenie, realne przykłady i swój sposób tłumaczenia."
       ]
     },
-  
     {
       id: "prompts-encadenados",
-      title: "Taller de prompts encadenados",
+      title: "Warsztat promptów łańcuchowych",
       level: "Avanzado",
       duration: "45 min",
       summary:
-        "Cómo dividir tareas complejas en varios prompts encadenados para obtener resultados más profundos y controlables.",
+        "Jak dzielić złożone zadania na kilka promptów połączonych w łańcuch, aby uzyskać głębsze i bardziej kontrolowalne rezultaty.",
       goals: [
-        "Dejar de pedirlo todo en un único prompt gigante.",
-        "Diseñar cadenas de 3–5 pasos para tareas importantes.",
-        "Reusar esas cadenas como si fueran mini-sistemas de trabajo."
+        "Przestać prosić o wszystko w jednym gigantycznym prompcie.",
+        "Projektować łańcuchy 3–5 kroków dla ważnych zadań.",
+        "Używać tych łańcuchów jak mini-systemów pracy."
       ],
       outline: [
-        "Qué es un prompt encadenado y por qué funciona mejor.",
-        "Ejemplo: cadena para investigar, sintetizar y escribir un post.",
-        "Ejemplo: cadena para diseñar una oferta y su argumentario.",
-        "Cómo documentar tus cadenas favoritas para usarlas a menudo.",
-        "Integración con el Banco Secreto de Prompts (cuál va en cada paso)."
+        "Czym jest prompt łańcuchowy i dlaczego działa lepiej.",
+        "Przykład: łańcuch do researchu, syntezy i napisania posta.",
+        "Przykład: łańcuch do zaprojektowania oferty i argumentacji.",
+        "Jak dokumentować ulubione łańcuchy, by używać ich często.",
+        "Integracja z Tajnym Bankiem Promptów (co w którym kroku)."
       ],
       content: [
-        "En vez de pedir: 'hazlo todo', aprenderás a dividir el trabajo en pasos pequeños que se alimentan entre sí, como si tuvieras un mini-equipo colaborando.",
-        "Esto te da más control, permite corregir rumbo entre paso y paso y hace que el resultado final sea mucho más sólido y usable en el mundo real."
+        "Zamiast: „zrób wszystko”, nauczysz się dzielić pracę na małe kroki, które karmią się nawzajem — jak mini-zespół współpracowników.",
+        "To daje większą kontrolę, pozwala korygować kurs między krokami i sprawia, że końcowy wynik jest dużo solidniejszy i bardziej użyteczny w realnym świecie."
       ]
     },
     {
       id: "debug-prompts",
-      title: "Debug de prompts: arregla lo que no funciona",
+      title: "Debug promptów: napraw to, co nie działa",
       level: "Avanzado",
       duration: "35 min",
       summary:
-        "Proceso paso a paso para corregir prompts que dan respuestas flojas, genéricas o confusas.",
+        "Proces krok po kroku, jak poprawiać prompty, które dają słabe, generyczne albo mylące odpowiedzi.",
       goals: [
-        "Reconocer rápidamente por qué un prompt no está dando buen resultado.",
-        "Aplicar una checklist de mejoras antes de rendirte.",
-        "Convertir errores actuales en plantillas mejores para el futuro."
+        "Szybko rozpoznawać, dlaczego prompt nie daje dobrego wyniku.",
+        "Stosować checklistę poprawek, zanim się poddasz/poddasz się.",
+        "Zamieniać obecne błędy w lepsze szablony na przyszłość."
       ],
       outline: [
-        "Síntomas de un mal prompt: vaguedad, resultados repetidos, respuestas irrelevantes.",
-        "Checklist de debug: contexto, ejemplo, límites, formato, iteración.",
-        "Cómo pedirle a la propia IA que analice tu prompt y sugiera mejoras.",
-        "Crear una versión 2.0 y 3.0 de tus prompts más importantes.",
-        "Cómo documentar el antes/después para ir refinando tu arsenal."
+        "Objawy złego promptu: niejasność, powtarzalne wyniki, nieistotne odpowiedzi.",
+        "Checklista debugowania: kontekst, przykład, ograniczenia, format, iteracja.",
+        "Jak poprosić AI, by przeanalizowała Twój prompt i zaproponowała ulepszenia.",
+        "Tworzenie wersji 2.0 i 3.0 Twoich najważniejszych promptów.",
+        "Jak dokumentować „przed/po”, aby stale szlifować swój arsenał."
       ],
       content: [
-        "En esta clase dejamos claro que un prompt que no funciona no es un fracaso, es materia prima para un prompt mejor.",
-        "Te doy un proceso concreto para revisar, ajustar y relanzar cualquier prompt clave de tu negocio hasta que el resultado se vuelva realmente útil."
+        "W tej lekcji jasno pokazujemy: prompt, który nie działa, to nie porażka — to surowiec na lepszy prompt.",
+        "Daję konkretny proces, jak przeglądać, poprawiać i ponownie uruchamiać każdy kluczowy prompt w biznesie, aż wynik stanie się naprawdę użyteczny."
       ]
     }
   ]

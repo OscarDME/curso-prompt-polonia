@@ -1,748 +1,748 @@
 export const textPromptsRedesCarruseles = [
   {
     id: "carrusel-001",
-    title: "Carrusel educativo paso a paso",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Guía al usuario por un proceso claro y guardable.",
-    prompt: `Dame:
-- Tema.
-- Resultado final que busca el usuario.
-- Nivel del público.
+    title: "Karuzela edukacyjna krok po kroku",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Prowadzi użytkownika przez jasny proces, który chce się zapisać.",
+    prompt: `Podaj:
+- Temat.
+- Docelowy rezultat, którego szuka użytkownik.
+- Poziom odbiorców.
 
-Genera un carrusel con:
-1) Portada con hook fuerte.
-2) Problema explicado en simple.
-3) Paso 1 al 5 con claridad.
-4) Ejemplo real.
-5) Error a evitar.
-6) Último slide: CTA de guardado o compartir.`,
+Wygeneruj karuzelę z:
+1) Okładką z mocnym hookiem.
+2) Problemem wyjaśnionym prosto.
+3) Krokiem 1–5 jasno opisanym.
+4) Realnym przykładem.
+5) Błędem, którego trzeba unikać.
+6) Ostatnim slajdem: CTA do zapisania lub udostępnienia.`,
     thumbnail: "",
   },
   {
     id: "carrusel-002",
-    title: "Carrusel basado en errores comunes",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Ideal para educar corrigiendo conceptos.",
-    prompt: `Dame:
-- Tema.
-- 5 errores comunes.
-- Consecuencia de cada error.
+    title: "Karuzela oparta na typowych błędach",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Idealna do edukowania poprzez korygowanie konceptów.",
+    prompt: `Podaj:
+- Temat.
+- 5 typowych błędów.
+- Konsekwencję każdego błędu.
 
-Genera:
-1) Portada “errores que te están frenando”.
-2) Un slide por error con explicación clara.
-3) Slide final con solución general.
-4) CTA para aplicar o guardar.`,
+Wygeneruj:
+1) Okładkę: „błędy, które Cię spowalniają”.
+2) Jeden slajd na błąd z jasnym wyjaśnieniem.
+3) Slajd końcowy z ogólnym rozwiązaniem.
+4) CTA, by wdrożyć lub zapisać.`,
     thumbnail: "",
   },
   {
     id: "carrusel-003",
-    title: "Carrusel estilo antes vs después (transformación)",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Muestra la evolución que puede lograr el usuario.",
-    prompt: `Dame:
-- Tema.
-- Antes (conductas, creencias, fallas).
-- Después (mentalidad, acciones, resultados).
+    title: "Karuzela „przed vs po” (transformacja)",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Pokazuje ewolucję, którą może osiągnąć użytkownik.",
+    prompt: `Podaj:
+- Temat.
+- Przed (zachowania, przekonania, błędy).
+- Po (mindset, działania, rezultaty).
 
-Genera un carrusel:
-1) Portada potente.
-2) Comparación clara antes vs después.
-3) Mini explicación.
-4) Cómo lograr el cambio.
-5) CTA final para acción.`,
+Wygeneruj karuzelę:
+1) Mocna okładka.
+2) Jasne porównanie: przed vs po.
+3) Krótkie wyjaśnienie.
+4) Jak osiągnąć zmianę.
+5) Końcowe CTA do działania.`,
     thumbnail: "",
   },
   {
     id: "carrusel-004",
-    title: "Carrusel tipo checklist",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Ideal para guardar y volver a usar.",
-    prompt: `Dame:
-- Tema.
-- Objetivo del checklist.
-- Nivel del usuario.
+    title: "Karuzela typu checklista",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Idealna do zapisania i używania wielokrotnie.",
+    prompt: `Podaj:
+- Temat.
+- Cel checklisty.
+- Poziom użytkownika.
 
-Genera:
-1) Portada clara.
-2) Lista de 8–12 puntos.
-3) Señales de que va bien.
-4) Señales de que va mal.
-5) CTA guardar`,
+Wygeneruj:
+1) Czytelną okładkę.
+2) Listę 8–12 punktów.
+3) Sygnały, że idzie dobrze.
+4) Sygnały, że idzie źle.
+5) CTA: zapisz`,
     thumbnail: "",
   },
   {
     id: "carrusel-005",
-    title: "Carrusel ‘lo que nadie te explica de…’",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Formato viral que revela verdades ocultas.",
-    prompt: `Dame:
-- Tema.
-- 5 verdades ocultas.
-- Mito común.
+    title: "Karuzela „czego nikt Ci nie wyjaśnia o…”",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Wirusowy format, który ujawnia ukryte prawdy.",
+    prompt: `Podaj:
+- Temat.
+- 5 ukrytych prawd.
+- Popularny mit.
 
-Genera:
-1) Portada de impacto.
-2) Un slide por verdad.
-3) Comparación mito vs realidad.
-4) Insight final.
-5) CTA profesional.`,
+Wygeneruj:
+1) Okładkę z efektem „wow”.
+2) Jeden slajd na każdą prawdę.
+3) Porównanie: mit vs rzeczywistość.
+4) Końcowy insight.
+5) Profesjonalne CTA.`,
     thumbnail: "",
   },
   {
     id: "carrusel-006",
-    title: "Carrusel estilo micro masterclass",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Educación condensada en formato premium.",
-    prompt: `Dame:
-- Tema advanced.
-- Audiencia.
-- Resultado final.
+    title: "Karuzela w stylu mikro-masterclass",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Skondensowana edukacja w formacie premium.",
+    prompt: `Podaj:
+- Zaawansowany temat.
+- Odbiorców.
+- Docelowy rezultat.
 
-Genera:
-1) Portada tipo “Micro-Masterclass”.
-2) Concepto explicado en profundidad.
-3) Framework simple.
-4) Ejemplo.
-5) Cierre con CTA.`,
+Wygeneruj:
+1) Okładkę typu „Micro-Masterclass”.
+2) Koncept wyjaśniony dogłębnie.
+3) Prosty framework.
+4) Przykład.
+5) Zakończenie z CTA.`,
     thumbnail: "",
   },
   {
     id: "carrusel-007",
-    title: "Carrusel de herramientas recomendadas",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Muestra herramientas organizadas según propósito.",
-    prompt: `Dame:
-- Tema.
-- Objetivo (crear, analizar, crecer, etc.).
-- 5–10 herramientas.
+    title: "Karuzela z polecanymi narzędziami",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Pokazuje narzędzia uporządkowane według celu.",
+    prompt: `Podaj:
+- Temat.
+- Cel (tworzyć, analizować, rosnąć itd.).
+- 5–10 narzędzi.
 
-Genera:
-1) Portada.
-2) Un slide por herramienta.
-3) Para quién sirve.
-4) Error al usarla.
-5) CTA guardar.`,
+Wygeneruj:
+1) Okładkę.
+2) Jeden slajd na narzędzie.
+3) Dla kogo jest.
+4) Błąd przy użyciu.
+5) CTA: zapisz.`,
     thumbnail: "",
   },
   {
     id: "carrusel-008",
-    title: "Carrusel educativo con analogía poderosa",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Usa metáforas para hacer conceptos complejos simples.",
-    prompt: `Dame:
-- Tema complejo.
-- Tipo de analogía.
-- Público objetivo.
+    title: "Karuzela edukacyjna z mocną analogią",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Używa metafor, by upraszczać złożone pojęcia.",
+    prompt: `Podaj:
+- Złożony temat.
+- Typ analogii.
+- Grupę docelową.
 
-Genera:
-1) Portada con analogía.
-2) Explicación del concepto.
-3) Conexión con la analogía.
-4) Ejemplo práctico.
-5) Cierre recordable.`,
+Wygeneruj:
+1) Okładkę z analogią.
+2) Wyjaśnienie konceptu.
+3) Połączenie z analogią.
+4) Praktyczny przykład.
+5) Zapamiętywalne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "carrusel-009",
-    title: "Carrusel de señales de alerta",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Perfecto para atraer atención con contenido crítico.",
-    prompt: `Dame:
-- Tema.
-- 6–10 señales rojas.
-- Consecuencia de ignorarlas.
+    title: "Karuzela z sygnałami ostrzegawczymi",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Idealna do przyciągania uwagi krytycznym contentem.",
+    prompt: `Podaj:
+- Temat.
+- 6–10 czerwonych flag.
+- Konsekwencję ich ignorowania.
 
-Genera:
-1) Portada “señales de alerta”.
-2) Un slide por señal.
-3) Mini explicación.
-4) Cierre con solución.`,
+Wygeneruj:
+1) Okładkę: „sygnały ostrzegawcze”.
+2) Jeden slajd na sygnał.
+3) Krótkie wyjaśnienie.
+4) Zakończenie z rozwiązaniem.`,
     thumbnail: "",
   },
   {
     id: "carrusel-010",
-    title: "Carrusel de conceptos avanzados explicados simple",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Ideal para posicionarte como autoridad.",
-    prompt: `Dame:
-- Tema técnico.
-- 3–5 conceptos avanzados.
-- Meta del usuario.
+    title: "Karuzela: zaawansowane koncepty wyjaśnione prosto",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Idealna, by pozycjonować się jako autorytet.",
+    prompt: `Podaj:
+- Temat techniczny.
+- 3–5 zaawansowanych konceptów.
+- Cel użytkownika.
 
-Genera:
-1) Portada clara.
-2) Explicación simple de cada concepto.
-3) Ejemplo real.
+Wygeneruj:
+1) Czytelną okładkę.
+2) Proste wyjaśnienie każdego konceptu.
+3) Realny przykład.
 4) CTA.`,
     thumbnail: "",
   },
   {
     id: "carrusel-011",
-    title: "Carrusel estilo guía de iniciación",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Enseña lo esencial a principiantes.",
-    prompt: `Dame:
-- Tema.
-- Nivel principiante.
-- Primeros pasos recomendados.
+    title: "Karuzela: przewodnik startowy",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Uczy podstaw początkujących.",
+    prompt: `Podaj:
+- Temat.
+- Poziom: początkujący.
+- Zalecane pierwsze kroki.
 
-Genera:
-1) Portada.
-2) Lo esencial que deben saber.
-3) Qué evitar.
-4) Pasos iniciales.
-5) CTA guardar.`,
+Wygeneruj:
+1) Okładkę.
+2) Najważniejsze rzeczy, które muszą wiedzieć.
+3) Czego unikać.
+4) Pierwsze kroki.
+5) CTA: zapisz.`,
     thumbnail: "",
   },
   {
     id: "carrusel-012",
-    title: "Carrusel tipo rompe mitos",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Exhibe la verdad profesional detrás de creencias falsas.",
-    prompt: `Dame:
-- Tema.
-- 3–7 mitos comunes.
-- Verdades reales.
+    title: "Karuzela typu „obalanie mitów”",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Pokazuje profesjonalną prawdę stojącą za fałszywymi przekonaniami.",
+    prompt: `Podaj:
+- Temat.
+- 3–7 popularnych mitów.
+- Prawdziwe fakty.
 
-Genera:
-1) Portada “Mitos vs Realidad”.
-2) Un slide por mito.
-3) Ejemplo de malinterpretación.
-4) Conclusión experta.`,
+Wygeneruj:
+1) Okładkę: „Mity vs Rzeczywistość”.
+2) Jeden slajd na mit.
+3) Przykład błędnej interpretacji.
+4) Eksperckie podsumowanie.`,
     thumbnail: "",
   },
   {
     id: "carrusel-013",
-    title: "Carrusel basado en pasos para lograr un resultado específico",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Ideal para contenido práctico extremo.",
-    prompt: `Dame:
-- Resultado que quiere el usuario.
-- Tema.
-- Nivel del público.
+    title: "Karuzela: kroki do osiągnięcia konkretnego rezultatu",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Idealna do ekstremalnie praktycznego contentu.",
+    prompt: `Podaj:
+- Rezultat, którego chce użytkownik.
+- Temat.
+- Poziom odbiorców.
 
-Genera:
-1) Portada con promesa clara.
-2) Pasos numerados con explicaciones.
-3) Ejemplo real.
-4) CTA de implementación.`,
+Wygeneruj:
+1) Okładkę z jasną obietnicą.
+2) Ponumerowane kroki z wyjaśnieniami.
+3) Realny przykład.
+4) CTA do wdrożenia.`,
     thumbnail: "",
   },
   {
     id: "carrusel-014",
-    title: "Carrusel estilo comparación estratégica",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Comparaciones profesionales para tomar decisiones.",
-    prompt: `Dame:
-- Tema.
-- Dos opciones a comparar.
-- Criterios de evaluación.
+    title: "Karuzela: porównanie strategiczne",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Profesjonalne porównania do podejmowania decyzji.",
+    prompt: `Podaj:
+- Temat.
+- Dwie opcje do porównania.
+- Kryteria oceny.
 
-Genera:
-1) Portada “X vs Y”.
-2) Comparativa por criterios.
-3) Recomendación según contexto.
-4) CTA guardar.`,
+Wygeneruj:
+1) Okładkę: „X vs Y”.
+2) Porównanie według kryteriów.
+3) Rekomendację zależnie od kontekstu.
+4) CTA: zapisz.`,
     thumbnail: "",
   },
   {
     id: "carrusel-015",
-    title: "Carrusel de insights profundos",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Contenido de sabiduría aplicada para posicionarte como mentor.",
-    prompt: `Dame:
-- Tema.
-- 5–10 insights.
-- Nivel de profundidad.
+    title: "Karuzela z głębokimi insightami",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Praktyczna mądrość, która pozycjonuje Cię jako mentora.",
+    prompt: `Podaj:
+- Temat.
+- 5–10 insightów.
+- Poziom głębi.
 
-Genera:
-1) Portada poderosa.
-2) Un slide por insight.
-3) Mini reflexión.
-4) CTA guardable.`,
+Wygeneruj:
+1) Mocną okładkę.
+2) Jeden slajd na insight.
+3) Krótką refleksję.
+4) CTA do zapisania.`,
     thumbnail: "",
   },
   {
     id: "carrusel-016",
-    title: "Carrusel tipo ‘roadmap’",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Guía visual del camino completo hacia un objetivo.",
-    prompt: `Dame:
-- Tema.
-- Punto de inicio del usuario.
-- Meta final.
-- Pasos intermedios.
+    title: "Karuzela typu „roadmap”",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Wizualnie prowadzi przez pełną drogę do celu.",
+    prompt: `Podaj:
+- Temat.
+- Punkt startowy użytkownika.
+- Cel końcowy.
+- Kroki pośrednie.
 
-Genera:
-1) Portada “tu roadmap para X”.
-2) Ruta visual paso a paso.
-3) Qué evitar en cada fase.
-4) Cómo saber si avanzas.`,
+Wygeneruj:
+1) Okładkę: „Twoja roadmapa do X”.
+2) Wizualną ścieżkę krok po kroku.
+3) Czego unikać na każdym etapie.
+4) Skąd wiesz, że robisz postęp.`,
     thumbnail: "",
   },
   {
     id: "carrusel-017",
-    title: "Carrusel de preguntas poderosas",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Ideal para contenido reflexivo y profundo.",
-    prompt: `Dame:
-- Tema.
-- Problema del usuario.
-- Profundidad deseada.
+    title: "Karuzela z mocnymi pytaniami",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Idealna do refleksyjnego i głębokiego contentu.",
+    prompt: `Podaj:
+- Temat.
+- Problem użytkownika.
+- Pożądaną głębię.
 
-Genera:
-1) Portada intrigante.
-2) 5–10 preguntas poderosas.
-3) Por qué son importantes.
-4) Cierre transformacional.`,
+Wygeneruj:
+1) Intrygującą okładkę.
+2) 5–10 mocnych pytań.
+3) Dlaczego są ważne.
+4) Transformacyjne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "carrusel-018",
-    title: "Carrusel basado en un mini caso de estudio",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Expone un caso real con aprendizaje claro.",
-    prompt: `Dame:
-- Caso.
-- Problema inicial.
-- Resultado final.
+    title: "Karuzela oparta o mini case study",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Pokazuje realny przypadek z jasną lekcją.",
+    prompt: `Podaj:
+- Przypadek.
+- Problemy na starcie.
+- Rezultat końcowy.
 
-Genera:
-1) Portada tipo “Caso real”.
-2) Situación inicial.
-3) Acciones realizadas.
-4) Resultados.
-5) Lección aplicable.`,
+Wygeneruj:
+1) Okładkę typu „Realny przypadek”.
+2) Sytuację początkową.
+3) Podjęte działania.
+4) Wyniki.
+5) Lekcję do zastosowania.`,
     thumbnail: "",
   },
   {
     id: "carrusel-019",
-    title: "Carrusel de ‘señales de que vas por buen camino’",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Contenido motivador + educativo.",
-    prompt: `Dame:
-- Tema.
-- Meta del usuario.
-- Señales positivas.
+    title: "Karuzela: „sygnały, że idziesz dobrą drogą”",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Content motywacyjny + edukacyjny.",
+    prompt: `Podaj:
+- Temat.
+- Cel użytkownika.
+- Pozytywne sygnały.
 
-Genera:
-1) Portada positiva.
-2) Lista de señales guardables.
-3) Explicación breve.
-4) CTA motivacional.`,
+Wygeneruj:
+1) Pozytywną okładkę.
+2) Listę sygnałów do zapisania.
+3) Krótkie wyjaśnienie.
+4) Motywacyjne CTA.`,
     thumbnail: "",
   },
   {
     id: "carrusel-020",
-    title: "Carrusel estilo tutorial práctico",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Guía paso a paso con instrucciones precisas.",
-    prompt: `Dame:
-- Tema.
-- Tarea específica a enseñar.
-- Nivel del público.
+    title: "Karuzela: praktyczny tutorial",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Krok po kroku z precyzyjnymi instrukcjami.",
+    prompt: `Podaj:
+- Temat.
+- Konkretne zadanie do nauczenia.
+- Poziom odbiorców.
 
-Genera:
-1) Portada.
-2) Paso 1–7 con imágenes sugeridas.
-3) Tips avanzados.
-4) CTA final.`,
+Wygeneruj:
+1) Okładkę.
+2) Kroki 1–7 z sugerowanymi obrazami.
+3) Zaawansowane tipy.
+4) Końcowe CTA.`,
     thumbnail: "",
   },
   {
     id: "carrusel-021",
-    title: "Carrusel estilo ‘Blueprint profesional’",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Diseña un esquema paso a paso como un consultor experto.",
-    prompt: `Dame:
-- Tema.
-- Resultado profesional deseado.
-- Nivel del público.
+    title: "Karuzela w stylu „Profesjonalny Blueprint”",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Projektuje schemat krok po kroku jak ekspert-konsultant.",
+    prompt: `Podaj:
+- Temat.
+- Pożądany rezultat profesjonalny.
+- Poziom odbiorców.
 
-Genera un carrusel:
-1) Portada “Tu Blueprint para X”.
-2) 5–7 fases del proceso.
-3) Detalle de qué se hace en cada fase.
-4) Qué medir para saber que funciona.
-5) CTA guardar/aplicar.`,
+Wygeneruj karuzelę:
+1) Okładka: „Twój Blueprint na X”.
+2) 5–7 faz procesu.
+3) Szczegóły: co robić w każdej fazie.
+4) Co mierzyć, żeby wiedzieć, że działa.
+5) CTA: zapisz/wdróż.`,
     thumbnail: "",
   },
   {
     id: "carrusel-022",
-    title: "Carrusel estilo ‘Framework visual’",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Crea un framework único que posiciona autoridad.",
-    prompt: `Dame:
-- Tema.
-- Nombre del framework.
-- 3–6 pilares.
+    title: "Karuzela w stylu „Wizualny Framework”",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Tworzy unikalny framework, który pozycjonuje autorytet.",
+    prompt: `Podaj:
+- Temat.
+- Nazwę frameworku.
+- 3–6 filarów.
 
-Genera:
-1) Slide portada.
-2) Explicación de cada pilar.
-3) Ejemplo visual.
-4) Cómo aplicarlo hoy.
-5) CTA final.`,
+Wygeneruj:
+1) Slajd okładki.
+2) Wyjaśnienie każdego filaru.
+3) Wizualny przykład.
+4) Jak zastosować to dziś.
+5) Końcowe CTA.`,
     thumbnail: "",
   },
   {
     id: "carrusel-023",
-    title: "Carrusel basado en micro-historias aplicables",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Pequeñas historias transformadas en lecciones directas.",
-    prompt: `Dame:
-- Tema.
-- 2–3 micro historias reales.
-- Lecciones clave.
+    title: "Karuzela oparta o mikrohistorie do zastosowania",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Krótkie historie przerobione na konkretne lekcje.",
+    prompt: `Podaj:
+- Temat.
+- 2–3 realne mikrohistorie.
+- Kluczowe lekcje.
 
-Genera:
-1) Portada llamativa.
-2) Un slide por micro historia.
-3) Lección aplicable en cada una.
-4) Cierre con reflexión y CTA.`,
+Wygeneruj:
+1) Przyciągającą okładkę.
+2) Jeden slajd na mikrohistorię.
+3) Lekcję do wdrożenia w każdej.
+4) Zakończenie z refleksją i CTA.`,
     thumbnail: "",
   },
   {
     id: "carrusel-024",
-    title: "Carrusel de señales de mejora (versión avanzada)",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Identifica indicadores de progreso profundo.",
-    prompt: `Dame:
-- Tema.
-- Progreso que debe medir el usuario.
-- Señales avanzadas.
+    title: "Karuzela: sygnały poprawy (wersja zaawansowana)",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Identyfikuje wskaźniki głębokiego postępu.",
+    prompt: `Podaj:
+- Temat.
+- Postęp, który użytkownik ma mierzyć.
+- Zaawansowane sygnały.
 
-Genera:
-1) Portada positiva.
-2) Señales avanzadas explicadas.
-3) Ejemplo real.
-4) Mapa de mejora continua.
-5) CTA guardar.`,
+Wygeneruj:
+1) Pozytywną okładkę.
+2) Omówione sygnały zaawansowane.
+3) Realny przykład.
+4) Mapę ciągłego doskonalenia.
+5) CTA: zapisz.`,
     thumbnail: "",
   },
   {
     id: "carrusel-025",
-    title: "Carrusel estilo ‘mental models’",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Comparte modelos mentales aplicados al tema.",
-    prompt: `Dame:
-- Tema.
-- 3–5 modelos mentales relevantes.
-- Cómo se aplican.
+    title: "Karuzela w stylu „mental models”",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Udostępnia modele mentalne zastosowane do tematu.",
+    prompt: `Podaj:
+- Temat.
+- 3–5 pasujących modeli mentalnych.
+- Jak się je stosuje.
 
-Genera:
-1) Portada “Mental Models para X”.
-2) Un slide por modelo.
-3) Explicación simple.
-4) Ejemplo de uso.
-5) CTA foco/guardar.`,
+Wygeneruj:
+1) Okładkę: „Mental Models dla X”.
+2) Jeden slajd na model.
+3) Proste wyjaśnienie.
+4) Przykład użycia.
+5) CTA: focus/zapisz.`,
     thumbnail: "",
   },
   {
     id: "carrusel-026",
-    title: "Carrusel de validación de decisiones",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Ayuda al usuario a evaluar opciones con claridad.",
-    prompt: `Dame:
-- Tema.
-- 3 decisiones difíciles.
-- Criterios de validación.
+    title: "Karuzela: walidacja decyzji",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Pomaga oceniać opcje z jasnością.",
+    prompt: `Podaj:
+- Temat.
+- 3 trudne decyzje.
+- Kryteria walidacji.
 
-Genera:
-1) Portada.
-2) Un slide por decisión.
-3) Matriz de decisión simple.
-4) Criterio experto.
-5) CTA compartir.`,
+Wygeneruj:
+1) Okładkę.
+2) Jeden slajd na decyzję.
+3) Prostą macierz decyzyjną.
+4) Eksperckie kryterium.
+5) CTA: udostępnij.`,
     thumbnail: "",
   },
   {
     id: "carrusel-027",
-    title: "Carrusel estilo ‘mapa mental estructurado’",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Organiza un tema complejo de forma visual.",
-    prompt: `Dame:
-- Tema central.
-- Subtemas principales.
-- Conexiones entre ellos.
+    title: "Karuzela w stylu „ustrukturyzowana mapa myśli”",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Organizuje złożony temat w formie wizualnej.",
+    prompt: `Podaj:
+- Temat główny.
+- Główne podtematy.
+- Połączenia między nimi.
 
-Genera:
-1) Portada visual.
-2) Mapa mental fragmentado por slides.
-3) Ejemplos.
-4) Cómo usarlo en la práctica.
-5) CTA guardar.`,
+Wygeneruj:
+1) Wizualną okładkę.
+2) Mapę myśli podzieloną na slajdy.
+3) Przykłady.
+4) Jak używać tego w praktyce.
+5) CTA: zapisz.`,
     thumbnail: "",
   },
   {
     id: "carrusel-028",
-    title: "Carrusel de ‘rutinas que cambian resultados’",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Enseña rutinas efectivas con explicaciones profundas.",
-    prompt: `Dame:
-- Tema.
-- 3–7 rutinas.
-- Tiempo estimado por rutina.
+    title: "Karuzela: „rutyny, które zmieniają wyniki”",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Uczy skutecznych rutyn z głębszymi wyjaśnieniami.",
+    prompt: `Podaj:
+- Temat.
+- 3–7 rutyn.
+- Szacowany czas na rutynę.
 
-Genera:
-1) Portada.
-2) Slide por rutina.
-3) Beneficio de cada una.
-4) Cómo implementarla hoy.
-5) CTA práctica.`,
+Wygeneruj:
+1) Okładkę.
+2) Slajd na rutynę.
+3) Korzyść każdej.
+4) Jak wdrożyć ją dziś.
+5) Praktyczne CTA.`,
     thumbnail: "",
   },
   {
     id: "carrusel-029",
-    title: "Carrusel para explicar un concepto desde cero a experto",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Guía al usuario por tres niveles: básico, intermedio y avanzado.",
-    prompt: `Dame:
-- Tema.
-- Punto de partida del usuario.
-- Meta final.
+    title: "Karuzela: wytłumaczenie konceptu od zera do eksperta",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Prowadzi przez 3 poziomy: podstawowy, średni i zaawansowany.",
+    prompt: `Podaj:
+- Temat.
+- Punkt startowy użytkownika.
+- Cel końcowy.
 
-Genera:
-1) Portada.
-2) Nivel 1: explicación simple.
-3) Nivel 2: aplicación práctica.
-4) Nivel 3: uso avanzado.
-5) CTA guardable.`,
+Wygeneruj:
+1) Okładkę.
+2) Poziom 1: proste wyjaśnienie.
+3) Poziom 2: praktyczne zastosowanie.
+4) Poziom 3: użycie zaawansowane.
+5) CTA do zapisania.`,
     thumbnail: "",
   },
   {
     id: "carrusel-030",
-    title: "Carrusel estilo ‘mapa de errores → soluciones’",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Mapa visual con los problemas más frecuentes y sus soluciones.",
-    prompt: `Dame:
-- Tema.
-- Lista de errores frecuentes.
-- Soluciones claras.
+    title: "Karuzela: „mapa błędów → rozwiązań”",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Wizualna mapa najczęstszych problemów i ich rozwiązań.",
+    prompt: `Podaj:
+- Temat.
+- Listę częstych błędów.
+- Jasne rozwiązania.
 
-Genera:
-1) Portada.
-2) Slide por error + solución.
-3) Ejemplo ilustrativo.
-4) CTA de aplicación.`,
+Wygeneruj:
+1) Okładkę.
+2) Slajd: błąd + rozwiązanie.
+3) Ilustrujący przykład.
+4) CTA do wdrożenia.`,
     thumbnail: "",
   },
   {
     id: "carrusel-031",
-    title: "Carrusel tipo ‘3 caminos posibles y cuál elegir’",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Ayuda a decidir estrategias, rutas o acciones.",
-    prompt: `Dame:
-- Tema.
-- 3 caminos posibles.
-- Criterios para elegir el correcto.
+    title: "Karuzela: „3 możliwe drogi i którą wybrać”",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Pomaga wybrać strategię, ścieżkę lub działanie.",
+    prompt: `Podaj:
+- Temat.
+- 3 możliwe drogi.
+- Kryteria wyboru właściwej.
 
-Genera:
-1) Portada.
-2) Slide por camino.
-3) Pros y contras.
-4) Recomendación profesional.
-5) CTA guardar.`,
+Wygeneruj:
+1) Okładkę.
+2) Slajd na drogę.
+3) Plusy i minusy.
+4) Profesjonalną rekomendację.
+5) CTA: zapisz.`,
     thumbnail: "",
   },
   {
     id: "carrusel-032",
-    title: "Carrusel de contenido tipo ‘micro cambios con mega impacto’",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Enseña ajustes pequeños que generan grandes resultados.",
-    prompt: `Dame:
-- Tema.
-- 5–10 micro cambios.
-- Impacto real.
+    title: "Karuzela: „mikro zmiany z mega wpływem”",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Uczy małych korekt, które dają duże rezultaty.",
+    prompt: `Podaj:
+- Temat.
+- 5–10 mikro zmian.
+- Realny wpływ.
 
-Genera:
-1) Portada.
-2) Slide por micro cambio.
-3) Cómo implementarlo hoy.
-4) Ejemplo práctico.
-5) CTA guardar.`,
+Wygeneruj:
+1) Okładkę.
+2) Slajd na mikro zmianę.
+3) Jak wdrożyć to dziś.
+4) Praktyczny przykład.
+5) CTA: zapisz.`,
     thumbnail: "",
   },
   {
     id: "carrusel-033",
-    title: "Carrusel para identificar creencias limitantes",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Enseña a reconocer y reemplazar creencias bloqueadoras.",
-    prompt: `Dame:
-- Tema.
-- 5–8 creencias limitantes.
-- Nuevas creencias reemplazo.
+    title: "Karuzela: rozpoznawanie ograniczających przekonań",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Uczy zauważać i zastępować blokujące przekonania.",
+    prompt: `Podaj:
+- Temat.
+- 5–8 ograniczających przekonań.
+- Nowe przekonania zastępcze.
 
-Genera:
-1) Portada.
-2) Slide por creencia → reemplazo.
-3) Ejemplo emocional.
-4) CTA reflexión.`,
+Wygeneruj:
+1) Okładkę.
+2) Slajd: przekonanie → zamiana.
+3) Emocjonalny przykład.
+4) CTA do refleksji.`,
     thumbnail: "",
   },
   {
     id: "carrusel-034",
-    title: "Carrusel estilo ‘mapa del viaje del usuario’",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Describe el viaje completo desde el punto A al punto B.",
-    prompt: `Dame:
-- Tema.
-- Etapas del viaje.
-- Objetivo final.
+    title: "Karuzela: „mapa podróży użytkownika”",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Opisuje pełną drogę od punktu A do punktu B.",
+    prompt: `Podaj:
+- Temat.
+- Etapy podróży.
+- Cel końcowy.
 
-Genera:
-1) Portada.
-2) Cada slide = una etapa.
-3) Qué pasa en cada etapa.
-4) Cómo avanzar más rápido.
-5) CTA guardar.`,
+Wygeneruj:
+1) Okładkę.
+2) Każdy slajd = jeden etap.
+3) Co dzieje się na każdym etapie.
+4) Jak przyspieszyć postęp.
+5) CTA: zapisz.`,
     thumbnail: "",
   },
   {
     id: "carrusel-035",
-    title: "Carrusel basado en datos o estadísticas",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Ideal para demostrar credibilidad y autoridad.",
-    prompt: `Dame:
-- Tema.
-- Estadísticas relevantes.
-- Interpretación experta.
+    title: "Karuzela oparta o dane i statystyki",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Idealna do budowania wiarygodności i autorytetu.",
+    prompt: `Podaj:
+- Temat.
+- Istotne statystyki.
+- Ekspercką interpretację.
 
-Genera:
-1) Portada.
-2) Slide por estadística.
-3) Qué significa realmente.
-4) Recomendación basada en datos.
-5) CTA profesional.`,
+Wygeneruj:
+1) Okładkę.
+2) Slajd na statystykę.
+3) Co to naprawdę znaczy.
+4) Rekomendację opartą o dane.
+5) Profesjonalne CTA.`,
     thumbnail: "",
   },
   {
     id: "carrusel-036",
-    title: "Carrusel para explicar un proceso técnico con ejemplos visuales",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Simplifica procesos complejos con claridad visual.",
-    prompt: `Dame:
-- Proceso técnico.
-- Pasos.
-- Ejemplo práctico.
+    title: "Karuzela: proces techniczny z wizualnymi przykładami",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Upraszcza złożone procesy poprzez wizualną klarowność.",
+    prompt: `Podaj:
+- Proces techniczny.
+- Kroki.
+- Praktyczny przykład.
 
-Genera:
-1) Portada.
-2) Diagrama paso a paso.
-3) Ejemplo ilustrado.
-4) Errores comunes.
-5) CTA guardar/aplicar.`,
+Wygeneruj:
+1) Okładkę.
+2) Diagram krok po kroku.
+3) Ilustrowany przykład.
+4) Typowe błędy.
+5) CTA: zapisz/wdróż.`,
     thumbnail: "",
   },
   {
     id: "carrusel-037",
-    title: "Carrusel estilo ‘preguntas que cambian la perspectiva’",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Contenido profundo para reflexionar.",
-    prompt: `Dame:
-- Tema.
-- Problema que enfrenta el usuario.
-- Nivel de conciencia.
+    title: "Karuzela: „pytania, które zmieniają perspektywę”",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Głęboki content do refleksji.",
+    prompt: `Podaj:
+- Temat.
+- Problem, z którym mierzy się użytkownik.
+- Poziom świadomości.
 
-Genera:
-1) Portada intrigante.
-2) 6–10 preguntas transformadoras.
-3) Micro explicación.
-4) Cierre de acción interna.`,
+Wygeneruj:
+1) Intrygującą okładkę.
+2) 6–10 transformujących pytań.
+3) Krótkie wyjaśnienie.
+4) Zakończenie: wewnętrzne działanie.`,
     thumbnail: "",
   },
   {
     id: "carrusel-038",
-    title: "Carrusel estilo ‘tablas comparativas visuales’",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Comparaciones claras para decisiones rápidas.",
-    prompt: `Dame:
-- Tema.
-- Variables a comparar.
-- Público objetivo.
+    title: "Karuzela: „wizualne tabele porównawcze”",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Jasne porównania do szybkich decyzji.",
+    prompt: `Podaj:
+- Temat.
+- Zmienne do porównania.
+- Grupę docelową.
 
-Genera:
-1) Portada.
-2) Tabla visual comparativa.
-3) Ventajas de cada opción.
-4) Recomendación según caso.
-5) CTA guardar.`,
+Wygeneruj:
+1) Okładkę.
+2) Wizualną tabelę porównawczą.
+3) Zalety każdej opcji.
+4) Rekomendację zależnie od przypadku.
+5) CTA: zapisz.`,
     thumbnail: "",
   },
   {
     id: "carrusel-039",
-    title: "Carrusel de hábitos ganadores (versión profesional)",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Hábitos estratégicos para resultados profesionales.",
-    prompt: `Dame:
-- Tema.
-- 5–10 hábitos.
-- Beneficio de cada uno.
+    title: "Karuzela: zwycięskie nawyki (wersja profesjonalna)",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Strategiczne nawyki dla wyników profesjonalnych.",
+    prompt: `Podaj:
+- Temat.
+- 5–10 nawyków.
+- Korzyść każdego.
 
-Genera:
-1) Portada inspiradora.
-2) Un slide por hábito.
-3) Cómo aplicarlo en la rutina.
-4) Ejemplo.
-5) CTA motivador.`,
+Wygeneruj:
+1) Inspirującą okładkę.
+2) Jeden slajd na nawyk.
+3) Jak wdrożyć go w rutynę.
+4) Przykład.
+5) Motywacyjne CTA.`,
     thumbnail: "",
   },
   {
     id: "carrusel-040",
-    title: "Carrusel estilo ‘X principios que rigen mi trabajo’",
-    area: "Redes Sociales",
-    category: "Carruseles",
-    summary: "Post de autoridad basado en estándares personales.",
-    prompt: `Dame:
-- Tema.
-- 5–12 principios.
-- Por qué los sigues.
+    title: "Karuzela: „X zasad, którymi kieruję się w pracy”",
+    area: "Media społecznościowe",
+    category: "Karuzele",
+    summary: "Post autorytetu oparty o osobiste standardy.",
+    prompt: `Podaj:
+- Temat.
+- 5–12 zasad.
+- Dlaczego ich przestrzegasz.
 
-Genera:
-1) Portada.
-2) Un slide por principio.
-3) Ejemplo de aplicación.
-4) Cierre que refuerce marca personal.`,
+Wygeneruj:
+1) Okładkę.
+2) Jeden slajd na zasadę.
+3) Przykład zastosowania.
+4) Zakończenie wzmacniające markę osobistą.`,
     thumbnail: "",
   },
 ];

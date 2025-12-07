@@ -3,1238 +3,1238 @@
 export const textPromptsEduEjercicios = [
   {
     id: "edu-ex-001",
-    title: "Generador de ejercicios por niveles (con pistas, soluciones y rúbrica)",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Generator ćwiczeń wg poziomów (z podpowiedziami, rozwiązaniami i rubryką)",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Crea ejercicios graduados (fácil→difícil) con pistas, soluciones paso a paso y criterios de evaluación.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel del estudiante: [secundaria / universidad / profesional]
-Formato: [problemas numéricos / teoría / programación / casos]
-Objetivo: [examen / práctica / proyecto]
-Restricciones: [sin cálculo / con derivación / etc.]
+      "Tworzy stopniowane ćwiczenia (łatwe→trudne) z podpowiedziami, rozwiązaniami krok po kroku i kryteriami oceny.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom ucznia: [szkoła średnia / studia / profesjonalista]
+Format: [zadania liczbowe / teoria / programowanie / case’y]
+Cel: [egzamin / praktyka / projekt]
+Ograniczenia: [bez rachunku różniczkowego / z wyprowadzeniem / itd.]
 
-Genera un set de 15 ejercicios:
-- 5 básicos (dominio mínimo)
-- 5 intermedios (transferencia)
-- 5 avanzados (integración y casos borde)
+Wygeneruj zestaw 15 ćwiczeń:
+- 5 podstawowych (minimalne opanowanie)
+- 5 średnich (transfer)
+- 5 zaawansowanych (integracja i przypadki brzegowe)
 
-Para CADA ejercicio incluye:
-1) Enunciado claro (sin ambigüedad)
-2) Qué evalúa (habilidad/concepto)
-3) 2–3 pistas progresivas (de suave a directa)
-4) Solución completa paso a paso
-5) Verificación / comprobación (cómo checar que está bien)
-6) Error común y cómo evitarlo
-7) Criterios de calificación (rúbrica breve, 0–10)
+Dla KAŻDEGO ćwiczenia dodaj:
+1) Jasne sformułowanie (bez dwuznaczności)
+2) Co sprawdza (umiejętność/koncept)
+3) 2–3 stopniowane podpowiedzi (od delikatnej do bezpośredniej)
+4) Pełne rozwiązanie krok po kroku
+5) Weryfikacja / sprawdzenie (jak upewnić się, że jest poprawnie)
+6) Typowy błąd i jak go uniknąć
+7) Kryteria oceniania (krótka rubryka, 0–10)
 
-Cierre:
-- Mapa de cobertura (qué subtemas cubriste y cuáles faltan).`,
+Zakończenie:
+- Mapa pokrycia (jakie podtematy objąłeś/-aś, a jakich brakuje).`,
     thumbnail: "",
   },
   {
     id: "edu-ex-002",
-    title: "Banco de ‘drills’ (práctica deliberada): 30 ejercicios cortos para automatizar",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Bank ‘drilli’ (praktyka celowa): 30 krótkich ćwiczeń do automatyzacji",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Ejercicios cortos y repetibles para dominar subhabilidades específicas.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Subhabilidad a automatizar: [ej. derivar, detectar falacias, factorizar, balancear ecuaciones, etc.]
-Nivel: [intermedio/avanzado]
-Tiempo por ejercicio: [1–5 min]
+      "Krótkie, powtarzalne ćwiczenia do opanowania konkretnych sub-umiejętności.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Sub-umiejętność do zautomatyzowania: [np. różniczkowanie, wykrywanie sofizmatów, faktoryzacja, bilansowanie równań itd.]
+Poziom: [średniozaawansowany/zaawansowany]
+Czas na ćwiczenie: [1–5 min]
 
-Genera 30 drills:
-- 10 de calentamiento (patrones repetidos)
-- 10 de variación (cambia 1 condición por vez)
-- 10 de mezcla (intercalado: mezcla tipos para evitar “piloto automático”)
+Wygeneruj 30 drilli:
+- 10 na rozgrzewkę (powtarzalne wzorce)
+- 10 wariacji (zmieniaj 1 warunek naraz)
+- 10 mieszanych (interleaving: mieszaj typy, żeby uniknąć “autopilota”)
 
-Para cada drill:
-- Enunciado
-- Respuesta final (solo resultado)
-- 1 micro-pista (máx 1 línea)
-- “Qué patrón entrena”
+Dla każdego drilla:
+- Treść
+- Odpowiedź końcowa (tylko wynik)
+- 1 mikro-podpowiedź (maks. 1 linia)
+- “Jaki wzorzec trenuje”
 
-Cierre:
-- Plan de práctica de 7 días (sesiones, orden, repeticiones, criterios de avance).`,
+Zakończenie:
+- 7-dniowy plan praktyki (sesje, kolejność, powtórki, kryteria przejścia dalej).`,
     thumbnail: "",
   },
   {
     id: "edu-ex-003",
-    title: "Ejercicios tipo examen (con trampas) + cómo detectar cada trampa",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia egzaminacyjne (z pułapkami) + jak rozpoznać każdą pułapkę",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Entrenamiento para examen difícil: problemas-trampa, estrategia y verificación.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [alto]
-Formato de evaluación: [test / desarrollo / oral]
+      "Trening pod trudny egzamin: zadania-pułapki, strategia i weryfikacja.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [wysoki]
+Format oceny: [test / opisowe / ustny]
 
-Crea 12 ejercicios estilo examen:
-- 4 conceptuales (definición, límites, supuestos)
-- 4 de aplicación (cálculo/procedimiento)
-- 4 trampa (intuición falla)
+Stwórz 12 ćwiczeń w stylu egzaminu:
+- 4 konceptualne (definicja, ograniczenia, założenia)
+- 4 zastosowania (rachunek/procedura)
+- 4 pułapki (intuicja zawodzi)
 
-Para cada ejercicio incluye:
-- Enunciado
-- Por qué es trampa (si aplica)
-- Estrategia correcta (pasos)
-- Solución detallada
-- Verificación (cómo comprobar)
-- Error típico del estudiante
-- “Señal” para detectar la trampa en 10 segundos
+Dla każdego ćwiczenia dodaj:
+- Treść
+- Dlaczego to pułapka (jeśli dotyczy)
+- Poprawna strategia (kroki)
+- Szczegółowe rozwiązanie
+- Weryfikacja (jak sprawdzić)
+- Typowy błąd ucznia
+- “Sygnał” do wykrycia pułapki w 10 sekund
 
-Cierre:
-- 10 heurísticas para evitar trampas + 6 preguntas de auto-chequeo.`,
+Zakończenie:
+- 10 heurystyk unikania pułapek + 6 pytań do auto-checku.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-004",
-    title: "Ejercicios por ‘casos borde’: dominar límites y condiciones raras",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘przypadki brzegowe’: opanuj limity i rzadkie warunki",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Ejercicios centrados en puntos donde el método suele fallar: casos límite, excepciones y supuestos rotos.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Método/regla típica del tema: [ESCRIBE AQUÍ]
+      "Ćwiczenia skupione na miejscach, gdzie metoda zwykle się wywraca: przypadki graniczne, wyjątki i złamane założenia.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Typowa metoda/reguła w tym temacie: [WPISZ TUTAJ]
 
-Genera 15 ejercicios de casos borde:
-- 5 donde todo funciona “bonito”
-- 5 donde un supuesto se viola
-- 5 donde varios supuestos se rompen (o hay ambigüedad)
+Wygeneruj 15 ćwiczeń typu case brzegowy:
+- 5 gdzie wszystko działa “ładnie”
+- 5 gdzie jedno założenie jest naruszone
+- 5 gdzie kilka założeń jest naruszonych (lub istnieje niejednoznaczność)
 
-Para cada ejercicio:
-- Enunciado
-- Qué supuesto se cumple/viola
-- Qué consecuencia tiene esa violación
-- Solución paso a paso (y alternativa si el método estándar falla)
-- “Lección del caso” (1–2 líneas)
+Dla każdego ćwiczenia:
+- Treść
+- Jakie założenie jest spełnione/naruszone
+- Jaka jest konsekwencja naruszenia
+- Rozwiązanie krok po kroku (i alternatywa, jeśli standardowa metoda zawodzi)
+- “Lekcja z przypadku” (1–2 linie)
 
-Cierre:
-- Checklist de supuestos antes de aplicar el método (12 ítems).`,
+Zakończenie:
+- Checklista założeń przed użyciem metody (12 punktów).`,
     thumbnail: "",
   },
   {
     id: "edu-ex-005",
-    title: "Ejercicios de ‘explicación’: responde como experto (no solo resolver)",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘wyjaśniające’: odpowiadaj jak ekspert (nie tylko licz)",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Ejercicios donde la tarea es explicar y justificar; ideal para exámenes orales y dominio real.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [intermedio/avanzado]
+      "Ćwiczenia, gdzie zadaniem jest wyjaśnić i uzasadnić; idealne pod egzaminy ustne i realne opanowanie.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [średniozaawansowany/zaawansowany]
 
-Genera 10 ejercicios de explicación:
-- 4: “Define y justifica”
-- 3: “Compara A vs B”
-- 3: “Critica un argumento/solución”
+Wygeneruj 10 ćwiczeń wyjaśniających:
+- 4: “Zdefiniuj i uzasadnij”
+- 3: “Porównaj A vs B”
+- 3: “Skrytykuj argument/rozwiązanie”
 
-Para cada ejercicio:
-- Enunciado
-- Estructura esperada de respuesta (guion de 6–10 bullets)
-- Respuesta modelo (200–450 palabras)
-- 5 repreguntas difíciles que te haría un profesor
-- Rúbrica (claridad, rigor, ejemplos, límites)
+Dla każdego ćwiczenia:
+- Treść
+- Oczekiwana struktura odpowiedzi (skrypt 6–10 bulletów)
+- Odpowiedź modelowa (200–450 słów)
+- 5 trudnych pytań dopytujących, jakie zadałby profesor
+- Rubryka (jasność, rygor, przykłady, ograniczenia)
 
-Cierre:
-- 10 frases útiles para sonar claro y riguroso en un oral.`,
+Zakończenie:
+- 10 użytecznych fraz, by brzmieć klarownie i rygorystycznie na ustnym.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-006",
-    title: "Ejercicios de ‘transferencia’: aplica el concepto fuera de su contexto",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘transferowe’: zastosuj koncept poza typowym kontekstem",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Entrena transferencia real: cambiar dominio, datos y objetivos sin cambiar el núcleo conceptual.",
-    prompt: `Concepto: [ESCRIBE AQUÍ]
-Dominio típico: [A]
-Dominios nuevos (elige 2): [B], [C]
+      "Trenuje prawdziwy transfer: zmiana domeny, danych i celów bez zmiany rdzenia konceptu.",
+    prompt: `Koncepcja: [WPISZ TUTAJ]
+Typowa domena: [A]
+Nowe domeny (wybierz 2): [B], [C]
 
-Genera 12 ejercicios:
-- 4 en dominio A (para consolidar)
-- 4 en dominio B (transferencia)
-- 4 en dominio C (transferencia más dura)
+Wygeneruj 12 ćwiczeń:
+- 4 w domenie A (utrwalenie)
+- 4 w domenie B (transfer)
+- 4 w domenie C (trudniejszy transfer)
 
-Para cada ejercicio:
-- Enunciado con contexto realista
-- Qué parte del concepto se usa (principio)
-- Pista principal (1–3 líneas)
-- Solución detallada
-- “Cómo saber si tu respuesta tiene sentido” (regla de sanity check)
+Dla każdego ćwiczenia:
+- Treść z realistycznym kontekstem
+- Jaka część konceptu jest użyta (zasada)
+- Główna podpowiedź (1–3 linie)
+- Szczegółowe rozwiązanie
+- “Skąd wiedzieć, że wynik ma sens” (reguła sanity check)
 
-Cierre:
-- Lista de 8 trampas de transferencia y cómo evitarlas.`,
+Zakończenie:
+- Lista 8 pułapek transferu i jak ich unikać.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-007",
-    title: "Ejercicios tipo ‘proyecto mini’: 5 retos integradores con entregables",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia typu ‘mini-projekt’: 5 zadań integrujących z deliverables",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Retos integradores con entregables y rúbrica: ideal para aprendizaje basado en proyectos.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [avanzado]
-Tiempo por reto: [2–6 horas]
-Herramientas permitidas: [ESCRIBE AQUÍ]
+      "Zadania integrujące z wymaganymi rezultatami i rubryką: idealne do nauki projektowej.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [zaawansowany]
+Czas na wyzwanie: [2–6 godzin]
+Dozwolone narzędzia: [WPISZ TUTAJ]
 
-Crea 5 mini-proyectos:
-Para cada uno:
-- Contexto y objetivo
-- Entregables (3–6)
-- Requisitos técnicos/conceptuales
-- Datos (si aplica, inventa dataset pequeño en texto)
-- Pasos recomendados (sin hacerlo por completo)
-- Criterios de evaluación (rúbrica con puntajes)
-- “Extensión” para subir dificultad
-- “Checklist final” antes de entregar
+Stwórz 5 mini-projektów:
+Dla każdego:
+- Kontekst i cel
+- Deliverables (3–6)
+- Wymagania techniczne/konceptualne
+- Dane (jeśli dotyczy; wymyśl mały zbiór danych w tekście)
+- Rekomendowane kroki (bez robienia całości)
+- Kryteria oceny (rubryka z punktami)
+- “Rozszerzenie” (żeby podnieść trudność)
+- “Checklista końcowa” przed oddaniem
 
-Cierre:
-- Cómo presentar resultados (plantilla de informe).`,
+Zakończenie:
+- Jak prezentować wyniki (szablon raportu).`,
     thumbnail: "",
   },
   {
     id: "edu-ex-008",
-    title: "Ejercicios de ‘diagnóstico’: detecta el error en soluciones falsas",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘diagnostyczne’: znajdź błąd w fałszywych rozwiązaniach",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Aprende encontrando fallos: te doy soluciones incorrectas y tú diagnosticas dónde y por qué.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [intermedio/avanzado]
+      "Uczysz się, znajdując usterki: dostajesz błędne rozwiązania i diagnozujesz gdzie i dlaczego.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [średniozaawansowany/zaawansowany]
 
-Genera 10 ejercicios “diagnóstico”:
-Para cada uno incluye:
-- Enunciado del problema
-- Una solución falsa (realista) con 2–4 pasos
-- Preguntas:
-  1) ¿En qué paso está el error?
-  2) ¿Qué concepto/supuesto falló?
-  3) ¿Cómo se corrige?
-- Solución correcta completa
-- “Cómo evitar este error en el futuro” (heurística)
+Wygeneruj 10 ćwiczeń diagnostycznych:
+Dla każdego dodaj:
+- Treść zadania
+- Fałszywe (realistyczne) rozwiązanie w 2–4 krokach
+- Pytania:
+  1) W którym kroku jest błąd?
+  2) Który koncept/założenie zawiodło?
+  3) Jak to poprawić?
+- Pełne poprawne rozwiązanie
+- “Jak unikać tego błędu w przyszłości” (heurystyka)
 
-Cierre:
-- Lista de 12 errores recurrentes en este tema.`,
+Zakończenie:
+- Lista 12 powtarzających się błędów w tym temacie.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-009",
-    title: "Ejercicios de ‘pregunta corta, respuesta profunda’ (tipo oral)",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘krótkie pytanie, głęboka odpowiedź’ (styl ustny)",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Preguntas cortas que exigen respuestas profundas y estructuradas.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [alto]
+      "Krótkie pytania wymagające głębokich, uporządkowanych odpowiedzi.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [wysoki]
 
-Genera 20 preguntas cortas (1 línea) que evalúen:
-- definiciones
-- límites
-- supuestos
-- intuición
-- comparación de enfoques
-- interpretaciones
+Wygeneruj 20 krótkich pytań (1 linia), które sprawdzają:
+- definicje
+- ograniczenia
+- założenia
+- intuicję
+- porównanie podejść
+- interpretacje
 
-Para cada pregunta:
-- Respuesta modelo (80–180 palabras)
-- 1 ejemplo breve
-- 1 contraejemplo o caso límite
-- 1 repregunta más difícil
+Dla każdego pytania:
+- Odpowiedź modelowa (80–180 słów)
+- 1 krótki przykład
+- 1 kontrprzykład lub przypadek brzegowy
+- 1 trudniejsze dopytanie
 
-Cierre:
-- Guía para estructurar respuestas en 4 pasos (plantilla).`,
+Zakończenie:
+- Szablon odpowiedzi w 4 krokach (template).`,
     thumbnail: "",
   },
   {
     id: "edu-ex-010",
-    title: "Ejercicios con ‘solución verificable’: incluye métodos de comprobación",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia z ‘weryfikowalnym rozwiązaniem’: metody sprawdzania",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Ejercicios donde la verificación es parte del aprendizaje: sanity checks, alternativas, estimaciones.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Formato: [numérico / conceptual / programación]
+      "Ćwiczenia, gdzie weryfikacja jest częścią nauki: sanity checki, alternatywy, estymacje.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Format: [liczbowe / konceptualne / programowanie]
 
-Genera 12 ejercicios.
-Para cada uno incluye:
-- Enunciado
-- Solución completa
-- 3 métodos de verificación:
-  1) sanity check (estimación/orden de magnitud)
-  2) método alternativo (si existe)
-  3) caso simple (prueba en un ejemplo trivial)
-- Error común y prevención
+Wygeneruj 12 ćwiczeń.
+Dla każdego dodaj:
+- Treść
+- Pełne rozwiązanie
+- 3 metody weryfikacji:
+  1) sanity check (szacunek/rząd wielkości)
+  2) metoda alternatywna (jeśli istnieje)
+  3) przypadek prosty (test na trywialnym przykładzie)
+- Typowy błąd i profilaktyka
 
-Cierre:
-- Checklist de verificación general (10 pasos).`,
+Zakończenie:
+- Ogólna checklista weryfikacji (10 kroków).`,
     thumbnail: "",
   },
 
   {
     id: "edu-ex-011",
-    title: "Ejercicios ‘de construcción’: crea ejemplos y contraejemplos",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘konstrukcyjne’: twórz przykłady i kontrprzykłady",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "El estudiante no solo resuelve: construye casos que cumplan o rompan propiedades.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+      "Uczeń nie tylko rozwiązuje: konstruuje przypadki spełniające lub łamiące własności.",
+    prompt: `Temat: [WPISZ TUTAJ]
 
-Genera 15 ejercicios de construcción:
-- 8: construye un ejemplo que cumpla condiciones (A, B, C)
-- 7: construye un contraejemplo que rompa exactamente una condición
+Wygeneruj 15 ćwiczeń konstrukcyjnych:
+- 8: skonstruuj przykład spełniający warunki (A, B, C)
+- 7: skonstruuj kontrprzykład, który łamie dokładnie jeden warunek
 
-Para cada ejercicio:
-- Enunciado (condiciones claras)
-- Solución con construcción paso a paso
-- Explicación de por qué cumple/rompe
-- Variación: cambia una condición y pregunta qué pasa
+Dla każdego ćwiczenia:
+- Treść (jasne warunki)
+- Rozwiązanie z konstrukcją krok po kroku
+- Wyjaśnienie, dlaczego spełnia/łamie
+- Wariacja: zmień jeden warunek i zapytaj, co się stanie
 
-Cierre:
-- “Kit de construcción” (heurísticas para inventar ejemplos).`,
+Zakończenie:
+- “Zestaw narzędzi konstruktora” (heurystyki do wymyślania przykładów).`,
     thumbnail: "",
   },
   {
     id: "edu-ex-012",
-    title: "Ejercicios con ‘escalera’: mismo problema, 6 niveles de profundidad",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘drabinką’: to samo zadanie, 6 poziomów głębokości",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Un solo problema se vuelve 6, subiendo complejidad gradualmente para dominio real.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Diseña 1 problema base (contexto realista) y luego crea una escalera de 6 niveles:
+      "Jedno zadanie zamienia się w 6, stopniowo podnosząc złożoność dla realnego opanowania.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Zaprojektuj 1 zadanie bazowe (realistyczny kontekst), a potem stwórz drabinkę 6 poziomów:
 
-Nivel 1: comprensión (definir variables)
-Nivel 2: aplicación directa
-Nivel 3: variación (cambia un parámetro)
-Nivel 4: caso borde
-Nivel 5: optimización/elección de método
-Nivel 6: generalización y prueba/justificación
+Poziom 1: zrozumienie (zdefiniuj zmienne)
+Poziom 2: bezpośrednie zastosowanie
+Poziom 3: wariacja (zmień parametr)
+Poziom 4: przypadek brzegowy
+Poziom 5: optymalizacja / wybór metody
+Poziom 6: uogólnienie i dowód/uzasadnienie
 
-Incluye:
-- Enunciados de cada nivel
-- Solución detallada por nivel
-- “Qué habilidad entrena” por nivel
+Uwzględnij:
+- Treści każdego poziomu
+- Szczegółowe rozwiązanie dla każdego poziomu
+- “Jaką umiejętność trenuje” na poziom
 
-Cierre:
-- Cómo evaluar si alguien domina el tema usando esta escalera.`,
+Zakończenie:
+- Jak ocenić opanowanie tematu przy użyciu tej drabinki.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-013",
-    title: "Ejercicios ‘intercalados’: mezcla 5 tipos para evitar ilusión de aprendizaje",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘przeplatane’: mieszaj 5 typów, by uniknąć iluzji nauki",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Interleaving: mezcla tipos de ejercicio; mejora discriminación y selección de método.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Tipos de ejercicio a mezclar (elige 5): [definición, cálculo, prueba, diagnóstico, transferencia, caso real, comparación]
+      "Interleaving: miesza typy zadań; poprawia rozróżnianie i dobór metody.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Typy ćwiczeń do wymieszania (wybierz 5): [definicja, rachunek, dowód, diagnoza, transfer, przypadek realny, porównanie]
 
-Genera 25 ejercicios intercalados (orden mezclado):
-Para cada uno:
-- Enunciado
-- Tipo (uno de los 5)
-- Pista mínima
-- Solución completa
-- “Por qué este tipo confunde con otro” (1 línea)
+Wygeneruj 25 ćwiczeń przeplatanych (kolejność wymieszana):
+Dla każdego:
+- Treść
+- Typ (jeden z 5)
+- Minimalna podpowiedź
+- Pełne rozwiązanie
+- “Dlaczego ten typ myli się z innym” (1 linia)
 
-Cierre:
-- Guía: cómo elegir método correcto (árbol de decisión en bullets).`,
+Zakończenie:
+- Przewodnik: jak wybrać właściwą metodę (drzewo decyzyjne w bulletach).`,
     thumbnail: "",
   },
   {
     id: "edu-ex-014",
-    title: "Ejercicios ‘con datos’: dataset pequeño + preguntas + soluciones",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘z danymi’: mały dataset + pytania + rozwiązania",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Aprendizaje con datos: crea un dataset (texto) y problemas que lo usen.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Contexto: [escuela/empresa/salud/etc.]
-Variables: [lista 6–12]
+      "Nauka na danych: tworzy dataset (tekst) i problemy, które go używają.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Kontekst: [szkoła/firma/zdrowie/itd.]
+Zmienne: [lista 6–12]
 
-Crea un dataset pequeño (20–40 filas) en formato texto (CSV-like).
-Luego crea 12 ejercicios basados en esos datos:
-- 4 descriptivos
-- 4 inferenciales/decisión (si aplica)
-- 4 avanzados (casos borde, trade-offs)
+Stwórz mały dataset (20–40 wierszy) w formacie tekstowym (CSV-like).
+Następnie stwórz 12 ćwiczeń opartych o te dane:
+- 4 opisowe
+- 4 wnioskowanie/decyzja (jeśli dotyczy)
+- 4 zaawansowane (przypadki brzegowe, trade-offy)
 
-Para cada ejercicio:
-- Enunciado
-- Pista
-- Solución completa
-- Verificación (cómo revisar)
+Dla każdego ćwiczenia:
+- Treść
+- Podpowiedź
+- Pełne rozwiązanie
+- Weryfikacja (jak sprawdzić)
 
-Cierre:
-- 8 preguntas extra sin solución para práctica.`,
+Zakończenie:
+- 8 dodatkowych pytań bez rozwiązań do praktyki.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-015",
-    title: "Ejercicios ‘con restricciones’: aprende bajo condiciones (sin X, con Y)",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘z ograniczeniami’: ucz się w warunkach (bez X, z Y)",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Fuerza creatividad y dominio limitando herramientas o imponiendo reglas.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Restricciones (elige 2–4):
-- sin calculadora
-- sin derivadas
-- sin internet
-- solo método gráfico
-- solo argumento verbal
-- límite de tiempo (2 min)
-- solo ejemplos (sin teoría)
+      "Wymusza kreatywność i opanowanie, ograniczając narzędzia albo narzucając reguły.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Ograniczenia (wybierz 2–4):
+- bez kalkulatora
+- bez pochodnych
+- bez internetu
+- tylko metoda graficzna
+- tylko argument werbalny
+- limit czasu (2 min)
+- tylko przykłady (bez teorii)
 
-Genera 12 ejercicios adaptados a esas restricciones:
-Para cada uno:
-- Enunciado
-- Qué habilidad entrena
-- Solución que respete restricciones
-- Error común
-- Cómo verificar rápido
+Wygeneruj 12 ćwiczeń dopasowanych do tych ograniczeń:
+Dla każdego:
+- Treść
+- Jaką umiejętność trenuje
+- Rozwiązanie respektujące ograniczenia
+- Typowy błąd
+- Jak szybko zweryfikować
 
-Cierre:
-- Plan de práctica para mejorar bajo restricción.`,
+Zakończenie:
+- Plan praktyki poprawy pod ograniczeniami.`,
     thumbnail: "",
   },
 
   {
     id: "edu-ex-016",
-    title: "Ejercicios ‘con rubricado’: califica automáticamente con criterios",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘z rubryką’: automatyczne ocenianie kryteriami",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Crea ejercicios donde la evaluación está predefinida: ideal para docentes.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Tipo: [problema / ensayo / proyecto / presentación]
-Nivel: [avanzado]
+      "Tworzy ćwiczenia z predefiniowaną oceną: świetne dla nauczycieli.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Typ: [zadanie / esej / projekt / prezentacja]
+Poziom: [zaawansowany]
 
-Genera 10 ejercicios.
-Para cada uno incluye:
-- Enunciado
-- Respuesta esperada o solución modelo
-- Rúbrica detallada (criterios + niveles + puntaje)
-- Ejemplos de respuesta:
-  - excelente
-  - media
-  - mala
-- Comentarios de feedback (3) por nivel
+Wygeneruj 10 ćwiczeń.
+Dla każdego dodaj:
+- Treść
+- Oczekiwana odpowiedź lub rozwiązanie modelowe
+- Szczegółowa rubryka (kryteria + poziomy + punktacja)
+- Przykłady odpowiedzi:
+  - świetna
+  - średnia
+  - słaba
+- Komentarze feedbackowe (3) na poziom
 
-Cierre:
-- Plantilla de calificación reutilizable.`,
+Zakończenie:
+- Szablon oceny do wielokrotnego użycia.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-017",
-    title: "Ejercicios ‘de síntesis’: resume, conecta y generaliza",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘syntezy’: streszczaj, łącz i uogólniaj",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Tareas de síntesis para nivel avanzado: conectar subtemas, crear marcos y generalizar.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+      "Zadania syntezy na poziomie zaawansowanym: łączenie podtematów, tworzenie ram i uogólnianie.",
+    prompt: `Temat: [WPISZ TUTAJ]
 
-Genera 12 ejercicios de síntesis:
-- 4: mapas conceptuales (instrucciones + solución ejemplo)
-- 4: conecta A con B (argumento + ejemplo)
-- 4: generaliza (de casos a regla)
+Wygeneruj 12 ćwiczeń syntezy:
+- 4: mapy pojęć (instrukcje + przykładowe rozwiązanie)
+- 4: połącz A z B (argument + przykład)
+- 4: uogólnij (od przypadków do reguły)
 
-Para cada ejercicio:
-- Enunciado
-- Pista de estructura (cómo responder)
-- Respuesta modelo (150–350 palabras) o solución
-- Criterios de evaluación
+Dla każdego ćwiczenia:
+- Treść
+- Podpowiedź struktury (jak odpowiedzieć)
+- Odpowiedź modelowa (150–350 słów) lub rozwiązanie
+- Kryteria oceny
 
-Cierre:
-- 10 preguntas de “por qué” para profundizar cualquier respuesta.`,
+Zakończenie:
+- 10 pytań “dlaczego”, by pogłębić każdą odpowiedź.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-018",
-    title: "Ejercicios ‘de comparación’: A vs B vs C con casos y decisión",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘porównawcze’: A vs B vs C z przypadkami i decyzją",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Comparación profunda entre enfoques: supuestos, trade-offs, selección y fallos.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Enfoques a comparar: [A], [B], [C] (si no sabes, propón tú)
+      "Głębokie porównanie podejść: założenia, trade-offy, dobór i awarie.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Podejścia do porównania: [A], [B], [C] (jeśli nie wiesz, zaproponuj)
 
-Genera 10 ejercicios:
-- 4: identificar enfoque correcto para un caso
-- 3: explicar trade-off con ejemplo
-- 3: caso donde dos enfoques fallan y uno funciona
+Wygeneruj 10 ćwiczeń:
+- 4: wskaż właściwe podejście dla przypadku
+- 3: wyjaśnij trade-off na przykładzie
+- 3: przypadek, gdzie dwa podejścia zawodzą, a jedno działa
 
-Para cada ejercicio:
-- Caso (contexto + datos mínimos)
-- Pregunta
-- Solución modelo con justificación
-- Error común
-- “Regla de decisión” (1 línea)
+Dla każdego ćwiczenia:
+- Przypadek (kontekst + minimalne dane)
+- Pytanie
+- Odpowiedź modelowa z uzasadnieniem
+- Typowy błąd
+- “Reguła decyzyjna” (1 linia)
 
-Cierre:
-- Árbol de decisión textual para elegir enfoque.`,
+Zakończenie:
+- Tekstowe drzewo decyzyjne wyboru podejścia.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-019",
-    title: "Ejercicios ‘tipo competición’: velocidad + precisión + verificación",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘w stylu zawodów’: szybkość + precyzja + weryfikacja",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Rutina competitiva: cálculos/pensamiento rápido con verificaciones para no fallar.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [alto]
-Tiempo total: [20–40 min]
+      "Rutyna konkursowa: szybkie myślenie/rachunki z weryfikacją, żeby nie popełniać błędów.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [wysoki]
+Czas łączny: [20–40 min]
 
-Crea una sesión tipo competición:
-A) Sprint (10 min): 10 ejercicios cortos (respuesta final) + claves.
-B) Medio fondo (15 min): 4 ejercicios medianos (solución breve).
-C) Fondo (15 min): 1 ejercicio largo (solución completa + verificación).
+Stwórz sesję w stylu zawodów:
+A) Sprint (10 min): 10 krótkich zadań (odpowiedź końcowa) + klucze.
+B) Średni dystans (15 min): 4 zadania średnie (krótkie rozwiązanie).
+C) Długi dystans (15 min): 1 zadanie długie (pełne rozwiązanie + weryfikacja).
 D) Post-mortem:
-- lista de errores probables en cada bloque
-- recomendaciones de ritmo
+- lista prawdopodobnych błędów w każdym bloku
+- rekomendacje tempa
 
-Incluye:
-- Soluciones y verificaciones para todo.`,
+Uwzględnij:
+- Rozwiązania i weryfikacje do wszystkiego.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-020",
-    title: "Ejercicios ‘de investigación’: formula preguntas y diseña evaluación",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘badawcze’: formułuj pytania i projektuj ocenę",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Ejercicios para pensar como investigador: hipótesis, diseño, evidencia y crítica.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Contexto: [académico / industrial]
+      "Ćwiczenia, by myśleć jak badacz: hipotezy, projekt, dowody i krytyka.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Kontekst: [akademicki / przemysłowy]
 
-Genera 8 ejercicios tipo investigación:
-Para cada uno:
-- Pregunta de investigación
-- Hipótesis (2)
-- Qué evidencia necesitarías
-- Diseño de evaluación (experimento/estudio/simulación)
-- Riesgos de validez (3–5)
-- Respuesta modelo (qué esperarías encontrar)
+Wygeneruj 8 ćwiczeń badawczych:
+Dla każdego:
+- Pytanie badawcze
+- Hipotezy (2)
+- Jakich dowodów potrzebujesz
+- Projekt oceny (eksperyment/badanie/symulacja)
+- Ryzyka trafności (3–5)
+- Odpowiedź modelowa (czego oczekujesz w wynikach)
 
-Cierre:
-- Checklist para evaluar calidad de evidencia (12 puntos).`,
+Zakończenie:
+- Checklista jakości dowodów (12 punktów).`,
     thumbnail: "",
   },
 
   {
     id: "edu-ex-021",
-    title: "Ejercicios ‘para programación’: implementa, prueba, optimiza",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘pod programowanie’: zaimplementuj, przetestuj, zoptymalizuj",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Para temas técnicos: ejercicios que obligan a implementar y testear con casos borde.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Lenguaje: [Python/JS/etc.]
-Nivel: [intermedio/avanzado]
+      "Dla tematów technicznych: zmusza do implementacji i testowania na przypadkach brzegowych.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Język: [Python/JS/itd.]
+Poziom: [średniozaawansowany/zaawansowany]
 
-Genera 10 ejercicios de programación:
-Para cada uno:
-- Enunciado (inputs/outputs)
-- Requisitos (complejidad, memoria, estilo)
-- Casos borde (mínimo 5)
-- Tests (mínimo 6)
-- Solución de referencia (código)
-- Explicación del enfoque
-- Optimización posible (qué mejorar)
+Wygeneruj 10 zadań programistycznych:
+Dla każdego:
+- Treść (wejścia/wyjścia)
+- Wymagania (złożoność, pamięć, styl)
+- Przypadki brzegowe (min. 5)
+- Testy (min. 6)
+- Rozwiązanie referencyjne (kod)
+- Wyjaśnienie podejścia
+- Możliwa optymalizacja (co poprawić)
 
-Cierre:
-- Checklist de debugging para este tipo de tareas.`,
+Zakończenie:
+- Checklista debugowania do tego typu zadań.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-022",
-    title: "Ejercicios ‘con explicación inversa’: desde la solución deduce el problema",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘odwrotne wyjaśnianie’: z rozwiązania wywnioskuj problem",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Aprendizaje inverso: te doy una solución/resultado y tú reconstruyes el problema y el razonamiento.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+      "Nauka odwrotna: dostajesz wynik/rozwiązanie i odtwarzasz problem oraz rozumowanie.",
+    prompt: `Temat: [WPISZ TUTAJ]
 
-Genera 12 ejercicios inversos:
-Para cada uno:
-- Resultado final (número, afirmación, decisión, output)
-- Fragmento de razonamiento (2–4 líneas)
-- Tarea del alumno:
-  1) reconstruir el enunciado posible
-  2) completar los pasos faltantes
-- Solución: un enunciado válido + resolución completa
-- “Qué habilidad entrena”
+Wygeneruj 12 ćwiczeń odwróconych:
+Dla każdego:
+- Wynik końcowy (liczba, stwierdzenie, decyzja, output)
+- Fragment rozumowania (2–4 linie)
+- Zadanie ucznia:
+  1) odtworzyć możliwą treść zadania
+  2) uzupełnić brakujące kroki
+- Rozwiązanie: jedna poprawna treść + pełne rozwiązanie
+- “Jaką umiejętność trenuje”
 
-Cierre:
-- 8 tips para resolver ejercicios inversos.`,
+Zakończenie:
+- 8 wskazówek, jak rozwiązywać ćwiczenia odwrócone.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-023",
-    title: "Ejercicios ‘de lectura crítica’: detectar falacias, huecos y supuestos",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘krytycznego czytania’: wykryj sofizmaty, luki i założenia",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Ideal para teoría y ensayos: analiza argumentos con precisión.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+      "Idealne dla teorii i esejów: analizuj argumenty z precyzją.",
+    prompt: `Temat: [WPISZ TUTAJ]
 
-Crea 10 ejercicios de lectura crítica:
-Para cada uno:
-- Un argumento/solución escrita (150–250 palabras) con 2–4 fallas posibles
-- Preguntas:
-  - identifica supuestos
-  - detecta falacia o salto lógico
-  - reescribe el argumento correctamente
-- Solución modelo (análisis + versión corregida)
-- Rúbrica (claridad, rigor, evidencia, contraejemplos)
+Stwórz 10 ćwiczeń krytycznego czytania:
+Dla każdego:
+- Argument/rozwiązanie w tekście (150–250 słów) z 2–4 możliwymi wadami
+- Pytania:
+  - wskaż założenia
+  - wykryj błąd logiczny lub skok rozumowania
+  - przepisz argument poprawnie
+- Odpowiedź modelowa (analiza + wersja poprawiona)
+- Rubryka (jasność, rygor, dowody, kontrprzykłady)
 
-Cierre:
-- Lista de 15 falacias/saltos típicos en este tema.`,
+Zakończenie:
+- Lista 15 typowych sofizmatów/skoków logicznych w tym temacie.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-024",
-    title: "Ejercicios ‘por objetivos’: comprender, aplicar, analizar, crear (Bloom)",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘wg celów’: zrozumieć, zastosować, przeanalizować, stworzyć (Bloom)",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Crea ejercicios alineados a Bloom: de comprender a crear soluciones nuevas.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+      "Tworzy ćwiczenia zgodne z Bloomem: od rozumienia po tworzenie nowych rozwiązań.",
+    prompt: `Temat: [WPISZ TUTAJ]
 
-Genera 18 ejercicios:
-- 4 Comprender (explicar con tus palabras)
-- 4 Aplicar (resolver)
-- 4 Analizar (comparar, descomponer)
-- 3 Evaluar (criticar, justificar)
-- 3 Crear (nuevo caso, nuevo método)
+Wygeneruj 18 ćwiczeń:
+- 4 Zrozumieć (wyjaśnij własnymi słowami)
+- 4 Zastosować (rozwiąż)
+- 4 Przeanalizować (porównaj, rozłóż na części)
+- 3 Ocenić (skrytykuj, uzasadnij)
+- 3 Stworzyć (nowy przypadek, nowa metoda)
 
-Para cada ejercicio:
-- Enunciado
-- Respuesta/solución modelo
-- Pista
-- Criterio de evaluación
+Dla każdego ćwiczenia:
+- Treść
+- Odpowiedź/rozwiązanie modelowe
+- Podpowiedź
+- Kryterium oceny
 
-Cierre:
-- Cómo usar este set para estudiar en 7 días.`,
+Zakończenie:
+- Jak użyć tego zestawu do nauki w 7 dni.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-025",
-    title: "Ejercicios ‘de oralidad’: explicar en 60s, 3min y 8min",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘ustne’: wyjaśnij w 60 s, 3 min i 8 min",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Entrena explicaciones orales con precisión y ejemplos, en tiempos distintos.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+      "Trenuje odpowiedzi ustne z precyzją i przykładami, w różnych limitach czasu.",
+    prompt: `Temat: [WPISZ TUTAJ]
 
-Genera 10 prompts de explicación oral:
-Para cada uno:
-- Pregunta (1 línea)
-- Estructura de respuesta
-- Respuesta modelo en:
-  A) 60 segundos
-  B) 3 minutos
-  C) 8 minutos
-- 3 repreguntas difíciles
-- 1 ejemplo y 1 caso límite
+Wygeneruj 10 promptów do odpowiedzi ustnej:
+Dla każdego:
+- Pytanie (1 linia)
+- Struktura odpowiedzi
+- Odpowiedź modelowa w:
+  A) 60 sekund
+  B) 3 minuty
+  C) 8 minut
+- 3 trudne dopytania
+- 1 przykład i 1 przypadek brzegowy
 
-Cierre:
-- Checklist para sonar claro bajo presión (12 puntos).`,
+Zakończenie:
+- Checklista, jak brzmieć jasno pod presją (12 punktów).`,
     thumbnail: "",
   },
 
   {
     id: "edu-ex-026",
-    title: "Ejercicios ‘de memoria activa’: flashcards avanzadas + confusores",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘aktywnej pamięci’: zaawansowane fiszki + konfuzory",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Flashcards potentes con confusores y ‘por qué no’ para aprender sin ilusión.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [alto]
+      "Mocne fiszki z konfuzorami i ‘dlaczego nie’, by uczyć się bez iluzji.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [wysoki]
 
-Crea 40 flashcards:
-- 25 conceptuales (definiciones, supuestos, límites)
-- 15 de aplicación (micro-problemas)
+Stwórz 40 fiszek:
+- 25 konceptualnych (definicje, założenia, ograniczenia)
+- 15 zastosowania (mikro-zadania)
 
-Para cada flashcard:
-- Pregunta
-- Respuesta
-- Confusor (respuesta posible pero incorrecta) + por qué es incorrecta
-- Señal para diferenciar
-- Mini-ejemplo o metáfora
+Dla każdej fiszki:
+- Pytanie
+- Odpowiedź
+- Konfuzor (kusi, ale jest błędny) + dlaczego jest błędny
+- Sygnał rozróżnienia
+- Mini-przykład lub metafora
 
-Cierre:
-- Plan de repaso espaciado 14 días (calendario).`,
+Zakończenie:
+- 14-dniowy plan powtórek rozłożonych w czasie (kalendarz).`,
     thumbnail: "",
   },
   {
     id: "edu-ex-027",
-    title: "Ejercicios ‘por habilidades’: descomponer el tema en subskills y entrenarlas",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘wg umiejętności’: rozbij temat na subskills i trenuj je",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Divide un tema complejo en subhabilidades y crea ejercicios específicos para cada una.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [intermedio/avanzado]
+      "Dzieli złożony temat na sub-umiejętności i tworzy celowane ćwiczenia dla każdej.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [średniozaawansowany/zaawansowany]
 
-1) Identifica 8–12 subhabilidades necesarias para dominar el tema.
-2) Para cada subhabilidad:
-- 3 ejercicios (de fácil a difícil)
-- Pistas
-- Soluciones
-- Error común
-- Métrica de dominio (cómo sé que la tengo)
+1) Zidentyfikuj 8–12 sub-umiejętności potrzebnych do opanowania tematu.
+2) Dla każdej sub-umiejętności:
+- 3 ćwiczenia (od łatwego do trudnego)
+- Podpowiedzi
+- Rozwiązania
+- Typowy błąd
+- Metryka opanowania (skąd wiem, że już umiem)
 
-Cierre:
-- Ruta recomendada (orden de subhabilidades) + plan de 10 días.`,
+Zakończenie:
+- Rekomendowana kolejność (ścieżka subskills) + plan na 10 dni.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-028",
-    title: "Ejercicios ‘de generalización’: del caso particular a la regla",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘uogólniania’: od przypadku szczególnego do reguły",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Aprende generalizando: observa patrones en casos y formula reglas, con verificación.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+      "Uczy uogólniania: dostrzegaj wzorce w przypadkach i formułuj reguły z weryfikacją.",
+    prompt: `Temat: [WPISZ TUTAJ]
 
-Genera 12 ejercicios:
-- 6: te doy 3 casos y tú infieres la regla
-- 6: te doy la regla y tú generas 3 casos que la cumplan y 1 que la rompa
+Wygeneruj 12 ćwiczeń:
+- 6: daję 3 przypadki, a Ty wyciągasz regułę
+- 6: daję regułę, a Ty tworzysz 3 przypadki, które ją spełniają, i 1, który ją łamie
 
-Para cada ejercicio:
-- Enunciado
-- Solución (regla/casos)
-- Justificación
-- Verificación (cómo comprobar)
+Dla każdego ćwiczenia:
+- Treść
+- Rozwiązanie (reguła/przypadki)
+- Uzasadnienie
+- Weryfikacja (jak sprawdzić)
 
-Cierre:
-- Heurísticas para generalizar sin overfitting (8).`,
+Zakończenie:
+- Heurystyki uogólniania bez overfittingu (8).`,
     thumbnail: "",
   },
   {
     id: "edu-ex-029",
-    title: "Ejercicios ‘tipo clínica’: toma decisiones con información incompleta",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘kliniczne’: podejmuj decyzje przy niepełnej informacji",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Entrena decisión bajo incertidumbre: hipótesis, preguntas, evidencia y acción.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Contexto: [clínico / negocio / ingeniería / educación]
+      "Trenuje decyzje w niepewności: hipotezy, pytania, dowody i działanie.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Kontekst: [kliniczny / biznes / inżynieria / edukacja]
 
-Crea 8 casos de decisión:
-Para cada caso:
-- Situación (datos iniciales)
-- Qué información falta (pero sería útil)
-- 5 preguntas que harías
-- 3 hipótesis alternativas
-- Qué evidencia apoya/refuta cada hipótesis
-- Decisión recomendada + plan de acción
-- Riesgos y mitigaciones
+Stwórz 8 przypadków decyzyjnych:
+Dla każdego:
+- Sytuacja (dane początkowe)
+- Jakich informacji brakuje (ale byłyby przydatne)
+- 5 pytań, które byś zadał/-a
+- 3 alternatywne hipotezy
+- Jakie dowody wspierają/obalają każdą hipotezę
+- Rekomendowana decyzja + plan działania
+- Ryzyka i mitygacje
 
-Cierre:
-- Checklist de decisión bajo incertidumbre (12 puntos).`,
+Zakończenie:
+- Checklista decyzji w niepewności (12 punktów).`,
     thumbnail: "",
   },
   {
     id: "edu-ex-030",
-    title: "Ejercicios ‘de síntesis final’: examen completo + soluciones + análisis de errores",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘syntezy końcowej’: pełny egzamin + rozwiązania + analiza błędów",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Un examen integrador completo con soluciones y guía de diagnóstico de fallos.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [alto]
-Duración objetivo: [60–120 min]
+      "Pełny egzamin integrujący z rozwiązaniami i przewodnikiem diagnozy błędów.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [wysoki]
+Docelowy czas: [60–120 min]
 
-Crea un examen completo:
-Sección A (conceptual): 10 preguntas (con respuestas modelo)
-Sección B (aplicación): 6 problemas (con soluciones paso a paso)
-Sección C (avanzada): 2 casos integradores (con solución + verificación)
+Stwórz pełny egzamin:
+Sekcja A (konceptualna): 10 pytań (z odpowiedziami modelowymi)
+Sekcja B (zastosowanie): 6 problemów (z rozwiązaniami krok po kroku)
+Sekcja C (zaawansowana): 2 przypadki integrujące (z rozwiązaniem + weryfikacją)
 
-Además:
-- Rúbrica total (100 puntos) y distribución por sección
-- “Mapa de errores”: 15 errores comunes y qué significan (qué no entendiste)
-- Plan de corrección: qué practicar según el error
+Dodatkowo:
+- Całkowita rubryka (100 punktów) i podział na sekcje
+- “Mapa błędów”: 15 typowych błędów i co oznaczają (czego nie rozumiesz)
+- Plan naprawczy: co ćwiczyć w zależności od błędu
 
-Cierre:
-- Lista de estudio final (checklist 20 ítems).`,
+Zakończenie:
+- Finalna lista nauki (checklista 20 punktów).`,
     thumbnail: "",
   },
 
   {
     id: "edu-ex-031",
-    title: "Ejercicios ‘con creatividad’: inventa tu propio problema y resuélvelo",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘z kreatywnością’: wymyśl własne zadanie i je rozwiąż",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Genera problemas originales: enunciado, solución, verificación y caso borde.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+      "Tworzy oryginalne zadania: treść, rozwiązanie, weryfikacja i przypadek brzegowy.",
+    prompt: `Temat: [WPISZ TUTAJ]
 
-Primero, enséñame a inventar problemas:
-- 10 plantillas de enunciados (moldes) para este tema
-- 10 variables que puedo cambiar para generar variantes
-- 6 criterios de “buen problema” (ni trivial ni imposible)
+Najpierw naucz mnie wymyślać zadania:
+- 10 szablonów treści (formatek) dla tego tematu
+- 10 zmiennych, które mogę modyfikować, by tworzyć warianty
+- 6 kryteriów “dobrego zadania” (ani trywialne, ani niemożliwe)
 
-Luego genera 8 problemas originales y para cada uno:
-- Enunciado
-- Solución completa
-- Verificación
-- Variación más difícil
-- Variación con caso borde
+Następnie wygeneruj 8 oryginalnych zadań i dla każdego:
+- Treść
+- Pełne rozwiązanie
+- Weryfikacja
+- Trudniejsza wariacja
+- Wariacja z przypadkiem brzegowym
 
-Cierre:
-- Cómo usar esto para estudiar con un buddy (dinámica).`,
+Zakończenie:
+- Jak używać tego do nauki z buddy (format pracy).`,
     thumbnail: "",
   },
   {
     id: "edu-ex-032",
-    title: "Ejercicios ‘de corrección’: mejora una mala respuesta hasta que sea excelente",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘korekty’: popraw słabą odpowiedź aż będzie świetna",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Itera sobre respuestas: de mala → media → buena → excelente, con comentarios.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+      "Iteruje po odpowiedziach: słaba → średnia → dobra → świetna, z komentarzami.",
+    prompt: `Temat: [WPISZ TUTAJ]
 
-Genera 10 ejercicios:
-Para cada uno incluye:
-- Pregunta
-- Respuesta mala (con fallos típicos)
-- Tarea: mejorarla a “media”, luego a “buena”, luego a “excelente”
-- Solución modelo excelente (final)
-- Comentarios de corrección en cada etapa (qué faltaba)
+Wygeneruj 10 ćwiczeń:
+Dla każdego dodaj:
+- Pytanie
+- Słabą odpowiedź (z typowymi błędami)
+- Zadanie: popraw do “średniej”, potem do “dobrej”, potem do “świetnej”
+- Modelową świetną odpowiedź (finał)
+- Komentarze korekcyjne na każdym etapie (czego brakowało)
 
-Cierre:
-- Checklist de auto-corrección (12 ítems).`,
+Zakończenie:
+- Checklista auto-korekty (12 punktów).`,
     thumbnail: "",
   },
   {
     id: "edu-ex-033",
-    title: "Ejercicios ‘con tiempo’: sets cronometrados + estrategia de ritmo",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘na czas’: zestawy z zegarem + strategia tempa",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Práctica con reloj para exámenes: set de 30/45/60 min con estrategia de ritmo.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Objetivo: [examen]
-Duración del set: [30/45/60 min]
+      "Trening pod egzamin: zestawy 30/45/60 min z zarządzaniem tempem.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Cel: [egzamin]
+Długość zestawu: [30/45/60 min]
 
-Crea 3 sets cronometrados:
-- Set 1: velocidad (preguntas cortas)
-- Set 2: precisión (preguntas medias)
-- Set 3: integración (problema largo)
+Stwórz 3 zestawy na czas:
+- Zestaw 1: szybkość (krótkie pytania)
+- Zestaw 2: precyzja (pytania średnie)
+- Zestaw 3: integracja (długie zadanie)
 
-Para cada set:
-- Lista de ejercicios (con solución)
-- Tiempo recomendado por ejercicio
-- Estrategia de ritmo (cuándo saltar, cuándo volver)
-- Checklist de verificación rápida
+Dla każdego zestawu:
+- Lista ćwiczeń (z rozwiązaniami)
+- Rekomendowany czas na ćwiczenie
+- Strategia tempa (kiedy pominąć, kiedy wrócić)
+- Checklista szybkiej weryfikacji
 
-Cierre:
-- Plan de 1 semana con estos sets (progresión).`,
+Zakończenie:
+- Plan 1 tygodnia z tymi zestawami (progresja).`,
     thumbnail: "",
   },
   {
     id: "edu-ex-034",
-    title: "Ejercicios ‘con explicación escrita’: estructura tipo ensayo técnico",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘z pisemnym wyjaśnieniem’: struktura jak esej techniczny",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Para materias teóricas: ejercicios de respuesta larga con estructura y rúbrica.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+      "Dla przedmiotów teoretycznych: długie odpowiedzi z strukturą i rubryką.",
+    prompt: `Temat: [WPISZ TUTAJ]
 
-Genera 8 preguntas de respuesta larga (ensayo técnico):
-Para cada pregunta:
-- Enunciado
-- Estructura sugerida (introducción → tesis → desarrollo → contraargumento → cierre)
-- Respuesta modelo (500–900 palabras)
-- Fuentes/evidencia “tipo” (qué clase de evidencia usarías)
-- Rúbrica (argumento, evidencia, precisión, límites, claridad)
+Wygeneruj 8 pytań na długą odpowiedź (esej techniczny):
+Dla każdego pytania:
+- Treść
+- Sugerowana struktura (wstęp → teza → rozwinięcie → kontrargument → zakończenie)
+- Odpowiedź modelowa (500–900 słów)
+- “Typ” źródeł/dowodów (jaką klasę dowodów byś użył/-a)
+- Rubryka (argument, dowody, precyzja, ograniczenia, jasność)
 
-Cierre:
-- 10 conectores y frases útiles para escritura académica.`,
+Zakończenie:
+- 10 spójników i przydatnych fraz do pisania akademickiego.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-035",
-    title: "Ejercicios ‘con debate’: defiende una postura con evidencia y límites",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘debaty’: broń stanowiska dowodami i ograniczeniami",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Entrena argumentación: tesis, evidencia, contraargumento, síntesis.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Pregunta debatible: [ESCRIBE AQUÍ]
+      "Trenuje argumentację: teza, dowody, kontrargument, synteza.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Pytanie do debaty: [WPISZ TUTAJ]
 
-Genera 8 ejercicios de debate:
-Para cada uno:
-- Postura A y postura B
-- Evidencia o razonamiento esperado para cada postura
-- 5 preguntas de contraataque (cross-examination)
-- Respuesta modelo A y B (150–300 palabras cada una)
-- Síntesis: cuándo cada postura es válida (criterios)
+Wygeneruj 8 ćwiczeń debatowych:
+Dla każdego:
+- Stanowisko A i stanowisko B
+- Oczekiwane dowody/rozumowanie dla każdego stanowiska
+- 5 pytań do cross-examination (kontrataku)
+- Odpowiedź modelowa A i B (po 150–300 słów)
+- Synteza: kiedy każde stanowisko jest zasadne (kryteria)
 
-Cierre:
-- Rúbrica de debate (claridad, evidencia, honestidad intelectual).`,
+Zakończenie:
+- Rubryka debaty (jasność, dowody, uczciwość intelektualna).`,
     thumbnail: "",
   },
 
   {
     id: "edu-ex-036",
-    title: "Ejercicios ‘de modelado’: formaliza un fenómeno en variables y relaciones",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘modelowania’: sformalizuj zjawisko w zmienne i relacje",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Convierte fenómenos a modelos: variables, supuestos, ecuaciones/reglas y validación.",
-    prompt: `Tema/fenómeno: [ESCRIBE AQUÍ]
-Nivel: [alto]
+      "Zamienia zjawiska w modele: zmienne, założenia, równania/reguły i walidacja.",
+    prompt: `Temat/zjawisko: [WPISZ TUTAJ]
+Poziom: [wysoki]
 
-Crea 10 ejercicios de modelado:
-Para cada uno:
-- Contexto
-- Qué se debe modelar
-- Variables (lista)
-- Supuestos
-- Modelo propuesto (regla/ecuación/algoritmo)
-- Cómo validarlo (qué datos, qué pruebas)
-- Solución modelo
+Stwórz 10 ćwiczeń modelowania:
+Dla każdego:
+- Kontekst
+- Co trzeba zamodelować
+- Zmienne (lista)
+- Założenia
+- Proponowany model (reguła/równanie/algorytm)
+- Jak go zwalidować (jakie dane, jakie testy)
+- Rozwiązanie modelowe
 
-Cierre:
-- Checklist de buen modelado (12 ítems).`,
+Zakończenie:
+- Checklista dobrego modelowania (12 punktów).`,
     thumbnail: "",
   },
   {
     id: "edu-ex-037",
-    title: "Ejercicios ‘con analogías’: crea analogías correctas (y explica límites)",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘z analogiami’: twórz poprawne analogie (i wyjaśniaj granice)",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Entrena a explicar: generar analogías útiles sin confundir por simplificación.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+      "Trenuje wyjaśnianie: buduj użyteczne analogie bez mylenia przez uproszczenia.",
+    prompt: `Temat: [WPISZ TUTAJ]
 
-Genera 12 ejercicios:
-- 6: crea una analogía desde un dominio dado (cocina, música, deportes, etc.)
-- 6: detectar el límite de una analogía dada (y corregirla)
+Wygeneruj 12 ćwiczeń:
+- 6: stwórz analogię z podanej dziedziny (kuchnia, muzyka, sport itd.)
+- 6: wykryj limit podanej analogii (i popraw ją)
 
-Para cada ejercicio:
-- Enunciado
-- Solución modelo (analogía y mapeo)
-- “Dónde se rompe” (caso límite)
-- Cómo arreglarla o advertir al estudiante
+Dla każdego ćwiczenia:
+- Treść
+- Rozwiązanie modelowe (analogia + mapowanie)
+- “Gdzie się psuje” (przypadek graniczny)
+- Jak to naprawić albo jak ostrzec ucznia
 
-Cierre:
-- 10 reglas para construir buenas analogías técnicas.`,
+Zakończenie:
+- 10 reguł budowania dobrych analogii technicznych.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-038",
-    title: "Ejercicios ‘de priorización’: decide qué método usar y por qué",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘priorytetyzacji’: wybierz metodę i uzasadnij",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "El foco no es resolver sino elegir enfoque correcto con justificación.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Métodos disponibles: [lista A/B/C...]
+      "Celem nie jest liczenie, tylko wybór właściwego podejścia z uzasadnieniem.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Dostępne metody: [lista A/B/C...]
 
-Genera 15 ejercicios:
-Para cada uno:
-- Problema/caso
-- Pregunta: “¿qué método usarías y por qué?”
-- Solución modelo:
-  - método elegido
-  - supuestos
-  - pasos
-  - alternativa (segundo mejor)
-- Error común: elegir método por costumbre
-- Señal rápida para decidir
+Wygeneruj 15 ćwiczeń:
+Dla każdego:
+- Problem/przypadek
+- Pytanie: “jakiej metody użyłbyś/-abyś i dlaczego?”
+- Rozwiązanie modelowe:
+  - wybrana metoda
+  - założenia
+  - kroki
+  - alternatywa (drugi najlepszy wybór)
+- Typowy błąd: wybór metody z przyzwyczajenia
+- Szybki sygnał decyzyjny
 
-Cierre:
-- Árbol de decisión textual (IF/THEN).`,
+Zakończenie:
+- Tekstowe drzewo decyzyjne (IF/THEN).`,
     thumbnail: "",
   },
   {
     id: "edu-ex-039",
-    title: "Ejercicios ‘con incertidumbre’: intervalos, escenarios y sensibilidad",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘z niepewnością’: przedziały, scenariusze i wrażliwość",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Problemas que obligan a considerar incertidumbre: escenarios y sensibilidad.",
-    prompt: `Tema/decisión: [ESCRIBE AQUÍ]
+      "Problemy zmuszające do pracy z niepewnością: scenariusze i analiza wrażliwości.",
+    prompt: `Temat/decyzja: [WPISZ TUTAJ]
 
-Genera 10 ejercicios:
-Para cada uno:
-- Datos con rangos (no números únicos)
-- Pide:
-  1) calcular/decidir bajo 3 escenarios (optimista/base/pesimista)
-  2) identificar variable más sensible
-  3) proponer decisión robusta
-- Solución completa con explicación
-- Verificación/sanity check
+Wygeneruj 10 ćwiczeń:
+Dla każdego:
+- Dane w przedziałach (nie pojedyncze liczby)
+- Wymagaj:
+  1) policzyć/podjąć decyzję w 3 scenariuszach (optymistyczny/bazowy/pesymistyczny)
+  2) wskazać najbardziej wrażliwą zmienną
+  3) zaproponować decyzję odporną (robust)
+- Pełne rozwiązanie z wyjaśnieniem
+- Weryfikacja/sanity check
 
-Cierre:
-- 8 errores al tratar incertidumbre.`,
+Zakończenie:
+- 8 błędów w traktowaniu niepewności.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-040",
-    title: "Ejercicios ‘de metaconfusión’: distingue conceptos similares (A vs B)",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘meta-konfuzji’: odróżniaj podobne pojęcia (A vs B)",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Set para dejar de confundir conceptos parecidos: definiciones, tests y casos.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Parejas que confundo: [A vs B], [C vs D], etc. (si no das, propone 5 comunes)
+      "Zestaw, by przestać mylić podobne pojęcia: definicje, testy i przypadki.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Pary, które mylę: [A vs B], [C vs D] itd. (jeśli nie podasz, zaproponuj 5 typowych)
 
-Genera 20 ejercicios:
-- 10: clasifica casos (¿es A o B?)
-- 5: explica diferencia con ejemplo y contraejemplo
-- 5: “corrige esta frase” (tiene confusión)
+Wygeneruj 20 ćwiczeń:
+- 10: klasyfikuj przypadki (to A czy B?)
+- 5: wyjaśnij różnicę przykładem i kontrprzykładem
+- 5: “popraw to zdanie” (jest w nim pomylenie)
 
-Incluye:
-- Soluciones con justificación
-- “Test rápido” para distinguir cada pareja (1–2 preguntas)
-- Errores comunes y cómo evitarlos
+Uwzględnij:
+- Rozwiązania z uzasadnieniem
+- “Szybki test” rozróżnienia każdej pary (1–2 pytania)
+- Typowe błędy i jak ich unikać
 
-Cierre:
-- Mini-cheat sheet de distinciones (bullets).`,
+Zakończenie:
+- Mini-ściąga rozróżnień (bullets).`,
     thumbnail: "",
   },
 
   {
     id: "edu-ex-041",
-    title: "Ejercicios ‘de iteración’: te doy feedback como profesor (simulado)",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘iteracyjne’: daję Ci feedback jak nauczyciel (symulacja)",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Simula un profesor que evalúa y pide mejoras: iteración hasta calidad alta.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Tipo de respuestas: [desarrollo / solución / ensayo / código]
+      "Symuluje nauczyciela, który ocenia i wymaga poprawek: iterujesz do wysokiej jakości.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Typ odpowiedzi: [opisowe / rozwiązanie / esej / kod]
 
-Genera 6 tareas donde:
-- Das el enunciado
-- Das una respuesta inicial “del alumno” (media)
-- Das feedback del profesor (duro pero justo)
-- Muestras la versión mejorada
-- Explicas qué cambió y por qué
+Wygeneruj 6 zadań, gdzie:
+- Podajesz treść
+- Podajesz początkową odpowiedź “ucznia” (średnią)
+- Dajesz feedback nauczyciela (surowy, ale fair)
+- Pokazujesz wersję poprawioną
+- Wyjaśniasz, co się zmieniło i dlaczego
 
-Cierre:
-- Plantilla de auto-feedback para que yo mismo itere.`,
+Zakończenie:
+- Szablon auto-feedbacku, żebym mógł/mogła sam(a) iterować.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-042",
-    title: "Ejercicios ‘de automatización’: crea hábitos de práctica y seguimiento",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘automatyzacji’: nawyki praktyki i śledzenie postępu",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Diseña un sistema de práctica: sets, métricas, revisión de errores y progresión.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Tiempo disponible: [min/día]
-Objetivo: [examen/proyecto]
+      "Projektuje system praktyki: zestawy, metryki, przegląd błędów i progresję.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Dostępny czas: [min/dzień]
+Cel: [egzamin/projekt]
 
-Crea un sistema:
-1) 3 sets de ejercicios (corto/medio/largo) con ejemplos concretos.
-2) Métricas de progreso (8–12).
-3) Registro de errores:
-   - categorías (10)
-   - cómo corregir cada una
-4) Progresión de 14 días:
-   - qué hacer cada día
-   - cómo ajustar si fallo
-5) “Prueba final” con solución y rúbrica.
+Stwórz system:
+1) 3 zestawy ćwiczeń (krótki/średni/długi) z konkretnymi przykładami.
+2) Metryki postępu (8–12).
+3) Rejestr błędów:
+   - kategorie (10)
+   - jak korygować każdą
+4) Progresja 14 dni:
+   - co robić każdego dnia
+   - jak dostosować, jeśli polegnę
+5) “Test końcowy” z rozwiązaniem i rubryką.
 
-Incluye:
-- 20 ejercicios tipo para alimentar el sistema.`,
+Uwzględnij:
+- 20 przykładowych ćwiczeń do zasilania systemu.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-043",
-    title: "Ejercicios ‘de calibración’: estima primero, calcula después",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘kalibracji’: najpierw oszacuj, potem policz",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Entrena intuición cuantitativa: estimaciones y checks antes del cálculo formal.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+      "Trenuje intuicję ilościową: estymacje i sanity checki przed formalnym rachunkiem.",
+    prompt: `Temat: [WPISZ TUTAJ]
 
-Genera 12 ejercicios:
-Para cada uno:
-- Pide primero una estimación (orden de magnitud / rango / aproximación)
-- Luego pide el cálculo exacto (si aplica)
-- Solución: estimación razonable + cálculo exacto
-- Compara: cómo de lejos estaba la estimación y por qué
-- Verificación y sanity checks
+Wygeneruj 12 ćwiczeń:
+Dla każdego:
+- Najpierw poproś o oszacowanie (rząd wielkości / zakres / przybliżenie)
+- Potem poproś o obliczenie dokładne (jeśli dotyczy)
+- Rozwiązanie: sensowne oszacowanie + wynik dokładny
+- Porównanie: jak daleko było oszacowanie i dlaczego
+- Weryfikacja i sanity checki
 
-Cierre:
-- Guía de estimación rápida (10 heurísticas).`,
+Zakończenie:
+- Poradnik szybkiej estymacji (10 heurystyk).`,
     thumbnail: "",
   },
   {
     id: "edu-ex-044",
-    title: "Ejercicios ‘de lectura de gráficos’: interpreta, infiere, critica",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘czytania wykresów’: interpretuj, wnioskuj, krytykuj",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Entrena interpretación de gráficos/figuras con preguntas avanzadas y soluciones.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Tipo de gráficos: [línea, barras, dispersión, ROC, etc.]
+      "Trenuje interpretację wykresów/figur: pytania zaawansowane i rozwiązania.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Typ wykresów: [liniowy, słupkowy, rozrzutu, ROC itd.]
 
-Crea 10 ejercicios:
-Para cada uno:
-- Describe un gráfico (en texto) con ejes, tendencia, outliers
-- Preguntas:
-  1) interpreta tendencia
-  2) infiere causa posible (con cautela)
-  3) identifica sesgos/limitaciones
-  4) qué dato extra pedirías
-- Solución modelo completa
+Stwórz 10 ćwiczeń:
+Dla każdego:
+- Opisz wykres (tekstowo): osie, trend, obserwacje odstające
+- Pytania:
+  1) zinterpretuj trend
+  2) ostrożnie zaproponuj możliwą przyczynę
+  3) wskaż biasy/ograniczenia
+  4) jakie dodatkowe dane byś poprosił/-a
+- Pełna odpowiedź modelowa
 
-Cierre:
-- Checklist de lectura crítica de gráficos (12).`,
+Zakończenie:
+- Checklista krytycznego czytania wykresów (12).`,
     thumbnail: "",
   },
   {
     id: "edu-ex-045",
-    title: "Ejercicios ‘de comunicación’: explica lo mismo a 3 audiencias",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘komunikacji’: wyjaśnij to samo 3 odbiorcom",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Practica comunicación: misma idea explicada a niño, estudiante y experto.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+      "Trenuje komunikację: ta sama idea wyjaśniona dziecku, studentowi i ekspertowi.",
+    prompt: `Temat: [WPISZ TUTAJ]
 
-Genera 10 ejercicios:
-Para cada ejercicio:
-- Pregunta o subtema
-- Respuesta modelo para:
-  A) 12 años (claro, analogía)
-  B) estudiante universitario (más rigor)
-  C) experto (preciso, límites)
-- 2 ejemplos por audiencia
-- 1 error común por audiencia
+Wygeneruj 10 ćwiczeń:
+Dla każdego:
+- Pytanie lub podtemat
+- Odpowiedź modelowa dla:
+  A) 12-latka (jasno, analogia)
+  B) studenta (więcej rygoru)
+  C) eksperta (precyzyjnie, z ograniczeniami)
+- 2 przykłady na odbiorcę
+- 1 typowy błąd na odbiorcę
 
-Cierre:
-- Plantilla para adaptar explicación sin perder exactitud.`,
+Zakończenie:
+- Szablon adaptacji wyjaśnienia bez utraty ścisłości.`,
     thumbnail: "",
   },
 
   {
     id: "edu-ex-046",
-    title: "Ejercicios ‘de síntesis extrema’: resume en 1 frase, 5 bullets, 1 página",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘ekstremalnej syntezy’: 1 zdanie, 5 bulletów, 1 strona",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Entrena comprensión: resumir un tema en distintos niveles sin perder lo esencial.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+      "Trenuje rozumienie: streszczanie na różnych poziomach bez utraty sedna.",
+    prompt: `Temat: [WPISZ TUTAJ]
 
-Genera 12 ejercicios:
-Cada uno pide resumir un subtema en:
-1) 1 frase (máx 12 palabras)
-2) 5 bullets (máx 1 línea cada uno)
-3) 1 página (400–700 palabras) con ejemplo y límite
+Wygeneruj 12 ćwiczeń:
+Każde prosi o streszczenie podtematu w:
+1) 1 zdaniu (maks. 12 słów)
+2) 5 bulletach (maks. 1 linia każdy)
+3) 1 stronie (400–700 słów) z przykładem i ograniczeniem
 
-Incluye:
-- Solución modelo para 4 de los ejercicios (los más difíciles).
-- Rúbrica para evaluar resúmenes (claridad, exactitud, cobertura, ejemplo, límites).
+Uwzględnij:
+- Rozwiązanie modelowe dla 4 ćwiczeń (najtrudniejszych).
+- Rubryka oceny streszczeń (jasność, poprawność, pokrycie, przykład, ograniczenia).
 
-Cierre:
-- Errores típicos al resumir (10).`,
+Zakończenie:
+- 10 typowych błędów przy streszczaniu.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-047",
-    title: "Ejercicios ‘de selección de variables’: define, mide, operacionaliza",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘doboru zmiennych’: zdefiniuj, zmierz, operacjonalizuj",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Entrena a convertir conceptos en variables medibles y diseñar medición.",
-    prompt: `Tema/constructo: [ESCRIBE AQUÍ] (ej. “motivación”, “calidad”, “riesgo”, “aprendizaje”)
+      "Trenuje zamianę pojęć na mierzalne zmienne i projekt pomiaru.",
+    prompt: `Temat/konstrukt: [WPISZ TUTAJ] (np. “motywacja”, “jakość”, “ryzyko”, “uczenie się”)
 
-Genera 10 ejercicios:
-Para cada uno:
-- Define el constructo con precisión
-- Propón 3 variables medibles (operacionalización)
-- Cómo medirlas (instrumento, escala, frecuencia)
-- Posibles sesgos de medición (3)
-- Solución modelo completa
+Wygeneruj 10 ćwiczeń:
+Dla każdego:
+- Zdefiniuj konstrukt precyzyjnie
+- Zaproponuj 3 mierzalne zmienne (operacjonalizacja)
+- Jak je mierzyć (narzędzie, skala, częstotliwość)
+- Możliwe biasy pomiaru (3)
+- Pełne rozwiązanie modelowe
 
-Cierre:
-- Checklist de operacionalización (12).`,
+Zakończenie:
+- Checklista operacjonalizacji (12).`,
     thumbnail: "",
   },
   {
     id: "edu-ex-048",
-    title: "Ejercicios ‘de causalidad’: diseña el estudio o el experimento",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘przyczynowości’: zaprojektuj badanie lub eksperyment",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Práctica avanzada: plantear estudios causales con control de sesgos.",
-    prompt: `Relación a investigar: [X afecta Y]
-Contexto: [ESCRIBE AQUÍ]
+      "Zaawansowana praktyka: projekty badań przyczynowych z kontrolą biasów.",
+    prompt: `Relacja do zbadania: [X wpływa na Y]
+Kontekst: [WPISZ TUTAJ]
 
-Genera 8 ejercicios:
-Para cada uno:
-- Propón 2 diseños posibles (experimental y observacional)
-- Variables de control/posibles confusores
-- Qué datos recolectar
-- Cómo analizar
-- Limitaciones
-- Solución modelo (diseño recomendado + por qué)
+Wygeneruj 8 ćwiczeń:
+Dla każdego:
+- Zaproponuj 2 możliwe projekty (eksperymentalny i obserwacyjny)
+- Zmienne kontrolne / potencjalne konfuzory
+- Jakie dane zbierać
+- Jak analizować
+- Ograniczenia
+- Rozwiązanie modelowe (rekomendowany projekt + dlaczego)
 
-Cierre:
-- Checklist de causalidad (12).`,
+Zakończenie:
+- Checklista przyczynowości (12).`,
     thumbnail: "",
   },
   {
     id: "edu-ex-049",
-    title: "Ejercicios ‘de robustez’: prueba tu solución contra escenarios",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Ćwiczenia ‘odporności’: sprawdź rozwiązanie na scenariuszach",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Entrena robustez: cambiar supuestos y evaluar si la solución se sostiene.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
+      "Trenuje robustność: zmieniaj założenia i oceniaj, czy rozwiązanie się trzyma.",
+    prompt: `Temat: [WPISZ TUTAJ]
 
-Genera 10 ejercicios:
-Para cada uno:
-- Problema base
-- Solución base (resuelta)
-- 3 perturbaciones (cambia supuestos/parámetros)
-- Recalcula/re-razona con cada perturbación
-- Conclusión: qué tan robusta es la solución y por qué
+Wygeneruj 10 ćwiczeń:
+Dla każdego:
+- Problem bazowy
+- Rozwiązanie bazowe (rozwiązane)
+- 3 perturbacje (zmień założenia/parametry)
+- Przelicz/przemyśl od nowa dla każdej perturbacji
+- Wniosek: jak odporne jest rozwiązanie i dlaczego
 
-Cierre:
-- 10 heurísticas de robustez aplicables a cualquier problema.`,
+Zakończenie:
+- 10 heurystyk odporności do każdego problemu.`,
     thumbnail: "",
   },
   {
     id: "edu-ex-050",
-    title: "Mega pack de ejercicios: 50 preguntas mixtas + soluciones (modo intensivo)",
-    area: "Educación & Formación",
-    category: "Ejercicios",
+    title: "Mega paczka ćwiczeń: 50 pytań mieszanych + rozwiązania (tryb intensywny)",
+    area: "Edukacja & Szkolenia",
+    category: "Ćwiczenia",
     summary:
-      "Pack intensivo: conceptual, aplicación, diagnóstico, transferencia, síntesis.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [alto]
-Objetivo: [examen/proyecto]
-Tiempo total: [2–4 horas]
+      "Pakiet intensywny: konceptualne, zastosowanie, diagnoza, transfer, synteza.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [wysoki]
+Cel: [egzamin/projekt]
+Czas łączny: [2–4 godziny]
 
-Genera 50 ejercicios mixtos:
-- 15 conceptuales
-- 15 de aplicación
-- 10 diagnóstico (soluciones falsas)
-- 5 transferencia
-- 5 síntesis/ensayo
+Wygeneruj 50 ćwiczeń mieszanych:
+- 15 konceptualnych
+- 15 zastosowania
+- 10 diagnostycznych (fałszywe rozwiązania)
+- 5 transferowych
+- 5 syntezy/esejowych
 
-Incluye:
-- Soluciones completas para los 30 más importantes
-- Pistas para los otros 20
-- Rúbrica global (100 puntos)
-- Plan de corrección basado en resultados:
-  - si fallas en X → qué practicar
-  - recursos/estrategias
+Uwzględnij:
+- Pełne rozwiązania dla 30 najważniejszych
+- Podpowiedzi dla pozostałych 20
+- Globalna rubryka (100 punktów)
+- Plan korekty na podstawie wyników:
+  - jeśli mylisz X → co ćwiczyć
+  - zasoby/strategie
 
-Cierre:
-- Checklist final de dominio (20 ítems).`,
+Zakończenie:
+- Finalna checklista opanowania (20 punktów).`,
     thumbnail: "",
   },
 ];

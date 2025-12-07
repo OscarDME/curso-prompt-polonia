@@ -2,250 +2,252 @@
 
 export const courseIntro = {
   id: "inicio",
-  title: "Bienvenida al Banco Secreto de Prompts",
-  subtitle: "Antes de empezar, mira cómo está organizado todo para sacarle el máximo partido.",
-  heroText: `Gracias por confiar en Banco Secreto de Prompts. 
-Aquí tienes el centro de mando de todo tu arsenal de IA: prompts, asistentes, herramientas y entrenamientos.
+  title: "Witamy w Tajnym Banku Promptów",
+  subtitle:
+    "Zanim zaczniesz, zobacz, jak wszystko jest zorganizowane, żeby wycisnąć z tego maksimum.",
+  heroText: `Dzięki za zaufanie Tajnemu Bankowi Promptów.
+Oto centrum dowodzenia Twojego arsenału AI: prompty, asystenci, narzędzia i szkolenia.
 
-En esta sección te explico cómo funciona la plataforma, qué vas a encontrar en cada módulo y cómo usar cada parte paso a paso.`,
+W tej sekcji wyjaśniam, jak działa platforma, co znajdziesz w każdym module i jak krok po kroku korzystać z każdej części.`,
 
-  // Secciones principales de explicación
+  // Główne sekcje wyjaśniające
   sections: [
     {
       id: "acceso-y-codigo",
-      title: "1. Acceso y código de compra",
+      title: "1. Dostęp i kod zakupu",
       body: [
-        `Tu acceso a esta plataforma está vinculado al curso que compraste en Hotmart.`,
-        `Dentro del producto que recibiste en tu correo (en Hotmart) tienes tu **código de acceso**. Ese mismo código es el que usas para entrar a esta área de miembros.`,
-        `Mientras mantengas este código, podrás volver a entrar siempre que quieras desde la página de login. Si pierdes el correo, revisa spam/promociones o contacta al soporte.`
+        `Twój dostęp do tej platformy jest powiązany z kursem, który kupiłeś(-aś) na Hotmart.`,
+        `W produkcie, który otrzymałeś(-aś) mailowo (z Hotmart), znajduje się Twój **kod dostępu**. To ten sam kod, którego używasz, aby wejść do tej strefy członkowskiej.`,
+        `Dopóki masz ten kod, możesz wracać i logować się zawsze, kiedy chcesz, ze strony logowania. Jeśli zgubisz maila, sprawdź spam/oferty lub skontaktuj się ze wsparciem.`
       ]
     },
     {
       id: "ruta-principal",
-      title: "2. Cómo está organizada la plataforma",
+      title: "2. Jak jest zorganizowana platforma",
       body: [
-        `Cuando entras al área de miembros, verás una pantalla principal con un **hero** y dos filas de tarjetas tipo “Netflix”.`,
-        `La primera fila se llama **“Ruta principal — Banco Secreto de Prompts”**. 
-Aquí es donde está lo que usarás en el día a día:`,
+        `Po wejściu do strefy członkowskiej zobaczysz ekran główny z **hero** oraz dwoma rzędami kart w stylu „Netflix”.`,
+        `Pierwszy rząd nazywa się **„Główna ścieżka — Tajny Bank Promptów”**.
+To tutaj znajduje się wszystko, czego będziesz używać na co dzień:`
       ],
       bullets: [
         {
-          label: "Inicio",
+          label: "Start",
           description:
-            "Esta sección (donde estás ahora): una guía rápida de cómo funciona todo el curso y la plataforma."
+            "Ta sekcja (w której jesteś teraz): szybki przewodnik po tym, jak działa cały kurs i platforma."
         },
         {
-          label: "Prompts de texto",
+          label: "Prompty tekstowe",
           description:
-            "Biblioteca de prompts para copies, guiones, posts, e-mails, ads, scripts de venta y mucho más."
+            "Biblioteka promptów do copy, skryptów, postów, e-maili, reklam, skryptów sprzedażowych i dużo więcej."
         },
         {
-          label: "Prompts de imagen",
+          label: "Prompty do obrazów",
           description:
-            "Prompts listos para generar imágenes, portadas, anuncios y fotos profesionales con IA."
+            "Gotowe prompty do generowania obrazów, okładek, reklam i profesjonalnych zdjęć z użyciem AI."
         },
         {
-          label: "Prompts de vídeo",
+          label: "Prompty do wideo",
           description:
-            "Prompts diseñados para crear vídeos virales, anuncios y contenido corto usando IA."
+            "Prompty zaprojektowane do tworzenia viralowych filmów, reklam i krótkich treści z użyciem AI."
         },
         {
-          label: "Herramientas de IA",
+          label: "Narzędzia AI",
           description:
-            "Recomendaciones y guías de herramientas que te ayudan a crear sitios, editar vídeos y automatizar tareas."
+            "Rekomendacje i poradniki narzędzi, które pomogą Ci tworzyć strony, montować wideo i automatyzować zadania."
         },
         {
-          label: "Asistentes GPTs",
+          label: "Asystenci GPT",
           description:
-            "Acceso a más de 30 asistentes especializados (copywriter, social media, programador, consultor y más)."
+            "Dostęp do ponad 30 wyspecjalizowanych asystentów (copywriter, social media, programista, konsultant i inne)."
         },
         {
-          label: "Entrenamientos",
+          label: "Szkolenia",
           description:
-            "Clases y contenidos adicionales para profundizar en IA, ChatGPT y estrategias de negocio."
+            "Lekcje i dodatkowe materiały, żeby pogłębić wiedzę o AI, ChatGPT i strategiach biznesowych."
         }
       ],
-      image: "/intro/ecosistema-ia.png",   // 👈 pon aquí la imagen que generaste
+      image: "/intro/ecosistema-ia.png"
     },
     {
       id: "bonos",
-      title: "3. Bonos y extras",
+      title: "3. Bonusy i dodatki",
       body: [
-        `La segunda fila está dedicada a los **bonos exclusivos** que vienen con tu acceso.`,
-        `Por ahora verás las tarjetas de bonus más oscuras y con un mensaje de “Disponible en 48 horas”. Esto es intencional: los bonos se desbloquean automáticamente un poco después de tu compra.`,
-        `En esta sección tendrás acceso a:`
+        `Drugi rząd jest przeznaczony na **ekskluzywne bonusy**, które są częścią Twojego dostępu.`,
+        `Na początku zobaczysz karty bonusów ciemniejsze i z komunikatem „Dostępne za 48 godzin”. To celowe: bonusy odblokowują się automatycznie trochę po zakupie.`,
+        `W tej sekcji uzyskasz dostęp do:`
       ],
       bullets: [
         {
-          label: "Bono #01 — Comunidad VIP en WhatsApp",
+          label: "Bonus #01 — Społeczność VIP na WhatsApp",
           description:
-            "Grupo privado con miembros activos, networking y soporte diario para acelerar tus resultados."
+            "Prywatna grupa z aktywnymi członkami, networkingiem i codziennym wsparciem, żeby przyspieszyć Twoje rezultaty."
         },
         {
-          label: "+30 asistentes virtuales de IA",
+          label: "+30 wirtualnych asystentów AI",
           description:
-            "Asistentes ya entrenados para ayudarte como copywriter, social media, programador, consultor y más."
+            "Asystenci już wytrenowani, by pomagać Ci jako copywriter, social media manager, programista, konsultant i nie tylko."
         },
         {
-          label: "Manual de carruseles virales",
+          label: "Instrukcja viralowych karuzel",
           description:
-            "Guía práctica tipo historieta para crear carruseles que generan muchísimo engagement."
+            "Praktyczny przewodnik w formie „historyjki” do tworzenia karuzel, które generują ogromne zaangażowanie."
         },
         {
-          label: "Generador de e-books y presentaciones",
+          label: "Generator e-booków i prezentacji",
           description:
-            "Sistema para crear e-books, presentaciones y materiales ricos en minutos."
+            "System do tworzenia e-booków, prezentacji i bogatych materiałów w kilka minut."
         },
         {
-          label: "Entrenamiento ChatGPT: de cero a avanzado",
+          label: "Szkolenie ChatGPT: od zera do zaawansowanego",
           description:
-            "Un entrenamiento completo para dominar ChatGPT desde cero hasta un nivel avanzado."
+            "Kompleksowe szkolenie, by opanować ChatGPT od podstaw do poziomu zaawansowanego."
         },
         {
-          label: "Arsenal con +600 herramientas de IA",
+          label: "Arsenał +600 narzędzi AI",
           description:
-            "Listado curado de herramientas (muchas gratuitas) para crear, automatizar y escalar tu negocio."
+            "Wyselekcjonowana lista narzędzi (wiele darmowych) do tworzenia, automatyzacji i skalowania Twojego biznesu."
         },
         {
-          label: "Crea tu avatar hablante de IA",
+          label: "Stwórz mówiącego avatara AI",
           description:
-            "Método para crear un avatar que graba vídeos por ti, con voz y rostro generados por IA."
+            "Metoda tworzenia avatara, który nagrywa filmy za Ciebie — z głosem i twarzą generowanymi przez AI."
         },
         {
-          label: "El Mega Prompt Millonario",
+          label: "Mega Milionerski Prompt",
           description:
-            "El prompt estratégico que resume un ecosistema de negocios con múltiples fuentes de ingreso."
+            "Strategiczny prompt, który streszcza ekosystem biznesowy z wieloma źródłami przychodu."
         }
       ],
-      highlight: `Cuando los bonos se activen, simplemente volverás al inicio del curso y podrás hacer clic en cada tarjeta como en la ruta principal.`
+      highlight:
+        `Gdy bonusy się aktywują, po prostu wrócisz do startu kursu i będziesz mógł/mogła kliknąć każdą kartę tak jak w głównej ścieżce.`
     },
     {
       id: "biblioteca-prompts",
-      title: "4. Cómo usar la biblioteca de prompts",
+      title: "4. Jak korzystać z biblioteki promptów",
       body: [
-        `Los módulos de **Prompts de texto**, **Prompts de imagen** y **Prompts de vídeo** comparten una misma lógica de uso.`,
-        `Cuando entres a cualquiera de estas secciones, verás una **biblioteca de tarjetas** con:`,
+        `Moduły **Prompty tekstowe**, **Prompty do obrazów** i **Prompty do wideo** działają według tej samej logiki.`,
+        `Po wejściu do którejkolwiek z tych sekcji zobaczysz **bibliotekę kart** z:`
       ],
       bullets: [
         {
-          label: "Título del prompt",
+          label: "Tytułem promptu",
           description:
-            "Te indica rápidamente para qué sirve ese prompt (ejemplo: “Programa de aprendizaje personalizado”)."
+            "Szybko pokazuje, do czego służy dany prompt (np. „Spersonalizowany program nauki”)."
         },
         {
-          label: "Categoría",
+          label: "Kategorią",
           description:
-            "Agrupa prompts por tipo de uso: educación, marketing, anuncios, productos, etc."
+            "Grupuje prompty według zastosowania: edukacja, marketing, reklamy, produkty itd."
         },
         {
-          label: "Resumen",
+          label: "Podsumowaniem",
           description:
-            "Una descripción corta de lo que hace ese prompt y de cuándo deberías usarlo."
+            "Krótki opis tego, co robi prompt i kiedy warto go użyć."
         }
       ],
       image: "/intro/panel-control-creador.png",
       extra: [
-        `Encima de la biblioteca tendrás:`,
-        `• **Filtro por categoría:** puedes activar una categoría para ver solo prompts de ese tipo.`,
-        `• **Buscador por título:** escribe una palabra clave del título para filtrar la lista (ideal cuando ya sabes lo que buscas).`
+        `Nad biblioteką znajdziesz:`,
+        `• **Filtr kategorii:** możesz włączyć kategorię, aby zobaczyć tylko prompty tego typu.`,
+        `• **Wyszukiwarkę po tytule:** wpisz słowo kluczowe z tytułu, aby przefiltrować listę (idealne, gdy już wiesz, czego szukasz).`
       ]
     },
     {
       id: "ver-y-copiar-prompts",
-      title: "5. Ver y copiar un prompt",
+      title: "5. Podgląd i kopiowanie promptu",
       body: [
-        `Al hacer clic en el botón **“Ver prompt”** dentro de una tarjeta, se despliega el contenido completo del prompt.`,
-        `Desde ahí puedes:`,
+        `Po kliknięciu przycisku **„Zobacz prompt”** na karcie, rozwinie się pełna treść promptu.`,
+        `Stamtąd możesz:`
       ],
       bullets: [
         {
-          label: "Leer el prompt completo",
+          label: "Przeczytać pełny prompt",
           description:
-            "Lo verás formateado en una caja de texto, listo para seleccionar o adaptar."
+            "Zobaczysz go sformatowanego w polu tekstowym, gotowego do zaznaczenia lub dostosowania."
         },
         {
-          label: "Copiar con un solo clic",
+          label: "Skopiować jednym kliknięciem",
           description:
-            "Pulsa el botón **“Copiar”** y el prompt se enviará automáticamente a tu portapapeles para pegarlo en ChatGPT u otra IA."
+            "Kliknij przycisk **„Kopiuj”**, a prompt automatycznie trafi do schowka, aby wkleić go w ChatGPT lub inną AI."
         }
       ],
       image: "/intro/flujo-trabajo-automatizado.png",
       highlight:
-        "Tu flujo ideal es: filtrar / buscar → abrir uno o varios prompts → copiar → pegar en tu IA favorita → adaptar a tu contexto."
+        "Idealny workflow: filtruj / wyszukaj → otwórz jeden lub kilka promptów → kopiuj → wklej do ulubionej AI → dopasuj do kontekstu."
     },
     {
       id: "herramientas-y-asistentes",
-      title: "6. Herramientas de IA y asistentes GPTs",
+      title: "6. Narzędzia AI i asystenci GPT",
       body: [
-        `En estos módulos no solo tendrás prompts, sino también **explicaciones y recomendaciones prácticas**.`,
-        `• En **Herramientas de IA** verás explicaciones de herramientas recomendadas, posibles usos y sugerencias para integrarlas en tu negocio o proyecto.`,
-        `• En **Asistentes GPTs** encontrarás la lógica de uso de los asistentes: cómo acceder, qué hace cada uno y ejemplos de comandos para empezar rápido.`,
-        `Todo seguirá la misma filosofía del curso: explicaciones claras, enfoque práctico y siempre con prompts listos para usar.`
+        `W tych modułach znajdziesz nie tylko prompty, ale też **wyjaśnienia i praktyczne rekomendacje**.`,
+        `• W **Narzędziach AI** zobaczysz opisy polecanych narzędzi, możliwe zastosowania oraz sugestie, jak wdrożyć je w biznesie lub projekcie.`,
+        `• W **Asystentach GPT** poznasz logikę korzystania z asystentów: jak uzyskać dostęp, co robi każdy z nich i przykładowe komendy, aby szybko wystartować.`,
+        `Wszystko będzie zgodne z filozofią kursu: jasne wyjaśnienia, praktyczne podejście i zawsze z promptami gotowymi do użycia.`
       ]
     },
     {
       id: "entrenamientos",
-      title: "7. Entrenamientos sin complicarte",
+      title: "7. Szkolenia bez komplikowania",
       body: [
-        `En el módulo de **Entrenamientos** tendrás contenidos en formato texto (y, cuando aplique, enlaces a vídeos) donde profundizamos en temas clave como:`,
+        `W module **Szkolenia** znajdziesz treści w formie tekstu (a gdy to ma zastosowanie — linki do wideo), gdzie pogłębiamy kluczowe tematy, takie jak:`
       ],
       bullets: [
         {
-          label: "Uso estratégico de ChatGPT",
+          label: "Strategiczne użycie ChatGPT",
           description:
-            "Cómo pasar de pedir cosas sueltas a montar sistemas completos con IA."
+            "Jak przejść od pojedynczych próśb do budowania kompletnych systemów z AI."
         },
         {
-          label: "Aplicación a negocio y marca personal",
+          label: "Zastosowanie w biznesie i marce osobistej",
           description:
-            "Ideas concretas para usar tus prompts en tu nicho y no dejarlos solo en teoría."
+            "Konkretne pomysły, jak używać promptów w swojej niszy, a nie zostawiać ich tylko w teorii."
         },
         {
-          label: "Casos prácticos",
+          label: "Praktyczne przypadki",
           description:
-            "Ejemplos reales y plantillas que puedes copiar/adaptar a tu contexto."
+            "Realne przykłady i szablony, które możesz skopiować/dostosować do swojego kontekstu."
         }
       ],
       highlight:
-        "No necesitas verlo todo de golpe. Puedes usar los entrenamientos como apoyo cuando sientas que quieres subir de nivel."
+        "Nie musisz przerabiać wszystkiego naraz. Traktuj szkolenia jako wsparcie, gdy poczujesz, że chcesz wejść poziom wyżej."
     },
     {
       id: "consejos-uso",
-      title: "8. Consejos para sacarle el máximo provecho",
+      title: "8. Wskazówki, jak wycisnąć maksimum",
       body: [
-        `Para que este arsenal no se quede “muerto” en tu cuenta, te recomiendo:`
+        `Żeby ten arsenał nie „leżał martwy” na Twoim koncie, polecam:`
       ],
       bullets: [
         {
-          label: "Empieza por un objetivo concreto",
+          label: "Zacznij od konkretnego celu",
           description:
-            "Por ejemplo: “planear mi contenido del próximo mes” o “sacar 3 ideas de anuncios para este producto”."
+            "Np. „zaplanować mój content na przyszły miesiąc” albo „wymyślić 3 pomysły na reklamy dla tego produktu”."
         },
         {
-          label: "Marca tus prompts favoritos",
+          label: "Zapisuj ulubione prompty",
           description:
-            "Ten un documento o nota donde guardes los prompts que más usas para volver a ellos rápido."
+            "Miej dokument lub notatkę, gdzie trzymasz prompty, których używasz najczęściej, żeby szybko do nich wracać."
         },
         {
-          label: "Adapta el lenguaje a tu estilo",
+          label: "Dopasuj język do swojego stylu",
           description:
-            "Los prompts son plantillas. Personaliza tono, ejemplos y contexto para que suenen a ti."
+            "Prompty to szablony. Personalizuj ton, przykłady i kontekst, żeby brzmiało jak Ty."
         },
         {
-          label: "No tengas miedo de iterar",
+          label: "Nie bój się iterować",
           description:
-            "Si un resultado no te convence, ajusta el prompt, añade más contexto o combina dos prompts en uno."
+            "Jeśli wynik Cię nie przekonuje, dopracuj prompt, dodaj więcej kontekstu albo połącz dwa prompty w jeden."
         }
       ]
     },
     {
       id: "soporte",
-      title: "9. Soporte y ayuda",
+      title: "9. Wsparcie i pomoc",
       body: [
-        `Si en algún momento tienes dudas sobre el acceso, el código, el uso de la plataforma o algún módulo en concreto:`,
-        `• Revisa primero esta sección de **Inicio** para ver si la respuesta ya está aquí.  
-• Si sigues con dudas, utiliza el canal de soporte indicado en el curso o dentro de tu acceso (por ejemplo, la Comunidad VIP en WhatsApp cuando esté activa).`,
-        `Recuerda: la idea es que este Banco Secreto de Prompts sea una herramienta que uses constantemente, no un curso más que se queda acumulando polvo en tu bandeja de entrada.`
+        `Jeśli w dowolnym momencie masz pytania o dostęp, kod, korzystanie z platformy lub konkretny moduł:`,
+        `• Najpierw wróć do tej sekcji **Start**, żeby sprawdzić, czy odpowiedź już tu jest.
+• Jeśli nadal masz wątpliwości, skorzystaj z kanału wsparcia wskazanego w kursie lub w Twoim dostępie (np. Społeczność VIP na WhatsApp, gdy będzie aktywna).`,
+        `Pamiętaj: celem jest, aby ten Tajny Bank Promptów był narzędziem, z którego korzystasz stale — a nie kolejnym kursem, który zbiera kurz w skrzynce odbiorczej.`
       ]
     }
   ]

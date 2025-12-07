@@ -6,160 +6,160 @@ export const imagePromptsFotoModaEditorial = [
   // =========================
   {
     id: "img-foto-moda-001",
-    title: "Moda editorial en estudio (fondo gris, pose elegante)",
-    area: "Fotografía Pro",
+    title: "Moda editorial w studiu (szare tło, elegancka poza)",
+    area: "Fotografia Profesjonalna",
     category: "Moda editorial",
     summary:
-      "Foto editorial de moda tipo revista: estudio, styling premium y luz suave controlada.",
-    prompt: `Genera una fotografía REALISTA de moda editorial en estudio.
+      "Editorialowa fotografia mody jak z magazynu: studio, premium styling i miękkie, kontrolowane światło.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie mody editorial w studiu.
 
-DATOS:
-- Modelo: [mujer/hombre/persona] de [edad], [rasgos], [peinado]
-- Outfit: [describir outfit editorial], telas con textura real (seda/lana/cuero)
-- Accesorios: [mínimos/premium], sin logos
-- Fondo: gris neutro liso, estilo estudio
+DANE:
+- Model(ka): [kobieta/mężczyzna/osoba] w wieku [wiek], [cechy], [fryzura]
+- Outfit: [opisz editorial outfit], tkaniny z realistyczną fakturą (jedwab/wełna/skóra)
+- Akcesoria: [minimalne/premium], bez logo
+- Tło: gładkie neutralne szare, styl studyjny
 
-ILUMINACIÓN:
-- Softbox grande lateral 45° + relleno suave (shadows suaves)
-- Piel natural, textura real, sin efecto plástico
-- Look editorial limpio
+OŚWIETLENIE:
+- Duży softbox z boku 45° + miękkie dopełnienie (miękkie cienie)
+- Naturalna skóra, realistyczna tekstura, bez efektu plastiku
+- Czysty editorial look
 
-CÁMARA:
+KAMERA:
 - Full-frame, 85mm, f/2.8, ISO 100, 1/160s
-- Nitidez en ojos, detalle en ropa, bokeh suave
+- Ostrość na oczach, detal w ubraniu, miękki bokeh
 
-COMPOSICIÓN:
-- Plano 3/4 (rodillas a cabeza) o plano completo
-- Pose elegante, postura editorial
-- Color grading: neutro + contraste moderado (revista)
+KOMPOZYCJA:
+- Kadr 3/4 (od kolan do głowy) lub pełny kadr
+- Elegancka poza, editorial postura
+- Color grading: neutralny + umiarkowany kontrast (magazyn)
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Anatomía realista (manos/pies correctos)`,
+OGRANICZENIA:
+- Bez tekstu/watermarku
+- Realistyczna anatomia (poprawne dłonie/stopy)`,
     thumbnail: "/images/foto-pro/moda1.webp",
   },
   {
     id: "img-foto-moda-002",
-    title: "Editorial high-fashion (fondo blanco high-key, look premium)",
-    area: "Fotografía Pro",
+    title: "Editorial high-fashion (białe tło high-key, premium look)",
+    area: "Fotografia Profesjonalna",
     category: "Moda editorial",
     summary:
-      "Editorial high-fashion high-key: iluminación luminosa, estética de pasarela y limpieza total.",
-    prompt: `Genera una foto REALISTA editorial high-fashion (estudio high-key).
+      "High-fashion editorial high-key: jasne oświetlenie, estetyka wybiegu i pełna czystość.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie editorial high-fashion (studio high-key).
 
-DATOS:
-- Modelo: [persona], [edad], look high-fashion
-- Outfit: [alta moda], silueta marcada, textura premium
-- Fondo: blanco puro, limpio
+DANE:
+- Model(ka): [osoba], [wiek], high-fashion look
+- Outfit: [haute couture], wyraźna sylwetka, premium faktura
+- Tło: czysta biel, minimalistycznie
 
-ILUMINACIÓN:
-- High-key uniforme, sin sombras duras
-- Brillo controlado, piel natural con textura real
+OŚWIETLENIE:
+- Równomierne high-key, bez twardych cieni
+- Kontrolowany blask, naturalna skóra z realistyczną teksturą
 
-CÁMARA:
-- 50mm u 85mm, f/3.2, ISO 100
-- Nitidez alta en rostro y outfit
+KAMERA:
+- 50mm lub 85mm, f/3.2, ISO 100
+- Wysoka ostrość na twarzy i outficie
 
-COMPOSICIÓN:
-- Plano completo con espacio negativo arriba
-- Pose de pasarela, actitud fuerte
+KOMPOZYCJA:
+- Pełna sylwetka z negatywną przestrzenią u góry
+- Poza jak na wybiegu, mocna postawa
 
-RESTRICCIONES:
-- Sin texto/logos
-- No sobreexponer rostro, evitar piel “plástica”`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Nie prześwietlać twarzy, unikać „plastikowej” skóry`,
     thumbnail: "/images/foto-pro/moda2.webp",
   },
   {
     id: "img-foto-moda-003",
-    title: "Editorial minimalista (fondo crema, luz suave, look clean)",
-    area: "Fotografía Pro",
+    title: "Minimalistyczny editorial (kremowe tło, miękkie światło, clean look)",
+    area: "Fotografia Profesjonalna",
     category: "Moda editorial",
     summary:
-      "Moda editorial minimal: paleta crema, styling simple, perfecto para marca personal premium.",
-    prompt: `Genera una foto REALISTA de moda editorial minimalista.
+      "Minimal editorial: kremowa paleta, proste stylizacje, idealne dla premium marki osobistej.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie minimalistycznej mody editorial.
 
-DATOS:
-- Modelo: [persona], [edad], expresión serena
-- Outfit: tonos crema/beige, estilo minimal (sin patrones)
-- Fondo: crema/cálido suave, uniforme
+DANE:
+- Model(ka): [osoba], [wiek], spokojna ekspresja
+- Outfit: kremowe/beżowe tony, minimal styl (bez wzorów)
+- Tło: kremowe/ciepłe, jednolite
 
-ILUMINACIÓN:
-- Luz suave tipo ventana + relleno sutil
-- Sombras delicadas, piel realista
+OŚWIETLENIE:
+- Miękkie światło jak z okna + subtelne dopełnienie
+- Delikatne cienie, realistyczna skóra
 
-CÁMARA:
+KAMERA:
 - 85mm, f/2.5, ISO 100
-- Color grading: cálido leve, contraste bajo/medio
+- Color grading: lekko ciepły, niski/średni kontrast
 
-COMPOSICIÓN:
-- Plano 3/4 o medio, pose natural editorial
-- Detalles de textura de tela visibles
+KOMPOZYCJA:
+- Kadr 3/4 lub średni, naturalna editorial poza
+- Widoczne detale faktury tkaniny
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Anatomía correcta, sin dedos extra`,
+OGRANICZENIA:
+- Bez tekstu/watermarku
+- Poprawna anatomia, bez dodatkowych palców`,
     thumbnail: "/images/foto-pro/moda3.webp",
   },
   {
     id: "img-foto-moda-004",
-    title: "Editorial dramática low-key (fondo negro, contraste controlado)",
-    area: "Fotografía Pro",
+    title: "Dramatyczny editorial low-key (czarne tło, kontrolowany kontrast)",
+    area: "Fotografia Profesjonalna",
     category: "Moda editorial",
     summary:
-      "Estética editorial dramática: fondo negro, sombras con detalle y vibe lujo.",
-    prompt: `Genera una fotografía REALISTA de moda editorial low-key.
+      "Dramatyczna estetyka editorial: czarne tło, cienie z detalem i vibe luksusu.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie mody editorial low-key.
 
-DATOS:
-- Modelo: [persona], [edad], actitud fuerte
-- Outfit: negro o tonos oscuros (cuero/lana), look lujo
-- Fondo: negro profundo
+DANE:
+- Model(ka): [osoba], [wiek], mocna postawa
+- Outfit: czarny lub ciemne tony (skóra/wełna), luksusowy look
+- Tło: głęboka czerń
 
-ILUMINACIÓN:
-- Key light lateral suave (45°) + rim light sutil en cabello/hombros
-- Alto contraste controlado, detalles visibles en ropa
+OŚWIETLENIE:
+- Miękkie boczne key light (45°) + subtelny rim light na włosach/ramionach
+- Wysoki, ale kontrolowany kontrast, widoczne detale w ubraniu
 
-CÁMARA:
+KAMERA:
 - 85mm, f/2.2, ISO 160
-- Enfoque en ojos, nitidez alta
+- Ostrość na очach, wysoka ostrość
 
-COMPOSICIÓN:
-- Plano medio-corto o 3/4
-- Pose editorial con poder, manos naturales
+KOMPOZYCJA:
+- Plan średnio-bliski lub 3/4
+- Mocna editorial poza, naturalne dłonie
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar sombras empastadas (quiero detalle)`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Unikać „zalanych” cieni (chcę detal)`,
     thumbnail: "/images/foto-pro/moda4.webp",
   },
   {
     id: "img-foto-moda-005",
-    title: "Editorial beauty-fashion (primer plano, maquillaje editorial sutil)",
-    area: "Fotografía Pro",
+    title: "Editorial beauty-fashion (zbliżenie, subtelny editorial makijaż)",
+    area: "Fotografia Profesjonalna",
     category: "Moda editorial",
     summary:
-      "Primer plano editorial con acento en maquillaje/look fashion, piel realista y acabado de revista.",
-    prompt: `Genera un retrato REALISTA editorial beauty-fashion.
+      "Editorialowe zbliżenie z akcentem na makijaż/look fashion, realistyczna skóra i wykończenie jak z magazynu.",
+    prompt: `Wygeneruj REALISTYCZNY portret editorial beauty-fashion.
 
-DATOS:
-- Modelo: [persona], [edad], maquillaje editorial sutil (no exagerado)
-- Outfit: cuello alto / blazer fashion minimal
-- Fondo: gris claro o beige
+DANE:
+- Model(ka): [osoba], [wiek], subtelny editorial makijaż (bez przesady)
+- Outfit: golf / modowy blazer minimal
+- Tło: jasnoszare lub beżowe
 
-ILUMINACIÓN:
-- Softbox frontal suave + relleno leve
-- Piel con textura real (poros sutiles), sin blur
+OŚWIETLENIE:
+- Miękki frontowy softbox + lekkie dopełnienie
+- Skóra z realistyczną teksturą (subtelne pory), bez blur
 
-CÁMARA:
+KAMERA:
 - 85mm, f/2.8, ISO 100
-- Enfoque quirúrgico en ojos
+- Chirurgiczna ostrość na oczach
 
-COMPOSICIÓN:
-- Primer plano o busto, mirada directa a cámara
-- Estética de revista premium
+KOMPOZYCJA:
+- Zbliżenie lub popiersie, bezpośrednie spojrzenie w obiektyw
+- Premium estetyka magazynowa
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar labios/ojos deformes`,
+OGRANICZENIA:
+- Bez tekstu/watermarku
+- Unikać zdeformowanych ust/oczu`,
     thumbnail: "/images/foto-pro/moda5.webp",
   },
 
@@ -168,469 +168,469 @@ RESTRICCIONES:
   // =========================
   {
     id: "img-foto-moda-006",
-    title: "Street style en ciudad (outfit completo, bokeh urbano)",
-    area: "Fotografía Pro",
+    title: "Street style w mieście (pełny outfit, miejski bokeh)",
+    area: "Fotografia Profesjonalna",
     category: "Street style",
     summary:
-      "Foto de outfit completo tipo street style con fondo urbano desenfocado y look natural.",
-    prompt: `Genera una foto REALISTA street style en ciudad.
+      "Zdjęcie pełnej stylizacji street style z rozmytym miejskim tłem i naturalnym lookiem.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie street style w mieście.
 
-DATOS:
-- Modelo: [persona], [edad]
-- Outfit: [describir look completo], estilo streetwear o smart casual
-- Ubicación: calle urbana moderna, edificios al fondo (bokeh)
-- Pose: caminando o parado/a natural, no posado rígido
+DANE:
+- Model(ka): [osoba], [wiek]
+- Outfit: [opisz pełny look], streetwear lub smart casual
+- Lokalizacja: nowoczesna ulica miejska, budynki w tle (bokeh)
+- Poza: idzie lub stoi naturalnie, bez sztywnego pozowania
 
-ILUMINACIÓN:
-- Luz natural (tarde) suave, sombras ligeras
+OŚWIETLENIE:
+- Naturalne światło (popołudnie) miękkie, lekkie cienie
 
-CÁMARA:
+KAMERA:
 - 35mm, f/2, ISO 200
-- Enfoque en modelo, bokeh moderado
+- Ostrość na model(ce), umiarkowany bokeh
 
-COMPOSICIÓN:
-- Plano completo, espacio en la dirección de la mirada/camino
-- Estética real de fotógrafo callejero
+KOMPOZYCJA:
+- Pełna sylwetka, miejsce w kierunku spojrzenia/kierunku ruchu
+- Realna estetyka ulicznego fotografa
 
-RESTRICCIONES:
-- Sin texto/logos
-- Proporciones corporales realistas`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Realistyczne proporcje ciała`,
     thumbnail: "/images/foto-pro/moda6.webp",
   },
   {
     id: "img-foto-moda-007",
-    title: "Street style con pared texturizada (minimal, look premium)",
-    area: "Fotografía Pro",
+    title: "Street style przy teksturowanej ścianie (minimal, premium look)",
+    area: "Fotografia Profesjonalna",
     category: "Street style",
     summary:
-      "Street style minimal con pared de fondo, ideal para lookbook y marca personal.",
-    prompt: `Genera una foto REALISTA street style con fondo de pared texturizada.
+      "Minimal street style z tłem ściany, idealne do lookbooka i premium marki osobistej.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie street style na tle teksturowanej ściany.
 
-DATOS:
-- Modelo: [persona], [edad]
-- Outfit: minimal premium (tonos neutros, telas de calidad)
-- Fondo: pared de concreto o piedra clara, textura sutil
-- Pose: editorial simple (manos en bolsillos / brazos cruzados natural)
+DANE:
+- Model(ka): [osoba], [wiek]
+- Outfit: minimal premium (neutralne tony, jakościowe tkaniny)
+- Tło: ściana z betonu lub jasnego kamienia, subtelna tekstura
+- Poza: prosta editorial (ręce w kieszeniach / naturalnie skrzyżowane ramiona)
 
-ILUMINACIÓN:
-- Sombra abierta (luz suave), tonos piel realistas
+OŚWIETLENIE:
+- Światło rozproszone (miękkie), realistyczne tony skóry
 
-CÁMARA:
+KAMERA:
 - 50mm, f/2.2, ISO 100
-- Nitidez en ropa y rostro
+- Ostrość na ubraniu i twarzy
 
-COMPOSICIÓN:
-- Plano 3/4 o completo, encuadre limpio
+KOMPOZYCJA:
+- Kadr 3/4 lub pełny, czysty kadr
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar manos deformes`,
+OGRANICZENIA:
+- Bez tekstu/watermarku
+- Unikać zdeformowanych dłoni`,
     thumbnail: "/images/foto-pro/moda7.webp",
   },
   {
     id: "img-foto-moda-008",
-    title: "Street style con movimiento (candid, paso congelado)",
-    area: "Fotografía Pro",
+    title: "Street style w ruchu (candid, zamrożony krok)",
+    area: "Fotografia Profesjonalna",
     category: "Street style",
     summary:
-      "Estilo street candid: movimiento realista, paso congelado y energía urbana.",
-    prompt: `Genera una foto REALISTA street candid con movimiento.
+      "Street candid: realistyczny ruch, zamrożony krok i miejska energia.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie street candid w ruchu.
 
-DATOS:
-- Modelo: [persona], [edad]
-- Outfit: [streetwear], capas (chaqueta + pantalón + sneakers)
-- Acción: caminando rápido, paso congelado, mirada natural
-- Fondo: ciudad con profundidad, gente/cars desenfocados
+DANE:
+- Model(ka): [osoba], [wiek]
+- Outfit: [streetwear], warstwy (kurtka + spodnie + sneakersy)
+- Akcja: szybki krok, zamrożony ruch, naturalne spojrzenie
+- Tło: miasto z głębią, ludzie/samochody rozmyte
 
-ILUMINACIÓN:
-- Luz natural de tarde, contraste medio
+OŚWIETLENIE:
+- Naturalne popołudniowe światło, średni kontrast
 
-CÁMARA:
+KAMERA:
 - 35mm, f/2, ISO 400
-- Velocidad alta para congelar movimiento (sin blur exagerado)
+- Wysoka prędkość migawki, aby zamrozić ruch (bez przesadnego bluru)
 
-COMPOSICIÓN:
-- Plano completo, perspectiva callejera, dinamismo
+KOMPOZYCJA:
+- Pełna sylwetka, uliczna perspektywa, dynamika
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar pies deformes, anatomía rara`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Unikać zdeformowanych stóp, dziwnej anatomii`,
     thumbnail: "/images/foto-pro/moda8.webp",
   },
   {
     id: "img-foto-moda-009",
-    title: "Street style 'golden hour' (luz dorada en cabello, bokeh)",
-    area: "Fotografía Pro",
+    title: "Street style w golden hour (złote światło na włosach, bokeh)",
+    area: "Fotografia Profesjonalna",
     category: "Street style",
     summary:
-      "Street style al atardecer con luz dorada y ambiente cálido, ideal para Instagram.",
-    prompt: `Genera una foto REALISTA street style en golden hour.
+      "Street style o zachodzie z złotym światłem i ciepłym klimatem, idealne na Instagram.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie street style w golden hour.
 
-DATOS:
-- Modelo: [persona], [edad], expresión confiada
-- Outfit: tonos tierra, estilo fashion casual
-- Escena: boulevard urbano con árboles, fondo desenfocado
+DANE:
+- Model(ka): [osoba], [wiek], pewny wyraz twarzy
+- Outfit: ziemiste tony, fashion casual
+- Scena: miejski bulwar z drzewami, rozmyte tło
 
-ILUMINACIÓN:
-- Luz dorada lateral (rim light suave en cabello)
-- Piel natural, tonos cálidos
+OŚWIETLENIE:
+- Złote boczne światło (miękki rim light na włosach)
+- Naturalna skóra, ciepłe tony
 
-CÁMARA:
-- 50mm u 85mm, f/1.8, ISO 200
-- Enfoque en ojos, bokeh suave
+KAMERA:
+- 50mm lub 85mm, f/1.8, ISO 200
+- Ostrość na oczach, miękki bokeh
 
-COMPOSICIÓN:
-- Plano 3/4, modelo ligeramente en tercios
-- Sensación cálida y premium
+KOMPOZYCJA:
+- Kadr 3/4, model(ka) lekko w tercjach
+- Ciepłe i premium wrażenie
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar saturación excesiva`,
+OGRANICZENIA:
+- Bez tekstu/watermarku
+- Unikać nadmiernej saturacji`,
     thumbnail: "/images/foto-pro/moda9.webp",
   },
   {
     id: "img-foto-moda-010",
-    title: "Street style en avenida con hojas otoñales (look editorial)",
-    area: "Fotografía Pro",
+    title: "Street style na alei z jesiennymi liśćmi (editorial look)",
+    area: "Fotografia Profesjonalna",
     category: "Street style",
     summary:
-      "Street editorial con vibra otoño: hojas, avenida y colores cálidos realistas.",
-    prompt: `Genera una foto REALISTA street editorial en otoño.
+      "Jesienny street editorial vibe: liście, aleja i realistyczne ciepłe kolory.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie street editorial jesienią.
 
-DATOS:
-- Modelo: [persona], [edad]
-- Outfit: abrigo/trench + botas, tonos cálidos
-- Escena: avenida con árboles otoñales y hojas en el suelo
-- Pose: caminando o parado/a con actitud editorial
+DANE:
+- Model(ka): [osoba], [wiek]
+- Outfit: płaszcz/trench + buty, ciepłe tony
+- Scena: aleja z jesiennymi drzewami i liśćmi na ziemi
+- Poza: idzie lub stoi z editorial attitude
 
-ILUMINACIÓN:
-- Luz suave (nublado o tarde), color grading cálido
+OŚWIETLENIE:
+- Miękkie światło (pochmurno lub popołudnie), ciepły color grading
 
-CÁMARA:
-- 35mm o 50mm, f/2, ISO 250
-- Fondo con bokeh moderado
+KAMERA:
+- 35mm lub 50mm, f/2, ISO 250
+- Tło z umiarkowanym bokeh
 
-COMPOSICIÓN:
-- Plano completo o 3/4, profundidad de calle
+KOMPOZYCJA:
+- Pełny kadr lub 3/4, głębia ulicy
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar fondos irreales o demasiado perfectos`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Unikać nierealnych lub zbyt perfekcyjnych teł`,
     thumbnail: "/images/foto-pro/moda10.webp",
   },
 
   // =========================
-  // CATEGORY: Lookbook / catálogo
+  // CATEGORY: Lookbook / katalog
   // =========================
   {
     id: "img-foto-moda-011",
-    title: "Lookbook limpio (serie consistente, fondo neutro, 1 outfit)",
-    area: "Fotografía Pro",
-    category: "Lookbook / catálogo",
+    title: "Czysty lookbook (spójna seria, neutralne tło, 1 outfit)",
+    area: "Fotografia Profesjonalna",
+    category: "Lookbook / katalog",
     summary:
-      "Imagen tipo lookbook con consistencia total: fondo neutro, misma luz, perfecto para catálogo.",
-    prompt: `Genera una foto REALISTA estilo lookbook de catálogo (consistencia total).
+      "Zdjęcie lookbook z pełną spójnością: neutralne tło, to samo światło, idealne do katalogu.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie w stylu lookbooka katalogowego (pełna spójność).
 
-DATOS:
-- Modelo: [persona], [edad]
-- Outfit: [describir outfit], mostrar textura y caída de la tela
-- Fondo: gris claro o blanco roto, limpio
+DANE:
+- Model(ka): [osoba], [wiek]
+- Outfit: [opisz outfit], pokaż fakturę i układ tkaniny
+- Tło: jasnoszare lub złamana biel, czysto
 
-REQUISITO DE CONSISTENCIA:
-- Mantener EXACTAMENTE el mismo set: iluminación, fondo, encuadre, distancia de cámara
-- Estilo catálogo premium, sin dramatismo
+WYMÓG SPÓJNOŚCI:
+- Utrzymaj DOKŁADNIE ten sam set: oświetlenie, tło, kadr, dystans kamery
+- Premium styl katalogowy, bez dramatyzmu
 
-ILUMINACIÓN:
-- Luz uniforme suave, sombras mínimas
+OŚWIETLENIE:
+- Miękkie równomierne światło, minimalne cienie
 
-CÁMARA:
-- 50mm, f/4 (para nitidez del outfit), ISO 100
+KAMERA:
+- 50mm, f/4 (ostrość outfitu), ISO 100
 
-COMPOSICIÓN:
-- Plano completo, modelo centrado, postura natural
+KOMPOZYCJA:
+- Pełny kadr, model(ka) wycentrowany(a), naturalna postura
 
-RESTRICCIONES:
-- Sin texto/logos
-- Proporciones corporales exactas`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Dokładne proporcje ciała`,
     thumbnail: "/images/foto-pro/moda11.webp",
   },
   {
     id: "img-foto-moda-012",
-    title: "Lookbook con 3 poses (mismo set, variación de postura)",
-    area: "Fotografía Pro",
-    category: "Lookbook / catálogo",
+    title: "Lookbook z 3 pozami (ten sam set, zmiana postawy)",
+    area: "Fotografia Profesjonalna",
+    category: "Lookbook / katalog",
     summary:
-      "Foto lookbook para serie: 3 variaciones de pose manteniendo el mismo encuadre, luz y fondo.",
-    prompt: `Genera una foto REALISTA estilo lookbook para serie (misma escena).
+      "Lookbook do serii: 3 warianty pozy przy zachowaniu tego samego kadru, światła i tła.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie w stylu lookbooka do serii (ta sama scena).
 
-DATOS:
-- Modelo: [persona], [edad]
-- Outfit: [describir outfit]
-- Fondo: neutro limpio (gris claro/blanco roto)
+DANE:
+- Model(ka): [osoba], [wiek]
+- Outfit: [opisz outfit]
+- Tło: czyste neutralne (jasnoszare/złamana biel)
 
-INSTRUCCIÓN:
-- Crear una composición tipo lookbook lista para repetirse
-- Pose: [pose 1], [pose 2], [pose 3] (o genera 3 opciones de pose natural)
+INSTRUKCJA:
+- Stwórz kompozycję lookbook gotową do powtórzeń
+- Pozy: [poza 1], [poza 2], [poza 3] (albo wygeneruj 3 naturalne opcje pozy)
 
-ILUMINACIÓN:
-- Suave y uniforme, sombras mínimas
+OŚWIETLENIE:
+- Miękkie i równomierne, minimalne cienie
 
-CÁMARA:
-- 50mm, f/4, ISO 100, nitidez alta
+KAMERA:
+- 50mm, f/4, ISO 100, wysoka ostrość
 
-COMPOSICIÓN:
-- Plano completo, centrado, espacio para recorte
+KOMPOZYCJA:
+- Pełny kadr, wycentrowany, miejsce na przycięcie
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar proporciones raras, manos deformes`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Unikać dziwnych proporcji, zdeformowanych dłoni`,
     thumbnail: "/images/foto-pro/moda12.webp",
   },
   {
     id: "img-foto-moda-013",
-    title: "Catálogo premium tipo ecommerce (fondo claro, detalle de tela)",
-    area: "Fotografía Pro",
-    category: "Lookbook / catálogo",
+    title: "Premium katalog jak ecommerce (jasne tło, detal tkaniny)",
+    area: "Fotografia Profesjonalna",
+    category: "Lookbook / katalog",
     summary:
-      "Imagen tipo ecommerce premium con fondo claro y enfoque en textura/material de la prenda.",
-    prompt: `Genera una foto REALISTA de catálogo premium (ecommerce fashion).
+      "Premium ecommerce image z jasnym tłem i naciskiem na teksturę/materiał ubrania.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie premium katalogowe (ecommerce fashion).
 
-DATOS:
-- Modelo: [persona], [edad]
-- Outfit: [prenda principal], enfatizar textura y costuras
-- Fondo: blanco roto o gris claro uniforme
+DANE:
+- Model(ka): [osoba], [wiek]
+- Outfit: [główna część garderoby], podkreśl teksturę i szwy
+- Tło: złamana biel lub jasnoszare, jednolite
 
-ILUMINACIÓN:
-- Softbox frontal suave + relleno para eliminar sombras duras
-- Piel natural y detalle de tela nítido
+OŚWIETLENIE:
+- Miękki frontowy softbox + dopełnienie, żeby usunąć twarde cienie
+- Naturalna skóra i ostry detal tkaniny
 
-CÁMARA:
-- 70mm u 85mm, f/5.6 (detalle y nitidez), ISO 100
+KAMERA:
+- 70mm lub 85mm, f/5.6 (detal i ostrość), ISO 100
 
-COMPOSICIÓN:
-- Plano 3/4 o completo; prenda protagonista
-- Estilo limpio, comercial premium
+KOMPOZYCJA:
+- Kadr 3/4 lub pełny; ubranie jako bohater
+- Czysty, komercyjny premium styl
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar artefactos en tela o bordes`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Unikać artefaktów na tkaninie lub krawędziach`,
     thumbnail: "/images/foto-pro/moda13.webp",
   },
   {
     id: "img-foto-moda-014",
-    title: "Lookbook outdoor elegante (pared clara, luz suave, editorial clean)",
-    area: "Fotografía Pro",
-    category: "Lookbook / catálogo",
+    title: "Elegancki lookbook outdoor (jasna ściana, miękkie światło, clean editorial)",
+    area: "Fotografia Profesjonalna",
+    category: "Lookbook / katalog",
     summary:
-      "Lookbook exterior limpio: pared clara, luz suave y estética editorial minimal.",
-    prompt: `Genera una foto REALISTA lookbook outdoor (clean).
+      "Czysty lookbook na zewnątrz: jasna ściana, miękkie światło i minimalistyczna estetyka editorial.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie lookbook outdoor (clean).
 
-DATOS:
-- Modelo: [persona], [edad]
-- Outfit: [describir], tonos neutros, elegante
-- Fondo: pared clara exterior (blanco/beige), minimalista
+DANE:
+- Model(ka): [osoba], [wiek]
+- Outfit: [opisz], neutralne tony, elegancki
+- Tło: jasna ściana na zewnątrz (biała/beżowa), minimalistycznie
 
-ILUMINACIÓN:
-- Sombra abierta (luz suave), sin sombras duras
+OŚWIETLENIE:
+- Rozproszone światło (miękkie), bez twardych cieni
 
-CÁMARA:
+KAMERA:
 - 50mm, f/2.8, ISO 100
-- Nitidez alta, fondo ligeramente separado
+- Wysoka ostrość, tło lekko odseparowane
 
-COMPOSICIÓN:
-- Plano completo o 3/4, modelo centrado
-- Estética editorial minimal
+KOMPOZYCJA:
+- Pełny kadr lub 3/4, model(ka) wycentrowany(a)
+- Minimal editorial estetyka
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar deformaciones en manos/pies`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Unikać deformacji dłoni/stóp`,
     thumbnail: "/images/foto-pro/moda14.webp",
   },
   {
     id: "img-foto-moda-015",
-    title: "Lookbook con layering (capas, textura, estilo otoño premium)",
-    area: "Fotografía Pro",
-    category: "Lookbook / catálogo",
+    title: "Lookbook z layeringiem (warstwy, tekstura, premium jesienny styl)",
+    area: "Fotografia Profesjonalna",
+    category: "Lookbook / katalog",
     summary:
-      "Lookbook de otoño con capas (layering), textura y tonos cálidos premium.",
-    prompt: `Genera una foto REALISTA lookbook con layering (otoño).
+      "Jesienny lookbook z warstwami (layering), teksturą i premium ciepłymi tonami.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie lookbook z layeringiem (jesień).
 
-DATOS:
-- Modelo: [persona], [edad]
-- Outfit: capas (abrigo + suéter + pantalón), tonos tierra
-- Fondo: exterior urbano neutro o pared texturizada suave
+DANE:
+- Model(ka): [osoba], [wiek]
+- Outfit: warstwy (płaszcz + sweter + spodnie), ziemiste tony
+- Tło: neutralny urban outdoor lub delikatnie teksturowana ściana
 
-ILUMINACIÓN:
-- Luz suave (tarde/nublado), color grading cálido
+OŚWIETLENIE:
+- Miękkie światło (popołudnie/pochmurno), ciepły color grading
 
-CÁMARA:
+KAMERA:
 - 50mm, f/2.8, ISO 200
-- Detalle visible en telas, costuras y texturas
+- Widoczny detal tkanin, szwów i faktur
 
-COMPOSICIÓN:
-- Plano 3/4, pose natural editorial
+KOMPOZYCJA:
+- Kadr 3/4, naturalna editorial poza
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar telas "derretidas" o artefactos`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Unikać „roztopionych” tkanin lub artefaktów`,
     thumbnail: "/images/foto-pro/moda15.webp",
   },
 
   // =========================
-  // CATEGORY: Luces neón / noche
+  // CATEGORY: Neon / noc
   // =========================
   {
     id: "img-foto-moda-016",
-    title: "Moda nocturna con neón (magenta/cian, look cyber editorial)",
-    area: "Fotografía Pro",
-    category: "Luces neón / noche",
+    title: "Nocna moda z neonem (magenta/cyan, cyber editorial look)",
+    area: "Fotografia Profesjonalna",
+    category: "Neon / noc",
     summary:
-      "Editorial nocturna con neón y vibe cyber, realista y estética de campaña.",
-    prompt: `Genera una foto REALISTA de moda con luces neón (editorial nocturna).
+      "Nocny editorial z neonem i cyber vibem, realistyczny i kampanijny wygląd.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie mody z neonami (nocny editorial).
 
-DATOS:
-- Modelo: [persona], [edad], actitud fuerte
-- Outfit: negro/cromo/cuero, estilo moderno
-- Escena: calle nocturna con neones magenta y cian, reflejos en suelo
+DANE:
+- Model(ka): [osoba], [wiek], mocna postawa
+- Outfit: czerń/chrom/skóra, nowoczesny styl
+- Scena: nocna ulica z neonami magenta i cyan, odbicia na ziemi
 
-ILUMINACIÓN:
-- Neón como key light (suave) + relleno mínimo
-- Piel realista: ajustar neón para no volverla irreal
+OŚWIETLENIE:
+- Neon jako key light (miękko) + minimalne dopełnienie
+- Realistyczna skóra: dopasuj neon, żeby nie robić jej nierealnej
 
-CÁMARA:
-- 35mm, f/1.8, ISO 800, look nocturno nítido
-- Bokeh de luces al fondo
+KAMERA:
+- 35mm, f/1.8, ISO 800, ostry nocny look
+- Bokeh świateł w tle
 
-COMPOSICIÓN:
-- Plano 3/4, pose editorial
-- Atmosfera cinematográfica
+KOMPOZYCJA:
+- Kadr 3/4, editorial poza
+- Filmowa atmosfera
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar “piel fluorescente”`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Unikać „fluorescencyjnej skóry”`,
     thumbnail: "/images/foto-pro/moda16.webp",
   },
   {
     id: "img-foto-moda-017",
-    title: "Moda nocturna con flash suave (party editorial, grano sutil)",
-    area: "Fotografía Pro",
-    category: "Luces neón / noche",
+    title: "Nocna moda z miękkim fleszem (party editorial, subtelne ziarno)",
+    area: "Fotografia Profesjonalna",
+    category: "Neon / noc",
     summary:
-      "Estilo editorial tipo fiesta con flash suave y ambiente nocturno realista.",
-    prompt: `Genera una foto REALISTA de moda nocturna con flash suave (party editorial).
+      "Party editorial: miękki flesz i realistyczny nocny klimat.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie nocnej mody z miękkim fleszem (party editorial).
 
-DATOS:
-- Modelo: [persona], [edad], expresión divertida pero elegante
-- Outfit: fiesta (vestido/chaqueta premium), sin logos
-- Fondo: calle nocturna o interior con luces desenfocadas
+DANE:
+- Model(ka): [osoba], [wiek], zabawny, ale elegancki wyraz twarzy
+- Outfit: imprezowy (sukienka/premium kurtka), bez logo
+- Tło: nocna ulica lub wnętrze z rozmytymi światłami
 
-ILUMINACIÓN:
-- Flash suave (bounce) + luz ambiente
-- Film grain MUY sutil, look editorial
+OŚWIETLENIE:
+- Miękki flesz (bounce) + światło zastane
+- Bardzo subtelny film grain, editorial look
 
-CÁMARA:
+KAMERA:
 - 35mm, f/2.2, ISO 1000
-- Nitidez natural, no hiperperfecta
+- Naturalna ostrość, nie hiperperfekcyjna
 
-COMPOSICIÓN:
-- Plano medio o 3/4, gesto espontáneo editorial
+KOMPOZYCJA:
+- Plan średni lub 3/4, spontaniczny editorial gest
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar flash quemado en piel`,
+OGRANICZENIA:
+- Bez tekstu/watermarku
+- Unikać przepaleń flesza na skórze`,
     thumbnail: "/images/foto-pro/moda17.webp",
   },
   {
     id: "img-foto-moda-018",
-    title: "Editorial nocturna elegante (faroles cálidos, bokeh, lujo)",
-    area: "Fotografía Pro",
-    category: "Luces neón / noche",
+    title: "Elegancki nocny editorial (ciepłe latarnie, bokeh, luksus)",
+    area: "Fotografia Profesjonalna",
+    category: "Neon / noc",
     summary:
-      "Foto nocturna elegante con faroles cálidos y vibe lujo discreto.",
-    prompt: `Genera una foto REALISTA editorial nocturna elegante en ciudad.
+      "Elegancka nocna fotografia z ciepłymi latarniami i dyskretnym luksusem.",
+    prompt: `Wygeneruj REALISTYCZNE eleganckie nocne zdjęcie editorial w mieście.
 
-DATOS:
-- Modelo: [persona], [edad], actitud premium
-- Outfit: abrigo largo / blazer premium (tonos oscuros)
-- Escena: calle con faroles cálidos, bokeh de luces, fondo desenfocado
+DANE:
+- Model(ka): [osoba], [wiek], premium postawa
+- Outfit: długi płaszcz / premium blazer (ciemne tony)
+- Scena: ulica z ciepłymi latarniami, bokeh świateł, rozmyte tło
 
-ILUMINACIÓN:
-- Luz cálida de faroles + relleno sutil para rostro
-- Piel realista, tonos cálidos controlados
+OŚWIETLENIE:
+- Ciepłe latarnie + subtelne dopełnienie twarzy
+- Realistyczna skóra, kontrolowane ciepłe tony
 
-CÁMARA:
+KAMERA:
 - 50mm, f/1.8, ISO 800
-- Bokeh suave, enfoque en ojos
+- Miękki bokeh, ostrość na oczach
 
-COMPOSICIÓN:
-- Plano 3/4 o medio, pose editorial tranquila
-- Estética de campaña premium
+KOMPOZYCJA:
+- Kadr 3/4 lub średni, spokojna editorial poza
+- Premium kampanijna estetyka
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar exceso de ruido o desenfoque raro`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Unikać nadmiernego szumu lub dziwnego rozmycia`,
     thumbnail: "/images/foto-pro/moda18.webp",
   },
   {
     id: "img-foto-moda-019",
-    title: "Moda en lluvia nocturna (reflejos fuertes, editorial cinematográfico)",
-    area: "Fotografía Pro",
-    category: "Luces neón / noche",
+    title: "Moda w nocnym deszczu (mocne odbicia, filmowy editorial)",
+    area: "Fotografia Profesjonalna",
+    category: "Neon / noc",
     summary:
-      "Editorial nocturna con lluvia y reflejos, look cinematográfico realista.",
-    prompt: `Genera una foto REALISTA editorial nocturna con lluvia y reflejos.
+      "Nocny editorial z deszczem i odbiciami, realistyczny filmowy look.",
+    prompt: `Wygeneruj REALISTYCZNE nocne zdjęcie editorial z deszczem i odbiciami.
 
-DATOS:
-- Modelo: [persona], [edad], expresión seria editorial
-- Outfit: trench/abrigo, tonos oscuros
-- Escena: calle mojada con reflejos intensos + luces desenfocadas
+DANE:
+- Model(ka): [osoba], [wiek], poważna editorial ekspresja
+- Outfit: trench/płaszcz, ciemne tony
+- Scena: mokra ulica z intensywnymi odbiciami + rozmyte światła
 
-ILUMINACIÓN:
-- Key light suave lateral + luces de fondo reflejadas
-- Piel natural, gotas realistas sutiles
+OŚWIETLENIE:
+- Miękkie boczne key light + odbite światła tła
+- Naturalna skóra, subtelne realistyczne krople
 
-CÁMARA:
+KAMERA:
 - 35mm, f/1.8, ISO 1000
-- Detalle en rostro, bokeh en fondo
+- Detal na twarzy, bokeh w tle
 
-COMPOSICIÓN:
-- Plano 3/4, paraguas opcional (sin protagonismo)
-- Atmosfera cinematográfica
+KOMPOZYCJA:
+- Kadr 3/4, opcjonalnie parasol (bez dominowania)
+- Filmowa atmosfera
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar gotas gigantes o “fake”`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Unikać gigantycznych kropli lub „fake”`,
     thumbnail: "/images/foto-pro/moda19.webp",
   },
   {
     id: "img-foto-moda-020",
-    title: "Editorial nocturna interior (bar elegante, luz cálida, lujo discreto)",
-    area: "Fotografía Pro",
-    category: "Luces neón / noche",
+    title: "Nocny editorial we wnętrzu (elegancki bar, ciepłe światło, dyskretny luksus)",
+    area: "Fotografia Profesjonalna",
+    category: "Neon / noc",
     summary:
-      "Moda editorial en interior tipo bar elegante con luz cálida y estética lujo.",
-    prompt: `Genera una foto REALISTA de moda editorial en interior nocturno (bar elegante).
+      "Editorial mody we wnętrzu jak elegancki bar, ciepłe światło i luksusowa estetyka.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie mody editorial we wnętrzu nocnym (elegancki bar).
 
-DATOS:
-- Modelo: [persona], [edad]
-- Outfit: elegante premium (vestido/terno), sin logos
-- Escena: bar de lujo con luces cálidas, fondo desenfocado
+DANE:
+- Model(ka): [osoba], [wiek]
+- Outfit: elegancki premium (sukienka/garnitur), bez logo
+- Scena: luksusowy bar z ciepłymi światłami, rozmyte tło
 
-ILUMINACIÓN:
-- Luz cálida ambiental + luz suave dirigida al rostro
-- Contraste medio, piel realista
+OŚWIETLENIE:
+- Ciepłe światło ambient + miękkie światło na twarz
+- Średni kontrast, realistyczna skóra
 
-CÁMARA:
+KAMERA:
 - 50mm, f/1.8, ISO 1200
-- Bokeh con luces, nitidez en ojos
+- Bokeh świateł, ostrość na oczach
 
-COMPOSICIÓN:
-- Plano medio o 3/4, pose editorial discreta
-- Estética: lujo, sofisticación, campaña
+KOMPOZYCJA:
+- Plan średni lub 3/4, dyskretna editorial poza
+- Estetyka: luksus, wyrafinowanie, kampania
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar ruido excesivo o blur artificial`,
+OGRANICZENIA:
+- Bez tekstu/watermarku
+- Unikać nadmiernego szumu lub sztucznego bluru`,
     thumbnail: "/images/foto-pro/moda20.webp",
   },
 ];

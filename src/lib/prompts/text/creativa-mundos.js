@@ -3,1132 +3,1132 @@
 export const textPromptsCreativaMundos = [
   {
     id: "crea-mundos-001",
-    title: "Biblia del mundo (versión completa, coherente y jugable)",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Biblia świata (wersja pełna, spójna i „grywalna”)",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Construye una biblia de mundo completa: historia, geografía, política, economía, cultura, conflictos y secretos.",
-    prompt: `Actúa como showrunner + diseñador de mundos + editor de continuidad. Voy a crear un mundo original y necesito una BIBLIA COMPLETA.
+      "Zbuduj kompletną biblię świata: historia, geografia, polityka, ekonomia, kultura, konflikty i sekrety.",
+    prompt: `Działaj jak showrunner + projektant świata + redaktor ciągłości. Tworzę oryginalny świat i potrzebuję KOMPLETNEJ BIBLII ŚWIATA.
 
-Primero pregúntame SOLO esto (en bullets):
-1) Género (fantasía / sci-fi / realista / weird).
-2) Tono (luminoso / oscuro / satírico / épico).
-3) Época/tecnología (medieval, industrial, futurista, etc.).
-4) Tema central (ej: libertad vs control, fe vs ciencia).
-5) Una imagen mental (una frase).
+Najpierw zapytaj mnie TYLKO o to (w punktach):
+1) Gatunek (fantasy / sci-fi / realistyczny / weird).
+2) Ton (jasny / mroczny / satyryczny / epicki).
+3) Epoka/technologia (średniowiecze, industrialna, futurystyczna itd.).
+4) Temat centralny (np. wolność vs kontrola, wiara vs nauka).
+5) Jeden obraz w głowie (jedno zdanie).
 
-Luego entrega una biblia de mundo con este esquema, con detalles concretos y sin contradicciones:
+Potem przygotuj biblię świata według tego schematu, z konkretnymi detalami i bez sprzeczności:
 
-A) LOG-LINE DEL MUNDO (2–3 frases) + promesa narrativa.
-B) MAPA MENTAL (sin dibujo): 6 regiones, cada una con: clima, bioma, recurso clave, amenaza, estética.
-C) HISTORIA PROFUNDA: línea de tiempo con 12 hitos (cada uno: causa → evento → consecuencia).
-D) SISTEMA DE PODER: 3 fuerzas (estado/iglesia/corporación/clanes) + cómo se sostienen + qué temen perder.
-E) ECONOMÍA Y VIDA DIARIA: moneda, comercio, trabajo típico, hambre/abundancia, qué se considera “lujo”.
-F) CULTURA: 5 costumbres, 5 tabúes, 5 proverbios, 5 fiestas/rituales (con origen).
-G) TECNOLOGÍA/MAGIA: reglas claras, costos, limitaciones, trampas narrativas a evitar, “mala praxis”.
-H) CONFLICTO ACTUAL: 3 guerras frías, 2 guerras abiertas, 1 crisis ecológica/social.
-I) 10 LOCACIONES ICÓNICAS (cada una: descripción sensorial + por qué importa + giro oculto).
-J) 10 PERSONAJES POTENCIALES (rol, deseo, contradicción, secreto del mundo que revela).
-K) 12 GANCHOS DE HISTORIA (tramas cortas escalables) + 3 “misterios largos”.
-L) CONTINUIDAD: lista de 10 reglas para no romper la coherencia.
+A) LOG-LINE ŚWIATA (2–3 zdania) + obietnica narracyjna.
+B) MAPA MENTALNA (bez rysunku): 6 regionów, każdy z: klimatem, biomem, kluczowym zasobem, zagrożeniem, estetyką.
+C) GŁĘBOKA HISTORIA: oś czasu z 12 kamieniami milowymi (każdy: przyczyna → wydarzenie → konsekwencja).
+D) SYSTEM WŁADZY: 3 siły (państwo/kościół/korporacja/klany) + jak się utrzymują + czego boją się stracić.
+E) EKONOMIA I CODZIENNOŚĆ: waluta, handel, typowa praca, głód/dostatek, co uchodzi za „luksus”.
+F) KULTURA: 5 zwyczajów, 5 tabu, 5 przysłów, 5 świąt/rytuałów (z pochodzeniem).
+G) TECHNOLOGIA/MAGIA: jasne zasady, koszty, ograniczenia, pułapki fabularne do uniknięcia, „zła praktyka”.
+H) OBECNY KONFLIKT: 3 zimne wojny, 2 wojny otwarte, 1 kryzys ekologiczny/społeczny.
+I) 10 IKONICZNYCH LOKACJI (każda: opis zmysłowy + dlaczego jest ważna + ukryty zwrot).
+J) 10 POTENCJALNYCH POSTACI (rola, pragnienie, sprzeczność, sekret świata, który ujawniają).
+K) 12 HACZYKÓW FABULARNYCH (krótkie wątki skalowalne) + 3 „długie tajemnice”.
+L) CIĄGŁOŚĆ: lista 10 zasad, by nie rozwalić spójności.
 
-Estilo: cinematográfico pero claro, con nombres memorables (no genéricos).`,
+Styl: filmowy, ale klarowny; nazwy zapamiętywalne (nie generyczne).`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-002",
-    title: "Mapa narrativo: 7 regiones con conflicto propio",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Mapa narracyjna: 7 regionów, każdy z własnym konfliktem",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Diseña regiones que generen historias: recursos, tensiones, fronteras, migraciones y peligros.",
-    prompt: `Actúa como cartógrafo narrativo. Crea un “mapa” descrito en texto con 7 regiones conectadas.
+      "Zaprojektuj regiony, które same generują historie: zasoby, napięcia, granice, migracje i niebezpieczeństwa.",
+    prompt: `Działaj jak kartograf narracyjny. Stwórz „mapę” opisaną tekstem z 7 połączonymi regionami.
 
-Dame salida en este formato:
+Podaj wynik w tym formacie:
 
-1) NOMBRE DE REGIÓN
-- Bioma/clima:
-- Estética (colores, arquitectura, vibra):
-- Recurso/riqueza:
-- Peligro natural:
-- Peligro humano:
-- Leyes raras o costumbres:
-- Qué quiere exportar/importar:
-- Conflicto interno (1):
-- Conflicto con vecino (1):
-- Lugar icónico (1):
-- Rumor/leyenda (1) que sea falso a medias:
-- “Regla de supervivencia” local (1 frase):
+1) NAZWA REGIONU
+- Biom/klimat:
+- Estetyka (kolory, architektura, vibe):
+- Zasób/bogactwo:
+- Zagrożenie naturalne:
+- Zagrożenie ze strony ludzi:
+- Dziwne prawa lub zwyczaje:
+- Co chce eksportować/importować:
+- Konflikt wewnętrzny (1):
+- Konflikt z sąsiadem (1):
+- Miejsce ikoniczne (1):
+- Plotka/legenda (1), która jest „w połowie fałszywa”:
+- Lokalna „zasada przetrwania” (1 zdanie):
 
-Conexiones globales:
-- 3 rutas comerciales (con peajes/mafias/monstruos/huelgas).
-- 2 rutas clandestinas (quién las controla y por qué).
-- 1 frontera imposible (por qué casi nadie la cruza).
-- 1 zona de disputa (qué pasa si alguien la controla).
+Połączenia globalne:
+- 3 szlaki handlowe (z mytami/haraczami/mafiami/potworami/strajkami).
+- 2 szlaki przemytnicze (kto je kontroluje i dlaczego).
+- 1 granica niemożliwa (dlaczego prawie nikt jej nie przekracza).
+- 1 strefa sporna (co się dzieje, jeśli ktoś ją kontroluje).
 
-Extra:
-- 10 nombres de asentamientos (variados).
-- 10 apellidos típicos por región (2 por región, +1 extra).
+Dodatkowo:
+- 10 nazw osad (różnorodnych).
+- 10 typowych nazwisk na region (po 2 na region + 1 dodatkowe).
 
-No uses clichés de fantasía genérica; inventa detalles concretos que disparen escenas.`,
+Nie używaj klisz generycznego fantasy; wymyśl konkretne detale, które od razu uruchamiają sceny.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-003",
-    title: "Sistema de magia/tecnología con reglas duras y costos",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "System magii/technologii z twardymi zasadami i kosztami",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea un sistema con reglas, límites, costos, profesiones y consecuencias sociales.",
-    prompt: `Actúa como diseñador de sistemas (tipo hard magic / hard sci-fi). Construye un sistema de poder (magia o tecnología) con reglas estrictas.
+      "Stwórz system z zasadami, limitami, kosztami, zawodami i społecznymi konsekwencjami.",
+    prompt: `Działaj jak projektant systemów (hard magic / hard sci-fi). Zbuduj system mocy (magia albo technologia) z rygorystycznymi regułami.
 
-Incluye:
-1) Premisa (1 párrafo): qué es, de dónde viene, por qué existe.
-2) 7 reglas inviolables (enunciadas como leyes).
-3) 7 costos/peajes (físicos, mentales, sociales, legales).
-4) 5 límites “duros” (cosas que NO se pueden hacer).
-5) 6 fallos comunes (errores de novatos) y qué provocan.
-6) 8 aplicaciones prácticas (medicina, guerra, agricultura, transporte, arte, vigilancia, etc.).
-7) 5 profesiones derivadas (oficios) + gremios/sindicatos.
-8) 4 delitos típicos relacionados con el sistema + castigos.
-9) 3 debates éticos reales en la sociedad (posturas A y B).
-10) 5 frases populares/insultos/jergas nacidas del sistema.
-11) “Cómo se ve” en escena: 10 detalles sensoriales (sonido, olor, textura, luz).
+Uwzględnij:
+1) Założenie (1 akapit): czym jest, skąd się wzięło, po co istnieje.
+2) 7 nienaruszalnych zasad (sformułowanych jak prawa).
+3) 7 kosztów/opłat (fizycznych, mentalnych, społecznych, prawnych).
+4) 5 „twardych” ograniczeń (czego NIE da się zrobić).
+5) 6 częstych usterek (błędy nowicjuszy) i co powodują.
+6) 8 zastosowań praktycznych (medycyna, wojna, rolnictwo, transport, sztuka, nadzór itd.).
+7) 5 zawodów pochodnych (fachów) + gildie/związki.
+8) 4 typowe przestępstwa związane z systemem + kary.
+9) 3 realne debaty etyczne w społeczeństwie (stanowiska A i B).
+10) 5 powiedzonek/obelg/slangu zrodzonych z systemu.
+11) „Jak to wygląda” w scenie: 10 szczegółów zmysłowych (dźwięk, zapach, faktura, światło).
 
-Finalmente:
-- 3 formas en que el protagonista podría romper una regla… y el precio exacto.
-- 3 maneras de hacer ‘power creep’ sin romper coherencia (evolución controlada).`,
+Na koniec:
+- 3 sposoby, w jakie bohater mógłby złamać zasadę… i dokładna cena.
+- 3 sposoby na kontrolowany ‘power creep’ bez psucia spójności (ewolucja pod kontrolą).`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-004",
-    title: "Religión dominante + herejías + milagros dudosos",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Dominująca religia + herezje + wątpliwe cuda",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Diseña una religión viva: teología, rituales, poder político, herejías y milagros ambiguos.",
-    prompt: `Actúa como antropólogo + guionista. Diseña una religión dominante del mundo (y sus fracturas) con ambigüedad interesante.
+      "Zaprojektuj żywą religię: teologia, rytuały, władza polityczna, herezje i niejednoznaczne cuda.",
+    prompt: `Działaj jak antropolog + scenarzysta. Zaprojektuj dominującą religię świata (i jej pęknięcia) z interesującą niejednoznacznością.
 
-Estructura:
-A) Mito fundacional (3 versiones contradictorias: oficial, popular, prohibida).
-B) Deidad/principio: qué exige, qué promete, qué prohíbe.
-C) Ritual semanal: pasos exactos, símbolos, objetos, música, vestimenta.
-D) 5 santos/héroes/figuras: por qué son ejemplo y qué ocultaron.
-E) Clero y jerarquía: rangos, privilegios, corrupción típica.
-F) Economía de la fe: diezmo, reliquias, peregrinación, negocio colateral.
-G) 6 tabúes + la razón “espiritual” y la razón “política”.
-H) 4 herejías: qué creen, por qué atraen, cómo las persiguen.
-I) Milagros: 6 “milagros” famosos con evidencia parcial (¿real o propaganda?).
-J) Un cisma actual: qué lo disparó, quién gana si vence.
+Struktura:
+A) Mit założycielski (3 sprzeczne wersje: oficjalna, ludowa, zakazana).
+B) Bóstwo/zasada: czego wymaga, co obiecuje, czego zakazuje.
+C) Rytuał tygodniowy: dokładne kroki, symbole, przedmioty, muzyka, strój.
+D) 5 świętych/bohaterów/postaci: czemu są przykładem i co ukryli.
+E) Kler i hierarchia: rangi, przywileje, typowa korupcja.
+F) Ekonomia wiary: dziesięcina, relikwie, pielgrzymki, poboczny biznes.
+G) 6 tabu + „powód duchowy” i „powód polityczny”.
+H) 4 herezje: w co wierzą, czemu przyciągają, jak się je zwalcza.
+I) Cuda: 6 słynnych „cudów” z częściową evidencją (prawda czy propaganda?).
+J) Aktualna schizma: co ją wywołało, kto zyskuje, jeśli wygra.
 
-Cierre:
-- 10 oraciones/rezos cortos (uno para: guerra, parto, duelo, viaje, mentira).
-- 10 detalles de ambientación para escenas en templos/rituales.`,
+Zamknięcie:
+- 10 krótkich modlitw (po jednej na: wojnę, poród, żałobę, podróż, kłamstwo).
+- 10 detali klimatu do scen w świątyniach/rytuałach.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-005",
-    title: "Imperio, rebelión y provincia: dinámica política realista",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Imperium, rebelia i prowincja: realistyczna dynamika polityczna",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea un conflicto centro-periferia con economía, propaganda, miedo, sobornos y cultura.",
-    prompt: `Actúa como estratega político + historiador. Diseña un imperio (centro) y 3 provincias (periferia) al borde de la rebelión.
+      "Stwórz konflikt centrum–peryferie z ekonomią, propagandą, strachem, łapówkami i kulturą.",
+    prompt: `Działaj jak strateg polityczny + historyk. Zaprojektuj imperium (centrum) i 3 prowincje (peryferie) na skraju buntu.
 
-Incluye:
-1) El Imperio: ideología oficial, propaganda (3 slogans), instituciones (5), debilidad estructural (1), paranoia (1).
-2) Provincias (3): para cada una:
-- Qué produce / qué le extraen
-- Qué odia del centro
-- Qué envidia del centro
-- Qué vende en el mercado negro
-- Figura local carismática (1) y su contradicción
-- Motivo “noble” de rebelión + motivo “feo” real
-3) Disparador de crisis: evento concreto (fecha, lugar, víctimas, culpables oficiales).
-4) Respuesta del centro: 3 medidas (una inteligente, una cruel, una estúpida).
-5) Respuesta rebelde: 3 tácticas (una popular, una terrorífica, una simbólica).
+Uwzględnij:
+1) Imperium: oficjalna ideologia, propaganda (3 slogany), instytucje (5), słabość strukturalna (1), paranoja (1).
+2) Prowincje (3): dla każdej:
+- Co produkuje / co się z niej wyciska
+- Czego nienawidzi w centrum
+- Czego zazdrości centrum
+- Co sprzedaje na czarnym rynku
+- Lokalna charyzmatyczna postać (1) i jej sprzeczność
+- „Szlachetny” powód rebelii + prawdziwy „brzydki” powód
+3) Zapalnik kryzysu: konkretne wydarzenie (data, miejsce, ofiary, oficjalni winni).
+4) Reakcja centrum: 3 działania (jedno mądre, jedno okrutne, jedno głupie).
+5) Reakcja rebelii: 3 taktyki (jedna popularna, jedna przerażająca, jedna symboliczna).
 
-Final:
-- 10 escenas posibles (en plazas, fronteras, tribunales, tabernas, estaciones, etc.)
-- 5 secretos que cambian el sentido moral del conflicto.`,
+Finał:
+- 10 możliwych scen (place, granice, trybunały, karczmy, stacje itd.)
+- 5 sekretów, które zmieniają moralny sens konfliktu.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-006",
-    title: "Ecología del mundo: biomas, cadenas alimenticias y monstruos creíbles",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Ekologia świata: biomy, łańcuchy pokarmowe i wiarygodne potwory",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Haz que el mundo se sienta real: clima, recursos, fauna, depredadores y consecuencias ecológicas.",
-    prompt: `Actúa como biólogo/ecólogo de ficción. Diseña la ecología de un mundo: no solo criaturas, sino sistemas.
+      "Spraw, by świat był „prawdziwy”: klimat, zasoby, fauna, drapieżniki i konsekwencje ekologiczne.",
+    prompt: `Działaj jak fikcyjny biolog/ekolog. Zaprojektuj ekologię świata: nie tylko stworzenia, ale całe systemy.
 
-Entrega:
-A) Clima global: 3 corrientes, 2 zonas de tormentas, 1 anomalía.
-B) 4 biomas principales: en cada uno:
-- Plantas dominantes (3) y una rara (1)
-- Fauna típica (3) y un depredador ápice (1)
-- Adaptaciones (camuflaje, veneno, simbiosis, etc.)
-- Riesgo humano (enfermedad, hambre, pérdida de cosecha)
-C) 2 cadenas alimenticias completas (desde productor hasta ápice) y qué pasa si se rompe un eslabón.
-D) 3 “monstruos” plausibles: origen evolutivo, dieta, territorio, señales de presencia, cómo evitarlo.
-E) Interacción con humanos: caza, domesticación, granjas, plagas, comercio.
+Dostarcz:
+A) Klimat globalny: 3 prądy, 2 strefy burz, 1 anomalia.
+B) 4 główne biomy: w każdym:
+- Rośliny dominujące (3) i jedna rzadka (1)
+- Typowa fauna (3) i drapieżnik szczytowy (1)
+- Adaptacje (kamuflaż, jad, symbioza itd.)
+- Ryzyko dla ludzi (choroba, głód, utrata plonów)
+C) 2 kompletne łańcuchy pokarmowe (od producenta do szczytu) i co się dzieje, gdy pęknie jedno ogniwo.
+D) 3 „potwory” wiarygodne biologicznie: pochodzenie ewolucyjne, dieta, terytorium, oznaki obecności, jak unikać.
+E) Interakcja z ludźmi: polowania, udomowienie, hodowle, plagi, handel.
 
 Bonus:
-- 10 microdetalles sensoriales que hagan sentir el bioma en escenas.
-- 5 mitos locales basados en malinterpretaciones ecológicas.`,
+- 10 mikrodetali zmysłowych, które sprawią, że biom „poczuć” w scenach.
+- 5 lokalnych mitów opartych na błędnych interpretacjach ekologii.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-007",
-    title: "Ciudad icónica: urbanismo, barrios, crimen y costumbres",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Ikoniczne miasto: urbanistyka, dzielnice, przestępczość i zwyczaje",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Diseña una ciudad viva con barrios, tensiones, servicios, olores, sonidos y secretos.",
-    prompt: `Actúa como urbanista + novelista. Diseña una ciudad principal del mundo que se sienta HABITADA.
+      "Zaprojektuj żywe miasto z dzielnicami, napięciami, usługami, zapachami, dźwiękami i sekretami.",
+    prompt: `Działaj jak urbanista + powieściopisarz. Zaprojektuj główne miasto świata tak, by było ZAMIESZKANE.
 
-Incluye:
-1) Nombre + apodo + por qué se ganó el apodo.
-2) Geografía: río/colina/costa/subsuelo + cómo condiciona todo.
-3) 8 barrios: para cada uno (1 párrafo) con:
-- Qué se ve/oye/oluele
-- Quién vive ahí
-- Qué se compra/vende
-- Peligro típico
-- Un lugar icónico del barrio
-4) Infraestructura: agua, basura, iluminación, transporte, vigilancia.
-5) Poder: quién manda de verdad (no el alcalde), y cómo compra lealtades.
-6) Crimen: 3 mercados negros + 3 estafas comunes + 1 banda con código moral raro.
-7) Cultura: comida callejera (5), insulto local (3), gesto de respeto (1), tabú urbano (2).
-8) “Reloj de crisis”: 6 eventos escalonados que podrían estallar en 30 días.
+Uwzględnij:
+1) Nazwa + przydomek + skąd się wziął przydomek.
+2) Geografia: rzeka/wzgórze/wybrzeże/podziemie + jak to warunkuje wszystko.
+3) 8 dzielnic: dla każdej (1 akapit) z:
+- Co widać/słychać/czuć (zapachy)
+- Kto tam mieszka
+- Co się kupuje/sprzedaje
+- Typowe zagrożenie
+- Ikoniczne miejsce dzielnicy
+4) Infrastruktura: woda, śmieci, oświetlenie, transport, nadzór.
+5) Władza: kto rządzi naprawdę (nie burmistrz) i jak kupuje lojalność.
+6) Przestępczość: 3 czarne rynki + 3 powszechne przekręty + 1 gang z dziwnym kodeksem moralnym.
+7) Kultura: street food (5), lokalne obelgi (3), gest szacunku (1), miejskie tabu (2).
+8) „Zegar kryzysu”: 6 narastających wydarzeń, które mogą wybuchnąć w 30 dni.
 
-Cierre:
-- 10 ideas de escenarios listos para capítulos/episodios.
-- 5 secretos enterrados en la ciudad (literal o metafórico).`,
+Zamknięcie:
+- 10 pomysłów na scenerie gotowe do rozdziałów/odcinków.
+- 5 sekretów zakopanych w mieście (dosłownie lub metaforycznie).`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-008",
-    title: "Reglas de viaje y logística: distancias, riesgos y recursos",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Zasady podróży i logistyki: dystanse, ryzyka i zasoby",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea reglas de viaje realistas que definan aventuras: tiempos, clima, peajes, permisos y rutas.",
-    prompt: `Actúa como diseñador de aventuras realistas. Define reglas de viaje y logística del mundo para que el viaje tenga peso.
+      "Stwórz realistyczne zasady podróży, które definiują przygodę: czasy, klimat, myta, pozwolenia i trasy.",
+    prompt: `Działaj jak projektant realistycznych przygód. Zdefiniuj zasady podróży i logistyki świata, żeby podróż miała ciężar.
 
-Incluye:
-A) Unidades: cómo miden distancia/tiempo localmente (y equivalencias).
-B) Transporte (6 tipos): costo, velocidad, capacidad, riesgos, quién lo controla.
-C) Documentos: 5 permisos/pases/visas y cómo se falsifican.
-D) Peajes y sobornos: 5 puntos de cobro, cuánto cuesta, qué pasa si no pagas.
-E) Clima estacional: 4 estaciones y cómo afecta rutas/mercados/enfermedades.
-F) Peligros: 10 peligros de ruta (humanos/naturales/sistémicos) y cómo se ven antes de caer en ellos.
-G) Reglas de provisiones: raciones, agua, medicina, herramienta esencial (lista exacta).
+Uwzględnij:
+A) Jednostki: jak lokalnie mierzą dystans/czas (i odpowiedniki).
+B) Transport (6 typów): koszt, prędkość, ładowność, ryzyka, kto kontroluje.
+C) Dokumenty: 5 pozwoleń/przepustek/wiz i jak się je fałszuje.
+D) Myta i łapówki: 5 punktów poboru, ile kosztuje, co jeśli nie zapłacisz.
+E) Klimat sezonowy: 4 pory roku i jak wpływają na trasy/rynki/choroby.
+F) Zagrożenia: 10 zagrożeń trasy (ludzkie/naturalne/systemowe) i jak wyglądają zanim w nie wpadniesz.
+G) Zasady prowiantu: racje, woda, medycyna, niezbędne narzędzie (dokładna lista).
 
-Final:
-- 3 rutas “seguras” que en realidad no lo son (trampa).
-- 3 rutas “imposibles” que sí se pueden con el conocimiento correcto.`,
+Finał:
+- 3 „bezpieczne” trasy, które wcale nie są bezpieczne (pułapka).
+- 3 „niemożliwe” trasy, które da się przejść dzięki właściwej wiedzy.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-009",
-    title: "Lengua, nombres y etimologías para coherencia cultural",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Język, imiona i etymologie dla spójności kulturowej",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea patrones lingüísticos: fonética, sufijos, nombres y términos clave sin sonar aleatorio.",
-    prompt: `Actúa como lingüista de ficción. Crea un sistema sencillo para nombres y términos del mundo que mantenga coherencia cultural.
+      "Stwórz wzorce językowe: fonetyka, sufiksy, imiona i pojęcia kluczowe bez wrażenia losowości.",
+    prompt: `Działaj jak fikcyjny językoznawca. Stwórz prosty system imion i terminów świata, który utrzyma spójność kulturową.
 
-Dame:
-1) 2 culturas/idiomas principales (A y B) y su “sonido” (fonemas preferidos, ritmo, letras comunes).
-2) 12 reglas de nombres:
-- Cómo se forman nombres propios
-- Apellidos (patronímicos, oficio, lugar, etc.)
-- Títulos y honoríficos
-- Tabúes al nombrar
-3) Listas:
-- 30 nombres de persona cultura A (15 F / 15 M o neutros)
-- 30 nombres de persona cultura B
-- 20 apellidos A, 20 apellidos B
-- 20 topónimos (lugares) A, 20 topónimos B
-4) 30 palabras clave del mundo (moneda, cargos, insultos, comida, ferias, religión), con significado y nota de uso.
+Podaj:
+1) 2 główne kultury/języki (A i B) i ich „brzmienie” (preferowane fonemy, rytm, częste litery).
+2) 12 reguł nazewnictwa:
+- Jak powstają imiona
+- Nazwiska (patronimiczne, od zawodu, od miejsca itd.)
+- Tytuły i honoryfikaty
+- Tabu w nadawaniu imion
+3) Listy:
+- 30 imion osób kultura A (15 K / 15 M lub neutralne)
+- 30 imion osób kultura B
+- 20 nazwisk A, 20 nazwisk B
+- 20 toponimów (miejsc) A, 20 toponimów B
+4) 30 słów kluczowych świata (waluta, urzędy, obelgi, jedzenie, targi, religia) z znaczeniem i notą użycia.
 
-Regla: evita nombres “random fantasy”. Todo debe parecer que viene de la misma raíz cultural.`,
+Zasada: unikaj „random fantasy”. Wszystko ma brzmieć, jakby miało wspólny kulturowy rdzeń.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-010",
-    title: "Historia en capas: mito, relato oficial y verdad enterrada",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Historia warstwowa: mit, wersja oficjalna i zakopana prawda",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Estructura la historia del mundo con capas contradictorias para misterio y revelaciones.",
-    prompt: `Eres un historiador narrativo. Construye la historia del mundo en 3 capas: mito, versión oficial y verdad enterrada.
+      "Ułóż historię świata w sprzecznych warstwach, by budować tajemnicę i zwroty.",
+    prompt: `Jesteś narracyjnym historykiem. Zbuduj historię świata w 3 warstwach: mit, wersja oficjalna i zakopana prawda.
 
-Entrega:
-A) EL MITO (cuento de fogata, 500–800 palabras): simbólico y exagerado.
-B) LA VERSIÓN OFICIAL (cronología escolar): 10 puntos con lenguaje institucional.
-C) LA VERDAD ENTERRADA: 10 puntos que contradicen o retuercen lo oficial, con evidencia (cartas, ruinas, fósiles, grabaciones).
+Dostarcz:
+A) MIT (opowieść przy ognisku, 500–800 słów): symboliczna i przesadzona.
+B) WERSJA OFICJALNA (szkolna chronologia): 10 punktów językiem instytucjonalnym.
+C) ZAKOPANA PRAWDA: 10 punktów, które przeczą lub wykręcają oficjalną wersję, wraz z dowodami (listy, ruiny, skamieniałości, nagrania).
 
-Luego:
-- 7 “piezas de evidencia” (objetos/documentos) que podrían aparecer en la trama.
-- 5 personas/instituciones que se benefician de ocultarlo.
-- 3 maneras graduales de revelar la verdad sin info-dumps (escenas sugeridas).`,
+Następnie:
+- 7 „elementów dowodowych” (przedmioty/dokumenty), które mogą pojawić się w fabule.
+- 5 osób/instytucji, którym opłaca się to ukrywać.
+- 3 stopniowe sposoby ujawniania prawdy bez info-dumpów (sugerowane sceny).`,
     thumbnail: "",
   },
 
-  // ---- 40 más, variados pero misma category "Mundos" ----
+  // ---- 40 kolejnych, różnorodnych, ale ta sama kategoria "Światy" ----
 
   {
     id: "crea-mundos-011",
-    title: "Mundo post-catástrofe: qué se rompió y qué nació después",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat po katastrofie: co pękło i co narodziło się potem",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Diseña un mundo tras un colapso: recursos, jerarquías, mitos nuevos y tecnologías sobrevivientes.",
-    prompt: `Actúa como diseñador de mundo post-catástrofe (no genérico). Crea una catástrofe y sus consecuencias realistas.
+      "Zaprojektuj świat po upadku: zasoby, hierarchie, nowe mity i ocalałe technologie.",
+    prompt: `Działaj jak projektant świata postkatastroficznego (nie generycznego). Stwórz katastrofę i jej realistyczne konsekwencje.
 
-Incluye:
-1) La catástrofe: qué fue EXACTAMENTE, duración, señales tempranas ignoradas.
-2) Tres etapas (0–6 meses / 1–5 años / 20+ años): cómo cambia vida diaria y poder.
-3) Recursos críticos (5): quién los controla, cómo se roban, cómo se protegen.
-4) Tecnología: qué se perdió, qué se conserva, qué se “imita mal”.
-5) Nueva cultura: 5 supersticiones nacidas del trauma + 3 fiestas nuevas.
-6) Nuevas clases sociales: 4 grupos, su estatus, su resentimiento.
-7) El “nuevo mapa”: 6 zonas (segura, tóxica, sagrada, saqueada, etc.).
-8) Conflicto actual: el gran dilema moral del presente.
+Uwzględnij:
+1) Katastrofa: co było DOKŁADNIE, jak długo trwała, jakie wczesne sygnały zignorowano.
+2) Trzy etapy (0–6 miesięcy / 1–5 lat / 20+ lat): jak zmienia się codzienność i władza.
+3) Kluczowe zasoby (5): kto je kontroluje, jak się je kradnie, jak się je chroni.
+4) Technologia: co utracono, co zachowano, co „źle naśladuje się” dziś.
+5) Nowa kultura: 5 przesądów zrodzonych z traumy + 3 nowe święta.
+6) Nowe klasy społeczne: 4 grupy, ich status i ich uraza.
+7) „Nowa mapa”: 6 stref (bezpieczna, toksyczna, święta, splądrowana itd.).
+8) Obecny konflikt: wielki moralny dylemat teraźniejszości.
 
-Cierre: 12 semillas de historia y 1 gran secreto sobre la catástrofe.`,
+Zamknięcie: 12 ziaren historii i 1 wielki sekret o katastrofie.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-012",
-    title: "Mundo utópico que esconde una falla estructural",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Utopia, która kryje strukturalną wadę",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea una utopía convincente y el defecto inevitable que la rompe desde dentro.",
-    prompt: `Diseña una utopía CREÍBLE (no caricatura) y luego revela su falla estructural.
+      "Stwórz wiarygodną utopię i nieuniknioną skazę, która rozsadza ją od środka.",
+    prompt: `Zaprojektuj WIARYGODNĄ utopię (bez karykatury), a potem ujawnij jej strukturalną wadę.
 
-Estructura:
-A) “Por qué funciona”: 7 mecanismos (economía, educación, salud, justicia, energía, vivienda, cultura).
-B) Vida cotidiana: un día en la vida de 3 personas de clases distintas.
-C) Cómo se resuelven conflictos sin violencia (procedimientos reales).
-D) Qué sacrificios hacen (lo que no te dicen): 6 costos invisibles.
-E) La falla estructural: 1 contradicción inevitable (con ejemplos).
-F) El primer síntoma: escena concreta donde se rompe algo.
-G) Grupos: 3 defensores del sistema y 3 opositores (cada uno con argumentos fuertes).
+Struktura:
+A) „Dlaczego działa”: 7 mechanizmów (ekonomia, edukacja, zdrowie, sprawiedliwość, energia, mieszkalnictwo, kultura).
+B) Codzienność: dzień z życia 3 osób z różnych klas.
+C) Jak rozwiązuje się konflikty bez przemocy (realne procedury).
+D) Jakie są poświęcenia (czego ci nie mówią): 6 niewidzialnych kosztów.
+E) Wada strukturalna: 1 nieunikniona sprzeczność (z przykładami).
+F) Pierwszy symptom: konkretna scena, w której coś pęka.
+G) Grupy: 3 obrońców systemu i 3 przeciwników (każdy z mocnymi argumentami).
 
-Final: 10 conflictos listos para tramas sin convertirlo en “malvado obvio”.`,
+Finał: 10 konfliktów gotowych do fabuł bez robienia z tego „oczywistego zła”.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-013",
-    title: "Mundo de islas y piratería: economía, rutas y códigos",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat wysp i piractwa: ekonomia, szlaki i kodeksy",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea un archipiélago: rutas, monzones, puertos, contrabando y política del mar.",
-    prompt: `Crea un mundo de archipiélago con piratería y comercio. Quiero logística y cultura marinera realista.
+      "Stwórz archipelag: trasy, monsuny, porty, przemyt i politykę morza.",
+    prompt: `Stwórz świat archipelagu z piractwem i handlem. Chcę realistycznej logistyki i kultury marynarskiej.
 
-Incluye:
-1) 9 islas principales: nombre, bioma, recurso, puerto, peligro.
-2) Estaciones de navegación: vientos/monzones y ventanas de viaje.
-3) 4 potencias navales: objetivos, flotas, propaganda, debilidad.
-4) Piratería: 3 tipos (idealistas, mafias, corsarios legales) + códigos distintos.
-5) Economía: qué mueve el mundo (sal, té, pólvora, coral, datos, etc.), cómo se paga, qué se prohíbe.
-6) Ley del mar: 8 reglas (rescate, botín, traición, refugio).
-7) Religión/superstición de marineros: 10 rituales antes de zarpar.
+Uwzględnij:
+1) 9 głównych wysp: nazwa, biom, zasób, port, zagrożenie.
+2) Pory żeglugi: wiatry/monsuny i okna podróży.
+3) 4 potęgi morskie: cele, floty, propaganda, słabość.
+4) Piractwo: 3 typy (idealiści, mafie, legalni kaperzy) + różne kodeksy.
+5) Ekonomia: co napędza świat (sól, herbata, proch, koral, dane itd.), jak się płaci, co jest zakazane.
+6) Prawo morza: 8 zasad (ratunek, łup, zdrada, azyl).
+7) Religia/przesądy marynarzy: 10 rytuałów przed wypłynięciem.
 
-Cierre:
-- 10 conflictos de puerto
-- 5 mapas del tesoro falsos (y por qué engañan).`,
+Zamknięcie:
+- 10 konfliktów portowych
+- 5 fałszywych map skarbów (i dlaczego oszukują).`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-014",
-    title: "Mundo cyberpunk: corporaciones, barrios y tecnología social",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat cyberpunk: korporacje, dzielnice i technologia społeczna",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Construye un cyberpunk con economía, vigilancia, propaganda y subculturas reales.",
-    prompt: `Diseña un mundo cyberpunk con enfoque SOCIAL (no solo neón). Debe sentirse como sistema.
+      "Zbuduj cyberpunk z realną ekonomią, nadzorem, propagandą i subkulturami.",
+    prompt: `Zaprojektuj świat cyberpunk z naciskiem na SPOŁECZEŃSTWO (a nie tylko neon). Ma działać jak system.
 
-Incluye:
-1) 5 corporaciones: producto real, monopolio, táctica de control, escándalo enterrado.
-2) 6 capas de la ciudad: desde penthouse a subsuelo/zonas sin ley (cómo se sube/baja).
-3) Tecnología cotidiana: 10 cosas que la gente usa a diario + 5 fallas comunes.
-4) Vigilancia: quién mira a quién, qué se puede comprar para “desaparecer”.
-5) Subculturas: 6 tribus urbanas con estética + reglas + conflicto interno.
-6) Economía de supervivencia: 8 trabajos grises (semi-legales) y cómo te explotan.
-7) Lenguaje: 20 términos de jerga (con definición y contexto).
+Uwzględnij:
+1) 5 korporacji: realny produkt, monopol, taktyka kontroli, zakopany skandal.
+2) 6 warstw miasta: od penthouse’u po podziemie/strefy bezprawia (jak się wchodzi/wychodzi).
+3) Technologia codzienna: 10 rzeczy używanych na co dzień + 5 typowych awarii.
+4) Nadzór: kto kogo obserwuje, co można kupić, żeby „zniknąć”.
+5) Subkultury: 6 miejskich plemion z estetyką + zasadami + konfliktem wewnętrznym.
+6) Ekonomia przetrwania: 8 szarych (półlegalnych) prac i jak cię wyciskają.
+7) Język: 20 haseł slangu (definicja + kontekst).
 
-Cierre: 12 ganchos de historia y 1 revolución que podría ser marketing.`,
+Zamknięcie: 12 haczyków fabularnych i 1 rewolucja, która może być marketingiem.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-015",
-    title: "Mundo de desierto: agua, honor, caravanas y ciudades-oasis",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat pustyni: woda, honor, karawany i miasta-oazy",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea un mundo donde el agua es el centro del poder: leyes, mercados, viajes y rituales.",
-    prompt: `Diseña un mundo dominado por desiertos donde el agua define política, religión y supervivencia.
+      "Stwórz świat, w którym woda jest centrum władzy: prawa, rynki, podróże i rytuały.",
+    prompt: `Zaprojektuj świat zdominowany przez pustynie, gdzie woda definiuje politykę, religię i przetrwanie.
 
-Incluye:
-A) Geografía: 5 tipos de desierto (sal, roca, dunas, ceniza, vidrio) y sus peligros.
-B) Agua: 6 fuentes (oasis, acuíferos, hielo, condensadores, etc.) + quién controla cada una.
-C) Leyes del agua: 10 reglas (derecho, castigo, herencia, hospitalidad, guerra).
-D) Caravanas: rutas, escoltas, animales/vehículos, señales, bandidos.
-E) Ciudades-oasis (3): barrios, economía, corrupción, festival principal.
-F) Cultura: 8 rituales relacionados con el agua + 5 proverbios.
+Uwzględnij:
+A) Geografia: 5 typów pustyni (sól, skała, wydmy, popiół, szkło) i ich zagrożenia.
+B) Woda: 6 źródeł (oazy, warstwy wodonośne, lód, kondensatory itd.) + kto kontroluje każde z nich.
+C) Prawa wody: 10 zasad (prawo, kara, dziedziczenie, gościnność, wojna).
+D) Karawany: trasy, ochrona, zwierzęta/pojazdy, sygnały, bandyci.
+E) Miasta-oazy (3): dzielnice, ekonomia, korupcja, główne święto.
+F) Kultura: 8 rytuałów związanych z wodą + 5 przysłów.
 
-Cierre:
-- 10 escenas poderosas de tensión por agua
-- 5 “mapas” falsos de oasis (y por qué existen).`,
+Zamknięcie:
+- 10 mocnych scen napięcia o wodę
+- 5 fałszywych „map” oaz (i dlaczego istnieją).`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-016",
-    title: "Continente congelado: recursos, aislamiento y mitos del hielo",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Zamarznięty kontynent: zasoby, izolacja i mity lodu",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Desarrolla un mundo polar: supervivencia, comercio, fauna, enfermedades y culto al frío.",
-    prompt: `Diseña un continente helado donde vivir es una elección política.
+      "Rozwiń świat polarny: przetrwanie, handel, fauna, choroby i kult zimna.",
+    prompt: `Zaprojektuj lodowy kontynent, gdzie życie jest wyborem politycznym.
 
-Incluye:
-1) Temperaturas y estaciones: 4 periodos del año + qué cambia (luz, viaje, caza).
-2) Recursos: 6 recursos (minerales, algas, calor geotérmico, pieles, datos, etc.) y su conflicto.
-3) Asentamientos: 6 tipos (cúpulas, cuevas, barcos congelados, etc.) con ventajas y fallas.
-4) Enfermedades y riesgos: 8 (físicos y psicológicos).
-5) Cultura: 8 rituales del frío + 5 tabúes + 3 canciones populares (tema).
-6) “Mito del hielo”: 3 versiones del mismo mito que dividió a la gente.
+Uwzględnij:
+1) Temperatury i sezony: 4 okresy roku + co się zmienia (światło, podróż, łowy).
+2) Zasoby: 6 zasobów (minerały, algi, ciepło geotermalne, futra, dane itd.) i związane z nimi konflikty.
+3) Osady: 6 typów (kopuły, jaskinie, „zamrożone statki” itd.) z zaletami i wadami.
+4) Choroby i ryzyka: 8 (fizyczne i psychiczne).
+5) Kultura: 8 rytuałów zimna + 5 tabu + 3 popularne piosenki (temat).
+6) „Mit lodu”: 3 wersje tego samego mitu, który podzielił ludzi.
 
-Cierre:
-- 10 ganchos de historia
-- 1 secreto escondido bajo el hielo que reescribe la historia.`,
+Zamknięcie:
+- 10 haczyków fabularnych
+- 1 sekret pod lodem, który przepisuje historię.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-017",
-    title: "Economía mundial: precios, monopolios y crisis (sin aburrir)",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Gospodarka świata: ceny, monopole i kryzysy (bez nudy)",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Define cómo se mueve el dinero y por qué hay crisis: comercio, moneda, bancos y contrabando.",
-    prompt: `Actúa como economista narrativo. Crea una economía mundial fácil de entender pero profunda.
+      "Zdefiniuj, jak krąży pieniądz i skąd biorą się kryzysy: handel, waluta, banki i przemyt.",
+    prompt: `Działaj jak ekonomista narracyjny. Stwórz gospodarkę świata, łatwą do ogarnięcia, ale głęboką.
 
-Incluye:
-A) Moneda(s): 2 monedas oficiales + 1 alternativa (trueque/cripto/vales) y por qué existe.
-B) 8 bienes esenciales y su cadena de suministro (quién produce, quién transporta, quién cobra).
-C) 3 monopolios: cómo nacieron, cómo aplastan competencia, cuál es su talón de Aquiles.
-D) Impuestos/peajes: 5 formas de recaudar y cómo la gente evade cada una.
-E) Mercado negro: 6 productos y 4 rutas.
-F) Crisis actual: causa real, causa oficial, chivo expiatorio, ganadores ocultos.
-G) “Precios aproximados”: lista de 20 cosas cotidianas (comida, alojamiento, transporte, sobornos) para dar escala.
+Uwzględnij:
+A) Waluta(y): 2 oficjalne waluty + 1 alternatywa (barter/krypto/bony) i dlaczego istnieje.
+B) 8 dóbr kluczowych i ich łańcuch dostaw (kto produkuje, kto przewozi, kto pobiera opłaty).
+C) 3 monopole: jak powstały, jak miażdżą konkurencję, jaki mają słaby punkt.
+D) Podatki/myta: 5 sposobów ściągania i jak ludzie omijają każdy z nich.
+E) Czarny rynek: 6 produktów i 4 trasy.
+F) Obecny kryzys: prawdziwa przyczyna, oficjalna przyczyna, kozioł ofiarny, ukryci wygrani.
+G) „Przybliżone ceny”: lista 20 codziennych rzeczy (jedzenie, nocleg, transport, łapówki) dla skali.
 
-Cierra con 12 escenas donde la economía genere conflicto dramático (no exposiciones).`,
+Zamknij 12 scenami, gdzie ekonomia generuje dramatyczny konflikt (bez wykładów).`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-018",
-    title: "Mundo vertical: ciudades torre y clases por altura",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat wertykalny: miasta-wieże i klasy według wysokości",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Diseña un mundo donde la altura es estatus: infraestructura, clima, trabajo y rebelión.",
-    prompt: `Diseña un mundo/civilización vertical (torres, riscos, megastructuras) donde la altura define clase social.
+      "Zaprojektuj świat, w którym wysokość to status: infrastruktura, klimat, praca i bunt.",
+    prompt: `Zaprojektuj świat/cywilizację wertykalną (wieże, urwiska, megastruktury), gdzie wysokość definiuje klasę społeczną.
 
-Incluye:
-1) La estructura: cómo se construyó, quién la mantiene, qué pasa si falla.
-2) Capas (7 niveles): nombre, aire/clima, seguridad, comida, trabajo, ocio, peligro.
-3) Transporte vertical: 5 métodos + costos + sabotajes frecuentes.
-4) Leyes por altura: 8 reglas absurdas pero funcionales.
-5) Cultura: 5 símbolos de estatus y 5 insultos según altura.
-6) Conflicto: 3 formas de resistencia (artística, técnica, violenta) + 1 infiltración.
+Uwzględnij:
+1) Struktura: jak powstała, kto ją utrzymuje, co się dzieje, gdy zawiedzie.
+2) Warstwy (7 poziomów): nazwa, powietrze/klimat, bezpieczeństwo, jedzenie, praca, rozrywka, zagrożenie.
+3) Transport pionowy: 5 metod + koszty + typowe sabotaże.
+4) Prawa według wysokości: 8 zasad absurdalnych, ale funkcjonalnych.
+5) Kultura: 5 symboli statusu i 5 obelg związanych z wysokością.
+6) Konflikt: 3 rodzaje oporu (artystyczny, techniczny, brutalny) + 1 infiltracja.
 
-Cierre: 10 locaciones y 10 escenas que sólo pueden ocurrir en verticalidad.`,
+Zamknięcie: 10 lokacji i 10 scen możliwych tylko w świecie pionowym.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-019",
-    title: "Mundo subterráneo: geología, luz, comida y psicología",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat podziemny: geologia, światło, jedzenie i psychologia",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea un mundo bajo tierra: recursos, hongos, religiones de la oscuridad y amenazas.",
-    prompt: `Diseña una civilización subterránea completa y coherente.
+      "Stwórz świat pod ziemią: zasoby, grzyby, religie ciemności i zagrożenia.",
+    prompt: `Zaprojektuj kompletną i spójną cywilizację podziemną.
 
-Incluye:
-A) Geología: 4 capas (profundidad) con materiales y riesgos.
-B) Luz: 5 fuentes (bioluminiscencia, cristales, reactores, etc.) + su función social (quién controla la luz).
-C) Alimentación: 6 fuentes (hongos, insectos, peces ciegos, cultivo, etc.) y su economía.
-D) Cultura de la oscuridad: 6 rituales + 5 metáforas comunes + 3 miedos colectivamente aprendidos.
-E) Amenazas: 8 (derrumbes, gases, criaturas, guerras por túneles).
-F) Cartografía: cómo se orientan sin cielo (técnicas, instrumentos, errores comunes).
+Uwzględnij:
+A) Geologia: 4 warstwy (głębokości) z materiałami i ryzykami.
+B) Światło: 5 źródeł (bioluminescencja, kryształy, reaktory itd.) + ich funkcja społeczna (kto kontroluje światło).
+C) Jedzenie: 6 źródeł (grzyby, owady, ślepe ryby, uprawy itd.) i ich ekonomia.
+D) Kultura ciemności: 6 rytuałów + 5 powszechnych metafor + 3 zbiorowe lęki wyuczone.
+E) Zagrożenia: 8 (zawały, gazy, stworzenia, wojny o tunele).
+F) Kartografia: jak orientują się bez nieba (techniki, narzędzia, typowe błędy).
 
-Cierre:
-- 10 lugares icónicos subterráneos
-- 1 verdad sobre “la superficie” que nadie acepta.`,
+Zamknięcie:
+- 10 ikonicznych miejsc pod ziemią
+- 1 prawda o „powierzchni”, której nikt nie akceptuje.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-020",
-    title: "Mundo flotante: islas en el cielo y física interna",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat latający: wyspy na niebie i wewnętrzna fizyka",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Diseña un mundo de islas flotantes: energía, recursos, viaje aéreo y conflictos por altitud.",
-    prompt: `Crea un mundo de islas flotantes con reglas internas claras (física/magia/tecnología).
+      "Zaprojektuj świat pływających wysp: energia, zasoby, podróż powietrzna i konflikty o wysokość.",
+    prompt: `Stwórz świat pływających wysp z jasnymi zasadami wewnętrznymi (fizyka/magia/technologia).
 
-Incluye:
-1) Por qué flotan: explicación y 5 consecuencias para sociedad/arquitectura.
-2) Altitudes: 4 zonas del cielo con clima/peligros diferentes.
-3) Viaje: 6 métodos (dirigibles, planeadores, “corrientes”, portales, etc.) con limitaciones reales.
-4) Recursos: qué falta arriba (madera, metal, comida, agua, combustible) y cómo lo resuelven.
-5) Política: 4 ciudades-isla (rivalidades, alianzas, chantajes).
-6) Piratería aérea: 3 estilos, 3 armas, 3 tácticas.
-7) Cultura: 10 supersticiones sobre el “abajo”.
+Uwzględnij:
+1) Dlaczego unoszą się: wyjaśnienie i 5 konsekwencji dla społeczeństwa/architektury.
+2) Wysokości: 4 strefy nieba z różnym klimatem/zagrożeniami.
+3) Podróż: 6 metod (sterowce, szybowce, „prądy”, portale itd.) z realnymi ograniczeniami.
+4) Zasoby: czego brakuje „na górze” (drewno, metal, jedzenie, woda, paliwo) i jak sobie radzą.
+5) Polityka: 4 miasta-wyspy (rywalizacje, sojusze, szantaże).
+6) Piractwo powietrzne: 3 style, 3 bronie, 3 taktyki.
+7) Kultura: 10 przesądów o „dole”.
 
-Cierre: 12 ganchos de historia y 1 catástrofe aérea inminente.`,
+Zamknięcie: 12 haczyków fabularnych i 1 nadciągająca katastrofa powietrzna.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-021",
-    title: "Mundo de fronteras vivas: murallas, zonas de cuarentena y rumor",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat żywych granic: mury, strefy kwarantanny i plotka",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea fronteras con vida: cuarentenas, controles, refugiados, contrabando y propaganda.",
-    prompt: `Diseña un mundo donde las fronteras importan muchísimo (muro, cuarentena, zona maldita, frontera legal).
+      "Stwórz granice, które „żyją”: kwarantanny, kontrole, uchodźcy, przemyt i propaganda.",
+    prompt: `Zaprojektuj świat, w którym granice mają ogromne znaczenie (mur, kwarantanna, strefa przeklęta, granica prawna).
 
-Incluye:
-A) Por qué existe la frontera: amenaza real vs amenaza narrada.
-B) Infraestructura fronteriza: torres, aduanas, sensores, patrullas, sobornos.
-C) Poblaciones de frontera: 5 perfiles (migrantes, mercaderes, soldados, bandidos, curanderos).
-D) Contrabando: 6 mercancías, 4 rutas, 3 técnicas de ocultamiento.
-E) Propaganda: 6 mensajes del lado A y 6 del lado B, ambos “tienen razón” parcialmente.
-F) Incidente gatillo: una muerte/infección/ataque que cambia la política.
+Uwzględnij:
+A) Dlaczego granica istnieje: realne zagrożenie vs opowiedziane zagrożenie.
+B) Infrastruktura graniczna: wieże, odprawy, czujniki, patrole, łapówki.
+C) Ludzie pogranicza: 5 profili (migranci, kupcy, żołnierze, bandyci, uzdrowiciele).
+D) Przemyt: 6 towarów, 4 trasy, 3 techniki ukrywania.
+E) Propaganda: 6 komunikatów strony A i 6 strony B — obie strony mają „częściowo rację”.
+F) Incydent zapalny: śmierć/infekcja/atak, który zmienia politykę.
 
-Final: 10 escenas fronterizas con tensión + 5 secretos que invierten culpables.`,
+Finał: 10 scen granicznych z napięciem + 5 sekretów, które odwracają winnych.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-022",
-    title: "Mundo con calendario y astronomía (fiestas, mareas, profecías)",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat z kalendarzem i astronomią (święta, pływy, proroctwa)",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Diseña un calendario propio y cómo afecta religión, agricultura, política y profecías.",
-    prompt: `Diseña la astronomía y el calendario del mundo para que impacte la vida real.
+      "Zaprojektuj własny kalendarz i to, jak wpływa na religię, rolnictwo, politykę i proroctwa.",
+    prompt: `Zaprojektuj astronomię i kalendarz świata tak, by wpływały na codzienne życie.
 
-Incluye:
-1) Cielo: número de lunas/soles, constelaciones clave, anomalía astronómica.
-2) Calendario: meses/estaciones/días festivos, cómo cuentan años, quién lo estandariza.
-3) Impacto:
-- Agricultura y cosechas
-- Navegación
-- Religión y rituales
-- Economía (fechas de impuestos, ferias)
-- Política (juramentos, elecciones)
-4) 8 fiestas: nombre, origen, ritual, comida, peligro (siempre hay uno).
-5) 3 profecías astronómicas: 1 verdadera, 1 falsa útil, 1 mal interpretada.
+Uwzględnij:
+1) Niebo: liczba księżyców/słońc, kluczowe konstelacje, anomalia astronomiczna.
+2) Kalendarz: miesiące/pory/święta, jak liczą lata, kto go standaryzuje.
+3) Wpływ:
+- Rolnictwo i zbiory
+- Nawigacja
+- Religia i rytuały
+- Ekonomia (daty podatków, jarmarki)
+- Polityka (przysięgi, wybory)
+4) 8 świąt: nazwa, pochodzenie, rytuał, jedzenie, zagrożenie (zawsze jakieś jest).
+5) 3 proroctwa astronomiczne: 1 prawdziwe, 1 fałszywe, ale użyteczne, 1 źle zinterpretowane.
 
-Cierre: 10 detalles para describir el cielo en escenas sin repetirte.`,
+Zamknięcie: 10 sposobów opisywania nieba w scenach bez powtórek.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-023",
-    title: "Arquitectura del mundo: materiales, clima y estética coherente",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Architektura świata: materiały, klimat i spójna estetyka",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea estilos arquitectónicos por región y por clase social, con función y simbolismo.",
-    prompt: `Actúa como arquitecto/arte conceptual. Diseña la arquitectura del mundo basada en clima, recursos y poder.
+      "Stwórz style architektoniczne według regionu i klasy społecznej, z funkcją i symboliką.",
+    prompt: `Działaj jak architekt / koncept artysta. Zaprojektuj architekturę świata na podstawie klimatu, zasobów i władzy.
 
-Entrega:
-A) 5 materiales dominantes (piedra, barro, bambú, biocemento, etc.) y por qué.
-B) 4 estilos regionales: cada uno con:
-- Silueta/forma general
-- Solución a clima (viento/lluvia/calor/frío)
-- Decoración simbólica (qué comunica)
-- Interior: distribución típica y privacidad
-C) Diferencias por clase social: techo, ventanas, puertas, iluminación, seguridad.
-D) Edificios clave: templo, mercado, tribunal, escuela, morgue, cárcel, hospital (cómo son y qué huelen).
-E) 10 detalles “cinematográficos” para describir sin planos técnicos.
+Dostarcz:
+A) 5 dominujących materiałów (kamień, glina, bambus, biocement itd.) i dlaczego.
+B) 4 style regionalne: każdy z:
+- Ogólną sylwetą/formą
+- Rozwiązaniem na klimat (wiatr/deszcz/upał/mróz)
+- Symboliczną dekoracją (co komunikuje)
+- Wnętrzem: typowy układ i prywatność
+C) Różnice klasowe: dach, okna, drzwi, oświetlenie, bezpieczeństwo.
+D) Budynki kluczowe: świątynia, targ, sąd, szkoła, kostnica, więzienie, szpital (jak wyglądają i jak pachną).
+E) 10 „filmowych” detali do opisu bez technicznych planów.
 
-Cierre: 10 locaciones listas para escenas + 5 secretos escondidos en diseño.`,
+Zamknięcie: 10 lokacji gotowych do scen + 5 sekretów ukrytych w projektach.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-024",
-    title: "Mundo basado en un material raro (sal, ámbar, obsidiana, coral...)",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat oparty na rzadkim materiale (sól, bursztyn, obsydian, koral...)",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea un mundo donde un material cambia todo: economía, religión, guerra y arte.",
-    prompt: `Elige UN material raro como eje del mundo (o pregúntame cuál) y construye el mundo alrededor.
+      "Stwórz świat, w którym jeden materiał zmienia wszystko: ekonomię, religię, wojnę i sztukę.",
+    prompt: `Wybierz JEDEN rzadki materiał jako oś świata (albo zapytaj mnie, jaki) i zbuduj świat wokół niego.
 
-Incluye:
-1) Material: propiedades reales/ficcionales y por qué es valioso.
-2) Extracción: dónde se encuentra, quién trabaja, riesgos y accidentes típicos.
-3) Economía: precios, monopolios, contrabando, falsificaciones.
-4) Religión: qué significa simbólicamente, rituales y reliquias.
-5) Guerra: 3 armas/defensas/tecnologías basadas en el material.
-6) Arte: 6 usos culturales (moda, arquitectura, música, tatuajes, etc.).
-7) Consecuencia ecológica: qué se destruye para extraerlo.
+Uwzględnij:
+1) Materiał: właściwości realne/fikcyjne i dlaczego jest cenny.
+2) Wydobycie: gdzie występuje, kto pracuje, ryzyka i typowe wypadki.
+3) Ekonomia: ceny, monopole, przemyt, fałszerstwa.
+4) Religia: znaczenie symboliczne, rytuały i relikwie.
+5) Wojna: 3 bronie/obrony/technologie oparte na materiale.
+6) Sztuka: 6 zastosowań kulturowych (moda, architektura, muzyka, tatuaże itd.).
+7) Konsekwencja ekologiczna: co się niszczy, żeby go wydobyć.
 
-Cierra con:
-- 10 ganchos de historia
-- 5 “mentiras comunes” sobre el material y por qué convienen.`,
+Zamknij:
+- 10 haczyków fabularnych
+- 5 „powszechnych kłamstw” o materiale i dlaczego są wygodne.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-025",
-    title: "Mundo con leyes extrañas (pero funcionales) y su origen",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat z dziwnymi (ale działającymi) prawami i ich pochodzeniem",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Genera leyes memorables que nacen de un trauma histórico, una tecnología o un monstruo.",
-    prompt: `Crea 20 leyes extrañas del mundo que sean funcionales (no random). Para cada ley:
+      "Wygeneruj zapamiętywalne prawa urodzone z traumy, technologii albo potwora.",
+    prompt: `Stwórz 20 dziwnych praw świata, które są funkcjonalne (nie losowe). Dla każdego prawa:
 
-- La ley (texto simple)
-- Origen (evento histórico/amenaza/tecnología)
-- Quién la impuso y por qué
-- Cómo se usa para abusar del poder
-- Cómo la gente común la evade o “la cumple de mentira”
-- Una escena donde se aplica (micro-escena de 3–4 líneas)
+- Prawo (prosty zapis)
+- Pochodzenie (wydarzenie historyczne/zagrożenie/technologia)
+- Kto je narzucił i dlaczego
+- Jak używa się go do nadużyć władzy
+- Jak zwykli ludzie je omijają albo „udają, że spełniają”
+- Scena zastosowania (mikro-scena 3–4 linie)
 
-Además:
-- 5 “leyes no escritas” (normas sociales más fuertes que la ley).
-- 3 reformas en discusión que podrían detonar una revolución.`,
+Dodatkowo:
+- 5 „niepisanych praw” (norm społecznych silniejszych niż prawo).
+- 3 reformy w dyskusji, które mogą wywołać rewolucję.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-026",
-    title: "Mundo con genocidio/trauma histórico (tratado con respeto)",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat z ludobójstwem/traumą historyczną (z szacunkiem)",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Desarrolla un trauma colectivo con memoria, reparación, negacionismo y efectos generacionales.",
-    prompt: `Diseña un evento traumático histórico del mundo (guerra, desplazamiento, catástrofe) con enfoque humano y respeto. Evita morbo.
+      "Rozwiń zbiorową traumę: pamięć, naprawa, negacjonizm i skutki międzypokoleniowe.",
+    prompt: `Zaprojektuj traumatyczne wydarzenie historyczne świata (wojna, wysiedlenie, katastrofa) z ludzkim, pełnym szacunku podejściem. Unikaj epatowania okrucieństwem.
 
-Incluye:
-1) Antes: cómo era la vida (3 viñetas cotidianas).
-2) El evento: qué ocurrió, quiénes fueron afectados, qué se perdió.
-3) Después:
-- Desplazamiento y diáspora
-- Cambios de idioma/nombres/rituales
-- Economía y tierras
-4) Memoria: 3 formas de recordar (monumentos, canciones, relatos) y 2 formas de borrar (censura, propaganda).
-5) Conflicto actual: reparación vs venganza vs olvido (posturas con argumentos fuertes).
-6) 6 escenas posibles que muestren trauma sin explicarlo.
+Uwzględnij:
+1) Przed: jak wyglądało życie (3 codzienne migawki).
+2) Wydarzenie: co się stało, kogo dotknęło, co utracono.
+3) Po:
+- Wysiedlenie i diaspora
+- Zmiany języka/imion/rytuałów
+- Ekonomia i ziemia
+4) Pamięć: 3 sposoby pamiętania (pomniki, pieśni, opowieści) i 2 sposoby wymazywania (cenzura, propaganda).
+5) Obecny konflikt: reparacje vs zemsta vs zapomnienie (postawy z mocnymi argumentami).
+6) 6 możliwych scen, które pokazują traumę bez tłumaczenia jej wprost.
 
-Cierre: 5 objetos simbólicos (reliquia, carta, prenda, receta, mapa) que guardan historia.`,
+Zamknięcie: 5 symbolicznych obiektów (relikwia, list, ubranie, przepis, mapa), które niosą historię.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-027",
-    title: "Mundo con IA/Oráculo: verdad, predicción y libre albedrío",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat z AI/Wyrocznią: prawda, przewidywanie i wolna wola",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Explora un sistema oracular (IA o magia) que predice y reordena la sociedad, con consecuencias éticas.",
-    prompt: `Crea un mundo donde existe un ORÁCULO (IA, algoritmo, magia, red de profetas) que predice comportamientos/eventos.
+      "Zbadaj system wyroczni (AI lub magia), który przewiduje i układa społeczeństwo, z konsekwencjami etycznymi.",
+    prompt: `Stwórz świat, w którym istnieje WYROCZNIA (AI, algorytm, magia, sieć proroków) przewidująca zachowania/wydarzenia.
 
-Incluye:
-A) Qué predice, con qué precisión y qué NO puede predecir.
-B) Quién controla acceso (precio, permisos, castas).
-C) Instituciones creadas alrededor: 5 (tribunales preventivos, seguros, matrimonios, empleo, policía).
-D) Efectos sociales: 8 cambios en citas, negocios, crimen, fe, arte, educación.
-E) Mercado negro de predicciones: 5 productos (predicciones robadas, falsificadas, etc.).
-F) Paradojas: 6 (autocumplidas, sabotajes, “ruido”).
-G) Conflicto: 3 movimientos anti-oráculo, 3 pro-oráculo.
+Uwzględnij:
+A) Co przewiduje, z jaką dokładnością i czego NIE potrafi przewidzieć.
+B) Kto kontroluje dostęp (cena, pozwolenia, kasty).
+C) Instytucje zbudowane wokół tego: 5 (prewencyjne sądy, ubezpieczenia, małżeństwa, zatrudnienie, policja).
+D) Skutki społeczne: 8 zmian w randkach, biznesie, przestępczości, wierze, sztuce, edukacji.
+E) Czarny rynek przewidywań: 5 produktów (skradzione prognozy, fałszywki itd.).
+F) Paradoksy: 6 (samospełniające się, sabotaże, „szum”).
+G) Konflikt: 3 ruchy anty-wyrocznia, 3 pro-wyrocznia.
 
-Cierre: 10 ganchos de historia y 1 secreto del oráculo (por qué miente a veces).`,
+Zamknięcie: 10 haczyków fabularnych i 1 sekret wyroczni (dlaczego czasem kłamie).`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-028",
-    title: "Mundo con memoria como moneda: mercado, crimen y amor",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat, gdzie pamięć jest walutą: rynek, zbrodnia i miłość",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Diseña un mundo donde se comercia memoria: quién paga, quién pierde identidad y quién manipula.",
-    prompt: `Diseña un mundo en el que los recuerdos pueden extraerse, almacenarse y comerciarse.
+      "Zaprojektuj świat handlu pamięcią: kto płaci, kto traci tożsamość i kto manipuluje.",
+    prompt: `Zaprojektuj świat, w którym wspomnienia można wydobywać, przechowywać i sprzedawać.
 
-Incluye:
-1) Tecnología/magia: cómo se extraen, formatos, degradación, riesgos.
-2) Economía: quién compra recuerdos (5 perfiles) y por qué; precios aproximados.
-3) Ley: 8 crímenes de memoria (fraude, extorsión, “implantación”, etc.) y castigos.
-4) Cultura: 6 rituales y 6 tabúes (¿se considera infidelidad vender ciertos recuerdos?).
-5) Política: 3 usos estatales (vigilancia, propaganda, justicia) y 2 resistencias.
-6) Vida cotidiana: 3 escenas de gente común usando recuerdos (ternura, horror, comedia).
-7) El gran dilema: ¿qué es “yo” sin mis recuerdos?
+Uwzględnij:
+1) Technologia/magia: jak się je wydobywa, formaty, degradacja, ryzyka.
+2) Ekonomia: kto kupuje wspomnienia (5 profili) i dlaczego; przybliżone ceny.
+3) Prawo: 8 przestępstw pamięci (oszustwo, wymuszenie, „implantacja” itd.) i kary.
+4) Kultura: 6 rytuałów i 6 tabu (czy sprzedaż pewnych wspomnień to „zdrada”?).
+5) Polityka: 3 zastosowania państwowe (nadzór, propaganda, sprawiedliwość) i 2 formy oporu.
+6) Codzienność: 3 sceny zwykłych ludzi używających wspomnień (czułość, horror, komedia).
+7) Wielki dylemat: czym jest „ja” bez moich wspomnień?
 
-Cierre: 12 tramas posibles y 5 objetos/archivos que esconden verdades.`,
+Zamknięcie: 12 możliwych wątków i 5 obiektów/archiwów, które ukrywają prawdy.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-029",
-    title: "Mundo con estaciones extremas: sociedad adaptada al ciclo",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat z ekstremalnymi porami roku: społeczeństwo dostosowane do cyklu",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea estaciones que lo cambian todo: migraciones, gobierno, guerras y ritos por temporada.",
-    prompt: `Diseña un mundo con estaciones EXTREMAS (ej: noche de 6 meses, lluvias de 3 meses, vientos asesinos, etc.).
+      "Stwórz pory roku, które zmieniają wszystko: migracje, rządy, wojny i rytuały sezonowe.",
+    prompt: `Zaprojektuj świat z EKSTREMALNYMI porami roku (np. noc 6 miesięcy, deszcze 3 miesiące, zabójcze wiatry itd.).
 
-Incluye:
-A) El ciclo anual: 4 fases con duración y efectos físicos exactos.
-B) Adaptaciones humanas: arquitectura, ropa, dieta, energía, transporte.
-C) Gobierno estacional: cómo cambian leyes/impuestos/ejército según fase.
-D) Migraciones: quién se mueve, rutas, conflictos por paso.
-E) Religión: 6 rituales para “convencer” a la estación.
-F) Crimen: 6 delitos típicos por fase (por escasez/oportunidad).
-G) Guerra: por qué se pelea en una fase y se negocia en otra.
+Uwzględnij:
+A) Cykl roczny: 4 fazy z czasem trwania i konkretnymi skutkami fizycznymi.
+B) Adaptacje ludzi: architektura, ubrania, dieta, energia, transport.
+C) Rząd sezonowy: jak zmieniają się prawa/podatki/wojsko w zależności od fazy.
+D) Migracje: kto się przemieszcza, trasy, konflikty o przejście.
+E) Religia: 6 rytuałów, by „przekonać” porę roku.
+F) Przestępczość: 6 typowych przestępstw na fazę (z niedoboru/okazji).
+G) Wojna: czemu walczy się w jednej fazie, a w innej negocjuje.
 
-Cierre: 10 escenas por fase y 3 secretos sobre el origen del ciclo.`,
+Zamknięcie: 10 scen na fazę i 3 sekrety o pochodzeniu cyklu.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-030",
-    title: "Mundo con administración brutal: burocracia como villano",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat brutalnej administracji: biurokracja jako antagonista",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Diseña un sistema burocrático opresivo: formularios, permisos, colas, castigos y resistencia.",
-    prompt: `Diseña un mundo donde la burocracia es el verdadero monstruo (sin caricatura). Quiero procedimientos, documentos y consecuencias.
+      "Zaprojektuj opresyjny system biurokratyczny: formularze, pozwolenia, kolejki, kary i opór.",
+    prompt: `Zaprojektuj świat, w którym biurokracja jest prawdziwym potworem (bez karykatury). Chcę procedur, dokumentów i konsekwencji.
 
-Incluye:
-1) La institución central: nombre, misión oficial, misión real.
-2) 10 documentos/formatos obligatorios (con nombres y propósito).
-3) 8 puntos de fricción: colas, sellos, inspecciones, cuotas, idiomas, etc.
-4) Corrupción: 6 sobornos con “tarifa” y 4 estafas de funcionarios.
-5) Castigos: 6 sanciones escalonadas (administrativas → penales).
-6) Resistencia: 4 tácticas (hacking, sabotaje, arte, infiltración) y riesgos.
-7) Vida cotidiana: escena de 500 palabras de alguien intentando resolver algo simple.
+Uwzględnij:
+1) Centralna instytucja: nazwa, misja oficjalna, misja prawdziwa.
+2) 10 obowiązkowych dokumentów/formularzy (z nazwami i celem).
+3) 8 punktów tarcia: kolejki, pieczątki, inspekcje, limity, języki itd.
+4) Korupcja: 6 łapówek z „taryfą” i 4 przekręty urzędników.
+5) Kary: 6 sankcji rosnących (administracyjne → karne).
+6) Opór: 4 taktyki (hacking, sabotaż, sztuka, infiltracja) i ryzyka.
+7) Codzienność: scena 500 słów o kimś próbującym załatwić coś prostego.
 
-Cierre: 10 conflictos perfectos para historias.`,
+Zamknięcie: 10 konfliktów idealnych do historii.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-031",
-    title: "Mundo con deporte/ritual central que sostiene la sociedad",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat, w którym sport/rytuał jest centrum społeczeństwa",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea un juego/deporte/ritual como columna vertebral política, económica y cultural.",
-    prompt: `Crea un mundo donde un deporte o ritual competitivo estructura la sociedad.
+      "Stwórz grę/sport/rytuał jako polityczny, ekonomiczny i kulturowy kręgosłup świata.",
+    prompt: `Stwórz świat, w którym sport lub rywalizacyjny rytuał strukturyzuje społeczeństwo.
 
-Incluye:
-A) El juego: reglas claras, objetivo, duración, roles, equipamiento, árbitros.
-B) Origen histórico: por qué empezó y cómo se volvió sagrado/industrial.
-C) Economía: entradas, apuestas, academias, sponsors, corrupción.
-D) Política: cómo se usa para pacificar, reclutar, distraer o legitimar poder.
-E) Cultura: 10 canciones/cantos, 10 insultos, 5 gestos de fans, 3 supersticiones.
-F) Sombra: 6 escándalos típicos (dopaje, arreglos, chantaje).
-G) Historia: 10 ganchos (jugador, entrenador, fanático, periodista, policía).
+Uwzględnij:
+A) Gra: jasne zasady, cel, czas trwania, role, sprzęt, sędziowie.
+B) Pochodzenie historyczne: czemu się zaczęło i jak stało się święte/przemysłowe.
+C) Ekonomia: bilety, zakłady, akademie, sponsorzy, korupcja.
+D) Polityka: jak używa się tego do uspokajania, rekrutowania, odwracania uwagi lub legitymizacji władzy.
+E) Kultura: 10 pieśni/okrzyków, 10 obelg, 5 gestów kibiców, 3 przesądy.
+F) Cień: 6 typowych skandali (doping, ustawki, szantaż).
+G) Historia: 10 haczyków (zawodnik, trener, fan, dziennikarz, policjant).
 
-Cierre: 1 final de temporada épico y 1 verdad oscura que nadie quiere ver.`,
+Zamknięcie: 1 epicki finał sezonu i 1 mroczna prawda, której nikt nie chce widzieć.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-032",
-    title: "Mundo con “zonas prohibidas” y ciencia/mito alrededor",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat ze „strefami zakazanymi” i nauką/mitem dookoła",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Diseña zonas prohibidas con reglas, señales, guardianes y secretos graduales.",
-    prompt: `Diseña 3 zonas prohibidas del mundo (prohibidas por ley, miedo o física) y construye su mito.
+      "Zaprojektuj strefy zakazane z zasadami, znakami, strażnikami i stopniowo ujawnianymi sekretami.",
+    prompt: `Zaprojektuj 3 strefy zakazane świata (zakazane przez prawo, strach albo fizykę) i zbuduj wokół nich mit.
 
-Para cada zona:
-- Nombre
-- Por qué se prohíbe (versión oficial vs versión real)
-- Señales de aproximación (3)
-- Guardianes/defensas (humanas y no humanas)
-- Qué recurso/tentación hay dentro
-- 3 historias “de alguien que entró” (una verdadera, una exagerada, una mentira útil)
-- Cómo podrían entrar protagonistas (2 métodos posibles)
-- Qué cambia a quien sale (costo exacto)
+Dla każdej strefy:
+- Nazwa
+- Dlaczego jest zakazana (wersja oficjalna vs prawdziwa)
+- Sygnały zbliżania się (3)
+- Strażnicy/obrony (ludzkie i nieludzkie)
+- Jaki zasób/pokusa jest w środku
+- 3 historie „ktoś wszedł” (jedna prawdziwa, jedna przesadzona, jedna użyteczna kłamliwa)
+- Jak bohaterowie mogliby wejść (2 możliwe metody)
+- Co zmienia się w kimś, kto wraca (dokładny koszt)
 
-Cierre: 10 escenas de exploración sin info-dump y 1 secreto compartido entre las 3 zonas.`,
+Zamknięcie: 10 scen eksploracji bez info-dumpu i 1 sekret wspólny dla wszystkich 3 stref.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-033",
-    title: "Mundo con clases/razas/especies: integración sin clichés",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat z klasami/rasami/gatunkami: integracja bez klisz",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Define pueblos/especies con cultura, economía y conflicto evitando estereotipos vacíos.",
-    prompt: `Crea 4 pueblos/especies/clases sociales del mundo evitando clichés. Quiero complejidad humana.
+      "Zdefiniuj ludy/gatunki z kulturą, ekonomią i konfliktem, unikając pustych stereotypów.",
+    prompt: `Stwórz 4 ludy/gatunki/klasy społeczne świata, unikając klisz. Chcę ludzkiej złożoności.
 
-Para cada grupo:
-1) Nombre + autodenominación + cómo los llaman otros (y por qué).
-2) Organización social (familia, trabajo, propiedad).
-3) Economía: qué producen, qué importan, qué monopolizan.
-4) Cultura: 5 valores, 5 costumbres diarias, 5 tabúes.
-5) Lenguaje: 5 expresiones idiomáticas.
-6) Conflicto interno: 2 facciones y su debate.
-7) Conflicto externo: 2 tensiones con otros grupos + un evento reciente.
-8) “Cosa admirable” y “cosa terrible” del grupo (ambas reales).
+Dla każdej grupy:
+1) Nazwa + autookreślenie + jak nazywają ich inni (i dlaczego).
+2) Organizacja społeczna (rodzina, praca, własność).
+3) Ekonomia: co produkują, co importują, na czym mają monopol.
+4) Kultura: 5 wartości, 5 codziennych zwyczajów, 5 tabu.
+5) Język: 5 idiomów/zwrotów.
+6) Konflikt wewnętrzny: 2 frakcje i ich spór.
+7) Konflikt zewnętrzny: 2 napięcia z innymi grupami + niedawne wydarzenie.
+8) „Rzecz godna podziwu” i „rzecz straszna” o grupie (obie prawdziwe).
 
-Cierre:
-- 8 escenas de convivencia (amor, mercado, escuela, hospital, tribunal)
-- 5 errores típicos al representarlos (y cómo evitarlos).`,
+Zamknięcie:
+- 8 scen współistnienia (miłość, targ, szkoła, szpital, sąd)
+- 5 typowych błędów w przedstawianiu (i jak ich unikać).`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-034",
-    title: "Mundo noir: moral gris, instituciones y secretos urbanos",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat noir: szara moralność, instytucje i miejskie sekrety",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Construye un mundo noir: corrupción, chantaje, prensa, policía y crimen con capas.",
-    prompt: `Diseña un mundo noir (urbano o futurista) donde el poder siempre tiene precio.
+      "Zbuduj świat noir: korupcja, szantaż, prasa, policja i przestępczość z warstwami.",
+    prompt: `Zaprojektuj świat noir (miejski lub futurystyczny), w którym władza zawsze ma cenę.
 
-Incluye:
-1) Instituciones (6): policía, prensa, justicia, sindicato, iglesia/club, corporación.
-2) Para cada institución: qué vende, qué oculta, y qué teme.
-3) Crimen organizado: 3 familias/bandas con estilos diferentes.
-4) Corrupción: 8 “formas elegantes” de comprar gente.
-5) Un caso famoso sin resolver: cronología, sospechosos, evidencia contradictoria.
-6) Ambientación: 20 detalles sensoriales recurrentes (lluvia, humo, neón, olor, música).
-7) Regla moral del mundo: 5 dilemas donde todos pierden algo.
+Uwzględnij:
+1) Instytucje (6): policja, prasa, wymiar sprawiedliwości, związek zawodowy, kościół/klub, korporacja.
+2) Dla każdej: co sprzedaje, co ukrywa i czego się boi.
+3) Zorganizowana przestępczość: 3 rodziny/bandy o różnych stylach.
+4) Korupcja: 8 „eleganckich” sposobów kupowania ludzi.
+5) Słynna nierozwiązana sprawa: chronologia, podejrzani, sprzeczne dowody.
+6) Klimat: 20 powracających detali zmysłowych (deszcz, dym, neon, zapach, muzyka).
+7) Zasada moralna świata: 5 dylematów, w których każdy coś traci.
 
-Cierre: 12 ganchos noir y 1 final agridulce posible.`,
+Zamknięcie: 12 haczyków noir i 1 możliwy słodko-gorzki finał.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-035",
-    title: "Mundo rural profundo: tradición, modernidad y conflicto silencioso",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat głębokiej prowincji: tradycja, nowoczesność i cichy konflikt",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea un mundo rural con tensiones reales: tierras, herencias, rumor, religión y migración.",
-    prompt: `Diseña una región rural profunda (no idealizada) con tensión entre tradición y cambio.
+      "Stwórz wiejski świat z realnymi napięciami: ziemia, spadki, plotka, religia i migracja.",
+    prompt: `Zaprojektuj głęboką wiejską krainę (nie wyidealizowaną) z napięciem między tradycją a zmianą.
 
-Incluye:
-A) Territorio: geografía, clima, cultivos/ganado, riesgos.
-B) Comunidad: 8 roles clave (partera, maestro, cura, cacique, etc.) y sus secretos.
-C) Economía: ingresos reales, deudas, dependencia, mercado negro.
-D) Rumor y reputación: 10 chismes y qué parte es verdad.
-E) Conflicto: un proyecto externo que amenaza todo (presa, mina, base, carretera).
-F) Cultura: 6 rituales, 6 frases típicas, 3 canciones/leyendas.
+Uwzględnij:
+A) Terytorium: geografia, klimat, uprawy/hodowla, ryzyka.
+B) Społeczność: 8 kluczowych ról (położna, nauczyciel, ksiądz, lokalny boss itd.) i ich sekrety.
+C) Ekonomia: realne dochody, długi, zależności, czarny rynek.
+D) Plotka i reputacja: 10 plotek i ile w nich prawdy.
+E) Konflikt: zewnętrzny projekt, który zagraża wszystkiemu (tama, kopalnia, baza, droga).
+F) Kultura: 6 rytuałów, 6 typowych powiedzeń, 3 pieśni/legendy.
 
-Cierre:
-- 10 escenas de pueblo
-- 5 giros donde “lo simple” era complejo.`,
+Zamknięcie:
+- 10 scen „z wioski”
+- 5 zwrotów, gdzie „proste” okazuje się złożone.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-036",
-    title: "Mundo oceánico: ciudades submarinas y presión política",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat oceaniczny: podwodne miasta i presja polityczna",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Diseña civilización bajo el mar: presión, energía, alimento, psicología y fronteras acuáticas.",
-    prompt: `Diseña un mundo oceánico con asentamientos submarinos y conflictos por presión/oxígeno.
+      "Zaprojektuj cywilizację pod wodą: ciśnienie, energia, jedzenie, psychologia i wodne granice.",
+    prompt: `Zaprojektuj świat oceaniczny z podwodnymi osadami i konfliktami o ciśnienie/tlen.
 
-Incluye:
-1) Tecnología/biología para vivir abajo: 6 herramientas clave y 6 fallos mortales.
-2) Energía: 4 fuentes (geotermia, mareas, bio, etc.) + quién las controla.
-3) Alimento: 6 fuentes y su economía.
-4) Política: 4 ciudades submarinas con rivalidades.
-5) Seguridad: piratería submarina, sabotaje, terrorismo de compuertas.
-6) Cultura: 10 supersticiones del mar profundo, 5 tabúes, 5 gestos.
-7) Fauna: 6 criaturas creíbles y cómo afectan rutas.
+Uwzględnij:
+1) Technologia/biologia życia „na dole”: 6 kluczowych narzędzi i 6 śmiertelnych awarii.
+2) Energia: 4 źródła (geotermia, pływy, bio itd.) + kto je kontroluje.
+3) Jedzenie: 6 źródeł i ich ekonomia.
+4) Polityka: 4 podwodne miasta z rywalizacjami.
+5) Bezpieczeństwo: piractwo podwodne, sabotaż, terroryzm śluz.
+6) Kultura: 10 przesądów głębin, 5 tabu, 5 gestów.
+7) Fauna: 6 wiarygodnych stworzeń i jak wpływają na trasy.
 
-Cierre: 10 ganchos y 1 catástrofe de presión en cadena.`,
+Zamknięcie: 10 haczyków i 1 kaskadowa katastrofa ciśnieniowa.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-037",
-    title: "Mundo con arte como poder: censura, escuelas y mercado",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat, w którym sztuka jest władzą: cenzura, szkoły i rynek",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea un mundo donde el arte (música, pintura, escritura) tiene poder literal o político.",
-    prompt: `Diseña un mundo donde el arte tiene poder (literal o social) y por eso se controla.
+      "Stwórz świat, w którym sztuka (muzyka, malarstwo, pisanie) ma moc dosłowną lub polityczną.",
+    prompt: `Zaprojektuj świat, w którym sztuka ma moc (dosłowną lub społeczną), dlatego jest kontrolowana.
 
-Incluye:
-A) Qué artes importan (3) y cómo “funcionan” (poder, influencia, control).
-B) Instituciones: 3 academias/escuelas y 2 organismos de censura.
-C) Mercado del arte: 6 productos, 4 estafas, 3 coleccionistas peligrosos.
-D) Subterráneo: 4 movimientos artísticos clandestinos y su manifiesto.
-E) Conflicto: un artista desaparecido con obra que cambia el mundo.
-F) Cultura: 10 frases, 10 hábitos, 5 rituales alrededor del arte.
+Uwzględnij:
+A) Jakie sztuki są kluczowe (3) i jak „działają” (moc, wpływ, kontrola).
+B) Instytucje: 3 akademie/szkoły i 2 organy cenzury.
+C) Rynek sztuki: 6 produktów, 4 oszustwa, 3 niebezpiecznych kolekcjonerów.
+D) Podziemie: 4 clandestynne ruchy artystyczne i ich manifest.
+E) Konflikt: artysta, który zniknął, a jego dzieło zmienia świat.
+F) Kultura: 10 zwrotów, 10 nawyków, 5 rytuałów wokół sztuki.
 
-Cierre: 12 ganchos de trama y 1 obra maestra que es un arma.`,
+Zamknięcie: 12 haczyków fabularnych i 1 arcydzieło, które jest bronią.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-038",
-    title: "Mundo con medicina diferente: curación, permisos y ética",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat z inną medycyną: leczenie, pozwolenia i etyka",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Define cómo se cura la gente: hospitales, curanderos, costos, limitaciones y conflictos éticos.",
-    prompt: `Diseña el sistema de salud/curación del mundo (realista y dramático).
+      "Zdefiniuj, jak ludzie się leczą: szpitale, uzdrowiciele, koszty, ograniczenia i dylematy etyczne.",
+    prompt: `Zaprojektuj system zdrowia/leczenia świata (realistyczny i dramatyczny).
 
-Incluye:
-1) Cómo se cura: 3 métodos (científico, tradicional, mágico/tecnológico) y sus límites.
-2) Profesiones: 6 roles médicos y sus rivalidades.
-3) Acceso: quién puede pagar, quién no, y qué existe para pobres (y su trampa).
-4) Enfermedades del mundo: 8 (cada una con síntoma distintivo y estigma social).
-5) Ética: 5 dilemas (triage, experimentos, eugenesia, permisos, aborto, etc.) según tu mundo.
-6) Mercado negro: 6 productos/servicios y 3 redes de tráfico.
+Uwzględnij:
+1) Jak się leczy: 3 metody (naukowa, tradycyjna, magiczna/technologiczna) i ich limity.
+2) Zawody: 6 ról medycznych i ich rywalizacje.
+3) Dostęp: kto może zapłacić, kto nie; co istnieje dla biednych (i jaka jest pułapka).
+4) Choroby świata: 8 (każda z wyróżniającym objawem i piętnem społecznym).
+5) Etyka: 5 dylematów (triage, eksperymenty, eugenika, pozwolenia, aborcja itd.) w realiach świata.
+6) Czarny rynek: 6 produktów/usług i 3 siatki handlu.
 
-Cierre: 10 escenas clínicas intensas y 1 secreto de una cura que no quieren liberar.`,
+Zamknięcie: 10 intensywnych scen klinicznych i 1 sekret lekarstwa, którego nie chcą wypuścić.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-039",
-    title: "Mundo con justicia particular: tribunales, pruebas y castigos",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat z własną sprawiedliwością: sądy, dowody i kary",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea un sistema legal que genere historias: juicios, corrupción, evidencias y castigos simbólicos.",
-    prompt: `Diseña el sistema de justicia del mundo (procedimientos concretos).
+      "Stwórz system prawny, który generuje historie: procesy, korupcja, dowody i symboliczne kary.",
+    prompt: `Zaprojektuj system wymiaru sprawiedliwości świata (konkretne procedury).
 
-Incluye:
-A) Filosofía legal: castigo vs reparación vs utilidad.
-B) Procedimiento: desde denuncia hasta sentencia (pasos).
-C) Pruebas: 8 tipos aceptados (testigos, reliquias, datos, juramentos, magia, etc.) y cómo se falsifican.
-D) Castigos: 10 (de leves a extremos) con impacto social.
-E) Corrupción: 6 fallas del sistema y quién se beneficia.
-F) Casos famosos: 3 casos que dividieron al país y cambiaron leyes.
+Uwzględnij:
+A) Filozofia prawa: kara vs naprawa vs użyteczność.
+B) Procedura: od zgłoszenia do wyroku (kroki).
+C) Dowody: 8 akceptowanych typów (świadkowie, relikwie, dane, przysięgi, magia itd.) i jak je fałszować.
+D) Kary: 10 (od lekkich do skrajnych) z wpływem społecznym.
+E) Korupcja: 6 wad systemu i kto na nich zyskuje.
+F) Słynne sprawy: 3 przypadki, które podzieliły kraj i zmieniły prawo.
 
-Cierre: 10 semillas de historias legales y 5 “lagunas” explotables por protagonistas.`,
+Zamknięcie: 10 ziaren historii prawnych i 5 „luk” do wykorzystania przez bohaterów.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-040",
-    title: "Mundo de frontera tecnológica: colonia espacial realista",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat na granicy technologii: realistyczna kolonia kosmiczna",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea una colonia con límites físicos: oxígeno, radiación, política de recursos y psicología.",
-    prompt: `Diseña una colonia espacial realista (en planeta/luna/estación). Quiero límites físicos que generen drama.
+      "Stwórz kolonię z limitami fizycznymi: tlen, promieniowanie, polityka zasobów i psychologia.",
+    prompt: `Zaprojektuj realistyczną kolonię kosmiczną (planeta/księżyc/stacja). Chcę fizycznych ograniczeń, które generują dramat.
 
-Incluye:
-1) Locación: gravedad, radiación, clima/polvo, riesgos.
-2) Infraestructura vital: aire, agua, comida, energía, reciclaje (cómo funciona y dónde falla).
-3) Política: quién manda (empresa, estado, cooperativa) y por qué.
-4) Economía: salarios, deudas, créditos, contrabando.
-5) Psicología: 8 problemas comunes (aislamiento, claustrofobia, paranoia, duelo).
-6) Cultura: 6 rituales para “sentirse humanos” + 6 tabúes.
-7) Conflicto: 1 fallo en cadena + 3 bandos con planes opuestos.
+Uwzględnij:
+1) Lokalizacja: grawitacja, promieniowanie, klimat/pył, ryzyka.
+2) Infrastruktura życia: powietrze, woda, jedzenie, energia, recykling (jak działa i gdzie zawodzi).
+3) Polityka: kto rządzi (firma, państwo, spółdzielnia) i dlaczego.
+4) Ekonomia: płace, długi, kredyty, przemyt.
+5) Psychologia: 8 typowych problemów (izolacja, klaustrofobia, paranoja, żałoba).
+6) Kultura: 6 rytuałów, by „czuć się ludźmi” + 6 tabu.
+7) Konflikt: 1 awaria kaskadowa + 3 frakcje z przeciwnymi planami.
 
-Cierre: 12 ganchos y 1 secreto de por qué se fundó la colonia realmente.`,
+Zamknięcie: 12 haczyków i 1 sekret, po co naprawdę założono kolonię.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-041",
-    title: "Mundo con monstruo institucional: una agencia secreta",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat z instytucjonalnym potworem: tajna agencja",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea una agencia (o culto/orden) que controla información y opera con reglas internas.",
-    prompt: `Diseña una agencia secreta del mundo (gobierno/corporación/orden religiosa) con coherencia.
+      "Stwórz agencję (lub kult/zakon), która kontroluje informacje i działa według wewnętrznych reguł.",
+    prompt: `Zaprojektuj tajną agencję świata (rząd/korporacja/zakon religijny) spójną wewnętrznie.
 
-Incluye:
-A) Misión oficial vs misión real.
-B) Estructura: 7 rangos y 3 departamentos (operaciones, análisis, limpieza, etc.).
-C) Reglas internas: 12 reglas (y 4 castigos internos).
-D) Reclutamiento: perfiles, pruebas, chantajes, juramentos.
-E) Herramientas: 8 recursos (tecnológicos/mágicos) y sus límites.
-F) Enemigos: 3 tipos (externo, interno, ideológico).
-G) Escándalo: un fracaso histórico que intentan borrar.
+Uwzględnij:
+A) Misja oficjalna vs misja prawdziwa.
+B) Struktura: 7 rang i 3 działy (operacje, analiza, „sprzątanie” itd.).
+C) Reguły wewnętrzne: 12 zasad (i 4 kary wewnętrzne).
+D) Rekrutacja: profile, próby, szantaże, przysięgi.
+E) Narzędzia: 8 zasobów (technologicznych/magicznych) i ich limity.
+F) Wrogowie: 3 typy (zewnętrzny, wewnętrzny, ideologiczny).
+G) Skandal: historyczna wpadka, którą próbują wymazać.
 
-Cierre: 10 tramas y 5 “documentos filtrados” que cambian todo.`,
+Zamknięcie: 10 wątków i 5 „wycieków dokumentów”, które zmieniają wszystko.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-042",
-    title: "Mundo con infancia/adolescencia distinta (educación y rito de paso)",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat z innym dzieciństwem/dorastaniem (edukacja i rytuał przejścia)",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Diseña crianza, escuela y ritos de paso que reflejen los valores y peligros del mundo.",
-    prompt: `Diseña cómo crecen niños y adolescentes en este mundo (educación, trabajo, ritos, miedo).
+      "Zaprojektuj wychowanie, szkołę i rytuały przejścia jako odbicie wartości i zagrożeń świata.",
+    prompt: `Zaprojektuj, jak dorastają dzieci i nastolatki w tym świecie (edukacja, praca, rytuały, strach).
 
-Incluye:
-1) Etapas: 4 etapas de edad y qué se espera en cada una.
-2) Educación: quién enseña, qué se enseña de verdad, qué se censura.
-3) Rito de paso central: qué se hace, riesgos, premio, trauma posible.
-4) Trabajo temprano: 6 oficios juveniles y explotación típica.
-5) Castigos y disciplina: 6 métodos y su justificación cultural.
-6) Rebeldía: 4 subculturas juveniles y por qué nacen.
+Uwzględnij:
+1) Etapy: 4 etapy wieku i co się od nich oczekuje.
+2) Edukacja: kto uczy, czego uczy się naprawdę, co jest cenzurowane.
+3) Centralny rytuał przejścia: co się robi, ryzyka, nagroda, możliwa trauma.
+4) Wczesna praca: 6 młodzieżowych zawodów i typowe wykorzystywanie.
+5) Kary i dyscyplina: 6 metod i ich kulturowe uzasadnienie.
+6) Bunt: 4 młodzieżowe subkultury i dlaczego powstają.
 
-Cierre: 10 escenas formativas y 1 tradición que empieza a romperse.`,
+Zamknięcie: 10 scen formacyjnych i 1 tradycja, która zaczyna pękać.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-043",
-    title: "Mundo con comida como identidad: platos, escasez y etiquetas",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat, gdzie jedzenie to tożsamość: dania, niedobór i etykieta",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea gastronomía con historia: ingredientes, rituales, estatus, hambre y comercio.",
-    prompt: `Diseña la gastronomía del mundo para que sea un motor cultural real.
+      "Stwórz gastronomię z historią: składniki, rytuały, status, głód i handel.",
+    prompt: `Zaprojektuj gastronomię świata tak, by była realnym silnikiem kultury.
 
-Incluye:
-A) 12 ingredientes base (de distintas regiones) y cómo se obtienen.
-B) 12 platos icónicos (4 callejeros, 4 caseros, 4 de élite):
-- Ingredientes
-- Preparación (resumen)
-- Cuándo se come
-- Qué simboliza
-C) Escasez y hambre: 3 periodos históricos de crisis alimentaria y qué cambió.
-D) Etiqueta: 10 reglas de mesa que delatan clase social.
-E) Comercio: 6 rutas de especias/comida y conflictos.
+Uwzględnij:
+A) 12 bazowych składników (z różnych regionów) i jak się je pozyskuje.
+B) 12 ikonicznych dań (4 uliczne, 4 domowe, 4 elitarne):
+- Składniki
+- Przygotowanie (skrót)
+- Kiedy się je je
+- Co symbolizuje
+C) Niedobór i głód: 3 historyczne okresy kryzysu żywności i co się zmieniło.
+D) Etykieta: 10 zasad stołu zdradzających klasę społeczną.
+E) Handel: 6 szlaków przypraw/jedzenia i konflikty.
 
-Cierre: 10 escenas donde la comida sea tensión (no filler).`,
+Zamknięcie: 10 scen, w których jedzenie jest napięciem (nie zapychaczem).`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-044",
-    title: "Mundo con moda y símbolos: ropa por clima, clase y religión",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat mody i symboli: ubrania według klimatu, klasy i religii",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Diseña vestimenta coherente con recursos y códigos: uniforme, accesorios, tabúes y señales.",
-    prompt: `Diseña la moda/vestimenta del mundo con coherencia material y simbólica.
+      "Zaprojektuj ubiór spójny z zasobami i kodami: mundury, dodatki, tabu i sygnały.",
+    prompt: `Zaprojektuj modę/ubiór świata ze spójnością materiałową i symboliczną.
 
-Incluye:
-1) Materiales textiles (6) y quién puede usar cada uno.
-2) 4 estilos regionales: paleta, silueta, piezas clave, accesorios.
-3) Diferencias por clase social: qué se puede llevar y qué está prohibido.
-4) Uniformes: 5 instituciones con uniformes (policía, clero, escuela, ejército, gremio) y su mensaje.
-5) Símbolos: 10 signos en la ropa (colores, nudos, bordados) y qué comunican.
-6) Tabúes: 6 errores de vestimenta que pueden provocar violencia.
+Uwzględnij:
+1) Materiały tekstylne (6) i kto może używać każdego z nich.
+2) 4 style regionalne: paleta, sylwetka, kluczowe elementy, dodatki.
+3) Różnice klasowe: co wolno nosić, a co jest zakazane.
+4) Mundury: 5 instytucji z mundurami (policja, kler, szkoła, wojsko, gildia) i ich przekaz.
+5) Symbole: 10 znaków na ubraniu (kolory, węzły, hafty) i co komunikują.
+6) Tabu: 6 błędów ubioru, które mogą wywołać przemoc.
 
-Cierre: 10 descripciones cortas lista para introducir personajes en escena.`,
+Zamknięcie: 10 krótkich opisów gotowych do wprowadzania postaci w scenę.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-045",
-    title: "Mundo con rumores: red de información, prensa y chismes",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat plotek: sieć informacji, prasa i szeptana propaganda",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea el ecosistema de información: prensa, propaganda, mensajeros, filtraciones y paranoia.",
-    prompt: `Diseña cómo circula la información en el mundo (rumor, prensa, mensajeros, redes, magia, etc.).
+      "Stwórz ekosystem informacji: prasa, propaganda, kurierzy, przecieki i paranoja.",
+    prompt: `Zaprojektuj, jak krąży informacja w świecie (plotka, prasa, kurierzy, sieci, magia itd.).
 
-Incluye:
-A) 6 canales de información: velocidad, costo, confiabilidad, quién controla.
-B) 5 formas de censura y 5 formas de eludirla.
-C) Propaganda: 8 técnicas y ejemplos concretos de mensajes.
-D) Chisme: 12 tipos de rumor local (y quién lo fabrica).
-E) Filtraciones: 4 tipos (documentos, testigos, arte, datos) y su impacto.
-F) Crisis de “verdad”: 1 evento donde nadie sabe qué creer.
+Uwzględnij:
+A) 6 kanałów informacji: prędkość, koszt, wiarygodność, kto kontroluje.
+B) 5 form cenzury i 5 sposobów jej omijania.
+C) Propaganda: 8 technik i konkretne przykłady komunikatów.
+D) Plotka: 12 typów lokalnych plotek (i kto je produkuje).
+E) Przecieki: 4 typy (dokumenty, świadkowie, sztuka, dane) i ich wpływ.
+F) Kryzys „prawdy”: 1 wydarzenie, w którym nikt nie wie, w co wierzyć.
 
-Cierre: 10 escenas con tensión informativa y 5 secretos que solo se sostienen por desinformación.`,
+Zamknięcie: 10 scen napięcia informacyjnego i 5 sekretów, które trzymają się tylko dzięki dezinformacji.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-046",
-    title: "Mundo con esclavitud/servidumbre: economía, resistencia y dilemas",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat z niewolnictwem/poddaństwem: ekonomia, opór i dylematy",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Explora servidumbre con complejidad (sin morbo): estructuras, complicidad y resistencia.",
-    prompt: `Diseña un sistema de servidumbre/esclavitud/colonato en el mundo con enfoque crítico y humano (sin romanticizar).
+      "Pokaż poddaństwo złożenie (bez epatowania): struktury, współudział i opór.",
+    prompt: `Zaprojektuj system poddaństwa/niewolnictwa/pańszczyzny w świecie z krytycznym i humanitarnym podejściem (bez romantyzowania).
 
-Incluye:
-1) Forma del sistema: legal, deudas, castas, guerra, contratos.
-2) Economía: quién se beneficia, qué industrias dependen, qué pasaría si cae.
-3) Vida cotidiana: 3 escenas (trabajo, descanso, castigo) tratadas con respeto.
-4) Complicidad: 5 grupos que lo sostienen y sus racionalizaciones.
-5) Resistencia: 6 formas (fuga, sabotaje, sindicatos, arte, religión, espionaje).
-6) Momento histórico: intento de abolición fallido y sus consecuencias.
-7) Conflicto actual: reforma vs revolución vs “mejoras” cosméticas.
+Uwzględnij:
+1) Forma systemu: prawo, długi, kasty, wojna, kontrakty.
+2) Ekonomia: kto korzysta, które branże zależą od systemu, co by się stało, gdyby upadł.
+3) Codzienność: 3 sceny (praca, odpoczynek, kara) opisane z szacunkiem.
+4) Współudział: 5 grup, które to utrzymują, i ich racjonalizacje.
+5) Opór: 6 form (ucieczka, sabotaż, związki, sztuka, religia, szpiegostwo).
+6) Moment historyczny: nieudana próba zniesienia i jej konsekwencje.
+7) Obecny konflikt: reforma vs rewolucja vs „kosmetyczne ulepszenia”.
 
-Cierre: 10 ganchos narrativos centrados en agencia y dignidad.`,
+Zamknięcie: 10 haczyków fabularnych skupionych na sprawczości i godności.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-047",
-    title: "Mundo con monstruos como recurso (domesticación y ética)",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat, gdzie potwory są zasobem (udomowienie i etyka)",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Diseña una sociedad que usa criaturas como recurso: transporte, energía, medicina, guerra y moral.",
-    prompt: `Diseña un mundo donde criaturas/monstruos son un recurso económico (domesticados o cazados).
+      "Zaprojektuj społeczeństwo używające stworzeń jako zasobu: transport, energia, medycyna, wojna i moralność.",
+    prompt: `Zaprojektuj świat, w którym stworzenia/potwory są zasobem ekonomicznym (hodowane lub polowane).
 
-Incluye:
-A) 6 criaturas: apariencia, dieta, comportamiento, peligro, uso humano.
-B) Industria: granjas, cazadores, veterinarios, tráfico ilegal.
-C) Ética: 3 debates (derechos, sufrimiento, riesgos ecológicos).
-D) Seguridad: 6 accidentes típicos y protocolos.
-E) Cultura: 6 proverbios, 4 festivales, 3 deportes basados en criaturas.
-F) Conflicto: una criatura “clave” está desapareciendo y nadie admite por qué.
+Uwzględnij:
+A) 6 stworzeń: wygląd, dieta, zachowanie, zagrożenie, zastosowanie u ludzi.
+B) Przemysł: farmy, łowcy, weterynarze, nielegalny handel.
+C) Etyka: 3 debaty (prawa, cierpienie, ryzyka ekologiczne).
+D) Bezpieczeństwo: 6 typowych wypadków i protokoły.
+E) Kultura: 6 przysłów, 4 festiwale, 3 sporty oparte na stworzeniach.
+F) Konflikt: jedno „kluczowe” stworzenie znika i nikt nie przyznaje dlaczego.
 
-Cierre: 10 escenas y 1 secreto ecológico devastador.`,
+Zamknięcie: 10 scen i 1 niszczący sekret ekologiczny.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-048",
-    title: "Mundo con portales: geopolítica, economía y migración",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat z portalami: geopolityka, ekonomia i migracja",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Define portales con reglas: quién los controla, cómo cambian comercio, guerra y cultura.",
-    prompt: `Diseña un mundo con portales/teletransporte, pero con reglas y consecuencias realistas.
+      "Zdefiniuj portale z zasadami: kto kontroluje, jak zmieniają handel, wojnę i kulturę.",
+    prompt: `Zaprojektuj świat z portalami/teleportacją, ale z zasadami i realistycznymi konsekwencjami.
 
-Incluye:
-1) Portales: cómo funcionan, costos, restricciones, mantenimiento.
-2) Red: cuántos hay, dónde están, quién los administra.
-3) Economía: qué bienes se vuelven baratos/caros, qué industrias colapsan, qué nace nuevo.
-4) Guerra: 4 estrategias militares con portales y 3 contramedidas.
-5) Migración: quién se mueve, quién se queda atrapado, xenofobia.
-6) Crimen: 6 delitos específicos (contrabando instantáneo, secuestro, etc.).
-7) Cultura: 5 costumbres nacidas de vivir “cerca de un portal”.
+Uwzględnij:
+1) Portale: jak działają, koszty, ograniczenia, utrzymanie.
+2) Sieć: ile ich jest, gdzie są, kto administruje.
+3) Ekonomia: jakie dobra tanieją/drożeją, jakie branże upadają, co nowego powstaje.
+4) Wojna: 4 strategie militarne oparte na portalach i 3 kontrśrodki.
+5) Migracja: kto się przemieszcza, kto zostaje uwięziony, ksenofobia.
+6) Przestępczość: 6 konkretnych przestępstw (natychmiastowy przemyt, porwania itd.).
+7) Kultura: 5 zwyczajów wynikłych z życia „blisko portalu”.
 
-Cierre: 10 ganchos y 1 “portal falso” usado como arma psicológica.`,
+Zamknięcie: 10 haczyków i 1 „fałszywy portal” użyty jako broń psychologiczna.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-049",
-    title: "Mundo con monstruo metafísico: una regla del universo rota",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Świat z metafizycznym potworem: złamana zasada wszechświata",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Crea un mundo donde una ley natural falla: tiempo, muerte, lenguaje, sombras o recuerdos.",
-    prompt: `Elige una LEY DEL UNIVERSO que está rota en este mundo (tiempo, muerte, gravedad, lenguaje, sombra, identidad, etc.) y diseña consecuencias coherentes.
+      "Stwórz świat, w którym prawo natury zawodzi: czas, śmierć, język, cienie lub pamięć.",
+    prompt: `Wybierz JEDNO PRAWO WSZECHŚWIATA, które jest zepsute w tym świecie (czas, śmierć, grawitacja, język, cień, tożsamość itd.) i zaprojektuj spójne konsekwencje.
 
-Incluye:
-A) La ruptura: cómo se manifiesta y desde cuándo.
-B) 10 efectos en vida cotidiana.
-C) 6 profesiones nuevas que existen por la ruptura.
-D) 6 crímenes nuevos.
-E) Religión y filosofía: 3 interpretaciones y sus cultos.
-F) Gobierno: 3 medidas de control (una efectiva, una brutal, una absurda).
-G) Ciencia/magia: intentos de arreglarlo y por qué fallan.
+Uwzględnij:
+A) Pęknięcie: jak się objawia i od kiedy.
+B) 10 skutków dla codzienności.
+C) 6 nowych zawodów istniejących dzięki pęknięciu.
+D) 6 nowych przestępstw.
+E) Religia i filozofia: 3 interpretacje i powstałe kulty.
+F) Rząd: 3 środki kontroli (jeden skuteczny, jeden brutalny, jeden absurdalny).
+G) Nauka/magia: próby naprawy i czemu zawodzą.
 
-Cierre: 12 ganchos y 1 verdad: la ley rota fue causada por alguien/algo.`,
+Zamknięcie: 12 haczyków i 1 prawda: ktoś/coś spowodowało pęknięcie.`,
     thumbnail: "",
   },
   {
     id: "crea-mundos-050",
-    title: "Checklist final: coherencia del mundo + 20 preguntas letales",
-    area: "Escritura Creativa",
-    category: "Mundos",
+    title: "Finalna checklista: spójność świata + 20 zabójczych pytań",
+    area: "Pisanie Kreatywne",
+    category: "Światy",
     summary:
-      "Audita tu mundo: preguntas que detectan huecos, clichés, incoherencias y oportunidades dramáticas.",
-    prompt: `Actúa como editor de worldbuilding y hazme una AUDITORÍA. Te daré una descripción breve de mi mundo (o inventa una si no te doy).
+      "Zrób audyt świata: pytania wykrywające dziury, klisze, niespójności i dramatyczne możliwości.",
+    prompt: `Działaj jak redaktor worldbuildingu i zrób AUDYT. Dam ci krótki opis mojego świata (albo wymyśl, jeśli nie podam).
 
-Tu tarea:
-1) Haz 20 preguntas letales de coherencia (economía, viaje, energía, clase, género, guerra, salud, información, clima, religión, etc.).
-2) Señala 10 puntos donde suele haber clichés o incoherencias y cómo evitarlos.
-3) Propón 8 “restricciones” que hagan el mundo más interesante (reglas que limitan y crean historias).
-4) Propón 12 conflictos inevitables que surgen SOLO por cómo funciona el mundo.
-5) Propón 10 detalles sensoriales “repetibles” (leitmotifs) para que el mundo se sienta vivo.
-6) Cierra con un miniresumen: “lo más único” del mundo en 3 frases.
+Twoje zadanie:
+1) Zadaj 20 zabójczych pytań o spójność (ekonomia, podróż, energia, klasa, płeć, wojna, zdrowie, informacja, klimat, religia itd.).
+2) Wskaż 10 miejsc, gdzie zwykle pojawiają się klisze lub niespójności, i jak ich uniknąć.
+3) Zaproponuj 8 „ograniczeń”, które uczynią świat ciekawszym (zasady, które ograniczają i tworzą historie).
+4) Zaproponuj 12 nieuniknionych konfliktów wynikających WYŁĄCZNIE z tego, jak działa świat.
+5) Zaproponuj 10 powtarzalnych detali zmysłowych (leitmotywy), by świat był „żywy”.
+6) Zakończ mini-podsumowaniem: „co jest najbardziej unikalne” w 3 zdaniach.
 
-Tono: directo, útil, sin adornos vacíos. Que me duela (constructivamente).`,
+Ton: bezpośredni, użyteczny, bez pustych ozdobników. Ma boleć (konstruktywnie).`,
     thumbnail: "",
   },
 ];

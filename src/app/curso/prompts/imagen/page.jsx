@@ -5,8 +5,8 @@ import { imagePrompts } from "@/lib/prompts/image";
 export default function PromptsImagenPage() {
   return (
     <PromptLibrary
-      title="Prompts de imagen"
-      subtitle="Prompts listos para generar fotos, portadas y creatividades visuales de alto impacto."
+      title="Prompty do obrazów"
+      subtitle="Gotowe prompty do generowania zdjęć, okładek i kreacji wizualnych o dużym wpływie."
       items={imagePrompts}
       type="image"
     />

@@ -34,7 +34,7 @@ export default function CursoLayout({ children }) {
             {/* Logo: al hacer click va a /curso (home del curso) */}
             <Link href="/curso" className="flex items-center gap-2">
               <Image
-                src="/logo1.png"
+                src="/logo2.png"
                 alt="Banco Secreto de Prompts"
                 width={120}
                 height={32}
@@ -51,7 +51,7 @@ export default function CursoLayout({ children }) {
             className="rounded-full border-white/30 bg-white/5 text-xs text-slate-100 hover:bg-white/10"
           >
             <LogOut className="mr-2 h-4 w-4" />
-            {loading ? "Saliendo..." : "Salir"}
+            {loading ? "Wylogowywanie..." : "Wyloguj"}
           </Button>
         </div>
       </header>

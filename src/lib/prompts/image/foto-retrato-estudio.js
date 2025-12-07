@@ -2,636 +2,636 @@
 
 export const imagePromptsFotoRetratoEstudio = [
   // =========================
-  // CATEGORY: Retrato estudio (realista)
+  // CATEGORY: Portret studyjny (realistyczny)
   // =========================
   {
     id: "img-foto-retrato-est-001",
-    title: "Retrato de estudio premium (softbox + fondo gris suave)",
-    area: "Fotografía Pro",
-    category: "Retrato estudio (realista)",
+    title: "Premium portret w studiu (softbox + delikatne szare tło)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret studyjny (realistyczny)",
     summary:
-      "Retrato realista tipo estudio con iluminación suave (softbox) y look limpio profesional.",
-    prompt: `Genera un retrato fotográfico REALISTA tipo estudio.
+      "Realistyczny portret studyjny z miękkim światłem (softbox) i czystym, profesjonalnym wyglądem.",
+    prompt: `Wygeneruj REALISTYCZNY portret fotograficzny w stylu studyjnym.
 
-DATOS:
-- Sujeto: [hombre/mujer/persona] de [edad aproximada], [etnia/rasgos], [color de ojos], [peinado], [barba/maquillaje opcional]
-- Vestuario: [ej: blazer negro + camiseta blanca / camisa blanca / vestido elegante]
-- Expresión: [confiada/serena/amable]
-- Fondo: gris neutro suave, sin textura marcada
+DANE:
+- Osoba: [mężczyzna/kobieta/osoba] w wieku [wiek przybliżony], [etniczność/cechy], [kolor oczu], [fryzura], [broda/makijaż opcjonalnie]
+- Ubiór: [np. czarny blazer + biała koszulka / biała koszula / elegancka sukienka]
+- Wyraz twarzy: [pewny siebie/spokojny/życzliwy]
+- Tło: gładkie neutralne szare, bez mocnej faktury
 
-CÁMARA / LUZ:
-- Cámara full-frame, lente 85mm, f/1.8, ISO 100, 1/160s
-- Iluminación: softbox grande 45° a la derecha + reflector suave a la izquierda
-- Sombra suave, piel natural con detalle, sin efecto plástico
+KAMERA / ŚWIATŁO:
+- Aparat full-frame, obiektyw 85mm, f/1.8, ISO 100, 1/160s
+- Oświetlenie: duży softbox 45° po prawej + miękki reflektor po lewej
+- Miękki cień, naturalna skóra z detalem, bez efektu plastiku
 
-COMPOSICIÓN:
-- Encuadre: plano medio-corto (pecho a cabeza), sujeto centrado
-- Enfoque nítido en ojos, bokeh suave
-- Color grading: clean, tonos naturales, contraste moderado
+KOMPOZYCJA:
+- Kadr: plan średnio-bliski (od klatki piersiowej do głowy), osoba wyśrodkowana
+- Ostre oczy, miękki bokeh
+- Color grading: czysto, naturalne tony, umiarkowany kontrast
 
-RESTRICCIONES:
-- Sin texto, sin watermark, sin deformaciones
-- Evitar manos extra, dientes raros, ojos asimétricos, piel artificial`,
+OGRANICZENIA:
+- Bez tekstu, bez watermarku, bez deformacji
+- Unikać dodatkowych dłoni, dziwnych zębów, asymetrycznych oczu, sztucznej skóry`,
     thumbnail: "/images/foto-pro/estudio1.webp",
   },
   {
     id: "img-foto-retrato-est-002",
-    title: "Retrato high-key luminoso (fondo blanco, piel natural)",
-    area: "Fotografía Pro",
-    category: "Retrato estudio (realista)",
+    title: "Jasny portret high-key (białe tło, naturalna skóra)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret studyjny (realistyczny)",
     summary:
-      "Retrato high-key con fondo blanco puro, luz envolvente y estética fresca tipo revista.",
-    prompt: `Genera un retrato REALISTA high-key para fotografía de estudio.
+      "Portret high-key na czystym białym tle, otulające światło i świeża estetyka w stylu magazynowym.",
+    prompt: `Wygeneruj REALISTYCZNY portret high-key do fotografii studyjnej.
 
-DATOS:
-- Sujeto: [mujer/hombre/persona], [edad], [rasgos], [peinado]
-- Vestuario: [camisa blanca / camiseta clara / look minimal]
-- Mood: fresco, limpio, editorial
+DANE:
+- Osoba: [kobieta/mężczyzna/osoba], [wiek], [cechy], [fryzura]
+- Ubiór: [biała koszula / jasna koszulka / minimal look]
+- Nastrój: świeży, czysty, editorial
 
-ILUMINACIÓN:
-- Fondo blanco puro con luz uniforme
-- Luz principal: softbox frontal grande + relleno suave (sin sombras duras)
-- Detalle de piel realista, textura natural
+OŚWIETLENIE:
+- Czyste białe tło z równomiernym światłem
+- Światło główne: duży softbox z przodu + miękkie dopełnienie (bez twardych cieni)
+- Realistyczny detal skóry, naturalna tekstura
 
-CÁMARA:
-- Lente 50mm u 85mm, f/2.2, ISO 100, nitidez alta, rango dinámico amplio
+KAMERA:
+- Obiektyw 50mm lub 85mm, f/2.2, ISO 100, wysoka ostrość, szeroki zakres tonalny
 
-COMPOSICIÓN:
-- Encuadre: primer plano (rostro) o medio (busto)
-- Fondo totalmente limpio, sin elementos
+KOMPOZYCJA:
+- Kadr: zbliżenie (twarz) lub średni (bust)
+- Tło całkowicie czyste, bez elementów
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar brillo excesivo en piel, no sobreexponer rostro
-- Proporciones faciales realistas, mirada natural`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Unikać nadmiernego połysku skóry, nie prześwietlać twarzy
+- Realistyczne proporcje twarzy, naturalne spojrzenie`,
     thumbnail: "/images/foto-pro/estudio2.webp",
   },
   {
     id: "img-foto-retrato-est-003",
-    title: "Retrato low-key dramático (fondo negro, Rembrandt suave)",
-    area: "Fotografía Pro",
-    category: "Retrato estudio (realista)",
+    title: "Dramatyczny portret low-key (czarne tło, miękki Rembrandt)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret studyjny (realistyczny)",
     summary:
-      "Retrato dramático low-key con iluminación Rembrandt suave, ideal para marcas premium.",
-    prompt: `Genera un retrato REALISTA low-key estilo premium.
+      "Dramatyczny portret low-key z miękkim światłem Rembrandta, idealny dla marek premium.",
+    prompt: `Wygeneruj REALISTYCZNY portret low-key w stylu premium.
 
-DATOS:
-- Sujeto: [persona], [edad], [rasgos], [peinado], [barba/maquillaje]
-- Vestuario: negro/oscuro (ej: cuello alto negro o blazer oscuro)
-- Fondo: negro profundo sin textura
+DANE:
+- Osoba: [osoba], [wiek], [cechy], [fryzura], [broda/makijaż]
+- Ubiór: czarny/ciemny (np. czarny golf lub ciemny blazer)
+- Tło: głęboka czerń bez faktury
 
-ILUMINACIÓN:
-- Estilo Rembrandt: luz principal lateral 45° + ligera luz de recorte (rim light) sutil
-- Sombras definidas pero suaves, alto contraste controlado
-- Mantener detalle en sombras (no empastar)
+OŚWIETLENIE:
+- Styl Rembrandta: światło główne z boku 45° + delikatne światło kontrowe (rim light) subtelne
+- Cienie wyraźne, ale miękkie, wysoki kontrast kontrolowany
+- Zachować detal w cieniach (nie „zatykać”)
 
-CÁMARA:
-- Lente 85mm, f/2, ISO 200, 1/160s
-- Enfoque en ojos, nitidez alta, grano muy sutil (opcional)
+KAMERA:
+- Obiektyw 85mm, f/2, ISO 200, 1/160s
+- Ostrość na oczach, wysoka szczegółowość, bardzo subtelne ziarno (opcjonalnie)
 
-COMPOSICIÓN:
-- Primer plano o plano medio-corto
-- Look cinematográfico, elegante
+KOMPOZYCJA:
+- Zbliżenie lub plan średnio-bliski
+- Filmowy, elegancki look
 
-RESTRICCIONES:
-- Sin texto, sin watermark
-- Evitar ojos brillantes artificiales o rasgos deformados`,
+OGRANICZENIA:
+- Bez tekstu, bez watermarku
+- Unikać sztucznie świecących oczu lub zdeformowanych rysów`,
     thumbnail: "/images/foto-pro/estudio3.webp",
   },
   {
     id: "img-foto-retrato-est-004",
-    title: "Retrato editorial con fondo beige cálido (piel realista)",
-    area: "Fotografía Pro",
-    category: "Retrato estudio (realista)",
+    title: "Editorialowy portret na ciepłym beżowym tle (realistyczna skóra)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret studyjny (realistyczny)",
     summary:
-      "Retrato editorial suave con paleta cálida (beige), ideal para lifestyle/beauty.",
-    prompt: `Genera un retrato REALISTA estilo editorial.
+      "Miękki portret editorial z ciepłą paletą (beż), idealny do lifestyle/beauty.",
+    prompt: `Wygeneruj REALISTYCZNY portret w stylu editorial.
 
-DATOS:
-- Sujeto: [mujer/hombre/persona], [edad], [rasgos], [peinado]
-- Vestuario: tonos crema/beige, minimal y elegante
-- Fondo: beige cálido uniforme
+DANE:
+- Osoba: [kobieta/mężczyzna/osoba], [wiek], [cechy], [fryzura]
+- Ubiór: odcienie kremu/beżu, minimal i elegancko
+- Tło: jednolity ciepły beż
 
-ILUMINACIÓN:
-- Luz suave tipo ventana (soft daylight) + relleno sutil
-- Sombras ligeras, piel natural sin exceso de suavizado
+OŚWIETLENIE:
+- Miękkie światło jak z okna (soft daylight) + subtelne dopełnienie
+- Lekkie cienie, naturalna skóra bez nadmiernego wygładzania
 
-CÁMARA:
-- Lente 85mm, f/2.5, ISO 100
-- Color grading: cálido, suave, contraste medio
+KAMERA:
+- Obiektyw 85mm, f/2.5, ISO 100
+- Color grading: ciepły, miękki, średni kontrast
 
-COMPOSICIÓN:
-- Encuadre: busto o primer plano, mirada hacia cámara
-- Acabado tipo revista, nítido pero natural
+KOMPOZYCJA:
+- Kadr: bust lub zbliżenie, spojrzenie w kamerę
+- Wykończenie jak w magazynie: ostro, ale naturalnie
 
-RESTRICCIONES:
-- Sin texto, sin artefactos, sin manos extra`,
+OGRANICZENIA:
+- Bez tekstu, bez artefaktów, bez dodatkowych dłoni`,
     thumbnail: "/images/foto-pro/estudio4.webp",
   },
   {
     id: "img-foto-retrato-est-005",
-    title: "Retrato con luz de recorte (rim light) para separar del fondo",
-    area: "Fotografía Pro",
-    category: "Retrato estudio (realista)",
+    title: "Portret ze światłem kontrowym (rim light) dla separacji od tła",
+    area: "Fotografia Profesjonalna",
+    category: "Portret studyjny (realistyczny)",
     summary:
-      "Retrato pro con iluminación de recorte para darle profundidad, estilo studio branding.",
-    prompt: `Genera un retrato REALISTA de estudio con rim light.
+      "Profesjonalny portret z rim light dla głębi, styl studio branding.",
+    prompt: `Wygeneruj REALISTYCZNY portret studyjny z rim light.
 
-DATOS:
-- Sujeto: [persona], [edad], [rasgos]
-- Vestuario: [ropa oscura o neutra]
-- Fondo: gris oscuro o azul noche muy sutil
+DANE:
+- Osoba: [osoba], [wiek], [cechy]
+- Ubiór: [ciemny lub neutralny]
+- Tło: ciemnoszare lub bardzo subtelny granat nocny
 
-LUCES:
-- Luz principal softbox frontal-lateral suave
-- Rim light (luz de recorte) detrás, bordeando hombros y cabello (sutil, no exagerada)
-- Relleno mínimo para conservar dimensión
+ŚWIATŁA:
+- Miękkie światło główne softbox z przodu-boku
+- Rim light (światło kontrowe) z tyłu, obrys ramion i włosów (subtelnie, bez przesady)
+- Minimalne dopełnienie, aby zachować wymiar
 
-CÁMARA:
+KAMERA:
 - 85mm, f/2.2, ISO 125, 1/160s
-- Piel con textura real, ojos naturales
+- Skóra z realną teksturą, naturalne oczy
 
-COMPOSICIÓN:
-- Plano medio-corto, sujeto ligeramente a un lado (regla de tercios)
+KOMPOZYCJA:
+- Plan średnio-bliski, osoba lekko z boku (zasada trójpodziału)
 
-RESTRICCIONES:
-- Sin texto/logo
-- Evitar halos artificiales, rim light realista`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Unikać sztucznych „halo”, rim light ma być realistyczny`,
     thumbnail: "/images/foto-pro/estudio5.webp",
   },
 
   // =========================
-  // CATEGORY: Retrato corporativo / LinkedIn
+  // CATEGORY: Portret korporacyjny / LinkedIn
   // =========================
   {
     id: "img-foto-retrato-est-006",
-    title: "Headshot corporativo LinkedIn (fondo azul gris, sonrisa leve)",
-    area: "Fotografía Pro",
-    category: "Retrato corporativo / LinkedIn",
+    title: "Korporacyjny headshot LinkedIn (tło niebiesko-szare, lekki uśmiech)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret korporacyjny / LinkedIn",
     summary:
-      "Foto profesional tipo LinkedIn: iluminación limpia, fondo corporativo y expresión confiable.",
-    prompt: `Genera un headshot REALISTA estilo LinkedIn.
+      "Profesjonalne zdjęcie jak na LinkedIn: czyste światło, korporacyjne tło i wiarygodna mimika.",
+    prompt: `Wygeneruj REALISTYCZNY headshot w stylu LinkedIn.
 
-DATOS:
-- Sujeto: [hombre/mujer/persona], [edad], [rasgos], [peinado], [barba opcional]
-- Vestuario: [blazer + camisa] o [camisa formal], colores sobrios
-- Expresión: sonrisa leve, confiable, profesional
-- Fondo: azul gris suave (degradado sutil), limpio
+DANE:
+- Osoba: [mężczyzna/kobieta/osoba], [wiek], [cechy], [fryzura], [broda opcjonalnie]
+- Ubiór: [blazer + koszula] lub [koszula formalna], stonowane kolory
+- Wyraz twarzy: lekki uśmiech, wiarygodny, profesjonalny
+- Tło: miękkie niebiesko-szare (subtelny gradient), czyste
 
-ILUMINACIÓN:
-- Tres puntos suave: key light frontal, fill light suave, hair light muy sutil
-- Sin brillos fuertes en frente o nariz
+OŚWIETLENIE:
+- Miękkie 3-punktowe: key light z przodu, miękkie fill, bardzo subtelne hair light
+- Bez mocnych blików na czole lub nosie
 
-CÁMARA:
-- Lente 85mm, f/2.8, ISO 100, look nítido
+KAMERA:
+- Obiektyw 85mm, f/2.8, ISO 100, ostry look
 
-COMPOSICIÓN:
-- Encuadre: hombros a cabeza, centrado, espacio superior adecuado
-- Enfoque perfecto en ojos
+KOMPOZYCJA:
+- Kadr: ramiona do głowy, wyśrodkowane, odpowiedni zapas u góry
+- Perfekcyjna ostrość na oczach
 
-RESTRICCIONES:
-- Sin texto, sin logos, sin filtros exagerados
-- Proporciones faciales naturales`,
+OGRANICZENIA:
+- Bez tekstu, bez logo, bez przesadzonych filtrów
+- Naturalne proporcje twarzy`,
     thumbnail: "/images/foto-pro/estudio6.webp",
   },
   {
     id: "img-foto-retrato-est-007",
-    title: "Retrato corporativo en oficina (bokeh suave, luz natural)",
-    area: "Fotografía Pro",
-    category: "Retrato corporativo / LinkedIn",
+    title: "Korporacyjny portret w biurze (miękki bokeh, naturalne światło)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret korporacyjny / LinkedIn",
     summary:
-      "Retrato profesional en entorno de oficina con fondo desenfocado y luz natural.",
-    prompt: `Genera un retrato REALISTA en entorno corporativo moderno.
+      "Profesjonalny portret w otoczeniu biura z rozmytym tłem i naturalnym światłem.",
+    prompt: `Wygeneruj REALISTYCZNY portret w nowoczesnym środowisku korporacyjnym.
 
-DATOS:
-- Sujeto: [persona], [edad], look profesional
-- Outfit: [blazer, camisa, business casual]
-- Fondo: oficina moderna con ventanales y escritorios, desenfocado (bokeh)
-- Mood: confianza, liderazgo
+DANE:
+- Osoba: [osoba], [wiek], profesjonalny wygląd
+- Outfit: [blazer, koszula, business casual]
+- Tło: nowoczesne biuro z dużymi oknami i biurkami, rozmyte (bokeh)
+- Nastrój: pewność, przywództwo
 
-ILUMINACIÓN:
-- Luz natural de ventana + relleno suave
-- Tonos neutros, skin tones realistas
+OŚWIETLENIE:
+- Naturalne światło z okna + miękkie dopełnienie
+- Neutralne tony, realistyczne odcienie skóry
 
-CÁMARA:
-- 50mm u 85mm, f/2, ISO 200
-- Profundidad de campo baja, bokeh suave
+KAMERA:
+- 50mm lub 85mm, f/2, ISO 200
+- Mała głębia ostrości, miękki bokeh
 
-COMPOSICIÓN:
-- Plano medio (cintura/pecho a cabeza), regla de tercios
-- Enfoque en ojos
+KOMPOZYCJA:
+- Plan średni (od pasa/klatki piersiowej do głowy), zasada trójpodziału
+- Ostrość na oczach
 
-RESTRICCIONES:
-- Sin texto, sin marcas de agua
-- No deformar manos/rostro`,
+OGRANICZENIA:
+- Bez tekstu, bez znaków wodnych
+- Nie deformować dłoni/twarzy`,
     thumbnail: "/images/foto-pro/estudio7.webp",
   },
   {
     id: "img-foto-retrato-est-008",
-    title: "Foto de equipo corporativo (3 personas, estudio limpio)",
-    area: "Fotografía Pro",
-    category: "Retrato corporativo / LinkedIn",
+    title: "Zdjęcie zespołu korporacyjnego (3 osoby, czyste studio)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret korporacyjny / LinkedIn",
     summary:
-      "Imagen tipo 'equipo profesional' para web: 3 personas, look coherente, estudio neutro.",
-    prompt: `Genera una foto REALISTA de equipo corporativo (3 personas).
+      "Zdjęcie typu „zespół profesjonalny” na stronę: 3 osoby, spójny look, neutralne studio.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie zespołu korporacyjnego (3 osoby).
 
-DATOS:
-- Personas: 3 (género/edad variada), apariencia profesional
-- Vestuario: business casual coordinado (azules, grises, blancos)
-- Fondo: gris claro o blanco suave, estilo estudio
-- Expresión: amable, profesional
+DANE:
+- Osoby: 3 (różne płcie/wiek), profesjonalny wygląd
+- Ubiór: skoordynowany business casual (granaty, szarości, biele)
+- Tło: jasnoszare lub miękkie białe, styl studyjny
+- Wyraz twarzy: miły, profesjonalny
 
-ILUMINACIÓN:
-- Softboxes grandes, luz uniforme, sombras suaves
-- Color grading corporativo clean
+OŚWIETLENIE:
+- Duże softboxy, równomierne światło, miękkie cienie
+- Korporacyjny clean color grading
 
-CÁMARA:
-- Lente 35mm o 50mm, f/4 para mantener enfoque en todos
-- ISO 100, nitidez alta
+KAMERA:
+- Obiektyw 35mm lub 50mm, f/4 aby utrzymać ostrość wszystkich
+- ISO 100, wysoka ostrość
 
-COMPOSICIÓN:
-- Personas alineadas con profundidad mínima, postura natural
-- Espacio negativo suficiente para banner web
+KOMPOZYCJA:
+- Osoby ustawione z minimalną głębią, naturalna postawa
+- Wystarczająca negatywna przestrzeń na baner web (ale NIE dodawaj tekstu)
 
-RESTRICCIONES:
-- Sin texto ni logos
-- Proporciones corporales realistas (manos bien)`,
+OGRANICZENIA:
+- Bez tekstu ani logo
+- Realistyczne proporcje ciała (dłonie poprawne)`,
     thumbnail: "/images/foto-pro/estudio8.webp",
   },
   {
     id: "img-foto-retrato-est-009",
-    title: "Retrato CEO premium (fondo oscuro, look de liderazgo)",
-    area: "Fotografía Pro",
-    category: "Retrato corporativo / LinkedIn",
+    title: "Premium portret CEO (ciemne tło, look przywódcy)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret korporacyjny / LinkedIn",
     summary:
-      "Retrato tipo CEO/Founder, estética premium y autoridad visual.",
-    prompt: `Genera un retrato REALISTA estilo CEO premium.
+      "Portret w stylu CEO/Founder: premium estetyka i autorytet wizualny.",
+    prompt: `Wygeneruj REALISTYCZNY portret w stylu premium CEO.
 
-DATOS:
-- Sujeto: [persona], [edad], look ejecutivo/a
-- Vestuario: blazer premium, camisa impecable, accesorios mínimos
-- Expresión: seria pero cercana (autoridad calmada)
-- Fondo: oscuro elegante (gris carbón/azul noche) con textura muy sutil
+DANE:
+- Osoba: [osoba], [wiek], wygląd executive
+- Ubiór: premium blazer, nienaganna koszula, minimalne dodatki
+- Wyraz twarzy: poważny, ale przystępny (spokojna pewność)
+- Tło: eleganckie ciemne (antracyt/granat nocny) z bardzo subtelną fakturą
 
-ILUMINACIÓN:
-- Key light suave lateral + fill mínimo
-- Rim light muy sutil para separar del fondo
-- Contraste profesional, sin sombras duras
+OŚWIETLENIE:
+- Miękkie boczne key light + minimalne fill
+- Bardzo subtelne rim light dla separacji od tła
+- Profesjonalny kontrast, bez twardych cieni
 
-CÁMARA:
-- 85mm, f/2.2, ISO 125, nitidez alta
+KAMERA:
+- 85mm, f/2.2, ISO 125, wysoka ostrość
 
-COMPOSICIÓN:
-- Plano medio-corto, postura recta, hombros ligeramente girados
+KOMPOZYCJA:
+- Plan średnio-bliski, prosta postawa, barki lekko skręcone
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar piel plástica o exageración de rasgos`,
+OGRANICZENIA:
+- Bez tekstu/watermarku
+- Unikać plastikowej skóry lub przesady w rysach`,
     thumbnail: "/images/foto-pro/estudio9.webp",
   },
   {
     id: "img-foto-retrato-est-010",
-    title: "Retrato para perfil profesional (fondo pastel suave, friendly)",
-    area: "Fotografía Pro",
-    category: "Retrato corporativo / LinkedIn",
+    title: "Portret do profilu zawodowego (miękkie pastelowe tło, friendly)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret korporacyjny / LinkedIn",
     summary:
-      "Foto profesional amigable para coach/consultor: fondo pastel y estilo cercano.",
-    prompt: `Genera un retrato REALISTA profesional y cercano.
+      "Przyjazne zdjęcie profesjonalne dla coacha/konsultanta: pastelowe tło i bliska estetyka.",
+    prompt: `Wygeneruj REALISTYCZNY portret profesjonalny i przystępny.
 
-DATOS:
-- Sujeto: [persona], [edad], sonrisa natural
-- Vestuario: smart casual (colores claros)
-- Fondo: pastel suave (ej: verde menta / azul cielo / beige), uniforme
+DANE:
+- Osoba: [osoba], [wiek], naturalny uśmiech
+- Ubiór: smart casual (jasne kolory)
+- Tło: miękki pastel (np. mięta / błękit / beż), jednolite
 
-ILUMINACIÓN:
-- Luz suave frontal (softbox) + relleno ligero
-- Piel natural, aspecto fresco
+OŚWIETLENIE:
+- Miękkie frontalne światło (softbox) + lekkie dopełnienie
+- Naturalna skóra, świeży wygląd
 
-CÁMARA:
-- 50mm u 85mm, f/2.8, ISO 100
-- Color grading: luminoso, cálido leve
+KAMERA:
+- 50mm lub 85mm, f/2.8, ISO 100
+- Color grading: jasny, lekko ciepły
 
-COMPOSICIÓN:
-- Encuadre: hombros a cabeza, centrado
-- Look “coach/consultor confiable”
+KOMPOZYCJA:
+- Kadr: ramiona do głowy, wyśrodkowany
+- Look „zaufany coach/konsultant”
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar sonrisa artificial, ojos raros`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Unikać sztucznego uśmiechu, dziwnych oczu`,
     thumbnail: "/images/foto-pro/estudio10.webp",
   },
 
   // =========================
-  // CATEGORY: Headshot premium
+  // CATEGORY: Premium headshot
   // =========================
   {
     id: "img-foto-retrato-est-011",
-    title: "Headshot hiperrealista con fondo oscuro (detalle nítido en ojos)",
-    area: "Fotografía Pro",
-    category: "Headshot premium",
+    title: "Hiperrealistyczny headshot na ciemnym tle (ostry detal w oczach)",
+    area: "Fotografia Profesjonalna",
+    category: "Premium headshot",
     summary:
-      "Primer plano hiperrealista, enfoque quirúrgico en ojos, estética premium para web.",
-    prompt: `Genera un HEADSHOT hiperrealista (primer plano) con calidad premium.
+      "Hiperrealistyczne zbliżenie, chirurgiczna ostrość na oczach, premium estetyka na stronę www.",
+    prompt: `Wygeneruj HIPERREALISTYCZNY HEADSHOT (zbliżenie) w jakości premium.
 
-DATOS:
-- Sujeto: [persona], [edad], [rasgos], [peinado]
-- Expresión: calmada y segura
-- Fondo: oscuro suave, minimalista
+DANE:
+- Osoba: [osoba], [wiek], [cechy], [fryzura]
+- Wyraz twarzy: spokojny i pewny siebie
+- Tło: miękkie ciemne, minimalistyczne
 
-ILUMINACIÓN:
-- Softbox frontal suave + relleno sutil
-- Catchlight realista en ojos (pequeño, no exagerado)
-- Textura real de piel (poros sutiles), sin suavizado artificial
+OŚWIETLENIE:
+- Miękki softbox z przodu + subtelne dopełnienie
+- Realistyczny catchlight w oczach (mały, bez przesady)
+- Realna tekstura skóry (subtelne pory), bez sztucznego wygładzania
 
-CÁMARA:
-- Lente 85mm, f/2, ISO 100
-- Nitidez alta en ojos, microcontraste natural
+KAMERA:
+- Obiektyw 85mm, f/2, ISO 100
+- Wysoka ostrość na oczach, naturalny mikro-kontrast
 
-COMPOSICIÓN:
-- Solo rostro y parte de cuello, espacio superior leve
+KOMPOZYCJA:
+- Tylko twarz i część szyi, lekki zapas u góry
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar ojos desalineados, pupilas raras, dientes deformes`,
+OGRANICZENIA:
+- Bez tekstu/watermarku
+- Unikać rozjechanych oczu, dziwnych źrenic, zdeformowanych zębów`,
     thumbnail: "/images/foto-pro/estudio11.webp",
   },
   {
     id: "img-foto-retrato-est-012",
-    title: "Headshot con fondo de color sólido (branding consistente)",
-    area: "Fotografía Pro",
-    category: "Headshot premium",
+    title: "Headshot na jednolitym kolorowym tle (spójny branding)",
+    area: "Fotografia Profesjonalna",
+    category: "Premium headshot",
     summary:
-      "Headshot con fondo sólido para identidad de marca (ideal equipos y perfiles).",
-    prompt: `Genera un headshot REALISTA para branding consistente.
+      "Headshot z jednolitym tłem pod identyfikację marki (idealne dla zespołów i profili).",
+    prompt: `Wygeneruj REALISTYCZNY headshot do spójnego brandingu.
 
-DATOS:
-- Sujeto: [persona], [edad], [rasgos]
-- Vestuario: [camisa lisa / polo / blazer], sin patrones fuertes
-- Fondo: color sólido exacto: [#HEX o color], uniforme y limpio
+DANE:
+- Osoba: [osoba], [wiek], [cechy]
+- Ubiór: [gładka koszula / polo / blazer], bez mocnych wzorów
+- Tło: dokładny jednolity kolor: [#HEX lub kolor], równe i czyste
 
-ILUMINACIÓN:
-- Luz suave y uniforme, sin sombras duras
-- Balance de blancos neutro (o ligeramente cálido)
+OŚWIETLENIE:
+- Miękkie i równomierne światło, bez twardych cieni
+- Balans bieli neutralny (lub lekko ciepły)
 
-CÁMARA:
+KAMERA:
 - 85mm, f/2.8, ISO 100
-- Bordes limpios, recorte profesional
+- Czyste krawędzie, profesjonalny kadr
 
-COMPOSICIÓN:
-- Hombros a cabeza, centrado
+KOMPOZYCJA:
+- Ramiona do głowy, wyśrodkowany
 
-RESTRICCIONES:
-- Sin texto/logos
-- Mantener color de fondo fiel, sin degradados`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Utrzymać wierny kolor tła, bez gradientów`,
     thumbnail: "/images/foto-pro/estudio12.webp",
   },
   {
     id: "img-foto-retrato-est-013",
-    title: "Headshot tipo revista (fondo claro + contraste suave)",
-    area: "Fotografía Pro",
-    category: "Headshot premium",
+    title: "Headshot w stylu magazynowym (jasne tło + miękki kontrast)",
+    area: "Fotografia Profesjonalna",
+    category: "Premium headshot",
     summary:
-      "Look editorial de revista: limpio, elegante, piel natural, sin exceso de retoque.",
-    prompt: `Genera un headshot REALISTA estilo revista editorial (no caricatura).
+      "Editorialowy look magazynowy: czysto, elegancko, naturalna skóra, bez przesadnego retuszu.",
+    prompt: `Wygeneruj REALISTYCZNY headshot w stylu editorial magazynowego (bez karykatury).
 
-DATOS:
-- Sujeto: [persona], [edad], [rasgos]
-- Outfit: minimalista, elegante
-- Fondo: claro (gris muy claro o crema)
+DANE:
+- Osoba: [osoba], [wiek], [cechy]
+- Outfit: minimalistyczny, elegancki
+- Tło: jasne (bardzo jasnoszare lub kremowe)
 
-LUCES:
-- Soft daylight, sombras suaves
-- Detalle real en piel, sin blur
+ŚWIATŁA:
+- Miękkie światło dzienne, miękkie cienie
+- Realny detal skóry, bez blur
 
-CÁMARA:
-- 50mm u 85mm, f/2.5, ISO 100
-- Color grading: editorial clean, contraste suave, negros no aplastados
+KAMERA:
+- 50mm lub 85mm, f/2.5, ISO 100
+- Color grading: editorial clean, miękki kontrast, czernie nie „zgniecione”
 
-COMPOSICIÓN:
-- Primer plano, mirada a cámara, gesto natural
+KOMPOZYCJA:
+- Zbliżenie, spojrzenie w kamerę, naturalny gest
 
-RESTRICCIONES:
-- Sin texto, sin watermark
-- Evitar retoque plástico`,
+OGRANICZENIA:
+- Bez tekstu, bez watermarku
+- Unikać plastikowego retuszu`,
     thumbnail: "/images/foto-pro/estudio13.webp",
   },
   {
     id: "img-foto-retrato-est-014",
-    title: "Headshot con look cinematográfico (film grain sutil)",
-    area: "Fotografía Pro",
-    category: "Headshot premium",
+    title: "Headshot z filmowym lookiem (subtelne ziarno filmu)",
+    area: "Fotografia Profesjonalna",
+    category: "Premium headshot",
     summary:
-      "Headshot con estética cinematográfica suave y grano tipo película (discreto).",
-    prompt: `Genera un headshot REALISTA con estética cinematográfica.
+      "Headshot z delikatną filmową estetyką i dyskretnym ziarnem jak na kliszy.",
+    prompt: `Wygeneruj REALISTYCZNY headshot o estetyce filmowej.
 
-DATOS:
-- Sujeto: [persona], [edad], [rasgos]
-- Outfit: oscuro/neutro
-- Fondo: gris oscuro o azul noche
+DANE:
+- Osoba: [osoba], [wiek], [cechy]
+- Outfit: ciemny/neutralny
+- Tło: ciemnoszare lub granat nocny
 
-ILUMINACIÓN:
-- Key light lateral suave + fill mínimo
-- Sombras con detalle, contraste medio-alto
+OŚWIETLENIE:
+- Miękkie boczne key light + minimalne fill
+- Cienie z detalem, kontrast średni-wysoki
 
-CÁMARA:
+KAMERA:
 - 85mm, f/2, ISO 200
-- Añadir film grain MUY sutil (no ruido fuerte)
-- Color grading: teal/orange leve o cine neutro
+- Dodaj BARDZO subtelne film grain (nie mocny szum)
+- Color grading: lekki teal/orange lub neutralne kino
 
-COMPOSICIÓN:
-- Primer plano, enfoque en ojos
+KOMPOZYCJA:
+- Zbliżenie, ostrość na oczach
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar halos, grano exagerado, distorsión facial`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Unikać halo, przesadnego ziarna, zniekształceń twarzy`,
     thumbnail: "/images/foto-pro/estudio14.webp",
   },
   {
     id: "img-foto-retrato-est-015",
-    title: "Headshot con gafas (reflejos controlados, look intelectual)",
-    area: "Fotografía Pro",
-    category: "Headshot premium",
+    title: "Headshot w okularach (kontrolowane odbicia, intelektualny look)",
+    area: "Fotografia Profesjonalna",
+    category: "Premium headshot",
     summary:
-      "Retrato con gafas sin reflejos molestos, ideal para perfiles profesionales.",
-    prompt: `Genera un headshot REALISTA de una persona con gafas.
+      "Portret w okularach bez uciążliwych refleksów, idealny do profili zawodowych.",
+    prompt: `Wygeneruj REALISTYCZNY headshot osoby w okularach.
 
-DATOS:
-- Sujeto: [persona], [edad], [rasgos]
-- Gafas: estilo [metal fino / pasta], aspecto premium
-- Fondo: neutro (gris/beige)
+DANE:
+- Osoba: [osoba], [wiek], [cechy]
+- Okulary: styl [cienki metal / oprawki z acetatu], premium wygląd
+- Tło: neutralne (szary/beż)
 
-ILUMINACIÓN:
-- Luz suave frontal + ligera luz lateral
-- Control de reflejos: lentes sin brillos fuertes, ojos visibles
+OŚWIETLENIE:
+- Miękkie światło z przodu + lekkie boczne
+- Kontrola odbić: szkła bez mocnych blików, oczy widoczne
 
-CÁMARA:
+KAMERA:
 - 85mm, f/2.8, ISO 100
-- Nitidez alta, detalle natural
+- Wysoka ostrość, naturalny detal
 
-COMPOSICIÓN:
-- Encuadre hombros a cabeza, centrado
+KOMPOZYCJA:
+- Kadr ramiona do głowy, wyśrodkowany
 
-RESTRICCIONES:
-- Sin texto
-- Evitar lentes deformadas, reflejos tapando ojos`,
+OGRANICZENIA:
+- Bez tekstu
+- Unikać zdeformowanych okularów, odbić zasłaniających oczy`,
     thumbnail: "/images/foto-pro/estudio15.webp",
   },
 
   // =========================
-  // CATEGORY: Beauty / skincare (close-up)
+  // CATEGORY: Beauty / skincare (zbliżenie)
   // =========================
   {
     id: "img-foto-retrato-est-016",
-    title: "Beauty close-up skincare (piel natural + luz suave frontal)",
-    area: "Fotografía Pro",
-    category: "Beauty / skincare (close-up)",
+    title: "Beauty close-up skincare (naturalna skóra + miękkie frontalne światło)",
+    area: "Fotografia Profesjonalna",
+    category: "Beauty / skincare (zbliżenie)",
     summary:
-      "Close-up de belleza con textura real de piel, iluminación suave y estética skincare.",
-    prompt: `Genera una foto REALISTA beauty close-up (skincare editorial).
+      "Beauty close-up z realną teksturą skóry, miękkim oświetleniem i estetyką skincare.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie beauty close-up (skincare editorial).
 
-DATOS:
-- Sujeto: [mujer/persona], [edad], piel saludable, maquillaje mínimo
-- Fondo: blanco/crema suave
-- Mood: limpio, fresco, cuidado personal
+DANE:
+- Osoba: [kobieta/osoba], [wiek], zdrowa skóra, minimalny makijaż
+- Tło: miękkie białe/kremowe
+- Nastrój: czysto, świeżo, self-care
 
-ILUMINACIÓN:
-- Luz suave frontal (softbox) con sombras mínimas
-- Piel con textura real (poros sutiles), brillo natural controlado
+OŚWIETLENIE:
+- Miękkie frontalne światło (softbox) z minimalnymi cieniami
+- Skóra z realną teksturą (subtelne pory), kontrolowany naturalny połysk
 
-CÁMARA:
-- Macro suave o 85mm, f/3.2, ISO 100
-- Enfoque en ojos y mejillas, nitidez alta sin exagerar
+KAMERA:
+- Miękkie makro lub 85mm, f/3.2, ISO 100
+- Ostrość na oczach i policzkach, wysoka ostrość bez przesady
 
-COMPOSICIÓN:
-- Primerísimo primer plano, rostro dominante
-- Sin accesorios distractores
+KOMPOZYCJA:
+- Ekstremalne zbliżenie, twarz dominuje kadr
+- Bez rozpraszających dodatków
 
-RESTRICCIONES:
-- Sin texto, sin productos con marcas reales visibles
-- Evitar piel plástica o ultra suavizada`,
+OGRANICZENIA:
+- Bez tekstu, bez produktów z widocznymi prawdziwymi markami
+- Unikać plastikowej lub zbyt wygładzonej skóry`,
     thumbnail: "/images/foto-pro/estudio16.webp",
   },
   {
     id: "img-foto-retrato-est-017",
-    title: "Beauty editorial con luz lateral (volumen en pómulos)",
-    area: "Fotografía Pro",
-    category: "Beauty / skincare (close-up)",
+    title: "Beauty editorial ze światłem bocznym (objętość na kościach policzkowych)",
+    area: "Fotografia Profesjonalna",
+    category: "Beauty / skincare (zbliżenie)",
     summary:
-      "Retrato beauty con volumen suave y sombras controladas para look editorial premium.",
-    prompt: `Genera un beauty close-up REALISTA con estética editorial premium.
+      "Beauty portret z miękką objętością i kontrolowanymi cieniami dla premium editorial look.",
+    prompt: `Wygeneruj REALISTYCZNE beauty close-up o estetyce premium editorial.
 
-DATOS:
-- Sujeto: [persona], [edad], maquillaje sutil (piel, cejas, labios naturales)
-- Fondo: gris claro o beige
-- Expresión: serena, elegante
+DANE:
+- Osoba: [osoba], [wiek], subtelny makijaż (skóra, brwi, naturalne usta)
+- Tło: jasnoszare lub beżowe
+- Wyraz twarzy: spokojny, elegancki
 
-ILUMINACIÓN:
-- Key light lateral suave (45°) para marcar pómulos
-- Fill light ligero para evitar sombras duras
-- Catchlight natural en los ojos
+OŚWIETLENIE:
+- Miękkie boczne key light (45°) podkreślające kości policzkowe
+- Lekkie fill, aby uniknąć twardych cieni
+- Naturalny catchlight w oczach
 
-CÁMARA:
+KAMERA:
 - 85mm, f/2.8, ISO 100
-- Color grading: cálido suave, contraste medio
+- Color grading: miękko ciepły, średni kontrast
 
-COMPOSICIÓN:
-- Primer plano, enfoque nítido en ojos y piel
+KOMPOZYCJA:
+- Zbliżenie, ostra ostrość na oczach i skórze
 
-RESTRICCIONES:
-- Sin texto/logo
-- Evitar ojos raros, labios deformados, dientes extraños`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Unikać dziwnych oczu, zdeformowanych ust, dziwnych zębów`,
     thumbnail: "/images/foto-pro/estudio17.webp",
   },
   {
     id: "img-foto-retrato-est-018",
-    title: "Beauty con cabello al viento (sin blur artificial, realista)",
-    area: "Fotografía Pro",
-    category: "Beauty / skincare (close-up)",
+    title: "Beauty z włosami na wietrze (bez sztucznego blur, realistycznie)",
+    area: "Fotografia Profesjonalna",
+    category: "Beauty / skincare (zbliżenie)",
     summary:
-      "Look beauty dinámico con movimiento de cabello, manteniendo nitidez y realismo.",
-    prompt: `Genera una foto REALISTA de beauty con cabello en movimiento.
+      "Dynamiczny beauty look z ruchem włosów, zachowując ostrość i realizm.",
+    prompt: `Wygeneruj REALISTYCZNE beauty zdjęcie z włosami w ruchu.
 
-DATOS:
-- Sujeto: [persona], [edad], cabello [largo/medio], expresión natural
-- Fondo: neutro (gris claro/crema)
-- Mood: fresco y moderno
+DANE:
+- Osoba: [osoba], [wiek], włosy [długie/średnie], naturalna mimika
+- Tło: neutralne (jasnoszare/kremowe)
+- Nastrój: świeży i nowoczesny
 
-ILUMINACIÓN:
-- Luz suave frontal con leve lateral
-- Mantener detalle del cabello (no blur plástico)
+OŚWIETLENIE:
+- Miękkie frontalne światło z lekkim bocznym akcentem
+- Zachować detal włosów (bez plastikowego rozmycia)
 
-CÁMARA:
-- 85mm, f/2.8, ISO 200, velocidad suficiente para congelar el movimiento
-- Nitidez en rostro y ojos
+KAMERA:
+- 85mm, f/2.8, ISO 200, czas naświetlania wystarczający by zamrozić ruch
+- Ostrość na twarzy i oczach
 
-COMPOSICIÓN:
-- Primer plano o busto, viento sutil en cabello
-- Piel realista, sin exceso de retoque
+KOMPOZYCJA:
+- Zbliżenie lub bust, subtelny wiatr we włosach
+- Realistyczna skóra, bez nadmiernego retuszu
 
-RESTRICCIONES:
-- Sin texto
-- Evitar cabello fusionado raro con fondo`,
+OGRANICZENIA:
+- Bez tekstu
+- Unikać dziwnego zlewania się włosów z tłem`,
     thumbnail: "/images/foto-pro/estudio18.webp",
   },
   {
     id: "img-foto-retrato-est-019",
-    title: "Beauty minimal con manos cerca del rostro (manos realistas)",
-    area: "Fotografía Pro",
-    category: "Beauty / skincare (close-up)",
+    title: "Beauty minimal z dłońmi przy twarzy (realistyczne dłonie)",
+    area: "Fotografia Profesjonalna",
+    category: "Beauty / skincare (zbliżenie)",
     summary:
-      "Close-up beauty con pose de manos elegante, cuidando anatomía realista.",
-    prompt: `Genera un beauty close-up REALISTA con manos cerca del rostro.
+      "Beauty close-up z elegancką pozą dłoni, z dbałością o realistyczną anatomię.",
+    prompt: `Wygeneruj REALISTYCZNE beauty close-up z dłońmi blisko twarzy.
 
-DATOS:
-- Sujeto: [persona], [edad], maquillaje minimal
-- Pose: manos cerca del rostro (pose beauty elegante), dedos relajados
-- Fondo: crema/beige suave
+DANE:
+- Osoba: [osoba], [wiek], minimalny makijaż
+- Poza: dłonie przy twarzy (elegancka poza beauty), rozluźnione palce
+- Tło: miękki krem/beż
 
-ILUMINACIÓN:
-- Softbox frontal suave + relleno ligero
-- Detalle en piel, uñas limpias y realistas
+OŚWIETLENIE:
+- Miękki frontalny softbox + lekkie dopełnienie
+- Detal skóry, paznokcie czyste i realistyczne
 
-CÁMARA:
+KAMERA:
 - 85mm, f/3.2, ISO 100
-- Enfoque: ojos + rostro, manos ligeramente menos nítidas (natural)
+- Ostrość: oczy + twarz, dłonie lekko mniej ostre (naturalnie)
 
-COMPOSICIÓN:
-- Primer plano, manos enmarcando el rostro
+KOMPOZYCJA:
+- Zbliżenie, dłonie kadrują twarz
 
-RESTRICCIONES IMPORTANTES:
-- Anatomía correcta: 5 dedos por mano, proporciones reales
-- Sin dedos extra, sin manos deformes, sin texto`,
+WAŻNE OGRANICZENIA:
+- Poprawna anatomia: 5 palców na dłoń, realne proporcje
+- Bez dodatkowych palców, bez zdeformowanych dłoni, bez tekstu`,
     thumbnail: "/images/foto-pro/estudio19.webp",
   },
   {
     id: "img-foto-retrato-est-020",
-    title: "Beauty premium con fondo negro (contraste alto, piel cuidada)",
-    area: "Fotografía Pro",
-    category: "Beauty / skincare (close-up)",
+    title: "Premium beauty na czarnym tle (wysoki kontrast, zadbana skóra)",
+    area: "Fotografia Profesjonalna",
+    category: "Beauty / skincare (zbliżenie)",
     summary:
-      "Close-up beauty elegante con fondo negro, contraste premium y detalle de textura.",
-    prompt: `Genera un beauty close-up REALISTA premium sobre fondo negro.
+      "Elegancki beauty close-up na czarnym tle, premium kontrast i detal tekstury.",
+    prompt: `Wygeneruj REALISTYCZNE premium beauty close-up na czarnym tle.
 
-DATOS:
-- Sujeto: [persona], [edad], maquillaje elegante (ojos/labios sutiles)
-- Fondo: negro profundo
-- Mood: lujo, alta estética
+DANE:
+- Osoba: [osoba], [wiek], elegancki makijaż (subtelne oczy/usta)
+- Tło: głęboka czerń
+- Nastrój: luksus, wysoka estetyka
 
-ILUMINACIÓN:
-- Key light suave lateral + fill mínimo
-- Rim light muy sutil para separar cabello del fondo
-- Mantener detalle en piel sin plastificar
+OŚWIETLENIE:
+- Miękkie boczne key light + minimalne fill
+- Bardzo subtelne rim light dla separacji włosów od tła
+- Zachować detal skóry bez „plastiku”
 
-CÁMARA:
+KAMERA:
 - 85mm, f/2.5, ISO 200
-- Color grading: lujo (contraste controlado, tonos piel reales)
+- Color grading: luxury (kontrolowany kontrast, realne odcienie skóry)
 
-COMPOSICIÓN:
-- Primer plano, mirada a cámara o ligera 3/4
+KOMPOZYCJA:
+- Zbliżenie, spojrzenie w kamerę lub lekki kąt 3/4
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar brillos agresivos, facciones deformadas`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Unikać agresywnych blików, zdeformowanych rysów`,
     thumbnail: "/images/foto-pro/estudio20.webp",
   },
 ];

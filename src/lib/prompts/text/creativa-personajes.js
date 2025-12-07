@@ -1,1877 +1,1497 @@
 export const textPromptsCreativaPersonajes = [
   {
     id: "personajes-001",
-    title: "Creación de protagonista con conflicto interno profundo",
-    area: "Escritura Creativa",
-    category: "Personajes",
+    title: "Stworzenie protagonisty z głębokim wewnętrznym konfliktem",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
     summary:
-      "Diseña un protagonista tridimensional con un conflicto interno poderoso y real.",
-    prompt: `Dame:
-- Contexto general de la historia (género, época, tono).
-- Rol del protagonista.
-- Qué quiere y qué teme.
+      "Zaprojektuj trójwymiarowego protagonistę z silnym i wiarygodnym konfliktem wewnętrznym.",
+    prompt: `Podaj:
+- Ogólny kontekst historii (gatunek, epoka, ton).
+- Rolę protagonisty.
+- Czego chce i czego się boi.
 
-Genera:
-1) Un perfil psicológico profundo.
-2) Su conflicto interno explicado en 3 capas:
-   - Superficial (lo que dice querer).
-   - Intermedio (lo que realmente busca).
-   - Nuclear (herida emocional de infancia/adolescencia).
-3) Sus 5 mayores contradicciones humanas.
-4) Cómo evoluciona su conflicto a lo largo de la historia.
-5) 3 posibles escenas que revelan su herida sin decirla explícitamente.`,
+Wygeneruj:
+1) Głęboki profil psychologiczny.
+2) Jego konflikt wewnętrzny wyjaśniony w 3 warstwach:
+   - Powierzchowna (to, co mówi, że chce).
+   - Pośrednia (to, czego naprawdę szuka).
+   - Rdzenna (emocjonalna rana z dzieciństwa/nastoletniości).
+3) Jego 5 największych ludzkich sprzeczności.
+4) Jak ten konflikt ewoluuje w trakcie historii.
+5) 3 możliwe sceny, które ujawniają jego ranę bez mówienia o niej wprost.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-002",
-    title: "Creación de antagonista moralmente ambiguo",
-    area: "Escritura Creativa",
-    category: "Personajes",
+    title: "Stworzenie moralnie niejednoznacznego antagonisty",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
     summary:
-      "Genera un antagonista complejo con motivaciones lógicas, humanas y moralmente grises.",
-    prompt: `Dame:
-- Tipo de historia.
-- Qué representa el antagonista.
-- Qué valores defiende.
+      "Wygeneruj złożonego antagonistę z logicznymi, ludzkimi i moralnie szarymi motywacjami.",
+    prompt: `Podaj:
+- Typ historii.
+- Co reprezentuje antagonista.
+- Jakich wartości broni.
 
-Genera:
-1) Motivación primaria y secundaria.
-2) Su justificación moral — “por qué cree que está haciendo lo correcto”.
-3) 3 traumas o eventos que lo moldearon.
-4) Su relación con el protagonista (contrastes y similitudes).
-5) 2 giros argumentales en los que el lector puede empatizar con él.`,
+Wygeneruj:
+1) Motywację główną i poboczną.
+2) Jego moralne uzasadnienie — „dlaczego uważa, że robi dobrze”.
+3) 3 traumy lub wydarzenia, które go ukształtowały.
+4) Jego relację z protagonistą (kontrasty i podobieństwa).
+5) 2 zwroty fabularne, w których czytelnik może mu współczuć.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-003",
-    title: "Dinamita de personaje secundario inolvidable",
-    area: "Escritura Creativa",
-    category: "Personajes",
+    title: "Dynamit: niezapomniana postać drugoplanowa",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
     summary:
-      "Crea un personaje secundario memorable que robe escenas sin opacar la trama.",
-    prompt: `Dame:
-- Personalidad base deseada (gracioso, mentor, excéntrico, serio).
-- Función en la historia.
-- Un rasgo raro o único.
+      "Stwórz zapadającą w pamięć postać drugoplanową, która kradnie sceny, nie przyćmiewając fabuły.",
+    prompt: `Podaj:
+- Pożądaną bazową osobowość (zabawny, mentor, ekscentryczny, poważny).
+- Funkcję w historii.
+- Dziwną lub unikalną cechę.
 
-Genera:
-1) Descripción memorable en 2 versiones (una seria y una humorística).
-2) Su impacto en el protagonista.
-3) 3 frases o tics verbales icónicos.
-4) Una mini escena donde se gana al lector.`,
+Wygeneruj:
+1) Zapadający w pamięć opis w 2 wersjach (poważnej i humorystycznej).
+2) Jej wpływ na protagonistę.
+3) 3 ikoniczne powiedzonka lub tiki językowe.
+4) Mini-scenę, w której zdobywa sympatię czytelnika.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-004",
-    title: "Creación de anti-héroe oscuro con moral retorcida",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un anti-héroe profundo, contradictorio y fascinante.",
-    prompt: `Dame:
-- Su objetivo principal.
-- Su herida emocional.
-- Hasta dónde está dispuesto a llegar.
+    title: "Stworzenie mrocznego antybohatera z pokręconą moralnością",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Zaprojektuj głębokiego, sprzecznego i fascynującego antybohatera.",
+    prompt: `Podaj:
+- Jego główny cel.
+- Jego emocjonalną ranę.
+- Jak daleko jest gotów się posunąć.
 
-Genera:
-1) 5 defectos claros.
-2) 5 virtudes que lo redimen.
-3) Línea moral exacta que sí NO cruza.
-4) Dos traiciones que podría hacer y por qué.
-5) Una escena profunda que revele su contradicción.`,
+Wygeneruj:
+1) 5 wyraźnych wad.
+2) 5 cnót, które go ratują.
+3) Dokładną granicę moralną, której NIE przekroczy.
+4) Dwie zdrady, których mógłby się dopuścić, i dlaczego.
+5) Głęboką scenę, która ujawnia jego sprzeczność.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-005",
-    title: "Creación de pareja protagonista con química real",
-    area: "Escritura Creativa",
-    category: "Personajes",
+    title: "Stworzenie pary protagonistów z prawdziwą chemią",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
     summary:
-      "Diseña dos personajes cuya química se sienta viva, real y explosiva.",
-    prompt: `Dame:
-- Nombre o tipo de relación.
-- Personalidades.
-- Punto de conflicto entre ellos.
+      "Zaprojektuj dwie postacie, których chemia jest żywa, prawdziwa i wybuchowa.",
+    prompt: `Podaj:
+- Imię lub typ relacji.
+- Osobowości.
+- Punkt konfliktu między nimi.
 
-Genera:
-1) Por qué funcionan juntos.
-2) Por qué NO deberían funcionar.
-3) 5 tensiones invisibles entre ellos.
-4) Una escena donde la química se siente sin contacto físico.
-5) Una escena donde estallan sus diferencias.`,
+Wygeneruj:
+1) Dlaczego działają razem.
+2) Dlaczego NIE powinni działać razem.
+3) 5 niewidzialnych napięć między nimi.
+4) Scenę, w której chemia jest odczuwalna bez kontaktu fizycznego.
+5) Scenę, w której eksplodują ich różnice.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-006",
-    title: "Creación de mentor enigmático estilo arquetipo moderno",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Construye un mentor único, misterioso y con profundidad inédita.",
-    prompt: `Dame:
-- Qué enseña el mentor.
-- Su mayor secreto.
-- Qué error quiere evitar que el protagonista repita.
+    title: "Stworzenie enigmatycznego mentora w nowoczesnym archetypie",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Zbuduj unikalnego, tajemniczego mentora o niecodziennej głębi.",
+    prompt: `Podaj:
+- Czego uczy mentor.
+- Jego największy sekret.
+- Jaki błąd chce, by protagonista nie powtórzył.
 
-Genera:
-1) Su filosofía en 3 axiomas.
-2) Un misterio no resuelto de su pasado.
-3) Su mayor contradicción como guía.
-4) Una escena de enseñanza simbólica.`,
+Wygeneruj:
+1) Jego filozofię w 3 aksjomatach.
+2) Nierozwiązaną tajemnicę z jego przeszłości.
+3) Jego największą sprzeczność jako przewodnika.
+4) Scenę symbolicznej nauki.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-007",
-    title: "Creación de villano silencioso que aterra sin hablar",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un antagonista cuyo poder es la presencia y el silencio.",
-    prompt: `Dame:
-- Género.
-- Qué miedo representa.
-- Qué hizo en el pasado que marcó la historia.
+    title: "Stworzenie cichego złoczyńcy, który przeraża bez słów",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Antagonista, którego siłą jest obecność i cisza.",
+    prompt: `Podaj:
+- Gatunek.
+- Jaki strach uosabia.
+- Co zrobił w przeszłości, co naznaczyło historię.
 
-Genera:
-1) Su lenguaje corporal.
-2) 5 detalles visuales icónicos.
-3) Cómo aterra con gestos mínimos.
-4) Una escena sin diálogos donde demuestra poder.`,
+Wygeneruj:
+1) Jego mowę ciała.
+2) 5 ikonicznych detali wizualnych.
+3) Jak przeraża minimalnymi gestami.
+4) Scenę bez dialogów, w której demonstruje władzę.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-008",
-    title: "Creación de personaje cómico con trasfondo trágico",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Combina humor con tragedia para un personaje inolvidable.",
-    prompt: `Dame:
-- Tipo de humor.
-- Trauma o herida emocional.
-- Cómo usa el humor para sobrevivir.
+    title: "Stworzenie postaci komicznej z tragicznym tłem",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Połącz humor z tragedią, by stworzyć niezapomnianą postać.",
+    prompt: `Podaj:
+- Rodzaj humoru.
+- Traumę lub emocjonalną ranę.
+- Jak używa humoru, by przetrwać.
 
-Genera:
-1) Perfil psicológico.
-2) Sus momentos vulnerables.
-3) Cómo se quiebra cuando nadie lo ve.
-4) Una escena en la que su humor evita un colapso emocional.`,
+Wygeneruj:
+1) Profil psychologiczny.
+2) Jej/ jego chwile wrażliwości.
+3) Jak pęka, gdy nikt nie patrzy.
+4) Scenę, w której humor zapobiega emocjonalnemu załamaniu.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-009",
-    title: "Construcción de personaje que oculta un secreto devastador",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un personaje cuya vida gira alrededor de un secreto.",
-    prompt: `Dame:
-- El secreto.
-- Qué pasaría si se descubre.
-- Cómo condiciona su vida diaria.
+    title: "Budowa postaci, która ukrywa druzgocący sekret",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Zaprojektuj postać, której życie kręci się wokół sekretu.",
+    prompt: `Podaj:
+- Sekret.
+- Co by się stało, gdyby wyszedł na jaw.
+- Jak wpływa na jej/ jego codzienne życie.
 
-Genera:
-1) 5 micro-comportamientos para ocultarlo.
-2) Su paranoia y sus mecanismos de defensa.
-3) 2 escenas donde casi lo descubren.
-4) Su ruptura emocional final.`,
+Wygeneruj:
+1) 5 mikro-zachowań pomagających to ukrywać.
+2) Jej/ jego paranoję i mechanizmy obronne.
+3) 2 sceny, w których prawie zostaje odkryty/a.
+4) Jej/ jego ostateczne emocjonalne pęknięcie.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-010",
-    title: "Creación de personaje tipo 'elegido' sin clichés",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un 'elegido' moderno, profundo y creíble.",
-    prompt: `Dame:
-- La profecía o destino.
-- Por qué NO quiere ese rol.
-- Qué habilidad lo diferencia.
+    title: "Stworzenie postaci „wybrańca” bez klisz",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Nowoczesny, głęboki i wiarygodny „wybraniec”.",
+    prompt: `Podaj:
+- Przepowiednię lub przeznaczenie.
+- Dlaczego NIE chce tej roli.
+- Jaka umiejętność go wyróżnia.
 
-Genera:
-1) 5 formas de romper clichés.
-2) Su relación con el deber vs deseo.
-3) Rival o sombra que cuestiona su destino.
-4) Una escena donde rechaza su llamado.`,
+Wygeneruj:
+1) 5 sposobów na złamanie klisz.
+2) Jego relację: obowiązek vs pragnienie.
+3) Rywala lub cień, który kwestionuje jego przeznaczenie.
+4) Scenę, w której odrzuca wezwanie.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-011",
-    title: "Diseño de personaje niño con complejidad emocional real",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un niño complejo, creíble y emocionalmente profundo.",
-    prompt: `Dame:
-- Edad.
-- Entorno familiar.
-- Miedo principal.
+    title: "Projekt postaci dziecka o prawdziwej złożoności emocjonalnej",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Stwórz dziecko złożone, wiarygodne i emocjonalnie głębokie.",
+    prompt: `Podaj:
+- Wiek.
+- Środowisko rodzinne.
+- Główny strach.
 
-Genera:
-1) Forma en que procesa emociones.
-2) Cómo se expresa sin comprenderlo.
-3) Un gesto que lo hace entrañable.
-4) Una escena dolorosa que lo marcó.`,
+Wygeneruj:
+1) Jak przetwarza emocje.
+2) Jak się wyraża, nie rozumiejąc tego.
+3) Gest, który czyni je ujmującym.
+4) Bolesną scenę, która je naznaczyła.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-012",
-    title: "Personaje anciano sabio con pasado oscuro",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un anciano con sabiduría y un pasado inquietante.",
-    prompt: `Dame:
-- Qué lo persigue del pasado.
-- Qué sabiduría transmite.
-- Qué hace que su consejo sea ambiguo.
+    title: "Mądry starzec z mroczną przeszłością",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Starzec z mądrością i niepokojącą przeszłością.",
+    prompt: `Podaj:
+- Co go prześladuje z przeszłości.
+- Jaką mądrość przekazuje.
+- Co sprawia, że jego rada jest niejednoznaczna.
 
-Genera:
-1) Su filosofía contradictoria.
-2) Su manera de hablar.
-3) Dos secretos que oculta.
-4) Una escena que revela su pasado.`,
+Wygeneruj:
+1) Jego sprzeczną filozofię.
+2) Jego sposób mówienia.
+3) Dwa sekrety, które ukrywa.
+4) Scenę ujawniającą jego przeszłość.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-013",
-    title: "Creación de personaje con doble vida",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un personaje con dos vidas totalmente opuestas.",
-    prompt: `Dame:
-- Vida pública.
-- Vida secreta.
-- Qué intenta proteger.
+    title: "Stworzenie postaci z podwójnym życiem",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Zaprojektuj postać prowadzącą dwa całkowicie przeciwstawne życia.",
+    prompt: `Podaj:
+- Życie publiczne.
+- Życie sekretne.
+- Co próbuje chronić.
 
-Genera:
-1) Cómo cambia su lenguaje corporal.
-2) Sus picos de ansiedad y culpa.
-3) Una escena donde ambas vidas chocan.
-4) Cómo se justifica ante sí mismo.`,
+Wygeneruj:
+1) Jak zmienia mowę ciała.
+2) Szczyty lęku i poczucia winy.
+3) Scenę, w której dwa życia się zderzają.
+4) Jak usprawiedliwia się przed sobą.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-014",
-    title: "Creación de personaje marginado que se convierte en líder",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un arco de outsider → líder poderoso.",
-    prompt: `Dame:
-- Por qué está marginado.
-- Qué lo convierte en líder.
-- Qué duda lo frena.
+    title: "Stworzenie wyrzutka, który staje się liderem",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Łuk outsider → potężny lider.",
+    prompt: `Podaj:
+- Dlaczego jest wykluczony.
+- Co czyni go liderem.
+- Jaka wątpliwość go hamuje.
 
-Genera:
-1) Su arco emocional entero.
-2) 5 micro-momentos que muestran evolución.
-3) Una escena donde falla.
-4) Su momento de coronación simbólica.`,
+Wygeneruj:
+1) Jego pełny łuk emocjonalny.
+2) 5 mikro-momentów pokazujących rozwój.
+3) Scenę, w której ponosi porażkę.
+4) Jego moment symbolicznej koronacji.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-015",
-    title: "Personaje que se odia a sí mismo pero busca redención",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un arco de autodesprecio → redención fuerte.",
-    prompt: `Dame:
-- Culpa o error cometido.
-- Qué desea reparar.
-- Qué cree que merece.
+    title: "Postać, która nienawidzi siebie, ale szuka odkupienia",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Zaprojektuj łuk: autoodraza → silne odkupienie.",
+    prompt: `Podaj:
+- Winę lub popełniony błąd.
+- Co chce naprawić.
+- Co uważa, że mu się należy.
 
-Genera:
-1) Su diálogo interno oscuro.
-2) Cómo sabotea sus propias oportunidades.
-3) 3 momentos de quiebre emocional.
-4) Su escena de redención.`,
+Wygeneruj:
+1) Jego mroczny wewnętrzny monolog.
+2) Jak sabotuje własne szanse.
+3) 3 momenty emocjonalnego załamania.
+4) Scenę odkupienia.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-016",
-    title: "Personaje obsesivo que no puede parar",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un personaje dominado por una obsesión.",
-    prompt: `Dame:
-- Obsesión.
-- Qué la desencadenó.
-- Qué pone en riesgo.
+    title: "Postać obsesyjna, która nie potrafi przestać",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Zaprojektuj postać zdominowaną przez obsesję.",
+    prompt: `Podaj:
+- Obsesję.
+- Co ją wyzwoliło.
+- Co stawia na szali.
 
-Genera:
-1) Su deterioro psicológico.
-2) Su relación con otros.
-3) 3 señales de que está perdiendo control.
-4) Una escena de colapso.`,
+Wygeneruj:
+1) Jej/ jego psychiczne pogorszenie.
+2) Relacje z innymi.
+3) 3 sygnały, że traci kontrolę.
+4) Scenę załamania.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-017",
-    title: "Personaje que vive en negación",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un personaje que evita la verdad a toda costa.",
-    prompt: `Dame:
-- La verdad que no acepta.
-- Razón emocional detrás.
-- Qué pasará cuando lo enfrente.
+    title: "Postać żyjąca w zaprzeczeniu",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Zaprojektuj postać, która za wszelką cenę unika prawdy.",
+    prompt: `Podaj:
+- Prawdę, której nie akceptuje.
+- Emocjonalny powód.
+- Co się stanie, gdy się z nią zmierzy.
 
-Genera:
-1) Sus mecanismos de negación.
-2) Cómo otros intentan abrirle los ojos.
-3) Escena donde la realidad lo arrincona.
-4) Su confrontación final.`,
+Wygeneruj:
+1) Jej/ jego mechanizmy zaprzeczania.
+2) Jak inni próbują otworzyć jej/ jego oczy.
+3) Scenę, w której rzeczywistość go/ ją osacza.
+4) Ostateczną konfrontację.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-018",
-    title: "Creación de personaje rebelde que desafía al sistema",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje rebelde con motivación profunda.",
-    prompt: `Dame:
-- Sistema que desafía.
-- Qué injusticia lo impulsa.
-- Qué arriesga.
+    title: "Stworzenie buntownika, który rzuca wyzwanie systemowi",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Buntownik z głęboką motywacją.",
+    prompt: `Podaj:
+- System, któremu się sprzeciwia.
+- Jaką niesprawiedliwość to napędza.
+- Co ryzykuje.
 
-Genera:
-1) Su manifiesto personal.
-2) Su relación con aliados y traidores.
-3) Momento donde casi renuncia.
-4) Su acto de rebelión icónico.`,
+Wygeneruj:
+1) Jego osobisty manifest.
+2) Relację z sojusznikami i zdrajcami.
+3) Moment, w którym prawie rezygnuje.
+4) Jego ikoniczny akt buntu.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-019",
-    title: "Personaje roto que aprende a amar de nuevo",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Arco emocional de pérdida → vulnerabilidad → amor.",
-    prompt: `Dame:
-- Qué perdió.
-- Qué cree sobre el amor.
-- Quién aparece en su vida.
+    title: "Złamana postać, która uczy się znów kochać",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Łuk: strata → wrażliwość → miłość.",
+    prompt: `Podaj:
+- Co straciła.
+- Co uważa o miłości.
+- Kto pojawia się w jej życiu.
 
-Genera:
-1) Sus defensas emocionales.
-2) Momento donde se permite sentir.
-3) Escena donde retrocede por miedo.
-4) Su apertura final al amor.`,
+Wygeneruj:
+1) Jej emocjonalne bariery.
+2) Moment, gdy pozwala sobie poczuć.
+3) Scenę, gdy cofa się ze strachu.
+4) Jej finalne otwarcie na miłość.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-020",
-    title: "Personaje que se convierte en su peor enemigo",
-    area: "Escritura Creativa",
-    category: "Personajes",
+    title: "Postać, która staje się swoim największym wrogiem",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
     summary:
-      "Un personaje que sabotea su propia vida de forma brillante y trágica.",
-    prompt: `Dame:
-- Su sueño más grande.
-- Qué miedo lo frena.
-- Qué decisiones equivocadas toma.
+      "Postać, która sabotuje własne życie w sposób błyskotliwy i tragiczny.",
+    prompt: `Podaj:
+- Jej największe marzenie.
+- Jaki strach ją zatrzymuje.
+- Jakie podejmuje złe decyzje.
 
-Genera:
-1) Cómo se autodestruye sin querer.
-2) 5 patrones repetitivos dañinos.
-3) Una escena donde casi triunfa.
-4) La caída o liberación final.`,
+Wygeneruj:
+1) Jak niechcący się autodestruuje.
+2) 5 powtarzających się destrukcyjnych schematów.
+3) Scenę, w której prawie zwycięża.
+4) Ostateczny upadek lub wyzwolenie.`,
     thumbnail: "",
   },
+
   {
     id: "personajes-021",
-    title: "Personaje que se enfrenta a una profecía auto-cumplida",
-    area: "Escritura Creativa",
-    category: "Personajes",
+    title: "Postać mierząca się z samospełniającą się przepowiednią",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
     summary:
-      "Diseña un personaje atrapado en el ciclo de una profecía que se cumple por sus propios miedos.",
-    prompt: `Dame:
-- La profecía exacta.
-- Por qué el personaje teme que se cumpla.
-- Qué decisión equivocada toma por miedo.
+      "Zaprojektuj postać uwięzioną w cyklu przepowiedni, która spełnia się przez jej własne lęki.",
+    prompt: `Podaj:
+- Dokładną treść przepowiedni.
+- Dlaczego postać boi się, że się spełni.
+- Jaką błędną decyzję podejmuje ze strachu.
 
-Genera:
-1) Su psicología y su paranoia.
-2) Cómo cada acción para evitar la profecía la acerca más a cumplirse.
-3) 3 escenas de tensión emocional.
-4) Una versión alternativa donde rompe el destino.`,
+Wygeneruj:
+1) Jej psychikę i paranoję.
+2) Jak każde działanie, by uniknąć przepowiedni, przybliża ją do spełnienia.
+3) 3 sceny emocjonalnego napięcia.
+4) Alternatywną wersję, w której łamie przeznaczenie.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-022",
-    title: "Personaje que carga con la culpa de un accidente",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje marcado por la culpa y el autosacrificio.",
-    prompt: `Dame:
-- Qué accidente ocurrió.
-- Por qué cree que es su culpa.
-- Cómo afecta sus relaciones.
+    title: "Postać, która dźwiga winę za wypadek",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Stwórz postać naznaczoną winą i auto-poświęceniem.",
+    prompt: `Podaj:
+- Jaki wypadek się wydarzył.
+- Dlaczego uważa, że to jej wina.
+- Jak to wpływa na jej relacje.
 
-Genera:
-1) Su culpa internalizada.
-2) Cómo intenta compensarla con actos excesivos.
-3) 2 escenas donde la culpa explota de forma inesperada.
-4) Su camino hacia el perdón.`,
+Wygeneruj:
+1) Jej zinternalizowaną winę.
+2) Jak próbuje ją zrekompensować przesadnymi czynami.
+3) 2 sceny, w których wina wybucha niespodziewanie.
+4) Jej drogę do przebaczenia.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-023",
-    title: "Personaje visionario incomprendido por todos",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un genio rechazado, ridiculizado o aislado.",
-    prompt: `Dame:
-- Qué visión o idea está adelantada a su tiempo.
-- Qué lo hace difícil de entender.
-- Cómo reacciona el mundo a él.
+    title: "Wizjoner niezrozumiany przez wszystkich",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Zaprojektuj geniusza odrzuconego, wyśmianego lub odizolowanego.",
+    prompt: `Podaj:
+- Jaka wizja lub idea wyprzedza swoje czasy.
+- Co sprawia, że trudno go zrozumieć.
+- Jak reaguje na niego świat.
 
-Genera:
-1) Su mentalidad y forma única de pensar.
-2) Sus frustraciones sociales.
-3) 5 frases que demuestran su visión avanzada.
-4) Una escena donde finalmente lo reconocen… o lo rechazan más.`,
+Wygeneruj:
+1) Jego mentalność i unikalny sposób myślenia.
+2) Jego społeczne frustracje.
+3) 5 zdań, które pokazują jego zaawansowaną wizję.
+4) Scenę, w której w końcu go uznają… albo jeszcze bardziej odrzucają.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-024",
-    title: "Personaje cuya fe se está quebrando",
-    area: "Escritura Creativa",
-    category: "Personajes",
+    title: "Postać, której wiara się kruszy",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
     summary:
-      "Explora un personaje que pierde la fe: religiosa, moral o filosófica.",
-    prompt: `Dame:
-- En qué creía.
-- Qué evento detonó la crisis de fe.
-- Qué se derrumba internamente.
+      "Zbadaj postać, która traci wiarę: religijną, moralną lub filozoficzną.",
+    prompt: `Podaj:
+- W co wierzyła.
+- Jakie wydarzenie uruchomiło kryzys wiary.
+- Co rozpada się w niej od środka.
 
-Genera:
-1) Su conflicto espiritual.
-2) Sus dudas más profundas.
-3) Escena donde cuestiona todo.
-4) Escena donde encuentra una nueva fe o se queda vacío.`,
+Wygeneruj:
+1) Jej duchowy konflikt.
+2) Jej najgłębsze wątpliwości.
+3) Scenę, w której kwestionuje wszystko.
+4) Scenę, w której znajduje nową wiarę albo zostaje pusta.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-025",
-    title: "Personaje impulsivo que actúa antes de pensar",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje guiado por impulsos fuertes.",
-    prompt: `Dame:
-- Qué lo impulsa.
-- Qué problemas causa.
-- Qué intenta reparar.
+    title: "Impulsywna postać, która działa zanim pomyśli",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Stwórz postać kierowaną silnymi impulsami.",
+    prompt: `Podaj:
+- Co ją popycha do działania.
+- Jakie problemy powoduje.
+- Co próbuje naprawić.
 
-Genera:
-1) Su mecanismo impulsivo.
-2) 3 detonantes emocionales.
-3) Una escena donde su impulso destruye algo.
-4) Una escena donde aprende a controlar, o falla estrepitosamente.`,
+Wygeneruj:
+1) Jej mechanizm impulsywności.
+2) 3 emocjonalne wyzwalacze.
+3) Scenę, w której impuls niszczy coś ważnego.
+4) Scenę, w której uczy się kontrolować… albo spektakularnie ponosi porażkę.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-026",
-    title: "Personaje perfeccionista al borde de romperse",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un perfeccionista cuyo estándar lo destruye.",
-    prompt: `Dame:
-- Qué intenta hacer perfecto.
-- Por qué siente que debe serlo.
-- Qué teme que pase si falla.
+    title: "Perfekcjonista na skraju załamania",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Zaprojektuj perfekcjonistę, którego standard go niszczy.",
+    prompt: `Podaj:
+- Co próbuje zrobić perfekcyjnie.
+- Dlaczego czuje, że musi.
+- Czego się boi, jeśli zawiedzie.
 
-Genera:
-1) Su diálogo interior cruel.
-2) Cómo afecta a otros su perfeccionismo.
-3) Escena de micro-colapso.
-4) Escena donde comprende que la imperfección lo libera… o lo aplasta.`,
+Wygeneruj:
+1) Jego okrutny dialog wewnętrzny.
+2) Jak perfekcjonizm wpływa na innych.
+3) Scenę mikro-załamania.
+4) Scenę, w której rozumie, że niedoskonałość go wyzwala… albo miażdży.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-027",
-    title: "Personaje con miedo irracional que controla su vida",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje dominado por una fobia o miedo profundo.",
-    prompt: `Dame:
-- La fobia.
-- Cómo afecta su rutina.
-- Qué desencadenó el miedo.
+    title: "Postać z irracjonalnym lękiem, który kontroluje jej życie",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Stwórz postać zdominowaną przez fobię lub głęboki strach.",
+    prompt: `Podaj:
+- Fobię.
+- Jak wpływa na jej rutynę.
+- Co wywołało ten lęk.
 
-Genera:
-1) Su perfil psicológico.
-2) Cómo intenta evitar situaciones.
-3) Una escena límite donde enfrentarlo es inevitable.
-4) Su desenlace emocional.`,
+Wygeneruj:
+1) Jej profil psychologiczny.
+2) Jak próbuje unikać sytuacji.
+3) Scenę graniczną, w której konfrontacja jest nieunikniona.
+4) Jej emocjonalne rozstrzygnięcie.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-028",
-    title:
-      "Personaje que tiene un don extraordinario que percibe como maldición",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un don que duele más de lo que ayuda.",
-    prompt: `Dame:
-- El don.
-- Por qué le causa dolor.
-- Qué consecuencia ha sufrido.
+    title: "Postać z niezwykłym darem, który uważa za klątwę",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Dar, który boli bardziej, niż pomaga.",
+    prompt: `Podaj:
+- Dar.
+- Dlaczego sprawia ból.
+- Jaką konsekwencję już poniosła.
 
-Genera:
-1) Su rechazo al don.
-2) 3 momentos donde el don arruina algo.
-3) Una escena donde comprende su utilidad real.
-4) Una escena donde lo pierde o aprende a usarlo.`,
+Wygeneruj:
+1) Jej odrzucenie daru.
+2) 3 momenty, w których dar coś rujnuje.
+3) Scenę, w której rozumie jego prawdziwą użyteczność.
+4) Scenę, w której go traci albo uczy się z niego korzystać.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-029",
-    title: "Personaje extremadamente leal al punto del sacrificio",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña una lealtad casi peligrosa o destructiva.",
-    prompt: `Dame:
-- A quién es leal.
-- Por qué.
-- Qué está dispuesto a sacrificar.
+    title: "Postać skrajnie lojalna aż do poświęcenia",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Zaprojektuj lojalność niemal niebezpieczną lub destrukcyjną.",
+    prompt: `Podaj:
+- Komu jest lojalna.
+- Dlaczego.
+- Co jest gotowa poświęcić.
 
-Genera:
-1) Su código de lealtad.
-2) Cómo otros se aprovechan.
-3) Una escena donde la lealtad lo quiebra.
-4) Una escena donde esa lealtad salva o destruye a alguien más.`,
+Wygeneruj:
+1) Jej kodeks lojalności.
+2) Jak inni to wykorzystują.
+3) Scenę, w której lojalność ją łamie.
+4) Scenę, w której lojalność ratuje lub niszczy kogoś innego.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-030",
-    title: "Personaje que vive atrapado en recuerdos del pasado",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje que se niega a vivir el presente.",
-    prompt: `Dame:
-- El recuerdo que lo persigue.
-- Qué perdió.
-- Qué intenta revivir.
+    title: "Postać uwięziona we wspomnieniach przeszłości",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Postać, która odmawia życia teraźniejszością.",
+    prompt: `Podaj:
+- Wspomnienie, które ją prześladuje.
+- Co straciła.
+- Co próbuje wskrzesić.
 
-Genera:
-1) Su nostalgia cruda.
-2) Conversaciones imaginarias con el pasado.
-3) Escena donde el pasado choca con la realidad actual.
-4) Su momento de liberación o caída.`,
+Wygeneruj:
+1) Jej surową nostalgię.
+2) Wyimaginowane rozmowy z przeszłością.
+3) Scenę, w której przeszłość zderza się z obecną rzeczywistością.
+4) Jej moment wyzwolenia albo upadku.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-031",
-    title: "Personaje cuya identidad depende de agradar a todos",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un complaciente crónico que pierde su esencia.",
-    prompt: `Dame:
-- A quién intenta agradar.
-- Qué miedo siente al desagradar.
-- Qué oculta de sí mismo.
+    title: "Postać, której tożsamość zależy od zadowalania wszystkich",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Chroniczny „zadowalacz”, który gubi własną esencję.",
+    prompt: `Podaj:
+- Komu próbuje dogodzić.
+- Jakiego lęku doświadcza, gdy komuś się nie spodoba.
+- Co ukrywa o sobie.
 
-Genera:
-1) Sus máscaras sociales.
-2) Sus renuncias silenciosas.
-3) Una escena donde finalmente dice “no”.
-4) El costo emocional de definirse.`,
+Wygeneruj:
+1) Jej społeczne maski.
+2) Jej ciche rezygnacje.
+3) Scenę, w której wreszcie mówi „nie”.
+4) Emocjonalny koszt zdefiniowania siebie.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-032",
-    title: "Personaje con doble moral hipercínica pero encantadora",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje seductor, carismático y moralmente retorcido.",
-    prompt: `Dame:
-- Qué hace moralmente cuestionable.
-- Cómo lo justifica.
-- Quién lo sospecha.
+    title: "Postać o hipercynicznej podwójnej moralności, ale czarująca",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Stwórz postać uwodzicielską, charyzmatyczną i moralnie pokręconą.",
+    prompt: `Podaj:
+- Co robi moralnie wątpliwego.
+- Jak to usprawiedliwia.
+- Kto ją podejrzewa.
 
-Genera:
-1) Su encanto superficial.
-2) Su mecanismo de manipulación.
-3) Escena donde casi lo descubren.
-4) Su dilema: cambiar o hundirse.`,
+Wygeneruj:
+1) Jej powierzchowny urok.
+2) Jej mechanizm manipulacji.
+3) Scenę, w której prawie zostaje zdemaskowana.
+4) Jej dylemat: zmienić się czy utonąć.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-033",
-    title: "Personaje con una promesa que juró no romper jamás",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un juramento que define su vida entera.",
-    prompt: `Dame:
-- La promesa.
-- A quién se la hizo.
-- Por qué es tan importante.
+    title: "Postać z obietnicą, której przysięgła nigdy nie złamać",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Przysięga, która definiuje całe jej życie.",
+    prompt: `Podaj:
+- Obietnicę.
+- Komu ją złożyła.
+- Dlaczego jest tak ważna.
 
-Genera:
-1) Su código moral basado en esa promesa.
-2) Escena donde casi la rompe.
-3) Escena donde mantenerla implica dolor extremo.
-4) Un final donde la cumple o la traiciona.`,
+Wygeneruj:
+1) Jej kodeks moralny oparty na tej obietnicy.
+2) Scenę, w której prawie ją łamie.
+3) Scenę, w której dotrzymanie jej oznacza skrajny ból.
+4) Zakończenie, w którym ją spełnia albo zdradza.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-034",
-    title: "Personaje que NO siente emociones de manera normal",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje emocionalmente atípico o neurodivergente.",
-    prompt: `Dame:
-- Cómo siente distinto.
-- Qué emociones le cuestan.
-- Qué lo desconecta del mundo.
+    title: "Postać, która NIE odczuwa emocji w „normalny” sposób",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Postać emocjonalnie atypowa lub neuroatypowa.",
+    prompt: `Podaj:
+- Jak odczuwa inaczej.
+- Z jakimi emocjami ma trudność.
+- Co odłącza ją od świata.
 
-Genera:
-1) Su lógica interna.
-2) Malentendidos con otros.
-3) Una escena donde intenta explicar su mundo.
-4) Cómo logra conectar… o no.`,
+Wygeneruj:
+1) Jej wewnętrzną logikę.
+2) Nieporozumienia z innymi.
+3) Scenę, w której próbuje wyjaśnić swój świat.
+4) Jak udaje jej się nawiązać więź… albo nie.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-035",
-    title: "Personaje obligado a cargar un rol que nunca quiso",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un personaje presionado por expectativas ajenas.",
-    prompt: `Dame:
-- El rol impuesto.
-- Quién lo obligó.
-- Qué sueño sacrificó.
+    title: "Postać zmuszona nieść rolę, której nigdy nie chciała",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Zaprojektuj postać pod presją cudzych oczekiwań.",
+    prompt: `Podaj:
+- Narzuconą rolę.
+- Kto ją do tego zmusił.
+- Jakie marzenie poświęciła.
 
-Genera:
-1) Su resentimiento silencioso.
-2) Su diálogo interno reprimido.
-3) Escena donde explota por primera vez.
-4) Una escena donde decide romper el rol o aceptarlo por voluntad propia.`,
+Wygeneruj:
+1) Jej ciche rozgoryczenie.
+2) Jej stłumiony dialog wewnętrzny.
+3) Scenę, w której wybucha po raz pierwszy.
+4) Scenę, w której decyduje się rolę złamać albo przyjąć z własnej woli.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-036",
-    title: "Personaje caótico que genera conflictos sin querer",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje impredecible, divertido y peligroso.",
-    prompt: `Dame:
-- Qué hace que cause caos.
-- Qué trauma o impulso lo guía.
-- Cómo lo ven los demás.
+    title: "Chaotyczna postać, która niechcący wywołuje konflikty",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Stwórz postać nieprzewidywalną, zabawną i niebezpieczną.",
+    prompt: `Podaj:
+- Co sprawia, że sieje chaos.
+- Jaka trauma lub impuls nią kieruje.
+- Jak widzą ją inni.
 
-Genera:
-1) Su energía caótica.
-2) 5 momentos hilarantes o tensos.
-3) Una escena donde su caos salva el día.
-4) Una donde casi lo arruina todo.`,
+Wygeneruj:
+1) Jej chaotyczną energię.
+2) 5 momentów zabawnych lub napiętych.
+3) Scenę, w której jej chaos ratuje sytuację.
+4) Scenę, w której prawie wszystko psuje.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-037",
-    title: "Personaje demasiado racional que no entiende las emociones",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un personaje puramente lógico en un mundo emocional.",
-    prompt: `Dame:
-- Por qué piensa así.
-- Qué emoción no logra comprender.
-- Qué persona lo confronta.
+    title: "Zbyt racjonalna postać, która nie rozumie emocji",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Zaprojektuj czysto logiczną postać w emocjonalnym świecie.",
+    prompt: `Podaj:
+- Dlaczego tak myśli.
+- Jakiej emocji nie potrafi zrozumieć.
+- Kto ją z tym konfrontuje.
 
-Genera:
-1) Su marco lógico frío.
-2) Dilemas donde su lógica falla.
-3) Escena donde intenta sentir algo que no entiende.
-4) Su evolución hacia la humanidad… o hacia la frialdad total.`,
+Wygeneruj:
+1) Jej zimny, logiczny schemat.
+2) Dylematy, w których jej logika zawodzi.
+3) Scenę, w której próbuje coś poczuć, czego nie rozumie.
+4) Jej ewolucję ku człowieczeństwu… albo ku totalnej chłodności.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-038",
-    title: "Personaje manipulador que cree que está ayudando",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Manipulación disfrazada de “protección”.",
-    prompt: `Dame:
-- A quién manipula.
-- Qué quiere lograr.
-- Por qué cree que es por el bien del otro.
+    title: "Manipulująca postać, która wierzy, że pomaga",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Manipulacja przebrana za „ochronę”.",
+    prompt: `Podaj:
+- Kim manipuluje.
+- Co chce osiągnąć.
+- Dlaczego uważa, że to dla dobra drugiej osoby.
 
-Genera:
-1) Su autojustificación.
-2) 3 tácticas emocionales.
-3) Escena donde se enfrenta a las consecuencias.
-4) Su confrontación final consigo mismo.`,
+Wygeneruj:
+1) Jej auto-usprawiedliwienie.
+2) 3 emocjonalne taktyki.
+3) Scenę, w której mierzy się z konsekwencjami.
+4) Jej ostateczną konfrontację z samą sobą.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-039",
-    title: "Personaje incapaz de perdonar una traición",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje endurecido por una traición devastadora.",
-    prompt: `Dame:
-- Qué traición vivió.
-- Quién la causó.
-- Cómo le cambió la vida.
+    title: "Postać niezdolna wybaczyć zdrady",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Postać stwardniała po druzgocącej zdradzie.",
+    prompt: `Podaj:
+- Jakiej zdrady doświadczyła.
+- Kto ją spowodował.
+- Jak zmieniło to jej życie.
 
-Genera:
-1) Su resentimiento profundo.
-2) Cómo afecta su capacidad de confiar.
-3) Una escena donde la herida vuelve a abrirse.
-4) Su posible reconciliación… o venganza.`,
+Wygeneruj:
+1) Jej głęboką urazę.
+2) Jak wpływa to na jej zdolność do zaufania.
+3) Scenę, w której rana znów się otwiera.
+4) Jej możliwe pojednanie… albo zemstę.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-040",
-    title: "Personaje que busca desesperadamente validación",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje dependiente de la aprobación externa.",
-    prompt: `Dame:
-- De quién busca validación.
-- Qué vacío intenta llenar.
-- Qué miedo tiene a la soledad.
+    title: "Postać desperacko szukająca walidacji",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Postać zależna od zewnętrznej aprobaty.",
+    prompt: `Podaj:
+- Od kogo szuka walidacji.
+- Jaką pustkę próbuje wypełnić.
+- Jakiego lęku doświadcza przed samotnością.
 
-Genera:
-1) Su identidad basada en elogios.
-2) Cómo cambia su comportamiento según la audiencia.
-3) Escena donde no recibe validación y colapsa.
-4) Su recuperación emocional… o deterioro.`,
-    thumbnail: "",
-  },
-  {
-    id: "personajes-021",
-    title: "Personaje que se enfrenta a una profecía auto-cumplida",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary:
-      "Diseña un personaje atrapado en el ciclo de una profecía que se cumple por sus propios miedos.",
-    prompt: `Dame:
-- La profecía exacta.
-- Por qué el personaje teme que se cumpla.
-- Qué decisión equivocada toma por miedo.
-
-Genera:
-1) Su psicología y su paranoia.
-2) Cómo cada acción para evitar la profecía la acerca más a cumplirse.
-3) 3 escenas de tensión emocional.
-4) Una versión alternativa donde rompe el destino.`,
+Wygeneruj:
+1) Jej tożsamość opartą na pochwałach.
+2) Jak zmienia zachowanie w zależności od publiczności.
+3) Scenę, w której nie dostaje walidacji i się załamuje.
+4) Jej emocjonalną odbudowę… albo pogorszenie.`,
     thumbnail: "",
   },
 
-  {
-    id: "personajes-022",
-    title: "Personaje que carga con la culpa de un accidente",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje marcado por la culpa y el autosacrificio.",
-    prompt: `Dame:
-- Qué accidente ocurrió.
-- Por qué cree que es su culpa.
-- Cómo afecta sus relaciones.
-
-Genera:
-1) Su culpa internalizada.
-2) Cómo intenta compensarla con actos excesivos.
-3) 2 escenas donde la culpa explota de forma inesperada.
-4) Su camino hacia el perdón.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-023",
-    title: "Personaje visionario incomprendido por todos",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un genio rechazado, ridiculizado o aislado.",
-    prompt: `Dame:
-- Qué visión o idea está adelantada a su tiempo.
-- Qué lo hace difícil de entender.
-- Cómo reacciona el mundo a él.
-
-Genera:
-1) Su mentalidad y forma única de pensar.
-2) Sus frustraciones sociales.
-3) 5 frases que demuestran su visión avanzada.
-4) Una escena donde finalmente lo reconocen… o lo rechazan más.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-024",
-    title: "Personaje cuya fe se está quebrando",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary:
-      "Explora un personaje que pierde la fe: religiosa, moral o filosófica.",
-    prompt: `Dame:
-- En qué creía.
-- Qué evento detonó la crisis de fe.
-- Qué se derrumba internamente.
-
-Genera:
-1) Su conflicto espiritual.
-2) Sus dudas más profundas.
-3) Escena donde cuestiona todo.
-4) Escena donde encuentra una nueva fe o se queda vacío.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-025",
-    title: "Personaje impulsivo que actúa antes de pensar",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje guiado por impulsos fuertes.",
-    prompt: `Dame:
-- Qué lo impulsa.
-- Qué problemas causa.
-- Qué intenta reparar.
-
-Genera:
-1) Su mecanismo impulsivo.
-2) 3 detonantes emocionales.
-3) Una escena donde su impulso destruye algo.
-4) Una escena donde aprende a controlar, o falla estrepitosamente.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-026",
-    title: "Personaje perfeccionista al borde de romperse",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un perfeccionista cuyo estándar lo destruye.",
-    prompt: `Dame:
-- Qué intenta hacer perfecto.
-- Por qué siente que debe serlo.
-- Qué teme que pase si falla.
-
-Genera:
-1) Su diálogo interior cruel.
-2) Cómo afecta a otros su perfeccionismo.
-3) Escena de micro-colapso.
-4) Escena donde comprende que la imperfección lo libera… o lo aplasta.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-027",
-    title: "Personaje con miedo irracional que controla su vida",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje dominado por una fobia o miedo profundo.",
-    prompt: `Dame:
-- La fobia.
-- Cómo afecta su rutina.
-- Qué desencadenó el miedo.
-
-Genera:
-1) Su perfil psicológico.
-2) Cómo intenta evitar situaciones.
-3) Una escena límite donde enfrentarlo es inevitable.
-4) Su desenlace emocional.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-028",
-    title:
-      "Personaje que tiene un don extraordinario que percibe como maldición",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un don que duele más de lo que ayuda.",
-    prompt: `Dame:
-- El don.
-- Por qué le causa dolor.
-- Qué consecuencia ha sufrido.
-
-Genera:
-1) Su rechazo al don.
-2) 3 momentos donde el don arruina algo.
-3) Una escena donde comprende su utilidad real.
-4) Una escena donde lo pierde o aprende a usarlo.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-029",
-    title: "Personaje extremadamente leal al punto del sacrificio",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña una lealtad casi peligrosa o destructiva.",
-    prompt: `Dame:
-- A quién es leal.
-- Por qué.
-- Qué está dispuesto a sacrificar.
-
-Genera:
-1) Su código de lealtad.
-2) Cómo otros se aprovechan.
-3) Una escena donde la lealtad lo quiebra.
-4) Una escena donde esa lealtad salva o destruye a alguien más.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-030",
-    title: "Personaje que vive atrapado en recuerdos del pasado",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje que se niega a vivir el presente.",
-    prompt: `Dame:
-- El recuerdo que lo persigue.
-- Qué perdió.
-- Qué intenta revivir.
-
-Genera:
-1) Su nostalgia cruda.
-2) Conversaciones imaginarias con el pasado.
-3) Escena donde el pasado choca con la realidad actual.
-4) Su momento de liberación o caída.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-031",
-    title: "Personaje cuya identidad depende de agradar a todos",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un complaciente crónico que pierde su esencia.",
-    prompt: `Dame:
-- A quién intenta agradar.
-- Qué miedo siente al desagradar.
-- Qué oculta de sí mismo.
-
-Genera:
-1) Sus máscaras sociales.
-2) Sus renuncias silenciosas.
-3) Una escena donde finalmente dice “no”.
-4) El costo emocional de definirse.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-032",
-    title: "Personaje con doble moral hipercínica pero encantadora",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje seductor, carismático y moralmente retorcido.",
-    prompt: `Dame:
-- Qué hace moralmente cuestionable.
-- Cómo lo justifica.
-- Quién lo sospecha.
-
-Genera:
-1) Su encanto superficial.
-2) Su mecanismo de manipulación.
-3) Escena donde casi lo descubren.
-4) Su dilema: cambiar o hundirse.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-033",
-    title: "Personaje con una promesa que juró no romper jamás",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un juramento que define su vida entera.",
-    prompt: `Dame:
-- La promesa.
-- A quién se la hizo.
-- Por qué es tan importante.
-
-Genera:
-1) Su código moral basado en esa promesa.
-2) Escena donde casi la rompe.
-3) Escena donde mantenerla implica dolor extremo.
-4) Un final donde la cumple o la traiciona.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-034",
-    title: "Personaje que NO siente emociones de manera normal",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje emocionalmente atípico o neurodivergente.",
-    prompt: `Dame:
-- Cómo siente distinto.
-- Qué emociones le cuestan.
-- Qué lo desconecta del mundo.
-
-Genera:
-1) Su lógica interna.
-2) Malentendidos con otros.
-3) Una escena donde intenta explicar su mundo.
-4) Cómo logra conectar… o no.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-035",
-    title: "Personaje obligado a cargar un rol que nunca quiso",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un personaje presionado por expectativas ajenas.",
-    prompt: `Dame:
-- El rol impuesto.
-- Quién lo obligó.
-- Qué sueño sacrificó.
-
-Genera:
-1) Su resentimiento silencioso.
-2) Su diálogo interno reprimido.
-3) Escena donde explota por primera vez.
-4) Una escena donde decide romper el rol o aceptarlo por voluntad propia.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-036",
-    title: "Personaje caótico que genera conflictos sin querer",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crea un personaje impredecible, divertido y peligroso.",
-    prompt: `Dame:
-- Qué hace que cause caos.
-- Qué trauma o impulso lo guía.
-- Cómo lo ven los demás.
-
-Genera:
-1) Su energía caótica.
-2) 5 momentos hilarantes o tensos.
-3) Una escena donde su caos salva el día.
-4) Una donde casi lo arruina todo.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-037",
-    title: "Personaje demasiado racional que no entiende las emociones",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Diseña un personaje puramente lógico en un mundo emocional.",
-    prompt: `Dame:
-- Por qué piensa así.
-- Qué emoción no logra comprender.
-- Qué persona lo confronta.
-
-Genera:
-1) Su marco lógico frío.
-2) Dilemas donde su lógica falla.
-3) Escena donde intenta sentir algo que no entiende.
-4) Su evolución hacia la humanidad… o hacia la frialdad total.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-038",
-    title: "Personaje manipulador que cree que está ayudando",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Manipulación disfrazada de “protección”.",
-    prompt: `Dame:
-- A quién manipula.
-- Qué quiere lograr.
-- Por qué cree que es por el bien del otro.
-
-Genera:
-1) Su autojustificación.
-2) 3 tácticas emocionales.
-3) Escena donde se enfrenta a las consecuencias.
-4) Su confrontación final consigo mismo.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-039",
-    title: "Personaje incapaz de perdonar una traición",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje endurecido por una traición devastadora.",
-    prompt: `Dame:
-- Qué traición vivió.
-- Quién la causó.
-- Cómo le cambió la vida.
-
-Genera:
-1) Su resentimiento profundo.
-2) Cómo afecta su capacidad de confiar.
-3) Una escena donde la herida vuelve a abrirse.
-4) Su posible reconciliación… o venganza.`,
-    thumbnail: "",
-  },
-
-  {
-    id: "personajes-040",
-    title: "Personaje que busca desesperadamente validación",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje dependiente de la aprobación externa.",
-    prompt: `Dame:
-- De quién busca validación.
-- Qué vacío intenta llenar.
-- Qué miedo tiene a la soledad.
-
-Genera:
-1) Su identidad basada en elogios.
-2) Cómo cambia su comportamiento según la audiencia.
-3) Escena donde no recibe validación y colapsa.
-4) Su recuperación emocional… o deterioro.`,
-    thumbnail: "",
-  },
   {
     id: "personajes-061",
-    title: "Personaje que carga con la culpa de un futuro que aún no sucede",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje convencido de que causará una tragedia futura.",
-    prompt: `Dame:
-- Qué tragedia cree que causará.
-- Por qué cree que es su culpa.
-- Qué hace para intentar evitarlo.
+    title: "Postać, która dźwiga winę za przyszłość, która jeszcze się nie wydarzyła",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Postać przekonana, że spowoduje przyszłą tragedię.",
+    prompt: `Podaj:
+- Jaką tragedię uważa, że spowoduje.
+- Dlaczego wierzy, że to jej wina.
+- Co robi, by temu zapobiec.
 
-Genera:
-1) Su miedo anticipado y su paranoia.
-2) 3 escenas donde su intento de evitar el futuro lo acerca más a él.
-3) Escena climática donde enfrenta su destino y decide si cambiarlo o rendirse.`,
+Wygeneruj:
+1) Jej antycypowany lęk i paranoję.
+2) 3 sceny, w których próby uniknięcia przyszłości tylko ją do niej przybliżają.
+3) Scenę kulminacyjną, w której staje naprzeciw przeznaczenia i decyduje, czy je zmienić, czy się poddać.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-062",
-    title: "Personaje que vive completamente para alguien más",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Identidad anulada por devoción extrema.",
-    prompt: `Dame:
-- A quién dedica su vida.
-- Por qué siente que su vida vale menos.
-- Qué momento marcó esa dependencia.
+    title: "Postać, która żyje całkowicie dla kogoś innego",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Tożsamość wymazana przez skrajną dewocję.",
+    prompt: `Podaj:
+- Komu poświęca życie.
+- Dlaczego czuje, że jej życie jest mniej warte.
+- Jaki moment naznaczył tę zależność.
 
-Genera:
-1) Su psicología de auto borrado.
-2) 3 momentos donde sacrifica demasiado.
-3) Escena donde enfrenta la pregunta: “¿Quién soy si no soy su salvador?”`,
+Wygeneruj:
+1) Jej psychologię samo-wymazywania.
+2) 3 momenty, w których poświęca zbyt wiele.
+3) Scenę, w której staje przed pytaniem: „Kim jestem, jeśli nie jestem jego/jej wybawcą?”`,
     thumbnail: "",
   },
 
   {
     id: "personajes-063",
-    title: "Personaje que se cree un monstruo… aunque no lo es",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Auto percepción distorsionada, traumas y sombras internas.",
-    prompt: `Dame:
-- Por qué se cree un monstruo.
-- Qué hizo o cree haber hecho.
-- Qué lo vuelve humano realmente.
+    title: "Postać, która uważa się za potwora… choć nim nie jest",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Zniekształcona samoocena, traumy i wewnętrzne cienie.",
+    prompt: `Podaj:
+- Dlaczego uważa się za potwora.
+- Co zrobiła lub uważa, że zrobiła.
+- Co tak naprawdę czyni ją ludzką.
 
-Genera:
-1) Su sombra psicológica.
-2) 3 escenas donde se comporta como monstruo… pero con bondad debajo.
-3) Momento donde alguien lo ve como realmente es.`,
+Wygeneruj:
+1) Jej psychologiczny cień.
+2) 3 sceny, w których zachowuje się jak potwór… ale pod spodem jest dobroć.
+3) Moment, w którym ktoś widzi ją taką, jaka naprawdę jest.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-064",
-    title: "Personaje brillante que nadie toma en serio",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Genialidad ignorada, frustración, y obstinación.",
-    prompt: `Dame:
-- En qué es brillante.
-- Quién lo subestima.
-- Qué lo impulsa a seguir.
+    title: "Błyskotliwa postać, której nikt nie traktuje poważnie",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Ignorowany geniusz, frustracja i upór.",
+    prompt: `Podaj:
+- W czym jest genialna.
+- Kto ją lekceważy.
+- Co pcha ją do dalszego działania.
 
-Genera:
-1) Su lucha contra la mediocridad ajena.
-2) 3 momentos donde demuestra su genio pero lo ignoran.
-3) Escena donde por fin alguien lo reconoce… o lo vuelve a menospreciar.`,
+Wygeneruj:
+1) Jej walkę z cudzą przeciętnością.
+2) 3 momenty, w których pokazuje geniusz, ale jest ignorowana.
+3) Scenę, w której ktoś wreszcie ją docenia… albo znów ją umniejsza.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-065",
-    title: "Personaje que huye de algo que no entiende del todo",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Huye de un peligro abstracto o desconocido.",
-    prompt: `Dame:
-- Qué lo persigue.
-- Qué cree que es.
-- Qué realmente es.
+    title: "Postać uciekająca przed czymś, czego do końca nie rozumie",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Ucieka przed abstrakcyjnym lub nieznanym zagrożeniem.",
+    prompt: `Podaj:
+- Co ją ściga.
+- Co myśli, że to jest.
+- Czym to jest naprawdę.
 
-Genera:
-1) Su paranoia incompleta.
-2) 3 momentos donde el peligro se acerca.
-3) Revelación final que cambia todo.`,
+Wygeneruj:
+1) Jej niepełną paranoję.
+2) 3 momenty, w których niebezpieczeństwo się zbliża.
+3) Finalne ujawnienie, które zmienia wszystko.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-066",
-    title: "Personaje que rechaza el poder que todos quieren que use",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje con talento o poder que teme usar.",
-    prompt: `Dame:
-- Qué poder es.
-- Por qué lo rechaza.
-- Qué le piden los demás.
+    title: "Postać odrzucająca moc, której wszyscy chcą, by użyła",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Postać z talentem lub mocą, której boi się używać.",
+    prompt: `Podaj:
+- Jaka to moc.
+- Dlaczego ją odrzuca.
+- Czego żądają inni.
 
-Genera:
-1) Su resistencia interna.
-2) 3 presiones externas cada vez más intensas.
-3) Escena donde usa el poder por primera vez… o lo destruye.`,
+Wygeneruj:
+1) Jej wewnętrzny opór.
+2) 3 zewnętrzne naciski coraz silniejsze.
+3) Scenę, w której używa mocy po raz pierwszy… albo ją niszczy.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-067",
-    title: "Personaje que oculta su dolor con humor",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "El payaso triste, sarcástico o brillante.",
-    prompt: `Dame:
-- Qué dolor esconde.
-- Qué tipo de humor usa.
-- Quién sospecha que no está bien.
+    title: "Postać, która ukrywa ból za humorem",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Smutny klaun: sarkastyczny lub błyskotliwy.",
+    prompt: `Podaj:
+- Jaki ból ukrywa.
+- Jakiego humoru używa.
+- Kto podejrzewa, że nie jest z nią dobrze.
 
-Genera:
-1) Su máscara humorística.
-2) 3 chistes o bromas que revelan su herida real.
-3) Una escena donde el humor ya no lo salva.`,
+Wygeneruj:
+1) Jej humorystyczną maskę.
+2) 3 żarty lub docinki, które zdradzają prawdziwą ranę.
+3) Scenę, w której humor już jej nie ratuje.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-068",
-    title: "Personaje que descubre que quienes ama están equivocados",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Crisis moral cuando descubre la verdad sobre su gente.",
-    prompt: `Dame:
-- Qué verdad descubre.
-- Qué creía antes.
-- Qué significan para él esas personas.
+    title: "Postać, która odkrywa, że ci, których kocha, są w błędzie",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Moralny kryzys po odkryciu prawdy o swoich ludziach.",
+    prompt: `Podaj:
+- Jaką prawdę odkrywa.
+- W co wierzyła wcześniej.
+- Co znaczą dla niej te osoby.
 
-Genera:
-1) Su conflicto moral inicial.
-2) 3 escenas de desilusión progresiva.
-3) La escena donde decide confrontar, callar o abandonar.`,
+Wygeneruj:
+1) Jej początkowy konflikt moralny.
+2) 3 sceny narastającego rozczarowania.
+3) Scenę, w której decyduje: skonfrontować, milczeć czy odejść.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-069",
-    title: "Personaje que está demasiado cansado para seguir siendo héroe",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un héroe agotado emocionalmente y sin fuerzas.",
-    prompt: `Dame:
-- Qué lo agotó.
-- Qué responsabilidad carga.
-- Qué aún espera de sí mismo.
+    title: "Postać zbyt zmęczona, by dalej być bohaterem",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Bohater wyczerpany emocjonalnie i bez sił.",
+    prompt: `Podaj:
+- Co ją wykończyło.
+- Jaką odpowiedzialność dźwiga.
+- Czego wciąż oczekuje od siebie.
 
-Genera:
-1) Su desgaste físico y emocional.
-2) 3 momentos donde casi renuncia.
-3) Escena donde encuentra un motivo final para seguir… o decide parar.`,
+Wygeneruj:
+1) Jej fizyczne i emocjonalne zużycie.
+2) 3 momenty, w których prawie rezygnuje.
+3) Scenę, w której znajduje ostatni powód, by iść dalej… albo decyduje się przestać.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-070",
     title:
-      "Personaje que vive como si tuviera una segunda oportunidad… aunque nadie se la dio",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Reinvención radical sin explicación externa.",
-    prompt: `Dame:
-- Qué vida dejó atrás.
-- Qué vida eligió ahora.
-- Qué lo impulsó a ese cambio.
+      "Postać żyjąca tak, jakby dostała drugą szansę… choć nikt jej nie dał",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Radykalne przeobrażenie bez zewnętrznego wyjaśnienia.",
+    prompt: `Podaj:
+- Jakie życie zostawiła za sobą.
+- Jakie życie wybrała teraz.
+- Co ją popchnęło do tej zmiany.
 
-Genera:
-1) Su conflicto entre pasado y presente.
-2) 3 momentos donde el pasado vuelve por él.
-3) Escena donde debe demostrar quién es ahora.`,
+Wygeneruj:
+1) Jej konflikt między przeszłością a teraźniejszością.
+2) 3 momenty, gdy przeszłość do niej wraca.
+3) Scenę, w której musi udowodnić, kim jest teraz.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-071",
-    title: "Personaje que sabe mentir demasiado bien",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un mentiroso brillante, peligroso o encantador.",
-    prompt: `Dame:
-- Por qué aprendió a mentir.
-- Qué obtiene con ello.
-- Qué intenta ocultar.
+    title: "Postać, która potrafi kłamać zbyt dobrze",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Wybitny kłamca: niebezpieczny albo czarujący.",
+    prompt: `Podaj:
+- Dlaczego nauczyła się kłamać.
+- Co dzięki temu zyskuje.
+- Co próbuje ukryć.
 
-Genera:
-1) Su psicología del engaño.
-2) 3 mentiras maestras con consecuencias.
-3) Momento donde por primera vez dice la verdad.`,
+Wygeneruj:
+1) Jej psychologię oszustwa.
+2) 3 mistrzowskie kłamstwa z konsekwencjami.
+3) Moment, w którym po raz pierwszy mówi prawdę.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-072",
     title:
-      "Personaje cuya bondad es vista como una debilidad… hasta que deja de serlo",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Bondad estratégica, inesperada y poderosa.",
-    prompt: `Dame:
-- Por qué es bueno.
-- Quién se aprovecha.
-- Qué línea no cruzará.
+      "Postać, której dobroć jest postrzegana jako słabość… aż przestaje nią być",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Dobroć strategiczna, nieoczekiwana i potężna.",
+    prompt: `Podaj:
+- Dlaczego jest dobra.
+- Kto to wykorzystuje.
+- Jakiej granicy nie przekroczy.
 
-Genera:
-1) Cómo lo minimizan.
-2) 3 escenas donde su bondad parece debilidad.
-3) Escena donde demuestra ser más fuerte de lo que parece.`,
+Wygeneruj:
+1) Jak inni ją umniejszają.
+2) 3 sceny, w których dobroć wygląda na słabość.
+3) Scenę, w której pokazuje, że jest silniejsza, niż się wydaje.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-073",
-    title: "Personaje que busca venganza pero ya no recuerda por qué",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Motivación perdida, obsesión vacía.",
-    prompt: `Dame:
-- Cuál era la venganza.
-- Qué olvidó.
-- Qué lo mantiene buscando.
+    title: "Postać, która szuka zemsty, ale już nie pamięta dlaczego",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Zagubiona motywacja, pusta obsesja.",
+    prompt: `Podaj:
+- Jaka miała być zemsta.
+- Co zapomniała.
+- Co podtrzymuje jej poszukiwania.
 
-Genera:
-1) Su obsesión vacía.
-2) 3 escenas donde duda de sí mismo.
-3) Final donde encuentra verdad o cae en nihilismo total.`,
+Wygeneruj:
+1) Jej pustą obsesję.
+2) 3 sceny, w których wątpi w siebie.
+3) Finał, w którym odnajduje prawdę albo wpada w totalny nihilizm.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-074",
-    title: "Personaje que ama más la idea de alguien que a la persona real",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Idealización romántica llevada al extremo.",
-    prompt: `Dame:
-- Quién es la persona real.
-- Qué rasgo idealiza.
-- Qué realidad ignora.
+    title: "Postać, która kocha bardziej ideę kogoś niż realną osobę",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Romantyczna idealizacja doprowadzona do skrajności.",
+    prompt: `Podaj:
+- Kim jest prawdziwa osoba.
+- Jaką cechę idealizuje.
+- Jaką rzeczywistość ignoruje.
 
-Genera:
-1) Su amor ilusorio.
-2) 3 señales que muestran que la idealización es falsa.
-3) Escena donde la ilusión colapsa.`,
+Wygeneruj:
+1) Jej iluzoryczną miłość.
+2) 3 sygnały, że idealizacja jest fałszywa.
+3) Scenę, w której iluzja się rozpada.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-075",
-    title: "Personaje que siempre dice la verdad… aunque destruya todo",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Honestidad brutal como espada de doble filo.",
-    prompt: `Dame:
-- Por qué detesta mentir.
-- A quién ya ha herido con su sinceridad.
-- Qué teme que suceda.
+    title: "Postać, która zawsze mówi prawdę… nawet jeśli wszystko zniszczy",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Brutalna szczerość jako miecz obosieczny.",
+    prompt: `Podaj:
+- Dlaczego nienawidzi kłamać.
+- Kogo już zraniła swoją szczerością.
+- Czego się boi, że się stanie.
 
-Genera:
-1) Su filosofía de verdad absoluta.
-2) 3 momentos donde su sinceridad causa daño.
-3) Escena donde debe elegir entre verdad o amor.`,
+Wygeneruj:
+1) Jej filozofię absolutnej prawdy.
+2) 3 momenty, w których szczerość wyrządza krzywdę.
+3) Scenę, w której musi wybrać między prawdą a miłością.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-076",
-    title: "Personaje que tiene miedo de convertirse en lo que odia",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Miedo a repetir patrones familiares o históricos.",
-    prompt: `Dame:
-- Qué odia.
-- Quién representa eso en su vida.
-- Qué señales ya muestra de volverse igual.
+    title: "Postać, która boi się stać tym, czego nienawidzi",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Lęk przed powtórzeniem rodzinnych lub historycznych wzorców.",
+    prompt: `Podaj:
+- Czego nienawidzi.
+- Kto to reprezentuje w jej życiu.
+- Jakie sygnały już wskazują, że staje się podobna.
 
-Genera:
-1) Su paranoia de repetición.
-2) 3 momentos donde casi cruza el límite.
-3) Escena donde reconoce si ya se transformó o si aún puede detenerse.`,
+Wygeneruj:
+1) Jej paranoję powtórzenia.
+2) 3 momenty, gdy prawie przekracza granicę.
+3) Scenę, w której uznaje, czy już się zmieniła, czy wciąż może się zatrzymać.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-077",
-    title: "Personaje que cree que está destinado a ser villano",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Profecía, trauma o creencia autoconstruida.",
-    prompt: `Dame:
-- Por qué cree que será villano.
-- Qué señal lo convenció.
-- Qué lucha interna tiene.
+    title: "Postać, która wierzy, że jest przeznaczona do roli złoczyńcy",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Przepowiednia, trauma lub samodzielnie zbudowane przekonanie.",
+    prompt: `Podaj:
+- Dlaczego uważa, że będzie złoczyńcą.
+- Jaki znak ją do tego przekonał.
+- Jaką ma wewnętrzną walkę.
 
-Genera:
-1) Su identidad rota.
-2) 3 escenas de tentación hacia la oscuridad.
-3) Final donde se confirma o rompe su destino.`,
+Wygeneruj:
+1) Jej rozbitą tożsamość.
+2) 3 sceny kuszenia przez mrok.
+3) Finał, w którym przeznaczenie się potwierdza albo zostaje złamane.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-078",
-    title: "Personaje que quiere aprender a sentir de nuevo",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Trauma emocional que apagó sus emociones.",
-    prompt: `Dame:
-- Qué lo desconectó emocionalmente.
-- Qué emoción extraña más.
-- Quién intenta ayudarlo.
+    title: "Postać, która chce nauczyć się znów czuć",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Emocjonalna trauma, która wygasiła uczucia.",
+    prompt: `Podaj:
+- Co ją odłączyło emocjonalnie.
+- Jakiej emocji najbardziej jej brakuje.
+- Kto próbuje jej pomóc.
 
-Genera:
-1) Su mundo emocional apagado.
-2) 3 momentos donde algo dentro de él intenta despertar.
-3) Escena donde siente algo por primera vez en años.`,
+Wygeneruj:
+1) Jej wygaszony świat emocjonalny.
+2) 3 momenty, gdy coś w niej próbuje się obudzić.
+3) Scenę, w której czuje coś po raz pierwszy od lat.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-079",
-    title: "Personaje que protege a otros ocultando su propia debilidad",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "El protector herido que finge fuerza.",
-    prompt: `Dame:
-- Qué debilidad oculta.
-- A quién protege.
-- Qué pasaría si lo vieran vulnerable.
+    title: "Postać, która chroni innych, ukrywając własną słabość",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Zraniony obrońca, który udaje siłę.",
+    prompt: `Podaj:
+- Jaką słabość ukrywa.
+- Kogo chroni.
+- Co by się stało, gdyby ktoś zobaczył ją wrażliwą.
 
-Genera:
-1) Su máscara de fortaleza.
-2) 3 momentos donde casi descubren su fragilidad.
-3) Escena donde debe revelar la verdad para salvar a alguien.`,
+Wygeneruj:
+1) Jej maskę siły.
+2) 3 momenty, gdy jej kruchość prawie wychodzi na jaw.
+3) Scenę, w której musi ujawnić prawdę, by kogoś uratować.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-080",
-    title: "Personaje que vive atrapado entre lo que quiere y lo que debe ser",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Conflicto entre deseo personal y rol social impuesto.",
-    prompt: `Dame:
-- Qué quiere realmente.
-- Qué debe ser según su entorno.
-- Qué consecuencia tendría elegir el deseo.
+    title: "Postać rozdarta między tym, czego chce, a tym, kim musi być",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Konflikt między osobistym pragnieniem a narzuconą rolą społeczną.",
+    prompt: `Podaj:
+- Czego naprawdę chce.
+- Kim „musi być” według otoczenia.
+- Jaką konsekwencję miałby wybór pragnienia.
 
-Genera:
-1) Su conflicto interno profundo.
-2) 3 escenas donde su rol y su deseo chocan.
-3) Escena final de elección devastadora o liberadora.`,
+Wygeneruj:
+1) Jej głęboki konflikt wewnętrzny.
+2) 3 sceny, w których rola i pragnienie się zderzają.
+3) Finalną scenę niszczącego lub wyzwalającego wyboru.`,
     thumbnail: "",
   },
+
   {
     id: "personajes-081",
-    title: "Personaje que vive resentido con el destino",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje que siente que el universo le debe algo.",
-    prompt: `Dame:
-- Qué siente que el destino le arrebató.
-- En qué momento empezó su resentimiento.
-- Qué aún desea recuperar.
+    title: "Postać żyjąca w urazie do losu",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Postać, która czuje, że wszechświat jest jej coś winien.",
+    prompt: `Podaj:
+- Co czuje, że los jej odebrał.
+- W którym momencie zaczęła się uraza.
+- Co wciąż chce odzyskać.
 
-Genera:
-1) Su relación con la idea de “destino”.
-2) 3 acciones impulsadas por rencor profundo.
-3) Escena donde enfrenta la verdad: ¿el destino lo traicionó o él mismo?`,
+Wygeneruj:
+1) Jej relację z ideą „przeznaczenia”.
+2) 3 działania napędzane głęboką urazą.
+3) Scenę, w której staje przed prawdą: czy los ją zdradził, czy ona sama?`,
     thumbnail: "",
   },
 
   {
     id: "personajes-082",
-    title: "Personaje que ayuda a todos para no enfrentar su vida",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "El salvador compulsivo que evita su propio vacío.",
-    prompt: `Dame:
-- Qué evita en su vida.
-- A quién ayuda obsesivamente.
-- Qué teme enfrentar.
+    title: "Postać, która pomaga wszystkim, by nie mierzyć się z własnym życiem",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Kompulsywny wybawca uciekający od własnej pustki.",
+    prompt: `Podaj:
+- Czego unika w swoim życiu.
+- Komu pomaga obsesyjnie.
+- Czego boi się stawić czoła.
 
-Genera:
-1) Su compulsión por arreglar vidas ajenas.
-2) 3 escenas donde da demasiado.
-3) Momento donde alguien lo confronta: “¿Quién te ayuda a ti?”`,
+Wygeneruj:
+1) Jej przymus naprawiania cudzych żyć.
+2) 3 sceny, w których daje zbyt wiele.
+3) Moment, w którym ktoś ją konfrontuje: „A kto pomaga tobie?”`,
     thumbnail: "",
   },
 
   {
     id: "personajes-083",
-    title: "Personaje que solo existe en los recuerdos de otro",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Personaje metafórico o simbólico.",
-    prompt: `Dame:
-- Quién lo recuerda.
-- Qué relación tenían.
-- Qué versión distorsionada existe de él en la memoria.
+    title: "Postać, która istnieje tylko we wspomnieniach kogoś innego",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Postać metaforyczna lub symboliczna.",
+    prompt: `Podaj:
+- Kto ją wspomina.
+- Jaka była ich relacja.
+- Jaka zniekształcona wersja istnieje o niej w pamięci.
 
-Genera:
-1) Su identidad basada en recuerdos ajenos.
-2) 3 recuerdos contradictorios.
-3) Escena donde la verdad sale a la luz.`,
+Wygeneruj:
+1) Jej tożsamość opartą na cudzych wspomnieniach.
+2) 3 sprzeczne wspomnienia.
+3) Scenę, w której prawda wychodzi na jaw.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-084",
-    title: "Personaje que teme que la felicidad sea una trampa",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Trauma emocional que le impide confiar en lo bueno.",
-    prompt: `Dame:
-- Qué felicidad reciente experimentó.
-- Qué pérdida anterior lo marcó.
-- Qué señal percibe como amenaza.
+    title: "Postać, która boi się, że szczęście to pułapka",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Emocjonalna trauma uniemożliwiająca zaufanie do dobrego.",
+    prompt: `Podaj:
+- Jakiego niedawnego szczęścia doświadczyła.
+- Jaka wcześniejsza strata ją naznaczyła.
+- Jaki sygnał odbiera jako zagrożenie.
 
-Genera:
-1) Su paranoia ante lo positivo.
-2) 3 momentos donde interpreta el amor como peligro.
-3) Escena donde debe decidir confiar o huir.`,
+Wygeneruj:
+1) Jej paranoję wobec tego, co pozytywne.
+2) 3 momenty, w których uznaje miłość za niebezpieczeństwo.
+3) Scenę, w której musi zdecydować: zaufać czy uciec.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-085",
-    title: "Personaje que no cree merecer perdón",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Culpa profunda, real o imaginada.",
-    prompt: `Dame:
-- Qué hizo.
-- A quién dañó.
-- Por qué cree que el perdón es imposible.
+    title: "Postać, która nie wierzy, że zasługuje na przebaczenie",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Głęboka wina, realna albo wyobrażona.",
+    prompt: `Podaj:
+- Co zrobiła.
+- Kogo skrzywdziła.
+- Dlaczego uważa, że przebaczenie jest niemożliwe.
 
-Genera:
-1) Su identidad marcada por culpa.
-2) 3 intentos fallidos de redención.
-3) Escena donde enfrenta el perdón… o la condena.`,
+Wygeneruj:
+1) Jej tożsamość naznaczoną winą.
+2) 3 nieudane próby odkupienia.
+3) Scenę, w której staje twarzą w twarz z przebaczeniem… albo potępieniem.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-086",
-    title: "Personaje que no sabe si es el villano o el héroe",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Ambigüedad moral absoluta.",
-    prompt: `Dame:
-- Qué acción ambigua cometió.
-- Qué cree la gente.
-- Qué cree él.
+    title: "Postać, która nie wie, czy jest złoczyńcą, czy bohaterem",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Absolutna moralna niejednoznaczność.",
+    prompt: `Podaj:
+- Jakie niejednoznaczne działanie popełniła.
+- Co uważa o tym otoczenie.
+- Co uważa ona sama.
 
-Genera:
-1) Su dilema moral.
-2) 3 escenas donde se comporta heroico y cruel al mismo tiempo.
-3) Final donde el lector decide quién es.`,
+Wygeneruj:
+1) Jej moralny dylemat.
+2) 3 sceny, w których jest jednocześnie heroiczna i okrutna.
+3) Finał, w którym to czytelnik decyduje, kim jest.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-087",
-    title: "Personaje que intenta revivir un momento que ya no existe",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Obsesión nostálgica destructiva.",
-    prompt: `Dame:
-- Qué momento fue.
-- Por qué no puede superarlo.
-- Qué hace para recrearlo.
+    title: "Postać, która próbuje wskrzesić moment, który już nie istnieje",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Niszcząca obsesja nostalgii.",
+    prompt: `Podaj:
+- Jaki to był moment.
+- Dlaczego nie potrafi go odpuścić.
+- Co robi, by go odtworzyć.
 
-Genera:
-1) Su adicción a la nostalgia.
-2) 3 intentos fallidos de recreación.
-3) Momento donde acepta el duelo… o se hunde más.`,
+Wygeneruj:
+1) Jej uzależnienie od nostalgii.
+2) 3 nieudane próby odtworzenia.
+3) Moment, w którym akceptuje żałobę… albo pogrąża się jeszcze bardziej.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-088",
-    title: "Personaje que se convierte en lo que prometió destruir",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Ironía trágica y evolución oscura.",
-    prompt: `Dame:
-- Qué juró destruir.
-- Por qué.
-- Qué lo hace caer en ello.
+    title: "Postać, która staje się tym, co przysięgła zniszczyć",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Tragiczna ironia i mroczna przemiana.",
+    prompt: `Podaj:
+- Co przysięgła zniszczyć.
+- Dlaczego.
+- Co sprawia, że w to wpada.
 
-Genera:
-1) Su hipocresía involuntaria.
-2) 3 escenas donde cruza líneas.
-3) Momento donde alguien le recuerda su promesa original.`,
+Wygeneruj:
+1) Jej niezamierzoną hipokryzję.
+2) 3 sceny, w których przekracza granice.
+3) Moment, w którym ktoś przypomina jej pierwotną obietnicę.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-089",
-    title: "Personaje que no puede dejar de buscar la verdad, aunque duela",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Investigador obsesivo, periodista, detective o similar.",
-    prompt: `Dame:
-- Qué verdad busca.
-- Por qué se volvió obsesión.
-- Qué perderá si la encuentra.
+    title: "Postać, która nie potrafi przestać szukać prawdy, choć boli",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Obsesyjny badacz, dziennikarz, detektyw lub podobny typ.",
+    prompt: `Podaj:
+- Jakiej prawdy szuka.
+- Dlaczego stało się to obsesją.
+- Co straci, jeśli ją znajdzie.
 
-Genera:
-1) Su compulsión por conocer todo.
-2) 3 escenas donde la verdad lo hiere.
-3) Final donde decide revelar o silenciar la verdad.`,
+Wygeneruj:
+1) Jej przymus poznania wszystkiego.
+2) 3 sceny, w których prawda ją rani.
+3) Finał, w którym decyduje: ujawnić czy uciszyć prawdę.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-090",
-    title: "Personaje que tiene miedo de ser olvidado",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje que lucha contra la insignificancia.",
-    prompt: `Dame:
-- Qué lo hace sentir invisible.
-- Qué logro desea ser recordado por.
-- Quién actúa como su espejo.
+    title: "Postać, która boi się zostać zapomniana",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Postać walcząca z poczuciem nieistotności.",
+    prompt: `Podaj:
+- Co sprawia, że czuje się niewidzialna.
+- Jakie osiągnięcie chce, by ją zapamiętano.
+- Kto jest jej lustrem.
 
-Genera:
-1) Su miedo al olvido.
-2) 3 momentos donde hace cosas solo para ser visto.
-3) Escena donde enfrenta su verdadera relevancia.`,
+Wygeneruj:
+1) Jej lęk przed zapomnieniem.
+2) 3 momenty, w których robi coś tylko po to, by zostać zauważoną.
+3) Scenę, w której mierzy się ze swoją prawdziwą „ważnością”.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-091",
-    title: "Personaje que quiere destruir todo lo que ama para no sufrirlo",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Mecanismo de defensa extremo.",
-    prompt: `Dame:
-- Qué teme perder.
-- Qué destruye primero.
-- Qué lo gatilla emocionalmente.
+    title: "Postać, która chce zniszczyć wszystko, co kocha, żeby nie cierpieć",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Skrajny mechanizm obronny.",
+    prompt: `Podaj:
+- Czego boi się utracić.
+- Co niszczy jako pierwsze.
+- Co ją emocjonalnie wyzwala.
 
-Genera:
-1) Su lógica del autosabotaje.
-2) 3 destrucciones simbólicas.
-3) Momento donde decide si destruye o salva lo que queda.`,
+Wygeneruj:
+1) Jej logikę autosabotażu.
+2) 3 symboliczne zniszczenia.
+3) Moment, w którym decyduje: zniszczyć czy ocalić to, co zostało.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-092",
-    title: "Personaje que se inventa versiones de sí mismo para cada persona",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Identidad fracturada y camaleónica.",
-    prompt: `Dame:
-- Su versión pública.
-- Su versión íntima.
-- Su versión secreta.
+    title: "Postać, która wymyśla różne wersje siebie dla każdej osoby",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Rozbita, kameleonowa tożsamość.",
+    prompt: `Podaj:
+- Jej wersję publiczną.
+- Jej wersję intymną.
+- Jej wersję tajną.
 
-Genera:
-1) Cómo actúa con cada persona.
-2) 3 momentos donde sus versiones chocan.
-3) Escena donde sus máscaras se rompen todas a la vez.`,
+Wygeneruj:
+1) Jak zachowuje się z każdą osobą.
+2) 3 momenty, w których wersje się zderzają.
+3) Scenę, w której wszystkie maski pękają naraz.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-093",
-    title: "Personaje que ama a alguien que nunca existió realmente",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Idealización absoluta de un ser imaginado o reconstruido.",
-    prompt: `Dame:
-- Quién cree que es.
-- Quién era de verdad.
-- Qué verdad evita aceptar.
+    title: "Postać, która kocha kogoś, kto nigdy naprawdę nie istniał",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Totalna idealizacja wyobrażonej lub zrekonstruowanej osoby.",
+    prompt: `Podaj:
+- Za kogo ją uważa.
+- Kim była naprawdę.
+- Jakiej prawdy unika zaakceptować.
 
-Genera:
-1) Su amor ilusorio.
-2) 3 contradicciones entre la realidad y su fantasía.
-3) Escena donde el espejismo se rompe.`,
+Wygeneruj:
+1) Jej iluzoryczną miłość.
+2) 3 sprzeczności między rzeczywistością a fantazją.
+3) Scenę, w której miraż pęka.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-094",
-    title: "Personaje que cambia de moral según quién lo mire",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Ambigüedad social influenciable.",
-    prompt: `Dame:
-- Qué principio dice defender.
-- Qué persona influye en él.
-- Qué momento clave lo moldeó.
+    title: "Postać, której moralność zmienia się w zależności od tego, kto patrzy",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Wpływowalna, społeczna niejednoznaczność.",
+    prompt: `Podaj:
+- Jakiej zasady twierdzi, że broni.
+- Kto na nią wpływa.
+- Jaki kluczowy moment ją ukształtował.
 
-Genera:
-1) Su moral moldeable.
-2) 3 escenas donde cambia según la compañía.
-3) Momento donde debe elegir una moral definitiva.`,
+Wygeneruj:
+1) Jej podatną na wpływ moralność.
+2) 3 sceny, w których zmienia się w zależności od towarzystwa.
+3) Moment, w którym musi wybrać jedną, ostateczną moralność.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-095",
-    title: "Personaje que vive en negación absoluta",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Se niega a ver una verdad obvia para todos excepto él.",
-    prompt: `Dame:
-- Qué verdad rechaza.
-- Por qué es insoportable.
-- Quién intenta abrirle los ojos.
+    title: "Postać żyjąca w absolutnym zaprzeczeniu",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Odrzuca oczywistą prawdę dla wszystkich poza nią.",
+    prompt: `Podaj:
+- Jaką prawdę odrzuca.
+- Dlaczego jest nie do zniesienia.
+- Kto próbuje otworzyć jej oczy.
 
-Genera:
-1) Su mecanismo de negación.
-2) 3 momentos donde la verdad intenta entrar.
-3) Escena donde se rompe la negación.`,
+Wygeneruj:
+1) Jej mechanizm zaprzeczania.
+2) 3 momenty, w których prawda próbuje się przebić.
+3) Scenę, w której zaprzeczenie pęka.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-096",
-    title: "Personaje que tiene un talento que arruina su vida",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un talento que se convierte en maldición.",
-    prompt: `Dame:
-- Qué talento es.
-- Cómo lo perjudica.
-- Quién lo exige o explota.
+    title: "Postać z talentem, który rujnuje jej życie",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Talent, który staje się klątwą.",
+    prompt: `Podaj:
+- Jaki to talent.
+- Jak jej szkodzi.
+- Kto go żąda lub wykorzystuje.
 
-Genera:
-1) Su relación amor-odio con su talento.
-2) 3 escenas donde su don lo destruye.
-3) Escena decisiva donde renuncia o lo abraza.`,
+Wygeneruj:
+1) Jej relację miłość–nienawiść z talentem.
+2) 3 sceny, w których dar ją niszczy.
+3) Decydującą scenę, w której rezygnuje z niego albo go przyjmuje.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-097",
-    title: "Personaje que no soporta que lo amen",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un personaje que empuja a todos lejos por miedo a ser visto.",
-    prompt: `Dame:
-- Qué lo hace rechazar el amor.
-- Qué herida original tiene.
-- Quién intenta amarlo.
+    title: "Postać, która nie znosi, gdy ktoś ją kocha",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Odsuwa wszystkich z lęku przed byciem „zobaczoną”.",
+    prompt: `Podaj:
+- Co sprawia, że odrzuca miłość.
+- Jaką ma pierwotną ranę.
+- Kto próbuje ją kochać.
 
-Genera:
-1) Su miedo a la intimidad.
-2) 3 momentos donde huye del amor.
-3) Escena donde permite ser amado por primera vez… o destruye la relación.`,
+Wygeneruj:
+1) Jej lęk przed bliskością.
+2) 3 momenty, w których ucieka od miłości.
+3) Scenę, w której pozwala się kochać po raz pierwszy… albo niszczy relację.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-098",
-    title: "Personaje que vive bajo una mentira familiar",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Un secreto familiar que sostiene su identidad.",
-    prompt: `Dame:
-- La mentira.
-- Quién la creó.
-- Qué pasaría si se descubre.
+    title: "Postać żyjąca pod rodzinny kłamstwem",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Rodzinny sekret podtrzymujący jej tożsamość.",
+    prompt: `Podaj:
+- Kłamstwo.
+- Kto je stworzył.
+- Co by się stało, gdyby wyszło na jaw.
 
-Genera:
-1) Su vida basada en ficción.
-2) 3 pistas crecientes sobre la verdad.
-3) Momento donde toda la estructura familiar colapsa.`,
+Wygeneruj:
+1) Jej życie zbudowane na fikcji.
+2) 3 narastające wskazówki prowadzące do prawdy.
+3) Moment, w którym cała rodzinna konstrukcja się wali.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-099",
-    title: "Personaje que nunca aprendió a decir 'no'",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "El complaciente eterno que se destruye por dentro.",
-    prompt: `Dame:
-- A quién no puede decirle no.
-- Qué consecuencia tiene.
-- Qué miedo lo detiene.
+    title: "Postać, która nigdy nie nauczyła się mówić „nie”",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Wieczny „zadowalacz”, który niszczy się od środka.",
+    prompt: `Podaj:
+- Komu nie potrafi odmówić.
+- Jakie to ma konsekwencje.
+- Jaki strach ją powstrzymuje.
 
-Genera:
-1) Su compulsión de complacer.
-2) 3 momentos donde sacrifica demasiado.
-3) Escena donde por primera vez dice “no” y todo cambia.`,
+Wygeneruj:
+1) Jej przymus zadowalania.
+2) 3 momenty, w których poświęca zbyt wiele.
+3) Scenę, w której po raz pierwszy mówi „nie” i wszystko się zmienia.`,
     thumbnail: "",
   },
 
   {
     id: "personajes-100",
-    title: "Personaje que descubre que su mayor enemigo siempre fue él mismo",
-    area: "Escritura Creativa",
-    category: "Personajes",
-    summary: "Autodestrucción interna, traumas y revelación final.",
-    prompt: `Dame:
-- Qué creía que era su enemigo externo.
-- Qué verdad descubre.
-- Qué parte de él lo saboteaba.
+    title: "Postać, która odkrywa, że jej największym wrogiem zawsze była ona sama",
+    area: "Pisanie Kreatywne",
+    category: "Postacie",
+    summary: "Wewnętrzna autodestrukcja, traumy i finalne objawienie.",
+    prompt: `Podaj:
+- Kogo uważała za zewnętrznego wroga.
+- Jaką prawdę odkrywa.
+- Jaka część jej samej ją sabotowała.
 
-Genera:
-1) Su viaje de autodescubrimiento oscuro.
-2) 3 escenas donde su enemigo interno actúa sin que él lo note.
-3) Final revelador donde se enfrenta a sí mismo literalmente o metafóricamente.`,
+Wygeneruj:
+1) Jej mroczną podróż samopoznania.
+2) 3 sceny, w których wewnętrzny wróg działa, a ona tego nie zauważa.
+3) Finał, w którym konfrontuje się ze sobą dosłownie lub metaforycznie.`,
     thumbnail: "",
   },
 ];

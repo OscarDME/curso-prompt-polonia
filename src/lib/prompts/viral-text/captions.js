@@ -1,581 +1,581 @@
 // src/lib/prompts/viral-text/captions.js
-// Área y categoría ÚNICAS para TODO este archivo:
-const AREA = "Captions";
-const CATEGORY = "Titulares + primera línea";
+// Unikalny obszar i kategoria dla CAŁEGO tego pliku:
+const AREA = "Podpisy";
+const CATEGORY = "Nagłówki + pierwsza linia";
 
 export const viralTextPromptsCaptions = [
   {
     id: "viral-caption-titulares-001",
-    title: "20 titulares con beneficio + curiosidad",
-    summary: "Titulares cortos para abrir loop en la primera línea.",
+    title: "20 nagłówków z korzyścią + ciekawością",
+    summary: "Krótkie nagłówki, które otwierają pętlę w pierwszej linii.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 titulares (máx 9 palabras) para un post sobre [TEMA] dirigido a [AUDIENCIA].
-Reglas:
-- Deben prometer un beneficio concreto.
-- Deben incluir un micro “curiosity gap”.
-- Sin exagerar (“garantizado”, “millones”, etc.).
-Entrega en lista numerada.`,
+    prompt: `Wygeneruj 20 nagłówków (max 9 słów) do posta o [TEMAT] skierowanego do [ODBIORCY].
+Zasady:
+- Muszą obiecywać konkretną korzyść.
+- Muszą zawierać mikro „lukę ciekawości”.
+- Bez przesady („gwarantowane”, „miliony” itd.).
+Podaj w numerowanej liście.`,
   },
   {
     id: "viral-caption-titulares-002",
-    title: "Titulares con 'lo que nadie te dice'",
-    summary: "Variaciones de la misma idea sin repetición.",
+    title: "Nagłówki w stylu „Czego nikt ci nie mówi”",
+    summary: "Warianty tej samej idei bez powtórek.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 25 titulares para [TEMA] usando la idea “Lo que nadie te dice…”.
-Cada titular debe ser único y específico (menciona un detalle real).
-Máximo 10 palabras.`,
+    prompt: `Stwórz 25 nagłówków dla [TEMAT] używając idei „Czego nikt ci nie mówi…”.
+Każdy nagłówek ma być unikalny i konkretny (wspomnij prawdziwy szczegół).
+Maksymalnie 10 słów.`,
   },
   {
     id: "viral-caption-titulares-003",
-    title: "Primera línea estilo conversación",
-    summary: "Aperturas que suenan como DM y enganchan.",
+    title: "Pierwsza linia w stylu rozmowy",
+    summary: "Otwarcia brzmiące jak DM i wciągające.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 30 primeras líneas para caption que parezcan una conversación real.
-Tema: [TEMA]. Audiencia: [AUDIENCIA].
-Reglas:
-- Empieza con “Oye,” o “Te juro,” o “Mira,” (repartido).
-- 6–12 palabras.
-- Debe invitar a seguir leyendo.`,
+    prompt: `Napisz 30 pierwszych linijek do podpisu (caption), które brzmią jak prawdziwa rozmowa.
+Temat: [TEMAT]. Odbiorcy: [ODBIORCY].
+Zasady:
+- Zacznij od „Hej,” albo „Przysięgam,” albo „Słuchaj,” (wymieszaj).
+- 6–12 słów.
+- Ma zachęcać do czytania dalej.`,
   },
   {
     id: "viral-caption-titulares-004",
-    title: "Titulares con números realistas",
-    summary: "Números para credibilidad sin humo.",
+    title: "Nagłówki z realistycznymi liczbami",
+    summary: "Liczby dla wiarygodności bez ściemy.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 25 titulares con números realistas para [TEMA].
-Ejemplos de números permitidos: 3, 5, 7, 10, 30, 60, 90.
-Evita “100x”, “millonario”, “en 1 día”.
-Máximo 11 palabras.`,
+    prompt: `Daj mi 25 nagłówków z realistycznymi liczbami dla [TEMAT].
+Przykładowe dozwolone liczby: 3, 5, 7, 10, 30, 60, 90.
+Unikaj „100x”, „milioner”, „w 1 dzień”.
+Maksymalnie 11 słów.`,
   },
   {
     id: "viral-caption-titulares-005",
-    title: "Titulares anti-mito",
-    summary: "Desmitificar sin agresión.",
+    title: "Nagłówki obalające mity",
+    summary: "Obalanie mitów bez agresji.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 titulares que rompan un mito común en [NICHO].
-Estructura: “Mito: [X]. Realidad: [Y].”
-Mantén [X] y [Y] cortos (máx 6 palabras cada uno).`,
+    prompt: `Wygeneruj 20 nagłówków, które obalają popularny mit w [NISZA].
+Struktura: „Mit: [X]. Rzeczywistość: [Y].”
+[X] i [Y] krótkie (max 6 słów każde).`,
   },
   {
     id: "viral-caption-titulares-006",
-    title: "Primera línea con confesión",
-    summary: "Confesión breve que abre loop.",
+    title: "Pierwsza linia z wyznaniem",
+    summary: "Krótkie wyznanie otwierające pętlę.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 25 primeras líneas de caption tipo confesión para [TEMA].
-Reglas:
-- Deben empezar con “Confieso que…”, “Me di cuenta que…”, o “Antes yo…”.
-- 8–14 palabras.
-- Deben insinuar un aprendizaje para el lector.`,
+    prompt: `Napisz 25 pierwszych linijek caption w formie wyznania dla [TEMAT].
+Zasady:
+- Muszą zaczynać się od „Przyznaję, że…”, „Zauważyłem(am), że…”, albo „Kiedyś ja…”.
+- 8–14 słów.
+- Mają sugerować lekcję dla czytelnika.`,
   },
   {
     id: "viral-caption-titulares-007",
-    title: "Titulares tipo checklist",
-    summary: "Hooks de lista para guardar.",
+    title: "Nagłówki typu checklist",
+    summary: "Hooki w formie listy do zapisania.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 titulares tipo checklist para [TEMA].
-Plantillas posibles:
-- “Checklist: si te pasa X, haz Y”
-- “Antes de hacer X, revisa esto”
-- “Si quieres X, no olvides esto”
-Máximo 12 palabras.`,
+    prompt: `Stwórz 20 nagłówków w stylu checklist dla [TEMAT].
+Możliwe szablony:
+- „Checklist: jeśli masz X, zrób Y”
+- „Zanim zrobisz X, sprawdź to”
+- „Jeśli chcesz X, nie zapomnij o tym”
+Maksymalnie 12 słów.`,
   },
   {
     id: "viral-caption-titulares-008",
-    title: "Titulares con 'te estás saboteando'",
-    summary: "Dolor + solución implícita.",
+    title: "Nagłówki z „sam(a) siebie sabotujesz”",
+    summary: "Ból + domyślne rozwiązanie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 25 titulares para [AUDIENCIA] sobre autosabotaje en [TEMA].
-Inicia con “Te estás saboteando cuando…”
-Cierra con una consecuencia clara.
-Máximo 12 palabras.`,
+    prompt: `Daj 25 nagłówków dla [ODBIORCY] o autosabotażu w [TEMAT].
+Zacznij od „Sam(a) siebie sabotujesz, gdy…”
+Zakończ jasną konsekwencją.
+Maksymalnie 12 słów.`,
   },
   {
     id: "viral-caption-titulares-009",
-    title: "Titulares con contraste 'antes/después'",
-    summary: "Contraste visual para alta retención.",
+    title: "Nagłówki z kontrastem „przed/po”",
+    summary: "Wizualny kontrast dla wysokiej retencji.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 titulares con estructura “Antes / Después” para [TEMA].
-Ejemplo: “Antes: X. Después: Y.”
-Que X sea un dolor y Y un resultado realista.
-Máximo 14 palabras total.`,
+    prompt: `Stwórz 20 nagłówków w strukturze „Przed / Po” dla [TEMAT].
+Przykład: „Przed: X. Po: Y.”
+X ma być bólem, a Y realistycznym rezultatem.
+Maksymalnie 14 słów łącznie.`,
   },
   {
     id: "viral-caption-titulares-010",
-    title: "Primera línea con pregunta incómoda",
-    summary: "Pregunta directa que obliga a responder mentalmente.",
+    title: "Pierwsza linia z niewygodnym pytaniem",
+    summary: "Bezpośrednie pytanie, które zmusza do mentalnej odpowiedzi.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 30 primeras líneas en forma de pregunta “incómoda pero útil” para [AUDIENCIA] sobre [TEMA].
-Reglas:
-- 8–12 palabras.
-- Evita juzgar o insultar.
-- Debe apuntar a un comportamiento específico.`,
+    prompt: `Napisz 30 pierwszych linijek w formie „niewygodnego, ale pomocnego” pytania dla [ODBIORCY] o [TEMAT].
+Zasady:
+- 8–12 słów.
+- Bez oceniania i obrażania.
+- Ma celować w konkretne zachowanie.`,
   },
 
   {
     id: "viral-caption-titulares-011",
-    title: "Titulares 'haz esto en vez de eso'",
-    summary: "Comparación directa para claridad.",
+    title: "Nagłówki „zrób to zamiast tamtego”",
+    summary: "Bezpośrednie porównanie dla jasności.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 25 titulares para [TEMA] con la plantilla:
-“En vez de [X], haz [Y].”
-[X] y [Y] deben ser acciones concretas.
-Máximo 11 palabras.`,
+    prompt: `Wygeneruj 25 nagłówków dla [TEMAT] według szablonu:
+„Zamiast [X], zrób [Y].”
+[X] i [Y] muszą być konkretnymi działaniami.
+Maksymalnie 11 słów.`,
   },
   {
     id: "viral-caption-titulares-012",
-    title: "Primera línea con mini-historia",
-    summary: "Micro story para abrir loop en una frase.",
+    title: "Pierwsza linia z mini-historią",
+    summary: "Mikro historia, która otwiera pętlę w jednym zdaniu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 primeras líneas que parezcan el inicio de una historia real.
-Tema: [TEMA]. Audiencia: [AUDIENCIA].
-Reglas:
-- Incluye 1 detalle específico (lugar, hora, número).
-- Máximo 14 palabras.
-- Debe terminar con “y ahí entendí algo”.`,
+    prompt: `Napisz 20 pierwszych linijek, które brzmią jak początek prawdziwej historii.
+Temat: [TEMAT]. Odbiorcy: [ODBIORCY].
+Zasady:
+- Dodaj 1 konkretny detal (miejsce, godzina, liczba).
+- Maksymalnie 14 słów.
+- Musi kończyć się „i wtedy coś zrozumiałem(am)”.`,
   },
   {
     id: "viral-caption-titulares-013",
-    title: "Titulares con promesa de plantilla",
-    summary: "Enganche para comentario/DM.",
+    title: "Nagłówki z obietnicą szablonu",
+    summary: "Hook pod komentarz/DM.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 titulares que prometan una plantilla sin sonar a venta dura.
-Incluye “plantilla” o “guía” o “checklist”.
-Tema: [TEMA].
-Máximo 12 palabras.`,
+    prompt: `Stwórz 20 nagłówków obiecujących szablon bez brzmienia jak twarda sprzedaż.
+Uwzględnij „szablon” lub „poradnik” lub „checklistę”.
+Temat: [TEMAT].
+Maksymalnie 12 słów.`,
   },
   {
     id: "viral-caption-titulares-014",
-    title: "Titulares con 'si yo empezara hoy'",
-    summary: "Aperturas tipo mentor que generan confianza.",
+    title: "Nagłówki „gdybym zaczynał(a) dziś”",
+    summary: "Mentorski ton budujący zaufanie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 20 titulares que empiecen con:
-“Si yo empezara hoy en [TEMA]…”
-Debe terminar con una acción concreta.
-Máximo 13 palabras.`,
+    prompt: `Daj 20 nagłówków zaczynających się od:
+„Gdybym zaczynał(a) dziś w [TEMAT]…”
+Zakończ konkretnym działaniem.
+Maksymalnie 13 słów.`,
   },
   {
     id: "viral-caption-titulares-015",
-    title: "Primera línea 'te voy a ahorrar tiempo'",
-    summary: "Promesa de ahorro de tiempo realista.",
+    title: "Pierwsza linia „zaoszczędzę ci czas”",
+    summary: "Realistyczna obietnica oszczędności czasu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 25 primeras líneas para caption con promesa de ahorrar tiempo.
-Plantillas:
-- “Te voy a ahorrar X horas con esto…”
-- “Esto te evita X errores…”
-Usa números realistas. Tema: [TEMA].`,
+    prompt: `Napisz 25 pierwszych linijek do caption z obietnicą oszczędzenia czasu.
+Szablony:
+- „Zaoszczędzę ci X godzin dzięki temu…”
+- „To pozwoli ci uniknąć X błędów…”
+Używaj realistycznych liczb. Temat: [TEMAT].`,
   },
   {
     id: "viral-caption-titulares-016",
-    title: "Titulares con 'la parte que ignoras'",
-    summary: "Foco en lo invisible/importante.",
+    title: "Nagłówki „część, którą ignorujesz”",
+    summary: "Skupienie na niewidocznym/kluczowym.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 25 titulares para [TEMA] sobre “la parte que ignoras”.
-Debe incluir un objeto claro: “tu oferta”, “tu primer segundo”, “tu CTA”, etc.
-Máximo 12 palabras.`,
+    prompt: `Wygeneruj 25 nagłówków dla [TEMAT] o „części, którą ignorujesz”.
+Musi zawierać jasny obiekt: „twoja oferta”, „pierwsza sekunda”, „twoje CTA” itd.
+Maksymalnie 12 słów.`,
   },
   {
     id: "viral-caption-titulares-017",
-    title: "Primera línea con reto",
-    summary: "Reto directo para comentario/engagement.",
+    title: "Pierwsza linia z wyzwaniem",
+    summary: "Proste wyzwanie pod komentarze/engagement.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 primeras líneas que sean un reto para [AUDIENCIA] sobre [TEMA].
-Reglas:
-- Empieza con “Reto:”
-- Una sola frase.
-- Termina con “¿te animas?”`,
+    prompt: `Stwórz 20 pierwszych linijek będących wyzwaniem dla [ODBIORCY] w temacie [TEMAT].
+Zasady:
+- Zacznij od „Wyzwanie:”
+- Jedno zdanie.
+- Zakończ „dasz radę?”`,
   },
   {
     id: "viral-caption-titulares-018",
-    title: "Titulares 'deja de hacer esto'",
-    summary: "Prohibición suave para llamar atención.",
+    title: "Nagłówki „przestań robić to”",
+    summary: "Delikatny zakaz, by przyciągnąć uwagę.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 30 titulares que empiecen con:
-“Deja de hacer esto en [TEMA]…”
-Luego agrega un porqué corto (máx 6 palabras).
-No uses agresividad.`,
+    prompt: `Napisz 30 nagłówków zaczynających się od:
+„Przestań robić to w [TEMAT]…”
+Potem dodaj krótkie „dlaczego” (max 6 słów).
+Bez agresji.`,
   },
   {
     id: "viral-caption-titulares-019",
-    title: "Primera línea con 'no estás solo'",
-    summary: "Empatía para retener audiencias inseguras.",
+    title: "Pierwsza linia „nie jesteś sam(a)”",
+    summary: "Empatia dla niepewnych odbiorców.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 primeras líneas empáticas para [AUDIENCIA] sobre [DOLOR].
-Reglas:
-- Deben incluir “no estás solo” o “nos pasa a todos” (variado).
-- Deben prometer una solución en el post/video.
-- Máximo 14 palabras.`,
+    prompt: `Napisz 20 empatycznych pierwszych linijek dla [ODBIORCY] o [BÓL].
+Zasady:
+- Muszą zawierać „nie jesteś sam(a)” lub „to spotyka nas wszystkich” (różnie).
+- Muszą obiecywać rozwiązanie w poście/wideo.
+- Maksymalnie 14 słów.`,
   },
   {
     id: "viral-caption-titulares-020",
-    title: "Titulares tipo 'errores comunes'",
-    summary: "Clásico guardable.",
+    title: "Nagłówki typu „częste błędy”",
+    summary: "Klasyk do zapisywania.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 25 titulares estilo “Errores comunes” para [TEMA].
-Ejemplos:
-- “3 errores comunes que te cuestan X”
-- “Los errores que te frenan en X”
-Usa números realistas y lenguaje claro.`,
+    prompt: `Daj 25 nagłówków w stylu „Częste błędy” dla [TEMAT].
+Przykłady:
+- „3 częste błędy, które kosztują cię X”
+- „Błędy, które blokują cię w X”
+Używaj realistycznych liczb i jasnego języka.`,
   },
 
   {
     id: "viral-caption-titulares-021",
-    title: "Primera línea con 'esto cambia el juego'",
-    summary: "Aperturas potentes sin humo.",
+    title: "Pierwsza linia „to zmienia grę”",
+    summary: "Mocne otwarcia bez ściemy.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 25 primeras líneas con “esto cambia el juego”.
-Reglas:
-- Deben mencionar el “esto” (acción concreta).
-- Sin promesas absolutas.
-Tema: [TEMA]. Audiencia: [AUDIENCIA].`,
+    prompt: `Napisz 25 pierwszych linijek z „to zmienia grę”.
+Zasady:
+- Muszą wskazywać, czym jest „to” (konkretne działanie).
+- Bez absolutnych obietnic.
+Temat: [TEMAT]. Odbiorcy: [ODBIORCY].`,
   },
   {
     id: "viral-caption-titulares-022",
-    title: "Titulares con analogía simple",
-    summary: "Metáforas cortas para explicar ideas difíciles.",
+    title: "Nagłówki z prostą analogią",
+    summary: "Krótkie metafory do wyjaśniania trudnych idei.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 titulares con analogías simples para [TEMA].
-Ejemplo: “Tu oferta es como un menú: si confunde, no compran.”
-Máximo 16 palabras.`,
+    prompt: `Wygeneruj 20 nagłówków z prostymi analogiami dla [TEMAT].
+Przykład: „Twoja oferta jest jak menu: jeśli myli, nie kupują.”
+Maksymalnie 16 słów.`,
   },
   {
     id: "viral-caption-titulares-023",
-    title: "Primera línea estilo 'te lo explico fácil'",
-    summary: "Promete claridad inmediata.",
+    title: "Pierwsza linia „wytłumaczę ci prosto”",
+    summary: "Obietnica natychmiastowej jasności.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 30 primeras líneas estilo:
-“Te lo explico fácil: …”
-Debe introducir [TEMA] y prometer una explicación en 3 pasos.
-Máximo 14 palabras.`,
+    prompt: `Napisz 30 pierwszych linijek w stylu:
+„Wytłumaczę ci prosto: …”
+Musi wprowadzić [TEMAT] i obiecać wyjaśnienie w 3 krokach.
+Maksymalnie 14 słów.`,
   },
   {
     id: "viral-caption-titulares-024",
-    title: "Titulares con 'lo probé para que tú no'",
-    summary: "Autoridad por experiencia.",
+    title: "Nagłówki „sprawdziłem(am), żebyś ty nie musiał(a)”",
+    summary: "Autorytet przez doświadczenie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 titulares con:
-“Lo probé para que tú no…”
-Tema: [TEMA]. Audiencia: [AUDIENCIA].
-Incluye consecuencia realista y aprendizaje implícito.`,
+    prompt: `Stwórz 20 nagłówków z:
+„Sprawdziłem(am) to, żebyś ty nie…” 
+Temat: [TEMAT]. Odbiorcy: [ODBIORCY].
+Dodaj realistyczną konsekwencję i ukrytą lekcję.`,
   },
   {
     id: "viral-caption-titulares-025",
-    title: "Primera línea con una cifra que duele",
-    summary: "Cifra realista que dispara atención.",
+    title: "Pierwsza linia z liczbą, która boli",
+    summary: "Realistyczna liczba, która przykuwa uwagę.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 primeras líneas que incluyan una cifra “que duele” (realista) sobre [TEMA].
-Ej: “Perdí 3 horas por no hacer esto…”
-No uses cifras absurdas. Máximo 14 palabras.`,
+    prompt: `Napisz 20 pierwszych linijek z „bolesną” liczbą (realistyczną) o [TEMAT].
+Np.: „Straciłem(am) 3 godziny, bo nie zrobiłem(am) tego…”
+Bez absurdalnych liczb. Maksymalnie 14 słów.`,
   },
   {
     id: "viral-caption-titulares-026",
-    title: "Titulares para 'guárdalo'",
-    summary: "Enfoque guardable desde el inicio.",
+    title: "Nagłówki na „zapisz to”",
+    summary: "Od początku pod kątem zapisywania.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 25 titulares que hagan que la gente quiera guardar el post/video.
-Debe insinuar:
-- checklist
-- pasos
-- plantilla
-Tema: [TEMA]. Máximo 12 palabras.`,
+    prompt: `Wygeneruj 25 nagłówków, które sprawią, że ludzie będą chcieli zapisać post/wideo.
+Musi sugerować:
+- checklistę
+- kroki
+- szablon
+Temat: [TEMAT]. Maksymalnie 12 słów.`,
   },
   {
     id: "viral-caption-titulares-027",
-    title: "Primera línea con micro-promesa",
-    summary: "Micro promesa clara en 1 frase.",
+    title: "Pierwsza linia z mikro-obietnicą",
+    summary: "Jasna mikro obietnica w jednym zdaniu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 30 primeras líneas con promesa breve para [AUDIENCIA].
-Plantilla: “Hoy te llevas [BENEFICIO] en [TIEMPO].”
-[TIEMPO] realista (30s, 2min, 5min).
-Tema: [TEMA].`,
+    prompt: `Stwórz 30 pierwszych linijek z krótką obietnicą dla [ODBIORCY].
+Szablon: „Dziś wyniesiesz [KORZYŚĆ] w [CZAS].”
+[CZAS] realistyczny (30s, 2min, 5min).
+Temat: [TEMAT].`,
   },
   {
     id: "viral-caption-titulares-028",
-    title: "Titulares con 'si haces X, pasa Y'",
-    summary: "Causa-efecto fácil de entender.",
+    title: "Nagłówki „jeśli robisz X, dzieje się Y”",
+    summary: "Prosty związek przyczynowo-skutkowy.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 25 titulares causa-efecto:
-“Si haces [X], pasa [Y].”
-Para [TEMA]. [X] y [Y] deben ser concretos.
-Máximo 13 palabras.`,
+    prompt: `Napisz 25 nagłówków przyczyna-skutek:
+„Jeśli robisz [X], dzieje się [Y].”
+Dla [TEMAT]. [X] i [Y] muszą być konkretne.
+Maksymalnie 13 słów.`,
   },
   {
     id: "viral-caption-titulares-029",
-    title: "Primera línea con 'te voy a decir algo'",
-    summary: "Apertura de confesión/secretito.",
+    title: "Pierwsza linia „powiem ci coś”",
+    summary: "Otwarcie jak sekret/wyznanie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 30 primeras líneas que empiecen con:
-“Te voy a decir algo:”
-Tema: [TEMA].
-Que lo que sigue sea específico y útil (no vago).`,
+    prompt: `Daj 30 pierwszych linijek zaczynających się od:
+„Powiem ci coś:”
+Temat: [TEMAT].
+To, co dalej, ma być konkretne i przydatne (nie ogólne).`,
   },
   {
     id: "viral-caption-titulares-030",
-    title: "Titulares con 'no es X, es Y'",
-    summary: "Reencuadre potente para scroll-stopper.",
+    title: "Nagłówki „to nie X, to Y”",
+    summary: "Mocne przeformułowanie na scroll-stopper.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 25 titulares con:
-“No es [X], es [Y].”
-Tema: [TEMA]. Audiencia: [AUDIENCIA].
-[X] debe ser una creencia común; [Y] debe ser la causa real.`,
+    prompt: `Wygeneruj 25 nagłówków z:
+„To nie [X], to [Y].”
+Temat: [TEMAT]. Odbiorcy: [ODBIORCY].
+[X] ma być popularnym przekonaniem; [Y] prawdziwą przyczyną.`,
   },
 
   {
     id: "viral-caption-titulares-031",
-    title: "Primera línea para contenido educativo",
-    summary: "Aperturas didácticas sin ser aburridas.",
+    title: "Pierwsza linia do treści edukacyjnych",
+    summary: "Didaktyczne otwarcia bez nudy.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 25 primeras líneas educativas para [TEMA].
-Reglas:
-- Deben prometer “en 3 puntos”.
-- Deben incluir un beneficio práctico.
-- Máximo 14 palabras.`,
+    prompt: `Napisz 25 edukacyjnych pierwszych linijek dla [TEMAT].
+Zasady:
+- Muszą obiecywać „w 3 punktach”.
+- Muszą zawierać praktyczną korzyść.
+- Maksymalnie 14 słów.`,
   },
   {
     id: "viral-caption-titulares-032",
-    title: "Titulares con 'lo que haría en tu lugar'",
-    summary: "Mentoría y cercanía.",
+    title: "Nagłówki „na twoim miejscu”",
+    summary: "Mentoring i bliskość.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 titulares que empiecen con:
-“En tu lugar, yo haría esto…”
-Tema: [TEMA].
-Debe terminar con una acción concreta. Máximo 14 palabras.`,
+    prompt: `Stwórz 20 nagłówków zaczynających się od:
+„Na twoim miejscu zrobił(a)bym tak…”
+Temat: [TEMAT].
+Musi kończyć się konkretnym działaniem. Maksymalnie 14 słów.`,
   },
   {
     id: "viral-caption-titulares-033",
-    title: "Primera línea con advertencia",
-    summary: "Advertencias útiles, no alarmistas.",
+    title: "Pierwsza linia z ostrzeżeniem",
+    summary: "Przydatne ostrzeżenia, bez paniki.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 primeras líneas tipo advertencia para [TEMA].
-Plantillas:
-- “Ojo con esto…”
-- “No caigas en esto…”
-- “Antes de hacer X, mira esto…”
-Máximo 12 palabras.`,
+    prompt: `Napisz 20 pierwszych linijek w formie ostrzeżenia dla [TEMAT].
+Szablony:
+- „Uważaj na to…”
+- „Nie daj się w to wciągnąć…”
+- „Zanim zrobisz X, zobacz to…”
+Maksymalnie 12 słów.`,
   },
   {
     id: "viral-caption-titulares-034",
-    title: "Titulares para comentarios con keyword",
-    summary: "Diseñados para disparar comentarios.",
+    title: "Nagłówki pod komentarze z keywordem",
+    summary: "Zaprojektowane, by wywoływać komentarze.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 25 titulares que terminen con:
-“Comenta [KEYWORD] y te lo paso.”
-Tema: [TEMA]. Audiencia: [AUDIENCIA].
-Asegúrate de que lo que se “pasa” sea valioso (plantilla/guía/lista).`,
+    prompt: `Wygeneruj 25 nagłówków kończących się:
+„Napisz w komentarzu [SŁOWO_KLUCZOWE], a ci to podeślę.”
+Temat: [TEMAT]. Odbiorcy: [ODBIORCY].
+Upewnij się, że to, co „podeślesz”, jest wartościowe (szablon/poradnik/lista).`,
   },
   {
     id: "viral-caption-titulares-035",
-    title: "Primera línea con mini-desafío",
-    summary: "Aperturas que invitan a probar algo hoy.",
+    title: "Pierwsza linia z mini-wyzwaniem",
+    summary: "Otwarcia zachęcające, by spróbować dziś.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 primeras líneas con mini-desafío para [AUDIENCIA] sobre [TEMA].
-Debe incluir “hoy” y una acción de menos de 5 minutos.
-Máximo 14 palabras.`,
+    prompt: `Stwórz 20 pierwszych linijek z mini-wyzwaniem dla [ODBIORCY] o [TEMAT].
+Musi zawierać „dziś” i działanie poniżej 5 minut.
+Maksymalnie 14 słów.`,
   },
   {
     id: "viral-caption-titulares-036",
-    title: "Titulares con 'esto te está costando'",
-    summary: "Dolor económico/tiempo realista.",
+    title: "Nagłówki „to cię kosztuje”",
+    summary: "Realistyczny koszt czasu/pieniędzy.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 25 titulares con:
-“Esto te está costando [DINERO/TIEMPO]…”
-Tema: [TEMA].
-Usa cifras realistas o expresiones (“horas”, “clientes”, “energía”).
-Máximo 13 palabras.`,
+    prompt: `Daj 25 nagłówków z:
+„To kosztuje cię [PIENIĄDZE/CZAS]…”
+Temat: [TEMAT].
+Używaj realistycznych liczb lub określeń („godziny”, „klienci”, „energia”).
+Maksymalnie 13 słów.`,
   },
   {
     id: "viral-caption-titulares-037",
-    title: "Primera línea para vender sin vender",
-    summary: "Apertura con valor + curiosidad.",
+    title: "Pierwsza linia: sprzedawaj bez sprzedawania",
+    summary: "Wartość + ciekawość bez sprzedażowego tonu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 25 primeras líneas para [OFERTA] donde NO suene a venta.
-Debe ofrecer un tip real y abrir un loop.
-Tema: [TEMA]. Audiencia: [AUDIENCIA].`,
+    prompt: `Napisz 25 pierwszych linijek dla [OFERTA], w których NIE brzmi to jak sprzedaż.
+Musi dać realny tip i otworzyć pętlę.
+Temat: [TEMAT]. Odbiorcy: [ODBIORCY].`,
   },
   {
     id: "viral-caption-titulares-038",
-    title: "Titulares con 'la verdad es…'",
-    summary: "Verdad corta + detalle que sorprende.",
+    title: "Nagłówki „prawda jest taka…”",
+    summary: "Krótka prawda + szczegół, który zaskakuje.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 30 titulares que empiecen con:
-“La verdad es…”
-Tema: [TEMA].
-Incluye un detalle específico (métrica, ejemplo, regla, frase).
-Máximo 12 palabras.`,
+    prompt: `Wygeneruj 30 nagłówków zaczynających się od:
+„Prawda jest taka…”
+Temat: [TEMAT].
+Dodaj konkretny szczegół (metryka, przykład, zasada, zdanie).
+Maksymalnie 12 słów.`,
   },
   {
     id: "viral-caption-titulares-039",
-    title: "Primera línea tipo 'nadie habla de esto'",
-    summary: "Omisión + curiosidad.",
+    title: "Pierwsza linia „nikt o tym nie mówi”",
+    summary: "Pomijanie + ciekawość.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 20 primeras líneas con:
-“Nadie habla de esto…”
-Tema: [TEMA].
-Debe señalar algo real y útil (proceso, paso, error, detalle).
-Máximo 13 palabras.`,
+    prompt: `Daj 20 pierwszych linijek z:
+„Nikt o tym nie mówi…”
+Temat: [TEMAT].
+Musi wskazywać coś realnego i użytecznego (proces, krok, błąd, detal).
+Maksymalnie 13 słów.`,
   },
   {
     id: "viral-caption-titulares-040",
-    title: "Titulares con '3 señales de que…'",
-    summary: "Señales = guardable + comentable.",
+    title: "Nagłówki „3 sygnały, że…”",
+    summary: "Sygnały = do zapisania + do komentowania.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 titulares con:
-“3 señales de que…”
-Tema: [TEMA]. Audiencia: [AUDIENCIA].
-Que “señales” sean concretas, no abstractas.
-Máximo 13 palabras.`,
+    prompt: `Stwórz 20 nagłówków z:
+„3 sygnały, że…”
+Temat: [TEMAT]. Odbiorcy: [ODBIORCY].
+„Sygnały” mają być konkretne, nie abstrakcyjne.
+Maksymalnie 13 słów.`,
   },
 
   {
     id: "viral-caption-titulares-041",
-    title: "Primera línea con frase exacta",
-    summary: "Frase lista para copiar.",
+    title: "Pierwsza linia z gotową frazą",
+    summary: "Zdanie gotowe do skopiowania.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 primeras líneas que incluyan una frase exacta entre comillas para [AUDIENCIA].
-La frase debe ser “copiar-pegar” y útil para [TEMA].
-Máximo 16 palabras.`,
+    prompt: `Napisz 20 pierwszych linijek zawierających dokładną frazę w cudzysłowie dla [ODBIORCY].
+Fraza ma być „kopiuj-wklej” i przydatna w [TEMAT].
+Maksymalnie 16 słów.`,
   },
   {
     id: "viral-caption-titulares-042",
-    title: "Titulares con 'esto no es normal'",
-    summary: "Sorpresa moderada.",
+    title: "Nagłówki „to nie jest normalne”",
+    summary: "Umiarkowane zaskoczenie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 titulares que empiecen con:
-“Esto no es normal:”
-Tema: [TEMA].
-Completa con un dato o hecho realista que sorprenda (sin exageración).
-Máximo 13 palabras.`,
+    prompt: `Wygeneruj 20 nagłówków zaczynających się od:
+„To nie jest normalne:”
+Temat: [TEMAT].
+Dokończ realistycznym faktem lub danymi, które zaskoczą (bez przesady).
+Maksymalnie 13 słów.`,
   },
   {
     id: "viral-caption-titulares-043",
-    title: "Primera línea: 'te estás complicando'",
-    summary: "Simplificación + promesa.",
+    title: "Pierwsza linia: „za bardzo to komplikujesz”",
+    summary: "Uproszczenie + obietnica.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 25 primeras líneas con:
-“Te estás complicando…”
-Tema: [TEMA].
-Debe terminar con una solución simple (“haz esto en vez”).`,
+    prompt: `Daj 25 pierwszych linijek z:
+„Za bardzo to komplikujesz…”
+Temat: [TEMAT].
+Musi kończyć się prostym rozwiązaniem („zrób to zamiast”).`,
   },
   {
     id: "viral-caption-titulares-044",
-    title: "Titulares con 'esta es la diferencia'",
-    summary: "Comparación que da claridad.",
+    title: "Nagłówki „oto różnica”",
+    summary: "Porównanie dające jasność.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 25 titulares con:
-“Esta es la diferencia entre [A] y [B]”
-Tema: [TEMA].
-[A] y [B] deben ser conceptos del nicho y útiles.`,
+    prompt: `Napisz 25 nagłówków z:
+„To jest różnica między [A] a [B]”
+Temat: [TEMAT].
+[A] i [B] muszą być pojęciami z niszy i użyteczne.`,
   },
   {
     id: "viral-caption-titulares-045",
-    title: "Primera línea: 'no necesitas más'",
-    summary: "Contra la sobreinformación.",
+    title: "Pierwsza linia: „nie potrzebujesz więcej”",
+    summary: "Przeciwko przeładowaniu informacją.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 primeras líneas con:
-“No necesitas más [X], necesitas [Y].”
-Tema: [TEMA]. Audiencia: [AUDIENCIA].
-[X] y [Y] deben ser específicos.`,
+    prompt: `Stwórz 20 pierwszych linijek z:
+„Nie potrzebujesz więcej [X], potrzebujesz [Y].”
+Temat: [TEMAT]. Odbiorcy: [ODBIORCY].
+[X] i [Y] muszą być konkretne.`,
   },
   {
     id: "viral-caption-titulares-046",
-    title: "Titulares con 'si supieras esto'",
-    summary: "Curiosity gap fuerte.",
+    title: "Nagłówki „gdybyś wiedział(a)”",
+    summary: "Mocna luka ciekawości.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 25 titulares con:
-“Si supieras esto sobre [TEMA]…”
-Completa con una pista específica (no vaga).
-Máximo 13 palabras.`,
+    prompt: `Wygeneruj 25 nagłówków z:
+„Gdybyś wiedział(a) to o [TEMAT]…”
+Dokończ konkretną wskazówką (nie ogólnikiem).
+Maksymalnie 13 słów.`,
   },
   {
     id: "viral-caption-titulares-047",
-    title: "Primera línea para 'parte 2'",
-    summary: "Aperturas que dejan espacio a serie.",
+    title: "Pierwsza linia pod „część 2”",
+    summary: "Otwarcia z miejscem na serię.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 primeras líneas pensadas para terminar en “parte 2”.
-Tema: [TEMA].
-Reglas:
-- Sugiere que hay un paso que la gente siempre omite.
-- No reveles todo.
-Máximo 14 palabras.`,
+    prompt: `Napisz 20 pierwszych linijek zaprojektowanych tak, by skończyć na „część 2”.
+Temat: [TEMAT].
+Zasady:
+- Zasugeruj, że jest krok, który ludzie zawsze pomijają.
+- Nie zdradzaj wszystkiego.
+Maksymalnie 14 słów.`,
   },
   {
     id: "viral-caption-titulares-048",
-    title: "Titulares con 'lo que nadie te advirtió'",
-    summary: "Advertencia realista + utilidad.",
+    title: "Nagłówki „czego nikt ci nie uprzedził”",
+    summary: "Realistyczne ostrzeżenie + użyteczność.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 20 titulares con:
-“Lo que nadie te advirtió sobre [TEMA]”
-Incluye un detalle específico (coste, fricción, error).
-Máximo 14 palabras.`,
+    prompt: `Daj 20 nagłówków z:
+„Czego nikt cię nie uprzedził o [TEMAT]”
+Dodaj konkretny detal (koszt, tarcie, błąd).
+Maksymalnie 14 słów.`,
   },
   {
     id: "viral-caption-titulares-049",
-    title: "Primera línea con urgencia suave",
-    summary: "Urgencia sin manipulación.",
+    title: "Pierwsza linia z delikatną pilnością",
+    summary: "Pilność bez manipulacji.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 primeras líneas con urgencia suave para [TEMA].
-Usa frases como:
-- “Antes de que…”
-- “Si estás haciendo esto esta semana…”
-- “Si hoy estás atascado en…”
-Máximo 14 palabras.`,
+    prompt: `Stwórz 20 pierwszych linijek z delikatną pilnością dla [TEMAT].
+Używaj zwrotów:
+- „Zanim…”
+- „Jeśli robisz to w tym tygodniu…”
+- „Jeśli dziś utknąłeś(aś) w…”
+Maksymalnie 14 słów.`,
   },
   {
     id: "viral-caption-titulares-050",
-    title: "Titulares con 'haz esto hoy'",
-    summary: "Acción inmediata y simple.",
+    title: "Nagłówki „zrób to dziś”",
+    summary: "Natychmiastowa i prosta akcja.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 25 titulares que incluyan “hoy” y una acción concreta (<5 min) para [TEMA].
-Debe sonar práctico y realista.
-Máximo 12 palabras.`,
+    prompt: `Wygeneruj 25 nagłówków zawierających „dziś” i konkretną akcję (<5 min) dla [TEMAT].
+Ma brzmieć praktycznie i realistycznie.
+Maksymalnie 12 słów.`,
   },
 ];

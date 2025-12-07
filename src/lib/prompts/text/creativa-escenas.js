@@ -3,1081 +3,1081 @@
 export const textPromptsCreativaEscenas = [
   {
     id: "crea-esc-001",
-    title: "Escena de apertura: gancho inmediato + promesa de historia",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena otwarcia: natychmiastowy haczyk + obietnica historii",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Crea una escena inicial que atrape en la primera página, establezca tono y plantee una promesa narrativa.",
-    prompt: `Dame estos datos (si no los tengo, propón 2 opciones por cada punto y elige una):
-1) Género y tono (ej. thriller, realismo mágico, comedia negra).
-2) Persona y tiempo verbal (1ª/3ª, pasado/presente).
-3) Protagonista (objetivo inmediato + miedo secreto).
-4) Ubicación (microdetalles + clima + hora).
-5) Elemento disruptivo (incidente incitador en miniatura).
-6) Promesa central de la historia (en 1 frase).
+      "Stwórz scenę otwierającą, która wciąga od pierwszej strony, ustala ton i składa narracyjną obietnicę.",
+    prompt: `Podaj mi te dane (jeśli ich nie mam, zaproponuj po 2 opcje dla każdego punktu i wybierz jedną):
+1) Gatunek i ton (np. thriller, realizm magiczny, czarna komedia).
+2) Osoba narracji i czas (1./3., przeszły/teraźniejszy).
+3) Protagonista (cel natychmiastowy + sekretna obawa).
+4) Miejsce (mikrodetale + pogoda + pora).
+5) Element zakłócający (miniaturowy incydent inicjujący).
+6) Główna obietnica historii (w 1 zdaniu).
 
-Escribe una escena de apertura de 900–1400 palabras cumpliendo:
-- Primer párrafo con gancho sensorial + pregunta implícita.
-- Presenta al protagonista en acción (no descripción estática).
-- Inserta 3 detalles visuales memorables y 2 auditivos.
-- Incluye un “objeto significativo” que reaparecerá luego.
-- Subtexto: algo no dicho que el lector percibe.
-- Cierra la escena con una elección difícil o revelación parcial.
-- Mantén ritmo alto: frases variando longitud, sin relleno.
+Napisz scenę otwarcia na 900–1400 słów, spełniając:
+- Pierwszy akapit z sensorycznym haczykiem + ukrytym pytaniem.
+- Pokaż protagonistę w działaniu (bez statycznego opisu).
+- Wpleć 3 zapadające w pamięć detale wizualne i 2 dźwiękowe.
+- Dodaj „znaczący przedmiot”, który wróci później.
+- Podtekst: coś niewypowiedzianego, co czytelnik wyczuwa.
+- Zakończ scenę trudnym wyborem lub częściowym ujawnieniem.
+- Utrzymaj wysokie tempo: zdania o zróżnicowanej długości, bez zapychaczy.
 
-Al final agrega:
-A) 5 frases alternativas de apertura (más potentes).
-B) 3 posibles títulos para el capítulo.`,
+Na końcu dodaj:
+A) 5 alternatywnych zdań otwierających (mocniejszych).
+B) 3 możliwe tytuły rozdziału.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-002",
-    title: "Escena íntima: tensión silenciosa en un lugar cotidiano",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena intymna: ciche napięcie w zwyczajnym miejscu",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Construye una escena en apariencia simple donde el conflicto real se siente sin decirse.",
-    prompt: `Dame:
-- 2 personajes (relación exacta, herida previa).
-- Lugar cotidiano (cocina, autobús, lavandería, etc.).
-- Tema emocional (culpa, deseo, celos, miedo).
-- Un secreto que uno sabe y el otro no.
-- Un “gesto” recurrente (morder uñas, alisar camisa, etc.).
+      "Zbuduj pozornie prostą scenę, w której prawdziwy konflikt czuć, choć nikt go nie nazywa.",
+    prompt: `Podaj:
+- 2 postacie (dokładna relacja, wcześniejsza rana).
+- Zwyczajne miejsce (kuchnia, autobus, pralnia itp.).
+- Temat emocjonalny (wina, pragnienie, zazdrość, strach).
+- Sekret, który jedna osoba zna, a druga nie.
+- Powtarzający się „gest” (obgryzanie paznokci, wygładzanie koszuli itp.).
 
-Escribe una escena de 900–1500 palabras donde:
-- El conflicto sea principalmente subtexto.
-- Cada línea de diálogo tenga una intención (evitar, presionar, probar, confesar).
-- Usa objetos del lugar como metáforas (3 mínimo).
-- Inserta microacciones (miradas, manos, respiración) para construir tensión.
-- Incluye 1 momento de humor involuntario para humanizar.
-- Termina con un cambio de estado: “antes” vs “después” (clarísimo).
+Napisz scenę na 900–1500 słów, w której:
+- Konflikt jest głównie podtekstem.
+- Każda linijka dialogu ma intencję (unikać, naciskać, testować, wyznać).
+- Użyj przedmiotów z miejsca jako metafor (min. 3).
+- Wstaw mikroakcje (spojrzenia, dłonie, oddech), by budować napięcie.
+- Dodaj 1 moment niezamierzonego humoru, by uczłowieczyć postacie.
+- Zakończ wyraźną zmianą stanu: „przed” vs „po” (bardzo czytelne).
 
-Añade al final:
-1) Qué quería cada personaje (objetivo visible + objetivo real).
-2) Qué cambió en la relación en una sola frase.`,
+Na końcu dodaj:
+1) Czego chciała każda postać (cel widoczny + cel prawdziwy).
+2) Co zmieniło się w relacji w jednym zdaniu.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-003",
-    title: "Escena de persecución: claridad espacial + adrenalina",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena pościgu: czytelna przestrzeń + adrenalina",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Persecución cinematográfica con bloques de acción claros, obstáculos y decisiones visibles.",
-    prompt: `Dame:
-- Quién persigue a quién y por qué (motivo real).
-- Escenario (mercado, azoteas, bosque, metro, festival).
-- 3 obstáculos físicos del lugar.
-- 1 limitación del protagonista (lesión, miedo, carga, tiempo).
-- Qué se arriesga a perder si lo atrapan.
+      "Filmowy pościg z czytelnymi blokami akcji, przeszkodami i widocznymi decyzjami.",
+    prompt: `Podaj:
+- Kto kogo ściga i dlaczego (prawdziwy motyw).
+- Sceneria (targ, dachy, las, metro, festiwal).
+- 3 fizyczne przeszkody wynikające z miejsca.
+- 1 ograniczenie protagonisty (uraz, lęk, ciężar, czas).
+- Co ryzykuje, jeśli go złapią.
 
-Escribe una escena de 900–1600 palabras con:
-- Geografía clara: marca posiciones (izquierda/derecha, arriba/abajo, distancia).
-- 7 beats de acción (numerados internamente mientras escribes, sin mostrarlos al lector).
-- Incluye 2 “falsas salidas” (parece que escapa, pero no).
-- Un detalle sensorial por párrafo (olor, textura, sonido, temperatura).
-- Un giro creativo usando un objeto del entorno (improvisación).
-- Cierra con cliffhanger: el perseguidor “casi” logra su objetivo o se revela algo del perseguidor.
+Napisz scenę na 900–1600 słów, z:
+- Jasną geografią: zaznacz pozycje (lewo/prawo, góra/dół, dystans).
+- 7 beatami akcji (ponumerowanymi wewnętrznie podczas pisania, bez pokazywania ich czytelnikowi).
+- 2 „fałszywymi wyjściami” (wydaje się, że ucieka, ale nie).
+- Jednym detalem sensorycznym w każdym akapicie (zapach, faktura, dźwięk, temperatura).
+- Kreatywnym zwrotem z użyciem przedmiotu z otoczenia (improwizacja).
+- Zakończeniem cliffhangerem: ścigający „prawie” osiąga cel albo ujawnia się coś o nim.
 
-Después agrega:
-- Lista corta de 5 verbos fuertes que dominen la escena.
-- 3 frases de cierre alternativas (más tensas).`,
+Potem dodaj:
+- Krótką listę 5 mocnych czasowników dominujących w scenie.
+- 3 alternatywne zdania końcowe (bardziej napięte).`,
     thumbnail: "",
   },
   {
     id: "crea-esc-004",
-    title: "Escena de terror: amenaza invisible + crescendo",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena grozy: niewidoczna groźba + crescendo",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Horror atmosférico basado en lo que no se ve, con escalada y pago final.",
-    prompt: `Dame:
-- Tipo de horror (psicológico, sobrenatural, corporal, folk).
-- Ubicación cerrada y opresiva.
-- Regla del lugar (algo que “no se debe hacer”).
-- Protagonista: trauma o culpa que lo vuelve vulnerable.
-- “Evidencia” de la amenaza (sonido, rastro, señal).
+      "Atmosferyczny horror oparty na tym, czego nie widać, ze stopniowaniem i mocną puentą.",
+    prompt: `Podaj:
+- Rodzaj grozy (psychologiczna, nadprzyrodzona, cielesna, folk).
+- Zamknięte, przytłaczające miejsce.
+- Zasadę miejsca (coś, czego „nie wolno robić”).
+- Protagonistę: trauma lub poczucie winy, które czyni go podatnym.
+- „Dowód” zagrożenia (dźwięk, ślad, znak).
 
-Escribe 1000–1700 palabras:
-- Comienza con normalidad inquietante.
-- Usa repetición con variación (un sonido/patrón que vuelve distinto).
-- No muestres el monstruo al inicio: sugiérelo con 5 pistas graduales.
-- Incluye 1 escena corta dentro de la escena (recuerdo/flash sensorial).
-- El miedo debe provenir tanto del lugar como del interior del protagonista.
-- Final: revelación parcial + decisión desesperada.
+Napisz 1000–1700 słów:
+- Zacznij od niepokojącej normalności.
+- Użyj powtórzeń z wariacją (dźwięk/wzór wraca, ale inaczej).
+- Nie pokazuj potwora na początku: zasugeruj go 5 stopniowanymi wskazówkami.
+- Dodaj 1 krótką scenę w scenie (wspomnienie/flash sensoryczny).
+- Strach ma wynikać zarówno z miejsca, jak i z wnętrza protagonisty.
+- Finał: częściowe ujawnienie + desperacka decyzja.
 
-Al final:
-A) 10 ideas de “pistas” alternativas (para otros capítulos).
-B) 1 frase que defina la amenaza sin nombrarla.`,
+Na końcu:
+A) 10 pomysłów na alternatywne „wskazówki” (do innych rozdziałów).
+B) 1 zdanie, które definiuje zagrożenie bez nazywania go.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-005",
-    title: "Escena de romance: primer encuentro con química real",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena romansu: pierwsze spotkanie z prawdziwą chemią",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Meet-cute con tensión, humor y señales tempranas de compatibilidad y conflicto.",
-    prompt: `Dame:
-- Personaje A y B (edad, ocupación, defecto encantador).
-- Contexto del encuentro (evento, accidente, favor).
-- Lo que cada uno busca evitar emocionalmente.
-- Un “detalle” que el otro nota y nadie más.
-- Un obstáculo inmediato (tiempo, terceros, vergüenza, trabajo).
+      "Meet-cute z napięciem, humorem i wczesnymi sygnałami kompatybilności oraz konfliktu.",
+    prompt: `Podaj:
+- Postać A i B (wiek, zajęcie, urokliwa wada).
+- Kontekst spotkania (wydarzenie, wypadek, przysługa).
+- Co każde z nich emocjonalnie próbuje omijać.
+- Jeden „detal”, który zauważa druga osoba i nikt więcej.
+- Natychmiastową przeszkodę (czas, osoby trzecie, wstyd, praca).
 
-Escribe 900–1500 palabras:
-- Diálogo ágil, con interrupciones naturales.
-- Química basada en observación y valores, no solo físico.
-- Al menos 1 microgesto que delate atracción.
-- Un malentendido pequeño pero significativo.
-- Cierra con: intercambio de algo (objeto, información, promesa) que obligue a verse otra vez.
+Napisz 900–1500 słów:
+- Dynamiczny dialog z naturalnymi przerwaniami.
+- Chemia oparta na obserwacji i wartościach, nie tylko na fizyczności.
+- Przynajmniej 1 mikrogest zdradzający zainteresowanie.
+- Małe, ale znaczące nieporozumienie.
+- Zakończ: wymianą czegoś (przedmiot, informacja, obietnica), co zmusi ich do ponownego spotkania.
 
-Incluye al final:
-- 5 líneas de diálogo mejores (las más cargadas).
-- 3 maneras alternativas de reencuentro.`,
+Na końcu dodaj:
+- 5 najlepszych linijek dialogu (najbardziej naładowanych).
+- 3 alternatywne sposoby ponownego spotkania.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-006",
-    title: "Escena de discusión: pelea con subtexto y consecuencias",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena kłótni: spór z podtekstem i konsekwencjami",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Una pelea donde ambos tengan razón en algo, y el daño sea concreto.",
-    prompt: `Dame:
-- Relación (pareja, hermanos, socios, maestro/alumno).
-- Origen real del conflicto (no el tema superficial).
-- Límite que no deberían cruzar (insulto, tema tabú).
-- Lugar (con algo que pueda romperse/caerse).
-- Qué necesita uno escuchar y el otro no puede decir.
+      "Kłótnia, w której oboje mają częściowo rację, a szkoda jest konkretna.",
+    prompt: `Podaj:
+- Relację (para, rodzeństwo, wspólnicy, nauczyciel/uczeń).
+- Prawdziwe źródło konfliktu (nie powierzchowny temat).
+- Granicę, której nie powinni przekroczyć (obelga, temat tabu).
+- Miejsce (z czymś, co może się stłuc/przewrócić).
+- Co jedna osoba musi usłyszeć, a druga nie potrafi powiedzieć.
 
-Escribe 1000–1800 palabras:
-- Empieza suave y escala en 3 olas.
-- Cada personaje usa una “estrategia” distinta (ironía, silencio, ataque, lógica).
-- Inserta acciones físicas que acompañen la emoción (no solo diálogo).
-- Debe ocurrir 1 daño irreversible (palabra/acto) que cambie la relación.
-- Termina con silencio o salida (pero cargado).
+Napisz 1000–1800 słów:
+- Zacznij łagodnie i eskaluj w 3 falach.
+- Każda postać stosuje inną „strategię” (ironia, milczenie, atak, logika).
+- Wpleć działania fizyczne towarzyszące emocjom (nie tylko dialog).
+- Musi dojść do 1 nieodwracalnej szkody (słowo/czyn), która zmieni relację.
+- Zakończ ciszą albo wyjściem (ale naładowanym).
 
-Después:
-1) Resume en 2 líneas el subtexto de cada personaje.
-2) Propón 2 escenas posteriores posibles (una reconciliación, una ruptura).`,
+Potem:
+1) Streść w 2 linijkach podtekst każdej postaci.
+2) Zaproponuj 2 możliwe sceny późniejsze (jedna pojednanie, jedna rozpad).`,
     thumbnail: "",
   },
   {
     id: "crea-esc-007",
-    title: "Escena de revelación: secreto que reconfigura todo",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena ujawnienia: sekret, który przestawia wszystko",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Un reveal que cambia la interpretación del lector y obliga a actuar.",
-    prompt: `Dame:
-- Secreto (qué es exactamente y quién lo ocultó).
-- Quién lo descubre.
-- Lugar y momento (condiciones: noche/ruido/lluvia, etc.).
-- Qué está en juego si se sabe.
-- Un símbolo/objeto ligado al secreto.
+      "Reveal, który zmienia interpretację czytelnika i wymusza działanie.",
+    prompt: `Podaj:
+- Sekret (co dokładnie i kto go ukrył).
+- Kto go odkrywa.
+- Miejsce i moment (warunki: noc/hałas/deszcz itd.).
+- Co jest stawką, jeśli wyjdzie na jaw.
+- Symbol/przedmiot związany z sekretem.
 
-Escribe 900–1600 palabras:
-- Construye expectativa con señales previas.
-- Revela el secreto en una acción, no en una explicación larga.
-- Muestra 2 reacciones: inmediata (física) y secundaria (mental).
-- Incluye un mini-monólogo interior de 6–10 líneas (contenido emocional, no exposición).
-- Termina con una decisión forzada.
+Napisz 900–1600 słów:
+- Zbuduj oczekiwanie wcześniejszymi sygnałami.
+- Ujawnij sekret działaniem, nie długim wyjaśnieniem.
+- Pokaż 2 reakcje: natychmiastową (fizyczną) i wtórną (mentalną).
+- Dodaj mini-monolog wewnętrzny 6–10 linijek (emocje, nie ekspozycja).
+- Zakończ wymuszoną decyzją.
 
-Al final:
-- 3 versiones del mismo reveal con tonos distintos (trágico, irónico, épico).`,
+Na końcu:
+- 3 wersje tego samego reveal w różnych tonach (tragiczny, ironiczny, epicki).`,
     thumbnail: "",
   },
   {
     id: "crea-esc-008",
-    title: "Escena de negociación: poder, riesgos y concesiones",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena negocjacji: władza, ryzyko i ustępstwa",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Negociación tensa con capas de poder, amenazas veladas y un intercambio real.",
-    prompt: `Dame:
-- Quién negocia con quién (jerarquía/poder).
-- Qué quiere cada uno (demanda inicial y deseo real).
-- Qué “moneda” se intercambia (dinero, info, protección, favor).
-- Restricción de tiempo.
-- Un tercero que observa o influye.
+      "Napięte negocjacje z warstwami siły, zawoalowanymi groźbami i realną wymianą.",
+    prompt: `Podaj:
+- Kto z kim negocjuje (hierarchia/władza).
+- Czego chce każda strona (żądanie początkowe i prawdziwe pragnienie).
+- Jaką „walutą” się wymieniają (pieniądze, informacje, ochrona, przysługa).
+- Ograniczenie czasowe.
+- Trzecia osoba, która obserwuje lub wpływa.
 
-Escribe 900–1700 palabras:
-- Debe haber 5 movimientos de poder (ceder, presionar, cambiar tema, silencio, una prueba).
-- Usa detalles del ambiente como metáfora de tensión (luz, vaso, humo, reloj).
-- Inserta un “anzuelo”: algo que uno usa para atrapar al otro.
-- Termina con acuerdo imperfecto o ruptura peligrosa.
+Napisz 900–1700 słów:
+- Musi być 5 ruchów władzy (ustąpić, nacisnąć, zmienić temat, cisza, test).
+- Użyj detali otoczenia jako metafory napięcia (światło, szklanka, dym, zegar).
+- Wstaw „haczyk”: coś, czego jedna strona używa, by złapać drugą.
+- Zakończ niedoskonałą umową albo groźnym zerwaniem.
 
-Al final:
-- Tabla breve (en texto) de concesiones: quién dio qué, quién ganó qué.`,
+Na końcu:
+- Krótka tabela (tekstowa) ustępstw: kto co dał, kto co zyskał.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-009",
-    title: "Escena de misterio: pista importante sin que se note",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena tajemnicy: ważna wskazówka, która nie rzuca się w oczy",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Escena detectivesca donde una pista clave se ve natural, pero es decisiva.",
-    prompt: `Dame:
-- Crimen o enigma.
-- Investigador/a (defecto + habilidad).
-- Lugar donde se recaba información.
-- Sospechoso o testigo (qué oculta).
-- Pista real (objeto, frase, contradicción).
+      "Scena detektywistyczna, w której kluczowa wskazówka wygląda naturalnie, ale jest decydująca.",
+    prompt: `Podaj:
+- Zbrodnię lub zagadkę.
+- Śledczego/śledczą (wada + umiejętność).
+- Miejsce pozyskiwania informacji.
+- Podejrzanego lub świadka (co ukrywa).
+- Prawdziwą wskazówkę (przedmiot, zdanie, sprzeczność).
 
-Escribe 1000–1800 palabras:
-- Muestra el método del investigador con acciones observables.
-- Introduce la pista en medio de algo cotidiano (no la subrayes).
-- Incluye 1 distracción (pista falsa creíble).
-- Diálogo con tensión: el testigo dice verdad mezclada con mentira.
-- Termina con el investigador saliendo con una hipótesis incompleta pero peligrosa.
+Napisz 1000–1800 słów:
+- Pokaż metodę śledczego poprzez obserwowalne działania.
+- Wprowadź wskazówkę wśród codzienności (nie podkreślaj jej).
+- Dodaj 1 rozproszenie (wiarygodna fałszywa wskazówka).
+- Dialog z napięciem: świadek mówi prawdę zmieszaną z kłamstwem.
+- Zakończ, gdy śledczy wychodzi z hipotezą niepełną, ale niebezpieczną.
 
-Después:
-- Señala (sin spoilers obvios) dónde quedó escondida la pista y por qué funciona.`,
+Potem:
+- Wskaż (bez oczywistych spoilerów), gdzie ukryła się wskazówka i dlaczego działa.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-010",
-    title: "Escena de entrenamiento: progreso real + fricción",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena treningu: realny progres + tarcie",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Escena donde un personaje aprende, falla, y el aprendizaje cambia su carácter.",
-    prompt: `Dame:
-- Habilidad a entrenar (física, mágica, social, mental).
-- Mentor o sistema (quién enseña, o qué regla guía).
-- Miedo/bloqueo del aprendiz.
-- Prueba concreta del entrenamiento.
-- Consecuencia si no aprende.
+      "Scena, w której postać się uczy, zawodzi, a nauka zmienia jej charakter.",
+    prompt: `Podaj:
+- Umiejętność do trenowania (fizyczna, magiczna, społeczna, mentalna).
+- Mentor lub system (kto uczy albo jaka zasada prowadzi).
+- Strach/blokada ucznia.
+- Konkretny sprawdzian treningu.
+- Konsekwencja, jeśli się nie nauczy.
 
-Escribe 900–1600 palabras:
-- Incluye 3 intentos: 1 fallo feo, 1 casi, 1 logro parcial.
-- El mentor debe tener agenda propia o método incómodo.
-- Sensaciones del cuerpo/mente durante el esfuerzo (mínimo 6 detalles).
-- Termina con una frase o gesto que muestre que el aprendiz cambió.
+Napisz 900–1600 słów:
+- Uwzględnij 3 próby: 1 brzydka porażka, 1 „prawie”, 1 częściowy sukces.
+- Mentor ma własną agendę lub niewygodną metodę.
+- Doznania ciała/umysłu podczas wysiłku (min. 6 detali).
+- Zakończ zdaniem lub gestem pokazującym, że uczeń się zmienił.
 
-Al final:
-- 5 “ejercicios” adicionales que podrías usar en escenas futuras.`,
+Na końcu:
+- 5 dodatkowych „ćwiczeń”, które możesz wykorzystać w przyszłych scenach.`,
     thumbnail: "",
   },
 
-  // 40 prompts más (variando géneros, ritmo, POV, objetivos, y técnicas de escena)
+  // 40 kolejnych promptów (różne gatunki, tempo, POV, cele i techniki sceniczne)
 
   {
     id: "crea-esc-011",
-    title: "Escena de calma tensa: el silencio antes del desastre",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena napiętego spokoju: cisza przed katastrofą",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Una escena quieta que aumenta la ansiedad del lector con presagios sutiles.",
-    prompt: `Dame:
-- Qué desastre se aproxima (sin mostrarlo aún).
-- 2 personajes presentes y qué evitan hablar.
-- Lugar (con sonidos constantes: ventilador, lluvia, cables, etc.).
-- Un detalle que funciona como presagio.
-- Un objeto que “no debería estar ahí”.
+      "Cicha scena, która podkręca niepokój czytelnika subtelnymi zapowiedziami.",
+    prompt: `Podaj:
+- Jaka katastrofa się zbliża (jeszcze jej nie pokazuj).
+- 2 obecne postacie i o czym unikają mówić.
+- Miejsce (ze stałymi dźwiękami: wentylator, deszcz, kable itd.).
+- Detal działający jak przeczucie/złowróżbny znak.
+- Przedmiot, który „nie powinien tu być”.
 
-Escribe 900–1500 palabras:
-- Ritmo lento pero hipnótico.
-- Presagio en capas: 1 leve, 1 medio, 1 inevitable.
-- El diálogo debe ser banal por fuera, grave por dentro.
-- Termina en un microcorte: algo cambia (luz se va, mensaje llega, golpe suena).`,
+Napisz 900–1500 słów:
+- Tempo wolne, ale hipnotyczne.
+- Zapowiedź warstwowa: 1 lekka, 1 średnia, 1 nieunikniona.
+- Dialog banalny na zewnątrz, ciężki w środku.
+- Zakończ mikro-cięciem: coś się zmienia (gaśnie światło, przychodzi wiadomość, słychać uderzenie).`,
     thumbnail: "",
   },
   {
     id: "crea-esc-012",
-    title: "Escena en un solo plano: continuidad visual y tensión",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena w jednym ujęciu: ciągłość wizualna i napięcie",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Escribe una escena como si fuera un plano secuencia: fluida, sin cortes, muy visual.",
-    prompt: `Dame:
-- Ubicación amplia con recorrido (hotel, hospital, feria, mansión).
-- Objetivo urgente del protagonista.
-- Obstáculo humano principal.
-- Un detalle repetido en el recorrido (señal, música, color).
-- Tono (thriller, comedia, drama).
+      "Napisz scenę jakby była ujęciem bez cięć: płynną, bardzo wizualną.",
+    prompt: `Podaj:
+- Duża lokacja z trasą (hotel, szpital, jarmark, rezydencja).
+- Pilny cel protagonisty.
+- Główną ludzką przeszkodę.
+- Powtarzający się detal na trasie (znak, muzyka, kolor).
+- Ton (thriller, komedia, dramat).
 
-Escribe 1000–1800 palabras como “plano secuencia”:
-- Transiciones suaves entre espacios (puertas, pasillos, escaleras).
-- Mantén continuidad de acciones (si toma un objeto, debe seguir ahí).
-- Inserta 3 momentos de tensión y 2 de respiro.
-- Cierra con un punto de no retorno.`,
+Napisz 1000–1800 słów jako „ujęcie bez cięć”:
+- Płynne przejścia między przestrzeniami (drzwi, korytarze, schody).
+- Zachowuj ciągłość rekwizytów (jeśli podnosi przedmiot, ma go dalej).
+- Wstaw 3 momenty napięcia i 2 momenty oddechu.
+- Zakończ punktem bez powrotu.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-013",
-    title: "Escena con narrador poco fiable: grietas y pistas",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena z niewiarygodnym narratorem: pęknięcia i tropy",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Una escena donde el narrador engaña, pero el lector lo nota por inconsistencias elegantes.",
-    prompt: `Dame:
-- Qué hecho está distorsionando el narrador.
-- Motivo del autoengaño (culpa, miedo, orgullo).
-- Escenario.
-- Un personaje secundario que lo contradice sin querer.
-- 3 detalles que el narrador “olvida”.
+      "Scena, w której narrator kłamie, ale czytelnik to wyczuwa dzięki eleganckim niezgodnościom.",
+    prompt: `Podaj:
+- Jakie zdarzenie narrator zniekształca.
+- Motyw samooszukiwania (wina, strach, duma).
+- Scenerię.
+- Postać drugoplanową, która niechcący mu przeczy.
+- 3 detale, o których narrator „zapomina”.
 
-Escribe 900–1600 palabras:
-- El narrador insiste en una versión.
-- Inserta contradicciones sutiles (tiempos, colores, posiciones).
-- Usa un objeto como “prueba” que desmienta.
-- Final: una frase que, sin confesar, revela que miente.`,
+Napisz 900–1600 słów:
+- Narrator uparcie trzyma się swojej wersji.
+- Wstaw subtelne sprzeczności (czasy, kolory, pozycje).
+- Użyj przedmiotu jako „dowodu”, który temu zaprzecza.
+- Finał: jedno zdanie, które bez wyznania zdradza, że kłamie.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-014",
-    title: "Escena de descubrimiento: hallazgo extraño en un lugar normal",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena odkrycia: dziwne znalezisko w normalnym miejscu",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Un hallazgo inesperado altera la realidad cotidiana y abre misterio o fantasía.",
-    prompt: `Dame:
-- Lugar cotidiano.
-- Hallazgo (objeto/entrada/nota/puerta).
-- Quién lo encuentra y qué problema trae hoy.
-- Regla extraña del hallazgo.
-- Riesgo por tocarlo o ignorarlo.
+      "Nieoczekiwane znalezisko zmienia codzienną rzeczywistość i otwiera tajemnicę lub fantastykę.",
+    prompt: `Podaj:
+- Zwyczajne miejsce.
+- Znalezisko (przedmiot/wejście/notatka/drzwi).
+- Kto je znajduje i jaki problem ma dziś na głowie.
+- Dziwną zasadę znaleziska.
+- Ryzyko dotknięcia go lub zignorowania.
 
-Escribe 900–1500 palabras:
-- Normalidad al inicio, extrañeza gradualmente.
-- Al menos 5 detalles sensoriales.
-- El hallazgo debe “responder” de algún modo (ruido, calor, memoria, visión).
-- Termina con un acto impulsivo que no se pueda deshacer.`,
+Napisz 900–1500 słów:
+- Na początku normalność, potem stopniowa dziwność.
+- Co najmniej 5 detali sensorycznych.
+- Znalezisko powinno jakoś „odpowiedzieć” (dźwięk, ciepło, pamięć, wizja).
+- Zakończ impulsywnym czynem, którego nie da się cofnąć.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-015",
-    title: "Escena de despedida: emoción contenida + objeto simbólico",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena pożegnania: powściągnięte emocje + symboliczny przedmiot",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Una despedida que duele sin melodrama, usando acciones pequeñas y símbolo.",
-    prompt: `Dame:
-- Quién se va y quién se queda (por qué).
-- Lugar de despedida.
-- Lo que no se pueden decir.
-- Objeto simbólico que cambia de manos.
-- Tono (esperanza, rabia, resignación).
+      "Pożegnanie, które boli bez melodramatu, oparte na drobnych działaniach i symbolu.",
+    prompt: `Podaj:
+- Kto odchodzi i kto zostaje (dlaczego).
+- Miejsce pożegnania.
+- Czego nie mogą powiedzieć.
+- Symboliczny przedmiot, który zmienia właściciela.
+- Ton (nadzieja, gniew, rezygnacja).
 
-Escribe 900–1500 palabras:
-- Evita frases obvias; muestra con gestos.
-- Usa el entorno para reflejar el estado emocional.
-- Incluye 1 mentira piadosa.
-- Final: un detalle que se queda “vibrando” en el aire.`,
+Napisz 900–1500 słów:
+- Unikaj oczywistych zdań; pokazuj gestami.
+- Użyj otoczenia, by odbić stan emocjonalny.
+- Dodaj 1 „białe kłamstwo”.
+- Finał: detal, który zostaje „drżący” w powietrzu.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-016",
-    title: "Escena de juicio/tribunal: retórica + tensión moral",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena rozprawy/sądu: retoryka + napięcie moralne",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Confrontación verbal con reglas, estrategias, testimonio y giro emocional.",
-    prompt: `Dame:
-- Acusación.
-- Quién defiende y quién acusa (intereses ocultos).
-- Testigo clave y su debilidad.
-- Evidencia principal.
-- Qué verdad terrible está a punto de salir.
+      "Werdykt wisi w powietrzu: zasady, strategie, zeznania i emocjonalny zwrot.",
+    prompt: `Podaj:
+- Zarzut.
+- Kto broni, a kto oskarża (ukryte interesy).
+- Kluczowego świadka i jego słabość.
+- Główny dowód.
+- Jaka straszna prawda zaraz wyjdzie na jaw.
 
-Escribe 1100–1900 palabras:
-- Alterna preguntas cortas con respuestas tensas.
-- Inserta reacciones del público/jurado como termómetro emocional.
-- Construye un giro: una frase del testigo cambia el rumbo.
-- Final: veredicto parcial o interrupción dramática.`,
+Napisz 1100–1900 słów:
+- Przeplataj krótkie pytania z napiętymi odpowiedziami.
+- Wstaw reakcje publiczności/ławy przysięgłych jako termometr emocji.
+- Zbuduj zwrot: jedno zdanie świadka zmienia kierunek.
+- Finał: częściowy werdykt albo dramatyczne przerwanie.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-017",
-    title: "Escena de heist (robo): planificación + ejecución imperfecta",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena heistu (napad/kradzież): planowanie + niedoskonałe wykonanie",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Robo con estrategia clara, roles definidos y un error que vuelve todo vivo.",
-    prompt: `Dame:
-- Qué se roba y por qué importa.
-- Equipo (3 roles).
-- Sistema de seguridad.
-- Lugar.
-- El error humano que arruina el plan.
+      "Kradzież z czytelną strategią, rolami i ludzkim błędem, który ożywia wszystko.",
+    prompt: `Podaj:
+- Co jest kradzione i dlaczego to ważne.
+- Zespół (3 role).
+- System zabezpieczeń.
+- Miejsce.
+- Ludzki błąd, który psuje plan.
 
-Escribe 1000–1800 palabras:
-- Abre con tensión (ya están dentro).
-- Intercala mini flashes del plan solo cuando haga falta (no infodump).
-- 6 obstáculos crecientes.
-- Final: escape a medias o pérdida que cuesta caro.`,
+Napisz 1000–1800 słów:
+- Zacznij od napięcia (już są w środku).
+- Przeplataj krótkie przebłyski planu tylko gdy trzeba (bez infodumpu).
+- 6 narastających przeszkód.
+- Finał: ucieczka na pół gwizdka albo strata, która drogo kosztuje.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-018",
-    title: "Escena de supervivencia: frío, hambre y decisiones duras",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena przetrwania: zimno, głód i twarde decyzje",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Una escena física donde el cuerpo manda y cada decisión tiene costo.",
-    prompt: `Dame:
-- Entorno hostil (desierto, nieve, mar).
-- Inventario del personaje (3 cosas).
-- Herida o limitación.
-- Objetivo inmediato.
-- Amenaza secundaria (animal, gente, clima).
+      "Fizyczna scena, gdzie rządzi ciało, a każda decyzja ma cenę.",
+    prompt: `Podaj:
+- Wrogie środowisko (pustynia, śnieg, morze).
+- Ekwipunek postaci (3 rzeczy).
+- Ranę lub ograniczenie.
+- Cel natychmiastowy.
+- Drugorzędne zagrożenie (zwierzę, ludzie, pogoda).
 
-Escribe 900–1700 palabras:
-- Sensaciones corporales constantes (piel, respiración, dolor).
-- Pensamiento fragmentado por cansancio.
-- 3 decisiones: 1 buena, 1 dudosa, 1 desesperada.
-- Final: una pequeña victoria con precio.`,
+Napisz 900–1700 słów:
+- Stałe doznania ciała (skóra, oddech, ból).
+- Myślenie poszarpane zmęczeniem.
+- 3 decyzje: 1 dobra, 1 wątpliwa, 1 desperacka.
+- Finał: małe zwycięstwo z ceną.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-019",
-    title: "Escena de fiesta: caos social + microconflictos",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena imprezy: społeczny chaos + mikrokonflikty",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Fiesta con capas: conversaciones cruzadas, tensión romántica y peligro latente.",
-    prompt: `Dame:
-- Tipo de fiesta.
-- Protagonista: objetivo social.
-- Antagonista social (alguien que sabe algo).
-- Música/ambiente.
-- Un evento que detone (brindis, anuncio, pelea).
+      "Impreza warstwowa: krzyżujące się rozmowy, napięcie romantyczne i ukryte zagrożenie.",
+    prompt: `Podaj:
+- Rodzaj imprezy.
+- Protagonista: cel towarzyski.
+- Antagonista społeczny (ktoś, kto coś wie).
+- Muzyka/atmosfera.
+- Wydarzenie zapalne (toast, ogłoszenie, bójka).
 
-Escribe 1000–1800 palabras:
-- Muestra 5 microescenas dentro de la fiesta (grupitos).
-- Diálogo con subtexto y dobles sentidos.
-- Un detalle sensorial por bloque (olor a alcohol, luces, calor).
-- Final: el protagonista queda expuesto o atrapado.`,
+Napisz 1000–1800 słów:
+- Pokaż 5 mikroscen w ramach imprezy (grupki).
+- Dialog z podtekstem i dwuznacznościami.
+- Jeden detal sensoryczny na blok (zapach alkoholu, światła, ciepło).
+- Finał: protagonista zostaje obnażony lub uwięziony.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-020",
-    title: "Escena de confesión: verdad a destiempo",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena wyznania: prawda spóźniona",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Una confesión que llega tarde y cambia el futuro de la relación.",
-    prompt: `Dame:
-- Qué se confiesa.
-- Por qué se oculta hasta ahora.
-- Relación entre ambos.
-- Lugar con un elemento sonoro (tránsito, mar, reloj).
-- Consecuencia si la confesión falla.
+      "Wyznanie, które przychodzi za późno i zmienia przyszłość relacji.",
+    prompt: `Podaj:
+- Co zostaje wyznane.
+- Dlaczego było ukrywane aż do teraz.
+- Relację między nimi.
+- Miejsce z elementem dźwiękowym (ruch uliczny, morze, zegar).
+- Konsekwencję, jeśli wyznanie się nie uda.
 
-Escribe 900–1600 palabras:
-- La confesión no debe salir perfecta; debe trabarse.
-- Reacción realista (negación, silencio, pregunta cortante).
-- Inserta recuerdos breves que expliquen la carga, sin exposición.
-- Final: respuesta ambigua y un gesto que dice más.`,
+Napisz 900–1600 słów:
+- Wyznanie nie może wyjść idealnie, ma się zacinać.
+- Reakcja realistyczna (zaprzeczenie, cisza, ostre pytanie).
+- Wstaw krótkie wspomnienia wyjaśniające ciężar, bez ekspozycji.
+- Finał: odpowiedź niejednoznaczna i gest, który mówi więcej.`,
     thumbnail: "",
   },
 
   {
     id: "crea-esc-021",
-    title: "Escena de ruptura de alianza: traición con lógica",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena zerwania sojuszu: zdrada z logiką",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Traición donde el traidor tiene razones comprensibles y el golpe duele más.",
-    prompt: `Dame:
-- Alianza (qué pactaron).
-- Punto de quiebre.
-- Qué gana el traidor.
-- Qué pierde el traicionado.
-- Lugar y objeto simbólico del pacto.
+      "Zdrada, w której zdrajca ma zrozumiałe powody, a cios boli bardziej.",
+    prompt: `Podaj:
+- Sojusz (co ustalili).
+- Punkt pęknięcia.
+- Co zyskuje zdrajca.
+- Co traci zdradzony.
+- Miejsce i symboliczny przedmiot paktu.
 
-Escribe 1000–1800 palabras:
-- Presagio leve al inicio (algo raro).
-- La traición ocurre en una acción concreta.
-- Ambos hablan: uno justifica, otro acusa.
-- Final: nueva dinámica de poder establecida.`,
+Napisz 1000–1800 słów:
+- Lekkie presagio na początku (coś nie tak).
+- Zdrada dzieje się w konkretnym działaniu.
+- Oboje mówią: jedno uzasadnia, drugie oskarża.
+- Finał: nowa dynamika władzy zostaje ustanowiona.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-022",
-    title: "Escena de rescate: urgencia + dilema moral",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena ratunku: pilność + dylemat moralny",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Rescate con obstáculos y dilema: salvar a uno implica perder algo importante.",
-    prompt: `Dame:
-- A quién rescatan y de qué.
-- Lugar del rescate.
-- Tiempo límite.
-- Obstáculo principal.
-- Dilema moral (dos opciones malas).
+      "Ratunek z przeszkodami i dylematem: uratowanie jednej osoby oznacza utratę czegoś ważnego.",
+    prompt: `Podaj:
+- Kogo ratują i przed czym.
+- Miejsce akcji ratunkowej.
+- Limit czasu.
+- Główną przeszkodę.
+- Dylemat moralny (dwie złe opcje).
 
-Escribe 900–1700 palabras:
-- Acción clara por beats.
-- Incluye coordinación entre personajes (o caos si están solos).
-- Final: el rescate se logra pero el dilema deja una herida.`,
+Napisz 900–1700 słów:
+- Czytelna akcja beat po beacie.
+- Koordynacja między postaciami (albo chaos, jeśli są sami).
+- Finał: ratunek się udaje, ale dylemat zostawia ranę.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-023",
-    title: "Escena en lluvia: atmósfera + revelación emocional",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena w deszczu: atmosfera + emocjonalne ujawnienie",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Una escena intensa bajo lluvia donde el clima es parte del conflicto.",
-    prompt: `Dame:
-- Personajes presentes.
-- Qué se discute o decide.
-- Ubicación (calle, azotea, parada de bus).
-- Un objeto que se moja/arruina.
-- Tono (romántico, trágico, furioso).
+      "Intensywna scena w deszczu, gdzie pogoda jest częścią konfliktu.",
+    prompt: `Podaj:
+- Obecne postacie.
+- O co się kłócą lub co decydują.
+- Miejsce (ulica, dach, przystanek).
+- Przedmiot, który moknie/psuje się.
+- Ton (romantyczny, tragiczny, wściekły).
 
-Escribe 900–1500 palabras:
-- La lluvia afecta movimientos y diálogo (ahoga, interrumpe).
-- Usa metáforas físicas (ropa pegada, manos frías).
-- Final: frase corta que remate el cambio emocional.`,
+Napisz 900–1500 słów:
+- Deszcz wpływa na ruchy i dialog (zagłusza, przerywa).
+- Użyj fizycznych metafor (przyklejone ubranie, zimne dłonie).
+- Finał: krótkie zdanie, które dobija zmianę emocjonalną.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-024",
-    title: "Escena de viaje: movimiento + transformación interior",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena podróży: ruch + wewnętrzna przemiana",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Viaje en tren/carretera/barco donde lo externo refleja un cambio interno.",
-    prompt: `Dame:
-- Medio de transporte.
-- Motivo del viaje.
-- Qué deja atrás el protagonista.
-- 2 encuentros breves (extraños).
-- Un símbolo del destino.
+      "Podróż pociągiem/szosą/statkiem, w której zewnętrze odbija zmianę wewnętrzną.",
+    prompt: `Podaj:
+- Środek transportu.
+- Powód podróży.
+- Co protagonista zostawia za sobą.
+- 2 krótkie spotkania (z obcymi).
+- Symbol celu.
 
-Escribe 1000–1700 palabras:
-- Alterna paisaje con pensamiento y microacciones.
-- Incluye 1 conversación corta que cambie algo.
-- Final: llegada o decisión de no llegar.`,
+Napisz 1000–1700 słów:
+- Przeplataj krajobraz z myślami i mikroakcjami.
+- Dodaj 1 krótką rozmowę, która coś zmieni.
+- Finał: przyjazd albo decyzja, by nie dojechać.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-025",
-    title: "Escena de primer uso de poder/habilidad (fantasía o sci-fi)",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena pierwszego użycia mocy/umiejętności (fantasy lub sci-fi)",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Descubrimiento de poder con costo, reglas y emoción convincente.",
-    prompt: `Dame:
-- Poder/habilidad y reglas (2 límites).
-- Situación que lo despierta.
-- Precio o consecuencia.
-- Testigo (si lo hay).
-- Objetivo inmediato.
+      "Odkrycie mocy z kosztem, zasadami i wiarygodnymi emocjami.",
+    prompt: `Podaj:
+- Moc/umiejętność i zasady (2 ograniczenia).
+- Sytuację, która ją budzi.
+- Cenę lub konsekwencję.
+- Świadka (jeśli jest).
+- Cel natychmiastowy.
 
-Escribe 900–1700 palabras:
-- Describe el poder con sensaciones, no solo “se ve cool”.
-- Muestra error inicial y aprendizaje instantáneo por necesidad.
-- Final: el costo se paga o se anticipa con claridad.`,
+Napisz 900–1700 słów:
+- Opisz moc przez doznania, nie tylko „wygląda kozacko”.
+- Pokaż początkowy błąd i natychmiastową naukę z potrzeby.
+- Finał: koszt zostaje zapłacony albo jasno zapowiedziany.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-026",
-    title: "Escena con reloj en contra: cuenta regresiva real",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena z tykającym zegarem: prawdziwe odliczanie",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Escena con tensión matemática: el tiempo es un personaje.",
-    prompt: `Dame:
-- Tiempo exacto disponible.
-- Qué pasa si falla.
-- Lugar.
-- Obstáculos.
-- Herramientas/recursos limitados.
+      "Scena z matematycznym napięciem: czas jest postacią.",
+    prompt: `Podaj:
+- Dokładny czas, jaki został.
+- Co się stanie, jeśli się nie uda.
+- Miejsce.
+- Przeszkody.
+- Ograniczone narzędzia/zasoby.
 
-Escribe 900–1600 palabras:
-- Menciona el tiempo de forma orgánica (pitidos, reloj, mensajes).
-- 3 mini fallos que comen tiempo.
-- Final: éxito por segundos o fracaso por poco.`,
+Napisz 900–1600 słów:
+- Wplataj czas organicznie (piski, zegar, wiadomości).
+- 3 mini-awarie, które zjadają czas.
+- Finał: sukces o sekundy albo porażka o włos.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-027",
-    title: "Escena de sueño/pesadilla: simbólica pero narrativa",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena snu/koszmaru: symboliczna, ale fabularna",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Una pesadilla con símbolos claros y vínculo directo al conflicto real.",
-    prompt: `Dame:
-- Miedo central del personaje.
-- 3 símbolos (objeto, lugar, persona).
-- Un recuerdo enterrado.
-- Tono (surreal, terror, melancólico).
-- Despertar: qué lo detona.
+      "Koszmar z czytelnymi symbolami i bezpośrednim związkiem z realnym konfliktem.",
+    prompt: `Podaj:
+- Centralny lęk postaci.
+- 3 symbole (przedmiot, miejsce, osoba).
+- Zakopane wspomnienie.
+- Ton (surreal, horror, melancholia).
+- Przebudzenie: co je wywołuje.
 
-Escribe 900–1500 palabras:
-- Lógica onírica con coherencia emocional.
-- Repetición de símbolo con variación.
-- Final: despertar con detalle físico y una decisión inmediata.`,
+Napisz 900–1500 słów:
+- Logika snu z emocjonalną spójnością.
+- Powtórzenie symbolu z wariacją.
+- Finał: przebudzenie z fizycznym detalem i natychmiastową decyzją.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-028",
-    title: "Escena con narración en segunda persona (inmersiva)",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena w drugiej osobie (immersyjna)",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Escribe una escena intensa en 2ª persona que se sienta íntima, no gimmick.",
-    prompt: `Dame:
-- Situación (riesgo, amor, culpa, duelo).
-- Lugar.
-- Sensación dominante (frío, vértigo, calor).
-- Qué persigue o evita “tú”.
-- Final deseado (shock, ternura, ambigüedad).
+      "Napisz intensywną scenę w 2. osobie, która jest intymna, a nie sztuczką.",
+    prompt: `Podaj:
+- Sytuację (ryzyko, miłość, wina, żałoba).
+- Miejsce.
+- Dominujące odczucie (zimno, zawrót głowy, gorąco).
+- Co „ty” ścigasz albo czego unikasz.
+- Pożądany finał (szok, czułość, niejednoznaczność).
 
-Escribe 900–1500 palabras:
-- 2ª persona constante.
-- Frases sensoriales precisas.
-- Final: una frase corta que golpee.`,
+Napisz 900–1500 słów:
+- Stała 2. osoba.
+- Precyzyjne, zmysłowe frazy.
+- Finał: jedno krótkie zdanie, które uderza.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-029",
-    title: "Escena con regla formal: solo diálogos + acotaciones mínimas",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena z formalną regułą: tylko dialogi + minimalne didaskalia",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Escena casi teatral: diálogo domina y el subtexto carga el peso.",
-    prompt: `Dame:
-- Personajes (2–3).
-- Conflicto.
-- Lugar.
-- Lo que cada uno oculta.
-- Giro final.
+      "Scena prawie teatralna: dialog dominuje, a podtekst dźwiga ciężar.",
+    prompt: `Podaj:
+- Postacie (2–3).
+- Konflikt.
+- Miejsce.
+- Co każdy ukrywa.
+- Końcowy zwrot.
 
-Escribe 800–1400 palabras:
-- 90% diálogo, 10% acotaciones (máximo 1 línea por intervención).
-- El subtexto debe ser evidente por contradicciones y evasivas.
-- Final: frase que rompa el equilibrio.`,
+Napisz 800–1400 słów:
+- 90% dialogu, 10% didaskaliów (maks. 1 linijka na wejście).
+- Podtekst ma być widoczny przez sprzeczności i uniki.
+- Finał: zdanie, które łamie równowagę.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-030",
-    title: "Escena de carta/mensaje leído en voz alta y sus reacciones",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena listu/wiadomości czytanej na głos i reakcji",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Combina texto dentro del texto con reacción inmediata del personaje oyente/lector.",
-    prompt: `Dame:
-- Quién escribe y quién recibe.
-- Motivo de la carta/mensaje.
-- Lugar donde se lee.
-- Tono del texto (amor, amenaza, disculpa).
-- Consecuencia de leerlo.
+      "Połącz tekst w tekście z natychmiastową reakcją słuchacza/czytelnika.",
+    prompt: `Podaj:
+- Kto pisze, a kto odbiera.
+- Powód listu/wiadomości.
+- Miejsce, w którym jest czytany.
+- Ton tekstu (miłość, groźba, przeprosiny).
+- Konsekwencję przeczytania.
 
-Escribe 900–1600 palabras:
-- Inserta el mensaje completo (400–700 palabras).
-- Intercala reacciones físicas durante la lectura (sin cortar demasiado).
-- Final: el receptor toma una acción inmediata.`,
+Napisz 900–1600 słów:
+- Wstaw wiadomość w całości (400–700 słów).
+- Przeplataj fizyczne reakcje podczas czytania (ale nie tnąc zbyt mocno).
+- Finał: odbiorca podejmuje natychmiastowe działanie.`,
     thumbnail: "",
   },
 
   {
     id: "crea-esc-031",
-    title: "Escena de reencuentro: nostalgia + incomodidad",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena ponownego spotkania: nostalgia + dyskomfort",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Reencuentro de personajes con pasado compartido, lleno de capas.",
-    prompt: `Dame:
-- Quiénes se reencuentran y cuánto tiempo pasó.
-- Qué pasó la última vez (herida).
-- Lugar del reencuentro.
-- Un objeto del pasado.
-- Qué desea cada uno ahora.
+      "Spotkanie postaci z wspólną przeszłością, pełne warstw.",
+    prompt: `Podaj:
+- Kto się spotyka i ile czasu minęło.
+- Co się stało ostatnim razem (rana).
+- Miejsce spotkania.
+- Przedmiot z przeszłości.
+- Czego każde z nich chce teraz.
 
-Escribe 900–1600 palabras:
-- Mezcla memoria con presente, sin perder la escena.
-- Diálogo con cortes y silencios reales.
-- Final: promesa, amenaza o invitación a continuar.`,
+Napisz 900–1600 słów:
+- Mieszaj pamięć z teraźniejszością, bez gubienia sceny.
+- Dialog z prawdziwymi przerwami i ciszą.
+- Finał: obietnica, groźba albo zaproszenie do ciągu dalszego.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-032",
-    title: "Escena de humillación pública: control de tono y dignidad",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena publicznego upokorzenia: kontrola tonu i godność",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Una escena dura donde el protagonista es expuesto, con consecuencias internas.",
-    prompt: `Dame:
-- Qué se expone (vergüenza).
-- Quién lo provoca.
-- Público (quién está mirando).
-- Lugar.
-- Cómo el protagonista intenta salvarse.
+      "Trudna scena, w której protagonistę się obnaża, z konsekwencjami wewnętrznymi.",
+    prompt: `Podaj:
+- Co zostaje ujawnione (wstyd).
+- Kto to wywołuje.
+- Publiczność (kto patrzy).
+- Miejsce.
+- Jak protagonista próbuje się uratować.
 
-Escribe 900–1600 palabras:
-- Mantén empatía con el protagonista.
-- Usa detalles sensoriales para el shock (oídos, calor, manos).
-- Final: un nuevo juramento o una grieta emocional.`,
+Napisz 900–1600 słów:
+- Utrzymaj empatię wobec protagonisty.
+- Użyj detali sensorycznych dla szoku (uszy, ciepło, dłonie).
+- Finał: nowe przyrzeczenie albo emocjonalna rysa.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-033",
-    title: "Escena de alianza inesperada: enemigos cooperan",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena nieoczekiwanego sojuszu: wrogowie współpracują",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Dos personajes opuestos se ven obligados a colaborar frente a un tercero o un peligro.",
-    prompt: `Dame:
-- Enemigos: motivos de odio/rechazo.
-- Peligro externo.
-- Condición para sobrevivir/ganar (necesitan cooperar).
-- Lugar.
-- Qué línea moral no cruzarán.
+      "Dwie przeciwne postacie muszą współdziałać wobec trzeciej strony lub zagrożenia.",
+    prompt: `Podaj:
+- Wrogowie: powody nienawiści/odrzucenia.
+- Zewnętrzne niebezpieczeństwo.
+- Warunek, by przetrwać/wygrać (muszą współpracować).
+- Miejsce.
+- Jakiej moralnej linii nie przekroczą.
 
-Escribe 900–1700 palabras:
-- Disputa constante + cooperación funcional.
-- Momentos de respeto involuntario.
-- Final: alianza temporal sellada con condición.`,
+Napisz 900–1700 słów:
+- Stałe tarcie + funkcjonalna współpraca.
+- Momenty mimowolnego szacunku.
+- Finał: tymczasowy sojusz przypieczętowany warunkiem.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-034",
-    title: "Escena de infiltración: tensión silenciosa + detección casi",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena infiltracji: ciche napięcie + prawie wykrycie",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Entrar sin ser visto: sonidos, sombras y casi errores.",
-    prompt: `Dame:
-- Qué intenta lograr el infiltrado.
-- Lugar (seguridad, guardias, cámaras o equivalentes).
-- Disfraz/estrategia.
-- Un fallo potencial.
-- Qué pasa si lo ven.
+      "Wejść niezauważenie: dźwięki, cienie i prawie-błędy.",
+    prompt: `Podaj:
+- Co infiltrator próbuje osiągnąć.
+- Miejsce (ochrona, strażnicy, kamery lub odpowiedniki).
+- Przebranie/strategię.
+- Potencjalną wpadkę.
+- Co się stanie, jeśli go zobaczą.
 
-Escribe 900–1600 palabras:
-- Usa silencio y microsonidos como tensión.
-- 3 casi-errores (cerca de ser descubierto).
-- Final: logra entrar pero deja una pista.`,
+Napisz 900–1600 słów:
+- Użyj ciszy i mikro-dźwięków jako napięcia.
+- 3 prawie-błędy (blisko wykrycia).
+- Finał: uda się wejść, ale zostawia trop.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-035",
-    title: "Escena de cocina/mesa: familia + conflicto antiguo",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena w kuchni/przy stole: rodzina + dawny konflikt",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Drama familiar durante una comida: tensión que hierve bajo lo cotidiano.",
-    prompt: `Dame:
-- Familia (roles).
-- Conflicto antiguo.
-- Tema detonante (política, dinero, pareja, herencia).
-- Un personaje mediador.
-- Un objeto/platillo simbólico.
+      "Rodzinny dramat podczas posiłku: napięcie gotuje się pod codziennością.",
+    prompt: `Podaj:
+- Rodzinę (role).
+- Dawny konflikt.
+- Temat zapalny (polityka, pieniądze, związek, spadek).
+- Postać mediującą.
+- Symboliczny przedmiot/danie.
 
-Escribe 1000–1800 palabras:
-- Conversación normal que se tuerce.
-- Detalles de comida/sonidos para marcar ritmo.
-- Final: algo se rompe (literal o metafórico).`,
+Napisz 1000–1800 słów:
+- Zwykła rozmowa, która się wypacza.
+- Detale jedzenia/dźwięków do zaznaczania rytmu.
+- Finał: coś pęka (dosłownie lub metaforycznie).`,
     thumbnail: "",
   },
   {
     id: "crea-esc-036",
-    title: "Escena de primer día en un lugar nuevo: extrañeza y reglas",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena pierwszego dnia w nowym miejscu: obcość i zasady",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "El protagonista entra a un entorno nuevo y aprende reglas por fricción.",
-    prompt: `Dame:
-- Lugar nuevo (escuela, ciudad, secta, empresa, nave).
-- Regla social que nadie explica.
-- Persona que guía (pero no del todo).
-- Humillación o error inicial.
-- Objetivo del protagonista.
+      "Protagonista trafia do nowego środowiska i poznaje zasady przez tarcie.",
+    prompt: `Podaj:
+- Nowe miejsce (szkoła, miasto, sekta, firma, statek).
+- Społeczną zasadę, której nikt nie tłumaczy.
+- Osobę, która prowadzi (ale nie do końca).
+- Pierwsze upokorzenie lub błąd.
+- Cel protagonisty.
 
-Escribe 900–1600 palabras:
-- Mostrar reglas por consecuencias, no exposición.
-- 3 detalles que hagan el lugar único.
-- Final: el protagonista entiende algo inquietante.`,
+Napisz 900–1600 słów:
+- Pokazuj zasady przez konsekwencje, nie ekspozycję.
+- 3 detale, które czynią miejsce wyjątkowym.
+- Finał: protagonista rozumie coś niepokojącego.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-037",
-    title: "Escena de duelo: pérdida sin melodrama",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena żałoby: strata bez melodramatu",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Duelo realista: cuerpo, rutina rota y memoria como golpe.",
-    prompt: `Dame:
-- A quién se perdió.
-- Qué quedó pendiente.
-- Lugar donde ocurre la escena (casa, cementerio, hospital).
-- Un objeto del muerto.
-- Etapa del duelo (negación, rabia, aceptación parcial).
+      "Realistyczna żałoba: ciało, pęknięta rutyna i pamięć jak cios.",
+    prompt: `Podaj:
+- Kogo utracono.
+- Co zostało niedomknięte.
+- Miejsce sceny (dom, cmentarz, szpital).
+- Przedmiot zmarłego.
+- Etap żałoby (zaprzeczenie, gniew, częściowa akceptacja).
 
-Escribe 900–1700 palabras:
-- Evita clichés; muestra rutina y detalle.
-- Inserta 1 recuerdo sensorial breve.
-- Final: gesto pequeño de seguir o caer.`,
+Napisz 900–1700 słów:
+- Unikaj klisz; pokaż rutynę i detal.
+- Wstaw 1 krótkie wspomnienie sensoryczne.
+- Finał: mały gest iść dalej albo upaść.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-038",
-    title: "Escena de humor: caos controlado con remate",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena humoru: kontrolowany chaos z puentą",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Comedia basada en malentendidos, ritmo y un remate que cierre perfecto.",
-    prompt: `Dame:
-- Situación cómica (boda, entrevista, cita, entrega).
-- Personaje torpe (pero querible).
-- Objeto que complica todo.
-- Persona seria que choca con lo absurdo.
-- Final deseado (remate).
+      "Komedia oparta na nieporozumieniach, rytmie i puencie, która zamyka idealnie.",
+    prompt: `Podaj:
+- Komiczną sytuację (wesele, rozmowa kwalifikacyjna, randka, dostawa).
+- Niezdarnego bohatera (ale dającego się lubić).
+- Przedmiot, który komplikuje wszystko.
+- Poważną osobę, która zderza się z absurdem.
+- Finał pożądany (puenta).
 
-Escribe 900–1500 palabras:
-- Ritmo ágil, visual.
-- 3 escaladas (cada cosa empeora).
-- Remate final inevitable y sorprendente.`,
+Napisz 900–1500 słów:
+- Tempo szybkie, obrazowe.
+- 3 eskalacje (za każdym razem gorzej).
+- Finałowa puenta nieunikniona i zaskakująca.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-039",
-    title: "Escena de confrontación con el yo: espejo/recuerdo",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena konfrontacji z sobą: lustro/wspomnienie",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "El personaje se enfrenta a sí mismo (metafórico o literal) y cambia.",
-    prompt: `Dame:
-- Conflicto interno.
-- Disparador (espejo, foto, voz, lugar).
-- Qué teme admitir.
-- Un símbolo.
-- Final: cambio deseado.
+      "Postać staje naprzeciw siebie (metaforycznie lub dosłownie) i się zmienia.",
+    prompt: `Podaj:
+- Wewnętrzny konflikt.
+- Wyzwalacz (lustro, zdjęcie, głos, miejsce).
+- Czego boi się przyznać.
+- Symbol.
+- Finał: pożądana zmiana.
 
-Escribe 900–1600 palabras:
-- Monólogo interior + acciones.
-- El símbolo aparece 3 veces con significado distinto.
-- Final: decisión que rompa el patrón.`,
+Napisz 900–1600 słów:
+- Monolog wewnętrzny + działania.
+- Symbol pojawia się 3 razy z innym znaczeniem.
+- Finał: decyzja, która łamie schemat.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-040",
-    title: "Escena de interrogatorio: presión psicológica",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena przesłuchania: presja psychologiczna",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Interrogatorio con juego de poder, silencios y una grieta emocional.",
-    prompt: `Dame:
-- Interrogador y sospechoso (qué ocultan).
-- Qué se busca obtener.
-- Lugar (opresivo o engañosamente amable).
-- Técnica (amable, agresiva, confusión).
-- Giro final.
+      "Przesłuchanie z grą sił, ciszą i emocjonalną rysą.",
+    prompt: `Podaj:
+- Przesłuchującego i podejrzanego (co ukrywają).
+- Co trzeba uzyskać.
+- Miejsce (opresyjne lub zwodniczo miłe).
+- Technikę (miła, agresywna, dezorientacja).
+- Końcowy zwrot.
 
-Escribe 1000–1800 palabras:
-- Cambios de estrategia visibles.
-- Silencio como arma (describe su efecto).
-- Final: confesión parcial o acusación inesperada.`,
+Napisz 1000–1800 słów:
+- Widoczne zmiany strategii.
+- Cisza jako broń (opisz jej efekt).
+- Finał: częściowe przyznanie się albo nieoczekiwane oskarżenie.`,
     thumbnail: "",
   },
 
   {
     id: "crea-esc-041",
-    title: "Escena de batalla pequeña: táctica clara, emoción grande",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Mała scena bitwy: czytelna taktyka, wielkie emocje",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Combate limitado (no guerra masiva) con táctica, geografía y costo emocional.",
-    prompt: `Dame:
-- Quién pelea y por qué.
-- Lugar con elementos que se puedan usar tácticamente.
-- Ventaja y desventaja del protagonista.
-- Qué no puede perder.
-- Resultado deseado (victoria cara/derrota digna).
+      "Ograniczona walka (nie masowa wojna) z taktyką, geografią i emocjonalnym kosztem.",
+    prompt: `Podaj:
+- Kto walczy i dlaczego.
+- Miejsce z elementami do użycia taktycznego.
+- Przewagę i wadę protagonisty.
+- Czego nie może stracić.
+- Pożądany wynik (drogo kupione zwycięstwo / godna porażka).
 
-Escribe 1000–1800 palabras:
-- Geografía clara.
-- Daño realista (cansancio, miedo, dolor).
-- Final: resultado con costo emocional explícito.`,
+Napisz 1000–1800 słów:
+- Czytelna geografia.
+- Realistyczne skutki (zmęczenie, strach, ból).
+- Finał: wynik z wyraźnym kosztem emocjonalnym.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-042",
-    title: "Escena de pacto: promesa peligrosa sellada por ritual",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena paktu: niebezpieczna obietnica przypieczętowana rytuałem",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Dos partes sellan un acuerdo (mágico o simbólico) con precio latente.",
-    prompt: `Dame:
-- Quién pacta con quién.
-- Qué pide cada uno.
-- Ritual o símbolo del pacto.
-- Condición oculta.
-- Lugar.
+      "Dwie strony zawierają umowę (magiczną lub symboliczną) z ukrytą ceną.",
+    prompt: `Podaj:
+- Kto z kim zawiera pakt.
+- Czego chce każda strona.
+- Rytuał lub symbol paktu.
+- Ukrytą klauzulę.
+- Miejsce.
 
-Escribe 900–1600 palabras:
-- Tensión moral: ¿deberían hacerlo?
-- El ritual debe ser sensorial y específico.
-- Final: el pacto se sella y algo “se nota” que cambió.`,
+Napisz 900–1600 słów:
+- Napięcie moralne: czy powinni to zrobić?
+- Rytuał ma być zmysłowy i konkretny.
+- Finał: pakt zostaje zawarty i „czuć”, że coś się zmieniło.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-043",
-    title: "Escena de descubrimiento científico: asombro + miedo",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena odkrycia naukowego: zachwyt + strach",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Hallazgo científico que maravilla pero tiene implicaciones inquietantes.",
-    prompt: `Dame:
-- Qué se descubre.
-- Quién lo descubre (y su ética).
-- Lugar (laboratorio/campo).
-- Síntoma extraño del hallazgo.
-- Riesgo inmediato.
+      "Odkrycie, które zachwyca, ale ma niepokojące konsekwencje.",
+    prompt: `Podaj:
+- Co zostaje odkryte.
+- Kto odkrywa (i jaka jest jego etyka).
+- Miejsce (laboratorium/teren).
+- Dziwny symptom odkrycia.
+- Natychmiastowe ryzyko.
 
-Escribe 900–1700 palabras:
-- Asombro técnico explicado con claridad, sin infodump.
-- Reacción humana creíble.
-- Final: decisión de ocultar o revelar.`,
+Napisz 900–1700 słów:
+- Techniczny zachwyt wyjaśniony jasno, bez infodumpu.
+- Wiarygodna reakcja ludzka.
+- Finał: decyzja, czy ukryć, czy ujawnić.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-044",
-    title: "Escena de confesión en voz rota: perdón imposible",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena wyznania z łamiącym się głosem: niemożliwe przebaczenie",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Confesión cruda donde el perdón no está garantizado.",
-    prompt: `Dame:
-- Qué se confiesa.
-- Víctima o afectado.
-- Lugar íntimo.
-- Qué está a punto de perder el confesor.
-- Final deseado (rechazo/ambigüedad).
+      "Surowe wyznanie, w którym przebaczenie nie jest gwarantowane.",
+    prompt: `Podaj:
+- Co zostaje wyznane.
+- Ofiarę lub kogoś dotkniętego.
+- Intymne miejsce.
+- Co wyznający zaraz straci.
+- Pożądany finał (odrzucenie/niejednoznaczność).
 
-Escribe 900–1600 palabras:
-- Lenguaje concreto, emocional sin melodrama.
-- Reacciones físicas fuertes pero realistas.
-- Final: el perdón no se da ‘gratis’.`,
+Napisz 900–1600 słów:
+- Konkretne słowa, emocje bez melodramatu.
+- Silne, ale realistyczne reakcje fizyczne.
+- Finał: przebaczenie nie jest „za darmo”.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-045",
-    title: "Escena de hallazgo de mapa/archivo: pista que abre mundo",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena znalezienia mapy/archiwum: trop, który otwiera świat",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Encuentran un mapa o archivo que cambia el objetivo de la historia.",
-    prompt: `Dame:
-- Qué es el mapa/archivo.
-- Dónde estaba escondido.
-- Qué peligro trae.
-- Quién lo quiere también.
-- Un símbolo en el mapa.
+      "Bohaterowie znajdują mapę lub archiwum, które zmienia cel historii.",
+    prompt: `Podaj:
+- Czym jest mapa/archiwum.
+- Gdzie było ukryte.
+- Jakie niesie zagrożenie.
+- Kto też tego chce.
+- Symbol na mapie.
 
-Escribe 900–1500 palabras:
-- Descubrimiento con tensión (riesgo de ser vistos).
-- Lectura del mapa/archivo con interpretación (no exposición pura).
-- Final: nueva misión definida.`,
+Napisz 900–1500 słów:
+- Odkrycie z napięciem (ryzyko, że ktoś zobaczy).
+- Odczytywanie mapy/archiwum z interpretacją (nie czysta ekspozycja).
+- Finał: nowa misja zostaje zdefiniowana.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-046",
-    title: "Escena de despedida antes de misión: promesa y miedo",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena pożegnania przed misją: obietnica i strach",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Antes de irse a algo peligroso, dos personajes se dicen poco pero todo.",
-    prompt: `Dame:
-- Quién se va a la misión y por qué.
-- Quién se queda.
-- Qué promesa hacen (explícita o implícita).
-- Lugar (puerto, estación, puerta de casa).
-- Objeto que queda.
+      "Przed wyruszeniem w niebezpieczeństwo dwie postacie mówią niewiele, ale wszystko.",
+    prompt: `Podaj:
+- Kto idzie na misję i dlaczego.
+- Kto zostaje.
+- Jaką składają obietnicę (jawnie lub nie).
+- Miejsce (port, stacja, próg domu).
+- Przedmiot, który zostaje.
 
-Escribe 900–1500 palabras:
-- Emoción contenida, detalles físicos.
-- Diálogo con subtexto.
-- Final: gesto final inolvidable.`,
+Napisz 900–1500 słów:
+- Powściągnięte emocje, fizyczne detale.
+- Dialog z podtekstem.
+- Finał: niezapomniany ostatni gest.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-047",
-    title: "Escena de “casi final feliz” que se rompe (twist)",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena „prawie szczęśliwego końca”, który pęka (twist)",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Construye alivio y luego rompe la expectativa con un giro limpio.",
-    prompt: `Dame:
-- Qué creen haber logrado.
-- Qué amenaza sigue viva.
-- Lugar donde celebran o descansan.
-- Señal mínima del giro.
-- Consecuencia del giro.
+      "Zbuduj ulgę, a potem złam oczekiwanie czystym zwrotem.",
+    prompt: `Podaj:
+- Co myślą, że osiągnęli.
+- Jakie zagrożenie wciąż żyje.
+- Miejsce, gdzie świętują lub odpoczywają.
+- Minimalny sygnał zwrotu.
+- Konsekwencję zwrotu.
 
-Escribe 900–1600 palabras:
-- Primera mitad: alivio, luz, humor mínimo.
-- Inserta señales casi invisibles.
-- Giro final contundente y lógico.
-- Cierra con imagen fuerte.`,
+Napisz 900–1600 słów:
+- Pierwsza połowa: ulga, światło, minimalny humor.
+- Wstaw niemal niewidoczne sygnały.
+- Końcowy zwrot mocny i logiczny.
+- Zakończ silnym obrazem.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-048",
-    title: "Escena de negociación romántica: límites y deseo",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena romantycznych negocjacji: granice i pragnienie",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Romance adulto: dos personajes hablan de límites, miedo y deseo sin cursilería.",
-    prompt: `Dame:
-- Personajes (qué arriesgan si se acercan).
-- Contexto (después de un beso / antes de una decisión).
-- Límite central.
-- Deseo central.
-- Lugar.
+      "Dojrzały romans: dwie osoby rozmawiają o granicach, strachu i pragnieniu bez lukru.",
+    prompt: `Podaj:
+- Postacie (co ryzykują, jeśli się zbliżą).
+- Kontekst (po pocałunku / przed decyzją).
+- Główną granicę.
+- Główne pragnienie.
+- Miejsce.
 
-Escribe 900–1500 palabras:
-- Conversación honesta + tensión.
-- Subtexto: ambos quieren, ambos temen.
-- Final: acuerdo, pausa o beso, pero con consecuencia.`,
+Napisz 900–1500 słów:
+- Szczera rozmowa + napięcie.
+- Podtekst: oboje chcą, oboje się boją.
+- Finał: umowa, pauza albo pocałunek, ale z konsekwencją.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-049",
-    title: "Escena de ritual cotidiano con significado oculto (folk/realismo mágico)",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena codziennego rytuału z ukrytym znaczeniem (folk/realizm magiczny)",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Una acción cotidiana revela reglas secretas del mundo (sin explicarlas del todo).",
-    prompt: `Dame:
-- Comunidad o familia.
-- Ritual cotidiano (pan, sal, agua, velas, canciones).
-- Qué protege o invoca.
-- Qué pasa si se hace mal.
-- Protagonista: duda o rebeldía.
+      "Codzienna czynność odsłania sekretne reguły świata (bez pełnego wyjaśniania).",
+    prompt: `Podaj:
+- Społeczność lub rodzinę.
+- Codzienny rytuał (chleb, sól, woda, świece, pieśni).
+- Co chroni lub przywołuje.
+- Co się stanie, jeśli zrobi się to źle.
+- Protagonista: wątpliwość lub bunt.
 
-Escribe 900–1600 palabras:
-- Detalles sensoriales ricos.
-- La regla se entiende por miedo y acciones.
-- Final: el protagonista rompe o perfecciona el ritual.`,
+Napisz 900–1600 słów:
+- Bogate detale zmysłowe.
+- Zasada ma być zrozumiała przez strach i działania.
+- Finał: protagonista łamie lub perfekcyjnie wykonuje rytuał.`,
     thumbnail: "",
   },
   {
     id: "crea-esc-050",
-    title: "Escena de clímax emocional: decisión que define al protagonista",
-    area: "Escritura Creativa",
-    category: "Escenas",
+    title: "Scena emocjonalnego climaxu: decyzja, która definiuje protagonistę",
+    area: "Pisanie Kreatywne",
+    category: "Sceny",
     summary:
-      "Un clímax donde el protagonista elige quién es, con pérdida o victoria real.",
-    prompt: `Dame:
-- Dilema final (dos caminos).
-- Qué pierde en cada opción.
-- Quién/qué representa cada opción (persona, valor, objeto).
-- Lugar y clima.
-- Tono final.
+      "Kulminacja, w której protagonista wybiera, kim jest — z realną stratą lub zwycięstwem.",
+    prompt: `Podaj:
+- Ostateczny dylemat (dwie drogi).
+- Co traci w każdej opcji.
+- Kto/co reprezentuje każdą opcję (osoba, wartość, przedmiot).
+- Miejsce i pogoda.
+- Końcowy ton.
 
-Escribe 1200–2000 palabras:
-- Escala emocional en 3 oleadas.
-- Usa acciones concretas para mostrar decisión.
-- Final: consecuencia inmediata + eco emocional.
-- Última línea: frase memorable (sin cliché).`,
+Napisz 1200–2000 słów:
+- Eskaluj emocje w 3 falach.
+- Użyj konkretnych działań, by pokazać decyzję.
+- Finał: natychmiastowa konsekwencja + echo emocjonalne.
+- Ostatnia linijka: zdanie zapadające w pamięć (bez kliszy).`,
     thumbnail: "",
   },
 ];

@@ -3,1115 +3,1165 @@
 export const textPromptsSoporteDocs = [
   {
     id: "sop-doc-001",
-    title: "Plantilla de artículo de ayuda (Help Center): estructura perfecta + checklist de calidad",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Szablon artykułu pomocy (Help Center): idealna struktura + checklista jakości",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Genera un artículo de ayuda completo con pasos, capturas sugeridas, errores comunes y FAQ.",
-    prompt: `Tema del artículo: [ ]
-Producto/feature: [ ]
-Audiencia: [principiante/mixta/avanzada]
-Canal: [web/app]
-Tono: [cercano/neutral/premium]
-Objetivo del artículo: [resolver X sin contactar soporte]
+      "Generuje kompletny artykuł pomocy z krokami, sugerowanymi zrzutami ekranu, typowymi błędami i FAQ.",
+    prompt: `Temat artykułu: [ ]
+Produkt/funkcja: [ ]
+Odbiorcy: [początkujący/mieszani/zaawansowani]
+Kanał: [web/aplikacja]
+Ton: [bliski/neutralny/premium]
+Cel artykułu: [rozwiązać X bez kontaktu z supportem]
 
-Escríbeme un artículo de Help Center listo para publicar con:
-1) Título SEO (3 opciones) + slug sugerido.
-2) Resumen (2–3 líneas) + “cuándo usar” y “cuándo NO aplica”.
-3) Requisitos previos (cuentas, permisos, plan).
-4) Pasos principales (8–14) con:
-   - acción exacta
-   - qué debería ver el usuario
-   - dónde puede fallar el paso
-5) Sección “Errores comunes” (mín. 8) y su solución.
-6) Solución alternativa / workaround (si aplica).
-7) FAQ (10 preguntas) enfocadas en dudas reales.
-8) Sección “Si aún no funciona”:
-   - qué datos recopilar
-   - cómo contactar soporte (plantilla)
-9) Sugerencias de capturas/diagramas:
-   - en qué paso
-   - qué debe mostrar cada imagen
-10) Checklist editorial (12 puntos): claridad, accesibilidad, consistencia, links.`,
+Napisz artykuł Help Center gotowy do publikacji z:
+1) Tytułem SEO (3 propozycje) + sugerowany slug.
+2) Streszczeniem (2–3 linie) + “kiedy użyć” i “kiedy NIE dotyczy”.
+3) Wymaganiami wstępnymi (konta, uprawnienia, plan).
+4) Głównymi krokami (8–14) z:
+   - dokładną akcją
+   - co użytkownik powinien zobaczyć
+   - gdzie krok może się wywalić / nie zadziałać
+5) Sekcją “Typowe błędy” (min. 8) i rozwiązaniami.
+6) Rozwiązaniem alternatywnym / obejściem (jeśli dotyczy).
+7) FAQ (10 pytań) pod realne wątpliwości.
+8) Sekcją “Jeśli nadal nie działa”:
+   - jakie dane zebrać
+   - jak skontaktować się z supportem (szablon)
+9) Sugestiami zrzutów/diagramów:
+   - w którym kroku
+   - co powinien pokazywać każdy obraz
+10) Checklistą redakcyjną (12 punktów): jasność, dostępność, spójność, linki.`,
     thumbnail: "",
   },
   {
     id: "sop-doc-002",
-    title: "Guía de inicio rápido (Quickstart) para nuevos usuarios: 15 minutos a primera victoria",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Szybki start (Quickstart) dla nowych użytkowników: 15 minut do pierwszego sukcesu",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Quickstart para que el usuario logre un resultado palpable en menos de 15 minutos.",
-    prompt: `Producto: [ ]
-Resultado “primera victoria”: [ ]
-Usuario ideal: [ ]
-Plataforma: [web/app]
-Tono: [ ]
+      "Quickstart, żeby użytkownik osiągnął namacalny efekt w mniej niż 15 minut.",
+    prompt: `Produkt: [ ]
+Rezultat “pierwszy sukces”: [ ]
+Idealny użytkownik: [ ]
+Platforma: [web/aplikacja]
+Ton: [ ]
 
-Crea una guía Quickstart con:
-1) Objetivo (una frase) + qué aprenderá.
-2) Lista de requisitos (2–6).
-3) Ruta en 3 fases:
-   - Fase 1 (2–4 min): configuración mínima
-   - Fase 2 (5–8 min): acción principal
-   - Fase 3 (2–3 min): verificación + siguiente paso
-4) Pasos numerados con micro-checks “¿ves esto?”.
-5) Errores comunes (6) y cómo evitarlos.
-6) “Siguiente nivel”: 5 cosas para explorar después.
-7) CTA final: recurso relacionado + dónde pedir ayuda.`,
+Stwórz przewodnik Quickstart z:
+1) Celem (jedno zdanie) + czego się nauczysz.
+2) Listą wymagań (2–6).
+3) Ścieżką w 3 fazach:
+   - Faza 1 (2–4 min): minimalna konfiguracja
+   - Faza 2 (5–8 min): główna akcja
+   - Faza 3 (2–3 min): weryfikacja + następny krok
+4) Numerowanymi krokami z mikro-checkami “Czy widzisz to?”.
+5) Typowymi błędami (6) i jak ich uniknąć.
+6) “Następny poziom”: 5 rzeczy do sprawdzenia później.
+7) Końcowym CTA: powiązany zasób + gdzie poprosić o pomoc.`,
     thumbnail: "",
   },
   {
     id: "sop-doc-003",
-    title: "Documento “Cómo funciona” (conceptual): explicar el sistema sin tecnicismos + glosario",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument “Jak to działa” (koncepcyjny): wyjaśnij system bez technicznego żargonu + glosariusz",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Doc conceptual para reducir tickets: cómo funciona, por qué pasa X y cómo pensar el producto.",
-    prompt: `Elemento a explicar: [suscripción/billing/feature/algoritmo]
-Nivel del usuario: [ ]
-Tono: [ ]
+      "Dokument koncepcyjny redukujący tickety: jak działa, dlaczego dzieje się X i jak myśleć o produkcie.",
+    prompt: `Element do wyjaśnienia: [subskrypcja/billing/funkcja/algorytm]
+Poziom użytkownika: [ ]
+Ton: [ ]
 
-Escribe un documento conceptual que incluya:
-1) Explicación en 3 niveles:
-   - 1 párrafo ultra simple
-   - explicación media con ejemplo
-   - explicación más técnica (opcional)
-2) “Lo que SÍ es” vs “lo que NO es” (tabla conceptual en texto).
-3) 5 analogías útiles (sin cringe) para explicar a no técnicos.
-4) Casos típicos (10): “si pasa X, significa Y”.
-5) Glosario (12–20 términos) con definiciones simples.
-6) Sección “mitos” (8) y corrección.
-7) Cómo evitar errores: checklist (10).`,
+Napisz dokument koncepcyjny, który zawiera:
+1) Wyjaśnienie na 3 poziomach:
+   - 1 ultraproste akapity
+   - wyjaśnienie średnie z przykładem
+   - wyjaśnienie bardziej techniczne (opcjonalnie)
+2) “Czym TO jest” vs “Czym TO NIE jest” (tabela koncepcyjna w tekście).
+3) 5 użytecznych analogii (bez cringu) dla nietechnicznych.
+4) Typowe przypadki (10): “jeśli X, to znaczy Y”.
+5) Glosariusz (12–20 terminów) z prostymi definicjami.
+6) Sekcję “mity” (8) i sprostowania.
+7) Jak unikać błędów: checklista (10).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-004",
-    title: "FAQ maestro: 30 preguntas reales (agrupadas) + respuestas cortas y largas",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "FAQ master: 30 realnych pytań (pogrupowanych) + odpowiedzi krótkie i długie",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Crea un FAQ que realmente disminuya soporte: respuestas consistentes y accionables.",
-    prompt: `Producto: [ ]
-Tema: [acceso/billing/uso/seguridad]
-Tono: [ ]
+      "Tworzy FAQ, które realnie zmniejsza obciążenie supportu: spójne i wykonalne odpowiedzi.",
+    prompt: `Produkt: [ ]
+Temat: [dostęp/billing/użytkowanie/bezpieczeństwo]
+Ton: [ ]
 
-Genera un FAQ con:
-1) 30 preguntas agrupadas en 5 secciones (6 preguntas cada una).
-2) Para cada pregunta:
-   - respuesta corta (1–2 líneas)
-   - respuesta larga (5–8 líneas) con pasos si aplica
-   - enlace sugerido a artículo relacionado (inventar título si no existe)
-3) 10 preguntas “típicas de conflicto” y cómo responder con calma.
-4) Guía interna: cómo mantener el FAQ actualizado (proceso y frecuencia).`,
+Wygeneruj FAQ z:
+1) 30 pytań w 5 sekcjach (po 6 pytań).
+2) Dla każdego pytania:
+   - krótka odpowiedź (1–2 linie)
+   - długa odpowiedź (5–8 linii) z krokami, jeśli trzeba
+   - sugerowany link do powiązanego artykułu (wymyśl tytuł, jeśli nie istnieje)
+3) 10 pytań “konfliktowych” i jak spokojnie odpowiadać.
+4) Wewnętrzny przewodnik: jak utrzymywać FAQ aktualne (proces i częstotliwość).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-005",
-    title: "Base de conocimiento para soporte: taxonomía, etiquetas, estándares y mantenimiento",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Baza wiedzy dla supportu: taksonomia, tagi, standardy i utrzymanie",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Diseña la estructura de tu Help Center: categorías, tags y reglas de escritura.",
-    prompt: `Tipo negocio: [SaaS/ecommerce/curso]
-Volumen de artículos esperado: [ ]
-Equipo: [ ]
+      "Projekt struktury Help Center: kategorie, tagi i zasady pisania.",
+    prompt: `Typ biznesu: [SaaS/ecommerce/kurs]
+Oczekiwana liczba artykułów: [ ]
+Zespół: [ ]
 
-Crea un plan de Knowledge Base con:
-1) Taxonomía:
-   - 8–12 categorías principales
-   - 3–6 subcategorías por cada una
-2) Sistema de tags (20–40 tags) con reglas de uso.
-3) Estándares de documentación:
-   - voz/tono
-   - longitud objetivo
-   - formato de pasos
-   - cómo nombrar artículos
-4) Proceso de actualización:
-   - triggers (tickets, releases, cambios)
-   - cadencia (semanal/mensual)
-   - roles (owner/reviewer)
-5) Métricas: qué medir (deflection rate, búsquedas fallidas, etc.).
-6) Checklist editorial para aprobar un artículo.`,
+Stwórz plan Bazy Wiedzy z:
+1) Taksonomią:
+   - 8–12 głównych kategorii
+   - 3–6 podkategorii dla każdej
+2) Systemem tagów (20–40 tagów) z zasadami użycia.
+3) Standardami dokumentacji:
+   - głos/ton
+   - docelowa długość
+   - format kroków
+   - jak nazywać artykuły
+4) Procesem aktualizacji:
+   - wyzwalacze (tickety, releasy, zmiany)
+   - rytm (tygodniowo/miesięcznie)
+   - role (owner/reviewer)
+5) Metrykami: co mierzyć (deflection rate, nieudane wyszukiwania itd.).
+6) Checklistą redakcyjną do akceptacji artykułu.`,
     thumbnail: "",
   },
 
   {
     id: "sop-doc-006",
-    title: "Runbook para agentes: cómo resolver un caso de inicio a fin (con plantillas)",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Runbook dla agentów: jak rozwiązać sprawę od A do Z (z szablonami)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Manual interno del agente: diagnóstico, escalación, documentación y cierre consistente.",
-    prompt: `Producto: [ ]
-Tipos de casos: [lista corta]
-Canales: [ ]
+      "Wewnętrzny manual agenta: diagnoza, eskalacja, dokumentacja i spójne domknięcia.",
+    prompt: `Produkt: [ ]
+Typy spraw: [krótka lista]
+Kanały: [ ]
 
-Crea un runbook interno con:
-1) Flujo estándar (diagrama en texto) desde ticket → cierre.
-2) Guía de diagnóstico: 12 preguntas base + cuándo usarlas.
-3) “Do/Don’t” (15 pares).
-4) Plantillas:
-   - pedir datos
-   - explicar política
-   - escalar a L2
-   - cierre con prevención
-5) Checklist de documentación (10 campos obligatorios).
-6) Escalación:
-   - criterios
-   - prioridad
-   - datos mínimos a adjuntar
-7) QA: criterios de calidad (rubric 1–5).`,
+Stwórz wewnętrzny runbook z:
+1) Standardowym flow (diagram w tekście) od ticketa → zamknięcia.
+2) Przewodnikiem diagnozy: 12 pytań bazowych + kiedy ich używać.
+3) “Do/Don’t” (15 par).
+4) Szablonami:
+   - prośba o dane
+   - wyjaśnienie polityki
+   - eskalacja do L2
+   - domknięcie z prewencją
+5) Checklistą dokumentacji (10 obowiązkowych pól).
+6) Eskalacją:
+   - kryteria
+   - priorytet
+   - minimalne dane do załączenia
+7) QA: kryteria jakości (rubryka 1–5).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-007",
-    title: "Artículo de troubleshooting (tipo árbol): ‘Si ves este error → haz esto’ (20 ramas)",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Artykuł troubleshooting (drzewko): ‘Jeśli widzisz ten błąd → zrób to’ (20 gałęzi)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Documento estilo árbol de decisiones para errores comunes y soluciones rápidas.",
-    prompt: `Problema genérico: [no carga/no inicia sesión/no puedo pagar/etc.]
-Plataforma: [web/app]
-Errores típicos: [si tienes, pégalos]
+      "Dokument w stylu drzewa decyzji dla typowych błędów i szybkich rozwiązań.",
+    prompt: `Ogólny problem: [nie ładuje/nie mogę się zalogować/nie mogę zapłacić/etc.]
+Platforma: [web/aplikacja]
+Typowe błędy: [jeśli masz, wklej]
 
-Crea un troubleshooting con:
-1) Diagnóstico inicial (5 checks rápidos).
-2) Árbol de decisiones en texto con 20 ramas:
-   - condición → acción → resultado esperado
-3) Workarounds seguros (5).
-4) Cuándo escalar y qué datos adjuntar (checklist).
-5) Sección “qué NO hacer” (10).
+Stwórz troubleshooting z:
+1) Diagnozą startową (5 szybkich checków).
+2) Drzewem decyzji w tekście z 20 gałęziami:
+   - warunek → akcja → oczekiwany rezultat
+3) Bezpiecznymi obejściami (5).
+4) Kiedy eskalować i jakie dane dodać (checklista).
+5) Sekcją “czego NIE robić” (10).
 6) FAQ (10).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-008",
-    title: "Release notes amigables (usuarios): resumen de cambios + impacto + acciones",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Przyjazne release notes (dla użytkowników): podsumowanie zmian + wpływ + działania",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Plantilla de notas de versión que reduce tickets por cambios inesperados.",
-    prompt: `Versión/fecha: [ ]
-Cambios (pegar bullets): [ ]
-Features nuevas: [ ]
-Bugfixes: [ ]
-Cambios breaking: [ ]
+      "Szablon notatek z wersji, który zmniejsza tickety przez niespodziewane zmiany.",
+    prompt: `Wersja/data: [ ]
+Zmiany (wklej bulletsy): [ ]
+Nowe funkcje: [ ]
+Poprawki błędów: [ ]
+Breaking changes: [ ]
 
-Escribe release notes con:
-1) Resumen ejecutivo (5 bullets).
-2) Qué cambia para el usuario (por roles/planes si aplica).
-3) Cambios importantes (detallados) + antes vs después.
-4) Si hay breaking changes:
-   - quién se afecta
-   - qué debe hacer
-   - plazo
-5) FAQ (8) anticipando dudas.
-6) “Guía para soporte”:
-   - macros (6)
-   - tags
-   - cuándo escalar.`,
+Napisz release notes z:
+1) Podsumowaniem (5 bulletów).
+2) Co zmienia się dla użytkownika (wg ról/planów, jeśli dotyczy).
+3) Ważnymi zmianami (szczegóły) + przed vs po.
+4) Jeśli są breaking changes:
+   - kogo dotyczy
+   - co trzeba zrobić
+   - termin
+5) FAQ (8) przewidujące wątpliwości.
+6) “Przewodnik dla supportu”:
+   - makra (6)
+   - tagi
+   - kiedy eskalować.`,
     thumbnail: "",
   },
   {
     id: "sop-doc-009",
-    title: "Guía de migración: antes → después (pasos, riesgos, rollback y verificación)",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Przewodnik migracji: przed → po (kroki, ryzyka, rollback i weryfikacja)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Documento de migración que evita tickets: pasos, verificación, fallback y checklist.",
-    prompt: `Qué se migra: [plan/sistema/feature]
-Audiencia: [usuarios/admins]
-Riesgos: [ ]
-Ventana: [ ]
+      "Dokument migracyjny, który zapobiega ticketom: kroki, weryfikacje, fallback i checklisty.",
+    prompt: `Co migrujemy: [plan/system/funkcja]
+Odbiorcy: [użytkownicy/admini]
+Ryzyka: [ ]
+Okno czasowe: [ ]
 
-Crea una guía con:
-1) Contexto: por qué se migra y qué gana el usuario.
-2) Requisitos previos.
-3) Plan paso a paso (10–18 pasos) con puntos de verificación.
-4) Riesgos y mitigaciones (10).
-5) Plan de rollback (si aplica) explicado simple.
+Stwórz przewodnik z:
+1) Kontekstem: dlaczego migrujemy i co zyskuje użytkownik.
+2) Wymaganiami wstępnymi.
+3) Planem krok po kroku (10–18 kroków) z punktami weryfikacji.
+4) Ryzykami i mitigacjami (10).
+5) Planem rollback (jeśli dotyczy) w prostych słowach.
 6) FAQ (10).
-7) Guía para soporte: señales de fallos + macros (8).`,
+7) Przewodnikiem dla supportu: sygnały awarii + makra (8).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-010",
-    title: "Documento de políticas para soporte (operativo): convertir reglas en decisiones",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument polityk dla supportu (operacyjny): zamień zasady w decyzje",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Convierte políticas largas en un manual accionable para agentes y QA.",
-    prompt: `Políticas actuales (pegar o resumir): [ ]
-Casos típicos: [ ]
-Herramienta soporte: [Zendesk/Intercom/etc.]
+      "Zamienia długie polityki w praktyczny manual dla agentów i QA.",
+    prompt: `Obecne polityki (wklej lub streść): [ ]
+Typowe sprawy: [ ]
+Narzędzie supportu: [Zendesk/Intercom/etc.]
 
-Genera:
-1) “Cheat sheet” en 1 página: reglas si→entonces.
-2) Árbol de decisión para 3 temas:
-   - reembolsos
-   - cancelaciones
-   - abuso/fraude
-3) Macros listas para copiar (20) por escenario:
-   - aprobado
-   - negado
-   - caso gris (pedir info)
-4) Checklist de QA para auditar cumplimiento (12 criterios).
-5) Guía de registro: tags obligatorios y campos.`,
+Wygeneruj:
+1) “Cheat sheet” na 1 stronę: reguły jeśli→to.
+2) Drzewo decyzji dla 3 tematów:
+   - zwroty
+   - anulowania
+   - nadużycia/fraud
+3) Makra gotowe do wklejenia (20) wg scenariusza:
+   - zaakceptowano
+   - odrzucono
+   - przypadek graniczny (prośba o info)
+4) Checklistę QA do audytu zgodności (12 kryteriów).
+5) Przewodnik rejestracji: obowiązkowe tagi i pola.`,
     thumbnail: "",
   },
 
   {
     id: "sop-doc-011",
-    title: "Documento SOP de ‘cómo escribir docs’: estilo, ejemplos buenos/malos y reglas",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "SOP ‘jak pisać dokumentację’: styl, dobre/złe przykłady i zasady",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Manual editorial para que toda tu documentación sea consistente.",
-    prompt: `Marca/tono: [ ]
-Audiencia: [ ]
-Plataforma docs: [Notion/Help Center]
-Nivel de detalle: [ ]
+      "Manual redakcyjny, żeby cała dokumentacja była spójna.",
+    prompt: `Marka/ton: [ ]
+Odbiorcy: [ ]
+Platforma docs: [Notion/Help Center]
+Poziom szczegółowości: [ ]
 
-Crea un SOP editorial con:
-1) Reglas de estilo (15) con ejemplos buenos/malos.
-2) Formato estándar de artículo (plantilla).
-3) Cómo escribir pasos:
-   - verbo de acción
-   - resultado esperado
-   - solución si falla
-4) Convenciones: nombres de menús, botones, placeholders.
-5) Accesibilidad: lenguaje, contraste, alt text, evitar jerga.
-6) Proceso: draft → review → publish → update.
-7) Checklist final (20).`,
+Stwórz SOP redakcyjny z:
+1) Zasadami stylu (15) z dobrymi/złymi przykładami.
+2) Standardowym formatem artykułu (szablon).
+3) Jak pisać kroki:
+   - czasownik akcji
+   - oczekiwany rezultat
+   - co zrobić, jeśli się nie uda
+4) Konwencjami: nazwy menu, przyciski, placeholdery.
+5) Dostępnością: język, kontrast, alt text, unikanie żargonu.
+6) Procesem: draft → review → publish → update.
+7) Checklistą końcową (20).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-012",
-    title: "Mapa de contenidos: qué artículos escribir primero según tickets (priorización 80/20)",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Mapa treści: jakie artykuły pisać najpierw wg ticketów (priorytetyzacja 80/20)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Plan de contenidos para docs basado en impacto: tickets, búsquedas y fricciones top.",
-    prompt: `Top tickets (si tienes, pega 10): [ ]
-Top búsquedas fallidas (si tienes): [ ]
-Producto: [ ]
+      "Plan treści do dokumentacji oparty o wpływ: tickety, wyszukiwania i top frikcje.",
+    prompt: `Top tickety (jeśli masz, wklej 10): [ ]
+Top nieudane wyszukiwania (jeśli masz): [ ]
+Produkt: [ ]
 
-Crea:
-1) Método para priorizar (impacto × frecuencia × dificultad).
-2) Lista de 25 artículos “must-have” con:
-   - título
-   - objetivo
-   - sección donde vive
-   - por qué reduce tickets
-3) Roadmap 4 semanas para crear/actualizar.
-4) KPI por semana (deflection, % tickets repetidos, etc.).
-5) Plantilla para convertir ticket → artículo (pasos).`,
+Stwórz:
+1) Metodę priorytetyzacji (wpływ × częstotliwość × trudność).
+2) Listę 25 artykułów “must-have” z:
+   - tytułem
+   - celem
+   - sekcją w bazie
+   - dlaczego obniża liczbę ticketów
+3) Roadmap na 4 tygodnie tworzenia/aktualizacji.
+4) KPI na tydzień (deflection, % ticketów powtarzalnych itd.).
+5) Szablon “ticket → artykuł” (kroki).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-013",
-    title: "Plantilla de ‘Status Page’ y mensajes de incidente (docs + macros)",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Szablon ‘Status Page’ i komunikaty incydentu (docs + makra)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Crea textos para status page y artículos de incidente con cadencia de updates.",
-    prompt: `Incidente: [ ]
-Impacto: [ ]
+      "Teksty na status page i artykuły incydentowe z rytmem update’ów.",
+    prompt: `Incydent: [ ]
+Wpływ: [ ]
 ETA: [ ]
-Workaround: [ ]
-Canales: [status page/email/social]
+Obejście (workaround): [ ]
+Kanały: [status page/email/social]
 
-Genera:
-1) Template status page:
-   - investigando
-   - identificado
-   - monitoreando
-   - resuelto
-2) Artículo post-mortem (usuario):
-   - qué pasó (alto nivel)
-   - qué hicimos
-   - prevención
-3) FAQ incidente (10).
-4) Macros soporte (10) para responder tickets durante el incidente.`,
+Wygeneruj:
+1) Szablony status page:
+   - badamy (investigating)
+   - zidentyfikowane (identified)
+   - monitorujemy (monitoring)
+   - rozwiązane (resolved)
+2) Artykuł post-mortem (dla użytkownika):
+   - co się stało (wysoki poziom)
+   - co zrobiliśmy
+   - prewencja
+3) FAQ incydentu (10).
+4) Makra supportowe (10) do odpowiedzi na tickety podczas incydentu.`,
     thumbnail: "",
   },
   {
     id: "sop-doc-014",
-    title: "Guía visual: lista de capturas sugeridas + estándar de anotaciones (flechas, blur, etc.)",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Przewodnik wizualny: sugerowane zrzuty ekranu + standard adnotacji (strzałki, blur itd.)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Estandariza capturas en docs: qué capturar, cómo anotar y cómo ocultar datos.",
-    prompt: `Producto: [web/app]
-Áreas sensibles: [emails/pagos]
-Estilo: [minimal/explicativo]
+      "Standaryzacja screenshotów: co łapać, jak anotować i jak ukrywać dane.",
+    prompt: `Produkt: [web/aplikacja]
+Wrażliwe obszary: [emaile/płatności]
+Styl: [minimal/wyjaśniający]
 
-Define un estándar de screenshots con:
-1) Cuándo usar captura vs GIF vs video.
-2) Reglas de anotación:
-   - flechas
-   - resaltados
-   - blur de datos
-3) Convenciones: tamaños, resolución, formato, nombres de archivo.
-4) “Qué capturar” en 10 tipos de artículos comunes.
-5) Checklist de privacidad para imágenes (12).`,
+Zdefiniuj standard screenshotów z:
+1) Kiedy używać zrzutu vs GIF vs wideo.
+2) Zasadami adnotacji:
+   - strzałki
+   - podkreślenia/wyróżnienia
+   - blur danych
+3) Konwencjami: rozmiary, rozdzielczość, format, nazwy plików.
+4) “Co zrzucać” w 10 typowych rodzajach artykułów.
+5) Checklistą prywatności dla obrazów (12).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-015",
-    title: "Documento de capacitación para nuevos agentes: 7 días, tareas, evaluación y recursos",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument szkoleniowy dla nowych agentów: 7 dni, zadania, ocena i zasoby",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Plan de onboarding para agentes con tareas diarias y rubricas de evaluación.",
-    prompt: `Equipo: [número]
-Herramientas: [helpdesk, CRM]
-Producto: [ ]
-Horario: [ ]
+      "Plan onboardingu agentów z zadaniami dziennymi i rubrykami oceny.",
+    prompt: `Zespół: [liczba]
+Narzędzia: [helpdesk, CRM]
+Produkt: [ ]
+Grafik: [ ]
 
-Crea un plan 7 días con:
-1) Objetivos por día.
-2) Módulos: producto, tono, políticas, herramientas, escalación.
-3) Tareas prácticas (2–3 por día).
-4) “Shadowing” y revisión de tickets.
-5) Rubrica de evaluación (1–5) con 8 criterios.
-6) Quiz final (15 preguntas) para validar comprensión.
-7) Checklist para activar agente a producción.`,
+Stwórz plan na 7 dni z:
+1) Celami na każdy dzień.
+2) Modułami: produkt, ton, polityki, narzędzia, eskalacja.
+3) Zadaniami praktycznymi (2–3 dziennie).
+4) Shadowingiem i przeglądem ticketów.
+5) Rubryką oceny (1–5) z 8 kryteriami.
+6) Quizem końcowym (15 pytań) na weryfikację.
+7) Checklistą do dopuszczenia agenta do produkcji.`,
     thumbnail: "",
   },
 
   {
     id: "sop-doc-016",
-    title: "Plantilla de artículo bilingüe (ES/EN): mantener consistencia y evitar traducciones raras",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Szablon artykułu dwujęzycznego (ES/EN): spójność i brak dziwnych tłumaczeń",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Estructura para docs en dos idiomas con glosarios y consistencia de términos.",
-    prompt: `Tema: [ ]
-Terminología clave: [ ]
-Voz: [ ]
+      "Struktura docs w dwóch językach z glosariuszem i spójnością terminów.",
+    prompt: `Temat: [ ]
+Kluczowa terminologia: [ ]
+Głos/ton: [ ]
 
-Crea:
-1) Plantilla paralela ES/EN con secciones fijas.
-2) Glosario de términos (20) con traducción preferida.
-3) Reglas para no traducir: nombres de botones, features, etc.
-4) Checklist de QA lingüístico (12).
-5) Ejemplo de 1 sección ya escrita en ambos idiomas.`,
+Stwórz:
+1) Równoległy szablon ES/EN z ustalonymi sekcjami.
+2) Glosariusz 20 terminów z preferowanym tłumaczeniem.
+3) Zasady “czego nie tłumaczyć”: nazwy przycisków, funkcji itd.
+4) Checklistę QA językowego (12).
+5) Przykład 1 sekcji już napisanej w obu językach.`,
     thumbnail: "",
   },
   {
     id: "sop-doc-017",
-    title: "Documento de ‘compatibilidad’ (browsers/devices): tabla clara + troubleshooting por plataforma",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument ‘kompatybilność’ (przeglądarki/urządzenia): czytelna tabela + troubleshooting per platforma",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Especifica compatibilidad y soluciones cuando el usuario está en entorno no soportado.",
-    prompt: `Producto: [ ]
-Soporte oficial: [Chrome/Firefox/iOS/etc.]
-Limitaciones: [ ]
+      "Określa kompatybilność i rozwiązania, gdy użytkownik jest w nieobsługiwanym środowisku.",
+    prompt: `Produkt: [ ]
+Oficjalne wsparcie: [Chrome/Firefox/iOS/etc.]
+Ograniczenia: [ ]
 
-Crea un doc con:
-1) Tabla (en texto) de compatibilidad:
-   - navegador/dispositivo
-   - soportado sí/no
-   - notas
-2) Requisitos mínimos (hardware/red).
-3) Troubleshooting por entorno (web, iOS, Android) con pasos.
+Napisz dokument z:
+1) Tabelą kompatybilności (w tekście):
+   - przeglądarka/urządzenie
+   - wspierane tak/nie
+   - uwagi
+2) Minimalnymi wymaganiami (hardware/sieć).
+3) Troubleshootingiem per środowisko (web, iOS, Android) z krokami.
 4) FAQ (10).
-5) Macros soporte (8) para “entorno no soportado” sin sonar duro.`,
+5) Makrami supportowymi (8) do “środowisko niewspierane” bez twardego tonu.`,
     thumbnail: "",
   },
   {
     id: "sop-doc-018",
-    title: "KBA (Knowledge Base Article) de facturación: ‘Cómo leer tu factura’ + casos de impuestos",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "KBA (Knowledge Base Article) o rozliczeniach: ‘Jak czytać fakturę’ + przypadki podatkowe",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Ayuda a usuarios a entender cargos, recibos, impuestos y conceptos comunes.",
-    prompt: `Pasarela: [Stripe/etc.]
-Impuestos: [VAT/IVA]
-Países: [ ]
+      "Pomaga zrozumieć opłaty, rachunki, podatki i typowe pojęcia.",
+    prompt: `Bramka płatnicza: [Stripe/etc.]
+Podatki: [VAT/IVA]
+Kraje: [ ]
 
-Escribe un artículo:
-1) Estructura de una factura (campos y significado).
-2) Diferencia entre recibo/factura/nota (según tu contexto).
-3) Impuestos: por qué aparecen y cómo se calculan (alto nivel).
-4) 10 casos comunes de confusión (doble cargo, retención, etc.).
-5) Pasos para descargar factura/actualizar datos.
+Napisz artykuł:
+1) Budowę faktury (pola i znaczenie).
+2) Różnicę między paragonem/rachunkiem/fakturą (w Twoim kontekście).
+3) Podatki: czemu się pojawiają i jak są liczone (wysoki poziom).
+4) 10 typowych przypadków nieporozumień (podwójna opłata, blokada, itd.).
+5) Kroki pobrania faktury/aktualizacji danych.
 6) FAQ (12).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-019",
-    title: "Guía de resolución de problemas ‘sin soporte’: autodiagnóstico en 5 minutos",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Przewodnik rozwiązywania problemów ‘bez supportu’: autodiagnoza w 5 minut",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Checklist rápido de autodiagnóstico para reducir tickets básicos.",
-    prompt: `Producto: [ ]
-Problemas comunes: [lista]
+      "Szybka checklista autodiagnozy, żeby zmniejszyć podstawowe tickety.",
+    prompt: `Produkt: [ ]
+Typowe problemy: [lista]
 
-Crea una guía “5 minutos” con:
-1) 8 checks rápidos (ordenados por efecto).
-2) 5 pasos específicos por plataforma (web/app).
-3) Señales de que es un bug real (6).
-4) Si necesitas soporte: plantilla de datos mínimos.
-5) Mensaje de cierre humano: “si no se arregla, te ayudamos”.`,
+Stwórz przewodnik “5 minut” z:
+1) 8 szybkimi checkami (od najbardziej skutecznych).
+2) 5 konkretnymi krokami per platforma (web/app).
+3) Sygnałami, że to realny bug (6).
+4) Jeśli potrzebujesz supportu: szablon minimalnych danych.
+5) Ludzką końcówką: “jeśli się nie naprawi, pomożemy”.`,
     thumbnail: "",
   },
   {
     id: "sop-doc-020",
-    title: "Documento ‘cómo pedir ayuda al soporte’: qué incluir para resolver 2x más rápido",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument ‘jak prosić support o pomoc’: co dołączyć, żeby rozwiązać 2x szybciej",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Enseña a los usuarios a enviar tickets buenos con ejemplos.",
-    prompt: `Canales soporte: [ ]
-Datos técnicos útiles: [ ]
+      "Uczy użytkowników pisać dobre zgłoszenia z przykładami.",
+    prompt: `Kanały wsparcia: [ ]
+Przydatne dane techniczne: [ ]
 
-Escribe un artículo que incluya:
-1) Por qué ayuda (explicación breve).
-2) Plantilla de ticket ideal:
-   - objetivo
-   - pasos
-   - esperado vs obtenido
-   - entorno
-   - evidencia
-3) Ejemplos:
-   - ticket malo (y por qué)
-   - ticket bueno (y por qué)
-4) Cómo tomar capturas/ grabar video corto.
+Napisz artykuł z:
+1) Dlaczego to pomaga (krótko).
+2) Szablonem idealnego zgłoszenia:
+   - cel
+   - kroki
+   - oczekiwane vs otrzymane
+   - środowisko
+   - dowody
+3) Przykładami:
+   - złe zgłoszenie (i czemu)
+   - dobre zgłoszenie (i czemu)
+4) Jak zrobić zrzuty / nagrać krótkie wideo.
 5) FAQ (8).`,
     thumbnail: "",
   },
 
   {
     id: "sop-doc-021",
-    title: "Documento interno: diccionario de macros y cuándo usarlas (para consistencia)",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument wewnętrzny: słownik makr i kiedy ich używać (dla spójności)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Catálogo de macros (títulos, propósito, condiciones) para reducir variabilidad en soporte.",
-    prompt: `Categorías: [billing, acceso, bugs, envíos]
-Tono: [ ]
+      "Katalog makr (tytuły, cel, warunki) redukujący różnice w odpowiedziach.",
+    prompt: `Kategorie: [billing, dostęp, bugi, wysyłka]
+Ton: [ ]
 
-Crea un diccionario de macros con:
-1) 40 macros (título + texto + cuándo usar + cuándo NO usar).
-2) Tags asociados por macro.
-3) “Macro combos”: secuencias de 3 macros para flujos comunes.
-4) Guía anti-robot: cómo personalizar 1 línea sin romper consistencia.`,
+Stwórz słownik makr z:
+1) 40 makrami (tytuł + tekst + kiedy użyć + kiedy NIE używać).
+2) Powiązanymi tagami dla każdego makra.
+3) “Macro combos”: sekwencje 3 makr dla typowych flow.
+4) Przewodnik anty-robot: jak spersonalizować 1 linię bez psucia spójności.`,
     thumbnail: "",
   },
   {
     id: "sop-doc-022",
-    title: "Plantilla de documentación de procesos (SOP) para operaciones: pasos, roles, SLAs y riesgos",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Szablon dokumentacji procesów (SOP) dla operacji: kroki, role, SLA i ryzyka",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Plantilla universal de SOP para cualquier proceso: roles, riesgos, QA y métricas.",
-    prompt: `Proceso a documentar: [ ]
-Herramientas: [ ]
-Roles: [ ]
+      "Uniwersalny szablon SOP dla dowolnego procesu: role, ryzyka, QA i metryki.",
+    prompt: `Proces do udokumentowania: [ ]
+Narzędzia: [ ]
+Role: [ ]
 
-Crea un SOP con:
-1) Propósito y alcance.
-2) Roles y responsabilidades (RACI simplificado).
-3) Inputs/outputs.
-4) Pasos detallados (12–20).
-5) Controles de calidad (checkpoints).
-6) Riesgos y mitigaciones (10).
-7) Métricas (5–8) para evaluar desempeño.
-8) Checklist de ejecución (printable).
-9) Plan de mejora continua.`,
+Stwórz SOP z:
+1) Celem i zakresem.
+2) Rolami i odpowiedzialnościami (uprościone RACI).
+3) Inputami/outputami.
+4) Szczegółowymi krokami (12–20).
+5) Kontrolami jakości (checkpointy).
+6) Ryzykami i mitigacjami (10).
+7) Metrykami (5–8) do oceny działania.
+8) Checklistą wykonania (do druku).
+9) Planem ciągłego doskonalenia.`,
     thumbnail: "",
   },
   {
     id: "sop-doc-023",
-    title: "Documento ‘guía para admins’: permisos, roles, seguridad y mejores prácticas",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument ‘przewodnik dla adminów’: uprawnienia, role, bezpieczeństwo i najlepsze praktyki",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Doc para administradores que reduce tickets de permisos y accesos.",
-    prompt: `Producto: [ ]
-Roles disponibles: [ ]
-Acciones sensibles: [invitar, facturación, borrar]
+      "Dokument dla administratorów zmniejszający tickety o uprawnienia i dostęp.",
+    prompt: `Produkt: [ ]
+Dostępne role: [ ]
+Wrażliwe akcje: [zaproszenia, rozliczenia, usuwanie]
 
-Escribe una guía para admins con:
-1) Qué puede hacer cada rol (tabla en texto).
-2) Cómo asignar roles (pasos).
-3) Mejores prácticas de seguridad (10).
-4) Casos frecuentes (10) y cómo resolver.
-5) Checklist “setup seguro” en 12 puntos.
+Napisz przewodnik dla adminów z:
+1) Co może zrobić każda rola (tabela w tekście).
+2) Jak przypisać role (kroki).
+3) Najlepsze praktyki bezpieczeństwa (10).
+4) Typowe przypadki (10) i rozwiązania.
+5) Checklistę “bezpieczny setup” (12 punktów).
 6) FAQ (12).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-024",
-    title: "Guía de ‘resolución de incidentes’ para soporte: playbook y mensajes preaprobados",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Przewodnik ‘obsługa incydentów’ dla supportu: playbook i pre-approved komunikaty",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Playbook interno: severidad, comunicación, macros y coordinación con ingeniería.",
-    prompt: `Producto: [ ]
-Severidades: [P1-P4]
-Canales: [status/chat/email]
+      "Wewnętrzny playbook: poziomy severities, komunikacja, makra i współpraca z inżynierią.",
+    prompt: `Produkt: [ ]
+Severities: [P1–P4]
+Kanały: [status/czat/email]
 
-Crea playbook con:
-1) Definición de severidades con ejemplos.
-2) Acciones por severidad (qué hace soporte).
-3) Mensajes preaprobados (15) para clientes y internos.
-4) Checklist para abrir incidente (10).
-5) Checklist para cerrar incidente (10).
-6) Plantilla de postmortem interno (RCA).`,
+Stwórz playbook z:
+1) Definicją poziomów z przykładami.
+2) Działaniami per poziom (co robi support).
+3) Pre-approved komunikatami (15) dla klientów i wewnętrznie.
+4) Checklistą otwarcia incydentu (10).
+5) Checklistą zamknięcia incydentu (10).
+6) Szablonem wewnętrznego postmortem (RCA).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-025",
-    title: "Documento de ‘terminología oficial’: nombres exactos de features, botones y pantallas",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument ‘oficjalna terminologia’: dokładne nazwy funkcji, przycisków i ekranów",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Evita confusión: glosario de UI oficial para soporte y docs.",
-    prompt: `Producto: [ ]
-Idioma: [ES]
-Listar pantallas/menús: [si tienes, pega]
+      "Zapobiega nieporozumieniom: oficjalny słownik UI dla supportu i docs.",
+    prompt: `Produkt: [ ]
+Język: [PL]
+Ekrany/menu: [jeśli masz, wklej]
 
-Crea:
-1) Glosario UI:
-   - nombre oficial
-   - sinónimos que la gente usa
-   - dónde está
-2) Reglas para referirse a botones/menús en texto.
-3) Lista de 25 frases estándar para guiar navegación.
-4) Checklist editorial para mantener consistencia.`,
+Stwórz:
+1) Glosariusz UI:
+   - nazwa oficjalna
+   - synonimy, których używają ludzie
+   - gdzie to się znajduje
+2) Zasady odwoływania się do przycisków/menu w tekście.
+3) Listę 25 standardowych fraz do nawigowania użytkownika.
+4) Checklistę redakcyjną do utrzymania spójności.`,
     thumbnail: "",
   },
 
   {
     id: "sop-doc-026",
-    title: "Doc de ‘permisos y errores’: tabla de error → causa → solución → quién puede arreglar",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument ‘uprawnienia i błędy’: tabela błąd → przyczyna → rozwiązanie → kto może naprawić",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Mapa de permisos: reduce tickets de “no puedo” y acelera escalación al dueño correcto.",
-    prompt: `Sistema de roles: [ ]
-Errores comunes: [ ]
+      "Mapa uprawnień: mniej ticketów “nie mogę” i szybsza eskalacja do właściwej osoby.",
+    prompt: `System ról: [ ]
+Typowe błędy: [ ]
 
-Crea un documento con:
-1) Tabla (texto) de 25 errores:
-   - mensaje visible
-   - causa probable
-   - solución
-   - rol necesario
-2) Guía: cómo detectar si el usuario no tiene permisos (señales).
-3) Macros (8) para pedir al admin que lo habilite.`,
+Stwórz dokument z:
+1) Tabelą (w tekście) 25 błędów:
+   - komunikat widoczny
+   - prawdopodobna przyczyna
+   - rozwiązanie
+   - wymagany poziom roli
+2) Przewodnikiem: jak wykryć brak uprawnień (sygnały).
+3) Makrami (8) z prośbą do admina o nadanie dostępu.`,
     thumbnail: "",
   },
   {
     id: "sop-doc-027",
-    title: "Doc de ‘integraciones’: guía por integración + troubleshooting + límites de soporte",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument ‘integracje’: przewodnik per integracja + troubleshooting + limity wsparcia",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Crea artículos consistentes por integración con pasos y troubleshooting específico.",
-    prompt: `Integración: [Zapier/Meta/Google/etc.]
-Objetivo típico: [ ]
-Requisitos: [API keys/roles]
+      "Spójne artykuły integracyjne: kroki, weryfikacja i troubleshooting.",
+    prompt: `Integracja: [Zapier/Meta/Google/etc.]
+Typowy cel: [ ]
+Wymagania: [klucze API/role]
 
-Escribe un artículo con:
-1) Qué hace la integración y casos de uso (5).
-2) Requisitos previos y permisos.
-3) Conexión paso a paso (10–14).
-4) Verificación: cómo confirmar que funciona.
-5) Troubleshooting (12) por errores frecuentes.
-6) Limitaciones y qué NO soporta tu equipo.
-7) FAQ (10) + plantilla para solicitar soporte al tercero.`,
+Napisz artykuł z:
+1) Co robi integracja i use case’y (5).
+2) Wymagania wstępne i uprawnienia.
+3) Połączenie krok po kroku (10–14).
+4) Weryfikację: jak potwierdzić, że działa.
+5) Troubleshooting (12) dla typowych błędów.
+6) Ograniczenia i czego support NIE wspiera.
+7) FAQ (10) + szablon zgłoszenia do dostawcy integracji.`,
     thumbnail: "",
   },
   {
     id: "sop-doc-028",
-    title: "Plantilla de ‘manual de usuario’ corto: módulos, navegación, tips y atajos",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Szablon krótkiego ‘manuala użytkownika’: moduły, nawigacja, tipy i skróty",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Manual compacto para usuarios que no quieren leer; orientado a tareas.",
-    prompt: `Producto: [ ]
-Módulos: [lista]
-Tareas principales: [lista]
+      "Kompaktowy manual dla tych, co nie chcą czytać: skupiony na zadaniach.",
+    prompt: `Produkt: [ ]
+Moduły: [lista]
+Główne zadania: [lista]
 
-Crea un manual corto con:
-1) Mapa de navegación (texto).
-2) 10 tareas principales con mini pasos.
-3) 10 tips/atajos (mejores prácticas).
-4) “Errores típicos” (8) y cómo evitarlos.
-5) FAQ (10) + recursos recomendados.`,
+Stwórz krótki manual z:
+1) Mapą nawigacji (w tekście).
+2) 10 głównymi zadaniami z mini-krokami.
+3) 10 tipami/skrótem (best practices).
+4) “Typowymi błędami” (8) i jak ich unikać.
+5) FAQ (10) + sugerowanymi zasobami.`,
     thumbnail: "",
   },
   {
     id: "sop-doc-029",
-    title: "Doc para soporte de “cambios en UX”: antes vs después + dónde está ahora + por qué",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument dla supportu: ‘zmiany w UX’ — przed vs po + gdzie to jest teraz + dlaczego",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Ayuda a usuarios confundidos por cambios: mapa antes/después y guía rápida.",
-    prompt: `Cambio UX: [ ]
-Pantallas afectadas: [ ]
-Motivo del cambio: [ ]
+      "Pomaga użytkownikom po zmianach: mapa przed/po i szybki przewodnik.",
+    prompt: `Zmiana UX: [ ]
+Dotknięte ekrany: [ ]
+Powód zmiany: [ ]
 
-Genera:
-1) Resumen del cambio (2–3 líneas).
-2) Antes vs después (lista de 8–12 diferencias).
-3) “Dónde está ahora” con pasos por tarea (8 tareas).
-4) FAQ (10) y macros soporte (8).
-5) Nota para evitar tickets: copy sugerido in-app.`,
+Wygeneruj:
+1) Streszczenie zmiany (2–3 linie).
+2) Przed vs po (8–12 różnic).
+3) “Gdzie to jest teraz” — kroki per zadanie (8 zadań).
+4) FAQ (10) i makra supportowe (8).
+5) Notkę anty-ticket: sugerowany copy in-app.`,
     thumbnail: "",
   },
   {
     id: "sop-doc-030",
-    title: "Checklist de auditoría de documentación: detectar artículos rotos, desactualizados y confusos",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Checklista audytu dokumentacji: wykrywanie artykułów zepsutych, nieaktualnych i niejasnych",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Sistema práctico para revisar docs mensualmente con criterios concretos.",
-    prompt: `Plataforma docs: [ ]
-Frecuencia: [mensual]
-Fuentes de señal: [tickets/búsqueda]
+      "Praktyczny system miesięcznego przeglądu docs z konkretnymi kryteriami.",
+    prompt: `Platforma docs: [ ]
+Częstotliwość: [miesięcznie]
+Źródła sygnału: [tickety/wyszukiwarka]
 
-Crea:
-1) Checklist de auditoría (25 puntos) con:
-   - claridad
-   - exactitud
-   - enlaces
-   - screenshots
-   - SEO básico
-2) Método para detectar artículos candidatos a actualizar (10 señales).
-3) Plantilla de reporte de auditoría (campos).
-4) Plan de mantenimiento mensual (3 horas/semana).`,
+Stwórz:
+1) Checklistę audytu (25 punktów) obejmującą:
+   - jasność
+   - poprawność
+   - linki
+   - screenshoty
+   - podstawy SEO
+2) Metodę wykrywania artykułów do aktualizacji (10 sygnałów).
+3) Szablon raportu z audytu (pola).
+4) Plan miesięcznego utrzymania (3 godz./tydzień).`,
     thumbnail: "",
   },
 
   {
     id: "sop-doc-031",
-    title: "Plantilla de ‘documentación para soporte’: cómo escribir un “Known Issues” que sirva",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Szablon ‘dokumentacji dla supportu’: jak napisać użyteczne “Known Issues”",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Estandariza Known Issues: síntomas, workaround, estado y a quién afecta.",
-    prompt: `Producto/versión: [ ]
-Lista de issues (si tienes): [ ]
+      "Standaryzuje Known Issues: symptomy, obejście, status i kogo dotyczy.",
+    prompt: `Produkt/wersja: [ ]
+Lista issue’ów (jeśli masz): [ ]
 
-Crea un formato Known Issues con:
-1) Campos obligatorios por issue:
-   - síntoma
-   - a quién afecta
-   - severidad
+Stwórz format Known Issues z:
+1) Obowiązkowymi polami per issue:
+   - symptom
+   - kogo dotyczy
+   - poziom ważności
    - workaround
-   - estado
-   - ETA (si existe)
-2) Ejemplo de 5 issues ya completados (inventados si hace falta).
-3) Macros de soporte para cada estado (6).
-4) Reglas de actualización y cadencia.`,
+   - status
+   - ETA (jeśli istnieje)
+2) Przykładem 5 issue’ów uzupełnionych (wymyślonych, jeśli trzeba).
+3) Makrami supportowymi per status (6).
+4) Zasadami aktualizacji i rytmem.`,
     thumbnail: "",
   },
   {
     id: "sop-doc-032",
-    title: "Guía de “cómo exportar/importar datos”: pasos, formatos, límites y errores comunes",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Przewodnik ‘eksport/import danych’: kroki, formaty, limity i typowe błędy",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Artículo completo de export/import con ejemplos de CSV y troubleshooting.",
-    prompt: `Tipo de datos: [usuarios/contactos/pedidos]
-Formato: [CSV/JSON]
-Límites: [filas/tamaño]
+      "Kompletny artykuł eksport/import z przykładami CSV i troubleshootingiem.",
+    prompt: `Typ danych: [użytkownicy/kontakty/zamówienia]
+Format: [CSV/JSON]
+Limity: [wiersze/rozmiar]
 
-Escribe una guía con:
-1) Exportar: pasos + qué campos se incluyen.
-2) Importar: plantilla de archivo (campos, ejemplos de filas).
-3) Validaciones y errores comunes (12) + solución.
-4) Buenas prácticas: limpiar datos, encoding, separadores.
-5) Verificación post-import.
-6) FAQ (10) + cómo pedir soporte si falla.`,
+Napisz przewodnik z:
+1) Eksportem: kroki + jakie pola się eksportują.
+2) Importem: szablon pliku (pola, przykłady wierszy).
+3) Walidacjami i typowymi błędami (12) + rozwiązanie.
+4) Dobrymi praktykami: czyszczenie danych, encoding, separatory.
+5) Weryfikacją po imporcie.
+6) FAQ (10) + jak poprosić support, jeśli nie działa.`,
     thumbnail: "",
   },
   {
     id: "sop-doc-033",
-    title: "Documento de “cuentas y seguridad”: 2FA, sesiones, dispositivos, actividad y recuperación",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument ‘konta i bezpieczeństwo’: 2FA, sesje, urządzenia, aktywność i odzyskiwanie",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Doc de seguridad para reducir tickets y aumentar confianza.",
-    prompt: `Sistemas: [2FA/email/pass/SSO]
-Plataforma: [ ]
+      "Artykuł bezpieczeństwa zmniejszający tickety i budujący zaufanie.",
+    prompt: `Systemy: [2FA/email/hasło/SSO]
+Platforma: [ ]
 
-Crea un artículo con:
-1) Cómo activar 2FA (pasos).
-2) Cómo ver y cerrar sesiones.
-3) Qué hacer si sospechas compromiso (pasos inmediatos).
-4) Recuperación de cuenta (sin pedir contraseñas).
-5) Señales de phishing (10).
-6) FAQ (12) + macros soporte (8).`,
+Napisz artykuł z:
+1) Jak włączyć 2FA (kroki).
+2) Jak zobaczyć i zamknąć sesje.
+3) Co zrobić przy podejrzeniu przejęcia (natychmiastowe kroki).
+4) Odzyskiwanie konta (bez proszenia o hasła).
+5) Sygnały phishingu (10).
+6) FAQ (12) + makra supportowe (8).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-034",
-    title: "Documento ‘facturación fallida’: reintentos, causas, soluciones y suspensión",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument ‘nieudana płatność’: ponowienia, przyczyny, rozwiązania i zawieszenie",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Artículo completo para fallos de pago con soluciones por causa y cronograma.",
-    prompt: `Pasarela: [ ]
-Causas comunes: [fondos insuficientes/banco/3DS]
-Política suspensión: [ ]
+      "Kompletny artykuł o błędach płatności: rozwiązania per przyczyna i harmonogram.",
+    prompt: `Bramka płatnicza: [ ]
+Typowe przyczyny: [brak środków/bank/3DS]
+Polityka zawieszenia: [ ]
 
-Escribe un artículo con:
-1) Qué significa “pago fallido”.
-2) Cronograma de reintentos y notificaciones.
-3) Causas (10) con soluciones específicas.
-4) Cómo actualizar método de pago (pasos).
-5) Qué pasa con acceso/datos.
-6) FAQ (12) + macros soporte (8).`,
+Napisz artykuł z:
+1) Co oznacza “płatność nieudana”.
+2) Harmonogram ponowień i powiadomień.
+3) 10 przyczyn z konkretnymi rozwiązaniami.
+4) Jak zaktualizować metodę płatności (kroki).
+5) Co dzieje się z dostępem/danymi.
+6) FAQ (12) + makra supportowe (8).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-035",
-    title: "Plantilla de ‘guía para soporte’: cómo escribir respuestas con un solo CTA (reduce ida y vuelta)",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Wewnętrzny przewodnik: jak pisać odpowiedzi z jednym CTA (mniej ping-ponga)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Manual interno para responder mejor: 1 CTA, empatía y verificación.",
-    prompt: `Canal: [chat/email]
-Tono: [ ]
+      "Manual do lepszych odpowiedzi: 1 CTA, empatia i weryfikacja efektu.",
+    prompt: `Kanał: [czat/email]
+Ton: [ ]
 
-Crea una guía con:
-1) Estructura de respuesta en 7 líneas.
-2) Cómo resumir el problema (parafraseo).
-3) Cómo dar pasos: máximo 2 por mensaje (chat) o 6 por email.
-4) CTA único: cómo formularlo (10 ejemplos).
-5) Verificación de éxito: 10 frases.
-6) Anti-patrones: 12 errores típicos y cómo evitarlos.`,
+Stwórz przewodnik z:
+1) Strukturą odpowiedzi w 7 liniach.
+2) Jak streścić problem (parafraza).
+3) Jak podawać kroki: max 2 na wiadomość (czat) lub 6 na email.
+4) Jednym CTA: jak je formułować (10 przykładów).
+5) Weryfikacją sukcesu: 10 fraz.
+6) Anty-wzorcami: 12 typowych błędów i jak ich unikać.`,
     thumbnail: "",
   },
 
   {
     id: "sop-doc-036",
-    title: "Documento de ‘estándares de soporte’: tiempos, tono, macro-uso y cierre",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument ‘standardy supportu’: czasy, ton, użycie makr i domknięcie",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Define cómo se ve “soporte excelente” en tu equipo.",
-    prompt: `Equipo: [ ]
-Canales: [ ]
-SLA objetivo: [ ]
+      "Definiuje, jak wygląda ‘świetny support’ w zespole.",
+    prompt: `Zespół: [ ]
+Kanały: [ ]
+Docelowe SLA: [ ]
 
-Crea un estándar interno con:
-1) Principios (5–7).
-2) Tono/voz (do/don’t + ejemplos).
-3) Tiempos: respuesta inicial, updates, cierre.
-4) Uso de macros: cuándo sí/cuándo no.
-5) Calidad: checklist (15) y rubric.
-6) Cómo manejar casos difíciles (cliente molesto, legal, etc.).`,
+Stwórz standard wewnętrzny z:
+1) Zasadami (5–7).
+2) Tonem/głosem (do/don’t + przykłady).
+3) Czasami: pierwsza odpowiedź, update’y, zamknięcie.
+4) Użyciem makr: kiedy tak/kiedy nie.
+5) Jakością: checklista (15) i rubryka.
+6) Obsługą trudnych przypadków (zły klient, legal, itd.).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-037",
-    title: "Guía para ‘cambios de plan’: upgrade/downgrade, prorrateo y efectos en features",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Przewodnik ‘zmiany planu’: upgrade/downgrade, pro-rata i wpływ na funkcje",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Artículo para reducir tickets de billing: qué pasa al cambiar de plan.",
-    prompt: `Planes: [lista]
-Prorrateo: [sí/no]
-Efectos: [límites, features]
+      "Artykuł zmniejszający tickety billingowe: co się dzieje przy zmianie planu.",
+    prompt: `Plany: [lista]
+Proporcjonalne rozliczenie (pro-rata): [tak/nie]
+Wpływ: [limity, funkcje]
 
-Escribe un artículo con:
-1) Qué pasa al upgrade (cuándo aplica, cargo).
-2) Qué pasa al downgrade (cuándo aplica, límites).
-3) Prorrateo explicado con ejemplo numérico simple.
-4) Casos típicos (12) y respuestas.
-5) FAQ (12) + macros soporte (10).`,
+Napisz artykuł z:
+1) Co dzieje się przy upgrade (kiedy obowiązuje, opłata).
+2) Co dzieje się przy downgrade (kiedy obowiązuje, limity).
+3) Pro-rata wyjaśnione prostym przykładem liczbowym.
+4) 12 typowych przypadków i odpowiedzi.
+5) FAQ (12) + makra supportowe (10).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-038",
-    title: "Doc de ‘resolución de conflictos’: cuando soporte y cliente no están de acuerdo",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument ‘rozwiązywanie sporów’: gdy support i klient się nie zgadzają",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Guía interna para manejar disputas: evidencia, políticas y desescalada.",
-    prompt: `Tipo conflicto: [reembolso/política/bug]
-Políticas: [ ]
+      "Wewnętrzny przewodnik do sporów: dowody, polityki i deeskalacja.",
+    prompt: `Typ sporu: [zwrot/polityka/bug]
+Polityki: [ ]
 
-Crea un doc interno con:
-1) Principio: empatía sin ceder a abuso.
-2) Cómo reunir evidencia (checklist).
-3) Cómo explicar políticas en humano.
-4) Cómo ofrecer alternativas.
-5) Protocolo de escalación a supervisor/legal.
-6) Macros “difíciles” (12) con frases seguras.`,
+Stwórz wewnętrzny dokument z:
+1) Zasadą: empatia bez ulegania nadużyciom.
+2) Jak zbierać dowody (checklista).
+3) Jak wyjaśniać polityki “po ludzku”.
+4) Jak proponować alternatywy.
+5) Protokół eskalacji do lidera/legal.
+6) Trudne makra (12) z bezpiecznymi frazami.`,
     thumbnail: "",
   },
   {
     id: "sop-doc-039",
-    title: "Documento de ‘capas de soporte’: L1/L2/L3 y criterios de escalación",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument ‘warstwy wsparcia’: L1/L2/L3 i kryteria eskalacji",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Define claramente responsabilidades por nivel para evitar ping-pong.",
-    prompt: `Equipo: [soporte/ingeniería/ops]
-Herramienta tickets: [ ]
-Severidades: [ ]
+      "Jasno definiuje odpowiedzialności per poziom, żeby uniknąć ping-ponga.",
+    prompt: `Zespół: [support/inżynieria/ops]
+Narzędzie ticketowe: [ ]
+Severities: [ ]
 
-Crea un doc con:
-1) Qué resuelve L1, L2, L3 (lista detallada).
-2) Criterios para escalar (por tipo de caso).
-3) Datos mínimos por escalación (checklist).
-4) SLA interno entre equipos.
-5) Plantillas:
+Napisz dokument z:
+1) Co rozwiązuje L1, L2, L3 (szczegółowa lista).
+2) Kryteria eskalacji (wg typu sprawy).
+3) Minimalne dane do eskalacji (checklista).
+4) Wewnętrzne SLA między zespołami.
+5) Szablony:
    - handoff
-   - update al cliente
-   - resolución final`,
+   - update do klienta
+   - finalne rozwiązanie`,
     thumbnail: "",
   },
   {
     id: "sop-doc-040",
-    title: "Doc de ‘plantillas de comunicación’: pack completo para soporte (40 piezas)",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument ‘szablony komunikacji’: kompletny pakiet dla supportu (40 elementów)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Kit de comunicación: saludos, pedir datos, updates, cierres, políticas, escalación.",
-    prompt: `Producto: [ ]
-Tono: [ ]
-Canales: [chat/email/WhatsApp]
+      "Zestaw komunikacji: powitania, prośba o dane, update’y, domknięcia, polityki, eskalacje.",
+    prompt: `Produkt: [ ]
+Ton: [ ]
+Kanały: [czat/email/WhatsApp]
 
-Genera un pack de 40 piezas:
-- 8 saludos (por canal)
-- 8 pedir datos (compacto)
-- 6 updates (con y sin novedades)
-- 8 cierres (con prevención)
-- 6 políticas (reembolso/cancelación/etc.)
-- 4 escalación (L2/legal)
+Wygeneruj pakiet 40 elementów:
+- 8 powitań (per kanał)
+- 8 próśb o dane (kompaktowo)
+- 6 update’ów (z nowościami i bez)
+- 8 domknięć (z prewencją)
+- 6 polityk (zwrot/anulowanie/itd.)
+- 4 eskalacje (L2/legal)
 
-Cada pieza debe incluir:
-1) Texto
-2) Cuándo usar
-3) 1 variante alternativa (más directa).`,
+Każdy element ma zawierać:
+1) Tekst
+2) Kiedy użyć
+3) 1 wariant alternatywny (bardziej bezpośredni).`,
     thumbnail: "",
   },
 
   {
     id: "sop-doc-041",
-    title: "Doc para ‘errores de correo’: no llega email, spam, dominios, whitelisting",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument ‘problemy z e-mailami’: nie dochodzi wiadomość, spam, domeny, whitelisting",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Guía completa para problemas de correo: pasos por proveedor y checklist.",
-    prompt: `Tipo email: [login/recibos/notificaciones]
-Proveedores comunes: [Gmail/Outlook]
-Dominio: [ ]
+      "Kompletny przewodnik dla problemów z pocztą: kroki per dostawca i checklista.",
+    prompt: `Typ emaila: [logowanie/paragony/powiadomienia]
+Typowi dostawcy: [Gmail/Outlook]
+Domena: [ ]
 
-Escribe un artículo con:
-1) Checklist rápido (8).
-2) Pasos por proveedor (Gmail/Outlook) para revisar spam y filtros.
-3) Whitelisting (cómo hacerlo) + qué direcciones agregar.
-4) Problemas de dominio corporativo (IT).
-5) Si persiste: qué datos pedir (headers si aplica).
-6) FAQ (10) + macros soporte (8).`,
+Napisz artykuł z:
+1) Szybką checklistą (8).
+2) Krokami per dostawca (Gmail/Outlook): spam i filtry.
+3) Whitelistingiem (jak to zrobić) + jakie adresy dodać.
+4) Problemami domen firmowych (IT).
+5) Jeśli nadal: jakie dane zebrać (nagłówki, jeśli dotyczy).
+6) FAQ (10) + makra supportowe (8).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-042",
-    title: "Guía ‘descargas y accesos’: links expirados, límites, y recuperación",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Przewodnik ‘pobrania i dostęp’: wygasłe linki, limity i odzyskiwanie",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Doc para productos digitales: recuperar accesos y solucionar links expirados.",
-    prompt: `Producto digital: [ ]
-Links: [expiran/no]
-Plataforma: [ ]
+      "Dokument dla produktów cyfrowych: odzyskiwanie dostępu i rozwiązywanie wygasłych linków.",
+    prompt: `Produkt cyfrowy: [ ]
+Linki: [wygasają/nie wygasają]
+Platforma: [ ]
 
-Crea un artículo con:
-1) Cómo acceder a compras (pasos).
-2) Links expirados: por qué y cómo regenerar.
-3) Límites de descargas (si aplica).
-4) Problemas comunes (10) y solución.
-5) Si hay sospecha de phishing: qué hacer.
-6) FAQ (10) + macros soporte (8).`,
+Napisz artykuł z:
+1) Jak uzyskać dostęp do zakupów (kroki).
+2) Wygasłe linki: dlaczego i jak wygenerować ponownie.
+3) Limity pobrań (jeśli dotyczy).
+4) 10 typowych problemów i rozwiązania.
+5) Jeśli podejrzewasz phishing: co zrobić.
+6) FAQ (10) + makra supportowe (8).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-043",
-    title: "Doc ‘cómo reportar bugs’ para power users: repro, logs, HAR y videos cortos",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument ‘jak zgłaszać bugi’ dla power users: repro, logi, HAR i krótkie wideo",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Guía avanzada para reportes de bugs de alta calidad.",
-    prompt: `Producto: [web]
-Usuarios avanzados: [sí]
-Herramientas: [Chrome]
+      "Zaawansowany przewodnik dla raportów bugów wysokiej jakości.",
+    prompt: `Produkt: [web]
+Użytkownicy zaawansowani: [tak]
+Narzędzia: [Chrome]
 
-Escribe una guía con:
-1) Plantilla de bug report.
-2) Cómo grabar video corto útil (qué mostrar).
-3) Cómo sacar consola logs (pasos).
-4) Cómo exportar HAR file (pasos) si aplica.
-5) Cómo anonimizar datos antes de enviar.
-6) Qué NO enviar (datos sensibles).
+Napisz przewodnik z:
+1) Szablonem bug reportu.
+2) Jak nagrać przydatne krótkie wideo (co pokazać).
+3) Jak zebrać logi z konsoli (kroki).
+4) Jak wyeksportować plik HAR (kroki), jeśli dotyczy.
+5) Jak anonimizować dane przed wysłaniem.
+6) Czego NIE wysyłać (dane wrażliwe).
 7) FAQ (8).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-044",
-    title: "Doc de ‘cumplimiento y privacidad’ para soporte: qué registrar en tickets y qué no",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument ‘compliance i prywatność’ dla supportu: co zapisywać w ticketach, a czego nie",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Reglas de privacidad para agentes: PII, pagos, contraseñas, capturas y retención.",
-    prompt: `Región: [ ]
-Herramienta tickets: [ ]
+      "Zasady prywatności dla agentów: PII, płatności, hasła, zrzuty i retencja.",
+    prompt: `Region: [ ]
+Narzędzie ticketowe: [ ]
 
-Crea un doc interno con:
-1) Qué NO pedir nunca (lista).
-2) Qué sí pedir y cómo (más seguro).
-3) Cómo manejar capturas con PII (blur, redacción).
-4) Retención de tickets: qué queda y por cuánto (alto nivel).
-5) Plantillas seguras para pedir verificación.
-6) Checklist de cumplimiento (15).`,
+Napisz wewnętrzny dokument z:
+1) Czego NIGDY nie prosić (lista).
+2) O co można prosić i jak (bezpieczniej).
+3) Jak obsługiwać zrzuty z PII (blur/redakcja).
+4) Retencja ticketów: co zostaje i na jak długo (wysoki poziom).
+5) Bezpieczne szablony do weryfikacji.
+6) Checklistę zgodności (15).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-045",
-    title: "Doc para ‘usuarios empresariales’: onboarding, seguridad, SSO y mejores prácticas",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument dla klientów enterprise: onboarding, bezpieczeństwo, SSO i dobre praktyki",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Guía enterprise para reducir tickets: SSO, roles, seguridad y soporte.",
-    prompt: `Producto: [ ]
-SSO: [sí/no]
-Roles: [ ]
+      "Przewodnik enterprise zmniejszający tickety: SSO, role, bezpieczeństwo i support.",
+    prompt: `Produkt: [ ]
+SSO: [tak/nie]
+Role: [ ]
 
-Escribe un documento enterprise con:
-1) Checklist de onboarding (15).
-2) Configuración recomendada (seguridad, roles).
-3) SSO (si aplica): pasos + troubleshooting.
-4) Gestión de usuarios y accesos.
-5) FAQ (12) + macros soporte (10).`,
+Napisz dokument enterprise z:
+1) Checklistą onboardingu (15).
+2) Rekomendowaną konfiguracją (bezpieczeństwo, role).
+3) SSO (jeśli dotyczy): kroki + troubleshooting.
+4) Zarządzaniem użytkownikami i dostępami.
+5) FAQ (12) + makra supportowe (10).`,
     thumbnail: "",
   },
 
   {
     id: "sop-doc-046",
-    title: "Doc ‘cómo leer un error’: plantilla para estandarizar mensajes de error y acciones",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument ‘jak czytać błąd’: standard wiadomości błędu i sugerowanych działań",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Convierte errores técnicos en mensajes útiles con acciones y links.",
-    prompt: `Sistema: [ ]
-Errores frecuentes: [pega lista]
+      "Zamienia błędy techniczne w użyteczne komunikaty z działaniami i linkami.",
+    prompt: `System: [ ]
+Częste błędy: [wklej listę]
 
-Crea un estándar:
-1) Formato de error:
-   - título
-   - qué pasó (humano)
-   - qué hacer ahora (acción)
-   - detalles técnicos (colapsable)
-   - link a artículo
-2) 15 ejemplos de errores reescritos siguiendo el estándar.
-3) Guía para soporte: cómo mapear error → artículo → macro.`,
+Stwórz standard:
+1) Format błędu:
+   - tytuł
+   - co się stało (po ludzku)
+   - co zrobić teraz (akcja)
+   - szczegóły techniczne (zwijane)
+   - link do artykułu
+2) 15 przykładów błędów przepisanych wg standardu.
+3) Przewodnik dla supportu: jak mapować błąd → artykuł → makro.`,
     thumbnail: "",
   },
   {
     id: "sop-doc-047",
-    title: "Doc de ‘subida de archivos’: formatos, tamaños, errores y soluciones",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument ‘upload plików’: formaty, rozmiary, błędy i rozwiązania",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Artículo completo de uploads con límites, compresión y troubleshooting.",
-    prompt: `Tipo archivos: [imágenes/videos/docs]
-Límites: [tamaño/formato]
-Plataforma: [web/app]
+      "Kompletny artykuł o wgrywaniu plików: limity, kompresja i troubleshooting.",
+    prompt: `Typ plików: [obrazy/wideo/dokumenty]
+Limity: [rozmiar/format]
+Platforma: [web/aplikacja]
 
-Escribe un artículo con:
-1) Requisitos (formatos/tamaños).
-2) Cómo subir (pasos).
-3) Errores comunes (12) con solución.
-4) Consejos: compresión y calidad.
-5) FAQ (10) + macros soporte (8).`,
+Napisz artykuł z:
+1) Wymaganiami (formaty/rozmiary).
+2) Jak wgrać (kroki).
+3) 12 typowych błędów z rozwiązaniami.
+4) Poradami: kompresja i jakość.
+5) FAQ (10) + makra supportowe (8).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-048",
-    title: "Doc ‘inventario de artículos’: lista de docs críticos + owner + fecha + próxima revisión",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument ‘inwentarz artykułów’: lista krytycznych docs + owner + data + kolejna rewizja",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Plantilla para mantener tu base de conocimiento viva y actualizada.",
-    prompt: `Categorías: [ ]
-Owners: [equipo/personas]
-Frecuencia revisión: [ ]
+      "Szablon do utrzymania bazy wiedzy żywej i aktualnej.",
+    prompt: `Kategorie: [ ]
+Ownerzy: [zespół/osoby]
+Częstotliwość przeglądu: [ ]
 
-Crea un inventario en formato tabla-en-texto con columnas:
-- Título
-- Categoría
+Stwórz inwentarz w formacie tabeli-w-tekście z kolumnami:
+- Tytuł
+- Kategoria
 - Owner
-- Última actualización
-- Próxima revisión
-- Indicadores (tickets asociados, búsquedas)
-Incluye:
-1) 25 artículos “críticos” sugeridos para tu negocio.
-2) Procedimiento mensual (pasos) para revisar y actualizar.
-3) Cómo decidir “archivar” vs “actualizar”.`,
+- Ostatnia aktualizacja
+- Następny przegląd
+- Wskaźniki (powiązane tickety, wyszukiwania)
+Dodatkowo:
+1) Zasugeruj 25 “krytycznych” artykułów dla Twojego biznesu.
+2) Podaj miesięczną procedurę (kroki) przeglądu i aktualizacji.
+3) Jak decydować: “archiwizować” vs “aktualizować”.`,
     thumbnail: "",
   },
   {
     id: "sop-doc-049",
-    title: "Doc de ‘procedimiento de reembolsos’ (interno): pasos por pasarela + controles",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument wewnętrzny ‘procedura zwrotów’: kroki per bramka płatnicza + kontrole",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "SOP interno para procesar reembolsos con controles, registros y comunicación.",
-    prompt: `Pasarela: [Stripe/PayPal/etc.]
-Política: [ ]
-Roles: [ ]
+      "Wewnętrzny SOP do procesowania zwrotów z kontrolami, rejestrem i komunikacją.",
+    prompt: `Bramka płatnicza: [Stripe/PayPal/etc.]
+Polityka: [ ]
+Role: [ ]
 
-Crea un SOP interno con:
-1) Requisitos previos (verificaciones).
-2) Pasos exactos en la pasarela (genéricos si no hay detalle).
-3) Controles anti-fraude.
-4) Comunicación al cliente:
-   - aprobado
-   - tiempos
-   - comprobante
-5) Registro interno:
-   - campos obligatorios
-   - tags
-6) Auditoría: checklist (10).`,
+Stwórz wewnętrzny SOP z:
+1) Wymaganiami wstępnymi (weryfikacje).
+2) Dokładnymi krokami w bramce (ogólne, jeśli brak szczegółów).
+3) Kontrolami antyfraudowymi.
+4) Komunikacją do klienta:
+   - zaakceptowano
+   - terminy
+   - potwierdzenie
+5) Rejestrem wewnętrznym:
+   - obowiązkowe pola
+   - tagi
+6) Audytem: checklistą (10).`,
     thumbnail: "",
   },
   {
     id: "sop-doc-050",
-    title: "Doc de ‘control de calidad de soporte’: rubric, ejemplos y proceso de coaching",
-    area: "Atención al Cliente & SOPs",
-    category: "Docs",
+    title:
+      "Dokument ‘kontrola jakości supportu’: rubryka, przykłady i proces coachingu",
+    area: "Obsługa Klienta & SOPy",
+    category: "Dokumentacja",
     summary:
-      "Sistema de QA para soporte: criterios, puntuación, ejemplos y plan de mejora.",
-    prompt: `Equipo: [ ]
-Canales: [ ]
-Objetivo: [CSAT/deflection]
+      "System QA dla supportu: kryteria, punktacja, przykłady i plan poprawy.",
+    prompt: `Zespół: [ ]
+Kanały: [ ]
+Cel: [CSAT/deflection]
 
-Crea un doc con:
-1) Rubric QA (1–5) con 10 criterios:
-   - claridad, empatía, CTA único, exactitud, políticas, etc.
-2) Ejemplos de:
-   - respuesta 5/5
-   - respuesta 3/5
-   - respuesta 1/5
-3) Proceso de revisión:
-   - muestreo
+Stwórz dokument z:
+1) Rubryką QA (1–5) z 10 kryteriami:
+   - jasność, empatia, jedno CTA, poprawność, polityki itd.
+2) Przykładami:
+   - odpowiedź 5/5
+   - odpowiedź 3/5
+   - odpowiedź 1/5
+3) Procesem przeglądu:
+   - próbki
    - feedback
    - coaching
-4) Plan de mejora por agente (plantilla).
-5) Métricas y cómo interpretarlas.`,
+4) Szablonem planu poprawy dla agenta.
+5) Metrykami i jak je interpretować.`,
     thumbnail: "",
   },
 ];

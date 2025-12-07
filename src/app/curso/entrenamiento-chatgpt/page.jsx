@@ -17,7 +17,7 @@ export default function BonusEntrenamientoChatGPTPage() {
 
   return (
     <div className="space-y-8 py-6">
-      {/* 🔙 Back */}
+      {/* 🔙 Powrót */}
       <Button
         variant="ghost"
         size="sm"
@@ -26,11 +26,11 @@ export default function BonusEntrenamientoChatGPTPage() {
       >
         <Link href="/curso">
           <ArrowLeft className="mr-2 h-4 w-4" />
-          Volver al inicio del curso
+          Wróć do początku kursu
         </Link>
       </Button>
 
-      {/* Hero módulo */}
+      {/* Hero modułu */}
       <section className="space-y-3 rounded-3xl border border-teal-500/15 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 px-5 py-6 md:px-8 md:py-7">
         <h1 className="text-2xl md:text-3xl font-bold text-slate-50">
           {title}
@@ -40,16 +40,16 @@ export default function BonusEntrenamientoChatGPTPage() {
         </p>
       </section>
 
-      {/* Grid de clases */}
+      {/* Siatka lekcji */}
       <section className="space-y-4">
         <div className="space-y-1">
           <h2 className="text-lg md:text-xl font-semibold text-slate-50">
-            Clases incluidas en este entrenamiento
+            Lekcje zawarte w tym treningu
           </h2>
           <p className="max-w-2xl text-xs md:text-sm text-slate-300">
-            Haz clic en cualquier tarjeta para ver el contenido de la clase.
-            Todo está en texto, pensado para que copies ideas, conceptos y
-            estructuras directamente a tu flujo de trabajo con ChatGPT.
+            Kliknij dowolną kartę, aby zobaczyć treść lekcji. Wszystko jest w
+            formie tekstu — tak, żebyś mógł/mogła kopiować pomysły, koncepcje i
+            struktury prosto do swojego workflow z ChatGPT.
           </p>
         </div>
 
@@ -64,7 +64,7 @@ export default function BonusEntrenamientoChatGPTPage() {
         </div>
       </section>
 
-      {/* Modal de clase */}
+      {/* Modal lekcji */}
       {selectedClass && (
         <ClassModal
           klass={selectedClass}
@@ -75,9 +75,18 @@ export default function BonusEntrenamientoChatGPTPage() {
   );
 }
 
-/* -------- Tarjeta individual -------- */
+/* -------- Pojedyncza karta -------- */
 
 function ClassCard({ klass, onOpen }) {
+  const levelPl = {
+    Principiante: "Początkujący",
+    Intermedio: "Średniozaawansowany",
+    Avanzado: "Zaawansowany",
+  };
+
+  const levelKey = klass.level;
+  const levelLabel = levelPl[levelKey] || levelKey;
+
   return (
     <Card
       role="button"
@@ -86,25 +95,24 @@ function ClassCard({ klass, onOpen }) {
     >
       <CardHeader className="space-y-2 pb-2 pt-3">
         <div className="flex items-center justify-between gap-2">
-          <h3 className="text-sm font-semibold text-slate-50">
-            {klass.title}
-          </h3>
+          <h3 className="text-sm font-semibold text-slate-50">{klass.title}</h3>
+
           <div className="flex items-center gap-1">
-            {klass.level && (
+            {levelLabel && (
               <Badge
                 className={cn(
                   "text-[10px] uppercase tracking-wide",
-                  klass.level === "Principiante" &&
+                  levelKey === "Principiante" &&
                     "bg-emerald-500/15 text-emerald-200",
-                  klass.level === "Intermedio" &&
-                    "bg-sky-500/15 text-sky-200",
-                  klass.level === "Avanzado" &&
+                  levelKey === "Intermedio" && "bg-sky-500/15 text-sky-200",
+                  levelKey === "Avanzado" &&
                     "bg-fuchsia-500/15 text-fuchsia-200"
                 )}
               >
-                {klass.level}
+                {levelLabel}
               </Badge>
             )}
+
             {klass.duration && (
               <Badge className="bg-black/70 text-[10px] text-slate-200">
                 {klass.duration}
@@ -114,27 +122,33 @@ function ClassCard({ klass, onOpen }) {
         </div>
 
         {klass.summary && (
-          <p className="text-xs text-slate-300 line-clamp-3">
-            {klass.summary}
-          </p>
+          <p className="text-xs text-slate-300 line-clamp-3">{klass.summary}</p>
         )}
       </CardHeader>
 
       <CardContent className="mt-auto pb-4">
         <p className="text-[11px] font-semibold text-teal-200">
-          Haz clic para ver la clase
+          Kliknij, aby zobaczyć lekcję
         </p>
       </CardContent>
     </Card>
   );
 }
 
-/* -------- Modal de contenido -------- */
+/* -------- Modal z treścią -------- */
 
 function ClassModal({ klass, onClose }) {
   const handleOverlayClick = (e) => {
     if (e.target === e.currentTarget) onClose();
   };
+
+  const levelPl = {
+    Principiante: "Początkujący",
+    Intermedio: "Średniozaawansowany",
+    Avanzado: "Zaawansowany",
+  };
+
+  const levelLabel = levelPl[klass.level] || klass.level;
 
   return (
     <div
@@ -142,24 +156,26 @@ function ClassModal({ klass, onClose }) {
       onClick={handleOverlayClick}
     >
       <div className="relative max-h-[80vh] w-full max-w-3xl overflow-hidden rounded-3xl border border-white/20 bg-slate-950 shadow-[0_0_40px_rgba(0,0,0,0.8)]">
-        {/* Header modal */}
+        {/* Nagłówek modala */}
         <div className="flex items-start justify-between gap-3 border-b border-white/10 px-5 py-4 md:px-7">
           <div className="space-y-1 pr-6">
             <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-teal-300">
-              Clase del entrenamiento de ChatGPT
+              Lekcja z treningu ChatGPT
             </p>
+
             <h3 className="text-lg md:text-xl font-bold text-slate-50">
               {klass.title}
             </h3>
+
             <div className="flex flex-wrap items-center gap-2">
               {klass.level && (
                 <Badge className="bg-teal-500/15 text-[11px] text-teal-200">
-                  Nivel: {klass.level}
+                  Poziom: {levelLabel}
                 </Badge>
               )}
               {klass.duration && (
                 <Badge className="bg-black/70 text-[11px] text-slate-200">
-                  Duración estimada: {klass.duration}
+                  Szacowany czas: {klass.duration}
                 </Badge>
               )}
             </div>
@@ -169,13 +185,13 @@ function ClassModal({ klass, onClose }) {
             type="button"
             onClick={onClose}
             className="rounded-full border border-white/20 bg-white/5 p-1 text-slate-200 hover:bg-white/10"
-            aria-label="Cerrar"
+            aria-label="Zamknij"
           >
             <X className="h-4 w-4" />
           </button>
         </div>
 
-        {/* Contenido scrollable */}
+        {/* Treść przewijana */}
         <div className="max-h-[60vh] space-y-5 overflow-y-auto px-5 py-4 md:px-7 md:py-6">
           {klass.summary && (
             <p className="text-sm text-slate-200">{klass.summary}</p>
@@ -184,8 +200,9 @@ function ClassModal({ klass, onClose }) {
           {klass.goals && klass.goals.length > 0 && (
             <div className="space-y-2">
               <p className="text-xs font-semibold uppercase tracking-wide text-teal-300">
-                Qué vas a conseguir con esta clase
+                Co zyskasz dzięki tej lekcji
               </p>
+
               <ul className="space-y-1 text-sm text-slate-200">
                 {klass.goals.map((goal, idx) => (
                   <li key={idx} className="flex gap-2">
@@ -200,8 +217,9 @@ function ClassModal({ klass, onClose }) {
           {klass.outline && klass.outline.length > 0 && (
             <div className="space-y-2">
               <p className="text-xs font-semibold uppercase tracking-wide text-slate-300">
-                Temas que veremos
+                Tematy, które omówimy
               </p>
+
               <ol className="space-y-1 text-sm text-slate-200">
                 {klass.outline.map((item, idx) => (
                   <li key={idx}>
@@ -218,8 +236,9 @@ function ClassModal({ klass, onClose }) {
           {klass.content && klass.content.length > 0 && (
             <div className="space-y-2">
               <p className="text-xs font-semibold uppercase tracking-wide text-slate-300">
-                Desarrollo de la clase
+                Rozwinięcie lekcji
               </p>
+
               {klass.content.map((p, idx) => (
                 <p key={idx} className="text-sm text-slate-200">
                   {p}
@@ -229,9 +248,9 @@ function ClassModal({ klass, onClose }) {
           )}
 
           <p className="mt-2 rounded-lg border border-teal-500/30 bg-teal-500/5 px-3 py-2 text-xs text-teal-100">
-            Sugerencia: mientras lees esta clase, abre otra pestaña con
-            ChatGPT y prueba los conceptos al mismo tiempo. Lo que pongas en
-            práctica ahora se quedará instalado en tu flujo de trabajo.
+            Wskazówka: podczas czytania tej lekcji otwórz w drugiej karcie
+            ChatGPT i testuj koncepcje na bieżąco. To, co przećwiczysz teraz,
+            „zainstaluje się” w Twoim workflow.
           </p>
         </div>
       </div>

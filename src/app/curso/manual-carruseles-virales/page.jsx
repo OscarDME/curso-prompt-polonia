@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { bonus03ManualCarruseles } from "@/lib/bonus-03-carruseles-content";
 
-// Helper para formato simple (negritas + saltos de línea)
+// Helper do prostego formatowania (pogrubienia + nowe linie)
 function formatRichText(text) {
   if (!text) return "";
   return text
@@ -21,7 +21,7 @@ export default function BonusManualCarruselesPage() {
 
   return (
     <div className="space-y-6 py-6">
-      {/* 🔙 Botón volver al curso */}
+      {/* 🔙 Przycisk powrotu do kursu */}
       <div className="flex items-center justify-between gap-3">
         <Button
           variant="ghost"
@@ -31,7 +31,7 @@ export default function BonusManualCarruselesPage() {
         >
           <Link href="/curso">
             <ArrowLeft className="mr-2 h-4 w-4" />
-            Volver al inicio del curso
+            Wróć do strony głównej kursu
           </Link>
         </Button>
       </div>

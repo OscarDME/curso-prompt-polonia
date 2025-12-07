@@ -3,1181 +3,1228 @@
 export const textPromptsSoporteGuionesAtencion = [
   {
     id: "sop-atn-001",
-    title: "Guion maestro de atención (multicanal): saludo → diagnóstico → solución → cierre",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Główny skrypt obsługi (wielokanałowy): powitanie → diagnoza → rozwiązanie → domknięcie",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Guion completo para chat/email/llamada con árbol de diagnóstico, planes A/B/C y checklist del agente.",
-    prompt: `Canal: [chat/email/llamada/WhatsApp]
-Idioma: [ ]
-Tono de marca: [cercano/neutral/premium]
-Producto/servicio: [ ]
-Situación: [describe el problema]
-Restricciones (política/SLA): [ ]
+      "Kompletny skrypt do czatu/emaila/telefonu z drzewem diagnozy, planami A/B/C i checklistą agenta.",
+    prompt: `Kanał: [czat/email/telefon/WhatsApp]
+Język: [ ]
+Ton marki: [na luzie/neutralny/premium]
+Produkt/usługa: [ ]
+Sytuacja: [opisz problem]
+Ograniczenia (polityka/SLA): [ ]
 
-Crea un GUION MAESTRO listo para copiar/pegar con:
-1) Saludo inicial (3 versiones: estándar, empático, ultra breve).
-2) Confirmación de identidad (si aplica) sin fricción (2 variantes).
-3) Diagnóstico con árbol de preguntas:
-   - 10 preguntas en orden, de menor a mayor esfuerzo para el cliente
-   - qué señal buscas en cada respuesta
-   - cuándo detener preguntas y pasar a solución
-4) Parafraseo y validación:
-   - 4 fórmulas para mostrar comprensión sin asumir culpa
-5) Solución paso a paso:
-   - Plan A (más probable) con pasos numerados (y qué debería ver el cliente)
-   - Plan B si falla (por qué puede fallar / cómo corregir)
-   - Plan C (escalación) con datos a recolectar
-6) Cierre:
-   - resumen 2 líneas
-   - acción del cliente y acción del equipo
-   - confirmación final (pregunta simple)
-7) Seguimiento:
-   - 2 mensajes si no responde (24h/72h)
-8) Checklist interno (12 puntos) para QA y documentación del caso.`,
+Stwórz GŁÓWNY SKRYPT gotowy do kopiuj-wklej z:
+1) Powitaniem (3 wersje: standard, empatyczna, ultra krótka).
+2) Potwierdzeniem tożsamości (jeśli dotyczy) bez tarcia (2 warianty).
+3) Diagnozą z drzewem pytań:
+   - 10 pytań po kolei, od najmniej do najbardziej wymagających dla klienta
+   - jakiego sygnału szukasz w każdej odpowiedzi
+   - kiedy przestać pytać i przejść do rozwiązania
+4) Parafrazą i walidacją:
+   - 4 formuły pokazujące zrozumienie bez przyznawania winy
+5) Rozwiązaniem krok po kroku:
+   - Plan A (najbardziej prawdopodobny) z ponumerowanymi krokami (i co klient powinien zobaczyć)
+   - Plan B, jeśli nie zadziała (dlaczego może nie działać / jak skorygować)
+   - Plan C (eskalacja) z danymi do zebrania
+6) Domknięciem:
+   - podsumowanie w 2 linijkach
+   - akcja klienta i akcja zespołu
+   - finalne potwierdzenie (proste pytanie)
+7) Follow-up:
+   - 2 wiadomości, jeśli klient nie odpowiada (24h/72h)
+8) Wewnętrzną checklistą (12 punktów) do QA i dokumentacji sprawy.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-002",
-    title: "Guion de desescalada: cliente molesto (empatía → control → solución) con límites",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt deeskalacji: zdenerwowany klient (empatia → kontrola → rozwiązanie) z granicami",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Desescalada real: frases exactas, límites, protocolos ante insultos y cierre con acuerdo.",
-    prompt: `Contexto del enojo: [cobro/retraso/bug/mala atención/expectativa]
-Canal: [chat/llamada/email]
-Qué puedo ofrecer: [ ]
-Qué NO puedo ofrecer: [ ]
-Políticas relevantes: [ ]
+      "Realna deeskalacja: konkretne frazy, limity, protokoły przy obelgach i domknięcie z uzgodnieniem.",
+    prompt: `Kontekst złości: [opłata/opóźnienie/bug/zła obsługa/niespełnione oczekiwania]
+Kanał: [czat/telefon/email]
+Co mogę zaoferować: [ ]
+Czego NIE mogę zaoferować: [ ]
+Istotne polityki: [ ]
 
-Crea un guion con:
-1) Apertura empática (6 variantes por intensidad).
-2) “Tomar control” sin confrontar:
-   - 8 frases para ordenar la conversación y avanzar
-3) Diagnóstico mínimo:
-   - 6 preguntas cortas, una por mensaje
-   - cómo priorizar (urgencia vs impacto)
-4) Propuesta de solución con opción A/B:
-   - A: rápida (workaround)
-   - B: completa (solución definitiva)
-   - cómo presentar opciones para que el cliente elija
-5) Cómo decir NO:
-   - 10 formas de negar una petición sin sonar rígido
-   - alternativas concretas por cada NO
-6) Si hay insultos/amenazas:
-   - protocolo en 4 pasos
-   - frases de advertencia y cierre formal
-7) Cierre:
-   - confirmación explícita del acuerdo + próximo update`,
+Stwórz skrypt z:
+1) Empatycznym otwarciem (6 wariantów wg intensywności).
+2) “Przejęciem kontroli” bez konfrontacji:
+   - 8 fraz, które porządkują rozmowę i prowadzą do celu
+3) Minimalną diagnozą:
+   - 6 krótkich pytań, jedno na wiadomość
+   - jak priorytetyzować (pilność vs wpływ)
+4) Propozycją rozwiązania z opcją A/B:
+   - A: szybka (workaround)
+   - B: pełna (docelowe rozwiązanie)
+   - jak zaprezentować opcje, żeby klient wybrał
+5) Jak powiedzieć NIE:
+   - 10 sposobów odmowy bez sztywnego tonu
+   - konkretne alternatywy do każdego “nie”
+6) Jeśli są obelgi/groźby:
+   - protokół w 4 krokach
+   - frazy ostrzegawcze i formalne zakończenie
+7) Domknięcie:
+   - jednoznaczne potwierdzenie ustaleń + kolejny update`,
     thumbnail: "",
   },
   {
     id: "sop-atn-003",
-    title: "Guion para reembolsos: elegible / no elegible / caso gris (con alternativas y objeciones)",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt zwrotów: kwalifikuje się / nie kwalifikuje się / przypadek graniczny (z alternatywami i obiekcjami)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Plantillas sólidas para aprobar o negar reembolsos sin conflicto, con alternativas y respuestas a objeciones.",
-    prompt: `Producto/servicio: [ ]
-Política de reembolso (resumen): [ ]
-Motivo del cliente: [ ]
-Canal: [ ]
+      "Solidne szablony do akceptacji lub odmowy zwrotu bez konfliktu, z alternatywami i odpowiedziami na obiekcje.",
+    prompt: `Produkt/usługa: [ ]
+Polityka zwrotów (skrót): [ ]
+Powód klienta: [ ]
+Kanał: [ ]
 
-Redacta 3 guiones:
-A) ELEGIBLE:
-- confirmación
-- pasos y tiempos
-- comprobante y cierre
+Napisz 3 skrypty:
+A) KWALIFIKUJE SIĘ:
+- potwierdzenie
+- kroki i terminy
+- potwierdzenie (dowód) i domknięcie
 
-B) NO ELEGIBLE:
-- explicar política con lenguaje humano
-- 4 alternativas (crédito, cambio, soporte, pausa, upgrade, etc.)
-- 10 “frases prohibidas” y cómo reemplazarlas
+B) NIE KWALIFIKUJE SIĘ:
+- wyjaśnij politykę ludzkim językiem
+- 4 alternatywy (kredyt, wymiana, wsparcie, pauza, upgrade itd.)
+- 10 “zakazanych fraz” i jak je zastąpić
 
-C) CASO GRIS:
-- pedir evidencia extra sin culpar
-- mantener buena voluntad
-- decidir y justificar con transparencia
+C) PRZYPADEK GRANICZNY:
+- poproś o dodatkowe dowody bez obwiniania
+- utrzymaj dobrą wolę
+- zdecyduj i uzasadnij z transparentnością
 
-Incluye:
-- 12 objeciones típicas (precio/tiempo/confianza) y respuestas
-- checklist interno de documentación (10 campos).`,
+Dodaj:
+- 12 typowych obiekcji (cena/czas/zaufanie) i odpowiedzi
+- wewnętrzną checklistę dokumentacji (10 pól).`,
     thumbnail: "",
   },
   {
     id: "sop-atn-004",
-    title: "Guion de cancelación con retención ética (detectar motivo real → ofrecer ajuste → confirmar)",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt anulowania z etyczną retencją (wykryj realny powód → zaproponuj dopasowanie → potwierdź)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Reduce churn sin manipular: diagnóstico, alternativas útiles y cancelación limpia si insiste.",
-    prompt: `Producto: [ ]
-Plan del cliente: [ ]
-Motivo probable: [precio/no uso/bug/falta valor/soporte]
-Palancas permitidas: [pausa/downgrade/descuento/onboarding]
-Canal: [ ]
+      "Redukuj churn bez manipulacji: diagnoza, sensowne alternatywy i czyste anulowanie, jeśli klient nalega.",
+    prompt: `Produkt: [ ]
+Plan klienta: [ ]
+Prawdopodobny powód: [cena/brak użycia/bug/brak wartości/wsparcie]
+Dozwolone dźwignie: [pauza/downgrade/rabat/onboarding]
+Kanał: [ ]
 
-Crea un guion con:
-1) Apertura + validación (3 opciones).
-2) Diagnóstico rápido (7 preguntas) para encontrar causa real.
-3) Matriz motivo→oferta:
-   - para cada motivo, 2 alternativas razonables y cómo presentarlas
-4) Si acepta alternativa:
-   - pasos exactos + confirmación por escrito
-5) Si insiste en cancelar:
-   - confirmación clara + qué conserva/pierde + fecha efectiva
-   - despedida elegante y puerta abierta
+Stwórz skrypt z:
+1) Otwarciem + walidacją (3 opcje).
+2) Szybką diagnozą (7 pytań), by znaleźć prawdziwą przyczynę.
+3) Macierzą powód→oferta:
+   - dla każdego powodu 2 rozsądne alternatywy i jak je przedstawić
+4) Jeśli akceptuje alternatywę:
+   - dokładne kroki + potwierdzenie na piśmie
+5) Jeśli nalega na anulowanie:
+   - jasne potwierdzenie + co zachowuje/traci + data wejścia w życie
+   - eleganckie pożegnanie i otwarte drzwi
 6) Winback:
-   - 2 mensajes (día 7 y día 21) adaptados al motivo.`,
+   - 2 wiadomości (dzień 7 i dzień 21) dopasowane do powodu.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-005",
-    title: "Guion de onboarding express (7–10 min): cliente perdido → guía → mini victoria → siguiente paso",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt ekspresowego onboardingu (7–10 min): zagubiony klient → prowadzenie → mini-zwycięstwo → następny krok",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Convierte confusión en progreso inmediato con diagnóstico suave, pasos concretos y verificación.",
-    prompt: `Producto/feature: [ ]
-Nivel del cliente: [principiante/intermedio]
-Objetivo del cliente: [ ]
-Canal: [chat/llamada]
+      "Zamienia chaos w szybki progres dzięki łagodnej diagnozie, konkretnym krokom i weryfikacji.",
+    prompt: `Produkt/funkcja: [ ]
+Poziom klienta: [początkujący/średniozaawansowany]
+Cel klienta: [ ]
+Kanał: [czat/telefon]
 
-Crea:
-1) Diagnóstico sin vergüenza (6 preguntas).
-2) Ruta guiada en 8–12 pasos:
-   - qué hacer
-   - qué debería ver en pantalla
-   - errores comunes y correcciones
-3) Mini-tarea de confirmación (1 acción simple).
-4) Cierre:
-   - resumen
-   - “siguiente mejor paso” (prioridad 1)
-   - 2 recursos sugeridos (si no existen, crear títulos + bullets).`,
+Stwórz:
+1) Diagnozę bez wstydu (6 pytań).
+2) Prowadzoną ścieżkę w 8–12 krokach:
+   - co zrobić
+   - co powinien zobaczyć na ekranie
+   - typowe błędy i korekty
+3) Mini-zadanie potwierdzające (1 prosta akcja).
+4) Domknięcie:
+   - podsumowanie
+   - “najlepszy kolejny krok” (priorytet 1)
+   - 2 sugerowane zasoby (jeśli nie istnieją, stwórz tytuły + bulletsy).`,
     thumbnail: "",
   },
 
   {
     id: "sop-atn-006",
-    title: "Guion para retrasos/logística: tracking, incidentes, reenvío y compensación (si aplica)",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt opóźnień/logistyki: tracking, incydenty, ponowna wysyłka i rekompensata (jeśli dotyczy)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Plantilla para demoras: empatía + hechos + opciones + compromiso + seguimiento.",
-    prompt: `Tipo operación: [ecommerce/servicios]
-Estado: [ ]
-Política compensación: [ ]
-Canal: [ ]
+      "Szablon na opóźnienia: empatia + fakty + opcje + zobowiązanie + follow-up.",
+    prompt: `Typ operacji: [ecommerce/usługi]
+Status: [ ]
+Polityka rekompensat: [ ]
+Kanał: [ ]
 
-Crea un guion:
-1) Apertura empática (4 versiones).
-2) Solicitud de datos mínima en 1 mensaje.
-3) Explicación del estado:
-   - versión corta
-   - versión detallada pero simple
-4) Opciones:
-   - esperar con update programado
-   - reenvío
-   - reembolso parcial/total (si aplica)
-5) Compromiso:
-   - qué haremos y cuándo (sin prometer de más)
-6) Seguimiento:
-   - 3 macros si sigue sin update
-   - 2 macros “aparece entregado pero no lo recibí”
-7) Registro interno:
-   - tags + campos obligatorios.`,
+Stwórz skrypt:
+1) Empatyczne otwarcie (4 wersje).
+2) Minimalna prośba o dane w 1 wiadomości.
+3) Wyjaśnienie statusu:
+   - wersja krótka
+   - wersja szczegółowa, ale prosta
+4) Opcje:
+   - czekanie z zaplanowanym update’em
+   - ponowna wysyłka
+   - częściowy/pełny zwrot (jeśli dotyczy)
+5) Zobowiązanie:
+   - co zrobimy i kiedy (bez obiecywania za dużo)
+6) Follow-up:
+   - 3 makra, jeśli nadal brak update’u
+   - 2 makra “status: dostarczono, ale nie odebrałem/am”
+7) Rejestr wewnętrzny:
+   - tagi + pola obowiązkowe.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-007",
-    title: "Macros de chat (30) para casos frecuentes: claridad + tono humano + CTA único",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Makra czatowe (30) na częste przypadki: klarownie + ludzki ton + jedno CTA",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Crea macros listas para copiar/pegar para acelerar soporte sin sonar robótico.",
-    prompt: `Producto/servicio: [ ]
-Tono: [cercano/neutral/premium]
-Casos frecuentes (si tienes): [pega lista]
+      "Makra gotowe do kopiuj-wklej, które przyspieszają support bez robotycznego brzmienia.",
+    prompt: `Produkt/usługa: [ ]
+Ton: [na luzie/neutralny/premium]
+Częste przypadki (jeśli masz): [wklej listę]
 
-Genera 30 macros (1–3 líneas) con:
-- TÍTULO de macro (corto)
-- TEXTO
-- CTA único claro (qué necesito del cliente)
-Agrupa por:
-1) Info general (6)
-2) Cuenta/acceso (8)
-3) Cobros (6)
-4) Bugs (6)
-5) Envíos/logística (4)
+Wygeneruj 30 makr (1–3 linijki) z:
+- TYTUŁEM makra (krótki)
+- TEKSTEM
+- jednym jasnym CTA (czego potrzebuję od klienta)
+Pogrupuj:
+1) Info ogólne (6)
+2) Konto/dostęp (8)
+3) Płatności (6)
+4) Bugi (6)
+5) Wysyłka/logistyka (4)
 
-Incluye:
-- 1 variante alternativa por macro (más directa)
-- lista de 12 frases a evitar + reemplazo recomendado.`,
+Dodaj:
+- 1 alternatywny wariant na makro (bardziej bezpośredni)
+- listę 12 fraz do unikania + rekomendowane zamienniki.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-008",
-    title: "Guion de escalación a nivel 2: datos mínimos, expectativas, updates y cierre",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt eskalacji do poziomu 2: minimalne dane, oczekiwania, update’y i domknięcie",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Escala sin perder confianza: recopila evidencia, define SLA y mantiene control.",
-    prompt: `Tipo de caso: [bug/cobro/seguridad/legal]
-SLA ideal: [ ]
-Canal: [ ]
+      "Eskaluj bez utraty zaufania: zbierz dowody, ustaw SLA i utrzymaj kontrolę komunikacji.",
+    prompt: `Typ sprawy: [bug/płatność/bezpieczeństwo/prawne]
+Docelowe SLA: [ ]
+Kanał: [ ]
 
-Crea:
-1) Mensaje al cliente para escalar (3 versiones).
-2) Checklist de evidencia (12–16 items) + plantilla para que el cliente responda fácil.
-3) Cómo hablar de tiempos:
-   - cuando hay ETA
-   - cuando NO hay ETA (rangos + próximo update)
-4) Updates:
-   - 3 mensajes proactivos (con y sin novedades)
-5) Resolución:
-   - mensaje final con causa (alto nivel), solución, prevención, verificación
-6) Registro interno:
-   - plantilla de ticket (campos y tags).`,
+Stwórz:
+1) Wiadomość do klienta o eskalacji (3 wersje).
+2) Checklistę dowodów (12–16 punktów) + szablon odpowiedzi, żeby klientowi było łatwo.
+3) Jak mówić o czasie:
+   - gdy jest ETA
+   - gdy NIE ma ETA (widełki + następny update)
+4) Update’y:
+   - 3 proaktywne wiadomości (z i bez nowości)
+5) Rozwiązanie:
+   - finalna wiadomość z przyczyną (wysoki poziom), rozwiązaniem, prewencją, weryfikacją
+6) Rejestr wewnętrzny:
+   - szablon ticketa (pola i tagi).`,
     thumbnail: "",
   },
   {
     id: "sop-atn-009",
-    title: "Guion de upsell/cross-sell desde soporte (ético): solo si mejora la solución",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt upsell/cross-sell z supportu (etycznie): tylko jeśli realnie poprawia rozwiązanie",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Detecta señales correctas, ofrece como opción y maneja objeciones sin presión.",
-    prompt: `Producto: [ ]
-Planes/upsells: [ ]
-Problema del cliente: [ ]
-Canal: [ ]
+      "Wykrywaj właściwe sygnały, proponuj jako opcję i obsługuj obiekcje bez presji.",
+    prompt: `Produkt: [ ]
+Plany/upselle: [ ]
+Problem klienta: [ ]
+Kanał: [ ]
 
-Crea un guion:
-1) Primero resolver el problema base (frase puente).
-2) Señales para proponer upgrade (7 señales).
-3) Oferta ética:
-   - 6 frases para presentar como “opción”
-   - 3 ejemplos de copy según motivo (límite/velocidad/feature)
-4) Objeciones y respuestas:
-   - “no quiero pagar más”
-   - “solo era una duda”
-   - “lo pienso”
-5) Cierre:
-   - confirmar que la solución base quedó lista
-   - comparativo simple (bullet A vs B).`,
+Stwórz skrypt:
+1) Najpierw rozwiąż bazowy problem (zdanie-pomost).
+2) Sygnały, kiedy proponować upgrade (7 sygnałów).
+3) Etyczna oferta:
+   - 6 fraz, jak przedstawić jako “opcję”
+   - 3 przykłady copy wg powodu (limit/szybkość/funkcja)
+4) Obiekcje i odpowiedzi:
+   - “nie chcę płacić więcej”
+   - “to tylko pytanie”
+   - “zastanowię się”
+5) Domknięcie:
+   - potwierdź, że baza działa
+   - proste porównanie (bullets A vs B).`,
     thumbnail: "",
   },
   {
     id: "sop-atn-010",
-    title: "Guion de llamada de soporte: control de tiempos, frases de transición y plantilla de notas",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt rozmowy supportowej: kontrola czasu, frazy przejściowe i szablon notatek",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Estructura de llamada para resolver rápido y documentar perfecto.",
-    prompt: `Tipo: [técnico/facturación/onboarding]
-Duración objetivo: [10–15 min]
-Producto: [ ]
+      "Struktura rozmowy, żeby szybko rozwiązywać i perfekcyjnie dokumentować.",
+    prompt: `Typ: [techniczny/rozliczenia/onboarding]
+Docelowy czas: [10–15 min]
+Produkt: [ ]
 
-Diseña:
-1) Apertura (30–60s): saludo + objetivo + confirmación.
-2) Diagnóstico (3–5 min): preguntas en orden + por qué se pregunta.
-3) Resolución (5–7 min): pasos + qué decir mientras el cliente ejecuta.
-4) Cierre (1–2 min): recap + next steps + confirmación de satisfacción.
-5) Plan B si no se resuelve en llamada: escalación + tiempos + seguimiento.
-6) Plantilla de notas:
-   - campos obligatorios
-   - tags
-   - resumen 3 líneas.`,
+Zaprojektuj:
+1) Otwarcie (30–60s): powitanie + cel + potwierdzenie.
+2) Diagnoza (3–5 min): pytania w kolejności + dlaczego pytamy.
+3) Rozwiązanie (5–7 min): kroki + co mówić, gdy klient wykonuje.
+4) Domknięcie (1–2 min): recap + next steps + potwierdzenie satysfakcji.
+5) Plan B, jeśli nie da się rozwiązać na rozmowie: eskalacja + czasy + follow-up.
+6) Szablon notatek:
+   - pola obowiązkowe
+   - tagi
+   - podsumowanie w 3 linijkach.`,
     thumbnail: "",
   },
 
-  // ---- A partir de aquí: 40 prompts más (hasta llegar a 50). ----
+  // ---- Od tej sekcji: 40 kolejnych promptów (aż do 50). ----
 
   {
     id: "sop-atn-011",
-    title: "Guion para “me cobraron doble”: verificación, explicación simple y resolución (3 escenarios)",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt na “pobrali mi podwójnie”: weryfikacja, proste wyjaśnienie i rozwiązanie (3 scenariusze)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Doble cobro: retención bancaria vs duplicado real vs ciclos de suscripción.",
-    prompt: `Pasarela: [Stripe/PayPal/etc.]
-Tipo: [suscripción/compra]
-Datos: [correo, fecha, IDs]
+      "Podwójne obciążenie: blokada bankowa vs realne duplikaty vs cykle subskrypcji.",
+    prompt: `Bramka płatności: [Stripe/PayPal/etc.]
+Typ: [subskrypcja/zakup]
+Dane: [email, data, ID]
 
-Crea un guion:
-1) Validación + tranquilidad (3 versiones).
-2) Solicitud de datos mínima (1 mensaje).
-3) Diagnóstico por escenarios:
-   - retención bancaria
-   - duplicado real
-   - confusión de ciclos/planes
-4) Resolución por escenario (pasos + tiempos).
-5) Cierre con evidencia:
-   - confirmación por escrito
-   - mensaje de seguimiento a 48h.`,
+Stwórz skrypt:
+1) Walidacja + uspokojenie (3 wersje).
+2) Minimalna prośba o dane (1 wiadomość).
+3) Diagnoza wg scenariuszy:
+   - blokada/retencja bankowa
+   - realny duplikat
+   - pomyłka w cyklu/planach
+4) Rozwiązanie dla każdego scenariusza (kroki + terminy).
+5) Domknięcie z dowodem:
+   - potwierdzenie na piśmie
+   - wiadomość follow-up po 48h.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-012",
-    title: "Guion para “no puedo iniciar sesión”: recuperación, 2FA, verificación y prevención",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt na “nie mogę się zalogować”: odzyskiwanie, 2FA, weryfikacja i prewencja",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Login sin drama: pasos por plataforma y seguridad sin pedir datos sensibles.",
-    prompt: `Sistema: [email+pass/SSO/magic link/2FA]
-Plataforma: [web/app]
-Error: [texto]
+      "Logowanie bez dramatu: kroki wg platformy i bezpieczeństwo bez proszenia o dane wrażliwe.",
+    prompt: `System: [email+hasło/SSO/magic link/2FA]
+Platforma: [web/app]
+Błąd: [treść]
 
-Crea:
-1) Diagnóstico rápido (8 preguntas).
-2) Solución paso a paso (Plan A/B/C):
-   - reset
+Stwórz:
+1) Szybką diagnozę (8 pytań).
+2) Rozwiązanie krok po kroku (Plan A/B/C):
+   - reset hasła
    - magic link
-   - caché/incógnito
-   - app (iOS/Android)
-3) Seguridad:
-   - cómo verificar identidad sin pedir contraseñas
-   - qué hacer si hay sospecha de compromiso
-4) Prevención (6 tips).
-5) Escalación: checklist de datos técnicos.`,
+   - cache/incognito
+   - aplikacja (iOS/Android)
+3) Bezpieczeństwo:
+   - jak weryfikować tożsamość bez proszenia o hasła
+   - co zrobić przy podejrzeniu przejęcia
+4) Prewencja (6 tipów).
+5) Eskalacja: checklista danych technicznych.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-013",
-    title: "Guion para “no funciona” (vago): convertir en repro steps + evidencia (sin frustrar)",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt na “nie działa” (zbyt ogólne): zamień w kroki odtwarzalne + dowody (bez frustracji)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Ordena caos: pasos reproducibles, esperado vs obtenido, entorno y pruebas rápidas.",
-    prompt: `Cliente dice: “no funciona”
-Feature: [ ]
-Canal: [ ]
+      "Porządkuje chaos: kroki do reprodukcji, oczekiwane vs otrzymane, środowisko i szybkie testy.",
+    prompt: `Klient mówi: “nie działa”
+Funkcja: [ ]
+Kanał: [ ]
 
-Crea un guion:
-1) Validación (3 opciones).
-2) Solicitar repro steps con plantilla:
-   - Paso 1/2/3
-   - Esperaba/Obtuve
-   - Captura/video (si puede)
-3) Entorno: dispositivo, navegador, versión, conexión.
-4) Pruebas rápidas (6) y cómo explicarlas.
-5) Si es bug: workaround + escalación + update plan.
-6) Cierre: resumen + siguiente paso + confirmación.`,
+Stwórz skrypt:
+1) Walidacja (3 opcje).
+2) Prośba o repro steps z szablonem:
+   - Krok 1/2/3
+   - Oczekiwałem/am / Otrzymałem/am
+   - Zrzut/wideo (jeśli może)
+3) Środowisko: urządzenie, przeglądarka, wersja, połączenie.
+4) Szybkie testy (6) i jak je wyjaśnić.
+5) Jeśli to bug: workaround + eskalacja + plan update’ów.
+6) Domknięcie: podsumowanie + kolejny krok + potwierdzenie.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-014",
-    title: "Guion para clientes VIP: prioridad, lenguaje premium, seguimiento proactivo (sin prometer de más)",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt dla klientów VIP: priorytet, język premium, proaktywne update’y (bez obiecywania za dużo)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Experiencia VIP: 3 preguntas máximo, control total y updates proactivos.",
-    prompt: `Nivel VIP: [ ]
+      "VIP experience: maks. 3 pytania, pełna kontrola i proaktywne update’y.",
+    prompt: `Poziom VIP: [ ]
 SLA: [ ]
-Problema: [ ]
-Canal: [ ]
+Problem: [ ]
+Kanał: [ ]
 
-Crea guion premium:
-1) Apertura con reconocimiento (sin exagerar).
-2) Diagnóstico ultra eficiente (3 preguntas).
-3) Solución:
-   - pasos o escalación (con control)
-4) Updates proactivos:
-   - mensaje a 2h y a 24h (aunque no haya novedades)
-5) Cierre:
-   - confirmación + puerta abierta
-6) Nota interna: checklist VIP + registro account health.`,
+Stwórz skrypt premium:
+1) Otwarcie z uznaniem (bez przesady).
+2) Ultra efektywną diagnozę (3 pytania).
+3) Rozwiązanie:
+   - kroki albo eskalacja (z kontrolą)
+4) Proaktywne update’y:
+   - wiadomość po 2h i po 24h (nawet bez nowości)
+5) Domknięcie:
+   - potwierdzenie + otwarte drzwi
+6) Notatka wewnętrzna: checklista VIP + rejestr “account health”.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-015",
-    title: "Guion de disculpa efectiva (sin admitir culpa legal): impacto → acción → prevención",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt skutecznych przeprosin (bez przyznawania winy prawnej): wpływ → działanie → prewencja",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Cómo pedir disculpas bien sin meterte en líos: frases seguras y frases prohibidas.",
-    prompt: `Situación: [ ]
-Riesgo legal: [bajo/medio/alto]
-Compensación permitida: [ ]
+      "Jak przeprosić dobrze bez ryzyka: bezpieczne frazy i frazy zakazane.",
+    prompt: `Sytuacja: [ ]
+Ryzyko prawne: [niskie/średnie/wysokie]
+Dozwolona rekompensata: [ ]
 
-Crea:
-1) Estructura de disculpa en 5 pasos (guion textual).
-2) 15 frases seguras + 10 frases a evitar (con reemplazo).
-3) 5 disculpas cortas para chat.
-4) 2 disculpas largas para email (2 tonos).
-5) Guía para agente: cuándo escalar a legal + cómo documentar.`,
+Stwórz:
+1) Strukturę przeprosin w 5 krokach (skrypt tekstowy).
+2) 15 bezpiecznych fraz + 10 fraz do unikania (z zamiennikami).
+3) 5 krótkich przeprosin do czatu.
+4) 2 długie przeprosiny do emaila (2 tony).
+5) Wytyczne dla agenta: kiedy eskalować do legal + jak dokumentować.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-016",
-    title: "Guion proactivo de incidente: aviso inicial + FAQ + updates + mensaje de cierre",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Proaktywny skrypt incydentu: komunikat startowy + FAQ + update’y + komunikat zamykający",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Comunicaciones de incidentes: claro, humano, útil, con workaround y cadencia de updates.",
-    prompt: `Incidente: [ ]
-Impacto: [ ]
+      "Komunikacja incydentów: jasno, po ludzku, użytecznie, z workaroundem i rytmem update’ów.",
+    prompt: `Incydent: [ ]
+Wpływ: [ ]
 ETA: [ ]
 Workaround: [ ]
-Canales: [email/banner/status/chat]
+Kanały: [email/banner/status/czat]
 
-Redacta:
-1) Aviso inicial (120–180 palabras).
-2) Versión corta (máx 240 caracteres).
-3) FAQ (10 preguntas y respuestas).
-4) Update #1 (avance) + Update #2 (en curso sin ETA) + Update #3 (resuelto).
-5) Mensaje post-incidente:
-   - qué pasó (alto nivel)
-   - qué se hizo
-   - qué se hará para prevenir
-   - cómo reportar si persiste.`,
+Napisz:
+1) Komunikat startowy (120–180 słów).
+2) Wersję krótką (max 240 znaków).
+3) FAQ (10 pytań i odpowiedzi).
+4) Update #1 (postęp) + Update #2 (w toku bez ETA) + Update #3 (naprawione).
+5) Komunikat po incydencie:
+   - co się stało (wysoki poziom)
+   - co zrobiono
+   - co zrobimy, żeby zapobiec
+   - jak zgłosić, jeśli nadal występuje.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-017",
-    title: "Guion de handoff interno (transferencia entre equipos) + mensaje al cliente",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt wewnętrznego handoffu (przekazanie między zespołami) + wiadomość do klienta",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Evita ping-pong: plantillas para cliente y para equipo receptor con evidencia y tags.",
-    prompt: `Equipo receptor: [facturación/técnico/legal]
-Caso: [ ]
-Canal: [ ]
+      "Bez ping-ponga: szablony dla klienta i dla zespołu docelowego z dowodami i tagami.",
+    prompt: `Zespół docelowy: [rozliczenia/techniczny/prawny]
+Sprawa: [ ]
+Kanał: [ ]
 
-Crea:
-A) Mensaje al cliente (3 versiones) explicando handoff + expectativas.
-B) Handoff interno:
-- resumen 5 líneas
-- pasos ya intentados
-- evidencia adjunta
-- hipótesis
-- prioridad y razón
-- preguntas abiertas (3)
-C) Checklist anti ping-pong (10 ítems) + tags recomendados.`,
+Stwórz:
+A) Wiadomość do klienta (3 wersje) wyjaśniająca przekazanie + oczekiwania.
+B) Handoff wewnętrzny:
+- podsumowanie w 5 linijkach
+- kroki już wykonane
+- dołączone dowody
+- hipoteza
+- priorytet i powód
+- otwarte pytania (3)
+C) Checklistę anti ping-pong (10 punktów) + rekomendowane tagi.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-018",
-    title: "Guion para “me atendieron mal”: recuperación de servicio y retención",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title: "Skrypt na “zostałem/am źle obsłużony/a”: naprawa usługi i retencja",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Recupera confianza: disculpa, re-encuadre, solución y seguimiento.",
-    prompt: `Queja: [ ]
-Canal: [ ]
-Compensación permitida: [ ]
+      "Odbuduj zaufanie: przeprosiny, reframing, rozwiązanie i follow-up.",
+    prompt: `Skarga: [ ]
+Kanał: [ ]
+Dozwolona rekompensata: [ ]
 
-Crea:
-1) Apertura sin defensividad (3 variantes).
-2) Preguntas suaves (6) para entender y registrar.
-3) Reparación:
-   - acción inmediata
-   - opción de compensación (si aplica)
-4) Compromiso de mejora (sin promesas vacías).
-5) Cierre + seguimiento 24–48h.
-6) Nota interna: VoC + escalación a supervisor.`,
+Stwórz:
+1) Otwarcie bez defensywy (3 warianty).
+2) Łagodne pytania (6) do zrozumienia i rejestru.
+3) Naprawę:
+   - działanie natychmiastowe
+   - opcja rekompensaty (jeśli dotyczy)
+4) Zobowiązanie do poprawy (bez pustych obietnic).
+5) Domknięcie + follow-up 24–48h.
+6) Notatka wewnętrzna: VoC + eskalacja do przełożonego.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-019",
-    title: "Guion para explicar políticas sin sonar robot: razón humana + alternativas",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt tłumaczenia polityk bez robotycznego tonu: ludzki powód + alternatywy",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Explica reglas con empatía y opciones, y maneja objeciones típicas.",
-    prompt: `Política: [reembolsos/garantía/plazos/uso aceptable]
-Caso: [ ]
-Canal: [ ]
+      "Wyjaśnia zasady z empatią i opcjami oraz obsługuje typowe obiekcje.",
+    prompt: `Polityka: [zwroty/gwarancja/terminy/zasady użycia]
+Sprawa: [ ]
+Kanał: [ ]
 
-Crea:
-1) Explicación breve (2–3 frases) + versión detallada (1 párrafo).
-2) “Por qué existe” en lenguaje humano.
-3) 4 alternativas concretas si la política no permite lo pedido.
-4) Respuestas a objeciones:
-   - “es injusto”
-   - “otra empresa sí”
-   - “nadie me avisó”
-   - “quiero supervisor”
-5) Cierre: resumen + siguiente paso.`,
+Stwórz:
+1) Krótkie wyjaśnienie (2–3 zdania) + wersję szczegółową (1 akapit).
+2) “Dlaczego istnieje” ludzkim językiem.
+3) 4 konkretne alternatywy, jeśli polityka nie pozwala na prośbę.
+4) Odpowiedzi na obiekcje:
+   - “to niesprawiedliwe”
+   - “inna firma tak robi”
+   - “nikt mnie nie uprzedził”
+   - “chcę przełożonego”
+5) Domknięcie: podsumowanie + kolejny krok.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-020",
-    title: "Checklist de cierre perfecto: reducir re-contacto y prevenir futuros tickets",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Checklista idealnego domknięcia: mniej ponownych kontaktów i mniej przyszłych ticketów",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Cierres que bajan re-contacto: resumen, prevención, recurso y confirmación.",
-    prompt: `Caso resuelto: [ ]
-Canal: [ ]
+      "Domknięcia, które obniżają re-contact: podsumowanie, prewencja, zasób i potwierdzenie.",
+    prompt: `Sprawa rozwiązana: [ ]
+Kanał: [ ]
 
-Crea 10 plantillas de cierre:
-- 4 para chat (1–2 líneas)
-- 4 para email (1 párrafo)
-- 2 para llamada (guion hablado)
-Cada cierre debe incluir:
-1) Qué se resolvió (resumen)
-2) Paso preventivo (si vuelve a pasar…)
-3) Recurso/FAQ o tip
-4) Pregunta final de confirmación
+Stwórz 10 szablonów domknięcia:
+- 4 do czatu (1–2 linijki)
+- 4 do emaila (1 akapit)
+- 2 do rozmowy (skrypt mówiony)
+Każde domknięcie musi zawierać:
+1) Co zostało rozwiązane (podsumowanie)
+2) Krok prewencyjny (jeśli wróci…)
+3) Zasób/FAQ albo tip
+4) Pytanie końcowe potwierdzające
 
-Incluye además:
-- 6 respuestas si el cliente responde “sigue igual”.`,
+Dodaj też:
+- 6 odpowiedzi, jeśli klient odpisze “dalej jest to samo”.`,
     thumbnail: "",
   },
 
-  // 30 prompts restantes (21–50)
+  // 30 pozostałych promptów (21–50)
   {
     id: "sop-atn-021",
-    title: "Guion para facturación: invoice, VAT, datos fiscales y reenvío de comprobantes",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt rozliczeń: faktura, VAT, dane podatkowe i ponowne wysyłanie potwierdzeń",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Resuelve dudas fiscales sin fricción: plantilla + datos mínimos + pasos claros.",
-    prompt: `País: [ ]
-Tipo cliente: [B2B/B2C]
-Solicitud: [factura/VAT/datos fiscales/cambio razón social]
-Canal: [ ]
+      "Rozwiązuje kwestie podatkowe bez tarcia: szablon + minimum danych + jasne kroki.",
+    prompt: `Kraj: [ ]
+Typ klienta: [B2B/B2C]
+Prośba: [faktura/VAT/dane podatkowe/zmiana danych firmy]
+Kanał: [ ]
 
-Crea un guion:
-1) Apertura + confirmación de solicitud.
-2) Datos mínimos a pedir (en una sola lista) + razón de cada dato.
-3) Pasos de resolución según solicitud:
-   - reenvío comprobante
-   - emisión/corrección factura
-   - cambio datos fiscales
-4) Tiempos y “siguiente update”.
-5) Cierre + checklist interno para registrar.`,
+Stwórz skrypt:
+1) Otwarcie + potwierdzenie prośby.
+2) Minimalne dane do zebrania (w jednej liście) + powód każdego.
+3) Kroki rozwiązania wg prośby:
+   - ponowna wysyłka potwierdzenia
+   - wystawienie/korekta faktury
+   - zmiana danych podatkowych
+4) Czasy realizacji i “następny update”.
+5) Domknięcie + wewnętrzna checklista rejestru.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-022",
-    title: "Guion para contracargos/disputas: contención, evidencia, proceso y comunicación",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt chargebacków/sporów: zabezpieczenie, dowody, proces i komunikacja",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Maneja disputas sin confrontar: explica proceso, recolecta evidencia y reduce riesgo.",
-    prompt: `Pasarela: [ ]
-Disputa: [abierta/cerrada]
-Motivo: [fraude/no reconocido/servicio no recibido]
-Canal: [ ]
+      "Obsługa sporów bez konfrontacji: wyjaśnij proces, zbierz dowody i zmniejsz ryzyko.",
+    prompt: `Bramka płatności: [ ]
+Spór: [otwarty/zamknięty]
+Powód: [fraud/nie rozpoznaję/nie otrzymałem usługi]
+Kanał: [ ]
 
-Crea:
-1) Apertura cuidadosa (sin acusar).
-2) Explicación del proceso (simple) + tiempos.
-3) Evidencia a solicitar (checklist) y cómo pedirla.
-4) Opciones:
-   - resolver amigable (reembolso parcial/solución)
-   - seguir disputa (si aplica)
-5) Cierre:
-   - confirmación por escrito
-   - seguimiento programado.`,
+Stwórz:
+1) Ostrożne otwarcie (bez oskarżeń).
+2) Proste wyjaśnienie procesu + terminy.
+3) Lista dowodów do zebrania i jak o nie poprosić.
+4) Opcje:
+   - polubownie (częściowy zwrot/rozwiązanie)
+   - kontynuacja sporu (jeśli dotyczy)
+5) Domknięcie:
+   - potwierdzenie na piśmie
+   - zaplanowany follow-up.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-023",
-    title: "Guion para seguridad: sospecha de cuenta comprometida (bloqueo, verificación, recuperación)",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt bezpieczeństwa: podejrzenie przejęcia konta (blokada, weryfikacja, odzyskanie)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Protocolo textual para incidentes de seguridad sin pedir datos sensibles.",
-    prompt: `Señales: [inicio extraño/cambios no autorizados/2FA]
-Canal: [ ]
+      "Tekstowy protokół incydentów bezpieczeństwa bez proszenia o dane wrażliwe.",
+    prompt: `Sygnały: [dziwne logowanie/nieautoryzowane zmiany/2FA]
+Kanał: [ ]
 
-Crea un guion:
-1) Apertura de seguridad (calma + control).
-2) Acciones inmediatas (paso a paso) para proteger:
+Stwórz skrypt:
+1) Otwarcie bezpieczeństwa (spokój + kontrola).
+2) Działania natychmiastowe (krok po kroku), by zabezpieczyć:
    - reset
-   - cerrar sesiones
-   - activar 2FA
-3) Verificación identidad (métodos permitidos) sin pedir contraseñas.
-4) Si hay daño:
-   - qué datos revisar
-   - cómo revertir
-5) Cierre:
-   - resumen + checklist preventiva + seguimiento.`,
+   - wylogowanie ze wszystkich sesji
+   - włączenie 2FA
+3) Weryfikacja tożsamości (dopuszczalne metody) bez proszenia o hasła.
+4) Jeśli jest szkoda:
+   - co sprawdzić
+   - jak odwrócić zmiany
+5) Domknięcie:
+   - podsumowanie + checklista prewencji + follow-up.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-024",
-    title: "Guion para abuso en soporte: insultos, acoso y lenguaje inapropiado (límites + cierre)",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt na nadużycia w supporcie: obelgi, nękanie i nieodpowiedni język (granice + zakończenie)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Límites firmes y respetuosos: advertencia, registro y cierre seguro.",
-    prompt: `Política de conducta: [pega resumen]
-Canal: [ ]
+      "Stanowcze, uprzejme granice: ostrzeżenie, rejestr i bezpieczne zakończenie.",
+    prompt: `Polityka zachowania: [wklej skrót]
+Kanał: [ ]
 
-Crea:
-1) Mensaje de límite suave (3 versiones).
-2) Advertencia formal (3 versiones).
-3) Cierre de conversación (2 versiones).
-4) Protocolo interno:
-   - qué registrar
-   - cuándo escalar
-   - cuándo bloquear
-5) Frases prohibidas (10) y alternativas.`,
-
+Stwórz:
+1) Miękką wiadomość o granicy (3 wersje).
+2) Formalne ostrzeżenie (3 wersje).
+3) Zamykanie rozmowy (2 wersje).
+4) Protokół wewnętrzny:
+   - co rejestrować
+   - kiedy eskalować
+   - kiedy blokować
+5) 10 fraz zakazanych i alternatywy.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-025",
-    title: "Guion para soporte técnico: pedir logs/capturas sin abrumar + plantilla de reporte",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt techniczny: prośba o logi/zrzuty bez przytłoczenia + szablon raportu",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Recolecta evidencia técnica con método y lenguaje simple.",
-    prompt: `Plataforma: [web/app]
-Tipo de evidencia: [captura/video/log]
-Canal: [ ]
+      "Zbieraj dowody techniczne metodycznie i prostym językiem.",
+    prompt: `Platforma: [web/app]
+Typ dowodu: [zrzut/wideo/log]
+Kanał: [ ]
 
-Crea:
-1) Cómo pedir evidencia (3 tonos: amable/directo/premium).
-2) Instrucciones paso a paso para:
-   - captura
-   - video corto
-   - copiar/pegar error
-3) Plantilla de reporte:
-   - pasos para reproducir
-   - esperado vs obtenido
-   - entorno
-   - frecuencia
-4) Cierre:
-   - confirmación
-   - próximos pasos + update plan.`,
+Stwórz:
+1) Jak poprosić o dowody (3 tony: miły/bezpośredni/premium).
+2) Instrukcje krok po kroku:
+   - zrzut ekranu
+   - krótkie wideo
+   - skopiowanie błędu
+3) Szablon raportu:
+   - kroki reprodukcji
+   - oczekiwane vs otrzymane
+   - środowisko
+   - częstotliwość
+4) Domknięcie:
+   - potwierdzenie
+   - kolejne kroki + plan update’ów.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-026",
-    title: "Guion para WhatsApp: micro-mensajes, confirmaciones entre pasos y seguimiento",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt WhatsApp: mikro-wiadomości, potwierdzenia między krokami i follow-up",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Soporte por WhatsApp sin muros de texto: bloques cortos, confirmaciones y macros.",
-    prompt: `Producto: [ ]
-Caso: [ ]
-Tono: [ ]
+      "Support na WhatsApp bez ścian tekstu: krótkie bloki, potwierdzenia i makra.",
+    prompt: `Produkt: [ ]
+Sprawa: [ ]
+Ton: [ ]
 
-Crea:
-1) Guion en 8–12 mensajes cortos (con pausas).
-2) Confirmación entre pasos (frases exactas).
-3) 3 mensajes si el cliente tarda en responder.
-4) 12 macros WhatsApp para casos típicos.
-5) Cierre con resumen y prevención.`,
+Stwórz:
+1) Skrypt w 8–12 krótkich wiadomościach (z przerwami).
+2) Potwierdzenia między krokami (dokładne frazy).
+3) 3 wiadomości, jeśli klient długo nie odpowiada.
+4) 12 makr WhatsApp na typowe sprawy.
+5) Domknięcie z podsumowaniem i prewencją.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-027",
-    title: "Guion para email de soporte: estructura clara + CTA único + versiones por tono",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt emaila supportowego: jasna struktura + jedno CTA + wersje wg tonu",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Emails que avanzan casos: resumen, lo revisado, pasos y CTA único.",
-    prompt: `Caso: [ ]
-Tono: [cercano/corporativo]
-Urgencia: [ ]
+      "Maile, które pchają sprawę do przodu: podsumowanie, co sprawdzono, kroki i jedno CTA.",
+    prompt: `Sprawa: [ ]
+Ton: [na luzie/korporacyjny]
+Pilność: [ ]
 
-Crea:
-1) 8 asuntos.
-2) Plantilla de email:
-   - resumen del problema
-   - lo que hicimos/revisamos
-   - pasos recomendados
-   - CTA único (qué necesito)
-   - cierre
-3) Versión “urgente” y versión “sensible”.
-4) Checklist antes de enviar (10 items).`,
+Stwórz:
+1) 8 tematów wiadomości.
+2) Szablon emaila:
+   - podsumowanie problemu
+   - co zrobiliśmy/sprawdziliśmy
+   - rekomendowane kroki
+   - jedno CTA (czego potrzebuję)
+   - zamknięcie
+3) Wersję “pilną” i wersję “wrażliwą”.
+4) Checklistę przed wysyłką (10 punktów).`,
     thumbnail: "",
   },
   {
     id: "sop-atn-028",
-    title: "Guion para responder reseñas negativas (público) + puente a canal privado",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt odpowiedzi na negatywne opinie (publicznie) + pomost do kanału prywatnego",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Respuestas públicas elegantes sin discutir ni pedir datos sensibles.",
-    prompt: `Reseña (pegar): [ ]
-Plataforma: [Google/Trustpilot/App Store]
-Política privacidad: [ ]
+      "Eleganckie odpowiedzi publiczne bez dyskusji i bez proszenia o dane wrażliwe.",
+    prompt: `Opinia (wklej): [ ]
+Platforma: [Google/Trustpilot/App Store]
+Polityka prywatności: [ ]
 
-Crea:
-1) Respuesta pública (80–120 palabras).
-2) 3 variantes según tono (agresiva/decepcionada/sarcástica).
-3) Mensaje privado follow-up:
-   - pedir datos mínimos
-   - proponer solución
-4) “No decir”: 10 frases y por qué.`,
-
+Stwórz:
+1) Odpowiedź publiczną (80–120 słów).
+2) 3 warianty wg tonu (agresywna/rozczarowana/sarkastyczna).
+3) Wiadomość prywatną follow-up:
+   - prośba o minimalne dane
+   - propozycja rozwiązania
+4) “Czego nie mówić”: 10 fraz i dlaczego.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-029",
-    title: "Guion para comunicar tiempos (SLA) sin prometer: rangos, updates y manejo de presión",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt komunikowania czasu (SLA) bez obietnic: widełki, update’y i presja",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Cómo hablar de tiempos sin quedar mal: frases, estructura y seguimiento proactivo.",
-    prompt: `SLA real: [ ]
-Caso: [ ]
-Canal: [ ]
+      "Jak mówić o czasie bez wpadek: frazy, struktura i proaktywne follow-upy.",
+    prompt: `Realne SLA: [ ]
+Sprawa: [ ]
+Kanał: [ ]
 
-Crea:
-1) 15 frases para comunicar tiempos: certeza/rango/incertidumbre.
-2) Estructura “tiempo + próximo update” (plantillas).
-3) Respuestas a presión:
-   - “lo necesito ya”
-   - “me están ignorando”
-   - “esto es inaceptable”
-4) 3 mensajes proactivos si se retrasa.
-5) Nota interna: cuándo escalar por SLA.`,
+Stwórz:
+1) 15 fraz do komunikacji czasu: pewność/widełki/niepewność.
+2) Struktura “czas + następny update” (szablony).
+3) Odpowiedzi na presję:
+   - “potrzebuję teraz”
+   - “ignorujecie mnie”
+   - “to nie do przyjęcia”
+4) 3 proaktywne wiadomości, jeśli się opóźnia.
+5) Notatka wewnętrzna: kiedy eskalować przez SLA.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-030",
-    title: "Guion para solicitar información sin fricción: 1 pregunta compacta + opciones",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt proszenia o informacje bez tarcia: 1 zwięzłe pytanie + opcje",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Recoge datos sin intercambiar 20 mensajes: petición compacta y amigable.",
-    prompt: `Caso: [ ]
-Datos necesarios: [correo, pedido, captura, etc.]
-Canal: [ ]
+      "Zbieraj dane bez 20 wymian: zwięzła, przyjazna prośba i warianty.",
+    prompt: `Sprawa: [ ]
+Potrzebne dane: [email, numer zamówienia, zrzut itd.]
+Kanał: [ ]
 
-Creá:
-1) 8 versiones de “pregunta compacta” para pedir varios datos a la vez.
-2) Variante para clientes apurados (ultra corta).
-3) Variante para clientes sensibles (ultra empática).
-4) Cómo validar datos recibidos sin hacer sentir al cliente “culpable”.
-5) Cierre confirmando: “con esto ya puedo avanzar”.`,
+Stwórz:
+1) 8 wersji “zwięzłego pytania” proszącego o kilka rzeczy naraz.
+2) Wariant dla zabieganych (ultra krótki).
+3) Wariant dla wrażliwych klientów (ultra empatyczny).
+4) Jak zweryfikować otrzymane dane, nie sugerując winy.
+5) Domknięcie potwierdzające: “z tym mogę już działać”.`,
     thumbnail: "",
   },
 
   {
     id: "sop-atn-031",
-    title: "Guion para soporte ‘multitema’: el cliente trae 5 problemas (prioriza y resuelve por bloques)",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt ‘wiele tematów’: klient ma 5 problemów (priorytetyzuj i rozwiązuj blokami)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Ordena múltiples problemas sin perder control ni cansar al cliente.",
-    prompt: `Lista de problemas: [pega]
-Canal: [ ]
+      "Porządkuj wiele problemów bez utraty kontroli i bez męczenia klienta.",
+    prompt: `Lista problemów: [wklej]
+Kanał: [ ]
 
-Crea un guion:
-1) Validación (sin abrumar).
-2) Propuesta de orden por impacto/urgencia/dependencias (3 métodos).
-3) Resolución por bloques:
-   - confirmar al terminar cada bloque
-4) Qué se resuelve hoy vs qué se escala (con explicación).
-5) Cierre con checklist final + próximos pasos.`,
+Stwórz skrypt:
+1) Walidacja (bez przytłaczania).
+2) Propozycja kolejności wg wpływu/pilności/zależności (3 metody).
+3) Rozwiązywanie blokami:
+   - potwierdź po każdym bloku
+4) Co rozwiążemy dziś vs co eskalujemy (z uzasadnieniem).
+5) Domknięcie z checklistą + next steps.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-032",
-    title: "Guion para incertidumbre: ‘no lo sé aún’ con transparencia, acción y seguimiento",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt niepewności: “jeszcze nie wiem” z transparentnością, działaniem i follow-upem",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Frases para no inventar: lo que sabemos, lo que verificamos, próximos pasos, updates.",
-    prompt: `Caso: [ ]
-Qué no está claro: [ ]
-Canal: [ ]
+      "Frazy, by nie zmyślać: co wiemy, co sprawdzamy, next steps i update’y.",
+    prompt: `Sprawa: [ ]
+Co jest niejasne: [ ]
+Kanał: [ ]
 
-Crea:
-1) 12 frases para decir “aún lo confirmo” con confianza.
-2) Plantilla de respuesta:
-   - lo que sí sabemos
-   - lo que investigamos
-   - el siguiente paso
-   - cuándo actualizamos
-3) 3 updates (con y sin novedades).
-4) 12 frases a evitar + reemplazo.`,
+Stwórz:
+1) 12 fraz, by powiedzieć “sprawdzam” pewnie.
+2) Szablon odpowiedzi:
+   - co już wiemy
+   - co weryfikujemy
+   - następny krok
+   - kiedy wrócimy z update’em
+3) 3 update’y (z i bez nowości).
+4) 12 fraz do unikania + zamienniki.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-033",
-    title: "Guion para “quiero un supervisor”: contención, solución primero y escalación cuando aplica",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt na “chcę przełożonego”: uspokojenie, najpierw rozwiązanie, eskalacja gdy ma sens",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Maneja escalación sin bloquear: criterios, alternativas y handoff perfecto.",
-    prompt: `Caso: [ ]
-Políticas: [ ]
-Canal: [ ]
+      "Eskalacja bez blokowania: kryteria, alternatywy i perfekcyjny handoff.",
+    prompt: `Sprawa: [ ]
+Polityki: [ ]
+Kanał: [ ]
 
-Crea:
-1) Validación + intención (3 variantes).
-2) Frases para intentar resolver antes (5).
-3) Criterios de escalación (sí/no) y cómo explicarlo.
-4) Si escalas: mensaje al cliente + plantilla interna.
-5) Si no escalas: cómo decir no con alternativas.
-6) Cierre con acuerdo y seguimiento.`,
+Stwórz:
+1) Walidację + intencję (3 warianty).
+2) 5 fraz, by spróbować rozwiązać od razu.
+3) Kryteria eskalacji (tak/nie) i jak to wyjaśnić.
+4) Jeśli eskalujesz: wiadomość do klienta + szablon wewnętrzny.
+5) Jeśli nie eskalujesz: jak powiedzieć nie z alternatywami.
+6) Domknięcie z ustaleniem i follow-upem.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-034",
-    title: "Guion para cobro sin entrega: pago ok pero no recibido (digital/físico) con prevención",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt na płatność bez dostawy: płatność OK, ale nie dotarło (cyfrowe/fizyczne) + prewencja",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Soluciona rápido: verificación, entrega manual, seguimiento y tips preventivos.",
-    prompt: `Tipo entrega: [email/descarga/envío]
-Pago: [ ]
-Canal: [ ]
+      "Szybkie rozwiązanie: weryfikacja, ręczna dostawa, follow-up i tipy prewencyjne.",
+    prompt: `Typ dostawy: [email/pobranie/wysyłka]
+Płatność: [ ]
+Kanał: [ ]
 
-Crea:
-1) Apertura calmante (3).
-2) Verificación mínima (datos).
-3) Diagnóstico por causas (5) y solución por causa.
-4) Entrega manual / reenvío (pasos).
-5) Prevención (6 tips).
-6) Cierre: confirmación + seguimiento 24h.`,
+Stwórz:
+1) Uspokajające otwarcie (3).
+2) Minimum weryfikacji (dane).
+3) Diagnozę wg przyczyn (5) i rozwiązanie do każdej.
+4) Ręczna dostawa / ponowna wysyłka (kroki).
+5) Prewencja (6 tipów).
+6) Domknięcie: potwierdzenie + follow-up 24h.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-035",
-    title: "Guion para bugs intermitentes: frecuencia, condiciones, workaround y monitoreo",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt na intermittent bugi: częstotliwość, warunki, workaround i monitoring",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Casos difíciles: intermitencia. Estructura para mapear condiciones y dar workaround.",
+      "Trudne przypadki: intermitencja. Struktura mapowania warunków i workaround.",
     prompt: `Bug: [ ]
-Frecuencia: [a veces/siempre]
-Plataforma: [ ]
+Częstotliwość: [czasem/zawsze]
+Platforma: [ ]
 
-Crea:
-1) Preguntas para mapear condiciones (10).
-2) Cómo pedir “cuándo sí/cuándo no” (plantilla).
-3) Workarounds (3–5) según causas posibles.
-4) Escalación con evidencia:
-   - logs/capturas
-   - pasos y condiciones
-5) Seguimiento:
-   - cómo informar progreso
-   - cómo pedir confirmación de que quedó estable.`,
+Stwórz:
+1) Pytania do mapowania warunków (10).
+2) Jak prosić o “kiedy działa/kiedy nie” (szablon).
+3) 3–5 workaroundów wg możliwych przyczyn.
+4) Eskalację z dowodami:
+   - logi/zrzuty
+   - kroki i warunki
+5) Follow-up:
+   - jak raportować postęp
+   - jak prosić o potwierdzenie stabilności.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-036",
-    title: "Guion para soporte sin acceso: el cliente no puede compartir pantalla ni capturas",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt bez dostępu do ekranu: klient nie może udostępnić ekranu ani wysłać zrzutów",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Diagnóstico por preguntas de alta señal y guías descriptivas paso a paso.",
-    prompt: `Limitación: no hay capturas ni screen share
-Producto: [ ]
-Canal: [chat/llamada]
+      "Diagnoza przez pytania o wysokiej wartości sygnału i opisowe prowadzenie krok po kroku.",
+    prompt: `Ograniczenie: brak zrzutów i screen share
+Produkt: [ ]
+Kanał: [czat/telefon]
 
-Crea:
-1) Estrategia de diagnóstico por “sí/no” (12 preguntas de alta señal).
-2) Instrucciones descriptivas:
-   - cómo guiar por menús sin screenshots
-   - cómo confirmar que está en la pantalla correcta
+Stwórz:
+1) Strategię diagnozy “tak/nie” (12 pytań o wysokiej wartości).
+2) Instrukcje opisowe:
+   - jak prowadzić po menu bez screenshotów
+   - jak potwierdzać, że klient jest na właściwym ekranie
 3) Plan A/B/C.
-4) Cierre: resumen + siguiente paso + seguimiento.`,
+4) Domknięcie: podsumowanie + next step + follow-up.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-037",
-    title: "Guion para “me cambió el precio”: comunicación de cambios, grandfathering y alternativas",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt na “zmieniliście mi cenę”: komunikacja zmian, grandfathering i alternatywy",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Maneja sensibilidad de precio: empatía + reglas + opción justa.",
-    prompt: `Cambio: [subida/precio nuevo]
-Política: [grandfathering/descuento/ninguno]
-Canal: [ ]
+      "Wysoka wrażliwość cenowa: empatia + zasady + uczciwa opcja.",
+    prompt: `Zmiana: [podwyżka/nowa cena]
+Polityka: [grandfathering/rabat/brak]
+Kanał: [ ]
 
-Crea:
-1) Apertura empática (3).
-2) Explicación clara del cambio (sin corporativismo).
-3) Opciones:
-   - mantener plan (si aplica)
+Stwórz:
+1) Empatyczne otwarcie (3).
+2) Jasne wyjaśnienie zmiany (bez korpomowy).
+3) Opcje:
+   - utrzymanie planu (jeśli dotyczy)
    - downgrade
-   - pausa
-   - descuento temporal (si permitido)
-4) Objeciones y respuestas (10).
-5) Cierre: confirmación de lo acordado.`,
+   - pauza
+   - rabat czasowy (jeśli dozwolony)
+4) 10 obiekcji i odpowiedzi.
+5) Domknięcie: potwierdzenie ustaleń.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-038",
-    title: "Guion para prevención de churn: detectar “señales de abandono” en tickets y actuar",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt prewencji churnu: wykryj “sygnały odejścia” w ticketach i działaj",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Convierte tickets en retención: señales, preguntas, intervención y seguimiento.",
-    prompt: `Producto: [ ]
-Señales observadas: [frustración/no valor/no uso]
-Canal: [ ]
+      "Zamieniaj tickety w retencję: sygnały, pytania, interwencje i follow-up.",
+    prompt: `Produkt: [ ]
+Sygnały: [frustracja/brak wartości/brak użycia]
+Kanał: [ ]
 
-Crea:
-1) Lista de 12 señales de churn en texto del cliente.
-2) 6 preguntas para detectar causa raíz.
-3) Intervenciones por causa:
+Stwórz:
+1) Listę 12 sygnałów churnu w treści klienta.
+2) 6 pytań do znalezienia przyczyny.
+3) Interwencje wg przyczyny:
    - onboarding
-   - ajuste de plan
-   - solución técnica
-   - educación/recursos
-4) Plantilla de seguimiento a 7 días.
-5) Nota interna: tags VoC + bandeja “riesgo”.`,
+   - dopasowanie planu
+   - rozwiązanie techniczne
+   - edukacja/zasoby
+4) Szablon follow-up po 7 dniach.
+5) Notatka wewnętrzna: tagi VoC + kolejka “ryzyko”.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-039",
-    title: "Guion para soporte B2B: stakeholders, severidad, SLA, impacto y roadmap de solución",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt wsparcia B2B: stakeholderzy, krytyczność, SLA, wpływ i roadmap rozwiązania",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Soporte enterprise: severidad, impacto, comunicación ejecutiva y updates.",
-    prompt: `Cliente B2B: [industria]
-Severidad: [P1/P2/P3]
-Impacto: [usuarios afectados]
-Canal: [email/llamada]
+      "Support enterprise: krytyczność, wpływ, komunikacja executive i update’y.",
+    prompt: `Klient B2B: [branża]
+Krytyczność: [P1/P2/P3]
+Wpływ: [ilu użytkowników]
+Kanał: [email/telefon]
 
-Crea:
-1) Mensaje inicial (ejecutivo) con:
-   - resumen
-   - impacto
-   - acción inmediata
-   - próximo update
-2) Diagnóstico con datos clave (lista).
-3) Plan de solución: now/next/later.
-4) Updates programados (3).
-5) Cierre: RCA alto nivel + prevención + confirmación.`,
+Stwórz:
+1) Wiadomość startową (executive) z:
+   - podsumowaniem
+   - wpływem
+   - natychmiastowym działaniem
+   - następnym update’em
+2) Diagnozę: kluczowe dane (lista).
+3) Plan rozwiązania: now/next/later.
+4) 3 zaplanowane update’y.
+5) Domknięcie: RCA wysokopoziomowe + prewencja + potwierdzenie.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-040",
-    title: "Guion para educación del cliente: explicar ‘por qué pasa’ sin tecnicismos",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt edukacji klienta: wyjaśnij “dlaczego to się dzieje” bez technobełkotu",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Explica causas sin aburrir: analogías, ejemplos y checklist preventivo.",
-    prompt: `Problema: [ ]
-Audiencia: [no técnica/mixta/técnica]
-Canal: [ ]
+      "Wyjaśnia przyczyny bez nudy: analogie, przykłady i checklista prewencji.",
+    prompt: `Problem: [ ]
+Odbiorca: [nietechniczny/mieszany/techniczny]
+Kanał: [ ]
 
-Crea:
-1) Explicación simple (2–3 frases).
-2) Explicación con analogía (1).
-3) Explicación técnica (1 párrafo) opcional.
-4) Qué puede hacer el cliente para evitarlo (checklist 8–12).
-5) Cierre: confirmación + recurso adicional.`,
+Stwórz:
+1) Proste wyjaśnienie (2–3 zdania).
+2) Wyjaśnienie z analogią (1).
+3) Opcjonalne wyjaśnienie techniczne (1 akapit).
+4) Co klient może zrobić, by tego uniknąć (checklista 8–12).
+5) Domknięcie: potwierdzenie + dodatkowy zasób.`,
     thumbnail: "",
   },
 
   {
     id: "sop-atn-041",
-    title: "Guion para solicitudes fuera de alcance: decir no + ofrecer alternativa útil (sin fricción)",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt na prośby poza zakresem: odmowa + użyteczna alternatywa (bez tarcia)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Cómo negar lo que no puedes hacer sin perder al cliente.",
-    prompt: `Solicitud fuera de alcance: [ ]
-Razón: [política/limitación técnica]
-Alternativas posibles: [ ]
+      "Jak odmówić tego, czego nie da się zrobić, bez utraty klienta.",
+    prompt: `Prośba poza zakresem: [ ]
+Powód: [polityka/ograniczenie techniczne]
+Możliwe alternatywy: [ ]
 
-Crea:
-1) 8 formas de decir NO con respeto.
-2) 6 alternativas útiles (aunque sea ‘cómo lograrlo’).
-3) 6 respuestas a objeciones del cliente.
-4) Cierre: resumen + siguiente paso.`,
+Stwórz:
+1) 8 sposobów powiedzenia NIE z szacunkiem.
+2) 6 użytecznych alternatyw (nawet “jak to osiągnąć inaczej”).
+3) 6 odpowiedzi na obiekcje klienta.
+4) Domknięcie: podsumowanie + następny krok.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-042",
-    title: "Guion para tickets repetidos (mismo cliente): reconocer historial y romper el ciclo",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt na powtarzające się tickety (ten sam klient): uznaj historię i przerwij cykl",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Cuando vuelve por lo mismo: reconocer, investigar raíz, solución definitiva y seguimiento.",
-    prompt: `Historial: [describe]
-Problema recurrente: [ ]
-Canal: [ ]
+      "Gdy wraca z tym samym: uznanie, analiza przyczyny, fix docelowy i follow-up.",
+    prompt: `Historia: [opisz]
+Powtarzający się problem: [ ]
+Kanał: [ ]
 
-Crea:
-1) Apertura reconociendo historial (sin culpar).
-2) Preguntas de causa raíz (10).
-3) Acciones:
-   - solución rápida (workaround)
-   - solución definitiva (cambios/ajustes)
-4) Seguimiento:
-   - check-in a 48h
-   - check-in a 7 días
-5) Nota interna: etiqueta “recurrente” + VoC.`,
+Stwórz:
+1) Otwarcie uznające historię (bez obwiniania).
+2) Pytania o przyczynę źródłową (10).
+3) Działania:
+   - szybkie obejście (workaround)
+   - rozwiązanie docelowe (zmiany/ustawienia)
+4) Follow-up:
+   - check-in po 48h
+   - check-in po 7 dniach
+5) Notatka wewnętrzna: tag “powtarzalne” + VoC.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-043",
-    title: "Guion para soporte en temporada alta: colas largas, ansiedad y priorización sin caos",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt na sezon szczytu: długie kolejki, niepokój i priorytety bez chaosu",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Maneja volumen: expectativas, macros, priorización y cierres eficientes.",
-    prompt: `Temporada alta: [Black Friday/lanzamiento/etc.]
-SLA real: [ ]
-Canal: [ ]
+      "Zarządzaj wolumenem: oczekiwania, makra, priorytety i szybkie domknięcia.",
+    prompt: `Sezon szczytu: [Black Friday/launch/itd.]
+Realne SLA: [ ]
+Kanał: [ ]
 
-Crea:
-1) Mensaje inicial de alta demanda (3 versiones).
-2) Plantilla de priorización:
-   - urgencia vs impacto
-   - criterios
-3) 15 macros “high volume” (solicitar datos, confirmar, escalar, cerrar).
-4) Cómo evitar prometer:
-   - 12 reemplazos de frases peligrosas
-5) Cierre eficiente con prevención.`,
+Stwórz:
+1) Komunikat “wysokie obciążenie” (3 wersje).
+2) Szablon priorytetyzacji:
+   - pilność vs wpływ
+   - kryteria
+3) 15 makr “high volume” (prośba o dane, potwierdzenie, eskalacja, domknięcie).
+4) Jak nie obiecywać:
+   - 12 zamienników niebezpiecznych fraz
+5) Szybkie domknięcie z prewencją.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-044",
-    title: "Guion para ‘cliente confundido’: simplificar, dividir en pasos y confirmar comprensión",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt na ‘zdezorientowanego klienta’: uprość, podziel na kroki i potwierdź zrozumienie",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Convertir confusión en claridad usando chunking, confirmaciones y mini-checks.",
-    prompt: `Tema: [ ]
-Canal: [ ]
+      "Zamienia zamieszanie w klarowność przez dzielenie na porcje, potwierdzenia i mini-checki.",
+    prompt: `Temat: [ ]
+Kanał: [ ]
 
-Crea:
-1) 6 frases para simplificar sin sonar condescendiente.
-2) Instrucciones en bloques (máx 2 pasos por mensaje) + confirmación.
-3) Mini-checks:
-   - 5 preguntas cortas para comprobar comprensión
-4) Plan de recursos:
-   - 2 recursos (guía/FAQ) con estructura.
-5) Cierre confirmando “¿ya quedó listo?”.`,
+Stwórz:
+1) 6 fraz upraszczających bez protekcjonalności.
+2) Instrukcje w blokach (max 2 kroki na wiadomość) + potwierdzenie.
+3) Mini-checki:
+   - 5 krótkich pytań, by sprawdzić zrozumienie
+4) Plan zasobów:
+   - 2 zasoby (poradnik/FAQ) ze strukturą
+5) Domknięcie z pytaniem “czy już działa?”.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-045",
-    title: "Guion para soporte con evidencia contradictoria: cliente dice A, sistema dice B",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt przy sprzecznych dowodach: klient mówi A, system mówi B",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Maneja discrepancias sin acusar: validación, verificación y resolución.",
-    prompt: `Discrepancia: [ ]
-Canal: [ ]
+      "Obsługa rozbieżności bez oskarżeń: walidacja, weryfikacja i rozwiązanie.",
+    prompt: `Rozbieżność: [ ]
+Kanał: [ ]
 
-Crea:
-1) Apertura sin culpa (3).
-2) Proceso de verificación:
-   - 6 pasos
-   - datos a pedir
-3) Explicaciones posibles (5) en lenguaje simple.
-4) Resolución por escenarios.
-5) Cierre con confirmación y seguimiento.`,
+Stwórz:
+1) Otwarcie bez winy (3).
+2) Proces weryfikacji:
+   - 6 kroków
+   - dane do zebrania
+3) 5 możliwych wyjaśnień prostym językiem.
+4) Rozwiązanie wg scenariuszy.
+5) Domknięcie z potwierdzeniem i follow-upem.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-046",
-    title: "Guion para soporte en comunidad/Discord: respuesta pública + seguimiento privado",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt supportu w społeczności/Discordzie: odpowiedź publiczna + follow-up prywatny",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Soporte público: ayuda sin exponer datos, y puente a DM/ticket.",
-    prompt: `Plataforma: [Discord/Comunidad]
-Caso: [ ]
+      "Publiczny support: pomóż bez ujawniania danych i przenieś do DM/ticketa.",
+    prompt: `Platforma: [Discord/społeczność]
+Sprawa: [ ]
 
-Crea:
-1) Respuesta pública (breve) que:
-   - valide
-   - aporte 1–2 pasos
-   - pida pasar a DM/ticket para datos
-2) Mensaje privado para recolectar datos (plantilla).
-3) Cierre público cuando se resuelve (sin detalles sensibles).`,
+Stwórz:
+1) Odpowiedź publiczną (krótką), która:
+   - zwaliduje
+   - poda 1–2 kroki
+   - poprosi o przejście do DM/ticketa w celu zebrania danych
+2) Wiadomość prywatną do zebrania danych (szablon).
+3) Publiczne domknięcie po rozwiązaniu (bez wrażliwych szczegółów).`,
     thumbnail: "",
   },
   {
     id: "sop-atn-047",
-    title: "Guion para soporte de feature request: no es bug, es solicitud (empatía + gestión)",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt na feature request: to nie bug, to prośba (empatia + zarządzanie)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Maneja solicitudes: reconocer, clarificar, registrar y expectativas sin prometer roadmap.",
-    prompt: `Solicitud: [ ]
-Producto: [ ]
-Canal: [ ]
+      "Obsługa próśb: uznaj, doprecyzuj, zarejestruj i ustaw oczekiwania bez obiecywania roadmapy.",
+    prompt: `Prośba: [ ]
+Produkt: [ ]
+Kanał: [ ]
 
-Crea:
-1) Validación + agradecimiento (3).
-2) Preguntas para clarificar (6):
-   - caso de uso
-   - impacto
-   - frecuencia
-3) Cómo registrar internamente (tags + formato).
-4) Cómo comunicar expectativas sin prometer:
-   - 10 frases seguras
-5) Alternativas actuales (workarounds) y recursos.
-6) Cierre: confirmación de que quedó registrada.`,
+Stwórz:
+1) Walidację + podziękowanie (3).
+2) Pytania doprecyzowujące (6):
+   - use case
+   - wpływ
+   - częstotliwość
+3) Jak rejestrować wewnętrznie (tagi + format).
+4) Jak komunikować oczekiwania bez obietnic:
+   - 10 bezpiecznych fraz
+5) Alternatywy obecnie (workaroundy) i zasoby.
+6) Domknięcie: potwierdzenie rejestracji.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-048",
-    title: "Guion para errores del cliente (misconfig): corregir sin culpar y enseñar preventivo",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt na błąd użytkownika (misconfig): popraw bez obwiniania i naucz prewencji",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Cuando es error de configuración del usuario: tacto, guía y prevención.",
+      "Gdy to błąd konfiguracji: takt, prowadzenie i prewencja.",
     prompt: `Misconfig: [ ]
-Canal: [ ]
+Kanał: [ ]
 
-Crea:
-1) Frases para señalar la causa sin culpar (8).
-2) Pasos para corregir (A/B/C).
-3) Prevención:
-   - checklist de configuración (10)
-4) Cierre:
-   - confirmar que funciona
-   - “si vuelve a pasar, revisa X primero”.`,
+Stwórz:
+1) 8 fraz, by wskazać przyczynę bez obwiniania.
+2) Kroki naprawy (A/B/C).
+3) Prewencja:
+   - checklista konfiguracji (10)
+4) Domknięcie:
+   - potwierdzenie działania
+   - “jeśli wróci, najpierw sprawdź X”.`,
     thumbnail: "",
   },
   {
     id: "sop-atn-049",
-    title: "Guion para soporte con barrera de idioma: simple, estructurado, confirmaciones",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Skrypt przy barierze językowej: prosto, strukturalnie, z potwierdzeniami",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Comunicación simple: frases cortas, pasos claros y confirmaciones para evitar malentendidos.",
-    prompt: `Idioma del cliente: [ ]
-Nivel: [bajo/medio]
-Canal: [ ]
+      "Prosta komunikacja: krótkie zdania, jasne kroki i potwierdzenia, by uniknąć nieporozumień.",
+    prompt: `Język klienta: [ ]
+Poziom: [niski/średni]
+Kanał: [ ]
 
-Crea un guion:
-1) Frases ultra simples (10) para:
-   - validar
-   - pedir datos
-   - dar pasos
-2) Instrucciones “one step per message”.
-3) Confirmaciones:
-   - 8 preguntas de confirmación (sí/no)
-4) Cierre:
-   - resumen y recurso visual sugerido (si aplica).`,
+Stwórz skrypt:
+1) Ultra proste zdania (10) do:
+   - walidacji
+   - proszenia o dane
+   - podawania kroków
+2) Instrukcje “jeden krok na wiadomość”.
+3) Potwierdzenia:
+   - 8 pytań potwierdzających (tak/nie)
+4) Domknięcie:
+   - podsumowanie i sugerowany zasób wizualny (jeśli dotyczy).`,
     thumbnail: "",
   },
   {
     id: "sop-atn-050",
-    title: "Guion universal para cerrar tickets con métricas: CSAT, motivo, tags y aprendizaje (VoC)",
-    area: "Atención al Cliente & SOPs",
-    category: "Guiones de Atención",
+    title:
+      "Uniwersalny skrypt domykania ticketów z metrykami: CSAT, powód, tagi i nauka (VoC)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Skrypty obsługi",
     summary:
-      "Cierre que alimenta mejora continua: CSAT, etiquetado y resumen interno.",
-    prompt: `Caso: [ ]
-Canal: [ ]
-Tags disponibles: [ ]
+      "Domknięcie zasilające ciągłe ulepszanie: CSAT, tagowanie i wewnętrzne podsumowanie.",
+    prompt: `Sprawa: [ ]
+Kanał: [ ]
+Dostępne tagi: [ ]
 
-Crea:
-1) Mensaje final al cliente solicitando CSAT (3 variantes) sin presión.
-2) Pregunta opcional de feedback (1 línea) para insights.
-3) Plantilla interna de cierre:
-   - resumen (3 líneas)
-   - causa raíz
-   - resolución
-   - tiempo total
-   - tags (motivo/submotivo)
-   - oportunidad de producto (si aplica)
-4) Lista de 12 tags recomendados para este tipo de archivo.
-5) Buenas prácticas para evitar “cierre prematuro”.`,
+Stwórz:
+1) Wiadomość końcową do klienta z prośbą o CSAT (3 warianty) bez presji.
+2) Opcjonalne pytanie o feedback (1 linijka) dla insightów.
+3) Wewnętrzny szablon domknięcia:
+   - podsumowanie (3 linijki)
+   - przyczyna źródłowa
+   - rozwiązanie
+   - łączny czas
+   - tagi (powód/podpowód)
+   - szansa produktowa (jeśli dotyczy)
+4) Lista 12 rekomendowanych tagów dla tego typu pliku.
+5) Dobre praktyki, by uniknąć “przedwczesnego zamknięcia”.`,
     thumbnail: "",
   },
 ];

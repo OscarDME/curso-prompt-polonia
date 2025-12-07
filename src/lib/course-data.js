@@ -2,100 +2,100 @@
 import { heroCopy, bonusesSectionCopy } from "./copy";
 
 export const courseHero = {
-  title: "Arsenal Completo de IA",
-  subtitle: "Banco Secreto de Prompts",
+  title: "Kompletny Arsenał AI",
+  subtitle: "Tajna Baza Promptów",
   description: heroCopy.description,
   backgroundImage: "/hero-arsenal.png",
-  ctaLabel: "COMENZAR AHORA",
+  ctaLabel: "ZACZNIJ TERAZ",
 };
 
 export const courseModuleRows = [
   {
     id: "main",
-    title: "Ruta principal — Banco Secreto de Prompts",
+    title: "Główna ścieżka — Tajna Baza Promptów",
     modules: [
       {
         id: "home",
-        title: "Inicio",
+        title: "Start",
         subtitle:
-          "Visión general del curso, cómo navegar la plataforma y aprovechar al máximo el Banco Secreto de Prompts.",
+          "Szybkie wprowadzenie: jak poruszać się po platformie i wycisnąć maksimum z Tajnej Bazy Promptów.",
         image: "/modules/inicio.png",
         href: "/curso/inicio",
-        tag: "Resumen",
+        tag: "Podsumowanie",
       },
       {
         id: "text-prompts",
-        title: "Prompts de texto",
+        title: "Prompty tekstowe",
         subtitle:
-          "Biblioteca de prompts para copies, guiones, e-mails, posts, scripts de venta y mucho más.",
+          "Biblioteka promptów do copy, scenariuszy, e-maili, postów, skryptów sprzedażowych i wielu innych.",
         image: "/modules/prompts-texto.png",
         href: "/curso/prompts/texto",
-        tag: "Texto IA",
+        tag: "AI • Tekst",
       },
       {
         id: "viral-prompts-text",
-        title: "Prompts virales",
+        title: "Virale — prompty",
         subtitle:
-          "Prompts listos para hooks, guiones, estructuras virales, CTAs, títulos y contenido diseñado para maximizar retención.",
+          "Gotowe prompty na hooki, scenariusze, viralowe struktury, CTA, nagłówki i treści zwiększające retencję.",
         image: "/modules/prompts-virales.png", // crea esta imagen o cambia la ruta
         href: "/curso/prompts/virales", // crea esta ruta luego
-        tag: "Texto IA",
+        tag: "AI • Tekst",
       },
 
       {
         id: "hyperrealism-pack-text",
-        title: "Pack de hiperrealismo",
+        title: "Pakiet hiperrealizmu",
         subtitle:
-          "Prompts y frameworks para descripciones ultra realistas, consistencia, detalles y control de estilo (versión texto).",
+          "Prompty i frameworki do ultra-realistycznych opisów, spójności, detali i kontroli stylu (wersja tekstowa).",
         image: "/modules/hiperrealismo-pro.png", // crea esta imagen o cambia la ruta
         href: "/curso/prompts/hiperrealismo", // crea esta ruta luego
-        tag: "Texto IA",
+        tag: "AI • Tekst",
       },
 
       {
         id: "image-prompts",
-        title: "Prompts de imagen",
+        title: "Prompty do obrazów",
         subtitle:
-          "Prompts listos para generar imágenes, portadas, anuncios y fotos profesionales con IA.",
+          "Gotowe prompty do generowania obrazów, okładek, reklam i profesjonalnych zdjęć z AI.",
         image: "/modules/prompts-imagen.png",
         href: "/curso/prompts/imagen",
-        tag: "Imagen IA",
+        tag: "AI • Obraz",
       },
       {
         id: "video-prompts",
-        title: "Prompts de vídeo",
+        title: "Prompty do wideo",
         subtitle:
-          "Prompts para crear vídeos virales, anuncios, reels y contenido corto usando IA.",
+          "Prompty do tworzenia viralowych wideo, reklam, reelsów i krótkich formatów z użyciem AI.",
         image: "/modules/prompts-video.png",
         href: "/curso/prompts/video",
-        tag: "Vídeo IA",
+        tag: "AI • Wideo",
       },
       {
         id: "ia-tools",
-        title: "Herramientas de IA",
+        title: "Narzędzia AI",
         subtitle:
-          "Tutoriales y recomendaciones de herramientas para crear webs, editar vídeos y automatizar tu negocio.",
+          "Poradniki i rekomendacje narzędzi do tworzenia stron, edycji wideo i automatyzacji biznesu.",
         image: "/modules/herramientas-ia.png",
         href: "/curso/herramientas-ia",
-        tag: "Herramientas",
+        tag: "Narzędzia",
       },
       {
         id: "gpt-assistants",
-        title: "Asistentes GPTs",
+        title: "Asystenci GPT",
         subtitle:
-          "+30 asistentes virtuales entrenados como copywriter, social media, programador, consultor y más.",
+          "Ponad 30 wirtualnych asystentów: copywriter, social media, programista, konsultant i więcej.",
         image: "/modules/asistentes-gpts.png",
         href: "/curso/asistentes-gpts",
-        tag: "Asistentes",
+        tag: "Asystenci",
       },
       {
         id: "trainings",
-        title: "Entrenamientos",
+        title: "Szkolenia",
         subtitle:
-          "Clases y entrenamientos para dominar ChatGPT, crear sistemas con IA y aplicar todo a tu realidad.",
+          "Lekcje i szkolenia, aby opanować ChatGPT, budować systemy z AI i wdrożyć to w swojej sytuacji.",
         image: "/modules/entrenamientos.png",
         href: "/curso/entrenamientos",
-        tag: "Clases",
+        tag: "Lekcje",
       },
     ],
   },
@@ -118,13 +118,13 @@ export const courseModuleRows = [
 
 export const promptEngineeringCourseCopy = {
   rowId: "prompt-engineering",
-  rowTitle: "Ingeniería de Prompts",
+  rowTitle: "Inżynieria Promptów",
   module: {
     id: "prompt-engineering-course",
-    label: "Curso",
-    title: "Curso de Ingeniería de Prompts",
+    label: "Kurs",
+    title: "Kurs Inżynierii Promptów",
     description:
-      "Domina cómo adaptar, optimizar y crear prompts para resultados profesionales.",
+      "Opanuj, jak dopasowywać, optymalizować i tworzyć prompty, aby uzyskiwać profesjonalne rezultaty.",
     imageSrc: "/modules/ingenieria-prompts.png", // cambia por tu imagen
     href: "/curso/ingenieria-de-prompts",
     locked: false,

@@ -1,543 +1,543 @@
 // src/lib/prompts/viral-text/hooks-dolor.js
-// Área y categoría ÚNICAS para TODO este archivo:
-const AREA = "Hooks";
-const CATEGORY = "Dolor";
+// Unikalny obszar i kategoria dla CAŁEGO tego pliku:
+const AREA = "Hooki";
+const CATEGORY = "Ból";
 
 export const viralTextPromptsHooksDolor = [
   {
     id: "viral-hook-dolor-001",
-    title: "Estás perdiendo dinero por esto",
-    summary: "Dolor directo + causa concreta.",
+    title: "Tracisz przez to pieniądze",
+    summary: "Bezpośredni ból + konkretna przyczyna.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Actúa como guionista de Reels/TikTok. Escribe 20 hooks (7–11 palabras) para [NICHO].
-Reglas:
-- Deben empezar con “Estás perdiendo dinero por…”
-- El “por” debe ser una causa específica (no generalidades).
-- Cierra insinuando solución (“y te lo arreglo”).
-Español neutro.`,
+    prompt: `Działaj jak scenarzysta Reels/TikTok. Napisz 20 hooków (7–11 słów) dla [NISZA].
+Zasady:
+- Muszą zaczynać się od „Tracisz pieniądze przez…”
+- „Przez” ma wskazywać konkretną przyczynę (bez ogólników).
+- Zakończ sugerując rozwiązanie („i to naprawię”).
+Neutralny polski.`,
   },
   {
     id: "viral-hook-dolor-002",
-    title: "Esto te está saboteando sin que lo notes",
-    summary: "Autosabotaje invisible + loop.",
+    title: "To sabotuje cię, nawet gdy tego nie widzisz",
+    summary: "Niewidoczny autosabotaż + pętla ciekawości.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 25 hooks para [TEMA] con la frase:
-“Esto te está saboteando…”
-Condiciones:
-- 8–12 palabras
-- Menciona un sabotaje concreto (hábito, frase, paso).
-- Termina con “mira esto”.`,
+    prompt: `Wygeneruj 25 hooków dla [TEMAT] z frazą:
+„To cię sabotuje…”
+Warunki:
+- 8–12 słów
+- Wspomnij o konkretnym sabotażu (nawyk, zdanie, krok).
+- Zakończ „zobacz to”.`,
   },
   {
     id: "viral-hook-dolor-003",
-    title: "Por eso no estás avanzando",
-    summary: "Causa-dolor + diagnóstico.",
+    title: "Dlatego nie idziesz do przodu",
+    summary: "Ból + diagnoza przyczyny.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks (máx 10 palabras):
-“Por eso no estás avanzando: [CAUSA].”
-Tema: [TEMA]. [CAUSA] debe ser accionable y realista.`,
+    prompt: `Stwórz 20 hooków (maks. 10 słów):
+„Dlatego nie idziesz do przodu: [PRZYCZYNA].”
+Temat: [TEMAT]. [PRZYCZYNA] ma być realistyczna i wdrażalna.`,
   },
   {
     id: "viral-hook-dolor-004",
-    title: "Estás cansado por el motivo equivocado",
-    summary: "Dolor + reencuadre.",
+    title: "Jesteś zmęczony z niewłaściwego powodu",
+    summary: "Ból + przeformułowanie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 18 hooks para [AUDIENCIA] con burnout en [TEMA].
-Estructura:
-“Estás cansado por el motivo equivocado: [X].”
-[X] concreto (fricción, confusión, exceso de pasos, metas vagas).`,
+    prompt: `Napisz 18 hooków dla [ODBIORCY] z wypaleniem w [TEMAT].
+Struktura:
+„Jesteś zmęczony z niewłaściwego powodu: [X].”
+[X] konkretny (tarcie, chaos, za dużo kroków, niejasne cele).`,
   },
   {
     id: "viral-hook-dolor-005",
-    title: "Si sigues así, te vas a frustrar más",
-    summary: "Advertencia suave + dolor futuro.",
+    title: "Jeśli tak dalej będziesz, tylko się bardziej sfrustrujesz",
+    summary: "Łagodne ostrzeżenie + przyszły ból.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks para [TEMA] que empiecen con:
-“Si sigues así…”
-Reglas:
-- Deben mencionar una consecuencia específica (tiempo, dinero, energía).
-- Sin amenazas exageradas.
-- Cierra con “te digo qué cambiar”.`,
+    prompt: `Wygeneruj 15 hooków dla [TEMAT], które zaczynają się od:
+„Jeśli tak dalej będziesz…”
+Zasady:
+- Wskaż konkretną konsekwencję (czas, pieniądze, energia).
+- Bez przesadzonych straszaków.
+- Zakończ „powiem ci, co zmienić”.`,
   },
   {
     id: "viral-hook-dolor-006",
-    title: "Estás haciendo mucho y logrando poco",
-    summary: "Sobreesfuerzo + baja recompensa.",
+    title: "Robisz dużo, a osiągasz mało",
+    summary: "Nadmierny wysiłek + mała nagroda.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks para [AUDIENCIA]:
-“Estás haciendo mucho y logrando poco por [X].”
-[X] debe ser concreto (falta de enfoque, CTA, estructura, oferta).`,
+    prompt: `Stwórz 20 hooków dla [ODBIORCY]:
+„Robisz dużo, a osiągasz mało przez [X].”
+[X] ma być konkretny (brak fokusu, CTA, struktura, oferta).`,
   },
   {
     id: "viral-hook-dolor-007",
-    title: "Tu contenido está muriendo en el primer segundo",
-    summary: "Dolor específico para creadores.",
+    title: "Twoja treść umiera w pierwszej sekundzie",
+    summary: "Ból specyficzny dla twórców.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 18 hooks para [PLATAFORMA]:
-“Tu contenido muere en el primer segundo por [X].”
-[X] concreto (inicio lento, sin contexto, sin promesa, visual débil).`,
+    prompt: `Napisz 18 hooków dla [PLATFORMA]:
+„Twoja treść umiera w pierwszej sekundzie przez [X].”
+[X] konkretny (wolny start, brak kontekstu, brak obietnicy, słaby obraz).`,
   },
   {
     id: "viral-hook-dolor-008",
-    title: "Te están ignorando por esta razón",
-    summary: "Dolor social + causa.",
+    title: "Ignorują cię z tego powodu",
+    summary: "Ból społeczny + przyczyna.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks:
-“Te están ignorando por [X].”
-Tema: [TEMA] en [PLATAFORMA].
-[X] debe ser un error específico y corregible.`,
+    prompt: `Wygeneruj 20 hooków:
+„Ignorują cię przez [X].”
+Temat: [TEMAT] na [PLATFORMA].
+[X] ma być konkretnym i naprawialnym błędem.`,
   },
   {
     id: "viral-hook-dolor-009",
-    title: "Estás vendiendo mal (aunque tengas buen producto)",
-    summary: "Dolor de ventas + contraste.",
+    title: "Źle sprzedajesz (nawet jeśli produkt jest dobry)",
+    summary: "Ból sprzedaży + kontrast.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks:
-“Estás vendiendo mal aunque tu producto sea bueno.”
-Luego agrega “por [X]”.
-[X] debe ser (oferta, mensaje, prueba, seguimiento, CTA).`,
+    prompt: `Stwórz 15 hooków:
+„Źle sprzedajesz, nawet jeśli produkt jest dobry.”
+Potem dodaj „przez [X]”.
+[X] = oferta, komunikat, dowód, follow-up, CTA.`,
   },
   {
     id: "viral-hook-dolor-010",
-    title: "Te falta algo y por eso no convierte",
-    summary: "Dolor de conversión con pieza faltante.",
+    title: "Brakuje ci czegoś i dlatego nie konwertuje",
+    summary: "Ból konwersji + brakujący element.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 hooks:
-“Te falta [PIEZA] y por eso no convierte.”
-Para [TEMA]. PIEZA concreta (prueba, claridad, urgencia real, siguiente paso).`,
+    prompt: `Napisz 20 hooków:
+„Brakuje ci [ELEMENTU] i dlatego nie konwertuje.”
+Dla [TEMAT]. ELEMENT konkretny (dowód, jasność, realna pilność, następny krok).`,
   },
 
   {
     id: "viral-hook-dolor-011",
-    title: "Deja de desperdiciar tu tiempo en esto",
-    summary: "Dolor + desperdicio.",
+    title: "Przestań marnować na to czas",
+    summary: "Ból + marnowanie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 25 hooks (7–11 palabras) que empiecen con:
-“Deja de desperdiciar tu tiempo en…”
-Tema: [TEMA]. Debe ser una acción común pero poco efectiva.`,
+    prompt: `Wygeneruj 25 hooków (7–11 słów) zaczynających się od:
+„Przestań marnować czas na…”
+Temat: [TEMAT]. To ma być częsta, ale mało skuteczna czynność.`,
   },
   {
     id: "viral-hook-dolor-012",
-    title: "Esto está arruinando tus resultados",
-    summary: "Dolor fuerte con causa concreta.",
+    title: "To niszczy twoje wyniki",
+    summary: "Mocny ból + konkretna przyczyna.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks:
-“Esto está arruinando tus resultados: [X].”
-[X] debe ser específico y medible (no “falta de ganas”).`,
+    prompt: `Stwórz 20 hooków:
+„To niszczy twoje wyniki: [X].”
+[X] ma być konkretne i mierzalne (nie „brak chęci”).`,
   },
   {
     id: "viral-hook-dolor-013",
-    title: "Estás atrapado en el mismo ciclo",
-    summary: "Dolor de repetición + salida.",
+    title: "Tkwisz w tym samym cyklu",
+    summary: "Ból powtarzalności + wyjście.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 18 hooks:
-“Estás atrapado en el mismo ciclo: [CICLO].”
-[CICLO] describe un patrón típico en [TEMA].
-Cierra con “te muestro cómo salir”.`,
+    prompt: `Napisz 18 hooków:
+„Tkwisz w tym samym cyklu: [CYKL].”
+[CYKL] opisuje typowy wzorzec w [TEMAT].
+Zakończ „pokażę ci, jak wyjść”.`,
   },
   {
     id: "viral-hook-dolor-014",
-    title: "Tu problema no es el algoritmo (pero te duele igual)",
-    summary: "Dolor + reencuadre a causa real.",
+    title: "Twój problem to nie algorytm (ale boli tak samo)",
+    summary: "Ból + przeformułowanie na prawdziwą przyczynę.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks para creadores:
-“Tu problema no es el algoritmo, es [X].”
-[X] = mensaje, gancho, nicho, oferta, CTA, ritmo.
-Máx 12 palabras.`,
+    prompt: `Wygeneruj 15 hooków dla twórców:
+„Twój problem to nie algorytm, tylko [X].”
+[X] = komunikat, hook, nisza, oferta, CTA, tempo.
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-dolor-015",
-    title: "Estás comprando soluciones y acumulando frustración",
-    summary: "Dolor de consumo sin acción.",
+    title: "Kupujesz rozwiązania i zbierasz frustrację",
+    summary: "Ból konsumpcji bez działania.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks:
-“Estás comprando soluciones y acumulando frustración por [X].”
-[X] debe ser concreto (sin sistema, sin práctica, sin feedback).`,
+    prompt: `Stwórz 15 hooków:
+„Kupujesz rozwiązania i zbierasz frustrację przez [X].”
+[X] ma być konkretne (bez systemu, bez praktyki, bez feedbacku).`,
   },
   {
     id: "viral-hook-dolor-016",
-    title: "Tu lista de tareas te está ganando",
-    summary: "Dolor productivo: caos.",
+    title: "Twoja lista zadań cię pokonuje",
+    summary: "Ból produktywności: chaos.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 hooks sobre productividad en [TEMA]:
-“Tu lista de tareas te está ganando por [X].”
-[X] = prioridades, exceso, falta de bloques, etc.`,
+    prompt: `Napisz 20 hooków o produktywności w [TEMAT]:
+„Twoja lista zadań cię pokonuje przez [X].”
+[X] = priorytety, nadmiar, brak bloków czasowych itd.`,
   },
   {
     id: "viral-hook-dolor-017",
-    title: "Estás apagando incendios todo el día",
-    summary: "Dolor de reactivo vs proactivo.",
+    title: "Gaszenie pożarów przez cały dzień",
+    summary: "Ból reaktywności vs proaktywności.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 18 hooks:
-“Estás apagando incendios todo el día por [X].”
-Para [AUDIENCIA]. X = falta de sistema, procesos, límites, claridad.`,
+    prompt: `Wygeneruj 18 hooków:
+„Gasíš pożary przez cały dzień przez [X].”
+Dla [ODBIORCY]. X = brak systemu, procesów, granic, jasności.`,
   },
   {
     id: "viral-hook-dolor-018",
-    title: "Por eso nadie te compra",
-    summary: "Dolor fuerte (sin insultos) + causa.",
+    title: "Dlatego nikt od ciebie nie kupuje",
+    summary: "Mocny ból (bez wyzwisk) + przyczyna.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks que empiecen con:
-“Por eso nadie te compra:”
-Reglas:
-- No insultos.
-- Causa específica (propuesta vaga, sin prueba, CTA débil, etc.).
-- Máx 10 palabras.`,
+    prompt: `Stwórz 15 hooków zaczynających się od:
+„Dlatego nikt od ciebie nie kupuje:”
+Zasady:
+- Bez wyzwisk.
+- Konkretna przyczyna (niejasna propozycja, brak dowodu, słabe CTA itd.).
+- Maks. 10 słów.`,
   },
   {
     id: "viral-hook-dolor-019",
-    title: "Te estás complicando y pagando el precio",
-    summary: "Dolor + consecuencia.",
+    title: "Komplikujesz sobie i płacisz cenę",
+    summary: "Ból + konsekwencja.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 hooks:
-“Te estás complicando y pagando el precio: [CONSECUENCIA].”
-Tema: [TEMA]. Consecuencia concreta (tiempo, energía, resultados).`,
+    prompt: `Napisz 20 hooków:
+„Komplikujesz sobie i płacisz cenę: [KONSEKWENCJA].”
+Temat: [TEMAT]. Konsekwencja konkretna (czas, energia, wyniki).`,
   },
   {
     id: "viral-hook-dolor-020",
-    title: "Estás tratando de hacerlo solo (y te está costando)",
-    summary: "Dolor de aislamiento + puente a solución.",
+    title: "Próbujesz robić to sam (i to cię kosztuje)",
+    summary: "Ból izolacji + most do rozwiązania.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 12 hooks:
-“Estás tratando de hacerlo solo… y te está costando [X].”
-[X] debe ser tangible (tiempo, resultados, claridad).
-Cierra con “haz esto”.`,
+    prompt: `Wygeneruj 12 hooków:
+„Próbujesz robić to sam… i to cię kosztuje [X].”
+[X] ma być namacalne (czas, wyniki, jasność).
+Zakończ „zrób to”.`,
   },
 
   {
     id: "viral-hook-dolor-021",
-    title: "Tu oferta suena igual que todas",
-    summary: "Dolor de diferenciación.",
+    title: "Twoja oferta brzmi jak wszystkie inne",
+    summary: "Ból wyróżnienia.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks:
-“Tu oferta suena igual que todas por [X].”
-[X] = beneficios genéricos, sin mecanismo, sin prueba, sin ángulo.
-Tema: [NICHO].`,
+    prompt: `Stwórz 20 hooków:
+„Twoja oferta brzmi jak wszystkie inne przez [X].”
+[X] = ogólne korzyści, brak mechanizmu, brak dowodu, brak kąta.
+Temat: [NISZA].`,
   },
   {
     id: "viral-hook-dolor-022",
-    title: "Estás atrayendo al cliente equivocado",
-    summary: "Dolor de audiencia mala.",
+    title: "Przyciągasz niewłaściwego klienta",
+    summary: "Ból złej publiczności.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 18 hooks:
-“Estás atrayendo al cliente equivocado por [X].”
-[X] debe ser un error de mensaje/posicionamiento.`,
+    prompt: `Wygeneruj 18 hooków:
+„Przyciągasz niewłaściwego klienta przez [X].”
+[X] ma być błędem komunikatu/pozycjonowania.`,
   },
   {
     id: "viral-hook-dolor-023",
-    title: "Te falta foco y se nota",
-    summary: "Dolor de dispersión.",
+    title: "Brakuje ci fokusu i to widać",
+    summary: "Ból rozproszenia.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 hooks (máx 9 palabras) con:
-“Te falta foco y se nota en [X].”
-[X] = tu contenido, tu oferta, tu agenda, tus resultados.`,
+    prompt: `Napisz 20 hooków (maks. 9 słów) z:
+„Brakuje ci fokusu i widać to w [X].”
+[X] = twoje treści, twoja oferta, twój kalendarz, twoje wyniki.`,
   },
   {
     id: "viral-hook-dolor-024",
-    title: "Tu guion está matando tu retención",
-    summary: "Dolor específico de guion.",
+    title: "Twój skrypt zabija retencję",
+    summary: "Ból specyficzny dla scenariusza.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks para [PLATAFORMA]:
-“Tu guion está matando tu retención por [X].”
-[X] = intro larga, sin promesa, sin tensión, sin cortes.`,
+    prompt: `Stwórz 15 hooków dla [PLATFORMA]:
+„Twój skrypt zabija retencję przez [X].”
+[X] = za długie intro, brak obietnicy, brak napięcia, brak cięć.`,
   },
   {
     id: "viral-hook-dolor-025",
-    title: "Tu mensaje es confuso y por eso no funciona",
-    summary: "Dolor de claridad.",
+    title: "Twój przekaz jest niejasny i dlatego nie działa",
+    summary: "Ból jasności.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks:
-“Tu mensaje es confuso y por eso no funciona.”
-Agrega “por [X]”.
-[X] = demasiadas ideas, jerga, sin quién/qué/para qué.`,
+    prompt: `Wygeneruj 20 hooków:
+„Twój przekaz jest niejasny i dlatego nie działa.”
+Dodaj „przez [X]”.
+[X] = za dużo idei, żargon, brak kto/co/po co.`,
   },
   {
     id: "viral-hook-dolor-026",
-    title: "Estás repitiendo errores caros",
-    summary: "Dolor de costo acumulado.",
+    title: "Powtarzasz kosztowne błędy",
+    summary: "Ból narastającego kosztu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks:
-“Estás repitiendo errores caros: [ERROR].”
-[ERROR] debe ser muy específico en [TEMA].`,
+    prompt: `Napisz 15 hooków:
+„Powtarzasz kosztowne błędy: [BŁĄD].”
+[BŁĄD] ma być bardzo konkretny w [TEMAT].`,
   },
   {
     id: "viral-hook-dolor-027",
-    title: "Tus resultados no son el problema… tu proceso sí",
-    summary: "Dolor + reencuadre.",
+    title: "Twoje wyniki nie są problemem… problemem jest proces",
+    summary: "Ból + przeformułowanie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 18 hooks:
-“Tus resultados no son el problema, tu proceso sí.”
-Añade “por [X]”.
-[X] = inconsistencia, falta de feedback, sin sistema, etc.`,
+    prompt: `Wygeneruj 18 hooków:
+„Twoje wyniki nie są problemem, problemem jest proces.”
+Dodaj „przez [X]”.
+[X] = brak konsekwencji, brak feedbacku, brak systemu itd.`,
   },
   {
     id: "viral-hook-dolor-028",
-    title: "Estás pagando con tu energía",
-    summary: "Dolor de agotamiento.",
+    title: "Płacisz za to swoją energią",
+    summary: "Ból wyczerpania.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks:
-“Estás pagando con tu energía por [X].”
-Tema: [TEMA]. X debe ser algo que se puede simplificar.`,
+    prompt: `Stwórz 20 hooków:
+„Płacisz za to swoją energią przez [X].”
+Temat: [TEMAT]. X ma być czymś, co da się uprościć.`,
   },
   {
     id: "viral-hook-dolor-029",
-    title: "Estás dejando oportunidades en la mesa",
-    summary: "Dolor de pérdida oportunidad.",
+    title: "Zostawiasz okazje na stole",
+    summary: "Ból utraconych szans.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 hooks:
-“Estás dejando oportunidades en la mesa por [X].”
-[X] = sin CTA, sin follow-up, sin oferta clara, sin prueba.`,
+    prompt: `Napisz 20 hooków:
+„Zostawiasz okazje na stole przez [X].”
+[X] = brak CTA, brak follow-upu, brak jasnej oferty, brak dowodu.`,
   },
   {
     id: "viral-hook-dolor-030",
-    title: "Tu 'estrategia' está llena de fugas",
-    summary: "Dolor de fugas en embudo/proceso.",
+    title: "Twoja „strategia” ma same przecieki",
+    summary: "Ból przecieków w lejku/procesie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 12 hooks:
-“Tu estrategia tiene fugas por [X].”
-[X] = fricción, baja claridad, mala segmentación, sin CTA, etc.
-Tema: [TEMA].`,
+    prompt: `Wygeneruj 12 hooków:
+„Twoja strategia ma przecieki przez [X].”
+[X] = tarcie, niska jasność, zła segmentacja, brak CTA itd.
+Temat: [TEMAT].`,
   },
 
   {
     id: "viral-hook-dolor-031",
-    title: "Estás trabajando para sentirte ocupado",
-    summary: "Dolor de ocupación falsa.",
+    title: "Pracujesz, żeby czuć się zajętym",
+    summary: "Ból fałszywej produktywności.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 18 hooks:
-“Estás trabajando para sentirte ocupado, no para [RESULTADO].”
-Añade “por [X]”.
-[X] = prioridades mal, tareas de bajo impacto, etc.`,
+    prompt: `Stwórz 18 hooków:
+„Pracujesz, żeby czuć się zajętym, a nie żeby [REZULTAT].”
+Dodaj „przez [X]”.
+[X] = złe priorytety, zadania niskiego wpływu itd.`,
   },
   {
     id: "viral-hook-dolor-032",
-    title: "Tu contenido no está ayudando (está rellenando)",
-    summary: "Dolor de contenido vacío.",
+    title: "Twoje treści nie pomagają (one tylko wypełniają)",
+    summary: "Ból pustych treści.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks:
-“Tu contenido no está ayudando, está rellenando por [X].”
-[X] = sin ejemplo, sin paso, sin estructura, sin CTA.`,
+    prompt: `Wygeneruj 15 hooków:
+„Twoje treści nie pomagają, one tylko wypełniają przez [X].”
+[X] = brak przykładu, brak kroku, brak struktury, brak CTA.`,
   },
   {
     id: "viral-hook-dolor-033",
-    title: "Tus leads se enfrían por esto",
-    summary: "Dolor de seguimiento lento.",
+    title: "Twoje leady stygną przez to",
+    summary: "Ból wolnego follow-upu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 18 hooks para [NEGOCIO]:
-“Tus leads se enfrían por [X].”
-[X] concreto: tardas en responder, mensaje genérico, sin siguiente paso, etc.`,
+    prompt: `Napisz 18 hooków dla [BIZNES]:
+„Twoje leady stygną przez [X].”
+[X] konkretny: odpowiadasz za późno, ogólna wiadomość, brak następnego kroku itd.`,
   },
   {
     id: "viral-hook-dolor-034",
-    title: "Tu precio no es el problema",
-    summary: "Dolor de objeciones mal entendidas.",
+    title: "Cena nie jest problemem",
+    summary: "Ból źle rozumianych obiekcji.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks:
-“Tu precio no es el problema. Es [X].”
-[X] = valor percibido, prueba, claridad, riesgo, oferta.
-Máx 12 palabras.`,
+    prompt: `Wygeneruj 20 hooków:
+„Cena nie jest problemem. Problemem jest [X].”
+[X] = postrzegana wartość, dowód, jasność, ryzyko, oferta.
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-dolor-035",
-    title: "Estás agotado y aún así no avanzas",
-    summary: "Dolor doble: cansancio + estancamiento.",
+    title: "Jesteś wykończony i nadal nie idziesz do przodu",
+    summary: "Podwójny ból: zmęczenie + stagnacja.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks:
-“Estás agotado y aún así no avanzas por [X].”
-[X] debe ser específico (sin prioridad, sin sistema, sin foco).`,
+    prompt: `Napisz 15 hooków:
+„Jesteś wykończony i nadal nie idziesz do przodu przez [X].”
+[X] ma być konkretne (brak priorytetu, brak systemu, brak fokusu).`,
   },
   {
     id: "viral-hook-dolor-036",
-    title: "Tu CTA está fallando",
-    summary: "Dolor de acción final.",
+    title: "Twoje CTA nie działa",
+    summary: "Ból końcowego działania.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks:
-“Tu CTA está fallando por [X].”
-Tema: [PLATAFORMA]. X = pedir demasiado, no decir qué hacer, no dar motivo, etc.`,
+    prompt: `Stwórz 20 hooków:
+„Twoje CTA nie działa przez [X].”
+Temat: [PLATFORMA]. X = prosisz o za dużo, nie mówisz co zrobić, nie dajesz powodu itd.`,
   },
   {
     id: "viral-hook-dolor-037",
-    title: "Te estás matando por resultados que no llegan",
-    summary: "Dolor emocional fuerte, sin drama excesivo.",
+    title: "Zabijasz się robotą, a wyniki nie przychodzą",
+    summary: "Mocny ból emocjonalny, bez nadmiernego dramatu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 12 hooks:
-“Te estás matando por resultados que no llegan por [X].”
-[X] debe ser una causa real y accionable.`,
+    prompt: `Wygeneruj 12 hooków:
+„Zabijasz się robotą, a wyniki nie przychodzą przez [X].”
+[X] ma być realną i wdrażalną przyczyną.`,
   },
   {
     id: "viral-hook-dolor-038",
-    title: "Esto te está robando confianza",
-    summary: "Dolor de autoestima profesional.",
+    title: "To kradnie ci pewność siebie",
+    summary: "Ból profesjonalnej pewności siebie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 18 hooks:
-“Esto te está robando confianza: [X].”
-Tema: [TEMA]. X = comparación, métricas, perfección, falta de guion, etc.`,
+    prompt: `Napisz 18 hooków:
+„To kradnie ci pewność siebie: [X].”
+Temat: [TEMAT]. X = porównywanie się, metryki, perfekcjonizm, brak skryptu itd.`,
   },
   {
     id: "viral-hook-dolor-039",
-    title: "Tu sistema es demasiado frágil",
-    summary: "Dolor de inconsistencia.",
+    title: "Twój system jest zbyt kruchy",
+    summary: "Ból braku konsekwencji.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks:
-“Tu sistema es demasiado frágil por [X].”
-[X] = depende de motivación, no tiene pasos, no tiene horarios, etc.`,
+    prompt: `Wygeneruj 15 hooków:
+„Twój system jest zbyt kruchy przez [X].”
+[X] = zależy od motywacji, nie ma kroków, nie ma godzin itd.`,
   },
   {
     id: "viral-hook-dolor-040",
-    title: "Te estás frenando antes de empezar",
-    summary: "Dolor de autoparálisis.",
+    title: "Hamujesz się, zanim zaczniesz",
+    summary: "Ból auto-paraliżu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks:
-“Te estás frenando antes de empezar por [X].”
-X = perfección, miedo, exceso de investigación, comparación, etc.`,
+    prompt: `Stwórz 20 hooków:
+„Hamujesz się, zanim zaczniesz przez [X].”
+X = perfekcjonizm, strach, nadmiar researchu, porównywanie się itd.`,
   },
 
   {
     id: "viral-hook-dolor-041",
-    title: "Estás perdiendo oportunidades por no decir esto",
-    summary: "Dolor por frase faltante.",
+    title: "Tracisz okazje, bo nie mówisz tego",
+    summary: "Ból brakującej frazy.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks:
-“Estás perdiendo oportunidades por no decir: ‘[FRASE]’”
-[FRASE] lista para copiar (ventas/contenido).
-No expliques por qué, solo “te muestro”.`,
+    prompt: `Wygeneruj 15 hooków:
+„Tracisz okazje, bo nie mówisz: ‘[FRAZA]’”
+[FRAZA] gotowa do skopiowania (sprzedaż/treści).
+Nie wyjaśniaj dlaczego, tylko „pokażę ci”.`,
   },
   {
     id: "viral-hook-dolor-042",
-    title: "Tu audiencia no entiende qué haces",
-    summary: "Dolor de posicionamiento.",
+    title: "Twoja publiczność nie rozumie, co robisz",
+    summary: "Ból pozycjonowania.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 hooks:
-“Tu audiencia no entiende qué haces por [X].”
-[X] = vago, demasiado técnico, múltiples ofertas, sin beneficio.
-Máx 12 palabras.`,
+    prompt: `Napisz 20 hooków:
+„Twoja publiczność nie rozumie, co robisz przez [X].”
+[X] = zbyt ogólne, zbyt techniczne, wiele ofert, brak korzyści.
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-dolor-043",
-    title: "Estás hablando y nadie escucha",
-    summary: "Dolor de comunicación.",
+    title: "Mówisz, a nikt nie słucha",
+    summary: "Ból komunikacji.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 18 hooks:
-“Estás hablando y nadie escucha por [X].”
-Tema: [TEMA]. X = no hay promesa, sin tensión, intro lenta, etc.`,
+    prompt: `Wygeneruj 18 hooków:
+„Mówisz, a nikt nie słucha przez [X].”
+Temat: [TEMAT]. X = brak obietnicy, brak napięcia, wolne intro itd.`,
   },
   {
     id: "viral-hook-dolor-044",
-    title: "Tu embudo se cae aquí",
-    summary: "Dolor de punto de fuga.",
+    title: "Tu rozpada ci się lejek",
+    summary: "Ból punktu ucieczki.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks:
-“Tu embudo se cae en [PASO].”
-[PASO] = etapa específica (DM, landing, checkout, seguimiento).
-Cierra con “te lo arreglo”.`,
+    prompt: `Stwórz 15 hooków:
+„Tu rozpada ci się lejek: [KROK].”
+[KROK] = konkretny etap (DM, landing, checkout, follow-up).
+Zakończ „naprawię ci to”.`,
   },
   {
     id: "viral-hook-dolor-045",
-    title: "Estás dejando dinero en la bandeja de entrada",
-    summary: "Dolor de DM/seguimiento.",
+    title: "Zostawiasz pieniądze w skrzynce odbiorczej",
+    summary: "Ból DM/follow-upu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 12 hooks:
-“Estás dejando dinero en tu bandeja de entrada por [X].”
-[X] = respondes tarde, sin guion, sin CTA, sin cierre.
-Máx 13 palabras.`,
+    prompt: `Wygeneruj 12 hooków:
+„Zostawiasz pieniądze w skrzynce odbiorczej przez [X].”
+[X] = odpowiadasz późno, brak skryptu, brak CTA, brak domknięcia.
+Maks. 13 słów.`,
   },
   {
     id: "viral-hook-dolor-046",
-    title: "Estás haciendo lo difícil primero",
-    summary: "Dolor de orden incorrecto.",
+    title: "Zaczynasz od trudnego i dlatego się wypalasz",
+    summary: "Ból złej kolejności.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 hooks:
-“Estás haciendo lo difícil primero y por eso te quemas.”
-Agrega “Haz [X] antes.”
-[X] concreto. Tema: [TEMA].`,
+    prompt: `Napisz 20 hooków:
+„Zaczynasz od trudnego i dlatego się wypalasz.”
+Dodaj „Zrób najpierw [X].”
+[X] konkretny. Temat: [TEMAT].`,
   },
   {
     id: "viral-hook-dolor-047",
-    title: "Te falta un punto y se cae todo",
-    summary: "Dolor de pieza clave.",
+    title: "Brakuje jednego punktu i wszystko się sypie",
+    summary: "Ból kluczowego elementu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 18 hooks:
-“Te falta [X] y se cae todo.”
-[X] = prueba, claridad, oferta, ritmo, CTA.
-Tema: [TEMA].`,
+    prompt: `Wygeneruj 18 hooków:
+„Brakuje [X] i wszystko się sypie.”
+[X] = dowód, jasność, oferta, rytm, CTA.
+Temat: [TEMAT].`,
   },
   {
     id: "viral-hook-dolor-048",
-    title: "Tu estrategia te está drenando",
-    summary: "Dolor de drenaje emocional/energía.",
+    title: "Twoja strategia cię wysysa",
+    summary: "Ból drenażu emocji/energii.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks:
-“Tu estrategia te está drenando por [X].”
-[X] debe ser específico y evitable. Tema: [TEMA].`,
+    prompt: `Stwórz 15 hooków:
+„Twoja strategia cię wysysa przez [X].”
+[X] ma być konkretne i możliwe do uniknięcia. Temat: [TEMAT].`,
   },
   {
     id: "viral-hook-dolor-049",
-    title: "Esto te está costando meses",
-    summary: "Dolor de tiempo perdido.",
+    title: "To kosztuje cię miesiące",
+    summary: "Ból straconego czasu.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks:
-“Esto te está costando meses: [X].”
-[X] = falta de foco, sin sistema, perfección, etc.
-Cierra con “te doy el ajuste”.`,
+    prompt: `Wygeneruj 20 hooków:
+„To kosztuje cię miesiące: [X].”
+[X] = brak fokusu, brak systemu, perfekcjonizm itd.
+Zakończ „dam ci poprawkę”.`,
   },
   {
     id: "viral-hook-dolor-050",
-    title: "Estás a nada… pero te falta esto",
-    summary: "Dolor + esperanza (tensión).",
+    title: "Jesteś o krok… ale brakuje ci tego",
+    summary: "Ból + nadzieja (napięcie).",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks:
-“Estás a nada… pero te falta [X].”
-[X] debe ser concreto y alcanzable.
-Tema: [TEMA]. Máx 12 palabras.`,
+    prompt: `Napisz 15 hooków:
+„Jesteś o krok… ale brakuje ci [X].”
+[X] ma być konkretne i osiągalne.
+Temat: [TEMAT]. Maks. 12 słów.`,
   },
 ];

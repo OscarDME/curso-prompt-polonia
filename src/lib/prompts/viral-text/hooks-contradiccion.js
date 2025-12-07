@@ -1,534 +1,534 @@
 // src/lib/prompts/viral-text/hooks-contradiccion.js
-// Área y categoría ÚNICAS para TODO este archivo:
-const AREA = "Hooks";
-const CATEGORY = "Contradicción";
+// Unikalny obszar i kategoria dla CAŁEGO tego pliku:
+const AREA = "Hooki";
+const CATEGORY = "Sprzeczność";
 
 export const viralTextPromptsHooksContradiccion = [
   {
     id: "viral-hook-contradiccion-001",
-    title: "No hagas más X… haz menos",
-    summary: "Contradicción a la intuición común.",
+    title: "Nie rób więcej X… rób mniej",
+    summary: "Sprzeczność z powszechną intuicją.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks (máx 9 palabras) para [NICHO] con estructura:
-“No hagas más [X]… haz menos [Y]”
-[X] y [Y] deben ser acciones reales del nicho.
-Al final de cada hook añade: (por qué funciona en 5 palabras).`,
+    prompt: `Stwórz 15 hooków (maks. 9 słów) dla [NISZA] w strukturze:
+„Nie rób więcej [X]… rób mniej [Y]”
+[X] i [Y] muszą być realnymi działaniami z niszy.
+Na końcu każdego hooka dodaj: (dlaczego działa w 5 słowach).`,
   },
   {
     id: "viral-hook-contradiccion-002",
-    title: "Lo que te dijeron es al revés",
-    summary: "Hook que invierte un consejo popular.",
+    title: "Powiedzieli ci odwrotnie",
+    summary: "Hook, który odwraca popularną radę.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks para [TEMA] con la idea:
-“Te lo dijeron al revés…”
-Reglas:
-- 6–10 palabras
-- Debe insinuar el “por qué” sin explicarlo completo
-- Evita clickbait vacío
-Entrega lista numerada.`,
+    prompt: `Wygeneruj 20 hooków dla [TEMAT] z ideą:
+„Powiedzieli ci odwrotnie…”
+Zasady:
+- 6–10 słów
+- Ma sugerować „dlaczego” bez pełnego wyjaśnienia
+- Unikaj pustego clickbaitu
+Podaj jako listę numerowaną.`,
   },
   {
     id: "viral-hook-contradiccion-003",
-    title: "No es motivación, es sistema",
-    summary: "Reencuadre clásico pero potente.",
+    title: "To nie motywacja, to system",
+    summary: "Klasyczny, ale mocny reframe.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 25 hooks para [AUDIENCIA] usando:
-“No es [X], es [Y].”
-[X] debe ser la excusa común, [Y] la solución real.
-Máximo 9 palabras por hook.`,
+    prompt: `Napisz 25 hooków dla [ODBIORCY] używając:
+„To nie [X], to [Y].”
+[X] ma być typową wymówką, [Y] prawdziwym rozwiązaniem.
+Maks. 9 słów na hook.`,
   },
   {
     id: "viral-hook-contradiccion-004",
-    title: "Lo simple gana (aunque suene aburrido)",
-    summary: "Contradicción contra lo “complejo/pro”.",
+    title: "Proste wygrywa (nawet jeśli brzmi nudno)",
+    summary: "Sprzeczność wobec „złożonego/pro”.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 18 hooks para [TEMA] con la premisa:
-“Lo simple gana.”
-Incluye un detalle específico por hook (herramienta, paso, frase, métrica).
-Máx 10 palabras.`,
+    prompt: `Stwórz 18 hooków dla [TEMAT] z założeniem:
+„Proste wygrywa.”
+Dodaj 1 konkretny detal na hook (narzędzie, krok, fraza, metryka).
+Maks. 10 słów.`,
   },
   {
     id: "viral-hook-contradiccion-005",
-    title: "El problema no es la estrategia",
-    summary: "Cambia el foco a la base real.",
+    title: "Problemem nie jest strategia",
+    summary: "Przenosi fokus na prawdziwą podstawę.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks:
-“El problema no es la estrategia, es [BASE].”
-Para [NICHO].
-[BASE] debe ser concreta (claridad, oferta, estructura, mensaje, timing, etc.).`,
+    prompt: `Wygeneruj 20 hooków:
+„Problemem nie jest strategia, tylko [PODSTAWA].”
+Dla [NISZA].
+[PODSTAWA] ma być konkretna (jasność, oferta, struktura, przekaz, timing itd.).`,
   },
   {
     id: "viral-hook-contradiccion-006",
-    title: "Más contenido ≠ más resultados",
-    summary: "Contradicción matemática simple.",
+    title: "Więcej treści ≠ więcej efektów",
+    summary: "Prosta matematyczna sprzeczność.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 20 hooks con símbolo ≠ o “no significa”.
-Tema: [TEMA]. Audiencia: [AUDIENCIA].
-Reglas: 6–10 palabras, sin promesas imposibles.`,
+    prompt: `Daj mi 20 hooków z symbolem ≠ lub „nie znaczy”.
+Temat: [TEMAT]. Odbiorcy: [ODBIORCY].
+Zasady: 6–10 słów, bez niemożliwych obietnic.`,
   },
   {
     id: "viral-hook-contradiccion-007",
-    title: "Deja de optimizar lo que no importa",
-    summary: "Golpea un comportamiento común.",
+    title: "Przestań optymalizować to, co nie ma znaczenia",
+    summary: "Uderza w typowe zachowanie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks para [TEMA]:
-“Deja de optimizar [X], optimiza [Y].”
-[X] y [Y] deben ser cosas reales del proceso.
-Máximo 10 palabras.`,
+    prompt: `Stwórz 15 hooków dla [TEMAT]:
+„Przestań optymalizować [X], optymalizuj [Y].”
+[X] i [Y] muszą być realnymi elementami procesu.
+Maks. 10 słów.`,
   },
   {
     id: "viral-hook-contradiccion-008",
-    title: "Tu método favorito te está frenando",
-    summary: "Ataque suave a una tendencia.",
+    title: "Twoja ulubiona metoda cię hamuje",
+    summary: "Delikatny atak na trend.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 12 hooks sobre [TENDENCIA/MÉTODO] en [NICHO].
-Estructura:
-“Tu método favorito te frena por [CAUSA]”
-[CAUSA] debe ser concreta (fricción, confusión, falta de foco, etc.).`,
+    prompt: `Wygeneruj 12 hooków o [TREND/METODA] w [NISZA].
+Struktura:
+„Twoja ulubiona metoda hamuje cię przez [PRZYCZYNA]”
+[PRZYCZYNA] ma być konkretna (tarcie, chaos, brak fokusu itd.).`,
   },
   {
     id: "viral-hook-contradiccion-009",
-    title: "No necesitas más herramientas",
-    summary: "Contradicción a comprar apps/cursos.",
+    title: "Nie potrzebujesz więcej narzędzi",
+    summary: "Sprzeczność wobec kupowania aplikacji/kursów.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 hooks:
-“No necesitas más [HERRAMIENTAS], necesitas [HÁBITO/SISTEMA].”
-Para [AUDIENCIA]. Máx 11 palabras.`,
+    prompt: `Napisz 20 hooków:
+„Nie potrzebujesz więcej [NARZĘDZIA], potrzebujesz [NAWYK/SYSTEM].”
+Dla [ODBIORCY]. Maks. 11 słów.`,
   },
   {
     id: "viral-hook-contradiccion-010",
-    title: "Si te cuesta, vas bien (pero por esto)",
-    summary: "Reencuadre: dificultad = señal.",
+    title: "Jeśli jest trudno, idziesz dobrze (ale przez to)",
+    summary: "Reframe: trudność = sygnał.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks:
-“Si te cuesta [X], vas bien… por [Y].”
-Para [TEMA].
-[Y] debe ser una razón realista y útil.`,
+    prompt: `Stwórz 15 hooków:
+„Jeśli trudno ci [X], idziesz dobrze… bo [Y].”
+Dla [TEMAT].
+[Y] ma być realistycznym i użytecznym powodem.`,
   },
 
   {
     id: "viral-hook-contradiccion-011",
-    title: "Publicar más te puede hacer vender menos",
-    summary: "Contradicción con causa clara.",
+    title: "Więcej publikowania może sprawić, że sprzedasz mniej",
+    summary: "Sprzeczność z jasną przyczyną.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 18 hooks para creadores en [PLATAFORMA]:
-“Publicar más te hace vender menos cuando [CAUSA].”
-[CAUSA] concreta: CTA, oferta, enfoque, saturación, etc.`,
+    prompt: `Wygeneruj 18 hooków dla twórców na [PLATFORMA]:
+„Publikowanie więcej sprawia, że sprzedajesz mniej, gdy [PRZYCZYNA].”
+[PRZYCZYNA] konkretna: CTA, oferta, fokus, przesyt itd.`,
   },
   {
     id: "viral-hook-contradiccion-012",
-    title: "Tu 'marca personal' no es tu logo",
-    summary: "Reencuadre de concepto.",
+    title: "Twoja „marka osobista” to nie logo",
+    summary: "Reframe pojęcia.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 20 hooks sobre marca personal en [NICHO].
-Plantilla:
-“Tu marca personal no es [X], es [Y].”
-Máximo 11 palabras.`,
+    prompt: `Daj mi 20 hooków o marce osobistej w [NISZA].
+Szablon:
+„Twoja marka osobista to nie [X], to [Y].”
+Maks. 11 słów.`,
   },
   {
     id: "viral-hook-contradiccion-013",
-    title: "El algoritmo no te odia",
-    summary: "Rompe la narrativa típica del creador.",
+    title: "Algorytm cię nie nienawidzi",
+    summary: "Łamie typową narrację twórcy.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks:
-“El algoritmo no te odia, te falta [X].”
-Para [PLATAFORMA]. [X] debe ser corregible.`,
+    prompt: `Stwórz 15 hooków:
+„Algorytm cię nie nienawidzi, brakuje ci [X].”
+Dla [PLATFORMA]. [X] ma być czymś do poprawy.`,
   },
   {
     id: "viral-hook-contradiccion-014",
-    title: "Deja de buscar viralidad",
-    summary: "Viralidad vs consistencia.",
+    title: "Przestań gonić viral",
+    summary: "Viral vs konsekwencja.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks para [TEMA]:
-“Deja de buscar viralidad. Busca [X].”
-[X] debe ser una meta concreta (retención, claridad, respuesta, leads, etc.).`,
+    prompt: `Wygeneruj 20 hooków dla [TEMAT]:
+„Przestań gonić viral. Gonić [X].”
+[X] ma być konkretnym celem (retencja, jasność, odpowiedzi, leady itd.).`,
   },
   {
     id: "viral-hook-contradiccion-015",
-    title: "No fallas por falta de talento",
-    summary: "Reencuadre a proceso.",
+    title: "Nie przegrywasz przez brak talentu",
+    summary: "Reframe na proces.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 25 hooks:
-“No fallas por talento. Fallas por [SISTEMA].”
-En [NICHO]. Máx 10 palabras.`,
+    prompt: `Napisz 25 hooków:
+„Nie przegrywasz przez talent. Przegrywasz przez [SYSTEM].”
+W [NISZA]. Maks. 10 słów.`,
   },
   {
     id: "viral-hook-contradiccion-016",
-    title: "Lo 'pro' no siempre convierte",
-    summary: "Contra la estética perfecta.",
+    title: "„Pro” nie zawsze konwertuje",
+    summary: "Przeciwko idealnej estetyce.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 18 hooks para [PLATAFORMA]:
-“Lo pro no siempre convierte: [RAZÓN].”
-[RAZÓN] debe ser específica (frío, distante, poca claridad, etc.).`,
+    prompt: `Stwórz 18 hooków dla [PLATFORMA]:
+„Pro nie zawsze konwertuje: [POWÓD].”
+[POWÓD] ma być konkretny (zimne, zdystansowane, mało jasne itd.).`,
   },
   {
     id: "viral-hook-contradiccion-017",
-    title: "Más información te confunde",
-    summary: "Info overload.",
+    title: "Więcej informacji cię miesza",
+    summary: "Przeciążenie informacjami.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 20 hooks:
-“Más información te confunde. Necesitas [X].”
-Para [AUDIENCIA]. Máx 10 palabras.`,
+    prompt: `Daj mi 20 hooków:
+„Więcej informacji cię miesza. Potrzebujesz [X].”
+Dla [ODBIORCY]. Maks. 10 słów.`,
   },
   {
     id: "viral-hook-contradiccion-018",
-    title: "El error NO es el que crees",
-    summary: "Inversión de culpa.",
+    title: "Błąd NIE jest tym, co myślisz",
+    summary: "Odwrócenie winy.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks:
-“El error no es [X], es [Y].”
-Tema: [TEMA]. Haz [X]/[Y] concretos.`,
+    prompt: `Wygeneruj 20 hooków:
+„Błąd to nie [X], to [Y].”
+Temat: [TEMAT]. Zrób [X]/[Y] konkretnymi.`,
   },
   {
     id: "viral-hook-contradiccion-019",
-    title: "No necesitas disciplina, necesitas diseño",
-    summary: "Reencuadre: diseño de entorno.",
+    title: "Nie potrzebujesz dyscypliny, potrzebujesz projektu",
+    summary: "Reframe: projektowanie środowiska.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks con:
-“No necesitas disciplina, necesitas [DISEÑO].”
-[DISEÑO] = sistema/entorno/recordatorio/planning.
-Para [AUDIENCIA].`,
+    prompt: `Stwórz 15 hooków:
+„Nie potrzebujesz dyscypliny, potrzebujesz [PROJEKT].”
+[PROJEKT] = system/otoczenie/przypomnienie/planowanie.
+Dla [ODBIORCY].`,
   },
   {
     id: "viral-hook-contradiccion-020",
-    title: "Lo caro te puede salir barato",
-    summary: "Contradicción de coste vs valor.",
+    title: "Droższe może wyjść taniej",
+    summary: "Sprzeczność koszt vs wartość.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 12 hooks sobre [DECISIÓN] en [NICHO]:
-“Lo caro te sale barato si [CONDICIÓN].”
-CONDICIÓN concreta. Máx 11 palabras.`,
+    prompt: `Wygeneruj 12 hooków o [DECYZJA] w [NISZA]:
+„Droższe wychodzi taniej, jeśli [WARUNEK].”
+WARUNEK konkretny. Maks. 11 słów.`,
   },
 
   {
     id: "viral-hook-contradiccion-021",
-    title: "No es tu producto, es tu mensaje",
-    summary: "Foco en comunicación.",
+    title: "To nie twój produkt, to twój przekaz",
+    summary: "Fokus na komunikacji.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 hooks:
-“No es tu producto, es tu mensaje: [PISTA].”
-Tema: [TEMA]. PISTA debe ser concreta.`,
+    prompt: `Napisz 20 hooków:
+„To nie twój produkt, to twój przekaz: [WZMIANKA].”
+Temat: [TEMAT]. WZMIANKA ma być konkretna.`,
   },
   {
     id: "viral-hook-contradiccion-022",
-    title: "Trabajar más no es la respuesta",
-    summary: "Contra la cultura del hustle.",
+    title: "Więcej pracy to nie odpowiedź",
+    summary: "Przeciw kulturze hustle.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 18 hooks:
-“Trabajar más no es la respuesta. Es [X].”
-Para [AUDIENCIA]. X = prioridad/estructura/sistema/oferta.`,
+    prompt: `Stwórz 18 hooków:
+„Więcej pracy to nie odpowiedź. To [X].”
+Dla [ODBIORCY]. X = priorytet/struktura/system/oferta.`,
   },
   {
     id: "viral-hook-contradiccion-023",
-    title: "El problema no es tu cámara",
-    summary: "Redirige al guion/hook.",
+    title: "Problemem nie jest twoja kamera",
+    summary: "Przekierowuje na skrypt/hook.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks para creadores:
-“El problema no es tu cámara, es [X].”
-[X] debe variar: guion, ritmo, claridad, primer segundo, CTA.`,
+    prompt: `Wygeneruj 20 hooków dla twórców:
+„Problemem nie jest twoja kamera, tylko [X].”
+[X] zmieniaj: skrypt, tempo, jasność, pierwsza sekunda, CTA.`,
   },
   {
     id: "viral-hook-contradiccion-024",
-    title: "Menos pasos, más ventas",
-    summary: "Reduce fricción.",
+    title: "Mniej kroków, więcej sprzedaży",
+    summary: "Mniej tarcia.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 15 hooks:
-“Menos pasos, más [RESULTADO].”
-Incluye una pista de qué paso quitar (sin explicar todo).
-Tema: [TEMA].`,
+    prompt: `Daj mi 15 hooków:
+„Mniej kroków, więcej [REZULTAT].”
+Dodaj wskazówkę, który krok usunąć (bez pełnego wyjaśnienia).
+Temat: [TEMAT].`,
   },
   {
     id: "viral-hook-contradiccion-025",
-    title: "Lo que te funciona te puede estancar",
-    summary: "Éxito como trampa.",
+    title: "To, co działa, może cię zatrzymać",
+    summary: "Sukces jako pułapka.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 12 hooks:
-“Lo que te funciona hoy te estanca mañana si [X].”
-Para [TEMA]. [X] debe ser específico.`,
+    prompt: `Napisz 12 hooków:
+„To, co działa dziś, jutro cię zatrzyma, jeśli [X].”
+Dla [TEMAT]. [X] ma być szczegółowe.`,
   },
   {
     id: "viral-hook-contradiccion-026",
-    title: "La consistencia sin dirección es ruido",
-    summary: "Contradicción para creadores ‘constantes’.",
+    title: "Konsekwencja bez kierunku to szum",
+    summary: "Sprzeczność dla „konsekwentnych” twórców.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 18 hooks:
-“La consistencia sin dirección es ruido.”
-Añade una segunda parte corta con pista de solución (máx 4 palabras).
-Tema: [TEMA].`,
+    prompt: `Stwórz 18 hooków:
+„Konsekwencja bez kierunku to szum.”
+Dodaj krótką drugą część z podpowiedzią rozwiązania (maks. 4 słowa).
+Temat: [TEMAT].`,
   },
   {
     id: "viral-hook-contradiccion-027",
-    title: "No es falta de ideas, es filtro",
-    summary: "Reencuadre creativo.",
+    title: "To nie brak pomysłów, tylko filtr",
+    summary: "Kreatywny reframe.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 20 hooks:
-“No es falta de ideas, es [FILTRO].”
-FILTRO = criterio, enfoque, audiencia, objetivo.
-Para [AUDIENCIA].`,
+    prompt: `Daj mi 20 hooków:
+„To nie brak pomysłów, to [FILTR].”
+FILTR = kryterium, fokus, odbiorca, cel.
+Dla [ODBIORCY].`,
   },
   {
     id: "viral-hook-contradiccion-028",
-    title: "La mejor estrategia es aburrida",
-    summary: "Antihype.",
+    title: "Najlepsza strategia jest nudna",
+    summary: "Antyhype.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks:
-“La mejor estrategia es aburrida: [PISTA].”
-PISTA concreta (ej: repetir mensaje, mejorar CTA, etc.).`,
+    prompt: `Wygeneruj 15 hooków:
+„Najlepsza strategia jest nudna: [WZMIANKA].”
+WZMIANKA konkretna (np. powtarzaj przekaz, popraw CTA itd.).`,
   },
   {
     id: "viral-hook-contradiccion-029",
-    title: "No vendas más, vende mejor",
-    summary: "Calidad de oferta.",
+    title: "Nie sprzedawaj więcej, sprzedawaj lepiej",
+    summary: "Jakość oferty.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks:
-“No vendas más, vende mejor: [X].”
-X = propuesta/beneficio/claridad/prueba.
-Tema: [NICHO].`,
+    prompt: `Stwórz 20 hooków:
+„Nie sprzedawaj więcej, sprzedawaj lepiej: [X].”
+X = propozycja/korzyść/jasność/dowód.
+Temat: [NISZA].`,
   },
   {
     id: "viral-hook-contradiccion-030",
-    title: "Más opciones = menos acción",
-    summary: "Paradoja de elección.",
+    title: "Więcej opcji = mniej działania",
+    summary: "Paradoks wyboru.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 hooks sobre decisión en [TEMA]:
-“Más opciones = menos acción. Haz [X].”
-[X] debe ser acción concreta.`,
+    prompt: `Napisz 20 hooków o decyzji w [TEMAT]:
+„Więcej opcji = mniej działania. Zrób [X].”
+[X] ma być konkretną akcją.`,
   },
 
   {
     id: "viral-hook-contradiccion-031",
-    title: "No necesitas un plan, necesitas un ritmo",
-    summary: "Reencuadre: cadencia.",
+    title: "Nie potrzebujesz planu, potrzebujesz rytmu",
+    summary: "Reframe: kadencja.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks:
-“No necesitas un plan, necesitas un ritmo: [RITMO].”
-RITMO = frecuencia simple (ej: 3 veces/semana) o rutina.`,
+    prompt: `Wygeneruj 15 hooków:
+„Nie potrzebujesz planu, potrzebujesz rytmu: [RYTM].”
+RYTM = prosta częstotliwość (np. 3 razy/tydz.) albo rutyna.`,
   },
   {
     id: "viral-hook-contradiccion-032",
-    title: "El secreto no es empezar, es seguir",
-    summary: "Giro motivacional práctico.",
+    title: "Sekret to nie start, tylko kontynuacja",
+    summary: "Praktyczny motywacyjny twist.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 18 hooks:
-“El secreto no es empezar, es seguir: [X].”
-[X] debe ser un sistema corto o regla.`,
+    prompt: `Stwórz 18 hooków:
+„Sekret to nie start, tylko kontynuacja: [X].”
+[X] ma być krótkim systemem albo zasadą.`,
   },
   {
     id: "viral-hook-contradiccion-033",
-    title: "No copies, traduce",
-    summary: "Contra “copy-paste” de estrategias.",
+    title: "Nie kopiuj, tłumacz",
+    summary: "Przeciw „kopiuj-wklej” strategiom.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 20 hooks con:
-“No copies. Traduce a tu caso: [PISTA].”
-PISTA = variable clave (audiencia, oferta, tono, prueba, etc.).`,
+    prompt: `Daj mi 20 hooków:
+„Nie kopiuj. Przetłumacz na swój przypadek: [WZMIANKA].”
+WZMIANKA = kluczowa zmienna (odbiorca, oferta, ton, dowód itd.).`,
   },
   {
     id: "viral-hook-contradiccion-034",
-    title: "Deja de perseguir tendencias",
+    title: "Przestań gonić trendy",
     summary: "Evergreen vs trend.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks:
-“Deja de perseguir tendencias. Construye [X].”
-[X] debe ser algo evergreen (mensaje base, oferta, sistema).`,
+    prompt: `Wygeneruj 15 hooków:
+„Przestań gonić trendy. Zbuduj [X].”
+[X] ma być evergreen (bazowy przekaz, oferta, system).`,
   },
   {
     id: "viral-hook-contradiccion-035",
-    title: "Tu problema no es tráfico",
-    summary: "Reencuadre típico de ventas.",
+    title: "Twoim problemem nie jest ruch",
+    summary: "Typowy reframe sprzedażowy.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 hooks:
-“Tu problema no es tráfico, es [X].”
-[X] puede ser: conversión, oferta, claridad, seguimiento, prueba.`,
+    prompt: `Napisz 20 hooków:
+„Twoim problemem nie jest ruch, tylko [X].”
+[X] może być: konwersja, oferta, jasność, follow-up, dowód.`,
   },
   {
     id: "viral-hook-contradiccion-036",
-    title: "Más calidad no arregla mala estructura",
-    summary: "Estructura > calidad.",
+    title: "Lepsza jakość nie naprawi złej struktury",
+    summary: "Struktura > jakość.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 18 hooks:
-“Más calidad no arregla mala estructura.”
-Añade remate corto: “Haz esto: [X]” (máx 3 palabras).`,
+    prompt: `Stwórz 18 hooków:
+„Lepsza jakość nie naprawi złej struktury.”
+Dodaj krótki finał: „Zrób to: [X]” (maks. 3 słowa).`,
   },
   {
     id: "viral-hook-contradiccion-037",
-    title: "No es 'falta de tiempo'",
-    summary: "Reencuadre a prioridades.",
+    title: "To nie „brak czasu”",
+    summary: "Reframe na priorytety.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Dame 20 hooks:
-“No es falta de tiempo. Es [X].”
-X = prioridad, enfoque, energía, sistema.
-Para [AUDIENCIA].`,
+    prompt: `Daj mi 20 hooków:
+„To nie brak czasu. To [X].”
+X = priorytet, fokus, energia, system.
+Dla [ODBIORCY].`,
   },
   {
     id: "viral-hook-contradiccion-038",
-    title: "La clave no es el inicio",
-    summary: "Invierte el foco al cierre/CTA.",
+    title: "Klucz to nie początek",
+    summary: "Odwraca fokus na zakończenie/CTA.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks:
-“La clave no es el inicio, es [X].”
-[X] = cierre, CTA, prueba, ejemplo, ritmo.
-Para [PLATAFORMA].`,
+    prompt: `Wygeneruj 15 hooków:
+„Klucz to nie początek, tylko [X].”
+[X] = zakończenie, CTA, dowód, przykład, tempo.
+Dla [PLATFORMA].`,
   },
   {
     id: "viral-hook-contradiccion-039",
-    title: "Tu 'mejor idea' puede ser la peor",
-    summary: "Contradicción para abrir loop.",
+    title: "Twój „najlepszy pomysł” może być najgorszy",
+    summary: "Sprzeczność, żeby otworzyć pętlę.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 12 hooks:
-“Tu mejor idea puede ser la peor si [X].”
-X = falta de claridad, mala audiencia, exceso de fricción, etc.`,
+    prompt: `Stwórz 12 hooków:
+„Twój najlepszy pomysł może być najgorszy, jeśli [X].”
+X = brak jasności, zła grupa docelowa, za dużo tarcia itd.`,
   },
   {
     id: "viral-hook-contradiccion-040",
-    title: "Aprender más te puede atrasar",
-    summary: "Reencuadre: acción > consumo.",
+    title: "Uczenie się więcej może cię cofnąć",
+    summary: "Reframe: działanie > konsumowanie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 hooks:
-“Aprender más te atrasa si no haces [X].”
-[X] debe ser una acción verificable (publica, vende, prueba, mide).`,
+    prompt: `Napisz 20 hooków:
+„Uczenie się więcej cofa cię, jeśli nie robisz [X].”
+[X] ma być weryfikowalną akcją (publikuj, sprzedawaj, testuj, mierz).`,
   },
 
   {
     id: "viral-hook-contradiccion-041",
-    title: "No es falta de seguidores",
-    summary: "Convierte con pocos.",
+    title: "To nie brak obserwujących",
+    summary: "Możesz konwertować mając mało.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks:
-“No es falta de seguidores, es [X].”
-[X] = posicionamiento, oferta, CTA, confianza, prueba.
-Enfocado a [NICHO].`,
+    prompt: `Wygeneruj 15 hooków:
+„To nie brak obserwujących, tylko [X].”
+[X] = pozycjonowanie, oferta, CTA, zaufanie, dowód.
+Skierowane do [NISZA].`,
   },
   {
     id: "viral-hook-contradiccion-042",
-    title: "La comodidad es el enemigo",
-    summary: "Contradicción emocional.",
+    title: "Wygoda jest wrogiem",
+    summary: "Emocjonalna sprzeczność.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks:
-“La comodidad es el enemigo de [RESULTADO].”
-Agrega un remate de solución en 3–5 palabras.`,
+    prompt: `Stwórz 15 hooków:
+„Wygoda jest wrogiem [REZULTAT].”
+Dodaj finał z rozwiązaniem w 3–5 słowach.`,
   },
   {
     id: "viral-hook-contradiccion-043",
-    title: "No eres irregular: estás mal guiado",
-    summary: "Reencuadre de consistencia.",
+    title: "Nie jesteś nieregularny: masz złe prowadzenie",
+    summary: "Reframe konsekwencji.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 18 hooks para [AUDIENCIA]:
-“No eres irregular, estás mal guiado por [X].”
-X = plan imposible, metas vagas, falta de estructura, etc.`,
+    prompt: `Napisz 18 hooków dla [ODBIORCY]:
+„Nie jesteś nieregularny, tylko źle prowadzony przez [X].”
+X = nierealny plan, mgliste cele, brak struktury itd.`,
   },
   {
     id: "viral-hook-contradiccion-044",
-    title: "La perfección mata la velocidad",
-    summary: "Perfección vs ejecución.",
+    title: "Perfekcja zabija tempo",
+    summary: "Perfekcja vs wykonanie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks:
-“La perfección mata la velocidad. Haz [X].”
-[X] debe ser un paso simple para publicar/lanzar.`,
+    prompt: `Wygeneruj 20 hooków:
+„Perfekcja zabija tempo. Zrób [X].”
+[X] ma być prostym krokiem do publikacji/wypuszczenia.`,
   },
   {
     id: "viral-hook-contradiccion-045",
-    title: "Te conviene decir NO",
-    summary: "Límites = crecimiento real.",
+    title: "Opłaca ci się powiedzieć NIE",
+    summary: "Granice = realny wzrost.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks:
-“Te conviene decir NO a [X].”
-[X] = conducta común (clientes malos, ideas sueltas, proyectos, etc.)
-Tono firme, no agresivo.`,
+    prompt: `Stwórz 15 hooków:
+„Opłaca ci się powiedzieć NIE [X].”
+[X] = typowe zachowanie (toksyczni klienci, luźne pomysły, projekty itd.)
+Ton stanowczy, nie agresywny.`,
   },
   {
     id: "viral-hook-contradiccion-046",
-    title: "Tu estrategia de contenido está bien… para otro nicho",
-    summary: "Segmentación por contexto.",
+    title: "Twoja strategia treści jest OK… dla innej niszy",
+    summary: "Segmentacja kontekstem.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 12 hooks:
-“Tu estrategia está bien… para otro nicho.”
-Agrega una pista: “En [NICHO], lo que sirve es [X].”
-Máx 12 palabras.`,
+    prompt: `Wygeneruj 12 hooków:
+„Twoja strategia jest OK… dla innej niszy.”
+Dodaj wskazówkę: „W [NISZA] działa [X].”
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-contradiccion-047",
-    title: "Más creatividad no arregla falta de claridad",
-    summary: "Claridad > creatividad.",
+    title: "Więcej kreatywności nie naprawi braku jasności",
+    summary: "Jasność > kreatywność.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 18 hooks:
-“Más creatividad no arregla falta de claridad.”
-Agrega remate corto con acción: “Define [X].”`,
+    prompt: `Stwórz 18 hooków:
+„Więcej kreatywności nie naprawi braku jasności.”
+Dodaj krótki finał z akcją: „Zdefiniuj [X].”`,
   },
   {
     id: "viral-hook-contradiccion-048",
-    title: "El “secreto” es repetición (bien hecha)",
-    summary: "Contradicción contra “ser original”.",
+    title: "„Sekret” to powtarzanie (dobrze zrobione)",
+    summary: "Sprzeczność wobec „bądź oryginalny”.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks para [TEMA]:
-“El secreto es repetición… bien hecha.”
-Incluye una pista de “cómo” en 3–6 palabras.`,
+    prompt: `Wygeneruj 15 hooków dla [TEMAT]:
+„Sekret to powtarzanie… dobrze zrobione.”
+Dodaj wskazówkę „jak” w 3–6 słowach.`,
   },
   {
     id: "viral-hook-contradiccion-049",
-    title: "No necesitas más ideas: necesitas selección",
-    summary: "Filtro editorial.",
+    title: "Nie potrzebujesz więcej pomysłów: potrzebujesz selekcji",
+    summary: "Filtr redakcyjny.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks:
-“No necesitas más ideas, necesitas selección: [CRITERIO].”
-CRITERIO = dolor, demanda, prueba, claridad, etc.`,
+    prompt: `Stwórz 20 hooków:
+„Nie potrzebujesz więcej pomysłów, potrzebujesz selekcji: [KRYTERIUM].”
+KRYTERIUM = ból, popyt, dowód, jasność itd.`,
   },
   {
     id: "viral-hook-contradiccion-050",
-    title: "Lo que te enseñaron te cuesta caro",
-    summary: "Contradicción final con tensión.",
+    title: "To, czego cię nauczyli, kosztuje cię drogo",
+    summary: "Finałowa sprzeczność z napięciem.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 12 hooks:
-“Lo que te enseñaron te cuesta caro: [X].”
-[X] debe ser un hábito/creencia común en [NICHO].
-Cierra con: “Te muestro la alternativa.”`,
+    prompt: `Napisz 12 hooków:
+„To, czego cię nauczyli, kosztuje cię drogo: [X].”
+[X] ma być typowym nawykiem/przekonaniem w [NISZA].
+Zakończ: „Pokażę ci alternatywę.”`,
   },
 ];

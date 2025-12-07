@@ -1,848 +1,843 @@
 export const textPromptsNegocioBuyerPersona = [
   {
     id: "negocio-buyer-001",
-    title: "Construcción completa de Buyer Persona con psicografía avanzada",
-    area: "Negocios & Emprendimiento",
+    title: "Kompleksowe tworzenie Buyer Persony z zaawansowaną psychografią",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define un buyer persona 360° con motivaciones, sesgos y detonantes emocionales.",
-    prompt: `Actúa como consultor senior en psicografía y comportamiento humano.
+      "Definiuje buyer personę 360° z motywacjami, błędami poznawczymi i wyzwalaczami emocjonalnymi.",
+    prompt: `Działaj jak starszy konsultant psychografii i zachowań człowieka.
 
-Dame:
-- Producto/servicio.
-- Nicho.
-- Edad aproximada.
-- Nivel de consciencia del cliente (1 a 5).
+Podaj:
+- Produkt/usługę.
+- Niszę.
+- Przybliżony wiek.
+- Poziom świadomości klienta (1–5).
 
-Genera:
-1) Buyer persona completo (psicografía, demografía, comportamiento).
-2) Deseos profundos y miedos ocultos.
-3) Sesgos cognitivos que afectan la compra.
-4) Detonantes emocionales y racionales.
-5) Insight psicológico central que domina su decisión.`,
+Wygeneruj:
+1) Kompletną buyer personę (psychografia, demografia, zachowanie).
+2) Głębokie pragnienia i ukryte lęki.
+3) Błędy poznawcze wpływające na zakup.
+4) Wyzwalacze emocjonalne i racjonalne.
+5) Kluczowy insight psychologiczny, który dominuje jego decyzję.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-002",
-    title: "Arquetipo emocional del cliente basado en motivadores internos",
-    area: "Negocios & Emprendimiento",
+    title: "Emocjonalny archetyp klienta oparty na wewnętrznych motywatorach",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define el arquetipo emocional que guía decisiones subconscientes.",
-    prompt: `Actúa como experto en arquetipos jungianos para marketing.
+      "Definiuje emocjonalny archetyp, który kieruje podświadomymi decyzjami.",
+    prompt: `Działaj jak ekspert od archetypów jungowskich w marketingu.
 
-Dame:
-- Producto.
-- Emoción principal del cliente.
-- Transformación buscada.
+Podaj:
+- Produkt.
+- Główną emocję klienta.
+- Szukaną transformację.
 
-Genera:
-1) Arquetipo primario.
-2) Arquetipo secundario.
-3) Cómo comunicar a ese arquetipo.
-4) 5 frases emocionales para persuadirlo.`,
+Wygeneruj:
+1) Archetyp główny.
+2) Archetyp poboczny.
+3) Jak komunikować się z tym archetypem.
+4) 5 emocjonalnych zdań, aby go przekonać.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-003",
-    title: "Buyer persona basado en comportamiento digital avanzado",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona oparta na zaawansowanych zachowaniach cyfrowych",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
-    summary: "Crea un avatar basado en patrones reales de consumo digital.",
-    prompt: `Actúa como analista de comportamiento digital.
+    summary: "Tworzy avatar oparty na realnych wzorcach konsumpcji cyfrowej.",
+    prompt: `Działaj jak analityk zachowań cyfrowych.
 
-Dame:
-- Producto.
-- Plataforma donde más aparece el usuario.
-- Tipo de contenido que consume.
+Podaj:
+- Produkt.
+- Platformę, na której użytkownik pojawia się najczęściej.
+- Typ treści, które konsumuje.
 
-Genera:
-1) Buyer persona digital.
-2) Triggers de atención en esa plataforma.
-3) Estilo de copy que mejor funciona.
-4) Horarios y patrones de actividad.`,
+Wygeneruj:
+1) Cyfrową buyer personę.
+2) Wyzwalacze uwagi na tej platformie.
+3) Styl copy, który działa najlepiej.
+4) Godziny i wzorce aktywności.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-004",
-    title: "Mapa de dolores profundos del cliente (Pain Mapping 4D)",
-    area: "Negocios & Emprendimiento",
+    title: "Mapa głębokich bólów klienta (Pain Mapping 4D)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define los dolores en 4 dimensiones: funcional, emocional, social y futuro.",
-    prompt: `Actúa como consultor experto en insights profundos.
+      "Definiuje bóle w 4 wymiarach: funkcjonalnym, emocjonalnym, społecznym i przyszłościowym.",
+    prompt: `Działaj jak konsultant – ekspert od głębokich insightów.
 
-Dame:
-- Cliente objetivo.
-- Problema que quiere resolver.
+Podaj:
+- Docelowego klienta.
+- Problem, który chce rozwiązać.
 
-Genera:
-1) Mapa de dolor 4D.
-2) Consecuencias si no resuelve el problema.
-3) Dolor oculto que no menciona.
-4) Motivación principal real.`,
+Wygeneruj:
+1) Mapę bólu 4D.
+2) Konsekwencje, jeśli nie rozwiąże problemu.
+3) Ukryty ból, którego nie mówi wprost.
+4) Główną, realną motywację.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-005",
-    title:
-      "Definición del cliente según nivel de consciencia (Awareness Stages)",
-    area: "Negocios & Emprendimiento",
+    title: "Definicja klienta według poziomu świadomości (Awareness Stages)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Determina en qué etapa está el usuario y cómo comunicar a cada una.",
-    prompt: `Actúa como consultor especializado en niveles de consciencia de Eugene Schwartz.
+      "Określa, na jakim etapie jest użytkownik i jak komunikować się z każdym etapem.",
+    prompt: `Działaj jak konsultant wyspecjalizowany w poziomach świadomości Eugene’a Schwartza.
 
-Dame:
-- Producto.
-- Público.
-- Beneficio principal.
+Podaj:
+- Produkt.
+- Odbiorców.
+- Główną korzyść.
 
-Genera:
-1) Nivel de consciencia del cliente.
-2) Cómo comunicar en ese nivel.
-3) Mensajes recomendados.
-4) 5 frases exactas para ese nivel.`,
+Wygeneruj:
+1) Poziom świadomości klienta.
+2) Jak komunikować na tym poziomie.
+3) Rekomendowane komunikaty.
+4) 5 dokładnych zdań dla tego poziomu.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-006",
     title:
-      "Arquitectura del cliente ideal basada en motivación interna (Self-Driven)",
-    area: "Negocios & Emprendimiento",
+      "Architektura idealnego klienta oparta na wewnętrznej motywacji (Self-Driven)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
-    summary: "Define qué mueve INTERNAMENTE al cliente a tomar acción.",
-    prompt: `Actúa como consultor experto en motivación humana.
+    summary: "Definiuje, co WEWNĘTRZNIE popycha klienta do działania.",
+    prompt: `Działaj jak konsultant – ekspert motywacji człowieka.
 
-Dame:
-- Producto.
-- Meta que el cliente quiere lograr.
-- Obstáculo principal.
+Podaj:
+- Produkt.
+- Cel, który klient chce osiągnąć.
+- Główną przeszkodę.
 
-Genera:
-1) Motivación interna dominante.
-2) Micro-motivos secundarios.
-3) Propuesta de mensaje adaptada.
-4) Insight emocional que no puede ignorar.`,
+Wygeneruj:
+1) Dominującą motywację wewnętrzną.
+2) Poboczne mikro-motywy.
+3) Dopasowaną propozycję komunikatu.
+4) Emocjonalny insight, którego nie da się zignorować.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-007",
-    title: "Buyer persona para productos de alto valor (High Ticket Persona)",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona dla produktów o wysokiej wartości (High Ticket Persona)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define avatar de clientes premium y qué los impulsa a comprar productos caros.",
-    prompt: `Actúa como consultor de ventas high-ticket.
+      "Definiuje avatar klientów premium i co skłania ich do kupowania drogich produktów.",
+    prompt: `Działaj jak konsultant sprzedaży high-ticket.
 
-Dame:
-- Producto de alto valor.
-- Precio.
-- Transformación prometida.
+Podaj:
+- Produkt o wysokiej wartości.
+- Cenę.
+- Obiecaną transformację.
 
-Genera:
-1) Psicografía premium.
-2) Miedos y riesgos percibidos.
-3) Triggers para tomar decisión rápida.
-4) 3 mensajes premium irresistibles.`,
+Wygeneruj:
+1) Psychografię premium.
+2) Postrzegane lęki i ryzyka.
+3) Wyzwalacze do szybkiej decyzji.
+4) 3 nieodparte komunikaty premium.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-008",
-    title: "Mapa de objeciones profundas del buyer persona",
-    area: "Negocios & Emprendimiento",
+    title: "Mapa głębokich obiekcji buyer persony",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
-    summary: "Define objeciones raíz que dominan su proceso de decisión.",
-    prompt: `Actúa como consultor experto en derribo de objeciones.
+    summary: "Definiuje obiekcje źródłowe, które dominują jej proces decyzyjny.",
+    prompt: `Działaj jak konsultant – ekspert w przełamywaniu obiekcji.
 
-Dame:
-- Cliente.
-- Producto.
-- Objeción principal.
+Podaj:
+- Klienta.
+- Produkt.
+- Główną obiekcję.
 
-Genera:
-1) Objeciones superficiales.
-2) Objeciones profundas.
-3) Razón psicológica de cada una.
-4) Cómo rebatirlas desde la propuesta de valor.`,
+Wygeneruj:
+1) Obiekcje powierzchowne.
+2) Obiekcje głębokie.
+3) Psychologiczny powód każdej z nich.
+4) Jak je obalić na poziomie propozycji wartości.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-009",
-    title: "Buyer persona basado en estilo de vida (Lifestyle Persona)",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona oparta na stylu życia (Lifestyle Persona)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define al avatar basado en rutinas, hábitos y aspiraciones cotidianas.",
-    prompt: `Actúa como consultor de lifestyle marketing.
+      "Definiuje avatar na podstawie rutyn, nawyków i codziennych aspiracji.",
+    prompt: `Działaj jak konsultant lifestyle marketingu.
 
-Dame:
-- Producto.
-- Día típico del cliente.
-- Cambio que busca.
+Podaj:
+- Produkt.
+- Typowy dzień klienta.
+- Zmianę, której szuka.
 
-Genera:
-1) Buyer persona lifestyle.
-2) Mapa de hábitos diarios.
-3) Insight identitario.
-4) Frases de copy basadas en estilo de vida.`,
+Wygeneruj:
+1) Lifestyle buyer personę.
+2) Mapę codziennych nawyków.
+3) Insight tożsamościowy.
+4) Frazy copy oparte na stylu życia.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-010",
-    title:
-      "Buyer persona para negocios B2B basado en roles y dolores operativos",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona dla B2B oparta na rolach i bólach operacyjnych",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define el avatar empresarial basado en KPIs, metas y miedos profesionales.",
-    prompt: `Actúa como consultor B2B estratégico.
+      "Definiuje avatar firmowy na podstawie KPI, celów i zawodowych lęków.",
+    prompt: `Działaj jak strategiczny konsultant B2B.
 
-Dame:
-- Cargo o rol.
-- Industria.
-- Resultado que busca.
+Podaj:
+- Stanowisko lub rolę.
+- Branżę.
+- Rezultat, którego szuka.
 
-Genera:
-1) Buyer persona profesional completo.
-2) Indicadores que le importan.
-3) Riesgos que quiere evitar.
-4) Mensaje estratégico para convencerlo.`,
+Wygeneruj:
+1) Kompletną buyer personę zawodową.
+2) Wskaźniki, które są dla niego ważne.
+3) Ryzyka, których chce uniknąć.
+4) Strategiczny komunikat, aby go przekonać.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-011",
-    title: "Buyer persona basado en mapa de decisiones (Decision Blueprint)",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona oparta na mapie decyzji (Decision Blueprint)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Explica cómo decide, qué peso da a cada factor y qué activa la compra.",
-    prompt: `Actúa como consultor de decisiones de alto valor.
+      "Wyjaśnia, jak decyduje, jaką wagę nadaje czynnikom i co uruchamia zakup.",
+    prompt: `Działaj jak konsultant decyzji o wysokiej wartości.
 
-Dame:
-- Producto.
-- Precio.
-- Cliente.
+Podaj:
+- Produkt.
+- Cenę.
+- Klienta.
 
-Genera:
-1) Blueprint de decisión.
-2) Factores que pesan más en su elección.
-3) Señales que busca antes de comprar.
-4) Cómo influir en su decisión.`,
+Wygeneruj:
+1) Blueprint decyzji.
+2) Czynniki, które ważą najwięcej w wyborze.
+3) Sygnały, których szuka przed zakupem.
+4) Jak wpłynąć na jego decyzję.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-012",
-    title: "Mapa de identidad del cliente ideal (Identity Map Persona)",
-    area: "Negocios & Emprendimiento",
+    title: "Mapa tożsamości idealnego klienta (Identity Map Persona)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define quién es el cliente, quién quiere ser y quién teme convertirse.",
-    prompt: `Actúa como consultor experto en identidad y psicodinámica del consumidor.
+      "Definiuje kim jest klient, kim chce być i kim boi się zostać.",
+    prompt: `Działaj jak konsultant – ekspert tożsamości i psychodynamiki konsumenta.
 
-Dame:
-- Cliente actual.
-- Identidad aspiracional.
-- Peor identidad posible para él.
+Podaj:
+- Obecnego klienta.
+- Aspiracyjną tożsamość.
+- Najgorszą możliwą tożsamość dla niego.
 
-Genera:
-1) Identidad actual.
-2) Identidad futura.
-3) Identidad a evitar.
-4) Insight identitario esencial.`,
+Wygeneruj:
+1) Obecną tożsamość.
+2) Przyszłą tożsamość.
+3) Tożsamość, której należy uniknąć.
+4) Kluczowy insight tożsamościowy.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-013",
-    title: "Buyer persona basado en microsegmentos específicos (Micro Persona)",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona oparta na konkretnych mikrosegmentach (Micro Persona)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
-    summary: "Crea un avatar detallado para un micro nicho ultra preciso.",
-    prompt: `Actúa como consultor experto en microsegmentación.
+    summary: "Tworzy szczegółowy avatar dla ultra precyzyjnej mikro-niszy.",
+    prompt: `Działaj jak konsultant – ekspert mikrosegmentacji.
 
-Dame:
-- Nicho micro-específico.
-- Problema puntual.
-- Producto.
+Podaj:
+- Mikro-specyficzną niszę.
+- Konkretny problem.
+- Produkt.
 
-Genera:
-1) Micro persona hiper precisa.
-2) Dolor exacto.
-3) Motivación profunda.
-4) Frase clave que activa su compra.`,
+Wygeneruj:
+1) Hiper-precyzyjną micro personę.
+2) Dokładny ból.
+3) Głęboką motywację.
+4) Kluczowe zdanie, które uruchamia zakup.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-014",
     title:
-      "Buyer persona para productos transformacionales (mindset shift persona)",
-    area: "Negocios & Emprendimiento",
+      "Buyer persona dla produktów transformacyjnych (mindset shift persona)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
-    summary: "Para productos que requieren cambio de mentalidad del cliente.",
-    prompt: `Actúa como consultor experto en transformación personal.
+    summary: "Dla produktów wymagających zmiany sposobu myślenia klienta.",
+    prompt: `Działaj jak konsultant transformacji osobistej.
 
-Dame:
-- Producto transformacional.
-- Cambio de mentalidad requerido.
-- Cliente objetivo.
+Podaj:
+- Produkt transformacyjny.
+- Wymaganą zmianę mindsetu.
+- Docelowego klienta.
 
-Genera:
-1) Perfil psicológico.
-2) Resistencias internas del cliente.
-3) Frases que transforman su mindset.
-4) Insight nuclear que desbloquea la compra.`,
+Wygeneruj:
+1) Profil psychologiczny.
+2) Wewnętrzne opory klienta.
+3) Zdania, które zmieniają jego sposób myślenia.
+4) Rdzeniowy insight, który odblokowuje zakup.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-015",
-    title: "Perfil de cliente basado en comportamiento de compra impulsiva",
-    area: "Negocios & Emprendimiento",
+    title: "Profil klienta oparty na impulsywnym zachowaniu zakupowym",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
-    summary: "Define comportamientos, impulsos y gatillos de compras rápidas.",
-    prompt: `Actúa como experto en triggers impulsivos.
+    summary: "Definiuje zachowania, impulsy i wyzwalacze szybkich zakupów.",
+    prompt: `Działaj jak ekspert od impulsywnych wyzwalaczy.
 
-Dame:
-- Producto.
-- Precio.
-- Emoción dominante del comprador impulsivo.
+Podaj:
+- Produkt.
+- Cenę.
+- Dominującą emocję kupującego impulsywnie.
 
-Genera:
-1) Perfil impulsivo.
-2) Disparadores de compra.
-3) Riesgos del impulso.
-4) Mensaje para cerrar rápido.`,
+Wygeneruj:
+1) Profil impulsywny.
+2) Wyzwalacze zakupu.
+3) Ryzyka impulsu.
+4) Komunikat, aby szybko domknąć sprzedaż.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-016",
-    title: "Buyer persona basado en barreras de adopción (Adoption Persona)",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona oparta na barierach adopcji (Adoption Persona)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
-    summary: "Identifica por qué no compra y qué lo haría avanzar.",
-    prompt: `Actúa como consultor experto en adopción de nuevas soluciones.
+    summary: "Identyfikuje, dlaczego nie kupuje i co sprawi, że ruszy do przodu.",
+    prompt: `Działaj jak konsultant – ekspert adopcji nowych rozwiązań.
 
-Dame:
-- Producto.
-- Barrera principal.
-- Nivel de resistencia del cliente.
+Podaj:
+- Produkt.
+- Główną barierę.
+- Poziom oporu klienta.
 
-Genera:
-1) Adoption persona.
-2) Motivadores que superan la barrera.
-3) Mensaje para acelerar adopción.
-4) Insight sobre por qué frena.`,
+Wygeneruj:
+1) Adoption personę.
+2) Motywatory, które przełamują barierę.
+3) Komunikat przyspieszający adopcję.
+4) Insight, dlaczego hamuje.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-017",
-    title: "Buyer persona basado en sesgos cognitivos dominantes",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona oparta na dominujących błędach poznawczych",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
-    summary: "Define qué sesgo psicológico mueve su decisión.",
-    prompt: `Actúa como experto en behavioral economics.
+    summary: "Definiuje, jaki bias psychologiczny napędza jego decyzję.",
+    prompt: `Działaj jak ekspert behavioral economics.
 
-Dame:
-- Producto.
-- Cliente ideal.
-- Situación de compra.
+Podaj:
+- Produkt.
+- Idealnego klienta.
+- Sytuację zakupu.
 
-Genera:
-1) Sesgo principal que lo influye.
-2) Sesgo secundario.
-3) Cómo usarlos éticamente.
-4) Mensaje persuasivo basado en sesgos.`,
+Wygeneruj:
+1) Główny bias, który go wpływa.
+2) Bias poboczny.
+3) Jak używać ich etycznie.
+4) Perswazyjny komunikat oparty na biasach.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-018",
     title:
-      "Buyer persona basado en motivadores de status y reconocimiento social",
-    area: "Negocios & Emprendimiento",
+      "Buyer persona oparta na motywatorach statusu i społecznego uznania",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Identifica qué tipo de estatus busca y cómo usarlo en tu mensaje.",
-    prompt: `Actúa como consultor en status marketing.
+      "Identyfikuje, jakiego typu statusu szuka i jak wykorzystać to w przekazie.",
+    prompt: `Działaj jak konsultant status marketingu.
 
-Dame:
-- Producto.
-- Contexto social del cliente.
-- Identidad deseada.
+Podaj:
+- Produkt.
+- Kontekst społeczny klienta.
+- Pożądaną tożsamość.
 
-Genera:
-1) Perfil basado en estatus.
-2) Motivadores de reconocimiento.
-3) Miedos sociales.
-4) Mensajes basados en identidad.`,
+Wygeneruj:
+1) Profil oparty na statusie.
+2) Motywatory uznania.
+3) Społeczne lęki.
+4) Komunikaty oparte na tożsamości.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-019",
-    title:
-      "Buyer persona basado en ciclo vital del cliente (Life Stage Persona)",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona oparta na cyklu życia klienta (Life Stage Persona)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
-    summary: "Define la etapa de vida y cómo influye en su proceso de compra.",
-    prompt: `Actúa como consultor experto en etapas de vida.
+    summary: "Definiuje etap życia i jak wpływa on na proces zakupu.",
+    prompt: `Działaj jak konsultant etapów życia.
 
-Dame:
-- Edad.
-- Situación actual.
-- Responsabilidades clave.
+Podaj:
+- Wiek.
+- Aktualną sytuację.
+- Kluczowe obowiązki.
 
-Genera:
-1) Life stage persona.
-2) Prioridades reales.
-3) Frustraciones frecuentes.
-4) Mensaje adaptado a su etapa.`,
+Wygeneruj:
+1) Life stage personę.
+2) Realne priorytety.
+3) Częste frustracje.
+4) Komunikat dopasowany do etapu.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-020",
-    title: "Buyer persona basado en ansiedad, urgencia y presión emocional",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona oparta na lęku, pilności i presji emocjonalnej",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define a clientes que compran por tensión emocional o urgencia real.",
-    prompt: `Actúa como consultor experto en compra emocional bajo presión.
+      "Definiuje klientów, którzy kupują z napięcia emocjonalnego lub realnej pilności.",
+    prompt: `Działaj jak konsultant zakupów emocjonalnych pod presją.
 
-Dame:
-- Producto.
-- Motivo de urgencia del cliente.
-- Consecuencia de no actuar.
+Podaj:
+- Produkt.
+- Powód pilności po stronie klienta.
+- Konsekwencję braku działania.
 
-Genera:
-1) Perfil completo del cliente bajo presión.
-2) Insight emocional raíz.
-3) Mensaje para reducir ansiedad.
-4) Mensaje para acelerar la acción.`,
+Wygeneruj:
+1) Kompletny profil klienta pod presją.
+2) Rdzeniowy insight emocjonalny.
+3) Komunikat redukujący lęk.
+4) Komunikat przyspieszający działanie.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-021",
     title:
-      "Buyer persona basado en mapa de aspiraciones profundas (Deep Aspirations Map)",
-    area: "Negocios & Emprendimiento",
+      "Buyer persona oparta na mapie głębokich aspiracji (Deep Aspirations Map)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define lo que el cliente realmente aspira en 4 capas: vida, identidad, éxito y reconocimiento.",
-    prompt: `Actúa como consultor senior en motivaciones profundas.
+      "Definiuje, do czego klient naprawdę aspiruje w 4 warstwach: życie, tożsamość, sukces i uznanie.",
+    prompt: `Działaj jak starszy konsultant głębokich motywacji.
 
-Dame:
-- Producto.
-- Meta grande del cliente.
-- Cambio de vida deseado.
+Podaj:
+- Produkt.
+- Wielki cel klienta.
+- Pożądaną zmianę życia.
 
-Genera:
-1) Aspiración principal profunda.
-2) Aspiraciones secundarias (identidad, estatus, estilo de vida).
-3) Insight de qué representa el producto para esa aspiración.
-4) Mensaje emocional que resuene con su visión de vida.`,
+Wygeneruj:
+1) Główną, głęboką aspirację.
+2) Aspiracje poboczne (tożsamość, status, styl życia).
+3) Insight, co produkt reprezentuje dla tej aspiracji.
+4) Emocjonalny komunikat, który rezonuje z jego wizją życia.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-022",
     title:
-      "Buyer persona basado en proceso de toma de decisiones lento vs rápido",
-    area: "Negocios & Emprendimiento",
+      "Buyer persona oparta na wolnym vs szybkim procesie decyzyjnym",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define si decide por intuición (Sistema 1) o análisis (Sistema 2).",
-    prompt: `Actúa como consultor experto en neurociencia del consumidor.
+      "Określa, czy decyduje intuicyjnie (System 1) czy analitycznie (System 2).",
+    prompt: `Działaj jak konsultant neuronauki konsumenta.
 
-Dame:
-- Producto.
-- Precio.
-- Tipo de cliente.
+Podaj:
+- Produkt.
+- Cenę.
+- Typ klienta.
 
-Genera:
-1) Sistema dominante (rápido o lento).
-2) Cómo construir mensajes para su sistema cognitivo.
-3) Riesgos de saturar con información.
-4) Mensaje ideal para activar su decisión.`,
+Wygeneruj:
+1) Dominujący system (szybki lub wolny).
+2) Jak budować komunikaty pod jego system poznawczy.
+3) Ryzyka przeciążenia informacją.
+4) Idealny komunikat uruchamiający decyzję.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-023",
     title:
-      "Buyer persona basado en niveles de riesgo y tolerancia a la incertidumbre",
-    area: "Negocios & Emprendimiento",
+      "Buyer persona oparta na poziomie ryzyka i tolerancji niepewności",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
-    summary: "Define si el cliente es conservador, equilibrado o audaz.",
-    prompt: `Actúa como consultor experto en comportamiento ante riesgo.
+    summary: "Określa, czy klient jest konserwatywny, zrównoważony czy odważny.",
+    prompt: `Działaj jak konsultant zachowań wobec ryzyka.
 
-Dame:
-- Producto.
-- Riesgo percibido.
-- Tipo de cliente.
+Podaj:
+- Produkt.
+- Postrzegane ryzyko.
+- Typ klienta.
 
-Genera:
-1) Nivel de tolerancia al riesgo.
-2) Miedos reales que detienen su decisión.
-3) Cómo comunicar según su perfil de riesgo.
-4) Obligatorias señales de seguridad para convencerlo.`,
+Wygeneruj:
+1) Poziom tolerancji ryzyka.
+2) Realne lęki, które hamują decyzję.
+3) Jak komunikować się według profilu ryzyka.
+4) Obowiązkowe sygnały bezpieczeństwa, by go przekonać.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-024",
-    title: "Buyer persona basado en el mapa de tensiones internas",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona oparta na mapie wewnętrznych napięć",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
-    summary: "Define conflictos internos del cliente que afectan su compra.",
-    prompt: `Actúa como consultor experto en tensiones psicológicas.
+    summary: "Definiuje wewnętrzne konflikty klienta wpływające na zakup.",
+    prompt: `Działaj jak konsultant napięć psychologicznych.
 
-Dame:
-- Producto.
-- Problema interno del cliente.
-- Duda o contradicción principal.
+Podaj:
+- Produkt.
+- Wewnętrzny problem klienta.
+- Główną wątpliwość lub sprzeczność.
 
-Genera:
-1) Tensión interna principal.
-2) Micro tensiones que lo confunden.
-3) Insight emocional raíz del conflicto.
-4) Mensaje que libera esa tensión y activa la compra.`,
+Wygeneruj:
+1) Główne napięcie wewnętrzne.
+2) Mikro-napięcia, które go mylą.
+3) Rdzeniowy insight emocjonalny konfliktu.
+4) Komunikat, który uwalnia napięcie i uruchamia zakup.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-025",
-    title: "Buyer persona basado en patrones de comportamiento repetitivo",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona oparta na wzorcach powtarzalnych zachowań",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define hábitos repetitivos que influyen en la decisión de compra.",
-    prompt: `Actúa como analista de patrones humanos.
+      "Definiuje powtarzalne nawyki wpływające na decyzję zakupową.",
+    prompt: `Działaj jak analityk wzorców ludzkich.
 
-Dame:
-- Producto.
-- Rutina diaria o semanal del cliente.
-- Punto exacto donde aparece el dolor.
+Podaj:
+- Produkt.
+- Dzienną lub tygodniową rutynę klienta.
+- Dokładny moment, w którym pojawia się ból.
 
-Genera:
-1) Patrón de comportamiento.
-2) Disparadores que mantienen ese patrón.
-3) Qué romper del patrón para activar compra.
-4) Mensaje que encaje en su rutina.`,
+Wygeneruj:
+1) Wzorzec zachowania.
+2) Wyzwalacze podtrzymujące ten wzorzec.
+3) Co trzeba przełamać we wzorcu, aby uruchomić zakup.
+4) Komunikat, który pasuje do jego rutyny.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-026",
-    title: "Buyer persona para clientes hiper racionales (Analytical Persona)",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona dla klientów hiper racjonalnych (Analytical Persona)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define un buyer persona que exige datos, pruebas, comparaciones y claridad extrema.",
-    prompt: `Actúa como consultor B2B técnico.
+      "Definiuje buyer personę, która wymaga danych, dowodów, porównań i ekstremalnej klarowności.",
+    prompt: `Działaj jak techniczny konsultant B2B.
 
-Dame:
-- Producto.
-- Datos disponibles.
-- Mercado.
+Podaj:
+- Produkt.
+- Dostępne dane.
+- Rynek.
 
-Genera:
-1) Perfil hiper racional.
-2) Dudas analíticas comunes.
-3) Mensaje basado en datos que lo convence.
-4) Comparaciones y métricas clave para venderle.`,
+Wygeneruj:
+1) Profil hiper racjonalny.
+2) Typowe wątpliwości analityczne.
+3) Komunikat oparty na danych, który go przekona.
+4) Kluczowe porównania i metryki, by mu sprzedać.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-027",
-    title: "Buyer persona para clientes hiper emocionales (Emotional Persona)",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona dla klientów hiper emocjonalnych (Emotional Persona)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
-    summary: "Define un avatar que actúa según emociones intensas, no lógica.",
-    prompt: `Actúa como experto en comportamiento emocional.
+    summary: "Definiuje avatar, który działa w oparciu o intensywne emocje, nie logikę.",
+    prompt: `Działaj jak ekspert zachowań emocjonalnych.
 
-Dame:
-- Producto.
-- Emoción dominante del cliente.
-- Contexto donde surge.
+Podaj:
+- Produkt.
+- Dominującą emocję klienta.
+- Kontekst, w którym powstaje.
 
-Genera:
-1) Perfil emocional.
-2) 5 triggers emocionales dominantes.
-3) Miedos y deseos no racionales.
-4) Mensajes emocionales que lo impulsan a comprar.`,
+Wygeneruj:
+1) Profil emocjonalny.
+2) 5 dominujących wyzwalaczy emocjonalnych.
+3) Nieracjonalne lęki i pragnienia.
+4) Emocjonalne komunikaty, które popychają go do zakupu.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-028",
-    title: "Buyer persona basado en arquetipos de compra (The 7 Buyer Types)",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona oparta na archetypach zakupowych (The 7 Buyer Types)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Identifica si es analítico, impulsivo, práctico, emocional, tradicional, innovador o escéptico.",
-    prompt: `Actúa como consultor experto en perfiles de compradores.
+      "Identyfikuje, czy jest analityczny, impulsywny, praktyczny, emocjonalny, tradycyjny, innowacyjny czy sceptyczny.",
+    prompt: `Działaj jak konsultant profili kupujących.
 
-Dame:
-- Producto.
-- Precio.
-- Mercado.
+Podaj:
+- Produkt.
+- Cenę.
+- Rynek.
 
-Genera:
-1) Tipo de comprador dominante.
-2) Miedos típicos según su tipo.
-3) Cómo persuadirlo.
-4) Mensaje y tono ideal para ese tipo.`,
+Wygeneruj:
+1) Dominujący typ kupującego.
+2) Typowe lęki według typu.
+3) Jak go przekonać.
+4) Idealny komunikat i ton dla tego typu.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-029",
-    title: "Buyer persona basado en barreras cognitivas y racionales",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona oparta na barierach poznawczych i racjonalnych",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define bloqueos mentales que impiden entender el valor del producto.",
-    prompt: `Actúa como experto en neuroventa.
+      "Definiuje blokady mentalne uniemożliwiające zrozumienie wartości produktu.",
+    prompt: `Działaj jak ekspert neuro-sprzedaży.
 
-Dame:
-- Producto.
-- Explicación actual del valor.
-- Cliente objetivo.
+Podaj:
+- Produkt.
+- Aktualne wyjaśnienie wartości.
+- Docelowego klienta.
 
-Genera:
-1) Barreras cognitivas del cliente.
-2) Frases que no entiende o no resuenan.
-3) Insight que destraba la claridad.
-4) Nueva forma de explicar el producto.`,
+Wygeneruj:
+1) Bariery poznawcze klienta.
+2) Zdania, których nie rozumie lub które nie rezonują.
+3) Insight odblokowujący klarowność.
+4) Nowy sposób wyjaśnienia produktu.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-030",
-    title: "Buyer persona según su relación con el tiempo (Temporal Persona)",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona według relacji z czasem (Temporal Persona)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
-    summary: "Define si compra por urgencia, conveniencia o largo plazo.",
-    prompt: `Actúa como consultor experto en comportamiento temporal.
+    summary: "Określa, czy kupuje z pilności, wygody czy z myślą długoterminową.",
+    prompt: `Działaj jak konsultant zachowań temporalnych.
 
-Dame:
-- Producto.
-- Tiempo en que se ve el resultado.
-- Tipo de cliente.
+Podaj:
+- Produkt.
+- Czas, po którym widać rezultat.
+- Typ klienta.
 
-Genera:
-1) Perfil temporal.
-   - Cortoplacista
-   - Medioplacista
-   - Long-term
-2) Riesgos según su enfoque temporal.
-3) Mensaje ideal para su horizonte de tiempo.
-4) CTA adaptado a su perfil temporal.`,
+Wygeneruj:
+1) Profil temporalny:
+   - Krótkoterminowy
+   - Średnioterminowy
+   - Długoterminowy
+2) Ryzyka według podejścia do czasu.
+3) Idealny komunikat dla jego horyzontu czasowego.
+4) CTA dopasowane do profilu temporalnego.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-031",
-    title: "Buyer persona basado en narrativa personal (Life Story Persona)",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona oparta na osobistej narracji (Life Story Persona)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define cómo su historia de vida influye en sus decisiones de compra.",
-    prompt: `Actúa como consultor experto en narrativa personal.
+      "Definiuje, jak historia życia wpływa na decyzje zakupowe.",
+    prompt: `Działaj jak konsultant osobistej narracji.
 
-Dame:
-- Producto.
-- Historia de vida del cliente (breve).
-- Situación actual.
+Podaj:
+- Produkt.
+- Historię życia klienta (krótko).
+- Aktualną sytuację.
 
-Genera:
-1) Narrativa interna del cliente.
-2) Punto exacto donde tu producto encaja en su historia.
-3) Mensaje clave basado en su narrativa.
-4) Frases que lo hacen sentir “este producto es para mí”.`,
+Wygeneruj:
+1) Wewnętrzną narrację klienta.
+2) Dokładny moment, w którym produkt pasuje do jego historii.
+3) Kluczowy komunikat oparty na narracji.
+4) Zdania, które sprawiają, że czuje: „ten produkt jest dla mnie”.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-032",
     title:
-      "Buyer persona basado en arquitectura de necesidades (Maslow + modernizado)",
-    area: "Negocios & Emprendimiento",
+      "Buyer persona oparta na architekturze potrzeb (Maslow + unowocześniony)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define necesidades fisiológicas, emocionales, psicológicas y de autorrealización.",
-    prompt: `Actúa como consultor experto en jerarquía de motivaciones humanas.
+      "Definiuje potrzeby fizjologiczne, emocjonalne, psychologiczne i samorealizacji.",
+    prompt: `Działaj jak konsultant hierarchii ludzkich motywacji.
 
-Dame:
-- Producto.
-- Necesidad que cubre.
-- Contexto.
+Podaj:
+- Produkt.
+- Potrzebę, którą zaspokaja.
+- Kontekst.
 
-Genera:
-1) Nivel de necesidad según Maslow.
-2) Necesidades modernas asociadas (estatus, narrativa, estética, autonomía).
-3) Insight profundo del por qué esa necesidad importa.
-4) Mensaje alineado al nivel real.`,
+Wygeneruj:
+1) Poziom potrzeby według Maslowa.
+2) Powiązane nowoczesne potrzeby (status, narracja, estetyka, autonomia).
+3) Głęboki insight, dlaczego ta potrzeba ma znaczenie.
+4) Komunikat dopasowany do realnego poziomu.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-033",
     title:
-      "Buyer persona basado en su relación con el dinero (Money Mindset Persona)",
-    area: "Negocios & Emprendimiento",
+      "Buyer persona oparta na relacji z pieniędzmi (Money Mindset Persona)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define si es ahorrador, inversionista, gastador emocional o comprador estratégico.",
-    prompt: `Actúa como consultor experto en psicología financiera.
+      "Określa, czy jest oszczędzający, inwestor, emocjonalny wydający czy strategiczny kupujący.",
+    prompt: `Działaj jak konsultant psychologii finansów.
 
-Dame:
-- Producto.
-- Precio.
-- Nivel socioeconómico del cliente.
+Podaj:
+- Produkt.
+- Cenę.
+- Poziom społeczno-ekonomiczny klienta.
 
-Genera:
-1) Money mindset dominante.
-2) Miedos y comportamientos financieros asociados.
-3) Cómo comunicar valor según su relación con el dinero.
-4) Mensaje ideal para activar su compra.`,
+Wygeneruj:
+1) Dominujący money mindset.
+2) Powiązane lęki i zachowania finansowe.
+3) Jak komunikować wartość według relacji z pieniędzmi.
+4) Idealny komunikat uruchamiający zakup.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-034",
-    title: "Buyer persona basado en creencias limitantes profundas",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona oparta na głębokich ograniczających przekonaniach",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
-    summary: "Identifica creencias que bloquean decisiones y cómo romperlas.",
-    prompt: `Actúa como consultor experto en insight therapy aplicada a consumo.
+    summary: "Identyfikuje przekonania blokujące decyzje i jak je przełamać.",
+    prompt: `Działaj jak konsultant – ekspert insight therapy zastosowanej do konsumpcji.
 
-Dame:
-- Cliente.
-- Producto.
-- Duda o miedo profundo.
+Podaj:
+- Klienta.
+- Produkt.
+- Głęboką wątpliwość lub lęk.
 
-Genera:
-1) Creencia limitante principal.
-2) De dónde proviene.
-3) Cómo afecta su compra.
-4) Mensaje diseñado para romper esa creencia.`,
+Wygeneruj:
+1) Główne ograniczające przekonanie.
+2) Skąd się bierze.
+3) Jak wpływa na zakup.
+4) Komunikat zaprojektowany, by przełamać to przekonanie.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-035",
-    title:
-      "Buyer persona para productos altamente disruptivos (Innovation Persona)",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona dla produktów wysoce przełomowych (Innovation Persona)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define el cliente capaz de adoptar innovación antes que el mercado.",
-    prompt: `Actúa como consultor en adopción de innovaciones.
+      "Definiuje klienta zdolnego adoptować innowację wcześniej niż rynek.",
+    prompt: `Działaj jak konsultant adopcji innowacji.
 
-Dame:
-- Producto disruptivo.
-- Riesgo percibido.
-- Beneficio innovador.
+Podaj:
+- Przełomowy produkt.
+- Postrzegane ryzyko.
+- Innowacyjną korzyść.
 
-Genera:
-1) Innovator persona.
-2) Early adopter persona.
-3) Motivadores de adopción rápida.
-4) Mensaje que destaca la novedad sin generar miedo.`,
+Wygeneruj:
+1) Innovator personę.
+2) Early adopter personę.
+3) Motywatory szybkiej adopcji.
+4) Komunikat podkreślający nowość bez wzbudzania strachu.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-036",
     title:
-      "Buyer persona basado en mapa de estímulos sensoriales (Sensorial Persona)",
-    area: "Negocios & Emprendimiento",
+      "Buyer persona oparta na mapie bodźców sensorycznych (Sensorial Persona)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define qué estímulos sensoriales activan su interés (visual, auditivo, kinestésico).",
-    prompt: `Actúa como consultor experto en neuromarketing sensorial.
+      "Definiuje, jakie bodźce sensoryczne uruchamiają zainteresowanie (wzrokowe, słuchowe, kinestetyczne).",
+    prompt: `Działaj jak konsultant neuromarketingu sensorycznego.
 
-Dame:
-- Producto.
-- Estilo visual o sensorial del cliente.
-- Tipo de experiencia deseada.
+Podaj:
+- Produkt.
+- Styl wizualny lub sensoryczny klienta.
+- Pożądany typ doświadczenia.
 
-Genera:
-1) Estilo sensorial dominante.
-2) Cómo influir desde ese canal.
-3) Mensajes alineados al estímulo sensorial.
-4) Estímulos que NO funcionan con este perfil.`,
+Wygeneruj:
+1) Dominujący styl sensoryczny.
+2) Jak wpływać przez ten kanał.
+3) Komunikaty dopasowane do bodźca sensorycznego.
+4) Bodźce, które NIE działają na ten profil.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-037",
-    title: "Buyer persona basado en fricciones internas y externas",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona oparta na tarciach wewnętrznych i zewnętrznych",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define fricciones psicológicas e influencias externas que afectan la compra.",
-    prompt: `Actúa como consultor en fricción cognitiva y social.
+      "Definiuje tarcia psychologiczne i wpływy zewnętrzne, które wpływają na zakup.",
+    prompt: `Działaj jak konsultant tarcia poznawczego i społecznego.
 
-Dame:
-- Producto.
-- Cliente ideal.
-- Obstáculo interno.
-- Obstáculo externo.
+Podaj:
+- Produkt.
+- Idealnego klienta.
+- Wewnętrzną przeszkodę.
+- Zewnętrzną przeszkodę.
 
-Genera:
-1) Fricción interna.
-2) Fricción externa.
-3) Insight sobre la verdadera resistencia.
-4) Mensaje para eliminar ambas fricciones.`,
+Wygeneruj:
+1) Tarcie wewnętrzne.
+2) Tarcie zewnętrzne.
+3) Insight o prawdziwym oporze.
+4) Komunikat usuwający oba tarcia.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-038",
     title:
-      "Buyer persona basado en nivel de madurez del problema (Problem Maturity Person)",
-    area: "Negocios & Emprendimiento",
+      "Buyer persona oparta na poziomie dojrzałości problemu (Problem Maturity Person)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Define si el cliente está inconsciente, consciente, considera opciones o busca solución urgente.",
-    prompt: `Actúa como consultor experto en problem maturity.
+      "Określa, czy klient jest nieświadomy, świadomy, rozważa opcje czy szuka pilnego rozwiązania.",
+    prompt: `Działaj jak konsultant dojrzałości problemu.
 
-Dame:
-- Producto.
-- Problema.
-- Situación actual del cliente.
+Podaj:
+- Produkt.
+- Problem.
+- Aktualną sytuację klienta.
 
-Genera:
-1) Nivel de madurez del problema.
-2) Señales que confirman su nivel.
-3) Mensajes para moverlo a acción.
-4) CTA ideal según madurez.`,
+Wygeneruj:
+1) Poziom dojrzałości problemu.
+2) Sygnały potwierdzające poziom.
+3) Komunikaty, by przesunąć go do działania.
+4) Idealne CTA według dojrzałości.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-039",
-    title:
-      "Buyer persona basado en su estilo de aprendizaje (Learning Persona)",
-    area: "Negocios & Emprendimiento",
+    title: "Buyer persona oparta na stylu uczenia się (Learning Persona)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
-    summary: "Define si aprende mejor con visual, práctica, teoría o ejemplos.",
-    prompt: `Actúa como consultor experto en estilos de aprendizaje.
+    summary: "Określa, czy uczy się najlepiej przez obraz, praktykę, teorię czy przykłady.",
+    prompt: `Działaj jak konsultant stylów uczenia się.
 
-Dame:
-- Producto educativo o informativo.
-- Cliente.
-- Formato actual del producto.
+Podaj:
+- Produkt edukacyjny lub informacyjny.
+- Klienta.
+- Aktualny format produktu.
 
-Genera:
-1) Estilo de aprendizaje dominante.
-2) Cómo influir en ese estilo.
-3) Mensaje recomendado según aprendizaje.
-4) Estructura ideal del contenido para convencerlo.`,
+Wygeneruj:
+1) Dominujący styl uczenia się.
+2) Jak wpływać na ten styl.
+3) Rekomendowany komunikat według stylu.
+4) Idealną strukturę treści, aby go przekonać.`,
     thumbnail: "",
   },
   {
     id: "negocio-buyer-040",
     title:
-      "Buyer persona basado en su narrativa de éxito personal (Success Persona)",
-    area: "Negocios & Emprendimiento",
+      "Buyer persona oparta na osobistej narracji sukcesu (Success Persona)",
+    area: "Biznes i Przedsiębiorczość",
     category: "Buyer Persona",
     summary:
-      "Identifica cómo define el éxito y cómo tu producto lo acerca a esa visión.",
-    prompt: `Actúa como consultor experto en definición de éxito.
+      "Identyfikuje, jak definiuje sukces i jak produkt zbliża go do tej wizji.",
+    prompt: `Działaj jak konsultant definicji sukcesu.
 
-Dame:
-- Producto.
-- Visión de éxito del cliente.
-- Obstáculo actual.
+Podaj:
+- Produkt.
+- Wizję sukcesu klienta.
+- Aktualną przeszkodę.
 
-Genera:
-1) Success persona.
-2) Insight profundo de por qué quiere ese éxito.
-3) Cómo tu producto representa un puente hacia esa visión.
-4) Mensaje que alinee el producto con su futuro deseado.`,
+Wygeneruj:
+1) Success personę.
+2) Głęboki insight, dlaczego chce tego sukcesu.
+3) Jak produkt jest mostem do tej wizji.
+4) Komunikat, który wyrównuje produkt z jego pożądaną przyszłością.`,
     thumbnail: "",
   },
 ];

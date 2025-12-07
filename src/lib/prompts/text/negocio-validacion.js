@@ -1,831 +1,830 @@
 export const textPromptsNegocioValidacion = [
   {
     id: "negocio-validacion-001",
-    title: "Validación completa de idea con análisis 360°",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Pełna walidacja pomysłu z analizą 360°",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Framework total para validar una idea antes de invertir tiempo o dinero.",
-    prompt: `Actúa como un consultor senior de startups.
+      "Kompletny framework do zweryfikowania pomysłu, zanim zainwestujesz czas lub pieniądze.",
+    prompt: `Działaj jak starszy konsultant startupowy.
 
-Dame:
-- Idea de negocio.
-- Tipo de mercado.
-- Público objetivo.
-- Nivel de madurez de la idea (concepto, prototipo, MVP).
+Podaj:
+- Pomysł na biznes.
+- Typ rynku.
+- Grupę docelową.
+- Poziom dojrzałości pomysłu (koncepcja, prototyp, MVP).
 
-Genera:
-1) Diagnóstico de viabilidad inicial.
-2) Riesgos principales y cómo mitigarlos.
-3) Hipótesis críticas a validar.
-4) 5 experimentos de validación rápidos (Lean + cavar profundo).
-5) Señales de que debe seguirse y señales de que debe descartarse.`,
+Wygeneruj:
+1) Wstępną diagnozę wykonalności.
+2) Główne ryzyka i jak je zminimalizować.
+3) Krytyczne hipotezy do zweryfikowania.
+4) 5 szybkich eksperymentów walidacyjnych (Lean + głębokie „dokopanie się” do sedna).
+5) Sygnały, że warto iść dalej, oraz sygnały, że trzeba to odrzucić.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-002",
-    title: "Validación express con métodos Lean Startup",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
-    summary: "Plan de validación rápida basado en hipótesis y experimentos.",
-    prompt: `Actúa como experto en Lean Startup.
+    title: "Ekspresowa walidacja metodami Lean Startup",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
+    summary: "Plan szybkiej walidacji oparty o hipotezy i eksperymenty.",
+    prompt: `Działaj jak ekspert Lean Startup.
 
-Dame:
-- Idea.
-- Público.
-- Problema que resuelve.
+Podaj:
+- Pomysł.
+- Grupę odbiorców.
+- Problem, który rozwiązujesz.
 
-Genera:
-1) 3 hipótesis prioritarias.
-2) 3 experimentos Lean de menos de 48h.
-3) Métricas clave para medir éxito.
-4) Señales de ajuste o pivot.`,
+Wygeneruj:
+1) 3 priorytetowe hipotezy.
+2) 3 eksperymenty Lean do wykonania w mniej niż 48 h.
+3) Kluczowe metryki do mierzenia sukcesu.
+4) Sygnały dopasowania albo pivotu.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-003",
-    title: "Validación profunda del problema real",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
-    summary: "Analiza si el problema es real, doloroso y frecuente.",
-    prompt: `Actúa como investigador de experiencia de cliente.
+    title: "Głęboka walidacja realnego problemu",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
+    summary: "Analizuje, czy problem jest realny, bolesny i częsty.",
+    prompt: `Działaj jak badacz doświadczeń klienta (Customer Experience).
 
-Dame:
-- Problema.
-- Tipo de usuario.
-- Contexto donde ocurre.
+Podaj:
+- Problem.
+- Typ użytkownika.
+- Kontekst, w którym występuje.
 
-Genera:
-1) Análisis de gravedad del problema.
-2) Frecuencia del dolor.
-3) Consecuencias de no resolverlo.
-4) Señales de que el problema es lo suficientemente fuerte para pagar.
-5) Preguntas de validación para entrevistas reales.`,
+Wygeneruj:
+1) Analizę dotkliwości problemu.
+2) Częstotliwość bólu.
+3) Konsekwencje nierozwiązania problemu.
+4) Sygnały, że problem jest na tyle silny, że ludzie zapłacą.
+5) Pytania walidacyjne do prawdziwych wywiadów.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-004",
-    title: "Validación por entrevistas estratégicas",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
-    summary: "Crea entrevistas que revelan si hay demanda real.",
-    prompt: `Actúa como experto en Customer Discovery.
+    title: "Walidacja przez strategiczne wywiady",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
+    summary: "Tworzy wywiady, które ujawniają, czy istnieje realny popyt.",
+    prompt: `Działaj jak ekspert Customer Discovery.
 
-Dame:
-- Idea.
-- Segmento de mercado.
-- Objetivo de la entrevista.
+Podaj:
+- Pomysł.
+- Segment rynku.
+- Cel wywiadu.
 
-Genera:
-1) Guion de entrevista de 12 preguntas.
-2) Preguntas para profundizar en dolores ocultos.
-3) Señales positivas y señales rojas.
-4) Cómo interpretar patrones reales.`,
+Wygeneruj:
+1) Scenariusz wywiadu: 12 pytań.
+2) Pytania pogłębiające ukryte bóle.
+3) Sygnały pozytywne i czerwone flagi.
+4) Jak interpretować prawdziwe wzorce.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-005",
-    title: "Validación cuantitativa con análisis de mercado",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
-    summary: "Analiza demanda potencial con datos estimados y suelos mínimos.",
-    prompt: `Actúa como analista de mercado.
+    title: "Walidacja ilościowa z analizą rynku",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
+    summary: "Analizuje potencjalny popyt na podstawie szacunków i minimalnych progów.",
+    prompt: `Działaj jak analityk rynku.
 
-Dame:
-- Nicho.
-- Tipo de producto.
-- País o región.
+Podaj:
+- Niszę.
+- Typ produktu.
+- Kraj lub region.
 
-Genera:
-1) Tamaño de mercado estimado.
-2) Subnichos más calientes.
-3) Métricas de demanda mínima viable.
-4) Indicadores para estimar tracción temprana.`,
+Wygeneruj:
+1) Szacowany rozmiar rynku.
+2) Najgorętsze subnisze.
+3) Metryki minimalnego, żywotnego popytu (minimum viable demand).
+4) Wskaźniki do szacowania wczesnej trakcji.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-006",
-    title: "Validación mediante prototipo o MVP",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja poprzez prototyp lub MVP",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Define cómo crear un MVP con el mínimo esfuerzo y máximo aprendizaje.",
-    prompt: `Actúa como consultor de producto.
+      "Definiuje, jak stworzyć MVP minimalnym wysiłkiem i z maksymalnym uczeniem się.",
+    prompt: `Działaj jak konsultant produktowy.
 
-Dame:
-- Idea.
-- Objetivo del MVP.
-- Recursos disponibles.
+Podaj:
+- Pomysł.
+- Cel MVP.
+- Dostępne zasoby.
 
-Genera:
-1) MVP mínimo real.
-2) MVP intermedio.
-3) Experimentos de validación para cada MVP.
-4) Métricas de éxito.
-5) Plan de iteración rápida.`,
+Wygeneruj:
+1) Naprawdę minimalne MVP.
+2) MVP pośrednie.
+3) Eksperymenty walidacyjne dla każdego MVP.
+4) Metryki sukcesu.
+5) Plan szybkiej iteracji.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-007",
-    title: "Validación por pre-ventas",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja przez przedsprzedaż",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Crea una estrategia de pre-venta para validar si la gente realmente pagará.",
-    prompt: `Actúa como consultor en ventas tempranas.
+      "Tworzy strategię przedsprzedaży, aby sprawdzić, czy ludzie naprawdę zapłacą.",
+    prompt: `Działaj jak konsultant sprzedaży na wczesnym etapie.
 
-Dame:
-- Producto/servicio.
-- Segmento.
-- Precio estimado.
+Podaj:
+- Produkt/usługę.
+- Segment.
+- Szacowaną cenę.
 
-Genera:
-1) Guion de pre-venta.
-2) Oferta irresistible para validación.
-3) Objecciones y cómo manejarlas.
-4) Señales duras de validación monetaria.`,
+Wygeneruj:
+1) Skrypt przedsprzedażowy.
+2) Nieodpartą ofertę do walidacji.
+3) Obiekcje i jak je obsłużyć.
+4) Twarde sygnały walidacji monetarnej.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-008",
-    title: "Validación con landing page estratégica",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
-    summary: "Crea una landing optimizada para medir intención real.",
-    prompt: `Actúa como estratega CRO.
+    title: "Walidacja przez strategiczny landing page",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
+    summary: "Tworzy landing zoptymalizowany do mierzenia realnej intencji.",
+    prompt: `Działaj jak strateg CRO.
 
-Dame:
-- Idea.
-- Beneficio principal.
-- Público.
+Podaj:
+- Pomysł.
+- Główną korzyść.
+- Odbiorców.
 
-Genera:
-1) Estructura completa de landing.
-2) Test A/B recomendados.
-3) Métricas de validación (CTR, CTA, scroll, conversiones).
-4) Indicadores de que hay demanda.`,
+Wygeneruj:
+1) Kompletną strukturę landing page’a.
+2) Rekomendowane testy A/B.
+3) Metryki walidacji (CTR, CTA, scroll, konwersje).
+4) Wskaźniki, że istnieje popyt.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-009",
-    title: "Validación a través de prototipo no funcional",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja przez niefunkcjonalny prototyp",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Simula el producto sin construirlo para obtener retroalimentación real.",
-    prompt: `Actúa como consultor de prototipado.
+      "Symuluje produkt bez budowania go, aby zebrać realny feedback.",
+    prompt: `Działaj jak konsultant prototypowania.
 
-Dame:
-- Producto.
-- Público.
+Podaj:
+- Produkt.
+- Odbiorców.
 
-Genera:
-1) Prototipo no funcional (mockups, simulación, demo).
-2) Mensajes clave para presentarlo.
-3) Preguntas para validar interés.
-4) Señales de compra real.`,
+Wygeneruj:
+1) Niefunkcjonalny prototyp (mockupy, symulacja, demo).
+2) Kluczowe komunikaty do prezentacji.
+3) Pytania do walidacji zainteresowania.
+4) Sygnały realnego zakupu.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-010",
-    title: "Validación por test de humo (Smoke Test)",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
-    summary: "Valida demanda con un anuncio que mide clics e intención.",
-    prompt: `Actúa como experto en validación basada en ads.
+    title: "Walidacja testem dymnym (Smoke Test)",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
+    summary: "Waliduje popyt reklamą, która mierzy kliknięcia i intencję.",
+    prompt: `Działaj jak ekspert walidacji opartej o reklamy.
 
-Dame:
-- Producto.
-- Público objetivo.
-- Beneficio principal.
+Podaj:
+- Produkt.
+- Grupę docelową.
+- Główną korzyść.
 
-Genera:
-1) Copy para anuncio.
-2) 3 titulares alternativos.
-3) Métricas clave para determinar validación.
-4) Interpretación de resultados.`,
+Wygeneruj:
+1) Copy do reklamy.
+2) 3 alternatywne nagłówki.
+3) Kluczowe metryki, aby uznać walidację.
+4) Interpretację wyników.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-011",
-    title: "Validación por análisis de competencia profunda",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja przez pogłębioną analizę konkurencji",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Evalúa si puedes entrar a un mercado saturado o si no vale la pena.",
-    prompt: `Actúa como consultor estratégico competitivo.
+      "Ocena, czy wejście na nasycony rynek ma sens, czy szkoda czasu.",
+    prompt: `Działaj jak strategiczny konsultant konkurencyjny.
 
-Dame:
-- Nicho.
-- Tipo de producto.
-- País/idioma.
+Podaj:
+- Niszę.
+- Typ produktu.
+- Kraj/język.
 
-Genera:
-1) Matriz competitiva clara.
-2) Diferenciales posibles.
-3) Riesgos de saturación.
-4) Oportunidades de océano azul.`,
+Wygeneruj:
+1) Czytelną macierz konkurencyjną.
+2) Możliwe wyróżniki.
+3) Ryzyka nasycenia.
+4) Szanse na „błękitny ocean”.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-012",
-    title: "Validación por pricing realista",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
-    summary: "Chequea si el precio es viable y si el mercado lo acepta.",
-    prompt: `Actúa como economista de precios.
+    title: "Walidacja przez realistyczny pricing",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
+    summary: "Sprawdza, czy cena jest wykonalna i czy rynek ją akceptuje.",
+    prompt: `Działaj jak ekonomista cen.
 
-Dame:
-- Producto.
-- Precio estimado.
-- Público.
+Podaj:
+- Produkt.
+- Szacowaną cenę.
+- Odbiorców.
 
-Genera:
-1) Elasticidad del precio estimada.
-2) Señales de que el precio es correcto.
-3) Estrategias de testeo del precio.
-4) Alternativas premium y low-ticket.`,
+Wygeneruj:
+1) Szacowaną elastyczność cenową.
+2) Sygnały, że cena jest właściwa.
+3) Strategie testowania ceny.
+4) Alternatywy premium i low-ticket.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-013",
-    title: "Validación emocional del cliente (deep insights)",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Emocjonalna walidacja klienta (deep insights)",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Identifica si la idea toca emociones fuertes que impulsan acción.",
-    prompt: `Actúa como experto en psicología del consumidor.
+      "Identyfikuje, czy pomysł dotyka silnych emocji, które napędzają działanie.",
+    prompt: `Działaj jak ekspert psychologii konsumenta.
 
-Dame:
-- Idea.
-- Perfil del cliente.
-- Dolor principal.
+Podaj:
+- Pomysł.
+- Profil klienta.
+- Główny ból.
 
-Genera:
-1) Insights emocionales ocultos.
-2) Motivaciones profundas.
-3) Riesgos emocionales del mercado.
-4) Señales de validación emocional.`,
+Wygeneruj:
+1) Ukryte insighty emocjonalne.
+2) Głębokie motywacje.
+3) Emocjonalne ryzyka rynku.
+4) Sygnały walidacji emocjonalnej.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-014",
-    title: "Validación por comunidades y demanda social",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
-    summary: " Prueba una idea dentro de comunidades reales sin gastar en ads.",
-    prompt: `Actúa como estratega de comunidades.
+    title: "Walidacja przez społeczności i popyt społeczny",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
+    summary: "Testuj pomysł w prawdziwych społecznościach bez wydawania na reklamy.",
+    prompt: `Działaj jak strateg społeczności.
 
-Dame:
-- Nicho.
-- Tipo de idea.
-- Plataforma (Facebook, Reddit, TikTok, Discord).
+Podaj:
+- Niszę.
+- Typ pomysłu.
+- Platformę (Facebook, Reddit, TikTok, Discord).
 
-Genera:
-1) Estrategia de publicación para validar.
-2) Preguntas que generan feedback honesto.
-3) Señales de que el mercado participa.
-4) Señales de rechazo.`,
+Wygeneruj:
+1) Strategię publikacji do walidacji.
+2) Pytania generujące szczery feedback.
+3) Sygnały, że rynek angażuje się.
+4) Sygnały odrzucenia.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-015",
-    title: "Validación por pilotos con usuarios reales",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
-    summary: "Diseña un piloto pequeño para validar usando usuarios reales.",
-    prompt: `Actúa como consultor de producto.
+    title: "Walidacja przez pilotaż z realnymi użytkownikami",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
+    summary: "Projektuje mały pilotaż do walidacji z prawdziwymi użytkownikami.",
+    prompt: `Działaj jak konsultant produktowy.
 
-Dame:
-- Producto.
-- Tamaño del piloto.
-- Público.
+Podaj:
+- Produkt.
+- Wielkość pilotażu.
+- Odbiorców.
 
-Genera:
-1) Diseño del piloto.
-2) Métricas esenciales del piloto.
-3) Riesgos y cómo medirlos.
-4) Señales de éxito vs error.`,
+Wygeneruj:
+1) Projekt pilotażu.
+2) Kluczowe metryki pilotażu.
+3) Ryzyka i jak je mierzyć.
+4) Sygnały sukcesu vs błędu.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-016",
-    title: "Validación por casos de uso reales",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
-    summary: "Valida si tu solución realmente encaja en escenarios reales.",
-    prompt: `Actúa como experto en diseño de producto.
+    title: "Walidacja przez realne przypadki użycia",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
+    summary: "Sprawdza, czy rozwiązanie pasuje do prawdziwych scenariuszy.",
+    prompt: `Działaj jak ekspert projektowania produktu.
 
-Dame:
-- Idea o producto.
-- Tipo de usuario.
+Podaj:
+- Pomysł lub produkt.
+- Typ użytkownika.
 
-Genera:
-1) 3 casos de uso reales.
-2) Limitaciones detectadas.
-3) Ajustes recomendados.
-4) Señales de encaje real.`,
+Wygeneruj:
+1) 3 realne przypadki użycia.
+2) Wykryte ograniczenia.
+3) Rekomendowane dopasowania.
+4) Sygnały realnego dopasowania.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-017",
-    title: "Validación por análisis de riesgos y barreras",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja przez analizę ryzyk i barier",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Identifica si tu negocio tiene obstáculos que lo vuelven inviable.",
-    prompt: `Actúa como consultor estratégico.
+      "Identyfikuje, czy pomysł ma przeszkody, które czynią go niewykonalnym.",
+    prompt: `Działaj jak konsultant strategiczny.
 
-Dame:
-- Idea.
-- Mercado.
-- Público.
+Podaj:
+- Pomysł.
+- Rynek.
+- Odbiorców.
 
-Genera:
-1) Lista de barreras reales.
-2) Riesgos graves vs moderados.
-3) Cómo resolver o evitar cada riesgo.
-4) Señales de que es momento de pivotar.`,
+Wygeneruj:
+1) Listę realnych barier.
+2) Ryzyka poważne vs umiarkowane.
+3) Jak rozwiązać lub ominąć każde ryzyko.
+4) Sygnały, że nadszedł czas na pivot.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-018",
-    title: "Validación por encaje problema–solución",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
-    summary: "Analiza si tu solución realmente resuelve el problema.",
-    prompt: `Actúa como consultor de innovación.
+    title: "Walidacja dopasowania problem–rozwiązanie",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
+    summary: "Analizuje, czy rozwiązanie faktycznie rozwiązuje problem.",
+    prompt: `Działaj jak konsultant innowacji.
 
-Dame:
-- Problema.
-- Solución propuesta.
+Podaj:
+- Problem.
+- Proponowane rozwiązanie.
 
-Genera:
-1) Análisis de encaje real.
-2) Debilidades del encaje.
-3) Hipótesis a validar.
-4) Métricas para confirmar encaje.`,
+Wygeneruj:
+1) Analizę realnego dopasowania.
+2) Słabe strony dopasowania.
+3) Hipotezy do walidacji.
+4) Metryki potwierdzające dopasowanie.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-019",
-    title: "Validación con mapa de tracción inicial",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja z mapą początkowej trakcji",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Define la hoja de ruta de tracción mínima para saber si vale la pena continuar.",
-    prompt: `Actúa como consultor de crecimiento.
+      "Definiuje minimalną roadmapę trakcji, aby wiedzieć, czy warto iść dalej.",
+    prompt: `Działaj jak konsultant wzrostu.
 
-Dame:
-- Idea.
-- Público.
-- Objetivo.
+Podaj:
+- Pomysł.
+- Odbiorców.
+- Cel.
 
-Genera:
-1) Tracción mínima necesaria.
-2) Canales más probables de éxito.
-3) Experimentos rápidos.
-4) Indicadores de abandono.`,
+Wygeneruj:
+1) Minimalną potrzebną trakcję.
+2) Najbardziej prawdopodobne kanały sukcesu.
+3) Szybkie eksperymenty.
+4) Wskaźniki porzucenia.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-020",
-    title: "Validación mediante encuestas estratégicas",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja poprzez strategiczne ankiety",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Crea encuestas que revelan intención real de compra, no solo opiniones.",
-    prompt: `Actúa como investigador de mercado.
+      "Tworzy ankiety, które ujawniają realną intencję zakupu, a nie tylko opinie.",
+    prompt: `Działaj jak badacz rynku.
 
-Dame:
-- Público.
-- Tipo de producto.
+Podaj:
+- Odbiorców.
+- Typ produktu.
 
-Genera:
-1) Encuesta de 10 preguntas de validación real (no opiniones vacías).
-2) Señales fuertes de intención de compra.
-3) Indicadores que invalidan la idea.
-4) Interpretación de resultados.`,
+Wygeneruj:
+1) Ankietę 10 pytań do prawdziwej walidacji (bez pustych opinii).
+2) Silne sygnały intencji zakupu.
+3) Wskaźniki unieważniające pomysł.
+4) Interpretację wyników.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-021",
-    title: "Validación por análisis de señales tempranas del mercado",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja przez analizę wczesnych sygnałów rynkowych",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Detecta señales débiles, patrones emergentes y oportunidades invisibles.",
-    prompt: `Actúa como analista senior de tendencias y mercados emergentes.
+      "Wykrywa słabe sygnały, wschodzące wzorce i niewidoczne szanse.",
+    prompt: `Działaj jak starszy analityk trendów i rynków wschodzących.
 
-Dame:
-- Idea.
-- Nicho.
-- Nivel de innovación (bajo, medio, disruptivo).
+Podaj:
+- Pomysł.
+- Niszę.
+- Poziom innowacji (niski, średni, przełomowy).
 
-Genera:
-1) Análisis de señales débiles del mercado.
-2) Tendencias que podrían potenciar o destruir la idea.
-3) Riesgos invisibles que un emprendedor novato no vería.
-4) Señales de validación basadas en comportamiento real del mercado.
-5) Lista de “patrones críticos” que deben confirmarse para continuar.`,
+Wygeneruj:
+1) Analizę słabych sygnałów rynkowych.
+2) Trendy, które mogą wzmocnić lub zniszczyć pomysł.
+3) Niewidoczne ryzyka, których początkujący przedsiębiorca nie zauważy.
+4) Sygnały walidacji oparte na realnych zachowaniach rynku.
+5) Listę „krytycznych wzorców”, które trzeba potwierdzić, by iść dalej.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-022",
-    title: "Validación por experimentos de fricción mínima",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja przez eksperymenty o minimalnym tarciu",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Crea microexperimentos reales para testear interés sin construir nada.",
-    prompt: `Actúa como consultor Lean experto en experimentación rápida.
+      "Tworzy realne mikroeksperymenty, by testować zainteresowanie bez budowania czegokolwiek.",
+    prompt: `Działaj jak konsultant Lean – ekspert szybkiej eksperymentacji.
 
-Dame:
-- Idea.
-- Público.
-- Canal más probable donde están los usuarios.
+Podaj:
+- Pomysł.
+- Odbiorców.
+- Najbardziej prawdopodobny kanał, gdzie są użytkownicy.
 
-Genera:
-1) 5 micro-experimentos de fricción mínima.
-2) Cómo ejecutar cada experimento en menos de 2h.
-3) Métricas para validar interés real.
-4) Señales tempranas de “esto sí importa al mercado”.`,
+Wygeneruj:
+1) 5 mikroeksperymentów o minimalnym tarciu.
+2) Jak wykonać każdy eksperyment w mniej niż 2 godziny.
+3) Metryki do walidacji realnego zainteresowania.
+4) Wczesne sygnały: „to naprawdę ma znaczenie dla rynku”.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-023",
-    title: "Validación profunda por análisis de no-usuarios",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Głęboka walidacja przez analizę nie-użytkowników",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Analiza por qué la gente NO compraría, el verdadero motivo oculto.",
-    prompt: `Actúa como consultor de insights negativos.
+      "Analizuje, dlaczego ludzie NIE kupią — prawdziwy ukryty powód.",
+    prompt: `Działaj jak konsultant od negatywnych insightów.
 
-Dame:
-- Idea.
-- Persona objetivo.
-- Objeción principal esperada.
+Podaj:
+- Pomysł.
+- Personę docelową.
+- Spodziewaną główną obiekcję.
 
-Genera:
-1) Mapa de no-usuarios: quién nunca compraría y por qué.
-2) Audit de objeciones profundas.
-3) Debilidades estructurales de la idea.
-4) Señales de que la idea está muerta antes de nacer.
-5) Alternativas para pivotear sin descartar todo.`,
+Wygeneruj:
+1) Mapę nie-użytkowników: kto nigdy nie kupi i dlaczego.
+2) Audyt głębokich obiekcji.
+3) Strukturalne słabości pomysłu.
+4) Sygnały, że pomysł jest martwy, zanim się urodzi.
+5) Alternatywy pivotu bez wyrzucania wszystkiego do kosza.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-024",
-    title: "Validación por simulación de escenarios reales del mercado",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja przez symulację realnych scenariuszy rynkowych",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Simula cómo reaccionaría el mercado ante tu idea en diferentes futuros.",
-    prompt: `Actúa como consultor estratégico futurista.
+      "Symuluje, jak rynek zareaguje na pomysł w różnych przyszłościach.",
+    prompt: `Działaj jak futurystyczny konsultant strategiczny.
 
-Dame:
-- Idea.
-- Mercado.
-- Horizonte de tiempo (1 año, 3 años, 5 años).
+Podaj:
+- Pomysł.
+- Rynek.
+- Horyzont czasu (1 rok, 3 lata, 5 lat).
 
-Genera:
-1) Escenario optimista.
-2) Escenario moderado.
-3) Escenario negativo.
-4) Señales tempranas para cada escenario.
-5) Ajustes recomendados para sobrevivir en todos.`,
+Wygeneruj:
+1) Scenariusz optymistyczny.
+2) Scenariusz umiarkowany.
+3) Scenariusz negatywny.
+4) Wczesne sygnały dla każdego scenariusza.
+5) Rekomendowane dopasowania, aby przetrwać w każdym z nich.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-025",
-    title:
-      "Validación por comportamiento real del usuario (behavioral validation)",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
-    summary: "Valida comportamientos reales, no palabras o encuestas.",
-    prompt: `Actúa como experto en behavioral economics.
+    title: "Walidacja przez realne zachowanie użytkownika (behavioral validation)",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
+    summary: "Waliduje zachowania, nie słowa ani ankiety.",
+    prompt: `Działaj jak ekspert ekonomii behawioralnej.
 
-Dame:
-- Producto.
-- Usuario.
-- Acción que quieres validar.
+Podaj:
+- Produkt.
+- Użytkownika.
+- Akcję, którą chcesz zwalidować.
 
-Genera:
-1) Experimentos basados en comportamiento.
-2) Señales de que el usuario realmente quiere lo que dices.
-3) Sesgos psicológicos relevantes.
-4) Señales de que los usuarios no actuarán aunque digan que sí.`,
+Wygeneruj:
+1) Eksperymenty oparte na zachowaniu.
+2) Sygnały, że użytkownik naprawdę chce tego, co mówisz.
+3) Istotne biasy psychologiczne.
+4) Sygnały, że użytkownicy nie zrobią tego, mimo że mówią „tak”.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-026",
-    title: "Validación por análisis de alternativas actuales del usuario",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja przez analizę aktualnych alternatyw użytkownika",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Analiza si tu solución supera lo que el usuario YA hace para resolver su problema.",
-    prompt: `Actúa como consultor de estrategia y competencia.
+      "Sprawdza, czy twoje rozwiązanie przewyższa to, co użytkownik JUŻ robi, by rozwiązać problem.",
+    prompt: `Działaj jak konsultant strategii i konkurencji.
 
-Dame:
-- Problema del usuario.
-- Solución propuesta.
-- Alternativas actuales del usuario (incluye improvisadas).
+Podaj:
+- Problem użytkownika.
+- Proponowane rozwiązanie.
+- Aktualne alternatywy użytkownika (także improwizowane).
 
-Genera:
-1) Comparación clara: alternativa vs tu solución.
-2) Ventajas reales vs ventajas percibidas.
-3) Riesgos de sustitución.
-4) Señales de que tu solución no es suficientemente mejor.`,
+Wygeneruj:
+1) Jasne porównanie: alternatywa vs twoje rozwiązanie.
+2) Realne przewagi vs przewagi postrzegane.
+3) Ryzyka substytucji.
+4) Sygnały, że twoje rozwiązanie nie jest wystarczająco lepsze.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-027",
-    title: "Validación por análisis de costo de oportunidad del cliente",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja przez analizę kosztu alternatywnego klienta",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Evalúa si el usuario realmente puede permitirse cambiar a tu solución.",
-    prompt: `Actúa como economista conductual.
+      "Ocena, czy użytkownik naprawdę może sobie pozwolić na zmianę na twoje rozwiązanie.",
+    prompt: `Działaj jak ekonomista behawioralny.
 
-Dame:
-- Producto.
-- Precio.
-- Usuario ideal.
+Podaj:
+- Produkt.
+- Cenę.
+- Idealnego użytkownika.
 
-Genera:
-1) Costo de oportunidad del cliente.
-2) Barreras ocultas a la decisión.
-3) Riesgos de adopción tardía.
-4) Señales de validación económica real.`,
+Wygeneruj:
+1) Koszt alternatywny klienta.
+2) Ukryte bariery decyzyjne.
+3) Ryzyka późnej adopcji.
+4) Sygnały realnej walidacji ekonomicznej.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-028",
-    title: "Validación por estrés competitivo (Stress Test)",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
-    summary: "Pone tu idea contra competidores en escenarios de alta presión.",
-    prompt: `Actúa como consultor estratégico de guerra competitiva.
+    title: "Walidacja przez stres-test konkurencyjny (Stress Test)",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
+    summary: "Stawia pomysł przeciw konkurentom w scenariuszach wysokiej presji.",
+    prompt: `Działaj jak strategiczny konsultant wojny konkurencyjnej.
 
-Dame:
-- Idea.
-- 3 competidores.
-- Diferencial principal.
+Podaj:
+- Pomysł.
+- 3 konkurentów.
+- Główny wyróżnik.
 
-Genera:
-1) Análisis de ataques competitivos posibles.
-2) Tu vulnerabilidad más peligrosa.
-3) Cómo sobrevivir y diferenciarte.
-4) Señales de que la idea resistirá la competencia.`,
+Wygeneruj:
+1) Analizę możliwych ataków konkurencji.
+2) Najniebezpieczniejszą podatność.
+3) Jak przetrwać i się wyróżnić.
+4) Sygnały, że pomysł wytrzyma presję konkurencyjną.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-029",
-    title: "Validación por encaje usuario–producto (Product–User Fit)",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja dopasowania użytkownik–produkt (Product–User Fit)",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Determina si tu producto encaja en el estilo de vida real del usuario.",
-    prompt: `Actúa como consultor de UX y comportamiento.
+      "Określa, czy produkt pasuje do realnego stylu życia użytkownika.",
+    prompt: `Działaj jak konsultant UX i zachowań.
 
-Dame:
-- Producto.
-- Usuario.
-- Contexto de uso.
+Podaj:
+- Produkt.
+- Użytkownika.
+- Kontekst użycia.
 
-Genera:
-1) Análisis de encaje con hábitos reales.
-2) Fricciones que impedirán adopción.
-3) Ajustes clave para encajar mejor.
-4) Señales de encaje fuerte o débil.`,
+Wygeneruj:
+1) Analizę dopasowania do realnych nawyków.
+2) Tarcia, które zablokują adopcję.
+3) Kluczowe zmiany dla lepszego dopasowania.
+4) Sygnały mocnego lub słabego dopasowania.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-030",
-    title: "Validación por análisis financiero mínimo viable (FMV)",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
-    summary: "Analiza si tu idea puede ser rentable o si jamás lo será.",
-    prompt: `Actúa como analista financiero.
+    title: "Walidacja przez minimalną analizę finansową (FMV)",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
+    summary: "Analizuje, czy pomysł może być rentowny, czy nigdy nie będzie.",
+    prompt: `Działaj jak analityk finansowy.
 
-Dame:
-- Idea.
-- Precio.
-- Costos base.
+Podaj:
+- Pomysł.
+- Cenę.
+- Bazowe koszty.
 
-Genera:
-1) Cálculo de rentabilidad mínima viable.
-2) Riesgos financieros más peligrosos.
-3) Sensibilidad al precio.
-4) Señales de que este negocio nunca escalará.`,
+Wygeneruj:
+1) Obliczenie minimalnej opłacalności.
+2) Najbardziej niebezpieczne ryzyka finansowe.
+3) Wrażliwość na cenę.
+4) Sygnały, że ten biznes nigdy się nie skaluje.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-031",
-    title: "Validación por análisis de adopción temprana (Early Adopters)",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja przez analizę wczesnych adopterów (Early Adopters)",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Encuentra si existen early adopters que impulsen el negocio desde el inicio.",
-    prompt: `Actúa como consultor de go-to-market.
+      "Sprawdza, czy istnieją early adopters, którzy popchną biznes na starcie.",
+    prompt: `Działaj jak konsultant go-to-market.
 
-Dame:
-- Idea.
-- Mercado.
-- Perfil de early adopter ideal.
+Podaj:
+- Pomysł.
+- Rynek.
+- Profil idealnego early adoptera.
 
-Genera:
-1) Identificación de early adopters reales.
-2) Cómo encontrarlos.
-3) Incentivo para que prueben y validen.
-4) Señales de que el mercado inicial existe de verdad.`,
+Wygeneruj:
+1) Identyfikację realnych early adopterów.
+2) Jak ich znaleźć.
+3) Zachętę, aby przetestowali i zwalidowali.
+4) Sygnały, że rynek początkowy naprawdę istnieje.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-032",
-    title: "Validación por experimentos pagados (Paid Validation)",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
-    summary: "Valida si la gente pagará ANTES de que exista el producto.",
-    prompt: `Actúa como consultor en monetización temprana.
+    title: "Walidacja przez płatne eksperymenty (Paid Validation)",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
+    summary: "Sprawdza, czy ludzie zapłacą ZANIM produkt powstanie.",
+    prompt: `Działaj jak konsultant wczesnej monetyzacji.
 
-Dame:
-- Producto.
-- Precio.
-- Público.
+Podaj:
+- Produkt.
+- Cenę.
+- Odbiorców.
 
-Genera:
-1) Estrategia de prueba pagada mínima (pre-venta, depósito, reserva).
-2) Copy y oferta para validar con pago real.
-3) Objetivos mínimos para considerar validado.
-4) Señales de riesgo monetario.`,
+Wygeneruj:
+1) Strategię minimalnego testu płatnego (przedsprzedaż, depozyt, rezerwacja).
+2) Copy i ofertę do walidacji realną płatnością.
+3) Minimalne cele, aby uznać za zwalidowane.
+4) Sygnały ryzyka monetarnego.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-033",
-    title: "Validación por análisis de objetivos del cliente (Job to Be Done)",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja przez analizę celów klienta (Job to Be Done)",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Evalúa si el producto cumple el trabajo real que el cliente quiere hacer.",
-    prompt: `Actúa como consultor experto en JTBD.
+      "Ocena, czy produkt wykonuje realną „pracę”, którą klient chce wykonać.",
+    prompt: `Działaj jak konsultant – ekspert JTBD.
 
-Dame:
-- Producto.
-- Usuario.
-- Job principal del cliente.
+Podaj:
+- Produkt.
+- Użytkownika.
+- Główny job klienta.
 
-Genera:
-1) Análisis del job funcional.
-2) Análisis del job emocional.
-3) Señales de encaje job–producto.
-4) Oportunidades de mejora en la propuesta de valor.`,
+Wygeneruj:
+1) Analizę jobu funkcjonalnego.
+2) Analizę jobu emocjonalnego.
+3) Sygnały dopasowania job–produkt.
+4) Szanse ulepszenia propozycji wartości.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-034",
-    title: "Validación por análisis de riesgos regulatorios y legales",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja przez analizę ryzyk regulacyjnych i prawnych",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Evalúa si tu idea podría morir por temas legales, permisos o regulaciones.",
-    prompt: `Actúa como consultor de regulación empresarial.
+      "Ocena, czy pomysł może „umrzeć” z powodu prawa, pozwoleń lub regulacji.",
+    prompt: `Działaj jak konsultant regulacji biznesowej.
 
-Dame:
-- Idea.
-- País o región.
-- Industria.
+Podaj:
+- Pomysł.
+- Kraj lub region.
+- Branżę.
 
-Genera:
-1) Riesgos regulatorios clave.
-2) Barreras legales.
-3) Costos ocultos de cumplimiento.
-4) Señales de que tu idea podría ser bloqueada.`,
+Wygeneruj:
+1) Kluczowe ryzyka regulacyjne.
+2) Bariery prawne.
+3) Ukryte koszty zgodności (compliance).
+4) Sygnały, że pomysł może zostać zablokowany.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-035",
-    title: "Validación por storytelling de problema-solución",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja przez storytelling problem–rozwiązanie",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Valida si tu historia de problema-solución realmente convence al mercado.",
-    prompt: `Actúa como consultor de pitch.
+      "Sprawdza, czy historia problem–rozwiązanie naprawdę przekonuje rynek.",
+    prompt: `Działaj jak konsultant pitchu.
 
-Dame:
-- Problema.
-- Solución.
-- Usuario.
+Podaj:
+- Problem.
+- Rozwiązanie.
+- Użytkownika.
 
-Genera:
-1) Historia convincente de problema-solución.
-2) Versión alternativa más emocional.
-3) Versión estilo pitch agresivo.
-4) Señales de que la historia funciona en mercado real.`,
+Wygeneruj:
+1) Przekonującą historię problem–rozwiązanie.
+2) Alternatywną wersję bardziej emocjonalną.
+3) Wersję w stylu agresywnego pitchu.
+4) Sygnały, że historia działa na realnym rynku.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-036",
-    title: "Validación por análisis de resistencia al cambio",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
-    summary: "Determina si los usuarios adoptarán la solución o se resistirán.",
-    prompt: `Actúa como psicólogo organizacional y de consumo.
+    title: "Walidacja przez analizę oporu przed zmianą",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
+    summary: "Określa, czy użytkownicy zaakceptują rozwiązanie, czy będą stawiać opór.",
+    prompt: `Działaj jak psycholog organizacyjny i konsumencki.
 
-Dame:
-- Producto.
-- Público.
-- Contexto donde se introduce.
+Podaj:
+- Produkt.
+- Odbiorców.
+- Kontekst wdrożenia.
 
-Genera:
-1) Barreras psicológicas reales.
-2) Miedos y frenos del usuario.
-3) Triggers para facilitar adopción.
-4) Señales de aceptación temprana.`,
+Wygeneruj:
+1) Realne bariery psychologiczne.
+2) Lęki i hamulce użytkownika.
+3) Triggery ułatwiające adopcję.
+4) Sygnały wczesnej akceptacji.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-037",
-    title: "Validación por pilotos ultra controlados (Micro-pilots)",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja przez ultra-kontrolowane pilotaże (Micro-pilots)",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Elabora micro pilotos de prueba con usuarios reales y métricas claras.",
-    prompt: `Actúa como consultor de experimentación avanzada.
+      "Opracowuje mikro-pilotaże testowe z realnymi użytkownikami i jasnymi metrykami.",
+    prompt: `Działaj jak konsultant zaawansowanej eksperymentacji.
 
-Dame:
-- Producto.
-- Segmento.
-- Recursos disponibles.
+Podaj:
+- Produkt.
+- Segment.
+- Dostępne zasoby.
 
-Genera:
-1) Diseño del micro-pilot.
-2) Métricas que definen éxito.
-3) Riesgos de sesgo y cómo evitarlos.
-4) Señales de que el piloto valida o invalida la idea.`,
+Wygeneruj:
+1) Projekt mikro-pilotażu.
+2) Metryki definiujące sukces.
+3) Ryzyka biasu i jak im zapobiegać.
+4) Sygnały, że pilotaż waliduje lub unieważnia pomysł.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-038",
-    title: "Validación por simulación de embudos de compra",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja przez symulację lejków zakupowych",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Simula cómo un usuario recorre todo el embudo y dónde podría romperse.",
-    prompt: `Actúa como consultor de CRO y funnels.
+      "Symuluje, jak użytkownik przechodzi przez cały lejek i gdzie może się „złamać”.",
+    prompt: `Działaj jak konsultant CRO i funnelów.
 
-Dame:
-- Producto.
-- Tipo de usuario.
-- Propuesta de valor.
+Podaj:
+- Produkt.
+- Typ użytkownika.
+- Propozycję wartości.
 
-Genera:
-1) Simulación completa del embudo.
-2) Puntos donde se rompe.
-3) Ajustes recomendados.
-4) Señales de validación por retención y recorrido.`,
+Wygeneruj:
+1) Pełną symulację lejka.
+2) Punkty, w których lejek się „łamie”.
+3) Rekomendowane poprawki.
+4) Sygnały walidacji przez retencję i ścieżkę.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-039",
-    title: "Validación por métricas del tipo 'tengo que tenerlo'",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja przez metryki typu „muszę to mieć”",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Identifica si el usuario realmente siente deseo intenso por la solución.",
-    prompt: `Actúa como consultor senior de producto.
+      "Sprawdza, czy użytkownik odczuwa silne pragnienie posiadania rozwiązania.",
+    prompt: `Działaj jak starszy konsultant produktowy.
 
-Dame:
-- Solución.
-- Usuario.
-- Necesidad que cubre.
+Podaj:
+- Rozwiązanie.
+- Użytkownika.
+- Potrzebę, którą pokrywa.
 
-Genera:
-1) Indicadores de 'must-have' vs 'nice-to-have'.
-2) Riesgos de ser irrelevante.
-3) Preguntas para validar categoría exacta.
-4) Señales de producto imprescindible.`,
+Wygeneruj:
+1) Wskaźniki „must-have” vs „nice-to-have”.
+2) Ryzyka bycia nieistotnym.
+3) Pytania do walidacji dokładnej kategorii.
+4) Sygnały, że produkt jest niezbędny.`,
     thumbnail: "",
   },
   {
     id: "negocio-validacion-040",
-    title: "Validación por viabilidad de escalamiento (Scalability Test)",
-    area: "Negocios & Emprendimiento",
-    category: "Validación",
+    title: "Walidacja przez test skalowalności (Scalability Test)",
+    area: "Biznes i Przedsiębiorczość",
+    category: "Walidacja",
     summary:
-      "Evalúa si la idea tiene potencial de escalar sin volverse inviable.",
-    prompt: `Actúa como consultor de escalamiento y crecimiento.
+      "Ocena, czy pomysł można skalować bez stania się niewykonalnym.",
+    prompt: `Działaj jak konsultant skalowania i wzrostu.
 
-Dame:
-- Idea.
-- Modelo de negocio.
-- Tipo de operación (servicio, software, e-commerce, contenido).
+Podaj:
+- Pomysł.
+- Model biznesowy.
+- Typ operacji (usługa, software, e-commerce, treści).
 
-Genera:
-1) Análisis de escalabilidad real.
-2) Cuellos de botella futuros.
-3) Costos que crecerán más rápido que ingresos.
-4) Señales tempranas de que puede escalar (o no).
-5) Ajustes recomendados para volverse escalable.`,
+Wygeneruj:
+1) Analizę realnej skalowalności.
+2) Przyszłe wąskie gardła.
+3) Koszty, które będą rosnąć szybciej niż przychody.
+4) Wczesne sygnały, że da się skalować (albo nie).
+5) Rekomendowane zmiany, aby stać się skalowalnym.`,
     thumbnail: "",
   },
 ];

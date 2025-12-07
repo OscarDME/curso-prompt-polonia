@@ -73,66 +73,66 @@ export default function CursoPage() {
         ))}
       </section>
 
-      {/* ✅ OTROS CONTENIDOS */}
+      {/* ✅ INNE MATERIAŁY */}
       <section className="space-y-4">
         <h2 className="text-lg sm:text-xl font-semibold text-slate-50">
-          Otros contenidos
+          Inne materiały
         </h2>
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {/* ✅ NUEVO: Kit de Recursos en Tendencias */}
+          {/* ✅ NOWE: Zestaw zasobów w trendach */}
           <Link href="/curso/kit-recursos-tendencias" className="group block">
             <Card className="relative overflow-hidden border-2 border-transparent bg-black/60 shadow-[0_0_25px_rgba(0,0,0,0.7)] transition hover:-translate-y-1 hover:border-teal-400/80 hover:shadow-[0_0_35px_rgba(45,212,191,0.5)]">
               <div className="relative h-[160px] w-full bg-gradient-to-br from-slate-950 via-slate-900 to-black">
                 <div className="absolute inset-0 opacity-60 [background:radial-gradient(600px_circle_at_20%_20%,rgba(45,212,191,0.18),transparent_40%),radial-gradient(600px_circle_at_80%_30%,rgba(168,85,247,0.16),transparent_45%)]" />
                 <div className="absolute left-4 top-4 inline-flex items-center gap-2 rounded-full border border-teal-300/20 bg-black/50 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.25em] text-teal-200">
                   <Sparkles className="h-3 w-3" />
-                  Kit
+                  Zestaw
                 </div>
                 <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black via-black/70 to-transparent" />
                 <div className="absolute inset-x-0 bottom-0 p-4">
                   <h3 className="text-base font-extrabold text-teal-100">
-                    Kit de Recursos en Tendencias
+                    Zestaw zasobów w trendach
                   </h3>
                   <p className="mt-1 text-xs text-slate-200/90 line-clamp-2">
-                    Sonidos, filtros, tipografías y mucho más (actualizado para
-                    crear contenido que engancha).
+                    Dźwięki, filtry, fonty i wiele więcej (regularnie
+                    aktualizowane, aby tworzyć treści, które wciągają).
                   </p>
 
                   <div className="mt-3 inline-flex items-center gap-2 text-xs font-semibold text-teal-200">
-                    Entrar <ArrowRight className="h-4 w-4" />
+                    Wejdź <ArrowRight className="h-4 w-4" />
                   </div>
                 </div>
               </div>
             </Card>
           </Link>
 
-          {/* ✅ Ingeniería de Prompts */}
+          {/* ✅ INŻYNIERIA PROMPTÓW
           <Link href="/curso/ingenieria-de-prompts" className="group block">
             <Card className="relative overflow-hidden border-2 border-transparent bg-black/60 shadow-[0_0_25px_rgba(0,0,0,0.7)] transition hover:-translate-y-1 hover:border-teal-400/80 hover:shadow-[0_0_35px_rgba(45,212,191,0.5)]">
               <div className="relative h-[160px] w-full bg-gradient-to-br from-slate-950 via-slate-900 to-black">
                 <div className="absolute inset-0 opacity-60 [background:radial-gradient(600px_circle_at_20%_20%,rgba(45,212,191,0.18),transparent_40%),radial-gradient(600px_circle_at_80%_30%,rgba(168,85,247,0.16),transparent_45%)]" />
                 <div className="absolute left-4 top-4 inline-flex items-center gap-2 rounded-full border border-teal-300/20 bg-black/50 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.25em] text-teal-200">
                   <Sparkles className="h-3 w-3" />
-                  Curso
+                  Kurs
                 </div>
                 <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black via-black/70 to-transparent" />
                 <div className="absolute inset-x-0 bottom-0 p-4">
                   <h3 className="text-base font-extrabold text-teal-100">
-                    Curso de Ingeniería de Prompts
+                    Kurs Inżynierii Promptów
                   </h3>
                   <p className="mt-1 text-xs text-slate-200/90 line-clamp-2">
-                    Domina cómo adaptar, optimizar y crear prompts para
-                    resultados profesionales.
+                    Opanuj, jak dopasowywać, optymalizować i tworzyć prompty, aby
+                    uzyskiwać profesjonalne rezultaty.
                   </p>
 
                   <div className="mt-3 inline-flex items-center gap-2 text-xs font-semibold text-teal-200">
-                    Entrar <ArrowRight className="h-4 w-4" />
+                    Wejdź <ArrowRight className="h-4 w-4" />
                   </div>
                 </div>
               </div>
             </Card>
-          </Link>
+          </Link> */}
         </div>
       </section>
     </div>
@@ -172,7 +172,7 @@ function NetflixCard({ module }) {
           {isLocked && (
             <p className="mt-2 flex items-center gap-1 text-[10px] font-medium text-slate-300">
               <Lock className="h-3 w-3 text-teal-300" />
-              Contenido disponible próximamente
+              Treść dostępna wkrótce
             </p>
           )}
         </div>

@@ -3,1202 +3,1250 @@
 export const textPromptsMarketingObjetivos = [
   {
     id: "mobj-001",
-    title: "Definir objetivo principal de campaña (con jerarquía: negocio → marketing → canal)",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Zdefiniuj główny cel kampanii (hierarchia: biznes → marketing → kanał)",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Convierte una idea de campaña en un objetivo claro, medible y alineado al negocio.",
-    prompt: `Contexto (rellena):
-- Producto/servicio:
-- Ticket promedio y margen (si aplica):
-- Modelo (ecom, infoproducto, SaaS, servicios):
-- Mercado/país:
-- Periodo de campaña (fechas):
-- Restricción principal (presupuesto, tiempo, equipo):
-- Canales disponibles (Meta/Google/TikTok/Email/WhatsApp/Orgánico/Partners):
-- Datos actuales (si tienes): tráfico, leads, CVR, CAC, LTV, ROAS, MQL→SQL, close rate
+      "Zamienia pomysł na kampanię w jasny, mierzalny cel spójny z biznesem.",
+    prompt: `Kontekst (uzupełnij):
+- Produkt/usługa:
+- Średni koszyk (ticket) i marża (jeśli dotyczy):
+- Model (ecom, infoprodukt, SaaS, usługi):
+- Rynek/kraj:
+- Okres kampanii (daty):
+- Główne ograniczenie (budżet, czas, zespół):
+- Dostępne kanały (Meta/Google/TikTok/Email/WhatsApp/Organicznie/Partnerzy):
+- Aktualne dane (jeśli masz): ruch, leady, CVR, CAC, LTV, ROAS, MQL→SQL, close rate
 
-Tarea:
-1) Propón 3 objetivos de negocio posibles (ej: ingresos, retención, activación, expansión) y elige el más razonable con base en el contexto.
-2) Traduce ese objetivo (negocio) a:
-   - objetivo de marketing (ej: demanda, leads, pipeline, activación)
-   - objetivo por canal (qué debe lograr cada canal)
-3) Define KPI primario, 2 KPIs secundarios y 3 indicadores operativos (leading indicators).
-4) Define un objetivo SMART final (una frase) + versión “para el equipo” (más simple) + versión “para dirección” (más ejecutiva).
-5) Incluye supuestos y condiciones para lograrlo (no prometer).
-6) Termina con un checklist de validación: “si tu objetivo no cumple X, ajusta”.`,
+Zadanie:
+1) Zaproponuj 3 możliwe cele biznesowe (np. przychód, retencja, aktywacja, ekspansja) i wybierz najbardziej rozsądny na podstawie kontekstu.
+2) Przetłumacz ten cel (biznes) na:
+   - cel marketingowy (np. popyt, leady, pipeline, aktywacja)
+   - cel per kanał (co ma dowieźć każdy kanał)
+3) Zdefiniuj KPI główny, 2 KPI poboczne i 3 wskaźniki operacyjne (leading indicators).
+4) Zdefiniuj finalny cel SMART (jedno zdanie) + wersję „dla zespołu” (prościej) + wersję „dla zarządu” (bardziej executives).
+5) Dodaj założenia i warunki potrzebne do realizacji (bez obietnic).
+6) Zakończ checklistą walidacyjną: „jeśli Twój cel nie spełnia X, popraw”.`,
     thumbnail: "",
   },
   {
     id: "mobj-002",
-    title: "Árbol de objetivos (Goal Tree) — de ingresos a métricas accionables",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title: "Drzewo celów (Goal Tree) — od przychodu do metryk operacyjnych",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Construye un árbol que conecta ingresos → conversiones → volúmenes → actividades.",
-    prompt: `Rellena:
-- Meta de ingresos (monto):
-- Precio/ticket promedio:
-- Conversion rate (si existe) o estimación:
-- Lead→Venta (si aplica):
-- Tráfico actual:
-- Periodo:
+      "Buduje drzewo łączące: przychód → konwersje → wolumeny → aktywności.",
+    prompt: `Uzupełnij:
+- Cel przychodu (kwota):
+- Cena/średni koszyk:
+- Współczynnik konwersji (jeśli istnieje) lub estymacja:
+- Lead→Sprzedaż (jeśli dotyczy):
+- Aktualny ruch:
+- Okres:
 
-Tarea:
-1) Crea un Goal Tree calculando:
-   - #ventas necesarias
-   - #leads necesarios
-   - #visitas necesarias
-   - #impresiones/clics estimadas (si hay ads)
-2) Identifica 3 puntos de apalancamiento: qué variable movería más el resultado.
-3) Propón 2 escenarios:
-   - conservador
-   - agresivo
-4) Para cada escenario: metas numéricas por semana y por canal (si aplica).
-5) Cierra con “qué medir cada día / cada semana” (ritual de seguimiento).`,
+Zadanie:
+1) Stwórz Goal Tree i policz:
+   - # potrzebnych sprzedaży
+   - # potrzebnych leadów
+   - # potrzebnych wizyt
+   - # szacowanych wyświetleń/kliknięć (jeśli są ads)
+2) Wskaż 3 punkty dźwigni: która zmienna najsilniej rusza wynik.
+3) Zaproponuj 2 scenariusze:
+   - konserwatywny
+   - agresywny
+4) Dla każdego scenariusza: cele liczbowe per tydzień i per kanał (jeśli dotyczy).
+5) Zakończ: „co mierzyć codziennie / co tydzień” (rytuał monitoringu).`,
     thumbnail: "",
   },
   {
     id: "mobj-003",
-    title: "Objetivos por etapa del funnel (Awareness → Consideración → Conversión → Retención)",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele na etapach lejka (Świadomość → Rozważanie → Konwersja → Retencja)",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos y KPIs por etapa de funnel con métricas coherentes.",
-    prompt: `Contexto:
-- Producto:
-- Bewareness actual (bajo/medio/alto):
-- Tipo de compra (impulso/considerada):
-- Ciclo de venta (días):
-- Canales:
+      "Definiuje cele i KPI na etapach lejka z logicznymi metrykami.",
+    prompt: `Kontekst:
+- Produkt:
+- Aktualna świadomość (niska/średnia/wysoka):
+- Typ zakupu (impulsowy/przemyślany):
+- Cykl sprzedaży (dni):
+- Kanały:
 
-Tarea:
-1) Define 1 objetivo por cada etapa:
-   - Awareness
-   - Consideración
-   - Conversión
-   - Retención/Referral
-2) Para cada etapa:
-   - KPI primario
-   - 2 KPIs secundarios
-   - 3 tácticas recomendadas
-   - señales de que está fallando
-3) Recomienda dónde enfocar en las próximas 4 semanas y por qué (según contexto).
-4) Incluye un “scoreboard” semanal con 6–10 métricas máximas.`,
+Zadanie:
+1) Zdefiniuj po 1 celu na każdy etap:
+   - Świadomość (Awareness)
+   - Rozważanie (Consideration)
+   - Konwersja (Conversion)
+   - Retencja/Polecenia (Retention/Referral)
+2) Dla każdego etapu:
+   - KPI główny
+   - 2 KPI poboczne
+   - 3 rekomendowane taktyki
+   - sygnały, że etap „siada”
+3) Zarekomenduj, gdzie skupić się przez najbliższe 4 tygodnie i dlaczego (wg kontekstu).
+4) Dodaj tygodniowy „scoreboard” z maks. 6–10 metrykami.`,
     thumbnail: "",
   },
   {
     id: "mobj-004",
-    title: "OKRs de marketing (O + 3–5 KRs) para 30 días / 90 días",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title: "OKRy marketingowe (O + 3–5 KR) na 30 dni / 90 dni",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Crea OKRs realistas con KRs medibles, milestones y responsables sugeridos.",
-    prompt: `Rellena:
-- Meta de la empresa:
-- Producto:
-- Equipo (roles disponibles):
-- Restricciones:
-- Canales:
-- Baseline actual (si existe):
+      "Tworzy realistyczne OKRy z mierzalnymi KR, kamieniami milowymi i sugerowanymi ownerami.",
+    prompt: `Uzupełnij:
+- Cel firmy:
+- Produkt:
+- Zespół (dostępne role):
+- Ograniczenia:
+- Kanały:
+- Aktualny baseline (jeśli istnieje):
 
-Tarea:
-1) Propón 2 Objetivos (O) posibles; elige el mejor.
-2) Crea 3–5 Key Results (KRs) medibles.
-3) Desglosa cada KR en:
-   - iniciativas (3–6)
-   - dueño sugerido (rol)
-   - milestones semanales
-4) Define “anti-métricas” (vanity) que NO usaremos.
-5) Añade un plan de revisión semanal (qué se decide cuando un KR va rojo).`,
+Zadanie:
+1) Zaproponuj 2 możliwe cele (O) i wybierz najlepszy.
+2) Stwórz 3–5 mierzalnych Key Results (KR).
+3) Rozbij każdy KR na:
+   - inicjatywy (3–6)
+   - sugerowany owner (rola)
+   - tygodniowe milestones
+4) Zdefiniuj „anty-metryki” (vanity), których NIE będziemy używać.
+5) Dodaj plan tygodniowego przeglądu (co decydujemy, gdy KR jest na czerwono).`,
     thumbnail: "",
   },
   {
     id: "mobj-005",
-    title: "Objetivo de lanzamiento (pre-lanzamiento → lanzamiento → post) con métricas por fase",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cel launchu (pre-launch → launch → post) z metrykami na fazę",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Estructura objetivos por fases de lanzamiento, evitando confusión de métricas.",
-    prompt: `Rellena:
-- Oferta/lanzamiento:
-- Fechas:
-- Audiencias:
-- Canales:
-- Meta de ingresos o ventas:
-- Activos (lista de email, comunidad, partners):
+      "Porządkuje cele na fazach launchu i unika mieszania metryk.",
+    prompt: `Uzupełnij:
+- Oferta/launch:
+- Daty:
+- Odbiorcy:
+- Kanały:
+- Cel przychodu lub sprzedaży:
+- Aktywa (lista email, społeczność, partnerzy):
 
-Tarea:
-1) Define objetivos por fase:
-   - Pre (generar expectativa y leads)
-   - Launch (conversión)
-   - Post (retención, upsell, reviews)
-2) Para cada fase:
-   - KPI primario
-   - leading indicators diarios
-   - benchmarks/umbrales (qué sería “bueno”)
-3) Propón un tablero de control (12 métricas max) por fase.
-4) Incluye plan de contingencia si:
-   - CTR bajo
-   - CVR bajo
-   - leads baratos pero baja calidad
-   - alta fricción de checkout.`,
+Zadanie:
+1) Zdefiniuj cele na fazy:
+   - Pre (budowanie oczekiwań i leadów)
+   - Launch (konwersja)
+   - Post (retencja, upsell, opinie)
+2) Dla każdej fazy:
+   - KPI główny
+   - dzienne leading indicators
+   - benchmarki/progi (co będzie „dobre”)
+3) Zaproponuj dashboard (max 12 metryk) per faza.
+4) Dodaj plan awaryjny, jeśli:
+   - niski CTR
+   - niski CVR
+   - tanie leady, ale niska jakość
+   - wysoka frikcja w checkout.`,
     thumbnail: "",
   },
   {
     id: "mobj-006",
-    title: "Definir objetivo de contenido (orgánico) alineado a ventas (sin métricas vanity)",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Zdefiniuj cel contentu (organicznego) powiązany ze sprzedażą (bez vanity)",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Convierte objetivos de contenido en pasos medibles, orientados a demanda y conversión.",
-    prompt: `Rellena:
-- Nicho:
+      "Zamienia cele contentowe w mierzalne działania zorientowane na popyt i konwersję.",
+    prompt: `Uzupełnij:
+- Nisza:
 - Oferta:
-- Canal (IG/TikTok/YT/LinkedIn):
-- Frecuencia:
-- Objetivo de negocio (ventas/leads):
-- Activos (lead magnet, landing, DM keyword):
+- Kanał (IG/TikTok/YT/LinkedIn):
+- Częstotliwość:
+- Cel biznesowy (sprzedaż/leady):
+- Aktywa (lead magnet, landing, słowo-klucz DM):
 
-Tarea:
-1) Define 3 objetivos de contenido (ej: awareness cualificado, leads por DM, visitas a landing).
-2) Elige 1 objetivo principal para 30 días.
-3) Define:
-   - KPI primario
-   - 2 KPIs secundarios
-   - 5 métricas operativas (ej: guardados, completión, DMs, clicks)
-4) Crea un plan de medición semanal + criterios para pivotar.
-5) Propón 3 “experimentos” (A/B) para aprender rápido.`,
+Zadanie:
+1) Zdefiniuj 3 cele contentowe (np. kwalifikowany awareness, leady z DM, wejścia na landing).
+2) Wybierz 1 główny cel na 30 dni.
+3) Zdefiniuj:
+   - KPI główny
+   - 2 KPI poboczne
+   - 5 metryk operacyjnych (np. zapisy, obejrzenie do końca, DM, kliknięcia)
+4) Stwórz tygodniowy plan pomiaru + kryteria pivotu.
+5) Zaproponuj 3 eksperymenty (A/B), żeby szybko się uczyć.`,
     thumbnail: "",
   },
   {
     id: "mobj-007",
-    title: "Objetivo de performance (ads) — ROAS/CAC con reglas de decisión",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cel performance (ads) — ROAS/CAC z regułami decyzyjnymi",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos para campañas pagas incluyendo reglas claras para escalar/pausar.",
-    prompt: `Rellena:
-- Producto:
-- Ticket y margen:
-- CAC máximo tolerable:
-- ROAS objetivo (si aplica):
-- Presupuesto:
-- Periodo:
-- Canales de ads:
+      "Definiuje cele dla kampanii płatnych wraz z jasnymi regułami: skaluj/pauzuj/iteruj.",
+    prompt: `Uzupełnij:
+- Produkt:
+- Średni koszyk i marża:
+- Maksymalny akceptowalny CAC:
+- Docelowy ROAS (jeśli dotyczy):
+- Budżet:
+- Okres:
+- Kanały reklamowe:
 
-Tarea:
-1) Define objetivo primario (ROAS o CAC) y justifica según margen.
-2) Define:
-   - KPI primario
-   - KPI secundario (CPA, CVR, AOV, etc.)
-   - leading indicators (CTR, CPC, ATC, etc.)
-3) Crea “reglas de decisión”:
-   - cuándo pausar
-   - cuándo iterar
-   - cuándo escalar
-4) Incluye objetivo semanal y diario (con rangos).
-5) Termina con una checklist de setup para asegurar medición correcta.`,
+Zadanie:
+1) Zdefiniuj cel główny (ROAS albo CAC) i uzasadnij względem marży.
+2) Zdefiniuj:
+   - KPI główny
+   - KPI poboczny (CPA, CVR, AOV itd.)
+   - leading indicators (CTR, CPC, ATC itd.)
+3) Stwórz „reguły decyzyjne”:
+   - kiedy pauzować
+   - kiedy iterować
+   - kiedy skalować
+4) Dodaj cel tygodniowy i dzienny (w widełkach).
+5) Zakończ checklistą setupu, by pomiar był poprawny.`,
     thumbnail: "",
   },
   {
     id: "mobj-008",
-    title: "Objetivos para WhatsApp/DM (conversaciones → cierres) con embudo de mensajes",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele dla WhatsApp/DM (rozmowy → domknięcia) z lejkiem wiadomości",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Objetivos medibles para venta por conversación: respuesta, calificación, cierre.",
-    prompt: `Rellena:
+      "Mierzalne cele dla sprzedaży konwersacyjnej: czas odpowiedzi, kwalifikacja, domknięcia.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Canal (WhatsApp/IG DM):
-- Volumen actual de chats por día:
-- Tiempo de respuesta:
-- Tasa de cierre actual (si existe):
-- Objeciones típicas:
+- Kanał (WhatsApp / IG DM):
+- Aktualny wolumen chatów dziennie:
+- Czas odpowiedzi:
+- Aktualny close rate (jeśli istnieje):
+- Typowe obiekcje:
 
-Tarea:
-1) Define objetivo principal para 30 días (ventas o cierres).
-2) Construye el embudo:
-   - chats iniciados
-   - chats respondidos
-   - chats calificados
-   - oferta enviada
-   - cierre
-3) Pon targets por etapa (por día/semana).
-4) Define 5 KPIs operativos (tiempo respuesta, follow-ups, etc.).
-5) Diseña un scoreboard y ritual diario (15 min) para mover el número.`,
+Zadanie:
+1) Zdefiniuj główny cel na 30 dni (sprzedaże lub domknięcia).
+2) Zbuduj lejek:
+   - rozpoczęte rozmowy
+   - odpowiedziane rozmowy
+   - rozmowy zakwalifikowane
+   - wysłana oferta
+   - domknięcie
+3) Ustal targety na etap (dziennie/tygodniowo).
+4) Zdefiniuj 5 KPI operacyjnych (czas odpowiedzi, follow-upy itd.).
+5) Zaprojektuj scoreboard i dzienny rytuał (15 min), aby ruszać liczbę.`,
     thumbnail: "",
   },
   {
     id: "mobj-009",
-    title: "Objetivo de email marketing — ingresos por envío y salud de lista",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cel email marketingu — przychód per wysyłka + zdrowie listy",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos de email que balanceen ingresos y deliverability.",
-    prompt: `Rellena:
-- Tipo de lista:
-- Tamaño:
-- Frecuencia de envíos:
+      "Definiuje cele emailowe, które balansują przychód i deliverability.",
+    prompt: `Uzupełnij:
+- Typ listy:
+- Wielkość:
+- Częstotliwość wysyłek:
 - Oferta:
-- Ventas actuales por email (si hay):
-- Segmentos:
+- Aktualna sprzedaż z emaila (jeśli jest):
+- Segmenty:
 
-Tarea:
-1) Define objetivo principal (ingresos/mes o ingresos/envío).
-2) Define objetivos de salud de lista:
-   - quejas spam
-   - rebotes
-   - inactivos
-3) Define KPIs:
-   - primario (revenue/email)
-   - secundarios (CTR, reply rate, conversion)
-4) Crea plan 30 días con:
-   - tipos de campañas (promo, valor, nurturing)
-   - metas semanales
-5) Incluye reglas de higiene: cuándo limpiar, reengage, segmentar.`,
+Zadanie:
+1) Zdefiniuj cel główny (przychód/miesiąc lub przychód/wysyłkę).
+2) Zdefiniuj cele zdrowia listy:
+   - skargi spam
+   - odbicia (bounce)
+   - nieaktywni
+3) Zdefiniuj KPI:
+   - główny (revenue/email)
+   - poboczne (CTR, reply rate, conversion)
+4) Stwórz plan 30 dni z:
+   - typami kampanii (promo, wartość, nurturing)
+   - celami tygodniowymi
+5) Dodaj reguły higieny: kiedy czyścić, reengage, segmentować.`,
     thumbnail: "",
   },
   {
     id: "mobj-010",
-    title: "Objetivo de retención (post compra) — reducir devoluciones y aumentar recompra",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cel retencji (po zakupie) — mniej zwrotów i więcej ponownych zakupów",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos post-compra con métricas de retención/recompra y experiencia.",
-    prompt: `Rellena:
-- Producto:
-- Window de recompra (días):
-- Problema post-compra típico (uso, onboarding, expectativas):
-- Canales post-compra (email, WhatsApp, comunidad):
-- % devoluciones (si existe):
+      "Definiuje cele post-purchase: retencja, ponowny zakup i doświadczenie klienta.",
+    prompt: `Uzupełnij:
+- Produkt:
+- Okno ponownego zakupu (dni):
+- Typowy problem po zakupie (użycie, onboarding, oczekiwania):
+- Kanały post-purchase (email, WhatsApp, społeczność):
+- % zwrotów (jeśli jest):
 
-Tarea:
-1) Define objetivo principal (recompra, retención o reducción de devoluciones).
-2) Selecciona 3 KPIs:
-   - tasa de recompra
+Zadanie:
+1) Zdefiniuj cel główny (ponowny zakup, retencja albo redukcja zwrotów).
+2) Wybierz 3 KPI:
+   - rate ponownego zakupu
    - NPS/CSAT
-   - devoluciones/tickets
-3) Define 4 iniciativas de retención (onboarding, tips, contenido, soporte).
-4) Crea metas por semana y señales de alerta.
-5) Incluye un “mapa de momentos” post compra (día 0, 1, 3, 7, 14, 30).`,
+   - zwroty/tickety
+3) Zdefiniuj 4 inicjatywy retencyjne (onboarding, tipy, content, wsparcie).
+4) Stwórz cele tygodniowe i sygnały alarmowe.
+5) Dodaj mapę momentów po zakupie (dzień 0, 1, 3, 7, 14, 30).`,
     thumbnail: "",
   },
 
   {
     id: "mobj-011",
-    title: "Objetivos por producto (portfolio) — priorizar qué empujar según impacto",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele per produkt (portfolio) — priorytetyzacja, co promować wg wpływu",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos por SKU/oferta: foco, KPI, canal y argumentos.",
-    prompt: `Rellena:
-- Lista de productos/ofertas (con precio y margen):
-- Inventario (si aplica):
-- Tracción actual por producto:
-- Temporada:
-- Capacidad operativa (soporte/entrega):
+      "Definiuje cele per SKU/ofertę: fokus, KPI, kanał i argumenty.",
+    prompt: `Uzupełnij:
+- Lista produktów/ofert (cena + marża):
+- Stan magazynu (jeśli dotyczy):
+- Aktualna trakcja per produkt:
+- Sezon:
+- Możliwości operacyjne (support/realizacja):
 
-Tarea:
-1) Clasifica productos en:
-   - Hero (principal)
-   - Profit (margen)
-   - Entry (adquisición)
-   - Niche (segmento)
-2) Define objetivo por categoría (ventas, leads, awareness, retención).
-3) KPI por producto + canal recomendado.
-4) Propón 2 hipótesis por producto para probar en 30 días.
-5) Cierra con un calendario de prioridades semanal.`,
+Zadanie:
+1) Sklasyfikuj produkty:
+   - Hero (główny)
+   - Profit (marża)
+   - Entry (pozyskanie)
+   - Niche (segment)
+2) Zdefiniuj cel dla każdej kategorii (sprzedaż, leady, awareness, retencja).
+3) KPI per produkt + rekomendowany kanał.
+4) Zaproponuj 2 hipotezy per produkt do przetestowania w 30 dni.
+5) Zakończ tygodniowym kalendarzem priorytetów.`,
     thumbnail: "",
   },
   {
     id: "mobj-012",
-    title: "Objetivos de experimentación (growth) — 10 tests con hipótesis y criterio de éxito",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele eksperymentów (growth) — 10 testów z hipotezą i kryterium sukcesu",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Convierte “hay que probar cosas” en tests medibles con criterio claro.",
-    prompt: `Rellena:
-- Canal principal:
-- Métrica a mejorar (CTR, CVR, CAC, AOV, MQL→SQL):
+      "Zamienia ‘trzeba próbować’ w mierzalne testy z jasnym kryterium.",
+    prompt: `Uzupełnij:
+- Główny kanał:
+- Metryka do poprawy (CTR, CVR, CAC, AOV, MQL→SQL):
 - Baseline:
-- Restricciones:
+- Ograniczenia:
 
-Tarea:
-1) Genera 10 experimentos priorizados (impacto vs esfuerzo).
-2) Para cada experimento:
-   - hipótesis (si hacemos X, entonces Y)
-   - métrica primaria
-   - criterio de éxito (umbral)
-   - duración mínima
-   - riesgos
-3) Define un objetivo macro de aprendizaje (qué necesitamos saber en 30 días).
-4) Propón el orden semanal de ejecución (4 semanas).`,
+Zadanie:
+1) Wygeneruj 10 eksperymentów (priorytet: impact vs effort).
+2) Dla każdego eksperymentu:
+   - hipoteza (jeśli zrobimy X, to Y)
+   - metryka główna
+   - kryterium sukcesu (próg)
+   - minimalny czas trwania
+   - ryzyka
+3) Zdefiniuj nadrzędny cel uczenia (czego musimy się dowiedzieć w 30 dni).
+4) Zaproponuj tygodniową kolejność realizacji (4 tygodnie).`,
     thumbnail: "",
   },
   {
     id: "mobj-013",
-    title: "Objetivo de rebrand/repositioning — awareness cualificado + mensaje validado",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cel rebrand/repositioning — kwalifikowany awareness + zweryfikowany przekaz",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos realistas para reposicionamiento: señal de mercado y validación de mensaje.",
-    prompt: `Rellena:
-- Marca actual:
-- Nuevo posicionamiento:
+      "Definiuje realistyczne cele repozycjonowania: sygnał rynku i walidacja komunikatu.",
+    prompt: `Uzupełnij:
+- Obecna marka:
+- Nowe pozycjonowanie:
 - ICP:
-- 3 claims a validar:
-- Canales:
+- 3 claimy do walidacji:
+- Kanały:
 
-Tarea:
-1) Define objetivo principal (validación de mensaje, no solo alcance).
-2) Define 3 señales de validación:
-   - replies cualificados
-   - demos/diagnósticos
-   - conversion en landing
-3) Define KPIs y metas por semana (4–6 semanas).
-4) Diseña 5 tests de mensaje (ads, posts, email, webinar).
-5) Incluye plan de “aprendizaje”: cómo decidir el mensaje final.`,
+Zadanie:
+1) Zdefiniuj cel główny (walidacja przekazu, nie tylko zasięg).
+2) Zdefiniuj 3 sygnały walidacji:
+   - kwalifikowane odpowiedzi (replies)
+   - demo/diagnozy
+   - konwersja na landing
+3) Zdefiniuj KPI i cele tygodniowe (4–6 tygodni).
+4) Zaprojektuj 5 testów komunikatu (ads, posty, email, webinar).
+5) Dodaj plan uczenia: jak wybierzesz finalny przekaz.`,
     thumbnail: "",
   },
   {
     id: "mobj-014",
-    title: "Objetivos para eCommerce — AOV, CVR, CAC con “palancas” y prioridades",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele dla eCommerce — AOV, CVR, CAC z ‘dźwigniami’ i priorytetami",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos específicos para eCommerce con palancas por etapa.",
-    prompt: `Rellena:
+      "Definiuje cele eCommerce i dźwignie per etap lejka.",
+    prompt: `Uzupełnij:
 - AOV:
 - CVR:
 - CAC:
-- Margen:
-- Categoría producto:
-- Top fuentes de tráfico:
+- Marża:
+- Kategoria produktu:
+- Główne źródła ruchu:
 
-Tarea:
-1) Define objetivo principal (uno): subir AOV / subir CVR / bajar CAC.
-2) Lista 5 palancas para ese objetivo (ej: bundles, shipping threshold, PDP, trust).
-3) Define métricas leading (ATC, initiate checkout, etc.).
-4) Define metas semanales y criterio de éxito.
-5) Crea un “plan de 2 semanas” con quick wins y “plan 6 semanas” con cambios mayores.`,
+Zadanie:
+1) Zdefiniuj 1 cel główny: podnieść AOV / podnieść CVR / obniżyć CAC.
+2) Wypisz 5 dźwigni dla tego celu (np. bundling, próg darmowej dostawy, PDP, zaufanie).
+3) Zdefiniuj leading metrics (ATC, initiate checkout itd.).
+4) Zdefiniuj cele tygodniowe i kryterium sukcesu.
+5) Stwórz plan „2 tygodnie” (quick wins) i plan „6 tygodni” (większe zmiany).`,
     thumbnail: "",
   },
   {
     id: "mobj-015",
-    title: "Objetivos para SaaS — activación, retención, expansión (con métricas North Star)",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele dla SaaS — aktywacja, retencja, ekspansja (z metryką North Star)",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define North Star y objetivos por etapa para SaaS sin perder foco.",
-    prompt: `Rellena:
+      "Definiuje North Star i cele per etap dla SaaS bez utraty fokus.",
+    prompt: `Uzupełnij:
 - SaaS:
 - ICP:
-- Evento de activación (Aha moment):
-- Ciclo de venta:
+- Event aktywacji (Aha moment):
+- Cykl sprzedaży:
 - Churn:
 - ARPA/LTV:
 
-Tarea:
-1) Define North Star Metric (NSM) razonable y por qué.
-2) Define 3 objetivos:
-   - adquisición/pipeline
-   - activación
-   - retención/expansión
-3) KPIs por objetivo + metas 30/90 días (rangos).
-4) 10 iniciativas ordenadas para mover NSM.
-5) Ritual semanal y tablero ejecutivo.`,
+Zadanie:
+1) Zdefiniuj sensowną North Star Metric (NSM) i dlaczego.
+2) Zdefiniuj 3 cele:
+   - pozyskanie/pipeline
+   - aktywacja
+   - retencja/ekspansja
+3) KPI per cel + cele 30/90 dni (widełki).
+4) 10 inicjatyw w kolejności, które poruszą NSM.
+5) Tygodniowy rytuał i dashboard executives.`,
     thumbnail: "",
   },
 
   {
     id: "mobj-016",
-    title: "Objetivo para campaña de remarketing — recuperar intención sin quemar audiencia",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cel kampanii remarketingowej — odzyskaj intencję bez przepalania audience",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos de remarketing: frecuencia, CPA, segmentación y límites.",
-    prompt: `Rellena:
-- Producto:
-- Audiencias (visitors, ATC, IC, lead):
-- Ventana de retargeting:
+      "Definiuje cele remarketingu: częstotliwość, CPA, segmentacja i limity.",
+    prompt: `Uzupełnij:
+- Produkt:
+- Audiencje (visitors, ATC, IC, lead):
+- Okno retargetingu:
 - Oferta:
-- Presupuesto:
+- Budżet:
 
-Tarea:
-1) Define objetivo (CPA/CAC o CVR retargeting).
-2) Define frecuencia máxima y señales de fatiga.
-3) Define KPI primario y secundarios.
-4) Metas por segmento (ATC vs IC vs ViewContent).
-5) Reglas de pausar/rotar creatividades.`,
+Zadanie:
+1) Zdefiniuj cel (CPA/CAC lub CVR remarketingu).
+2) Ustal maksymalną częstotliwość i sygnały zmęczenia.
+3) Zdefiniuj KPI główny i poboczne.
+4) Cele per segment (ATC vs IC vs ViewContent).
+5) Reguły pauzy/rotacji kreacji.`,
     thumbnail: "",
   },
   {
     id: "mobj-017",
-    title: "Objetivo de comunidad (Discord/Telegram) — engagement que genera ventas",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele społeczności (Discord/Telegram) — engagement, który generuje sprzedaż",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Objetivos de comunidad conectados a negocio: activación, referrals, soporte.",
-    prompt: `Rellena:
-- Comunidad:
+      "Cele społeczności powiązane z biznesem: aktywacja, polecenia, support.",
+    prompt: `Uzupełnij:
+- Społeczność:
 - Oferta:
-- Tamaño:
-- Actividad actual:
-- Metas negocio:
+- Wielkość:
+- Aktualna aktywność:
+- Cele biznesowe:
 
-Tarea:
-1) Define objetivo principal (ej: leads/mes desde comunidad, retención, soporte).
-2) KPIs de comunidad que importan (no vanidad): participación activa, ayuda entre miembros, referrals.
-3) Define 4 rituales semanales (AMAs, retos, workshops).
-4) Metas por semana (30 días) y cómo medir.
-5) Plan anti-spam y segmentación.`,
+Zadanie:
+1) Zdefiniuj cel główny (np. leady/mies. ze społeczności, retencja, support).
+2) KPI społeczności, które mają znaczenie (bez vanity): aktywny udział, pomoc między członkami, referrals.
+3) Zdefiniuj 4 rytuały tygodniowe (AMA, wyzwania, warsztaty).
+4) Cele tygodniowe (30 dni) i jak mierzyć.
+5) Plan anty-spam i segmentacja.`,
     thumbnail: "",
   },
   {
     id: "mobj-018",
-    title: "Objetivos por canal (matriz) — qué debe lograr IG vs Email vs Ads vs SEO",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele per kanał (macierz) — co ma robić IG vs Email vs Ads vs SEO",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Crea una matriz de objetivos por canal y evita que todos midan lo mismo.",
-    prompt: `Rellena:
-- Canales activos:
+      "Tworzy macierz celów per kanał i zapobiega mierzeniu wszystkiego tym samym KPI.",
+    prompt: `Uzupełnij:
+- Aktywne kanały:
 - Oferta:
-- Funnel:
-- Recursos disponibles:
+- Lejek:
+- Dostępne zasoby:
 
-Tarea:
-1) Crea una matriz donde cada canal tiene:
-   - rol (awareness, captura, nurture, conversión, retención)
-   - KPI primario
-   - 2 KPIs secundarios
-   - 2 tácticas clave
-2) Define cómo se pasan usuarios entre canales (handoff).
-3) Define metas mensuales por canal + metas semanales.
-4) Cierra con 5 errores comunes al definir objetivos por canal.`,
+Zadanie:
+1) Stwórz macierz, gdzie każdy kanał ma:
+   - rolę (awareness, pozyskanie, nurture, konwersja, retencja)
+   - KPI główny
+   - 2 KPI poboczne
+   - 2 kluczowe taktyki
+2) Zdefiniuj przekazywanie użytkowników między kanałami (handoff).
+3) Zdefiniuj cele miesięczne per kanał + cele tygodniowe.
+4) Zakończ: 5 częstych błędów w definiowaniu celów per kanał.`,
     thumbnail: "",
   },
   {
     id: "mobj-019",
-    title: "Objetivos de lanzamiento por cohorte (cohort-based goals) — semana a semana",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele launchu per kohorta (cohort-based goals) — tydzień po tygodniu",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Divide metas por cohortes semanales para diagnosticar rápido dónde se rompe el funnel.",
-    prompt: `Rellena:
-- Periodo completo (semanas):
-- Meta ingresos/ventas:
-- Conversión estimada:
-- Canales:
+      "Dzieli cele na kohorty tygodniowe, by szybko diagnozować, gdzie pęka lejek.",
+    prompt: `Uzupełnij:
+- Cały okres (tygodnie):
+- Cel przychodu/sprzedaży:
+- Szacowana konwersja:
+- Kanały:
 
-Tarea:
-1) Divide la campaña en cohortes por semana con:
-   - meta de leads
-   - meta de ventas
-   - meta de revenue
-2) Define KPI por cohorte:
+Zadanie:
+1) Podziel kampanię na kohorty tygodniowe z:
+   - celem leadów
+   - celem sprzedaży
+   - celem przychodu
+2) Zdefiniuj KPI kohorty:
    - CAC
    - CVR
-   - show-up rate (si webinars)
-3) Define gatillos: si cohorte semana 1 <80% meta, qué ajustas en semana 2.
-4) Incluye scoreboard y plantilla de reporte semanal.`,
+   - show-up rate (jeśli webinary)
+3) Zdefiniuj “triggery”: jeśli kohorta tyg. 1 <80% celu, co zmieniasz w tyg. 2.
+4) Dodaj scoreboard i szablon raportu tygodniowego.`,
     thumbnail: "",
   },
   {
     id: "mobj-020",
-    title: "Objetivos para agencia/freelancer — objetivos que el cliente entiende y firma",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele dla agencji/freelancera — cele, które klient rozumie i akceptuje",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Formula objetivos claros para clientes: entregables, KPIs, supuestos y límites.",
-    prompt: `Rellena:
-- Cliente:
-- Servicio contratado:
-- KPI deseado:
-- Presupuesto:
-- Restricciones:
+      "Formułuje jasne cele dla klienta: deliverables, KPI, założenia i limity.",
+    prompt: `Uzupełnij:
+- Klient:
+- Zakres usługi:
+- Pożądany KPI:
+- Budżet:
+- Ograniczenia:
 - Timeline:
 
-Tarea:
-1) Redacta 1 objetivo principal + 3 objetivos secundarios.
-2) Define qué depende de ti vs del cliente.
-3) Define métricas que NO garantizas (y por qué).
-4) Define cadencia de reporting y formato.
-5) Escribe una sección “criterio de éxito” y “criterio de no-éxito” (honesto).`,
+Zadanie:
+1) Napisz 1 cel główny + 3 cele poboczne.
+2) Zdefiniuj, co zależy od Ciebie vs od klienta.
+3) Zdefiniuj metryki, których nie gwarantujesz (i dlaczego).
+4) Zdefiniuj kadencję raportowania i format.
+5) Napisz sekcję “kryterium sukcesu” i “kryterium braku sukcesu” (uczciwie).`,
     thumbnail: "",
   },
 
   {
     id: "mobj-021",
-    title: "Objetivos para campaña de awareness (top of funnel) — cualificar, no solo reach",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele kampanii awareness (top of funnel) — kwalifikacja, nie tylko zasięg",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos de awareness con señales de calidad y continuidad.",
-    prompt: `Rellena:
-- Producto:
+      "Definiuje cele awareness z sygnałami jakości i obowiązkowym następnym krokiem.",
+    prompt: `Uzupełnij:
+- Produkt:
 - ICP:
-- Mensaje:
-- Canales:
-- Presupuesto:
+- Komunikat:
+- Kanały:
+- Budżet:
 
-Tarea:
-1) Define objetivo principal (awareness cualificado).
-2) KPIs: reach, VTR/retención, visitas de calidad, engagement con intención.
-3) Define umbrales de calidad (ej: % video completado, clicks cualificados).
-4) Define “siguiente paso” obligatorio (retarget a consideración).
-5) Crea un plan de medición semanal + rotación creativa.`,
+Zadanie:
+1) Zdefiniuj cel główny (kwalifikowany awareness).
+2) KPI: reach, VTR/retencja, jakościowe wizyty, engagement z intencją.
+3) Ustal progi jakości (np. % obejrzenia do końca, kwalifikowane kliknięcia).
+4) Zdefiniuj obowiązkowy “next step” (retarget do consideration).
+5) Stwórz tygodniowy plan pomiaru + rotację kreacji.`,
     thumbnail: "",
   },
   {
     id: "mobj-022",
-    title: "Objetivos para consideración (mid funnel) — convertir atención en intención",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele dla etapu rozważania (mid funnel) — zamień uwagę w intencję",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Objetivos mid-funnel: leads, contenido puente, demos, carritos, etc.",
-    prompt: `Rellena:
+      "Cele mid-funnel: leady, content pomostowy, dema, koszyki itd.",
+    prompt: `Uzupełnij:
 - Oferta:
 - Lead magnet / VSL / webinar:
-- Audiencia:
-- Canales:
+- Audiencja:
+- Kanały:
 
-Tarea:
-1) Define objetivo primario de consideración (leads cualificados / demos / ATC).
-2) Define KPIs: CPL/CPQL, landing CVR, show-up (si webinars), reply rate.
-3) Define contenidos puente (3) + entregables (checklist, calculadora, guía).
-4) Metas semanales y reglas para optimizar.`,
+Zadanie:
+1) Zdefiniuj cel główny consideration (kwalifikowane leady / dema / ATC).
+2) Zdefiniuj KPI: CPL/CPQL, CVR landingu, show-up (jeśli webinary), reply rate.
+3) Zdefiniuj 3 “bridge content” + deliverables (checklista, kalkulator, przewodnik).
+4) Cele tygodniowe i reguły optymalizacji.`,
     thumbnail: "",
   },
   {
     id: "mobj-023",
-    title: "Objetivos de conversión (bottom funnel) — cerrar sin descuentos estúpidos",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele konwersji (bottom funnel) — domykaj bez głupich rabatów",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos bottom funnel con foco en conversion quality y margen.",
-    prompt: `Rellena:
+      "Cele bottom-funnel z naciskiem na jakość konwersji i marżę.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Precio y margen:
-- Point of friction (checkout, confianza, envío):
-- Objeciones:
-- Canales:
+- Cena i marża:
+- Punkt tarcia (checkout, zaufanie, dostawa):
+- Obiekcje:
+- Kanały:
 
-Tarea:
-1) Define objetivo primario (CVR, CAC, revenue).
-2) Define 3 palancas de conversión (trust, oferta, fricción).
-3) Define metas por semana y leading indicators (checkout starts, payment attempts).
-4) Crea reglas: cuándo usar incentivo, cuándo no.
-5) Termina con checklist de CRO.`,
+Zadanie:
+1) Zdefiniuj cel główny (CVR, CAC, przychód).
+2) Zdefiniuj 3 dźwignie konwersji (zaufanie, oferta, tarcie).
+3) Cele tygodniowe + leading indicators (start checkoutów, próby płatności).
+4) Reguły: kiedy używać bodźca (incentive), a kiedy nie.
+5) Zakończ checklistą CRO.`,
     thumbnail: "",
   },
   {
     id: "mobj-024",
-    title: "Objetivos de segmentación — metas por segmento (nuevo vs recurrente, frío vs caliente)",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele segmentacji — cele per segment (nowy vs powracający, zimny vs gorący)",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos por segmento para evitar promedio engañoso.",
-    prompt: `Rellena:
-- Segmentos disponibles:
+      "Definiuje cele per segment, żeby uniknąć mylących średnich.",
+    prompt: `Uzupełnij:
+- Dostępne segmenty:
 - Oferta:
-- Métricas por segmento (si existen):
-- Canales:
+- Metryki per segment (jeśli istnieją):
+- Kanały:
 
-Tarea:
-1) Propón 4 segmentos clave (frío, tibio, caliente, cliente).
-2) Define objetivo primario por segmento + KPI.
-3) Define mensaje y canal por segmento (breve).
-4) Metas semanales por segmento.
-5) Cómo reportar sin confusión (tabla sugerida).`,
+Zadanie:
+1) Zaproponuj 4 kluczowe segmenty (zimny, ciepły, gorący, klient).
+2) Dla każdego segmentu: cel główny + KPI.
+3) Dla każdego segmentu: komunikat i kanał (krótko).
+4) Cele tygodniowe per segment.
+5) Jak raportować bez chaosu (sugerowana tabela).`,
     thumbnail: "",
   },
   {
     id: "mobj-025",
-    title: "Objetivo de posicionamiento por precio (premium vs accesible) — coherencia de métricas",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cel pozycjonowania ceną (premium vs dostępne) — spójność metryk",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Alinea objetivos según posicionamiento de precio: premium necesita otras señales.",
-    prompt: `Rellena:
-- Precio:
-- Competencia:
+      "Dopasowuje cele do pozycjonowania cenowego: premium wymaga innych sygnałów.",
+    prompt: `Uzupełnij:
+- Cena:
+- Konkurencja:
 - ICP:
-- Ciclo de compra:
-- Prueba social:
+- Cykl zakupu:
+- Social proof:
 
-Tarea:
-1) Define si el posicionamiento debe ser premium o accesible (argumenta).
-2) Define objetivos y KPIs coherentes con ese posicionamiento.
-3) Define señales de calidad (ej: calls booked, replies, demo requests).
-4) Metas 30 días y 90 días con supuestos.`,
+Zadanie:
+1) Określ, czy pozycjonowanie powinno być premium czy dostępne (uzasadnij).
+2) Zdefiniuj cele i KPI spójne z tym pozycjonowaniem.
+3) Zdefiniuj sygnały jakości (np. calls booked, replies, prośby o demo).
+4) Cele na 30 i 90 dni wraz z założeniami.`,
     thumbnail: "",
   },
 
   {
     id: "mobj-026",
-    title: "Objetivos para nuevo canal (TikTok/YouTube/LinkedIn) — metas realistas de aprendizaje",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele dla nowego kanału (TikTok/YouTube/LinkedIn) — realistyczne cele nauki",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos de entrada a canal: consistencia, aprendizaje, señales de demanda.",
-    prompt: `Rellena:
-- Canal nuevo:
+      "Cele wejścia w kanał: konsekwencja, learning, sygnały popytu.",
+    prompt: `Uzupełnij:
+- Nowy kanał:
 - Oferta:
-- Recursos (tiempo/edición):
-- KPI deseado final:
-- Experiencia previa:
+- Zasoby (czas/montaż):
+- Docelowy KPI na końcu:
+- Wcześniejsze doświadczenie:
 
-Tarea:
-1) Define objetivo de 30 días enfocado en aprendizaje (no solo resultados).
-2) Establece:
-   - output (n° piezas)
-   - signal (retención, clicks, DMs)
-   - outcome (leads/ventas)
-3) Define “criteria to continue” y “criteria to stop/pivot”.
-4) Diseña 8 experimentos de contenido por semana.`,
+Zadanie:
+1) Zdefiniuj cel 30 dni skoncentrowany na nauce (nie tylko wynikach).
+2) Ustal:
+   - output (liczba publikacji)
+   - signal (retencja, kliknięcia, DM)
+   - outcome (leady/sprzedaż)
+3) Zdefiniuj “criteria to continue” i “criteria to stop/pivot”.
+4) Zaprojektuj 8 eksperymentów contentowych na tydzień.`,
     thumbnail: "",
   },
   {
     id: "mobj-027",
-    title: "Objetivos para campaña con influencer/afiliados — alineación y medición",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele kampanii z influencerem/afiliacją — alignment i pomiar",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos y KPIs para colaboraciones: alcance, tráfico, ventas atribuibles.",
-    prompt: `Rellena:
-- Producto:
-- Tipo de influencer:
-- Modelo (pago fijo/afiliado):
-- Código/UTM:
-- Ventana:
+      "Cele i KPI dla współprac: zasięg, ruch, sprzedaż z atrybucją.",
+    prompt: `Uzupełnij:
+- Produkt:
+- Typ influencera:
+- Model (stała opłata/afiliacja):
+- Kod/UTM:
+- Okno:
 
-Tarea:
-1) Define objetivo principal (ventas/CPA/lead gen).
-2) Define KPIs: ER, clicks, CVR landing, ventas, AOV.
-3) Define criterios de éxito por influencer (mínimos).
-4) Define plan de contenido (3 piezas) y reglas de tracking.
-5) Define cómo iterar si el influencer trae tráfico pero no ventas.`,
+Zadanie:
+1) Zdefiniuj cel główny (sprzedaż/CPA/lead gen).
+2) Zdefiniuj KPI: ER, kliknięcia, CVR landingu, sprzedaż, AOV.
+3) Ustal minimalne kryteria sukcesu per influencer.
+4) Plan contentu (3 materiały) + zasady trackingu.
+5) Jak iterować, jeśli influencer daje ruch, ale nie sprzedaż.`,
     thumbnail: "",
   },
   {
     id: "mobj-028",
-    title: "Objetivos para campaña de reactivación (clientes inactivos / leads fríos)",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele kampanii reaktywacyjnej (nieaktywni klienci / zimne leady)",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos de reactivación: reply rate, conversión, win-back.",
-    prompt: `Rellena:
-- Segmento a reactivar:
-- Tiempo de inactividad:
+      "Cele reaktywacji: reply rate, konwersja, win-back.",
+    prompt: `Uzupełnij:
+- Segment do reaktywacji:
+- Czas nieaktywności:
 - Oferta:
-- Canales (email/whatsapp):
-- Historial:
+- Kanały (email/whatsapp):
+- Historia:
 
-Tarea:
-1) Define objetivo principal (win-back revenue o reactivación de interés).
-2) Define KPIs: reply rate, CTR, conversion, unsub.
-3) Define 3 mensajes/ángulos y cómo medir cuál gana.
-4) Metas semanales y reglas de limpieza de lista.`,
+Zadanie:
+1) Zdefiniuj cel główny (win-back revenue lub reaktywacja intencji).
+2) KPI: reply rate, CTR, konwersja, unsub.
+3) Zdefiniuj 3 komunikaty/kąty i jak mierzyć zwycięzcę.
+4) Cele tygodniowe i reguły czyszczenia listy.`,
     thumbnail: "",
   },
   {
     id: "mobj-029",
-    title: "Objetivos para evento presencial (ventas + leads + contenido) con métricas por etapa",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele eventu offline (sprzedaż + leady + content) z metrykami per etap",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos para evento: registros, asistencia, leads, cierres, contenido.",
-    prompt: `Rellena:
-- Evento:
-- Capacidad:
-- Precio (si aplica):
-- Objetivo negocio:
-- Canales:
+      "Cele eventowe: rejestracje, frekwencja, leady, domknięcia, content.",
+    prompt: `Uzupełnij:
+- Event:
+- Pojemność:
+- Cena (jeśli dotyczy):
+- Cel biznesowy:
+- Kanały:
 
-Tarea:
-1) Define objetivos:
-   - registros
-   - asistencia
-   - leads cualificados
-   - ventas/cierres
-   - piezas de contenido generadas
-2) KPI por objetivo + metas por semana.
-3) Plan de seguimiento post-evento (7–14 días) con objetivos de cierre.`,
+Zadanie:
+1) Zdefiniuj cele:
+   - rejestracje
+   - frekwencja
+   - kwalifikowane leady
+   - sprzedaż/domknięcia
+   - liczba materiałów contentowych
+2) KPI per cel + cele tygodniowe.
+3) Plan follow-up po evencie (7–14 dni) z celami domknięcia.`,
     thumbnail: "",
   },
   {
     id: "mobj-030",
-    title: "Objetivos para PR / prensa — señales de demanda y reputación (no solo menciones)",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele PR/prasy — sygnały popytu i reputacji (nie tylko wzmianki)",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos de PR conectados a negocio: tráfico cualificado, confianza, leads.",
-    prompt: `Rellena:
-- Marca:
-- Mensaje:
-- Público:
-- Medios objetivo:
-- Activo de conversión (landing, lead magnet):
+      "Cele PR powiązane z biznesem: jakościowy ruch, zaufanie, leady.",
+    prompt: `Uzupełnij:
+- Marka:
+- Komunikat:
+- Odbiorca:
+- Media docelowe:
+- Asset konwersji (landing, lead magnet):
 
-Tarea:
-1) Define objetivo principal de PR (reputación + demanda).
-2) Define KPIs: visitas branded, búsquedas, leads, menciones de calidad.
-3) Define meta por periodo y cómo atribuir (UTMs, picos).
-4) Plan de “activación” después de cada mención.`,
+Zadanie:
+1) Zdefiniuj główny cel PR (reputacja + popyt).
+2) KPI: branded visits, wyszukiwania, leady, wzmianki jakościowe.
+3) Cel per okres i jak atrybuować (UTM, piki).
+4) Plan “aktywacji” po każdej publikacji.`,
     thumbnail: "",
   },
 
   {
     id: "mobj-031",
-    title: "Descomponer objetivo en tareas (Workback plan) — desde deadline hacia hoy",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Rozbij cel na zadania (Workback plan) — od deadlinu do dziś",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Plan backward para asegurar ejecución: hitos, dependencias, owners.",
-    prompt: `Rellena:
-- Objetivo final (SMART):
+      "Plan wsteczny: kamienie milowe, zależności, ownerzy.",
+    prompt: `Uzupełnij:
+- Cel finalny (SMART):
 - Deadline:
-- Activos faltantes (landing, creatives, emails):
-- Equipo/roles:
+- Brakujące aktywa (landing, kreacje, emaile):
+- Zespół/role:
 
-Tarea:
-1) Crea un workback plan por semanas (o días si faltan <14 días).
-2) Incluye:
-   - entregables
-   - dueño (rol)
-   - dependencias
-   - fecha límite interna
-3) Define “critical path” (lo que si se retrasa, rompe todo).
-4) Define rituales de control (3 reuniones máximas).`,
+Zadanie:
+1) Stwórz workback plan tygodniami (albo dniami, jeśli zostało <14 dni).
+2) Uwzględnij:
+   - deliverables
+   - owner (rola)
+   - zależności
+   - wewnętrzny termin
+3) Zdefiniuj “critical path” (co jak się opóźni — psuje całość).
+4) Zdefiniuj rytuały kontrolne (max 3 spotkania).`,
     thumbnail: "",
   },
   {
     id: "mobj-032",
-    title: "Objetivos con restricciones (budget/time/team) — define qué sacrificar conscientemente",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele z ograniczeniami (budżet/czas/zespół) — świadomie zdecyduj, co poświęcasz",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Ajusta objetivos a restricciones reales: triángulo alcance/tiempo/calidad.",
-    prompt: `Rellena:
-- Objetivo deseado:
-- Presupuesto:
-- Tiempo:
-- Equipo:
-- Canales:
+      "Dopasowuje cel do realnych ograniczeń: trójkąt zakres/czas/jakość.",
+    prompt: `Uzupełnij:
+- Pożądany cel:
+- Budżet:
+- Czas:
+- Zespół:
+- Kanały:
 
-Tarea:
-1) Evalúa viabilidad y marca:
-   - lo posible
-   - lo arriesgado
-   - lo imposible
-2) Propón versión recalibrada del objetivo (realista) + su KPI.
-3) Define qué sacrificas:
-   - alcance
-   - velocidad
-   - calidad
-4) Propón 3 palancas para recuperar performance sin aumentar recursos.`,
+Zadanie:
+1) Oceń wykonalność i oznacz:
+   - możliwe
+   - ryzykowne
+   - niemożliwe
+2) Zaproponuj skalibrowaną wersję celu (realistyczną) + KPI.
+3) Zdefiniuj, co poświęcasz:
+   - zasięg
+   - szybkość
+   - jakość
+4) Zaproponuj 3 dźwignie poprawy bez zwiększania zasobów.`,
     thumbnail: "",
   },
   {
     id: "mobj-033",
-    title: "Objetivos por mercado (local vs internacional) — ajustar KPI y mensaje",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele per rynek (lokalny vs międzynarodowy) — dopasuj KPI i komunikat",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos cuando cambias de país/idioma: benchmarks y señales de product-market fit.",
-    prompt: `Rellena:
-- País actual:
-- Nuevo país:
-- Canales:
+      "Cele przy wejściu na nowy kraj/język: benchmarki i sygnały product-market fit.",
+    prompt: `Uzupełnij:
+- Obecny kraj:
+- Nowy kraj:
+- Kanały:
 - Oferta:
-- Prueba social disponible:
+- Dostępny social proof:
 
-Tarea:
-1) Define objetivo de entrada al mercado (30/90 días).
-2) KPIs de validación: CTR, CPC, CVR, replies, demos.
-3) Define 3 hipótesis culturales (mensajes) a testear.
-4) Metas por semana y plan de aprendizaje.`,
+Zadanie:
+1) Zdefiniuj cel wejścia na rynek (30/90 dni).
+2) KPI walidacji: CTR, CPC, CVR, replies, demo.
+3) Zdefiniuj 3 hipotezy kulturowe (komunikaty) do testu.
+4) Cele tygodniowe i plan uczenia.`,
     thumbnail: "",
   },
   {
     id: "mobj-034",
-    title: "Objetivos para producto nuevo vs producto maduro — qué cambia y qué debes medir",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele dla nowego vs dojrzałego produktu — co się zmienia i co mierzyć",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Alinea objetivos según etapa: descubrimiento vs optimización.",
-    prompt: `Rellena:
-- Producto:
-- Etapa (nuevo/maduro):
-- Datos actuales:
-- Canales:
+      "Dopasowuje cele do etapu: discovery vs optymalizacja.",
+    prompt: `Uzupełnij:
+- Produkt:
+- Etap (nowy/dojrzały):
+- Aktualne dane:
+- Kanały:
 
-Tarea:
-1) Si es nuevo: define objetivos de aprendizaje + demanda inicial.
-2) Si es maduro: define objetivos de eficiencia (CAC/ROAS/CVR).
-3) Define tablero mínimo para cada caso.
-4) Define “gates” para pasar de etapa nuevo → optimización.`,
+Zadanie:
+1) Jeśli nowy: zdefiniuj cele uczenia + początkowy popyt.
+2) Jeśli dojrzały: zdefiniuj cele efektywności (CAC/ROAS/CVR).
+3) Zdefiniuj minimalny dashboard dla obu przypadków.
+4) Zdefiniuj “gates” przejścia: nowy → optymalizacja.`,
     thumbnail: "",
   },
   {
     id: "mobj-035",
-    title: "Objetivos de pricing/promoción — aumentar margen sin matar conversión",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele pricingu/promocji — zwiększ marżę bez ubicia konwersji",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos cuando cambias precio: margen, CVR, churn, percepción.",
-    prompt: `Rellena:
-- Precio actual:
-- Precio nuevo:
-- Razón del cambio:
-- Margen:
-- Competencia:
+      "Cele przy zmianie ceny: marża, CVR, churn, percepcja.",
+    prompt: `Uzupełnij:
+- Obecna cena:
+- Nowa cena:
+- Powód zmiany:
+- Marża:
+- Konkurencja:
 
-Tarea:
-1) Define objetivo principal (margen/conversión/retención).
-2) Define KPIs y umbrales de alerta.
-3) Propón 3 experimentos de anclaje/oferta para sostener CVR.
-4) Plan de comunicación (email, landing, scripts) con objetivos por canal.`,
+Zadanie:
+1) Zdefiniuj cel główny (marża/konwersja/retencja).
+2) Zdefiniuj KPI i progi alarmowe.
+3) Zaproponuj 3 eksperymenty z anchoringiem/ofertą, by utrzymać CVR.
+4) Plan komunikacji (email, landing, skrypty) z celami per kanał.`,
     thumbnail: "",
   },
 
   {
     id: "mobj-036",
-    title: "Objetivo de lead quality — pasar de ‘muchos leads’ a ‘leads que compran’",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cel jakości leadów — od ‘dużo leadów’ do ‘leady, które kupują’",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos de calidad: MQL→SQL, show-up, close rate, pipeline.",
-    prompt: `Rellena:
-- Producto/servicio:
-- Lead fuentes:
-- Problema: leads basura vs pocos cierres
-- Baseline: MQL→SQL, show up, close rate (si existe)
+      "Cele jakości: MQL→SQL, show-up, close rate, pipeline.",
+    prompt: `Uzupełnij:
+- Produkt/usługa:
+- Źródła leadów:
+- Problem: śmieciowe leady vs mało domknięć
+- Baseline: MQL→SQL, show-up, close rate (jeśli istnieje)
 
-Tarea:
-1) Define objetivo principal como “calidad”, no volumen.
-2) Define KPIs:
+Zadanie:
+1) Zdefiniuj cel główny jako “jakość”, nie wolumen.
+2) Zdefiniuj KPI:
    - CPQL
    - SQL rate
    - close rate
    - CAC
-3) Define 5 cambios para mejorar calidad (mensaje, formulario, calificación, nurture).
-4) Metas semanales y cómo medir mejora real.`,
+3) Zdefiniuj 5 zmian poprawiających jakość (komunikat, formularz, kwalifikacja, nurture).
+4) Cele tygodniowe i jak mierzyć realną poprawę.`,
     thumbnail: "",
   },
   {
     id: "mobj-037",
-    title: "Objetivos para call booking (B2B/B2C high ticket) — de clicks a reuniones",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele dla umawiania rozmów (B2B/B2C high ticket) — od kliknięć do spotkań",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Objetivos de citas: show-up, set rate, close rate y valor del pipeline.",
-    prompt: `Rellena:
+      "Cele kalendarza: show-up, set rate, close rate i wartość pipeline’u.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Precio:
-- Calendly funnel:
+- Cena:
+- Lejek Calendly:
 - Show-up rate:
 - Close rate:
-- Presupuesto:
+- Budżet:
 
-Tarea:
-1) Define objetivo de reuniones (número) y pipeline ($).
-2) Define embudo: clicks → leads → booked → showed → closed.
-3) Targets por etapa + reglas si cae show-up.
-4) Crea scoreboard diario y semanal.
-5) Define 3 palancas de mejora (reminders, calificación, oferta de llamada).`,
+Zadanie:
+1) Zdefiniuj cel spotkań (liczba) i pipeline ($).
+2) Zdefiniuj lejek: kliknięcia → leady → booked → showed → closed.
+3) Targety per etap + reguły, gdy spada show-up.
+4) Stwórz scoreboard dzienny i tygodniowy.
+5) Zdefiniuj 3 dźwignie poprawy (remindery, kwalifikacja, oferta rozmowy).`,
     thumbnail: "",
   },
   {
     id: "mobj-038",
-    title: "Objetivos para SEO (90 días) — metas por contenido, rankings y leads",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele SEO (90 dni) — cele per content, pozycje i leady",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos SEO realistas: output, calidad, rankings proxy y leads.",
-    prompt: `Rellena:
-- Nicho:
+      "Realistyczne cele SEO: output, jakość, proxy rankingów i leady.",
+    prompt: `Uzupełnij:
+- Nisza:
 - Oferta:
-- Estado SEO actual:
-- Recursos (writers):
-- Prioridades:
+- Aktualny stan SEO:
+- Zasoby (writerzy):
+- Priorytety:
 
-Tarea:
-1) Define objetivos 30/60/90 días (output y outcomes).
-2) KPIs: publicaciones, indexación, posiciones (top 10), clicks, leads.
-3) Define 3 clusters y metas por cluster.
-4) Plan de medición y decisiones mensuales.`,
+Zadanie:
+1) Zdefiniuj cele 30/60/90 dni (output i outcomes).
+2) KPI: publikacje, indeksacja, pozycje (top 10), kliknięcia, leady.
+3) Zdefiniuj 3 klastry i cele per klaster.
+4) Plan pomiaru i miesięczne decyzje.`,
     thumbnail: "",
   },
   {
     id: "mobj-039",
-    title: "Objetivos para partnerships — leads compartidos y revenue atribuible",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele partnerships — współdzielone leady i atrybuowalny przychód",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos para alianzas: pipeline, conversaciones, revenue y actividad.",
-    prompt: `Rellena:
-- Partner ideal:
-- Audiencia:
-- Formato (webinar, bundle, referral):
-- Ventana:
+      "Cele alianse: pipeline, rozmowy, przychód i aktywność.",
+    prompt: `Uzupełnij:
+- Idealny partner:
+- Audiencja:
+- Format (webinar, bundle, referral):
+- Okno:
 - Oferta:
 
-Tarea:
-1) Define objetivo principal (leads, pipeline, revenue).
-2) KPI primario + secundarios (reuniones, CTR, CVR).
-3) Define actividad mínima por partner (n° envíos, posts, etc).
-4) Define reporte y reglas de continuidad (seguir/cortar).`,
+Zadanie:
+1) Zdefiniuj cel główny (leady, pipeline, przychód).
+2) KPI główny + poboczne (spotkania, CTR, CVR).
+3) Minimalna aktywność per partner (liczba wysyłek, postów itd.).
+4) Raport i reguły kontynuacji (kontynuować/uciąć).`,
     thumbnail: "",
   },
   {
     id: "mobj-040",
-    title: "Objetivos con ‘North Star’ para marketing personal (marca personal) — señales que importan",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele ‘North Star’ dla marketingu osobistego (personal brand) — sygnały, które mają znaczenie",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Fija NSM para marca personal: demanda entrante, DMs cualificados, calls.",
-    prompt: `Rellena:
+      "Ustala NSM dla marki osobistej: inbound popyt, kwalifikowane DM, rozmowy.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Plataforma:
-- Tiempo disponible:
+- Platforma:
+- Dostępny czas:
 - Baseline:
-- Público:
+- Publiczność:
 
-Tarea:
-1) Define NSM ideal (ej: calls booked/mes, DMs cualificados/semana).
-2) Define 3 objetivos por debajo (contenido, lead capture, nurture).
-3) Define scoreboard semanal.
-4) Define “cadencia”: qué haces diario/semanal y qué resultados esperas.`,
+Zadanie:
+1) Zdefiniuj idealną NSM (np. calls booked/mies., kwalifikowane DM/tydz.).
+2) Zdefiniuj 3 cele “pod spodem” (content, lead capture, nurture).
+3) Zdefiniuj tygodniowy scoreboard.
+4) Zdefiniuj kadencję: co robisz dziennie/tygodniowo i jakich wyników oczekujesz.`,
     thumbnail: "",
   },
 
   {
     id: "mobj-041",
-    title: "Objetivo tipo ‘Scoreboard’ (12 métricas máximas) — dashboard ejecutivo para campaña",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cel typu ‘Scoreboard’ (max 12 metryk) — executives dashboard kampanii",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Diseña un scoreboard simple que el equipo realmente use para decidir.",
-    prompt: `Rellena:
-- Campaña:
-- Canales:
-- KPI primario:
-- Funnel:
+      "Projektuje prosty scoreboard, którego zespół naprawdę używa do decyzji.",
+    prompt: `Uzupełnij:
+- Kampania:
+- Kanały:
+- KPI główny:
+- Lejek:
 
-Tarea:
-1) Selecciona 12 métricas o menos y agrúpalas:
-   - Salud de adquisición
-   - Salud de intención
-   - Salud de conversión
-   - Salud de retención
-2) Define frecuencia de revisión para cada métrica (diaria/semanal).
-3) Define umbrales (verde/amarillo/rojo).
-4) Define acciones asociadas a rojo (qué hacer, no solo mirar).`,
+Zadanie:
+1) Wybierz 12 metryk lub mniej i pogrupuj:
+   - zdrowie pozyskania
+   - zdrowie intencji
+   - zdrowie konwersji
+   - zdrowie retencji
+2) Zdefiniuj częstotliwość przeglądu (codziennie/tygodniowo) dla każdej metryki.
+3) Ustal progi (zielony/żółty/czerwony).
+4) Zdefiniuj działania dla czerwonego (co robimy, nie tylko patrzymy).`,
     thumbnail: "",
   },
   {
     id: "mobj-042",
-    title: "Objetivos por creatividad (ads) — qué debe mover cada tipo de creativo",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele per kreacja (ads) — co ma ruszać każdy typ kreacji",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivo por ángulo creativo: hook, prueba, oferta, objeción.",
-    prompt: `Rellena:
-- Producto:
-- Ángulos creativos usados:
-- Problema actual (CTR bajo, CVR bajo, etc):
-- Canales:
+      "Cele per kąt kreatywny: hook, dowód, oferta, obiekcje.",
+    prompt: `Uzupełnij:
+- Produkt:
+- Używane kąty kreatywne:
+- Aktualny problem (niski CTR, niski CVR itd.):
+- Kanały:
 
-Tarea:
-1) Define 5 tipos de creatividades y su objetivo:
+Zadanie:
+1) Zdefiniuj 5 typów kreacji i ich cel:
    - Hook/awareness
-   - Prueba social
+   - Social proof
    - Demo
    - Objection handling
    - Oferta
-2) KPI por tipo (CTR, hold rate, CVR).
-3) Define metas y criterios de éxito por tipo.
-4) Define plan de rotación semanal (cuántas nuevas por tipo).`,
+2) KPI per typ (CTR, hold rate, CVR).
+3) Cele i kryteria sukcesu per typ.
+4) Plan tygodniowej rotacji (ile nowych per typ).`,
     thumbnail: "",
   },
   {
     id: "mobj-043",
-    title: "Objetivos cuando ‘todo falla’ — diagnóstico rápido (qué objetivo debes priorizar hoy)",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele, gdy ‘wszystko siada’ — szybka diagnoza (jaki cel priorytet dziś)",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Framework para decidir el objetivo de la semana cuando hay caos y datos mixtos.",
-    prompt: `Rellena:
-- Síntomas (CTR, CPC, leads, CVR, ventas):
-- Canales:
+      "Framework do wyboru celu tygodnia, gdy jest chaos i mieszane dane.",
+    prompt: `Uzupełnij:
+- Symptomy (CTR, CPC, leady, CVR, sprzedaż):
+- Kanały:
 - Oferta:
-- Cambios recientes:
+- Ostatnie zmiany:
 
-Tarea:
-1) Diagnostica en qué parte del funnel está el fallo (top/mid/bottom/fulfillment).
-2) Define 1 objetivo único para 7 días (máxima prioridad).
-3) Define 3 acciones de alto impacto para esa semana.
-4) Define qué NO haremos (stop doing).
-5) Define cómo sabrás en 72 horas si vas mejor o peor.`,
+Zadanie:
+1) Zdiagnozuj, w której części lejka jest problem (top/mid/bottom/fulfillment).
+2) Zdefiniuj 1 jedyny cel na 7 dni (maks. priorytet).
+3) Zdefiniuj 3 działania o najwyższym wpływie na ten tydzień.
+4) Zdefiniuj, czego NIE zrobimy (stop doing).
+5) Zdefiniuj, skąd będziesz wiedzieć po 72h, czy idzie lepiej czy gorzej.`,
     thumbnail: "",
   },
   {
     id: "mobj-044",
-    title: "Objetivos de calidad creativa — consistencia, claridad, credibilidad (para contenido y ads)",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele jakości kreatywnej — spójność, jasność, wiarygodność (content i ads)",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos que mejoran la calidad del mensaje (no solo KPIs de compra).",
-    prompt: `Rellena:
-- Marca:
+      "Cele poprawiające jakość komunikatu (nie tylko KPI zakupowe).",
+    prompt: `Uzupełnij:
+- Marka:
 - Oferta:
-- Problema actual (confusión, desconfianza, mensajes dispersos):
+- Aktualny problem (zamieszanie, brak zaufania, rozjechany przekaz):
 
-Tarea:
-1) Define 3 objetivos de calidad:
-   - claridad de oferta
-   - credibilidad/prueba
-   - consistencia narrativa
-2) Define indicadores de calidad (internos y externos).
-3) Define checklist de auditoría de piezas (10 puntos).
-4) Define plan 30 días para elevar calidad con entregables semanales.`,
+Zadanie:
+1) Zdefiniuj 3 cele jakości:
+   - klarowność oferty
+   - wiarygodność/dowód
+   - spójność narracyjna
+2) Zdefiniuj wskaźniki jakości (wewnętrzne i zewnętrzne).
+3) Zdefiniuj checklistę audytu materiałów (10 punktów).
+4) Zdefiniuj plan 30 dni na podniesienie jakości (deliverables tygodniowe).`,
     thumbnail: "",
   },
   {
     id: "mobj-045",
-    title: "Objetivos de upsell/cross-sell — aumentar LTV sin aumentar CAC",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele upsell/cross-sell — zwiększ LTV bez zwiększania CAC",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos para elevar LTV: tasa upsell, take rate, AOV, margen.",
-    prompt: `Rellena:
-- Producto principal:
-- Upsell/cross-sell disponibles:
-- AOV actual:
-- Window post compra:
-- Canales:
+      "Cele pod LTV: upsell rate, take rate, AOV, marża.",
+    prompt: `Uzupełnij:
+- Produkt główny:
+- Dostępne upsell/cross-sell:
+- Aktualny AOV:
+- Okno po zakupie:
+- Kanały:
 
-Tarea:
-1) Define objetivo principal (LTV/AOV take rate).
-2) Define KPIs y metas por semana.
-3) Define 3 puntos de inserción:
+Zadanie:
+1) Zdefiniuj cel główny (LTV/AOV take rate).
+2) KPI i cele tygodniowe.
+3) 3 punkty wpięcia:
    - checkout
-   - post compra
+   - post-purchase
    - email/whatsapp
-4) Define 5 hipótesis de bundles/ofertas a probar.`,
+4) 5 hipotez bundli/ofert do przetestowania.`,
     thumbnail: "",
   },
 
   {
     id: "mobj-046",
-    title: "Objetivo de velocidad (time-to-launch) — lanzar en 7 días sin romper calidad",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cel szybkości (time-to-launch) — wypuść w 7 dni bez rozwalenia jakości",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivo de salida rápida: entregables mínimos, riesgos aceptables y control.",
-    prompt: `Rellena:
+      "Cel szybkiego wyjścia: minimum deliverables, akceptowalne ryzyka i kontrola.",
+    prompt: `Uzupełnij:
 - Oferta:
-- Fecha objetivo:
-- Activos mínimos:
-- Equipo:
-- Riesgos:
+- Data docelowa:
+- Minimalne aktywa:
+- Zespół:
+- Ryzyka:
 
-Tarea:
-1) Define el MVP del lanzamiento (qué sí o sí debe existir).
-2) Define objetivo principal (salir a mercado y medir).
-3) Define métricas mínimas de validación en 72 horas.
-4) Lista de “must not ship” (cosas que no pueden fallar).
-5) Workback plan día a día.`,
+Zadanie:
+1) Zdefiniuj MVP launchu (co musi istnieć bezwzględnie).
+2) Zdefiniuj cel główny (wyjść na rynek i mierzyć).
+3) Zdefiniuj minimalne metryki walidacji w 72h.
+4) Lista “must not ship” (rzeczy, które nie mogą się zepsuć).
+5) Workback plan dzień po dniu.`,
     thumbnail: "",
   },
   {
     id: "mobj-047",
-    title: "Objetivos de pricing por segmento — misma oferta, diferentes objetivos según cliente",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele pricingu per segment — ta sama oferta, różne cele wg klienta",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos por segmento para pricing: premium vs volumen vs entrada.",
-    prompt: `Rellena:
-- Segmentos:
-- Disposición a pagar:
+      "Cele per segment dla pricingu: premium vs wolumen vs wejście.",
+    prompt: `Uzupełnij:
+- Segmenty:
+- Skłonność do płacenia:
 - Oferta:
-- Canales:
+- Kanały:
 
-Tarea:
-1) Define objetivo por segmento (margen vs volumen vs adquisición).
-2) KPIs por segmento.
-3) Mensaje por segmento (1–2 frases).
-4) Plan de medición y cuándo separar campañas/landings.`,
+Zadanie:
+1) Zdefiniuj cel per segment (marża vs wolumen vs pozyskanie).
+2) KPI per segment.
+3) Komunikat per segment (1–2 zdania).
+4) Plan pomiaru i kiedy rozdzielać kampanie/landingi.`,
     thumbnail: "",
   },
   {
     id: "mobj-048",
-    title: "Objetivos de reducción de fricción — checkout/landing/call booking",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele redukcji frikcji — checkout/landing/call booking",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivo enfocado en fricción: tasa de abandono y pasos del funnel.",
-    prompt: `Rellena:
-- Punto de fricción (form, checkout, calendario):
-- Paso actual donde cae la gente:
+      "Cel skupiony na tarciu: porzucenia i konwersje kroków.",
+    prompt: `Uzupełnij:
+- Punkt tarcia (formularz, checkout, kalendarz):
+- Krok, na którym odpadają:
 - Baseline:
-- Herramientas:
+- Narzędzia:
 
-Tarea:
-1) Define objetivo principal (reducir abandono X%).
-2) Define métricas por paso (step conversion).
-3) Define 10 hipótesis de fricción + fixes.
-4) Plan de tests (2 semanas) con criterio de éxito.`,
+Zadanie:
+1) Zdefiniuj cel główny (zredukować porzucenia o X%).
+2) Metryki per krok (step conversion).
+3) 10 hipotez tarcia + poprawki.
+4) Plan testów (2 tygodnie) z kryterium sukcesu.`,
     thumbnail: "",
   },
   {
     id: "mobj-049",
-    title: "Objetivos con atribución imperfecta — cómo medir cuando no hay tracking perfecto",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cele z niedoskonałą atrybucją — jak mierzyć bez perfekcyjnego trackingu",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Define objetivos y medición cuando hay iOS, dark social, ventas por WhatsApp, etc.",
-    prompt: `Rellena:
-- Canales:
-- Ventas por DM/WhatsApp:
-- Problemas de tracking:
-- KPI que sí puedes medir:
+      "Cele i pomiar przy iOS/dark social/sprzedaży przez WhatsApp itd.",
+    prompt: `Uzupełnij:
+- Kanały:
+- Sprzedaż przez DM/WhatsApp:
+- Problemy z trackingiem:
+- KPI, które możesz mierzyć:
 
-Tarea:
-1) Define objetivo principal y métricas proxy (leading).
-2) Define sistema de “self-reported attribution” (preguntas en checkout/DM).
-3) Define tablero híbrido: datos directos + proxies.
-4) Define reglas de decisión para escalar sin tener certeza 100%.`,
+Zadanie:
+1) Zdefiniuj cel główny i metryki proxy (leading).
+2) System “self-reported attribution” (pytania w checkout/DM).
+3) Hybrydowy dashboard: dane bezpośrednie + proxy.
+4) Reguły decyzji: jak skalować bez 100% pewności.`,
     thumbnail: "",
   },
   {
     id: "mobj-050",
-    title: "Objetivo final + contrato de medición — documento simple para alinear a todo el equipo",
-    area: "Marketing & ventas",
-    category: "Objetivos",
+    title:
+      "Cel końcowy + kontrakt pomiaru — prosty dokument do wyrównania zespołu",
+    area: "Marketing i sprzedaż",
+    category: "Cele",
     summary:
-      "Plantilla de ‘contrato de objetivos’: qué medimos, cómo y qué significa éxito.",
-    prompt: `Rellena:
-- Campaña:
-- Objetivo inicial:
-- KPIs:
-- Canales:
-- Supuestos:
-- Responsables:
+      "Szablon ‘kontraktu celów’: co mierzymy, jak i co oznacza sukces.",
+    prompt: `Uzupełnij:
+- Kampania:
+- Cel startowy:
+- KPI:
+- Kanały:
+- Założenia:
+- Odpowiedzialni:
 
-Tarea:
-Redacta un documento corto (1 página) que incluya:
-1) Objetivo SMART (1 frase).
-2) KPIs (primario/secundarios) con definiciones exactas.
-3) Supuestos y dependencias (qué debe pasar).
-4) Umbrales (verde/amarillo/rojo) por KPI.
-5) Ritmo de reporting y quién decide.
-6) Qué NO medimos y por qué.
-7) Lista de riesgos y mitigaciones.
-Debe quedar listo para copiar en Notion/Docs.`,
+Zadanie:
+Napisz krótki dokument (1 strona), który zawiera:
+1) Cel SMART (1 zdanie).
+2) KPI (główny/poboczne) z dokładnymi definicjami.
+3) Założenia i zależności (co musi się wydarzyć).
+4) Progi (zielony/żółty/czerwony) per KPI.
+5) Rytm raportowania i kto decyduje.
+6) Czego NIE mierzymy i dlaczego.
+7) Lista ryzyk i mitigacji.
+Ma być gotowe do wklejenia do Notion/Docs.`,
     thumbnail: "",
   },
 ];

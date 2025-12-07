@@ -3,316 +3,316 @@
 export const videoPromptsUGCTestimonios = [
   {
     id: "video-ugc-testimonio-01",
-    title: "Testimonio selfie en casa (producto digital)",
+    title: "Testimonial selfie w domu (produkt cyfrowy)",
     summary:
-      "Persona grabando un selfie natural en su salón, contando cómo le ayudó un producto digital.",
-    area: "UGC / Testimonio",
-    category:"UGC Testimonios",
+      "Osoba nagrywa naturalne selfie w salonie i opowiada, jak pomógł jej produkt cyfrowy.",
+    area: "UGC / Testimonial",
+    category: "UGC Testimoniale",
     prompt: `
-Genera un vídeo estilo UGC de 8 segundos en formato horizontal 16:9, sin texto en pantalla.
+Wygeneruj wideo w stylu UGC trwające 8 sekund w formacie poziomym 16:9, bez żadnego tekstu na ekranie.
 
-Tema: testimonio tipo selfie sobre un producto digital (curso, app o programa online).
+Temat: testimonial typu selfie o produkcie cyfrowym (kurs, aplikacja lub program online).
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–2:
-  • Cámara en mano, plano medio de una persona joven, grabándose a sí misma tipo selfie en su salón.
-  • El fondo muestra un sofá, una planta y algo de decoración sencilla; luz natural suave entrando por una ventana.
-  • La persona sostiene el móvil con una mano, mirando directamente a la cámara con expresión entusiasta pero natural, boca moviéndose como si estuviera hablando.
+- Sekundy 0–2:
+  • Kamera w ręce, plan średni młodej osoby nagrywającej siebie w salonie w stylu selfie.
+  • W tle widać sofę, roślinę i prostą dekorację; miękkie, naturalne światło wpada z okna.
+  • Osoba trzyma telefon jedną ręką, patrzy prosto w kamerę z entuzjastycznym, ale naturalnym wyrazem twarzy, porusza ustami jakby mówiła.
 
-- Segundos 2–4:
-  • La persona cambia el móvil ligeramente de ángulo, acercándolo un poco más al rostro.
-  • Gesticula con la mano libre, señalando brevemente hacia una laptop abierta sobre una mesa en segundo plano.
-  • En la pantalla de la laptop se ve una interfaz genérica de curso o app (bloques, miniaturas, sin texto legible).
+- Sekundy 2–4:
+  • Osoba lekko zmienia kąt telefonu, przybliżając go nieco do twarzy.
+  • Gestykuluje wolną ręką, na chwilę wskazując otwartego laptopa na stole w tle.
+  • Na ekranie laptopa widać generyczny interfejs kursu lub aplikacji (bloki, miniatury, bez czytelnego tekstu).
 
-- Segundos 4–6:
-  • La persona asiente con la cabeza varias veces, sonriendo, como si estuviera diciendo que le ha ido muy bien.
-  • Hace un gesto de “pulgar arriba” delante de la cámara durante un instante.
+- Sekundy 4–6:
+  • Osoba kilka razy kiwa głową, uśmiechając się, jakby mówiła, że wszystko idzie świetnie.
+  • Na moment pokazuje gest “kciuk w górę” przed kamerą.
 
-- Segundos 6–8:
-  • La cámara se aleja un poco (el brazo se estira), mostrando más del salón.
-  • La persona se ríe suavemente, gira el cuerpo para mostrar de nuevo la laptop al fondo y vuelve a encuadrar su cara, terminando con una sonrisa segura.
+- Sekundy 6–8:
+  • Kamera lekko się oddala (ręka się prostuje), pokazując więcej salonu.
+  • Osoba cicho się śmieje, obraca ciało, żeby znów pokazać laptopa w tle, po czym ponownie kadruje twarz i kończy pewnym uśmiechem.
 `,
-thumbnail: "/videos/ugc001.gif",
+    thumbnail: "/videos/ugc001.gif",
   },
   {
     id: "video-ugc-testimonio-02",
-    title: "Testimonio POV usando una app en el móvil",
+    title: "Testimonial POV: używanie aplikacji na telefonie",
     summary:
-      "Tomas POV de manos usando una app en el móvil sobre una mesa, con gestos que transmiten satisfacción.",
-    area: "UGC / Testimonio",
-    category:"UGC Testimonios",
+      "Ujęcia POV dłoni korzystających z aplikacji na telefonie na stole, z gestami zadowolenia.",
+    area: "UGC / Testimonial",
+    category: "UGC Testimoniale",
     prompt: `
-Genera un vídeo de estilo POV de 8 segundos, horizontal 16:9, sin texto en pantalla.
+Wygeneruj wideo w stylu POV trwające 8 sekund, poziome 16:9, bez tekstu na ekranie.
 
-Tema: testimonio visual de alguien usando una app en el móvil que facilita su vida.
+Temat: wizualny testimonial osoby używającej aplikacji w telefonie, która ułatwia jej życie.
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–2:
-  • Plano cenital o ligeramente inclinado de una mesa de madera clara.
-  • Un smartphone en el centro, sostenido por dos manos, con una interfaz de app organizada: tarjetas, iconos, gráficos simples (sin texto legible).
-  • Alrededor hay una taza de café, un cuaderno y un bolígrafo, creando ambiente de trabajo ligero.
+- Sekundy 0–2:
+  • Ujęcie z góry (cenitalne) lub lekko pochylone na jasnym drewnianym stole.
+  • Smartfon pośrodku, trzymany dwiema dłońmi, z uporządkowanym interfejsem aplikacji: karty, ikony, proste wykresy (bez czytelnego tekstu).
+  • Obok kubek kawy, notes i długopis, tworzące lekką atmosferę pracy.
 
-- Segundos 2–4:
-  • Un dedo recorre la pantalla, desplazando el contenido de la app suavemente.
-  • Se muestran cambios entre secciones: diferentes iconos y gráficos se mueven, como si se estuvieran gestionando tareas o proyectos.
+- Sekundy 2–4:
+  • Palec przesuwa po ekranie, płynnie przewijając zawartość aplikacji.
+  • Widać przełączanie między sekcjami: różne ikony i wykresy się zmieniają, jakby zarządzano zadaniami lub projektami.
 
-- Segundos 4–6:
-  • Una de las manos se separa del móvil y hace un gesto de aprobación: pulgar arriba o pequeño puño de victoria junto al smartphone.
-  • El móvil queda un poco inclinado hacia la cámara, para resaltar la app.
+- Sekundy 4–6:
+  • Jedna dłoń odrywa się od telefonu i wykonuje gest aprobaty: kciuk w górę lub mały “pięść zwycięstwa” obok smartfona.
+  • Telefon jest lekko przechylony w stronę kamery, żeby podkreślić aplikację.
 
-- Segundos 6–8:
-  • La mano libre cierra el cuaderno con un movimiento decidido, acercando el bolígrafo encima, como si ya hubiera terminado sus pendientes.
-  • Después, ambas manos toman el móvil y lo alejan ligeramente, dando una sensación de “listo, todo está bajo control”.
+- Sekundy 6–8:
+  • Wolna ręka zamyka notes zdecydowanym ruchem i kładzie na nim długopis, jakby wszystko było już ogarnięte.
+  • Potem obie dłonie chwytają telefon i lekko go odsuwają, dając wrażenie “gotowe, wszystko pod kontrolą”.
 `,
-thumbnail: "/videos/ugc002.gif",
+    thumbnail: "/videos/ugc002.gif",
   },
   {
     id: "video-ugc-testimonio-03",
-    title: "Testimonio en cocina después de usar producto fitness/nutrición",
+    title: "Testimonial w kuchni po użyciu produktu fitness/żywieniowego",
     summary:
-      "Persona en la cocina mostrando un pequeño cambio de hábitos gracias a un producto.",
-    area: "UGC / Testimonio",
-    category:"UGC Testimonios",
+      "Osoba w kuchni pokazuje małą zmianę nawyków dzięki produktowi.",
+    area: "UGC / Testimonial",
+    category: "UGC Testimoniale",
     prompt: `
-Genera un vídeo UGC de 8 segundos, formato horizontal 16:9, sin texto en pantalla.
+Wygeneruj wideo UGC trwające 8 sekund, poziome 16:9, bez tekstu na ekranie.
 
-Tema: persona contando cómo le ayudó un producto de fitness/nutrición a mejorar sus hábitos.
+Temat: osoba opowiada, jak produkt fitness/żywieniowy pomógł jej poprawić nawyki.
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–2:
-  • Plano medio en una cocina luminosa.
-  • Una persona de pie, frente a la encimera, sostiene un vaso con batido o bebida saludable en una mano.
-  • En la encimera se ve una fruta cortada, una tabla y un bote de suplemento o shaker sin marca ni texto.
+- Sekundy 0–2:
+  • Plan średni w jasnej kuchni.
+  • Osoba stoi przy blacie i trzyma w jednej ręce szklankę z koktajlem lub zdrowym napojem.
+  • Na blacie widać pokrojone owoce, deskę oraz pojemnik suplementu lub shaker — bez marki i bez tekstu.
 
-- Segundos 2–4:
-  • La persona mira a cámara (como si fuera selfie con trípode) y hace un pequeño gesto con el vaso, como brindando.
-  • Sonríe mientras mueve la boca como si estuviera explicando lo que ha cambiado en su rutina.
+- Sekundy 2–4:
+  • Osoba patrzy w kamerę (jakby selfie na statywie) i wykonuje mały gest szklanką, jak toast.
+  • Uśmiecha się, poruszając ustami jakby wyjaśniała, co zmieniło się w jej rutynie.
 
-- Segundos 4–6:
-  • La persona da un sorbo al vaso, baja el vaso y se señala ligeramente a sí misma con la mano, como destacando un cambio positivo (más energía, mejor ánimo).
-  • Se ve su expresión más confiada y animada.
+- Sekundy 4–6:
+  • Bierze łyk, opuszcza szklankę i lekko wskazuje na siebie dłonią, jakby podkreślała pozytywną zmianę (więcej energii, lepszy nastrój).
+  • Widać bardziej pewny i ożywiony wyraz twarzy.
 
-- Segundos 6–8:
-  • La persona deja el vaso sobre la encimera, toma una llave o una toalla de deporte y sale parcialmente de cuadro, como si estuviera a punto de ir a entrenar.
-  • La cámara permanece fija en la cocina, mostrando el batido y el producto en la encimera como protagonistas del final.
+- Sekundy 6–8:
+  • Odkłada szklankę na blat, bierze klucze lub ręcznik sportowy i częściowo wychodzi z kadru, jakby zaraz miała iść trenować.
+  • Kamera pozostaje nieruchoma, pokazując koktajl i produkt na blacie jako finałowych bohaterów.
 `,
-thumbnail: "/videos/ugc003.gif",
+    thumbnail: "/videos/ugc003.gif",
   },
   {
     id: "video-ugc-testimonio-04",
-    title: "Testimonio escritorio: antes caos, ahora sistema funcionando",
+    title: "Testimonial przy biurku: wcześniej chaos, teraz działa system",
     summary:
-      "Persona en escritorio mostrando, con gestos, cómo pasó de caos a organización gracias a un sistema.",
-    area: "UGC / Testimonio",
-    category:"UGC Testimonios",
+      "Osoba przy biurku gestami pokazuje, jak przeszła od chaosu do organizacji dzięki systemowi.",
+    area: "UGC / Testimonial",
+    category: "UGC Testimoniale",
     prompt: `
-Genera un vídeo UGC de 8 segundos, horizontal 16:9, sin texto en pantalla.
+Wygeneruj wideo UGC trwające 8 sekund, poziome 16:9, bez tekstu na ekranie.
 
-Tema: testimonio de productividad, explicado con gestos entre “antes” y “después”.
+Temat: testimonial o produktywności, wyjaśniony gestami “przed” i “po”.
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–3:
-  • Plano medio de un escritorio desde un ángulo lateral.
-  • Una persona sentada, mirando a cámara, tiene en una mano un montón de papeles arrugados y en la otra sostiene un cuaderno limpio o dispositivo (tablet/laptop).
-  • Expresión de “antes” exagerada: muestra los papeles con cara de frustración y cansancio, encogiéndose de hombros.
+- Sekundy 0–3:
+  • Plan średni biurka z perspektywy bocznej.
+  • Osoba siedzi i patrzy w kamerę; w jednej ręce trzyma stertę pogniecionych papierów, w drugiej czysty notes lub urządzenie (tablet/laptop).
+  • Przesadzona mina “przed”: pokazuje papiery z frustracją i zmęczeniem, wzrusza ramionami.
 
-- Segundos 3–5:
-  • La persona suelta los papeles hacia un lado de la mesa, dejándolos caer, y coloca el cuaderno o dispositivo en el centro del escritorio.
-  • Cambia su expresión por una sonrisa tranquila, postura más erguida.
-  • Con una mano, señala al cuaderno/dispositivo, y con la otra se da un pequeño golpe en el pecho, como diciendo “ahora sí”.
+- Sekundy 3–5:
+  • Osoba odrzuca papiery na bok stołu, a notes/urządzenie kładzie na środku biurka.
+  • Zmienia wyraz twarzy na spokojny uśmiech, siada prościej.
+  • Jedną ręką wskazuje notes/urządzenie, a drugą lekko stuka się w klatkę piersiową, jakby mówiła “teraz tak”.
 
-- Segundos 5–8:
-  • La persona se gira levemente hacia el escritorio, empieza a escribir o a usar el dispositivo con calma.
-  • Mira de reojo a cámara, asiente con la cabeza, y al final levanta el pulgar o hace un pequeño gesto de “ok”.
-  • El fondo es un home office sencillo, sin distracciones excesivas.
+- Sekundy 5–8:
+  • Osoba lekko odwraca się do biurka i zaczyna spokojnie pisać lub korzystać z urządzenia.
+  • Zerka na kamerę, kiwa głową, a na koniec podnosi kciuk lub robi mały gest “ok”.
+  • W tle prosty home office, bez nadmiaru rozpraszaczy.
 `,
-thumbnail: "/videos/ugc004.gif",
+    thumbnail: "/videos/ugc004.gif",
   },
   {
     id: "video-ugc-testimonio-05",
-    title: "Testimonio selfie caminando por la calle",
+    title: "Testimonial selfie podczas spaceru po mieście",
     summary:
-      "Estilo vlog: persona caminando por la ciudad hablando de un servicio o programa que le ayudó.",
-    area: "UGC / Testimonio",
-    category:"UGC Testimonios",
+      "Styl vloga: osoba idzie przez miasto i opowiada, jak pomógł jej program lub usługa.",
+    area: "UGC / Testimonial",
+    category: "UGC Testimoniale",
     prompt: `
-Genera un vídeo estilo vlog de 8 segundos, formato horizontal 16:9, sin texto en pantalla.
+Wygeneruj wideo w stylu vlog trwające 8 sekund, poziome 16:9, bez tekstu na ekranie.
 
-Tema: testimonio rápido mientras camina por la calle, muy natural y cercano.
+Temat: szybki testimonial podczas spaceru — bardzo naturalny i bliski.
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–3:
-  • Cámara en mano, la persona se graba tipo selfie mientras camina por una calle urbana tranquila (fachadas, árboles, algunos coches aparcados).
-  • El fondo se mueve ligeramente, dando sensación de movimiento real.
-  • La persona mira a cámara, gesticulando con la mano libre, sonrisa natural, como contando una historia.
+- Sekundy 0–3:
+  • Kamera w ręce, osoba nagrywa selfie podczas spaceru spokojną miejską ulicą (fasady, drzewa, kilka zaparkowanych aut).
+  • Tło lekko się porusza, dając wrażenie prawdziwego ruchu.
+  • Osoba patrzy w kamerę, gestykuluje wolną ręką, ma naturalny uśmiech, jakby opowiadała historię.
 
-- Segundos 3–5:
-  • Hace un pequeño gesto con el pulgar señalando hacia atrás con humor, como si estuviera señalando su “yo del pasado”.
-  • Luego se señala a sí misma en el presente, con expresión de “ahora estoy mejor” o “ahora voy más confiado”.
+- Sekundy 3–5:
+  • Robi zabawny gest kciukiem w tył, jakby wskazywała “mnie z przeszłości”.
+  • Potem wskazuje na siebie teraz, z miną “teraz jest lepiej” albo “jestem pewniejsza/y”.
 
-- Segundos 5–8:
-  • Cambia la cámara a un ángulo un poco más abierto, mostrando más de la calle y del entorno.
-  • Eleva un poco el mentón, respira hondo como simbolizando alivio, y hace un gesto de mano hacia adelante, como si invitara al espectador a seguir el mismo camino.
-  • Termina con una sonrisa y un pequeño guiño o mini risa.
+- Sekundy 5–8:
+  • Zmienia kąt kamery na nieco szerszy, pokazując więcej ulicy i otoczenia.
+  • Lekko unosi podbródek, bierze głęboki oddech jak symbol ulgi i robi gest dłonią do przodu, jakby zapraszała widza, by poszedł tą samą drogą.
+  • Kończy uśmiechem oraz małym mrugnięciem lub cichym chichotem.
 `,
-thumbnail: "/videos/ugc005.gif",
+    thumbnail: "/videos/ugc005.gif",
   },
   {
     id: "video-ugc-testimonio-06",
-    title: "Testimonio escritorio + pantalla con resultados",
+    title: "Testimonial przy biurku + ekran z wynikami",
     summary:
-      "Persona registra su testimonio mientras muestra una pantalla con gráficos de progreso.",
-    area: "UGC / Testimonio",
-    category:"UGC Testimonios",
+      "Osoba nagrywa testimonial, pokazując w tle wykresy postępu.",
+    area: "UGC / Testimonial",
+    category: "UGC Testimoniale",
     prompt: `
-Genera un vídeo UGC de 8 segundos, horizontal 16:9, sin texto en pantalla.
+Wygeneruj wideo UGC trwające 8 sekund, poziome 16:9, bez tekstu na ekranie.
 
-Tema: testimonio de resultados, con gráficos de progreso de fondo.
+Temat: testimonial o wynikach, z wykresami postępu w tle.
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–2:
-  • Plano medio de una persona sentada frente a un escritorio con un monitor grande al fondo.
-  • La persona mira directamente a la cámara como si estuviera en una videollamada, con expresión positiva.
-  • En el monitor de fondo se ven gráficos de barras y líneas ascendentes (sin números ni letras, solo formas claras de progreso).
+- Sekundy 0–2:
+  • Plan średni osoby siedzącej przy biurku, z dużym monitorem w tle.
+  • Osoba patrzy prosto w kamerę jak na wideorozmowie, z pozytywną miną.
+  • Na monitorze w tle widać wykresy słupkowe i rosnące linie (bez liczb i liter, tylko czytelne kształty postępu).
 
-- Segundos 2–4:
-  • La persona gira levemente el torso y señala con el pulgar o con la mano hacia la pantalla, sonriendo, como diciendo “mira lo que conseguí”.
-  • Luego vuelve a mirar a la cámara con orgullo moderado, sin exagerar.
+- Sekundy 2–4:
+  • Osoba lekko obraca tułów i wskazuje kciukiem lub dłonią ekran, uśmiechając się, jakby mówiła “zobacz, co osiągnęłam/em”.
+  • Potem wraca wzrokiem do kamery z umiarkowaną dumą (bez przesady).
 
-- Segundos 4–6:
-  • Hace un gesto de hablar emocionado: manos abiertas, cejas levantadas, inclinándose ligeramente hacia la cámara.
-  • La cámara se acerca un poco, centrándose más en su rostro.
+- Sekundy 4–6:
+  • Gestykuluje jak podczas podekscytowanej wypowiedzi: otwarte dłonie, uniesione brwi, lekkie pochylenie w stronę kamery.
+  • Kamera lekko się zbliża, bardziej kadrując twarz.
 
-- Segundos 6–8:
-  • La persona cierra el testimonio visual juntando las manos como en gesto de agradecimiento y hace una leve inclinación de cabeza.
-  • El monitor de fondo mantiene los gráficos, reforzando la idea de progreso.
+- Sekundy 6–8:
+  • Osoba kończy gestem wdzięczności: składa dłonie jak do podziękowania i lekko kiwa głową.
+  • Monitor w tle nadal pokazuje wykresy, wzmacniając wrażenie postępu.
 `,
-thumbnail: "/videos/ugc006.gif",
+    thumbnail: "/videos/ugc006.gif",
   },
   {
     id: "video-ugc-testimonio-07",
-    title: "UGC de skincare: piel apagada vs piel más luminosa",
+    title: "UGC skincare: skóra zmęczona vs bardziej promienna",
     summary:
-      "Testimonio de cuidado de la piel, con antes/después sutil en el mismo encuadre.",
-    area: "UGC / Testimonio",
-    category:"UGC Testimonios",
+      "Testimonial pielęgnacyjny z subtelnym wrażeniem “przed/po” w tym samym kadrze.",
+    area: "UGC / Testimonial",
+    category: "UGC Testimoniale",
     prompt: `
-Genera un vídeo UGC de 8 segundos en formato horizontal 16:9, sin texto en pantalla.
+Wygeneruj wideo UGC trwające 8 sekund, poziome 16:9, bez tekstu na ekranie.
 
-Tema: testimonio sobre un producto o rutina de skincare, con una sensación de “antes/después” en el mismo plano.
+Temat: testimonial o produkcie lub rutynie skincare, z wrażeniem “przed/po” w jednym ujęciu.
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–3:
-  • Plano cercano del rostro de una persona frente a un espejo de baño, luz blanca neutra.
-  • La persona se observa en el espejo, tocándose la mejilla con gesto pensativo, como recordando cómo tenía la piel antes (cero dramatismo; solo algo de cansancio o apagado).
+- Sekundy 0–3:
+  • Zbliżenie twarzy osoby przed łazienkowym lustrem, neutralne białe światło.
+  • Osoba przygląda się w lustrze i dotyka policzka zamyśloną miną, jakby wspominała, jak skóra wyglądała wcześniej (bez dramatu; jedynie lekkie zmęczenie lub “poszarzałość”).
 
-- Segundos 3–5:
-  • La persona toma un frasco o bote de skincare de la encimera, sin marca ni texto, y lo muestra un segundo frente a la cámara.
-  • Luego lo coloca de nuevo suavemente.
+- Sekundy 3–5:
+  • Osoba bierze z blatu buteleczkę/pojemnik skincare bez marki i bez tekstu oraz pokazuje go przez sekundę do kamery.
+  • Następnie delikatnie odkłada produkt.
 
-- Segundos 5–8:
-  • Transición suave de luz: la iluminación se vuelve más cálida y favorecedora.
-  • La persona ahora se mira al espejo sonriendo, pasando suavemente la mano por su mejilla con gesto de aprobación.
-  • Se inclina ligeramente hacia la cámara para mostrar la piel más luminosa, sonriendo de forma natural.
+- Sekundy 5–8:
+  • Płynna zmiana światła: oświetlenie robi się cieplejsze i bardziej korzystne.
+  • Osoba patrzy w lustro z uśmiechem, gładzi policzek gestem aprobaty.
+  • Lekko pochyla się w stronę kamery, pokazując bardziej promienną skórę, uśmiechając się naturalnie.
 `,
-thumbnail: "/videos/ugc007.gif",
+    thumbnail: "/videos/ugc007.gif",
   },
   {
     id: "video-ugc-testimonio-08",
-    title: "Testimonio estudiante: escritorio estudio nocturno",
+    title: "Testimonial studenta: nocna nauka przy biurku",
     summary:
-      "Estudiante contando cómo un curso o método le ayudó a estudiar mejor, en ambiente nocturno.",
-    area: "UGC / Testimonio",
-    category:"UGC Testimonios",
+      "Student opowiada, jak kurs/metoda pomogły mu uczyć się lepiej, w nocnym klimacie.",
+    area: "UGC / Testimonial",
+    category: "UGC Testimoniale",
     prompt: `
-Genera un vídeo UGC de 8 segundos, horizontal 16:9, sin texto en pantalla.
+Wygeneruj wideo UGC trwające 8 sekund, poziome 16:9, bez tekstu na ekranie.
 
-Tema: testimonio de estudiante por la noche en su escritorio.
+Temat: nocny testimonial studenta przy biurku.
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–3:
-  • Plano medio de un estudiante en su escritorio, por la noche.
-  • Solo una lámpara de escritorio ilumina cuadernos, apuntes ordenados y un portátil abierto.
-  • El estudiante mira a la cámara, con gesto sincero, moviendo la boca como si hablara sobre cómo antes se sentía perdido con el estudio.
+- Sekundy 0–3:
+  • Plan średni studenta przy biurku w nocy.
+  • Tylko lampka biurkowa oświetla zeszyty, uporządkowane notatki i otwarty laptop.
+  • Student patrzy w kamerę szczerą miną, porusza ustami jakby mówił, że wcześniej czuł się zagubiony w nauce.
 
-- Segundos 3–5:
-  • El estudiante gira el portátil ligeramente para mostrar la pantalla, donde se ven bloques de contenido estructurados (lecciones, módulos, o esquema visual, sin texto legible).
-  • Señala la pantalla con una mano y luego se toca la sien, como diciendo “ahora lo entiendo mejor”.
+- Sekundy 3–5:
+  • Student delikatnie obraca laptop, by pokazać ekran z uporządkowanymi blokami treści (lekcje, moduły, schemat — bez czytelnego tekstu).
+  • Wskazuje ekran jedną ręką, potem dotyka skroni, jakby mówił “teraz lepiej rozumiem”.
 
-- Segundos 5–8:
-  • Vuelve a colocarse de frente, coge un bolígrafo y empieza a subrayar o escribir algo en el cuaderno con gesto seguro.
-  • Al final, levanta la vista a la cámara y hace un pequeño gesto de “ok” con los dedos o levanta el pulgar.
+- Sekundy 5–8:
+  • Wraca przodem, bierze długopis i zaczyna podkreślać lub pisać w zeszycie z pewnym gestem.
+  • Na końcu podnosi wzrok do kamery i robi mały gest “ok” palcami lub podnosi kciuk.
 `,
-thumbnail: "/videos/ugc008.gif",
+    thumbnail: "/videos/ugc008.gif",
   },
   {
     id: "video-ugc-testimonio-09",
-    title: "Testimonio freelance: café, portátil y vida más flexible",
+    title: "Testimonial freelancera: kawiarnia, laptop i większa elastyczność",
     summary:
-      "Freelancer contando cómo un servicio/herramienta mejoró su vida, en una cafetería.",
-    area: "UGC / Testimonio",
-    category:"UGC Testimonios",
+      "Freelancer opowiada, jak narzędzie/usługa poprawiły jego życie, w kawiarni.",
+    area: "UGC / Testimonial",
+    category: "UGC Testimoniale",
     prompt: `
-Genera un vídeo UGC de 8 segundos, formato horizontal 16:9, sin texto en pantalla.
+Wygeneruj wideo UGC trwające 8 sekund, poziome 16:9, bez tekstu na ekranie.
 
-Tema: freelance dando testimonio sobre una vida más flexible gracias a un servicio o herramienta.
+Temat: freelancer daje testimonial o bardziej elastycznym życiu dzięki usłudze lub narzędziu.
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–3:
-  • Plano medio de una persona sentada en una mesa de cafetería, con portátil abierto y una taza de café humeante.
-  • Ambiente de café moderno: algunas personas al fondo borrosas, luz cálida, decoración agradable.
-  • La persona mira a cámara, se ríe suavemente como si estuviera contando cómo trabajaba antes en un entorno más rígido.
+- Sekundy 0–3:
+  • Plan średni osoby siedzącej przy stoliku w kawiarni, z otwartym laptopem i parującą kawą.
+  • Klimat nowoczesnej kawiarni: kilka osób w tle rozmytych, ciepłe światło, przyjemna dekoracja.
+  • Osoba patrzy w kamerę i lekko się śmieje, jakby opowiadała o tym, jak wcześniej pracowała w bardziej sztywnych warunkach.
 
-- Segundos 3–5:
-  • La persona hace un gesto amplio con la mano señalando el entorno de la cafetería, como diciendo “ahora trabajo desde aquí”.
-  • Luego se apoya cómodamente en el respaldo de la silla, con expresión de satisfacción.
+- Sekundy 3–5:
+  • Szerokim gestem wskazuje otoczenie kawiarni, jakby mówiła “teraz pracuję stąd”.
+  • Potem wygodnie opiera się o oparcie krzesła z wyrazem satysfakcji.
 
-- Segundos 5–8:
-  • Se inclina de nuevo hacia el portátil, escribe unas pocas teclas, mira el reloj o pulsera, y sonríe relajado.
-  • La cámara realiza un leve movimiento lateral mostrando la mesa con el portátil, café y quizás auriculares, reforzando la vibra de vida flexible.
+- Sekundy 5–8:
+  • Pochyla się z powrotem do laptopa, stuka kilka klawiszy, zerka na zegarek lub opaskę i uśmiecha się spokojnie.
+  • Kamera wykonuje lekki ruch boczny, pokazując stół z laptopem, kawą i ewentualnie słuchawkami, wzmacniając vibe elastycznego życia.
 `,
-thumbnail: "/videos/ugc009.gif",
+    thumbnail: "/videos/ugc009.gif",
   },
   {
     id: "video-ugc-testimonio-10",
-    title: "Testimonio de cliente feliz recibiendo paquete en casa",
+    title: "Testimonial zadowolonego klienta odbierającego paczkę w domu",
     summary:
-      "Cliente recibe paquete en la puerta, lo abre y muestra satisfacción con el producto.",
-    area: "UGC / Testimonio",
-    category:"UGC Testimonios",
+      "Klient odbiera paczkę przy drzwiach, otwiera ją i pokazuje zadowolenie z produktu.",
+    area: "UGC / Testimonial",
+    category: "UGC Testimoniale",
     prompt: `
-Genera un vídeo UGC de 8 segundos, horizontal 16:9, sin texto en pantalla.
+Wygeneruj wideo UGC trwające 8 sekund, poziome 16:9, bez tekstu na ekranie.
 
-Tema: cliente recibiendo y abriendo un paquete de producto físico.
+Temat: klient odbiera i otwiera paczkę z produktem fizycznym.
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–2:
-  • Plano general del recibidor de una casa, con una puerta principal y un tapete simple.
-  • La persona abre la puerta y encuentra una caja de cartón mediana en el suelo, sin logos ni texto.
+- Sekundy 0–2:
+  • Plan ogólny przedpokoju w domu: drzwi wejściowe i prosty wycieraczka.
+  • Osoba otwiera drzwi i znajduje na podłodze średniej wielkości karton bez logo i bez tekstu.
 
-- Segundos 2–4:
-  • La persona se agacha, toma la caja con gesto de sorpresa agradable, y la lleva hacia una mesa cercana en el mismo plano.
-  • La cámara se mueve un poco hacia la mesa para seguirla.
+- Sekundy 2–4:
+  • Osoba kuca, podnosi pudełko z przyjemnym zaskoczeniem i przenosi je na pobliski stół w tym samym kadrze.
+  • Kamera lekko przesuwa się w stronę stołu, podążając za ruchem.
 
-- Segundos 4–6:
-  • Plano más cercano de la mesa mientras la persona abre la caja con las manos, apartando papel de relleno.
-  • Saca el producto principal, bien presentado, sin marca ni texto, pero con diseño atractivo.
+- Sekundy 4–6:
+  • Bliższy plan stołu, gdy osoba otwiera paczkę dłońmi, odsuwa wypełnienie.
+  • Wyjmuje główny produkt, ładnie zapakowany, bez marki i bez tekstu, ale o atrakcyjnym designie.
 
-- Segundos 6–8:
-  • La persona levanta el producto a la altura del pecho, lo muestra hacia la cámara con una sonrisa amplia.
-  • Asiente con la cabeza varias veces, cambiando ligeramente el ángulo del producto para que se vea bien.
-  • Termina con un gesto de pulgar arriba o mini aplauso satisfecho.
+- Sekundy 6–8:
+  • Osoba podnosi produkt na wysokość klatki piersiowej i pokazuje go do kamery z szerokim uśmiechem.
+  • Kilka razy kiwa głową, lekko zmieniając kąt produktu, żeby dobrze go było widać.
+  • Kończy gestem kciuka w górę lub małym, zadowolonym mini-brawem.
 `,
-thumbnail: "/videos/ugc010.gif",
+    thumbnail: "/videos/ugc010.gif",
   },
 ];

@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useMemo, useState } from "react";
@@ -17,19 +16,19 @@ export default function AsistentesGptsPage() {
   const { title, heroText, sections, assistants } = gptAssistantsContent;
 
   const [search, setSearch] = useState("");
-  const [category, setCategory] = useState("Todos");
+  const [category, setCategory] = useState("Wszystkie");
   const [expandedId, setExpandedId] = useState(null);
   const [copiedId, setCopiedId] = useState(null);
 
   const categories = useMemo(
-    () => ["Todos", ...Array.from(new Set(assistants.map((a) => a.category)))],
+    () => ["Wszystkie", ...Array.from(new Set(assistants.map((a) => a.category)))],
     [assistants]
   );
 
   const filtered = useMemo(
     () =>
       assistants.filter((a) => {
-        const matchesCategory = category === "Todos" || a.category === category;
+        const matchesCategory = category === "Wszystkie" || a.category === category;
         const term = search.toLowerCase();
         const matchesSearch =
           a.name.toLowerCase().includes(term) ||
@@ -45,13 +44,13 @@ export default function AsistentesGptsPage() {
       setCopiedId(id);
       setTimeout(() => setCopiedId(null), 1500);
     } catch (err) {
-      console.error("Error copiando texto", err);
+      console.error("Błąd podczas kopiowania tekstu", err);
     }
   };
 
   return (
     <div className="space-y-8 py-6">
-      {/* 🔙 Back al curso */}
+      {/* 🔙 Powrót do kursu */}
       <div className="flex items-center justify-between gap-3">
         <Button
           variant="ghost"
@@ -61,12 +60,12 @@ export default function AsistentesGptsPage() {
         >
           <Link href="/curso">
             <ArrowLeft className="mr-2 h-4 w-4" />
-            Volver al inicio del curso
+            Wróć do początku kursu
           </Link>
         </Button>
       </div>
 
-      {/* Hero de módulo */}
+      {/* Hero modułu */}
       <section className="space-y-3 rounded-3xl border border-teal-500/15 bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 px-5 py-6 md:px-8 md:py-7">
         <div className="flex items-start gap-3">
           <div className="mt-1 rounded-full bg-teal-500/10 p-2">
@@ -76,14 +75,14 @@ export default function AsistentesGptsPage() {
             <h1 className="text-2xl font-bold text-slate-50 md:text-3xl">
               {title}
             </h1>
-            <p className="text-sm text-slate-200 whitespace-pre-line md:text-base">
+            <p className="whitespace-pre-line text-sm text-slate-200 md:text-base">
               {heroText}
             </p>
           </div>
         </div>
       </section>
 
-      {/* Secciones explicativas */}
+      {/* Sekcje wyjaśniające */}
       <section className="space-y-6">
         {sections.map((section) => (
           <div
@@ -122,23 +121,22 @@ export default function AsistentesGptsPage() {
         ))}
       </section>
 
-      {/* ---------- LISTA DE ASISTENTES ---------- */}
+      {/* ---------- LISTA ASYSTENTÓW ---------- */}
       <section className="space-y-4">
         <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
           <div className="space-y-1">
             <h2 className="text-lg font-semibold text-slate-50 md:text-xl">
-              Tus +30 asistentes listos para crear
+              Twoi asystenci (30+) gotowi do stworzenia
             </h2>
             <p className="max-w-2xl text-xs text-slate-300 md:text-sm">
-              Filtra por categoría o busca por nombre/función. Abre cualquier
-              tarjeta para ver el <strong>prompt base</strong> que debes pegar
-              en la configuración de tu asistente y un{" "}
-              <strong>ejemplo de uso</strong>.
+              Filtruj po kategorii lub wyszukuj po nazwie/funkcji. Otwórz dowolną
+              kartę, aby zobaczyć <strong>bazowy prompt</strong>, który należy wkleić
+              w ustawieniach asystenta, oraz <strong>przykład użycia</strong>.
             </p>
           </div>
 
           <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
-            {/* Filtro por categoría */}
+            {/* Filtr po kategorii */}
             <div className="flex flex-wrap gap-2">
               {categories.map((cat) => (
                 <button
@@ -157,11 +155,11 @@ export default function AsistentesGptsPage() {
               ))}
             </div>
 
-            {/* Buscador */}
+            {/* Wyszukiwarka */}
             <div className="relative sm:w-64">
               <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
               <Input
-                placeholder="Buscar por nombre o función..."
+                placeholder="Szukaj po nazwie lub funkcji..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
                 className="h-9 border-white/10 bg-slate-950/70 pl-9 text-xs text-slate-100 placeholder:text-slate-500 md:text-sm"
@@ -172,7 +170,7 @@ export default function AsistentesGptsPage() {
 
         {filtered.length === 0 ? (
           <p className="text-sm text-slate-400">
-            No se encontraron asistentes con ese filtro.
+            Nie znaleziono asystentów dla tego filtra.
           </p>
         ) : (
           <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
@@ -207,7 +205,7 @@ export default function AsistentesGptsPage() {
                         <div className="space-y-3">
                           <div>
                             <p className="mb-1 text-[11px] font-semibold text-teal-200">
-                              Prompt base para crear el asistente
+                              Bazowy prompt do stworzenia asystenta
                             </p>
                             <pre className="max-h-44 overflow-auto whitespace-pre-wrap rounded-md border border-white/10 bg-black/70 p-3 text-[11px] text-slate-100">
                               {assistant.basePrompt}
@@ -217,7 +215,7 @@ export default function AsistentesGptsPage() {
                           {assistant.exampleUse && (
                             <div>
                               <p className="mb-1 text-[11px] font-semibold text-teal-200">
-                                Ejemplo de primer mensaje
+                                Przykład pierwszej wiadomości
                               </p>
                               <p className="rounded-md border border-white/10 bg-slate-900/80 p-3 text-[11px] text-slate-100">
                                 {assistant.exampleUse}
@@ -237,27 +235,23 @@ export default function AsistentesGptsPage() {
                             setExpandedId(isExpanded ? null : assistant.id)
                           }
                         >
-                          {isExpanded
-                            ? "Ocultar detalles"
-                            : "Ver prompt del asistente"}
+                          {isExpanded ? "Ukryj szczegóły" : "Zobacz prompt asystenta"}
                         </Button>
 
                         <Button
                           size="sm"
                           variant="ghost"
                           type="button"
-                          onClick={() =>
-                            handleCopy(assistant.id, assistant.basePrompt)
-                          }
+                          onClick={() => handleCopy(assistant.id, assistant.basePrompt)}
                           className="rounded-full border border-white/10 bg-white/5 px-3 text-xs text-slate-100 hover:bg-white/10"
                         >
                           {isCopied ? (
                             <>
-                              <Check className="mr-1 h-3 w-3" /> Copiado
+                              <Check className="mr-1 h-3 w-3" /> Skopiowano
                             </>
                           ) : (
                             <>
-                              <Copy className="mr-1 h-3 w-3" /> Copiar base
+                              <Copy className="mr-1 h-3 w-3" /> Kopiuj bazę
                             </>
                           )}
                         </Button>

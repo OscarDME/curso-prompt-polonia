@@ -3,1001 +3,1001 @@
 export const textPromptsEduPlanesClase = [
   {
     id: "edu-plan-001",
-    title: "Plan de clase completo (60 min) con objetivos, actividades, evaluación y cierre",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Kompletny plan lekcji (60 min) z celami, aktywnościami, ocenianiem i podsumowaniem",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Crea un plan de 60 minutos con momentos, materiales, guía docente y evaluación.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel educativo: [primaria/secundaria/bachillerato/universidad/corporativo]
-Tiempo total: 60 minutos
-Tamaño del grupo: [ ]
-Contexto (presencial/online/híbrido): [ ]
-Conocimientos previos: [ ]
-Restricciones (sin internet, pocos recursos, etc.): [ ]
+      "Tworzy 60-minutowy plan z etapami, materiałami, przewodnikiem dla prowadzącego i oceną.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom edukacyjny: [szkoła podstawowa/szkoła średnia/liceum/studia/szkolenie firmowe]
+Łączny czas: 60 minut
+Wielkość grupy: [ ]
+Kontekst (stacjonarnie/online/hybrydowo): [ ]
+Wiedza wstępna: [ ]
+Ograniczenia (brak internetu, mało zasobów itp.): [ ]
 
-Crea un plan de clase hiper detallado con:
-1) Objetivos de aprendizaje (5) usando verbos medibles (Bloom).
-2) Criterios de éxito (qué evidencia veré para saber que lo lograron).
-3) Agenda por minutos (min 0–60) con:
-   - qué hace el docente (guion breve)
-   - qué hace el alumno
-   - recursos/materiales
-   - instrucciones exactas (texto literal para decir en clase)
-   - posibles errores/preguntas y cómo responderlas
-4) Actividad central (aprendizaje activo):
-   - dinámica paso a paso
-   - roles (si aplica)
-   - ejemplos y contraejemplos
-5) Evaluación formativa:
-   - 6 preguntas rápidas + respuestas esperadas
-   - checklist de observación
-6) Cierre:
-   - síntesis en 3 bullets
-   - “exit ticket” (3 preguntas) con criterios de corrección
-7) Tarea / extensión (2 opciones: fácil y desafiante).
-8) Adaptaciones:
-   - para estudiantes rezagados
-   - para avanzados
-   - para necesidades diversas (atención, lenguaje, etc.).`,
+Stwórz hiper-szczegółowy plan lekcji zawierający:
+1) Cele uczenia się (5) z czasownikami mierzalnymi (Bloom).
+2) Kryteria sukcesu (jaki dowód zobaczę, że cel został osiągnięty).
+3) Harmonogram minuta po minucie (0–60) z:
+   - co robi nauczyciel/prowadzący (krótki scenariusz)
+   - co robi uczeń/uczestnik
+   - zasoby/materiały
+   - dokładne instrukcje (dosłowny tekst do powiedzenia na zajęciach)
+   - możliwe błędy/pytania i jak na nie odpowiedzieć
+4) Aktywność główna (uczenie aktywne):
+   - przebieg krok po kroku
+   - role (jeśli dotyczy)
+   - przykłady i kontrprzykłady
+5) Ocenianie kształtujące:
+   - 6 szybkich pytań + oczekiwane odpowiedzi
+   - lista obserwacyjna (checklist)
+6) Zakończenie:
+   - synteza w 3 punktach
+   - “exit ticket” (3 pytania) z kryteriami oceny
+7) Zadanie domowe / rozszerzenie (2 opcje: łatwa i wymagająca).
+8) Dostosowania:
+   - dla osób z zaległościami
+   - dla zaawansowanych
+   - dla różnych potrzeb (uwaga, język, itp.).`,
     thumbnail: "",
   },
   {
     id: "edu-plan-002",
-    title: "Plan de clase de 90 min tipo seminario (discusión profunda) + guía de preguntas",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "90-minutowy plan zajęć w stylu seminarium (głęboka dyskusja) + przewodnik pytań",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Seminario con lecturas, preguntas, debate estructurado, y rúbrica de participación.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [universidad/posgrado/corporativo avanzado]
-Duración: 90 min
-Lectura base (si existe): [pega/describe]
+      "Seminarium z lekturami, pytaniami, ustrukturyzowaną debatą i rubryką udziału.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [studia/podyplomowe/zaawansowane szkolenie firmowe]
+Czas trwania: 90 min
+Lektura bazowa (jeśli jest): [wklej/opisz]
 
-Diseña un seminario completo:
-1) Objetivos (4–6) y conceptos clave (10).
-2) Pre-clase:
-   - 3 tareas de preparación (lectura guiada)
-   - 8 preguntas de lectura (2 fáciles, 4 medias, 2 difíciles)
-3) Agenda por minutos (0–90):
-   - apertura (5–10): framing, expectativas
-   - discusión guiada (40–50): secuencia de preguntas con “repreguntas”
-   - actividad (20): debate por equipos / fishbowl / think-pair-share
-   - cierre (10): takeaways + síntesis
-4) Banco de preguntas:
-   - 12 preguntas socráticas
-   - 6 preguntas “trampa” para ver comprensión real
-   - 6 preguntas de aplicación a casos reales
-5) Evaluación:
-   - rúbrica de participación (4 criterios x 4 niveles)
-   - exit ticket (3) y cómo calificarlo
+Zaprojektuj kompletne seminarium:
+1) Cele (4–6) i kluczowe pojęcia (10).
+2) Przed zajęciami:
+   - 3 zadania przygotowawcze (lektura kierowana)
+   - 8 pytań do lektury (2 łatwe, 4 średnie, 2 trudne)
+3) Agenda minuta po minucie (0–90):
+   - otwarcie (5–10): ramy, oczekiwania
+   - dyskusja moderowana (40–50): sekwencja pytań z “dopytaniami”
+   - aktywność (20): debata zespołowa / fishbowl / think-pair-share
+   - zamknięcie (10): wnioski + synteza
+4) Bank pytań:
+   - 12 pytań sokratejskich
+   - 6 pytań “pułapek” weryfikujących prawdziwe zrozumienie
+   - 6 pytań aplikacyjnych do realnych przypadków
+5) Ocenianie:
+   - rubryka udziału (4 kryteria × 4 poziomy)
+   - exit ticket (3) i jak go ocenić
 6) Plan B:
-   - si el grupo no participa, qué haces (estrategias concretas).`,
+   - co robisz, gdy grupa nie uczestniczy (konkretne strategie).`,
     thumbnail: "",
   },
   {
     id: "edu-plan-003",
-    title: "Plan de clase flipped classroom (clase invertida) con microlección y práctica",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć typu flipped classroom (klasa odwrócona) z mikro-lekcją i praktyką",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Diseño invertido: pre-clase, clase práctica, y post-clase con seguimiento.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración en clase: 50–70 min
-Plataforma: [Google Classroom/Notion/Moodle/Ninguna]
+      "Projekt odwrócony: przed zajęciami, praktyka na zajęciach oraz działania po zajęciach z monitoringiem.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas na zajęciach: 50–70 min
+Platforma: [Google Classroom/Notion/Moodle/Brak]
 
-Crea un plan invertido:
-1) Pre-clase (20–40 min):
-   - microlección (guion + bullets)
-   - lectura corta (resumen de 250 palabras)
-   - mini-quiz de 8 preguntas (con respuestas)
-2) En clase (agenda por minutos):
-   - warm-up 5 min
-   - práctica guiada 15 min (con ejemplo resuelto)
-   - trabajo en equipos 25 min (casos)
-   - cierre 10 min (retro + dudas)
-3) Post-clase:
-   - tarea de consolidación (2 niveles)
-   - reflexión (pregunta metacognitiva)
-   - criterio de revisión (rúbrica simple)
-4) Señala:
-   - errores típicos
-   - cómo detectar quién no entendió y cómo re-enseñar rápido.`,
+Stwórz plan odwrócony:
+1) Przed zajęciami (20–40 min):
+   - mikro-lekcja (scenariusz + punkty)
+   - krótka lektura (streszczenie 250 słów)
+   - mini-quiz 8 pytań (z odpowiedziami)
+2) Na zajęciach (agenda minuta po minucie):
+   - rozgrzewka 5 min
+   - praktyka prowadzona 15 min (z rozwiązanym przykładem)
+   - praca w zespołach 25 min (case’y)
+   - zamknięcie 10 min (feedback + pytania)
+3) Po zajęciach:
+   - zadanie utrwalające (2 poziomy)
+   - refleksja (pytanie metapoznawcze)
+   - kryteria oceny (prosta rubryka)
+4) Wskaż:
+   - typowe błędy
+   - jak wykryć, kto nie zrozumiał, i jak szybko douczyć.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-004",
-    title: "Plan de clase basado en proyectos (PBL) de 2 semanas: entregables y rúbricas",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć projektowych (PBL) na 2 tygodnie: produkty, etapy i rubryki",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Proyecto completo: pregunta guía, fases, entregables, rúbricas y evaluación.",
-    prompt: `Tema/problema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 2 semanas
-Sesiones: [cuántas y de cuántos minutos]
-Recursos disponibles: [ ]
+      "Kompletny projekt: pytanie przewodnie, fazy, produkty, rubryki i ocenianie.",
+    prompt: `Temat/problem: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 2 tygodnie
+Zajęcia: [ile spotkań i po ile minut]
+Dostępne zasoby: [ ]
 
-Diseña un PBL completo:
-1) Driving Question (pregunta guía) + criterios de un buen resultado.
-2) Producto final: qué entregan (formato, requisitos, ejemplo).
-3) Fases (con calendario):
-   - investigación
-   - diseño
-   - prototipo/borrador
+Zaprojektuj pełny PBL:
+1) Driving Question (pytanie przewodnie) + kryteria dobrego rezultatu.
+2) Produkt końcowy: co oddają (format, wymagania, przykład).
+3) Fazy (z kalendarzem):
+   - badanie/rozpoznanie
+   - projektowanie
+   - prototyp/szkic
    - feedback
-   - entrega final
-4) Entregables por fase (con checklist).
-5) Rúbricas:
-   - rúbrica del producto final (4 criterios x 4 niveles)
-   - rúbrica de proceso (participación, iteración, evidencia)
-6) Mini-lecciones “just-in-time” (5 microlecciones) para apoyar.
-7) Diferenciación:
-   - roles por equipo
-   - apoyo para rezagados
-   - extensión para avanzados
-8) Evaluación:
-   - autoevaluación + coevaluación (formularios + criterios)
-   - cómo evitar free-riding (mecanismos).`,
+   - finalne oddanie
+4) Produkty cząstkowe per faza (z checklistą).
+5) Rubryki:
+   - rubryka produktu końcowego (4 kryteria × 4 poziomy)
+   - rubryka procesu (udział, iteracja, dowody pracy)
+6) Mini-lekcje “just-in-time” (5 mikro-lekcji) wspierające projekt.
+7) Zróżnicowanie:
+   - role w zespole
+   - wsparcie dla zalegających
+   - rozszerzenie dla zaawansowanych
+8) Ocenianie:
+   - samoocena + ocena koleżeńska (formularze + kryteria)
+   - jak uniknąć free-riding (mechanizmy).`,
     thumbnail: "",
   },
   {
     id: "edu-plan-005",
-    title: "Plan de clase para habilidades: pensamiento crítico (con casos y falacias)",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć kompetencyjnych: myślenie krytyczne (case’y i błędy logiczne)",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Clase diseñada para pensamiento crítico: casos, falacias, debate y evaluación.",
-    prompt: `Habilidad objetivo: pensamiento crítico
-Contexto/tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60–90 min
+      "Zajęcia rozwijające myślenie krytyczne: case’y, sofizmaty, debata i ocena.",
+    prompt: `Kompetencja docelowa: myślenie krytyczne
+Kontekst/temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60–90 min
 
-Crea un plan detallado con:
-1) Objetivos (Bloom) y criterios de éxito.
-2) Mini-lección (10 min): conceptos clave (falacias, evidencia, inferencia).
-3) Actividad central (30–40 min):
-   - 3 mini-casos con argumentos
-   - alumnos deben identificar: afirmación, evidencia, supuesto, falacia, conclusión
-   - guía de trabajo paso a paso
-4) Debate estructurado:
-   - formato (pro/contra)
-   - reglas y turnos
-   - preguntas del moderador
-5) Evaluación:
-   - rúbrica (claridad, evidencia, lógica, respeto)
+Stwórz szczegółowy plan:
+1) Cele (Bloom) i kryteria sukcesu.
+2) Mikro-lekcja (10 min): pojęcia kluczowe (błędy logiczne, dowody, wnioskowanie).
+3) Aktywność główna (30–40 min):
+   - 3 mini-case’y z argumentami
+   - uczniowie mają wskazać: twierdzenie, dowód, założenie, błąd logiczny, wniosek
+   - instrukcja pracy krok po kroku
+4) Debata ustrukturyzowana:
+   - format (pro/contra)
+   - zasady i kolejność wypowiedzi
+   - pytania moderatora
+5) Ocenianie:
+   - rubryka (klarowność, dowody, logika, szacunek)
    - exit ticket (3)
-6) Material docente:
-   - guion de frases para redirigir discusiones y corregir falacias sin humillar.`,
+6) Materiał dla prowadzącego:
+   - gotowe sformułowania do przekierowania dyskusji i korygowania błędów bez zawstydzania.`,
     thumbnail: "",
   },
 
   {
     id: "edu-plan-006",
-    title: "Plan de clase ‘aprendizaje activo’ (peer instruction) con preguntas y revoto",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć ‘uczenie aktywne’ (peer instruction) z pytaniami i ponownym głosowaniem",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Implementa peer instruction: preguntas conceptuales, discusión y revoto.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 50–75 min
+      "Wdraża peer instruction: pytania koncepcyjne, dyskusja i re-głosowanie.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 50–75 min
 
-Diseña clase estilo Peer Instruction:
-1) Objetivos (4–6).
-2) Warm-up: 5 min (pregunta detonante).
-3) Ciclo PI (repetir 5 veces):
-   - pregunta conceptual (A–D) con distractores reales
-   - 1er voto
-   - discusión por parejas (2–3 min) con prompt de conversación
-   - 2do voto
-   - explicación docente (qué decir y qué NO decir)
-4) Incluye 10 preguntas PI listas (con respuestas y explicación).
-5) Estrategia si el revoto empeora las respuestas (qué haces).
-6) Evaluación rápida al final (exit ticket + rúbrica mínima).`,
+Zaprojektuj zajęcia w stylu Peer Instruction:
+1) Cele (4–6).
+2) Rozgrzewka: 5 min (pytanie zapalne).
+3) Cykl PI (powtórz 5 razy):
+   - pytanie koncepcyjne (A–D) z realistycznymi dystraktorami
+   - 1. głosowanie
+   - dyskusja w parach (2–3 min) z promptem do rozmowy
+   - 2. głosowanie
+   - wyjaśnienie prowadzącego (co powiedzieć i czego NIE mówić)
+4) Dodaj 10 gotowych pytań PI (z odpowiedziami i wyjaśnieniem).
+5) Strategia, gdy re-głosowanie pogarsza odpowiedzi (co robisz).
+6) Szybka ocena na koniec (exit ticket + minimalna rubryka).`,
     thumbnail: "",
   },
   {
     id: "edu-plan-007",
-    title: "Plan de clase online (Zoom/Meet) con interacción real y anti-fatiga",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć online (Zoom/Meet) z realną interakcją i anty-zmęczeniem",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Clase online accionable con dinámicas, pausas, breakout rooms y evaluación.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60 min
-Herramientas: [Zoom/Meet/Miro/Jamboard/Ninguna]
+      "Praktyczny plan online z dynamikami, przerwami, breakout rooms i oceną.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60 min
+Narzędzia: [Zoom/Meet/Miro/Jamboard/Brak]
 
-Crea un plan online:
-1) Normas y dinámica (cámara, chat, participación) con guion de 60 segundos.
-2) Agenda por minutos (0–60) incluyendo:
-   - microsegmentos de 6–10 min
-   - pausas activas (2)
-   - actividad breakout (1–2 rondas)
-   - encuesta/quiz en vivo (10 preguntas)
-3) Materiales:
-   - diapositivas: estructura sugerida (8–10)
-   - plantilla de trabajo del alumno (texto)
-4) Gestión de participación:
-   - cómo llamar a alumnos sin incomodar
-   - estrategias para silencios
-5) Evaluación:
-   - evidencia mínima (captura, respuesta, mini tarea)
-   - rubrica express para calificar en 5 min.`,
+Stwórz plan online:
+1) Zasady i dynamika (kamera, czat, udział) + scenariusz 60 sekund.
+2) Agenda minuta po minucie (0–60) zawierająca:
+   - mikrosegmenty 6–10 min
+   - przerwy aktywizujące (2)
+   - aktywność w breakout (1–2 rundy)
+   - ankieta/quiz na żywo (10 pytań)
+3) Materiały:
+   - slajdy: sugerowana struktura (8–10)
+   - karta pracy uczestnika (tekst)
+4) Zarządzanie udziałem:
+   - jak wywoływać bez krępowania
+   - strategie na ciszę
+5) Ocenianie:
+   - minimalny dowód (zrzut, odpowiedź, mini-zadanie)
+   - ekspresowa rubryka do oceny w 5 min.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-008",
-    title: "Plan de clase con evaluación auténtica: producto real + audiencia real",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć z oceną autentyczną: realny produkt + realna publiczność",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Diseña evaluación auténtica: trabajo aplicable y rúbricas con criterios reales.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Producto auténtico deseado: [reporte, tutorial, propuesta, demo, etc.]
-Audiencia real: [equipo, clase, comunidad, cliente simulado]
-Duración: [1 clase / 1 semana]
+      "Projektuje ocenianie autentyczne: praca zastosowalna i rubryki o realnych kryteriach.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Docelowy produkt autentyczny: [raport, tutorial, propozycja, demo itp.]
+Realna publiczność: [zespół, klasa, społeczność, symulowany klient]
+Czas trwania: [1 lekcja / 1 tydzień]
 
-Crea:
-1) Objetivos y criterios del producto (requisitos obligatorios).
-2) Proceso:
-   - fases con tiempos
-   - puntos de control (checkpoints)
-3) Rúbricas:
-   - calidad técnica
-   - claridad/comunicación
-   - evidencia/justificación
-   - iteración/mejora
-4) Retroalimentación:
-   - guía de feedback (sándwich NO; usar “impacto + evidencia + siguiente paso”)
-   - 2 rondas de feedback
-5) Antiplagio:
-   - cómo diseñar para que sea difícil copiar
-   - evidencia de proceso requerida.`,
+Stwórz:
+1) Cele i kryteria produktu (wymagania obowiązkowe).
+2) Proces:
+   - fazy z czasem
+   - punkty kontrolne (checkpoints)
+3) Rubryki:
+   - jakość techniczna
+   - klarowność/komunikacja
+   - dowody/uzasadnienie
+   - iteracja/udoskonalanie
+4) Informacja zwrotna:
+   - przewodnik feedbacku (bez kanapki; użyj “wpływ + dowód + następny krok”)
+   - 2 rundy feedbacku
+5) Antyplagiat:
+   - jak zaprojektować tak, by trudno było kopiować
+   - wymagana “evidence of process”.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-009",
-    title: "Plan de secuencia didáctica (3 clases) con progresión y evaluación",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan sekwencji dydaktycznej (3 lekcje) z progresją i ocenianiem",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Tres sesiones conectadas: introducción, práctica, integración con evaluación final.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración por sesión: [50/60/90]
-Objetivo final: [ ]
+      "Trzy połączone sesje: wprowadzenie, praktyka, integracja z oceną końcową.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas na sesję: [50/60/90]
+Cel końcowy: [ ]
 
-Diseña una secuencia de 3 clases:
-CLASE 1 (introducción):
-- objetivos, agenda por minutos, activación de conocimientos previos
-- mini-actividad + evaluación formativa
+Zaprojektuj sekwencję 3 lekcji:
+LEKCJA 1 (wprowadzenie):
+- cele, agenda minuta po minucie, aktywacja wiedzy wstępnej
+- mini-aktywność + ocena kształtująca
 
-CLASE 2 (práctica):
-- práctica guiada + trabajo en equipos
-- banco de ejercicios escalonados + soluciones
+LEKCJA 2 (praktyka):
+- praktyka prowadzona + praca zespołowa
+- bank zadań stopniowanych + rozwiązania
 
-CLASE 3 (integración):
-- caso integrador / proyecto corto
-- evaluación sumativa + rúbrica
+LEKCJA 3 (integracja):
+- case integracyjny / krótki projekt
+- ocena sumująca + rubryka
 
-Además:
-- plan de materiales
-- glosario clave
-- errores típicos por clase + cómo corregirlos.`,
+Dodatkowo:
+- plan materiałów
+- kluczowy glosariusz
+- typowe błędy per lekcja + jak je korygować.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-010",
-    title: "Plan de clase tipo laboratorio: hipótesis, experimento, análisis y reporte",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć laboratoryjnych: hipoteza, eksperyment, analiza i raport",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Clase-lab: diseño experimental, registro de datos y reporte con rúbrica.",
-    prompt: `Tema/laboratorio: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: [90–120 min]
-Materiales disponibles: [ ]
+      "Lekcja-lab: projekt eksperymentu, zbiór danych i raport z rubryką.",
+    prompt: `Temat/laboratorium: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: [90–120 min]
+Dostępne materiały: [ ]
 
-Diseña un laboratorio:
-1) Objetivos y seguridad (si aplica).
-2) Hipótesis y variables:
-- IV, DV, controles
-- predicciones
-3) Procedimiento paso a paso con tiempos.
-4) Plantilla de recolección de datos (tabla en texto).
-5) Análisis:
-- qué cálculos/herramientas usar
-- cómo interpretar resultados
-6) Reporte final:
-- estructura (IMRaD simplificado)
-- rúbrica de calificación
-7) Errores comunes y troubleshooting.`,
+Zaprojektuj laboratorium:
+1) Cele i bezpieczeństwo (jeśli dotyczy).
+2) Hipoteza i zmienne:
+- IV, DV, kontrolne
+- przewidywania
+3) Procedura krok po kroku z czasami.
+4) Szablon zbierania danych (tabela w tekście).
+5) Analiza:
+- jakie obliczenia/narzędzia
+- jak interpretować wyniki
+6) Raport końcowy:
+- struktura (uproszczony IMRaD)
+- rubryka oceny
+7) Typowe błędy i troubleshooting.`,
     thumbnail: "",
   },
 
   {
     id: "edu-plan-011",
-    title: "Plan de clase ‘microenseñanza’: enseñar un concepto difícil en 15 minutos",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan ‘mikronauczania’: jak nauczyć trudnego pojęcia w 15 minut",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Diseña una microclase súper efectiva: explicación + ejemplo + mini-check.",
-    prompt: `Concepto difícil: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Tiempo: 15 minutos
+      "Projektuje super-skuteczną mikro-lekcję: wyjaśnienie + przykład + mini-check.",
+    prompt: `Trudne pojęcie: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas: 15 minut
 
-Diseña microclase con:
-1) Objetivo (1) y evidencia de éxito (1).
-2) Hook (30s) + analogía (1).
-3) Explicación en 3 pasos (guion literal).
-4) Ejemplo trabajado (paso a paso).
-5) Mini-check (3 preguntas) con respuestas y por qué.
-6) Error típico + cómo prevenirlo en una frase.
-7) “One-sentence summary” para que el alumno lo memorice.`,
+Zaprojektuj mikro-lekcję:
+1) Cel (1) i dowód sukcesu (1).
+2) Hook (30 s) + analogia (1).
+3) Wyjaśnienie w 3 krokach (dosłowny scenariusz).
+4) Przykład przepracowany (krok po kroku).
+5) Mini-check (3 pytania) z odpowiedziami i uzasadnieniem.
+6) Typowy błąd + jak mu zapobiec w 1 zdaniu.
+7) “One-sentence summary”, żeby uczeń to zapamiętał.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-012",
-    title: "Plan de clase con UDL (Diseño Universal): múltiples accesos y múltiples evidencias",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć UDL (Projektowanie Uniwersalne): wiele sposobów dostępu i dowodów",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Plan inclusivo UDL con opciones de acceso, participación y demostración.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60 min
+      "Plan inkluzywny UDL z opcjami dostępu, zaangażowania i demonstrowania uczenia się.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60 min
 
-Crea un plan UDL:
-1) Objetivos claros (3–5) + criterios de éxito.
-2) Múltiples medios de representación:
-- 3 formas de explicar el contenido (texto, visual descrito, ejemplo)
-3) Múltiples medios de acción/expresión:
-- 3 formas de demostrar aprendizaje (quiz, mini-proyecto, explicación oral)
-4) Múltiples medios de compromiso:
-- 3 opciones de actividad según intereses
-5) Agenda por minutos (0–60) con alternativas.
-6) Acomodaciones:
-- atención
-- lectura/escritura
-- idioma
-- ansiedad al participar
-7) Evaluación:
-- rúbrica flexible + cómo calificar de forma justa.`,
+Stwórz plan UDL:
+1) Jasne cele (3–5) + kryteria sukcesu.
+2) Wiele sposobów reprezentacji:
+- 3 formy wyjaśnienia treści (tekst, opis wizualny, przykład)
+3) Wiele sposobów działania/ekspresji:
+- 3 formy pokazania uczenia się (quiz, mini-projekt, wyjaśnienie ustne)
+4) Wiele sposobów zaangażowania:
+- 3 warianty aktywności wg zainteresowań
+5) Agenda minuta po minucie (0–60) z alternatywami.
+6) Udogodnienia:
+- uwaga
+- czytanie/pisanie
+- język
+- lęk przed udziałem
+7) Ocenianie:
+- elastyczna rubryka + jak oceniać sprawiedliwie.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-013",
-    title: "Plan de clase para formación corporativa (habilidad laboral) con práctica y medición",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan szkolenia firmowego (kompetencja zawodowa) z praktyką i pomiarem",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Entrenamiento corporativo: objetivos, simulaciones, KPI y transferencia al trabajo.",
-    prompt: `Habilidad laboral: [ESCRIBE AQUÍ]
-Rol de participantes: [ ]
-Duración: [60/90/120]
-Contexto: [equipo comercial/soporte/operaciones/etc.]
+      "Szkolenie korporacyjne: cele, symulacje, KPI i transfer do pracy.",
+    prompt: `Kompetencja zawodowa: [WPISZ TUTAJ]
+Role uczestników: [ ]
+Czas trwania: [60/90/120]
+Kontekst: [sprzedaż/wsparcie/operacje/itp.]
 
-Diseña sesión:
-1) Objetivos (4) medibles y alineados a KPI.
-2) Agenda por minutos con microsegmentos.
-3) Simulaciones:
-- 2 role-plays con guion, roles, criterios
-- checklist de observación
-4) Casos reales:
-- 3 casos típicos de la empresa (si no hay, inventa realistas)
-5) Evaluación:
-- pretest y posttest (8 preguntas cada uno)
-- plan de seguimiento 7 días
-6) Transferencia:
-- “acciones del lunes”: 5 acciones concretas
-- plantilla de retro semanal.`,
+Zaprojektuj sesję:
+1) Cele (4) mierzalne i powiązane z KPI.
+2) Agenda minuta po minucie w mikrosegmentach.
+3) Symulacje:
+- 2 role-play’e z scenariuszem, rolami i kryteriami
+- checklist obserwacji
+4) Realne case’y:
+- 3 typowe przypadki firmy (jeśli ich nie ma, wymyśl realistyczne)
+5) Ocenianie:
+- pretest i posttest (po 8 pytań) z odpowiedziami
+- 7-dniowy plan follow-up
+6) Transfer:
+- “poniedziałkowe działania”: 5 konkretnych akcji
+- szablon tygodniowego feedbacku.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-014",
-    title: "Plan de clase para enseñar con ejemplos y contraejemplos (conceptos con límites)",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć z przykładami i kontrprzykładami (pojęcia z granicami zastosowania)",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Diseño centrado en límites: ejemplos, contraejemplos, y casos borde.",
-    prompt: `Tema/concepto: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60 min
+      "Projekt skoncentrowany na granicach: przykłady, kontrprzykłady i przypadki brzegowe.",
+    prompt: `Temat/pojęcie: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60 min
 
-Crea:
-1) Objetivos (4) y criterios de éxito.
-2) 6 ejemplos (de fácil a complejo) con explicación.
-3) 6 contraejemplos (donde NO aplica) con explicación del supuesto violado.
-4) Actividad:
-- grupos clasifican casos como “aplica / no aplica / depende”
-- guía de discusión y justificación
-5) Evaluación formativa:
-- 10 preguntas rápidas (A–D) con respuestas
-6) Cierre:
-- checklist de supuestos antes de aplicar el concepto.`,
+Stwórz:
+1) Cele (4) i kryteria sukcesu.
+2) 6 przykładów (od łatwego do złożonego) z wyjaśnieniem.
+3) 6 kontrprzykładów (gdzie NIE działa) z wyjaśnieniem naruszonego założenia.
+4) Aktywność:
+- grupy klasyfikują przypadki jako “działa / nie działa / zależy”
+- przewodnik dyskusji i uzasadniania
+5) Ocenianie kształtujące:
+- 10 szybkich pytań (A–D) z odpowiedziami
+6) Zakończenie:
+- checklista założeń przed zastosowaniem pojęcia.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-015",
-    title: "Plan de clase para aprendizaje por problemas (PBL corto): problema realista en 1 sesión",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć PBL (krótki): realistyczny problem w 1 sesji",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "PBL en una clase: problema, investigación rápida, solución y reflexión.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Duración: 70–90 min
-Nivel: [ ]
+      "PBL w jednej lekcji: problem, szybkie badanie, rozwiązanie i refleksja.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Czas trwania: 70–90 min
+Poziom: [ ]
 
-Diseña una clase PBL corta:
-1) Problema realista (descripción 120–200 palabras) con datos iniciales.
-2) Objetivos de aprendizaje (5).
-3) Agenda por minutos:
-- comprensión del problema
-- generación de hipótesis
-- investigación rápida (recursos)
-- propuesta de solución
-- presentación
-- reflexión
-4) Materiales:
-- hoja de trabajo (preguntas guiadas)
-- plantilla de solución (criterios)
-5) Evaluación:
-- rúbrica de solución (4 criterios x 4 niveles)
-- autoevaluación rápida
+Zaprojektuj krótkie zajęcia PBL:
+1) Realistyczny problem (opis 120–200 słów) z danymi startowymi.
+2) Cele uczenia się (5).
+3) Agenda minuta po minucie:
+- zrozumienie problemu
+- generowanie hipotez
+- szybkie badanie (zasoby)
+- propozycja rozwiązania
+- prezentacja
+- refleksja
+4) Materiały:
+- karta pracy (pytania prowadzące)
+- szablon rozwiązania (kryteria)
+5) Ocenianie:
+- rubryka rozwiązania (4 kryteria × 4 poziomy)
+- szybka samoocena
 6) Debrief:
-- qué aprendieron
-- qué harían distinto con más información.`,
+- czego się nauczyli
+- co zrobiliby inaczej przy większej ilości informacji.`,
     thumbnail: "",
   },
 
   {
     id: "edu-plan-016",
-    title: "Plan de clase con gamificación (misiones, puntos, narrativa) sin perder rigor",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć z gamifikacją (misje, punkty, narracja) bez utraty rygoru",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Gamifica actividades: misiones y progreso con evaluación real.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60 min
-Narrativa: [sci-fi/fantasía/empresa/misterio]
+      "Gamifikuje aktywności: misje i progres z realną oceną.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60 min
+Narracja: [sci-fi/fantasy/firma/tajemnica]
 
-Crea un plan gamificado:
-1) Historia marco (1 párrafo) + misión principal.
-2) 3 misiones por dificultad (fácil/medio/difícil) alineadas a objetivos.
-3) Sistema de puntos claro (qué puntúa y qué no).
-4) Agenda por minutos y reglas.
-5) Materiales imprimibles (en texto):
-- tarjetas de misión
-- hoja de registro
-6) Evaluación (rubrica) para que el juego no sea “solo juego”.
-7) Inclusión:
-- cómo evitar que gane solo el más rápido/extrovertido.`,
+Stwórz plan gamifikowany:
+1) Historia ramowa (1 akapit) + misja główna.
+2) 3 misje wg trudności (łatwa/średnia/trudna) dopasowane do celów.
+3) Jasny system punktów (za co są punkty i za co nie).
+4) Agenda minuta po minucie i zasady.
+5) Materiały do druku (w tekście):
+- karty misji
+- karta wyników/ewidencji
+6) Ocenianie (rubryka), by gra nie była “tylko grą”.
+7) Inkluzywność:
+- jak uniknąć sytuacji, że wygrywa tylko najszybszy/ekstrawertyk.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-017",
-    title: "Plan de clase para enseñar a escribir (estructura, ejemplos, práctica y rúbrica)",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć z pisania (struktura, przykłady, praktyka i rubryka)",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Clase para escritura académica o técnica: estructura, borrador y feedback con rúbrica.",
-    prompt: `Tipo de texto: [ensayo/abstract/reporte/correo formal]
-Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 90 min
+      "Zajęcia z pisania akademickiego/technicznego: struktura, szkic i feedback z rubryką.",
+    prompt: `Rodzaj tekstu: [esej/abstrakt/raport/mail formalny]
+Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 90 min
 
-Diseña:
-1) Objetivos (5).
-2) Mini-lección:
-- estructura del texto
-- errores típicos
-- ejemplos buenos/malos (2 de cada)
-3) Taller de escritura:
-- plantilla de borrador (secciones + prompts)
-- tiempo por fase (planeación, borrador, revisión)
+Zaprojektuj:
+1) Cele (5).
+2) Mikro-lekcję:
+- struktura tekstu
+- typowe błędy
+- dobre/złe przykłady (2 i 2)
+3) Warsztat pisarski:
+- szablon szkicu (sekcje + prompty)
+- czas na fazy (plan, szkic, rewizja)
 4) Feedback:
-- guía de revisión por pares (checklist)
-- 2 rondas (macro y micro)
-5) Rúbrica:
-- estructura, claridad, evidencia, estilo, corrección
-6) Cierre:
-- plan de mejora individual (3 acciones por estudiante).`,
+- przewodnik recenzji koleżeńskiej (checklista)
+- 2 rundy (makro i mikro)
+5) Rubrykę:
+- struktura, klarowność, dowody, styl, poprawność
+6) Zakończenie:
+- indywidualny plan poprawy (3 działania na osobę).`,
     thumbnail: "",
   },
   {
     id: "edu-plan-018",
-    title: "Plan de clase para lectura académica (cómo leer papers) con práctica real",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć z czytania akademickiego (jak czytać artykuły naukowe) z praktyką",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Enseña a leer papers: scanning, preguntas guía, claim chart y discusión.",
-    prompt: `Disciplina: [ESCRIBE AQUÍ]
-Paper a usar (si tienes): [pega link o extracto]
-Nivel: [universidad/posgrado]
-Duración: 75–90 min
+      "Uczy czytania artykułów: scanning, pytania prowadzące, claim chart i dyskusja.",
+    prompt: `Dyscyplina: [WPISZ TUTAJ]
+Artykuł do użycia (jeśli jest): [wklej link lub fragment]
+Poziom: [studia/podyplomowe]
+Czas trwania: 75–90 min
 
-Diseña clase:
-1) Objetivos: (leer rápido, identificar tesis, método, hallazgos, límites).
-2) Estrategia de lectura:
-- 3 pasadas (5–7 min, 10–15 min, 20–30 min) con instrucciones
-3) Actividad:
-- construir Claim Chart (tabla) en equipos
-- detectar 3 debilidades metodológicas
-4) Debate:
-- 8 preguntas guía
-5) Evaluación:
-- mini-quiz (10 preguntas) con respuestas
-- exit ticket (3) + rúbrica mínima
-6) Materiales:
-- plantilla de notas de lectura (texto).`,
+Zaprojektuj zajęcia:
+1) Cele: (szybkie czytanie, identyfikacja tezy, metody, wyników, ograniczeń).
+2) Strategia czytania:
+- 3 podejścia/przejścia (5–7 min, 10–15 min, 20–30 min) z instrukcjami
+3) Aktywność:
+- budowa Claim Chart (tabela) w zespołach
+- wykrycie 3 słabości metodologicznych
+4) Dyskusja:
+- 8 pytań prowadzących
+5) Ocenianie:
+- mini-quiz (10 pytań) z odpowiedziami
+- exit ticket (3) + minimalna rubryka
+6) Materiały:
+- szablon notatek z lektury (tekst).`,
     thumbnail: "",
   },
   {
     id: "edu-plan-019",
-    title: "Plan de clase: preparar examen (estrategias + práctica + metacognición)",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć: przygotowanie do egzaminu (strategie + praktyka + metapoznanie)",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Sesión para mejorar rendimiento: técnica de estudio, práctica y revisión de errores.",
-    prompt: `Materia/tema: [ESCRIBE AQUÍ]
-Tipo de examen: [MCQ/ensayo/problemas]
-Nivel: [ ]
-Duración: 60–90 min
+      "Sesja poprawiająca wyniki: techniki uczenia się, praktyka i analiza błędów.",
+    prompt: `Przedmiot/temat: [WPISZ TUTAJ]
+Rodzaj egzaminu: [MCQ/esej/zadania]
+Poziom: [ ]
+Czas trwania: 60–90 min
 
-Diseña:
-1) Objetivos y criterios.
-2) Mini-lección (10–15 min):
-- práctica espaciada
-- intercalado
+Zaprojektuj:
+1) Cele i kryteria.
+2) Mikro-lekcję (10–15 min):
+- nauka rozłożona w czasie (spaced practice)
+- przeplatanie (interleaving)
 - active recall
-3) Práctica:
-- 15 preguntas (o 10 problemas) con soluciones
-- cronómetro y estrategia de tiempo
-4) Análisis de errores:
-- plantilla para clasificar errores (concepto/supuesto/procedimiento)
-- re-enseñanza rápida (cómo corregir cada tipo)
-5) Cierre:
-- plan individual de 7 días para el examen (día a día).`,
+3) Praktykę:
+- 15 pytań (albo 10 zadań) z rozwiązaniami
+- stoper i strategia zarządzania czasem
+4) Analizę błędów:
+- szablon klasyfikacji błędów (pojęcie/założenie/procedura)
+- szybkie douczenie (jak poprawić każdy typ)
+5) Zakończenie:
+- indywidualny 7-dniowy plan do egzaminu (dzień po dniu).`,
     thumbnail: "",
   },
   {
     id: "edu-plan-020",
-    title: "Plan de clase con stations/rotación (4 estaciones) para práctica intensiva",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć stacjami/rotacją (4 stacje) do intensywnej praktyki",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Rotación por estaciones: práctica variada y evaluación rápida por estación.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60–80 min
-Número de estaciones: 4
+      "Rotacja po stacjach: zróżnicowana praktyka i szybka ocena w każdej stacji.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60–80 min
+Liczba stacji: 4
 
-Diseña stations:
-1) Estación 1: fundamentos (ejercicios cortos) — 8 ítems
-2) Estación 2: aplicación (casos) — 3 casos
-3) Estación 3: errores comunes (diagnóstico) — 6 ítems
-4) Estación 4: desafío (nivel alto) — 4 ítems
+Zaprojektuj stacje:
+1) Stacja 1: podstawy (krótkie ćwiczenia) — 8 pozycji
+2) Stacja 2: zastosowanie (case’y) — 3 przypadki
+3) Stacja 3: typowe błędy (diagnoza) — 6 pozycji
+4) Stacja 4: wyzwanie (wysoki poziom) — 4 pozycje
 
-Incluye:
-- instrucciones exactas en cada estación
-- tiempo por estación + rotación
-- hoja de respuestas
-- guía docente (qué observar)
-- mini-evaluación por estación (rubrica simple)
-Cierre:
-- síntesis y exit ticket (3).`,
+Uwzględnij:
+- dokładne instrukcje przy każdej stacji
+- czas na stację + rotacja
+- kartę odpowiedzi
+- przewodnik dla prowadzącego (co obserwować)
+- mini-ocenę per stacja (prosta rubryka)
+Zakończenie:
+- synteza i exit ticket (3).`,
     thumbnail: "",
   },
 
   {
     id: "edu-plan-021",
-    title: "Plan de clase con evaluación diferenciada (3 niveles) sin injusticia",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć z ocenianiem zróżnicowanym (3 poziomy) bez niesprawiedliwości",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Misma competencia, tres niveles de tareas; rúbrica común para calificar justo.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60–90 min
+      "Ta sama kompetencja, trzy poziomy zadań; wspólna rubryka sprawiedliwej oceny.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60–90 min
 
-Crea:
-1) Competencia única (qué debe poder hacer el alumno).
-2) Tarea en 3 niveles:
-- Nivel 1 (apoyo): guiada
-- Nivel 2 (estándar): independiente
-- Nivel 3 (reto): extensión/transferencia
-3) Rúbrica única (criterios comunes) que aplique a los 3 niveles.
-4) Agenda por minutos:
-- mini-lección
-- trabajo
-- revisión
-- cierre
-5) Cómo asignar niveles sin estigmatizar.
-6) Cómo mover alumnos de nivel durante la clase (estrategia).`,
+Stwórz:
+1) Jedną kompetencję (co uczeń ma umieć zrobić).
+2) Zadanie na 3 poziomach:
+- Poziom 1 (wsparcie): prowadzone
+- Poziom 2 (standard): samodzielne
+- Poziom 3 (wyzwanie): rozszerzenie/transfer
+3) Jedną rubrykę (wspólne kryteria) działającą dla wszystkich 3 poziomów.
+4) Agenda minuta po minucie:
+- mikro-lekcja
+- praca
+- przegląd
+- zakończenie
+5) Jak przydzielać poziomy bez stygmatyzacji.
+6) Jak przesuwać osoby między poziomami w trakcie (strategia).`,
     thumbnail: "",
   },
   {
     id: "edu-plan-022",
-    title: "Plan de clase para enseñar con analogías (y sus límites) + evaluación",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć z analogiami (i ich ograniczeniami) + ocena",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Analogías bien hechas: cuándo sirven, cuándo confunden y cómo evaluar comprensión.",
-    prompt: `Concepto abstracto: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 50–60 min
+      "Dobrze zrobione analogie: kiedy pomagają, kiedy mylą i jak ocenić zrozumienie.",
+    prompt: `Pojęcie abstrakcyjne: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 50–60 min
 
-Diseña:
-1) 5 analogías distintas (de vida diaria) explicando:
-- qué corresponde a qué
-- dónde se rompe la analogía (límite)
-2) Secuencia didáctica:
-- analogía 1 → formalización → contraejemplo → analogía 2
-3) Actividad:
-- alumnos crean su analogía y la critican con límites
-4) Evaluación:
-- quiz de 10 preguntas
-- rúbrica para evaluar analogías
-5) Cierre:
-- “definición formal” final (1–2 frases) para no quedarse solo con analogía.`,
+Zaprojektuj:
+1) 5 różnych analogii (z życia codziennego), wyjaśniając:
+- co odpowiada czemu
+- gdzie analogia się “łamie” (ograniczenie)
+2) Sekwencję dydaktyczną:
+- analogia 1 → formalizacja → kontrprzykład → analogia 2
+3) Aktywność:
+- uczniowie tworzą własną analogię i krytykują ją wskazując ograniczenia
+4) Ocenę:
+- quiz 10 pytań
+- rubryka do oceny analogii
+5) Zakończenie:
+- finalna “definicja formalna” (1–2 zdania), by nie zostać tylko przy analogii.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-023",
-    title: "Plan de clase para resolución de problemas (modelado docente → práctica guiada → independiente)",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć rozwiązywania problemów (modelowanie → praktyka prowadzona → samodzielna)",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Estructura clásica efectiva para problemas: I do / We do / You do.",
-    prompt: `Tema de problemas: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 70–90 min
+      "Klasyczna skuteczna struktura: I do / We do / You do.",
+    prompt: `Temat zadań: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 70–90 min
 
-Crea:
-1) Objetivos y criterios.
-2) I DO (modelado docente):
-- 1 problema ejemplo resuelto con explicación verbal (guion)
-3) WE DO (práctica guiada):
-- 2 problemas con pasos guiados + preguntas al grupo
-4) YOU DO (práctica independiente):
-- 6 problemas escalonados (fácil→difícil) con respuestas
-5) Diferenciación:
-- pistas para quien se atasca
-- desafío extra para avanzados
-6) Evaluación:
-- checklist de proceso
-- exit ticket con 2 problemas cortos.`,
+Stwórz:
+1) Cele i kryteria.
+2) I DO (modelowanie przez prowadzącego):
+- 1 przykładowe zadanie rozwiązane z komentarzem (scenariusz)
+3) WE DO (praktyka prowadzona):
+- 2 zadania z krokami i pytaniami do grupy
+4) YOU DO (praktyka samodzielna):
+- 6 zadań stopniowanych (łatwe→trudne) z odpowiedziami
+5) Zróżnicowanie:
+- podpowiedzi dla zacinających się
+- dodatkowe wyzwanie dla zaawansowanych
+6) Ocenianie:
+- checklista procesu
+- exit ticket z 2 krótkimi zadaniami.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-024",
-    title: "Plan de clase para ‘enseñar con errores’: usar errores para aprender (no para castigar)",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć ‘uczenie się na błędach’: wykorzystaj błędy do nauki (nie do karania)",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Clase diseñada alrededor de errores típicos, con corrección respetuosa y aprendizaje profundo.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60 min
+      "Zajęcia zbudowane wokół typowych błędów: szacunek w korekcie i głębsze uczenie się.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60 min
 
-Diseña:
-1) Objetivos (4–6).
-2) Lista de 8 errores típicos del tema (con ejemplo).
-3) Actividad central:
-- presentas soluciones erróneas
-- alumnos diagnostican el error (concepto/supuesto/procedimiento)
-- reescriben la solución correcta
-4) Guion docente:
-- frases para normalizar el error
-- cómo corregir sin humillar
-5) Evaluación:
-- 10 preguntas de diagnóstico (A–D) con respuestas
-- exit ticket: “explica 1 error y cómo evitarlo”
-6) Cierre:
-- checklist anti-error (10 items).`,
+Zaprojektuj:
+1) Cele (4–6).
+2) Lista 8 typowych błędów w temacie (z przykładem).
+3) Aktywność główna:
+- pokazujesz błędne rozwiązania
+- uczniowie diagnozują błąd (pojęcie/założenie/procedura)
+- przepisują poprawne rozwiązanie
+4) Scenariusz prowadzącego:
+- zdania normalizujące błąd
+- jak korygować bez zawstydzania
+5) Ocenianie:
+- 10 pytań diagnostycznych (A–D) z odpowiedziami
+- exit ticket: “wyjaśnij 1 błąd i jak go unikać”
+6) Zakończenie:
+- checklista anty-błąd (10 punktów).`,
     thumbnail: "",
   },
   {
     id: "edu-plan-025",
-    title: "Plan de clase interdisciplinaria: conecta 2 materias con un caso integrador",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć interdyscyplinarnych: połącz 2 przedmioty jednym case’em",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Integra dos áreas: objetivos cruzados, actividad central y evaluación integrada.",
-    prompt: `Materia A: [ ]
-Materia B: [ ]
-Tema integrador: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 90 min
+      "Integruje dwie dziedziny: cele krzyżowe, aktywność główna i ocenianie zintegrowane.",
+    prompt: `Przedmiot A: [ ]
+Przedmiot B: [ ]
+Temat integrujący: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 90 min
 
-Crea:
-1) Objetivos de A (3) y de B (3) + objetivos integrados (3).
-2) Caso integrador (150–250 palabras).
-3) Actividad:
-- equipos resuelven el caso aplicando ambos marcos
-- guía paso a paso
-4) Producto final:
-- formato + criterios
-5) Rúbrica integrada (4 criterios x 4 niveles).
-6) Cierre:
-- reflexión: qué aportó A, qué aportó B, y qué aprendí integrando.`,
+Stwórz:
+1) Cele A (3) i B (3) + cele zintegrowane (3).
+2) Case integracyjny (150–250 słów).
+3) Aktywność:
+- zespoły rozwiązują case, stosując oba podejścia
+- instrukcja krok po kroku
+4) Produkt końcowy:
+- format + kryteria
+5) Zintegrowana rubryka (4 kryteria × 4 poziomy).
+6) Zakończenie:
+- refleksja: co dało A, co dało B i czego nauczyłem/am się łącząc.`,
     thumbnail: "",
   },
 
   {
     id: "edu-plan-026",
-    title: "Plan de clase para tutoría 1:1 (diagnóstico → enseñanza → práctica → plan personal)",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan korepetycji 1:1 (diagnoza → nauczanie → praktyka → plan osobisty)",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Formato tutoría: detecta brechas, enseña, practica y deja plan de estudio.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel del estudiante: [ ]
-Tiempo: 45–60 min
-Objetivo (examen/proyecto): [ ]
+      "Format tutoringu: wykrywa luki, uczy, ćwiczy i zostawia plan nauki.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom ucznia: [ ]
+Czas: 45–60 min
+Cel (egzamin/projekt): [ ]
 
-Crea un plan de tutoría:
-1) Diagnóstico (10 min):
-- 8 preguntas rápidas con respuestas esperadas
-- cómo interpretar fallos
-2) Enseñanza focal (15 min):
-- explicación en 3 pasos + ejemplo fuerte
-3) Práctica (15–20 min):
-- 5 ejercicios escalonados + soluciones
-- pistas graduadas (hint 1/2/3) por ejercicio
-4) Cierre (5 min):
-- resumen del estudiante (qué debe decir)
-- plan de 7 días (día a día)
-- métrica simple para medir progreso.`,
+Stwórz plan korepetycji:
+1) Diagnoza (10 min):
+- 8 szybkich pytań z oczekiwanymi odpowiedziami
+- jak interpretować błędy
+2) Nauczanie ukierunkowane (15 min):
+- wyjaśnienie w 3 krokach + mocny przykład
+3) Praktyka (15–20 min):
+- 5 ćwiczeń stopniowanych + rozwiązania
+- stopniowane podpowiedzi (hint 1/2/3) do każdego ćwiczenia
+4) Zakończenie (5 min):
+- podsumowanie ucznia (co ma umieć powiedzieć)
+- plan 7 dni (dzień po dniu)
+- prosta metryka postępu.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-027",
-    title: "Plan de unidad (4 semanas): objetivos, secuencia, evaluaciones y materiales",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan modułu (4 tygodnie): cele, sekwencja, oceny i materiały",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Unidad completa: semana a semana, con evaluación formativa y sumativa.",
-    prompt: `Tema/unidad: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 4 semanas
-Sesiones por semana: [ ]
-Duración por sesión: [ ]
+      "Pełna jednostka: tydzień po tygodniu, z oceną kształtującą i sumującą.",
+    prompt: `Temat/jednostka: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 4 tygodnie
+Sesje na tydzień: [ ]
+Czas na sesję: [ ]
 
-Diseña la unidad:
-1) Objetivos generales (6) + mapa de conceptos.
-2) Semana 1–4:
-- objetivos específicos
-- actividades clave
-- evaluación formativa
-- tarea
-3) Evaluación sumativa:
-- tipo (examen/proyecto/portafolio)
-- rúbrica y criterios
-4) Materiales:
-- lecturas, videos, actividades
-- versiones con recursos bajos (low-tech)
-5) Diferenciación:
-- apoyo y extensión
-6) Riesgos:
-- dónde suelen atascarse y cómo prevenirlo.`,
+Zaprojektuj jednostkę:
+1) Cele ogólne (6) + mapa pojęć.
+2) Tydzień 1–4:
+- cele szczegółowe
+- kluczowe aktywności
+- ocena kształtująca
+- zadanie domowe
+3) Ocena sumująca:
+- typ (egzamin/projekt/portfolio)
+- rubryka i kryteria
+4) Materiały:
+- lektury, wideo, aktywności
+- wersje low-tech (mało zasobów)
+5) Zróżnicowanie:
+- wsparcie i rozszerzenia
+6) Ryzyka:
+- gdzie zwykle utkną i jak temu zapobiec.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-028",
-    title: "Plan de clase con aprendizaje cooperativo (roles, interdependencia y coevaluación)",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć z uczeniem kooperacyjnym (role, współzależność i ocena koleżeńska)",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Cooperativo real: roles, accountability y coevaluación para evitar free-riding.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60–90 min
-Tamaño de equipos: 3–5
+      "Prawdziwa kooperacja: role, odpowiedzialność i współocena, by uniknąć free-riding.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60–90 min
+Wielkość zespołów: 3–5
 
-Crea:
-1) Objetivos y criterios.
-2) Roles por equipo (4–5 roles) con responsabilidades claras.
-3) Actividad cooperativa:
-- producto final
-- pasos
-- interdependencia positiva (qué obliga a colaborar)
-4) Accountability:
-- evidencia individual + evidencia grupal
-- coevaluación (formato + criterios)
-5) Rúbrica:
-- calidad del producto
-- colaboración (criterios observables)
+Stwórz:
+1) Cele i kryteria.
+2) Role w zespole (4–5) z jasnymi odpowiedzialnościami.
+3) Aktywność kooperacyjna:
+- produkt końcowy
+- kroki
+- pozytywna współzależność (co wymusza współpracę)
+4) Odpowiedzialność (accountability):
+- dowód indywidualny + dowód grupowy
+- współocena (format + kryteria)
+5) Rubryka:
+- jakość produktu
+- współpraca (kryteria obserwowalne)
 6) Plan B:
-- qué haces si hay conflicto o un alumno no participa.`,
+- co robisz przy konflikcie lub braku udziału jednego ucznia.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-029",
-    title: "Plan de clase para evaluación oral: entrenamiento + rúbrica + preguntas",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć do egzaminu ustnego: trening + rubryka + pytania",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Preparación para examen oral: práctica guiada, preguntas difíciles y rúbrica.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60 min
+      "Przygotowanie do egzaminu ustnego: praktyka prowadzona, trudne pytania i rubryka.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60 min
 
-Diseña:
-1) Objetivos (4–5).
-2) Mini-lección:
-- cómo estructurar una respuesta oral (plantilla en 4 pasos)
-3) Banco de preguntas:
-- 12 preguntas (de fácil a difícil)
-- 6 repreguntas “para profundizar”
-- respuestas modelo (resumen)
-4) Práctica:
-- dinámica por parejas
-- cronómetro
-- checklist de feedback inmediato
-5) Rúbrica:
-- claridad, rigor, ejemplos, límites, comunicación
-6) Cierre:
-- plan de mejora individual (3 acciones).`,
+Zaprojektuj:
+1) Cele (4–5).
+2) Mikro-lekcję:
+- jak zbudować odpowiedź ustną (szablon w 4 krokach)
+3) Bank pytań:
+- 12 pytań (od łatwych do trudnych)
+- 6 dopytań “na pogłębienie”
+- odpowiedzi modelowe (streszczenie)
+4) Praktykę:
+- praca w parach
+- stoper
+- checklista natychmiastowego feedbacku
+5) Rubrykę:
+- klarowność, rygor, przykłady, ograniczenia, komunikacja
+6) Zakończenie:
+- indywidualny plan poprawy (3 działania).`,
     thumbnail: "",
   },
   {
     id: "edu-plan-030",
-    title: "Plan de clase para cierre de unidad (repaso inteligente + examen de práctica + plan)",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć na domknięcie modułu (inteligentna powtórka + próbny test + plan)",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Cierre: repaso con intercalado, examen de práctica y plan de consolidación.",
-    prompt: `Unidad/tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 90 min
+      "Zakończenie: powtórka z przeplataniem, próbny egzamin i plan utrwalenia.",
+    prompt: `Moduł/temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 90 min
 
-Crea:
-1) Diagnóstico rápido (10 min): 12 preguntas (A–D) con respuestas.
-2) Repaso inteligente (30 min):
-- intercalado de subtemas (cómo alternar)
-- mini-explicaciones de 6 confusiones típicas
-3) Examen de práctica (30 min):
-- 20 preguntas (o 10 problemas) con clave
-4) Revisión de errores (15 min):
-- plantilla para clasificar errores (concepto/supuesto/procedimiento)
-- re-enseñanza rápida por tipo
-5) Cierre (5 min):
-- plan de 7 días post-unidad + métricas.`,
+Stwórz:
+1) Szybka diagnoza (10 min): 12 pytań (A–D) z odpowiedziami.
+2) Inteligentna powtórka (30 min):
+- przeplatanie podtematów (jak naprzemiennie)
+- mini-wyjaśnienia 6 typowych konfuzji
+3) Próbny test (30 min):
+- 20 pytań (albo 10 zadań) z kluczem
+4) Przegląd błędów (15 min):
+- szablon klasyfikacji błędów (pojęcie/założenie/procedura)
+- szybkie douczenie wg typu
+5) Zakończenie (5 min):
+- 7-dniowy plan po module + metryki.`,
     thumbnail: "",
   },
 
   {
     id: "edu-plan-031",
-    title: "Plan de clase con evaluación por portafolio (evidencias, criterios, calendario)",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć z oceną portfolio (dowody, kryteria, kalendarz)",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Diseña un portafolio: evidencias, calendario de entregas y rúbricas claras.",
-    prompt: `Tema/curso: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración del portafolio: [2–6 semanas]
+      "Projektuje portfolio: dowody, harmonogram oddawania i jasne rubryki.",
+    prompt: `Temat/kurs: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania portfolio: [2–6 tygodni]
 
-Crea:
-1) Qué es el portafolio y qué evidencia debe incluir (6–10 evidencias).
-2) Calendario de entregas y checkpoints (semanal).
-3) Rúbrica:
-- calidad de evidencias
-- reflexión
-- iteración/mejora
-- presentación/claridad
-4) Plantillas:
-- ficha de evidencia (qué hice, por qué, qué aprendí, siguiente mejora)
-- checklist de revisión
-5) Cómo evaluar de forma justa:
-- criterios mínimos
-- cómo evitar “relleno”
-- cómo manejar retrasos y revisiones.`,
+Stwórz:
+1) Czym jest portfolio i jakie dowody ma zawierać (6–10 dowodów).
+2) Harmonogram oddawania i checkpointy (co tydzień).
+3) Rubrykę:
+- jakość dowodów
+- refleksja
+- iteracja/udoskonalenie
+- prezentacja/klarowność
+4) Szablony:
+- karta dowodu (co zrobiłem/am, dlaczego, czego się nauczyłem/am, co poprawię dalej)
+- checklista przeglądu
+5) Jak oceniać sprawiedliwie:
+- minimalne kryteria
+- jak unikać “zapychaczy”
+- jak radzić sobie z opóźnieniami i poprawkami.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-032",
-    title: "Plan de clase para enseñar ‘metacognición’: cómo estudiar y monitorear comprensión",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć o metapoznaniu: jak się uczyć i monitorować zrozumienie",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Sesión para aprender a aprender: monitoreo, diarios de estudio y estrategias.",
-    prompt: `Materia/tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60 min
+      "Sesja ‘uczenia się uczenia’: monitorowanie, dzienniki nauki i strategie.",
+    prompt: `Przedmiot/temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60 min
 
-Diseña:
-1) Objetivos y criterios.
-2) Mini-lección (10–12 min):
-- ilusión de competencia
+Zaprojektuj:
+1) Cele i kryteria.
+2) Mikro-lekcję (10–12 min):
+- iluzja kompetencji
 - active recall
 - spaced repetition
-- intercalado
-3) Actividad:
-- alumnos hacen un mini-test
-- predicen su puntaje (calibración)
-- comparan y ajustan estrategia
-4) Herramientas:
-- plantilla de diario de estudio (texto)
-- checklist de “¿realmente lo entiendo?”
-5) Cierre:
-- plan de estudio 10 días (con horarios y métricas).`,
+- przeplatanie (interleaving)
+3) Aktywność:
+- uczniowie robią mini-test
+- przewidują wynik (kalibracja)
+- porównują i korygują strategię
+4) Narzędzia:
+- szablon dziennika nauki (tekst)
+- checklista “czy naprawdę to rozumiem?”
+5) Zakończenie:
+- 10-dniowy plan nauki (z czasami i metrykami).`,
     thumbnail: "",
   },
   {
     id: "edu-plan-033",
-    title: "Plan de clase ‘debate con evidencia’: investigación rápida + argumentación + rúbrica",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć ‘debata z dowodami’: szybkie badanie + argumentacja + rubryka",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Debate basado en evidencia: roles, investigación rápida y evaluación rigurosa.",
-    prompt: `Tema debatible: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 80–90 min
+      "Debata oparta o dowody: role, szybkie research i rygorystyczna ocena.",
+    prompt: `Temat do debaty: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 80–90 min
 
-Crea:
-1) Objetivos (argumentar con evidencia, refutar, reconocer límites).
-2) Roles: pro/contra/jueces/verificadores.
-3) Investigación rápida:
-- preguntas guía
-- cómo evaluar fuentes (rúbrica simple)
-4) Debate:
-- estructura con tiempos (apertura, argumentos, refutaciones, cierre)
-- guion de moderación
-5) Evidencia:
-- plantilla para registrar claim→evidence→warrant
-6) Evaluación:
-- rúbrica (evidencia, lógica, claridad, respeto)
-- auto y coevaluación
-7) Cierre:
-- reflexión: qué cambió en su postura y por qué.`,
+Stwórz:
+1) Cele (argumentowanie dowodami, obalanie, uznawanie ograniczeń).
+2) Role: pro/contra/sędziowie/weryfikatorzy faktów.
+3) Szybki research:
+- pytania prowadzące
+- jak oceniać źródła (prosta rubryka)
+4) Debata:
+- struktura z czasami (otwarcie, argumenty, riposty, zamknięcie)
+- scenariusz moderacji
+5) Dowody:
+- szablon do zapisu claim→evidence→warrant
+6) Ocenianie:
+- rubryka (dowody, logika, klarowność, szacunek)
+- auto- i współocena
+7) Zakończenie:
+- refleksja: co zmieniło się w ich stanowisku i dlaczego.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-034",
-    title: "Plan de clase ‘aprendizaje por diseño’: construir algo (artefacto) para entender concepto",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć ‘uczenie przez projektowanie’: zbuduj artefakt, by zrozumieć pojęcie",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Diseña construyendo: crear un artefacto para interiorizar el concepto.",
-    prompt: `Concepto/tema: [ESCRIBE AQUÍ]
-Artefacto a construir: [modelo, infografía, simulación, mapa, etc.]
-Nivel: [ ]
-Duración: 60–90 min
+      "Uczenie przez tworzenie: budowa artefaktu do internalizacji pojęcia.",
+    prompt: `Pojęcie/temat: [WPISZ TUTAJ]
+Artefakt do zbudowania: [model, infografika, symulacja, mapa itp.]
+Poziom: [ ]
+Czas trwania: 60–90 min
 
-Crea:
-1) Objetivos y criterios del artefacto.
-2) Materiales y restricciones.
-3) Agenda por minutos:
-- mini-lección
-- diseño/boceto
-- construcción
-- revisión
-- mejora
-- presentación
-4) Plantilla de diseño (preguntas guía).
-5) Rúbrica del artefacto (4 criterios x 4 niveles).
-6) Cierre:
-- conexión explícita: qué parte del artefacto representa qué concepto
-- 3 preguntas para transferir el aprendizaje.`,
+Stwórz:
+1) Cele i kryteria artefaktu.
+2) Materiały i ograniczenia.
+3) Agenda minuta po minucie:
+- mikro-lekcja
+- projekt/szkic
+- budowa
+- przegląd
+- poprawa
+- prezentacja
+4) Szablon projektowy (pytania prowadzące).
+5) Rubryka artefaktu (4 kryteria × 4 poziomy).
+6) Zakończenie:
+- jawne połączenie: co w artefakcie reprezentuje jaki koncept
+- 3 pytania transferujące uczenie się.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-035",
-    title: "Plan de clase ‘evaluación formativa continua’: 6 checks durante la sesión",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć z ciągłą oceną kształtującą: 6 checkpointów podczas sesji",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Inserta checks formativos cada pocos minutos: preguntas, mini-tareas y corrección rápida.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60 min
+      "Wstawia checkpointy co kilka minut: pytania, mini-zadania i szybka korekta.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60 min
 
-Diseña una clase con 6 puntos de evaluación formativa:
+Zaprojektuj zajęcia z 6 punktami oceny kształtującej:
 - Check #1 (min 5)
 - Check #2 (min 12)
 - Check #3 (min 20)
@@ -1005,424 +1005,423 @@ Diseña una clase con 6 puntos de evaluación formativa:
 - Check #5 (min 45)
 - Check #6 (min 55)
 
-Para cada check:
-- formato (pregunta, mini-ejercicio, votación, explicación en 1 frase)
-- respuesta esperada
-- qué haría el docente si 30% falla vs si 70% falla (ramificación)
-Además:
-- objetivos, agenda por minutos y cierre con exit ticket.`,
+Dla każdego checka:
+- format (pytanie, mini-ćwiczenie, głosowanie, wyjaśnienie w 1 zdaniu)
+- oczekiwana odpowiedź
+- co robi prowadzący, gdy myli się 30% vs gdy myli się 70% (gałęzie decyzji)
+Dodatkowo:
+- cele, agenda minuta po minucie i zakończenie z exit ticket.`,
     thumbnail: "",
   },
 
   {
     id: "edu-plan-036",
-    title: "Plan de clase para estudiantes con baja motivación: relevancia, autonomía y logro rápido",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć dla grupy z niską motywacją: sens, autonomia i szybkie zwycięstwa",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Diseño motivacional: relevancia, elección, wins rápidos y clima de clase.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60 min
-Problema: baja motivación / apatía / resistencia
+      "Projekt motywacyjny: sens, wybór, szybkie sukcesy i klimat zajęć.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60 min
+Problem: niska motywacja / apatia / opór
 
-Crea un plan:
-1) Hook basado en relevancia (caso real) + guion.
-2) Autonomía:
-- 3 opciones de actividad (misma competencia)
-3) Logro rápido:
-- mini-tarea de 5 min con “victoria”
-4) Actividad central:
-- dinámica colaborativa con roles
+Stwórz plan:
+1) Hook oparty na sensie (realny case) + scenariusz.
+2) Autonomia:
+- 3 opcje aktywności (ta sama kompetencja)
+3) Szybki sukces:
+- mini-zadanie 5 min z “wygraną”
+4) Aktywność główna:
+- dynamika współpracy z rolami
 5) Feedback:
-- frases y técnicas para reforzar progreso real
-6) Evaluación:
-- evidencia mínima y exit ticket simple
-7) Cierre:
-- “por qué esto importa” en 1 minuto (guion).`,
+- zdania i techniki wzmacniające realny postęp
+6) Ocenianie:
+- minimalny dowód i prosty exit ticket
+7) Zakończenie:
+- “dlaczego to ważne” w 1 minutę (scenariusz).`,
     thumbnail: "",
   },
   {
     id: "edu-plan-037",
-    title: "Plan de clase para enseñar conceptos abstractos: concreto→representación→abstracción",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć dla pojęć abstrakcyjnych: konkret → reprezentacja → abstrakcja",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Secuencia CRA: concretos, representaciones y abstracción con evaluación.",
-    prompt: `Concepto abstracto: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60 min
+      "Sekwencja CRA: konkret, reprezentacje i abstrakcja z oceną.",
+    prompt: `Pojęcie abstrakcyjne: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60 min
 
-Diseña usando CRA:
-1) Concreto (15 min):
-- actividad manipulativa o simulada (sin materiales costosos)
-2) Representación (20 min):
-- diagramas descritos + ejemplos
-3) Abstracción (15 min):
-- definición formal + ejercicios
-4) Evaluación formativa:
-- 10 preguntas (mezcla)
-5) Diferenciación:
-- apoyo y extensión
-6) Cierre:
-- síntesis de 3 pasos para recordar el concepto.`,
+Zaprojektuj zgodnie z CRA:
+1) Konkret (15 min):
+- aktywność manipulacyjna lub symulowana (bez drogich materiałów)
+2) Reprezentacja (20 min):
+- opisy diagramów + przykłady
+3) Abstrakcja (15 min):
+- definicja formalna + ćwiczenia
+4) Ocena kształtująca:
+- 10 pytań (mix)
+5) Zróżnicowanie:
+- wsparcie i rozszerzenia
+6) Zakończenie:
+- synteza 3 kroków do zapamiętania pojęcia.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-038",
-    title: "Plan de clase para recuperar rezago (remediación) con diagnóstico y microgrupos",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć wyrównawczych (remediacja) z diagnozą i mikrogrupami",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Remediación: diagnóstico, microgrupos por brecha y evidencia de mejora.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60–90 min
+      "Remediacja: diagnoza, mikrogrupy wg luk i dowód poprawy.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60–90 min
 
-Crea:
-1) Diagnóstico inicial (10 min):
-- 12 ítems con respuestas
-- cómo agrupar alumnos según resultados
-2) Microgrupos:
-- Grupo A (brecha 1): mini-lección + 4 ejercicios
-- Grupo B (brecha 2): mini-lección + 4 ejercicios
-- Grupo C (brecha 3): mini-lección + 4 ejercicios
-3) Rotación o trabajo paralelo:
-- instrucciones exactas
-- qué hace el docente en cada minuto
-4) Re-evaluación final (10 min):
-- 8 ítems similares
-- interpretación: ¿mejoró?
-5) Plan de seguimiento:
-- tareas de 7 días (microtareas).`,
+Stwórz:
+1) Diagnoza wstępna (10 min):
+- 12 zadań z odpowiedziami
+- jak grupować uczniów wg wyników
+2) Mikrogrupy:
+- Grupa A (luka 1): mikro-lekcja + 4 ćwiczenia
+- Grupa B (luka 2): mikro-lekcja + 4 ćwiczenia
+- Grupa C (luka 3): mikro-lekcja + 4 ćwiczenia
+3) Rotacja lub praca równoległa:
+- dokładne instrukcje
+- co robi prowadzący w każdej minucie
+4) Re-ewaluacja końcowa (10 min):
+- 8 podobnych zadań
+- interpretacja: czy jest poprawa?
+5) Plan dalszy:
+- 7-dniowe mikro-zadania.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-039",
-    title: "Plan de clase con ‘story-based learning’: enseñar el tema con una historia",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć ‘story-based learning’: naucz temat poprzez historię",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Aprendizaje narrativo: historia, puntos de decisión y reflexión.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60–75 min
-Género de historia: [misterio/aventura/empresa/sci-fi]
+      "Uczenie narracyjne: historia, punkty decyzji i refleksja.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60–75 min
+Gatunek historii: [tajemnica/przygoda/firma/sci-fi]
 
-Diseña:
-1) Historia marco (200–350 palabras) con 3 momentos de decisión.
-2) En cada decisión:
-- opciones de acción
-- pregunta académica ligada (qué concepto aplica)
-- respuesta esperada y explicación
-3) Actividad:
-- equipos eligen decisiones y justifican
-4) Evaluación:
-- 10 preguntas quiz basadas en la historia (con respuestas)
-5) Cierre:
-- qué conceptos se aprendieron y cómo se ven en “vida real”.`,
+Zaprojektuj:
+1) Historię ramową (200–350 słów) z 3 momentami decyzji.
+2) Dla każdej decyzji:
+- opcje działania
+- pytanie akademickie powiązane (jaki koncept tu działa)
+- oczekiwana odpowiedź i wyjaśnienie
+3) Aktywność:
+- zespoły wybierają decyzje i je uzasadniają
+4) Ocenianie:
+- 10 pytań quizowych opartych o historię (z odpowiedziami)
+5) Zakończenie:
+- jakie pojęcia poznali i jak widać je w “prawdziwym świecie”.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-040",
-    title: "Plan de clase de “capstone” (proyecto final) con entregables, rúbrica y defensa",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć capstone (projekt końcowy) z produktami, rubryką i obroną",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Proyecto final completo: entregables, revisión, presentación y defensa con rúbrica.",
-    prompt: `Curso/unidad: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: [1–4 semanas]
-Producto final: [ ]
+      "Pełny projekt finałowy: produkty, przeglądy, prezentacja i obrona z rubryką.",
+    prompt: `Kurs/jednostka: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: [1–4 tygodnie]
+Produkt końcowy: [ ]
 
-Diseña capstone:
-1) Brief del proyecto (objetivo, requisitos, restricciones).
-2) Entregables:
-- propuesta
-- borrador/prototipo
-- entregable final
-- defensa/presentación
-3) Calendario con hitos y checkpoints.
-4) Rúbricas:
-- producto final
-- proceso e iteración
-- defensa oral (preguntas y criterios)
-5) Antiplagio / autenticidad:
-- evidencia de proceso requerida
-6) Plantillas:
-- propuesta
-- bitácora de trabajo
-- checklist final.`,
+Zaprojektuj capstone:
+1) Brief projektu (cel, wymagania, ograniczenia).
+2) Produkty:
+- propozycja
+- szkic/prototyp
+- produkt finalny
+- obrona/prezentacja
+3) Harmonogram z kamieniami milowymi i checkpointami.
+4) Rubryki:
+- produkt końcowy
+- proces i iteracja
+- obrona ustna (pytania i kryteria)
+5) Antyplagiat / autentyczność:
+- wymagana “evidence of process”
+6) Szablony:
+- propozycja
+- dziennik pracy
+- checklista końcowa.`,
     thumbnail: "",
   },
 
   {
     id: "edu-plan-041",
-    title: "Plan de clase para enseñar con casos (case method): lectura, análisis y discusión",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć metodą case study: lektura, analiza i dyskusja",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Método del caso: prepara, analiza, discute y decide con criterios claros.",
-    prompt: `Caso (si tienes, pégalo; si no, describe el tema): [ ]
-Nivel: [ ]
-Duración: 90 min
+      "Metoda przypadku: przygotowuje, analizuje, dyskutuje i decyduje wg jasnych kryteriów.",
+    prompt: `Case (jeśli masz, wklej; jeśli nie, opisz temat): [ ]
+Poziom: [ ]
+Czas trwania: 90 min
 
-Crea:
-1) Objetivos (5).
-2) Pre-clase:
-- preguntas guía de lectura (10)
-- mini-quiz (8) con respuestas
-3) En clase:
-- agenda por minutos
-- mapeo del caso (actores, objetivos, restricciones)
-- análisis (alternativas + trade-offs)
-- decisión final + justificación
-4) Banco de preguntas del docente (12) con repreguntas.
-5) Evaluación:
-- rúbrica de participación y análisis
-- exit ticket: recomendación en 5 líneas + 2 riesgos + 1 mitigación.`,
+Stwórz:
+1) Cele (5).
+2) Przed zajęciami:
+- pytania prowadzące do lektury (10)
+- mini-quiz (8) z odpowiedziami
+3) Na zajęciach:
+- agenda minuta po minucie
+- mapowanie case’u (aktorzy, cele, ograniczenia)
+- analiza (alternatywy + trade-offs)
+- decyzja końcowa + uzasadnienie
+4) Bank pytań prowadzącego (12) z dopytaniami.
+5) Ocenianie:
+- rubryka udziału i analizy
+- exit ticket: rekomendacja w 5 liniach + 2 ryzyka + 1 mitygacja.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-042",
-    title: "Plan de clase para enseñar ‘transferencia’: del ejemplo al caso nuevo",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć o transferze: od przykładu do nowego przypadku",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Diseña para transferir: ejemplo base, variaciones, y caso nuevo no visto.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60–75 min
+      "Projektuje pod transfer: przykład bazowy, warianty i nowy, nieznany case.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60–75 min
 
-Crea:
-1) Ejemplo base (resuelto) + explicación.
-2) 4 variaciones del ejemplo:
-- cambia un supuesto
-- cambia un parámetro
-- cambia el objetivo
-- añade una restricción
-3) Caso nuevo (no visto) para resolver en equipos:
-- plantilla de solución (pasos)
-4) Evaluación:
-- rúbrica que premia transferencia (no memorización)
-- 8 preguntas de cierre (con respuestas)
-5) Cierre:
-- 5 heurísticas para reconocer “esto es el mismo patrón”.`,
+Stwórz:
+1) Przykład bazowy (rozwiązany) + wyjaśnienie.
+2) 4 warianty przykładu:
+- zmień jedno założenie
+- zmień parametr
+- zmień cel
+- dodaj ograniczenie
+3) Nowy case (nie widziany) do rozwiązania w zespołach:
+- szablon rozwiązania (kroki)
+4) Ocenianie:
+- rubryka premiująca transfer (nie pamięciówkę)
+- 8 pytań na koniec (z odpowiedziami)
+5) Zakończenie:
+- 5 heurystyk rozpoznawania “to ten sam wzorzec”.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-043",
-    title: "Plan de clase con IA como tutor (seguro y ético): prompts, límites y verificación",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć z AI jako tutorem (bezpiecznie i etycznie): prompty, granice i weryfikacja",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Integración de IA: prompts para aprender, verificación y prevención de dependencia.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60–90 min
-Herramienta IA: [ChatGPT/otra]
-Política del curso: [permitida/limitada/prohibida en evaluaciones]
+      "Integracja AI: prompty do nauki, weryfikacja i zapobieganie zależności.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60–90 min
+Narzędzie AI: [ChatGPT/inne]
+Polityka kursu: [dozwolona/ograniczona/zakazana w ocenach]
 
-Crea plan:
-1) Objetivos: aprendizaje + alfabetización IA.
-2) Reglas éticas:
-- qué se permite y qué no
-- cómo citar uso de IA
-- cómo verificar
-3) Actividad:
-- alumnos usan IA para explicar concepto y generar ejemplos
-- luego deben verificar con fuentes/notas y corregir errores
-4) Prompts seguros (10) para tutoría:
-- explicar, preguntar, detectar errores, generar práctica
-5) Evaluación:
-- evidencia de aprendizaje sin IA (exit ticket o mini-prueba)
-6) Cierre:
-- checklist de verificación (10 pasos).`,
+Stwórz plan:
+1) Cele: uczenie się + alfabetyzacja AI.
+2) Zasady etyczne:
+- co wolno, a czego nie
+- jak cytować użycie AI
+- jak weryfikować
+3) Aktywność:
+- uczniowie używają AI do wyjaśnienia pojęcia i generowania przykładów
+- potem weryfikują w notatkach/źródłach i poprawiają błędy
+4) Bezpieczne prompty (10) do tutoringu:
+- wyjaśnianie, dopytywanie, wykrywanie błędów, generowanie praktyki
+5) Ocenianie:
+- dowód nauki bez AI (exit ticket lub mini-test)
+6) Zakończenie:
+- checklista weryfikacji (10 kroków).`,
     thumbnail: "",
   },
   {
     id: "edu-plan-044",
-    title: "Plan de clase con aprendizaje basado en datos: mini-dataset y conclusiones",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć z uczeniem opartym na danych: mini-dataset i wnioski",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Clase para analizar datos: preguntas, hipótesis, análisis y conclusiones responsables.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 75–90 min
+      "Zajęcia analizy danych: pytania, hipotezy, analiza i odpowiedzialne wnioski.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 75–90 min
 
-Incluye:
-1) Mini-dataset (inventado si no hay) con 12–20 filas y 4–6 variables (tabla en texto).
-2) Preguntas de investigación (5) sobre el dataset.
-3) Actividad:
-- limpieza básica
-- análisis (descriptivo, comparación, correlación simple si aplica)
-- visual sugerido (descrito)
-4) Guía de interpretación (qué se puede concluir y qué no).
-5) Evaluación:
-- reporte corto (estructura y rúbrica)
-- mini-quiz (10 preguntas) con respuestas.
-`,
+Uwzględnij:
+1) Mini-dataset (wymyślony, jeśli brak) z 12–20 wierszami i 4–6 zmiennymi (tabela w tekście).
+2) Pytania badawcze (5) dotyczące datasetu.
+3) Aktywność:
+- podstawowe czyszczenie
+- analiza (opisowa, porównanie, prosta korelacja jeśli dotyczy)
+- sugerowana wizualizacja (opisana)
+4) Przewodnik interpretacji (co można, a czego nie można wnioskować).
+5) Ocenianie:
+- krótki raport (struktura i rubryka)
+- mini-quiz (10 pytań) z odpowiedziami.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-045",
-    title: "Plan de clase ‘mundo real’: conecta el tema a 3 profesiones y 3 casos",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć ‘prawdziwy świat’: połącz temat z 3 zawodami i 3 case’ami",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Relevancia profesional: casos por profesión, actividades y evaluación aplicada.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60 min
+      "Relewancja zawodowa: case’y wg profesji, aktywności i ocenianie zastosowane.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60 min
 
-Crea:
-1) Introducción con relevancia:
-- 3 profesiones donde se usa
-- 3 casos reales (mini) por profesión
-2) Actividad central:
-- equipos eligen 1 profesión y resuelven 1 caso
-- plantilla de solución + criterios
-3) Presentación relámpago:
-- 2 min por equipo
-4) Evaluación:
-- rúbrica aplicada (precisión, razonamiento, comunicación, límites)
-- exit ticket: “cómo lo usarías tú en tu vida/trabajo”
-5) Cierre:
-- puente a siguiente tema (qué viene y por qué).`,
+Stwórz:
+1) Wprowadzenie z sensem:
+- 3 zawody, gdzie się to stosuje
+- 3 mini-case’y dla każdego zawodu
+2) Aktywność główna:
+- zespoły wybierają 1 zawód i rozwiązują 1 case
+- szablon rozwiązania + kryteria
+3) Prezentacja błyskawiczna:
+- 2 min na zespół
+4) Ocenianie:
+- rubryka aplikacyjna (precyzja, rozumowanie, komunikacja, ograniczenia)
+- exit ticket: “jak użył(a)byś tego w swoim życiu/pracy”
+5) Zakończenie:
+- most do kolejnego tematu (co dalej i dlaczego).`,
     thumbnail: "",
   },
 
   {
     id: "edu-plan-046",
-    title: "Plan de clase para intervención corta (30 min): mini-objetivo, práctica y evaluación",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan krótkiej interwencji (30 min): mini-cel, praktyka i ocena",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Clase corta súper eficiente: objetivo único, práctica concreta y evidencia al final.",
-    prompt: `Tema puntual: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 30 min
+      "Bardzo efektywne krótkie zajęcia: jeden cel, konkretna praktyka i dowód na końcu.",
+    prompt: `Punktowy temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 30 min
 
-Diseña:
-1) Objetivo único (medible).
-2) Agenda por minutos (0–30) con:
+Zaprojektuj:
+1) Jeden cel (mierzalny).
+2) Agenda minuta po minucie (0–30) z:
 - hook 2 min
-- explicación 8 min
-- práctica guiada 10 min
-- práctica rápida 7 min
-- evaluación 3 min
-3) 6 ejercicios de práctica (cortos) con respuestas.
-4) Ticket de salida (2 ítems) + clave.
-5) Nota docente: errores típicos y cómo corregirlos en 1 frase.`,
+- wyjaśnienie 8 min
+- praktyka prowadzona 10 min
+- szybka praktyka 7 min
+- ocena 3 min
+3) 6 krótkich ćwiczeń z odpowiedziami.
+4) Exit ticket (2 pozycje) + klucz.
+5) Notatka dla prowadzącego: typowe błędy i jak je poprawić w 1 zdaniu.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-047",
-    title: "Plan de clase ‘aprendizaje por comparación’: A vs B (modelos, teorías, métodos)",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć ‘uczenie przez porównanie’: A vs B (modele, teorie, metody)",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Enseña comparando dos enfoques: similitudes, diferencias, cuándo usar cada uno.",
-    prompt: `Enfoque A: [ ]
-Enfoque B: [ ]
-Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 60–75 min
+      "Uczy poprzez porównanie dwóch podejść: podobieństwa, różnice i kiedy użyć którego.",
+    prompt: `Podejście A: [ ]
+Podejście B: [ ]
+Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 60–75 min
 
-Crea:
-1) Tabla comparativa A vs B (inicial).
-2) Agenda por minutos:
-- explicación de A
-- explicación de B
-- comparación
-- actividad de elección de método con casos
-3) 6 casos:
-- para cada caso: cuál conviene y por qué (respuesta esperada)
-4) Evaluación:
-- 12 preguntas (MCQ) con respuestas y explicación
-5) Cierre:
-- árbol de decisión textual para elegir A vs B.`,
+Stwórz:
+1) Wstępną tabelę porównawczą A vs B.
+2) Agenda minuta po minucie:
+- wyjaśnienie A
+- wyjaśnienie B
+- porównanie
+- aktywność wyboru metody na podstawie case’ów
+3) 6 case’ów:
+- dla każdego: które podejście lepsze i dlaczego (oczekiwana odpowiedź)
+4) Ocenianie:
+- 12 pytań (MCQ) z odpowiedziami i wyjaśnieniem
+5) Zakończenie:
+- tekstowe drzewo decyzyjne wyboru A vs B.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-048",
-    title: "Plan de clase para enseñar vocabulario/terminología técnica (glosario vivo)",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć z terminologii technicznej (żywy glosariusz)",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Construye terminología: definiciones, ejemplos, usos correctos y quiz.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 50–60 min
+      "Buduje terminologię: definicje, przykłady, poprawne użycia i quiz.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 50–60 min
 
-Diseña:
-1) Lista de 15–25 términos clave (si no, proponlos).
-2) Actividad “glosario vivo”:
-- equipos crean definiciones + ejemplos + anti-ejemplos
-- revisión cruzada
-3) Guía docente para corregir definiciones sin imponer.
-4) Evaluación:
-- quiz de 20 preguntas (15 MCQ + 5 completar) con respuestas
-5) Cierre:
-- plantilla para seguir ampliando el glosario durante el curso.`,
+Zaprojektuj:
+1) Lista 15–25 kluczowych terminów (jeśli brak, zaproponuj).
+2) Aktywność “żywy glosariusz”:
+- zespoły tworzą definicje + przykłady + anty-przykłady
+- weryfikacja krzyżowa
+3) Przewodnik prowadzącego: jak korygować definicje bez narzucania.
+4) Ocenianie:
+- quiz 20 pytań (15 MCQ + 5 uzupełnianek) z odpowiedziami
+5) Zakończenie:
+- szablon dalszego rozbudowywania glosariusza przez kurs.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-049",
-    title: "Plan de clase para preparar presentaciones (orales) con práctica y rúbrica",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć przygotowujących do prezentacji ustnych z praktyką i rubryką",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Taller de presentaciones: estructura, story, slides, práctica, feedback y rúbrica.",
-    prompt: `Tema de presentaciones: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: 90 min
+      "Warsztat prezentacji: struktura, story, slajdy, praktyka, feedback i rubryka.",
+    prompt: `Temat prezentacji: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: 90 min
 
-Crea:
-1) Objetivos (5).
-2) Mini-lección:
-- estructura (hook→problema→idea→evidencia→cierre)
-- slides (reglas simples)
-3) Taller:
-- plantilla de guion (texto)
-- práctica en parejas (rondas)
-- checklist de feedback
-4) Rúbrica:
-- claridad, estructura, evidencia, voz, manejo del tiempo
-5) Banco de “preguntas difíciles” (10) y cómo responder sin divagar.
-6) Cierre:
-- plan de mejora individual 7 días.`,
+Stwórz:
+1) Cele (5).
+2) Mikro-lekcję:
+- struktura (hook→problem→idea→dowody→zamknięcie)
+- slajdy (proste zasady)
+3) Warsztat:
+- szablon scenariusza (tekst)
+- praktyka w parach (rundy)
+- checklista feedbacku
+4) Rubrykę:
+- klarowność, struktura, dowody, głos, zarządzanie czasem
+5) Bank “trudnych pytań” (10) i jak odpowiadać bez dygresji.
+6) Zakończenie:
+- 7-dniowy indywidualny plan poprawy.`,
     thumbnail: "",
   },
   {
     id: "edu-plan-050",
-    title: "Plan de clase ‘todo-terreno’: genera plan según tema y contexto (plantilla reutilizable)",
-    area: "Educación & Formación",
-    category: "Planes de Clase",
+    title: "Plan zajęć ‘uniwersalny’: generuj plan wg tematu i kontekstu (szablon wielokrotnego użytku)",
+    area: "Edukacja & Szkolenia",
+    category: "Plany Lekcji",
     summary:
-      "Plantilla universal para crear planes de clase consistentes y medibles en cualquier tema.",
-    prompt: `Tema: [ESCRIBE AQUÍ]
-Nivel: [ ]
-Duración: [ ]
-Contexto: [presencial/online/híbrido]
-Recursos: [ ]
-Objetivo del curso: [ ]
+      "Uniwersalny szablon do tworzenia spójnych, mierzalnych planów zajęć w dowolnym temacie.",
+    prompt: `Temat: [WPISZ TUTAJ]
+Poziom: [ ]
+Czas trwania: [ ]
+Kontekst: [stacjonarnie/online/hybrydowo]
+Zasoby: [ ]
+Cel kursu: [ ]
 
-Quiero una plantilla reutilizable LISTA para copiar/pegar que incluya:
-1) Objetivos (Bloom) + criterios de éxito.
-2) Activación de conocimientos previos (3 dinámicas).
-3) Instrucción directa (guion breve) + ejemplos.
-4) Práctica guiada + práctica independiente.
-5) Diferenciación (apoyos y extensiones).
-6) Evaluación formativa (mínimo 5 checks) + exit ticket.
-7) Tarea y seguimiento.
-8) Materiales listos:
-- hoja de trabajo
-- quiz (10 preguntas) con clave
-- rúbrica breve del producto/actividad
-9) Sección de “riesgos”:
-- 8 errores típicos y cómo responderlos en vivo.`,
+Chcę szablon wielokrotnego użytku GOTOWY do kopiuj-wklej, który zawiera:
+1) Cele (Bloom) + kryteria sukcesu.
+2) Aktywację wiedzy wstępnej (3 dynamiki).
+3) Instrukcję bezpośrednią (krótki scenariusz) + przykłady.
+4) Praktykę prowadzoną + praktykę samodzielną.
+5) Zróżnicowanie (wsparcia i rozszerzenia).
+6) Ocenę kształtującą (minimum 5 checkpointów) + exit ticket.
+7) Zadanie domowe i follow-up.
+8) Gotowe materiały:
+- karta pracy
+- quiz (10 pytań) z kluczem
+- krótka rubryka produktu/aktywności
+9) Sekcja “ryzyka”:
+- 8 typowych błędów i jak reagować na nie na żywo.`,
     thumbnail: "",
   },
 ];

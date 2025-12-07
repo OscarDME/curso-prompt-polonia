@@ -1,2031 +1,2028 @@
 export const textPromptsRedesReelsTikTok = [
   {
     id: "reel-tiktok-001",
-    title: "Reel educativo tipo ‘explicación experta’ en 45 segundos",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel edukacyjny typu „eksperckie wyjaśnienie” w 45 sekund",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Reel donde explicas un concepto complejo de forma simple, clara y visual utilizando estructura profesional.",
-    prompt: `Actúa como un guionista senior especializado en contenido vertical educativo.
+      "Reel, w którym wyjaśniasz złożone pojęcie w prosty, jasny i wizualny sposób, używając profesjonalnej struktury.",
+    prompt: `Zachowuj się jak senior scenarzysta specjalizujący się w edukacyjnym, pionowym contencie.
 
-Te daré:
-- Tema/concepto que quieres explicar.
-- Nivel de tu audiencia (principiante, intermedio, avanzado).
-- Estilo deseado (dinámico, serio, minimalista, storytelling).
+Podam Ci:
+- Temat/koncepcję, którą chcesz wyjaśnić.
+- Poziom Twojej publiczności (początkujący, średniozaawansowany, zaawansowany).
+- Pożądany styl (dynamiczny, poważny, minimalistyczny, storytelling).
 
-Genera:
+Wygeneruj:
 
-1) Estructura completa del reel (45 segundos):
-   - Hook de 2 segundos ultra disruptivo.
-   - Pregunta o afirmación de tensión.
-   - Explicación dividida en 3 pilares.
-   - Analogía simple para facilitar comprensión.
-   - Mini ejemplo práctico.
-   - CTA final orientado a guardado y compartido.
+1) Pełną strukturę reela (45 sekund):
+   - Ultra-dysrupcyjny hook 2-sekundowy.
+   - Pytanie lub stwierdzenie budujące napięcie.
+   - Wyjaśnienie podzielone na 3 filary.
+   - Prosta analogia ułatwiająca zrozumienie.
+   - Mini praktyczny przykład.
+   - Końcowe CTA nastawione na zapisywanie i udostępnianie.
 
-2) Formato visual recomendado:
-   - Gestos.
-   - Movimientos de cámara.
-   - Elementos visuales sugeridos.
-   - Ritmo y pausas narrativas.
+2) Rekomendowany format wizualny:
+   - Gesty.
+   - Ruchy kamery.
+   - Sugerowane elementy wizualne.
+   - Tempo i pauzy narracyjne.
 
-3) Escribe el guion palabra por palabra.
+3) Napisz scenariusz słowo w słowo.
 
-4) Versión PRO:
-   - Variante de 30 segundos.
-   - Variante “sin aparecer en cámara”.
-   - Variante “solo con texto y B-Roll”.
+4) Wersja PRO:
+   - Wariant 30-sekundowy.
+   - Wariant „bez pojawiania się w kamerze”.
+   - Wariant „tylko tekst i B-Roll”.
 
-5) Errores comunes al explicar temas complejos y cómo evitarlos.`,
+5) Typowe błędy przy wyjaśnianiu złożonych tematów i jak ich unikać.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-002",
-    title: "Reel estilo ‘3 errores que te están frenando’",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel w stylu „3 błędy, które Cię blokują”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Reel de lista rápida para destacar errores comunes y posicionarte como autoridad.",
-    prompt: `Actúa como estratega de contenido vertical enfocado en viralidad.
+      "Reel w formie szybkiej listy, by wyróżnić typowe błędy i pozycjonować się jako autorytet.",
+    prompt: `Zachowuj się jak strateg pionowego contentu nastawionego na viralowość.
 
-Te daré:
-- Tema principal.
-- Público objetivo.
-- Errores típicos que cometen.
+Podam Ci:
+- Główny temat.
+- Grupę docelową.
+- Typowe błędy, które popełniają.
 
-Genera:
+Wygeneruj:
 
-1) Estructura:
-   - Hook directo: “Si no estás logrando [X], es por esto”.
-   - Listado de 3 errores (con ejemplos visuales).
-   - Micro solución para cada error.
-   - Cierre aspiracional de autoridad.
+1) Strukturę:
+   - Bezpośredni hook: „Jeśli nie osiągasz [X], to przez to”.
+   - Lista 3 błędów (z wizualnymi przykładami).
+   - Mikro-rozwiązanie dla każdego błędu.
+   - Aspiracyjne domknięcie w tonie autorytetu.
 
-2) Formato dinámico:
-   - Cambios de plano.
-   - Señalamientos en pantalla.
-   - Sonido sugerido.
-   - Ritmo por segundo.
+2) Dynamiczny format:
+   - Zmiany ujęć.
+   - Wskazania na ekranie.
+   - Sugerowany dźwięk.
+   - Tempo sekundowe.
 
-3) Guion completo palabra por palabra.
+3) Pełny scenariusz słowo w słowo.
 
-4) Versión PRO:
-   - 3 variaciones del mismo reel con distinto tono narrativo.
-   - Variación “con humor estratégico”.
-   - Variación “solo texto”.
+4) Wersja PRO:
+   - 3 warianty tego samego reela z innym tonem narracyjnym.
+   - Wariant „ze strategicznym humorem”.
+   - Wariant „tylko tekst”.
 
-5) Errores al crear reels tipo lista.`,
+5) Błędy przy tworzeniu reelsów typu lista.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-003",
-    title: "Reel ‘antes/después’ con storytelling emocional",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel „przed/po” ze storytellingiem emocjonalnym",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Reel basado en transformación emocional y visual, ideal para testimonios o cambios personales/profesionales.",
-    prompt: `Actúa como guionista experto en storytelling emocional para contenido vertical.
+      "Reel oparty o emocjonalną i wizualną transformację, idealny do testimoniali lub zmian osobistych/profesionalnych.",
+    prompt: `Zachowuj się jak scenarzysta–ekspert od emocjonalnego storytellingu w pionowym contencie.
 
 Inputs:
-- Transformación a mostrar.
-- Emoción principal del antes.
-- Emoción final del después.
+- Transformacja do pokazania.
+- Główna emocja „przed”.
+- Końcowa emocja „po”.
 
-Genera:
+Wygeneruj:
 
-1) Script de 3 actos:
-   - Antes: caos, frustración, bloqueo.
-   - Punto de giro: descubrimiento, realizaciones.
-   - Después: claridad, logro, seguridad.
+1) Scenariusz w 3 aktach:
+   - Przed: chaos, frustracja, blokada.
+   - Punkt zwrotny: odkrycie, uświadomienie.
+   - Po: klarowność, osiągnięcie, pewność.
 
-2) Indicaciones visuales:
-   - Estética del caos vs claridad.
-   - Cambios en iluminación.
-   - Expresiones faciales.
-   - Proporciones de tiempo entre acts (40/20/40).
+2) Wskazówki wizualne:
+   - Estetyka chaosu vs klarowności.
+   - Zmiany w oświetleniu.
+   - Mimika twarzy.
+   - Proporcje czasu między aktami (40/20/40).
 
-3) Escribe el guion palabra por palabra.
+3) Napisz scenariusz słowo w słowo.
 
-4) Versión PRO:
-   - Variante minimalista sin aparecer en cámara.
-   - Variante con testimonios reales.
-   - Variante tipo documental.
+4) Wersja PRO:
+   - Minimalistyczny wariant bez pojawiania się w kamerze.
+   - Wariant z prawdziwymi testimonialami.
+   - Wariant typu dokument.
 
-5) Lista de errores al filmar antes/después.`,
+5) Lista błędów przy kręceniu „przed/po”.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-004",
-    title: "Reel estilo ‘Hook agresivo + insight potente’",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel w stylu „agresywny hook + mocny insight”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Reel directo y contundente pensado para retención y alto impacto en los primeros 2 segundos.",
-    prompt: `Actúa como experto en hooks virales.
+      "Bezpośredni i konkretny reel stworzony pod retencję i wysoki wpływ w pierwszych 2 sekundach.",
+    prompt: `Zachowuj się jak ekspert od viralowych hooków.
 
 Inputs:
-- Insight principal.
-- Tema a impactar.
+- Główny insight.
+- Temat do uderzenia.
 
-Genera:
+Wygeneruj:
 
-1) 10 hooks agresivos basados en:
-   - Contradicción.
-   - Opinión fuerte.
-   - Error común.
-   - Promesa aspiracional.
-   - Revelación inesperada.
+1) 10 agresywnych hooków opartych na:
+   - Sprzeczności.
+   - Mocnej opinii.
+   - Typowym błędzie.
+   - Aspiracyjnej obietnicy.
+   - Nieoczekiwanym odsłonięciu.
 
-2) Guion del reel de 20 segundos:
+2) Scenariusz reela 20-sekundowego:
    - Hook.
-   - Explicación rápida de insight.
-   - Micro caso real.
-   - Cierre contundente.
+   - Szybkie wyjaśnienie insightu.
+   - Mikro realny case.
+   - Mocne domknięcie.
 
-3) Formato visual:
-   - Cámara muy cerca.
-   - Movimiento mínimo.
-   - Palabras clave en pantalla.
+3) Format wizualny:
+   - Kamera bardzo blisko.
+   - Minimalny ruch.
+   - Słowa kluczowe na ekranie.
 
-4) Versión PRO:
-   - 10 alternativas de hooks para test A/B.
-   - Variante para TikTok y variante para Reels.
+4) Wersja PRO:
+   - 10 alternatyw hooków do testów A/B.
+   - Wariant dla TikToka i wariant dla Reels.
 
-5) Errores al crear hooks agresivos.`,
+5) Błędy przy tworzeniu agresywnych hooków.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-005",
-    title: "Reel tipo ‘mitos falsos que debes dejar de creer’",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel typu „fałszywe mity, w które musisz przestać wierzyć”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Desnuda mitos comunes de tu industria con ritmo dinámico y autoridad.",
-    prompt: `Actúa como creador experto en contenido educacional de alto impacto.
+      "Obnaż typowe mity w branży z dynamicznym tempem i autorytetem.",
+    prompt: `Zachowuj się jak ekspert–twórca edukacyjnego contentu o wysokim wpływie.
 
 Inputs:
-- 3 mitos de tu nicho.
-- Público objetivo.
-- Resultado deseado.
+- 3 mity z Twojej niszy.
+- Grupa docelowa.
+- Pożądany rezultat.
 
-Genera:
+Wygeneruj:
 
-1) Guion completo:
-   - Hook tipo “Si aún crees esto, te están frenando”.
-   - Mito 1 → Explicación → reframe.
-   - Mito 2 → Explicación → reframe.
-   - Mito 3 → Explicación → reframe.
-   - CTA para autoridad.
+1) Pełny scenariusz:
+   - Hook typu „Jeśli wciąż w to wierzysz, to Cię blokuje”.
+   - Mit 1 → wyjaśnienie → reframe.
+   - Mit 2 → wyjaśnienie → reframe.
+   - Mit 3 → wyjaśnienie → reframe.
+   - CTA pod autorytet.
 
-2) Formato visual:
-   - Apuntes tipo “pizarra”.
-   - Señalamientos.
-   - Cortes rápidos.
+2) Format wizualny:
+   - Notatki jak „na tablicy”.
+   - Wskazywanie.
+   - Szybkie cięcia.
 
-3) Versión PRO:
-   - 3 variaciones de mitos.
-   - Guion para convertirlo en carrusel.
+3) Wersja PRO:
+   - 3 wariacje mitów.
+   - Scenariusz, by przerobić to na karuzelę.
 
-4) Lista de errores en contenido de mitos.`,
+4) Lista błędów w contencie o mitach.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-006",
-    title: "Reel estilo POV profesional",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel w stylu profesjonalnego POV",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Reel POV donde narras tu experiencia interna como experto en tu industria.",
-    prompt: `Actúa como experto en narrativas POV profesionales.
+      "POV reel, w którym opowiadasz o swoim wewnętrznym doświadczeniu jako ekspert w branży.",
+    prompt: `Zachowuj się jak ekspert od profesjonalnych narracji POV.
 
 Inputs:
-- Rol profesional.
-- Situación típica.
-- Resultado final positivo o negativo.
+- Rola zawodowa.
+- Typowa sytuacja.
+- Końcowy rezultat pozytywny lub negatywny.
 
-Genera:
+Wygeneruj:
 
-1) Guion POV:
-   - Voz interna del profesional.
-   - Emociones del momento.
-   - Dilema.
-   - Resolución.
+1) Scenariusz POV:
+   - Wewnętrzny głos profesjonalisty.
+   - Emocje w danym momencie.
+   - Dylemat.
+   - Rozwiązanie.
 
-2) Estilo visual POV:
-   - Encuadre.
-   - Manos en escena.
-   - Props.
+2) Wizualny styl POV:
+   - Kadr.
+   - Dłonie w kadrze.
+   - Rekwizyty.
 
-3) Versión PRO:
-   - 5 variaciones de POV.
-   - POV humorístico.
-   - POV serio.
+3) Wersja PRO:
+   - 5 wariantów POV.
+   - POV humorystyczne.
+   - POV poważne.
 
-4) Errores al grabar POVs.`,
+4) Błędy przy nagrywaniu POV.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-007",
-    title: "Reel estilo ‘Destruyendo objeciones en 20 segundos’",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel w stylu „rozbijanie obiekcji w 20 sekund”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Reel ultra contundente para derribar objeciones de manera ágil, clara y convincente.",
-    prompt: `Actúa como consultor en psicología del cliente.
+      "Ultra konkretny reel do obalania obiekcji w szybki, jasny i przekonujący sposób.",
+    prompt: `Zachowuj się jak konsultant psychologii klienta.
 
 Inputs:
-- Objeción principal.
-- Producto/servicio.
-- Tipo de cliente.
+- Główna obiekcja.
+- Produkt/usługa.
+- Typ klienta.
 
-Genera:
+Wygeneruj:
 
-1) Mini estructura:
-   - Objeción dicha en voz alta.
-   - Reframe emocional.
-   - Micro evidencia.
-   - Contraargumento lógico.
-   - CTA suave.
+1) Mini strukturę:
+   - Obiekcja wypowiedziana na głos.
+   - Emocjonalny reframe.
+   - Mikro dowód.
+   - Logiczny kontrargument.
+   - Delikatne CTA.
 
-2) 3 variaciones de guion.
+2) 3 warianty scenariusza.
 
-3) Tips de delivery:
-   - Ritmo.
-   - Tono.
-   - Enfoque de cámara.
+3) Tipy dot. delivery:
+   - Tempo.
+   - Ton.
+   - Ustawienie kamery.
 
-4) Versión PRO:
-   - 5 objeciones adicionales.
-   - Guion para TikTok Ads.
+4) Wersja PRO:
+   - 5 dodatkowych obiekcji.
+   - Scenariusz do TikTok Ads.
 
-5) Errores al derribar objeciones.`,
+5) Błędy przy obalaniu obiekcji.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-008",
-    title: "Reel ‘mini tutorial práctico’ de 30 segundos",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel „mini praktyczny tutorial” w 30 sekund",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Mini tutorial directo, claro y práctico que enseña un método útil en 3 pasos.",
-    prompt: `Actúa como experto en didáctica audiovisual.
+      "Mini tutorial: prosty, jasny i praktyczny, uczy użytecznej metody w 3 krokach.",
+    prompt: `Zachowuj się jak ekspert dydaktyki audiowizualnej.
 
 Inputs:
-- Tarea que quieres enseñar.
-- Nivel del usuario.
-- Resultado deseado.
+- Zadanie, którego chcesz nauczyć.
+- Poziom użytkownika.
+- Pożądany rezultat.
 
-Genera:
+Wygeneruj:
 
-1) Guion educativo:
-   - Hook claro.
-   - Paso 1 sencillo.
-   - Paso 2 aplicable.
-   - Paso 3 final.
-   - CTA de guardado.
+1) Scenariusz edukacyjny:
+   - Jasny hook.
+   - Krok 1 prosty.
+   - Krok 2 do wdrożenia.
+   - Krok 3 finał.
+   - CTA do zapisania.
 
-2) Indicaciones visuales para cada paso.
+2) Wskazówki wizualne do każdego kroku.
 
-3) Versión PRO:
-   - Formato sin tu cara.
-   - Formato con pantalla dividida.
-   - Formato con sobreimpresión de texto.
+3) Wersja PRO:
+   - Format bez Twojej twarzy.
+   - Format z podzielonym ekranem.
+   - Format z nałożonym tekstem.
 
-4) Lista de errores en mini tutoriales.`,
+4) Lista błędów w mini tutorialach.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-009",
-    title: "Reel ‘simulación de conversación’ (A vs B)",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel „symulacja rozmowy” (A vs B)",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Reel donde representas dos personajes para mostrar contraste entre mentalidades o escenarios.",
-    prompt: `Actúa como guionista de contenido humorístico inteligente.
+      "Reel, w którym odgrywasz dwie postacie, by pokazać kontrast mentalności lub scenariuszy.",
+    prompt: `Zachowuj się jak scenarzysta inteligentnego humorystycznego kontentu.
 
 Inputs:
-- Tema.
-- Mentalidad A vs B.
-- Resultado deseado.
+- Temat.
+- Mentalność A vs B.
+- Pożądany rezultat.
 
-Genera:
+Wygeneruj:
 
-1) Script con:
-   - Alternancia entre personajes.
-   - Tono conversacional.
-   - 3 contrastes claros.
-   - Remate final.
+1) Scenariusz z:
+   - Naprzemiennością postaci.
+   - Konwersacyjnym tonem.
+   - 3 wyraźnymi kontrastami.
+   - Końcową puentą.
 
-2) Ideas visuales para personajes:
-   - Props.
-   - Cambios de ángulo.
-   - Diferencias de tono.
+2) Pomysły wizualne dla postaci:
+   - Rekwizyty.
+   - Zmiany kąta.
+   - Różnice w tonie.
 
-3) Versión PRO:
-   - 5 ideas de duelos mentales.
-   - Variante estilo “zoom absoluto”.
+3) Wersja PRO:
+   - 5 pomysłów na mentalne pojedynki.
+   - Wariant w stylu „absolutny zoom”.
 
-4) Errores comunes en reels de conversación.`,
+4) Typowe błędy w reelsach rozmowach.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-010",
-    title: "Reel ‘storytime personal’ con giro inesperado",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Crea un storytime narrativo donde el giro final cambia todo.",
-    prompt: `Actúa como storyteller profesional.
+    title: "Reel „osobisty storytime” z nieoczekiwanym twistem",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Stwórz narracyjny storytime, w którym finałowy zwrot zmienia wszystko.",
+    prompt: `Zachowuj się jak profesjonalny storyteller.
 
 Inputs:
-- Historia real.
-- Aprendizaje.
-- Giro final.
+- Prawdziwa historia.
+- Wniosek/nauka.
+- Finałowy zwrot.
 
-Genera:
+Wygeneruj:
 
-1) Storytime estructurado:
-   - Apertura misteriosa.
-   - Build-up emocional.
-   - Giro inesperado.
-   - Lección final.
+1) Ustrukturyzowany storytime:
+   - Tajemnicze otwarcie.
+   - Emocjonalny build-up.
+   - Nieoczekiwany zwrot.
+   - Końcowa lekcja.
 
-2) Indicaciones visuales:
-   - Planos.
-   - Ritmo narrativo.
-   - Cortes.
+2) Wskazówki wizualne:
+   - Ujęcia.
+   - Tempo narracji.
+   - Cięcia.
 
-3) Versión PRO:
-   - 3 variaciones del giro.
-   - 3 tonos (emocional, humor, polémico).
+3) Wersja PRO:
+   - 3 warianty zwrotu.
+   - 3 tony (emocjonalny, humor, kontrowersyjny).
 
-4) Errores comunes al hacer storytime.`,
+4) Typowe błędy при robieniu storytime.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-011",
-    title: "Reel tipo ‘Checklist visual’ para ganar autoridad inmediata",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel typu „wizualna checklista” do natychmiastowego budowania autorytetu",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Reel visual donde presentas un checklist profesional altamente guardable.",
-    prompt: `Actúa como diseñador de contenido visual educativo.
+      "Wizualny reel, w którym prezentujesz profesjonalną checklistę o wysokim potencjale zapisu.",
+    prompt: `Zachowuj się jak projektant edukacyjnego contentu wizualnego.
 
 Inputs:
-- Tema del checklist.
-- Nivel del usuario.
+- Temat checklisty.
+- Poziom użytkownika.
 
-Genera:
+Wygeneruj:
 
-1) 7 items claros con:
-   - Explicación corta.
-   - Beneficio directo.
+1) 7 jasnych пунктów z:
+   - Krótkim wyjaśnieniem.
+   - Bezpośrednią korzyścią.
 
-2) Montaje visual:
-   - Iconos.
-   - Señalamientos.
-   - Cámara estática.
+2) Montaż wizualny:
+   - Ikony.
+   - Wskazania.
+   - Statyczna kamera.
 
-3) Versión PRO:
-   - Template de checklist.
-   - Variación para TikTok.
+3) Wersja PRO:
+   - Szablon checklisty.
+   - Wariant na TikTok.
 
-4) Errores al hacer checklists.`,
+4) Błędy przy robieniu checklist.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-012",
-    title: "Reel ‘te cuento el secreto que nadie te dice’ (Insight oculto)",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel „powiem Ci sekret, którego nikt Ci nie mówi” (ukryty insight)",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Reel revelador basado en un insight que tu sector no comparte abiertamente.",
-    prompt: `Actúa como creador experto en contenido disruptivo.
+      "Reel-objawienie oparty na insightcie, którym branża nie dzieli się otwarcie.",
+    prompt: `Zachowuj się jak ekspert od dysrupcyjnego contentu.
 
 Inputs:
-- Insight desconocido.
-- Impacto.
+- Nieznany insight.
+- Wpływ.
 
-Genera:
-1) Hook revelador.
-2) Explicación emocional.
-3) Ejemplo práctico.
+Wygeneruj:
+1) Hook ujawniający.
+2) Emocjonalne wyjaśnienie.
+3) Praktyczny przykład.
 4) CTA.
-5) Versión PRO: 5 insights ocultos más.`,
+5) Wersja PRO: jeszcze 5 ukrytych insightów.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-013",
-    title: "Reel estilo ‘plantilla para copiar y pegar’",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel w stylu „szablon do skopiowania i wklejenia”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Crea una plantilla textual para que tu audiencia la use de inmediato.",
-    prompt: `Actúa como creador de frameworks.
+      "Stwórz tekstowy szablon, którego Twoja publiczność użyje natychmiast.",
+    prompt: `Zachowuj się jak twórca frameworków.
 
 Inputs:
-- Tipo de plantilla (mensaje, email, frase, copy).
+- Typ szablonu (wiadomość, email, fraza, copy).
 
-Genera:
-1) Plantilla principal editable.
-2) 3 ejemplos usando la plantilla.
-3) Versión PRO: 5 plantillas alternativas.`,
+Wygeneruj:
+1) Główny edytowalny szablon.
+2) 3 przykłady użycia szablonu.
+3) Wersja PRO: 5 alternatywnych szablonów.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-014",
-    title: "Reel estilo ‘si yo empezara desde cero hoy’",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel w stylu „gdybym dziś zaczynał od zera”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Reel aspiracional donde cuentas tu estrategia si iniciaras desde cero.",
-    prompt: `Actúa como mentor experto.
+      "Aspiracyjny reel, w którym opowiadasz strategię, jaką przyjąłbyś startując od zera.",
+    prompt: `Zachowuj się jak mentor–ekspert.
 
-Genera:
-1) Hook aspiracional.
-2) 5 pasos estratégicos.
-3) Caso personal.
+Wygeneruj:
+1) Aspiracyjny hook.
+2) 5 strategicznych kroków.
+3) Osobisty case.
 4) CTA.
-5) Versión PRO con roadmap.`,
+5) Wersja PRO z roadmapą.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-015",
-    title: "Reel comparativo ‘esto vs esto’ (contraste rápido)",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Comparación visual entre dos maneras de hacer algo.",
-    prompt: `Actúa como estratega de contraste.
+    title: "Reel porównawczy „to vs to” (szybki kontrast)",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wizualne porównanie dwóch sposobów zrobienia czegoś.",
+    prompt: `Zachowuj się jak strateg kontrastu.
 
-Genera:
-1) 5 comparaciones.
-2) Guion.
-3) Visuales.
-4) PRO variaciones.`,
+Wygeneruj:
+1) 5 porównań.
+2) Scenariusz.
+3) Wizualizacje.
+4) Warianty PRO.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-016",
-    title: "Reel estilo ‘guía rápida en 5 pasos’",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Mini guía hiperestructurada.",
-    prompt: `Genera:
-1) Pasos claros.
-2) Guion.
-3) Visuales.
-4) PRO: 3 guías alternativas.`,
+    title: "Reel w stylu „szybki przewodnik w 5 krokach”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Mini przewodnik hiper-ustrukturyzowany.",
+    prompt: `Wygeneruj:
+1) Jasne kroki.
+2) Scenariusz.
+3) Wizualizacje.
+4) PRO: 3 alternatywne przewodniki.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-017",
-    title: "Reel tipo ‘preguntas que cambian tu perspectiva’",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Reel reflexivo con preguntas potentes.",
-    prompt: `Genera:
-1) 7 preguntas potentes.
-2) Guion narrativo.
-3) Visuales.
+    title: "Reel typu „pytania, które zmieniają perspektywę”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Refleksyjny reel z mocnymi pytaniami.",
+    prompt: `Wygeneruj:
+1) 7 mocnych pytań.
+2) Narracyjny scenariusz.
+3) Wizualizacje.
 4) PRO insights.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-018",
-    title: "Reel estilo ‘frases potentes para reflexionar’",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Frases tipo mantra que generan engagement de guardado.",
-    prompt: `Genera:
-1) 10 frases potentes.
+    title: "Reel w stylu „mocne frazy do refleksji”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Frazy jak mantra, które generują zapisy i engagement.",
+    prompt: `Wygeneruj:
+1) 10 mocnych fraz.
 2) Visual style.
-3) PRO: variaciones.`,
+3) PRO: wariacje.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-019",
-    title: "Reel tipo ‘cómo lo hago yo realmente’ (behind the scenes realista)",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "BTS realista con autoridad.",
-    prompt: `Genera:
-1) Secuencia BTS.
-2) Guion natural.
-3) PRO variaciones.`,
+    title: "Reel typu „jak ja to naprawdę robię” (realistyczne behind the scenes)",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Realistyczny BTS z autorytetem.",
+    prompt: `Wygeneruj:
+1) Sekwencję BTS.
+2) Naturalny scenariusz.
+3) Warianty PRO.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-020",
-    title: "Reel estilo ‘rompiendo una creencia en vivo’",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Crea un reel donde destruyes una creencia limitante.",
-    prompt: `Genera:
-1) creencia,
-2) ruptura emocional,
-3) evidencia,
-4) ejemplo,
-5) PRO: 5 creencias adicionales.`,
+    title: "Reel w stylu „łamanie przekonania na żywo”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Stwórz reel, w którym niszczysz ograniczające przekonanie.",
+    prompt: `Wygeneruj:
+1) przekonanie,
+2) emocjonalne przełamanie,
+3) dowód,
+4) przykład,
+5) PRO: 5 dodatkowych przekonań.`,
     thumbnail: "",
   },
   {
     id: "reel-tiktok-021",
-    title: "Reel estilo 'Green Screen' explicando una tendencia del momento",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel w stylu „Green Screen” wyjaśniający trend z chwili",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Reel donde apareces frente a un fondo explicando una tendencia, noticia o concepto viral usando pantalla verde.",
-    prompt: `Actúa como creador de contenido experto en tendencias.
+      "Reel, w którym występujesz na tle i wyjaśniasz trend, news lub viralowe pojęcie używając green screena.",
+    prompt: `Zachowuj się jak ekspert–twórca contentu trendowego.
 
 Inputs:
-- Tema viral del momento.
-- Público al que quieres explicarlo.
-- Emoción que quieres despertar (humor, alerta, curiosidad).
+- Viralowy temat z chwili.
+- Publiczność, której chcesz to wyjaśnić.
+- Emocja, którą chcesz wzbudzić (humor, alarm, ciekawość).
 
-Genera:
+Wygeneruj:
 
-1) Estructura del reel:
-   - Hook tipo “Esto está explotando ahora mismo, te explico en 20s”.
-   - Narrativa sencilla pero poderosa.
-   - Analogía visual usando fondo Green Screen.
-   - Remate final con opinión profesional.
+1) Strukturę reela:
+   - Hook typu “To teraz wybucha, tłumaczę w 20s”.
+   - Prosta, ale mocna narracja.
+   - Wizualna analogia z użyciem tła green screen.
+   - Finał z profesjonalną opinią.
 
-2) Estilo visual:
-   - Uso del green screen frontal.
-   - Subtítulos dinámicos.
-   - Zoom-in rápido cada 3–4 segundos.
-   - Señalamientos exactos hacia el fondo.
+2) Styl wizualny:
+   - Użycie frontalnego green screena.
+   - Dynamiczne napisy.
+   - Szybki zoom-in co 3–4 sekundy.
+   - Dokładne wskazywanie na tło.
 
-3) Guion completo palabra por palabra.
+3) Pełny scenariusz słowo w słowo.
 
-4) Versión PRO:
-   - 3 variaciones con diferente tono (divertido, serio, polémico).
-   - Idea alternativa sin aparecer en cámara.
-   - Cómo adaptar este formato a Reels vs TikTok.
+4) Wersja PRO:
+   - 3 warianty z innym tonem (zabawny, poważny, kontrowersyjny).
+   - Alternatywa bez pojawiania się w kamerze.
+   - Jak dopasować format do Reels vs TikTok.
 
-5) Errores comunes al usar Green Screen.`,
+5) Typowe błędy przy używaniu Green Screen.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-022",
-    title: "Reel tipo 'CapCut Template Trend' adaptado a tu nicho",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel typu „CapCut Template Trend” dopasowany do Twojej niszy",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Transforma una plantilla viral de CapCut en un contenido educativo o aspiracional.",
-    prompt: `Actúa como experto en adaptaciones virales.
+      "Zamień viralowy szablon CapCut w content edukacyjny lub aspiracyjny.",
+    prompt: `Zachowuj się jak ekspert od viralowych adaptacji.
 
 Inputs:
-- Plantilla CapCut a replicar.
-- Mensaje que quieres comunicar.
-- Nivel de tu audiencia.
+- Szablon CapCut do odtworzenia.
+- Przekaz, który chcesz komunikować.
+- Poziom Twojej publiczności.
 
-Genera:
+Wygeneruj:
 
-1) Análisis de la plantilla:
-   - Ritmo.
-   - Tiempos de corte.
-   - Estética.
-   - Intención.
+1) Analizę szablonu:
+   - Tempo.
+   - Czasy cięć.
+   - Estetyka.
+   - Intencja.
 
-2) Adaptación temática al nicho:
-   - Cómo convertir la tendencia en enseñanza.
-   - Cómo añadir valor sin matar la vibra trendy.
+2) Tematyczną adaptację do niszy:
+   - Jak zamienić trend w naukę.
+   - Jak dodać wartość, nie zabijając trendy vibe’u.
 
-3) Guion + instrucciones visuales:
-   - Qué clips usar.
-   - Qué texto sobreponer.
-   - Cómo sincronizar con el sonido.
+3) Scenariusz + instrukcje wizualne:
+   - Jakich klipów użyć.
+   - Jaki tekst nałożyć.
+   - Jak zsynchronizować z dźwiękiem.
 
-4) Versión PRO:
-   - 3 plantillas virales extra para testear.
-   - Variación humorística.
-   - Variación “profesional/experta”.
+4) Wersja PRO:
+   - 3 dodatkowe viralowe szablony do testów.
+   - Wariant humorystyczny.
+   - Wariant „profesjonalny/ekspercki”.
 
-5) Errores que matan el engagement en trends de CapCut.`,
+5) Błędy, które zabijają engagement w trendach CapCut.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-023",
-    title: "Reel estilo 'voy a ser brutalmente honesto contigo…'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel w stylu „będę z Tobą brutalnie szczery…”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Formato viral basado en honestidad directa + microrevelación emocional.",
-    prompt: `Actúa como guionista de contenido confrontativo positivo.
+      "Viralowy format oparty na bezpośredniej szczerości + mikro-ujawnieniu emocjonalnym.",
+    prompt: `Zachowuj się jak scenarzysta pozytywnej konfrontacji.
 
 Inputs:
-- Tema donde quieres ser honesto.
-- Dolor real de tu audiencia.
-- Resultado que quieres provocar.
+- Temat, w którym chcesz być szczery.
+- Prawdziwy ból Twojej publiczności.
+- Efekt, który chcesz wywołać.
 
-Genera:
+Wygeneruj:
 
-1) Guion estilo honestidad cruda:
-   - Hook impactante: “Voy a ser brutalmente honesto contigo…”
-   - Exposición de realidad dura.
-   - Reframe empoderador.
+1) Scenariusz w stylu surowej szczerości:
+   - Hook: “Będę z Tobą brutalnie szczery…”
+   - Ekspozycja twardej prawdy.
+   - Wzmacniający reframe.
    - Mini historia.
-   - CTA emocional.
+   - Emocjonalne CTA.
 
-2) Estilo visual:
-   - Plano cerrado.
-   - Luz suave lateral.
-   - Ritmo lento e íntimo.
+2) Styl wizualny:
+   - Zbliżenie.
+   - Miękkie boczne światło.
+   - Wolne, intymne tempo.
 
-3) Versión PRO:
-   - 3 guiones alternativos.
-   - Variación estilo motivacional TikTok.
-   - Variación estilo ASMR visual.
+3) Wersja PRO:
+   - 3 alternatywne scenariusze.
+   - Wariant motywacyjny TikTok.
+   - Wariant w stylu wizualnego ASMR.
 
-4) Errores al usar honestidad cruda.`,
+4) Błędy przy używaniu surowej szczerości.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-024",
-    title: "Reel tipo 'esto es lo que haría si tuviera que lograr X en 7 días'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel typu „to bym zrobił, gdybym musiał osiągnąć X w 7 dni”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Reel estratégico que simula un plan de acción de 7 días ultra detallado.",
-    prompt: `Actúa como mentor estratégico.
+      "Strategiczny reel symulujący ultra szczegółowy 7-dniowy plan działania.",
+    prompt: `Zachowuj się jak strategiczny mentor.
 
 Inputs:
-- Meta específica.
-- Tipo de persona que la quiere lograr.
-- Nivel de dificultad.
+- Konkretny cel.
+- Typ osoby, która chce go osiągnąć.
+- Poziom trudności.
 
-Genera:
+Wygeneruj:
 
-1) Estructura:
-   - Hook: “Si tuviera que lograr [X] en solo 7 días, haría esto…”
-   - Día 1 → Preparación.
-   - Día 2 → Acción inicial.
-   - Día 3 → Optimización.
-   - Día 4 → Input externo.
-   - Día 5 → Intensificación.
-   - Día 6 → Ajuste fino.
-   - Día 7 → Resultado + medición.
+1) Strukturę:
+   - Hook: “Gdybym musiał osiągnąć [X] w zaledwie 7 dni, zrobiłbym to…”
+   - Dzień 1 → przygotowanie.
+   - Dzień 2 → pierwsze działania.
+   - Dzień 3 → optymalizacja.
+   - Dzień 4 → zewnętrzny input.
+   - Dzień 5 → intensyfikacja.
+   - Dzień 6 → dopracowanie.
+   - Dzień 7 → wynik + pomiar.
 
-2) Guion palabra por palabra.
+2) Scenariusz słowo w słowo.
 
-3) Estilo visual:
-   - Pantalla dividida.
-   - Títulos grandes.
-   - B-roll relacionado.
+3) Styl wizualny:
+   - Podzielony ekran.
+   - Duże tytuły.
+   - Powiązany B-roll.
 
-4) Versión PRO:
-   - Variante de 3 días.
-   - Variante de 14 días.
-   - Variante estilo reto público.
+4) Wersja PRO:
+   - Wariant 3-dniowy.
+   - Wariant 14-dniowy.
+   - Wariant w stylu publicznego wyzwania.
 
-5) Errores al crear planes de 7 días.`,
+5) Błędy przy tworzeniu 7-dniowych planów.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-025",
-    title: "Reel estilo ‘Trend de baile + dato educativo oculto’",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Combina un baile trendy con un dato experto super valioso.",
-    prompt: `Actúa como creador híbrido baile + educación.
+    title: "Reel w stylu „trend z tańcem + ukryta edukacyjna bomba”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Połącz modny taniec z super wartościowym eksperckim faktem.",
+    prompt: `Zachowuj się jak hybrydowy twórca: taniec + edukacja.
 
 Inputs:
-- Trend de baile elegida.
-- Dato clave que quieres comunicar.
-- Nivel de humor deseado.
+- Wybrany trend taneczny.
+- Kluczowy fakt, który chcesz przekazać.
+- Pożądany poziom humoru.
 
-Genera:
+Wygeneruj:
 
-1) Estructura:
-   - Baile básico.
-   - Texto flotante que educa.
-   - Momento clave para el “dato bomba”.
+1) Strukturę:
+   - Prosty taniec.
+   - „Pływający” tekst edukacyjny.
+   - Kluczowy moment na „bombę faktu”.
 
-2) Guion + indicaciones coreográficas.
+2) Scenariusz + wskazówki choreograficzne.
 
-3) Versión PRO:
-   - 3 variaciones.
-   - Versión sin baile (ritmo corporal).
-   - Cómo hacerlo sin aparecer en cámara.
+3) Wersja PRO:
+   - 3 warianty.
+   - Wersja bez tańca (rytm ciała).
+   - Jak zrobić to bez pojawiania się w kamerze.
 
-4) Errores al mezclar baile con educación.`,
+4) Błędy przy łączeniu tańca z edukacją.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-026",
-    title: "Reel estilo 'ASMR productivo' (ultra viral aesthetic)",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Reel silencioso con sonidos sutiles y estética minimalista.",
-    prompt: `Actúa como director creativo estilo ASMR aesthetic.
+    title: "Reel w stylu „produktywne ASMR” (ultra viral aesthetic)",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Cichy reel z subtelnymi dźwiękami i minimalistyczną estetyką.",
+    prompt: `Zachowuj się jak dyrektor kreatywny stylu ASMR aesthetic.
 
 Inputs:
-- Tarea productiva.
-- Herramientas a usar.
-- Mood visual.
+- Produktywne zadanie.
+- Narzędzia do użycia.
+- Wizualny mood.
 
-Genera:
+Wygeneruj:
 
-1) Secuencia:
-   - Sonido teclas.
-   - Escritura rápida.
-   - Orden visual.
-   - Micro movimientos suaves.
-   - Close-up de objetos.
+1) Sekwencję:
+   - Dźwięk klawiszy.
+   - Szybkie pisanie.
+   - Wizualny porządek.
+   - Delikatne mikro-ruchy.
+   - Zbliżenia obiektów.
 
-2) Visuales:
-   - Paleta de colores.
-   - Iluminación.
-   - Estética “clean desk”.
+2) Wizualizacje:
+   - Paleta kolorów.
+   - Oświetlenie.
+   - Estetyka “clean desk”.
 
-3) Versión PRO:
-   - 3 guiones alternativos.
-   - Variación con voz en off.
-   - Variación solo sonido.
+3) Wersja PRO:
+   - 3 alternatywne scenariusze.
+   - Wariant z voice-over.
+   - Wariant tylko dźwięk.
 
-4) Errores al hacer ASMR productivo.`,
+4) Błędy przy robieniu produktywnego ASMR.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-027",
-    title: "Reel tipo 'Te explico algo difícil como si tuvieras 5 años'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel typu „wytłumaczę Ci coś trudnego, jakbyś miał 5 lat”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Traduce un concepto complejo a lenguaje infantil sin perder profesionalismo.",
-    prompt: `Actúa como explicador profesional.
+      "Przetłumacz złożone pojęcie na dziecięcy język bez utraty profesjonalizmu.",
+    prompt: `Zachowuj się jak profesjonalny tłumaczący.
 
 Inputs:
-- Concepto complejo.
-- Nivel real del público.
+- Złożone pojęcie.
+- Realny poziom odbiorców.
 
-Genera:
+Wygeneruj:
 
-1) Traducción del concepto:
-   - Explicación infantil.
-   - Ejemplo visual.
-   - Analogía simple.
+1) Tłumaczenie pojęcia:
+   - Dziecięce wyjaśnienie.
+   - Wizualny przykład.
+   - Prosta analogia.
 
-2) Guion.
+2) Scenariusz.
 
-3) Versión PRO:
-   - Explicación estilo Pixar.
-   - Explicación estilo profesor divertido.
-   - Explicación estilo meme.
+3) Wersja PRO:
+   - Wyjaśnienie w stylu Pixara.
+   - Wyjaśnienie w stylu zabawnego nauczyciela.
+   - Wyjaśnienie w stylu mema.
 
-4) Errores al simplificar demasiado.`,
+4) Błędy przy zbyt mocnym upraszczaniu.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-028",
-    title: "Reel estilo 'ranking top 5 del nicho'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Ranking dinámico para maximizar guardados.",
-    prompt: `Genera:
+    title: "Reel w stylu „top 5 rankingu w niszy”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Dynamiczny ranking do maksymalizacji zapisów.",
+    prompt: `Wygeneruj:
 1) Top 5.
-2) Justificaciones.
-3) Guion rápido.
-4) Visuales animados.
-5) PRO: 3 rankings alternativos.`,
+2) Uzasadnienia.
+3) Szybki scenariusz.
+4) Animowane wizuale.
+5) PRO: 3 alternatywne rankingi.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-029",
-    title: "Reel tipo 'un consejo de X para Y'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Consejo valioso adaptado a un rol profesional específico.",
-    prompt: `Genera:
-1) consejo,
-2) historia,
-3) guion,
+    title: "Reel typu „jedna rada od X dla Y”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wartościowa rada dopasowana do konkretnej roli zawodowej.",
+    prompt: `Wygeneruj:
+1) radę,
+2) historię,
+3) scenariusz,
 4) PRO.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-030",
-    title: "Reel estilo '5 señales de que estás haciendo X mal'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Contenido rápido en formato lista.",
-    prompt: `Genera:
-1) 5 señales,
-2) 5 ejemplos,
-3) guion,
-4) PRO variaciones.`,
+    title: "Reel w stylu „5 sygnałów, że robisz X źle”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Szybki content w formacie listy.",
+    prompt: `Wygeneruj:
+1) 5 sygnałów,
+2) 5 przykładów,
+3) scenariusz,
+4) wariacje PRO.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-031",
-    title: "Reel trending 'textos grandes y minimalistas con música chill'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Reel aesthetic con texto grande y música suave.",
-    prompt: `Genera:
-1) 10 frases.
-2) Estilo visual.
-3) Música recomendada.
-4) PRO: variación narrativa.`,
+    title: "Trending reel „duże minimalistyczne teksty z chill muzyką”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Aesthetic reel z dużym tekstem i delikatną muzyką.",
+    prompt: `Wygeneruj:
+1) 10 fraz.
+2) Styl wizualny.
+3) Rekomendowaną muzykę.
+4) PRO: wariant narracyjny.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-032",
-    title: "Reel estilo 'tutorial en voz baja ASMR'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Tutorial suave con tono relajante.",
-    prompt: `Genera:
-1) guion,
-2) visuales,
-3) sonido,
-4) PRO variaciones.`,
+    title: "Reel w stylu „tutorial szeptem ASMR”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Delikatny tutorial z relaksującym tonem.",
+    prompt: `Wygeneruj:
+1) scenariusz,
+2) wizualizacje,
+3) dźwięk,
+4) wariacje PRO.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-033",
-    title: "Reel tipo 'On-Screen Replies' respondiendo comentarios",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Responde un comentario con contenido valioso.",
-    prompt: `Genera:
-1) Respuesta estratégica,
-2) guion,
-3) visual,
-4) PRO: 5 respuestas más.`,
+    title: "Reel typu „On-Screen Replies” odpowiadający na komentarze",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Odpowiedz na komentarz wartościowym contentem.",
+    prompt: `Wygeneruj:
+1) Strategiczną odpowiedź,
+2) scenariusz,
+3) wizual,
+4) PRO: 5 dodatkowych odpowiedzi.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-034",
-    title: "Reel estilo 'dueto educativo' (reacción inteligente)",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Dueto reaccionando a contenido viral.",
-    prompt: `Genera:
-1) reacciones,
-2) guion,
-3) visual,
+    title: "Reel w stylu „edukacyjny duet” (inteligentna reakcja)",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Duet reagujący na viralowy content.",
+    prompt: `Wygeneruj:
+1) reakcje,
+2) scenariusz,
+3) wizual,
 4) PRO.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-035",
-    title: "Reel tipo 'Esto es lo que nadie te cuenta de X…'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Insight oculto presentado dramáticamente.",
-    prompt: `Genera:
+    title: "Reel typu „To jest to, czego nikt Ci nie mówi o X…”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Ukryty insight podany dramatycznie.",
+    prompt: `Wygeneruj:
 1) insight,
-2) explicación,
-3) ejemplo,
-4) PRO 5 insights.`,
+2) wyjaśnienie,
+3) przykład,
+4) PRO 5 insightów.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-036",
-    title: "Reel estilo 'Trend slow + reflexión profunda'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Reel suave para reflexiones profundas.",
-    prompt: `Genera:
-1) reflexión,
-2) guion,
-3) estética,
+    title: "Reel w stylu „slow trend + głęboka refleksja”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Delikatny reel do głębokich refleksji.",
+    prompt: `Wygeneruj:
+1) refleksję,
+2) scenariusz,
+3) estetykę,
 4) PRO.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-037",
-    title: "Reel estilo 'Mini caso de estudio en 30 segundos'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Caso de estudio comprimido.",
-    prompt: `Genera:
-1) caso,
-2) datos,
-3) guion,
-4) PRO variaciones.`,
+    title: "Reel w stylu „mini case study w 30 sekund”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Ściśnięte case study.",
+    prompt: `Wygeneruj:
+1) case,
+2) dane,
+3) scenariusz,
+4) wariacje PRO.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-038",
-    title: "Reel estilo 'si yo fuera tú, haría esto hoy'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Consejo directo estilo mentor.",
-    prompt: `Genera:
-1) consejo,
-2) pasos,
-3) guion,
+    title: "Reel w stylu „gdybym był Tobą, zrobiłbym to dziś”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Bezpośrednia rada w stylu mentora.",
+    prompt: `Wygeneruj:
+1) radę,
+2) kroki,
+3) scenariusz,
 4) PRO.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-039",
-    title:
-      "Reel estilo 'punto de vista del experto reaccionando a una tendencia'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Reacción educativa sobre un trend.",
-    prompt: `Genera:
-1) análisis del trend,
-2) opinión,
-3) guion,
+    title: "Reel w stylu „punkt widzenia eksperta reagującego na trend”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Edukacyjna reakcja na trend.",
+    prompt: `Wygeneruj:
+1) analizę trendu,
+2) opinię,
+3) scenariusz,
 4) PRO.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-040",
-    title: "Reel tipo 'en 20 segundos te demuestro X'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Demostración rápida con ritmo fuerte.",
-    prompt: `Genera:
-1) demostración,
-2) evidencia,
-3) guion,
+    title: "Reel typu „w 20 sekund udowodnię Ci X”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Szybka demonstracja z mocnym tempem.",
+    prompt: `Wygeneruj:
+1) demonstrację,
+2) dowód,
+3) scenariusz,
 4) PRO.`,
     thumbnail: "",
   },
   {
     id: "reel-tiktok-041",
     title:
-      "Reel educativo tipo 'Explicación en 3 capas: simple, media y avanzada'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+      "Reel edukacyjny typu „Wyjaśnienie w 3 warstwach: prosto, średnio i zaawansowanie”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Formato donde explicas un concepto en 3 niveles de complejidad progresiva.",
-    prompt: `Quiero un reel educativo donde explique un concepto usando una estructura de “3 capas”:
+      "Format, w którym wyjaśniasz pojęcie na 3 poziomach rosnącej złożoności.",
+    prompt: `Chcę reel edukacyjny, w którym wyjaśnię pojęcie używając struktury „3 warstw”:
 
 Inputs:
-- Concepto a explicar.
-- Nivel del público objetivo.
-- Ejemplos disponibles (si existen).
+- Pojęcie do wyjaśnienia.
+- Poziom grupy docelowej.
+- Dostępne przykłady (jeśli istnieją).
 
-Genera:
-1) Hook poderoso (que active curiosidad): “Te explico [X] en 3 niveles: como si tuvieras 5, 15 y 25 años.”
-2) Nivel 1 (niño de 5 años):
-   - Analogía simple.
-   - Lenguaje infantil.
-   - Explicación < 10 segundos.
-3) Nivel 2 (adolescente de 15 años):
-   - Ejemplo cotidiano.
-   - Relación causa-efecto.
-4) Nivel 3 (adulto profesional):
-   - Explicación técnica.
-   - Datos o principios reales.
-5) Cierre:
-   - Mini resumen.
-   - CTA educativo: “Guarda este video para repasarlo.”`,
+Wygeneruj:
+1) Mocny hook (uruchamiający ciekawość): “Wyjaśnię [X] na 3 poziomach: jakbyś miał 5, 15 i 25 lat.”
+2) Poziom 1 (dziecko 5 lat):
+   - Prosta analogia.
+   - Dziecięcy język.
+   - Wyjaśnienie < 10 sekund.
+3) Poziom 2 (nastolatek 15 lat):
+   - Codzienny przykład.
+   - Relacja przyczyna–skutek.
+4) Poziom 3 (dorosły profesjonalista):
+   - Techniczne wyjaśnienie.
+   - Dane lub realne zasady.
+5) Zakończenie:
+   - Mini podsumowanie.
+   - Edukacyjne CTA: “Zapisz to wideo, żeby do tego wrócić.”`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-042",
-    title: "Reel estilo '1 concepto, 1 ejemplo, 1 ejercicio práctico'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel w stylu „1 pojęcie, 1 przykład, 1 praktyczne ćwiczenie”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Estructura perfecta para enseñar habilidades prácticas en menos de 30 segundos.",
-    prompt: `Genera un reel educativo usando la fórmula 1-1-1:
+      "Idealna struktura do uczenia praktycznych umiejętności w mniej niż 30 sekund.",
+    prompt: `Wygeneruj reel edukacyjny według formuły 1-1-1:
 
 Inputs:
-- Habilidad o tema práctico.
-- Dificultad del público.
-- Ejemplo real.
+- Umiejętność lub praktyczny temat.
+- Trudność dla odbiorców.
+- Prawdziwy przykład.
 
-Estructura:
-1) Hook tipo “Aprende X en 20 segundos con esta fórmula…”
-2) Explicación del concepto en 1 frase clara.
-3) Ejemplo práctico súper concreto.
-4) Un ejercicio que la audiencia pueda hacer hoy mismo.
-5) Cierre con CTA: “Si quieres otro ejercicio, comenta EJERCICIO.”`,
+Struktura:
+1) Hook typu “Naucz się X w 20 sekund dzięki tej formule…”
+2) Wyjaśnienie pojęcia w 1 jasnym zdaniu.
+3) Bardzo konkretny praktyczny przykład.
+4) Ćwiczenie, które publiczność może zrobić dziś.
+5) Zakończenie z CTA: “Jeśli chcesz kolejne ćwiczenie, skomentuj ĆWICZENIE.”`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-043",
     title:
-      "Reel educativo estilo Feynman: enseñar como si fuera para principiantes totales",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+      "Reel edukacyjny w stylu Feynmana: ucz jak dla totalnych początkujących",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Usa el método Feynman para enseñar un concepto difícil en menos de 30 segundos.",
-    prompt: `Usa el Método Feynman para explicar un tema complejo.
+      "Użyj metody Feynmana, by wyjaśnić trudne pojęcie w mniej niż 30 sekund.",
+    prompt: `Użyj Metody Feynmana, aby wyjaśnić złożony temat.
 
 Inputs:
-- Concepto difícil.
-- Público objetivo.
-- Analogía familiar.
+- Trudne pojęcie.
+- Grupa docelowa.
+- Znana analogia.
 
-Genera:
-1) Hook: “Si este concepto te parece complicado, es porque nadie te lo explicó así…”
-2) Explicación nivel básico con analogía visual.
-3) Explicación nivel intermedio describiendo causa y efecto.
-4) Explicación nivel experto, pero en palabras simples.
-5) Resumen: una frase memorable.
-6) CTA educativo: “Guárdalo para repasarlo luego.”`,
+Wygeneruj:
+1) Hook: “Jeśli to pojęcie wydaje Ci się skomplikowane, to dlatego, że nikt Ci tego tak nie wyjaśnił…”
+2) Wyjaśnienie na poziomie podstawowym z wizualną analogią.
+3) Wyjaśnienie na poziomie średnim opisujące przyczynę i skutek.
+4) Wyjaśnienie na poziomie eksperckim, ale prostymi słowami.
+5) Podsumowanie: jedno zapadające w pamięć zdanie.
+6) Edukacyjne CTA: “Zapisz to, żeby wrócić później.”`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-044",
-    title: "Reel 'antes pensaba X, ahora entiendo Y' (cambio cognitivo)",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+    title: "Reel „kiedyś myślałem X, teraz rozumiem Y” (zmiana poznawcza)",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Formato donde muestras una transformación mental para romper creencias.",
-    prompt: `Crea un reel educativo basado en cambio de mentalidad.
+      "Format pokazujący mentalną transformację, by łamać przekonania.",
+    prompt: `Stwórz reel edukacyjny oparty na zmianie mindsetu.
 
 Inputs:
-- Creencia limitante común.
-- Nueva perspectiva correcta.
-- Ejemplo que lo demuestre.
+- Powszechne ograniczające przekonanie.
+- Nowa, poprawna perspektywa.
+- Przykład, który to udowadnia.
 
-Genera:
-1) Hook tipo “Antes pensaba que… pero ahora entiendo que…”
-2) Explicación de por qué la creencia original es incorrecta.
-3) Nueva forma de entenderlo.
-4) Ejemplo usando un mini caso real.
-5) CTA: “Comparte esto con alguien que necesite este cambio.”`,
+Wygeneruj:
+1) Hook typu “Kiedyś myślałem, że… ale teraz rozumiem, że…”
+2) Wyjaśnienie, dlaczego pierwotne przekonanie jest błędne.
+3) Nowy sposób rozumienia.
+4) Przykład na bazie mini realnego case’u.
+5) CTA: “Udostępnij to komuś, kto potrzebuje tej zmiany.”`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-045",
     title:
-      "Reel 'Errores que cometes sin darte cuenta' (modo profesor directo)",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+      "Reel „Błędy, które popełniasz, nawet o tym nie wiedząc” (tryb bezpośredniego nauczyciela)",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Detecta errores invisibles y corrígelos en un estilo de enseñanza directo.",
-    prompt: `Genera un reel educativo sobre errores invisibles.
+      "Wykryj niewidzialne błędy i popraw je w bezpośrednim stylu nauczania.",
+    prompt: `Wygeneruj edukacyjny reel o niewidzialnych błędach.
 
 Inputs:
-- Tema o habilidad.
-- 3 errores típicos.
-- Soluciones rápidas.
+- Temat lub umiejętność.
+- 3 typowe błędy.
+- Szybkie rozwiązania.
 
-Estructura:
-1) Hook: “Cometes estos errores sin darte cuenta…”
-2) Error 1 → Reemplazo correcto.
-3) Error 2 → Reemplazo correcto.
-4) Error 3 → Reemplazo correcto.
-5) CTA: “Guarda esto para dejar de cometerlos.”`,
+Struktura:
+1) Hook: “Popełniasz te błędy, nawet o tym nie wiedząc…”
+2) Błąd 1 → poprawny zamiennik.
+3) Błąd 2 → poprawny zamiennik.
+4) Błąd 3 → poprawny zamiennik.
+5) CTA: “Zapisz, żeby przestać je popełniać.”`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-046",
-    title: "Reel 'concepto explicado con un ejemplo de la vida diaria'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica un concepto usando una escena cotidiana.",
-    prompt: `Crea un reel educativo usando una escena cotidiana como analogía.
+    title: "Reel „pojęcie wyjaśnione na przykładzie z codziennego życia”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśnij pojęcie, używając codziennej sceny.",
+    prompt: `Stwórz edukacyjny reel używając codziennej sceny jako analogii.
 
 Inputs:
-- Concepto.
-- Escena de vida real (supermercado, gimnasio, café, etc.).
+- Pojęcie.
+- Scena z życia (supermarket, siłownia, kawiarnia, itd.).
 
-Genera:
-1) Hook relatando una escena.
-2) Explicación del concepto dentro de esa escena.
-3) Conexión lógica clara.
-4) Mini conclusión.
-5) CTA educativo.`,
+Wygeneruj:
+1) Hook opowiadający scenę.
+2) Wyjaśnienie pojęcia w tej scenie.
+3) Jasne logiczne połączenie.
+4) Mini wniosek.
+5) Edukacyjne CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-047",
     title:
-      "Reel 'explicación con objetos físicos' (pizarra o elementos reales)",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Usa objetos cotidianos como metáforas visuales.",
-    prompt: `Genera un guion educativo que use objetos reales para explicar algo.
+      "Reel „wyjaśnienie z fizycznymi obiektami” (tablica lub prawdziwe elementy)",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Użyj codziennych obiektów jako wizualnych metafor.",
+    prompt: `Wygeneruj edukacyjny scenariusz, który używa prawdziwych obiektów, by coś wyjaśnić.
 
 Inputs:
-- Objeto físico simple (botella, moneda, cuaderno, etc.).
-- Concepto.
+- Prosty obiekt fizyczny (butelka, moneta, zeszyt, itd.).
+- Pojęcie.
 
-Estructura:
-1) Hook mostrando el objeto.
-2) Mostrar cómo representa el concepto.
-3) Demostración física.
-4) Conclusión mental clara.
-5) CTA de guardado.`,
+Struktura:
+1) Hook z pokazaniem obiektu.
+2) Pokaż, jak reprezentuje pojęcie.
+3) Fizyczna demonstracja.
+4) Jasny mentalny wniosek.
+5) CTA do zapisania.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-048",
-    title: "Reel 'mito vs realidad' educativo",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Formato rápido derribando mitos con evidencia.",
+    title: "Edukacyjny reel „mit vs rzeczywistość”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Szybki format obalania mitów z dowodami.",
     prompt: `Inputs:
-- 3 mitos del nicho.
-- Explicación real.
+- 3 mity z niszy.
+- Prawdziwe wyjaśnienie.
 
-Estructura:
-1) Hook tipo “3 mitos que te frenan…”
-2) Mito → realidad con ejemplo.
-3) CTA para compartir.`,
+Struktura:
+1) Hook typu “3 mity, które Cię blokują…”
+2) Mit → rzeczywistość z przykładem.
+3) CTA do udostępnienia.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-049",
-    title: "Reel 'pregunta que nadie hace pero debería'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Genera pensamiento crítico usando una pregunta clave.",
-    prompt: `Genera un reel educativo basado en una pregunta crítica.
+    title: "Reel „pytanie, którego nikt nie zadaje, a powinien”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Generuj krytyczne myślenie kluczowym pytaniem.",
+    prompt: `Wygeneruj edukacyjny reel oparty na krytycznym pytaniu.
 
-1) La pregunta.
-2) Por qué importa.
-3) Explicación simple.
-4) Aplicación práctica.
-5) CTA: “Guarda si te hizo pensar.”`,
+1) Pytanie.
+2) Dlaczego to ważne.
+3) Proste wyjaśnienie.
+4) Praktyczne zastosowanie.
+5) CTA: “Zapisz, jeśli dało Ci do myślenia.”`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-050",
-    title: "Reel 'enseñanza con mini historia real'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Formato storytelling + educación mezclado.",
+    title: "Reel „nauka z mini prawdziwej historii”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Format: storytelling + edukacja w miksie.",
     prompt: `Inputs:
 - Mini historia.
-- Lección que se extrae.
+- Lekcja, która z niej wynika.
 
-Estructura:
-1) Hook de historia.
-2) Momento clave.
-3) Lección.
-4) Cómo aplicarla.
-5) CTA educativo.`,
+Struktura:
+1) Hook historii.
+2) Kluczowy moment.
+3) Lekcja.
+4) Jak to zastosować.
+5) Edukacyjne CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-051",
-    title: "Reel '3 formas de entender X según tu nivel'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica un concepto segmentando por niveles.",
-    prompt: `Genera:
-1) Nivel principiante.
-2) Nivel intermedio.
-3) Nivel avanzado.
-4) Guion completo.
-5) CTA de guardado.`,
+    title: "Reel „3 sposoby rozumienia X w zależności od poziomu”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśnij pojęcie segmentując na poziomy.",
+    prompt: `Wygeneruj:
+1) Poziom początkujący.
+2) Poziom średniozaawansowany.
+3) Poziom zaawansowany.
+4) Pełny scenariusz.
+5) CTA do zapisania.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-052",
-    title: "Reel 'te enseño esto en menos de 15 segundos'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Reel ultrarrápido educativo.",
-    prompt: `Genera:
+    title: "Reel „nauczę Cię tego w mniej niż 15 sekund”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Ultra szybki edukacyjny reel.",
+    prompt: `Wygeneruj:
 1) Hook,
-2) explicación flash,
-3) ejemplo,
-4) micro ejercicio.`,
+2) błyskawiczne wyjaśnienie,
+3) przykład,
+4) mikro ćwiczenie.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-053",
-    title: "Reel 'por qué esto funciona así'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Formato basado en explicar la causa detrás del fenómeno.",
+    title: "Reel „dlaczego to działa w taki sposób”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Format wyjaśniający przyczynę stojącą za zjawiskiem.",
     prompt: `Inputs:
-- Fenómeno.
-- Causa.
-Genera:
-1) explicación simple,
-2) ejemplo,
+- Zjawisko.
+- Przyczyna.
+Wygeneruj:
+1) proste wyjaśnienie,
+2) przykład,
 3) CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-054",
-    title: "Reel '3 señales de que entendiste X'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Reel para medir entendimiento.",
-    prompt: `Genera:
-1) 3 señales,
-2) ejemplos,
-3) guion,
-4) CTA guardado.`,
+    title: "Reel „3 sygnały, że zrozumiałeś X”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Reel do mierzenia zrozumienia.",
+    prompt: `Wygeneruj:
+1) 3 sygnały,
+2) przykłady,
+3) scenariusz,
+4) CTA do zapisania.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-055",
-    title: "Reel 'lo explico sin tecnicismos (versión para humanos)'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica algo técnico en lenguaje de persona normal.",
-    prompt: `Estructura:
+    title: "Reel „wyjaśniam bez technicznego żargonu (wersja dla ludzi)”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśnij techniczny temat językiem zwykłej osoby.",
+    prompt: `Struktura:
 1) Hook,
-2) metáfora,
-3) explicación limpia,
-4) ejemplo real,
+2) metafora,
+3) czyste wyjaśnienie,
+4) realny przykład,
 5) CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-056",
-    title: "Reel 'esto te lo enseñan mal, déjame corregirlo'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Corrige una creencia común.",
-    prompt: `Genera:
-1) error enseñado,
-2) por qué es incorrecto,
-3) explicación correcta,
-4) ejemplo,
+    title: "Reel „uczą Cię tego źle, pozwól, że to poprawię”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Skoryguj powszechne przekonanie.",
+    prompt: `Wygeneruj:
+1) uczony błąd,
+2) dlaczego jest niepoprawny,
+3) poprawne wyjaśnienie,
+4) przykład,
 5) CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-057",
-    title: "Reel 'cómo memorizar X en 20 segundos usando una analogía visual'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Enseña algo usando una técnica de memoria visual.",
+    title: "Reel „jak zapamiętać X w 20 sekund dzięki wizualnej analogii”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Ucz czegoś techniką wizualnej pamięci.",
     prompt: `Inputs:
-- Concepto.
-- Imagen mental.
+- Pojęcie.
+- Obraz mentalny.
 
-Genera:
-1) analogía visual poderosa,
-2) explicación,
-3) técnica de memoria,
-4) CTA educativo.`,
+Wygeneruj:
+1) mocną wizualną analogię,
+2) wyjaśnienie,
+3) technikę pamięciową,
+4) edukacyjne CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-058",
-    title: "Reel 'qué es X en 5 pasos sencillos'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explicación rápida en 5 pasos.",
-    prompt: `Genera:
-1) 5 pasos,
-2) micro ejemplos,
-3) guion,
-4) CTA guardar.`,
+    title: "Reel „co to jest X w 5 prostych krokach”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Szybkie wyjaśnienie w 5 krokach.",
+    prompt: `Wygeneruj:
+1) 5 kroków,
+2) mikro przykłady,
+3) scenariusz,
+4) CTA: zapisz.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-059",
-    title: "Reel 'explicación usando storytelling de 10 segundos'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Mini historia que enseña un concepto.",
-    prompt: `Genera:
-1) historia en 1 frase,
-2) explosión educativa,
-3) remate,
+    title: "Reel „wyjaśnienie storytellingiem w 10 sekund”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Mini historia ucząca pojęcia.",
+    prompt: `Wygeneruj:
+1) historię w 1 zdaniu,
+2) edukacyjne „uderzenie”,
+3) puentę,
 4) CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-060",
-    title:
-      "Reel 'explicación rápida con pantalla dividida (concepto + ejemplo)'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Usa split screen para explicar conceptos visuales.",
-    prompt: `Genera:
-1) lado concepto,
-2) lado ejemplo,
-3) guion,
+    title: "Reel „szybkie wyjaśnienie z podzielonym ekranem (pojęcie + przykład)”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Użyj split screen do wizualnych wyjaśnień.",
+    prompt: `Wygeneruj:
+1) stronę „pojęcie”,
+2) stronę „przykład”,
+3) scenariusz,
 4) CTA,
-5) variaciones PRO.`,
+5) wariacje PRO.`,
     thumbnail: "",
   },
   {
     id: "reel-tiktok-061",
     title:
-      "Reel educativo: Explica un concepto usando el método de Las 4 Preguntas",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
+      "Edukacyjny reel: wyjaśnij pojęcie metodą 4 pytań",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
     summary:
-      "Explica cualquier tema respondiendo las 4 preguntas clave de aprendizaje.",
-    prompt: `Explica un concepto educativo usando el método de las 4 preguntas.
+      "Wyjaśnij dowolny temat odpowiadając na 4 kluczowe pytania uczenia się.",
+    prompt: `Wyjaśnij edukacyjne pojęcie metodą 4 pytań.
 
 Inputs:
-- Concepto.
-- Ejemplo real.
-- Nivel del público.
+- Pojęcie.
+- Realny przykład.
+- Poziom odbiorców.
 
-Estructura:
-1) ¿Qué es?
-2) ¿Por qué es importante?
-3) ¿Cómo funciona?
-4) ¿Cómo lo aplico hoy mismo?
+Struktura:
+1) Co to jest?
+2) Dlaczego to jest ważne?
+3) Jak to działa?
+4) Jak zastosować to dziś?
 
-Final:
-- Micro resumen.
-- CTA: “Guarda este reel para estudiarlo luego.”`,
+Finał:
+- Mikro podsumowanie.
+- CTA: “Zapisz ten reel, żeby wrócić do nauki później.”`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-062",
-    title: "Reel 'enseña algo comparando A vs B'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica un concepto comparándolo con otro para clarificar.",
-    prompt: `Genera un reel educativo que explique un concepto comparándolo con otro.
+    title: "Reel „ucz czegoś porównując A vs B”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśnij pojęcie porównując je z innym, by je doprecyzować.",
+    prompt: `Wygeneruj edukacyjny reel, który wyjaśnia pojęcie porównując je z innym.
 
 Inputs:
-- Concepto A (erróneo o común).
-- Concepto B (correcto o actualizado).
-- Ejemplo visual.
+- Pojęcie A (błędne lub powszechne).
+- Pojęcie B (poprawne lub zaktualizowane).
+- Wizualny przykład.
 
-Estructura:
-1) Hook: “La diferencia entre A y B te cambia todo…”
-2) A en 1 frase.
-3) B en 1 frase.
-4) Comparación visual.
-5) Ejemplo práctico.
-6) CTA educativo.`,
+Struktura:
+1) Hook: “Różnica między A i B zmienia wszystko…”
+2) A w 1 zdaniu.
+3) B w 1 zdaniu.
+4) Wizualne porównanie.
+5) Praktyczny przykład.
+6) Edukacyjne CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-063",
-    title: "Reel ‘explica esto como si fuera un superhéroe’ (analogía extrema)",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Crea un reel ultra visual usando un superhéroe como metáfora.",
+    title: "Reel „wyjaśnij to, jakbyś był superbohaterem” (skrajna analogia)",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Ultra wizualny reel z superbohaterem jako metaforą.",
     prompt: `Inputs:
-- Concepto.
-- Superhéroe elegido.
-- Relación entre habilidades → concepto.
+- Pojęcie.
+- Wybrany superbohater.
+- Relacja umiejętności → pojęcie.
 
-Genera:
-1) Hook con lenguaje de héroes.
-2) Paralelo entre poder → función del concepto.
-3) Mini escena imaginaria.
-4) Explicación real.
-5) CTA guardar.`,
+Wygeneruj:
+1) Hook językiem bohaterów.
+2) Paralele moc → funkcja pojęcia.
+3) Mini wyobrażona scena.
+4) Prawdziwe wyjaśnienie.
+5) CTA: zapisz.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-064",
-    title: "Reel educativo con visualización mental (guía de imaginación)",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Lleva al usuario a imaginar una situación para aprender.",
-    prompt: `Genera un reel educativo basado en imaginación guiada.
+    title: "Edukacyjny reel z wizualizacją mentalną (przewodnik wyobraźni)",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Prowadź użytkownika do wyobrażenia sytuacji, by się nauczył.",
+    prompt: `Wygeneruj edukacyjny reel oparty na prowadzonej wyobraźni.
 
 Inputs:
-- Escenario visualizable.
-- Concepto a enseñar.
+- Scenariusz do zwizualizowania.
+- Pojęcie do nauczenia.
 
-Estructura:
-1) Hook: “Cierra los ojos 2 segundos e imagina esto…”
-2) Visualización específica.
-3) Crea tensión.
-4) Explica el concepto dentro de la escena.
-5) Conclusión simple.
-6) CTA educativo.`,
+Struktura:
+1) Hook: “Zamknij oczy na 2 sekundy i wyobraź sobie to…”
+2) Konkretną wizualizację.
+3) Zbuduj napięcie.
+4) Wyjaśnij pojęcie w tej scenie.
+5) Proste zakończenie.
+6) Edukacyjne CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-065",
-    title: "Reel 'esto lo aprendí demasiado tarde'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica aprendizajes valiosos en formato confesión.",
+    title: "Reel „nauczyłem się tego zbyt późno”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wartościowe lekcje w formacie wyznania.",
     prompt: `Inputs:
-- Lección importante.
-- Contexto donde se aprendió.
-- Aplicación real.
+- Ważna lekcja.
+- Kontekst, w którym została poznana.
+- Realne zastosowanie.
 
-Estructura:
-1) Hook estilo confesión.
-2) La mala práctica.
-3) La lección correcta.
-4) Aplicación simple.
-5) CTA: “Comparte para que alguien lo aprenda antes que tú.”`,
+Struktura:
+1) Hook w stylu wyznania.
+2) Zła praktyka.
+3) Poprawna lekcja.
+4) Proste zastosowanie.
+5) CTA: “Udostępnij, żeby ktoś nauczył się tego wcześniej niż Ty.”`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-066",
     title:
-      "Reel educativo con gráfico imaginario (explica un gráfico sin mostrarlo)",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica algo usando un gráfico que el usuario imagine.",
+      "Edukacyjny reel z wyimaginowanym wykresem (wyjaśnij wykres bez pokazywania go)",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśnij coś używając wykresu, który użytkownik ma sobie wyobrazić.",
     prompt: `Inputs:
-- Concepto.
-- Tipo de gráfico (línea, barras, curva S).
+- Pojęcie.
+- Typ wykresu (linia, słupki, krzywa S).
 
-Estructura:
-1) Hook: “Imagina un gráfico que se ve así…”
-2) Describe gráfico mental.
-3) Explica qué representa.
-4) Saca impacto clave.
-5) CTA guardar.`,
+Struktura:
+1) Hook: “Wyobraź sobie wykres, który wygląda tak…”
+2) Opisz wykres w wyobraźni.
+3) Wyjaśnij, co reprezentuje.
+4) Wyciągnij kluczowy wniosek.
+5) CTA: zapisz.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-067",
-    title: "Reel 'por qué nadie te explica esto así'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Revelación que simplifica un concepto confuso.",
+    title: "Reel „dlaczego nikt Ci tego tak nie tłumaczy”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Objawienie upraszczające mylące pojęcie.",
     prompt: `Inputs:
-- Concepto mal explicado.
-- Explicación clara.
-- Mini ejemplo.
+- Źle tłumaczone pojęcie.
+- Jasne wyjaśnienie.
+- Mini przykład.
 
-Estructura:
-1) Hook polémico educativo.
-2) Explicación limpia.
-3) Ejemplo rotundo.
-4) Aplicación práctica.
-5) CTA educativa.`,
+Struktura:
+1) Kontrowersyjny, edukacyjny hook.
+2) Czyste wyjaśnienie.
+3) Mocny przykład.
+4) Praktyczne zastosowanie.
+5) Edukacyjne CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-068",
-    title: "Reel educativo usando 3 analogías distintas del mismo concepto",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica usando 3 metáforas diferentes.",
+    title: "Edukacyjny reel używający 3 różnych analogii tego samego pojęcia",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśnij to 3 różnymi metaforami.",
     prompt: `Inputs:
-- Concepto.
-- Analogía 1.
-- Analogía 2.
-- Analogía 3.
+- Pojęcie.
+- Analogia 1.
+- Analogia 2.
+- Analogia 3.
 
-Genera:
-1) Hook: “Te explico [concepto] con 3 analogías…”
-2) Analogía 1 → explicación.
-3) Analogía 2 → explicación.
-4) Analogía 3 → explicación.
-5) Resumen final.
-6) CTA guardar.`,
+Wygeneruj:
+1) Hook: “Wyjaśnię [pojęcie] przez 3 analogie…”
+2) Analogia 1 → wyjaśnienie.
+3) Analogia 2 → wyjaśnienie.
+4) Analogia 3 → wyjaśnienie.
+5) Końcowe podsumowanie.
+6) CTA: zapisz.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-069",
-    title: "Reel 'ejemplo malo vs ejemplo bueno'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explicación comparando mala práctica vs buena.",
+    title: "Reel „zły przykład vs dobry przykład”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśnienie porównujące złą praktykę z dobrą praktyką.",
     prompt: `Inputs:
-- Concepto o habilidad.
-- Ejemplo malo típico.
-- Ejemplo correcto optimizado.
+- Pojęcie lub umiejętność.
+- Typowy zły przykład.
+- Poprawny, zoptymalizowany przykład.
 
-Estructura:
-1) Hook mostrando el ejemplo malo.
-2) Por qué está mal.
-3) Ejemplo correcto.
-4) Explicación simple.
-5) CTA: “Guárdalo para hacerlo bien siempre.”`,
+Struktura:
+1) Hook pokazujący zły przykład.
+2) Dlaczego jest zły.
+3) Poprawny przykład.
+4) Proste wyjaśnienie.
+5) CTA: “Zapisz, żeby zawsze robić to dobrze.”`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-070",
-    title: "Reel educativo estilo profesor severo pero justo",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Tone of voice: directo, rápido, didáctico.",
+    title: "Edukacyjny reel w stylu surowego, ale sprawiedliwego nauczyciela",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Tone of voice: bezpośredni, szybki, dydaktyczny.",
     prompt: `Inputs:
-- Tema a corregir.
-- Error más común.
-- Forma correcta.
+- Temat do skorygowania.
+- Najczęstszy błąd.
+- Poprawny sposób.
 
-Genera:
-1) Hook con autoridad.
-2) Explica error.
-3) Corrige.
-4) Demuestra.
-5) CTA educativo.`,
+Wygeneruj:
+1) Hook z autorytetem.
+2) Wyjaśnij błąd.
+3) Skoryguj.
+4) Pokaż/demonstruj.
+5) Edukacyjne CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-071",
-    title: "Reel 'explica como si estuvieras en una llamada con un cliente'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Estilo natural y conversacional.",
+    title: "Reel „wyjaśnij jakbyś był na callu z klientem”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Naturalny i konwersacyjny styl.",
     prompt: `Inputs:
-- Cliente hipotético.
-- Problema que tiene.
-- Explicación que le darías.
+- Hipotetyczny klient.
+- Problem, który ma.
+- Wyjaśnienie, które byś mu dał.
 
-Estructura:
-1) Hook con situación real.
-2) Explicación natural.
-3) Solución.
-4) Ejemplo.
-5) CTA guardar.`,
+Struktura:
+1) Hook z realną sytuacją.
+2) Naturalne wyjaśnienie.
+3) Rozwiązanie.
+4) Przykład.
+5) CTA: zapisz.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-072",
-    title: "Reel 'pregunta del alumno + respuesta del experto'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Simula una pregunta de estudiante.",
+    title: "Reel „pytanie ucznia + odpowiedź eksperta”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Symuluj pytanie od ucznia.",
     prompt: `Inputs:
-- Pregunta del alumno.
-- Respuesta experta.
-- Ejemplo simple.
+- Pytanie ucznia.
+- Ekspercka odpowiedź.
+- Prosty przykład.
 
-Estructura:
-1) Alumno pregunta.
-2) Respuesta clara.
-3) Analogía.
-4) Aplicación.
-5) CTA educativo.`,
+Struktura:
+1) Uczeń pyta.
+2) Jasna odpowiedź.
+3) Analogia.
+4) Zastosowanie.
+5) Edukacyjne CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-073",
-    title: "Reel estilo maestro zen (enseñanza breve y profunda)",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica conceptos con metáforas filosóficas.",
+    title: "Reel w stylu mistrza zen (krótka i głęboka nauka)",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśniaj koncepcje filozoficznymi metaforami.",
     prompt: `Inputs:
-- Lección.
-- Metáfora zen (montaña, agua, camino).
+- Lekcja.
+- Metafora zen (góra, woda, droga).
 
-Genera:
-1) Hook poético.
-2) Metáfora profunda.
-3) Explicación real.
-4) Aplicación práctica.
-5) CTA guardar.`,
+Wygeneruj:
+1) Poetycki hook.
+2) Głęboką metaforę.
+3) Realne wyjaśnienie.
+4) Praktyczne zastosowanie.
+5) CTA: zapisz.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-074",
-    title: "Reel con explicación 'si A entonces B' (lógica condicional)",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica razonamientos usando condicionales.",
+    title: "Reel z wyjaśnieniem „jeśli A, to B” (logika warunkowa)",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśniaj rozumowania używając warunków.",
     prompt: `Inputs:
-- Regla principal.
-- Ejemplo real.
+- Główna reguła.
+- Realny przykład.
 
-Genera:
-1) Si A → entonces B.
-2) Mini explicación.
-3) Aplicación real.
-4) CTA educativa.`,
+Wygeneruj:
+1) Jeśli A → to B.
+2) Mini wyjaśnienie.
+3) Realne zastosowanie.
+4) Edukacyjne CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-075",
-    title: "Reel educativo estilo TED Talk en 20 segundos",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Tono motivador + educativo.",
+    title: "Edukacyjny reel w stylu TED Talk w 20 sekund",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Motywujący + edukacyjny ton.",
     prompt: `Inputs:
-- Idea poderosa.
-- Ejemplo.
-- Aplicación corta.
+- Mocna idea.
+- Przykład.
+- Krótkie zastosowanie.
 
-Estructura:
-1) Frase inspiradora inicial.
-2) Explicación con ejemplo.
-3) Punchline final.
-4) CTA de guardado.`,
+Struktura:
+1) Inspirujące zdanie na start.
+2) Wyjaśnienie z przykładem.
+3) Końcowa puenta.
+4) CTA do zapisania.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-076",
-    title: "Reel 'si puedes entender esto, puedes entender todo'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Marco mental que transforma el entendimiento.",
+    title: "Reel „jeśli zrozumiesz to, zrozumiesz wszystko”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Rama mentalna, która transformuje rozumienie.",
     prompt: `Inputs:
-- Principio fundamental.
-- Casos donde aplica.
+- Fundamentalna zasada.
+- Przypadki, w których działa.
 
-Genera:
-1) Hook dramático.
-2) Principio.
-3) 2 ejemplos.
-4) CTA educativo.`,
+Wygeneruj:
+1) Dramatyczny hook.
+2) Zasadę.
+3) 2 przykłady.
+4) Edukacyjne CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-077",
-    title: "Reel educativo usando una fórmula matemática simple",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica un concepto usando una pseudo-fórmula.",
+    title: "Edukacyjny reel używający prostej formuły matematycznej",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśnij pojęcie pseudo-formułą.",
     prompt: `Inputs:
-- Concepto.
-- Variables (3).
+- Pojęcie.
+- Zmienne (3).
 
-Genera:
-1) Fórmula mental.
-2) Explicación de variables.
-3) Ejemplo.
-4) Aplicación.
-5) CTA guardar.`,
+Wygeneruj:
+1) Mentalną formułę.
+2) Wyjaśnienie zmiennych.
+3) Przykład.
+4) Zastosowanie.
+5) CTA: zapisz.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-078",
-    title: "Reel 'esto lo puedes aprender en 30 segundos'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Aprendizaje rápido directo al punto.",
+    title: "Reel „tego możesz się nauczyć w 30 sekund”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Szybka nauka prosto do sedna.",
     prompt: `Inputs:
-- Tema.
-- Ejemplo.
-- Aplicación.
+- Temat.
+- Przykład.
+- Zastosowanie.
 
-Genera un guion:
-1) Hook de rapidez.
-2) Concepto.
-3) Ejemplo.
-4) Tarea rápida.
-5) CTA educativo.`,
+Wygeneruj scenariusz:
+1) Hook szybkości.
+2) Pojęcie.
+3) Przykład.
+4) Szybkie zadanie.
+5) Edukacyjne CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-079",
-    title: "Reel con storytelling negativo (qué pasa si NO aprendes esto)",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica las consecuencias de ignorar un concepto.",
+    title: "Reel z negatywnym storytellingiem (co się stanie, jeśli się tego NIE nauczysz)",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśnij konsekwencje ignorowania pojęcia.",
     prompt: `Inputs:
-- Habilidad ignorada.
-- Consecuencia.
-- Solución.
+- Ignorowana umiejętność.
+- Konsekwencja.
+- Rozwiązanie.
 
-Estructura:
-1) Hook: “Si no aprendes esto, te pasará esto…”
-2) Explicación de la consecuencia.
-3) Solución.
-4) Micro ejemplo.
-5) CTA guardar.`,
+Struktura:
+1) Hook: “Jeśli się tego nie nauczysz, stanie się to…”
+2) Wyjaśnienie konsekwencji.
+3) Rozwiązanie.
+4) Mikro przykład.
+5) CTA: zapisz.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-080",
-    title: "Reel educativo con ejemplo histórico corto",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Conecta un concepto moderno con un hecho histórico.",
+    title: "Edukacyjny reel z krótkim historycznym przykładem",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Połącz nowoczesne pojęcie z wydarzeniem historycznym.",
     prompt: `Inputs:
-- Personaje histórico.
-- Concepto que se quiere enseñar.
+- Postać historyczna.
+- Pojęcie do nauczenia.
 
-Genera:
-1) Historia en 1 frase.
-2) Acción del personaje.
-3) Lección aplicable hoy.
-4) Ejemplo actual.
-5) CTA educativo.`,
+Wygeneruj:
+1) Historię w 1 zdaniu.
+2) Działanie postaci.
+3) Lekcję do zastosowania dziś.
+4) Współczesny przykład.
+5) Edukacyjne CTA.`,
     thumbnail: "",
   },
   {
     id: "reel-tiktok-081",
-    title:
-      "Reel educativo estilo 'principio fundamental + aplicación inmediata'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica un principio clave y demuestra cómo aplicarlo hoy.",
+    title: "Edukacyjny reel „fundamentalna zasada + natychmiastowe zastosowanie”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśnij kluczową zasadę i pokaż, jak zastosować ją dziś.",
     prompt: `Inputs:
-- Principio fundamental de la disciplina.
-- Ejemplo corto de aplicación.
+- Fundamentalna zasada dyscypliny.
+- Krótki przykład zastosowania.
 
-Genera:
-1) Hook: “Este principio te cambia la forma de entender [tema]…”
-2) Explicación del principio en lenguaje simple.
-3) Demostración con ejemplo.
-4) Aplicación práctica que puedan hacer hoy.
-5) CTA: “Guárdalo si vas a aplicarlo.”`,
+Wygeneruj:
+1) Hook: “Ta zasada zmienia sposób, w jaki rozumiesz [temat]…”
+2) Wyjaśnienie zasady prostym językiem.
+3) Demonstracja na przykładzie.
+4) Praktyczne zastosowanie na dziś.
+5) CTA: “Zapisz, jeśli to wdrożysz.”`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-082",
-    title: "Reel 'te explico esto como si fuera un meme'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Usa humor y comparación visual estilo meme para enseñar.",
+    title: "Reel „wyjaśnię Ci to jak mem”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Użyj humoru i wizualnego porównania jak mem, by uczyć.",
     prompt: `Inputs:
-- Concepto complejo.
-- Analogía meme (ej. expectativas vs realidad).
+- Złożone pojęcie.
+- Memowa analogia (np. oczekiwania vs rzeczywistość).
 
-Estructura:
-1) Hook gracioso.
-2) Escena meme comparativa.
-3) Explicación educativa real.
-4) Ejemplo simple.
-5) CTA compartir.`,
+Struktura:
+1) Śmieszny hook.
+2) Memowa scena porównawcza.
+3) Prawdziwe edukacyjne wyjaśnienie.
+4) Prosty przykład.
+5) CTA: udostępnij.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-083",
-    title: "Reel educativo estilo 'mapa mental en voz'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica un concepto describiendo un mapa mental.",
+    title: "Edukacyjny reel w stylu „mapa mentalna w głosie”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśnij pojęcie opisując mapę mentalną.",
     prompt: `Inputs:
-- Tema principal.
-- 3 ramas.
-- 2 subramas por rama.
+- Główny temat.
+- 3 gałęzie.
+- 2 podgałęzie na gałąź.
 
-Estructura:
-1) Hook: “Imagínate este mapa mental…”
-2) Rama 1 → subramas.
-3) Rama 2 → subramas.
-4) Rama 3 → subramas.
-5) CTA guardar.`,
+Struktura:
+1) Hook: “Wyobraź sobie tę mapę mentalną…”
+2) Gałąź 1 → podgałęzie.
+3) Gałąź 2 → podgałęzie.
+4) Gałąź 3 → podgałęzie.
+5) CTA: zapisz.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-084",
-    title: "Reel educativo con técnica de contraste extremo",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica algo mostrando 2 contrastes radicales.",
+    title: "Edukacyjny reel z techniką skrajnego kontrastu",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśnij coś pokazując 2 radykalne kontrasty.",
     prompt: `Inputs:
-- Caso mal hecho.
-- Caso bien hecho.
+- Źle zrobiony case.
+- Dobrze zrobiony case.
 
-Genera:
-1) Hook: “Mira este contraste…”
-2) Caso mal hecho → explicación.
-3) Caso bien hecho → explicación.
-4) Lección.
-5) CTA educativa.`,
+Wygeneruj:
+1) Hook: “Zobacz ten kontrast…”
+2) Źle zrobiony case → wyjaśnienie.
+3) Dobrze zrobiony case → wyjaśnienie.
+4) Lekcja.
+5) Edukacyjne CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-085",
-    title: "Reel educativo estilo 'teoría vs práctica'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Divide la explicación entre teoría y práctica real.",
+    title: "Edukacyjny reel w stylu „teoria vs praktyka”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Podziel wyjaśnienie na teorię i realną praktykę.",
     prompt: `Inputs:
-- Concepto teórico.
-- Aplicación concreta.
+- Teoretyczne pojęcie.
+- Konkretne zastosowanie.
 
-Estructura:
-1) Teoría en 2 frases.
-2) Práctica con mini caso.
-3) Principio clave.
-4) CTA guardar.`,
+Struktura:
+1) Teoria w 2 zdaniach.
+2) Praktyka z mini case’em.
+3) Kluczowa zasada.
+4) CTA: zapisz.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-086",
-    title: "Reel 'lo que nadie te dice de este tema'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Formato que revela información oculta.",
+    title: "Reel „to, czego nikt Ci nie mówi o tym temacie”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Format ujawniający ukrytą informację.",
     prompt: `Inputs:
-- Tema común.
-- Información rara o avanzada.
-- Ejemplo.
+- Powszechny temat.
+- Rzadka lub zaawansowana informacja.
+- Przykład.
 
-Estructura:
-1) Hook revelador.
-2) Concepto oculto.
-3) Ejemplo real.
-4) Aplicación.
-5) CTA guardar.`,
+Struktura:
+1) Hook ujawniający.
+2) Ukryte pojęcie.
+3) Realny przykład.
+4) Zastosowanie.
+5) CTA: zapisz.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-087",
-    title: "Reel educativo con técnica 'explica en capas como cebolla'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica un concepto pelando capas conceptuales.",
+    title: "Edukacyjny reel z techniką „wyjaśnij warstwami jak cebula”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśnij pojęcie, „obierając” konceptualne warstwy.",
     prompt: `Inputs:
-- Concepto.
-- 3 capas.
+- Pojęcie.
+- 3 warstwy.
 
-Genera:
+Wygeneruj:
 1) Hook,
-2) Capa 1 simple,
-3) Capa 2 intermedia,
-4) Capa 3 profunda,
-5) CTA educativa.`,
+2) Warstwa 1 prosta,
+3) Warstwa 2 średnia,
+4) Warstwa 3 głęboka,
+5) Edukacyjne CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-088",
-    title: "Reel 'esto lo entendiste mal toda tu vida'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Corrige una creencia masiva.",
+    title: "Reel „źle to rozumiałeś całe życie”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Skoryguj masowe przekonanie.",
     prompt: `Inputs:
-- Creencia común.
-- Realidad correcta.
-- Ejemplo real.
+- Powszechne przekonanie.
+- Poprawna rzeczywistość.
+- Realny przykład.
 
-Estructura:
-1) Hook fuerte.
-2) Corrección.
-3) Explicación simple.
-4) Ejemplo.
+Struktura:
+1) Mocny hook.
+2) Korekta.
+3) Proste wyjaśnienie.
+4) Przykład.
 5) CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-089",
-    title: "Reel educativo usando ejemplo deportivo",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica un concepto usando deportes como metáfora.",
+    title: "Edukacyjny reel z przykładami sportowymi",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśnij pojęcie używając sportu jako metafory.",
     prompt: `Inputs:
-- Deporte.
-- Acción clave.
-- Concepto.
+- Sport.
+- Kluczowa akcja.
+- Pojęcie.
 
-Estructura:
-1) Hook visual deportivo.
-2) Explicación paralela.
-3) Ejemplo real.
-4) Lección.
+Struktura:
+1) Sportowy hook wizualny.
+2) Równoległe wyjaśnienie.
+3) Realny przykład.
+4) Lekcja.
 5) CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-090",
-    title: "Reel 'te explico esto como si fueras gamer'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Usa terminología gamer para enseñar.",
+    title: "Reel „wyjaśnię Ci to jakbyś był gamerem”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Użyj terminologii gracza do nauki.",
     prompt: `Inputs:
-- Concepto.
-- Mecánica gamer (XP, niveles, bosses, skills).
+- Pojęcie.
+- Mechanika gracza (XP, levele, bossowie, skille).
 
-Estructura:
-1) Hook gamer.
-2) Mapeo concepto ↔ mecánica.
-3) Ejemplo.
-4) Frase punchline.
-5) CTA guardar.`,
+Struktura:
+1) Gamer hook.
+2) Mapowanie pojęcie ↔ mechanika.
+3) Przykład.
+4) Zdanie-puenta.
+5) CTA: zapisz.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-091",
-    title: "Reel educativo en formato checklist verbal",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Enseña un tema enumerando ítems de una lista.",
+    title: "Edukacyjny reel w formie werbalnej checklisty",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Ucz tematu poprzez wyliczanie punktów listy.",
     prompt: `Inputs:
-- Tema.
-- 5 ítems checklist.
+- Temat.
+- 5 punktów checklisty.
 
-Genera:
-1) Hook: “Checklist para entender X…”
-2) Ítems con micro explicaciones.
-3) CTA guardar.`,
+Wygeneruj:
+1) Hook: “Checklista, żeby zrozumieć X…”
+2) Punkty z mikro wyjaśnieniami.
+3) CTA: zapisz.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-092",
-    title: "Reel 'cómo explicarle esto a alguien que no sabe nada'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Versión hiper simplificada de un concepto.",
+    title: "Reel „jak wytłumaczyć to komuś, kto nic nie wie”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Hiper uproszczona wersja pojęcia.",
     prompt: `Inputs:
-- Concepto.
-- Ejemplo simple.
+- Pojęcie.
+- Prosty przykład.
 
-Estructura:
-1) Explicación ultra simple.
-2) Ejemplo.
-3) Aplicación.
-4) CTA educativa.`,
+Struktura:
+1) Ultra proste wyjaśnienie.
+2) Przykład.
+3) Zastosowanie.
+4) Edukacyjne CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-093",
-    title: "Reel educativo estilo libro para niños",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica un concepto usando tono infantil educativo.",
+    title: "Edukacyjny reel w stylu książki dla dzieci",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśnij pojęcie w dziecięcym, edukacyjnym tonie.",
     prompt: `Inputs:
-- Concepto.
-- Objeto o metáfora infantil.
+- Pojęcie.
+- Dziecięcy obiekt lub metafora.
 
-Genera:
-1) Hook en tono tierno.
-2) Explicación simple.
-3) Mini historia.
-4) Conclusión.
-5) CTA guardar.`,
+Wygeneruj:
+1) Hook w czułym tonie.
+2) Proste wyjaśnienie.
+3) Mini historię.
+4) Zakończenie.
+5) CTA: zapisz.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-094",
-    title: "Reel 'esto funciona porque tu cerebro opera así'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica el fundamento neurológico o cognitivo.",
+    title: "Reel „to działa, bo Twój mózg tak działa”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśnij neurologiczne lub kognitywne podstawy.",
     prompt: `Inputs:
-- Concepto.
-- Mecanismo del cerebro.
+- Pojęcie.
+- Mechanizm mózgu.
 
-Estructura:
-1) Hook científico simple.
-2) Explicación del mecanismo.
-3) Ejemplo cotidiano.
-4) Aplicación.
+Struktura:
+1) Prosty naukowy hook.
+2) Wyjaśnienie mechanizmu.
+3) Codzienny przykład.
+4) Zastosowanie.
 5) CTA.`,
     thumbnail: "",
   },
@@ -2033,116 +2030,116 @@ Estructura:
   {
     id: "reel-tiktok-095",
     title:
-      "Reel educativo siguiendo estructura matemática (problema → método → solución)",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Usa lógica matemática para enseñar.",
+      "Edukacyjny reel według struktury matematycznej (problem → metoda → rozwiązanie)",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Użyj logiki matematycznej do nauczania.",
     prompt: `Inputs:
-- Problema típico.
-- Método.
-- Solución.
+- Typowy problem.
+- Metoda.
+- Rozwiązanie.
 
-Genera:
+Wygeneruj:
 1) Hook,
-2) Problema,
-3) Método,
-4) Solución,
-5) CTA guardar.`,
+2) Problem,
+3) Metoda,
+4) Rozwiązanie,
+5) CTA: zapisz.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-096",
-    title: "Reel educativo usando escalera de 5 niveles",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica algo en 5 niveles progresivos.",
+    title: "Edukacyjny reel z 5-stopniową drabiną",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśnij coś na 5 progresywnych poziomach.",
     prompt: `Inputs:
-- Concepto.
-- 5 niveles de complejidad.
+- Pojęcie.
+- 5 poziomów złożoności.
 
-Estructura:
+Struktura:
 1) Hook,
-2) Nivel 1 → Nivel 5,
-3) Conclusión,
+2) Poziom 1 → Poziom 5,
+3) Zakończenie,
 4) CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-097",
-    title: "Reel 'si entiendes esta regla, entiendes todo el tema'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Destaca una regla maestra.",
+    title: "Reel „jeśli rozumiesz tę zasadę, rozumiesz cały temat”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Podkreśl główną regułę.",
     prompt: `Inputs:
-- Regla central.
-- Ejemplos donde se aplica.
+- Centralna zasada.
+- Przykłady zastosowania.
 
-Genera:
+Wygeneruj:
 1) Hook,
-2) Regla,
-3) Ejemplo 1,
-4) Ejemplo 2,
-5) CTA educativa.`,
+2) Zasadę,
+3) Przykład 1,
+4) Przykład 2,
+5) Edukacyjne CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-098",
-    title: "Reel educativo con metáfora de cocina",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica un concepto usando recetas o cocina.",
+    title: "Edukacyjny reel z metaforą gotowania",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśnij pojęcie używając przepisów lub kuchni.",
     prompt: `Inputs:
-- Concepto.
-- Receta o técnica culinaria.
+- Pojęcie.
+- Przepis lub technika kulinarna.
 
-Estructura:
-1) Hook culinario.
-2) Explicación paralela.
-3) Mini ejemplo.
-4) Lección.
-5) CTA guardar.`,
+Struktura:
+1) Kulinarny hook.
+2) Równoległe wyjaśnienie.
+3) Mini przykład.
+4) Lekcja.
+5) CTA: zapisz.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-099",
-    title: "Reel educativo usando animales como metáfora",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Explica usando comportamientos animales.",
+    title: "Edukacyjny reel z użyciem zwierząt jako metafory",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Wyjaśnij pojęcie zachowaniami zwierząt.",
     prompt: `Inputs:
-- Animal.
-- Comportamiento.
-- Concepto a enseñar.
+- Zwierzę.
+- Zachowanie.
+- Pojęcie do nauczenia.
 
-Genera:
-1) Hook visual,
-2) Explicación,
-3) Ejemplo,
-4) Conclusión,
+Wygeneruj:
+1) Wizualny hook,
+2) Wyjaśnienie,
+3) Przykład,
+4) Zakończenie,
 5) CTA.`,
     thumbnail: "",
   },
 
   {
     id: "reel-tiktok-100",
-    title: "Reel 'esto es lo primero que debes entender antes de aprender X'",
-    area: "Redes Sociales",
-    category: "Reels & TikTok",
-    summary: "Enseña el prerequisito esencial de un tema.",
+    title: "Reel „to jest pierwsza rzecz, którą musisz zrozumieć zanim nauczysz się X”",
+    area: "Media społecznościowe",
+    category: "Reels i TikTok",
+    summary: "Ucz kluczowego prerekwizytu tematu.",
     prompt: `Inputs:
-- Tema final.
-- Habilidad o conocimiento previo necesario.
+- Docelowy temat.
+- Wymagana wcześniejsza umiejętność lub wiedza.
 
-Estructura:
-1) Hook revelador,
-2) Explicación del prerequisito,
-3) Ejemplo,
-4) Cómo dominarlo,
-5) CTA guardar.`,
+Struktura:
+1) Ujawniający hook,
+2) Wyjaśnienie prerekwizytu,
+3) Przykład,
+4) Jak to opanować,
+5) CTA: zapisz.`,
     thumbnail: "",
   },
 ];

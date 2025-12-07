@@ -1,803 +1,802 @@
 export const textPromptsMiscTono = [
   {
     id: "misc-tono-001",
-    title: "Reescritura en tono profesional ultra-claro",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
+    title: "Przeredagowanie na ultra-jasny, profesjonalny ton",
+    area: "Zaawansowane Różne",
+    category: "Ton",
     summary:
-      "Transforma cualquier texto en un mensaje profesional, claro y directo con autoridad.",
-    prompt: `Actúa como un consultor senior en comunicación corporativa.
+      "Zamienia dowolny tekst w profesjonalny, klarowny i bezpośredni przekaz z autorytetem.",
+    prompt: `Wciel się w rolę senior konsultanta ds. komunikacji korporacyjnej.
 
-Dame:
-- Texto original.
-- Nivel de formalidad deseado (formal, corporativo estándar, profesional cálido).
+Podaj:
+- Oryginalny tekst.
+- Pożądany poziom formalności (formalny, standard korporacyjny, profesjonalny ciepły).
 
-Genera:
-1) Versión profesional clara.
-2) Versión corporativa estándar.
-3) Versión profesional cálida.
-4) Notas de mejora y pulido.`,
+Wygeneruj:
+1) Klarowną wersję profesjonalną.
+2) Wersję w standardzie korporacyjnym.
+3) Ciepłą wersję profesjonalną.
+4) Uwagi dot. ulepszeń i dopracowania.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-002",
-    title: "Transformación a tono emocional persuasivo",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
+    title: "Transformacja do perswazyjnego tonu emocjonalnego",
+    area: "Zaawansowane Różne",
+    category: "Ton",
     summary:
-      "Convierte un mensaje neutro en uno profundamente emocional que conecte.",
-    prompt: `Actúa como un experto en comunicación emocional.
+      "Zamienia neutralny przekaz w głęboko emocjonalny, który buduje więź.",
+    prompt: `Wciel się w rolę eksperta od komunikacji emocjonalnej.
 
-Dame:
-- Texto original.
-- Emoción principal a transmitir (esperanza, urgencia, tristeza, ilusión, seguridad).
+Podaj:
+- Oryginalny tekst.
+- Główną emocję do przekazania (nadzieja, pilność, smutek, ekscytacja, poczucie bezpieczeństwa).
 
-Genera:
-1) Versión emocional suave.
-2) Versión emocional media.
-3) Versión emocional intensa.
-4) Explica por qué cada cambio funciona.`,
+Wygeneruj:
+1) Łagodną wersję emocjonalną.
+2) Średnią wersję emocjonalną.
+3) Intensywną wersję emocjonalną.
+4) Wyjaśnij, dlaczego każda zmiana działa.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-003",
-    title: "Versión minimalista premium",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Reduce un texto a su forma más elegante y esencial.",
-    prompt: `Actúa como un editor premium especializado en marcas de lujo.
+    title: "Minimalistyczna wersja premium",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Redukuje tekst do najbardziej eleganckiej i esencjonalnej formy.",
+    prompt: `Wciel się w rolę premium redaktora specjalizującego się w markach luksusowych.
 
-Dame:
-- Texto original.
+Podaj:
+- Oryginalny tekst.
 
-Genera:
-1) Versión minimalista limpia.
-2) Versión minimalista premium.
-3) Eliminación de ruido verbal.
-4) Explicación del enfoque minimal.`,
+Wygeneruj:
+1) Czystą minimalistyczną wersję.
+2) Premium minimalistyczną wersję.
+3) Usunięcie „szumu” językowego.
+4) Wyjaśnienie podejścia minimalistycznego.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-004",
-    title: "Tono disruptivo y atrevido",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Convierte un mensaje común en uno atrevido, directo y llamativo.",
-    prompt: `Actúa como un copywriter disruptivo.
+    title: "Ton disruptywny i zuchwały",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Zamienia zwykły przekaz w odważny, bezpośredni i przyciągający uwagę.",
+    prompt: `Wciel się w rolę disruptywnego copywritera.
 
-Dame:
-- Texto original.
-- Nivel de atrevimiento (bajo, medio, alto).
+Podaj:
+- Oryginalny tekst.
+- Poziom odwagi (niski, średni, wysoki).
 
-Genera:
-1) 3 versiones con diferente nivel de atrevimiento.
-2) Recomendación de cuál usar y por qué.`,
+Wygeneruj:
+1) 3 wersje o różnym poziomie odwagi.
+2) Rekomendację, której użyć i dlaczego.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-005",
-    title: "Tono humorístico inteligente",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
+    title: "Inteligentny, subtelnie humorystyczny ton",
+    area: "Zaawansowane Różne",
+    category: "Ton",
     summary:
-      "Convierte cualquier texto en una versión con humor fino y elegante.",
-    prompt: `Actúa como escritor especializado en humor inteligente.
+      "Zamienia dowolny tekst w wersję z finezyjnym, eleganckim humorem.",
+    prompt: `Wciel się w rolę autora specjalizującego się w inteligentnym humorze.
 
-Dame:
-- Texto original.
-- Tipo de humor deseado (sarcasmo suave, ingenioso, conversacional).
+Podaj:
+- Oryginalny tekst.
+- Preferowany typ humoru (lekki sarkazm, błyskotliwy, konwersacyjny).
 
-Genera:
-1) Versión con humor sutil.
-2) Versión con humor ingenioso.
-3) Versión con humor conversacional.
-4) Notas para mantener el humor elegante.`,
+Wygeneruj:
+1) Wersję z subtelnym humorem.
+2) Wersję z błyskotliwym humorem.
+3) Wersję z humorem konwersacyjnym.
+4) Notatki, jak utrzymać humor w eleganckiej formie.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-006",
-    title: "Tono aspiracional y visionario",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
+    title: "Ton aspiracyjny i wizjonerski",
+    area: "Zaawansowane Różne",
+    category: "Ton",
     summary:
-      "Convierte un mensaje común en uno inspirador, estilo conferencia TED.",
-    prompt: `Actúa como un consultor de comunicación aspiracional.
+      "Zamienia zwykły przekaz w inspirujący — w stylu wystąpienia TED.",
+    prompt: `Wciel się w rolę konsultanta ds. komunikacji aspiracyjnej.
 
-Dame:
-- Texto original.
-- Meta que busca inspirar.
+Podaj:
+- Oryginalny tekst.
+- Cel, który ma inspirować.
 
-Genera:
-1) Versión aspiracional corta.
-2) Versión aspiracional extendida.
-3) Mensaje central visionario.
-4) Frase final memorable.`,
+Wygeneruj:
+1) Krótką wersję aspiracyjną.
+2) Rozszerzoną wersję aspiracyjną.
+3) Wizjonerskie przesłanie centralne.
+4) Zapadające w pamięć zdanie na koniec.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-007",
-    title: "Tono cercano y humano",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Reescribe en un tono cálido, empático y conversacional.",
-    prompt: `Actúa como un experto en comunicación cercana.
+    title: "Ton bliski i ludzki",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Przeredagowuje na ton ciepły, empatyczny i konwersacyjny.",
+    prompt: `Wciel się w rolę eksperta od komunikacji „blisko ludzi”.
 
-Dame:
-- Texto original.
+Podaj:
+- Oryginalny tekst.
 
-Genera:
-1) Versión cercana casual.
-2) Versión cercana profesional.
-3) 3 sugerencias para sonar más humano.`,
+Wygeneruj:
+1) Luźną wersję „bliską”.
+2) Profesjonalną wersję „bliską”.
+3) 3 sugestie, jak brzmieć bardziej po ludzku.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-008",
-    title: "Tono agresivo de venta directa",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
+    title: "Agresywny ton bezpośredniej sprzedaży",
+    area: "Zaawansowane Różne",
+    category: "Ton",
     summary:
-      "Convierte un mensaje suave en uno directo y orientado a acción inmediata.",
-    prompt: `Actúa como un consultor especializado en ventas agresivas.
+      "Zamienia łagodny przekaz w bezpośredni, nastawiony na natychmiastowe działanie.",
+    prompt: `Wciel się w rolę konsultanta specjalizującego się w agresywnej sprzedaży.
 
-Dame:
-- Texto original.
-- Producto/servicio.
-- Nivel de agresividad (bajo, medio, alto).
+Podaj:
+- Oryginalny tekst.
+- Produkt/usługę.
+- Poziom agresywności (niski, średni, wysoki).
 
-Genera:
-1) 3 versiones con distintos niveles de urgencia.
-2) CTA agresivo recomendado.
-3) Justificación del tono.`,
+Wygeneruj:
+1) 3 wersje z różnym poziomem pilności.
+2) Rekomendowane agresywne CTA.
+3) Uzasadnienie tonu.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-009",
-    title: "Tono storytelling narrativo",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Transforma el mensaje en una microhistoria memorable.",
-    prompt: `Actúa como experto en storytelling.
+    title: "Narracyjny ton storytellingowy",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Zamienia przekaz w zapadającą w pamięć mikrohistorię.",
+    prompt: `Wciel się w rolę eksperta od storytellingu.
 
-Dame:
-- Texto original.
-- Contexto del mensaje.
+Podaj:
+- Oryginalny tekst.
+- Kontekst przekazu.
 
-Genera:
-1) Versión estilo microcuento.
-2) Versión estilo anécdota personal.
-3) Versión estilo narrativa emocional.
-4) 3 ganchos narrativos.`,
+Wygeneruj:
+1) Wersję w stylu mikroopowiadania.
+2) Wersję w stylu osobistej anegdoty.
+3) Wersję w stylu narracji emocjonalnej.
+4) 3 narracyjne „haczyki”.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-010",
-    title: "Tono técnico profesional",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Crea una versión técnica con precisión y claridad lógica.",
-    prompt: `Actúa como un consultor técnico senior.
+    title: "Profesjonalny ton techniczny",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Tworzy techniczną wersję z precyzją i logiczną klarownością.",
+    prompt: `Wciel się w rolę senior konsultanta technicznego.
 
-Dame:
-- Texto original.
-- Área técnica (software, ingeniería, ciencia, datos, automatización).
+Podaj:
+- Oryginalny tekst.
+- Obszar techniczny (software, inżynieria, nauka, dane, automatyzacja).
 
-Genera:
-1) Versión técnica clara.
-2) Versión técnica avanzada.
-3) Glosario simple de términos usados.`,
+Wygeneruj:
+1) Klarowną wersję techniczną.
+2) Zaawansowaną wersję techniczną.
+3) Prosty glosariusz użytych pojęć.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-011",
-    title: "Tono elegante y sofisticado",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Reescribe con estilo refinado, editorial y premium.",
-    prompt: `Actúa como un editor de revistas de lujo.
+    title: "Ton elegancki i wyrafinowany",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Przeredagowuje w stylu dopracowanym, editorialowym i premium.",
+    prompt: `Wciel się w rolę redaktora magazynu luksusowego.
 
-Dame:
-- Texto original.
+Podaj:
+- Oryginalny tekst.
 
-Genera:
-1) Versión elegante clásica.
-2) Versión elegante moderna.
-3) Frase final con alto refinamiento.`,
+Wygeneruj:
+1) Klasyczną wersję elegancką.
+2) Nowoczesną wersję elegancką.
+3) Wyrafinowane zdanie końcowe.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-012",
-    title: "Tono motivacional realista",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Motiva sin clichés, con honestidad y profundidad.",
-    prompt: `Actúa como un coach de comunicación realista.
+    title: "Realistyczny ton motywacyjny",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Motywuje bez klisz — uczciwie i z głębią.",
+    prompt: `Wciel się w rolę coacha realistycznej komunikacji.
 
-Dame:
-- Texto original.
-- Nivel de intensidad (suave, medio, fuerte).
+Podaj:
+- Oryginalny tekst.
+- Poziom intensywności (łagodny, średni, mocny).
 
-Genera:
-1) Versión motivacional suave.
-2) Versión motivacional media.
-3) Versión motivacional fuerte.
-4) Mensaje de acción realista.`,
+Wygeneruj:
+1) Łagodną wersję motywacyjną.
+2) Średnią wersję motywacyjną.
+3) Mocną wersję motywacyjną.
+4) Realistyczny komunikat do działania.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-013",
-    title: "Tono autoritario y experto",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Convierte el texto en un mensaje firme, seguro y de autoridad.",
-    prompt: `Actúa como un líder experto o consultor senior.
+    title: "Ton autorytatywny i ekspercki",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Zamienia tekst w pewny, stanowczy przekaz z autorytetem.",
+    prompt: `Wciel się w rolę eksperckiego lidera lub senior konsultanta.
 
-Dame:
-- Texto original.
+Podaj:
+- Oryginalny tekst.
 
-Genera:
-1) Versión autoritaria directa.
-2) Versión experta moderada.
-3) Frases clave de autoridad.`,
+Wygeneruj:
+1) Bezpośrednią wersję autorytatywną.
+2) Umiarkowaną wersję ekspercką.
+3) Kluczowe frazy budujące autorytet.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-014",
-    title: "Tono juvenil urbano",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Traduce un texto a lenguaje moderno, fresco y urbano.",
-    prompt: `Actúa como experto en comunicación juvenil.
+    title: "Młodzieżowy, miejski ton",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Przepisuje tekst na nowoczesny, świeży i miejski język.",
+    prompt: `Wciel się w rolę eksperta od komunikacji młodzieżowej.
 
-Dame:
-- Texto original.
-- Nivel de frescura (suave, medio, full urbano).
+Podaj:
+- Oryginalny tekst.
+- Poziom „fresh” (łagodny, średni, full miejski).
 
-Genera:
-1) Versión suave juvenil.
-2) Versión media urbana.
-3) Versión full urbano.
-4) Glosario opcional.`,
+Wygeneruj:
+1) Łagodną młodzieżową wersję.
+2) Średnią miejską wersję.
+3) Wersję full miejski.
+4) Opcjonalny glosariusz.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-015",
-    title: "Tono elegante-misterioso",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Convierte un texto en un mensaje intrigante y enigmático.",
-    prompt: `Actúa como especialista en comunicación misteriosa.
+    title: "Ton elegancko-tajemniczy",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Zamienia tekst w intrygujący, enigmatyczny przekaz.",
+    prompt: `Wciel się w rolę specjalisty od tajemniczej komunikacji.
 
-Dame:
-- Texto original.
+Podaj:
+- Oryginalny tekst.
 
-Genera:
-1) Versión elegante-misteriosa corta.
-2) Versión elegante-misteriosa larga.
-3) Frase final enigmática.`,
+Wygeneruj:
+1) Krótką wersję elegancko-tajemniczą.
+2) Długą wersję elegancko-tajemniczą.
+3) Enigmatyczne zdanie końcowe.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-016",
-    title: "Tono directo sin rodeos",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Reescribe sin adornos, sin diplomacia y directo al punto.",
-    prompt: `Actúa como comunicador directo.
+    title: "Ton bez owijania w bawełnę",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Przepisuje bez ozdobników, bez dyplomacji — prosto do rzeczy.",
+    prompt: `Wciel się w rolę bezpośredniego komunikatora.
 
-Dame:
-- Texto original.
-- Nivel de franqueza (suave, medio, alto).
+Podaj:
+- Oryginalny tekst.
+- Poziom szczerości (łagodny, średni, wysoki).
 
-Genera:
-1) 3 versiones con distinto nivel de franqueza.
-2) Notas para mejorar la claridad.`,
+Wygeneruj:
+1) 3 wersje o różnym poziomie szczerości.
+2) Notatki jak poprawić klarowność.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-017",
-    title: "Tono inspiracional espiritual",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Crea una versión elevada, reflexiva y conectada con propósito.",
-    prompt: `Actúa como escritor espiritual.
+    title: "Ton inspiracyjny duchowy",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Tworzy podniosłą, refleksyjną wersję osadzoną w poczuciu sensu.",
+    prompt: `Wciel się w rolę autora tekstów duchowych.
 
-Dame:
-- Texto original.
-- Profundidad deseada (suave o profunda).
+Podaj:
+- Oryginalny tekst.
+- Pożądaną głębię (łagodna lub głęboka).
 
-Genera:
-1) Versión inspiracional suave.
-2) Versión inspiracional profunda.
-3) Mensaje de cierre con propósito.`,
+Wygeneruj:
+1) Łagodną wersję inspiracyjną.
+2) Głęboką wersję inspiracyjną.
+3) Końcowy przekaz z poczuciem celu.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-018",
-    title: "Tono analítico lógico",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary:
-      "Convierte el texto en un análisis claro, estructurado y racional.",
-    prompt: `Actúa como un consultor analítico.
+    title: "Ton analityczny i logiczny",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Zamienia tekst w klarowną, strukturalną i racjonalną analizę.",
+    prompt: `Wciel się w rolę konsultanta analitycznego.
 
-Dame:
-- Texto original.
+Podaj:
+- Oryginalny tekst.
 
-Genera:
-1) Versión analítica en párrafo.
-2) Versión analítica en bullets.
-3) Cadena lógica de causa-efecto.`,
+Wygeneruj:
+1) Wersję analityczną w akapicie.
+2) Wersję analityczną w bulletach.
+3) Łańcuch logiczny przyczyna–skutek.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-019",
-    title: "Tono amable para atención al cliente",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Reescribe a un tono cordial, calmado y empático.",
-    prompt: `Actúa como especialista en soporte amable.
+    title: "Uprzejmy ton do obsługi klienta",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Przepisuje na ton serdeczny, spokojny i empatyczny.",
+    prompt: `Wciel się w rolę specjalisty od uprzejmego wsparcia.
 
-Dame:
-- Texto original.
+Podaj:
+- Oryginalny tekst.
 
-Genera:
-1) Versión amable estándar.
-2) Versión amable premium.
-3) Sugerencia de mejora en empatía.`,
+Wygeneruj:
+1) Standardową uprzejmą wersję.
+2) Premium uprzejmą wersję.
+3) Sugestię, jak wzmocnić empatię.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-020",
-    title: "Tono de autoridad carismática",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
+    title: "Ton charyzmatycznego autorytetu",
+    area: "Zaawansowane Różne",
+    category: "Ton",
     summary:
-      "Transforma un mensaje para que suene seguro, experto y carismático.",
-    prompt: `Actúa como experto en liderazgo comunicacional.
+      "Zamienia przekaz tak, by brzmiał pewnie, ekspercko i charyzmatycznie.",
+    prompt: `Wciel się w rolę eksperta od komunikacji liderskiej.
 
-Dame:
-- Texto original.
+Podaj:
+- Oryginalny tekst.
 
-Genera:
-1) Versión carismática suave.
-2) Versión carismática media.
-3) Versión carismática alta.
-4) Frases de poder recomendadas.`,
+Wygeneruj:
+1) Łagodną wersję charyzmatyczną.
+2) Średnią wersję charyzmatyczną.
+3) Mocną wersję charyzmatyczną.
+4) Rekomendowane „frazy mocy”.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-021",
-    title: "Ajuste de tono para posicionamiento de marca de alto nivel",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
+    title: "Dopasowanie tonu do pozycjonowania marki premium",
+    area: "Zaawansowane Różne",
+    category: "Ton",
     summary:
-      "Convierte cualquier mensaje en una pieza alineada con el posicionamiento estratégico de la marca.",
-    prompt: `Actúa como un consultor senior en brand voice para marcas premium.
+      "Zamienia dowolny przekaz w tekst spójny ze strategicznym pozycjonowaniem marki.",
+    prompt: `Wciel się w rolę senior konsultanta brand voice dla marek premium.
 
-Dame:
-- Texto original.
-- Estadio de la marca (nueva, en expansión, reposicionamiento, consolidada).
-- Personalidad exacta de la marca (3 a 5 atributos).
-- Contexto donde se usará (web, anuncio, pitch, email, redes).
+Podaj:
+- Oryginalny tekst.
+- Etap marki (nowa, w ekspansji, repozycjonowanie, ugruntowana).
+- Dokładną osobowość marki (3–5 atrybutów).
+- Kontekst użycia (www, reklama, pitch, email, social media).
 
-Genera:
-1) Reescritura en tono perfectamente alineado al posicionamiento.
-2) Explicación de decisiones estratégicas de tono.
-3) Lista de palabras recomendadas y palabras prohibidas.
-4) Versión alternativa más arriesgada para pruebas A/B.
-5) Lineamientos de consistencia para mantener ese tono en otros textos.`,
+Wygeneruj:
+1) Przeredagowanie idealnie dopasowane do pozycjonowania.
+2) Wyjaśnienie strategicznych decyzji dotyczących tonu.
+3) Listę słów zalecanych i słów zakazanych.
+4) Alternatywną, bardziej ryzykowną wersję do testów A/B.
+5) Wytyczne spójności, by utrzymać ten ton w innych tekstach.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-022",
-    title: "Transformación avanzada a tono editorial de revista premium",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
+    title: "Zaawansowana transformacja do premium tonu editorialowego magazynu",
+    area: "Zaawansowane Różne",
+    category: "Ton",
     summary:
-      "Convierte un texto común en una pieza editorial con estética literaria de alta gama.",
-    prompt: `Actúa como editor jefe de una revista de lujo (tipo Vogue, GQ o Harper’s Bazaar).
+      "Zamienia zwykły tekst w editorial o literackiej estetyce wysokiej klasy.",
+    prompt: `Wciel się w rolę redaktora naczelnego luksusowego magazynu (w stylu Vogue, GQ lub Harper’s Bazaar).
 
-Dame:
-- Texto original.
-- Emoción dominante a transmitir.
-- Nivel de sofisticación (alto, muy alto, extremo).
+Podaj:
+- Oryginalny tekst.
+- Dominującą emocję do przekazania.
+- Poziom wyrafinowania (wysoki, bardzo wysoki, ekstremalny).
 
-Genera:
-1) Reescritura editorial llena de ritmo, cadencia y estilo.
-2) Inserción de metáforas discretas y elegantes.
-3) Versión alternativa minimalista-editorial.
-4) Explicación del estilo aplicado (léxico, cadencia, densidad estética).
-5) Frases sugeridas para abrir y cerrar de forma memorable.`,
+Wygeneruj:
+1) Editorialową wersję pełną rytmu, kadencji i stylu.
+2) Dyskretne, eleganckie metafory.
+3) Alternatywną wersję minimalistyczno-editorialową.
+4) Wyjaśnienie zastosowanego stylu (leksyka, kadencja, gęstość estetyczna).
+5) Proponowane zdania otwierające i zamykające — zapadające w pamięć.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-023",
-    title: "Conversión a tono clínico-científico con precisión extrema",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Reescritura técnica con rigor científico sin perder claridad.",
-    prompt: `Actúa como un editor académico experto en redacción científica.
+    title: "Konwersja do tonu kliniczno-naukowego z ekstremalną precyzją",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Techniczne przepisanie z rygorem naukowym bez utraty klarowności.",
+    prompt: `Wciel się w rolę akademickiego redaktora — eksperta od redakcji naukowej.
 
-Dame:
-- Texto original.
-- Campo científico (psicología, neurociencia, medicina, biotecnología, IA, etc.).
-- Nivel de tecnicismo permitido por la audiencia.
+Podaj:
+- Oryginalny tekst.
+- Dziedzinę naukową (psychologia, neuronauka, medycyna, biotechnologia, AI itd.).
+- Poziom techniczności akceptowalny dla odbiorców.
 
-Genera:
-1) Versión clínica-científica de alta precisión.
-2) Versión más divulgativa sin perder rigor.
-3) Correcciones terminológicas necesarias.
-4) Mini-glosario técnico del texto resultante.
-5) Explicación de cómo adaptaste precisión + claridad.`,
+Wygeneruj:
+1) Wysokoprecyzyjną wersję kliniczno-naukową.
+2) Bardziej popularnonaukową wersję bez utraty rygoru.
+3) Niezbędne korekty terminologiczne.
+4) Mini-glosariusz techniczny wynikowego tekstu.
+5) Wyjaśnienie, jak pogodziłeś/-aś precyzję i klarowność.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-024",
-    title: "Tono premium para discursos de liderazgo ejecutivo",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
+    title: "Premium ton do przemówień liderów wykonawczych",
+    area: "Zaawansowane Różne",
+    category: "Ton",
     summary:
-      "Convierte cualquier texto en un mensaje de CEO con visión, fuerza y claridad estratégica.",
-    prompt: `Actúa como speechwriter de ejecutivos C-level de empresas globales.
+      "Zamienia dowolny tekst w przekaz CEO: wizjonerski, mocny i strategicznie klarowny.",
+    prompt: `Wciel się w rolę speechwritera dla kadry C-level globalnych firm.
 
-Dame:
-- Texto original.
-- Objetivo del discurso.
-- Contexto (crisis, anuncio importante, motivación del equipo, reporte anual, visión a futuro).
-- Nivel de firmeza deseado.
+Podaj:
+- Oryginalny tekst.
+- Cel przemówienia.
+- Kontekst (kryzys, ważne ogłoszenie, motywacja zespołu, raport roczny, wizja przyszłości).
+- Poziom pożądanej stanowczości.
 
-Genera:
-1) Versión estilo CEO inspirador.
-2) Versión estilo CEO directo y estratégico.
-3) Versión estilo CEO empático y humano.
-4) 5 frases de liderazgo de alto impacto.
-5) Recomendaciones para el delivery (pausas, énfasis, tempo).`,
+Wygeneruj:
+1) Wersję w stylu inspirującego CEO.
+2) Wersję w stylu bezpośredniego, strategicznego CEO.
+3) Wersję w stylu empatycznego, „ludzkiego” CEO.
+4) 5 fraz liderskich o wysokim wpływie.
+5) Rekomendacje dot. delivery (pauzy, akcenty, tempo).`,
     thumbnail: "",
   },
   {
     id: "misc-tono-025",
-    title: "Ajuste de tono estilo guionista de Hollywood",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
+    title: "Dopasowanie tonu w stylu scenarzysty z Hollywood",
+    area: "Zaawansowane Różne",
+    category: "Ton",
     summary:
-      "Convierte un texto plano en un mensaje cinematográfico con impacto emocional inmediato.",
-    prompt: `Actúa como un guionista profesional de Hollywood.
+      "Zamienia płaski tekst w filmowy przekaz z natychmiastowym ładunkiem emocjonalnym.",
+    prompt: `Wciel się w rolę profesjonalnego scenarzysty z Hollywood.
 
-Dame:
-- Texto original.
-- Nivel de dramatismo (suave, medio, alto).
-- Tipo de energía deseada: épica, íntima, intensa, misteriosa.
+Podaj:
+- Oryginalny tekst.
+- Poziom dramatyzmu (łagodny, średni, wysoki).
+- Pożądany typ energii: epicka, intymna, intensywna, tajemnicza.
 
-Genera:
-1) Versión cinematográfica con construcción visual.
-2) Versión tipo tráiler (intensa, corta, poderosa).
-3) Versión narrativa emocional.
-4) 5 frases con potencial de guion.
-5) Recomendaciones para acompañarlo con música/voz si fuera usado en video.`,
+Wygeneruj:
+1) Filmową wersję z wizualną konstrukcją.
+2) Wersję typu trailer (intensywna, krótka, mocna).
+3) Emocjonalną wersję narracyjną.
+4) 5 zdań z potencjałem scenariuszowym.
+5) Rekomendacje dot. muzyki/głosu, jeśli użyte w wideo.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-026",
-    title: "Tono intelectual-literario estilo autor de renombre",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Reescritura con voz literaria profunda, poética y filosófica.",
-    prompt: `Actúa como un autor literario reconocido (estilo Murakami, Saramago, Márquez o tu equivalente neutro premium).
+    title: "Ton intelektualno-literacki w stylu uznanego autora",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Przeredagowanie z głębokim, poetyckim i filozoficznym głosem.",
+    prompt: `Wciel się w rolę uznanego autora literackiego (w stylu Murakamiego, Saramago, Márqueza lub neutralnego premium odpowiednika).
 
-Dame:
-- Texto original.
-- Tipo de sensibilidad (poética, introspectiva, filosófica, existencial).
-- Complejidad deseada (media o alta).
+Podaj:
+- Oryginalny tekst.
+- Rodzaj wrażliwości (poetycka, introspektywna, filozoficzna, egzystencjalna).
+- Pożądaną złożoność (średnia lub wysoka).
 
-Genera:
-1) Versión literaria poética.
-2) Versión más filosófica y reflexiva.
-3) Inserción de símbolos o metáforas discretas.
-4) Explicación del subtexto emocional construido.
-5) Frase final tipo novela.`,
+Wygeneruj:
+1) Literacką wersję poetycką.
+2) Bardziej filozoficzną i refleksyjną wersję.
+3) Dyskretne symbole lub metafory.
+4) Wyjaśnienie zbudowanego subtekstu emocjonalnego.
+5) Końcowe zdanie w stylu powieści.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-027",
-    title: "Tono corporativo legal diplomático",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Crea textos precisos, diplomáticos y legalmente seguros.",
-    prompt: `Actúa como asesor de comunicaciones legales corporativas.
+    title: "Dyplomatyczny ton korporacyjno-prawny",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Tworzy precyzyjne, dyplomatyczne i bezpieczne prawnie teksty.",
+    prompt: `Wciel się w rolę doradcy ds. prawnej komunikacji korporacyjnej.
 
-Dame:
-- Texto original.
-- Nivel de sensibilidad del tema.
-- Límites legales o políticas internas a respetar.
+Podaj:
+- Oryginalny tekst.
+- Poziom wrażliwości tematu.
+- Ograniczenia prawne lub polityki wewnętrzne do respektowania.
 
-Genera:
-1) Versión legal diplomática.
-2) Versión legal ultra-clara para evitar interpretaciones dobles.
-3) Lista de riesgos comunicativos evitados.
-4) Palabras recomendadas y prohibidas.
-5) Explicación de por qué el tono es seguro.`,
+Wygeneruj:
+1) Dyplomatyczną wersję prawną.
+2) Ultra-jasną wersję prawną, by uniknąć podwójnych interpretacji.
+3) Listę unikniętych ryzyk komunikacyjnych.
+4) Słowa zalecane i zakazane.
+5) Wyjaśnienie, dlaczego ton jest bezpieczny.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-028",
-    title: "Tono maestro-mentor de autoridad suave",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
+    title: "Ton mistrza-mentora: łagodny autorytet",
+    area: "Zaawansowane Różne",
+    category: "Ton",
     summary:
-      "Reescribe un mensaje para que suene como un mentor sabio, empático y firme.",
-    prompt: `Actúa como un mentor de alto nivel.
+      "Przeredagowuje, by brzmieć jak mądry mentor: empatycznie i stanowczo.",
+    prompt: `Wciel się w rolę mentora wysokiego poziomu.
 
-Dame:
-- Texto original.
-- Edad aproximada de la audiencia.
-- Nivel de cercanía esperado.
+Podaj:
+- Oryginalny tekst.
+- Przybliżony wiek odbiorców.
+- Oczekiwany poziom bliskości.
 
-Genera:
-1) Tono de mentor cálido.
-2) Tono de mentor firme y sabio.
-3) Tono de mentor inspirador.
-4) 3 principios-guía usados en la reescritura.
-5) Recomendaciones para no sonar paternalista.`,
+Wygeneruj:
+1) Ciepły ton mentora.
+2) Stanowczy i mądry ton mentora.
+3) Inspirujący ton mentora.
+4) 3 zasady przewodnie użyte w przeredagowaniu.
+5) Rekomendacje, jak nie brzmieć protekcjonalnie.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-029",
-    title: "Tono hiperconvincente estilo pitch de inversión",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
+    title: "Hiperprzekonujący ton w stylu pitchu inwestycyjnego",
+    area: "Zaawansowane Różne",
+    category: "Ton",
     summary:
-      "Convierte un texto normal en un mensaje con precisión y urgencia estilo pitch para inversionistas.",
-    prompt: `Actúa como consultor de storytelling para startups.
+      "Zamienia normalny tekst w precyzyjny i pilny przekaz w stylu pitchu dla inwestorów.",
+    prompt: `Wciel się w rolę konsultanta storytellingu dla startupów.
 
-Dame:
-- Texto original.
-- Industria.
-- Métrica o valor clave a resaltar.
-- Nivel de ambición.
+Podaj:
+- Oryginalny tekst.
+- Branżę.
+- Kluczową metrykę lub wartość do podkreślenia.
+- Poziom ambicji.
 
-Genera:
-1) Versión estilo pitch directo.
-2) Versión estilo pitch emocional-visionario.
-3) Versión estilo pitch técnico-validado.
-4) 3 frases con potencial para slide de pitch deck.
-5) Qué parte del tono potencia la credibilidad.`,
+Wygeneruj:
+1) Bezpośrednią wersję pitch.
+2) Emocjonalno-wizjonerską wersję pitch.
+3) Technicznie „zwalidowaną” wersję pitch.
+4) 3 zdania z potencjałem na slajd pitch decka.
+5) Co w tonie wzmacnia wiarygodność.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-030",
-    title: "Tono ultra-persuasivo con psicología de influencia avanzada",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Usa principios profundos de persuasión para maximizar impacto.",
-    prompt: `Actúa como consultor experto en psicología del consumidor.
+    title: "Ultra-perswazyjny ton z zaawansowaną psychologią wpływu",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Wykorzystuje głębokie zasady perswazji, by zmaksymalizować efekt.",
+    prompt: `Wciel się w rolę konsultanta — eksperta od psychologii konsumenta.
 
-Dame:
-- Texto original.
-- Objeción principal del lector.
-- Motivación profunda del lector.
-- Acción deseada.
+Podaj:
+- Oryginalny tekst.
+- Główną obiekcję czytelnika.
+- Głęboką motywację czytelnika.
+- Pożądaną akcję.
 
-Genera:
-1) Versión usando sesgo de urgencia.
-2) Versión usando sesgo de autoridad.
-3) Versión usando sesgo de beneficio inmediato.
-4) Explica la psicología detrás de cada versión.
-5) CTA recomendado según el tono.`,
+Wygeneruj:
+1) Wersję z biasem pilności.
+2) Wersję z biasem autorytetu.
+3) Wersję z biasem natychmiastowej korzyści.
+4) Wyjaśnij psychologię stojącą za każdą wersją.
+5) Rekomendowane CTA zgodnie z tonem.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-031",
-    title: "Tono de enseñanza magistral estilo profesor experto",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
+    title: "Ton mistrzowskiego nauczania w stylu profesora-eksperta",
+    area: "Zaawansowane Różne",
+    category: "Ton",
     summary:
-      "Convierte un texto común en uno claro, preciso y didáctico de alto nivel.",
-    prompt: `Actúa como un profesor universitario reconocido.
+      "Zamienia zwykły tekst w klarowny, precyzyjny i dydaktyczny przekaz wysokiego poziomu.",
+    prompt: `Wciel się w rolę uznanego profesora uniwersyteckiego.
 
-Dame:
-- Texto original.
-- Nivel educativo de la audiencia.
-- Objetivo pedagógico.
+Podaj:
+- Oryginalny tekst.
+- Poziom edukacji odbiorców.
+- Cel dydaktyczny.
 
-Genera:
-1) Versión magistral clara.
-2) Versión didáctica en pasos.
-3) Ejemplo práctico añadido.
-4) Notas pedagógicas del tono usado.
-5) Frase final de aprendizaje.`,
+Wygeneruj:
+1) Klarowną wersję wykładową.
+2) Dydaktyczną wersję krok po kroku.
+3) Dodany przykład praktyczny.
+4) Notatki pedagogiczne dot. użytego tonu.
+5) Końcowe zdanie z lekcją.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-032",
-    title: "Tono para audiencias de lujo: sofisticación emocional",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Reescribe para sonar exclusivo, aspiracional y de alto estatus.",
-    prompt: `Actúa como consultor de comunicación para marcas de lujo.
+    title: "Ton dla odbiorców luksusu: emocjonalna wyrafinowana elegancja",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Przeredagowuje tak, by brzmieć ekskluzywnie, aspiracyjnie i „wysoko-statusowo”.",
+    prompt: `Wciel się w rolę konsultanta komunikacji dla marek luksusowych.
 
-Dame:
-- Texto original.
-- Nivel de exclusividad deseado (alto, muy alto, ultra-lujo).
-- Tipo de producto/servicio.
+Podaj:
+- Oryginalny tekst.
+- Pożądany poziom ekskluzywności (wysoki, bardzo wysoki, ultra-luksus).
+- Typ produktu/usługi.
 
-Genera:
-1) Versión lujo clásico.
-2) Versión lujo moderno minimalista.
-3) Versión lujo aspiracional emocional.
-4) Elementos lingüísticos usados para elevar estatus.
-5) Recomendación de tono para cada contexto (web, video, print).`,
+Wygeneruj:
+1) Klasyczną wersję luksusową.
+2) Nowoczesną luksusową wersję minimalistyczną.
+3) Aspiracyjną, emocjonalną wersję luksusową.
+4) Elementy językowe użyte do podniesienia statusu.
+5) Rekomendację tonu dla kontekstu (www, wideo, print).`,
     thumbnail: "",
   },
   {
     id: "misc-tono-033",
-    title: "Ajuste de tono para coaching transformacional",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
+    title: "Dopasowanie tonu do coachingu transformacyjnego",
+    area: "Zaawansowane Różne",
+    category: "Ton",
     summary:
-      "Convierte un texto en un mensaje inspirador, empático y orientado al cambio personal.",
-    prompt: `Actúa como coach transformacional certificado.
+      "Zamienia tekst w inspirujący, empatyczny przekaz zorientowany na zmianę osobistą.",
+    prompt: `Wciel się w rolę certyfikowanego coacha transformacyjnego.
 
-Dame:
-- Texto original.
-- Meta emocional del cliente.
-- Obstáculo principal que atraviesa.
+Podaj:
+- Oryginalny tekst.
+- Cel emocjonalny klienta.
+- Główną przeszkodę, z którą się mierzy.
 
-Genera:
-1) Versión de apoyo emocional.
-2) Versión de empoderamiento directo.
-3) Versión de desafío empático.
-4) Insight transformador añadido como frase clave.
-5) Técnica de coaching usada para construir el tono.`,
+Wygeneruj:
+1) Wersję wsparcia emocjonalnego.
+2) Wersję bezpośredniego wzmocnienia (empowerment).
+3) Wersję empatycznego wyzwania.
+4) Transformujący insight jako zdanie-klucz.
+5) Technikę coachingową używaną do zbudowania tonu.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-034",
-    title: "Tono analítico-corporativo estilo consultora de élite",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
+    title: "Ton analityczno-korporacyjny w stylu elitarnej konsultingowej firmy",
+    area: "Zaawansowane Różne",
+    category: "Ton",
     summary:
-      "Reescritura directa, ejecutiva y basada en datos estilo McKinsey/Bain.",
-    prompt: `Actúa como consultor de una firma élite.
+      "Bezpośrednie, executiveskie dopracowanie oparte na danych w stylu McKinsey/Bain.",
+    prompt: `Wciel się w rolę konsultanta elitarnej firmy.
 
-Dame:
-- Texto original.
-- Métrica clave del mensaje.
-- Nivel de formalidad.
-- Audiencia (directores, gerentes, inversionistas).
+Podaj:
+- Oryginalny tekst.
+- Kluczową metrykę przekazu.
+- Poziom formalności.
+- Odbiorców (dyrektorzy, menedżerowie, inwestorzy).
 
-Genera:
-1) Versión ejecutiva clara.
-2) Versión basada en métricas.
-3) Versión con recomendación estratégica.
-4) Cadena lógica clara (situación → análisis → recomendación).
-5) Notas de estilo corporativo.`,
+Wygeneruj:
+1) Klarowną wersję executiveską.
+2) Wersję opartą na metrykach.
+3) Wersję z rekomendacją strategiczną.
+4) Jasny łańcuch logiki (sytuacja → analiza → rekomendacja).
+5) Notatki dot. stylu korporacyjnego.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-035",
-    title: "Tono reflexivo profundo estilo ensayo filosófico",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
+    title: "Głęboko refleksyjny ton w stylu eseju filozoficznego",
+    area: "Zaawansowane Różne",
+    category: "Ton",
     summary:
-      "Convierte un texto en una reflexión profunda, elegante y existencial.",
-    prompt: `Actúa como ensayista filosófico contemporáneo.
+      "Zamienia tekst w elegancką, egzystencjalną refleksję.",
+    prompt: `Wciel się w rolę współczesnego eseisty filozoficznego.
 
-Dame:
-- Texto original.
-- Enfoque deseado (existencial, ético, introspectivo, crítico).
-- Nivel de complejidad (medio o alto).
+Podaj:
+- Oryginalny tekst.
+- Pożądane ujęcie (egzystencjalne, etyczne, introspektywne, krytyczne).
+- Poziom złożoności (średni lub wysoki).
 
-Genera:
-1) Ensayo breve reflexivo.
-2) Versión más poética y contemplativa.
-3) Idea final que invita a introspección.
-4) Explicación del subtexto filosófico.`,
+Wygeneruj:
+1) Krótki refleksyjny esej.
+2) Bardziej poetycką, kontemplacyjną wersję.
+3) Końcową myśl zapraszającą do introspekcji.
+4) Wyjaśnienie filozoficznego subtekstu.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-036",
-    title: "Tono enérgico-motivacional estilo entrenador de alto rendimiento",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
+    title: "Energetyczno-motywacyjny ton trenera wysokiej wydajności",
+    area: "Zaawansowane Różne",
+    category: "Ton",
     summary:
-      "Reescribe para sonar poderoso, energético y orientado a acción inmediata.",
-    prompt: `Actúa como entrenador de alto rendimiento.
+      "Przeredagowuje, by brzmieć mocno, energetycznie i pod natychmiastowe działanie.",
+    prompt: `Wciel się w rolę trenera wysokiej wydajności.
 
-Dame:
-- Texto original.
-- Objetivo del mensaje.
-- Nivel de energía deseada (medio, alto, extremo).
+Podaj:
+- Oryginalny tekst.
+- Cel przekazu.
+- Poziom energii (średni, wysoki, ekstremalny).
 
-Genera:
-1) Versión motivacional intensa.
-2) Versión motivacional disciplinada.
-3) Versión motivacional emocional.
-4) 3 frases estilo coach.
-5) Indicaciones de ritmo si se usa en video.`,
+Wygeneruj:
+1) Intensywną wersję motywacyjną.
+2) Zdyscyplinowaną wersję motywacyjną.
+3) Emocjonalną wersję motywacyjną.
+4) 3 frazy w stylu coacha.
+5) Wskazówki dot. tempa, jeśli w wideo.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-037",
-    title: "Tono espiritual moderno estilo mindfulness",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Convierte un texto en un mensaje suave, consciente y meditativo.",
-    prompt: `Actúa como guía de mindfulness contemporáneo.
+    title: "Nowoczesny ton duchowy w stylu mindfulness",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Zamienia tekst w łagodny, uważny i medytacyjny przekaz.",
+    prompt: `Wciel się w rolę współczesnego przewodnika mindfulness.
 
-Dame:
-- Texto original.
-- Emoción que el lector debe sentir (paz, claridad, aceptación, presencia).
+Podaj:
+- Oryginalny tekst.
+- Emocję, którą czytelnik ma poczuć (spokój, klarowność, akceptacja, obecność).
 
-Genera:
-1) Versión meditativa suave.
-2) Versión meditativa profunda.
-3) Mantra o frase de enfoque.
-4) Explicación del tono y ritmo.`,
+Wygeneruj:
+1) Łagodną wersję medytacyjną.
+2) Głęboką wersję medytacyjną.
+3) Mantrę lub zdanie fokusujące.
+4) Wyjaśnienie tonu i rytmu.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-038",
-    title: "Tono de autoridad suave para manejo de crisis comunicacional",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
-    summary: "Reescritura para comunicar control, calma y liderazgo en crisis.",
-    prompt: `Actúa como consultor en comunicación de crisis.
+    title: "Łagodny autorytatywny ton do komunikacji kryzysowej",
+    area: "Zaawansowane Różne",
+    category: "Ton",
+    summary: "Przeredagowanie, by komunikować kontrolę, spokój i przywództwo w kryzysie.",
+    prompt: `Wciel się w rolę konsultanta ds. komunikacji kryzysowej.
 
-Dame:
-- Texto original.
-- Tipo de crisis.
-- Nivel de sensibilidad pública.
+Podaj:
+- Oryginalny tekst.
+- Typ kryzysu.
+- Poziom wrażliwości społecznej.
 
-Genera:
-1) Versión calmada y firme.
-2) Versión más empática y humana.
-3) Versión ejecutiva directa.
-4) Lista de riesgos de tono evitados.
-5) Cierre de seguridad y control.`,
+Wygeneruj:
+1) Spokojną i stanowczą wersję.
+2) Bardziej empatyczną i „ludzką” wersję.
+3) Bezpośrednią wersję executiveską.
+4) Listę unikniętych ryzyk tonalnych.
+5) Zakończenie dające poczucie bezpieczeństwa i kontroli.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-039",
-    title: "Tono ultra-claro para explicar ideas complejas a principiantes",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
+    title: "Ultra-jasny ton do tłumaczenia skomplikowanych idei dla początkujących",
+    area: "Zaawansowane Różne",
+    category: "Ton",
     summary:
-      "Convierte conceptos difíciles en mensajes simples sin perder precisión.",
-    prompt: `Actúa como experto en comunicación pedagógica.
+      "Zamienia trudne koncepty w proste komunikaty bez utraty precyzji.",
+    prompt: `Wciel się w rolę eksperta od komunikacji dydaktycznej.
 
-Dame:
-- Texto original.
-- Nivel del público (principiante total, medio).
-- Ejemplos simples del mundo real.
+Podaj:
+- Oryginalny tekst.
+- Poziom odbiorcy (totalny początkujący, średni).
+- Proste przykłady z realnego świata.
 
-Genera:
-1) Explicación simple en tono amigable.
-2) Versión con analogías.
-3) Versión con ejemplo práctico.
-4) 3 líneas que resuman la idea sin perder rigor.`,
+Wygeneruj:
+1) Proste wyjaśnienie w przyjaznym tonie.
+2) Wersję z analogiami.
+3) Wersję z praktycznym przykładem.
+4) 3 linie streszczające ideę bez utraty rygoru.`,
     thumbnail: "",
   },
   {
     id: "misc-tono-040",
-    title: "Tono aspiracional de transformación personal premium",
-    area: "Misceláneos Avanzados",
-    category: "Tono",
+    title: "Aspiracyjny ton premium transformacji osobistej",
+    area: "Zaawansowane Różne",
+    category: "Ton",
     summary:
-      "Convierte un mensaje normal en una declaración transformadora de identidad.",
-    prompt: `Actúa como consultor de comunicación para marcas de desarrollo personal de alto valor.
+      "Zamienia zwykły przekaz w transformującą deklarację tożsamości.",
+    prompt: `Wciel się w rolę konsultanta komunikacji dla marek rozwoju osobistego o wysokiej wartości.
 
-Dame:
-- Texto original.
-- Transformación que quiere lograr el lector.
-- Identidad futura deseada.
+Podaj:
+- Oryginalny tekst.
+- Transformację, jaką czytelnik chce osiągnąć.
+- Pożądaną przyszłą tożsamość.
 
-Genera:
-1) Versión aspiracional transformacional.
-2) Versión tipo manifiesto personal.
-3) Versión emocional poderosa.
-4) Frase final que evoque visión de futuro.
-5) Explicación de cómo el tono impulsa identidad.`,
+Wygeneruj:
+1) Aspiracyjną wersję transformacyjną.
+2) Wersję w stylu osobistego manifestu.
+3) Mocną wersję emocjonalną.
+4) Końcowe zdanie, które przywołuje wizję przyszłości.
+5) Wyjaśnienie, jak ton wzmacnia tożsamość.`,
     thumbnail: "",
   },
 ];

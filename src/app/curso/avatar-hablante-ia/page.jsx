@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { bonus07AvatarHablante } from "@/lib/bonus-07-avatar-hablante-content";
 
-// Helper para formato simple (negritas + saltos de línea) si luego quieres usarlas
+// Helper do prostego formatowania (pogrubienia + łamania linii), jeśli zechcesz ich użyć
 function formatRichText(text) {
   if (!text) return "";
   return text
@@ -20,7 +20,7 @@ export default function BonusAvatarHablantePage() {
 
   return (
     <div className="space-y-6 py-6">
-      {/* 🔙 Botón volver al curso */}
+      {/* 🔙 Przycisk powrotu do kursu */}
       <div className="flex items-center justify-between gap-3">
         <Button
           variant="ghost"
@@ -30,7 +30,7 @@ export default function BonusAvatarHablantePage() {
         >
           <Link href="/curso">
             <ArrowLeft className="mr-2 h-4 w-4" />
-            Volver al inicio del curso
+            Wróć do początku kursu
           </Link>
         </Button>
       </div>

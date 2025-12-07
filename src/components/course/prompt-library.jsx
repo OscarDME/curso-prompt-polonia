@@ -27,8 +27,8 @@ function getIconForType(type) {
 
 export function PromptLibrary({ title, subtitle, items, type }) {
   const [search, setSearch] = useState("");
-  const [area, setArea] = useState("Todas"); // macro categoría (solo texto/imagen)
-  const [category, setCategory] = useState("Todas"); // subcategoría
+  const [area, setArea] = useState("Wszystkie"); // makrokategoria (tylko tekst/obraz)
+  const [category, setCategory] = useState("Wszystkie"); // podkategoria
   const [expandedId, setExpandedId] = useState(null);
   const [copiedId, setCopiedId] = useState(null);
   const [page, setPage] = useState(1);
@@ -38,33 +38,33 @@ export function PromptLibrary({ title, subtitle, items, type }) {
   const Icon = getIconForType(type);
   const isVideo = type === "video";
 
-  // 👇 NUEVO: en texto/imagen solo mostramos categorías cuando el usuario elige un área específica
-  const showCategories = isVideo ? true : area !== "Todas";
+  // 👇 NOWE: w tekście/obrazie pokazujemy kategorie dopiero po wybraniu konkretnego obszaru
+  const showCategories = isVideo ? true : area !== "Wszystkie";
 
-  // ÁREAS (macro categorías) — solo para texto/imagen
+  // OBSZARY (makrokategorie) — tylko dla text/image
   const areas = useMemo(() => {
-    if (isVideo) return ["Todas"];
+    if (isVideo) return ["Wszystkie"];
     const set = new Set(items.map((i) => i.area).filter(Boolean));
-    return ["Todas", ...Array.from(set)];
+    return ["Wszystkie", ...Array.from(set)];
   }, [items, isVideo]);
 
-  // CATEGORÍAS (subcategorías)
+  // KATEGORIE (podkategorie)
   const categories = useMemo(() => {
-    // Para vídeo: categorías globales, sin depender de área
+    // Dla video: globalne kategorie, bez zależności od obszaru
     if (isVideo) {
       const set = new Set(items.map((i) => i.category).filter(Boolean));
-      return ["Todas", ...Array.from(set)];
+      return ["Wszystkie", ...Array.from(set)];
     }
 
-    // Para texto/imagen: categorías según área seleccionada
+    // Dla text/image: kategorie zależne od wybranego obszaru
     const scopedItems =
-      area === "Todas" ? items : items.filter((i) => i.area === area);
+      area === "Wszystkie" ? items : items.filter((i) => i.area === area);
 
     const set = new Set(scopedItems.map((i) => i.category).filter(Boolean));
-    return ["Todas", ...Array.from(set)];
+    return ["Wszystkie", ...Array.from(set)];
   }, [items, area, isVideo]);
 
-  // FILTRO principal
+  // GŁÓWNY FILTR
   const filtered = useMemo(
     () =>
       items.filter((item) => {
@@ -73,14 +73,14 @@ export function PromptLibrary({ title, subtitle, items, type }) {
           .includes((search || "").toLowerCase());
 
         const matchesCategory =
-          category === "Todas" || item.category === category;
+          category === "Wszystkie" || item.category === category;
 
         if (isVideo) {
-          // En vídeo ignoramos área, solo categoría + búsqueda
+          // W wideo ignorujemy obszar, tylko kategoria + wyszukiwarka
           return matchesCategory && matchesSearch;
         }
 
-        const matchesArea = area === "Todas" || item.area === area;
+        const matchesArea = area === "Wszystkie" || item.area === area;
         return matchesArea && matchesCategory && matchesSearch;
       }),
     [items, area, category, search, isVideo]
@@ -94,20 +94,20 @@ export function PromptLibrary({ title, subtitle, items, type }) {
     return filtered.slice(start, end);
   }, [filtered, page, pageSize]);
 
-  // reset página cuando cambian filtros
+  // reset strony przy zmianie filtrów
   useEffect(() => {
     setPage(1);
   }, [search, area, category]);
 
-  // proteger si cambia el total de páginas
+  // zabezpieczenie, gdy zmieni się liczba stron
   useEffect(() => {
     if (page > totalPages) setPage(totalPages);
   }, [page, totalPages]);
 
-  // 👇 NUEVO: si vuelves a "Todas" en área, también reseteamos categoría (evita estados raros)
+  // 👇 NOWE: gdy wracasz do "Wszystkie" w obszarze, resetujemy też kategorię
   useEffect(() => {
-    if (!isVideo && area === "Todas" && category !== "Todas") {
-      setCategory("Todas");
+    if (!isVideo && area === "Wszystkie" && category !== "Wszystkie") {
+      setCategory("Wszystkie");
     }
   }, [area, category, isVideo]);
 
@@ -117,7 +117,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
       setCopiedId(id);
       setTimeout(() => setCopiedId(null), 1500);
     } catch (err) {
-      console.error("Error copiando prompt", err);
+      console.error("Błąd podczas kopiowania promptu", err);
     }
   };
 
@@ -127,7 +127,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
 
   return (
     <div className="space-y-6 py-6">
-      {/* 🔙 Botón back al principal */}
+      {/* 🔙 Powrót */}
       <div className="flex items-center justify-between gap-3">
         <Button
           variant="ghost"
@@ -137,12 +137,12 @@ export function PromptLibrary({ title, subtitle, items, type }) {
         >
           <Link href="/curso">
             <ArrowLeft className="mr-2 h-4 w-4" />
-            Volver al inicio del curso
+            Wróć do strony głównej kursu
           </Link>
         </Button>
       </div>
 
-      {/* encabezado */}
+      {/* nagłówek */}
       <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
         <div className="space-y-1">
           <h1 className="text-2xl font-bold text-slate-50 md:text-3xl">
@@ -154,12 +154,12 @@ export function PromptLibrary({ title, subtitle, items, type }) {
         </div>
 
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
-          {/* filtros */}
+          {/* filtry */}
           <div className="flex flex-col gap-2">
-            {/* 🔹 Texto e imagen: área + (categoría SOLO si area !== "Todas") */}
+            {/* 🔹 Tekst i obraz: obszar + (kategoria TYLKO gdy area !== "Wszystkie") */}
             {!isVideo && (
               <>
-                {/* filtro por área (macro categoría) */}
+                {/* filtr po obszarze (makrokategoria) */}
                 <div className="flex flex-wrap gap-2">
                   {areas.map((ar) => (
                     <button
@@ -167,7 +167,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                       type="button"
                       onClick={() => {
                         setArea(ar);
-                        setCategory("Todas"); // reset subcategoría al cambiar área
+                        setCategory("Wszystkie"); // reset podkategorii po zmianie obszaru
                       }}
                       className={cn(
                         "rounded-full border px-3 py-1 text-xs font-medium transition",
@@ -181,7 +181,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                   ))}
                 </div>
 
-                {/* 👇 NUEVO: solo renderiza categorías cuando se eligió un área */}
+                {/* 👇 NOWE: kategorie pokazujemy dopiero po wybraniu obszaru */}
                 {showCategories && (
                   <div className="flex flex-wrap gap-2">
                     {categories.map((cat) => (
@@ -202,16 +202,16 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                   </div>
                 )}
 
-                {/* (Opcional) mensajito guía cuando no hay área seleccionada */}
+                {/* (Opcjonalnie) podpowiedź, gdy nie wybrano obszaru */}
                 {!showCategories && (
                   <p className="text-[11px] text-slate-400">
-                    Selecciona un área para ver sus categorías.
+                    Wybierz obszar, aby zobaczyć jego kategorie.
                   </p>
                 )}
               </>
             )}
 
-            {/* 🔹 Vídeo: solo categoría (IGUAL que antes) */}
+            {/* 🔹 Wideo: tylko kategoria */}
             {isVideo && (
               <div className="flex flex-wrap gap-2">
                 {categories.map((cat) => (
@@ -233,11 +233,11 @@ export function PromptLibrary({ title, subtitle, items, type }) {
             )}
           </div>
 
-          {/* buscador */}
+          {/* wyszukiwarka */}
           <div className="relative sm:w-64">
             <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
             <Input
-              placeholder="Buscar por título..."
+              placeholder="Szukaj po tytule..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               className="h-9 border-white/10 bg-slate-950/70 pl-9 text-sm text-slate-100 placeholder:text-slate-500"
@@ -246,14 +246,14 @@ export function PromptLibrary({ title, subtitle, items, type }) {
         </div>
       </div>
 
-      {/* grid + paginación */}
+      {/* grid + paginacja */}
       {filtered.length === 0 ? (
         <p className="text-sm text-slate-400">
-          No se encontraron prompts con ese filtro.
+          Nie znaleziono promptów dla tego filtra.
         </p>
       ) : (
         <>
-          {/* grid de prompts */}
+          {/* grid promptów */}
           <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
             {paginated.map((item) => {
               const isExpanded = expandedId === item.id;
@@ -267,7 +267,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                   animate={{ opacity: 1, y: 0 }}
                 >
                   <Card className="flex h-full flex-col overflow-hidden border-white/10 bg-slate-950/80 transition-colors hover:border-teal-400/70 hover:bg-slate-900/80">
-                    {/* MEDIA (video / imagen / icono) */}
+                    {/* MEDIA (video / obraz / ikona) */}
                     <div className="relative w-full overflow-hidden bg-gradient-to-br from-slate-900 via-slate-950 to-black">
                       <div className="relative aspect-[16/9] w-full">
                         {type === "video" && item.videoUrl ? (
@@ -309,7 +309,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                           {item.summary}
                         </p>
                       )}
-                      {/* Solo mostrar área para texto/imagen */}
+                      {/* Obszar tylko dla text/image */}
                       {item.area && !isVideo && (
                         <p className="text-[11px] uppercase tracking-wide text-teal-300/80">
                           {item.area}
@@ -338,7 +338,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                             setExpandedId(isExpanded ? null : item.id)
                           }
                         >
-                          {isExpanded ? "Ocultar prompt" : "Ver prompt"}
+                          {isExpanded ? "Ukryj prompt" : "Zobacz prompt"}
                         </Button>
                         <Button
                           size="sm"
@@ -349,11 +349,11 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                         >
                           {isCopied ? (
                             <>
-                              <Check className="mr-1 h-3 w-3" /> Copiado
+                              <Check className="mr-1 h-3 w-3" /> Skopiowano
                             </>
                           ) : (
                             <>
-                              <Copy className="mr-1 h-3 w-3" /> Copiar
+                              <Copy className="mr-1 h-3 w-3" /> Kopiuj
                             </>
                           )}
                         </Button>
@@ -365,14 +365,14 @@ export function PromptLibrary({ title, subtitle, items, type }) {
             })}
           </div>
 
-          {/* controles de paginación */}
+          {/* kontrolki paginacji */}
           {totalPages > 1 && (
             <div className="mt-4 flex flex-col items-center justify-between gap-3 border-t border-white/5 pt-4 text-xs text-slate-300 sm:flex-row">
               <p>
-                Mostrando{" "}
+                Wyświetlasz{" "}
                 <span className="font-semibold text-teal-200">
                   {showingFrom}–{showingTo}
-                </span>{" "}
+                </span>
               </p>
 
               <div className="inline-flex items-center gap-2">
@@ -384,11 +384,11 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                   onClick={() => setPage((p) => Math.max(1, p - 1))}
                   className="rounded-full border border-white/10 bg-white/5 px-3 text-xs text-slate-100 disabled:opacity-40"
                 >
-                  Anterior
+                  Poprzednia
                 </Button>
                 <span className="text-[11px] text-slate-400">
-                  Página{" "}
-                  <span className="font-semibold text-teal-200">{page}</span> de{" "}
+                  Strona{" "}
+                  <span className="font-semibold text-teal-200">{page}</span> z{" "}
                   <span className="font-semibold text-teal-200">
                     {totalPages}
                   </span>
@@ -401,7 +401,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                   onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
                   className="rounded-full border border-white/10 bg-white/5 px-3 text-xs text-slate-100 disabled:opacity-40"
                 >
-                  Siguiente
+                  Następna
                 </Button>
               </div>
             </div>

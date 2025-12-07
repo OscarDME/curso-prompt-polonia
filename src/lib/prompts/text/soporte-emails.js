@@ -3,1089 +3,1139 @@
 export const textPromptsSoporteEmails = [
   {
     id: "sop-email-001",
-    title: "Email de primera respuesta (universal): confirma, calma, y pide lo mínimo (sin ida y vuelta)",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email pierwszej odpowiedzi (uniwersalny): potwierdza, uspokaja i prosi o minimum (bez ping-ponga)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Email inicial que reduce tiempos: empatía + resumen + 1 CTA + datos mínimos.",
-    prompt: `Contexto del ticket: [pegar mensaje del cliente]
-Producto/servicio: [ ]
-Tono: [cercano/neutral/premium]
-Objetivo: [resolver / diagnosticar / escalar]
-Datos que necesito: [lista]
+      "Pierwszy email skracający czas obsługi: empatia + podsumowanie + 1 CTA + minimalne dane.",
+    prompt: `Kontekst zgłoszenia: [wklej wiadomość klienta]
+Produkt/usługa: [ ]
+Ton: [serdeczny/neutralny/premium]
+Cel: [rozwiązać / zdiagnozować / eskalować]
+Dane, których potrzebuję: [lista]
 
-Escríbeme un email de primera respuesta con:
-1) Asunto (5 opciones): claro, humano, sin sonar robot.
-2) Apertura empática (sin exagerar) + confirmación de recepción.
-3) Resumen del problema en 1–2 frases (parafraseo para validar).
-4) 1 CTA único (muy claro) para conseguir lo que falta:
-   - si necesito datos → pedirlos en bullets con ejemplos
-   - si necesito que haga pasos → máx. 5 pasos, numerados
-5) “Qué haremos nosotros” (2–3 bullets) para generar confianza.
-6) Cierre: disponibilidad + tiempo de seguimiento (sin prometer fechas exactas) + firma.
-Incluye 2 versiones extra:
-- versión corta (<= 90 palabras)
-- versión súper premium (más cálida y detallada).`,
+Napisz email pierwszej odpowiedzi z:
+1) Tematem (5 opcji): claro, ludzki, bez “robotycznego” tonu.
+2) Empatycznym otwarciem (bez przesady) + potwierdzeniem otrzymania.
+3) Podsumowaniem problemu w 1–2 zdaniach (parafraza, aby potwierdzić zrozumienie).
+4) Jednym, jasnym CTA, żeby zdobyć brakujące info:
+   - jeśli potrzebuję danych → poproś o nie w bulletach z przykładami
+   - jeśli potrzebuję kroków → max. 5 kroków, ponumerowanych
+5) “Co zrobimy po naszej stronie” (2–3 bullety) dla zbudowania zaufania.
+6) Zakończeniem: dostępność + informacja o follow-up (bez obiecywania konkretnych dat) + podpis.
+Dodaj 2 dodatkowe wersje:
+- wersję krótką (<= 90 słów)
+- wersję super premium (cieplejszą i bardziej szczegółową).`,
     thumbnail: "",
   },
   {
     id: "sop-email-002",
-    title: "Email de solicitud de datos técnicos (sin intimidar): captura, pasos, entorno, timestamps",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email z prośbą o dane techniczne (bez straszenia): screen, kroki, środowisko, timestampy",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Pedir evidencia técnica sin frustrar: preguntas precisas, checklist y ejemplos.",
-    prompt: `Incidencia: [ ]
-Plataforma: [web/app]
-Nivel del usuario: [básico/medio/avanzado]
-Qué ya intentó: [ ]
+      "Prośba o techniczne dowody bez frustracji: precyzyjne pytania, checklista i przykłady.",
+    prompt: `Incydent: [ ]
+Platforma: [web/aplikacja]
+Poziom użytkownika: [podstawowy/średni/zaawansowany]
+Co już próbował/a: [ ]
 
-Escribe un email para solicitar datos técnicos con:
-1) Asunto (4 opciones).
-2) Explicación breve de por qué pedimos estos datos (humano y calmado).
-3) Checklist en bullets (8–12) con ejemplos:
-   - pasos para reproducir
-   - esperado vs obtenido
-   - navegador/OS/dispositivo
-   - captura o video corto
-   - timestamp y zona horaria
-   - URL exacta / screen
-4) Instrucciones opcionales (fáciles) para:
-   - abrir incógnito
-   - desactivar extensiones
+Napisz email z prośbą o dane techniczne z:
+1) Tematem (4 opcje).
+2) Krótkim wyjaśnieniem, dlaczego prosimy o te dane (ludzko i spokojnie).
+3) Checklistą w bulletach (8–12) z przykładami:
+   - kroki odtworzenia
+   - oczekiwane vs otrzymane
+   - przeglądarka/OS/urządzenie
+   - zrzut ekranu lub krótkie wideo
+   - timestamp i strefa czasowa
+   - dokładny URL / screen
+4) Opcjonalnymi (łatwymi) instrukcjami:
+   - incognito
+   - wyłączenie rozszerzeń
    - hard refresh
-5) CTA único al final: “respóndenos con X”.
-Incluye versión ultra-corta para clientes molestos.`,
+5) Jednym CTA na końcu: “odpisz nam z X”.
+Dodaj wersję ultra-krótką dla zirytowanych klientów.`,
     thumbnail: "",
   },
   {
     id: "sop-email-003",
-    title: "Email de seguimiento sin respuesta (Día 2 / Día 5 / Último intento): educado y eficaz",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email follow-up bez odpowiedzi (Dzień 2 / Dzień 5 / Ostatnia próba): uprzejmy i skuteczny",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Secuencia de follow-up para reactivar tickets sin sonar pasivo-agresivo.",
-    prompt: `Contexto: [resumen del ticket]
-Qué falta del cliente: [dato/paso]
-Tono: [ ]
+      "Sekwencja follow-upów, by reaktywować zgłoszenia bez pasywno-agresywnego tonu.",
+    prompt: `Kontekst: [streszczenie zgłoszenia]
+Czego brakuje od klienta: [dane/krok]
+Ton: [ ]
 
-Crea 3 emails:
-1) Follow-up Día 2: corto, amable, 1 CTA.
-2) Follow-up Día 5: ofrece alternativa (call, captura, otro canal).
-3) Último intento: avisa cierre automático + cómo reabrir.
-Para cada email incluye:
-- 3 opciones de asunto
-- texto completo
-- 1 línea opcional “si tienes prisa, responde solo con ____”.`,
+Stwórz 3 emaile:
+1) Follow-up Dzień 2: krótki, miły, 1 CTA.
+2) Follow-up Dzień 5: zaproponuj alternatywę (call, screen, inny kanał).
+3) Ostatnia próba: informacja o automatycznym zamknięciu + jak wznowić.
+Dla każdego emaila dodaj:
+- 3 opcje tematu
+- pełny tekst
+- opcjonalną linijkę: “Jeśli się spieszysz, odpisz tylko ____”.`,
     thumbnail: "",
   },
   {
     id: "sop-email-004",
-    title: "Email de cierre exitoso: confirmación + resumen de solución + prevención + recursos",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email zamknięcia (sukces): potwierdzenie + podsumowanie rozwiązania + prewencja + zasoby",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Cierre que deja buena impresión: confirma, explica, previene y guía.",
-    prompt: `Problema: [ ]
-Solución aplicada: [ ]
-Causa probable: [ ]
-Recursos: [links/títulos]
+      "Zamknięcie, które zostawia dobre wrażenie: potwierdza, tłumaczy, zapobiega i prowadzi.",
+    prompt: `Problem: [ ]
+Zastosowane rozwiązanie: [ ]
+Prawdopodobna przyczyna: [ ]
+Zasoby: [linki/tytuły]
 
-Escribe un email de cierre con:
-1) Asunto (4 opciones).
-2) Confirmación de que ya debería estar resuelto + cómo verificar (2–3 checks).
-3) Resumen de la solución en 3 bullets (sin tecnicismos).
-4) Prevención: 5 recomendaciones concretas para evitar que vuelva a pasar.
-5) Recursos: 3 links sugeridos (poner títulos aunque no existan aún).
-6) Cierre cálido + invitación a responder si reaparece.
-Incluye versión corta (<= 120 palabras).`,
+Napisz email zamknięcia z:
+1) Tematem (4 opcje).
+2) Potwierdzeniem, że powinno już działać + jak zweryfikować (2–3 checki).
+3) Podsumowaniem rozwiązania w 3 bulletach (bez technicznego żargonu).
+4) Prewencją: 5 konkretnych rekomendacji, aby nie wróciło.
+5) Zasobami: 3 sugerowane linki (podaj tytuły nawet jeśli jeszcze nie istnieją).
+6) Ciepłym zakończeniem + zaproszeniem do odpowiedzi, jeśli wróci.
+Dodaj wersję krótką (<= 120 słów).`,
     thumbnail: "",
   },
   {
     id: "sop-email-005",
-    title: "Email para cliente molesto: desescalar, validar, proponer plan y recuperar confianza",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email do zdenerwowanego klienta: deeskalacja, walidacja, plan i odbudowa zaufania",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Respuesta para tensión alta: empatía, límites sanos, plan claro y un siguiente paso.",
-    prompt: `Mensaje del cliente (pegar): [ ]
-Contexto real: [qué pasó]
-Qué puedes ofrecer: [solución/alternativa]
-Qué NO puedes ofrecer: [límites/política]
+      "Odpowiedź przy wysokim napięciu: empatia, zdrowe granice, jasny plan i jeden kolejny krok.",
+    prompt: `Wiadomość klienta (wklej): [ ]
+Rzeczywisty kontekst: [co się stało]
+Co możesz zaoferować: [rozwiązanie/alternatywa]
+Czego NIE możesz zaoferować: [limity/polityka]
 
-Escribe un email que:
-1) Valide emoción sin admitir culpa indebida.
-2) Resuma el problema en 1–2 frases.
-3) Proponga un plan en 3 pasos (qué hace el cliente / qué hacemos nosotros / cuándo actualizamos).
-4) Ofrezca 2 alternativas (por ejemplo: workaround vs escalación).
-5) Mantenga límites con respeto (si aplica).
-6) Termine con un CTA único.
-Incluye 2 variantes: una “muy neutral” y otra “más cercana”.`,
+Napisz email, który:
+1) Waliduje emocje bez nieuzasadnionego przyznawania winy.
+2) Podsumowuje problem w 1–2 zdaniach.
+3) Proponuje plan w 3 krokach (co robi klient / co robimy my / kiedy wrócimy z update’em).
+4) Daje 2 alternatywy (np. workaround vs eskalacja).
+5) Utrzymuje granice z szacunkiem (jeśli dotyczy).
+6) Kończy się JEDNYM CTA.
+Dodaj 2 warianty: “bardzo neutralny” i “bardziej serdeczny”.`,
     thumbnail: "",
   },
 
   {
     id: "sop-email-006",
-    title: "Email de reembolso aprobado: confirmación, tiempos, comprobante y próximos cargos",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: zwrot zaakceptowany — potwierdzenie, orientacyjne czasy, potwierdzenie i przyszłe obciążenia",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Mensaje claro para reembolso: qué se reembolsa, cuándo se refleja y qué pasa con el acceso.",
-    prompt: `Producto/plan: [ ]
-Monto: [ ]
-Método de pago: [ ]
-Política: [ ]
-Acceso: [se mantiene/se corta]
+      "Jasny komunikat o zwrocie: co zwracamy, kiedy się pojawi i co z dostępem.",
+    prompt: `Produkt/plan: [ ]
+Kwota: [ ]
+Metoda płatności: [ ]
+Polityka: [ ]
+Dostęp: [pozostaje/kończy się]
 
-Escribe un email de reembolso aprobado con:
-1) Asunto (4 opciones).
-2) Confirmación del reembolso + importe y referencia (placeholders).
-3) Tiempos estimados (sin prometer exacto) y por qué depende del banco.
-4) Qué pasa con el acceso/renovaciones futuras.
-5) Instrucciones si no lo ve reflejado (checklist 6).
-6) Cierre amable + CTA para dudas.`,
+Napisz email o zaakceptowanym zwrocie z:
+1) Tematem (4 opcje).
+2) Potwierdzeniem zwrotu + kwotą i referencją (placeholdery).
+3) Orientacyjnymi czasami (bez obiecywania dokładnie) i dlaczego zależy od banku.
+4) Co dzieje się z dostępem/przyszłymi odnowieniami.
+5) Instrukcjami, jeśli nie widać zwrotu (checklista 6).
+6) Uprzejmym zamknięciem + CTA na pytania.`,
     thumbnail: "",
   },
   {
     id: "sop-email-007",
-    title: "Email de reembolso rechazado (con alternativa): firme, empático y sin conflicto",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: zwrot odrzucony (z alternatywą) — stanowczy, empatyczny i bez konfliktu",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Negativa de reembolso con explicación humana + alternativas para ayudar al cliente.",
-    prompt: `Motivo del rechazo: [ ]
-Política aplicada: [ ]
-Alternativas que SÍ puedes ofrecer: [crédito/cambio plan/extensión]
+      "Odmowa zwrotu z ludzkim wyjaśnieniem + alternatywy, żeby realnie pomóc.",
+    prompt: `Powód odmowy: [ ]
+Zastosowana polityka: [ ]
+Alternatywy, które MOŻESZ zaoferować: [kredyt/zmiana planu/przedłużenie]
 
-Escribe un email con:
-1) Asunto (4 opciones).
-2) Explicación breve y humana del por qué (sin sonar legalista).
-3) Cita resumida de la política (sin copiar/pegar largo).
-4) 2–3 alternativas concretas (con pasos).
-5) CTA único para elegir alternativa.
-Incluye versión “muy corta” para evitar debate.`,
+Napisz email z:
+1) Tematem (4 opcje).
+2) Krótkim, ludzkim wyjaśnieniem dlaczego (bez legalese).
+3) Zwięzłym cytatem/parafrazą polityki (bez długiego kopiuj-wklej).
+4) 2–3 konkretnymi alternatywami (z krokami).
+5) Jednym CTA, żeby wybrał/a alternatywę.
+Dodaj wersję “bardzo krótką” dla uniknięcia dyskusji.`,
     thumbnail: "",
   },
   {
     id: "sop-email-008",
-    title: "Email de cancelación confirmada: qué cambia, hasta cuándo, y cómo reactivar luego",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: anulowanie potwierdzone — co się zmienia, do kiedy działa i jak reaktywować później",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Confirmación de cancelación que evita tickets: acceso, renovación, datos y reactivación.",
+      "Potwierdzenie anulowania, które zapobiega ticketom: dostęp, odnowienia, dane i reaktywacja.",
     prompt: `Plan: [ ]
-Fecha de fin de acceso: [ ]
-Motivo: [opcional]
-¿Ofrecer retención? [sí/no]
+Data końca dostępu: [ ]
+Powód: [opcjonalnie]
+Czy oferować retencję? [tak/nie]
 
-Escribe un email con:
-1) Asunto (4 opciones).
-2) Confirmación de cancelación.
-3) Acceso: hasta cuándo y qué se conserva (datos, historial).
-4) Cómo reactivar (pasos).
-5) (Opcional) Oferta de retención no invasiva: 2 alternativas.
-6) Cierre cordial.`,
+Napisz email z:
+1) Tematem (4 opcje).
+2) Potwierdzeniem anulowania.
+3) Dostępem: do kiedy + co zostaje zachowane (dane, historia).
+4) Jak reaktywować (kroki).
+5) (Opcjonalnie) Nienachalną ofertą retencji: 2 alternatywy.
+6) Uprzejmym zakończeniem.`,
     thumbnail: "",
   },
   {
     id: "sop-email-009",
-    title: "Email de incidente (status): investigando / identificado / monitoreando / resuelto (4 plantillas)",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email o incydencie (status): analizujemy / zidentyfikowano / monitorujemy / rozwiązano (4 szablony)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Pack de emails por estado de incidente: claridad, calma, workaround y próximos updates.",
-    prompt: `Incidente: [ ]
-Impacto: [quién se afecta]
-Workaround: [si existe]
-Canal: [email]
+      "Pakiet emaili wg statusu incydentu: jasność, spokój, workaround i kolejne update’y.",
+    prompt: `Incydent: [ ]
+Wpływ: [kogo dotyczy]
+Workaround: [jeśli jest]
+Kanał: [email]
 
-Crea 4 emails:
-1) Investigando
-2) Identificado
-3) Monitoreando
-4) Resuelto
+Stwórz 4 emaile:
+1) Analizujemy
+2) Zidentyfikowano
+3) Monitorujemy
+4) Rozwiązano
 
-Cada email debe incluir:
-- 3 asuntos
-- resumen del impacto
-- qué estamos haciendo
-- workaround (si aplica)
-- cuándo daremos próxima actualización (sin hora exacta)
-- cierre empático.`,
+Każdy email powinien zawierać:
+- 3 propozycje tematu
+- streszczenie wpływu
+- co robimy
+- workaround (jeśli dotyczy)
+- kiedy damy kolejny update (bez konkretnej godziny)
+- empatyczne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "sop-email-010",
-    title: "Email: ‘necesitamos tu autorización’ (permisos/admin): pedir acción al admin sin fricción",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘potrzebujemy Twojej autoryzacji’ (uprawnienia/admin) — poproś admina bez tarcia",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Pide al usuario que involucre al admin con un mensaje listísimo para reenviar.",
-    prompt: `Acción requerida del admin: [cambiar rol/activar feature]
-Contexto: [ ]
-Tono: [ ]
+      "Prosi użytkownika o zaangażowanie admina — gotowy blok do przekazania dalej.",
+    prompt: `Wymagana akcja admina: [zmiana roli/włączenie funkcji]
+Kontekst: [ ]
+Ton: [ ]
 
-Escribe un email al usuario con:
-1) Asunto (3 opciones).
-2) Explicación breve: por qué requiere admin.
-3) Pasos para el usuario (2–3).
-4) Un bloque “Mensaje para reenviar a tu admin” (copy listo) con:
-   - contexto
-   - pasos exactos en el producto (placeholders)
-   - qué confirmar al final
-5) Cierre + CTA único.`,
+Napisz email do użytkownika z:
+1) Tematem (3 opcje).
+2) Krótkim wyjaśnieniem: dlaczego potrzebny jest admin.
+3) Krokami dla użytkownika (2–3).
+4) Blokiem “Wiadomość do przekazania Twojemu adminowi” (gotowy tekst) z:
+   - krótkim kontekstem
+   - dokładnymi krokami w produkcie (placeholdery)
+   - co potwierdzić na końcu
+5) Zakończeniem + jednym CTA.`,
     thumbnail: "",
   },
 
   {
     id: "sop-email-011",
-    title: "Email de ‘pasos de solución’ (máxima claridad): instrucciones numeradas + ‘qué deberías ver’",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email z ‘krokami rozwiązania’ (maks. klarowność): instrukcje numerowane + ‘co powinieneś/-naś zobaczyć’",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Email con pasos que el cliente sí sigue: pasos cortos, resultado esperado y plan B.",
-    prompt: `Problema: [ ]
-Solución propuesta: [ ]
-Plataforma: [web/app]
-Nivel usuario: [ ]
+      "Email z krokami, które klient naprawdę wykona: krótkie kroki, oczekiwany rezultat i plan B.",
+    prompt: `Problem: [ ]
+Proponowane rozwiązanie: [ ]
+Platforma: [web/aplikacja]
+Poziom użytkownika: [ ]
 
-Escribe un email con:
-1) Asunto (4).
-2) 6–10 pasos numerados, cada uno con:
-   - acción exacta
-   - qué deberías ver
-   - si no aparece, qué hacer (plan B)
-3) Una sección “si te funciona” (cómo confirmarlo).
-4) Una sección “si no te funciona” (qué datos enviarnos).
-5) Cierre con un CTA único.`,
+Napisz email z:
+1) Tematem (4).
+2) 6–10 krokami numerowanymi, każdy z:
+   - dokładną akcją
+   - co powinieneś/-naś zobaczyć
+   - jeśli nie widać — co zrobić (plan B)
+3) Sekcją “jeśli działa” (jak potwierdzić).
+4) Sekcją “jeśli nie działa” (jakie dane nam wysłać).
+5) Zakończeniem z jednym CTA.`,
     thumbnail: "",
   },
   {
     id: "sop-email-012",
-    title: "Email para ‘caso duplicado’ o ‘ya existe ticket’: ordena, reduce ruido y mantiene buen tono",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘zduplikowane zgłoszenie’ / ‘ticket już istnieje’ — porządkuje, redukuje szum i trzyma dobry ton",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Mensaje para unificar tickets sin sonar regaño, con explicación y siguiente paso.",
-    prompt: `Ticket principal: [ID]
-Ticket duplicado: [ID]
-Estado: [ ]
+      "Ujednolicenie ticketów bez tonu nagany: wyjaśnienie i następny krok.",
+    prompt: `Ticket główny: [ID]
+Ticket duplikat: [ID]
+Status: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Explicación de por qué unificamos (velocidad/claridad).
-3) Indica en qué ticket haremos updates.
-4) Pide confirmación de 1 cosa (si falta).
-5) Cierre amable.`,
+Napisz email z:
+1) Tematem (3).
+2) Wyjaśnieniem, dlaczego łączymy (szybkość/jasność).
+3) Informacją, w którym tickecie będziemy wysyłać update’y.
+4) Prośbą o potwierdzenie 1 rzeczy (jeśli trzeba).
+5) Uprzejmym zakończeniem.`,
     thumbnail: "",
   },
   {
     id: "sop-email-013",
-    title: "Email de ‘solución temporal / workaround’: explica límites, duración y próximo update",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘tymczasowe rozwiązanie / workaround’ — wyjaśnij limity, czas trwania i kolejny update",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Mensajes para workarounds: honestos, accionables y con expectativas claras.",
+      "Workaroundy: uczciwe, konkretne i z jasnymi oczekiwaniami.",
     prompt: `Bug: [ ]
 Workaround: [ ]
-Limitaciones del workaround: [ ]
-Siguiente update: [ ]
+Ograniczenia workaroundu: [ ]
+Kolejny update: [ ]
 
-Escribe un email con:
-1) Asunto (4).
-2) Qué pasa (alto nivel).
-3) Workaround paso a paso (5–8 pasos).
-4) Qué NO hará el workaround (límites).
-5) Qué estamos haciendo para el fix.
-6) CTA único: confirmar si le funciona o enviarnos X info.`,
+Napisz email z:
+1) Tematem (4).
+2) Co się dzieje (wysoki poziom).
+3) Workaround krok po kroku (5–8 kroków).
+4) Czego workaround NIE zrobi (limity).
+5) Co robimy, żeby przygotować fix.
+6) Jednym CTA: potwierdź, czy działa / wyślij X info.`,
     thumbnail: "",
   },
   {
     id: "sop-email-014",
-    title: "Email de escalación a ingeniería (interno): impecable, reproducible y con datos completos",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email eskalacji do inżynierii (wewnętrzny): perfekcyjny, odtwarzalny i z kompletnymi danymi",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Plantilla interna para escalar: pasos exactos, expected/actual, entorno y evidencia.",
-    prompt: `Bug/incidencia: [ ]
-Severidad: [P1-P4]
-Cuenta/Org ID: [ ]
-URLs: [ ]
-Timestamps: [ ]
-Evidencia: [capturas/logs/HAR]
+      "Wewnętrzny szablon eskalacji: dokładne kroki, expected/actual, środowisko i dowody.",
+    prompt: `Bug/incydent: [ ]
+Ważność: [P1–P4]
+Konto/Org ID: [ ]
+URL-e: [ ]
+Timestampy: [ ]
+Dowody: [screeny/logi/HAR]
 
-Escribe un email interno a ingeniería con:
-1) Asunto con formato estándar: [Sev][Área] resumen corto.
-2) Contexto del cliente (sin PII).
-3) Pasos para reproducir (numerados).
+Napisz wewnętrzny email do inżynierii z:
+1) Tematem w standardzie: [Sev][Obszar] krótki opis.
+2) Kontekstem klienta (bez PII).
+3) Krokami odtworzenia (numerowane).
 4) Expected vs Actual.
-5) Alcance: cuántos usuarios, desde cuándo, regiones.
-6) Evidencia adjunta.
-7) Hipótesis (opcional) + prioridad recomendada.
-8) Preguntas concretas (máx 3) para desbloquear.
-Incluye versión corta para Slack.`,
+5) Zakresem: ilu użytkowników, od kiedy, regiony.
+6) Dołączonymi dowodami.
+7) Hipotezą (opcjonalnie) + rekomendowanym priorytetem.
+8) Konkretnymi pytaniami (max 3), żeby odblokować.
+Dodaj wersję krótką na Slacka.`,
     thumbnail: "",
   },
   {
     id: "sop-email-015",
-    title: "Email de verificación de identidad (cambios sensibles): seguro, claro y sin fricción",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email weryfikacji tożsamości (zmiany wrażliwe): bezpieczny, jasny i bez tarcia",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Pide verificación para cambios sensibles sin pedir datos peligrosos.",
-    prompt: `Cambio solicitado: [email/propietario/2FA]
-Riesgo: [alto]
-Métodos permitidos: [últimos 4 de tarjeta? NO / datos seguros sí]
-Políticas: [ ]
+      "Prośba o weryfikację do zmian wrażliwych bez proszenia o niebezpieczne dane.",
+    prompt: `Żądana zmiana: [email/właściciel/2FA]
+Ryzyko: [wysokie]
+Dozwolone metody: [ostatnie 4 karty? NIE / bezpieczne dane TAK]
+Polityki: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Explicación humana de por qué verificamos.
-3) Lista de 2–3 métodos de verificación permitidos (con ejemplos).
-4) Qué NO pedimos nunca (1–2 líneas).
-5) CTA único: responder con X.
-6) Cierre calmo y profesional.`,
+Napisz email z:
+1) Tematem (3).
+2) Ludzkim wyjaśnieniem, dlaczego weryfikujemy.
+3) Listą 2–3 dozwolonych metod weryfikacji (z przykładami).
+4) Czego NIGDY nie prosimy (1–2 linie).
+5) Jednym CTA: odpisz z X.
+6) Spokojnym, profesjonalnym zakończeniem.`,
     thumbnail: "",
   },
 
   {
     id: "sop-email-016",
-    title: "Email para IT corporativo: whitelisting/puertos/dominios + qué prueba necesitamos",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email do IT korporacyjnego: whitelisting/porty/domeny + jakiej próby potrzebujemy",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Mensaje técnico-friendly para IT cuando hay firewall/proxy bloqueando el producto.",
-    prompt: `Empresa: [ ]
-Síntoma: [ ]
-Dominios requeridos: [placeholders]
-Puertos: [placeholders]
-Endpoints: [placeholders]
+      "Technicznie przyjazny email do IT, gdy firewall/proxy blokuje produkt.",
+    prompt: `Firma: [ ]
+Objaw: [ ]
+Wymagane domeny: [placeholdery]
+Porty: [placeholdery]
+Endpointy: [placeholdery]
 
-Escribe un email para IT con:
-1) Asunto (3).
-2) Resumen del problema y cómo confirmarlo (hotspot test).
-3) Requisitos de red (dominios/puertos/endpoints) en formato copy/paste.
-4) Qué logs o pruebas pedimos (sin herramientas específicas si no quieres).
-5) Contacto y cierre.
-Además, crea una versión “para reenviar” al cliente no técnico.`,
+Napisz email do IT z:
+1) Tematem (3).
+2) Streszczeniem problemu i jak go potwierdzić (test hotspotem).
+3) Wymogami sieci (domeny/porty/endpointy) w formacie copy/paste.
+4) Jakich logów lub testów prosimy (bez narzędzi, jeśli nie chcesz).
+5) Kontaktem i zakończeniem.
+Dodatkowo stwórz wersję “do przekazania” dla nietechnicznego klienta.`,
     thumbnail: "",
   },
   {
     id: "sop-email-017",
-    title: "Email de ‘cambio de plan’ (upgrade/downgrade): prorrateo explicado con ejemplo simple",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘zmiana planu’ (upgrade/downgrade) — pro-rata wyjaśnione z prostym przykładem",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Aclaración de prorrateo y efectos de upgrade/downgrade para evitar confusiones.",
-    prompt: `Planes: [ ]
-Prorrateo: [sí/no]
-Caso: [upgrade/downgrade]
-Fecha: [ ]
+      "Wyjaśnienie pro-rata i skutków zmiany planu, aby uniknąć nieporozumień.",
+    prompt: `Plany: [ ]
+Pro-rata: [tak/nie]
+Przypadek: [upgrade/downgrade]
+Data: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Qué pasará (en bullets).
-3) Ejemplo numérico simple (con placeholders).
-4) Qué cambia en features/límites y cuándo.
-5) FAQ mini (5).
-6) CTA para confirmar si quiere proceder.`,
+Napisz email z:
+1) Tematem (3).
+2) Co się stanie (w bulletach).
+3) Prosty przykład liczbowy (z placeholderami).
+4) Co zmienia się w funkcjach/limitach i kiedy.
+5) Mini-FAQ (5).
+6) CTA: potwierdź, czy chcesz kontynuować.`,
     thumbnail: "",
   },
   {
     id: "sop-email-018",
-    title: "Email de ‘factura/IVA/VAT’: explicaciones claras + cómo actualizar datos fiscales",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘faktura/IVA/VAT’ — jasne wyjaśnienia + jak zaktualizować dane podatkowe",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Responde dudas fiscales con claridad, sin sonar abogado, y guía al usuario a actualizar datos.",
-    prompt: `País: [ ]
-Documento: [factura/recibo]
-Duda: [ ]
+      "Odpowiada na pytania podatkowe jasno (bez tonu prawniczego) i prowadzi do aktualizacji danych.",
+    prompt: `Kraj: [ ]
+Dokument: [faktura/paragon]
+Pytanie: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Respuesta clara de la duda.
-3) Pasos para actualizar datos fiscales (5–8).
-4) Qué esperar después (tiempos, regeneración).
-5) Qué datos necesitamos si no puede (lista).
-6) Cierre con CTA único.`,
+Napisz email z:
+1) Tematem (3).
+2) Jasną odpowiedzią na pytanie.
+3) Krokami aktualizacji danych podatkowych (5–8).
+4) Czego oczekiwać później (czasy, regeneracja).
+5) Jakich danych potrzebujemy, jeśli nie może tego zrobić (lista).
+6) Zakończeniem z jednym CTA.`,
     thumbnail: "",
   },
   {
     id: "sop-email-019",
-    title: "Email de ‘pedido de captura/video’ (sin PII): cómo pedir evidencia con privacidad",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘prośba o zrzut/wideo’ (bez PII) — jak zebrać dowód z poszanowaniem prywatności",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Solicita capturas útiles sin comprometer datos: instrucciones y qué ocultar.",
-    prompt: `Incidencia: [ ]
-Qué necesitamos ver: [pantalla/errores]
-Nivel usuario: [ ]
+      "Prosi o użyteczne screeny bez ryzyka danych: instrukcje i co zamazać.",
+    prompt: `Incydent: [ ]
+Co musimy zobaczyć: [ekran/błędy]
+Poziom użytkownika: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Explicación breve: “esto nos ayuda a resolver más rápido”.
-3) Instrucciones:
-   - cómo tomar captura
-   - cómo grabar video 20s
-   - qué datos ocultar (emails, pagos, etc.)
-4) Checklist (6) de lo que debe incluir la evidencia.
-5) CTA único: responder adjuntando X.`,
+Napisz email z:
+1) Tematem (3).
+2) Krótkim wyjaśnieniem: “to pomoże rozwiązać szybciej”.
+3) Instrukcjami:
+   - jak zrobić zrzut ekranu
+   - jak nagrać wideo 20 s
+   - jakie dane ukryć (emaile, płatności itd.)
+4) Checklistą (6) tego, co ma zawierać dowód.
+5) Jednym CTA: odpisz, dołączając X.`,
     thumbnail: "",
   },
   {
     id: "sop-email-020",
-    title: "Email de post-mortem (usuario): qué pasó, cómo lo solucionamos y qué cambia para el futuro",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email post-mortem (dla użytkownika): co się stało, jak to naprawiliśmy i co zmieni się na przyszłość",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Comunicación post-incidente: transparencia sin tecnicismos y acciones concretas.",
-    prompt: `Incidente: [ ]
-Impacto: [ ]
-Duración: [ ]
-Causa (alto nivel): [ ]
-Acciones preventivas: [ ]
+      "Komunikacja po incydencie: transparentna, bez żargonu, z konkretnymi działaniami.",
+    prompt: `Incydent: [ ]
+Wpływ: [ ]
+Czas trwania: [ ]
+Przyczyna (wysoki poziom): [ ]
+Działania zapobiegawcze: [ ]
 
-Escribe un email con:
-1) Asunto (4).
-2) Resumen (3 bullets).
-3) Qué pasó (alto nivel) sin jerga.
-4) Qué hicimos para resolver.
-5) Qué haremos para que no pase (5 acciones).
-6) Si el usuario debe hacer algo, listarlo (máx 3 pasos).
-7) Cierre empático + canal para dudas.`,
+Napisz email z:
+1) Tematem (4).
+2) Podsumowaniem (3 bullety).
+3) Co się stało (wysoki poziom) bez żargonu.
+4) Co zrobiliśmy, żeby rozwiązać.
+5) Co zrobimy, żeby nie wróciło (5 działań).
+6) Jeśli użytkownik ma coś zrobić — max 3 kroki.
+7) Empatycznym zakończeniem + kanałem na pytania.`,
     thumbnail: "",
   },
 
   {
     id: "sop-email-021",
-    title: "Email para recuperar confianza tras error del equipo: disculpa responsable + plan + compensación (si aplica)",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email odbudowy zaufania po błędzie zespołu: odpowiedzialne przeprosiny + plan + rekompensata (jeśli dotyczy)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Disculpa profesional que no suena corporativa: acepta, explica, repara, previene.",
-    prompt: `Qué salió mal: [ ]
-Impacto al cliente: [ ]
-Qué haremos: [ ]
-Compensación (si aplica): [ ]
+      "Profesjonalne przeprosiny bez korpo tonu: przyznanie, naprawa, prewencja.",
+    prompt: `Co poszło nie tak: [ ]
+Wpływ na klienta: [ ]
+Co zrobimy: [ ]
+Rekompensata (jeśli dotyczy): [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Disculpa responsable (sin dramatizar).
-3) Qué pasó (alto nivel) + reconocimiento del impacto.
-4) Plan en 3 pasos (acción inmediata, solución, prevención).
-5) Compensación (si aplica) explicada simple.
-6) CTA único + cierre humano.`,
+Napisz email z:
+1) Tematem (3).
+2) Odpowiedzialnymi przeprosinami (bez dramatyzowania).
+3) Co się stało (wysoki poziom) + uznaniem wpływu.
+4) Planem w 3 krokach (natychmiast, rozwiązanie, prewencja).
+5) Rekompensatą (jeśli dotyczy) wyjaśnioną prosto.
+6) Jednym CTA + ludzkim zakończeniem.`,
     thumbnail: "",
   },
   {
     id: "sop-email-022",
-    title: "Email para ‘política aplicada’ (sin sonar legal): explicar reglas con empatía + alternativas",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘zastosowano politykę’ (bez tonu prawnego) — wyjaśnij zasady z empatią + alternatywy",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Explicar políticas (reembolso, uso, abuso) con tono humano y opciones útiles.",
-    prompt: `Política: [ ]
-Caso del cliente: [ ]
-Alternativas: [crédito/pausa/cambio plan]
+      "Wyjaśnianie polityk (zwroty, użycie, nadużycia) w ludzkim tonie i z pomocnymi opcjami.",
+    prompt: `Polityka: [ ]
+Przypadek klienta: [ ]
+Alternatywy: [kredyt/pauza/zmiana planu]
 
-Escribe un email con:
-1) Asunto (3).
-2) Validación + resumen del caso.
-3) Explicación simple de la política y por qué existe.
-4) Cómo aplica al caso (sin sonar acusatorio).
-5) 2–3 alternativas con pasos.
-6) CTA único.`,
+Napisz email z:
+1) Tematem (3).
+2) Walidacją + podsumowaniem sytuacji.
+3) Prostym wyjaśnieniem polityki i po co istnieje.
+4) Jak dotyczy danego przypadku (bez oskarżeń).
+5) 2–3 alternatywami z krokami.
+6) Jednym CTA.`,
     thumbnail: "",
   },
   {
     id: "sop-email-023",
-    title: "Email de ‘confirmación de requisitos’ antes de avanzar (reduce sorpresas): permisos, plan, entorno",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘potwierdźmy wymagania’ przed dalszymi krokami (mniej niespodzianek): uprawnienia, plan, środowisko",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Confirma requisitos (plan/rol/compatibilidad) antes de intentar una solución compleja.",
-    prompt: `Acción objetivo: [ ]
-Requisitos: [plan/rol/navegador]
-Cliente: [ ]
+      "Potwierdza wymagania (plan/rola/kompatybilność) zanim ruszymy z trudnym rozwiązaniem.",
+    prompt: `Docelowa akcja: [ ]
+Wymagania: [plan/rola/przeglądarka]
+Klient: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Explica que para hacerlo rápido necesitamos confirmar requisitos.
-3) Checklist (8–12) con:
+Napisz email z:
+1) Tematem (3).
+2) Wyjaśnieniem, że dla szybkości musimy potwierdzić wymagania.
+3) Checklistą (8–12):
    - plan
-   - rol
-   - navegador/OS
-   - configuración
-4) Si no cumple requisito: alternativas (3).
-5) CTA único: responder con el checklist completado.`,
+   - rola
+   - przeglądarka/OS
+   - konfiguracja
+4) Jeśli nie spełnia: 3 alternatywy.
+5) Jednym CTA: odpisz z uzupełnioną checklistą.`,
     thumbnail: "",
   },
   {
     id: "sop-email-024",
-    title: "Email de ‘instrucciones para admin’ (reenviable): pasos exactos + checklist de confirmación",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘instrukcje dla admina’ (do przekazania) — dokładne kroki + checklista potwierdzenia",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Texto perfecto para que el cliente lo reenvíe al admin sin perder contexto.",
-    prompt: `Acción admin: [ ]
-Ruta en el producto: [ ]
-Qué confirmar: [ ]
+      "Idealny tekst do przekazania adminowi bez gubienia kontekstu.",
+    prompt: `Akcja admina: [ ]
+Ścieżka w produkcie: [ ]
+Co potwierdzić: [ ]
 
-Crea un email al usuario con:
-1) Asunto (2).
-2) Bloque reenviable al admin que incluya:
-   - contexto breve
-   - pasos exactos (numerados)
-   - qué confirmar al final
-   - captura que sería útil (opcional)
-3) Cierre y CTA único.`,
+Stwórz email do użytkownika z:
+1) Tematem (2).
+2) Blokiem do przekazania adminowi zawierającym:
+   - krótki kontekst
+   - dokładne kroki (numerowane)
+   - co potwierdzić na końcu
+   - przydatny zrzut (opcjonalnie)
+3) Zakończeniem i jednym CTA.`,
     thumbnail: "",
   },
   {
     id: "sop-email-025",
-    title: "Email ‘mensaje final’ para cierre automático: amable, útil y con puerta abierta",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email ‘ostatnia wiadomość’ do automatycznego zamknięcia: miły, pomocny i z otwartą furtką",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Cerrar ticket sin resentimiento: qué se intentó, cómo reabrir y recursos.",
-    prompt: `Resumen del caso: [ ]
-Qué faltó del cliente: [ ]
-Recursos: [ ]
+      "Zamyka ticket bez urazy: co próbowaliśmy, jak wznowić i zasoby.",
+    prompt: `Podsumowanie sprawy: [ ]
+Czego zabrakło od klienta: [ ]
+Zasoby: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Indicar que cerraremos el ticket por ahora (tono suave).
-3) Resumen de lo intentado (3 bullets).
-4) Cómo reabrir: “responde a este correo con X”.
-5) Recursos sugeridos (3).
-6) Cierre cálido.`,
+Napisz email z:
+1) Tematem (3).
+2) Informacją, że na razie zamkniemy ticket (delikatny ton).
+3) Podsumowaniem działań (3 bullety).
+4) Jak wznowić: “odpisz na ten email z X”.
+5) 3 sugerowanymi zasobami.
+6) Ciepłym zakończeniem.`,
     thumbnail: "",
   },
 
   {
     id: "sop-email-026",
-    title: "Email de ‘confirmación de bug’ (sin prometer ETA): reconocimiento + workaround + próximos updates",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘potwierdzenie buga’ (bez obiecywania ETA) — uznanie + workaround + kolejne update’y",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Confirmar bug sin prometer fechas: qué haremos y cómo mantendremos informado.",
+      "Potwierdza buga bez obiecywania terminów: co robimy i jak będziemy informować.",
     prompt: `Bug: [ ]
-Impacto: [ ]
-Workaround: [sí/no]
-Prioridad: [ ]
+Wpływ: [ ]
+Workaround: [tak/nie]
+Priorytet: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Confirmación de que es un bug + disculpa breve.
-3) Workaround (si existe) con pasos claros.
-4) Qué datos seguimos investigando (2–3 puntos).
-5) Cómo daremos updates (sin horas exactas).
-6) CTA único: confirmar si workaround funciona / enviar evidencia.`,
+Napisz email z:
+1) Tematem (3).
+2) Potwierdzeniem, że to bug + krótkie przeprosiny.
+3) Workaroundem (jeśli jest) z jasnymi krokami.
+4) Co jeszcze badamy (2–3 punkty).
+5) Jak będziemy dawać update’y (bez konkretnych godzin).
+6) Jednym CTA: potwierdź, czy workaround działa / wyślij dowód.`,
     thumbnail: "",
   },
   {
     id: "sop-email-027",
-    title: "Email para ‘bug no reproducible’ (sin culpar): pedir detalles correctos y mantener confianza",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘bug nie do odtworzenia’ (bez obwiniania) — poproś o właściwe szczegóły i utrzymaj zaufanie",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Cuando no reproduces el bug: cómo pedir evidencia sin frustrar.",
-    prompt: `Síntoma: [ ]
-Qué intentaste: [ ]
-Tono: [ ]
+      "Gdy nie możesz odtworzyć buga: jak prosić o dowody bez frustracji.",
+    prompt: `Objaw: [ ]
+Co sprawdziłeś/-aś: [ ]
+Ton: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Explica que queremos replicarlo para arreglarlo definitivamente.
-3) Pide solo lo necesario (checklist 8–10) con ejemplos.
-4) Ofrece 2 alternativas rápidas:
-   - video 20s
-   - llamada breve
-5) CTA único y cierre humano.`,
+Napisz email z:
+1) Tematem (3).
+2) Wyjaśnieniem, że chcemy to odtworzyć, by naprawić na stałe.
+3) Prośbą tylko o minimum (checklista 8–10) z przykładami.
+4) 2 szybkimi alternatywami:
+   - wideo 20 s
+   - krótka rozmowa
+5) Jednym CTA i ludzkim zakończeniem.`,
     thumbnail: "",
   },
   {
     id: "sop-email-028",
-    title: "Email ‘pasarela de pago’ (Stripe/PayPal): cómo explicar fallos sin culpar al banco ni al cliente",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘bramka płatności’ (Stripe/PayPal) — jak tłumaczyć niepowodzenia bez obwiniania banku ani klienta",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Plantilla para pagos fallidos con tono neutral, pasos concretos y alternativa.",
-    prompt: `Error: [ ]
-Pago: [suscripción/one-time]
-País: [ ]
+      "Szablon dla płatności nieudanych: neutralny ton, konkretne kroki i alternatywa.",
+    prompt: `Błąd: [ ]
+Płatność: [subskrypcja/jednorazowo]
+Kraj: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Explicación neutral de causas comunes (4 bullets).
-3) Pasos para resolver (6–8).
-4) Alternativa: otra tarjeta/método/link.
-5) CTA único: confirmar si pudo completar y qué error ve si no.`,
+Napisz email z:
+1) Tematem (3).
+2) Neutralnym wyjaśnieniem typowych przyczyn (4 bullety).
+3) Krokami rozwiązania (6–8).
+4) Alternatywą: inna karta/metoda/link.
+5) Jednym CTA: potwierdź, czy udało się zakończyć; jeśli nie — jaki błąd widzisz.`,
     thumbnail: "",
   },
   {
     id: "sop-email-029",
-    title: "Email ‘entorno no soportado’ (browser/OS): decirlo con tacto + opciones reales",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘środowisko niewspierane’ (przeglądarka/OS) — takt + realne opcje",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Comunicar incompatibilidad sin sonar arrogante: ofrece caminos y verificación.",
-    prompt: `Entorno actual: [ ]
-Entorno soportado: [ ]
-Problema: [ ]
+      "Komunikuj niekompatybilność bez wyższości: zaoferuj drogi obejścia i weryfikację.",
+    prompt: `Aktualne środowisko: [ ]
+Wspierane środowisko: [ ]
+Problem: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Explica compatibilidad de forma amable.
-3) 2 opciones concretas para continuar hoy.
-4) Pasos para actualizar/cambiar (breve).
-5) CTA único: confirmar si pudo con la opción A o B.`,
+Napisz email z:
+1) Tematem (3).
+2) Uprzejmym wyjaśnieniem kompatybilności.
+3) 2 konkretnymi opcjami, by ruszyć dziś.
+4) Krótkimi krokami aktualizacji/zmiany.
+5) Jednym CTA: potwierdź, czy zadziałała opcja A czy B.`,
     thumbnail: "",
   },
   {
     id: "sop-email-030",
-    title: "Email ‘problema intermitente’: aislar variables con pocas preguntas + plan de seguimiento",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘problem sporadyczny’ — izoluj zmienne kilkoma pytaniami + plan follow-up",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Para errores aleatorios: pedir contexto útil y proponer plan sin agotar al cliente.",
-    prompt: `Síntoma: [ ]
-Frecuencia: [ ]
-Contexto sospechado: [red/datos]
+      "Dla losowych błędów: poproś o użyteczny kontekst i zaproponuj plan bez męczenia klienta.",
+    prompt: `Objaw: [ ]
+Częstotliwość: [ ]
+Podejrzany kontekst: [sieć/dane]
 
-Escribe un email con:
-1) Asunto (3).
-2) 6 preguntas de alto valor (no más).
-3) Solicitud opcional de evidencia (video 20s).
-4) Plan de seguimiento: qué probaremos nosotros y cómo avisaremos.
-5) CTA único.`,
+Napisz email z:
+1) Tematem (3).
+2) 6 pytaniami o najwyższej wartości (nie więcej).
+3) Opcjonalną prośbą o dowód (wideo 20 s).
+4) Planem follow-up: co sprawdzimy po naszej stronie i jak damy znać.
+5) Jednym CTA.`,
     thumbnail: "",
   },
 
   {
     id: "sop-email-031",
-    title: "Email para ‘acceso a contenido/curso’: explicar bloqueo, validar compra y recuperar acceso",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘dostęp do treści/kursu’ — wyjaśnij blokadę, potwierdź zakup i odzyskaj dostęp",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Plantilla para casos de “compré pero no veo”: validación de email, estado pago y solución.",
-    prompt: `Producto comprado: [ ]
-Email usado para compra: [ ]
-Plataforma: [ ]
-Estado: [bloqueado/no aparece]
+      "Szablon dla “kupiłem/-am, ale nie widzę”: weryfikacja emaila, statusu płatności i rozwiązanie.",
+    prompt: `Kupiony produkt: [ ]
+Email użyty do zakupu: [ ]
+Platforma: [ ]
+Status: [zablokowane/nie widać]
 
-Escribe un email con:
-1) Asunto (3).
-2) Validar compra en 3 datos (sin PII sensible).
-3) Pasos para acceder correctamente (6–8).
-4) Si usó email incorrecto: cómo resolver.
-5) CTA único: responder con los 3 datos para localizar la compra.`,
+Napisz email z:
+1) Tematem (3).
+2) Weryfikacją zakupu na 3 danych (bez wrażliwych PII).
+3) Krokami poprawnego dostępu (6–8).
+4) Jeśli użyto złego emaila: jak to naprawić.
+5) Jednym CTA: odpisz z 3 danymi, byśmy znaleźli zakup.`,
     thumbnail: "",
   },
   {
     id: "sop-email-032",
-    title: "Email ‘solicitud de excepción’ (caso gris): cómo pedir aprobación interna y responder al cliente",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘prośba o wyjątek’ (szary przypadek) — jak poprosić o zgodę wewnętrzną i jak odpisać klientowi",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Dos correos: uno interno para pedir excepción y otro al cliente mientras se revisa.",
-    prompt: `Caso: [ ]
-Política: [ ]
-Por qué es caso gris: [ ]
-Qué excepción se solicita: [ ]
+      "Dwa emaile: wewnętrzny do przełożonego i do klienta na czas weryfikacji.",
+    prompt: `Przypadek: [ ]
+Polityka: [ ]
+Dlaczego to szary przypadek: [ ]
+O jaki wyjątek prosimy: [ ]
 
-Crea:
-A) Email interno a supervisor:
-- asunto
-- resumen
-- evidencia
-- recomendación
-- riesgo
-- respuesta solicitada
+Stwórz:
+A) Email wewnętrzny do przełożonego:
+- temat
+- streszczenie
+- dowody
+- rekomendacja
+- ryzyko
+- oczekiwana odpowiedź
 
-B) Email al cliente:
-- asunto
-- agradecimiento
-- que lo estamos revisando
-- qué necesitamos si falta algo
-- próximo update (sin hora exacta)`,
+B) Email do klienta:
+- temat
+- podziękowanie
+- że weryfikujemy
+- czego potrzebujemy, jeśli coś brakuje
+- kolejny update (bez konkretnej godziny)`,
     thumbnail: "",
   },
   {
     id: "sop-email-033",
-    title: "Email ‘solicitud de confirmación final’: checklist de 3 puntos para cerrar con seguridad",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘ostateczne potwierdzenie’ — checklista 3 punktów, by bezpiecznie zamknąć sprawę",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Antes de cerrar: confirmar con el cliente en 3 checks y evitar reabrir.",
-    prompt: `Solución aplicada: [ ]
-Feature: [ ]
-Tono: [ ]
+      "Przed zamknięciem: potwierdź w 3 checkach i uniknij ponownego otwierania.",
+    prompt: `Zastosowane rozwiązanie: [ ]
+Funkcja: [ ]
+Ton: [ ]
 
-Escribe un email con:
-1) Asunto (2–3).
-2) 3 checks para confirmar (en bullets).
-3) Si algo falla: 1 CTA para responder con evidencia mínima.
-4) Cierre amable.`,
+Napisz email z:
+1) Tematem (2–3).
+2) 3 checkami potwierdzenia (w bulletach).
+3) Jeśli coś nie działa: 1 CTA, by odpisać z minimalnym dowodem.
+4) Uprzejmym zakończeniem.`,
     thumbnail: "",
   },
   {
     id: "sop-email-034",
-    title: "Email ‘migración/cambio importante’: instrucción clara + antes/después + ‘qué hacer hoy’",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘migracja/duża zmiana’ — jasne instrukcje + przed/po + ‘co zrobić dziś’",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Comunicar cambios grandes con guía práctica y transmisión de tranquilidad.",
-    prompt: `Cambio: [ ]
-A quién afecta: [ ]
-Fecha: [ ]
-Acciones requeridas: [ ]
+      "Komunikacja dużych zmian: praktyczny przewodnik i uspokojenie.",
+    prompt: `Zmiana: [ ]
+Kogo dotyczy: [ ]
+Data: [ ]
+Wymagane działania: [ ]
 
-Escribe un email con:
-1) Asunto (4).
-2) Resumen ejecutivo (3 bullets).
-3) Antes vs después (6 bullets).
-4) Qué debe hacer el usuario hoy (máx 5 pasos).
-5) Qué pasa si no hace nada (honesto).
-6) FAQ mini (6).
-7) Cierre con CTA único.`,
+Napisz email z:
+1) Tematem (4).
+2) Executive summary (3 bullety).
+3) Przed vs Po (6 bulletów).
+4) Co użytkownik ma zrobić dziś (max 5 kroków).
+5) Co się stanie, jeśli nic nie zrobi (uczciwie).
+6) Mini-FAQ (6).
+7) Jednym CTA w zakończeniu.`,
     thumbnail: "",
   },
   {
     id: "sop-email-035",
-    title: "Email ‘renovación/cobro próximo’: preventiva, clara, reduce disputas",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘nadchodzące odnowienie/obciążenie’ — prewencyjny, jasny, redukuje spory",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Aviso de renovación: fecha, monto, cómo cancelar/cambiar, y evitar reclamos.",
+      "Powiadomienie o odnowieniu: data, kwota, jak anulować/zmienić i uniknąć reklamacji.",
     prompt: `Plan: [ ]
-Monto: [ ]
-Fecha: [ ]
-Cómo cancelar: [ruta/pasos]
+Kwota: [ ]
+Data: [ ]
+Jak anulować: [ścieżka/kroki]
 
-Escribe un email con:
-1) Asunto (4).
-2) Información clave (fecha, monto, método) en bullets.
-3) Cómo actualizar pago (pasos 4–6).
-4) Cómo cancelar o cambiar plan (pasos).
-5) FAQ mini (5).
-6) Cierre amable.`,
+Napisz email z:
+1) Tematem (4).
+2) Kluczowymi informacjami (data, kwota, metoda) w bulletach.
+3) Jak zaktualizować płatność (4–6 kroków).
+4) Jak anulować lub zmienić plan (kroki).
+5) Mini-FAQ (5).
+6) Uprzejmym zakończeniem.`,
     thumbnail: "",
   },
 
   {
     id: "sop-email-036",
-    title: "Email ‘pedido de reseña/feedback’ (tras resolución): breve, humano y útil para mejorar",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘prośba o opinię/feedback’ (po rozwiązaniu): krótki, ludzki i pomocny",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Pedir feedback sin molestar: 2 preguntas útiles y opción de respuesta rápida.",
-    prompt: `Caso resuelto: [ ]
-Tono: [ ]
+      "Prośba o feedback bez irytowania: 2 sensowne pytania i szybka odpowiedź.",
+    prompt: `Rozwiązany przypadek: [ ]
+Ton: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Agradecimiento + confirmación de que se resolvió.
-3) 2 preguntas ultra simples:
-   - ¿te sirvió la solución?
-   - ¿qué podríamos mejorar?
-4) CTA: responder con un número (1–5) y 1 línea opcional.
-Incluye versión súper corta.`,
+Napisz email z:
+1) Tematem (3).
+2) Podziękowaniem + potwierdzeniem, że sprawa rozwiązana.
+3) 2 ultra proste pytania:
+   - czy rozwiązanie pomogło?
+   - co możemy poprawić?
+4) CTA: odpisz liczbą (1–5) + opcjonalnie 1 linia.
+Dodaj wersję super krótką.`,
     thumbnail: "",
   },
   {
     id: "sop-email-037",
-    title: "Email ‘cliente VIP/premium’: tono ultra cuidado + aceleración + ownership",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘klient VIP/premium’ — ultra dopracowany ton + przyspieszenie + ownership",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Respuesta premium: ownership total, pasos claros y seguimiento proactivo (sin prometer).",
-    prompt: `Cliente: [VIP]
-Caso: [ ]
-Prioridad: [ ]
+      "Odpowiedź premium: pełne ownership, jasne kroki i proaktywny follow-up (bez obiecywania).",
+    prompt: `Klient: [VIP]
+Sprawa: [ ]
+Priorytet: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Apertura premium (cálida, breve).
-3) Ownership: “me encargo personalmente”.
-4) Plan en 3 pasos + qué necesito (si aplica).
-5) Compromiso de seguimiento (sin prometer tiempos exactos).
-6) Cierre elegante + firma.`,
+Napisz email z:
+1) Tematem (3).
+2) Premium otwarciem (ciepłe, krótkie).
+3) Ownership: “zajmę się tym osobiście”.
+4) Planem w 3 krokach + czego potrzebuję (jeśli dotyczy).
+5) Zobowiązaniem do follow-upu (bez obiecywania konkretnych terminów).
+6) Eleganckim zakończeniem + podpisem.`,
     thumbnail: "",
   },
   {
     id: "sop-email-038",
-    title: "Email ‘usuario confundido con la plataforma’: guía de navegación + recursos + propuesta de siguiente paso",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘użytkownik zagubiony w platformie’ — nawigacja + zasoby + propozycja następnego kroku",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Ayuda al usuario a ubicarse: 3 rutas típicas, tips y CTA único.",
-    prompt: `Producto: [ ]
-Qué busca el usuario: [ ]
-Nivel: [principiante]
+      "Pomaga się odnaleźć: 3 typowe ścieżki, tipy i jedno CTA.",
+    prompt: `Produkt: [ ]
+Czego szuka użytkownik: [ ]
+Poziom: [początkujący]
 
-Escribe un email con:
-1) Asunto (3).
-2) Explica en 2 líneas “cómo navegar”.
-3) 3 rutas típicas (A/B/C) con pasos.
-4) 5 tips para evitar errores comunes.
-5) Recursos sugeridos (3).
-6) CTA único: decirnos cuál ruta quiere seguir.`,
+Napisz email z:
+1) Tematem (3).
+2) Wyjaśnieniem w 2 liniach “jak nawigować”.
+3) 3 typowymi ścieżkami (A/B/C) z krokami.
+4) 5 tipami, jak unikać typowych błędów.
+5) 3 sugerowanymi zasobami.
+6) Jednym CTA: powiedz, którą ścieżkę chcesz wybrać.`,
     thumbnail: "",
   },
   {
     id: "sop-email-039",
-    title: "Email ‘solicitud legal/suscripción cancelada por abuso’: firme, profesional y con límites claros",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘sprawa prawna / subskrypcja anulowana za nadużycia’ — stanowczy, profesjonalny i z jasnymi granicami",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Plantilla para situaciones delicadas: límites, referencia a políticas y canal correcto.",
-    prompt: `Situación: [abuso/fraude/legal request]
-Política: [ ]
-Qué puedes decir: [ ]
+      "Szablon dla delikatnych sytuacji: granice, odniesienie do polityk i właściwy kanał.",
+    prompt: `Sytuacja: [nadużycia/fraud/prośba prawna]
+Polityka: [ ]
+Co możesz powiedzieć: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Respuesta firme y respetuosa.
-3) Referencia breve a términos/política (sin copiar texto largo).
-4) Qué pasos puede seguir el usuario (si corresponde).
-5) Cierre que evita escalada.
-Incluye versión súper corta.`,
+Napisz email z:
+1) Tematem (3).
+2) Odpowiedzią stanowczą i uprzejmą.
+3) Krótkim odniesieniem do regulaminu/polityki (bez długich cytatów).
+4) Krokami, które użytkownik może podjąć (jeśli dotyczy).
+5) Zakończeniem, które nie eskaluje.
+Dodaj wersję super krótką.`,
     thumbnail: "",
   },
   {
     id: "sop-email-040",
-    title: "Email ‘reconexión de integración’ (OAuth/webhooks): pasos claros + verificación + qué enviar si falla",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘ponowne połączenie integracji’ (OAuth/webhooks) — jasne kroki + weryfikacja + co wysłać, jeśli nie działa",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Guía para reconectar integraciones con verificación y solicitud de evidencia mínima.",
-    prompt: `Integración: [ ]
-Problema: [ ]
-Plataforma: [ ]
+      "Instrukcja reconnection integracji z weryfikacją i minimalną prośbą o dowody.",
+    prompt: `Integracja: [ ]
+Problem: [ ]
+Platforma: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Pasos para desconectar y reconectar (8–12) con “qué verás”.
-3) Paso de verificación: cómo probar en 1 minuto.
-4) Si falla: 6 datos a enviar (captura, error, timestamp, cuenta).
-5) CTA único.`,
+Napisz email z:
+1) Tematem (3).
+2) Krokami rozłączenia i ponownego połączenia (8–12) z “co zobaczysz”.
+3) Krokiem weryfikacji: jak przetestować w 1 minutę.
+4) Jeśli nie działa: 6 danych do wysłania (screen, błąd, timestamp, konto).
+5) Jednym CTA.`,
     thumbnail: "",
   },
 
   {
     id: "sop-email-041",
-    title: "Email ‘confirmación de actualización de datos’ (perfil/facturación): resumen + qué revisar",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘potwierdzenie aktualizacji danych’ (profil/rozliczenia) — podsumowanie + co sprawdzić",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Confirma cambios de datos: qué se actualizó y cómo verificar (reduce tickets).",
-    prompt: `Cambio: [ ]
-Dato anterior: [opcional]
-Dato nuevo: [ ]
-Qué debe verificar: [ ]
+      "Potwierdza zmianę danych: co zaktualizowano i jak zweryfikować (mniej ticketów).",
+    prompt: `Zmiana: [ ]
+Poprzednia wartość: [opcjonalnie]
+Nowa wartość: [ ]
+Co trzeba sprawdzić: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Confirmación del cambio.
-3) 3 checks de verificación.
-4) Qué hacer si ve algo raro (CTA único).
-5) Cierre breve y amable.`,
+Napisz email z:
+1) Tematem (3).
+2) Potwierdzeniem zmiany.
+3) 3 checkami weryfikacji.
+4) Co zrobić, jeśli coś wygląda źle (jedno CTA).
+5) Krótkim, uprzejmym zakończeniem.`,
     thumbnail: "",
   },
   {
     id: "sop-email-042",
-    title: "Email ‘respuesta a disputa de cargo’ (chargeback): tono serio + pasos + evidencia",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘odpowiedź na chargeback’ — poważny ton + kroki + dowody",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Plantilla para manejar chargebacks: recolectar datos, explicar proceso y buscar resolución.",
-    prompt: `Pasarela: [ ]
-Cargo: [ ]
-Motivo disputa: [ ]
-Estado: [abierta]
+      "Szablon do chargebacków: zbieranie danych, wyjaśnienie procesu i próba rozwiązania.",
+    prompt: `Bramka: [ ]
+Obciążenie: [ ]
+Powód sporu: [ ]
+Status: [otwarty]
 
-Escribe un email con:
-1) Asunto (3).
-2) Explicación breve del proceso y por qué conviene resolver directo.
-3) Qué datos necesitamos (checklist 8) para investigar.
-4) Opciones de resolución (según política).
-5) CTA único y tono muy profesional.`,
+Napisz email z:
+1) Tematem (3).
+2) Krótkim wyjaśnieniem procesu i czemu lepiej rozwiązać bezpośrednio.
+3) Danymi, których potrzebujemy (checklista 8) do zbadania.
+4) Opcjami rozwiązania (wg polityki).
+5) Jednym CTA i bardzo profesjonalnym tonem.`,
     thumbnail: "",
   },
   {
     id: "sop-email-043",
-    title: "Email ‘solución en 2 opciones’: A/B para que el cliente elija sin confusión",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘rozwiązanie w 2 opcjach’ — A/B, żeby klient wybrał bez zamieszania",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Ofrece dos caminos claros (workaround vs fix) y reduce tiempo de decisión.",
-    prompt: `Problema: [ ]
-Opción A: [rápida]
-Opción B: [más completa]
-Tono: [ ]
+      "Dwie jasne ścieżki (workaround vs fix) i krótszy czas decyzji.",
+    prompt: `Problem: [ ]
+Opcja A: [szybka]
+Opcja B: [pełniejsza]
+Ton: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Resumen corto del problema.
-3) Opción A:
-   - pasos (3–6)
-   - pros/contras
-4) Opción B:
-   - pasos (3–6)
-   - pros/contras
-5) CTA único: “responde A o B” + 1 dato si hace falta.`,
+Napisz email z:
+1) Tematem (3).
+2) Krótkim podsumowaniem problemu.
+3) Opcją A:
+   - kroki (3–6)
+   - plusy/minusy
+4) Opcją B:
+   - kroki (3–6)
+   - plusy/minusy
+5) Jednym CTA: “odpisz A albo B” + 1 dane, jeśli trzeba.`,
     thumbnail: "",
   },
   {
     id: "sop-email-044",
-    title: "Email ‘documentación personalizada’: explicar un proceso al cliente con mini-guía creada para su caso",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘spersonalizowana dokumentacja’ — wyjaśnij proces mini-przewodnikiem dopasowanym do przypadku",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Mini-doc dentro del email: guía por pasos adaptada al caso real del cliente.",
-    prompt: `Cliente quiere lograr: [ ]
-Contexto (roles/plan): [ ]
-Restricciones: [ ]
+      "Mini-dokumentacja w emailu: przewodnik krok po kroku dopasowany do realnego przypadku.",
+    prompt: `Cel klienta: [ ]
+Kontekst (role/plan): [ ]
+Ograniczenia: [ ]
 
-Escribe un email tipo mini-documentación con:
-1) Asunto (3).
-2) “Objetivo” y “Resultado esperado”.
-3) Requisitos previos.
-4) Pasos (10–14) con:
-   - acción
-   - resultado esperado
-   - error típico y solución
-5) Checklist final de verificación.
-6) CTA único para confirmar éxito o decir en qué paso se quedó.`,
+Napisz email typu mini-dokumentacja z:
+1) Tematem (3).
+2) “Cel” i “Oczekiwany rezultat”.
+3) Wymaganiami wstępnymi.
+4) Krokami (10–14), każdy z:
+   - akcją
+   - oczekiwanym rezultatem
+   - typowym błędem i rozwiązaniem
+5) Checklistą końcową weryfikacji.
+6) Jednym CTA: potwierdź sukces lub powiedz, na którym kroku utknąłeś/-aś.`,
     thumbnail: "",
   },
   {
     id: "sop-email-045",
-    title: "Email ‘plantilla de onboarding’ post-compra: acceso, primeros pasos, recursos y soporte",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email onboarding po zakupie: dostęp, pierwsze kroki, zasoby i wsparcie",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Email de bienvenida después de comprar: acceso, quickstart y dónde pedir ayuda.",
-    prompt: `Producto: [ ]
-Acceso: [ruta]
-Recursos: [links o títulos]
-Tono: [ ]
+      "Email powitalny po zakupie: dostęp, quickstart i gdzie prosić o pomoc.",
+    prompt: `Produkt: [ ]
+Dostęp: [ścieżka]
+Zasoby: [linki lub tytuły]
+Ton: [ ]
 
-Escribe un email con:
-1) Asunto (5 opciones).
-2) Bienvenida + qué incluye.
-3) Cómo acceder (pasos 4–6).
-4) Quickstart (3 acciones para primera victoria).
-5) Recursos (3) + comunidad (si hay).
-6) Soporte: cómo pedir ayuda (qué incluir).
-7) Cierre cálido.`,
+Napisz email z:
+1) Tematem (5 opcji).
+2) Powitaniem + co zawiera.
+3) Jak uzyskać dostęp (4–6 kroków).
+4) Quickstart (3 akcje do “pierwszego sukcesu”).
+5) Zasobami (3) + społecznością (jeśli jest).
+6) Wsparciem: jak prosić o pomoc (co zawrzeć).
+7) Ciepłym zakończeniem.`,
     thumbnail: "",
   },
 
   {
     id: "sop-email-046",
-    title: "Email ‘responder a solicitud de feature’: validar, aclarar, y convertir en insight accionable",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘prośba o nową funkcję’ — waliduj, dopytaj i zamień w insight (bez obietnic)",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Responde solicitudes de features sin prometer: preguntas útiles y seguimiento.",
-    prompt: `Solicitud del cliente: [ ]
-Estado del roadmap: [desconocido/no/quizá]
-Tono: [ ]
+      "Odpowiedź na feature request bez obiecywania: pytania o use case i follow-up.",
+    prompt: `Prośba klienta: [ ]
+Status roadmapy: [nieznany/nie/może]
+Ton: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Validación y agradecimiento.
-3) 5 preguntas para entender el caso de uso (máximo valor).
-4) Qué podemos sugerir hoy (workaround) si aplica.
-5) Qué haremos con el feedback (sin prometer).
-6) CTA único: responder las 5 preguntas.`,
+Napisz email z:
+1) Tematem (3).
+2) Walidacją i podziękowaniem.
+3) 5 pytaniami o use case (maksymalna wartość).
+4) Co możemy zasugerować dziś (workaround), jeśli dotyczy.
+5) Co zrobimy z feedbackiem (bez obietnic).
+6) Jednym CTA: odpisz na 5 pytań.`,
     thumbnail: "",
   },
   {
     id: "sop-email-047",
-    title: "Email ‘respuesta por SLA’ (cuando va a tardar): transparencia + próximos pasos + calma",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘odpowiedź wg SLA’ (gdy to potrwa) — transparentnie + kolejne kroki + spokój",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Cuando no hay solución inmediata: cómo comunicarse con transparencia sin irritar.",
-    prompt: `Caso: [ ]
-Razón de demora: [depende de tercero/needs engineering]
-Workaround: [sí/no]
-Tono: [ ]
+      "Gdy nie ma natychmiastowego rozwiązania: jak komunikować transparentnie bez irytowania.",
+    prompt: `Sprawa: [ ]
+Powód opóźnienia: [zależy od strony trzeciej/wymaga inżynierii]
+Workaround: [tak/nie]
+Ton: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Reconocer urgencia del cliente.
-3) Explicar por qué tomará más (sin tecnicismos).
-4) Qué haremos mientras tanto (3 bullets).
-5) Workaround (si existe).
-6) CTA único: confirmar si workaround ayuda / enviar dato faltante.`,
+Napisz email z:
+1) Tematem (3).
+2) Uznaniem pilności klienta.
+3) Wyjaśnieniem, czemu potrwa dłużej (bez żargonu).
+4) Co zrobimy w międzyczasie (3 bullety).
+5) Workaroundem (jeśli jest).
+6) Jednym CTA: potwierdź, czy workaround pomaga / wyślij brakujące dane.`,
     thumbnail: "",
   },
   {
     id: "sop-email-048",
-    title: "Email ‘confirmación de devolución parcial’ o ajuste: desglose claro y cómo se refleja",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘częściowy zwrot’ / korekta — jasne rozbicie i jak to się pokaże",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Para reembolsos parciales/ajustes: desglose claro, razón y pasos para verificar.",
-    prompt: `Monto total: [ ]
-Monto ajustado: [ ]
-Razón: [prorrateo/descuento/ajuste]
-Pasarela: [ ]
+      "Zwroty częściowe/korekty: jasne rozbicie, powód i kroki weryfikacji.",
+    prompt: `Kwota całkowita: [ ]
+Kwota skorygowana: [ ]
+Powód: [pro-rata/rabat/korekta]
+Bramka: [ ]
 
-Escribe un email con:
-1) Asunto (3).
-2) Explicación breve del ajuste.
-3) Desglose en bullets (placeholders).
-4) Cómo se reflejará (tiempos y dónde mirar).
-5) CTA único: responder si no lo ve tras X días hábiles (sin prometer exacto).`,
+Napisz email z:
+1) Tematem (3).
+2) Krótkim wyjaśnieniem korekty.
+3) Rozbiciem w bulletach (placeholdery).
+4) Jak to się pojawi (czasy i gdzie sprawdzić).
+5) Jednym CTA: odpisz, jeśli nie widać po X dniach roboczych (bez obiecywania dokładnie).`,
     thumbnail: "",
   },
   {
     id: "sop-email-049",
-    title: "Email ‘mensaje de prevención de fraude’ (sin acusar): verificación adicional y siguiente paso",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: ‘prewencja fraudu’ (bez oskarżeń) — dodatkowa weryfikacja i następny krok",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Cuando el sistema marca riesgo: pedir verificación extra sin acusar ni alarmar.",
-    prompt: `Señal de riesgo: [ ]
-Qué requiere: [verificación]
-Tono: [muy profesional]
+      "Gdy system wykrywa ryzyko: prośba o dodatkową weryfikację bez oskarżeń i bez straszenia.",
+    prompt: `Sygnał ryzyka: [ ]
+Wymagane: [weryfikacja]
+Ton: [bardzo profesjonalny]
 
-Escribe un email con:
-1) Asunto (3).
-2) Explicación neutral: “por seguridad”.
-3) Qué necesitamos (2–3 métodos permitidos) con ejemplos.
-4) Qué NO pedimos nunca.
-5) CTA único + cierre tranquilo.`,
+Napisz email z:
+1) Tematem (3).
+2) Neutralnym wyjaśnieniem: “ze względów bezpieczeństwa”.
+3) Co potrzebujemy (2–3 dozwolone metody) z przykładami.
+4) Czego NIGDY nie prosimy.
+5) Jednym CTA + spokojnym zakończeniem.`,
     thumbnail: "",
   },
   {
     id: "sop-email-050",
-    title: "Email ‘recap’ interno para equipo (handoff): resumen del caso, estado, riesgos y siguiente acción",
-    area: "Atención al Cliente & SOPs",
-    category: "Emails",
+    title:
+      "Email: wewnętrzny recap do zespołu (handoff) — streszczenie, status, ryzyka i następna akcja",
+    area: "Obsługa Klienta & SOPy",
+    category: "Emaile",
     summary:
-      "Handoff interno perfecto: contexto, estado, evidencia, riesgos y próxima acción.",
-    prompt: `Caso: [ ]
-Cliente: [sin PII]
-Estado: [ ]
-Bloqueos: [ ]
-Evidencia: [ ]
-Siguiente acción: [ ]
+      "Idealny handoff wewnętrzny: kontekst, status, dowody, ryzyka i jasny next step.",
+    prompt: `Sprawa: [ ]
+Klient: [bez PII]
+Status: [ ]
+Blokery: [ ]
+Dowody: [ ]
+Następna akcja: [ ]
 
-Escribe un email interno con:
-1) Asunto estándar.
-2) Resumen del caso (3 bullets).
-3) Timeline (3–6 eventos con timestamps).
-4) Qué se probó y resultados.
-5) Riesgos/impacto.
-6) Próxima acción clara + owner recomendado.
-Incluye versión corta para Slack.`,
+Napisz wewnętrzny email z:
+1) Standardowym tematem.
+2) Streszczeniem sprawy (3 bullety).
+3) Osią czasu (3–6 zdarzeń z timestampami).
+4) Co sprawdzono i jakie były wyniki.
+5) Ryzykami/wpływem.
+6) Jasną następną akcją + rekomendowanym ownerem.
+Dodaj krótką wersję na Slacka.`,
     thumbnail: "",
   },
 ];

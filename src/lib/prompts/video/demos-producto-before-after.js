@@ -3,323 +3,323 @@
 export const videoPromptsDemosProductoBeforeAfter = [
   {
     id: "video-demo-before-after-01",
-    title: "Tienda online caótica vs tienda profesional",
+    title: "Chaotyczny sklep online vs profesjonalny sklep",
     summary:
-      "Antes/después de una web e-commerce: de página desordenada y fea a tienda limpia y moderna.",
-    area: "Demo / Producto",
-    category:"Antes/Después",
+      "Przed/po dla e-commerce: od brzydkiej, nieuporządkowanej strony do czystego, nowoczesnego sklepu.",
+    area: "Demo / Produkt",
+    category: "Przed/Po",
     prompt: `
-Genera un vídeo de 8 segundos en formato horizontal 16:9, sin ningún tipo de texto en pantalla.
+Wygeneruj wideo o długości 8 sekund w formacie poziomym 16:9, bez jakiegokolwiek tekstu na ekranie.
 
-Tema: antes y después visual de una tienda online.
+Temat: wizualne „przed i po” sklepu internetowego.
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–2:
-  • Plano frontal de un monitor de ordenador en un escritorio sencillo.
-  • En la pantalla se ve una página web muy desordenada: muchos colores chillones, imágenes mal recortadas, botones colocados sin alineación (sin texto legible, solo formas desordenadas).
-  • La habitación tiene luz fría y se ve ligeramente apagada, con algunos papeles desordenados al lado del teclado.
+- Sekundy 0–2:
+  • Ujęcie na wprost monitora komputerowego na prostym biurku.
+  • Na ekranie widać bardzo chaotyczną stronę: dużo krzykliwych kolorów, źle wycięte obrazy, przyciski bez wyrównania (bez czytelnego tekstu, tylko nieuporządkowane kształty).
+  • W pokoju jest chłodne światło i całość wygląda lekko ponuro; obok klawiatury leżą porozrzucane papiery.
 
-- Segundos 2–4:
-  • La cámara se acerca ligeramente a la pantalla.
-  • Se produce una animación de “fallo” visual: pequeños glitches, la pantalla parpadea y los elementos se desvanecen.
-  • El entorno del escritorio se mantiene igual por ahora.
+- Sekundy 2–4:
+  • Kamera lekko zbliża się do ekranu.
+  • Pojawia się animacja „awarii”: drobne glitche, ekran mruga, a elementy zaczynają zanikać.
+  • Otoczenie biurka na razie pozostaje bez zmian.
 
-- Segundos 4–6:
-  • La web se reconstruye en la pantalla con una apariencia totalmente nueva: fondo limpio, bloques bien alineados, fotos de producto nítidas, botones claros (sin texto, solo diseño coherente).
-  • La iluminación de la habitación se vuelve más cálida; una luz lateral se enciende suavemente.
+- Sekundy 4–6:
+  • Strona odbudowuje się na ekranie w zupełnie nowej formie: czyste tło, równe bloki, ostre zdjęcia produktów, czytelne przyciski (bez tekstu, tylko spójny design).
+  • Oświetlenie w pokoju robi się cieplejsze; delikatnie włącza się boczna lampka.
 
-- Segundos 6–8:
-  • La cámara hace un ligero zoom out para mostrar todo el escritorio ahora más ordenado: ratón y teclado alineados, una pequeña planta, un cuaderno limpio.
-  • El monitor muestra la nueva tienda online con un par de animaciones suaves (desplazamiento de carrusel de productos, por ejemplo).
+- Sekundy 6–8:
+  • Kamera robi lekki zoom out, pokazując całe biurko, które jest już bardziej uporządkowane: mysz i klawiatura ustawione równo, mała roślina, czysty notes.
+  • Monitor pokazuje nowy sklep online z kilkoma subtelnymi animacjami (np. płynne przesuwanie karuzeli produktów).
 `,
-thumbnail: "/videos/ba002.gif",
+    thumbnail: "/videos/ba002.gif",
   },
   {
     id: "video-demo-before-after-02",
-    title: "Feed de redes desordenado vs feed coherente",
+    title: "Chaotyczny feed vs spójny feed",
     summary:
-      "Demostración visual de cómo cambia un perfil de redes: antes caótico, después armónico.",
-    area: "Demo / Producto",
-    category:"Antes/Después",
+      "Wizualna demonstracja zmiany profilu w social media: wcześniej chaos, później harmonia.",
+    area: "Demo / Produkt",
+    category: "Przed/Po",
     prompt: `
-Genera un vídeo de 8 segundos, horizontal 16:9, sin texto en pantalla.
+Wygeneruj wideo o długości 8 sekund, poziome 16:9, bez tekstu na ekranie.
 
-Tema: transformación del feed de redes sociales.
+Temat: transformacja feedu w mediach społecznościowych.
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–2:
-  • Plano cercano de un smartphone sostenido con una mano, visto desde arriba sobre una mesa.
-  • En la pantalla se ve un feed de red social con imágenes aleatorias, colores inconsistentes, fotos oscuras y mal encuadradas (solo imágenes, sin texto legible).
+- Sekundy 0–2:
+  • Bliskie ujęcie smartfona trzymanego w jednej dłoni, widok z góry nad stołem.
+  • Na ekranie widać feed z losowymi obrazami, niespójnymi kolorami, ciemnymi i źle wykadrowanymi zdjęciami (tylko obrazy, bez czytelnego tekstu).
 
-- Segundos 2–4:
-  • La persona desliza el dedo hacia arriba un par de veces, mostrando más caos visual: cada publicación es completamente distinta, sin ningún estilo definido.
-  • La iluminación es neutra, con sombras suaves.
+- Sekundy 2–4:
+  • Osoba przesuwa palcem w górę kilka razy, pokazując jeszcze większy wizualny chaos: każdy post wygląda inaczej, bez wyraźnego stylu.
+  • Oświetlenie neutralne, miękkie cienie.
 
-- Segundos 4–6:
-  • La mano sale brevemente del encuadre.
-  • Se produce una animación tipo “parpadeo” en la pantalla del móvil y el feed cambia por completo.
+- Sekundy 4–6:
+  • Dłoń na chwilę wychodzi z kadru.
+  • Na ekranie telefonu pojawia się animacja „mrugnięcia” i feed całkowicie się zmienia.
 
-- Segundos 6–8:
-  • Plano más cercano a la pantalla mostrando el nuevo feed: fotos con paleta de colores coherente, encuadres similares, estética limpia y profesional.
-  • La persona sostiene el móvil con las dos manos, hace un pequeño gesto de aprobación con la cabeza (se ve parte del rostro de perfil).
-  • Todo sin texto, solo el cambio visual del feed.
+- Sekundy 6–8:
+  • Bliższe ujęcie ekranu pokazuje nowy feed: zdjęcia o spójnej palecie kolorów, podobnych kadrach, czystej i profesjonalnej estetyce.
+  • Osoba trzyma telefon obiema dłońmi i robi mały gest aprobaty głową (widać fragment twarzy z profilu).
+  • Bez tekstu — tylko wizualna zmiana feedu.
 `,
-thumbnail: "/videos/ba001.gif",
+    thumbnail: "/videos/ba001.gif",
   },
   {
     id: "video-demo-before-after-03",
-    title: "Escritorio físico antes y después de usar tu organización",
+    title: "Fizyczne biurko przed i po użyciu systemu organizacji",
     summary:
-      "Transformación de escritorio físico lleno de papeles a un espacio de trabajo limpio y funcional.",
-    area: "Demo / Producto",
-    category:"Antes/Después",
+      "Transformacja biurka pełnego papierów w czystą, funkcjonalną przestrzeń pracy.",
+    area: "Demo / Produkt",
+    category: "Przed/Po",
     prompt: `
-Genera un vídeo de 8 segundos en formato horizontal 16:9, sin texto en pantalla.
+Wygeneruj wideo o długości 8 sekund w formacie poziomym 16:9, bez tekstu na ekranie.
 
-Tema: escritorio desordenado vs escritorio organizado gracias a un sistema de organización o producto.
+Temat: zabałaganione biurko vs uporządkowane biurko dzięki systemowi organizacji lub produktowi.
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–3:
-  • Plano cenital (desde arriba) de un escritorio saturado: montones de papeles, carpetas abiertas, bolígrafos sueltos, cables, tazas con manchas.
-  • Las manos de la persona intentan buscar algo entre los papeles sin éxito, moviéndolos de un lado a otro.
-  • La iluminación es algo fría, con sombras.
+- Sekundy 0–3:
+  • Ujęcie z góry (cenitalne) na przeładowane biurko: sterty papierów, otwarte teczki, porozrzucane długopisy, kable, kubki z plamami.
+  • Dłonie osoby próbują czegoś szukać wśród papierów bez skutku, przekładając je z miejsca na miejsce.
+  • Oświetlenie lekko chłodne, z cieniami.
 
-- Segundos 3–4:
-  • Una de las manos coloca en el centro del escritorio un elemento clave: puede ser una carpeta elegante, un cuaderno especial, un organizador, o una caja distintiva que representa tu producto (sin marca ni texto).
-  • Se produce un flash suave de luz alrededor de ese elemento.
+- Sekundy 3–4:
+  • Jedna z dłoni kładzie na środku biurka kluczowy element: może to być elegancka teczka, specjalny notes, organizer albo charakterystyczne pudełko reprezentujące produkt (bez marki i bez tekstu).
+  • Wokół tego elementu pojawia się delikatny błysk światła.
 
-- Segundos 4–8:
-  • Transición continua: mientras el flash se disipa, el escritorio se va limpiando como por arte de magia.
-  • Los papeles desaparecen o se ordenan en bandejas, los bolígrafos se agrupan en un portalápices, los cables se ordenan, las tazas sucias desaparecen.
-  • Plano final: escritorio minimalista, con portátil, cuaderno, bolígrafo alineado, una planta pequeña y el elemento clave (tu producto) en un lugar visible.
-  • Luz más cálida, sensación de calma y productividad.
+- Sekundy 4–8:
+  • Ciągłe przejście: gdy błysk znika, biurko „magicznie” się porządkuje.
+  • Papiery znikają lub układają się w tackach, długopisy trafiają do kubka na przybory, kable się porządkują, brudne kubki znikają.
+  • Finał: minimalistyczne biurko z laptopem, notesem, długopisem ułożonym równo, małą rośliną i kluczowym elementem (produktem) w widocznym miejscu.
+  • Światło jest cieplejsze; atmosfera spokoju i produktywności.
 `,
-thumbnail: "/videos/ba003.gif",
+    thumbnail: "/videos/ba003.gif",
   },
   {
     id: "video-demo-before-after-04",
-    title: "Antes y después de una sesión de fotos de producto",
+    title: "Przed i po profesjonalnej sesji zdjęć produktu",
     summary:
-      "Comparación visual entre una foto de producto amateur y otra versión con iluminación y composición profesionales.",
-    area: "Demo / Producto",
-    category:"Antes/Después",
+      "Wizualne porównanie: amatorskie zdjęcie produktu vs wersja z profesjonalnym światłem i kompozycją.",
+    area: "Demo / Produkt",
+    category: "Przed/Po",
     prompt: `
-Genera un vídeo de 8 segundos, 16:9 horizontal, sin texto en pantalla.
+Wygeneruj wideo o długości 8 sekund, poziome 16:9, bez tekstu na ekranie.
 
-Tema: mejora visual de fotos de producto.
+Temat: wizualna poprawa zdjęć produktów.
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–2:
-  • Plano fijo de una mesa sencilla donde hay un producto físico (por ejemplo, una botella, una caja o un gadget) colocado de forma descuidada.
-  • La iluminación es pobre: luz dura desde arriba, sombras fuertes, fondo con objetos aleatorios.
-  • La cámara muestra esta escena con cierto aire amateur.
+- Sekundy 0–2:
+  • Statyczne ujęcie prostego stołu, na którym leży fizyczny produkt (np. butelka, pudełko lub gadżet) ustawiony niedbale.
+  • Oświetlenie jest słabe: twarde światło z góry, mocne cienie, tło z przypadkowymi przedmiotami.
+  • Kamera pokazuje scenę w amatorskim stylu.
 
-- Segundos 2–4:
-  • La cámara hace un suave zoom in sobre el producto.
-  • En el borde del encuadre aparecen manos que mueven ligeramente el producto, pero el resultado sigue viéndose poco atractivo.
+- Sekundy 2–4:
+  • Kamera robi delikatny zoom in na produkt.
+  • Na krawędzi kadru pojawiają się dłonie, które lekko przesuwają produkt, ale całość nadal wygląda mało atrakcyjnie.
 
-- Segundos 4–6:
-  • Momento de transición: la pantalla realiza un cambio tipo “snap” visual.
-  • El producto reaparece ahora en un set bien preparado: fondo neutro o degradado suave, luz suave desde un lateral y luz de relleno, sombras delicadas.
+- Sekundy 4–6:
+  • Moment przejścia: szybka transformacja typu „snap”.
+  • Produkt pojawia się w dobrze przygotowanym secie: neutralne tło lub miękki gradient, miękkie światło z boku i światło wypełniające, delikatne cienie.
 
-- Segundos 6–8:
-  • El producto está centrado, con algunos elementos decorativos mínimos coherentes (hojas, piedras, accesorios según el tipo de producto).
-  • La cámara realiza un pequeño movimiento lateral o giratorio muy suave alrededor del producto, mostrando sus detalles.
-  • Todo limpio, sin texto ni logos.
+- Sekundy 6–8:
+  • Produkt jest wycentrowany, z minimalnymi, spójnymi dodatkami (liście, kamienie, akcesoria dopasowane do rodzaju produktu).
+  • Kamera wykonuje bardzo subtelny ruch boczny lub lekki obrót wokół produktu, pokazując detale.
+  • Wszystko czyste, bez tekstu i bez logotypów.
 `,
-thumbnail: "/videos/ba004.gif",
+    thumbnail: "/videos/ba004.gif",
   },
   {
     id: "video-demo-before-after-05",
-    title: "Servicio de peluquería: look descuidado vs look fresco",
+    title: "Usługa fryzjerska: zaniedbany look vs świeży look",
     summary:
-      "Antes/después en barbería o peluquería, centrado en el cambio de peinado y arreglo.",
-    area: "Demo / Producto",
-    category:"Antes/Después",
+      "Przed/po w barber shopie lub salonie, skupione na zmianie fryzury i zarostu — estetycznie i z szacunkiem.",
+    area: "Demo / Produkt",
+    category: "Przed/Po",
     prompt: `
-Genera un vídeo de 8 segundos en formato horizontal 16:9, sin texto en pantalla.
+Wygeneruj wideo o długości 8 sekund w formacie poziomym 16:9, bez tekstu na ekranie.
 
-Tema: antes y después de un servicio de peluquería o barbería (enfocado al cabello y barba, cuidando que sea respetuoso y estético).
+Temat: przed i po usłudze fryzjerskiej/barberskiej (skupienie na włosach i brodzie, estetycznie i z szacunkiem).
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–3:
-  • Plano medio de un cliente sentado en una silla de barbería, frente a un espejo grande.
-  • El peinado está algo desordenado, la barba crecida sin forma. El cliente se mira al espejo con gesto neutro o ligeramente aburrido.
-  • El fondo muestra la barbería: estantería con productos, luces cálidas, ambiente acogedor.
+- Sekundy 0–3:
+  • Ujęcie średnie klienta siedzącego na fotelu barberskim, przed dużym lustrem.
+  • Fryzura jest lekko rozczochrana, broda zapuszczona i bez kształtu. Klient patrzy w lustro z neutralną lub lekko znudzoną miną.
+  • Tło pokazuje barber shop: półki z produktami, ciepłe światła, przytulny klimat.
 
-- Segundos 3–4:
-  • Transición rápida tipo “corte de cámara” sincronizada con un movimiento: el barbero pasa una toalla o capa frente a la cámara, ocupando todo el encuadre.
+- Sekundy 3–4:
+  • Szybkie przejście zsynchronizowane z ruchem: barber przeciąga ręcznik lub pelerynę przed kamerą, zakrywając cały kadr.
 
-- Segundos 4–8:
-  • Al retirarse la toalla/capa, aparece el mismo cliente ya transformado: pelo bien peinado, barba recortada y definida.
-  • El cliente sonríe, se acomoda la chaqueta o camiseta, se mira al espejo satisfecho.
-  • El barbero aparece brevemente detrás, cruzando los brazos o levantando el pulgar con una sonrisa.
-  • La cámara termina con un pequeño movimiento de acercamiento al rostro del cliente, resaltando el look fresco.
+- Sekundy 4–8:
+  • Po odsunięciu ręcznika/peleryny widać tego samego klienta po metamorfozie: włosy ułożone, broda przycięta i zdefiniowana.
+  • Klient uśmiecha się, poprawia kurtkę/koszulkę i patrzy w lustro z zadowoleniem.
+  • Barber pojawia się na chwilę z tyłu, krzyżuje ręce albo pokazuje kciuk w górę, uśmiechając się.
+  • Kamera kończy delikatnym zbliżeniem na twarz klienta, podkreślając świeży look.
 `,
-thumbnail: "/videos/ba005.gif",
+    thumbnail: "/videos/ba005.gif",
   },
   {
     id: "video-demo-before-after-06",
-    title: "Habitación sin decorar vs habitación acogedora",
+    title: "Pokój bez wystroju vs przytulny pokój",
     summary:
-      "Transformación visual de un dormitorio o sala vacía a un espacio decorado y acogedor.",
-    area: "Demo / Producto",
-    category:"Antes/Después",
+      "Wizualna transformacja sypialni lub salonu z pustego wnętrza w urządzone, przytulne miejsce.",
+    area: "Demo / Produkt",
+    category: "Przed/Po",
     prompt: `
-Genera un vídeo de 8 segundos, horizontal 16:9, sin texto en pantalla.
+Wygeneruj wideo o długości 8 sekund, poziome 16:9, bez tekstu na ekranie.
 
-Tema: antes y después de decoración de interiores.
+Temat: przed i po aranżacji wnętrza.
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–3:
-  • Plano general de una habitación casi vacía: paredes blancas, una cama simple sin cabecero, sin cuadros, sin alfombra, iluminación fría que se ve poco acogedora.
-  • La cámara está fija, mostrando toda la pared principal y parte del suelo.
+- Sekundy 0–3:
+  • Szeroki plan niemal pustego pokoju: białe ściany, proste łóżko bez zagłówka, brak obrazów, brak dywanu, chłodne światło i nieprzytulny klimat.
+  • Kamera jest nieruchoma, pokazuje główną ścianę i fragment podłogi.
 
-- Segundos 3–4:
-  • La escena se congela un instante y se produce un efecto de “parpadeo” sutil, como si la habitación fuera a cambiar.
+- Sekundy 3–4:
+  • Scena na moment „zamarza” i pojawia się subtelny efekt „mrugnięcia”, jakby pokój miał się zmienić.
 
-- Segundos 4–8:
-  • Mismo encuadre, pero la habitación aparece ya transformada:
-    - Cama con cabecero bonito, cojines y colcha de colores suaves.
-    - Cuadros o láminas decorativas en la pared.
-    - Alfombra texturizada en el suelo.
-    - Mesillas con lámparas cálidas, quizás una planta y un libro.
-  • La iluminación es ahora mucho más cálida, con tono dorado suave.
-  • La cámara hace un leve zoom in, destacando la sensación de confort.
+- Sekundy 4–8:
+  • Ten sam kadr, ale pokój jest już odmieniony:
+    - Łóżko z ładnym zagłówkiem, poduszki i narzuta w miękkich kolorach.
+    - Obrazy lub plakaty na ścianie.
+    - Teksturowany dywan na podłodze.
+    - Szafki nocne z ciepłymi lampkami, może roślina i książka.
+  • Oświetlenie jest teraz znacznie cieplejsze, z delikatnym złotym tonem.
+  • Kamera robi lekki zoom in, podkreślając komfort.
 `,
-thumbnail: "/videos/ba006.gif",
+    thumbnail: "/videos/ba006.gif",
   },
   {
     id: "video-demo-before-after-07",
-    title: "Audio de mala calidad vs audio limpio con tu solución",
+    title: "Słaba jakość audio vs czyste audio dzięki Twojemu rozwiązaniu",
     summary:
-      "Metáfora visual de edición de audio: de ondas desordenadas a un flujo limpio y profesional.",
-    area: "Demo / Producto",
-    category:"Antes/Después",
+      "Wizualna metafora obróbki dźwięku: od chaotycznych fal do czystego, profesjonalnego przebiegu.",
+    area: "Demo / Produkt",
+    category: "Przed/Po",
     prompt: `
-Genera un vídeo de 8 segundos en 16:9 horizontal, sin texto en pantalla.
+Wygeneruj wideo o długości 8 sekund w formacie 16:9, bez tekstu na ekranie.
 
-Tema: demo visual del antes y después de mejorar audio, usando visualizaciones abstractas.
+Temat: wizualne demo „przed i po” poprawie audio za pomocą abstrakcyjnych wizualizacji.
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–2:
-  • Plano frontal de la pantalla de un ordenador mostrando una forma de onda de audio muy caótica: picos irregulares, ruido visual, colores rojos y anaranjados que sugieren saturación (sin números ni letras).
-  • La habitación está en penumbra, con la pantalla como fuente principal de luz.
+- Sekundy 0–2:
+  • Ujęcie na wprost ekranu komputera pokazującego bardzo chaotyczną falę dźwiękową: nieregularne piki, wizualny „szum”, barwy czerwone i pomarańczowe sugerujące przester (bez cyfr i liter).
+  • Pokój jest przyciemniony, ekran to główne źródło światła.
 
-- Segundos 2–4:
-  • La cámara se acerca a la pantalla.
-  • Aparecen iconos abstractos alrededor de la forma de onda, como botones y perillas (sin texto).
-  • Una mano entra en plano y mueve un control deslizante o dial.
+- Sekundy 2–4:
+  • Kamera zbliża się do ekranu.
+  • Wokół fali pojawiają się abstrakcyjne ikony jak przyciski i pokrętła (bez tekstu).
+  • Do kadru wchodzi dłoń i przesuwa suwak lub kręci pokrętłem.
 
-- Segundos 4–6:
-  • La forma de onda se transforma: los picos exagerados se suavizan, la línea se ve más uniforme y armoniosa.
-  • Los colores cambian a tonos verdes y azules suaves, indicando limpieza y calma.
+- Sekundy 4–6:
+  • Fala dźwiękowa się zmienia: przesadzone piki się wygładzają, linia staje się bardziej równa i harmonijna.
+  • Kolory zmieniają się na delikatne zielenie i błękity, sugerując czystość i spokój.
 
-- Segundos 6–8:
-  • La cámara hace un pequeño recorrido lateral mostrando otros elementos visuales tipo barras de nivel que se mueven de manera fluida.
-  • Termina alejándose un poco para ver al usuario de perfil con auriculares, sonriendo mientras escucha, con gesto de aprobación.
+- Sekundy 6–8:
+  • Kamera wykonuje lekki ruch boczny, pokazując inne elementy wizualne jak paski poziomu, które poruszają się płynnie.
+  • Kończy lekkim oddaleniem, widać użytkownika z profilu w słuchawkach, uśmiechniętego, z gestem aprobaty.
 `,
-thumbnail: "/videos/ba007.gif",
+    thumbnail: "/videos/ba007.gif",
   },
   {
     id: "video-demo-before-after-08",
-    title: "Presentación aburrida vs presentación visualmente atractiva",
+    title: "Nudna prezentacja vs atrakcyjna wizualnie prezentacja",
     summary:
-      "Cambio de diapositivas básicas a una presentación moderna y visual.",
-    area: "Demo / Producto",
-    category:"Antes/Después",
+      "Zmiana slajdów z podstawowych na nowoczesne i wizualne.",
+    area: "Demo / Produkt",
+    category: "Przed/Po",
     prompt: `
-Genera un vídeo de 8 segundos, horizontal 16:9, sin texto en pantalla.
+Wygeneruj wideo o długości 8 sekund, poziome 16:9, bez tekstu na ekranie.
 
-Tema: antes y después de una presentación.
+Temat: przed i po modernizacji prezentacji.
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–2:
-  • Plano general de una sala pequeña o despacho, con un proyector mostrando una diapositiva simple en la pared.
-  • La diapositiva tiene fondos planos, muchas cajas rectangulares y bloques sin estilo (sin texto legible, solo formas, pero se ve muy básica).
-  • Una persona sentada en una silla mira la diapositiva con expresión aburrida, apoyando la cara en la mano.
+- Sekundy 0–2:
+  • Plan ogólny małej sali lub gabinetu, z projektorem wyświetlającym prosty slajd na ścianie.
+  • Slajd ma płaskie tła, dużo prostokątnych ramek i nijakie bloki bez stylu (bez czytelnego tekstu, tylko kształty — wygląda bardzo podstawowo).
+  • Osoba siedząca na krześle patrzy na slajd znudzona, opierając twarz na dłoni.
 
-- Segundos 2–4:
-  • La luz del proyector parpadea, se ve cómo alguien cambia de diapositiva con un clic (mano con mando o teclado).
-  • La pantalla se pone en blanco un instante.
+- Sekundy 2–4:
+  • Światło projektora mruga; widać, jak ktoś zmienia slajd kliknięciem (dłoń z pilotem lub klawiaturą).
+  • Ekran robi się na chwilę biały.
 
-- Segundos 4–8:
-  • Nueva presentación: ahora se proyecta una diapositiva moderna con gráficos vistosos, iconos, composiciones asimétricas y colores agradables (sin texto).
-  • La iluminación del lugar se adapta ligeramente, se ve más profesional.
-  • La persona en la silla endereza la postura, abre los ojos con interés y asiente con la cabeza.
-  • La cámara se mueve ligeramente hacia la pantalla para cerrar en los elementos visuales atractivos.
+- Sekundy 4–8:
+  • Nowa prezentacja: teraz wyświetla się nowoczesny slajd z atrakcyjnymi wykresami, ikonami, asymetrycznymi kompozycjami i przyjemnymi kolorami (bez tekstu).
+  • Oświetlenie pomieszczenia delikatnie się dostosowuje — wygląda bardziej profesjonalnie.
+  • Osoba na krześle prostuje się, otwiera oczy z zainteresowaniem i kiwa głową.
+  • Kamera lekko zbliża się do ekranu, kończąc na atrakcyjnych elementach wizualnych.
 `,
-thumbnail: "/videos/ba008.gif",
+    thumbnail: "/videos/ba008.gif",
   },
   {
     id: "video-demo-before-after-09",
-    title: "Plan de entrenamiento en papel vs app organizada",
+    title: "Plan treningowy na papierze vs uporządkowana aplikacja",
     summary:
-      "Comparación entre rutina de entreno desordenada en hojas sueltas y versión digital ordenada.",
-    area: "Demo / Producto",
-    category:"Antes/Después",
+      "Porównanie: chaotyczna rutyna na luźnych kartkach vs uporządkowana wersja cyfrowa.",
+    area: "Demo / Produkt",
+    category: "Przed/Po",
     prompt: `
-Genera un vídeo de 8 segundos, formato horizontal 16:9, sin texto en pantalla.
+Wygeneruj wideo o długości 8 sekund, poziome 16:9, bez tekstu na ekranie.
 
-Tema: transformación de un plan de entrenamiento desordenado en un sistema/app organizado.
+Temat: transformacja chaotycznego planu treningowego w uporządkowany system/aplikację.
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–3:
-  • Plano cenital de una mesa donde hay varias hojas de papel arrugadas con tablas y garabatos (sin texto legible, solo líneas y cuadros).
-  • Un lápiz está tirado cruzado sobre ellas, una botella de agua medio vacía al costado.
-  • Una mano hojea las hojas con gesto de frustración.
+- Sekundy 0–3:
+  • Ujęcie z góry na stół z kilkoma pogniecionymi kartkami z tabelami i bazgrołami (bez czytelnego tekstu, tylko linie i kratki).
+  • Ołówek leży na nich na skos, obok półpusta butelka wody.
+  • Dłoń przegląda kartki z gestem frustracji.
 
-- Segundos 3–4:
-  • La misma mano retira las hojas de golpe hacia un lado, dejando la mesa despejada.
-  • En el centro, coloca un smartphone o tablet.
+- Sekundy 3–4:
+  • Ta sama dłoń zmiata kartki na bok, zostawiając pusty stół.
+  • Na środku kładzie smartfona lub tablet.
 
-- Segundos 4–8:
-  • Plano más cercano de la pantalla del dispositivo mostrando una interfaz limpia: cajas organizadas, iconos de ejercicios, gráficos de progreso (todo sin texto legible).
-  • La mano toca algunas secciones, se ven animaciones suaves de cambio entre pantallas.
-  • La cámara hace un ligero acercamiento mientras la mano cierra el puño con gesto de motivación.
+- Sekundy 4–8:
+  • Bliższe ujęcie ekranu urządzenia z czystym interfejsem: uporządkowane kafelki, ikony ćwiczeń, wykresy postępu (bez czytelnego tekstu).
+  • Dłoń dotyka kilku sekcji, widać płynne animacje przejść między ekranami.
+  • Kamera lekko zbliża się, a dłoń zaciska pięść w geście motywacji.
 `,
-thumbnail: "/videos/ba009.gif",
+    thumbnail: "/videos/ba009.gif",
   },
   {
     id: "video-demo-before-after-10",
-    title: "Caos de archivos vs sistema de carpetas ordenado",
+    title: "Chaos plików vs uporządkowany system folderów",
     summary:
-      "Antes/después del escritorio del ordenador: iconos por todos lados vs organización clara en carpetas.",
-    area: "Demo / Producto",
-    category:"Antes/Después",
+      "Przed/po pulpitu komputera: ikony wszędzie vs czytelna organizacja w folderach.",
+    area: "Demo / Produkt",
+    category: "Przed/Po",
     prompt: `
-Genera un vídeo de 8 segundos en formato 16:9 horizontal, sin texto en pantalla.
+Wygeneruj wideo o długości 8 sekund w formacie poziomym 16:9, bez tekstu na ekranie.
 
-Tema: organización del escritorio del ordenador.
+Temat: organizacja pulpitu komputera.
 
-Guion visual:
+Scenariusz wizualny:
 
-- Segundos 0–2:
-  • Captura simulada de la pantalla de un ordenador: escritorio lleno de iconos dispersos por todas partes, muchas miniaturas pequeñas y ventanas abiertas al azar (sin nombres legibles, solo iconos).
-  • El cursor se mueve de un lado a otro con movimientos erráticos.
+- Sekundy 0–2:
+  • Symulowane nagranie ekranu komputera: pulpit pełen ikon porozrzucanych wszędzie, wiele małych miniaturek i przypadkowo otwartych okien (bez czytelnych nazw, tylko ikony).
+  • Kursor porusza się chaotycznie w tę i z powrotem.
 
-- Segundos 2–4:
-  • El cursor selecciona una zona grande llena de iconos, como si fuera a arrastrarlos.
-  • Se produce una pequeña sacudida de la pantalla y los iconos se arrastran hacia un lado, donde empiezan a desaparecer.
+- Sekundy 2–4:
+  • Kursor zaznacza duży obszar pełen ikon, jakby miał je przeciągnąć.
+  • Pojawia się lekkie „szarpnięcie” ekranu i ikony są przeciągane na bok, gdzie zaczynają znikać.
 
-- Segundos 4–6:
-  • El escritorio se limpia gradualmente.
-  • En el lado izquierdo aparecen pocas carpetas grandes bien alineadas, del mismo estilo, con colores suaves.
+- Sekundy 4–6:
+  • Pulpit stopniowo się oczyszcza.
+  • Po lewej stronie pojawia się kilka dużych, równiutko ustawionych folderów w tym samym stylu, w delikatnych kolorach.
 
-- Segundos 6–8:
-  • El cursor se posa sobre una de las carpetas y hace doble clic.
-  • La carpeta se abre mostrando dentro una cuadrícula ordenada de iconos, sugeriendo organización perfecta (sin texto).
-  • Termina con un ligero zoom out de la pantalla completa, limpia y ordenada.
+- Sekundy 6–8:
+  • Kursor zatrzymuje się na jednym folderze i wykonuje podwójne kliknięcie.
+  • Folder otwiera się, pokazując uporządkowaną siatkę ikon w środku — sugerując perfekcyjną organizację (bez tekstu).
+  • Zakończenie: lekki zoom out całego, czystego i uporządkowanego ekranu.
 `,
-thumbnail: "/videos/ba010.gif",
+    thumbnail: "/videos/ba010.gif",
   },
 ];

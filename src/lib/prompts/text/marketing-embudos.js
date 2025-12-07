@@ -1,2276 +1,2280 @@
 export const textPromptsMarketingEmbudos = [
   {
     id: "embudo-001",
-    title: "Diseño de embudo completo desde cero (visión 360°)",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Projekt kompletnego lejka od zera (wizja 360°)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Crea un embudo maestro completo con todos los pasos, assets y automatizaciones necesarias.",
-    prompt: `Actúa como un arquitecto de embudos senior especializado en negocios digitales.
+      "Stwórz kompletny, nadrzędny lejek wraz ze wszystkimi krokami, assetami i automatyzacjami.",
+    prompt: `Działaj jako senior architekt lejków, specjalizujący się w biznesach cyfrowych.
 
-Inputs:
-- Tipo de producto/servicio.
-- Precio.
-- Nicho y público objetivo.
-- Objetivo del embudo (ventas, leads, calificación, evergreen, etc.).
+Dane wejściowe:
+- Typ produktu/usługi.
+- Cena.
+- Nisza i grupa docelowa.
+- Cel lejka (sprzedaż, leady, kwalifikacja, evergreen itd.).
 
-Genera:
+Wygeneruj:
 
-1) Visión 360° del embudo:
-   - Objetivo central.
-   - KPIs críticos.
-   - Flujo desde tráfico → conversión final.
+1) Wizję 360° lejka:
+   - Główny cel.
+   - Krytyczne KPI.
+   - Przepływ od ruchu → do finalnej konwersji.
 
-2) Estructura completa del embudo:
-   - TOFU (parte superior): contenido + imanes.
-   - MOFU (medio): educación, confianza, pre-venta.
-   - BOFU (fondo): pitch, cierre, urgencia.
+2) Pełną strukturę lejka:
+   - TOFU (góra): treści + magnesy.
+   - MOFU (środek): edukacja, zaufanie, pre-sprzedaż.
+   - BOFU (dół): pitch, domknięcie, pilność.
 
-3) Activos obligatorios:
-   - Página de captura.
-   - Lead magnet (dame 3 opciones).
-   - Página puente / nurturing.
-   - Página de venta.
-   - Secuencia de emails (estructura completa).
+3) Obowiązkowe aktywa:
+   - Strona zapisu.
+   - Lead magnet (podaj 3 opcje).
+   - Strona pomostowa / nurturing.
+   - Strona sprzedażowa.
+   - Sekwencja e-maili (pełna struktura).
 
-4) Automatizaciones:
-   - Segmentación.
-   - Triggers.
-   - Condiciones IF/THEN.
+4) Automatyzacje:
+   - Segmentacja.
+   - Triggery.
+   - Warunki IF/THEN.
 
-5) Versión PRO:
-   - Embudo evergreen.
-   - Embudo con retargeting avanzado.
-   - Embudo híbrido contenido + ads.
+5) Wersja PRO:
+   - Lejek evergreen.
+   - Lejek z zaawansowanym retargetingiem.
+   - Lejek hybrydowy: content + ads.
 
-6) Dame además:
-   - KPI esperado por etapa.
-   - Checklist del embudo perfecto.`,
+6) Dodatkowo:
+   - Oczekiwany KPI na każdym etapie.
+   - Checklist „idealnego lejka”.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-002",
-    title: "Embudo tipo Webinar Automático de Alta Conversión",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek: Automatyczny webinar o wysokiej konwersji",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Diseña un embudo evergreen basado en un webinar pregrabado para vender productos de ticket medio o alto.",
-    prompt: `Actúa como experto en embudos automatizados de webinars.
+      "Zaprojektuj evergreen lejek oparty o nagrany webinar, aby sprzedawać produkty o średnim lub wysokim tickecie.",
+    prompt: `Działaj jako ekspert od automatycznych lejków webinarowych.
 
-Inputs:
-- Tema del webinar.
-- Producto que se venderá.
-- Precio.
-- Público objetivo.
+Dane wejściowe:
+- Temat webinaru.
+- Produkt, który będzie sprzedawany.
+- Cena.
+- Grupa docelowa.
 
-Genera:
+Wygeneruj:
 
-1) Estructura completa del embudo:
-   - Landing de registro (copy + secciones).
-   - Secuencia previa al webinar (emails + mensajes).
-   - Página de reproducción.
-   - Oferta dentro del webinar (estructura).
-   - Secuencia post-webinar (7 días).
+1) Pełną strukturę lejka:
+   - Landing rejestracyjny (copy + sekcje).
+   - Sekwencję przed webinarem (e-maile + wiadomości).
+   - Stronę odtwarzania.
+   - Ofertę w webinarze (struktura).
+   - Sekwencję po webinarze (7 dni).
 
-2) Dentro del webinar:
-   - Guion completo (hook, presentación, contenido, pitch).
-   - Framework de enseñanza en 3 pilares.
-   - Sección de validación social.
-   - Manejo de objeciones en el cierre.
+2) Zawartość webinaru:
+   - Pełny scenariusz (hook, wprowadzenie, treść, pitch).
+   - Framework nauczania w 3 filarach.
+   - Segment dowodu społecznego.
+   - Obsługa obiekcji w domknięciu.
 
-3) Variantes de oferta:
-   - Pago completo.
-   - Pago dividido.
-   - Bonus temporales.
+3) Warianty oferty:
+   - Płatność jednorazowa.
+   - Płatność ratalna.
+   - Bonusy czasowe.
 
-4) Versión PRO:
-   - Integrar retargeting con anuncios dinámicos.
-   - Flujo con automatización según el % de visualización.
+4) Wersja PRO:
+   - Integracja retargetingu z dynamicznymi reklamami.
+   - Automatyzacja w zależności od % obejrzenia.
 
-5) KPI recomendados:
-   - Registros.
+5) Rekomendowane KPI:
+   - Rejestracje.
    - Show-up rate.
-   - Conversiones 24h, 72h, 7 días.`,
+   - Konwersje: 24h, 72h, 7 dni.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-003",
-    title: "Embudo de Lanzamiento Semanal (Tipo SPRINT)",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Tygodniowy lejek launchowy (SPRINT)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Diseña un embudo de venta exprés que se ejecuta cada semana para generar ingresos recurrentes.",
-    prompt: `Inputs:
-- Producto digital.
-- Audiencia.
-- Precio.
+      "Zaprojektuj ekspresowy lejek sprzedażowy, który powtarzasz co tydzień, by generować powtarzalne przychody.",
+    prompt: `Dane wejściowe:
+- Produkt cyfrowy.
+- Odbiorcy.
+- Cena.
 
-Genera:
+Wygeneruj:
 
-1) Calendario semanal del embudo:
-   - Día 1 → Captación.
-   - Día 2 → Educación.
-   - Día 3 → Activación.
-   - Día 4 → Venta.
-   - Día 5 → Cierre.
+1) Tygodniowy kalendarz lejka:
+   - Dzień 1 → Pozyskanie.
+   - Dzień 2 → Edukacja.
+   - Dzień 3 → Aktywacja.
+   - Dzień 4 → Sprzedaż.
+   - Dzień 5 → Domknięcie.
 
-2) Activos del embudo:
-   - Email diario (escríbelos).
-   - 3 ideas de piezas de contenido que impulsan la semana.
-   - Landing con oferta limitada.
+2) Aktywa lejka:
+   - Codzienny e-mail (napisz je).
+   - 3 pomysły na treści, które napędzają tydzień.
+   - Landing z ofertą limitowaną.
 
-3) Secuencia de urgencia ética.
+3) Sekwencja etycznej pilności.
 
-4) Versión PRO:
-   - Cómo convertirlo en evergreen.
-   - Cómo automatizarlo con segmentación dinámica.`,
+4) Wersja PRO:
+   - Jak zamienić to w evergreen.
+   - Jak zautomatyzować z dynamiczną segmentacją.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-004",
-    title: "Embudo de Venta con Lead Magnet Profundo (Masterclass + PDF)",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek sprzedażowy z „głębokim” lead magnetem (Masterclass + PDF)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Crea un embudo altamente educativo basado en materiales profundos para atraer leads cualificados.",
-    prompt: `Inputs:
-- Tema de la masterclass.
-- Producto principal.
-- Nivel de conocimiento del público.
+      "Stwórz mocno edukacyjny lejek oparty o wartościowe materiały, aby przyciągać jakościowe leady.",
+    prompt: `Dane wejściowe:
+- Temat masterclass.
+- Produkt główny.
+- Poziom wiedzy odbiorców.
 
-Genera:
+Wygeneruj:
 
 1) Lead magnet:
-   - 3 nombres.
-   - 3 promesas.
-   - Estructura del PDF (10 secciones).
+   - 3 nazwy.
+   - 3 obietnice.
+   - Strukturę PDF (10 sekcji).
 
-2) Embudo:
-   - Landing (copy + secciones).
-   - Página agradecimiento con CTA.
-   - Email de bienvenida.
+2) Lejek:
+   - Landing (copy + sekcje).
+   - Strona podziękowania z CTA.
+   - E-mail powitalny.
 
 3) Nurturing:
-   - Secuencia 5 emails (profundidad estratégica).
-   - Pregunta clave para segmentar.
+   - Sekwencja 5 e-maili (strategiczna głębia).
+   - Kluczowe pytanie do segmentacji.
 
 4) Pitch:
-   - Framework PAS optimizado.
-   - Bonus que aumenten valor.
+   - Framework PAS zoptymalizowany.
+   - Bonusy zwiększające wartość.
 
-5) Versión PRO:
+5) Wersja PRO:
    - Upsell + downsell.
-   - Embudo duplicado para retargeting.`,
+   - Duplikat lejka pod retargeting.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-005",
-    title: "Embudo para Productos de Ticket Alto (High Ticket Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek dla ofert high-ticket (High Ticket Funnel)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Estructura completa para vender productos entre $1,000–$20,000 con llamadas calificadas.",
-    prompt: `Inputs:
+      "Kompletna struktura sprzedaży ofert $1,000–$20,000 na kwalifikowanych rozmowach.",
+    prompt: `Dane wejściowe:
 - Oferta premium.
-- Precio.
-- Público.
-- Objetivo (cantidad de llamadas semanales).
+- Cena.
+- Odbiorcy.
+- Cel (liczba rozmów tygodniowo).
 
-Genera:
+Wygeneruj:
 
-1) Pre-filtro:
-   - Landing tipo “apply funnel”.
-   - Preguntas del formulario (10).
+1) Pre-filtr:
+   - Landing typu „apply funnel”.
+   - Pytania w formularzu (10).
 
 2) Nurturing:
-   - Emails para elevar el valor percibido.
-   - 3 pruebas sociales poderosas.
+   - E-maile podnoszące postrzeganą wartość.
+   - 3 bardzo mocne dowody społeczne.
 
-3) Script de llamada:
-   - Diagnóstico.
-   - Profundización.
-   - Presentación de solución.
-   - Pitch directo.
-   - Cierre suave.
+3) Skrypt rozmowy:
+   - Diagnoza.
+   - Pogłębienie.
+   - Prezentacja rozwiązania.
+   - Bezpośredni pitch.
+   - Delikatne domknięcie.
 
-4) Versión PRO:
-   - Embudo con vídeo explicativo.
-   - Reglas de segmentación para calidad.
+4) Wersja PRO:
+   - Lejek z wideo wyjaśniającym.
+   - Zasady segmentacji pod jakość.
 
-5) KPIs esperados:
-   - Ratio solicitud → llamada.
-   - Ratio llamada → venta.`,
+5) Oczekiwane KPI:
+   - Stosunek zgłoszenie → rozmowa.
+   - Stosunek rozmowa → sprzedaż.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-006",
-    title: "Embudo mini-producto → venta principal",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek: mini-produkt → sprzedaż oferty głównej",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Embudo tipo tripwire donde vendes un producto pequeño que genera clientes capaces de comprar más.",
-    prompt: `Inputs:
-- Mini producto (precio entre $5 y $49).
-- Producto principal.
-- Público.
+      "Lejek typu tripwire: sprzedajesz tani produkt, który tworzy klientów gotowych kupić więcej.",
+    prompt: `Dane wejściowe:
+- Mini-produkt (cena $5–$49).
+- Produkt główny.
+- Odbiorcy.
 
-Genera:
+Wygeneruj:
 
-1) Página de mini producto (estructura completa).
-2) Upsell OTO (one-time-offer) con 3 variaciones.
-3) Email de onboarding.
-4) Secuencia de activación hacia la oferta principal.
-5) Version PRO: cómo añadir order bumps y second upsell.
-6) KPIs clave.`,
+1) Stronę mini-produktu (pełna struktura).
+2) Upsell OTO (one-time-offer) z 3 wariantami.
+3) E-mail onboardingowy.
+4) Sekwencję aktywującą do oferty głównej.
+5) Wersja PRO: jak dodać order bumps i drugi upsell.
+6) Kluczowe KPI.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-007",
-    title: "Embudo para servicios (Sin llamadas, solo página de ventas)",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek dla usług (bez rozmów, tylko strona sprzedażowa)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Embudo sin llamadas, donde cierras servicios mediante copy y automatización.",
-    prompt: `Inputs:
-- Servicio.
-- Precio.
-- Tipo de cliente.
+      "Lejek bez calli: domykasz usługi dzięki copy i automatyzacji.",
+    prompt: `Dane wejściowe:
+- Usługa.
+- Cena.
+- Typ klienta.
 
-Genera:
-1) Landing Page completa:
+Wygeneruj:
+1) Kompletny landing:
    - Hero.
-   - Problemático → transformacional.
-   - Casos estudio.
-   - Proceso.
-   - Precios.
+   - Problem → transformacja.
+   - Case studies.
+   - Proces.
+   - Cennik.
    - FAQ.
 
-2) Secuencia de calentamiento previa.
-3) Secuencia post-visita para cerrar venta.
-4) Version PRO: integración con WhatsApp.
-5) KPIs esperados.`,
+2) Sekwencję rozgrzewającą przed wizytą.
+3) Sekwencję po wizycie, aby domknąć sprzedaż.
+4) Wersja PRO: integracja z WhatsApp.
+5) Oczekiwane KPI.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-008",
-    title: "Embudo tipo VSL (Video Sales Letter)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo basado en vídeo de venta estructurado.",
-    prompt: `Inputs:
-- Producto.
-- Público.
+    title: "Lejek typu VSL (Video Sales Letter)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek oparty o ustrukturyzowane wideo sprzedażowe.",
+    prompt: `Dane wejściowe:
+- Produkt.
+- Odbiorcy.
 
-Genera:
-1) Estructura VSL completa:
+Wygeneruj:
+1) Pełną strukturę VSL:
    - Hook.
    - Historia.
-   - Enseñanza.
-   - Oportunidad.
+   - Nauczanie.
+   - Szansa / nowe spojrzenie.
    - Oferta.
-   - Bonus.
-   - Cierre.
+   - Bonusy.
+   - Domknięcie.
 
-2) Landing para VSL (copy completo).
-3) Secuencia 7 días ventas.
-4) Version PRO: VSL corta + VSL larga.`,
+2) Landing pod VSL (pełne copy).
+3) Sekwencję sprzedażową 7 dni.
+4) Wersja PRO: krótka VSL + długa VSL.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-009",
-    title: "Embudo de contenido (Content To Conversion)",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek contentowy (Content → Conversion)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Convierte contenido orgánico en ventas mediante embudo inteligente.",
-    prompt: `Inputs:
-- Nicho.
-- Formato contenido.
+      "Zamieniaj treści organiczne w sprzedaż dzięki inteligentnemu lejkowi.",
+    prompt: `Dane wejściowe:
+- Nisza.
+- Format treści.
 
-Genera:
-1) Mapa de contenido → embudo.
-2) 3 rutas de conversión.
-3) Secuencia educativa.
-4) Secuencia de cierre.
-5) CTA listos para copiar.`,
+Wygeneruj:
+1) Mapę: treść → lejek.
+2) 3 ścieżki konwersji.
+3) Sekwencję edukacyjną.
+4) Sekwencję domykającą.
+5) CTA gotowe do skopiowania.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-010",
-    title: "Embudo de Mensajería Privada (DM Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek DM (sprzedaż w wiadomościach prywatnych)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Embudo basado en conversaciones 1 a 1 para cerrar ventas por chat.",
-    prompt: `Inputs:
-- Producto.
-- Público.
+      "Lejek oparty o rozmowy 1:1, aby domykać sprzedaż przez czat.",
+    prompt: `Dane wejściowe:
+- Produkt.
+- Odbiorcy.
 
-Genera:
-1) Mensaje inicial de activación.
-2) Guion completo conversación orgánica.
-3) Guion conversación ventas.
-4) 3 cierres “sin presión”.
-5) Version PRO: automatizar con IA.`,
+Wygeneruj:
+1) Wiadomość startową aktywującą.
+2) Pełny scenariusz rozmowy organicznej.
+3) Pełny scenariusz rozmowy sprzedażowej.
+4) 3 domknięcia „bez presji”.
+5) Wersja PRO: automatyzacja z AI.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-011",
-    title: "Embudo Express de 24 Horas",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo brutalmente rápido para monetizar en 24h.",
-    prompt: `Inputs:
+    title: "Ekspresowy lejek 24-godzinny",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Błyskawiczny lejek do monetyzacji w 24h.",
+    prompt: `Dane wejściowe:
 - Oferta.
-- Público.
+- Odbiorcy.
 
-Genera:
-1) Secuencia 3 emails.
-2) Landing simple.
-3) Mensajes redes.
-4) Version PRO: Automatización + upsell.`,
+Wygeneruj:
+1) Sekwencję 3 e-maili.
+2) Prosty landing.
+3) Wiadomości do sociali.
+4) Wersja PRO: automatyzacja + upsell.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-012",
-    title: "Embudo para retos de 5 días",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Crea un reto que vende automáticamente.",
-    prompt: `Inputs:
-- Tema.
-- Producto principal.
+    title: "Lejek dla wyzwania 5-dniowego",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Stwórz wyzwanie, które sprzedaje automatycznie.",
+    prompt: `Dane wejściowe:
+- Temat.
+- Produkt główny.
 
-Genera:
-1) Estructura día a día.
-2) Contenido del reto.
-3) Pitch final.
-4) Secuencia emails.
-5) Version PRO: monetizar el reto.`,
+Wygeneruj:
+1) Strukturę dzień po dniu.
+2) Treści wyzwania.
+3) Finałowy pitch.
+4) Sekwencję e-maili.
+5) Wersja PRO: jak monetyzować wyzwanie.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-013",
-    title: "Embudo de reserva de llamada (sin fricción)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Optimiza reservas de llamadas eliminando fricción.",
-    prompt: `Inputs:
-- Público.
+    title: "Lejek rezerwacji rozmowy (bez tarcia)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Optymalizuj rezerwacje rozmów, usuwając tarcie i bariery.",
+    prompt: `Dane wejściowe:
+- Odbiorcy.
 - Oferta.
 
-Genera:
-1) Landing con formulario mínimo.
-2) Secuencia pre-llamada.
-3) Script ultra breve.
-4) Version PRO: retargeting visitas.`,
+Wygeneruj:
+1) Landing z minimalnym formularzem.
+2) Sekwencję przed rozmową.
+3) Ultra-krótki skrypt.
+4) Wersja PRO: retargeting odwiedzających.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-014",
-    title: "Embudo para vender suscripciones",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo para membresías y suscripciones.",
-    prompt: `Inputs:
-- Tipo membresía.
-- Precio.
+    title: "Lejek do sprzedaży subskrypcji",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek dla członkostw i subskrypcji.",
+    prompt: `Dane wejściowe:
+- Typ członkostwa.
+- Cena.
 
-Genera:
+Wygeneruj:
 1) Landing.
-2) Secuencia onboarding.
-3) Secuencia retención.
-4) Version PRO: upgrade path.`,
+2) Sekwencję onboardingową.
+3) Sekwencję retencyjną.
+4) Wersja PRO: ścieżka upgrade’u.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-015",
-    title: "Embudo con lead magnet estilo Checklist Pro",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Checklist profundo como captación.",
-    prompt: `Inputs:
-- Tema checklist.
-- Producto.
+    title: "Lejek z lead magnetem w stylu Checklist PRO",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Głęboka checklista jako pozyskiwanie leadów.",
+    prompt: `Dane wejściowe:
+- Temat checklisty.
+- Produkt.
 
-Genera:
-1) Checklist 10 ítems.
+Wygeneruj:
+1) Checklistę 10 punktów.
 2) Landing.
-3) Secuencia activación.
-4) Version PRO: modo evergreen.`,
+3) Sekwencję aktywacyjną.
+4) Wersja PRO: tryb evergreen.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-016",
-    title: "Embudo de Prueba Social Masiva",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo basado en casos de éxito.",
-    prompt: `Inputs:
-- Testimonios.
-- Producto.
+    title: "Lejek masowego dowodu społecznego",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek oparty o historie sukcesu i wyniki.",
+    prompt: `Dane wejściowe:
+- Opinie / testimoniale.
+- Produkt.
 
-Genera:
-1) Página prueba social.
-2) 3 estructuras de historias.
-3) Secuencia de venta.
-4) Version PRO: ads testimoniales.`,
+Wygeneruj:
+1) Stronę dowodu społecznego.
+2) 3 struktury opowieści.
+3) Sekwencję sprzedażową.
+4) Wersja PRO: reklamy oparte o testimoniale.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-017",
-    title: "Embudo sin página (solo mensajes)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo solo usando DM + email.",
-    prompt: `Inputs:
+    title: "Lejek bez stron (tylko wiadomości)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek wyłącznie na DM + e-mail.",
+    prompt: `Dane wejściowe:
 - Oferta.
-- Plataforma.
+- Platforma.
 
-Genera:
-1) Secuencia DM.
-2) Secuencia email.
-3) Script cierre.
-4) Version PRO: automatización IA.`,
+Wygeneruj:
+1) Sekwencję DM.
+2) Sekwencję e-mail.
+3) Skrypt domknięcia.
+4) Wersja PRO: automatyzacja z AI.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-018",
-    title: "Embudo para e-commerce (producto estrella)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo para vender producto estrella.",
-    prompt: `Inputs:
-- Producto.
-- Público.
+    title: "Lejek e-commerce (produkt-gwiazda)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek do sprzedaży „produktu-gwiazdy”.",
+    prompt: `Dane wejściowe:
+- Produkt.
+- Odbiorcy.
 
-Genera:
-1) Página optimizada.
+Wygeneruj:
+1) Stronę zoptymalizowaną.
 2) Upsell.
-3) Secuencia recuperación carrito.
-4) Version PRO: retarget script.`,
+3) Sekwencję odzyskiwania porzuconego koszyka.
+4) Wersja PRO: skrypt retargetingu.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-019",
-    title: "Embudo para lead magnet tipo ‘mini curso’",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Mini curso como captación.",
-    prompt: `Inputs:
-- Tema.
-- Lecciones.
+    title: "Lejek z lead magnetem typu „mini-kurs”",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Mini-kurs jako pozyskiwanie leadów.",
+    prompt: `Dane wejściowe:
+- Temat.
+- Lekcje.
 
-Genera:
-1) Outline mini curso.
+Wygeneruj:
+1) Konspekt mini-kursu.
 2) Landing.
-3) Secuencia venta.
-4) Version PRO upgrades.`,
+3) Sekwencję sprzedażową.
+4) Wersja PRO: ścieżki upgrade’u.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-020",
-    title: "Embudo tipo “Desafío + Oferta Flash”",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo intensivo de 3 días + oferta flash.",
-    prompt: `Inputs:
-- Tema del desafío.
-- Producto final.
+    title: "Lejek „Wyzwanie + Flash oferta”",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Intensywny lejek: 3 dni wyzwania + oferta błyskawiczna.",
+    prompt: `Dane wejściowe:
+- Temat wyzwania.
+- Produkt finalny.
 
-Genera:
-1) Estructura 3 días.
-2) Página desafío.
-3) Oferta flash.
-4) Seguimiento.
-5) Version PRO: reto evergreen.`,
+Wygeneruj:
+1) Strukturę 3 dni.
+2) Stronę wyzwania.
+3) Flash ofertę.
+4) Follow-up.
+5) Wersja PRO: wyzwanie evergreen.`,
     thumbnail: "",
   },
+
   {
     id: "embudo-021",
-    title: "Embudo de Captación + Nutrición con Segmentación Inteligente",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek: pozyskanie + nurturing z inteligentną segmentacją",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Embudo que clasifica automáticamente leads según su nivel de conciencia y tipo de necesidad.",
-    prompt: `Actúa como un estratega de automatizaciones nivel enterprise.
+      "Lejek, który automatycznie klasyfikuje leady wg poziomu świadomości i typu potrzeby.",
+    prompt: `Działaj jako strateg automatyzacji na poziomie enterprise.
 
-Inputs:
-- Nicho.
-- Producto principal.
-- 3 perfiles de cliente que quieres atraer.
+Dane wejściowe:
+- Nisza.
+- Produkt główny.
+- 3 profile klientów, których chcesz przyciągnąć.
 
-Genera:
+Wygeneruj:
 
-1) Sistema de segmentación inteligente:
-   - Pregunta de calificación inicial.
-   - 3 segmentos automáticos según comportamiento.
-   - Tags iniciales y condiciones.
+1) System inteligentnej segmentacji:
+   - Pytanie kwalifikujące na start.
+   - 3 automatyczne segmenty wg zachowania.
+   - Tagi startowe i warunki.
 
-2) Estructura completa del embudo:
-   - Landing con copy segmentado.
-   - Página de gracias con ruta A/B/C.
-   - Secuencia 7 emails personalizados por segmento.
+2) Pełną strukturę lejka:
+   - Landing z segmentowanym copy.
+   - Strona „dziękuję” z trasą A/B/C.
+   - Sekwencja 7 e-maili dopasowana do segmentu.
 
-3) Mapa de comportamiento:
-   - Qué hacer si abren.
-   - Qué hacer si hacen clic.
-   - Qué hacer si no interactúan.
+3) Mapę zachowań:
+   - Co robić, jeśli otwierają.
+   - Co robić, jeśli klikają.
+   - Co robić, jeśli nie reagują.
 
-4) Pitch final:
-   - 3 versiones de oferta según segmento.
+4) Finałowy pitch:
+   - 3 wersje oferty pod segment.
 
-5) Versión PRO:
-   - Funnel dinámico donde cada email cambia según interacción previa.
-   - Flujos de rescate para leads fríos.`,
+5) Wersja PRO:
+   - Dynamiczny lejek, gdzie każdy e-mail zmienia się wg poprzedniej interakcji.
+   - Flows „ratunkowe” dla zimnych leadów.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-022",
-    title: "Embudo de Venta con Intensivo de 3 Días (Bootcamp Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek sprzedażowy z intensywem 3-dniowym (Bootcamp Funnel)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Embudo basado en un bootcamp intensivo en vivo o grabado que activa deseo de compra rápidamente.",
-    prompt: `Inputs:
-- Tema del bootcamp.
-- Duración (3 días).
-- Producto final.
+      "Lejek oparty o 3-dniowy bootcamp live lub nagrany, który szybko buduje chęć zakupu.",
+    prompt: `Dane wejściowe:
+- Temat bootcampu.
+- Czas trwania (3 dni).
+- Produkt finalny.
 
-Genera:
+Wygeneruj:
 
-1) Posicionamiento del bootcamp:
-   - Promesa.
-   - Transformación en 72 horas.
-   - 5 títulos posibles.
+1) Pozycjonowanie bootcampu:
+   - Obietnica.
+   - Transformacja w 72 godziny.
+   - 5 propozycji tytułu.
 
-2) Estructura del embudo:
-   - Página de registro (secciones).
-   - Secuencia pre-bootcamp (4 emails).
-   - Scripts para cada día (día 1, día 2, día 3).
+2) Struktura lejka:
+   - Strona rejestracji (sekcje).
+   - Sekwencja przed bootcampem (4 e-maile).
+   - Skrypty na każdy dzień (dzień 1, 2, 3).
 
-3) Activadores psicológicos:
-   - Micro victorias.
+3) Triggery psychologiczne:
+   - Mikro-zwycięstwa.
    - Momentum.
-   - Prueba social dinámica.
+   - Dynamiczny dowód społeczny.
 
-4) Cierre:
-   - Pitch del día 3.
-   - Oferta flash 48h.
-   - Secuencia de ventas 5 emails.
+4) Domknięcie:
+   - Pitch dnia 3.
+   - Flash oferta 48h.
+   - Sekwencja sprzedażowa 5 e-maili.
 
-5) Versión PRO:
-   - Integrar WhatsApp broadcast.
-   - Retargeting día 1–3 con anuncios dinámicos.`,
+5) Wersja PRO:
+   - Integracja z broadcastem WhatsApp.
+   - Retargeting dzień 1–3 z dynamicznymi reklamami.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-023",
-    title: "Embudo para Venta de Software o Herramienta Digital",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Diseña un embudo para vender SaaS o herramientas de suscripción.",
-    prompt: `Inputs:
-- Tipo de software.
-- Problema que resuelve.
-- Precio mensual.
+    title: "Lejek do sprzedaży software’u / narzędzia cyfrowego",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Zaprojektuj lejek do sprzedaży SaaS lub narzędzi subskrypcyjnych.",
+    prompt: `Dane wejściowe:
+- Typ oprogramowania.
+- Problem, który rozwiązuje.
+- Cena miesięczna.
 
-Genera:
+Wygeneruj:
 
-1) Embudo:
-   - Página de “free trial” optimizada.
-   - Secuencia de onboarding 7 días.
-   - Secuencia de activación (email + mensajes dentro del producto).
+1) Lejek:
+   - Strona „free trial” zoptymalizowana.
+   - Sekwencja onboardingowa 7 dni.
+   - Sekwencja aktywacyjna (e-mail + komunikaty w produkcie).
 
-2) Métricas clave:
-   - Activación.
-   - Retención.
+2) Kluczowe metryki:
+   - Aktywacja.
+   - Retencja.
    - Upgrade.
 
-3) Version PRO:
-   - Embudo paralelo para planes anuales.
-   - Segmentación por nivel de uso del producto.`,
+3) Wersja PRO:
+   - Równoległy lejek pod plan roczny.
+   - Segmentacja wg poziomu użycia produktu.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-024",
-    title: "Embudo tipo Story Funnel (venta por narrativa)",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek Story Funnel (sprzedaż przez narrację)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Embudo basado en historias reales, vulnerabilidad y conexión emocional profunda.",
-    prompt: `Inputs:
-- Historia personal o del fundador.
-- Producto.
-- Público al que quieres impactar.
+      "Lejek oparty o prawdziwe historie, szczerość i głęboką więź emocjonalną.",
+    prompt: `Dane wejściowe:
+- Historia osobista lub założyciela.
+- Produkt.
+- Odbiorcy, na których chcesz wpłynąć.
 
-Genera:
+Wygeneruj:
 
-1) Story funnel completo:
-   - Email 1: Origen.
-   - Email 2: Crisis.
-   - Email 3: Revelación.
-   - Email 4: Método.
-   - Email 5: Oferta.
+1) Kompletny story funnel:
+   - E-mail 1: Początek.
+   - E-mail 2: Kryzys.
+   - E-mail 3: Przełom.
+   - E-mail 4: Metoda.
+   - E-mail 5: Oferta.
 
-2) Página de ventas basada 100% en storytelling:
-   - Hero emocional.
-   - Viaje del héroe aplicado al cliente.
-   - Prueba social narrativa.
+2) Stronę sprzedażową 100% storytelling:
+   - Emocjonalne hero.
+   - Podróż bohatera przeniesiona na klienta.
+   - Narracyjny dowód społeczny.
 
-3) Versión PRO:
-   - Variantes para video.
-   - Variantes para reels.
-   - CTA persuasivo emocional.`,
+3) Wersja PRO:
+   - Warianty pod wideo.
+   - Warianty pod reelsy.
+   - Emocjonalne CTA, które sprzedaje.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-025",
-    title: "Embudo de Pre-Venta con Prueba Limitada",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek przedsprzedażowy z limitowaną próbą",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Embudo diseñado para validar ofertas antes de crearlas completamente.",
-    prompt: `Inputs:
-- Idea del producto.
-- Público potencial.
+      "Lejek do walidacji ofert, zanim zbudujesz produkt w całości.",
+    prompt: `Dane wejściowe:
+- Pomysł na produkt.
+- Potencjalni odbiorcy.
 
-Genera:
+Wygeneruj:
 
-1) Pre-landing de validación con:
-   - Promesa.
-   - Alineación.
-   - Botón “quiero unirme”.
+1) Pre-landing walidacyjny z:
+   - Obietnicą.
+   - Dopasowaniem.
+   - Przyciskiem „chcę dołączyć”.
 
-2) Secuencia para medir interés:
-   - Email 1: Encuesta.
-   - Email 2: Validación.
-   - Email 3: Preventa.
+2) Sekwencję do mierzenia zainteresowania:
+   - E-mail 1: Ankieta.
+   - E-mail 2: Walidacja.
+   - E-mail 3: Przedsprzedaż.
 
-3) Página de preventa:
-   - Detalle de módulos conceptuales.
-   - Fecha estimada de entrega.
-   - Garantía condicional.
+3) Stronę przedsprzedaży:
+   - Opis konceptualnych modułów.
+   - Szacowaną datę dostarczenia.
+   - Warunkową gwarancję.
 
-4) Versión PRO:
-   - Test multivariables para validar big ideas.`,
+4) Wersja PRO:
+   - Testy wielowariantowe do walidacji big ideas.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-026",
-    title: "Embudo de Venta con Influencers Micro (Micro-Influencer Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek z mikro-influencerami (Micro-Influencer Funnel)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Diseña un embudo que convierte tráfico proveniente de micro-influencers.",
-    prompt: `Inputs:
-- Producto.
-- Nicho.
-- Tipo de influencers.
+      "Lejek, który konwertuje ruch pozyskiwany od mikro-influencerów.",
+    prompt: `Dane wejściowe:
+- Produkt.
+- Nisza.
+- Typ influencerów.
 
-Genera:
+Wygeneruj:
 
-1) Landing especial para tráfico de influencers (con UTM).
-2) Secuencia de bienvenida adaptada.
-3) Oferta especial válida 72h.
-4) Version PRO:
-   - Embudo duplicado según influencer.
-   - Reporte de métricas por campaña.`,
+1) Dedykowany landing pod ruch influencerów (z UTM).
+2) Dopasowaną sekwencję powitalną.
+3) Specjalną ofertę ważną 72h.
+4) Wersja PRO:
+   - Duplikat lejka per influencer.
+   - Raport metryk per kampania.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-027",
-    title: "Embudo tipo Quiz Avanzado",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek typu Zaawansowany Quiz",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Embudo basado en quizzes profundos para segmentar con precisión quirúrgica.",
-    prompt: `Inputs:
-- Tema del quiz.
-- Producto final.
+      "Lejek oparty o głębokie quizy do segmentacji z chirurgiczną precyzją.",
+    prompt: `Dane wejściowe:
+- Temat quizu.
+- Produkt finalny.
 
-Genera:
+Wygeneruj:
 
-1) Arquitectura completa del quiz:
-   - 7–12 preguntas.
-   - Lógica de ramificación.
-   - Resultados personalizados.
+1) Pełną architekturę quizu:
+   - 7–12 pytań.
+   - Logika rozgałęzień.
+   - Spersonalizowane wyniki.
 
-2) Página final según tipo de resultado:
-   - Copy adaptado.
-   - Oferta contextual.
+2) Stronę końcową wg typu wyniku:
+   - Dopasowane copy.
+   - Kontekstowa oferta.
 
-3) Secuencia de nurturing:
-   - 6 emails personalizados por resultado.
+3) Sekwencję nurturing:
+   - 6 e-maili spersonalizowanych wg wyniku.
 
-4) Version PRO:
-   - Embudo A/B/C según porcentaje de coincidencia.`,
+4) Wersja PRO:
+   - Lejek A/B/C wg % dopasowania.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-028",
-    title: "Embudo para vender a clientes corporativos (B2B Enterprise)",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek B2B Enterprise (sprzedaż do firm)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Embudo especializado en ventas complejas para empresas medianas y grandes.",
-    prompt: `Inputs:
-- Tipo de servicio B2B.
-- Sector objetivo.
+      "Lejek do złożonych sprzedaży dla średnich i dużych firm.",
+    prompt: `Dane wejściowe:
+- Typ usługi B2B.
+- Docelowy sektor.
 
-Genera:
+Wygeneruj:
 
-1) Embudo profesional:
-   - Whitepaper o caso estudio.
-   - Página de descarga formal.
-   - Email de contacto profesional.
+1) Profesjonalny lejek:
+   - Whitepaper lub case study.
+   - Formalna strona pobrania.
+   - Profesjonalny e-mail kontaktowy.
 
-2) Ruta de ventas:
-   - Secuencia de 5 emails corporativos formales.
-   - Script para llamada ejecutiva.
+2) Ścieżkę sprzedaży:
+   - Sekwencja 5 formalnych e-maili B2B.
+   - Skrypt rozmowy executives.
 
-3) Version PRO:
-   - Embudo para procurement.
-   - Secuencia follow-up 90 días.`,
+3) Wersja PRO:
+   - Lejek pod procurement.
+   - Follow-up przez 90 dni.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-029",
-    title: "Embudo con comunidad privada como elemento central",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo que convierte al unirse a una comunidad privada gratuita.",
-    prompt: `Inputs:
-- Nicho.
-- Comunidad (FB, Discord, Telegram).
+    title: "Lejek z darmową społecznością jako centrum",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek, w którym konwersja zaczyna się od dołączenia do darmowej społeczności.",
+    prompt: `Dane wejściowe:
+- Nisza.
+- Społeczność (FB, Discord, Telegram).
 
-Genera:
-1) Página de acceso a comunidad.
-2) Ruta de contenido dentro de la comunidad (7 días).
-3) Pitch suave por interacción.
-4) Version PRO:
-   - Eventos internos semanales que empujan ventas.`,
+Wygeneruj:
+1) Stronę dostępu do społeczności.
+2) Ścieżkę treści w społeczności (7 dni).
+3) Miękki pitch oparty o interakcję.
+4) Wersja PRO:
+   - Cotygodniowe wydarzenia wewnętrzne, które pchają sprzedaż.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-030",
-    title: "Embudo de Conversión con Garantía Inversa",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo basado en una garantía agresiva que elimina objeciones.",
-    prompt: `Inputs:
-- Producto.
-- Tipo de garantía.
+    title: "Lejek z gwarancją odwróconą (Reverse Guarantee)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek oparty o mocną gwarancję, która usuwa obiekcje.",
+    prompt: `Dane wejściowe:
+- Produkt.
+- Typ gwarancji.
 
-Genera:
-1) Landing con garantía dominante.
-2) VSL corta reforzando confianza.
-3) Secuencia psicológica “no arriesgas nada”.
-4) Version PRO:
-   - Garantía inversa con validación de resultados.`,
+Wygeneruj:
+1) Landing z dominującą gwarancją.
+2) Krótką VSL wzmacniającą zaufanie.
+3) Sekwencję psychologiczną „nic nie ryzykujesz”.
+4) Wersja PRO:
+   - Gwarancja odwrócona z walidacją wyników.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-031",
-    title: "Embudo Freemium → Upgrade",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo ideal para apps, SaaS y recursos gratuitos.",
-    prompt: `Inputs:
-- Producto freemium.
-- Beneficios del upgrade.
+    title: "Lejek freemium → upgrade",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek idealny dla aplikacji, SaaS i darmowych zasobów.",
+    prompt: `Dane wejściowe:
+- Produkt freemium.
+- Korzyści upgrade’u.
 
-Genera:
-1) Onboarding usuarios free.
-2) Upsell en momentos estratégicos.
-3) Emails basados en uso.
-4) Version PRO:
-   - Cálculo automático del 'momento mágico'.`,
+Wygeneruj:
+1) Onboarding użytkowników free.
+2) Upsell w kluczowych momentach.
+3) E-maile oparte o użycie.
+4) Wersja PRO:
+   - Automatyczne wyliczenie „magicznego momentu”.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-032",
-    title: "Embudo Black Friday 7 Días",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo intensivo de alto volumen para fechas especiales.",
-    prompt: `Inputs:
-- Producto.
-- Descuento u oferta.
+    title: "Lejek Black Friday (7 dni)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Intensywny lejek pod duży wolumen w okresach specjalnych.",
+    prompt: `Dane wejściowe:
+- Produkt.
+- Zniżka lub oferta.
 
-Genera:
-1) Calendario 7 días.
-2) Secuencia completa de correos.
-3) 3 ofertas escalonadas.
-4) Version PRO:
-   - Retargeting dinámico.`,
+Wygeneruj:
+1) Kalendarz 7-dniowy.
+2) Pełną sekwencję e-maili.
+3) 3 stopniowane oferty.
+4) Wersja PRO:
+   - Dynamiczny retargeting.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-033",
-    title: "Embudo Upsell Inmediato Post-Compra",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Optimiza el LTV aumentando el ticket en el momento correcto.",
-    prompt: `Inputs:
-- Producto principal.
-- Producto upsell.
+    title: "Lejek natychmiastowego upsellu po zakupie",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Optymalizuj LTV, podnosząc koszyk w najlepszym momencie.",
+    prompt: `Dane wejściowe:
+- Produkt główny.
+- Produkt upsell.
 
-Genera:
-1) Página OTO.
-2) Script de oferta irresistible.
-3) 3 variaciones de precios.
-4) Version PRO:
-   - Embudo encadenado con segundo upsell.`,
+Wygeneruj:
+1) Stronę OTO.
+2) Skrypt „oferty nie do odrzucenia”.
+3) 3 warianty cen.
+4) Wersja PRO:
+   - Łańcuchowy lejek z drugim upsellem.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-034",
-    title: "Embudo Sin Videos (solo texto y automatización)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Ideal para quienes no quieren grabar contenido.",
-    prompt: `Inputs:
-- Producto.
-- Público.
+    title: "Lejek bez wideo (tylko tekst i automatyzacja)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Dla osób, które nie chcą nagrywać materiałów.",
+    prompt: `Dane wejściowe:
+- Produkt.
+- Odbiorcy.
 
-Genera:
-1) Landing ultra textual.
-2) 7 emails educativos.
-3) Página de venta estilo long-form.
-4) Version PRO:
-   - Embudo multivariado solo con texto.`,
+Wygeneruj:
+1) Mocno tekstowy landing.
+2) 7 edukacyjnych e-maili.
+3) Long-form stronę sprzedażową.
+4) Wersja PRO:
+   - Wielowariantowy lejek oparty wyłącznie o tekst.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-035",
-    title: "Embudo para vender cursos evergreen",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo automatizado para vender todos los días.",
-    prompt: `Inputs:
-- Curso.
-- Precio.
+    title: "Lejek evergreen do sprzedaży kursów",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Automatyczny lejek, który sprzedaje codziennie.",
+    prompt: `Dane wejściowe:
+- Kurs.
+- Cena.
 
-Genera:
-1) Secuencia de bienvenida.
-2) Ruta de contenido evergreen.
-3) Secuencia de venta evergreen.
-4) Version PRO:
-   - Ventana vs. deadline funnels.`,
+Wygeneruj:
+1) Sekwencję powitalną.
+2) Evergreen ścieżkę treści.
+3) Evergreen sekwencję sprzedażową.
+4) Wersja PRO:
+   - Okno sprzedaży vs deadline funnels.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-036",
-    title: "Embudo de Afiliados (para reclutar vendedores externos)",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek afiliacyjny (rekrutacja partnerów sprzedaży)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Recolecta afiliados y poi-sitiona tu oferta para que la vendan por ti.",
-    prompt: `Inputs:
-- Producto.
-- Comisión.
+      "Pozyskuj afiliantów i pozycjonuj ofertę tak, aby sprzedawali za Ciebie.",
+    prompt: `Dane wejściowe:
+- Produkt.
+- Prowizja.
 
-Genera:
-1) Página para captar afiliados.
-2) Kit de afiliado.
-3) Secuencia motivacional.
-4) Version PRO:
-   - Embudo interno de retos para afiliados.`,
+Wygeneruj:
+1) Stronę pozyskiwania afiliantów.
+2) Zestaw narzędzi afilianta (affiliate kit).
+3) Sekwencję motywacyjną.
+4) Wersja PRO:
+   - Wewnętrzny lejek „wyzwań” dla afiliantów.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-037",
-    title: "Embudo para vender mentorías grupales",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo de alto valor que vende programas grupales.",
-    prompt: `Inputs:
-- Mentoría.
-- Duración.
+    title: "Lejek do sprzedaży mentoringu grupowego",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek wysokiej wartości do sprzedaży programów grupowych.",
+    prompt: `Dane wejściowe:
+- Mentoring.
+- Czas trwania.
 
-Genera:
-1) Landing emocional.
-2) Secuencia de autoridad.
-3) Script de venta grupal.
-4) Version PRO:
-   - Embudo con masterclass exclusiva.`,
+Wygeneruj:
+1) Emocjonalny landing.
+2) Sekwencję autorytetu.
+3) Skrypt sprzedaży grupowej.
+4) Wersja PRO:
+   - Lejek z ekskluzywną masterclass.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-038",
-    title: "Embudo para productos físicos premium",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Funnel especializado para productos físicos de alto valor.",
-    prompt: `Inputs:
-- Producto.
-- Precio.
+    title: "Lejek dla premium produktów fizycznych",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek dla produktów fizycznych o wysokiej wartości.",
+    prompt: `Dane wejściowe:
+- Produkt.
+- Cena.
 
-Genera:
-1) Landing estilo luxury.
-2) Secuencia de valor.
-3) Oferta premium limitada.
-4) Version PRO:
-   - Secuencia VIP de clientes elite.`,
+Wygeneruj:
+1) Landing w stylu luxury.
+2) Sekwencję budowania wartości.
+3) Limitowaną ofertę premium.
+4) Wersja PRO:
+   - Sekwencję VIP dla klientów „elite”.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-039",
-    title: "Embudo con Chatbot de Conversión",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo que usa chatbot como primer filtro de ventas.",
-    prompt: `Inputs:
-- Producto.
-- Plataforma chatbot.
+    title: "Lejek z chatbotem konwersyjnym",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek, w którym chatbot jest pierwszym filtrem sprzedaży.",
+    prompt: `Dane wejściowe:
+- Produkt.
+- Platforma chatbota.
 
-Genera:
-1) Script inicial chatbot.
-2) Rutas según respuesta.
-3) Integración con landing.
-4) Version PRO:
-   - Bot inteligente con IA.`,
+Wygeneruj:
+1) Startowy skrypt chatbota.
+2) Ścieżki wg odpowiedzi.
+3) Integrację z landingiem.
+4) Wersja PRO:
+   - Inteligentny bot z AI.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-040",
-    title: "Embudo de Recuperación de Leads Fríos",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Revive leads inactivos recuperando interés y deseo.",
-    prompt: `Inputs:
-- Tiempo de inactividad.
-- Producto.
+    title: "Lejek reaktywacji „zimnych” leadów",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Ożywiaj nieaktywne leady, odbudowując zainteresowanie i pragnienie.",
+    prompt: `Dane wejściowe:
+- Czas braku aktywności.
+- Produkt.
 
-Genera:
-1) Secuencia reactivación 5 emails.
-2) Oferta específica para fríos.
-3) Mensajes para redes.
-4) Version PRO:
-   - Segmentación por temperatura.`,
+Wygeneruj:
+1) Sekwencję reaktywacji: 5 e-maili.
+2) Specjalną ofertę dla „zimnych”.
+3) Wiadomości do sociali.
+4) Wersja PRO:
+   - Segmentacja wg temperatury.`,
     thumbnail: "",
   },
+
   {
     id: "embudo-041",
-    title: "Embudo High-Ticket con Aplicación + Llamada Cualificada",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "High-ticket: aplikacja + kwalifikowana rozmowa",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Embudo diseñado para vender programas premium mediante aplicación y llamada estratégica.",
-    prompt: `Actúa como estratega en funnels high-ticket.
+      "Lejek do sprzedaży premium programów poprzez aplikację i strategiczną rozmowę.",
+    prompt: `Działaj jako strateg lejków high-ticket.
 
-Inputs:
-• Tipo de mentoría/servicio premium.  
-• Precio.  
-• Perfil exacto del cliente ideal.  
+Dane wejściowe:
+• Typ premium mentoringu/usługi.  
+• Cena.  
+• Dokładny profil idealnego klienta.  
 
-Genera:  
-1) Landing de aplicación:  
-   - Hero orientado a transformación.  
-   - Preguntas para filtrar (mín. 6).  
-   - Promesa escrita en tono aspiracional.  
+Wygeneruj:  
+1) Landing aplikacyjny:  
+   - Hero pod transformację.  
+   - Pytania filtrujące (min. 6).  
+   - Obietnica w tonie aspiracyjnym.  
 
-2) Secuencia pre-llamada (4 emails):
-   - Email 1: Confirmación + expectativas.  
-   - Email 2: Autoridad (casos).  
-   - Email 3: Preparación mental.  
-   - Email 4: Compromiso (checklist).  
+2) Sekwencja przed rozmową (4 e-maile):
+   - E-mail 1: Potwierdzenie + oczekiwania.  
+   - E-mail 2: Autorytet (przypadki).  
+   - E-mail 3: Przygotowanie mentalne.  
+   - E-mail 4: Zaangażowanie (checklista).  
 
-3) Script de llamada estructurado:
-   - Apertura.  
-   - Diagnóstico profundo.  
-   - Identificación de brechas.  
-   - Método.  
+3) Ustrukturyzowany skrypt rozmowy:
+   - Otwarcie.  
+   - Głęboka diagnoza.  
+   - Identyfikacja luk.  
+   - Metoda.  
    - Oferta.  
-   - Cierre.  
+   - Domknięcie.  
 
-4) Version PRO:
-   - Embudo con dos etapas (aplicación + entrevista previa).  
-   - Variantes para clientes fríos y tibios.`,
+4) Wersja PRO:
+   - Lejek w dwóch etapach (aplikacja + wstępny wywiad).  
+   - Warianty dla leadów zimnych i ciepłych.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-042",
-    title: "Embudo con Mini Webinars Evergreen (15 minutos)",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek z mini-webinarami evergreen (15 minut)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Funnel evergreen basado en un mini webinar rápido que convierte mejor que los largos.",
-    prompt: `Inputs:
-• Nicho.  
-• Producto final.  
-• Big Idea del webinar.  
+      "Evergreen lejek oparty o krótki mini-webinar, który często konwertuje lepiej niż długi.",
+    prompt: `Dane wejściowe:
+• Nisza.  
+• Produkt finalny.  
+• Big Idea webinaru.  
 
-Genera:  
-1) Estructura del mini webinar (15 min):
+Wygeneruj:  
+1) Strukturę mini-webinaru (15 min):
    - Hook.  
-   - Mito derribado.  
-   - Método.  
-   - Caso.  
+   - Obalenie mitu.  
+   - Metoda.  
+   - Case.  
    - Pitch.  
 
-2) Landing para registrar:
-   - Promesa clara en una frase.  
-   - 3 bullets de beneficios.  
-   - Prueba social mínima.  
+2) Landing rejestracyjny:
+   - Obietnica w jednym zdaniu.  
+   - 3 bullet’y korzyści.  
+   - Minimalny dowód społeczny.  
 
-3) Secuencia post-webinar:
-   - Email 1: Resultado clave.  
-   - Email 2: Objeción principal.  
-   - Email 3: Urgencia.  
-   - Email 4: Última llamada.  
+3) Sekwencję po webinarze:
+   - E-mail 1: Kluczowy rezultat.  
+   - E-mail 2: Główna obiekcja.  
+   - E-mail 3: Pilność.  
+   - E-mail 4: Ostatni call.  
 
-4) Versión PRO:
-   - 3 variaciones de webinars que rotan automáticamente.  
+4) Wersja PRO:
+   - 3 rotujące warianty webinaru (automatycznie).  
    - Retargeting in/out.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-043",
-    title: "Embudo Híbrido Contenido + Conversación (Email + WhatsApp)",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek hybrydowy: treści + rozmowa (E-mail + WhatsApp)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Funnel moderno basado en contenido profundo y conversaciones directas.",
-    prompt: `Inputs:
-• Producto.  
-• Nivel de ticket.  
-• Tipo de público.  
+      "Nowoczesny lejek oparty o głębokie treści i bezpośrednie rozmowy.",
+    prompt: `Dane wejściowe:
+• Produkt.  
+• Poziom ceny (ticket).  
+• Typ odbiorców.  
 
-Genera:
-1) Ruta de contenido (7 días):
-   - Día 1: Problema raíz.  
-   - Día 2: Creencias.  
-   - Día 3: Caso.  
-   - Día 4: Método.  
-   - Día 5: Tutorial.  
-   - Día 6: Objeciones.  
-   - Día 7: Oferta.  
+Wygeneruj:
+1) Ścieżkę treści (7 dni):
+   - Dzień 1: Rdzeń problemu.  
+   - Dzień 2: Przekonania.  
+   - Dzień 3: Case.  
+   - Dzień 4: Metoda.  
+   - Dzień 5: Tutorial.  
+   - Dzień 6: Obiekcje.  
+   - Dzień 7: Oferta.  
 
-2) Secuencia de activación por WhatsApp:
-   - 3 mensajes cortos orientados a conversación.  
-   - Script para convertir consulta → venta.  
+2) Sekwencję aktywacji na WhatsApp:
+   - 3 krótkie wiadomości nastawione na rozmowę.  
+   - Skrypt: konsultacja → sprzedaż.  
 
-3) Página de venta:
-   - Secciones mínimas.  
-   - 3 CTAs estratégicos.  
+3) Stronę sprzedażową:
+   - Minimalne sekcje.  
+   - 3 strategiczne CTA.  
 
-4) Versión PRO:
-   - Conversación automatizada con IA.  
-   - Segmentación por intención.`,
+4) Wersja PRO:
+   - Rozmowa zautomatyzowana przez AI.  
+   - Segmentacja wg intencji.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-044",
-    title: "Embudo Tipo Desafío de 14 Días (Challenge Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek: wyzwanie 14-dniowe (Challenge Funnel)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Un funnel basado en un reto de 14 días para aumentar pertenencia y conversión.",
-    prompt: `Inputs:
-• Tema del reto.  
-• Resultado deseado.  
+      "Lejek oparty o 14-dniowe wyzwanie, które buduje przynależność i zwiększa konwersję.",
+    prompt: `Dane wejściowe:
+• Temat wyzwania.  
+• Pożądany rezultat.  
 
-Genera:
-1) Estructura completa del reto:
-   - Día 1–14 con tareas pequeñas.  
-   - Recompensas psicológicas.  
-   - Momentos de victoria.  
+Wygeneruj:
+1) Pełną strukturę wyzwania:
+   - Dni 1–14 z małymi zadaniami.  
+   - Psychologiczne nagrody.  
+   - Momenty zwycięstwa.  
 
-2) Landing del challenge:
-   - Beneficios.  
-   - Calendario visual.  
-   - Preguntas frecuentes.  
+2) Landing challenge’u:
+   - Korzyści.  
+   - Wizualny kalendarz.  
+   - FAQ.  
 
-3) Secuencia de correos:
-   - 14 emails automatizados con resumen + CTA.  
+3) Sekwencję maili:
+   - 14 zautomatyzowanych e-maili (podsumowanie + CTA).  
 
-4) Cierre del reto:
-   - Masterclass final.  
-   - Pitch irresistible.  
+4) Domknięcie wyzwania:
+   - Finałowa masterclass.  
+   - Pitch „nie do odmowy”.  
 
-5) Version PRO:
-   - Chat grupal.  
-   - Incentivos gamificados.`,
+5) Wersja PRO:
+   - Czat grupowy.  
+   - Gamifikowane bodźce.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-045",
-    title: "Embudo de Ventas Flash (72 Horas)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo intensivo para generar ventas rápidas con escasez real.",
-    prompt: `Inputs:
-• Producto.  
-• Descuento u oferta.  
+    title: "Lejek Flash Sales (72 godziny)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Intensywny lejek do szybkiej sprzedaży z realną rzadkością.",
+    prompt: `Dane wejściowe:
+• Produkt.  
+• Zniżka lub oferta.  
 
-Genera:
-1) Página de oferta flash:
-   - Temporizador real.  
-   - Bonus urgentes.  
-   - Llave única de acceso.  
+Wygeneruj:
+1) Stronę flash oferty:
+   - Prawdziwy timer.  
+   - Pilne bonusy.  
+   - Jedyny „klucz dostępu”.  
 
-2) Secuencia:
-   - Email 1: Aviso.  
-   - Email 2: Beneficios.  
-   - Email 3: Última oportunidad.  
+2) Sekwencję:
+   - E-mail 1: Zapowiedź.  
+   - E-mail 2: Korzyści.  
+   - E-mail 3: Ostatnia szansa.  
 
 3) Retargeting:
-   - Anuncio 1: Recordatorio.  
-   - Anuncio 2: Fricción.  
-   - Anuncio 3: Cierre.  
+   - Reklama 1: Przypomnienie.  
+   - Reklama 2: Tarcie/obiekcje.  
+   - Reklama 3: Zamknięcie.  
 
-4) Version PRO:
-   - Segmentar compradores vs. no compradores con rutas distintas.`,
+4) Wersja PRO:
+   - Segmentacja kupujących vs niekupujących z różnymi ścieżkami.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-046",
-    title: "Embudo para Venta de Comunidad Premium",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek do sprzedaży premium społeczności",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Embudo especializado en vender membresías de comunidad o clubs privados.",
-    prompt: `Inputs:
-• Comunidad.  
-• Beneficios.  
+      "Lejek do sprzedaży płatnych społeczności, klubów i membershipów.",
+    prompt: `Dane wejściowe:
+• Społeczność.  
+• Korzyści.  
 
-Genera:
-1) Página de comunidad premium:
-   - Qué incluye.  
-   - Eventos.  
-   - Casos.  
-   - Bonus.  
+Wygeneruj:
+1) Stronę premium społeczności:
+   - Co zawiera.  
+   - Wydarzenia.  
+   - Case’y.  
+   - Bonusy.  
 
-2) Secuencia persuasiva:
-   - Email 1: Pertenencia.  
-   - Email 2: Transformación.  
-   - Email 3: Momentum.  
+2) Sekwencję perswazyjną:
+   - E-mail 1: Przynależność.  
+   - E-mail 2: Transformacja.  
+   - E-mail 3: Momentum.  
 
-3) Activación:
-   - Mensaje de bienvenida.  
-   - Ruta de primeros 7 días.  
+3) Aktywację:
+   - Wiadomość powitalną.  
+   - Ścieżkę pierwszych 7 dni.  
 
-4) Version PRO:
-   - Embudo de referidos.  
-   - Niveles gamificados.`,
+4) Wersja PRO:
+   - Lejek poleceń (referrals).  
+   - Gamifikowane poziomy.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-047",
-    title: "Embudo para Reposicionar un Producto Estancado",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek do repozycjonowania „utkniętego” produktu",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Reestructura COPY, oferta y secuencia para relanzar un producto estancado.",
-    prompt: `Inputs:
-• Producto.  
-• Motivo del estancamiento.  
+      "Przebuduj copy, ofertę i sekwencję, aby ponownie odpalić produkt, który stanął.",
+    prompt: `Dane wejściowe:
+• Produkt.  
+• Powód zastoju.  
 
-Genera:
-1) Nueva promesa irresistible.  
-2) Reposicionamiento completo.  
-3) Secuencia de reactivación (5 emails).  
-4) Version PRO:
-   - Oferta reinventada con nuevo ángulo psicológico.`,
+Wygeneruj:
+1) Nową, nieodpartą obietnicę.  
+2) Pełne repozycjonowanie.  
+3) Sekwencję reaktywacji (5 e-maili).  
+4) Wersja PRO:
+   - Wymyślona na nowo oferta z nowym kątem psychologicznym.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-048",
-    title: "Embudo de Venta con Mini-Casos de Estudio",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Funnel basado en estudios de caso breves y directos.",
-    prompt: `Inputs:
-• 3 casos reales.  
+    title: "Lejek sprzedażowy na mini-case studies",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek oparty o krótkie, konkretne studia przypadku.",
+    prompt: `Dane wejściowe:
+• 3 realne case’y.  
 
-Genera:
-1) Storyboards de mini-casos.  
-2) Landing 'Solo resultados'.  
-3) Secuencia orientada a impacto.  
-4) Version PRO:
-   - Casos dinámicos rotativos.`,
+Wygeneruj:
+1) Storyboardy mini-case’ów.  
+2) Landing „Tylko wyniki”.  
+3) Sekwencję nastawioną na efekt.  
+4) Wersja PRO:
+   - Rotujące, dynamiczne case’y.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-049",
-    title: "Embudo Educativo con Series de Valor",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek edukacyjny z serią wartości",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Embudo basado en una serie de contenido profundo que educa y convence.",
-    prompt: `Inputs:
-• Tema.  
-• Producto.  
+      "Lejek oparty o serię mocnych treści, które edukują i przekonują.",
+    prompt: `Dane wejściowe:
+• Temat.  
+• Produkt.  
 
-Genera:
-1) Serie educativa (4 capítulos).  
-2) Landing de registro.  
-3) Emails que amplían cada capítulo.  
-4) Version PRO:
-   - Mini examen que aumenta autoridad.`,
+Wygeneruj:
+1) Serię edukacyjną (4 odcinki).  
+2) Landing rejestracyjny.  
+3) E-maile rozwijające każdy odcinek.  
+4) Wersja PRO:
+   - Mini-test, który buduje autorytet.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-050",
-    title: "Embudo para Venta de Plantillas y Recursos Digitales",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek do sprzedaży szablonów i zasobów cyfrowych",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Optimizado para vender plantillas, archivos y recursos descargables.",
-    prompt: `Inputs:
-• Tipo de plantilla/recurso.  
+      "Zoptymalizowany pod sprzedaż szablonów, plików i zasobów do pobrania.",
+    prompt: `Dane wejściowe:
+• Typ szablonu/zasobu.  
 
-Genera:
-1) Página ultra directa.  
-2) Secuencia simple (3 emails).  
-3) Upsell con pack completo.  
-4) Version PRO:
-   - Bundle dinámico según compra.`,
+Wygeneruj:
+1) Ultra-konkretną stronę.
+2) Prostą sekwencję (3 e-maile).
+3) Upsell z pełnym pakietem.
+4) Wersja PRO:
+   - Dynamiczny bundle wg zakupu.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-051",
-    title: "Embudo con Conversión por Prueba Social Extrema",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Basado en mostrar evidencia masiva de resultados.",
-    prompt: `Inputs:
-• Casos.  
-• Testimonios.  
+    title: "Lejek z ekstremalnym dowodem społecznym",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Oparty o masowe pokazywanie dowodów wyników.",
+    prompt: `Dane wejściowe:
+• Case’y.  
+• Testimoniale.  
 
-Genera:
-1) Landing 80% social proof.  
-2) 10 tipos de evidencias.  
-3) Secuencia reforzando resultados.  
-4) Version PRO:
-   - Story-driven testimonial funnel.`,
+Wygeneruj:
+1) Landing: 80% social proof.  
+2) 10 typów dowodów/evidence.  
+3) Sekwencję wzmacniającą wyniki.  
+4) Wersja PRO:
+   - Lejek testimonialowy napędzany historią.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-052",
-    title: "Embudo de Conversión con Lead Magnet Avanzado",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Lead magnet poderoso que conduce naturalmente a la venta.",
-    prompt: `Inputs:
-• Tema.  
+    title: "Lejek z zaawansowanym lead magnetem (konwersja)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Mocny lead magnet, który naturalnie prowadzi do sprzedaży.",
+    prompt: `Dane wejściowe:
+• Temat.  
 • Lead magnet.  
 
-Genera:
-1) Página de descarga.  
-2) Secuencia post-descarga.  
-3) Pre-pitch educativo.  
-4) Version PRO:
-   - Lead magnet con gamificación.`,
+Wygeneruj:
+1) Stronę pobrania.  
+2) Sekwencję po pobraniu.  
+3) Edukacyjny pre-pitch.  
+4) Wersja PRO:
+   - Lead magnet z gamifikacją.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-053",
-    title: "Embudo para Venta de Servicios Freelance Pro",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Diseñado para freelancers que quieren cerrar clientes premium.",
-    prompt: `Inputs:
-• Servicio.  
-• Cliente ideal.  
+    title: "Lejek dla freelancerów PRO (sprzedaż usług)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Dla freelancerów, którzy chcą domykać klientów premium.",
+    prompt: `Dane wejściowe:
+• Usługa.  
+• Idealny klient.  
 
-Genera:
-1) Página de autoridad.  
-2) Portafolio estratégico.  
-3) Secuencia consultiva.  
-4) Version PRO:
-   - Funnel con demo personalizada.`,
+Wygeneruj:
+1) Stronę autorytetu.  
+2) Strategiczne portfolio.  
+3) Sekwencję konsultacyjną.  
+4) Wersja PRO:
+   - Lejek z personalizowanym demo.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-054",
-    title: "Embudo de Conversión para Productos Low-Ticket",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Optimizado para ventas rápidas de bajo precio.",
-    prompt: `Inputs:
-• Producto.  
-• Precio.  
+    title: "Lejek konwersji dla produktów low-ticket",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Zoptymalizowany pod szybkie sprzedaże w niskiej cenie.",
+    prompt: `Dane wejściowe:
+• Produkt.  
+• Cena.  
 
-Genera:
-1) Página mínima.  
-2) Secuencia 3 emails.  
-3) Upsell para aumentar ticket.  
-4) Version PRO:
-   - Embudo automático de recompra.`,
+Wygeneruj:
+1) Minimalną stronę.
+2) Sekwencję 3 e-maili.
+3) Upsell pod zwiększenie koszyka.
+4) Wersja PRO:
+   - Automatyczny lejek ponownego zakupu.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-055",
-    title: "Embudo con Ruta Personalizada según Avatar",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Define rutas de compra según diferentes perfiles de usuario.",
-    prompt: `Inputs:
-• 3 perfiles de avatar.  
+    title: "Lejek z personalizowaną ścieżką wg avatara",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Wyznacz ścieżki zakupu dla różnych profili użytkowników.",
+    prompt: `Dane wejściowe:
+• 3 profile avatara.  
 
-Genera:
-1) Mapa de rutas separadas.  
-2) Mensajes específicos por avatar.  
-3) Ofertas personalizadas.  
-4) Version PRO:
-   - IA que adapta email/sms.`,
+Wygeneruj:
+1) Mapę osobnych ścieżek.  
+2) Komunikaty specyficzne dla avatara.  
+3) Spersonalizowane oferty.  
+4) Wersja PRO:
+   - AI dopasowujące e-mail/SMS.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-056",
-    title: "Embudo con Mecanismo Único de Venta (MUV)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo construido 100% alrededor de un mecanismo único poderoso.",
-    prompt: `Inputs:
+    title: "Lejek oparty o unikalny mechanizm sprzedaży (MUV)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek zbudowany w 100% wokół mocnego, unikalnego mechanizmu.",
+    prompt: `Dane wejściowe:
 • MUV.  
-• Producto.  
+• Produkt.  
 
-Genera:
+Wygeneruj:
 1) Big Idea.  
-2) Copy central.  
-3) Email sequence 5 días.  
-4) Version PRO:
-   - Variantes psicológicas del MUV.`,
+2) Główne copy.  
+3) Sekwencję e-maili na 5 dni.  
+4) Wersja PRO:
+   - Psychologiczne warianty MUV.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-057",
-    title: "Embudo para Venta de Consultorías 1:1",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo diseñado para vender servicios premium personalizados.",
-    prompt: `Inputs:
-• Tema de consultoría.  
+    title: "Lejek do sprzedaży konsultacji 1:1",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek do sprzedaży premium usług personalizowanych.",
+    prompt: `Dane wejściowe:
+• Temat konsultacji.  
 
-Genera:
-1) Landing emocional.  
-2) Script de llamada.  
-3) Secuencia de autoridad.  
-4) Version PRO:
-   - Cuestionario previo avanzado.`,
+Wygeneruj:
+1) Emocjonalny landing.  
+2) Skrypt rozmowy.  
+3) Sekwencję autorytetu.  
+4) Wersja PRO:
+   - Zaawansowany kwestionariusz przed rozmową.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-058",
-    title: "Embudo de Venta para Masterclass de Pago",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo especializado para vender entradas a una clase especial.",
-    prompt: `Inputs:
-• Tema.  
-• Precio.  
+    title: "Lejek sprzedaży płatnej masterclass",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek do sprzedaży biletów na specjalną lekcję.",
+    prompt: `Dane wejściowe:
+• Temat.  
+• Cena.  
 
-Genera:
+Wygeneruj:
 1) Landing.  
-2) Secuencia 4 emails.  
-3) Upsell post-masterclass.  
-4) Version PRO:
-   - Acceso anticipado IP tracking.`,
+2) Sekwencję 4 e-maili.  
+3) Upsell po masterclass.  
+4) Wersja PRO:
+   - Wcześniejszy dostęp + IP tracking.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-059",
-    title: "Embudo Evergreen Tipo 'Deadline Funnel Lite'",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Usa urgencia automatizada sin ser agresivo.",
-    prompt: `Inputs:
-• Producto.  
+    title: "Lejek evergreen typu „Deadline Funnel Lite”",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Automatyczna, łagodna pilność bez agresji.",
+    prompt: `Dane wejściowe:
+• Produkt.  
 • Deadline.  
 
-Genera:
-1) Ruta evergreen.  
-2) Emails con urgencia suave.  
-3) Oferta final.  
-4) Version PRO:
-   - Deadline dinámico según interacción.`,
+Wygeneruj:
+1) Ścieżkę evergreen.  
+2) E-maile z miękką pilnością.  
+3) Finalną ofertę.  
+4) Wersja PRO:
+   - Dynamiczny deadline wg interakcji.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-060",
-    title: "Embudo Conversacional 100% Chat",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo basado en chat, sin páginas ni emails.",
-    prompt: `Inputs:
-• Producto.  
-• Plataforma (WhatsApp/IG DM).  
+    title: "Lejek konwersacyjny 100% chat",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek oparty o czat — bez stron i bez e-maili.",
+    prompt: `Dane wejściowe:
+• Produkt.  
+• Platforma (WhatsApp/IG DM).  
 
-Genera:
-1) Script inicial.  
-2) Preguntas de diagnóstico.  
-3) Pitch dentro del chat.  
-4) Version PRO:
-   - Chat IA que cierra ventas.`,
+Wygeneruj:
+1) Skrypt startowy.  
+2) Pytania diagnostyczne.  
+3) Pitch w rozmowie.  
+4) Wersja PRO:
+   - Chat AI domykający sprzedaż.`,
     thumbnail: "",
   },
+
   {
     id: "embudo-061",
-    title: "Embudo Hiper-Optimizado para Audiencias Pequeñas",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek hiper-optymalny dla małych społeczności",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Funnel diseñado para quienes tienen comunidades pequeñas pero quieren convertir alto.",
-    prompt: `Inputs:
-• Tamaño de la audiencia (ej. 200–3,000 personas).  
-• Nicho.  
-• Producto.  
+      "Lejek dla osób z małą społecznością, które chcą wysokiej konwersji.",
+    prompt: `Dane wejściowe:
+• Wielkość audytorium (np. 200–3,000 osób).  
+• Nisza.  
+• Produkt.  
 
-Genera:
-1) Embudo íntimo:
-   - Email 1: Conexión profunda.
-   - Email 2: Marco de oportunidad.
-   - Email 3: Invitación personal.
-   - Email 4: Cierre cercano.
+Wygeneruj:
+1) Intymny lejek:
+   - E-mail 1: Głęboka więź.
+   - E-mail 2: Rama możliwości.
+   - E-mail 3: Osobiste zaproszenie.
+   - E-mail 4: Bliskie domknięcie.
 
-2) Página de venta:
-   - Prueba social mínima pero poderosa.
-   - Secciones que generan cercanía.
+2) Stronę sprzedażową:
+   - Minimalny, ale mocny dowód społeczny.
+   - Sekcje budujące bliskość.
 
-3) Estrategia de conversación:
-   - 5 mensajes listos para enviar por DM.
+3) Strategię rozmów:
+   - 5 wiadomości gotowych do DM.
 
-4) Versión PRO:
-   - Ruta personalizada para compradores tibios vs. calientes.`,
+4) Wersja PRO:
+   - Spersonalizowana trasa dla ciepłych vs gorących kupujących.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-062",
-    title: "Embudo para Productos Educativos de Ticket Medio",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo especializado para cursos entre $97 y $297.",
-    prompt: `Inputs:
-• Curso.  
-• Resultado que promete.  
-• Objeciones más comunes.  
+    title: "Lejek dla edukacyjnych produktów średniego ticketu",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek pod kursy w przedziale $97–$297.",
+    prompt: `Dane wejściowe:
+• Kurs.  
+• Obiecany rezultat.  
+• Najczęstsze obiekcje.  
 
-Genera:
-1) Página de venta optimizada:
-   - Promesa.
-   - Módulos.
-   - Método.
-   - Bonus.
-   - Garantía.
+Wygeneruj:
+1) Zoptymalizowaną stronę sprzedażową:
+   - Obietnica.
+   - Moduły.
+   - Metoda.
+   - Bonusy.
+   - Gwarancja.
 
-2) Secuencia de emails de 7 días:
-   - Día 1: Big idea.
-   - Día 2: Diagnóstico.
-   - Día 3: Caso.
-   - Día 4: Objeción.
-   - Día 5: Demo.
-   - Día 6: Anticipación.
-   - Día 7: Cierre.
+2) Sekwencję e-maili na 7 dni:
+   - Dzień 1: Big idea.
+   - Dzień 2: Diagnoza.
+   - Dzień 3: Case.
+   - Dzień 4: Obiekcja.
+   - Dzień 5: Demo.
+   - Dzień 6: Antycypacja.
+   - Dzień 7: Domknięcie.
 
 3) Upsell:
-   - Pack premium.
+   - Pakiet premium.
 
-4) Versión PRO:
-   - Embudo evergreen automatizado con urgencia dinámica.`,
+4) Wersja PRO:
+   - Evergreen z dynamiczną pilnością.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-063",
-    title: "Embudo para Venta de Mentorías Express (30–90 Min)",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek do sprzedaży mentoringu express (30–90 min)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Funnel específico para vender sesiones cortas altamente valiosas.",
-    prompt: `Inputs:
-• Tema de la mentoría express.  
-• Precio.  
+      "Lejek pod krótkie, bardzo wartościowe sesje.",
+    prompt: `Dane wejściowe:
+• Temat mentoringu express.  
+• Cena.  
 
-Genera:
-1) Página de mentoría express:
-   - Transformación mínima.
-   - Estructura de 3 pasos.
-   - Escasez (plazas limitadas).
+Wygeneruj:
+1) Stronę mentoringu express:
+   - Minimalna transformacja.
+   - Struktura 3 kroków.
+   - Rzadkość (limit miejsc).
 
-2) Secuencia:
-   - Email de autoridad.
-   - Email de caso.
-   - Email de urgencia.
+2) Sekwencję:
+   - E-mail autorytetu.
+   - E-mail case’u.
+   - E-mail pilności.
 
-3) Flow conversacional:
-   - 5 mensajes que llevan al pago.
+3) Flow konwersacyjny:
+   - 5 wiadomości prowadzących do płatności.
 
-4) Versión PRO:
-   - Automatización con horarios dinámicos.`,
+4) Wersja PRO:
+   - Automatyzacja z dynamicznymi terminami.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-064",
-    title: "Embudo para Lanzamientos Internos (Warm Launch)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Lanzamiento dirigido solo a audiencia actual para maximizar ROI.",
-    prompt: `Inputs:
-• Producto.  
-• Público tibio/actual.  
+    title: "Lejek na launch tylko do obecnej bazy (Warm Launch)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Launch kierowany do obecnej, ciepłej publiczności dla maksymalnego ROI.",
+    prompt: `Dane wejściowe:
+• Produkt.  
+• Ciepła/obecna publiczność.  
 
-Genera:
-1) Warm-up de 7 días.
-2) Mini-series educativa de 4 capítulos.
-3) Secuencia de carrito abierto.
-4) Versión PRO:
-   - Segmentación por interacción previa.`,
+Wygeneruj:
+1) 7-dniowy warm-up.
+2) Mini-serię edukacyjną (4 odcinki).
+3) Sekwencję „otwarty koszyk”.
+4) Wersja PRO:
+   - Segmentacja wg wcześniejszej interakcji.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-065",
-    title: "Embudo para Venta de Agencias (Servicios Done-For-You)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Especial para agencias que venden servicios completos.",
-    prompt: `Inputs:
-• Tipo de servicio (DFY).  
+    title: "Lejek do sprzedaży usług agencyjnych (Done-For-You)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Dla agencji sprzedających kompleksowe usługi.",
+    prompt: `Dane wejściowe:
+• Typ usługi (DFY).  
 • Ticket.  
 
-Genera:
-1) Landing profesional versión agencia.
-2) Secuencia corporativa.
-3) Script de diagnóstico.
-4) Versión PRO:
-   - Contenido de autoridad semanal.`,
+Wygeneruj:
+1) Profesjonalny landing w wersji agencyjnej.
+2) Sekwencję korporacyjną.
+3) Skrypt diagnozy.
+4) Wersja PRO:
+   - Tygodniowe treści autorytetu.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-066",
-    title: "Embudo de Upsell basado en Momentum Emocional",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek upsellu oparty o emocjonalne momentum",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Upsell presentado justo después de una victoria emocional del cliente.",
-    prompt: `Inputs:
-• Producto principal.  
-• Producto upsell.  
+      "Upsell tuż po emocjonalnym „zwycięstwie” klienta.",
+    prompt: `Dane wejściowe:
+• Produkt główny.  
+• Produkt upsell.  
 
-Genera:
-1) Identificación del momento ideal.
-2) Página de upsell emocional.
-3) Script para aumentar deseo.
-4) Version PRO:
-   - Automatización basada en eventos.`,
+Wygeneruj:
+1) Identyfikację idealnego momentu.
+2) Emocjonalną stronę upsellu.
+3) Skrypt podbijający pragnienie.
+4) Wersja PRO:
+   - Automatyzacja oparta o zdarzenia.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-067",
-    title: "Embudo para Venta de Entrenamientos Grabados",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Para vender workshops, bootcamps y clases grabadas.",
-    prompt: `Inputs:
-• Entrenamiento.  
-• Duración.  
+    title: "Lejek do sprzedaży nagrań / treningów",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Do sprzedaży warsztatów, bootcampów i nagranych zajęć.",
+    prompt: `Dane wejściowe:
+• Trening.  
+• Długość.  
 
-Genera:
-1) Landing 'mira hoy mismo'.
-2) Secuencia 3 pasos (valor → deseo → venta).
-3) Upsell grabado premium.
-4) Versión PRO:
-   - Embudo evergreen con deadline.`,
+Wygeneruj:
+1) Landing „obejrzyj dziś”.
+2) Sekwencję 3 kroków (wartość → pragnienie → sprzedaż).
+3) Upsell premium w formie nagrania.
+4) Wersja PRO:
+   - Evergreen z deadline.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-068",
-    title: "Embudo con Ruta Educativa Gamificada (XP Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo tipo videojuego donde el usuario desbloquea contenido.",
-    prompt: `Inputs:
-• Curso/producto.  
+    title: "Lejek edukacyjny gamifikowany (XP Funnel)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek jak gra: użytkownik odblokowuje treści.",
+    prompt: `Dane wejściowe:
+• Kurs/produkt.  
 
-Genera:
-1) Ruta de niveles.
-2) Desbloqueos por acción.
-3) Recompensas gamificadas.
-4) Versión PRO:
-   - Ranking de usuarios.`,
+Wygeneruj:
+1) Ścieżkę poziomów.
+2) Odblokowania za akcję.
+3) Nagrody gamifikacyjne.
+4) Wersja PRO:
+   - Ranking użytkowników.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-069",
-    title: "Embudo con Testimonio Dinámico como Eje Central",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Funnel que gira en torno a un testimonio poderoso.",
-    prompt: `Inputs:
-• Testimonio principal.  
+    title: "Lejek z dynamicznym testimonialem jako osią",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek, który kręci się wokół jednego, bardzo mocnego testimoniale.",
+    prompt: `Dane wejściowe:
+• Główny testimonial.  
 
-Genera:
-1) Historia estructurada.
-2) Landing 'del caos al éxito'.
-3) Secuencia narrativa.
-4) Version PRO:
-   - Testimonios interactivos.`,
+Wygeneruj:
+1) Ustrukturyzowaną historię.
+2) Landing „od chaosu do sukcesu”.
+3) Sekwencję narracyjną.
+4) Wersja PRO:
+   - Interaktywne testimoniale.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-070",
-    title: "Embudo para Venta de Workshops Presenciales",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Funnel diseñado para vender talleres presenciales.",
-    prompt: `Inputs:
-• Fecha y lugar.  
-• Tema.  
-• Precio.  
+    title: "Lejek do sprzedaży warsztatów stacjonarnych",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek do sprzedaży wydarzeń na żywo (offline).",
+    prompt: `Dane wejściowe:
+• Data i miejsce.  
+• Temat.  
+• Cena.  
 
-Genera:
-1) Página con mapa, agenda, promesa.
-2) Secuencia pre-evento.
-3) Upsell de entradas VIP.
-4) Version PRO:
-   - Embudo para fotos post-evento.`,
+Wygeneruj:
+1) Stronę z mapą, agendą i obietnicą.
+2) Sekwencję przed wydarzeniem.
+3) Upsell biletów VIP.
+4) Wersja PRO:
+   - Lejek na zdjęcia po wydarzeniu.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-071",
-    title: "Embudo de Venta de Consultorías Estratégicas Anuales",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Para vender planes anuales de alto valor.",
-    prompt: `Inputs:
-• Tipo de consultoría.  
+    title: "Lejek do sprzedaży rocznych konsultacji strategicznych",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Do sprzedaży planów rocznych o wysokiej wartości.",
+    prompt: `Dane wejściowe:
+• Typ konsultacji.  
 • Ticket.  
 
-Genera:
-1) Landing corporativa.
-2) Secuencia autoridad extrema.
-3) Script de reunión anual.
-4) Versión PRO:
-   - Embudo renovaciones 12 meses después.`,
+Wygeneruj:
+1) Landing korporacyjny.
+2) Sekwencję ekstremalnego autorytetu.
+3) Skrypt spotkania rocznego.
+4) Wersja PRO:
+   - Lejek odnowień po 12 miesiącach.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-072",
-    title: "Embudo para Venta de Servicios de Gestión (Community, Ads, Etc.)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Funnel para servicios recurrentes.",
-    prompt: `Inputs:
-• Servicio mensual.  
+    title: "Lejek do sprzedaży usług zarządzania (community, ads itp.)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek dla usług abonamentowych / retainer.",
+    prompt: `Dane wejściowe:
+• Miesięczna usługa.  
 
-Genera:
-1) Página profesional.
-2) Secuencia consultiva.
-3) Demo gratuita del servicio.
-4) Versión PRO:
-   - Embudo para aumentar retención.`,
+Wygeneruj:
+1) Profesjonalną stronę.
+2) Sekwencję konsultacyjną.
+3) Darmowe demo usługi.
+4) Wersja PRO:
+   - Lejek pod zwiększanie retencji.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-073",
-    title: "Embudo para Venta de InfoProductos Premium ($500–$1500)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Optimizado para cursos avanzados y programas grandes.",
-    prompt: `Inputs:
-• Curso.  
-• Transformación.  
+    title: "Lejek dla premium infoproduktów ($500–$1500)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Zoptymalizowany pod zaawansowane kursy i większe programy.",
+    prompt: `Dane wejściowe:
+• Kurs.  
+• Transformacja.  
 
-Genera:
+Wygeneruj:
 1) Story funnel.
-2) Secuencia de autoridad.
-3) Pitch premium.
-4) Versión PRO:
-   - Embudo híbrido con llamada opcional.`,
+2) Sekwencję autorytetu.
+3) Premium pitch.
+4) Wersja PRO:
+   - Lejek hybrydowy z opcjonalną rozmową.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-074",
-    title: "Embudo Exclusivo por Invitación (Invite-Only Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Funnel basado en exclusividad.",
-    prompt: `Inputs:
-• Producto.  
+    title: "Lejek tylko z zaproszenia (Invite-Only Funnel)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek oparty o ekskluzywność.",
+    prompt: `Dane wejściowe:
+• Produkt.  
 
-Genera:
-1) Landing 'solo por invitación'.
-2) Preguntas de selección.
-3) Secuencia que aumenta deseo.
-4) Version PRO:
-   - Lista de espera VIP.`,
+Wygeneruj:
+1) Landing „tylko z zaproszenia”.
+2) Pytania selekcyjne.
+3) Sekwencję budującą pragnienie.
+4) Wersja PRO:
+   - VIP lista oczekujących.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-075",
-    title: "Embudo basado en Contrastes Visuales (Antes/Después)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Usa contraste visual extremo para vender.",
-    prompt: `Inputs:
-• Antes y después.  
+    title: "Lejek oparty o kontrast wizualny (przed/po)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Wykorzystaj mocny kontrast „przed/po” do sprzedaży.",
+    prompt: `Dane wejściowe:
+• Przed i po.  
 
-Genera:
-1) Página comparativa.
-2) Emails por transformación.
-3) Anuncios antes/después.
-4) Version PRO:
-   - Sistema dinámico de contrastes.`,
+Wygeneruj:
+1) Stronę porównawczą.
+2) E-maile o transformacji.
+3) Reklamy „przed/po”.
+4) Wersja PRO:
+   - Dynamiczny system kontrastów.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-076",
-    title: "Embudo con Demostración en Tiempo Real (Live Demo Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Muestra la transformación en vivo.",
-    prompt: `Inputs:
-• Producto/servicio.  
+    title: "Lejek z demonstracją na żywo (Live Demo Funnel)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Pokaż transformację w czasie rzeczywistym.",
+    prompt: `Dane wejściowe:
+• Produkt/usługa.  
 
-Genera:
-1) Script de demo.
-2) Secuencia pre-demo.
-3) Secuencia post-demo.
-4) Version PRO:
-   - Embudo evergreen basado en grabaciones.`,
+Wygeneruj:
+1) Skrypt demo.
+2) Sekwencję przed demo.
+3) Sekwencję po demo.
+4) Wersja PRO:
+   - Evergreen lejek oparty o nagrania.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-077",
-    title: "Embudo para Venta de Servicios de Branding",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Embudo para posicionarte como creador de marcas.",
-    prompt: `Inputs:
-• Servicio de branding.  
+    title: "Lejek do sprzedaży usług brandingowych",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek, który pozycjonuje Cię jako twórcę marek.",
+    prompt: `Dane wejściowe:
+• Usługa brandingu.  
 
-Genera:
-1) Landing estética.
-2) Portfolio estratégico.
-3) Secuencia sensorial (palabras, audio, colores).
-4) Versión PRO:
-   - Embudo multisensorial.`,
+Wygeneruj:
+1) Estetyczny landing.
+2) Strategiczne portfolio.
+3) Sekwencję sensoryczną (słowa, audio, kolory).
+4) Wersja PRO:
+   - Lejek multisensoryczny.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-078",
-    title: "Embudo para Venta de Servicios de Ads",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Funnel especializado para agencias de publicidad.",
-    prompt: `Inputs:
-• Servicio de ads.  
+    title: "Lejek do sprzedaży usług reklam (Ads)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek dla agencji performance / ads.",
+    prompt: `Dane wejściowe:
+• Usługa ads.  
 
-Genera:
-1) Landing basada en resultados.
-2) Casos de ROAS.
-3) Secuencia consultiva.
-4) Versión PRO:
-   - Embudo con auditoría gratuita.`,
+Wygeneruj:
+1) Landing oparty o wyniki.
+2) Case’y ROAS.
+3) Sekwencję konsultacyjną.
+4) Wersja PRO:
+   - Lejek z darmowym audytem.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-079",
-    title: "Embudo con Validación de Problema antes de Vender",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Valida dolor antes de ofrecer solución.",
-    prompt: `Inputs:
-• Problema principal del avatar.  
+    title: "Lejek: walidacja problemu przed sprzedażą",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Waliduj ból, zanim zaproponujesz rozwiązanie.",
+    prompt: `Dane wejściowe:
+• Główny problem avatara.  
 
-Genera:
-1) Página de diagnóstico.
-2) Secuencia investigación.
-3) Pitch basado en insights.
-4) Versión PRO:
-   - Dashboard de insights.`,
+Wygeneruj:
+1) Stronę diagnozy.
+2) Sekwencję badawczą.
+3) Pitch oparty o insighty.
+4) Wersja PRO:
+   - Dashboard insightów.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-080",
-    title: "Embudo para Venta de Suscripciones Mensuales",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Optimizado para memberships y suscripciones de contenido.",
-    prompt: `Inputs:
-• Suscripción.  
-• Beneficios mensuales.
+    title: "Lejek do sprzedaży miesięcznych subskrypcji",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Zoptymalizowany pod membershipy i subskrypcje treści.",
+    prompt: `Dane wejściowe:
+• Subskrypcja.  
+• Miesięczne korzyści.
 
-Genera:
-1) Landing clara.
-2) Secuencia motivación → retención.
-3) Ruta primeros 30 días.
-4) Versión PRO:
-   - Embudo para aumentar LTV.`,
+Wygeneruj:
+1) Klarowny landing.
+2) Sekwencję: motywacja → retencja.
+3) Ścieżkę pierwszych 30 dni.
+4) Wersja PRO:
+   - Lejek pod zwiększanie LTV.`,
     thumbnail: "",
   },
+
   {
     id: "embudo-081",
-    title: "Embudo de 3 Capas: Conciencia → Compromiso → Conversión",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek 3-warstwowy: świadomość → zaangażowanie → konwersja",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Embudo que mueve al usuario escalón por escalón hasta la compra final.",
-    prompt: `Inputs:
-• Producto.  
-• Público.  
-• Nivel actual de conciencia.  
+      "Lejek, który prowadzi użytkownika krok po kroku aż do zakupu.",
+    prompt: `Dane wejściowe:
+• Produkt.  
+• Odbiorcy.  
+• Aktualny poziom świadomości.  
 
-Genera:
-1) Capa 1 – Awareness:
-   - 3 piezas de contenido educativo.
-   - Página de regalo gratuito.
-   - Email de bienvenida.
+Wygeneruj:
+1) Warstwa 1 – Awareness:
+   - 3 edukacyjne treści.
+   - Strona darmowego prezentu.
+   - E-mail powitalny.
 
-2) Capa 2 – Engagement:
-   - Secuencia de 5 correos profundos.
-   - Historia de transformación.
-   - Mini caso de estudio.
+2) Warstwa 2 – Engagement:
+   - Sekwencja 5 głębokich e-maili.
+   - Historia transformacji.
+   - Mini case study.
 
-3) Capa 3 – Conversion:
-   - Página de venta completa.
-   - Oferta irresistible.
-   - Secuencia de cierre.
+3) Warstwa 3 – Conversion:
+   - Pełna strona sprzedażowa.
+   - Oferta „nie do odmowy”.
+   - Sekwencja domknięcia.
 
-4) Versión PRO:
-   - Automatización que detecta en qué capa está el usuario.
-   - Rutas dinámicas por comportamiento.`,
+4) Wersja PRO:
+   - Automatyzacja wykrywająca, w której warstwie jest użytkownik.
+   - Dynamiczne ścieżki wg zachowania.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-082",
-    title: "Embudo para Venta de Planes Anuales (One-Year Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek do sprzedaży planów rocznych (One-Year Funnel)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Embudo optimizado para convertir clientes a pagos anuales ahorrando comisiones.",
-    prompt: `Inputs:
-• Plan mensual vs. anual.  
-• Ahorro anual.  
+      "Lejek zwiększający konwersję na płatność roczną i obniżający koszty prowizji.",
+    prompt: `Dane wejściowe:
+• Plan miesięczny vs roczny.  
+• Roczna oszczędność.  
 
-Genera:
-1) Landing comparativa:
-   - Diferencias.
-   - Beneficios.
-   - Garantía extendida.
+Wygeneruj:
+1) Landing porównawczy:
+   - Różnice.
+   - Korzyści.
+   - Wydłużona gwarancja.
 
-2) Secuencia de 5 correos:
-   - Ahorro.
-   - Velocidad.
-   - Exclusividad.
-   - Bonus.
-   - Cierre.
+2) Sekwencję 5 e-maili:
+   - Oszczędność.
+   - Szybkość.
+   - Ekskluzywność.
+   - Bonusy.
+   - Domknięcie.
 
 3) Upsell:
-   - Consultoría extra.
+   - Dodatkowa konsultacja.
 
-4) Versión PRO:
-   - Upgrade automático para usuarios activos.`,
+4) Wersja PRO:
+   - Automatyczny upgrade dla aktywnych użytkowników.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-083",
-    title: "Embudo de Venta con Método Propietario (Framework Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Vende usando un método único y diferenciado.",
-    prompt: `Inputs:
-• Nombre del método.  
-• Pasos.  
+    title: "Lejek sprzedaży z metodą autorską (Framework Funnel)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Sprzedawaj poprzez unikalną, wyróżniającą metodę.",
+    prompt: `Dane wejściowe:
+• Nazwa metody.  
+• Kroki.  
 
-Genera:
-1) Crea la narrativa del método.
-2) Landing “Conoce mi sistema”.
-3) Secuencia explicando cada paso.
-4) Versión PRO:
-   - Variantes del mismo método para 3 avatares.`,
+Wygeneruj:
+1) Narrację metody.
+2) Landing „Poznaj mój system”.
+3) Sekwencję wyjaśniającą każdy krok.
+4) Wersja PRO:
+   - Warianty tej samej metody dla 3 avatarów.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-084",
-    title: "Embudo de Conversión con Auditoría Gratuita",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek konwersji z darmowym audytem",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Ideal para servicios profesionales que requieren análisis previo.",
-    prompt: `Inputs:
-• Tipo de auditoría.  
-• Resultado entregado.  
+      "Idealny dla usług profesjonalnych, które wymagają wstępnej analizy.",
+    prompt: `Dane wejściowe:
+• Typ audytu.  
+• Dostarczany rezultat.  
 
-Genera:
-1) Página de auditoría.
-2) Formulario avanzado.
-3) Secuencia preparando la venta final.
-4) Versión PRO:
-   - Auditoría automática con IA.`,
+Wygeneruj:
+1) Stronę audytu.
+2) Zaawansowany formularz.
+3) Sekwencję przygotowującą do finalnej sprzedaży.
+4) Wersja PRO:
+   - Audyt automatyczny z AI.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-085",
-    title: "Embudo Basado en Resultados Garantizados",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Funnel ideal cuando tienes evidencia fuerte.",
-    prompt: `Inputs:
-• Garantía.  
-• Resultados reales.  
+    title: "Lejek oparty o gwarantowane rezultaty",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek idealny, gdy masz mocne dowody i wyniki.",
+    prompt: `Dane wejściowe:
+• Gwarancja.  
+• Realne wyniki.  
 
-Genera:
-1) Landing centrada en garantías.  
-2) Secuencia con evidencia real.  
-3) Objections killer.  
-4) Version PRO:
-   - Copy legal + emocional.`,
+Wygeneruj:
+1) Landing skoncentrowany na gwarancjach.  
+2) Sekwencję z twardymi dowodami.  
+3) „Objections killers”.  
+4) Wersja PRO:
+   - Copy legalne + emocjonalne.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-086",
-    title: "Embudo para Venta de Cursos Técnicos o Profesionales",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Funnel para cursos especializados con lenguaje técnico.",
-    prompt: `Inputs:
-• Curso técnico.  
+    title: "Lejek do sprzedaży kursów technicznych / zawodowych",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek dla kursów specjalistycznych, z technicznym językiem.",
+    prompt: `Dane wejściowe:
+• Kurs techniczny.  
 
-Genera:
-1) Landing profesional.  
-2) Secuencia demostrativa (tutoriales).  
-3) Pitch técnico.  
-4) Version PRO:
-   - Embudo con certificación.`,
+Wygeneruj:
+1) Profesjonalny landing.  
+2) Sekwencję demonstracyjną (tutoriale).  
+3) Techniczny pitch.  
+4) Wersja PRO:
+   - Lejek z certyfikacją.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-087",
-    title: "Embudo con Estrategia de 'Educación agresiva'",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek z „agresywną edukacją”",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Educas tan profundamente que la venta se vuelve consecuencia obvia.",
-    prompt: `Inputs:
-• Tema complejo.  
+      "Edukacja tak głęboka, że sprzedaż staje się oczywistą konsekwencją.",
+    prompt: `Dane wejściowe:
+• Trudny/kompleksowy temat.  
 
-Genera:
-1) 7 emails de educación intensa.
-2) Página de insights.
-3) Pitch basado en claridad.
-4) Version PRO:
-   - Recursos avanzados descargables.`,
+Wygeneruj:
+1) 7 e-maili intensywnej edukacji.
+2) Stronę insightów.
+3) Pitch oparty o klarowność.
+4) Wersja PRO:
+   - Zaawansowane materiały do pobrania.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-088",
-    title: "Embudo para Venta de Certificaciones",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Especializado para vender certificaciones profesionales.",
-    prompt: `Inputs:
-• Tipo de certificación.  
+    title: "Lejek do sprzedaży certyfikacji",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Lejek pod certyfikacje profesjonalne.",
+    prompt: `Dane wejściowe:
+• Typ certyfikacji.  
 
-Genera:
-1) Página con acreditaciones.
-2) Ruta del estudiante.
-3) Secuencia profesional.
-4) Version PRO:
-   - Embudo con examen previo.`,
+Wygeneruj:
+1) Stronę z akredytacjami.
+2) Ścieżkę studenta.
+3) Profesjonalną sekwencję.
+4) Wersja PRO:
+   - Lejek z egzaminem wstępnym.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-089",
-    title: "Embudo para Venta de Productos 'Hazlo Tú Mismo'",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Ideal para nichos DIY, diseño, productividad, etc.",
-    prompt: `Inputs:
-• Producto DIY.  
+    title: "Lejek do sprzedaży produktów DIY („zrób to sam”)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Dla nisz DIY, designu, produktywności itd.",
+    prompt: `Dane wejściowe:
+• Produkt DIY.  
 
-Genera:
-1) Landing con instrucciones visuales.
-2) Secuencia de tutoriales.
-3) Pitch final.
-4) Version PRO:
-   - Upsell con material premium.`,
+Wygeneruj:
+1) Landing z wizualnymi instrukcjami.
+2) Sekwencję tutoriali.
+3) Finalny pitch.
+4) Wersja PRO:
+   - Upsell z materiałami premium.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-090",
-    title: "Embudo de Venta con Oferta 'Beta' o 'Early Access'",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Para validar un producto antes de escalarlo.",
-    prompt: `Inputs:
-• Producto beta.  
-• Beneficios del acceso temprano.
+    title: "Lejek oferty beta / early access",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Do walidacji produktu przed skalowaniem.",
+    prompt: `Dane wejściowe:
+• Produkt beta.  
+• Korzyści wczesnego dostępu.
 
-Genera:
-1) Landing confidencial (beta).  
-2) Secuencia de exclusividad.  
-3) Oferta limitada.  
-4) Version PRO:
-   - Grupo privado de testers.`,
+Wygeneruj:
+1) Poufny landing (beta).  
+2) Sekwencję ekskluzywności.  
+3) Ofertę limitowaną.  
+4) Wersja PRO:
+   - Prywatna grupa testerów.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-091",
-    title: "Embudo para Venta de suscripciones semanales",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Ideal para newsletters premium y contenido recurrente.",
-    prompt: `Inputs:
-• Contenido semanal.  
+    title: "Lejek do sprzedaży subskrypcji tygodniowych",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Dla premium newsletterów i treści w modelu cyklicznym.",
+    prompt: `Dane wejściowe:
+• Tygodniowa treść.  
 
-Genera:
-1) Landing minimalista.
-2) Prueba gratuita 7 días.
-3) Secuencia conversión.
-4) Version PRO:
-   - Upsell trimestral.`,
+Wygeneruj:
+1) Minimalistyczny landing.
+2) Darmową próbę 7 dni.
+3) Sekwencję konwersji.
+4) Wersja PRO:
+   - Upsell kwartalny.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-092",
-    title: "Embudo para Venta de Programas Fitness Digitales",
-    area: "Marketing & ventas",
-    category: "Embudos",
+    title: "Lejek do sprzedaży cyfrowych programów fitness",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
     summary:
-      "Optimizado para rutinas, asesorías y programas de transformación.",
-    prompt: `Inputs:
-• Programa fitness.  
+      "Zoptymalizowany pod treningi, opiekę i programy transformacyjne.",
+    prompt: `Dane wejściowe:
+• Program fitness.  
 
-Genera:
-1) Landing motivacional.
-2) Ruta de 30 días.
-3) Secuencia emocional.
-4) Version PRO:
-   - App tracking.`,
+Wygeneruj:
+1) Motywacyjny landing.
+2) Ścieżkę 30 dni.
+3) Emocjonalną sekwencję.
+4) Wersja PRO:
+   - Aplikacja + tracking.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-093",
-    title: "Embudo para Venta de Productos de Estilo de Vida",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Para nichos de moda, belleza, hogar, lifestyle.",
-    prompt: `Inputs:
-• Producto.  
+    title: "Lejek do sprzedaży produktów lifestyle",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Dla nisz: moda, beauty, dom, lifestyle.",
+    prompt: `Dane wejściowe:
+• Produkt.  
 
-Genera:
-1) Landing visual.
-2) VSL estética.
-3) Secuencia aspiracional.
-4) Version PRO:
-   - Embudo influencer-hybrid.`,
+Wygeneruj:
+1) Wizualny landing.
+2) Estetyczną VSL.
+3) Aspiracyjną sekwencję.
+4) Wersja PRO:
+   - Hybryda z influencerami.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-094",
-    title: "Embudo para Venta de Consultorías Empresariales",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Diseñado para el mundo corporativo.",
-    prompt: `Inputs:
-• Tipo de consultoría B2B.  
+    title: "Lejek do sprzedaży konsultingu biznesowego (B2B)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Dla świata korporacyjnego.",
+    prompt: `Dane wejściowe:
+• Typ konsultingu B2B.  
 
-Genera:
-1) Landing formal.
-2) Secuencia ejecutiva.
-3) Propuesta PDF automatizada.
-4) Version PRO:
-   - Panel para juntas.`,
+Wygeneruj:
+1) Formalny landing.
+2) Sekwencję executives.
+3) Zautomatyzowaną ofertę PDF.
+4) Wersja PRO:
+   - Panel do prezentacji na zarząd/junty.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-095",
-    title: "Embudo para Venta de Eventos Online (Summits)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Ideal para conferencias online y summits.",
-    prompt: `Inputs:
-• Tema.  
+    title: "Lejek do sprzedaży wydarzeń online (Summits)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Dla konferencji online i summitów.",
+    prompt: `Dane wejściowe:
+• Temat.  
 
-Genera:
-1) Landing sumittop.
-2) Agenda estratégica.
-3) Secuencia conversión.
-4) Version PRO:
-   - Upsell del pass VIP.`,
+Wygeneruj:
+1) Landing summitu.
+2) Strategiczną agendę.
+3) Sekwencję konwersji.
+4) Wersja PRO:
+   - Upsell VIP pass.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-096",
-    title: "Embudo para Venta de Clases Magistrales",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Masterclasses como producto principal.",
-    prompt: `Inputs:
-• Clase.  
+    title: "Lejek do sprzedaży wykładów / masterclasses",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Masterclass jako główny produkt.",
+    prompt: `Dane wejściowe:
+• Zajęcia / masterclass.  
 
-Genera:
-1) Landing alta autoridad.
-2) Secuencia 'solo 1 clase cambia tu vida'.
-3) Pitch final.
-4) Version PRO:
-   - Acceso anticipado + VIP.`,
+Wygeneruj:
+1) Landing o wysokim autorytecie.
+2) Sekwencję „jedna lekcja zmienia wszystko”.
+3) Finalny pitch.
+4) Wersja PRO:
+   - Wcześniejszy dostęp + VIP.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-097",
-    title: "Embudo para Venta de Servicios de Automatización",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Perfecto para consultores técnicos.",
-    prompt: `Inputs:
-• Servicio de automatización.  
+    title: "Lejek do sprzedaży usług automatyzacji",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Idealny dla konsultantów technicznych.",
+    prompt: `Dane wejściowe:
+• Usługa automatyzacji.  
 
-Genera:
-1) Landing técnica pero clara.
-2) Secuencia educación → impacto.
-3) Pitch con ROI directo.
-4) Version PRO:
-   - Funnel con demostración grabada.`,
+Wygeneruj:
+1) Techniczny, ale klarowny landing.
+2) Sekwencję: edukacja → efekt.
+3) Pitch z bezpośrednim ROI.
+4) Wersja PRO:
+   - Lejek z nagraną demonstracją.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-098",
-    title: "Embudo para Venta de Productos Educativos Infantiles",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Para cursos de niños, juegos, educación temprana.",
-    prompt: `Inputs:
-• Producto infantil.
+    title: "Lejek do sprzedaży edukacyjnych produktów dla dzieci",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Dla kursów dla dzieci, gier i wczesnej edukacji.",
+    prompt: `Dane wejściowe:
+• Produkt dziecięcy.
 
-Genera:
-1) Landing amigable.
-2) Secuencia para padres.
-3) Pitch emocional.
-4) Version PRO:
-   - Embudo escolar.`,
+Wygeneruj:
+1) Przyjazny landing.
+2) Sekwencję dla rodziców.
+3) Emocjonalny pitch.
+4) Wersja PRO:
+   - Lejek szkolny.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-099",
-    title: "Embudo de Conversión con Beneficio Diario (Micro-Wins Funnel)",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Micro victorias diarias que empujan la compra.",
-    prompt: `Inputs:
-• Producto.  
+    title: "Lejek mikro-zwycięstw (Micro-Wins Funnel)",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Codzienne mikro-rezultaty, które popychają do zakupu.",
+    prompt: `Dane wejściowe:
+• Produkt.  
 
-Genera:
-1) 7 días micro-wins.
-2) Landing 'avance diario'.
-3) Secuencia emocional.
-4) Version PRO:
-   - Micro-wins automatizados por IA.`,
+Wygeneruj:
+1) 7 dni mikro-zwycięstw.
+2) Landing „codzienny postęp”.
+3) Emocjonalną sekwencję.
+4) Wersja PRO:
+   - Mikro-zwycięstwa automatyzowane przez AI.`,
     thumbnail: "",
   },
 
   {
     id: "embudo-100",
-    title: "Embudo para Venta de Productos Digitales Premium",
-    area: "Marketing & ventas",
-    category: "Embudos",
-    summary: "Para vender recursos, plantillas, sistemas completos high-end.",
-    prompt: `Inputs:
-• Producto digital.  
+    title: "Lejek do sprzedaży premium produktów cyfrowych",
+    area: "Marketing i sprzedaż",
+    category: "Lejki",
+    summary: "Dla sprzedaży zasobów, szablonów i high-end systemów.",
+    prompt: `Dane wejściowe:
+• Premium produkt cyfrowy.  
 
-Genera:
-1) Página premium high-end.
-2) Secuencia 'elite' 7 días.
-3) Upsell de sistema completo.
-4) Version PRO:
-   - Funnel estilo Apple / lujo.`,
+Wygeneruj:
+1) Premium stronę high-end.
+2) 7-dniową sekwencję „elite”.
+3) Upsell do pełnego systemu.
+4) Wersja PRO:
+   - Lejek w stylu Apple / luksus.`,
     thumbnail: "",
   },
 ];

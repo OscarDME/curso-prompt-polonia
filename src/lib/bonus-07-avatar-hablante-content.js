@@ -2,205 +2,206 @@
 
 export const bonus07AvatarHablante = {
   id: "bonus-07",
-  title: "Crea tu avatar hablante de IA",
+  title: "Stwórz swojego mówiącego awatara AI",
   subtitle:
-    "Aprende a crear un avatar hablante con IA que graba vídeos completos por ti.",
-  heroText: `En este bono vas a ver un flujo completo para tener tu propio “clon digital” grabando vídeos:
+    "Naucz się tworzyć mówiącego awatara z pomocą AI, który nagrywa za Ciebie kompletne wideo.",
+  heroText: `W tym bonusie zobaczysz kompletny proces, dzięki któremu będziesz mieć własnego „cyfrowego klona” nagrywającego filmy:
 
-1) Definir tu avatar (o un personaje).  
-2) Crear guiones con tu Banco Secreto de Prompts.  
-3) Generar voz y vídeo con herramientas de IA.  
-4) Montar un sistema repetible para producir vídeos en lote.`,
+1) Zdefiniowanie awatara (lub postaci).  
+2) Tworzenie scenariuszy z Twoim Sekretnym Bankiem Promptów.  
+3) Generowanie głosu i wideo narzędziami AI.  
+4) Zbudowanie powtarzalnego systemu do produkcji filmów „hurtowo”.`,
 
   sections: [
     {
       id: "vision-general",
-      title: "1. Qué es un avatar hablante de IA y qué puedes hacer con él",
+      title: "1. Czym jest mówiący awatar AI i co możesz z nim zrobić",
       body: [
-        `Un avatar hablante es un vídeo donde aparece una cara (realista, tipo dibujo o estilo corporativo) hablando con sincronización labial, pero sin que tú tengas que grabarte cada vez.`,
-        `Lo interesante no es solo el “truco visual”, sino lo que te permite hacer en tu negocio o marca personal:`,
+        `Mówiący awatar to wideo, na którym widzisz twarz (realistyczną, rysunkową albo w stylu korporacyjnym) mówiącą z synchronizacją ruchu ust — bez konieczności nagrywania się za każdym razem.`,
+        `Najciekawsze nie jest samo „wizualne trickowanie”, tylko to, co daje Ci w biznesie lub marce osobistej:`,
       ],
       bullets: [
         {
-          label: "Contenido en piloto semi-automático",
+          label: "Treści na pół-autopilocie",
           description:
-            "Puedes tener vídeos explicando conceptos, productos o procesos sin encender la cámara cada día."
+            "Możesz publikować filmy wyjaśniające pojęcia, produkty lub procesy, bez włączania kamery każdego dnia.",
         },
         {
-          label: "A/B tests rápidos",
+          label: "Szybkie testy A/B",
           description:
-            "Pruebas distintos guiones, hooks y mensajes sin coordinar grabaciones largas ni equipo."
+            "Testujesz różne scenariusze, hooki i komunikaty bez długich nagrań i bez ekipy.",
         },
         {
-          label: "Estandarizar formación",
+          label: "Standaryzacja edukacji",
           description:
-            "Creas módulos formativos donde el mismo avatar explica lo mismo mil veces sin cansarse."
-        }
+            "Tworzysz moduły szkoleniowe, w których ten sam awatar może wyjaśniać ten sam materiał setki razy — bez zmęczenia.",
+        },
       ],
       highlight:
-        "Piensa en tu avatar como una “versión escalable” de ti: dice lo que tú dirías, pero disponible 24/7."
+        "Pomyśl o awatarze jak o „skalowalnej wersji Ciebie”: mówi to, co Ty byś powiedział(a), ale jest dostępny 24/7.",
     },
     {
       id: "flujo-completo",
-      title: "2. Flujo completo: de idea a vídeo con avatar",
+      title: "2. Pełny przepływ: od pomysłu do wideo z awatarem",
       body: [
-        `Antes de hablar de herramientas, mira el mapa completo del flujo que vas a usar una y otra vez:`,
-        `1) Definir objetivo del vídeo (qué quieres que pase después).  
-2) Escribir el guion con tu Banco Secreto de Prompts.  
-3) Elegir voz y estilo de avatar.  
-4) Generar el vídeo con una herramienta de avatar hablante.  
-5) Ajustar detalles (subtítulos, cortes, formatos para redes).`,
-        `Este bono se centra en el **flujo y los prompts**. Las herramientas pueden cambiar con el tiempo, pero el sistema se mantiene.`,
+        `Zanim przejdziemy do narzędzi, zobacz mapę całego procesu, którego będziesz używać w kółko:`,
+        `1) Określenie celu wideo (co ma się wydarzyć potem).  
+2) Napisanie scenariusza z Twoim Sekretnym Bankiem Promptów.  
+3) Wybór głosu i stylu awatara.  
+4) Wygenerowanie wideo w narzędziu do „mówiących awatarów”.  
+5) Dopracowanie detali (napisy, cięcia, formaty pod social media).`,
+        `Ten bonus skupia się na **procesie i promptach**. Narzędzia mogą się zmieniać z czasem, ale system zostaje.`,
       ],
       highlight:
-        "Primero el sistema, luego la herramienta. Si mañana sale otra herramienta mejor, solo cambias esa pieza, no todo el proceso."
+        "Najpierw system, potem narzędzie. Jeśli jutro pojawi się lepsza aplikacja, podmieniasz tylko ten element — nie cały proces.",
     },
     {
       id: "definir-avatar",
-      title: "3. Definir el estilo y rol de tu avatar",
+      title: "3. Zdefiniuj styl i rolę swojego awatara",
       body: [
-        `Tu avatar puede ser literalmente tú (con tu cara) o un personaje representativo de tu marca. Lo importante es definir su **rol** y **estilo**.`,
-        `Para ayudarte, responde a estas preguntas:`,
+        `Twój awatar może być dosłownie Tobą (Twoja twarz) albo postacią reprezentującą Twoją markę. Najważniejsze to określić jego **rolę** i **styl**.`,
+        `Żeby było łatwiej, odpowiedz na te pytania:`,
       ],
       bullets: [
         {
-          label: "¿Quién es el avatar?",
+          label: "Kim jest awatar?",
           description:
-            "¿Es tu versión profesional? ¿Tu versión más casual? ¿Un personaje tipo mentor? ¿Alguien de tu equipo?"
+            "Czy to Twoja profesjonalna wersja? Bardziej luźna? Postać w stylu mentora? Ktoś „z zespołu”?",
         },
         {
-          label: "¿Qué tipo de vídeos hará?",
+          label: "Jakie filmy będzie tworzył?",
           description:
-            "¿Explicativos? ¿Promocionales? ¿Tips rápidos? ¿Onboarding de clientes? ¿Lecciones de un curso?"
+            "Wyjaśniające? Sprzedażowe? Szybkie tipy? Onboarding klientów? Lekcje kursu?",
         },
         {
-          label: "¿Qué tono usarás?",
+          label: "Jakiego tonu użyjesz?",
           description:
-            "Más serio, más cercano, más divertido, más técnico… Tiene que encajar con tu marca."
-        }
+            "Bardziej poważny, bardziej bliski, zabawny, techniczny… Ma pasować do Twojej marki.",
+        },
       ],
       highlight:
-        "Cuanto más claro tengas quién es el avatar, más fácil será mantener coherencia en todos los vídeos."
+        "Im jaśniej określisz, kim jest awatar, tym łatwiej utrzymasz spójność we wszystkich filmach.",
     },
     {
       id: "guiones-con-banco",
-      title: "4. Crear guiones para tu avatar con tu Banco Secreto de Prompts",
+      title: "4. Twórz scenariusze dla awatara z Twoim Sekretnym Bankiem Promptów",
       body: [
-        `Aquí es donde el avatar se conecta directamente con tu Banco Secreto de Prompts. La idea es que nunca más te quedes mirando una página en blanco.`,
-        `Puedes usar tus módulos de **Prompts de texto** y **Prompts de vídeo** para:  
-- Generar ideas de vídeos.  
-- Escribir guiones cortos tipo Reel/TikTok/Short.  
-- Escribir guiones más largos para lecciones o vídeos explicativos.`,
-        `Aquí tienes algunos prompts base que puedes reutilizar (adaptándolos con tu propia biblioteca):`,
-        `**Prompt 1 — Ideas de vídeos para avatar hablante**  
-Quiero que actúes como estratega de contenido en vídeo.  
-Tengo un avatar hablante de IA que usaré para mi marca.
+        `To tutaj awatar łączy się bezpośrednio z Twoim Sekretnym Bankiem Promptów. Chodzi o to, żebyś już nigdy nie patrzył(a) na pustą stronę.`,
+        `Możesz używać modułów **Promptów tekstowych** i **Promptów wideo**, aby:  
+- Generować pomysły na wideo.  
+- Pisać krótkie scenariusze typu Reel/TikTok/Short.  
+- Pisać dłuższe scenariusze do lekcji lub filmów wyjaśniających.`,
+        `Oto kilka bazowych promptów, które możesz wielokrotnie wykorzystywać (dostosowując je w swojej bibliotece):`,
+        `**Prompt 1 — Pomysły na wideo pod mówiącego awatara**  
+Chcę, żebyś działał(a) jako strateg treści wideo.  
+Mam mówiącego awatara AI, którego będę używać w swojej marce.
 
-Mi nicho es: [describe tu nicho].  
-Mi cliente ideal es: [describe brevemente].  
-Mi objetivo con estos vídeos es: [captar leads / educar / vender / posicionar mi marca].
+Moja nisza to: [opisz niszę].  
+Mój idealny klient to: [krótki opis].  
+Mój cel tych wideo to: [pozyskiwać leady / edukować / sprzedawać / pozycjonować markę].
 
-Propón 15 ideas de vídeos cortos (30–60s) que pueda grabar con mi avatar hablante.  
-Para cada idea, indica:  
-- Título / hook para la primera frase.  
-- Resumen del contenido en 2–3 líneas.  
-- CTA recomendada al final.`,
-        `**Prompt 2 — Guion para vídeo corto con avatar**  
-A partir de esta idea:
+Zaproponuj 15 pomysłów na krótkie wideo (30–60 s), które mogę nagrać z mówiącym awatarem.  
+Dla każdego pomysłu podaj:  
+- Tytuł / hook do pierwszego zdania.  
+- Streszczenie treści w 2–3 linijkach.  
+- Efekt lub obietnicę (co odbiorca zyska).  
+- Proponowane CTA na końcu.`,
+        `**Prompt 2 — Scenariusz do krótkiego wideo z awatarem**  
+Na podstawie tego pomysłu:
 
-[pega aquí una de las ideas anteriores]
+[wklej tutaj jeden z powyższych pomysłów]
 
-Escribe un guion para un vídeo de 45–60 segundos con avatar hablante.  
-Estructura:  
-1) Hook inicial fuerte (máx. 8 segundos).  
-2) Desarrollo en 3–4 puntos clave (frases simples).  
-3) Cierre con CTA clara.
+Napisz scenariusz do wideo 45–60 sekund z mówiącym awatarem.  
+Struktura:  
+1) Mocny hook na start (maks. 8 sekund).  
+2) Rozwinięcie w 3–4 kluczowych punktach (proste zdania).  
+3) Zakończenie z jasnym CTA.
 
-Escribe el guion como si fuera texto para ser leído en voz alta: frases cortas, lenguaje sencillo y ritmo ágil.`,
-        `**Prompt 3 — Adaptar el guion a distintos formatos**  
-Te voy a pegar un guion de vídeo:
+Napisz scenariusz tak, jakby był czytany na głos: krótkie zdania, prosty język i szybkie tempo.`,
+        `**Prompt 3 — Dopasuj scenariusz do różnych formatów**  
+Wkleję Ci scenariusz wideo:
 
-[pega aquí el guion]
+[wklej tutaj scenariusz]
 
-Quiero que:  
-1) Me des una versión ultra resumida para un vídeo de 15 segundos.  
-2) Me des una versión más desarrollada para un vídeo de 90 segundos.  
-3) Propongas 3 hooks alternativos para probar distintos inicios.`,
+Chcę, żebyś:  
+1) Dał(a) wersję ultra-krótką na 15 sekund.  
+2) Dał(a) wersję bardziej rozwiniętą na 90 sekund.  
+3) Zaproponował(a) 3 alternatywne hooki na początek do testów.`,
       ],
       highlight:
-        "La clave: tu avatar no 'inventa' qué decir. Tú usas tus prompts para definir mensajes estratégicos; el avatar solo los interpreta visualmente."
+        "Klucz: awatar nie „wymyśla”, co mówić. To Ty, dzięki promptom, układasz strategiczny przekaz — awatar tylko ubiera go w formę wideo.",
     },
     {
       id: "voz-avatar",
-      title: "5. Elegir y generar la voz de tu avatar",
+      title: "5. Wybierz i wygeneruj głos awatara",
       body: [
-        `Tienes dos opciones principales para la voz de tu avatar:`,
-        `1) Usar tu propia voz (grabarte una vez o usar clonación de voz).  
-2) Usar una voz generada por IA que encaje con tu marca.`,
-        `Herramientas típicas (los nombres pueden cambiar con el tiempo, pero la lógica se mantiene) incluyen servicios de **texto a voz (TTS)** con voces naturales y, en algunos casos, clonación de voz a partir de muestras tuyas.`,
-        `Independientemente de la herramienta específica, el flujo suele ser:  
-- Copias el guion que generaste con tus prompts.  
-- Lo pegas en la herramienta de voz.  
-- Eliges idioma, acento y estilo de voz.  
-- Generas el audio y lo exportas (normalmente en .mp3 o .wav).`,
-        `Consejo: aunque uses voz sintética, revisa siempre que la entonación sea razonable. Si la herramienta lo permite, ajusta velocidad y tono para que suene natural.`,
+        `Masz dwie główne opcje głosu dla awatara:`,
+        `1) Użyć własnego głosu (nagrać się raz lub zastosować klonowanie głosu).  
+2) Użyć głosu generowanego przez AI, który pasuje do Twojej marki.`,
+        `Typowe narzędzia (nazwy mogą się zmieniać z czasem, ale logika zostaje) to usługi **text-to-speech (TTS)** z naturalnymi głosami, a czasem także klonowaniem głosu na bazie Twoich próbek.`,
+        `Niezależnie od konkretnego narzędzia, proces zwykle wygląda tak:  
+- Kopiujesz scenariusz wygenerowany promptami.  
+- Wklejasz go do narzędzia głosowego.  
+- Wybierasz język, akcent i styl głosu.  
+- Generujesz audio i eksportujesz (zwykle .mp3 lub .wav).`,
+        `Wskazówka: nawet przy głosie syntetycznym zawsze sprawdź, czy intonacja brzmi sensownie. Jeśli narzędzie na to pozwala, dopasuj tempo i ton, żeby brzmiało naturalnie.`,
       ],
       highlight:
-        "Empieza simple: primero guiones buenos, luego voz razonable. No hace falta que todo sea perfecto desde el día uno."
+        "Zacznij prosto: najpierw dobre scenariusze, potem „wystarczająco dobry” głos. Nie wszystko musi być perfekcyjne od pierwszego dnia.",
     },
     {
       id: "herramienta-avatar",
-      title: "6. Generar el vídeo con una herramienta de avatar hablante",
+      title: "6. Wygeneruj wideo w narzędziu do mówiącego awatara",
       body: [
-        `Después de tener el guion y el audio (o solo el guion, según la herramienta), llega el momento de generar el vídeo del avatar.`,
-        `Muchas herramientas de avatar hablante funcionan así (flujo genérico):  
-1) Eliges un avatar (plantilla predefinida o subida de tu propia imagen, según las políticas y posibilidades de la herramienta).  
-2) Pegas el texto del guion o subes el audio generado previamente.  
-3) La herramienta sincroniza labios, gestos y voz.  
-4) Exportas el vídeo en formato MP4.`,
-        `Algunas permiten:  
-- Cambiar fondos y escenarios.  
-- Añadir texto en pantalla.  
-- Ajustar encuadres y gestos del avatar.`,
-        `Tu foco debe estar en tener **buenos guiones y claridad de mensaje**; los detalles visuales puedes afinarlos con el tiempo.`,
+        `Gdy masz już scenariusz i audio (albo sam scenariusz — zależnie od narzędzia), czas wygenerować wideo awatara.`,
+        `Wiele narzędzi do mówiących awatarów działa podobnie (ogólny schemat):  
+1) Wybierasz awatara (szablon lub własne zdjęcie — zgodnie z zasadami danego narzędzia).  
+2) Wklejasz tekst scenariusza lub wgrywasz wygenerowane wcześniej audio.  
+3) Narzędzie synchronizuje ruch ust, gesty i głos.  
+4) Eksportujesz wideo w formacie MP4.`,
+        `Niektóre pozwalają także:  
+- Zmieniać tła i sceny.  
+- Dodawać tekst na ekranie.  
+- Dopasowywać kadry i gesty awatara.`,
+        `Twoim priorytetem powinny być **dobre scenariusze i jasny przekaz**. Detale wizualne dopracujesz z czasem.`,
       ],
       highlight:
-        "Primero prueba con vídeos cortos (30–60s) hasta que tengas un estilo que te guste. Luego pasa a contenidos más largos."
+        "Najpierw testuj krótkie wideo (30–60 s), aż znajdziesz styl, który Ci się podoba. Potem przechodź do dłuższych formatów.",
     },
     {
       id: "edicion-y-formatos",
-      title: "7. Ajustes finales: subtítulos, formatos y distribución",
+      title: "7. Finalne poprawki: napisy, formaty i dystrybucja",
       body: [
-        `Una vez generado el vídeo del avatar, puedes mejorar mucho el resultado con algunos ajustes simples:`,
-        `• Añadir subtítulos: muchas herramientas de edición (como CapCut, Descript u otras) tienen subtítulos automáticos.  
-• Adaptar formato: cuadrado, vertical, horizontal según la plataforma (Reels, TikTok, YouTube, etc.).  
-• Añadir elementos de marca: logo, colores, tipografías, overlays sencillos.`,
-        `Puedes apoyarte de nuevo en tus prompts para:  
-- Crear títulos y descripciones para las publicaciones.  
-- Generar copies para acompañar el vídeo en redes.  
-- Proponer variaciones del mismo contenido para distintas plataformas.`,
+        `Po wygenerowaniu wideo z awatarem możesz mocno podbić jakość kilkoma prostymi krokami:`,
+        `• Dodaj napisy: wiele edytorów (np. CapCut, Descript i inne) oferuje automatyczne napisy.  
+• Dopasuj format: kwadrat, pion, poziom — zależnie od platformy (Reels, TikTok, YouTube itd.).  
+• Dodaj elementy marki: logo, kolory, fonty, proste overlaye.`,
+        `Znów możesz wesprzeć się promptami, aby:  
+- Tworzyć tytuły i opisy do publikacji.  
+- Generować copy towarzyszące wideo w social media.  
+- Zaproponować warianty tej samej treści pod różne platformy.`,
       ],
       highlight:
-        "Tu avatar es una pieza más del sistema: el vídeo se alimenta de guiones generados con prompts y se integra con tus carruseles, emails y páginas de venta."
+        "Awatar to element większego systemu: wideo powstaje ze scenariuszy generowanych promptami i łączy się z karuzelami, e-mailami oraz stronami sprzedażowymi.",
     },
     {
       id: "sistema-repetible",
-      title: "8. Diseña tu sistema repetible de avatar hablante",
+      title: "8. Zaprojektuj powtarzalny system z mówiącym awatarem",
       body: [
-        `Para que este bono no se quede en “hice un vídeo y ya”, te propongo un sistema sencillo para producir vídeos de forma recurrente:`,
-        `1) Define tu frecuencia: por ejemplo, 1–3 vídeos por semana con tu avatar.  
-2) Crea un documento donde guardes:  
-   - Plantilla de prompts para generar ideas.  
-   - Plantilla de prompts para guiones.  
-   - Checklist del flujo (guion → voz → avatar → edición → publicación).  
-3) Reserva un bloque de 1–2 horas a la semana para:  
-   - Generar 3–5 guiones con tus prompts.  
-   - Pasarlos por tu flujo de voz + avatar.  
-   - Dejar varios vídeos listos o casi listos.`,
-        `Si repites esto cada semana, en poco tiempo tendrás una biblioteca de vídeos con tu avatar cubriendo los mensajes clave de tu marca, tus productos y tus contenidos educativos.`,
+        `Żeby ten bonus nie skończył się na „zrobiłem(am) jedno wideo i tyle”, proponuję prosty, powtarzalny system produkcji:`,
+        `1) Ustal częstotliwość: np. 1–3 wideo tygodniowo z awatarem.  
+2) Stwórz dokument, w którym trzymasz:  
+   - Szablon promptów do generowania pomysłów.  
+   - Szablon promptów do scenariuszy.  
+   - Checklistę procesu (scenariusz → głos → awatar → montaż → publikacja).  
+3) Zarezerwuj 1–2 godziny tygodniowo na:  
+   - Wygenerowanie 3–5 scenariuszy promptami.  
+   - Przepuszczenie ich przez proces głos + awatar.  
+   - Przygotowanie kilku filmów gotowych lub prawie gotowych.`,
+        `Jeśli będziesz to powtarzać co tydzień, szybko zbudujesz bibliotekę filmów z awatarem, które pokrywają kluczowe komunikaty Twojej marki, produktów i treści edukacyjnych.`,
       ],
       highlight:
-        "La magia no está en un solo vídeo perfecto, sino en un flujo que puedas repetir casi en automático."
-    }
+        "Magia nie polega na jednym perfekcyjnym filmie, tylko na procesie, który możesz powtarzać niemal „na autopilocie”.",
+    },
   ],
 };

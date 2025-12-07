@@ -2,643 +2,643 @@
 
 export const imagePromptsFotoRetratoLifestyle = [
   // =========================
-  // CATEGORY: Retrato lifestyle (calle)
+  // CATEGORY: Portret lifestyle (ulica)
   // =========================
   {
     id: "img-foto-life-001",
-    title: "Retrato lifestyle urbano al atardecer (bokeh cálido, realista)",
-    area: "Fotografía Pro",
-    category: "Retrato lifestyle (calle)",
+    title: "Miejski portret lifestyle o zachodzie słońca (ciepły bokeh, realistycznie)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret lifestyle (ulica)",
     summary:
-      "Retrato realista en calle urbana con luz dorada de atardecer y fondo desenfocado.",
-    prompt: `Genera un retrato fotográfico REALISTA en una calle urbana al atardecer.
+      "Realistyczny portret na miejskiej ulicy w złotej godzinie z rozmytym tłem.",
+    prompt: `Wygeneruj REALISTYCZNY portret fotograficzny na miejskiej ulicy o zachodzie słońca.
 
-DATOS:
-- Sujeto: [hombre/mujer/persona] de [edad], [rasgos], [peinado], [barba/maquillaje opcional]
-- Outfit: [streetwear minimal / casual elegante], colores [neutros/tierra]
-- Ubicación: calle urbana moderna, edificios y luces suaves al fondo (desenfocado)
-- Emoción: natural, segura, relajada
+DANE:
+- Osoba: [mężczyzna/kobieta/osoba] w wieku [wiek], [cechy], [fryzura], [broda/makijaż opcjonalnie]
+- Styl: [minimal streetwear / elegancki casual], kolory [neutralne/ziemiste]
+- Lokalizacja: nowoczesna ulica w mieście, budynki i delikatne światła w tle (rozmyte)
+- Emocja: naturalna, pewna siebie, zrelaksowana
 
-ILUMINACIÓN:
-- Golden hour (atardecer), luz cálida lateral suave
-- Sombras suaves, piel natural sin efecto plástico
+OŚWIETLENIE:
+- Golden hour (zachód), ciepłe miękkie światło boczne
+- Miękkie cienie, naturalna skóra bez efektu plastiku
 
-CÁMARA:
-- Lente 50mm u 85mm, f/1.8, ISO 100–200
-- Enfoque en ojos, bokeh notable en fondo
+KAMERA:
+- Obiektyw 50mm lub 85mm, f/1.8, ISO 100–200
+- Ostrość na oczach, wyraźny bokeh w tle
 
-COMPOSICIÓN:
-- Plano medio-corto (pecho a cabeza)
-- Fondo con profundidad y perspectiva, sujeto ligeramente en tercios
+KOMPOZYCJA:
+- Plan średnio-bliski (od klatki piersiowej do głowy)
+- Tło z głębią i perspektywą, osoba lekko w trójpodziale
 
-RESTRICCIONES:
-- Sin texto/logo
-- Proporciones faciales realistas, evitar manos extra`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Realistyczne proporcje twarzy, unikać dodatkowych dłoni`,
     thumbnail: "/images/foto-pro/life1.webp",
   },
   {
     id: "img-foto-life-002",
-    title: "Retrato street con neón nocturno (look cinematográfico)",
-    area: "Fotografía Pro",
-    category: "Retrato lifestyle (calle)",
+    title: "Nocny portret street z neonem (filmowy look)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret lifestyle (ulica)",
     summary:
-      "Retrato nocturno con luces neón y estética cinematográfica sin perder realismo.",
-    prompt: `Genera un retrato REALISTA nocturno con iluminación de neón (estilo cinematográfico).
+      "Nocny portret z neonami i filmową estetyką, bez utraty realizmu.",
+    prompt: `Wygeneruj REALISTYCZNY nocny portret z oświetleniem neonowym (styl filmowy).
 
-DATOS:
-- Sujeto: [persona], [edad], expresión confiada
-- Outfit: chaqueta de cuero / look urbano oscuro
-- Escena: calle con letreros neón, reflejos en el suelo (como después de lluvia), fondo desenfocado
+DANE:
+- Osoba: [osoba], [wiek], pewny siebie wyraz twarzy
+- Styl: skórzana kurtka / ciemny miejski look
+- Scena: ulica z neonami, odbicia na ziemi (jak po deszczu), tło rozmyte
 
-ILUMINACIÓN:
-- Luz principal: neón magenta/cian reflejado en rostro (suave)
-- Relleno muy leve para mantener detalle facial
-- Color grading: cine moderno, contraste medio-alto
+OŚWIETLENIE:
+- Światło główne: neon magenta/cyjan odbity na twarzy (miękko)
+- Bardzo lekkie dopełnienie, by zachować detal twarzy
+- Color grading: nowoczesne kino, kontrast średnio-wysoki
 
-CÁMARA:
-- 35mm o 50mm, f/1.8, ISO 400–800, nitidez alta
-- Bokeh de luces (bokeh balls) al fondo
+KAMERA:
+- 35mm lub 50mm, f/1.8, ISO 400–800, wysoka ostrość
+- Bokeh świateł (kulki bokeh) w tle
 
-COMPOSICIÓN:
-- Plano medio, sujeto ligeramente girado 3/4
-- Sensación de ciudad viva, profundidad
+KOMPOZYCJA:
+- Plan średni, osoba lekko skręcona 3/4
+- Wrażenie żywego miasta, głębia
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar colores “químicos” irreales en piel`,
+OGRANICZENIA:
+- Bez tekstu/watermarku
+- Unikać „chemicznych” nierealnych kolorów na skórze`,
     thumbnail: "/images/foto-pro/life2.webp",
   },
   {
     id: "img-foto-life-003",
-    title: "Retrato urbano minimal (pared clara, sombra suave)",
-    area: "Fotografía Pro",
-    category: "Retrato lifestyle (calle)",
+    title: "Minimalistyczny portret miejski (jasna ściana, miękki cień)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret lifestyle (ulica)",
     summary:
-      "Foto minimalista en exterior con pared clara y sombras suaves, ideal para marca personal.",
-    prompt: `Genera un retrato REALISTA minimalista en exterior.
+      "Minimalistyczne zdjęcie w plenerze z jasną ścianą i delikatnymi cieniami, idealne do personal brandingu.",
+    prompt: `Wygeneruj REALISTYCZNY minimalistyczny portret w plenerze.
 
-DATOS:
-- Sujeto: [persona], [edad], gesto natural
-- Outfit: camisa blanca / camiseta básica / jeans, estilo limpio
-- Fondo: pared clara (blanco/beige) con textura muy sutil
+DANE:
+- Osoba: [osoba], [wiek], naturalny gest
+- Styl: biała koszula / basic T-shirt / jeansy, czysty look
+- Tło: jasna ściana (biel/beż) z bardzo subtelną fakturą
 
-ILUMINACIÓN:
-- Luz natural suave (día nublado) o sombra abierta
-- Piel realista, tonos neutros
+OŚWIETLENIE:
+- Miękkie światło dzienne (pochmurnie) lub otwarty cień
+- Realistyczna skóra, neutralne tony
 
-CÁMARA:
+KAMERA:
 - 50mm, f/2.2, ISO 100
-- Fondo ligeramente desenfocado
+- Tło lekko rozmyte
 
-COMPOSICIÓN:
-- Plano medio-corto, sujeto centrado o en tercios
-- Estética limpia, moderna, sin elementos distractores
+KOMPOZYCJA:
+- Plan średnio-bliski, osoba na środku lub w trójpodziale
+- Czysta, nowoczesna estetyka bez rozpraszaczy
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar deformaciones de cara o proporciones`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Unikać deformacji twarzy i proporcji`,
     thumbnail: "/images/foto-pro/life3.webp",
   },
   {
     id: "img-foto-life-004",
-    title: "Retrato callejero con movimiento (walking candid, realista)",
-    area: "Fotografía Pro",
-    category: "Retrato lifestyle (calle)",
+    title: "Uliczny portret w ruchu (walking candid, realistycznie)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret lifestyle (ulica)",
     summary:
-      "Retrato tipo 'candid' caminando, natural y espontáneo, con fondo urbano desenfocado.",
-    prompt: `Genera una foto REALISTA tipo candid caminando.
+      "Portret „candid” w trakcie marszu: naturalny i spontaniczny, z rozmytym miejskim tłem.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie typu candid podczas chodzenia.
 
-DATOS:
-- Sujeto: [persona], [edad]
-- Acción: caminando y mirando ligeramente a cámara, sonrisa leve
-- Outfit: casual urbano (abrigo ligero/chaqueta/hoodie)
-- Fondo: avenida urbana con profundidad, personas y coches MUY desenfocados
+DANE:
+- Osoba: [osoba], [wiek]
+- Akcja: idzie i lekko spogląda w stronę aparatu, delikatny uśmiech
+- Styl: miejski casual (lekki płaszcz/kurtka/hoodie)
+- Tło: miejska aleja z głębią, ludzie i samochody BARDZO rozmyte
 
-ILUMINACIÓN:
-- Luz natural (tarde) con sombras suaves
+OŚWIETLENIE:
+- Naturalne światło (popołudnie) z miękkimi cieniami
 
-CÁMARA:
+KAMERA:
 - 35mm, f/2, ISO 200
-- Enfoque en rostro, ligero motion natural (mínimo)
+- Ostrość na twarzy, minimalny naturalny motion (bardzo delikatny)
 
-COMPOSICIÓN:
-- Plano medio, sujeto en tercio izquierdo o derecho
-- Sensación real de calle, sin pose rígida
+KOMPOZYCJA:
+- Plan średni, osoba w lewym lub prawym trzecim kadrze
+- Realne wrażenie ulicy, bez sztywnej pozy
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar manos raras, pies deformes`,
+OGRANICZENIA:
+- Bez tekstu/watermarku
+- Unikać dziwnych dłoni i zdeformowanych stóp`,
     thumbnail: "/images/foto-pro/life4.webp",
   },
   {
     id: "img-foto-life-005",
-    title: "Retrato con lluvia ligera (paraguas, reflejos realistas)",
-    area: "Fotografía Pro",
-    category: "Retrato lifestyle (calle)",
+    title: "Portret w lekkim deszczu (parasol, realistyczne odbicia)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret lifestyle (ulica)",
     summary:
-      "Retrato en ciudad con lluvia ligera, paraguas y reflejos en el piso, look editorial realista.",
-    prompt: `Genera un retrato REALISTA en ciudad con lluvia ligera.
+      "Miejski portret w lekkim deszczu z parasolem i odbiciami na ulicy, realistyczny editorial look.",
+    prompt: `Wygeneruj REALISTYCZNY portret w mieście podczas lekkiego deszczu.
 
-DATOS:
-- Sujeto: [persona], [edad], expresión serena
-- Props: paraguas transparente o negro
-- Outfit: trench coat / abrigo, tonos neutros
-- Escena: calle mojada con reflejos, luces urbanas suaves al fondo
+DANE:
+- Osoba: [osoba], [wiek], spokojny wyraz twarzy
+- Rekwizyt: przezroczysty lub czarny parasol
+- Styl: trench coat / płaszcz, neutralne kolory
+- Scena: mokra ulica z odbiciami, delikatne miejskie światła w tle
 
-ILUMINACIÓN:
-- Luz ambiente nublada + reflejos cálidos de faroles
-- Piel natural, gotas realistas (sutil)
+OŚWIETLENIE:
+- Pochmurne światło otoczenia + ciepłe refleksy latarni
+- Naturalna skóra, realistyczne krople (subtelnie)
 
-CÁMARA:
+KAMERA:
 - 50mm, f/1.8, ISO 400
-- Bokeh de luces, enfoque en ojos
+- Bokeh świateł, ostrość na oczach
 
-COMPOSICIÓN:
-- Plano medio-corto, paraguas ligeramente visible
-- Fondo desenfocado, atmósfera cinematográfica suave
+KOMPOZYCJA:
+- Plan średnio-bliski, parasol lekko widoczny
+- Rozmyte tło, miękka filmowa atmosfera
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar gotas excesivas o “fake”`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Unikać przesadnych lub „fake” kropel`,
     thumbnail: "/images/foto-pro/life5.webp",
   },
 
   // =========================
-  // CATEGORY: Retrato lifestyle (café)
+  // CATEGORY: Portret lifestyle (kawiarnia)
   // =========================
   {
     id: "img-foto-life-006",
-    title: "Retrato en café con laptop (marca personal profesional)",
-    area: "Fotografía Pro",
-    category: "Retrato lifestyle (café)",
+    title: "Portret w kawiarni z laptopem (profesjonalny personal branding)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret lifestyle (kawiarnia)",
     summary:
-      "Foto tipo creator/consultor trabajando en café, luz natural y fondo desenfocado.",
-    prompt: `Genera una foto REALISTA en un café moderno.
+      "Zdjęcie typu creator/konsultant pracujący w kawiarni: naturalne światło i rozmyte tło.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie w nowoczesnej kawiarni.
 
-DATOS:
-- Sujeto: [persona], [edad], look profesional cercano
-- Acción: sentado/a con laptop abierta, taza de café, mirada natural (no posada)
-- Outfit: smart casual (camisa, suéter, blazer ligero)
-- Fondo: café con ventanales y gente desenfocada (bokeh)
+DANE:
+- Osoba: [osoba], [wiek], profesjonalny, przystępny wygląd
+- Akcja: siedzi z otwartym laptopem, kubek kawy, naturalne spojrzenie (bez pozowania)
+- Styl: smart casual (koszula, sweter, lekki blazer)
+- Tło: kawiarnia z dużymi oknami i rozmytymi ludźmi (bokeh)
 
-ILUMINACIÓN:
-- Luz natural de ventana lateral, suave
-- Tonos cálidos (madera), piel realista
+OŚWIETLENIE:
+- Miękkie naturalne światło z okna z boku
+- Ciepłe tony (drewno), realistyczna skóra
 
-CÁMARA:
-- 35mm o 50mm, f/2, ISO 250
-- Profundidad de campo baja
+KAMERA:
+- 35mm lub 50mm, f/2, ISO 250
+- Mała głębia ostrości
 
-COMPOSICIÓN:
-- Plano medio, sujeto en tercios, laptop parcialmente visible
-- Estética: productiva, moderna, auténtica
+KOMPOZYCJA:
+- Plan średni, osoba w trójpodziale, laptop częściowo widoczny
+- Estetyka: produktywna, nowoczesna, autentyczna
 
-RESTRICCIONES:
-- Sin logos reales en laptop/taza
-- Sin texto ni marcas de agua`,
+OGRANICZENIA:
+- Bez prawdziwych logotypów na laptopie/kubku
+- Bez tekstu ani znaków wodnych`,
     thumbnail: "/images/foto-pro/life6.webp",
   },
   {
     id: "img-foto-life-007",
-    title: "Retrato en café leyendo (estética calm, fondo cálido)",
-    area: "Fotografía Pro",
-    category: "Retrato lifestyle (café)",
+    title: "Portret w kawiarni podczas czytania (calm estetyka, ciepłe tło)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret lifestyle (kawiarnia)",
     summary:
-      "Retrato calm en cafetería: libro/agenda, luz cálida y vibe tranquila.",
-    prompt: `Genera un retrato REALISTA en cafetería con vibe calm.
+      "Spokojny portret w kawiarni: książka/notatnik, ciepłe światło i relaksująca atmosfera.",
+    prompt: `Wygeneruj REALISTYCZNY portret w kawiarni z calm vibe.
 
-DATOS:
-- Sujeto: [persona], [edad], expresión tranquila
-- Acción: leyendo un libro o escribiendo en una libreta
-- Outfit: tonos tierra/crema, estilo minimal
-- Fondo: café cálido (madera), luces suaves desenfocadas
+DANE:
+- Osoba: [osoba], [wiek], spokojny wyraz twarzy
+- Akcja: czyta książkę lub pisze w notesie
+- Styl: odcienie ziemi/kremu, minimal
+- Tło: ciepła kawiarnia (drewno), delikatne rozmyte światła
 
-ILUMINACIÓN:
-- Cálida, suave, tipo tarde
-- Sombras ligeras, piel natural
+OŚWIETLENIE:
+- Ciepłe, miękkie jak po południu
+- Lekkie cienie, naturalna skóra
 
-CÁMARA:
+KAMERA:
 - 50mm, f/1.8, ISO 320
-- Enfoque en rostro, bokeh fuerte atrás
+- Ostrość na twarzy, mocny bokeh w tle
 
-COMPOSICIÓN:
-- Plano medio-corto, manos visibles de forma natural (anatomía correcta)
-- Estética de lifestyle premium
+KOMPOZYCJA:
+- Plan średnio-bliski, dłonie naturalnie widoczne (poprawna anatomia)
+- Premium lifestyle estetyka
 
-RESTRICCIONES:
-- Sin texto legible en páginas
-- Evitar manos deformes o dedos extra`,
+OGRANICZENIA:
+- Bez czytelnego tekstu na stronach
+- Unikać zdeformowanych dłoni lub dodatkowych palców`,
     thumbnail: "/images/foto-pro/life7.webp",
   },
   {
     id: "img-foto-life-008",
-    title: "Retrato en café estilo editorial (flash suave + grano sutil)",
-    area: "Fotografía Pro",
-    category: "Retrato lifestyle (café)",
+    title: "Portret w kawiarni w stylu editorial (miękki flash + subtelne ziarno)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret lifestyle (kawiarnia)",
     summary:
-      "Estilo editorial con flash suave y grano tipo película, sin perder realismo.",
-    prompt: `Genera un retrato REALISTA de estilo editorial dentro de un café.
+      "Editorialowy styl z miękkim fleszem i subtelnym ziarnem jak na filmie, przy zachowaniu realizmu.",
+    prompt: `Wygeneruj REALISTYCZNY portret w stylu editorial wewnątrz kawiarni.
 
-DATOS:
-- Sujeto: [persona], [edad], look fashion casual
-- Acción: de pie junto a la barra o sentado/a en mesa
-- Fondo: cafetería moderna, detalles desenfocados
+DANE:
+- Osoba: [osoba], [wiek], fashion casual look
+- Akcja: stoi przy barze lub siedzi przy stoliku
+- Tło: nowoczesna kawiarnia, detale rozmyte
 
-ILUMINACIÓN:
-- Flash suave (tipo on-camera bounce) + luz ambiente cálida
-- Film grain MUY sutil, contraste editorial
+OŚWIETLENIE:
+- Miękki flash (jak on-camera bounce) + ciepłe światło otoczenia
+- BARDZO subtelne film grain, kontrast editorial
 
-CÁMARA:
+KAMERA:
 - 35mm, f/2.2, ISO 400
-- Enfoque en ojos, textura real
+- Ostrość na oczach, realistyczna tekstura
 
-COMPOSICIÓN:
-- Plano medio, pose editorial natural
-- Estética: revista/callejera
+KOMPOZYCJA:
+- Plan średni, naturalna editorial poza
+- Estetyka: magazyn/ulica
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar piel plástica y flash quemado`,
+OGRANICZENIA:
+- Bez tekstu/watermarku
+- Unikać plastikowej skóry i przepalonego flesza`,
     thumbnail: "/images/foto-pro/life8.webp",
   },
   {
     id: "img-foto-life-009",
-    title: "Retrato 'meeting casual' en café (2 personas conversando)",
-    area: "Fotografía Pro",
-    category: "Retrato lifestyle (café)",
+    title: "Portret „casual meeting” w kawiarni (2 osoby rozmawiają)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret lifestyle (kawiarnia)",
     summary:
-      "Escena realista de conversación tipo negocio en café, ideal para consultores/teams.",
-    prompt: `Genera una foto REALISTA en café con 2 personas conversando (meeting casual).
+      "Realistyczna scena rozmowy biznesowej w kawiarni, idealna dla konsultantów i zespołów.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie w kawiarni z 2 osobami rozmawiającymi (casual meeting).
 
-DATOS:
-- Personas: 2, estilo profesional cercano
-- Acción: conversación natural, una persona escuchando, otra hablando
-- Props: laptop/agenda y café (sin marcas)
+DANE:
+- Osoby: 2, profesjonalny ale przystępny styl
+- Akcja: naturalna rozmowa, jedna osoba słucha, druga mówi
+- Rekwizyty: laptop/notatnik i kawa (bez marek)
 
-ILUMINACIÓN:
-- Luz natural de ventana, cálida y suave
+OŚWIETLENIE:
+- Ciepłe i miękkie światło z okna
 
-CÁMARA:
-- 35mm, f/2.8, ISO 400 (foco en ambos rostros)
-- Bokeh moderado, ambiente real
+KAMERA:
+- 35mm, f/2.8, ISO 400 (ostrość na obu twarzach)
+- Umiarkowany bokeh, realistyczny klimat
 
-COMPOSICIÓN:
-- Plano medio-amplio (mesa visible)
-- Espacio negativo lateral para usar como banner
+KOMPOZYCJA:
+- Plan średnio-szeroki (stół widoczny)
+- Negatywna przestrzeń z boku do wykorzystania jako baner
 
-RESTRICCIONES:
-- Sin texto/logos
-- Manos realistas (sin dedos extra)`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Realistyczne dłonie (bez dodatkowych palców)`,
     thumbnail: "/images/foto-pro/life9.webp",
   },
   {
     id: "img-foto-life-010",
-    title: "Retrato en café 'selfie natural' (UGC realista, sin filtros)",
-    area: "Fotografía Pro",
-    category: "Retrato lifestyle (café)",
+    title: "Portret w kawiarni „naturalny selfie” (realistyczne UGC, bez filtrów)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret lifestyle (kawiarnia)",
     summary:
-      "Foto tipo selfie/UGC dentro de cafetería, natural, creíble y lista para redes.",
-    prompt: `Genera una foto REALISTA estilo selfie (UGC) en cafetería.
+      "Selfie/UGC w kawiarni: naturalne, wiarygodne i gotowe na social media.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie selfie (UGC) w kawiarni.
 
-DATOS:
-- Sujeto: [persona], [edad], expresión amigable
-- Ángulo: selfie con cámara frontal, ligeramente desde arriba
-- Fondo: café desenfocado con luz cálida
-- Outfit: casual real
+DANE:
+- Osoba: [osoba], [wiek], przyjazny wyraz twarzy
+- Kąt: selfie z przedniej kamery, lekko z góry
+- Tło: rozmyta kawiarnia z ciepłym światłem
+- Styl: prawdziwy casual
 
-ILUMINACIÓN:
-- Luz ambiente cálida + ventana suave
-- Piel realista sin filtros excesivos
+OŚWIETLENIE:
+- Ciepłe światło otoczenia + miękkie światło z okna
+- Realistyczna skóra bez mocnych filtrów
 
-CÁMARA:
-- Simular cámara de smartphone (35mm equivalente), nitidez natural
-- Ligero ruido realista (muy sutil)
+KAMERA:
+- Symuluj kamerę smartfona (ekwiwalent 35mm), naturalna ostrość
+- Delikatny realistyczny szum (bardzo subtelny)
 
-COMPOSICIÓN:
-- Rostro centrado, fondo reconocible pero desenfocado
+KOMPOZYCJA:
+- Twarz na środku, tło rozpoznawalne, ale rozmyte
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar distorsión extrema de lente`,
+OGRANICZENIA:
+- Bez tekstu/watermarku
+- Unikać skrajnej dystorsji obiektywu`,
     thumbnail: "/images/foto-pro/life10.webp",
   },
 
   // =========================
-  // CATEGORY: Retrato lifestyle (casa)
+  // CATEGORY: Portret lifestyle (dom)
   // =========================
   {
     id: "img-foto-life-011",
-    title: "Retrato en casa con luz de ventana (morning routine, editorial)",
-    area: "Fotografía Pro",
-    category: "Retrato lifestyle (casa)",
+    title: "Portret w domu przy świetle okna (morning routine, editorial)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret lifestyle (dom)",
     summary:
-      "Retrato en interior con luz de ventana tipo mañana, vibe calm y estética editorial.",
-    prompt: `Genera un retrato REALISTA en casa con luz natural de ventana (mañana).
+      "Portret we wnętrzu z porannym światłem z okna, spokojny vibe i estetyka editorial.",
+    prompt: `Wygeneruj REALISTYCZNY portret w domu przy naturalnym świetle z okna (rano).
 
-DATOS:
-- Sujeto: [persona], [edad], expresión tranquila
-- Outfit: ropa cómoda (suéter/ropa clara), estilo minimal
-- Escena: sala o habitación luminosa, plantas o decoración minimal (desenfocado)
+DANE:
+- Osoba: [osoba], [wiek], spokojny wyraz twarzy
+- Ubiór: wygodny (sweter/jasne ubrania), minimal styl
+- Scena: jasny salon lub pokój, rośliny lub minimalny wystrój (rozmyte)
 
-ILUMINACIÓN:
-- Luz suave de ventana, sombras delicadas
-- Tonos cálidos y naturales
+OŚWIETLENIE:
+- Miękkie światło z okna, delikatne cienie
+- Ciepłe i naturalne tony
 
-CÁMARA:
+KAMERA:
 - 50mm, f/2, ISO 200
-- Enfoque en rostro, bokeh suave atrás
+- Ostrość na twarzy, miękki bokeh z tyłu
 
-COMPOSICIÓN:
-- Plano medio-corto, pose auténtica (no posado rígido)
-- Estética: morning routine premium
+KOMPOZYCJA:
+- Plan średnio-bliski, autentyczna poza (bez sztywnego pozowania)
+- Estetyka: premium morning routine
 
-RESTRICCIONES:
-- Sin texto/logos
-- Evitar objetos raros y deformaciones`,
+OGRANICZENIA:
+- Bez tekstu/logo
+- Unikać dziwnych obiektów i deformacji`,
     thumbnail: "/images/foto-pro/life11.webp",
   },
   {
     id: "img-foto-life-012",
-    title: "Retrato en cocina (cocinando, lifestyle realista)",
-    area: "Fotografía Pro",
-    category: "Retrato lifestyle (casa)",
+    title: "Portret w kuchni (gotowanie, realistyczny lifestyle)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret lifestyle (dom)",
     summary:
-      "Foto en cocina moderna preparando algo simple, sensación auténtica para redes y branding.",
-    prompt: `Genera un retrato REALISTA en una cocina moderna (lifestyle auténtico).
+      "Zdjęcie w nowoczesnej kuchni podczas przygotowywania czegoś prostego, autentyczne na social i branding.",
+    prompt: `Wygeneruj REALISTYCZNY portret w nowoczesnej kuchni (autentyczny lifestyle).
 
-DATOS:
-- Sujeto: [persona], [edad]
-- Acción: preparando café/desayuno, gestos naturales
-- Outfit: casual limpio (camiseta, delantal opcional)
-- Fondo: cocina moderna, limpio, desenfocado
+DANE:
+- Osoba: [osoba], [wiek]
+- Akcja: przygotowuje kawę/śniadanie, naturalne gesty
+- Ubiór: czysty casual (T-shirt, fartuch opcjonalnie)
+- Tło: nowoczesna kuchnia, czysta, rozmyta
 
-ILUMINACIÓN:
-- Luz natural suave (ventana), tono cálido balanceado
+OŚWIETLENIE:
+- Miękkie naturalne światło (okno), zbalansowane ciepło
 
-CÁMARA:
+KAMERA:
 - 35mm, f/2.2, ISO 320
-- Enfoque en rostro, manos visibles pero realistas
+- Ostrość na twarzy, dłonie widoczne i realistyczne
 
-COMPOSICIÓN:
-- Plano medio, se ve parte de la cocina
-- Estética “real”, no demasiado perfecta
+KOMPOZYCJA:
+- Plan średni, widać fragment kuchni
+- Estetyka „realna”, nie zbyt idealna
 
-RESTRICCIONES:
-- Sin marcas/logos en empaques
-- Manos correctas (sin dedos extra)`,
+OGRANICZENIA:
+- Bez marek/logo na opakowaniach
+- Poprawne dłonie (bez dodatkowych palców)`,
     thumbnail: "/images/foto-pro/life12.webp",
   },
   {
     id: "img-foto-life-013",
-    title: "Retrato 'home office' con laptop (productividad, realista)",
-    area: "Fotografía Pro",
-    category: "Retrato lifestyle (casa)",
+    title: "Portret „home office” z laptopem (produktywność, realistycznie)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret lifestyle (dom)",
     summary:
-      "Retrato en home office con laptop, vibe productiva y profesional cercana.",
-    prompt: `Genera una foto REALISTA en home office.
+      "Portret w domowym biurze z laptopem: produktywny vibe i profesjonalna, przystępna estetyka.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie w home office.
 
-DATOS:
-- Sujeto: [persona], [edad], look profesional casual
-- Acción: trabajando frente a laptop, tomando notas, mirada natural
-- Fondo: escritorio con elementos minimal (libros, planta), desenfocado
+DANE:
+- Osoba: [osoba], [wiek], profesjonalny casual look
+- Akcja: pracuje przy laptopie, notuje, naturalne spojrzenie
+- Tło: biurko z minimalistycznymi elementami (książki, roślina), rozmyte
 
-ILUMINACIÓN:
-- Luz natural lateral o lámpara suave (warm)
-- Piel natural, colores limpios
+OŚWIETLENIE:
+- Miękkie światło boczne z okna lub delikatna lampka (ciepła)
+- Naturalna skóra, czyste kolory
 
-CÁMARA:
-- 35mm o 50mm, f/2, ISO 300
-- Bokeh moderado
+KAMERA:
+- 35mm lub 50mm, f/2, ISO 300
+- Umiarkowany bokeh
 
-COMPOSICIÓN:
-- Plano medio, sujeto en tercios
-- Espacio negativo para reutilizar en banners
+KOMPOZYCJA:
+- Plan średni, osoba w trójpodziale
+- Negatywna przestrzeń do użycia w banerach
 
-RESTRICCIONES:
-- Sin logos reales en laptop
-- Sin texto legible en pantalla/papeles`,
+OGRANICZENIA:
+- Bez prawdziwych logotypów na laptopie
+- Bez czytelnego tekstu na ekranie/papierach`,
     thumbnail: "/images/foto-pro/life13.webp",
   },
   {
     id: "img-foto-life-014",
-    title: "Retrato 'bedroom aesthetic' (soft, calm, editorial)",
-    area: "Fotografía Pro",
-    category: "Retrato lifestyle (casa)",
+    title: "Portret „bedroom aesthetic” (soft, calm, editorial)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret lifestyle (dom)",
     summary:
-      "Retrato suave en habitación con estética calm, tonos crema y luz difusa.",
-    prompt: `Genera un retrato REALISTA en una habitación con estética calm.
+      "Miękki portret w sypialni o spokojnej estetyce, kremowe tony i rozproszone światło.",
+    prompt: `Wygeneruj REALISTYCZNY portret w sypialni o spokojnej estetyce.
 
-DATOS:
-- Sujeto: [persona], [edad], expresión suave
-- Outfit: tonos crema/beige, estilo comfy
-- Fondo: bedroom minimalista, sábanas claras, decoración suave (desenfocado)
+DANE:
+- Osoba: [osoba], [wiek], delikatny wyraz twarzy
+- Ubiór: kremowe/beżowe tony, comfy styl
+- Tło: minimalistyczna sypialnia, jasna pościel, miękkie dekoracje (rozmyte)
 
-ILUMINACIÓN:
-- Luz difusa tipo ventana, sombras suaves
-- Color grading: cálido leve, contraste bajo
+OŚWIETLENIE:
+- Rozproszone światło z okna, miękkie cienie
+- Color grading: lekko ciepły, niski kontrast
 
-CÁMARA:
+KAMERA:
 - 50mm, f/1.8, ISO 200
-- Enfoque en ojos, bokeh suave
+- Ostrość na oczach, miękki bokeh
 
-COMPOSICIÓN:
-- Plano medio-corto, pose auténtica
+KOMPOZYCJA:
+- Plan średnio-bliski, autentyczna poza
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar deformación de ojos/manos`,
+OGRANICZENIA:
+- Bez tekstu/watermarku
+- Unikać deformacji oczu/dłoni`,
     thumbnail: "/images/foto-pro/life14.webp",
   },
   {
     id: "img-foto-life-015",
-    title: "Retrato en sala con libro (lifestyle premium, luz suave)",
-    area: "Fotografía Pro",
-    category: "Retrato lifestyle (casa)",
+    title: "Portret w salonie z książką (premium lifestyle, miękkie światło)",
+    area: "Fotografia Profesjonalna",
+    category: "Portret lifestyle (dom)",
     summary:
-      "Escena interior con libro/sofá, vibra premium y natural, ideal para marca personal.",
-    prompt: `Genera una foto REALISTA en sala de estar con estética premium.
+      "Scena wnętrza z książką/sofą: premium i naturalna, idealna do personal brandingu.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie w salonie w estetyce premium.
 
-DATOS:
-- Sujeto: [persona], [edad]
-- Acción: leyendo un libro o sosteniendo una taza
-- Fondo: sala minimalista, sofá claro, plantas, luz suave (desenfocado)
+DANE:
+- Osoba: [osoba], [wiek]
+- Akcja: czyta książkę lub trzyma kubek
+- Tło: minimalistyczny salon, jasna sofa, rośliny, miękkie światło (rozmyte)
 
-ILUMINACIÓN:
-- Luz natural suave, sombras delicadas
+OŚWIETLENIE:
+- Miękkie naturalne światło, delikatne cienie
 
-CÁMARA:
-- 35mm o 50mm, f/2.2, ISO 250
-- Enfoque en rostro, ambiente cálido
+KAMERA:
+- 35mm lub 50mm, f/2.2, ISO 250
+- Ostrość na twarzy, ciepły klimat
 
-COMPOSICIÓN:
-- Plano medio, sujeto ligeramente lateral
-- Estilo editorial lifestyle
+KOMPOZYCJA:
+- Plan średni, osoba lekko bokiem
+- Editorial lifestyle styl
 
-RESTRICCIONES:
-- Sin texto legible en libro
-- Evitar manos deformes`,
+OGRANICZENIA:
+- Bez czytelnego tekstu w książce
+- Unikać zdeformowanych dłoni`,
     thumbnail: "/images/foto-pro/life15.webp",
   },
 
   // =========================
-  // CATEGORY: Creador UGC (selfie realista)
+  // CATEGORY: Twórca UGC (realistyczne selfie)
   // =========================
   {
     id: "img-foto-life-016",
-    title: "Selfie UGC en exterior (luz natural, look auténtico)",
-    area: "Fotografía Pro",
-    category: "Creador UGC (selfie realista)",
+    title: "Selfie UGC w plenerze (naturalne światło, autentyczny look)",
+    area: "Fotografia Profesjonalna",
+    category: "Twórca UGC (realistyczne selfie)",
     summary:
-      "Selfie realista en exterior para creators: natural, creíble y sin look de IA.",
-    prompt: `Genera una foto REALISTA estilo selfie UGC en exterior.
+      "Realistyczne selfie w plenerze dla twórców: naturalne, wiarygodne i bez „AI look”.",
+    prompt: `Wygeneruj REALISTYCZNE selfie w stylu UGC na zewnątrz.
 
-DATOS:
-- Sujeto: [persona], [edad], expresión alegre o neutra
-- Outfit: casual real (no perfecto), colores neutros
-- Fondo: calle/parque desenfocado
+DANE:
+- Osoba: [osoba], [wiek], radosny lub neutralny wyraz twarzy
+- Ubiór: prawdziwy casual (nie idealny), neutralne kolory
+- Tło: rozmyta ulica/park
 
-ILUMINACIÓN:
-- Luz natural suave (sombra abierta)
-- Piel realista, sin filtros agresivos
+OŚWIETLENIE:
+- Miękkie naturalne światło (otwarty cień)
+- Realistyczna skóra, bez agresywnych filtrów
 
-CÁMARA:
-- Simular smartphone, lente frontal, ligera distorsión natural (mínima)
-- Nitidez realista (no hiperperfecta)
+KAMERA:
+- Symuluj smartfona, przedni aparat, minimalna naturalna dystorsja
+- Realistyczna ostrość (nie hiperperfekcyjna)
 
-COMPOSICIÓN:
-- Encuadre: selfie (cara + hombros), brazo levantado fuera de cuadro
-- Resultar auténtico, como foto real de redes
+KOMPOZYCJA:
+- Kadr: selfie (twarz + ramiona), uniesione ramię poza kadrem
+- Ma wyglądać autentycznie jak zdjęcie z social mediów
 
-RESTRICCIONES:
-- Sin texto/watermarks
-- Evitar “piel de porcelana” y unnatural eyes`,
+OGRANICZENIA:
+- Bez tekstu/watermarków
+- Unikać „porcelanowej skóry” i nienaturalnych oczu`,
     thumbnail: "/images/foto-pro/life16.webp",
   },
   {
     id: "img-foto-life-017",
-    title: "UGC mirror selfie (espejo, outfit visible, realista)",
-    area: "Fotografía Pro",
-    category: "Creador UGC (selfie realista)",
+    title: "UGC mirror selfie (lustro, widoczny outfit, realistycznie)",
+    area: "Fotografia Profesjonalna",
+    category: "Twórca UGC (realistyczne selfie)",
     summary:
-      "Mirror selfie estilo outfit check: proporciones correctas y estética real.",
-    prompt: `Genera una foto REALISTA tipo mirror selfie en un espejo.
+      "Mirror selfie typu outfit check: poprawne proporcje i realistyczna estetyka.",
+    prompt: `Wygeneruj REALISTYCZNE zdjęcie typu mirror selfie w lustrze.
 
-DATOS:
-- Sujeto: [persona], [edad]
-- Outfit: [describir outfit completo], estilo urbano o casual
-- Ubicación: habitación o baño limpio, estética minimal
-- Smartphone: genérico (sin marca), sostenido con una mano
+DANE:
+- Osoba: [osoba], [wiek]
+- Outfit: [opis pełnego outfitu], styl miejski lub casual
+- Lokalizacja: czysty pokój lub łazienka, estetyka minimal
+- Smartfon: generyczny (bez marki), trzymany w jednej dłoni
 
-ILUMINACIÓN:
-- Luz interior suave (warm), sombras ligeras
-- Reflejo realista, sin artefactos extraños
+OŚWIETLENIE:
+- Miękkie światło wewnętrzne (ciepłe), lekkie cienie
+- Realistyczne odbicie, bez dziwnych artefaktów
 
-CÁMARA:
-- Simular toma de smartphone, nitidez natural
-- Ligerísimo ruido realista
+KAMERA:
+- Symuluj ujęcie smartfonem, naturalna ostrość
+- Bardzo delikatny realistyczny szum
 
-COMPOSICIÓN:
-- Cuerpo completo o medio cuerpo, espejo centrado
-- Fondo ordenado y minimal
+KOMPOZYCJA:
+- Cała sylwetka lub pół sylwetki, lustro wyśrodkowane
+- Tło schludne i minimalistyczne
 
-RESTRICCIONES IMPORTANTES:
-- Manos correctas (5 dedos), teléfono realista
-- Evitar doble reflejo imposible, sin texto/logos`,
+WAŻNE OGRANICZENIA:
+- Poprawne dłonie (5 palców), realistyczny telefon
+- Unikać niemożliwych podwójnych odbić, bez tekstu/logo`,
     thumbnail: "/images/foto-pro/life17.webp",
   },
   {
     id: "img-foto-life-018",
-    title: "UGC estilo 'día normal' (foto casual sin pose, auténtica)",
-    area: "Fotografía Pro",
-    category: "Creador UGC (selfie realista)",
+    title: "UGC w stylu „zwykły dzień” (casual bez pozowania, autentycznie)",
+    area: "Fotografia Profesjonalna",
+    category: "Twórca UGC (realistyczne selfie)",
     summary:
-      "Foto casual tipo 'día normal', estética real, perfecta para perfiles o anuncios UGC.",
-    prompt: `Genera una foto REALISTA casual tipo “día normal”, sin pose de modelo.
+      "Casualowe zdjęcie typu „zwykły dzień”, realna estetyka idealna do profili i reklam UGC.",
+    prompt: `Wygeneruj REALISTYCZNE casualowe zdjęcie typu „zwykły dzień”, bez modelowej pozy.
 
-DATOS:
-- Sujeto: [persona], [edad]
-- Escena: caminando en barrio residencial o en una plaza
-- Outfit: cotidiano (sudadera/camiseta/jeans), sin exceso de estilo
-- Expresión: natural, como foto espontánea
+DANE:
+- Osoba: [osoba], [wiek]
+- Scena: spacer po osiedlu lub na placu
+- Ubiór: codzienny (bluza/T-shirt/jeansy), bez przesadnej stylizacji
+- Wyraz twarzy: naturalny, jak spontaniczne zdjęcie
 
-ILUMINACIÓN:
-- Luz de día, suave (nublado o sombra abierta)
-- Colores reales, contraste moderado
+OŚWIETLENIE:
+- Dzienne miękkie światło (pochmurnie lub otwarty cień)
+- Realne kolory, umiarkowany kontrast
 
-CÁMARA:
-- Simular smartphone, 28–35mm equivalente
-- Nitidez natural, no hiperperfecta
+KAMERA:
+- Symuluj smartfona, ekwiwalent 28–35mm
+- Naturalna ostrość, bez hiperperfekcji
 
-COMPOSICIÓN:
-- Encuadre: medio cuerpo
-- Fondo ligeramente desenfocado
+KOMPOZYCJA:
+- Kadr: pół sylwetki
+- Tło lekko rozmyte
 
-RESTRICCIONES:
-- Sin texto/watermark
-- Evitar piel ultra retocada`,
+OGRANICZENIA:
+- Bez tekstu/watermarku
+- Unikać ultra-retuszowanej skóry`,
     thumbnail: "/images/foto-pro/life18.webp",
   },
   {
     id: "img-foto-life-019",
-    title: "UGC selfie en coche (luz lateral, realista y creíble)",
-    area: "Fotografía Pro",
-    category: "Creador UGC (selfie realista)",
+    title: "UGC selfie w samochodzie (boczne światło, realistycznie i wiarygodnie)",
+    area: "Fotografia Profesjonalna",
+    category: "Twórca UGC (realistyczne selfie)",
     summary:
-      "Selfie dentro del coche con luz natural lateral, ideal para creators y ads conversacionales.",
-    prompt: `Genera una foto REALISTA estilo selfie dentro de un coche.
+      "Selfie w samochodzie z naturalnym bocznym światłem, idealne dla twórców i reklam konwersacyjnych.",
+    prompt: `Wygeneruj REALISTYCZNE selfie w samochodzie.
 
-DATOS:
-- Sujeto: [persona], [edad], expresión natural
-- Escena: sentado/a en el asiento del conductor o pasajero
-- Fondo: interior del coche, exterior desenfocado por ventana
-- Outfit: casual real (no demasiado perfecto)
+DANE:
+- Osoba: [osoba], [wiek], naturalny wyraz twarzy
+- Scena: siedzi na fotelu kierowcy lub pasażera
+- Tło: wnętrze auta, na zewnątrz rozmyte przez okno
+- Ubiór: prawdziwy casual (nie zbyt idealny)
 
-ILUMINACIÓN:
-- Luz natural lateral entrando por ventana (suave)
-- Piel realista y tonos naturales
+OŚWIETLENIE:
+- Miękkie naturalne światło boczne wpadające przez okno
+- Realistyczna skóra i naturalne tony
 
-CÁMARA:
-- Simular smartphone cámara frontal
-- Nitidez natural, ligera compresión típica
+KAMERA:
+- Symuluj przednią kamerę smartfona
+- Naturalna ostrość, lekka typowa kompresja
 
-COMPOSICIÓN:
-- Encadre: rostro + hombros, un poco del volante o asiento visible
+KOMPOZYCJA:
+- Kadr: twarz + ramiona, trochę kierownicy lub fotela w kadrze
 
-RESTRICCIONES:
-- Sin marcas de coche reconocibles
-- Evitar distorsión de cara o manos extra`,
+OGRANICZENIA:
+- Bez rozpoznawalnych marek auta
+- Unikać deformacji twarzy i dodatkowych dłoni`,
     thumbnail: "/images/foto-pro/life19.webp",
   },
   {
     id: "img-foto-life-020",
-    title: "UGC 'selfie con producto' (sosteniendo objeto, manos perfectas)",
-    area: "Fotografía Pro",
-    category: "Creador UGC (selfie realista)",
+    title: "UGC „selfie z produktem” (trzymanie obiektu, idealne dłonie)",
+    area: "Fotografia Profesjonalna",
+    category: "Twórca UGC (realistyczne selfie)",
     summary:
-      "Selfie sosteniendo un producto genérico (sin marca), cuidando anatomía y realismo.",
-    prompt: `Genera una foto REALISTA estilo selfie UGC sosteniendo un producto genérico.
+      "Selfie z generycznym produktem (bez marki), z dbałością o anatomię i realizm.",
+    prompt: `Wygeneruj REALISTYCZNE selfie w stylu UGC trzymając generyczny produkt.
 
-DATOS:
-- Sujeto: [persona], [edad]
-- Producto: [describir producto genérico: frasco, caja, botella, gadget], SIN marcas
-- Acción: sosteniendo el producto cerca del rostro, pose natural
-- Fondo: interior simple (casa) o exterior suave (desenfocado)
+DANE:
+- Osoba: [osoba], [wiek]
+- Produkt: [opisz generyczny produkt: flakon, pudełko, butelka, gadżet], BEZ marek
+- Akcja: trzyma produkt blisko twarzy, naturalna poza
+- Tło: proste wnętrze (dom) lub miękki plener (rozmyte)
 
-ILUMINACIÓN:
-- Luz suave natural, sin sombras duras
-- Piel realista, textura natural
+OŚWIETLENIE:
+- Miękkie naturalne światło, bez twardych cieni
+- Realistyczna skóra, naturalna tekstura
 
-CÁMARA:
-- Simular smartphone, enfoque en rostro y producto
-- Profundidad de campo ligera (producto visible)
+KAMERA:
+- Symuluj smartfona, ostrość na twarzy i produkcie
+- Lekka głębia ostrości (produkt czytelny)
 
-COMPOSICIÓN:
-- Rostro centrado, producto en primer plano
-- Estética auténtica, no publicitaria exagerada
+KOMPOZYCJA:
+- Twarz na środku, produkt na pierwszym planie
+- Autentyczna estetyka, bez przesadnie reklamowego looku
 
-RESTRICCIONES CRÍTICAS:
-- Mano realista: 5 dedos, proporciones correctas
-- Sin texto, sin logos, sin watermark`,
+KLUCZOWE OGRANICZENIA:
+- Realistyczna dłoń: 5 palców, poprawne proporcje
+- Bez tekstu, bez logo, bez watermarku`,
     thumbnail: "/images/foto-pro/life20.webp",
   },
 ];

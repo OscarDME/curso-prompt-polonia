@@ -1,1657 +1,1645 @@
 export const textPromptsSeoIdeasArticulos = [
   {
     id: "seo-ideas-001",
-    title: "Ideas de artículos SEO basadas en intención de búsqueda real",
+    title: "Pomysły na artykuły SEO oparte na realnej intencji wyszukiwania",
     area: "SEO",
-    category: "Ideas de artículos",
+    category: "Pomysły na artykuły",
     summary:
-      "Genera ideas de artículos diseñadas según la intención de búsqueda exacta del usuario.",
-    prompt: `Dame:
-- Nicho.
-- Tipo de intención (informacional, transaccional, comparativa, navegacional).
-- Público objetivo.
+      "Generuj pomysły na artykuły zaprojektowane pod dokładną intencję wyszukiwania użytkownika.",
+    prompt: `Podaj:
+- Niszę.
+- Typ intencji (informacyjna, transakcyjna, porównawcza, nawigacyjna).
+- Grupę docelową.
 
-Genera 20 ideas de artículos organizadas por intención:
-- Títulos optimizados para clic.
-- Insight breve del ángulo de cada artículo.
-- Palabras clave recomendadas.
-- Sugerencia del tipo de contenido (guía, tutorial, checklist, opinión, comparativa).
+Wygeneruj 20 pomysłów na artykuły uporządkowanych według intencji:
+- Tytuły zoptymalizowane pod kliknięcia.
+- Krótki insight o kącie/ujęciu każdego artykułu.
+- Rekomendowane słowa kluczowe.
+- Sugestię typu treści (poradnik, tutorial, checklist, opinia, porównanie).
 
-Entrega todo en tabla clara.`,
+Wszystko podaj w czytelnej tabeli.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-002",
-    title: "Ideas de artículos basadas en problemas urgentes del nicho",
+    title: "Pomysły na artykuły oparte na pilnych problemach niszy",
     area: "SEO",
-    category: "Ideas de artículos",
+    category: "Pomysły na artykuły",
     summary:
-      "Artículos pensados para atacar los principales dolores del usuario.",
-    prompt: `Dame:
-- Nicho.
-- 5 problemas urgentes del cliente ideal.
+      "Artykuły zaprojektowane, by uderzać w główne „bóle” idealnego klienta.",
+    prompt: `Podaj:
+- Niszę.
+- 5 pilnych problemów idealnego klienta.
 
-Genera 15 ideas de artículos:
-- Títulos con alto CTR.
-- Ángulo emocional + práctico.
-- 3 keywords primarias por idea.
-- CTA sugerida al final de cada artículo.`,
+Wygeneruj 15 pomysłów na artykuły:
+- Tytuły z wysokim CTR.
+- Kąt emocjonalny + praktyczny.
+- 3 główne keywordy na pomysł.
+- Sugerowane CTA na końcu każdego artykułu.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-003",
-    title: "Ideas de artículos usando preguntas reales del público",
+    title: "Pomysły na artykuły oparte na realnych pytaniach odbiorców",
     area: "SEO",
-    category: "Ideas de artículos",
+    category: "Pomysły na artykuły",
     summary:
-      "Ideas de contenido basadas en preguntas de usuarios al estilo 'People Also Ask'.",
-    prompt: `Dame:
-- Nicho específico.
-- Nivel del público (principiante, intermedio, avanzado).
+      "Pomysły na treści oparte o pytania użytkowników w stylu „People Also Ask”.",
+    prompt: `Podaj:
+- Konkretną niszę.
+- Poziom odbiorców (początkujący, średniozaawansowany, zaawansowany).
 
-Genera 20 ideas de artículos tipo preguntas:
-- Títulos en formato pregunta.
-- Insight sobre por qué la gente busca eso.
-- 3 keywords long-tail por pregunta.
-- Sugerencia de estructura rápida.`,
+Wygeneruj 20 pomysłów na artykuły w formie pytań:
+- Tytuły w formacie pytania.
+- Insight: dlaczego ludzie tego szukają.
+- 3 long-tail keywordy na pytanie.
+- Sugerowaną szybką strukturę.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-004",
-    title: "Ideas de artículos evergreen que rankean todo el año",
+    title: "Pomysły na artykuły evergreen, które rankują cały rok",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido evergreen optimizado para tráfico constante.",
-    prompt: `Dame:
-- Nicho.
-- Transformación deseada del lector.
+    category: "Pomysły na artykuły",
+    summary: "Treści evergreen zoptymalizowane pod stały ruch.",
+    prompt: `Podaj:
+- Niszę.
+- Pożądaną transformację czytelnika.
 
-Genera 20 ideas evergreen:
-- Título optimizado para CTR.
-- Durabilidad del tema (por qué funciona siempre).
-- Keywords principales y secundarias.
-- CTA sugerido.`,
+Wygeneruj 20 evergreen pomysłów:
+- Tytuł zoptymalizowany pod CTR.
+- Trwałość tematu (dlaczego działa zawsze).
+- Główne i poboczne keywordy.
+- Sugerowane CTA.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-005",
-    title: "Ideas de artículos SEO basadas en comparativas",
+    title: "Pomysły na artykuły SEO oparte na porównaniach",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Comparativas que capturan intención transaccional.",
-    prompt: `Dame:
-- Producto, software o categoría a comparar.
-- Público objetivo.
+    category: "Pomysły na artykuły",
+    summary: "Porównania, które łapią intencję transakcyjną.",
+    prompt: `Podaj:
+- Produkt, software lub kategorię do porównania.
+- Grupę docelową.
 
-Genera 15 ideas:
-- Títulos comparativos (vs, vs+, top 10).
-- Ángulo de compra.
-- Keyword principal de alta intención.
-- Recomendación del enfoque del artículo.`,
+Wygeneruj 15 pomysłów:
+- Tytuły porównawcze (vs, vs+, top 10).
+- Kąt zakupowy.
+- Główne keywordy o wysokiej intencji.
+- Rekomendację podejścia do artykułu.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-006",
-    title: "Ideas de artículos para cluster SEO temático",
+    title: "Pomysły na artykuły do tematycznego klastra SEO",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Ideas para crear un topic cluster completo.",
-    prompt: `Dame:
-- Tema principal del cluster.
-- Subtemas involucrados.
+    category: "Pomysły na artykuły",
+    summary: "Pomysły na stworzenie kompletnego topic cluster.",
+    prompt: `Podaj:
+- Główny temat klastra.
+- Powiązane podtematy.
 
-Genera:
-- Artículo pilar (1).
-- 12 artículos satélite.
-- Keywords para cada uno.
-- Cómo enlazarlos internamente.`,
+Wygeneruj:
+- Artykuł filarowy (1).
+- 12 artykułów satelitarnych.
+- Keywordy dla każdego.
+- Jak je linkować wewnętrznie.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-007",
-    title: "Ideas de artículos basadas en tendencias SEO actuales",
+    title: "Pomysły na artykuły oparte na aktualnych trendach SEO",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido alineado con tendencias y nuevas búsquedas.",
-    prompt: `Dame:
-- Nicho.
-- Año actual.
+    category: "Pomysły na artykuły",
+    summary: "Treści dopasowane do trendów i nowych zapytań.",
+    prompt: `Podaj:
+- Niszę.
+- Bieżący rok.
 
-Genera 20 ideas:
-- Temas basados en nuevas tendencias.
-- Keywords con posible crecimiento.
-- Enfoque explicativo y educativo.
-- Sugerencias de formatos (caso, guía, análisis).`,
+Wygeneruj 20 pomysłów:
+- Tematy oparte na nowych trendach.
+- Keywordy z potencjałem wzrostu.
+- Ujęcie wyjaśniające i edukacyjne.
+- Sugestie formatów (case, poradnik, analiza).`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-008",
-    title: "Ideas de artículos basadas en objeciones del usuario",
+    title: "Pomysły na artykuły oparte na obiekcjach użytkownika",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos pensados para atacar dudas antes de la compra.",
-    prompt: `Dame:
-- Producto o servicio.
-- 5 objeciones comunes del usuario.
+    category: "Pomysły na artykuły",
+    summary: "Artykuły, które rozbrajają wątpliwości przed zakupem.",
+    prompt: `Podaj:
+- Produkt lub usługę.
+- 5 typowych obiekcji użytkownika.
 
-Genera 15 ideas:
-- Títulos pensados para resolver objeciones.
-- Keywords relevantes.
-- Ángulo de confianza (pruebas, argumentos, comparativas).`,
+Wygeneruj 15 pomysłów:
+- Tytuły skoncentrowane na rozwiązywaniu obiekcji.
+- Trafne keywordy.
+- Kąt budowania zaufania (dowody, argumenty, porównania).`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-009",
-    title: "Ideas de artículos ultra-opinionados para autoridad",
+    title: "Mocno opiniotwórcze pomysły na artykuły dla autorytetu",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido editorial que genera autoridad y backlinks.",
-    prompt: `Dame:
-- Nicho.
-- Posición fuerte o punto polémico.
+    category: "Pomysły na artykuły",
+    summary: "Treści editorial, które budują autorytet i backlinki.",
+    prompt: `Podaj:
+- Niszę.
+- Mocne stanowisko lub kontrowersyjny punkt.
 
-Genera 12 ideas:
-- Títulos editoriales fuertes.
-- Ángulo de controversia argumentada.
-- Oportunidades de enlazado natural.
-- Keywords informacionales y de debate.`,
+Wygeneruj 12 pomysłów:
+- Mocne tytuły editorialowe.
+- Kąt sporu poparty argumentami.
+- Okazje do naturalnego linkowania.
+- Keywordy informacyjne i „debatowe”.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-010",
-    title: "Ideas de artículos basados en listas Top X",
+    title: "Pomysły na artykuły oparte na listach Top X",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Ideas estilo top, ranking y recopilaciones.",
-    prompt: `Dame:
-- Nicho.
-- Tipo de lista.
+    category: "Pomysły na artykuły",
+    summary: "Pomysły w stylu top, rankingów i zestawień.",
+    prompt: `Podaj:
+- Niszę.
+- Typ listy.
 
-Genera 20 ideas:
-- Títulos “Top 10 / Los mejores…”.
-- Keywords transaccionales.
-- Sugerencias de elementos para incluir.
-- Variaciones de enfoque (precio, calidad, experiencia).`,
+Wygeneruj 20 pomysłów:
+- Tytuły “Top 10 / Najlepsze…” .
+- Keywordy transakcyjne.
+- Sugestie elementów do uwzględnienia.
+- Wariacje ujęcia (cena, jakość, doświadczenie).`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-011",
-    title: "Ideas de artículos tipo guías maestras",
+    title: "Pomysły na artykuły w stylu „master guide”",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenidos largos y profundamente detallados.",
-    prompt: `Dame:
-- Nicho.
-- Tema principal.
+    category: "Pomysły na artykuły",
+    summary: "Długie, bardzo szczegółowe treści.",
+    prompt: `Podaj:
+- Niszę.
+- Główny temat.
 
-Genera 10 ideas de “Guía definitiva”:
-- Título premium.
-- Keyword principal con alta competencia.
-- Secciones clave recomendadas.
-- Sugerencia de CTA.`,
+Wygeneruj 10 pomysłów na “Definitywny poradnik”:
+- Premium tytuł.
+- Główne keywordy o wysokiej konkurencji.
+- Rekomendowane kluczowe sekcje.
+- Sugestia CTA.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-012",
-    title: "Ideas de artículos basados en errores del usuario",
+    title: "Pomysły na artykuły oparte na błędach użytkownika",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Temáticas basadas en fallos frecuentes del público.",
-    prompt: `Dame:
-- Nicho.
-- 5 errores comunes del usuario.
+    category: "Pomysły na artykuły",
+    summary: "Tematy bazujące na typowych potknięciach odbiorców.",
+    prompt: `Podaj:
+- Niszę.
+- 5 typowych błędów użytkownika.
 
-Genera 15 ideas:
-- Títulos tipo “X errores que…”.
-- Keyword informacional y de pain point.
-- Ángulo educativo.
-- Posible CTA de solución.`,
+Wygeneruj 15 pomysłów:
+- Tytuły typu “X błędów, które…”.
+- Keywordy informacyjne i pain point.
+- Kąt edukacyjny.
+- Potencjalne CTA rozwiązania.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-013",
-    title: "Ideas de artículos para captar backlinks naturales",
+    title: "Pomysły na artykuły pod naturalne backlinki",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido diseñado para atraer enlaces.",
-    prompt: `Dame:
-- Nicho.
-- Tipo de fuente que quieres atraer (blogs, medios, expertos, universidades).
+    category: "Pomysły na artykuły",
+    summary: "Treści zaprojektowane, by przyciągać linki.",
+    prompt: `Podaj:
+- Niszę.
+- Typ źródeł, które chcesz przyciągnąć (blogi, media, eksperci, uczelnie).
 
-Genera 12 ideas:
-- Títulos basados en datos, estadísticas, estudios.
-- Keywords informacionales.
-- Tipo de contenido que más atrae enlaces.
-- Sugerencia de visualizaciones (gráficos, mapas, datos).`,
+Wygeneruj 12 pomysłów:
+- Tytuły oparte o dane, statystyki, badania.
+- Keywordy informacyjne.
+- Typ treści, który najbardziej przyciąga linki.
+- Sugestie wizualizacji (wykresy, mapy, dane).`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-014",
-    title: "Ideas de artículos con storytelling para SEO",
+    title: "Pomysły na artykuły SEO ze storytellingiem",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Temas que mezclan narrativa + optimización.",
-    prompt: `Dame:
-- Nicho.
-- Historia o ángulo humano.
+    category: "Pomysły na artykuły",
+    summary: "Tematy łączące narrację + optymalizację.",
+    prompt: `Podaj:
+- Niszę.
+- Historię lub ludzki kąt.
 
-Genera 10 ideas:
-- Títulos narrativos potentes.
-- Keywords híbridas (emocional + SEO).
-- Enfoque de storytelling aplicado a artículos.`,
+Wygeneruj 10 pomysłów:
+- Mocne, narracyjne tytuły.
+- Hybrydowe keywordy (emocjonalne + SEO).
+- Podejście storytellingowe do artykułów.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-015",
-    title: "Ideas de artículos basadas en compras informadas",
+    title: "Pomysły na artykuły oparte na „świadomych zakupach”",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos pensados para usuarios que comparan antes de comprar.",
-    prompt: `Dame:
-- Producto o servicio.
-- Tipo de cliente ideal.
+    category: "Pomysły na artykuły",
+    summary: "Artykuły dla osób, które porównują zanim kupią.",
+    prompt: `Podaj:
+- Produkt lub usługę.
+- Typ idealnego klienta.
 
-Genera 15 ideas transaccionales:
-- Títulos estilo “Qué saber antes de comprar…”
-- Long-tails de intención alta.
-- Enfoque de educación antes de la compra.
+Wygeneruj 15 transakcyjnych pomysłów:
+- Tytuły w stylu “Co wiedzieć przed zakupem…”
+- Long-tail o wysokiej intencji.
+- Ujęcie: edukacja przed zakupem.
 
-Incluye CTA sugerido.`,
+Dodaj sugerowane CTA.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-016",
-    title: "Ideas de artículos para búsquedas locales",
+    title: "Pomysły na artykuły pod lokalne wyszukiwania",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido para negocios locales con intención geográfica.",
-    prompt: `Dame:
-- Ciudad o país.
-- Tipo de negocio local.
+    category: "Pomysły na artykuły",
+    summary: "Treści dla firm lokalnych z intencją geograficzną.",
+    prompt: `Podaj:
+- Miasto lub kraj.
+- Typ lokalnego biznesu.
 
-Genera 15 ideas SEO local:
-- Títulos con geolocalización.
-- Keywords locales.
-- Enfoques basados en problemas reales del área.
-- CTA para visitas o reservas.`,
+Wygeneruj 15 lokalnych pomysłów SEO:
+- Tytuły z geolokalizacją.
+- Lokalne keywordy.
+- Ujęcia oparte o realne problemy danego obszaru.
+- CTA na wizyty lub rezerwacje.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-017",
-    title: "Ideas de artículos basadas en casos de estudio",
+    title: "Pomysły na artykuły oparte na case studies",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Temas centrados en resultados reales o ficticios.",
-    prompt: `Dame:
-- Nicho.
-- Tipo de caso (cliente real, escenario hipotético, empresa conocida).
+    category: "Pomysły na artykuły",
+    summary: "Tematy oparte o realne lub fikcyjne wyniki.",
+    prompt: `Podaj:
+- Niszę.
+- Typ przypadku (realny klient, scenariusz hipotetyczny, znana firma).
 
-Genera 10 ideas:
-- Títulos tipo case study.
-- Keywords informacionales y técnicas.
-- Ángulos de aprendizaje y métricas.`,
+Wygeneruj 10 pomysłów:
+- Tytuły w stylu case study.
+- Keywordy informacyjne i techniczne.
+- Kąty: lekcje i metryki.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-018",
-    title: "Ideas de artículos para principiantes",
+    title: "Pomysły na artykuły dla początkujących",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Temas diseñados para quienes están empezando en el nicho.",
-    prompt: `Dame:
-- Nicho.
-- Problemas de un principiante.
+    category: "Pomysły na artykuły",
+    summary: "Tematy dla osób, które dopiero zaczynają w niszy.",
+    prompt: `Podaj:
+- Niszę.
+- Problemy początkującego.
 
-Genera 20 ideas:
-- Títulos simples y claros.
-- Keywords básicas.
-- Enfoques para enseñar desde cero.`,
+Wygeneruj 20 pomysłów:
+- Proste i jasne tytuły.
+- Podstawowe keywordy.
+- Ujęcia uczące od zera.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-019",
-    title: "Ideas de artículos avanzados para expertos",
+    title: "Zaawansowane pomysły na artykuły dla ekspertów",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido profundo, técnico y de alto nivel.",
-    prompt: `Dame:
-- Nicho.
-- Nivel experto.
-- Un tema técnico complejo.
+    category: "Pomysły na artykuły",
+    summary: "Treści głębokie, techniczne i na wysokim poziomie.",
+    prompt: `Podaj:
+- Niszę.
+- Poziom ekspercki.
+- Złożony temat techniczny.
 
-Genera 10 ideas:
-- Títulos técnicos.
-- Keywords de baja competencia.
-- Ángulos profesionales con profundidad.`,
+Wygeneruj 10 pomysłów:
+- Techniczne tytuły.
+- Keywordy o niskiej konkurencji.
+- Profesjonalne ujęcia z dużą głębią.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-020",
-    title: "Ideas de artículos optimizados para búsquedas de “cómo hacer…”",
+    title: "Pomysły na artykuły zoptymalizowane pod wyszukiwania „jak zrobić…”",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido orientado a tutoriales súper prácticos.",
-    prompt: `Dame:
-- Nicho.
-- Tipo de proceso o habilidad a enseñar.
+    category: "Pomysły na artykuły",
+    summary: "Treści nastawione na bardzo praktyczne tutoriale.",
+    prompt: `Podaj:
+- Niszę.
+- Typ procesu lub umiejętności do nauczenia.
 
-Genera 20 ideas:
-- Títulos iniciados con “Cómo…” o “Cómo aprender…”.
-- Keywords instructivas.
-- Enfoques paso a paso.`,
+Wygeneruj 20 pomysłów:
+- Tytuły zaczynające się od “Jak…” lub “Jak nauczyć się…”.
+- Instruktażowe keywordy.
+- Ujęcia krok po kroku.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-021",
     title:
-      "Ideas de artículos SEO basados en búsquedas de comparación precio–calidad",
+      "Pomysły na artykuły SEO oparte na wyszukiwaniach porównujących cena–jakość",
     area: "SEO",
-    category: "Ideas de artículos",
+    category: "Pomysły na artykuły",
     summary:
-      "Artículos centrados en usuarios que buscan la mejor relación calidad-precio.",
-    prompt: `Dame:
-- Producto/categoría.
-- Público objetivo.
-- Rango de precios relevante.
+      "Artykuły dla osób szukających najlepszej relacji jakości do ceny.",
+    prompt: `Podaj:
+- Produkt/kategorię.
+- Grupę docelową.
+- Istotny zakres cen.
 
-Genera 15 ideas SEO:
-- Títulos estilo “¿Vale la pena?”, “Mejor opción calidad-precio”, “Comparativa por presupuesto”.
-- Keywords con intención investigativa y de compra.
-- Mini explicación del ángulo y tipo de evidencia recomendada.
-- CTA sugerida para cada idea.`,
+Wygeneruj 15 pomysłów SEO:
+- Tytuły w stylu “Czy warto?”, “Najlepsza opcja jakość–cena”, “Porównanie wg budżetu”.
+- Keywordy z intencją researchową i zakupową.
+- Krótkie wyjaśnienie kąta + typ rekomendowanych dowodów.
+- Sugerowane CTA dla każdego pomysłu.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-022",
-    title: "Ideas de artículos basados en mitos y verdades del nicho",
+    title: "Pomysły na artykuły oparte na mitach i faktach w niszy",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido atractivo que explica creencias erróneas del sector.",
-    prompt: `Dame:
-- Nicho.
-- 5 mitos o creencias comunes.
-- Nivel del público.
+    category: "Pomysły na artykuły",
+    summary: "Atrakcyjne treści wyjaśniające błędne przekonania w branży.",
+    prompt: `Podaj:
+- Niszę.
+- 5 mitów lub popularnych przekonań.
+- Poziom odbiorców.
 
-Genera 12 ideas:
-- Títulos estilo “X mitos que debes dejar atrás”.
-- Keywords informacionales y curiosas.
-- Ángulo educativo + basado en autoridad.
-- Estructura recomendada.`,
+Wygeneruj 12 pomysłów:
+- Tytuły w stylu “X mitów, które musisz zostawić za sobą”.
+- Keywordy informacyjne i „ciekawostkowe”.
+- Ujęcie edukacyjne + oparte na autorytecie.
+- Rekomendowaną strukturę.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-023",
-    title: "Ideas de artículos basados en dudas precompra",
+    title: "Pomysły na artykuły oparte na wątpliwościach przed zakupem",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos diseñados para resolver dudas previas a la compra.",
-    prompt: `Dame:
-- Producto.
-- Objeciones comunes.
-- Tipo de comprador.
+    category: "Pomysły na artykuły",
+    summary: "Artykuły zaprojektowane do rozwiązywania obaw przed zakupem.",
+    prompt: `Podaj:
+- Produkt.
+- Typowe obiekcje.
+- Typ kupującego.
 
-Genera 15 ideas precompra:
-- Títulos tipo “Qué debes saber antes de…”.
-- Keywords con intención comparativa/informacional.
-- Enfoque educativo + reducción de miedo a la compra.`,
+Wygeneruj 15 pomysłów pre-buy:
+- Tytuły w stylu “Co musisz wiedzieć zanim…”.
+- Keywordy z intencją porównawczą/informacyjną.
+- Ujęcie edukacyjne + redukcja lęku przed zakupem.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-024",
-    title: "Ideas de artículos tipo 'Checklist antes de…'",
+    title: "Pomysły na artykuły w stylu „Checklist przed…”",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Checklists para contenido práctico y fácil de consumir.",
-    prompt: `Dame:
-- Nicho.
-- Acción o proceso clave que se realiza.
+    category: "Pomysły na artykuły",
+    summary: "Checklisty: treści praktyczne i łatwe do skonsumowania.",
+    prompt: `Podaj:
+- Niszę.
+- Kluczową akcję lub proces.
 
-Genera 12 ideas:
-- Títulos estilo “Checklist antes de X”.
-- Keywords long-tail muy específicas.
-- Sugerencia del checklist en bullets clave.
-- CTA final sugerido.`,
+Wygeneruj 12 pomysłów:
+- Tytuły w stylu “Checklist przed X”.
+- Bardzo konkretne long-tail keywordy.
+- Sugestię checklisty w kluczowych punktach (bullet).
+- Sugerowane CTA na końcu.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-025",
-    title: "Ideas de artículos para atacar búsquedas técnicas",
+    title: "Pomysły na artykuły celujące w techniczne wyszukiwania",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos técnicos para audiencias avanzadas.",
-    prompt: `Dame:
-- Tema técnico.
-- Nivel de dificultad.
-- Público objetivo.
+    category: "Pomysły na artykuły",
+    summary: "Techniczne artykuły dla zaawansowanych odbiorców.",
+    prompt: `Podaj:
+- Temat techniczny.
+- Poziom trudności.
+- Grupę docelową.
 
-Genera 10 ideas técnicas:
-- Títulos específicos y profesionales.
-- Keywords de baja competencia.
-- Ángulos con máximo detalle.
-- Recomendación de imágenes/tablas/datos.`,
+Wygeneruj 10 technicznych pomysłów:
+- Konkretne, profesjonalne tytuły.
+- Keywordy o niskiej konkurencji.
+- Ujęcia z maksymalną szczegółowością.
+- Rekomendację obrazów/tabel/danych.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-026",
-    title: "Ideas de artículos enfocados en maximizar tiempo y eficiencia",
+    title: "Pomysły na artykuły nastawione na oszczędność czasu i efektywność",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary:
-      "Artículos para usuarios interesados en productividad dentro del nicho.",
-    prompt: `Dame:
-- Nicho.
-- Qué procesos requieren eficiencia.
+    category: "Pomysły na artykuły",
+    summary: "Artykuły dla osób zainteresowanych produktywnością w niszy.",
+    prompt: `Podaj:
+- Niszę.
+- Jakie procesy wymagają efektywności.
 
-Genera 15 ideas:
-- Títulos estilo “Cómo optimizar…”.
-- Keywords de productividad + nicho.
-- Ángulo práctico, paso a paso.
-- CTA hacia herramienta o proceso.`,
+Wygeneruj 15 pomysłów:
+- Tytuły w stylu “Jak zoptymalizować…”.
+- Keywordy: produktywność + nisza.
+- Ujęcie praktyczne, krok po kroku.
+- CTA do narzędzia lub procesu.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-027",
-    title: "Ideas de artículos basados en errores costosos",
+    title: "Pomysły na artykuły oparte na kosztownych błędach",
     area: "SEO",
-    category: "Ideas de artículos",
+    category: "Pomysły na artykuły",
     summary:
-      "Contenido que alerta sobre errores que cuestan dinero, tiempo o reputación.",
-    prompt: `Dame:
-- Nicho.
-- 5 errores costosos frecuentes.
+      "Treści ostrzegające przed błędami, które kosztują pieniądze, czas lub reputację.",
+    prompt: `Podaj:
+- Niszę.
+- 5 częstych kosztownych błędów.
 
-Genera 12 ideas:
-- Títulos estilo “Errores que te cuestan X”.
-- Keywords informacionales y de advertencia.
-- Enfoque basado en prevención y ahorro.
-- Recomendación de CTAs.`,
+Wygeneruj 12 pomysłów:
+- Tytuły w stylu “Błędy, które kosztują cię X”.
+- Keywordy informacyjne i ostrzegawcze.
+- Ujęcie: prewencja i oszczędność.
+- Rekomendacje CTA.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-028",
-    title: "Ideas de artículos basados en casos de fracaso",
+    title: "Pomysły na artykuły oparte na przypadkach porażki",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos que enseñan a través de errores reales o ficticios.",
-    prompt: `Dame:
-- Nicho.
-- Error típico que produce fracaso.
-- Tipo de lector (novato/intermedio/experto).
+    category: "Pomysły na artykuły",
+    summary: "Artykuły uczące poprzez błędy realne lub fikcyjne.",
+    prompt: `Podaj:
+- Niszę.
+- Typowy błąd prowadzący do porażki.
+- Typ czytelnika (nowicjusz/średniozaawansowany/ekspert).
 
-Genera 10 ideas:
-- Títulos estilo “Cómo arruiné X y qué aprendí”.
-- Keywords informacionales.
-- Ángulo narrativo + lecciones prácticas.`,
+Wygeneruj 10 pomysłów:
+- Tytuły w stylu “Jak zepsułem/am X i czego się nauczyłem/am”.
+- Keywordy informacyjne.
+- Kąt narracyjny + praktyczne lekcje.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-029",
-    title: "Ideas de artículos para búsquedas largas (long-form content)",
+    title: "Pomysły na artykuły pod długie wyszukiwania (long-form content)",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos detallados para rankear en contenidos largos.",
-    prompt: `Dame:
-- Nicho.
-- Tema principal.
+    category: "Pomysły na artykuły",
+    summary: "Szczegółowe artykuły do rankowania na długie treści.",
+    prompt: `Podaj:
+- Niszę.
+- Główny temat.
 
-Genera 10 ideas long-form:
-- Títulos tipo guía avanzada.
-- Keywords long-tail y de alto valor.
-- Estructura sugerida de 10+ secciones.`,
+Wygeneruj 10 long-form pomysłów:
+- Tytuły w stylu zaawansowanego poradnika.
+- Long-tail keywordy o wysokiej wartości.
+- Sugerowaną strukturę 10+ sekcji.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-030",
-    title: "Ideas de artículos basados en principios, fundamentos o leyes",
+    title: "Pomysły na artykuły oparte na zasadach, fundamentach lub „prawach”",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos evergreen basados en principios inmutables.",
-    prompt: `Dame:
-- Nicho.
-- 5 fundamentos básicos del tema.
+    category: "Pomysły na artykuły",
+    summary: "Evergreen treści oparte na niezmiennych zasadach.",
+    prompt: `Podaj:
+- Niszę.
+- 5 podstawowych fundamentów tematu.
 
-Genera 12 ideas:
-- Títulos tipo “Leyes de X”.
-- Keywords informacionales y educativas.
-- Ángulos universales que funcionan todo el año.`,
+Wygeneruj 12 pomysłów:
+- Tytuły w stylu “Prawa X”.
+- Keywordy informacyjne i edukacyjne.
+- Uniwersalne ujęcia, które działają cały rok.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-031",
-    title: "Ideas de artículos basados en la historia del nicho",
+    title: "Pomysły na artykuły oparte na historii niszy",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos que explican la evolución histórica de un tema.",
-    prompt: `Dame:
-- Nicho.
-- Periodos importantes.
-- Innovaciones clave.
+    category: "Pomysły na artykuły",
+    summary: "Artykuły wyjaśniające historyczną ewolucję tematu.",
+    prompt: `Podaj:
+- Niszę.
+- Ważne okresy.
+- Kluczowe innowacje.
 
-Genera 10 ideas:
-- Títulos educativos e históricos.
-- Keywords tipo “historia de…”.
-- Enfoques narrativos y técnicos.`,
+Wygeneruj 10 pomysłów:
+- Edukacyjne i historyczne tytuły.
+- Keywordy typu “historia…”.
+- Ujęcia narracyjne i techniczne.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-032",
-    title: "Ideas de artículos sobre estadísticas y datos actualizados",
+    title: "Pomysły na artykuły oparte na aktualnych statystykach i danych",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos basados en cifras, reportes y datos relevantes.",
-    prompt: `Dame:
-- Nicho.
-- Año actual.
-- Tipo de datos disponibles.
+    category: "Pomysły na artykuły",
+    summary: "Artykuły oparte na liczbach, raportach i istotnych danych.",
+    prompt: `Podaj:
+- Niszę.
+- Bieżący rok.
+- Typ dostępnych danych.
 
-Genera 15 ideas:
-- Títulos estilo “Estadísticas de X”.
-- Keywords informacionales.
-- Enfoque en datos útiles para tomar decisiones.`,
+Wygeneruj 15 pomysłów:
+- Tytuły w stylu “Statystyki X”.
+- Keywordy informacyjne.
+- Ujęcie: dane wspierające decyzje.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-033",
-    title: "Ideas de artículos basados en predicciones y futuro del nicho",
+    title: "Pomysły na artykuły oparte na prognozach i przyszłości niszy",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido futurista basado en tendencias y proyecciones.",
-    prompt: `Dame:
-- Nicho.
-- Tendencias actuales.
-- Proyecciones posibles.
+    category: "Pomysły na artykuły",
+    summary: "Futurystyczne treści oparte na trendach i projekcjach.",
+    prompt: `Podaj:
+- Niszę.
+- Aktualne trendy.
+- Możliwe prognozy.
 
-Genera 12 ideas:
-- Títulos tipo “El futuro de…”.
-- Keywords informacionales.
-- Enfoque analítico y predictivo.`,
+Wygeneruj 12 pomysłów:
+- Tytuły typu “Przyszłość…”.
+- Keywordy informacyjne.
+- Ujęcie analityczne i predykcyjne.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-034",
-    title: "Ideas de artículos para audiencia que ama tutoriales paso a paso",
+    title: "Pomysły na artykuły dla osób kochających tutoriale krok po kroku",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos ultra prácticos y orientados a acción.",
-    prompt: `Dame:
-- Nicho.
-- Tarea o proceso que la gente quiere aprender.
+    category: "Pomysły na artykuły",
+    summary: "Bardzo praktyczne i nastawione na działanie treści.",
+    prompt: `Podaj:
+- Niszę.
+- Zadanie lub proces, którego ludzie chcą się nauczyć.
 
-Genera 15 ideas:
-- Títulos tipo “Cómo hacer…”.
-- Keywords instructivas.
-- Enfoque paso a paso.`,
+Wygeneruj 15 pomysłów:
+- Tytuły typu “Jak zrobić…”.
+- Instruktażowe keywordy.
+- Ujęcie krok po kroku.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-035",
-    title: "Ideas de artículos ultra compartibles para redes",
+    title: "Super-udostępnialne pomysły na artykuły do social mediów",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido diseñado para SEO + viralidad.",
-    prompt: `Dame:
-- Nicho.
-- Tipo de contenido que se comparte más (tips, listas, errores, historias).
+    category: "Pomysły na artykuły",
+    summary: "Treści zaprojektowane pod SEO + wiralność.",
+    prompt: `Podaj:
+- Niszę.
+- Typ treści, który jest najczęściej udostępniany (tipy, listy, błędy, historie).
 
-Genera 12 ideas:
-- Títulos con alto CTR.
-- Keywords informacionales.
-- Ángulo diseñado para viralidad orgánica.`,
+Wygeneruj 12 pomysłów:
+- Tytuły z wysokim CTR.
+- Keywordy informacyjne.
+- Ujęcie zaprojektowane pod organiczną wiralność.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-036",
-    title: "Ideas de artículos enfocados en ahorro de dinero",
+    title: "Pomysły na artykuły nastawione na oszczędzanie pieniędzy",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos de optimización financiera dentro del nicho.",
-    prompt: `Dame:
-- Nicho.
-- 5 formas reales de ahorrar dinero.
+    category: "Pomysły na artykuły",
+    summary: "Finansowa optymalizacja w ramach niszy.",
+    prompt: `Podaj:
+- Niszę.
+- 5 realnych sposobów na oszczędzanie.
 
-Genera 12 ideas:
-- Títulos estilo “Cómo ahorrar en…”.
-- Keywords transaccionales e informacionales.
-- Ángulos prácticos y medibles.`,
+Wygeneruj 12 pomysłów:
+- Tytuły w stylu “Jak oszczędzić na…”.
+- Keywordy transakcyjne i informacyjne.
+- Kąty praktyczne i mierzalne.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-037",
-    title: "Ideas de artículos sobre hábitos y rutinas aplicadas al nicho",
+    title: "Pomysły na artykuły o nawykach i rutynach w niszy",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos que mezclan hábitos con mejora en el nicho específico.",
-    prompt: `Dame:
-- Nicho.
-- Hábitos clave relevantes.
+    category: "Pomysły na artykuły",
+    summary: "Treści łączące nawyki z poprawą w konkretnej niszy.",
+    prompt: `Podaj:
+- Niszę.
+- Kluczowe nawyki.
 
-Genera 12 ideas:
-- Títulos híbridos (“Hábitos para mejorar X”).
-- Keywords evergreen.
-- Enfoque educativo y motivacional.`,
+Wygeneruj 12 pomysłów:
+- Hybrydowe tytuły (“Nawyki, które poprawiają X”).
+- Evergreen keywordy.
+- Ujęcie edukacyjne i motywacyjne.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-038",
-    title: "Ideas de artículos para capturar usuarios confundidos",
+    title: "Pomysły na artykuły dla „zagubionych” użytkowników",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary:
-      "Artículos diseñados para usuarios perdidos o confundidos en el proceso.",
-    prompt: `Dame:
-- Nicho.
-- Conceptos que más confunden a la audiencia.
+    category: "Pomysły na artykuły",
+    summary: "Treści dla osób zdezorientowanych w procesie.",
+    prompt: `Podaj:
+- Niszę.
+- Pojęcia, które najbardziej mylą odbiorców.
 
-Genera 15 ideas:
-- Títulos estilo “Qué significa…”.
-- Keywords definicionales.
-- Explicaciones claras y simples.`,
+Wygeneruj 15 pomysłów:
+- Tytuły w stylu “Co oznacza…”.
+- Keywordy definicyjne.
+- Jasne i proste wyjaśnienia.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-039",
-    title: "Ideas de artículos basados en hacks y atajos",
+    title: "Pomysły na artykuły o hackach i skrótach",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido tipo hacks para atraer tráfico rápido.",
-    prompt: `Dame:
-- Nicho.
-- Acción o proceso donde existan hacks.
+    category: "Pomysły na artykuły",
+    summary: "Treści typu hacki, by szybko łapać ruch.",
+    prompt: `Podaj:
+- Niszę.
+- Akcję lub proces, gdzie istnieją hacki.
 
-Genera 15 ideas:
-- Títulos tipo “X hacks para…”.
-- Keywords long-tail.
-- Enfoque práctico y corto.`,
+Wygeneruj 15 pomysłów:
+- Tytuły typu “X hacków na…”.
+- Long-tail keywordy.
+- Ujęcie praktyczne i krótkie.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-040",
-    title: "Ideas de artículos basados en mejores prácticas del nicho",
+    title: "Pomysły na artykuły o najlepszych praktykach w niszy",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos educativos que enseñan buenas prácticas.",
-    prompt: `Dame:
-- Nicho.
-- Prácticas más importantes.
+    category: "Pomysły na artykuły",
+    summary: "Edukacyjne treści uczące dobrych praktyk.",
+    prompt: `Podaj:
+- Niszę.
+- Najważniejsze praktyki.
 
-Genera 12 ideas:
-- Títulos estilo “Buenas prácticas para…”.
-- Keywords informacionales.
-- Enfoque profesional y claro.`,
+Wygeneruj 12 pomysłów:
+- Tytuły w stylu “Dobre praktyki dla…”.
+- Keywordy informacyjne.
+- Ujęcie profesjonalne i klarowne.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-041",
-    title: "Ideas de artículos basados en frameworks y modelos del nicho",
+    title: "Pomysły na artykuły o frameworkach i modelach w niszy",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary:
-      "Artículos profundos que explican modelos/metodologías reconocidas.",
-    prompt: `Dame:
-- Nicho.
-- Frameworks o modelos conocidos.
-- Nivel de público (básico/intermedio/experto).
+    category: "Pomysły na artykuły",
+    summary: "Głębokie treści wyjaśniające uznane modele/metodologie.",
+    prompt: `Podaj:
+- Niszę.
+- Znane frameworki lub modele.
+- Poziom odbiorców (podstawowy/średniozaawansowany/ekspert).
 
-Genera 12 ideas:
-- Títulos estilo “Modelo X explicado con ejemplos”.
-- Keywords educativas y evergreen.
-- Ángulo explicativo + aplicación práctica.`,
+Wygeneruj 12 pomysłów:
+- Tytuły w stylu “Model X wyjaśniony na przykładach”.
+- Evergreen keywordy edukacyjne.
+- Kąt: wyjaśnienie + praktyczne zastosowanie.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-042",
-    title: "Ideas de artículos orientados a principiantes",
+    title: "Pomysły na artykuły dla początkujących",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido para atraer tráfico de personas nuevas en el nicho.",
-    prompt: `Dame:
-- Nicho.
-- Principales conceptos básicos.
+    category: "Pomysły na artykuły",
+    summary: "Treści dla osób nowych w niszy, pod ruch z góry lejka.",
+    prompt: `Podaj:
+- Niszę.
+- Główne podstawowe pojęcia.
 
-Genera 15 ideas:
-- Títulos tipo “Introducción a…”.
-- Keywords informacionales nivel básico.
-- Enfoque claro, simple y didáctico.`,
+Wygeneruj 15 pomysłów:
+- Tytuły typu “Wprowadzenie do…”.
+- Keywordy informacyjne dla poziomu podstawowego.
+- Ujęcie jasne, proste i dydaktyczne.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-043",
-    title: "Ideas de artículos nicho vs. nicho (comparativas grandes)",
+    title: "Pomysły na artykuły: nisza vs nisza (duże porównania)",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Comparaciones entre categorías completas o disciplinas.",
-    prompt: `Dame:
-- Los 2 nichos a comparar.
-- Perfil del lector.
+    category: "Pomysły na artykuły",
+    summary: "Porównania całych kategorii lub dyscyplin.",
+    prompt: `Podaj:
+- 2 nisze do porównania.
+- Profil czytelnika.
 
-Genera 12 ideas:
-- Títulos estilo “X vs Y: ¿Cuál elegir?”.
-- Keywords comparativas con intención investigativa.
-- Ángulos basados en beneficios, dificultades, resultados.`,
+Wygeneruj 12 pomysłów:
+- Tytuły w stylu “X vs Y: co wybrać?”.
+- Keywordy porównawcze z intencją researchową.
+- Kąty oparte na korzyściach, trudnościach i rezultatach.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-044",
-    title: "Ideas de artículos basados en mini-investigaciones",
+    title: "Pomysły na artykuły oparte na mini-badaniach",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos con micro estudios, datos o análisis.",
-    prompt: `Dame:
-- Nicho.
-- Tipo de análisis posible (precios, tiempos, rendimiento).
+    category: "Pomysły na artykuły",
+    summary: "Artykuły z mikro-studiami, danymi lub analizą.",
+    prompt: `Podaj:
+- Niszę.
+- Rodzaj możliwej analizy (ceny, czas, wydajność).
 
-Genera 12 ideas:
-- Títulos tipo “Analizamos X durante 30 días”.
-- Keywords investigativas.
-- Enfoque de resultados y conclusiones.`,
+Wygeneruj 12 pomysłów:
+- Tytuły typu “Analizowaliśmy X przez 30 dni”.
+- Keywordy badawcze.
+- Ujęcie: wyniki i wnioski.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-045",
-    title: "Ideas de artículos para capturar búsquedas tipo 'qué es'",
+    title: "Pomysły na artykuły pod zapytania typu „co to jest”",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary:
-      "Contenido definicional para usuarios que buscan entender conceptos.",
-    prompt: `Dame:
-- Nicho.
-- 10 conceptos difíciles.
+    category: "Pomysły na artykuły",
+    summary: "Treści definicyjne dla osób chcących zrozumieć pojęcia.",
+    prompt: `Podaj:
+- Niszę.
+- 10 trudnych pojęć.
 
-Genera 15 ideas:
-- Títulos estilo “Qué es X y cómo funciona”.
-- Keywords definicionales.
-- Ángulos simples con ejemplos reales.`,
+Wygeneruj 15 pomysłów:
+- Tytuły w stylu “Co to jest X i jak działa”.
+- Keywordy definicyjne.
+- Proste ujęcia z realnymi przykładami.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-046",
-    title: "Ideas de artículos basados en preguntas frecuentes",
+    title: "Pomysły na artykuły oparte na często zadawanych pytaniach (FAQ)",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos formados por FAQs reales del nicho.",
-    prompt: `Dame:
-- Nicho.
-- 10 preguntas reales o muy buscadas.
+    category: "Pomysły na artykuły",
+    summary: "Artykuły zbudowane na realnych FAQ w niszy.",
+    prompt: `Podaj:
+- Niszę.
+- 10 realnych lub bardzo popularnych pytań.
 
-Genera 15 ideas:
-- Títulos tipo pregunta.
-- Keywords de alto volumen.
-- Enfoque directo y útil.`,
+Wygeneruj 15 pomysłów:
+- Tytuły w formie pytania.
+- Keywordy o wysokim wolumenie.
+- Ujęcie bezpośrednie i użyteczne.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-047",
-    title: "Ideas de artículos estilo 'la verdad sobre…'",
+    title: "Pomysły na artykuły w stylu „prawda o…”",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido revelador que rompe creencias del público.",
-    prompt: `Dame:
-- Nicho.
-- Creencia popular a cuestionar.
+    category: "Pomysły na artykuły",
+    summary: "Treści demaskujące, które rozbijają przekonania odbiorców.",
+    prompt: `Podaj:
+- Niszę.
+- Popularne przekonanie do podważenia.
 
-Genera 12 ideas:
-- Títulos estilo “La verdad sobre X”.
-- Keywords informacionales.
-- Enfoque honesto y crítico.`,
+Wygeneruj 12 pomysłów:
+- Tytuły w stylu “Prawda o X”.
+- Keywordy informacyjne.
+- Ujęcie szczere i krytyczne.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-048",
-    title: "Ideas de artículos sobre beneficios ocultos",
+    title: "Pomysły na artykuły o ukrytych korzyściach",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos que destacan ventajas desconocidas.",
-    prompt: `Dame:
-- Nicho.
-- Beneficios poco mencionados.
+    category: "Pomysły na artykuły",
+    summary: "Artykuły podkreślające mało znane zalety.",
+    prompt: `Podaj:
+- Niszę.
+- Mało wspominane korzyści.
 
-Genera 12 ideas:
-- Títulos estilo “Beneficios que nadie menciona de X”.
-- Keywords con búsqueda baja pero alta intención.
-- Ángulo revelador.`,
+Wygeneruj 12 pomysłów:
+- Tytuły w stylu “Korzyści X, o których nikt nie mówi”.
+- Keywordy o niskim wolumenie, ale wysokiej intencji.
+- Ujęcie „odkrywcze”.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-049",
-    title: "Ideas de artículos tipo 'roadmap para…'",
+    title: "Pomysły na artykuły w stylu „roadmap”",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos que funcionan como hojas de ruta completas.",
-    prompt: `Dame:
-- Nicho.
-- Objetivo final del usuario.
+    category: "Pomysły na artykuły",
+    summary: "Artykuły działające jak kompletne mapy drogowe.",
+    prompt: `Podaj:
+- Niszę.
+- Docelowy cel użytkownika.
 
-Genera 10 ideas:
-- Títulos “Roadmap para X”.
-- Keywords evergreen.
-- Pasos claros de inicio a experto.`,
+Wygeneruj 10 pomysłów:
+- Tytuły “Roadmap do X”.
+- Evergreen keywordy.
+- Jasne kroki od startu do poziomu eksperta.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-050",
-    title: "Ideas de artículos sobre alternativas a marcas, apps o productos",
+    title: "Pomysły na artykuły o alternatywach dla marek, aplikacji lub produktów",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Ideas para usuarios que buscan soluciones alternativas.",
-    prompt: `Dame:
-- Producto/app.
-- Qué buscan los usuarios (precio, funciones, simplicidad).
+    category: "Pomysły na artykuły",
+    summary: "Dla osób szukających alternatywnych rozwiązań.",
+    prompt: `Podaj:
+- Produkt/aplikację.
+- Czego szukają użytkownicy (cena, funkcje, prostota).
 
-Genera 12 ideas:
-- Títulos “Alternativas a X”.
-- Keywords comparativas.
-- Pros y contras recomendados en cada artículo.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Alternatywy dla X”.
+- Keywordy porównawcze.
+- Rekomendowane plusy i minusy w każdym artykule.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-051",
-    title: "Ideas de artículos basados en cálculos o métricas",
+    title: "Pomysły na artykuły oparte na obliczeniach i metrykach",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos útiles que integran fórmulas y cálculos.",
-    prompt: `Dame:
-- Nicho.
-- Métrica o cálculo importante.
+    category: "Pomysły na artykuły",
+    summary: "Użyteczne artykuły zawierające formuły i kalkulacje.",
+    prompt: `Podaj:
+- Niszę.
+- Ważną metrykę lub obliczenie.
 
-Genera 10 ideas:
-- Títulos “Cómo calcular X”.
-- Keywords muy específicas y útiles.
-- Enfoque práctico con pasos.`,
+Wygeneruj 10 pomysłów:
+- Tytuły “Jak obliczyć X”.
+- Bardzo konkretne, przydatne keywordy.
+- Ujęcie praktyczne z krokami.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-052",
-    title: "Ideas de artículos para búsquedas transaccionales suaves",
+    title: "Pomysły na artykuły pod „miękką” intencję transakcyjną",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido para usuarios interesados pero no listos para comprar.",
-    prompt: `Dame:
-- Producto/servicio.
-- Objeciones.
+    category: "Pomysły na artykuły",
+    summary: "Dla użytkowników zainteresowanych, ale jeszcze niegotowych do zakupu.",
+    prompt: `Podaj:
+- Produkt/usługę.
+- Obiekcje.
 
-Genera 12 ideas:
-- Títulos “Qué tener en cuenta antes de…”.
-- Keywords informacionales + intención de compra.
-- Enfoque comparativo suave.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Na co zwrócić uwagę przed…”.
+- Keywordy informacyjne + intencja zakupowa.
+- Lekkie, porównawcze ujęcie.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-053",
-    title: "Ideas de artículos sobre cómo mejorar resultados existentes",
+    title: "Pomysły na artykuły o poprawianiu istniejących wyników",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos que ayudan al lector a optimizar su situación actual.",
-    prompt: `Dame:
-- Nicho.
-- Resultado que buscan mejorar.
+    category: "Pomysły na artykuły",
+    summary: "Treści pomagające zoptymalizować obecną sytuację czytelnika.",
+    prompt: `Podaj:
+- Niszę.
+- Jaki wynik/rezultat chcą poprawić.
 
-Genera 10 ideas:
-- Títulos “Cómo mejorar X”.
-- Keywords de optimización.
-- Estructura enfocada en mejoras rápidas + profundas.`,
+Wygeneruj 10 pomysłów:
+- Tytuły “Jak poprawić X”.
+- Keywordy optymalizacyjne.
+- Struktura pod szybkie + głębokie ulepszenia.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-054",
-    title: "Ideas de artículos sobre casos extremos (positivos o negativos)",
+    title: "Pomysły na artykuły o skrajnych przypadkach (dobrych lub złych)",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido persuasivo basado en casos excepcionales.",
-    prompt: `Dame:
-- Nicho.
-- Caso extremo (bueno o malo).
+    category: "Pomysły na artykuły",
+    summary: "Perswazyjne treści oparte na wyjątkowych sytuacjach.",
+    prompt: `Podaj:
+- Niszę.
+- Skrajny przypadek (dobry lub zły).
 
-Genera 10 ideas:
-- Títulos estilo “El caso extremo de…”.
-- Keywords analíticas.
-- Ángulo narrativo + enseñanza.`,
+Wygeneruj 10 pomysłów:
+- Tytuły w stylu “Skrajny przypadek…”.
+- Keywordy analityczne.
+- Ujęcie narracyjne + nauka.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-055",
-    title: "Ideas de artículos basados en experiencias personales",
+    title: "Pomysły na artykuły oparte na osobistych doświadczeniach",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos estilo storytelling con alto valor SEO.",
-    prompt: `Dame:
-- Nicho.
-- Experiencia real (tuya o de cliente).
+    category: "Pomysły na artykuły",
+    summary: "Storytellingowe artykuły o wysokiej wartości SEO.",
+    prompt: `Podaj:
+- Niszę.
+- Realne doświadczenie (twoje lub klienta).
 
-Genera 12 ideas:
-- Títulos narrativos.
-- Keywords humanizadas (“mi experiencia con X”).
-- Enfoque testimonial.`,
+Wygeneruj 12 pomysłów:
+- Narracyjne tytuły.
+- „Uhumanizowane” keywordy (“moje doświadczenie z X”).
+- Ujęcie testimonialowe.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-056",
-    title: "Ideas de artículos basados en herramientas gratuitas",
+    title: "Pomysły na artykuły o darmowych narzędziach",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos comparativos y tutoriales sobre herramientas gratis.",
-    prompt: `Dame:
-- Nicho.
-- Herramientas gratuitas disponibles.
+    category: "Pomysły na artykuły",
+    summary: "Porównania i tutoriale o darmowych narzędziach.",
+    prompt: `Podaj:
+- Niszę.
+- Dostępne darmowe narzędzia.
 
-Genera 15 ideas:
-- Títulos “Mejores herramientas gratis para X”.
-- Keywords investigativas.
-- Pros, contras y mejores usos.`,
+Wygeneruj 15 pomysłów:
+- Tytuły “Najlepsze darmowe narzędzia do X”.
+- Keywordy researchowe.
+- Plusy, minusy i najlepsze zastosowania.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-057",
-    title: "Ideas de artículos sobre productividad aplicada al nicho",
+    title: "Pomysły na artykuły o produktywności w niszy",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos combinando productividad y especialidad.",
-    prompt: `Dame:
-- Nicho.
-- Problema de productividad común.
+    category: "Pomysły na artykuły",
+    summary: "Treści łączące produktywność i specjalizację.",
+    prompt: `Podaj:
+- Niszę.
+- Typowy problem z produktywnością.
 
-Genera 15 ideas:
-- Títulos “Cómo ser más productivo en…”.
-- Keywords long-tail.
-- Ángulos prácticos.`,
+Wygeneruj 15 pomysłów:
+- Tytuły “Jak być bardziej produktywnym w…”.
+- Long-tail keywordy.
+- Praktyczne ujęcia.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-058",
-    title: "Ideas de artículos basados en temporadas o fechas clave",
+    title: "Pomysły na artykuły oparte na sezonach lub kluczowych datach",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido temporal basado en eventos, estaciones o tendencias.",
-    prompt: `Dame:
-- Nicho.
-- Fechas importantes al año.
+    category: "Pomysły na artykuły",
+    summary: "Treści sezonowe oparte na wydarzeniach, porach roku lub trendach.",
+    prompt: `Podaj:
+- Niszę.
+- Ważne daty w roku.
 
-Genera 12 ideas:
-- Títulos “Guía para X en temporada Y”.
-- Keywords estacionales.
-- Enfoque práctico y oportuno.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Poradnik do X w sezonie Y”.
+- Sezonowe keywordy.
+- Ujęcie praktyczne i „na czas”.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-059",
-    title: "Ideas de artículos para posicionar en nichos saturados",
+    title: "Pomysły na artykuły do pozycjonowania w nasyconych niszach",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary:
-      "Artículos creativos para destacar en mercados altamente competidos.",
-    prompt: `Dame:
-- Nicho saturado.
-- Diferenciadores posibles.
+    category: "Pomysły na artykuły",
+    summary: "Kreatywne treści, by wyróżnić się w bardzo konkurencyjnych rynkach.",
+    prompt: `Podaj:
+- Nasyconą niszę.
+- Możliwe wyróżniki.
 
-Genera 12 ideas:
-- Títulos poco utilizados.
-- Keywords low-competition.
-- Enfoque original y profundo.`,
+Wygeneruj 12 pomysłów:
+- Nietypowe tytuły.
+- Low-competition keywordy.
+- Oryginalne i głębokie ujęcie.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-060",
-    title: "Ideas de artículos con enfoque psicológico",
+    title: "Pomysły na artykuły z perspektywą psychologiczną",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido que integra psicología y comportamiento humano.",
-    prompt: `Dame:
-- Nicho.
-- Comportamientos típicos del usuario.
+    category: "Pomysły na artykuły",
+    summary: "Treści łączące psychologię i zachowania człowieka.",
+    prompt: `Podaj:
+- Niszę.
+- Typowe zachowania użytkownika.
 
-Genera 12 ideas:
-- Títulos “La psicología detrás de…”.
-- Keywords informacionales.
-- Enfoque conductual y analítico.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Psychologia stojąca za…”.
+- Keywordy informacyjne.
+- Ujęcie behawioralne i analityczne.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-061",
-    title: "Ideas de artículos basados en sesgos cognitivos aplicados al nicho",
+    title: "Pomysły na artykuły oparte na biasach poznawczych w niszy",
     area: "SEO",
-    category: "Ideas de artículos",
+    category: "Pomysły na artykuły",
     summary:
-      "Artículos profundos que explican cómo los sesgos afectan decisiones del usuario.",
-    prompt: `Dame:
-- Nicho.
-- 5 sesgos cognitivos comunes en ese contexto.
+      "Głębokie treści wyjaśniające, jak błędy poznawcze wpływają na decyzje użytkownika.",
+    prompt: `Podaj:
+- Niszę.
+- 5 typowych błędów poznawczych w tym kontekście.
 
-Genera 12 ideas:
-- Títulos estilo “El sesgo X y cómo afecta Y”.
-- Keywords psicología + nicho.
-- Ángulo práctico para aplicar en la vida real.`,
+Wygeneruj 12 pomysłów:
+- Tytuły w stylu “Błąd poznawczy X i jak wpływa na Y”.
+- Keywordy: psychologia + nisza.
+- Praktyczny kąt do zastosowania w realnym życiu.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-062",
-    title: "Ideas de artículos para errores comunes del usuario",
+    title: "Pomysły na artykuły o częstych błędach użytkowników",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido evergreen centrado en evitar fallos frecuentes.",
-    prompt: `Dame:
-- Nicho.
-- 10 errores comunes.
+    category: "Pomysły na artykuły",
+    summary: "Evergreen treści skoncentrowane na unikaniu typowych pomyłek.",
+    prompt: `Podaj:
+- Niszę.
+- 10 częstych błędów.
 
-Genera 15 ideas:
-- Títulos “Errores que debes evitar al…”.
-- Keywords informacionales claras.
-- Enfoque práctico + soluciones rápidas.`,
+Wygeneruj 15 pomysłów:
+- Tytuły “Błędy, których musisz unikać, gdy…”.
+- Jasne keywordy informacyjne.
+- Ujęcie praktyczne + szybkie rozwiązania.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-063",
     title:
-      "Ideas de artículos basados en costos, presupuestos y finanzas del nicho",
+      "Pomysły na artykuły o kosztach, budżetach i finansach w niszy",
     area: "SEO",
-    category: "Ideas de artículos",
+    category: "Pomysły na artykuły",
     summary:
-      "Artículos con enfoque económico para atraer búsquedas transaccionales.",
-    prompt: `Dame:
-- Nicho.
-- Rangos de precio.
+      "Treści z perspektywą finansową pod zapytania transakcyjne.",
+    prompt: `Podaj:
+- Niszę.
+- Przedziały cenowe.
 
-Genera 12 ideas:
-- Títulos “Cuánto cuesta X en 2025”.
-- Keywords comparativas + transaccionales.
-- Ángulos con pros, contras y rangos reales.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Ile kosztuje X w 2025”.
+- Keywordy porównawcze + transakcyjne.
+- Ujęcia z plusami, minusami i realnymi widełkami.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-064",
-    title: "Ideas de artículos sobre tendencias emergentes",
+    title: "Pomysły na artykuły o trendach wschodzących",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary:
-      "Contenido basado en nuevas tecnologías, hábitos o comportamientos.",
-    prompt: `Dame:
-- Nicho.
-- 5 tendencias del año.
+    category: "Pomysły na artykuły",
+    summary: "Treści oparte na nowych technologiach, nawykach lub zachowaniach.",
+    prompt: `Podaj:
+- Niszę.
+- 5 trendów roku.
 
-Genera 10 ideas:
-- Títulos “Tendencias en X que marcarán el año”.
-- Keywords frescas.
-- Explicación de impacto + oportunidades.`,
+Wygeneruj 10 pomysłów:
+- Tytuły “Trendy w X, które zdefiniują rok”.
+- „Świeże” keywordy.
+- Wyjaśnienie wpływu + okazje.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-065",
-    title: "Ideas de artículos sobre historias de fracaso y aprendizaje",
+    title: "Pomysły na artykuły o historiach porażek i lekcji",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary:
-      "Artículos basados en errores reales del nicho con aprendizajes fuertes.",
-    prompt: `Dame:
-- Nicho.
-- 5 historias o casos de fracaso.
+    category: "Pomysły na artykuły",
+    summary: "Treści oparte na realnych błędach i mocnych wnioskach.",
+    prompt: `Podaj:
+- Niszę.
+- 5 historii lub przypadków porażki.
 
-Genera 10 ideas:
-- Títulos estilo “Lo que aprendimos de X”.
-- Keywords narrativas.
-- Ángulos educativos + reflexión.`,
+Wygeneruj 10 pomysłów:
+- Tytuły w stylu “Czego nauczyliśmy się z X”.
+- Keywordy narracyjne.
+- Ujęcia edukacyjne + refleksja.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-066",
-    title: "Ideas de artículos basados en controversias del nicho",
+    title: "Pomysły na artykuły o kontrowersjach w niszy",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido que atrae búsquedas gracias a debates y discusiones.",
-    prompt: `Dame:
-- Nicho.
-- 5 temas polémicos.
+    category: "Pomysły na artykuły",
+    summary: "Treści przyciągające ruch dzięki debatom i dyskusjom.",
+    prompt: `Podaj:
+- Niszę.
+- 5 kontrowersyjnych tematów.
 
-Genera 12 ideas:
-- Títulos “La polémica detrás de X”.
-- Keywords investigativas.
-- Enfoque objetivo y equilibrado.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Kontrowersja wokół X”.
+- Keywordy badawcze.
+- Ujęcie obiektywne i zbalansowane.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-067",
-    title: "Ideas de artículos para búsquedas de 'cuánto tiempo tarda…'",
+    title: "Pomysły na artykuły pod wyszukiwania typu „ile to trwa…”",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos optimizados para búsquedas de estimación temporal.",
-    prompt: `Dame:
-- Nicho.
-- Acciones o procesos comunes.
+    category: "Pomysły na artykuły",
+    summary: "Treści pod estymację czasu i planowanie.",
+    prompt: `Podaj:
+- Niszę.
+- Typowe akcje lub procesy.
 
-Genera 12 ideas:
-- Títulos “Cuánto tarda en…”.
-- Keywords muy específicas.
-- Enfoque práctico con rangos realistas.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Ile trwa…”.
+- Bardzo konkretne keywordy.
+- Ujęcie praktyczne z realistycznymi widełkami.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-068",
-    title: "Ideas de artículos para búsquedas de 'cómo empezar en…'",
+    title: "Pomysły na artykuły pod wyszukiwania typu „jak zacząć…”",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido ideal para atraer principiantes al nicho.",
-    prompt: `Dame:
-- Nicho.
-- Starter pack de 5 pasos.
+    category: "Pomysły na artykuły",
+    summary: "Treści idealne dla początkujących w niszy.",
+    prompt: `Podaj:
+- Niszę.
+- Starter pack 5 kroków.
 
-Genera 15 ideas:
-- Títulos “Cómo empezar en…”.
-- Keywords básicas con alto volumen.
-- Estructura paso a paso.`,
+Wygeneruj 15 pomysłów:
+- Tytuły “Jak zacząć w…”.
+- Podstawowe keywordy o wysokim wolumenie.
+- Struktura krok po kroku.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-069",
-    title: "Ideas de artículos basados en hacks y trucos rápidos",
+    title: "Pomysły na artykuły o hackach i szybkich trikach",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos altamente guardables por el usuario.",
-    prompt: `Dame:
-- Nicho.
-- 10 trucos rápidos.
+    category: "Pomysły na artykuły",
+    summary: "Treści, które użytkownicy chętnie zapisują.",
+    prompt: `Podaj:
+- Niszę.
+- 10 szybkich trików.
 
-Genera 12 ideas:
-- Títulos tipo “10 hacks para X”.
-- Keywords long-tail.
-- Enfoque práctico y directo.`,
+Wygeneruj 12 pomysłów:
+- Tytuły typu “10 hacków na X”.
+- Long-tail keywordy.
+- Ujęcie praktyczne i bezpośrednie.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-070",
-    title: "Ideas de artículos sobre análisis de datos del nicho",
+    title: "Pomysły na artykuły o analizie danych w niszy",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos basados en interpretación de cifras o estadísticas.",
-    prompt: `Dame:
-- Nicho.
-- Tipos de datos disponibles.
+    category: "Pomysły na artykuły",
+    summary: "Treści oparte na interpretacji liczb i statystyk.",
+    prompt: `Podaj:
+- Niszę.
+- Typy dostępnych danych.
 
-Genera 10 ideas:
-- Títulos “Qué dicen los datos sobre X”.
-- Keywords investigativas.
-- Enfoque visual, analítico y explicativo.`,
+Wygeneruj 10 pomysłów:
+- Tytuły “Co mówią dane o X”.
+- Keywordy badawcze.
+- Ujęcie wizualne, analityczne i wyjaśniające.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-071",
-    title: "Ideas de artículos estilo 'ranking de mejores X'",
+    title: "Pomysły na artykuły w stylu „ranking najlepszych X”",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos comparativos ideales para tráfico masivo.",
-    prompt: `Dame:
-- Nicho.
-- Categoría a rankear.
+    category: "Pomysły na artykuły",
+    summary: "Porównawcze treści idealne pod masowy ruch.",
+    prompt: `Podaj:
+- Niszę.
+- Kategorię do rankingu.
 
-Genera 15 ideas:
-- Títulos “Los mejores X del año”.
-- Keywords extremadamente buscadas.
-- Comparativa clara con pros y contras.`,
+Wygeneruj 15 pomysłów:
+- Tytuły “Najlepsze X roku”.
+- Bardzo popularne keywordy.
+- Jasne porównanie z plusami i minusami.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-072",
-    title: "Ideas de artículos sobre mitos y realidades",
+    title: "Pomysły na artykuły o mitach i faktach",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Desmonta creencias populares del nicho con SEO claro.",
-    prompt: `Dame:
-- Nicho.
-- 8 mitos comunes.
+    category: "Pomysły na artykuły",
+    summary: "Obalaj popularne przekonania w niszy z klarownym SEO.",
+    prompt: `Podaj:
+- Niszę.
+- 8 typowych mitów.
 
-Genera 12 ideas:
-- Títulos “Mitos y realidades de X”.
-- Keywords educativas.
-- Estructura en formato vs.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Mity i fakty o X”.
+- Keywordy edukacyjne.
+- Struktura w formacie vs.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-073",
-    title: "Ideas de artículos sobre pasos detallados (guías profundas)",
+    title: "Pomysły na artykuły z detalicznymi krokami (głębokie poradniki)",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos de tipo guía premium para atraer leads cualificados.",
-    prompt: `Dame:
-- Nicho.
-- Una meta específica.
+    category: "Pomysły na artykuły",
+    summary: "Premium poradniki pod wartościowe leady.",
+    prompt: `Podaj:
+- Niszę.
+- Konkretny cel.
 
-Genera 10 ideas:
-- Títulos “Guía completa para…”.
-- Keywords evergreen con intención alta.
-- Estructura detallada paso a paso.`,
+Wygeneruj 10 pomysłów:
+- Tytuły “Kompletny poradnik do…”.
+- Evergreen keywordy o wysokiej intencji.
+- Szczegółowa struktura krok po kroku.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-074",
-    title: "Ideas de artículos con enfoque profesional/corporativo",
+    title: "Pomysły na artykuły w ujęciu profesjonalnym/korporacyjnym",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido orientado a empresas y equipos.",
-    prompt: `Dame:
-- Nicho.
-- Sector empresarial objetivo.
+    category: "Pomysły na artykuły",
+    summary: "Treści dla firm i zespołów.",
+    prompt: `Podaj:
+- Niszę.
+- Docelowy sektor biznesowy.
 
-Genera 12 ideas:
-- Títulos “Cómo las empresas pueden…”.
-- Keywords B2B.
-- Ángulos de productividad, eficiencia o ahorro.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Jak firmy mogą…”.
+- Keywordy B2B.
+- Kąty: produktywność, efektywność lub oszczędność.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-075",
-    title: "Ideas de artículos basados en análisis de procesos",
+    title: "Pomysły na artykuły o analizie procesów",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido que descompone procesos complejos del nicho.",
-    prompt: `Dame:
-- Nicho.
-- Proceso complejo específico.
+    category: "Pomysły na artykuły",
+    summary: "Treści rozkładające złożone procesy na czynniki pierwsze.",
+    prompt: `Podaj:
+- Niszę.
+- Konkretny złożony proces.
 
-Genera 10 ideas:
-- Títulos “Cómo funciona el proceso de X”.
-- Keywords detalladas.
-- Explicación simple + visual.`,
+Wygeneruj 10 pomysłów:
+- Tytuły “Jak działa proces X”.
+- Szczegółowe keywordy.
+- Proste wyjaśnienie + elementy wizualne.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-076",
-    title: "Ideas de artículos basados en preguntas existenciales del nicho",
+    title: "Pomysły na artykuły o „egzystencjalnych” pytaniach w niszy",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos filosóficos que exploran temas profundos.",
-    prompt: `Dame:
-- Nicho.
-- Pregunta existencial recurrente.
+    category: "Pomysły na artykuły",
+    summary: "Filozoficzne artykuły eksplorujące głębsze tematy.",
+    prompt: `Podaj:
+- Niszę.
+- Powracające pytanie egzystencjalne.
 
-Genera 10 ideas:
-- Títulos tipo “¿Realmente necesitamos X?”.
-- Keywords reflexivas.
-- Enfoque crítico y analítico.`,
+Wygeneruj 10 pomysłów:
+- Tytuły typu “Czy naprawdę potrzebujemy X?”.
+- Keywordy refleksyjne.
+- Ujęcie krytyczne i analityczne.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-077",
-    title: "Ideas de artículos sobre cómo elegir el mejor producto/servicio",
+    title: "Pomysły na artykuły: jak wybrać najlepszy produkt/usługę",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Guías de compra basadas en factores diferenciadores.",
-    prompt: `Dame:
-- Nicho.
-- 5 criterios de selección.
+    category: "Pomysły na artykuły",
+    summary: "Poradniki zakupowe oparte na kryteriach wyboru.",
+    prompt: `Podaj:
+- Niszę.
+- 5 kryteriów wyboru.
 
-Genera 12 ideas:
-- Títulos “Cómo elegir X”.
-- Keywords comparativas.
-- Enfoque práctico + checklist.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Jak wybrać X”.
+- Keywordy porównawcze.
+- Ujęcie praktyczne + checklist.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-078",
-    title: "Ideas de artículos sobre mantenimiento y cuidado",
+    title: "Pomysły na artykuły o konserwacji i dbaniu",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary:
-      "Artículos prácticos sobre conservación de productos o habilidades.",
-    prompt: `Dame:
-- Nicho.
-- Elemento a mantener/cuidar.
+    category: "Pomysły na artykuły",
+    summary: "Praktyczne treści o utrzymaniu produktów lub umiejętności.",
+    prompt: `Podaj:
+- Niszę.
+- Element do utrzymania/pielęgnacji.
 
-Genera 12 ideas:
-- Títulos “Cómo cuidar X”.
-- Keywords evergreen.
-- Guía práctica paso a paso.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Jak dbać o X”.
+- Evergreen keywordy.
+- Praktyczny poradnik krok po kroku.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-079",
-    title: "Ideas de artículos basados en hábitos del usuario",
+    title: "Pomysły na artykuły oparte na nawykach użytkowników",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido que conecta comportamientos con resultados del nicho.",
-    prompt: `Dame:
-- Nicho.
-- 10 hábitos clave del usuario.
+    category: "Pomysły na artykuły",
+    summary: "Treści łączące zachowania z wynikami w niszy.",
+    prompt: `Podaj:
+- Niszę.
+- 10 kluczowych nawyków użytkownika.
 
-Genera 12 ideas:
-- Títulos “Hábitos que mejoran X”.
-- Keywords informacionales.
-- Enfoque práctico + motivacional.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Nawyki, które poprawiają X”.
+- Keywordy informacyjne.
+- Ujęcie praktyczne + motywacyjne.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-080",
-    title: "Ideas de artículos para usuarios avanzados",
+    title: "Pomysły na artykuły dla zaawansowanych użytkowników",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido para expertos buscando soluciones de alto nivel.",
-    prompt: `Dame:
-- Nicho.
-- Tema complejo.
+    category: "Pomysły na artykuły",
+    summary: "Treści dla ekspertów szukających rozwiązań najwyższego poziomu.",
+    prompt: `Podaj:
+- Niszę.
+- Złożony temat.
 
-Genera 10 ideas:
-- Títulos avanzados con profundidad técnica.
-- Keywords long-tail expertas.
-- Enfoque en frameworks, estrategias y optimización profunda.`,
+Wygeneruj 10 pomysłów:
+- Zaawansowane tytuły z techniczną głębią.
+- Eksperckie long-tail keywordy.
+- Ujęcie: frameworki, strategie i głęboka optymalizacja.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-081",
-    title: "Ideas de artículos basados en frameworks del nicho",
+    title: "Pomysły na artykuły oparte na frameworkach w niszy",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary:
-      "Contenido profundo basado en metodologías, principios y frameworks.",
-    prompt: `Dame:
-- Nicho.
-- 3 frameworks populares o relevantes.
+    category: "Pomysły na artykuły",
+    summary: "Głębokie treści o metodach, zasadach i frameworkach.",
+    prompt: `Podaj:
+- Niszę.
+- 3 popularne lub istotne frameworki.
 
-Genera 12 ideas:
-- Títulos “El método X explicado para principiantes”.
-- Keywords educacionales.
-- Estructura orientada a principiantes y profesionales.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Metoda X wyjaśniona dla początkujących”.
+- Keywordy edukacyjne.
+- Struktura dla początkujących i profesjonalistów.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-082",
-    title: "Ideas de artículos estilo 'roadmap' o hoja de ruta",
+    title: "Pomysły na artykuły w stylu „roadmap” / mapa drogowa",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary:
-      "Artículos que muestran un camino claro de evolución dentro del nicho.",
-    prompt: `Dame:
-- Nicho.
-- Meta final del usuario.
+    category: "Pomysły na artykuły",
+    summary: "Treści pokazujące jasną drogę rozwoju w niszy.",
+    prompt: `Podaj:
+- Niszę.
+- Docelowy cel użytkownika.
 
-Genera 10 ideas:
-- Títulos “Roadmap para lograr X en 2025”.
-- Keywords de planificación.
-- Estructura paso a paso.`,
+Wygeneruj 10 pomysłów:
+- Tytuły “Roadmap: jak osiągnąć X w 2025”.
+- Keywordy planistyczne.
+- Struktura krok po kroku.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-083",
-    title: "Ideas de artículos para búsquedas del tipo '¿vale la pena?'",
+    title: "Pomysły na artykuły pod wyszukiwania typu „czy warto?”",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Opiniones fundamentadas con SEO comparativo y análisis real.",
-    prompt: `Dame:
-- Nicho.
-- Producto o herramienta.
-- Precio aproximado.
+    category: "Pomysły na artykuły",
+    summary: "Uzasadnione opinie z analizą i SEO porównawczym.",
+    prompt: `Podaj:
+- Niszę.
+- Produkt lub narzędzie.
+- Przybliżoną cenę.
 
-Genera 10 ideas:
-- Títulos “¿Vale la pena X en 2025?”.
-- Keywords comparativas.
-- Enfoque honesto con pros y contras.`,
+Wygeneruj 10 pomysłów:
+- Tytuły “Czy X jest warte w 2025?”.
+- Keywordy porównawcze.
+- Szczere ujęcie z plusami i minusami.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-084",
-    title: "Ideas de artículos sobre optimización personal dentro del nicho",
+    title: "Pomysły na artykuły o rozwoju osobistym w obrębie niszy",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary:
-      "Contenido orientado a mejorar habilidades, hábitos y rendimiento.",
-    prompt: `Dame:
-- Nicho.
-- 5 habilidades clave.
+    category: "Pomysły na artykuły",
+    summary: "Treści o poprawie umiejętności, nawyków i wydajności.",
+    prompt: `Podaj:
+- Niszę.
+- 5 kluczowych umiejętności.
 
-Genera 12 ideas:
-- Títulos “Cómo mejorar tu habilidad de X”.
-- Keywords evergreen.
-- Estructura con tips prácticos.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Jak poprawić umiejętność X”.
+- Evergreen keywordy.
+- Struktura z praktycznymi tipami.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-085",
-    title: "Ideas de artículos sobre el futuro del nicho",
+    title: "Pomysły na artykuły o przyszłości niszy",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary:
-      "Contenido predictivo que genera autoridad y búsquedas constantes.",
-    prompt: `Dame:
-- Nicho.
-- 3 cambios futuros posibles.
+    category: "Pomysły na artykuły",
+    summary: "Predykcyjne treści budujące autorytet i stały ruch.",
+    prompt: `Podaj:
+- Niszę.
+- 3 możliwe przyszłe zmiany.
 
-Genera 10 ideas:
-- Títulos “El futuro de X: tendencias para 2030”.
-- Keywords prospectivas.
-- Análisis profundo y reflexivo.`,
+Wygeneruj 10 pomysłów:
+- Tytuły “Przyszłość X: trendy do 2030”.
+- Keywordy prospektywne.
+- Głęboka, refleksyjna analiza.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-086",
-    title: "Ideas de artículos basados en microproblemas del usuario",
+    title: "Pomysły na artykuły oparte na mikroproblemach użytkownika",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido que ataca dolores pequeños pero muy buscados.",
-    prompt: `Dame:
-- Nicho.
-- 10 microproblemas reales.
+    category: "Pomysły na artykuły",
+    summary: "Treści celujące w małe bóle, ale o dużej liczbie wyszukiwań.",
+    prompt: `Podaj:
+- Niszę.
+- 10 realnych mikroproblemów.
 
-Genera 12 ideas:
-- Títulos “Cómo solucionar X rápidamente”.
-- Keywords prácticas.
-- Soluciones cortas y accionables.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Jak szybko rozwiązać X”.
+- Praktyczne keywordy.
+- Krótkie, actionable rozwiązania.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-087",
-    title: "Ideas de artículos sobre herramientas emergentes",
+    title: "Pomysły na artykuły o narzędziach wschodzących",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos sobre nuevas herramientas, apps, SaaS o plugins.",
-    prompt: `Dame:
-- Nicho.
-- 5 herramientas nuevas.
+    category: "Pomysły na artykuły",
+    summary: "Treści o nowych narzędziach: app, SaaS, pluginy.",
+    prompt: `Podaj:
+- Niszę.
+- 5 nowych narzędzi.
 
-Genera 10 ideas:
-- Títulos “La nueva herramienta que cambiará X”.
-- Keywords tipo review.
-- Enfoque en beneficios y casos reales.`,
+Wygeneruj 10 pomysłów:
+- Tytuły “Nowe narzędzie, które zmieni X”.
+- Keywordy typu review.
+- Ujęcie: korzyści i realne use-case’y.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-088",
-    title: "Ideas de artículos para búsquedas tipo 'cómo comparar X vs Y'",
+    title: "Pomysły na artykuły pod wyszukiwania typu „jak porównać X vs Y”",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Comparativas profundas que capturan intención transaccional.",
-    prompt: `Dame:
-- Nicho.
-- Dos productos, procesos o métodos.
+    category: "Pomysły na artykuły",
+    summary: "Głębokie porównania, które łapią intencję transakcyjną.",
+    prompt: `Podaj:
+- Niszę.
+- Dwa produkty, procesy lub metody.
 
-Genera 12 ideas:
-- Títulos “X vs Y: ¿Cuál es mejor para…?”.
-- Keywords comparativas fuertes.
-- Pros, contras y recomendación directa.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “X vs Y: co jest lepsze do…?”.
+- Mocne keywordy porównawcze.
+- Plusy, minusy i bezpośrednia rekomendacja.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-089",
-    title: "Ideas de artículos estilo checklist",
+    title: "Pomysły na artykuły w stylu checklist",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos tipo lista verificable para SEO fácil y guardable.",
-    prompt: `Dame:
-- Nicho.
-- Objetivo del usuario.
+    category: "Pomysły na artykuły",
+    summary: "Checklisty: łatwe do SEO i chętnie zapisywane.",
+    prompt: `Podaj:
+- Niszę.
+- Cel użytkownika.
 
-Genera 12 ideas:
-- Títulos “Checklist para X”.
-- Keywords verificables.
-- Paso a paso simplificado.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Checklist do X”.
+- Keywordy weryfikowalne.
+- Uproszczone kroki krok po kroku.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-090",
-    title: "Ideas de artículos basados en análisis de errores históricos",
+    title: "Pomysły na artykuły o analizie historycznych błędów",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos basados en historia, análisis y aprendizajes.",
-    prompt: `Dame:
-- Nicho.
-- 5 eventos/hitos importantes.
+    category: "Pomysły na artykuły",
+    summary: "Treści oparte na historii, analizie i wnioskach.",
+    prompt: `Podaj:
+- Niszę.
+- 5 ważnych wydarzeń/kamieni milowych.
 
-Genera 10 ideas:
-- Títulos “Lo que aprendimos del fracaso de X”.
-- Keywords investigativas.
-- Enfoque reflexivo + aprendizaje.`,
+Wygeneruj 10 pomysłów:
+- Tytuły “Czego nauczyliśmy się z porażki X”.
+- Keywordy badawcze.
+- Ujęcie refleksyjne + nauka.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-091",
-    title: "Ideas de artículos con enfoque de storytelling",
+    title: "Pomysły na artykuły z ujęciem storytellingowym",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos narrativos con enfoque educativo y emocional.",
-    prompt: `Dame:
-- Nicho.
-- Personaje, cliente o caso.
+    category: "Pomysły na artykuły",
+    summary: "Narracyjne treści o podejściu edukacyjnym i emocjonalnym.",
+    prompt: `Podaj:
+- Niszę.
+- Bohatera, klienta lub przypadek.
 
-Genera 10 ideas:
-- Títulos “La historia de cómo X logró Y”.
-- Keywords narrativas.
-- Enfoque humano + lecciones.`,
+Wygeneruj 10 pomysłów:
+- Tytuły “Historia jak X osiągnął Y”.
+- Keywordy narracyjne.
+- Ujęcie ludzkie + lekcje.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-092",
-    title: "Ideas de artículos basados en skills que nadie está enseñando",
+    title: "Pomysły na artykuły o skillach, których nikt nie uczy",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos diferenciados basados en habilidades ocultas.",
-    prompt: `Dame:
-- Nicho.
-- 8 skills poco conocidas.
+    category: "Pomysły na artykuły",
+    summary: "Treści wyróżniające się dzięki „ukrytym” umiejętnościom.",
+    prompt: `Podaj:
+- Niszę.
+- 8 mało znanych skillów.
 
-Genera 12 ideas:
-- Títulos “La skill que nadie te enseñó para X”.
-- Keywords long-tail.
-- Contenido revelador y práctico.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Skill, którego nikt ci nie nauczył do X”.
+- Long-tail keywordy.
+- Treść odkrywcza i praktyczna.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-093",
-    title: "Ideas de artículos sobre productividad aplicada al nicho",
+    title: "Pomysły na artykuły o produktywności w niszy",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos de eficiencia, organización y optimización.",
-    prompt: `Dame:
-- Nicho.
-- 5 tareas diarias que realizan los usuarios.
+    category: "Pomysły na artykuły",
+    summary: "Treści o efektywności, organizacji i optymalizacji.",
+    prompt: `Podaj:
+- Niszę.
+- 5 codziennych zadań użytkowników.
 
-Genera 12 ideas:
-- Títulos “Cómo ser más productivo en X”.
-- Keywords de productividad.
-- Hacks simplificados.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Jak być bardziej produktywnym w X”.
+- Keywordy produktywności.
+- Uproszczone hacki.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-094",
-    title: "Ideas de artículos para principiantes totales",
+    title: "Pomysły na artykuły dla totalnych początkujących",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido básico pero altamente buscado.",
-    prompt: `Dame:
-- Nicho.
+    category: "Pomysły na artykuły",
+    summary: "Treści podstawowe, ale bardzo często wyszukiwane.",
+    prompt: `Podaj:
+- Niszę.
 
-Genera 12 ideas:
-- Títulos “Qué es X y cómo funciona”.
-- Keywords perfectas para principiantes.
-- Explicación sencilla sin tecnicismos.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Co to jest X i jak działa”.
+- Keywordy idealne dla początkujących.
+- Proste wyjaśnienie bez technikaliów.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-095",
-    title: "Ideas de artículos estilo 'primeros pasos esenciales'",
+    title: "Pomysły na artykuły w stylu „pierwsze niezbędne kroki”",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Guías orientadas al inicio del usuario en el nicho.",
-    prompt: `Dame:
-- Nicho.
-- 5 pasos esenciales.
+    category: "Pomysły na artykuły",
+    summary: "Poradniki na start w niszy.",
+    prompt: `Podaj:
+- Niszę.
+- 5 niezbędnych kroków.
 
-Genera 10 ideas:
-- Títulos “Primeros pasos para empezar en X”.
-- Keywords informacionales.
-- Estructura guiada para principiantes.`,
+Wygeneruj 10 pomysłów:
+- Tytuły “Pierwsze kroki, by zacząć w X”.
+- Keywordy informacyjne.
+- Struktura prowadząca dla początkujących.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-096",
-    title: "Ideas de artículos sobre lo que NO se debe hacer",
+    title: "Pomysły na artykuły o tym, czego NIE robić",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido de advertencia, perfecto para SEO evergreen.",
-    prompt: `Dame:
-- Nicho.
-- 10 errores o malas prácticas.
+    category: "Pomysły na artykuły",
+    summary: "Treści ostrzegawcze, idealne pod evergreen SEO.",
+    prompt: `Podaj:
+- Niszę.
+- 10 błędów lub złych praktyk.
 
-Genera 12 ideas:
-- Títulos “Lo que NUNCA debes hacer en X”.
-- Keywords preventivas.
-- Enfoque claro y directo.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Czego NIGDY nie rób w X”.
+- Keywordy prewencyjne.
+- Ujęcie jasne i bezpośrednie.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-097",
-    title: "Ideas de artículos basados en estudios científicos o papers",
+    title: "Pomysły na artykuły oparte na badaniach naukowych lub publikacjach",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos que transforman ciencia en contenido comprensible.",
-    prompt: `Dame:
-- Nicho.
-- 3 estudios científicos relevantes.
+    category: "Pomysły na artykuły",
+    summary: "Treści, które przekładają naukę na zrozumiały język.",
+    prompt: `Podaj:
+- Niszę.
+- 3 istotne badania naukowe.
 
-Genera 10 ideas:
-- Títulos “Lo que revela la ciencia sobre X”.
-- Keywords tipo análisis.
-- Explicación en lenguaje simple.`,
+Wygeneruj 10 pomysłów:
+- Tytuły “Co mówi nauka o X”.
+- Keywordy typu analiza.
+- Wyjaśnienie prostym językiem.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-098",
-    title: "Ideas de artículos basados en motivación y desarrollo personal",
+    title: "Pomysły na artykuły o motywacji i rozwoju osobistym w niszy",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido motivacional orientado al nicho.",
-    prompt: `Dame:
-- Nicho.
-- Meta emocional o personal del usuario.
+    category: "Pomysły na artykuły",
+    summary: "Motywacyjne treści dopasowane do niszy.",
+    prompt: `Podaj:
+- Niszę.
+- Emocjonalny lub osobisty cel użytkownika.
 
-Genera 12 ideas:
-- Títulos inspiradores.
-- Keywords motivacionales.
-- Enfoque emocional + acción.`,
+Wygeneruj 12 pomysłów:
+- Inspirujące tytuły.
+- Keywordy motywacyjne.
+- Ujęcie emocjonalne + działanie.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-099",
-    title: "Ideas de artículos basados en mejoras rápidas (quick wins)",
+    title: "Pomysły na artykuły o szybkich ulepszeniach (quick wins)",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Artículos de resultados rápidos ideales para tráfico inmediato.",
-    prompt: `Dame:
-- Nicho.
-- 10 resultados rápidos posibles.
+    category: "Pomysły na artykuły",
+    summary: "Treści o szybkich efektach pod natychmiastowy ruch.",
+    prompt: `Podaj:
+- Niszę.
+- 10 możliwych szybkich rezultatów.
 
-Genera 12 ideas:
-- Títulos “Cómo lograr X en 24–72 horas”.
-- Keywords de acción inmediata.
-- Contenido práctico al instante.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Jak osiągnąć X w 24–72 godziny”.
+- Keywordy o natychmiastowej intencji działania.
+- Treści praktyczne od razu.`,
     thumbnail: "",
   },
   {
     id: "seo-ideas-100",
-    title: "Ideas de artículos basados en casos de éxito del nicho",
+    title: "Pomysły na artykuły oparte na historiach sukcesu w niszy",
     area: "SEO",
-    category: "Ideas de artículos",
-    summary: "Contenido basado en resultados reales, perfecto para autoridad.",
-    prompt: `Dame:
-- Nicho.
-- Caso de éxito o historia inspiradora.
+    category: "Pomysły na artykuły",
+    summary: "Treści oparte na realnych wynikach — idealne pod autorytet.",
+    prompt: `Podaj:
+- Niszę.
+- Historia sukcesu lub inspirujący case.
 
-Genera 12 ideas:
-- Títulos “Cómo X logró Y”.
-- Keywords de casos reales.
-- Estructura con análisis + aprendizaje.`,
+Wygeneruj 12 pomysłów:
+- Tytuły “Jak X osiągnął Y”.
+- Keywordy oparte na realnych przypadkach.
+- Struktura: analiza + wnioski.`,
     thumbnail: "",
   },
 ];

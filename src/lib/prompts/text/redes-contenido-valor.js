@@ -1,713 +1,712 @@
 export const textPromptsRedesContenidoValor = [
   {
     id: "redes-valor-001",
-    title: "Creador de contenido de valor estilo consultor premium",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
+    title: "Twórca wartościowych treści w stylu premium konsultanta",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
     summary:
-      "Genera contenido de valor profundo, estructurado y altamente guardable.",
-    prompt: `Dame:
-- Tema.
-- Nivel del público (principiante, intermedio, avanzado).
-- Objetivo del contenido.
+      "Generuje głębokie, uporządkowane i bardzo „zapisowalne” treści o wysokiej wartości.",
+    prompt: `Podaj:
+- Temat.
+- Poziom odbiorców (początkujący, średniozaawansowany, zaawansowany).
+- Cel treści.
 
-Genera:
-1) Explicación de alto valor.
-2) Insight que pocos conocen.
-3) Ejemplo práctico.
-4) CTA de guardado/compartido.
-5) Versión corta, media y larga.`,
+Wygeneruj:
+1) Wyjaśnienie o wysokiej wartości.
+2) Insight, o którym niewielu wie.
+3) Praktyczny przykład.
+4) CTA do zapisania/udostępnienia.
+5) Wersję krótką, średnią i długą.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-002",
-    title: "Lista de aprendizajes de alto valor estilo ‘consultor’",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Convierte un tema en lista de aprendizajes memorables.",
-    prompt: `Dame:
-- Tema.
-- Público.
-- Nivel de profundidad.
+    title: "Lista lekcji o wysokiej wartości w stylu „konsultanta”",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Zamienia temat w listę zapadających w pamięć wniosków.",
+    prompt: `Podaj:
+- Temat.
+- Odbiorców.
+- Poziom głębokości.
 
-Genera:
-1) 10 aprendizajes clave.
-2) 3 aprendizajes avanzados (solo expertos).
-3) 1 insight que sorprenda.
-4) Cierre poderoso y memorable.`,
+Wygeneruj:
+1) 10 kluczowych wniosków.
+2) 3 zaawansowane wnioski (tylko dla ekspertów).
+3) 1 insight, który zaskoczy.
+4) Mocne i zapamiętywalne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-003",
-    title: "Hilo educativo profundo estilo Twitter/X",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Crea hilos de alto valor que posicionan como experto.",
-    prompt: `Dame:
-- Tema.
-- Público.
-- Resultado que quieres generar.
+    title: "Głęboki wątek edukacyjny w stylu Twitter/X",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Tworzy wątki o wysokiej wartości, które pozycjonują jako eksperta.",
+    prompt: `Podaj:
+- Temat.
+- Odbiorców.
+- Rezultat, który chcesz uzyskać.
 
-Genera:
-1) Hook inicial.
-2) 8–12 tweets de valor profundo.
-3) Ejemplos reales.
-4) Cierre potente con insight final.`,
+Wygeneruj:
+1) Pierwszy hook.
+2) 8–12 tweetów z głęboką wartością.
+3) Prawdziwe przykłady.
+4) Mocne zakończenie z finalnym insightem.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-004",
-    title: "Guía fija o pinneable estilo ‘post de referencia’",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Crea un post que represente tu expertise total.",
-    prompt: `Dame:
-- Tema.
-- Público.
-- Nivel de autoridad deseado.
+    title: "Przypinana (pin) stała „ściąga” w stylu posta referencyjnego",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Tworzy post, który reprezentuje Twoje pełne know-how.",
+    prompt: `Podaj:
+- Temat.
+- Odbiorców.
+- Poziom autorytetu, jaki chcesz zbudować.
 
-Genera:
-1) Introducción clara.
-2) Explicación profunda en bullets.
-3) Mini framework propio.
-4) Conclusión accionable.
-5) CTA para seguidores nuevos.`,
+Wygeneruj:
+1) Jasne wprowadzenie.
+2) Głębokie wyjaśnienie w bulletach.
+3) Mini autorski framework.
+4) Wykonalne (actionable) podsumowanie.
+5) CTA dla nowych obserwujących.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-005",
-    title: "Framework educativo para redes (fácil de guardar)",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Crea un sistema o framework que sintetice conceptos complejos.",
-    prompt: `Dame:
-- Tema.
-- Problema común del cliente.
-- Resultado que quiere conseguir.
+    title: "Edukacyjny framework do social mediów (łatwy do zapisania)",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Tworzy system/framework, który syntetyzuje złożone koncepcje.",
+    prompt: `Podaj:
+- Temat.
+- Typowy problem klienta.
+- Rezultat, który chce osiągnąć.
 
-Genera:
-1) Framework con nombre.
-2) Explicación de cada pilar.
-3) Ejemplos prácticos.
-4) Cómo aplicarlo hoy mismo.
-5) CTA para guardarlo.`,
+Wygeneruj:
+1) Framework z nazwą.
+2) Wyjaśnienie każdego filaru.
+3) Praktyczne przykłady.
+4) Jak zastosować to jeszcze dziś.
+5) CTA, by to zapisać.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-006",
-    title: "Reels o TikToks educativos de alto valor",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Guiones cortos, dinámicos y llenos de valor.",
-    prompt: `Dame:
-- Tema.
-- Audiencia.
-- Meta del video.
+    title: "Edukacyjne Reels lub TikToki o wysokiej wartości",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Krótkie, dynamiczne scenariusze wypełnione wartością.",
+    prompt: `Podaj:
+- Temat.
+- Odbiorców.
+- Cel wideo.
 
-Genera:
-1) Hook brutal en 1 línea.
-2) 3 puntos de valor clave.
-3) Micro ejemplo.
-4) Frase de cierre memorable.
-5) CTA suave.`,
+Wygeneruj:
+1) Mocny hook w 1 linijce.
+2) 3 kluczowe punkty wartości.
+3) Mikro-przykład.
+4) Zapadające w pamięć zdanie na koniec.
+5) Delikatne CTA.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-007",
-    title: "Post tipo ‘antes y después mental’",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Cambia la perspectiva del lector en un solo post.",
-    prompt: `Dame:
-- Tema.
-- Creencia errónea del público.
-- Nueva forma correcta de verlo.
+    title: "Post typu „mentalne przed i po”",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Zmienia perspektywę odbiorcy w jednym poście.",
+    prompt: `Podaj:
+- Temat.
+- Błędne przekonanie odbiorców.
+- Nowy, poprawny sposób patrzenia.
 
-Genera:
-1) Antes → después en bullets.
-2) Explicación corta.
-3) Ejemplo.
-4) Insight adicional para expertos.`,
+Wygeneruj:
+1) Przed → po w bulletach.
+2) Krótkie wyjaśnienie.
+3) Przykład.
+4) Dodatkowy insight dla ekspertów.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-008",
-    title: "Contenido educativo basado en errores comunes",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Corrige errores con claridad y autoridad.",
-    prompt: `Dame:
-- Tema.
-- Nivel del público.
-- Error más común.
+    title: "Treść edukacyjna oparta o typowe błędy",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Koryguje błędy jasno i z autorytetem.",
+    prompt: `Podaj:
+- Temat.
+- Poziom odbiorców.
+- Najczęstszy błąd.
 
-Genera:
-1) 5 errores clave.
-2) Corrección de cada uno.
-3) Consecuencia real del error.
-4) Checklist práctico.`,
+Wygeneruj:
+1) 5 kluczowych błędów.
+2) Poprawkę dla każdego z nich.
+3) Realną konsekwencję błędu.
+4) Praktyczną checklistę.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-009",
-    title: "Post profundo estilo ‘1 verdad que nadie te dice’",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Un contenido que rompe creencias y genera autoridad inmediata.",
-    prompt: `Dame:
-- Tema.
-- Creencia tradicional.
-- Verdad oculta.
+    title: "Głęboki post w stylu „1 prawda, której nikt Ci nie mówi”",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Treść, która łamie przekonania i buduje natychmiastowy autorytet.",
+    prompt: `Podaj:
+- Temat.
+- Tradycyjne przekonanie.
+- Ukrytą prawdę.
 
-Genera:
-1) Hook poderoso.
-2) Explicación profunda.
-3) Ejemplo real.
-4) Insight final que invite a guardar.`,
+Wygeneruj:
+1) Mocny hook.
+2) Głębokie wyjaśnienie.
+3) Prawdziwy przykład.
+4) Końcowy insight, który zachęca do zapisania.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-010",
-    title: "Contenido educativo tipo ‘mapa completo del tema’",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Crea un mapa conceptual fácil de entender y compartir.",
-    prompt: `Dame:
-- Tema.
-- Público.
-- Dificultad.
+    title: "Treść edukacyjna typu „kompletna mapa tematu”",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Tworzy mapę koncepcyjną łatwą do zrozumienia i udostępnienia.",
+    prompt: `Podaj:
+- Temat.
+- Odbiorców.
+- Poziom trudności.
 
-Genera:
-1) Mapa conceptual.
-2) Explicación clara por secciones.
-3) Orden lógico de estudio.
-4) Recomendación final.`,
+Wygeneruj:
+1) Mapę koncepcyjną.
+2) Jasne wyjaśnienie według sekcji.
+3) Logiczną kolejność nauki.
+4) Finalną rekomendację.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-011",
-    title: "Carrusel educativo con mucho valor por diapositiva",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Cada slide aporta una idea fuerte, accionable y guardable.",
-    prompt: `Dame:
-- Tema.
-- Nivel del público.
-- Tono deseado.
+    title: "Edukacyjny karuzelowy post z dużą wartością na slajd",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Każdy slajd wnosi mocną, praktyczną i wartą zapisania myśl.",
+    prompt: `Podaj:
+- Temat.
+- Poziom odbiorców.
+- Pożądany ton.
 
-Genera:
-1) Slide 1: hook poderoso.
-2) Slides 2–8: ideas fuertes.
-3) Slide final: acción clara.
-4) CTA para guardar/compartir.`,
+Wygeneruj:
+1) Slajd 1: mocny hook.
+2) Slajdy 2–8: mocne idee.
+3) Ostatni slajd: jasne działanie.
+4) CTA do zapisania/udostępnienia.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-012",
-    title: "Contenido educativo basado en micro ejercicios",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Ejercicios breves que generan transformación rápida.",
-    prompt: `Dame:
-- Tema.
-- Tipo de mejora deseada.
+    title: "Treść edukacyjna oparta o mikro-ćwiczenia",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Krótkie ćwiczenia, które dają szybką zmianę.",
+    prompt: `Podaj:
+- Temat.
+- Typ pożądanej poprawy.
 
-Genera:
-1) Micro ejercicio 1.
-2) Micro ejercicio 2.
-3) Micro ejercicio 3.
-4) Resultado esperado.`,
+Wygeneruj:
+1) Mikro-ćwiczenie 1.
+2) Mikro-ćwiczenie 2.
+3) Mikro-ćwiczenie 3.
+4) Oczekiwany rezultat.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-013",
-    title: "Post educativo estilo ‘concepto en profundidad + ejemplo real’",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Transforma teoría en comprensión inmediata.",
-    prompt: `Dame:
-- Concepto.
-- Tipo de audiencia.
+    title: "Post edukacyjny: „koncepcja w głąb + realny przykład”",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Zamienia teorię w natychmiastowe zrozumienie.",
+    prompt: `Podaj:
+- Koncepcję.
+- Typ odbiorców.
 
-Genera:
-1) Explicación en profundidad.
-2) Ejemplo real aplicable.
-3) Error común.
-4) Conclusión clara.`,
+Wygeneruj:
+1) Wyjaśnienie w głąb.
+2) Realny, możliwy do zastosowania przykład.
+3) Typowy błąd.
+4) Jasne podsumowanie.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-014",
-    title: "Contenido de valor basado en frameworks mentales",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Crea un modelo mental que ayude al lector a decidir mejor.",
-    prompt: `Dame:
-- Tema.
-- Problema principal del público.
+    title: "Treść wartościowa oparta o mentalne modele (frameworki myślenia)",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Tworzy model mentalny, który pomaga podejmować lepsze decyzje.",
+    prompt: `Podaj:
+- Temat.
+- Główny problem odbiorców.
 
-Genera:
-1) Modelo mental.
-2) Cómo aplicarlo.
-3) Ejemplo práctico.
-4) Error al aplicarlo mal.`,
+Wygeneruj:
+1) Model mentalny.
+2) Jak go stosować.
+3) Praktyczny przykład.
+4) Błąd przy złym zastosowaniu.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-015",
-    title: "Contenido de autoridad basado en datos o estadísticas clave",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Posiciona autoridad usando datos y conclusiones poderosas.",
-    prompt: `Dame:
-- Tema.
-- Dato o estadística.
-- Insight detrás del dato.
+    title: "Treść autorytetu oparta o dane lub kluczowe statystyki",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Buduje autorytet, używając danych i mocnych wniosków.",
+    prompt: `Podaj:
+- Temat.
+- Dane lub statystykę.
+- Insight stojący za danymi.
 
-Genera:
-1) Explicación breve del dato.
-2) Interpretación profunda.
-3) Impacto en el lector.
-4) Acción sugerida.`,
+Wygeneruj:
+1) Krótkie wyjaśnienie danych.
+2) Głęboką interpretację.
+3) Wpływ na odbiorcę.
+4) Sugerowane działanie.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-016",
-    title: "Post tipo ‘si quieres X, entonces haz Y’",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Muy viral y muy guardable.",
-    prompt: `Dame:
-- Meta del usuario.
-- Obstáculo principal.
-- Tema.
+    title: "Post typu „jeśli chcesz X, zrób Y”",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Bardzo viralowy i bardzo „zapisowalny”.",
+    prompt: `Podaj:
+- Cel użytkownika.
+- Główną przeszkodę.
+- Temat.
 
-Genera:
-1) ‘Si quieres X, haz Y’ (5 versiones).
-2) Mini explicación de cada una.
-3) Cierre que impacte.`,
+Wygeneruj:
+1) „Jeśli chcesz X, zrób Y” (5 wersji).
+2) Mini wyjaśnienie każdej.
+3) Mocne zakończenie.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-017",
-    title: "Guía ultra práctica estilo checklist",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Contenido super guardable por claridad y utilidad.",
-    prompt: `Dame:
-- Tema.
-- Nivel del público.
+    title: "Ultra praktyczny poradnik w formie checklisty",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Treść bardzo „zapisowalna” dzięki jasności i użyteczności.",
+    prompt: `Podaj:
+- Temat.
+- Poziom odbiorców.
 
-Genera:
-1) Checklist paso a paso.
-2) Errores frecuentes.
-3) Consejos finales.
-4) CTA para guardarlo.`,
+Wygeneruj:
+1) Checklistę krok po kroku.
+2) Częste błędy.
+3) Końcowe wskazówki.
+4) CTA, by to zapisać.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-018",
-    title: "Contenido educativo estilo ‘mito vs realidad’",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Formato ideal para corregir percepciones erróneas.",
-    prompt: `Dame:
-- Tema.
-- Mito común.
-- Realidad.
+    title: "Treść edukacyjna „mit vs rzeczywistość”",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Idealny format do korygowania błędnych przekonań.",
+    prompt: `Podaj:
+- Temat.
+- Powszechny mit.
+- Rzeczywistość.
 
-Genera:
-1) Explicación del mito.
-2) Realidad basada en evidencia.
-3) Ejemplo práctico.
-4) Frase final contundente.`,
+Wygeneruj:
+1) Wyjaśnienie mitu.
+2) Rzeczywistość opartą na dowodach.
+3) Praktyczny przykład.
+4) Mocne zdanie końcowe.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-019",
-    title: "Post de valor basado en storytelling educativo",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Cuenta una historia corta que enseña una lección clave.",
-    prompt: `Dame:
-- Tema.
-- Situación real o ficticia.
+    title: "Wartościowy post oparty o edukacyjny storytelling",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Opowiada krótką historię, która uczy kluczowej lekcji.",
+    prompt: `Podaj:
+- Temat.
+- Sytuację prawdziwą lub fikcyjną.
 
-Genera:
-1) Historia breve.
-2) Aprendizaje central.
-3) Conexión con el lector.
-4) Acción sugerida.`,
+Wygeneruj:
+1) Krótką historię.
+2) Główną lekcję.
+3) Połączenie z odbiorcą.
+4) Sugerowane działanie.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-020",
-    title: "Contenido educativo basado en comparaciones claras",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Comparaciones que ayudan a entender conceptos complejos.",
-    prompt: `Dame:
-- Tema.
-- Dos conceptos que quieras comparar.
+    title: "Treść edukacyjna oparta o jasne porównania",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Porównania, które pomagają zrozumieć złożone koncepcje.",
+    prompt: `Podaj:
+- Temat.
+- Dwa koncepty, które chcesz porównać.
 
-Genera:
-1) Tabla conceptual simple.
-2) Diferencias claras.
-3) Ejemplo práctico.
-4) Conclusión con CTA de guardado.`,
+Wygeneruj:
+1) Prostą tabelę koncepcyjną.
+2) Jasne różnice.
+3) Praktyczny przykład.
+4) Podsumowanie z CTA do zapisania.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-021",
-    title: "Post educativo tipo ‘mapa del problema → solución’",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
+    title: "Post edukacyjny: „mapa problemu → rozwiązanie”",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
     summary:
-      "Modelo ideal para educar y ayudar al lector a ver el camino claro.",
-    prompt: `Dame:
-- Tema.
-- Problema principal del usuario.
-- Resultado deseado.
+      "Model idealny do edukowania i pokazania odbiorcy jasnej ścieżki.",
+    prompt: `Podaj:
+- Temat.
+- Główny problem użytkownika.
+- Pożądany rezultat.
 
-Genera:
-1) Mapa claro del problema.
-2) Explicación sencilla de por qué ocurre.
-3) Solución práctica paso a paso.
-4) Mini ejemplo real.
-5) CTA de guardado.`,
+Wygeneruj:
+1) Jasną mapę problemu.
+2) Proste wyjaśnienie, dlaczego się pojawia.
+3) Praktyczne rozwiązanie krok po kroku.
+4) Mini realny przykład.
+5) CTA do zapisania.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-022",
-    title: "Contenido de valor basado en principios fundamentales",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Explica principios base que generan comprensión profunda.",
-    prompt: `Dame:
-- Tema.
-- Público (nivel).
-- Resultado esperado.
+    title: "Treść wartościowa oparta o fundamentalne zasady",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Wyjaśnia bazowe zasady, które dają głębokie zrozumienie.",
+    prompt: `Podaj:
+- Temat.
+- Odbiorców (poziom).
+- Oczekiwany rezultat.
 
-Genera:
-1) 5 principios fundamentales.
-2) Explicación clara de cada uno.
-3) Cómo aplicarlos hoy mismo.
-4) Error común al interpretarlos.`,
+Wygeneruj:
+1) 5 fundamentalnych zasad.
+2) Jasne wyjaśnienie każdej.
+3) Jak zastosować je dziś.
+4) Typowy błąd w interpretacji.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-023",
-    title: "Guía profunda estilo ‘todo lo que necesitas saber sobre X’",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Post extremadamente guardable por su profundidad.",
-    prompt: `Dame:
-- Tema.
-- Nivel del público.
-- Enfoque principal.
+    title: "Głęboki poradnik: „wszystko, co musisz wiedzieć o X”",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Post ekstremalnie „zapisowalny” dzięki swojej głębokości.",
+    prompt: `Podaj:
+- Temat.
+- Poziom odbiorców.
+- Główny fokus.
 
-Genera:
-1) Introducción poderosa.
-2) Explicación profunda por secciones.
-3) Lista de errores comunes.
-4) Micro resumen final.
-5) CTA para guardarlo.`,
+Wygeneruj:
+1) Mocne wprowadzenie.
+2) Głębokie wyjaśnienie według sekcji.
+3) Listę typowych błędów.
+4) Krótkie podsumowanie na koniec.
+5) CTA, by to zapisać.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-024",
-    title: "Post educativo basado en señales de alerta",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Identifica señales que indican problemas específicos.",
-    prompt: `Dame:
-- Tema.
-- Situación crítica del usuario.
+    title: "Post edukacyjny oparty o sygnały ostrzegawcze",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Identyfikuje sygnały wskazujące na konkretne problemy.",
+    prompt: `Podaj:
+- Temat.
+- Krytyczną sytuację użytkownika.
 
-Genera:
-1) 7 señales de alerta.
-2) Qué significan.
-3) Riesgo si se ignoran.
-4) Qué hacer en cada caso.`,
+Wygeneruj:
+1) 7 sygnałów ostrzegawczych.
+2) Co oznaczają.
+3) Ryzyko, jeśli je zignorujesz.
+4) Co zrobić w każdym przypadku.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-025",
-    title: "Contenido tipo ‘lo que nadie te explica sobre…’",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Formato viral por generar curiosidad y transparencia.",
-    prompt: `Dame:
-- Tema.
-- Creencia típica del usuario.
-- Verdad que pocos conocen.
+    title: "Treść typu „czego nikt Ci nie wyjaśnia o…”",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Viralowy format, bo buduje ciekawość i transparentność.",
+    prompt: `Podaj:
+- Temat.
+- Typowe przekonanie użytkownika.
+- Prawdę, którą zna niewielu.
 
-Genera:
-1) Hook “lo que nadie te dice”.
-2) Explicación clara.
-3) Ejemplo práctico.
-4) Insight final guardable.`,
+Wygeneruj:
+1) Hook „czego nikt Ci nie mówi”.
+2) Jasne wyjaśnienie.
+3) Praktyczny przykład.
+4) Końcowy insight wart zapisania.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-026",
-    title: "Mini guía avanzada para público experto",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Contenido sofisticado para audiencias avanzadas.",
-    prompt: `Dame:
-- Tema.
-- Qué sabe ya el público.
-- Qué necesita aprender.
+    title: "Mini zaawansowany poradnik dla odbiorców-ekspertów",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Sofistykowane treści dla zaawansowanych odbiorców.",
+    prompt: `Podaj:
+- Temat.
+- Co odbiorcy już wiedzą.
+- Czego muszą się nauczyć.
 
-Genera:
-1) 3 conceptos avanzados.
-2) Aplicación práctica.
-3) Error avanzado típico.
-4) Ejemplo profundo.`,
+Wygeneruj:
+1) 3 zaawansowane koncepcje.
+2) Praktyczne zastosowanie.
+3) Typowy zaawansowany błąd.
+4) Głęboki przykład.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-027",
-    title: "Post educativo tipo ‘haz esto, no esto’",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Formato visualmente claro y altamente compartible.",
-    prompt: `Dame:
-- Tema.
-- Error común.
-- Acción correcta.
+    title: "Post edukacyjny typu „rób to, nie rób tego”",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Format bardzo czytelny wizualnie i mocno udostępnialny.",
+    prompt: `Podaj:
+- Temat.
+- Częsty błąd.
+- Poprawne działanie.
 
-Genera:
-1) Tabla “haz esto vs no esto”.
-2) Explicación breve.
-3) Ejemplo práctico.
-4) Cierre con CTA.`,
+Wygeneruj:
+1) Tabelę „rób to vs nie rób tego”.
+2) Krótkie wyjaśnienie.
+3) Praktyczny przykład.
+4) Zakończenie z CTA.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-028",
-    title: "Contenido educativo basado en mini estudios de caso",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Casos rápidos que enseñan lecciones clave.",
-    prompt: `Dame:
-- Tema.
-- Contexto del caso.
-- Resultado del caso.
+    title: "Treść edukacyjna oparta o mini studia przypadków",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Szybkie case’y, które uczą kluczowych lekcji.",
+    prompt: `Podaj:
+- Temat.
+- Kontekst przypadku.
+- Wynik przypadku.
 
-Genera:
-1) Historia breve.
-2) Qué se hizo.
-3) Resultado.
-4) Lección aplicable.`,
+Wygeneruj:
+1) Krótką historię.
+2) Co zrobiono.
+3) Rezultat.
+4) Lekcję do zastosowania.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-029",
-    title: "Post de valor estilo ‘micro masterclass’",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Contenido profundo en formato compacto.",
-    prompt: `Dame:
-- Tema.
-- Nivel del público.
-- Dificultad.
+    title: "Wartościowy post w stylu „mikro masterclass”",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Głęboka treść w kompaktowej formie.",
+    prompt: `Podaj:
+- Temat.
+- Poziom odbiorców.
+- Trudność.
 
-Genera:
-1) Explicación en 3 bloques.
-2) Ejemplo real.
-3) Ejercicio práctico.
-4) Resumen final.`,
+Wygeneruj:
+1) Wyjaśnienie w 3 blokach.
+2) Realny przykład.
+3) Praktyczne ćwiczenie.
+4) Końcowe podsumowanie.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-030",
-    title: "Guía de herramientas útiles según etapa del proceso",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Enumera herramientas según objetivo o nivel.",
-    prompt: `Dame:
-- Tema.
-- Fase (inicio, medio, avanzado).
-- Nivel técnico del usuario.
+    title: "Przewodnik po narzędziach przydatnych na danym etapie procesu",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Wymienia narzędzia według celu lub poziomu.",
+    prompt: `Podaj:
+- Temat.
+- Etap (start, środek, zaawansowany).
+- Poziom techniczny użytkownika.
 
-Genera:
-1) Lista de herramientas (por nivel).
-2) Usos.
-3) Qué evitar.
-4) Recomendación final.`,
+Wygeneruj:
+1) Listę narzędzi (według poziomu).
+2) Zastosowania.
+3) Czego unikać.
+4) Finalną rekomendację.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-031",
-    title: "Contenido educativo estilo ‘preguntas poderosas’",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Preguntas que generan reflexión profunda.",
-    prompt: `Dame:
-- Tema.
-- Problema del usuario.
+    title: "Treść edukacyjna w stylu „mocne pytania”",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Pytania, które wywołują głęboką refleksję.",
+    prompt: `Podaj:
+- Temat.
+- Problem użytkownika.
 
-Genera:
-1) 5 preguntas profundas.
-2) Por qué son importantes.
-3) Cómo responderlas.
-4) Insight final.`,
+Wygeneruj:
+1) 5 głębokich pytań.
+2) Dlaczego są ważne.
+3) Jak na nie odpowiadać.
+4) Końcowy insight.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-032",
-    title: "Post educativo tipo ‘checklist avanzado’",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Checklist para audiencias que ya conocen lo básico.",
-    prompt: `Dame:
-- Tema.
-- Meta del usuario.
+    title: "Post edukacyjny typu „zaawansowana checklista”",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Checklista dla odbiorców, którzy znają już podstawy.",
+    prompt: `Podaj:
+- Temat.
+- Cel użytkownika.
 
-Genera:
-1) Checklist de 10 puntos.
-2) 3 puntos críticos.
-3) Señales de que lo estás haciendo bien.`,
+Wygeneruj:
+1) Checklistę 10 punktów.
+2) 3 punkty krytyczne.
+3) Sygnały, że robisz to dobrze.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-033",
-    title: "Contenido de valor basado en decisiones clave",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Ayuda a tomar decisiones evitando errores graves.",
-    prompt: `Dame:
-- Tema.
-- Elección complicada del usuario.
+    title: "Treść wartościowa oparta o kluczowe decyzje",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Pomaga podejmować decyzje, unikając poważnych błędów.",
+    prompt: `Podaj:
+- Temat.
+- Trudny wybór użytkownika.
 
-Genera:
-1) Factores clave a evaluar.
-2) Cómo decidir.
-3) Errores frecuentes.
-4) Recomendación final.`,
+Wygeneruj:
+1) Kluczowe czynniki do oceny.
+2) Jak podjąć decyzję.
+3) Częste błędy.
+4) Finalną rekomendację.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-034",
-    title: "Modelo educativo tipo ‘ruta de aprendizaje’",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Guía al usuario por un camino claro para aprender un tema.",
-    prompt: `Dame:
-- Tema.
-- Nivel actual.
-- Meta final.
+    title: "Model edukacyjny typu „ścieżka nauki”",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Prowadzi użytkownika jasną drogą do opanowania tematu.",
+    prompt: `Podaj:
+- Temat.
+- Obecny poziom.
+- Cel końcowy.
 
-Genera:
-1) Ruta de aprendizaje.
-2) Qué estudiar primero.
-3) Qué evitar.
-4) Cómo saber si avanzas.`,
+Wygeneruj:
+1) Ścieżkę nauki.
+2) Co studiować najpierw.
+3) Czego unikać.
+4) Skąd wiedzieć, że robisz postęp.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-035",
-    title: "Contenido educativo basado en preguntas frecuentes",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Responde dudas con claridad y autoridad.",
-    prompt: `Dame:
-- Tema.
-- 5 preguntas comunes.
+    title: "Treść edukacyjna oparta o najczęstsze pytania (FAQ)",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Odpowiada na wątpliwości jasno i z autorytetem.",
+    prompt: `Podaj:
+- Temat.
+- 5 częstych pytań.
 
-Genera:
-1) Respuestas claras.
-2) Mini explicación por pregunta.
-3) Resumen final.`,
+Wygeneruj:
+1) Jasne odpowiedzi.
+2) Mini wyjaśnienie do każdego pytania.
+3) Końcowe podsumowanie.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-036",
-    title: "Post educativo tipo ‘mini entrenamiento práctico’",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Guía al usuario por una práctica concreta para mejorar.",
-    prompt: `Dame:
-- Tema.
-- Resultado práctico que quiere el usuario.
+    title: "Post edukacyjny typu „mini praktyczny trening”",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Prowadzi użytkownika przez konkretną praktykę poprawy.",
+    prompt: `Podaj:
+- Temat.
+- Praktyczny rezultat, który chce uzyskać użytkownik.
 
-Genera:
-1) Ejercicio paso a paso.
-2) Errores a evitar.
-3) Resultado esperado.
-4) Siguiente paso recomendado.`,
+Wygeneruj:
+1) Ćwiczenie krok po kroku.
+2) Błędy, których unikać.
+3) Oczekiwany rezultat.
+4) Rekomendowany następny krok.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-037",
-    title: "Contenido de valor basado en cambios de mentalidad",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Ayuda al usuario a adoptar una nueva mentalidad.",
-    prompt: `Dame:
-- Mentalidad actual del usuario.
-- Mentalidad deseada.
-- Tema.
+    title: "Treść wartościowa oparta o zmianę sposobu myślenia",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Pomaga użytkownikowi przyjąć nowy mindset.",
+    prompt: `Podaj:
+- Obecny mindset użytkownika.
+- Pożądany mindset.
+- Temat.
 
-Genera:
-1) Antes vs después mental.
-2) Insight clave.
-3) Ejemplo práctico.
-4) Cambio accionable.`,
+Wygeneruj:
+1) Mentalne „przed vs po”.
+2) Kluczowy insight.
+3) Praktyczny przykład.
+4) Zmianę, którą da się wdrożyć.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-038",
-    title: "Post educativo basado en frameworks de toma de decisiones",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Ayuda a decidir mejor con herramientas cognitivas.",
-    prompt: `Dame:
-- Tema.
-- Decisión que enfrenta el usuario.
+    title: "Post edukacyjny oparty o frameworki podejmowania decyzji",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Pomaga lepiej decydować dzięki narzędziom poznawczym.",
+    prompt: `Podaj:
+- Temat.
+- Decyzję, przed którą stoi użytkownik.
 
-Genera:
-1) Framework simple.
-2) Pasos para usarlo.
-3) Ejemplo práctico.
-4) Error común.`,
+Wygeneruj:
+1) Prosty framework.
+2) Kroki użycia.
+3) Praktyczny przykład.
+4) Częsty błąd.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-039",
-    title:
-      "Contenido de valor estilo ‘pequeñas mejoras que generan grandes cambios’",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Micro optimizaciones con alto impacto.",
-    prompt: `Dame:
-- Tema.
-- Meta del usuario.
+    title: "Treść wartościowa: „małe poprawki, które dają wielkie efekty”",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Mikro-optymalizacje o dużym wpływie.",
+    prompt: `Podaj:
+- Temat.
+- Cel użytkownika.
 
-Genera:
-1) 5 micro mejoras.
-2) Impacto de cada una.
-3) Cómo implementarlas hoy.
-4) Error a evitar.`,
+Wygeneruj:
+1) 5 mikro-ulepszeń.
+2) Wpływ każdego.
+3) Jak wdrożyć je dziś.
+4) Błąd, którego unikać.`,
     thumbnail: "",
   },
   {
     id: "redes-valor-040",
-    title: "Guía educativa estilo ‘lo mínimo que debes entender para empezar’",
-    area: "Redes Sociales",
-    category: "Contenido de Valor",
-    summary: "Contenido simple, poderoso y accesible para principiantes.",
-    prompt: `Dame:
-- Tema.
-- Público principiante.
+    title: "Poradnik edukacyjny: „minimum, które musisz zrozumieć, żeby zacząć”",
+    area: "Media społecznościowe",
+    category: "Treści Wartościowe",
+    summary: "Prosta, mocna i dostępna treść dla początkujących.",
+    prompt: `Podaj:
+- Temat.
+- Odbiorców początkujących.
 
-Genera:
-1) Conceptos esenciales (3–5).
-2) Explicación ultra simple.
-3) Ejemplo aplicable.
-4) Primer paso práctico.`,
+Wygeneruj:
+1) Kluczowe pojęcia (3–5).
+2) Ultra proste wyjaśnienie.
+3) Przykład do zastosowania.
+4) Pierwszy praktyczny krok.`,
     thumbnail: "",
   },
 ];

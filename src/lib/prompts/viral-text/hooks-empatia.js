@@ -1,589 +1,589 @@
 // src/lib/prompts/viral-text/hooks-empatía.js
-// Área y categoría ÚNICAS para TODO este archivo:
-const AREA = "Hooks";
-const CATEGORY = "Empatía";
+// Unikalny obszar i kategoria dla CAŁEGO tego pliku:
+const AREA = "Hooki";
+const CATEGORY = "Empatia";
 
 export const viralTextPromptsHooksEmpatia = [
   {
     id: "viral-hook-empatia-001",
-    title: "Si te sientes así, es normal",
-    summary: "Valida emoción + abre loop con solución.",
+    title: "Jeśli czujesz się tak, to normalne",
+    summary: "Waliduje emocje + otwiera pętlę rozwiązaniem.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Actúa como guionista de Reels/TikTok. Escribe 15 hooks (1 frase, 7–12 palabras) para [AUDIENCIA] sobre [DOLOR].
-Reglas:
-- Empieza con “Si te sientes…” o “Si te pasa…”
-- Incluye validación (“es normal”, “nos pasa”, “no estás solo”).
-- Cierra con una promesa realista (“te muestro cómo salir”).
-Entrega en lista numerada.`,
+    prompt: `Działaj jak scenarzysta Reels/TikTok. Napisz 15 hooków (1 zdanie, 7–12 słów) dla [ODBIORCY] o [BÓL].
+Zasady:
+- Zacznij od „Jeśli czujesz…” albo „Jeśli ci się zdarza…”
+- Dodaj walidację („to normalne”, „to się zdarza”, „nie jesteś sam/a”).
+- Zakończ realistyczną obietnicą („pokażę ci, jak z tego wyjść”).
+Podaj w numerowanej liście.`,
   },
   {
     id: "viral-hook-empatia-002",
-    title: "No estás solo (y hay salida)",
-    summary: "Empatía directa + esperanza concreta.",
+    title: "Nie jesteś sam (i jest wyjście)",
+    summary: "Bezpośrednia empatia + konkretna nadzieja.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks para [TEMA] que incluyan “no estás solo” (o variaciones).
-Requisitos:
-- 8–11 palabras
-- Deben sonar humanos (sin frases motivacionales vacías)
-- Termina insinuando el siguiente paso (sin explicarlo completo).`,
+    prompt: `Wygeneruj 20 hooków dla [TEMAT], które zawierają „nie jesteś sam/a” (lub wariacje).
+Wymagania:
+- 8–11 słów
+- Mają brzmieć po ludzku (bez pustych motywacyjnych frazesów)
+- Na końcu zasugeruj kolejny krok (bez pełnego wyjaśniania).`,
   },
   {
     id: "viral-hook-empatia-003",
-    title: "Yo también estuve ahí",
-    summary: "Conexión por experiencia sin victimismo.",
+    title: "Ja też tam byłem/byłam",
+    summary: "Kontakt przez doświadczenie bez użalania się.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks en primera persona para [AUDIENCIA] sobre [PROBLEMA].
-Reglas:
-- Deben empezar con “Yo también…”
-- Un detalle específico (tiempo/lugar/síntoma)
-- Cierra con “y esto me ayudó”.
-Máximo 12 palabras.`,
+    prompt: `Napisz 15 hooków w pierwszej osobie dla [ODBIORCY] o [PROBLEM].
+Zasady:
+- Muszą zaczynać się od „Ja też…”
+- Dodaj 1 konkretny detal (czas/miejsce/objaw)
+- Zakończ „i to mi pomogło”.
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-empatia-004",
-    title: "Si te da pena hacer X, mira esto",
-    summary: "Empatía con vergüenza/miedo + puente a solución.",
+    title: "Jeśli wstydzisz się zrobić X, zobacz to",
+    summary: "Empatia z wstydem/strachem + most do rozwiązania.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 18 hooks para [AUDIENCIA] que sienten vergüenza de [ACCION].
-Plantilla:
-“Si te da pena [ACCION], mira esto…”
-Añade un micro-beneficio (2–4 palabras).
-Máx 12 palabras.`,
+    prompt: `Stwórz 18 hooków dla [ODBIORCY], który wstydzi się [DZIAŁANIE].
+Szablon:
+„Jeśli wstydzisz się [DZIAŁANIE], zobacz to…”
+Dodaj mikro-korzyść (2–4 słowa).
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-empatia-005",
-    title: "Esto es para ti si estás cansado",
-    summary: "Segmenta por estado emocional.",
+    title: "To jest dla ciebie, jeśli jesteś zmęczony",
+    summary: "Segmentuje po stanie emocjonalnym.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks que empiecen con:
-“Esto es para ti si…”
-Enfocado a [AUDIENCIA] que está [ESTADO] (cansado, frustrado, bloqueado).
-Incluye una promesa de alivio realista.
-Máximo 13 palabras.`,
+    prompt: `Wygeneruj 20 hooków zaczynających się od:
+„To jest dla ciebie, jeśli…”
+Skierowane do [ODBIORCY], który jest [STAN] (zmęczony, sfrustrowany, zablokowany).
+Dodaj realistyczną obietnicę ulgi.
+Maks. 13 słów.`,
   },
   {
     id: "viral-hook-empatia-006",
-    title: "Si te sientes atrasado, lee esto",
-    summary: "Empatía con comparación y progreso.",
+    title: "Jeśli czujesz, że jesteś do tyłu, przeczytaj to",
+    summary: "Empatia z porównywaniem i tempem.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks para [TEMA] sobre sentirse “atrasado”.
-Reglas:
-- Empieza con “Si sientes que vas tarde…”
-- Menciona 1 causa común (comparación, ruido, falta de plan)
-- Cierra con una promesa: “te doy un plan simple”.`,
+    prompt: `Napisz 15 hooków dla [TEMAT] o poczuciu „bycia do tyłu”.
+Zasady:
+- Zacznij od „Jeśli czujesz, że jesteś spóźniony/a…”
+- Wspomnij 1 częstą przyczynę (porównywanie, szum, brak planu)
+- Zakończ obietnicą: „dam ci prosty plan”.`,
   },
   {
     id: "viral-hook-empatia-007",
-    title: "Nadie te preparó para esto",
-    summary: "Empatía con sorpresa suave.",
+    title: "Nikt cię na to nie przygotował",
+    summary: "Empatia z łagodnym zaskoczeniem.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks que empiecen con:
-“Nadie te preparó para…”
-Tema: [TEMA].
-Reglas:
-- 7–11 palabras
-- Deben sentirse reales (situaciones comunes)
-- Insinúa que hay solución práctica.`,
+    prompt: `Stwórz 20 hooków zaczynających się od:
+„Nikt cię nie przygotował na…”
+Temat: [TEMAT].
+Zasady:
+- 7–11 słów
+- Mają brzmieć realnie (typowe sytuacje)
+- Zasugeruj, że jest praktyczne rozwiązanie.`,
   },
   {
     id: "viral-hook-empatia-008",
-    title: "Si hoy no puedes con todo, está bien",
-    summary: "Valida y ofrece siguiente micro-paso.",
+    title: "Jeśli dziś nie ogarniasz wszystkiego, to okej",
+    summary: "Waliduje i daje mikro-krok.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 18 hooks para [AUDIENCIA] con burnout o saturación en [TEMA].
-Incluye:
-- Validación (“está bien”, “es normal”)
-- Un micro-paso de 2 minutos (sin explicarlo completo)
-Máximo 14 palabras.`,
+    prompt: `Wygeneruj 18 hooków dla [ODBIORCY] z wypaleniem lub przeciążeniem w [TEMAT].
+Uwzględnij:
+- Walidację („to okej”, „to normalne”)
+- Mikro-krok na 2 minuty (bez pełnego tłumaczenia)
+Maks. 14 słów.`,
   },
   {
     id: "viral-hook-empatia-009",
-    title: "Te prometo que no eres flojo",
-    summary: "Reencuadre: falta de sistema, no falta de voluntad.",
+    title: "Obiecuję, że nie jesteś leniwy",
+    summary: "Reframing: brak systemu, nie brak woli.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks que empiecen con:
-“Te prometo que no eres flojo…”
-Tema: [TEMA]. Audiencia: [AUDIENCIA].
-Cierra con el reencuadre: “te falta [SISTEMA]”.
-Máximo 13 palabras.`,
+    prompt: `Napisz 15 hooków zaczynających się od:
+„Obiecuję, że nie jesteś leniwy/a…”
+Temat: [TEMAT]. Odbiorca: [ODBIORCA].
+Zakończ reframingiem: „brakuje ci [SYSTEMU]”.
+Maks. 13 słów.`,
   },
   {
     id: "viral-hook-empatia-010",
-    title: "Si te paraliza elegir, te entiendo",
-    summary: "Empatía con indecisión + solución breve.",
+    title: "Jeśli paraliżuje cię wybór, rozumiem cię",
+    summary: "Empatia z niezdecydowaniem + proste kryterium.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks para [AUDIENCIA] con indecisión en [TEMA].
-Reglas:
-- Empieza con “Si te paraliza…”
-- Debe incluir “te entiendo” o variación
-- Promete un criterio simple (sin explicarlo completo).`,
+    prompt: `Stwórz 20 hooków dla [ODBIORCY] z niezdecydowaniem w [TEMAT].
+Zasady:
+- Zacznij od „Jeśli paraliżuje cię…”
+- Dodaj „rozumiem cię” lub wariację
+- Obiecaj proste kryterium (bez pełnego wyjaśniania).`,
   },
 
   {
     id: "viral-hook-empatia-011",
-    title: "Si te cuesta empezar, no es tu culpa",
-    summary: "Valida + promete estructura.",
+    title: "Jeśli trudno ci zacząć, to nie twoja wina",
+    summary: "Waliduje + obiecuje strukturę.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 18 hooks:
-“Si te cuesta empezar, no es tu culpa…”
-Tema: [TEMA].
-Incluye una causa estructural concreta (falta de guía, pasos confusos, objetivo vago).
-Máximo 14 palabras.`,
+    prompt: `Wygeneruj 18 hooków:
+„Jeśli trudno ci zacząć, to nie twoja wina…”
+Temat: [TEMAT].
+Dodaj konkretną przyczynę strukturalną (brak prowadzenia, mylące kroki, niejasny cel).
+Maks. 14 słów.`,
   },
   {
     id: "viral-hook-empatia-012",
-    title: "Si te da miedo vender, esto te ayuda",
-    summary: "Empatía con venta y rechazo.",
+    title: "Jeśli boisz się sprzedawać, to ci pomoże",
+    summary: "Empatia z odrzuceniem i sprzedażą.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks para [AUDIENCIA] con miedo a vender [OFERTA].
-Plantilla:
-“Si te da miedo vender, prueba esto…”
-Añade un beneficio específico (confianza, claridad, DM, etc.).
-Máx 12 palabras.`,
+    prompt: `Stwórz 15 hooków dla [ODBIORCY], który boi się sprzedawać [OFERTA].
+Szablon:
+„Jeśli boisz się sprzedawać, spróbuj tego…”
+Dodaj konkretną korzyść (pewność, jasność, DM itd.).
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-empatia-013",
-    title: "A mí también me dio pena publicar",
-    summary: "Confesión ya-normalizada.",
+    title: "Mnie też było wstyd publikować",
+    summary: "Wyznanie, które normalizuje.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 hooks en primera persona sobre [PLATAFORMA].
-Reglas:
-- Deben empezar con “A mí también…”
-- Debe incluir “me dio pena” o “me dio miedo”
-- Cierra con “y esto fue lo que hice”.
-Máximo 13 palabras.`,
+    prompt: `Napisz 20 hooków w pierwszej osobie o [PLATFORMA].
+Zasady:
+- Muszą zaczynać się od „Mnie też…”
+- Muszą zawierać „było mi wstyd” albo „bałem/am się”
+- Zakończ „i tak to zrobiłem/zrobiłam”.
+Maks. 13 słów.`,
   },
   {
     id: "viral-hook-empatia-014",
-    title: "Si sientes que nadie te escucha",
-    summary: "Empatía con invisibilidad.",
+    title: "Jeśli czujesz, że nikt cię nie słucha",
+    summary: "Empatia z niewidzialnością.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 18 hooks para [NICHO] sobre sentirse ignorado.
-Estructura:
-“Si sientes que nadie te escucha, es por [X].”
-[X] debe ser útil y corregible (mensaje, enfoque, gancho, CTA).
-Máx 12 palabras.`,
+    prompt: `Wygeneruj 18 hooków dla [NISZA] o poczuciu bycia ignorowanym.
+Struktura:
+„Jeśli czujesz, że nikt cię nie słucha, to przez [X].”
+[X] ma być użyteczne i do poprawy (komunikat, fokus, hook, CTA).
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-empatia-015",
-    title: "Si hoy estás perdido, empieza aquí",
-    summary: "Ancla de claridad inmediata.",
+    title: "Jeśli dziś jesteś zagubiony, zacznij tutaj",
+    summary: "Kotwica natychmiastowej jasności.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks que terminen con “empieza aquí”.
-Tema: [TEMA]. Audiencia: [AUDIENCIA].
-Reglas:
-- Deben mencionar un síntoma concreto (confusión, exceso de info, estancamiento)
-- Prometer un primer paso simple.`,
+    prompt: `Stwórz 20 hooków kończących się „zacznij tutaj”.
+Temat: [TEMAT]. Odbiorca: [ODBIORCA].
+Zasady:
+- Wspomnij konkretny objaw (chaos, nadmiar info, stagnacja)
+- Obiecaj prosty pierwszy krok.`,
   },
   {
     id: "viral-hook-empatia-016",
-    title: "Si te comparas, te entiendo",
-    summary: "Empatía con comparación social.",
+    title: "Jeśli się porównujesz, rozumiem cię",
+    summary: "Empatia z porównywaniem społecznym.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 20 hooks sobre comparación en [PLATAFORMA] para [AUDIENCIA].
-Reglas:
-- Empieza con “Si te comparas…”
-- Incluye validación
-- Cierra con un reencuadre práctico (ej: “mide esto en vez”).`,
+    prompt: `Napisz 20 hooków o porównywaniu się na [PLATFORMA] dla [ODBIORCY].
+Zasady:
+- Zacznij od „Jeśli się porównujesz…”
+- Dodaj walidację
+- Zakończ praktycznym reframingiem (np. „mierz to zamiast tego”).`,
   },
   {
     id: "viral-hook-empatia-017",
-    title: "Te estás esforzando, pero con la herramienta equivocada",
-    summary: "Validación + causa concreta.",
+    title: "Staram się, ale zła rzecz cię sabotuje",
+    summary: "Walidacja + konkretna przyczyna.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks:
-“Te estás esforzando… pero con [X] equivocado.”
-Tema: [TEMA].
-[X] debe ser concreto (enfoque, táctica, canal, mensaje).
-Máx 12 palabras.`,
+    prompt: `Wygeneruj 15 hooków:
+„Staram się… ale używam złego [X].”
+Temat: [TEMAT].
+[X] ma być konkretny (fokus, taktyka, kanał, komunikat).
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-empatia-018",
-    title: "Si sientes culpa por descansar",
-    summary: "Empatía con descanso y productividad.",
+    title: "Jeśli czujesz winę za odpoczynek",
+    summary: "Empatia z odpoczynkiem i produktywnością.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 18 hooks sobre culpa por descansar para [AUDIENCIA].
-Reglas:
-- Empieza con “Si sientes culpa…”
-- Valida (“es normal”)
-- Promete un mini-cambio mental o regla práctica.`,
+    prompt: `Stwórz 18 hooków o poczuciu winy za odpoczynek dla [ODBIORCY].
+Zasady:
+- Zacznij od „Jeśli czujesz winę…”
+- Dodaj walidację („to normalne”)
+- Obiecaj małą zmianę mentalną albo praktyczną regułę.`,
   },
   {
     id: "viral-hook-empatia-019",
-    title: "Si te da ansiedad, no lo hagas así",
-    summary: "Empatía + alternativa.",
+    title: "Jeśli to wywołuje lęk, nie rób tego tak",
+    summary: "Empatia + alternatywa.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks para [TEMA] usando:
-“Si te da ansiedad, no lo hagas así…”
-Luego sugiere que hay una alternativa simple.
-Máx 12 palabras.`,
+    prompt: `Napisz 15 hooków dla [TEMAT] używając:
+„Jeśli to wywołuje lęk, nie rób tego tak…”
+Potem zasugeruj, że jest prosta alternatywa.
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-empatia-020",
-    title: "Si estás quemado, baja esto primero",
-    summary: "Burnout: reduce fricción primero.",
+    title: "Jeśli jesteś wypalony, zmniejsz to najpierw",
+    summary: "Wypalenie: najpierw redukuj tarcie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks para [AUDIENCIA] con burnout en [TEMA].
-Plantilla:
-“Si estás quemado, baja [X] primero.”
-[X] debe ser concreto (expectativas, tareas, pasos, perfección).
-Máx 11 palabras.`,
+    prompt: `Wygeneruj 15 hooków dla [ODBIORCY] z wypaleniem w [TEMAT].
+Szablon:
+„Jeśli jesteś wypalony/a, zmniejsz najpierw [X].”
+[X] ma być konkretny (oczekiwania, zadania, kroki, perfekcja).
+Maks. 11 słów.`,
   },
 
   {
     id: "viral-hook-empatia-021",
-    title: "Si te frustras con X, hay una razón",
-    summary: "Valida frustración + causa.",
+    title: "Jeśli frustruje cię X, jest powód",
+    summary: "Waliduje frustrację + przyczyna.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 20 hooks:
-“Si te frustra [X], hay una razón.”
-Tema: [TEMA].
-[X] debe ser un momento del proceso (ventas, crear contenido, aprender, etc.).
-Cierra insinuando solución.`,
+    prompt: `Stwórz 20 hooków:
+„Jeśli frustruje cię [X], jest powód.”
+Temat: [TEMAT].
+[X] ma być momentem procesu (sprzedaż, tworzenie treści, nauka itd.).
+Zakończ sugerując rozwiązanie.`,
   },
   {
     id: "viral-hook-empatia-022",
-    title: "No eres malo, te falta orden",
-    summary: "Empatía + sistema.",
+    title: "Nie jesteś słaby, brakuje ci porządku",
+    summary: "Empatia + system.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 18 hooks:
-“No eres malo en [TEMA]. Te falta [ORDEN].”
-ORDEN = estructura, guion, pasos, checklist.
-Máx 12 palabras.`,
+    prompt: `Napisz 18 hooków:
+„Nie jesteś słaby/a w [TEMAT]. Brakuje ci [PORZĄDKU].”
+PORZĄDEK = struktura, skrypt, kroki, checklist.
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-empatia-023",
-    title: "Si te sientes invisible, cambia esto",
-    summary: "Empatía + promesa de cambio.",
+    title: "Jeśli czujesz się niewidzialny, zmień to",
+    summary: "Empatia + obietnica zmiany.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks para [PLATAFORMA] con:
-“Si te sientes invisible, cambia [X].”
-[X] debe ser un elemento concreto (primer segundo, titular, CTA, enfoque).
-Máx 11 palabras.`,
+    prompt: `Wygeneruj 15 hooków dla [PLATFORMA] z:
+„Jeśli czujesz się niewidzialny/a, zmień [X].”
+[X] ma być konkretem (pierwsza sekunda, nagłówek, CTA, fokus).
+Maks. 11 słów.`,
   },
   {
     id: "viral-hook-empatia-024",
-    title: "Si estás harto de intentarlo, te entiendo",
-    summary: "Empatía fuerte + salida.",
+    title: "Jeśli masz dość prób, rozumiem cię",
+    summary: "Mocna empatia + wyjście.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 12 hooks que incluyan “estoy harto” o “estoy cansado” (en primera o segunda persona).
-Tema: [TEMA].
-Debe cerrar con esperanza concreta (“hay un camino simple”).`,
+    prompt: `Stwórz 12 hooków zawierających „mam dość” albo „jestem zmęczony/a” (w 1. lub 2. osobie).
+Temat: [TEMAT].
+Zakończ konkretną nadzieją („jest prosta droga”).`,
   },
   {
     id: "viral-hook-empatia-025",
-    title: "No te falta ganas, te falta claridad",
-    summary: "Reencuadre clásico, directo.",
+    title: "Nie brakuje ci chęci, brakuje ci jasności",
+    summary: "Klasyczny, bezpośredni reframing.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks:
-“No te faltan ganas. Te falta claridad en [X].”
-X = oferta, mensaje, siguiente paso, objetivo.
-Máx 12 palabras.`,
+    prompt: `Wygeneruj 20 hooków:
+„Nie brakuje ci chęci. Brakuje ci jasności w [X].”
+X = oferta, komunikat, następny krok, cel.
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-empatia-026",
-    title: "Si te cuesta decir que no",
-    summary: "Empatía con límites.",
+    title: "Jeśli trudno ci mówić „nie”",
+    summary: "Empatia z granicami.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks para [AUDIENCIA] sobre poner límites.
-Plantilla:
-“Si te cuesta decir que no, prueba esto…”
-Incluye beneficio (paz, foco, tiempo).
-Máx 12 palabras.`,
+    prompt: `Napisz 15 hooków dla [ODBIORCY] o stawianiu granic.
+Szablon:
+„Jeśli trudno ci mówić „nie”, spróbuj tego…”
+Dodaj korzyść (spokój, fokus, czas).
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-empatia-027",
-    title: "Si te sientes estancado, no cambies todo",
-    summary: "Empatía + micro-ajuste.",
+    title: "Jeśli utknąłeś, nie zmieniaj wszystkiego",
+    summary: "Empatia + mikro-zmiana.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks:
-“Si te sientes estancado, no cambies todo: cambia [X].”
-[X] concreto (un paso, una frase, un hábito).
-Máx 13 palabras.`,
+    prompt: `Wygeneruj 15 hooków:
+„Jeśli utknąłeś/utknęłaś, nie zmieniaj wszystkiego: zmień [X].”
+[X] konkretny (krok, zdanie, nawyk).
+Maks. 13 słów.`,
   },
   {
     id: "viral-hook-empatia-028",
-    title: "Si no te sale, no significa que no sea para ti",
-    summary: "Empatía con fracaso temporal.",
+    title: "Jeśli nie wychodzi, to nie znaczy, że to nie dla ciebie",
+    summary: "Empatia z chwilową porażką.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 12 hooks para [AUDIENCIA] con frustración en [TEMA].
-Incluye:
-- “no significa que no sea para ti”
-- una promesa de método/estructura
-Máx 14 palabras.`,
+    prompt: `Stwórz 12 hooków dla [ODBIORCY] sfrustrowanego w [TEMAT].
+Uwzględnij:
+- „to nie znaczy, że to nie dla ciebie”
+- obietnicę metody/struktury
+Maks. 14 słów.`,
   },
   {
     id: "viral-hook-empatia-029",
-    title: "Si te da vergüenza pedir precio",
-    summary: "Empatía de ventas.",
+    title: "Jeśli wstydzisz się powiedzieć cenę",
+    summary: "Empatia sprzedażowa.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks para [AUDIENCIA] que vende [OFERTA].
-Plantilla:
-“Si te da vergüenza decir tu precio, haz esto…”
-Incluye beneficio (seguridad/claridad).
-Máx 12 palabras.`,
+    prompt: `Napisz 15 hooków dla [ODBIORCY], który sprzedaje [OFERTA].
+Szablon:
+„Jeśli wstydzisz się powiedzieć cenę, zrób to…”
+Dodaj korzyść (pewność/jasność).
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-empatia-030",
-    title: "Si te sientes confundido, es porque estás haciendo 3 cosas a la vez",
-    summary: "Empatía + diagnóstico concreto.",
+    title: "Jeśli masz mętlik, to robisz 3 rzeczy naraz",
+    summary: "Empatia + konkretna diagnoza.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks con diagnóstico:
-“Si estás confundido, es porque…”
-Para [TEMA]. Incluye una causa concreta (demasiados objetivos, demasiadas audiencias, etc.).
-Máx 14 palabras.`,
+    prompt: `Wygeneruj 15 hooków diagnostycznych:
+„Jeśli masz mętlik, to dlatego że…”
+Dla [TEMAT]. Dodaj konkretną przyczynę (za dużo celów, za dużo odbiorców itd.).
+Maks. 14 słów.`,
   },
 
   {
     id: "viral-hook-empatia-031",
-    title: "Si te cuesta hablar a cámara, prueba esto",
-    summary: "Empatía a miedo escénico.",
+    title: "Jeśli trudno ci mówić do kamery, spróbuj tego",
+    summary: "Empatia z tremą.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 18 hooks para creadores que temen hablar a cámara.
-Plantilla:
-“Si te cuesta hablar a cámara, prueba esto…”
-Incluye un beneficio claro (fluidez, menos nervios, más claridad).
-Máx 12 palabras.`,
+    prompt: `Stwórz 18 hooków dla twórców bojących się mówić do kamery.
+Szablon:
+„Jeśli trudno ci mówić do kamery, spróbuj tego…”
+Dodaj jasną korzyść (płynność, mniej stresu, większa jasność).
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-empatia-032",
-    title: "Si no sabes qué publicar, no estás solo",
-    summary: "Empatía editorial.",
+    title: "Jeśli nie wiesz, co publikować, nie jesteś sam",
+    summary: "Empatia redakcyjna.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks para [PLATAFORMA]:
-“Si no sabes qué publicar, no estás solo.”
-Cierra con promesa de solución: “te doy 3 ideas hoy”.
-Máx 13 palabras.`,
+    prompt: `Wygeneruj 20 hooków dla [PLATFORMA]:
+„Jeśli nie wiesz, co publikować, nie jesteś sam/a.”
+Zakończ obietnicą: „dam ci dziś 3 pomysły”.
+Maks. 13 słów.`,
   },
   {
     id: "viral-hook-empatia-033",
-    title: "Si sientes que no avanzas, mide esto",
-    summary: "Empatía + enfoque en una métrica útil.",
+    title: "Jeśli czujesz, że stoisz w miejscu, mierz to",
+    summary: "Empatia + skupienie na użytecznej metryce.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks:
-“Si sientes que no avanzas, mide [MÉTRICA].”
-Tema: [TEMA]. Métrica debe ser simple y relevante.`,
+    prompt: `Napisz 15 hooków:
+„Jeśli czujesz, że stoisz w miejscu, mierz [METRYKA].”
+Temat: [TEMAT]. Metryka ma być prosta i trafna.`,
   },
   {
     id: "viral-hook-empatia-034",
-    title: "Si te pesa empezar de nuevo, hazlo más pequeño",
-    summary: "Empatía + micro-objetivo.",
+    title: "Jeśli ciężko ci zaczynać od nowa, zrób to mniejsze",
+    summary: "Empatia + mikro-cel.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks sobre “empezar de nuevo” en [TEMA].
-Plantilla:
-“Si te pesa empezar de nuevo, hazlo más pequeño: [X].”
-[X] acción simple.`,
+    prompt: `Wygeneruj 15 hooków o „zaczynaniu od nowa” w [TEMAT].
+Szablon:
+„Jeśli ciężko ci zaczynać od nowa, zrób to mniejsze: [X].”
+[X] = prosta akcja.`,
   },
   {
     id: "viral-hook-empatia-035",
-    title: "Si hoy no te sale, no te castigues",
-    summary: "Empatía + corrección suave.",
+    title: "Jeśli dziś ci nie idzie, nie karz się",
+    summary: "Empatia + łagodna korekta.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 12 hooks que empiecen con:
-“Si hoy no te sale…”
-Incluye “no te castigues”
-y cierra con una promesa de método.`,
+    prompt: `Stwórz 12 hooków zaczynających się od:
+„Jeśli dziś ci nie idzie…”
+Dodaj „nie karz się”
+i zakończ obietnicą metody.`,
   },
   {
     id: "viral-hook-empatia-036",
-    title: "Tu cansancio tiene sentido",
-    summary: "Valida y reencuadra.",
+    title: "Twoje zmęczenie ma sens",
+    summary: "Waliduje i przeformułowuje.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks para [AUDIENCIA] sobre cansancio en [TEMA].
-Debe incluir “tiene sentido” y una causa concreta.
-Cierra con “te doy un ajuste simple”.`,
+    prompt: `Wygeneruj 15 hooków dla [ODBIORCY] o zmęczeniu w [TEMAT].
+Musi zawierać „ma sens” i konkretną przyczynę.
+Zakończ „dam ci prostą korektę”.`,
   },
   {
     id: "viral-hook-empatia-037",
-    title: "Si estás intentando hacerlo perfecto, te entiendo",
-    summary: "Empatía con perfeccionismo.",
+    title: "Jeśli próbujesz robić wszystko perfekcyjnie, rozumiem cię",
+    summary: "Empatia z perfekcjonizmem.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 18 hooks sobre perfeccionismo para [AUDIENCIA].
-Reglas:
-- Empieza con “Si estás intentando hacerlo perfecto…”
-- Incluye “te entiendo”
-- Cierra con reencuadre: “mejor hazlo así”.
-Máx 14 palabras.`,
+    prompt: `Stwórz 18 hooków o perfekcjonizmie dla [ODBIORCY].
+Zasady:
+- Zacznij od „Jeśli próbujesz robić wszystko perfekcyjnie…”
+- Dodaj „rozumiem cię”
+- Zakończ reframingiem: „lepiej zrób to tak”.
+Maks. 14 słów.`,
   },
   {
     id: "viral-hook-empatia-038",
-    title: "Si te sientes solo en esto, comparte",
-    summary: "Empatía + llamada a comunidad.",
+    title: "Jeśli czujesz się w tym sam, napisz",
+    summary: "Empatia + wezwanie do społeczności.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 12 hooks que inviten a comentar/compartir una experiencia.
-Tema: [TEMA]. Audiencia: [AUDIENCIA].
-Debe incluir empatía (“a mí también me pasó”).`,
+    prompt: `Napisz 12 hooków zachęcających do komentarza/udziału w doświadczeniu.
+Temat: [TEMAT]. Odbiorca: [ODBIORCA].
+Musi zawierać empatię („mnie też to spotkało”).`,
   },
   {
     id: "viral-hook-empatia-039",
-    title: "Si te duele ver resultados ajenos",
-    summary: "Empatía con envidia/compare.",
+    title: "Jeśli boli cię cudzy sukces",
+    summary: "Empatia z zazdrością/porównaniem.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 12 hooks para [AUDIENCIA] sobre comparar resultados.
-Reglas:
-- Empieza con “Si te duele…”
-- Valida sin juzgar
-- Cierra con una acción concreta para reenfocar.`,
+    prompt: `Wygeneruj 12 hooków dla [ODBIORCY] o porównywaniu wyników.
+Zasady:
+- Zacznij od „Jeśli boli cię…”
+- Waliduj bez oceniania
+- Zakończ konkretną akcją, żeby wrócić do siebie.`,
   },
   {
     id: "viral-hook-empatia-040",
-    title: "Si te sientes sin rumbo, vuelve a esto",
-    summary: "Empatía + fundamento.",
+    title: "Jeśli czujesz się bez kierunku, wróć do tego",
+    summary: "Empatia + fundament.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks:
-“Si te sientes sin rumbo, vuelve a [FUNDAMENTO].”
-[FUNDAMENTO] debe ser concreto (objetivo, oferta, audiencia, rutina).
-Máx 12 palabras.`,
+    prompt: `Stwórz 15 hooków:
+„Jeśli czujesz się bez kierunku, wróć do [FUNDAMENT].”
+[FUNDAMENT] ma być konkretny (cel, oferta, odbiorca, rutyna).
+Maks. 12 słów.`,
   },
 
   {
     id: "viral-hook-empatia-041",
-    title: "Si te asusta equivocarte, mira esto",
-    summary: "Empatía con miedo al error.",
+    title: "Jeśli boisz się pomylić, zobacz to",
+    summary: "Empatia z lękiem przed błędem.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks sobre miedo a equivocarse en [TEMA].
-Plantilla:
-“Si te asusta equivocarte, mira esto…”
-Incluye un beneficio (más confianza / menos ansiedad).
-Máx 12 palabras.`,
+    prompt: `Wygeneruj 15 hooków o strachu przed pomyłką w [TEMAT].
+Szablon:
+„Jeśli boisz się pomylić, zobacz to…”
+Dodaj korzyść (więcej pewności / mniej lęku).
+Maks. 12 słów.`,
   },
   {
     id: "viral-hook-empatia-042",
-    title: "Si te sientes estresado, no estás fallando",
-    summary: "Empatía + reencuadre.",
+    title: "Jeśli jesteś zestresowany, nie przegrywasz",
+    summary: "Empatia + reframing.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 12 hooks:
-“Si estás estresado, no estás fallando.”
-Cierra con un paso simple (sin detallarlo completo).
-Tema: [TEMA].`,
+    prompt: `Napisz 12 hooków:
+„Jeśli jesteś zestresowany/a, nie przegrywasz.”
+Zakończ prostym krokiem (bez pełnego opisu).
+Temat: [TEMAT].`,
   },
   {
     id: "viral-hook-empatia-043",
-    title: "Si no te creen, te falta esto",
-    summary: "Empatía con falta de credibilidad + solución.",
+    title: "Jeśli ci nie wierzą, brakuje ci tego",
+    summary: "Empatia z brakiem wiarygodności + rozwiązanie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 15 hooks para [OFERTA] en [NICHO]:
-“Si no te creen, te falta [PRUEBA].”
-[PRUEBA] debe ser concreta (caso, demo, antes/después, números realistas).`,
+    prompt: `Wygeneruj 15 hooków dla [OFERTA] w [NISZA]:
+„Jeśli ci nie wierzą, brakuje ci [DOWODU].”
+[DOWÓD] ma być konkretny (case, demo, przed/po, realistyczne liczby).`,
   },
   {
     id: "viral-hook-empatia-044",
-    title: "Si te da miedo empezar, hazlo así",
-    summary: "Empatía + micro-acción.",
+    title: "Jeśli boisz się zacząć, zrób to tak",
+    summary: "Empatia + mikro-akcja.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 18 hooks:
-“Si te da miedo empezar, hazlo así: [X].”
-[X] debe ser un primer paso de menos de 2 minutos.
-Tema: [TEMA].`,
+    prompt: `Stwórz 18 hooków:
+„Jeśli boisz się zacząć, zrób to tak: [X].”
+[X] ma być pierwszym krokiem < 2 minuty.
+Temat: [TEMAT].`,
   },
   {
     id: "viral-hook-empatia-045",
-    title: "Si sientes que nada funciona, cambia esto primero",
-    summary: "Empatía + orden de prioridades.",
+    title: "Jeśli masz wrażenie, że nic nie działa, zmień to najpierw",
+    summary: "Empatia + priorytet.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 12 hooks:
-“Si sientes que nada funciona, cambia [X] primero.”
-[X] debe ser la palanca principal (claridad, oferta, mensaje, enfoque).
-Tema: [TEMA].`,
+    prompt: `Wygeneruj 12 hooków:
+„Jeśli masz wrażenie, że nic nie działa, zmień najpierw [X].”
+[X] = główna dźwignia (jasność, oferta, komunikat, fokus).
+Temat: [TEMAT].`,
   },
   {
     id: "viral-hook-empatia-046",
-    title: "Si te cuesta mantenerte constante, es por esto",
-    summary: "Empatía + diagnóstico.",
+    title: "Jeśli trudno ci być konsekwentnym, to przez to",
+    summary: "Empatia + diagnoza.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 15 hooks:
-“Si te cuesta ser constante, es por [X].”
-[X] debe ser una causa real (plan irreal, metas vagas, falta de rutina).
-Cierra con “y lo arreglas así…”`,
+    prompt: `Napisz 15 hooków:
+„Jeśli trudno ci być konsekwentnym, to przez [X].”
+[X] = realna przyczyna (nierealny plan, niejasne cele, brak rutyny).
+Zakończ „i naprawisz to tak…”`,
   },
   {
     id: "viral-hook-empatia-047",
-    title: "Si no te sale, simplifica",
-    summary: "Empatía + solución corta.",
+    title: "Jeśli nie wychodzi, uprość",
+    summary: "Empatia + krótkie rozwiązanie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 20 hooks:
-“Si no te sale, simplifica: [X].”
-[X] debe ser un ajuste concreto.
-Tema: [TEMA]. Máx 11 palabras.`,
+    prompt: `Wygeneruj 20 hooków:
+„Jeśli nie wychodzi, uprość: [X].”
+[X] ma być konkretną korektą.
+Temat: [TEMAT]. Maks. 11 słów.`,
   },
   {
     id: "viral-hook-empatia-048",
-    title: "Si te da pena cobrar, lee esto",
-    summary: "Empatía de precios.",
+    title: "Jeśli wstydzisz się brać zapłatę, przeczytaj to",
+    summary: "Empatia cenowa.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Crea 15 hooks para [AUDIENCIA] que cobra por [SERVICIO/PRODUCTO].
-Plantilla:
-“Si te da pena cobrar, lee esto…”
-Incluye promesa: “te doy una frase”.
-Máx 13 palabras.`,
+    prompt: `Stwórz 15 hooków dla [ODBIORCY], który pobiera opłatę za [USŁUGA/PRODUKT].
+Szablon:
+„Jeśli wstydzisz się brać zapłatę, przeczytaj to…”
+Dodaj obietnicę: „dam ci jedno zdanie”.
+Maks. 13 słów.`,
   },
   {
     id: "viral-hook-empatia-049",
-    title: "Si te sientes bloqueado, no es falta de ideas",
-    summary: "Empatía + reencuadre a estructura.",
+    title: "Jeśli czujesz blokadę, to nie brak pomysłów",
+    summary: "Empatia + reframing na strukturę.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Genera 18 hooks:
-“Si estás bloqueado, no es falta de ideas, es [X].”
-[X] = estructura, claridad, objetivo.
-Tema: [TEMA].`,
+    prompt: `Wygeneruj 18 hooków:
+„Jeśli czujesz blokadę, to nie brak pomysłów, tylko [X].”
+[X] = struktura, jasność, cel.
+Temat: [TEMAT].`,
   },
   {
     id: "viral-hook-empatia-050",
-    title: "Si te pesa hacerlo solo, únete a esto",
-    summary: "Empatía + comunidad/acción.",
+    title: "Jeśli ciężko ci robić to samemu, dołącz do tego",
+    summary: "Empatia + społeczność/działanie.",
     area: AREA,
     category: CATEGORY,
-    prompt: `Escribe 12 hooks que cierren con una invitación a comentar para recibir ayuda.
-Incluye empatía (“yo también lo viví”).
-Tema: [TEMA]. Audiencia: [AUDIENCIA].`,
+    prompt: `Napisz 12 hooków, które kończą się zaproszeniem do komentarza po wsparcie.
+Dodaj empatię („mnie też to spotkało”).
+Temat: [TEMAT]. Odbiorca: [ODBIORCA].`,
   },
 ];
