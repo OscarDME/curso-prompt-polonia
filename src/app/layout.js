@@ -22,13 +22,14 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Banco Secreto de Prompts — Plataforma del Curso",
+  title: "Tajna Baza Promptów — Platforma Kursu",
   description:
-    "Acceso privado al curso Banco Secreto de Prompts: módulos en video, recursos descargables y todo el contenido de la TSL organizado en un solo lugar.",
+    "Prywatny dostęp do kursu Tajna Baza Promptów: moduły wideo, materiały do pobrania oraz cała zawartość TSL uporządkowana w jednym miejscu.",
   icons: {
     icon: "/favicon.ico",
   },
 };
+
 
 export default function RootLayout({ children }) {
   return (
