@@ -30,7 +30,7 @@ Scenariusz wizualny:
   • Dłoń przez chwilę zostaje nieruchoma, jakby akceptowała rzeczywistość.
   • BEZ tekstu i napisów na ekranie.
 `,
-    thumbnail: "/videos/vd001.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vd001.gif",
   },
   {
     id: "video-vida-diaria-02",
@@ -59,7 +59,7 @@ Scenariusz wizualny:
   • Osoba patrzy w dół, zauważa strój, wzrusza ramionami i spogląda w kamerę ze spiskowym uśmiechem.
   • Utrzymaj kadr ogólny pokazujący kontrast góra vs dół.
 `,
-    thumbnail: "/videos/vd002.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vd002.gif",
   },
   {
     id: "video-vida-diaria-03",
@@ -87,7 +87,7 @@ Scenariusz wizualny:
   • Ten sam pokój, ten sam kadr, ale łóżko jest idealne: gładkie prześcieradła, wyrównane poduszki, koc złożony u dołu.
   • Osoba rzuca się na łóżko z miną dumy i satysfakcji.
 `,
-    thumbnail: "/videos/vd003.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vd003.gif",
   },
   {
     id: "video-vida-diaria-04",
@@ -116,7 +116,7 @@ Scenariusz wizualny:
   • Osoba siedzi już na macie, obejmuje psa, śmieje się i kapituluje.
   • Pies merda ogonem i patrzy w kamerę.
 `,
-    thumbnail: "/videos/vd004.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vd004.gif",
   },
   {
     id: "video-vida-diaria-05",
@@ -143,7 +143,7 @@ Wymagania audio:
 Tekst mówiony po hiszpańsku:
 "Curioso, solo te acuerdas de mí cuando hay entregas urgentes o crisis existencial a medianoche."
 `,
-    thumbnail: "/videos/vd005.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vd005.gif",
   },
   {
     id: "video-vida-diaria-06",
@@ -173,7 +173,7 @@ Scenariusz wizualny:
   • Puszcza przycisk, klika ikonę wyślij i rzuca telefon na łóżko z miną ulgi.
   • BEZ tekstu i napisów na ekranie.
 `,
-    thumbnail: "/videos/vd006.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vd006.gif",
   },
   {
     id: "video-vida-diaria-07",
@@ -202,7 +202,7 @@ Scenariusz wizualny:
   • W końcu jedna z osób robi wielki, dramatyczny gest rezygnacji, zrzuca kołdrę z przesadą i wstaje z łóżka.
   • Druga uśmiecha się zwycięsko i otula się mocniej, gdy pokój robi się ciemniejszy.
 `,
-    thumbnail: "/videos/vd007.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vd007.gif",
   },
   {
     id: "video-vida-diaria-08",
@@ -231,7 +231,7 @@ Scenariusz wizualny:
   • Szerszy plan: osoba dalej tańczy, stawia jedną stopę na kanapie jak na scenie.
   • Kończy z rękami w górze, dysząc, ale szczęśliwa.
 `,
-    thumbnail: "/videos/vd008.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vd008.gif",
   },
   {
     id: "video-vida-diaria-09",
@@ -260,7 +260,7 @@ Scenariusz wizualny:
   • W miękkim odbiciu na krawędzi ekranu widać deszcz.
   • Ujęcie pozostaje spokojne, budując wrażenie pauzy i inspiracji.
 `,
-    thumbnail: "/videos/vd009.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vd009.gif",
   },
   {
     id: "video-vida-diaria-10",
@@ -286,6 +286,6 @@ Wymagania audio:
 Tekst mówiony po hiszpańsku:
 "Bienvenido a este tutorial. Paso uno para procrastinar: abrir el portátil, pero tocar primero cualquier otra cosa."
 `,
-    thumbnail: "/videos/vd010.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vd010.gif",
   },
 ];

@@ -34,7 +34,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/znaków wodnych
 - Unikać czytelnych tablic i marek`,
-    thumbnail: "/images/foto-pro/viaje1.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje1.webp",
   },
   {
     id: "img-viaje-002",
@@ -65,7 +65,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez czytelnego tekstu/logo
 - Unikać nadmiernego sztucznego glow`,
-    thumbnail: "/images/foto-pro/viaje2.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje2.webp",
   },
   {
     id: "img-viaje-003",
@@ -96,7 +96,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez czytelnego tekstu/logo
 - Unikać dziwnych twarzy w tle`,
-    thumbnail: "/images/foto-pro/viaje3.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje3.webp",
   },
   {
     id: "img-viaje-004",
@@ -127,7 +127,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/znaków wodnych
 - Unikać zdeformowanych budynków`,
-    thumbnail: "/images/foto-pro/viaje4.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje4.webp",
   },
 
   // =========================
@@ -161,7 +161,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/znaków wodnych
 - Unikać „malowanych” nierealnych gór`,
-    thumbnail: "/images/foto-pro/viaje5.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje5.webp",
   },
   {
     id: "img-viaje-006",
@@ -191,7 +191,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/znaków wodnych
 - Unikać nierealnej „neonowej” wody`,
-    thumbnail: "/images/foto-pro/viaje6.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje6.webp",
   },
   {
     id: "img-viaje-007",
@@ -221,7 +221,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/znaków wodnych
 - Unikać sztucznych powtarzalnych wzorów`,
-    thumbnail: "/images/foto-pro/viaje7.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje7.webp",
   },
   {
     id: "img-viaje-008",
@@ -251,7 +251,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/znaków wodnych
 - Unikać nierealnej wody lub zduplikowanej roślinności`,
-    thumbnail: "/images/foto-pro/viaje8.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje8.webp",
   },
   {
     id: "img-viaje-009",
@@ -281,7 +281,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/znaków wodnych
 - Unikać „plastikowego” piasku i powtarzalnych wzorów`,
-    thumbnail: "/images/foto-pro/viaje9.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje9.webp",
   },
 
   // =========================
@@ -315,7 +315,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/znaków wodnych
 - Unikać deformacji kolumn/łuków`,
-    thumbnail: "/images/foto-pro/viaje10.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje10.webp",
   },
   {
     id: "img-viaje-011",
@@ -345,7 +345,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/znaków wodnych
 - Unikać czytelnych znaków i logotypów`,
-    thumbnail: "/images/foto-pro/viaje11.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje11.webp",
   },
   {
     id: "img-viaje-012",
@@ -375,7 +375,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/znaków wodnych
 - Unikać sztucznych powtarzalnych wzorów`,
-    thumbnail: "/images/foto-pro/viaje12.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje12.webp",
   },
 
   // =========================
@@ -409,7 +409,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/znaków wodnych
 - Unikać zdeformowanych lub powtórzonych obiektów`,
-    thumbnail: "/images/foto-pro/viaje13.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje13.webp",
   },
   {
     id: "img-viaje-014",
@@ -439,7 +439,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/znaków wodnych
 - Unikać „plastikowego” jedzenia`,
-    thumbnail: "/images/foto-pro/viaje14.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje14.webp",
   },
   {
     id: "img-viaje-015",
@@ -469,7 +469,7 @@ KOMPOZYCJA:
 KRYTYCZNE OGRANICZENIA:
 - Poprawna anatomicznie dłoń
 - Bez tekstu/znaków wodnych`,
-    thumbnail: "/images/foto-pro/viaje15.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje15.webp",
   },
 
   // =========================
@@ -504,7 +504,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/znaków wodnych
 - Unikać logotypów na walizkach/ubraniach`,
-    thumbnail: "/images/foto-pro/viaje16.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje16.webp",
   },
   {
     id: "img-viaje-017",
@@ -534,7 +534,7 @@ KOMPOZYCJA:
 KRYTYCZNE OGRANICZENIA:
 - Poprawna anatomicznie dłoń
 - Bez czytelnego tekstu, bez logo/znaków wodnych`,
-    thumbnail: "/images/foto-pro/viaje17.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje17.webp",
   },
   {
     id: "img-viaje-018",
@@ -564,7 +564,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/znaków wodnych
 - Unikać czytelnych marek na plecaku`,
-    thumbnail: "/images/foto-pro/viaje18.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje18.webp",
   },
   {
     id: "img-viaje-019",
@@ -594,7 +594,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/znaków wodnych
 - Unikać hiper nasyconego nieba`,
-    thumbnail: "/images/foto-pro/viaje19.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje19.webp",
   },
   {
     id: "img-viaje-020",
@@ -624,6 +624,6 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/znaków wodnych
 - Unikać czytelnych szyldów i marek`,
-    thumbnail: "/images/foto-pro/viaje20.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/viaje20.webp",
   },
 ];

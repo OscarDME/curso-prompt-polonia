@@ -36,7 +36,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Realistyczna anatomia (poprawne dłonie/stopy)`,
-    thumbnail: "/images/foto-pro/moda1.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda1.webp",
   },
   {
     id: "img-foto-moda-002",
@@ -67,7 +67,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Nie prześwietlać twarzy, unikać „plastikowej” skóry`,
-    thumbnail: "/images/foto-pro/moda2.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda2.webp",
   },
   {
     id: "img-foto-moda-003",
@@ -98,7 +98,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Poprawna anatomia, bez dodatkowych palców`,
-    thumbnail: "/images/foto-pro/moda3.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda3.webp",
   },
   {
     id: "img-foto-moda-004",
@@ -129,7 +129,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać „zalanych” cieni (chcę detal)`,
-    thumbnail: "/images/foto-pro/moda4.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda4.webp",
   },
   {
     id: "img-foto-moda-005",
@@ -160,7 +160,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać zdeformowanych ust/oczu`,
-    thumbnail: "/images/foto-pro/moda5.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda5.webp",
   },
 
   // =========================
@@ -195,7 +195,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Realistyczne proporcje ciała`,
-    thumbnail: "/images/foto-pro/moda6.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda6.webp",
   },
   {
     id: "img-foto-moda-007",
@@ -225,7 +225,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać zdeformowanych dłoni`,
-    thumbnail: "/images/foto-pro/moda7.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda7.webp",
   },
   {
     id: "img-foto-moda-008",
@@ -255,7 +255,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać zdeformowanych stóp, dziwnej anatomii`,
-    thumbnail: "/images/foto-pro/moda8.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda8.webp",
   },
   {
     id: "img-foto-moda-009",
@@ -286,7 +286,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać nadmiernej saturacji`,
-    thumbnail: "/images/foto-pro/moda9.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda9.webp",
   },
   {
     id: "img-foto-moda-010",
@@ -316,7 +316,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać nierealnych lub zbyt perfekcyjnych teł`,
-    thumbnail: "/images/foto-pro/moda10.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda10.webp",
   },
 
   // =========================
@@ -352,7 +352,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Dokładne proporcje ciała`,
-    thumbnail: "/images/foto-pro/moda11.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda11.webp",
   },
   {
     id: "img-foto-moda-012",
@@ -384,7 +384,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać dziwnych proporcji, zdeformowanych dłoni`,
-    thumbnail: "/images/foto-pro/moda12.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda12.webp",
   },
   {
     id: "img-foto-moda-013",
@@ -414,7 +414,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać artefaktów na tkaninie lub krawędziach`,
-    thumbnail: "/images/foto-pro/moda13.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda13.webp",
   },
   {
     id: "img-foto-moda-014",
@@ -444,7 +444,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać deformacji dłoni/stóp`,
-    thumbnail: "/images/foto-pro/moda14.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda14.webp",
   },
   {
     id: "img-foto-moda-015",
@@ -473,7 +473,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać „roztopionych” tkanin lub artefaktów`,
-    thumbnail: "/images/foto-pro/moda15.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda15.webp",
   },
 
   // =========================
@@ -508,7 +508,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać „fluorescencyjnej skóry”`,
-    thumbnail: "/images/foto-pro/moda16.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda16.webp",
   },
   {
     id: "img-foto-moda-017",
@@ -538,7 +538,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać przepaleń flesza na skórze`,
-    thumbnail: "/images/foto-pro/moda17.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda17.webp",
   },
   {
     id: "img-foto-moda-018",
@@ -569,7 +569,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać nadmiernego szumu lub dziwnego rozmycia`,
-    thumbnail: "/images/foto-pro/moda18.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda18.webp",
   },
   {
     id: "img-foto-moda-019",
@@ -600,7 +600,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać gigantycznych kropli lub „fake”`,
-    thumbnail: "/images/foto-pro/moda19.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda19.webp",
   },
   {
     id: "img-foto-moda-020",
@@ -631,6 +631,6 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać nadmiernego szumu lub sztucznego bluru`,
-    thumbnail: "/images/foto-pro/moda20.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/moda20.webp",
   },
 ];

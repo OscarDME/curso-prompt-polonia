@@ -27,7 +27,7 @@ Wymagania audio:
 Tekst mówiony po hiszpańsku:
 "Deja de scrollear, humano. Si tú no trabajas, ¿quién paga mis croquetas premium?"
 `,
-    thumbnail: "/videos/vids001.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vids001.gif",
   },
   {
     id: "video-viral-mixto-02",
@@ -54,7 +54,7 @@ Wymagania audio:
 Tekst mówiony po hiszpańsku:
 "Mi secreto de productividad es simple: dormir dieciséis horas al día y fingir que trabajo."
 `,
-    thumbnail: "/videos/vids002.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vids002.gif",
   },
   {
     id: "video-viral-mixto-03",
@@ -81,7 +81,7 @@ Wymagania audio:
 Tekst mówiony po hiszpańsku:
 "Soy un bebé y duermo mejor que tú. Apaga el móvil y vete a la cama, por favor."
 `,
-    thumbnail: "/videos/vids003.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vids003.gif",
   },
   {
     id: "video-viral-mixto-04",
@@ -109,7 +109,7 @@ Wymagania audio:
 Tekst mówiony po hiszpańsku:
 "Solo paso a recordar que llevo tres días sin agua y aún así sigo más vivo que tú los lunes."
 `,
-    thumbnail: "/videos/vids004.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vids004.gif",
   },
   {
     id: "video-viral-mixto-05",
@@ -137,7 +137,7 @@ Wymagania audio:
 Tekst mówiony po hiszpańsku:
 "No son ideas, son cien pestañas. Cierra algo o me voy a apagar por pura dignidad."
 `,
-    thumbnail: "/videos/vids005.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vids005.gif",
   },
   {
     id: "video-viral-mixto-06",
@@ -164,7 +164,7 @@ Wymagania audio:
 Tekst mówiony po hiszpańsku:
 "No te rindas ahora, humano. Ya me tomaste, así que mínimo haz algo épico hoy."
 `,
-    thumbnail: "/videos/vids006.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vids006.gif",
   },
   {
     id: "video-viral-mixto-07",
@@ -191,7 +191,7 @@ Wymagania audio:
 Tekst mówiony po hiszpańsku:
 "Solo pregunto: ¿yo ladro poco o ese celular es más interesante que mi carita?"
 `,
-    thumbnail: "/videos/vids007.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vids007.gif",
   },
   {
     id: "video-viral-mixto-08",
@@ -218,7 +218,7 @@ Wymagania audio:
 Tekst mówiony po hiszpańsku:
 "No hay comida nueva desde ayer, solo dudas nuevas. Ciérrame y toma agua, campeón."
 `,
-    thumbnail: "/videos/vids008.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vids008.gif",
   },
   {
     id: "video-viral-mixto-09",
@@ -245,7 +245,7 @@ Wymagania audio:
 Tekst mówiony po hiszpańsku:
 "Yo no soy mascota, soy jefe de seguridad. Cualquier hoja que se mueva será investigada."
 `,
-    thumbnail: "/videos/vids0090.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vids0090.gif",
   },
   {
     id: "video-viral-mixto-10",
@@ -272,6 +272,6 @@ Wymagania audio:
 Tekst mówiony po hiszpańsku:
 "Me compras suave y caro, pero solo me visitas a las tres de la mañana, qué falta de respeto."
 `,
-    thumbnail: "/videos/vids010.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/vids010.gif",
   },
 ];

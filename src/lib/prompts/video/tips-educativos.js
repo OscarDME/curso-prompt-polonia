@@ -21,7 +21,7 @@ Ogólne instrukcje:
 Scenariusz (po hiszpańsku, maks. 8 sekund):
 "Para estudiar mejor, usa bloques de veinticinco minutos, descansa cinco y repite tres veces."
 `,
-    thumbnail: "/videos/tips001.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/tips001.gif",
   },
   {
     id: "video-tip-edu-02",
@@ -42,7 +42,7 @@ Scena:
 Scenariusz po hiszpańsku:
 "Cuando quieras memorizar algo, explícalo con tus propias palabras, como si se lo contaras a un amigo."
 `,
-    thumbnail: "/videos/tips002.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/tips002.gif",
   },
   {
     id: "video-tip-edu-03",
@@ -63,7 +63,7 @@ Scena:
 Scenariusz po hiszpańsku:
 "Para aprender un idioma, escucha cinco minutos cada día: podcast, serie o canción, pero sin fallar."
 `,
-    thumbnail: "/videos/tips003.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/tips003.gif",
   },
   {
     id: "video-tip-edu-04",
@@ -84,7 +84,7 @@ Scena:
 Scenariusz po hiszpańsku:
 "No subrayes todo el libro. Lee un párrafo, para un momento y piensa qué idea importante te llevas."
 `,
-    thumbnail: "/videos/tips004.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/tips004.gif",
   },
   {
     id: "video-tip-edu-05",
@@ -105,7 +105,7 @@ Scena:
 Scenariusz po hiszpańsku:
 "Antes de concentrarte, quita el móvil y todo lo que distraiga de tu mesa. Tu cerebro lo va a agradecer."
 `,
-    thumbnail: "/videos/tips005.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/tips005.gif",
   },
   {
     id: "video-tip-edu-06",
@@ -126,7 +126,7 @@ Scena:
 Scenariusz po hiszpańsku:
 "Cuando cobres, primero aparta un porcentaje para ahorrar y después paga todo lo demás, nunca al revés."
 `,
-    thumbnail: "/videos/tips006.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/tips006.gif",
   },
   {
     id: "video-tip-edu-07",
@@ -147,7 +147,7 @@ Scena:
 Scenariusz po hiszpańsku:
 "Si pasas horas frente a una pantalla, cada veinte minutos mira algo lejano durante veinte segundos."
 `,
-    thumbnail: "/videos/tips007.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/tips007.gif",
   },
   {
     id: "video-tip-edu-08",
@@ -168,7 +168,7 @@ Scena:
 Scenariusz po hiszpańsku:
 "Las buenas ideas se olvidan rápido. Ten siempre una nota a mano y apúntalas en cuanto aparezcan."
 `,
-    thumbnail: "/videos/tips008.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/tips008.gif",
   },
   {
     id: "video-tip-edu-09",
@@ -189,7 +189,7 @@ Scena:
 Scenariusz po hiszpańsku:
 "No prepares tu presentación solo leyendo. Ensáyala en voz alta, de pie, como si ya estuvieras ahí."
 `,
-    thumbnail: "/videos/tips009.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/tips009.gif",
   },
   {
     id: "video-tip-edu-10",
@@ -210,6 +210,6 @@ Scena:
 Scenariusz po hiszpańsku:
 "En vez de listas infinitas, elige solo tres prioridades importantes para hoy y hazlas primero."
 `,
-    thumbnail: "/videos/tips010.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/tips010.gif",
   },
 ];

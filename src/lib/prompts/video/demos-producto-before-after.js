@@ -33,7 +33,7 @@ Scenariusz wizualny:
   • Kamera robi lekki zoom out, pokazując całe biurko, które jest już bardziej uporządkowane: mysz i klawiatura ustawione równo, mała roślina, czysty notes.
   • Monitor pokazuje nowy sklep online z kilkoma subtelnymi animacjami (np. płynne przesuwanie karuzeli produktów).
 `,
-    thumbnail: "/videos/ba002.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ba002.gif",
   },
   {
     id: "video-demo-before-after-02",
@@ -66,7 +66,7 @@ Scenariusz wizualny:
   • Osoba trzyma telefon obiema dłońmi i robi mały gest aprobaty głową (widać fragment twarzy z profilu).
   • Bez tekstu — tylko wizualna zmiana feedu.
 `,
-    thumbnail: "/videos/ba001.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ba001.gif",
   },
   {
     id: "video-demo-before-after-03",
@@ -97,7 +97,7 @@ Scenariusz wizualny:
   • Finał: minimalistyczne biurko z laptopem, notesem, długopisem ułożonym równo, małą rośliną i kluczowym elementem (produktem) w widocznym miejscu.
   • Światło jest cieplejsze; atmosfera spokoju i produktywności.
 `,
-    thumbnail: "/videos/ba003.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ba003.gif",
   },
   {
     id: "video-demo-before-after-04",
@@ -131,7 +131,7 @@ Scenariusz wizualny:
   • Kamera wykonuje bardzo subtelny ruch boczny lub lekki obrót wokół produktu, pokazując detale.
   • Wszystko czyste, bez tekstu i bez logotypów.
 `,
-    thumbnail: "/videos/ba004.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ba004.gif",
   },
   {
     id: "video-demo-before-after-05",
@@ -161,7 +161,7 @@ Scenariusz wizualny:
   • Barber pojawia się na chwilę z tyłu, krzyżuje ręce albo pokazuje kciuk w górę, uśmiechając się.
   • Kamera kończy delikatnym zbliżeniem na twarz klienta, podkreślając świeży look.
 `,
-    thumbnail: "/videos/ba005.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ba005.gif",
   },
   {
     id: "video-demo-before-after-06",
@@ -193,7 +193,7 @@ Scenariusz wizualny:
   • Oświetlenie jest teraz znacznie cieplejsze, z delikatnym złotym tonem.
   • Kamera robi lekki zoom in, podkreślając komfort.
 `,
-    thumbnail: "/videos/ba006.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ba006.gif",
   },
   {
     id: "video-demo-before-after-07",
@@ -226,7 +226,7 @@ Scenariusz wizualny:
   • Kamera wykonuje lekki ruch boczny, pokazując inne elementy wizualne jak paski poziomu, które poruszają się płynnie.
   • Kończy lekkim oddaleniem, widać użytkownika z profilu w słuchawkach, uśmiechniętego, z gestem aprobaty.
 `,
-    thumbnail: "/videos/ba007.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ba007.gif",
   },
   {
     id: "video-demo-before-after-08",
@@ -257,7 +257,7 @@ Scenariusz wizualny:
   • Osoba na krześle prostuje się, otwiera oczy z zainteresowaniem i kiwa głową.
   • Kamera lekko zbliża się do ekranu, kończąc na atrakcyjnych elementach wizualnych.
 `,
-    thumbnail: "/videos/ba008.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ba008.gif",
   },
   {
     id: "video-demo-before-after-09",
@@ -287,7 +287,7 @@ Scenariusz wizualny:
   • Dłoń dotyka kilku sekcji, widać płynne animacje przejść między ekranami.
   • Kamera lekko zbliża się, a dłoń zaciska pięść w geście motywacji.
 `,
-    thumbnail: "/videos/ba009.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ba009.gif",
   },
   {
     id: "video-demo-before-after-10",
@@ -320,6 +320,6 @@ Scenariusz wizualny:
   • Folder otwiera się, pokazując uporządkowaną siatkę ikon w środku — sugerując perfekcyjną organizację (bez tekstu).
   • Zakończenie: lekki zoom out całego, czystego i uporządkowanego ekranu.
 `,
-    thumbnail: "/videos/ba010.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ba010.gif",
   },
 ];

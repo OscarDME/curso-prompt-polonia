@@ -35,7 +35,7 @@ OGRANICZENIA:
 - Bez tekstu/watermarku
 - Poprawna anatomia (dłonie, palce, stawy)
 - Unikać deformacji sztangi/obciążeń`,
-    thumbnail: "/images/foto-pro/deporte1.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte1.webp",
   },
   {
     id: "img-fit-002",
@@ -66,7 +66,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać dodatkowych palców lub zdeformowanych ciężarów`,
-    thumbnail: "/images/foto-pro/deporte2.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte2.webp",
   },
   {
     id: "img-fit-003",
@@ -98,7 +98,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać zdeformowanych lin lub nienaturalnych dłoni`,
-    thumbnail: "/images/foto-pro/deporte3.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte3.webp",
   },
   {
     id: "img-fit-004",
@@ -129,7 +129,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Sztanga i talerze idealnie okrągłe, bez deformacji`,
-    thumbnail: "/images/foto-pro/deporte4.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte4.webp",
   },
   {
     id: "img-fit-005",
@@ -160,7 +160,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać zdeformowanych ciężarów lub dziwnych dłoni`,
-    thumbnail: "/images/foto-pro/deporte5.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte5.webp",
   },
 
   // =========================
@@ -195,7 +195,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać zdeformowanych nóg/stóp`,
-    thumbnail: "/images/foto-pro/deporte6.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte6.webp",
   },
   {
     id: "img-fit-007",
@@ -225,7 +225,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać dublowania kończyn`,
-    thumbnail: "/images/foto-pro/deporte7.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte7.webp",
   },
   {
     id: "img-fit-008",
@@ -256,7 +256,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać zdeformowanych stóp lub „roztopionej” bieżni`,
-    thumbnail: "/images/foto-pro/deporte8.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte8.webp",
   },
   {
     id: "img-fit-009",
@@ -286,7 +286,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać nadmiernego szumu lub sztucznego bluru`,
-    thumbnail: "/images/foto-pro/deporte9.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte9.webp",
   },
   {
     id: "img-fit-010",
@@ -316,7 +316,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać nierealnych gór lub zdeformowanych kończyn`,
-    thumbnail: "/images/foto-pro/deporte10.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte10.webp",
   },
 
   // =========================
@@ -351,7 +351,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać niemożliwych stawów`,
-    thumbnail: "/images/foto-pro/deporte11.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte11.webp",
   },
   {
     id: "img-fit-012",
@@ -381,7 +381,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać dziwnych rysów twarzy lub dodatkowych kończyn`,
-    thumbnail: "/images/foto-pro/deporte12.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte12.webp",
   },
   {
     id: "img-fit-013",
@@ -411,7 +411,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać plastikowej skóry lub zdeformowanych oczu`,
-    thumbnail: "/images/foto-pro/deporte13.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte13.webp",
   },
   {
     id: "img-fit-014",
@@ -442,7 +442,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać niemożliwych stawów lub dziwnych dłoni`,
-    thumbnail: "/images/foto-pro/deporte14.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte14.webp",
   },
   {
     id: "img-fit-015",
@@ -472,7 +472,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać „zabitych” cieni bez detalu`,
-    thumbnail: "/images/foto-pro/deporte15.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte15.webp",
   },
 
   // =========================
@@ -507,7 +507,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku/logo
 - Unikać zdeformowanych nóg/piłki`,
-    thumbnail: "/images/foto-pro/deporte16.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte16.webp",
   },
   {
     id: "img-fit-017",
@@ -537,7 +537,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać zdeformowanych dłoni lub dziwnej piłki`,
-    thumbnail: "/images/foto-pro/deporte17.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte17.webp",
   },
   {
     id: "img-fit-018",
@@ -568,7 +568,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez krwi/ran
 - Bez tekstu/logo/watermarku`,
-    thumbnail: "/images/foto-pro/deporte18.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte18.webp",
   },
   {
     id: "img-fit-019",
@@ -598,7 +598,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać zdeformowanej rakiety/piłki`,
-    thumbnail: "/images/foto-pro/deporte19.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte19.webp",
   },
   {
     id: "img-fit-020",
@@ -628,6 +628,6 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku/logo
 - Unikać owalnych kół lub zdeformowanego roweru`,
-    thumbnail: "/images/foto-pro/deporte20.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/deporte20.webp",
   },
 ];

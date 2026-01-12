@@ -33,7 +33,7 @@ Scenariusz wizualny:
   • Kamera lekko się oddala (ręka się prostuje), pokazując więcej salonu.
   • Osoba cicho się śmieje, obraca ciało, żeby znów pokazać laptopa w tle, po czym ponownie kadruje twarz i kończy pewnym uśmiechem.
 `,
-    thumbnail: "/videos/ugc001.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ugc001.gif",
   },
   {
     id: "video-ugc-testimonio-02",
@@ -66,7 +66,7 @@ Scenariusz wizualny:
   • Wolna ręka zamyka notes zdecydowanym ruchem i kładzie na nim długopis, jakby wszystko było już ogarnięte.
   • Potem obie dłonie chwytają telefon i lekko go odsuwają, dając wrażenie “gotowe, wszystko pod kontrolą”.
 `,
-    thumbnail: "/videos/ugc002.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ugc002.gif",
   },
   {
     id: "video-ugc-testimonio-03",
@@ -99,7 +99,7 @@ Scenariusz wizualny:
   • Odkłada szklankę na blat, bierze klucze lub ręcznik sportowy i częściowo wychodzi z kadru, jakby zaraz miała iść trenować.
   • Kamera pozostaje nieruchoma, pokazując koktajl i produkt na blacie jako finałowych bohaterów.
 `,
-    thumbnail: "/videos/ugc003.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ugc003.gif",
   },
   {
     id: "video-ugc-testimonio-04",
@@ -130,7 +130,7 @@ Scenariusz wizualny:
   • Zerka na kamerę, kiwa głową, a na koniec podnosi kciuk lub robi mały gest “ok”.
   • W tle prosty home office, bez nadmiaru rozpraszaczy.
 `,
-    thumbnail: "/videos/ugc004.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ugc004.gif",
   },
   {
     id: "video-ugc-testimonio-05",
@@ -160,7 +160,7 @@ Scenariusz wizualny:
   • Lekko unosi podbródek, bierze głęboki oddech jak symbol ulgi i robi gest dłonią do przodu, jakby zapraszała widza, by poszedł tą samą drogą.
   • Kończy uśmiechem oraz małym mrugnięciem lub cichym chichotem.
 `,
-    thumbnail: "/videos/ugc005.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ugc005.gif",
   },
   {
     id: "video-ugc-testimonio-06",
@@ -193,7 +193,7 @@ Scenariusz wizualny:
   • Osoba kończy gestem wdzięczności: składa dłonie jak do podziękowania i lekko kiwa głową.
   • Monitor w tle nadal pokazuje wykresy, wzmacniając wrażenie postępu.
 `,
-    thumbnail: "/videos/ugc006.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ugc006.gif",
   },
   {
     id: "video-ugc-testimonio-07",
@@ -222,7 +222,7 @@ Scenariusz wizualny:
   • Osoba patrzy w lustro z uśmiechem, gładzi policzek gestem aprobaty.
   • Lekko pochyla się w stronę kamery, pokazując bardziej promienną skórę, uśmiechając się naturalnie.
 `,
-    thumbnail: "/videos/ugc007.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ugc007.gif",
   },
   {
     id: "video-ugc-testimonio-08",
@@ -251,7 +251,7 @@ Scenariusz wizualny:
   • Wraca przodem, bierze długopis i zaczyna podkreślać lub pisać w zeszycie z pewnym gestem.
   • Na końcu podnosi wzrok do kamery i robi mały gest “ok” palcami lub podnosi kciuk.
 `,
-    thumbnail: "/videos/ugc008.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ugc008.gif",
   },
   {
     id: "video-ugc-testimonio-09",
@@ -280,7 +280,7 @@ Scenariusz wizualny:
   • Pochyla się z powrotem do laptopa, stuka kilka klawiszy, zerka na zegarek lub opaskę i uśmiecha się spokojnie.
   • Kamera wykonuje lekki ruch boczny, pokazując stół z laptopem, kawą i ewentualnie słuchawkami, wzmacniając vibe elastycznego życia.
 `,
-    thumbnail: "/videos/ugc009.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ugc009.gif",
   },
   {
     id: "video-ugc-testimonio-10",
@@ -313,6 +313,6 @@ Scenariusz wizualny:
   • Kilka razy kiwa głową, lekko zmieniając kąt produktu, żeby dobrze go było widać.
   • Kończy gestem kciuka w górę lub małym, zadowolonym mini-brawem.
 `,
-    thumbnail: "/videos/ugc010.gif",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/videos/ugc010.gif",
   },
 ];

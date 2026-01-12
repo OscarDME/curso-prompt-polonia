@@ -34,7 +34,7 @@ KOMPOZYCJA:
 KRYTYCZNE OGRANICZENIA:
 - Dłoń anatomicznie poprawna (5 palców, realne proporcje)
 - Bez tekstu/logo/watermarku`,
-    thumbnail: "/images/foto-pro/ugc1.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc1.webp",
   },
   {
     id: "img-ugc-mano-002",
@@ -66,7 +66,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez logo / czytelnego tekstu
 - Realistyczna dłoń (5 palców), unikać deformacji`,
-    thumbnail: "/images/foto-pro/ugc2.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc2.webp",
   },
   {
     id: "img-ugc-mano-003",
@@ -97,7 +97,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Poprawna dłoń, bez dodatkowych palców`,
-    thumbnail: "/images/foto-pro/ugc3.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc3.webp",
   },
   {
     id: "img-ugc-mano-004",
@@ -128,7 +128,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Dłoń anatomicznie poprawna`,
-    thumbnail: "/images/foto-pro/ugc4.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc4.webp",
   },
   {
     id: "img-ugc-mano-005",
@@ -159,7 +159,7 @@ KOMPOZYCJA:
 KRYTYCZNE OGRANICZENIA:
 - 5 palców, realne proporcje, bez deformacji
 - Bez tekstu/logo/watermarku`,
-    thumbnail: "/images/foto-pro/ugc5.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc5.webp",
   },
 
   // =========================
@@ -195,7 +195,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez logo / czytelnego tekstu
 - Poprawne dłonie (po 5 palców każda), bez dodatkowych palców`,
-    thumbnail: "/images/foto-pro/ugc6.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc6.webp",
   },
   {
     id: "img-ugc-mano-007",
@@ -226,7 +226,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez logo / czytelnego tekstu
 - Realistyczna dłoń bez deformacji`,
-    thumbnail: "/images/foto-pro/ugc7.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc7.webp",
   },
   {
     id: "img-ugc-mano-008",
@@ -257,7 +257,7 @@ KOMPOZYCJA:
 KRYTYCZNE OGRANICZENIA:
 - Poprawne dłonie i palce
 - Bez tekstu/logo, bez „plastikowej” skóry`,
-    thumbnail: "/images/foto-pro/ugc8.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc8.webp",
   },
   {
     id: "img-ugc-mano-009",
@@ -288,7 +288,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Unikać niemożliwego podwójnego odbicia lub zdublowanych dłoni
 - Bez logo / czytelnego tekstu`,
-    thumbnail: "/images/foto-pro/ugc9.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc9.webp",
   },
   {
     id: "img-ugc-mano-010",
@@ -319,7 +319,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać nierealnych lub przesadzonych zmian`,
-    thumbnail: "/images/foto-pro/ugc10.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc10.webp",
   },
 
   // =========================
@@ -354,7 +354,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Realistyczna dłoń bez deformacji`,
-    thumbnail: "/images/foto-pro/ugc11.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc11.webp",
   },
   {
     id: "img-ugc-mano-012",
@@ -384,7 +384,7 @@ KOMPOZYCJA:
 KRYTYCZNE OGRANICZENIA:
 - Poprawne dłonie (5 palców), naturalne wskazywanie
 - Bez tekstu/logo/watermarku`,
-    thumbnail: "/images/foto-pro/ugc12.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc12.webp",
   },
   {
     id: "img-ugc-mano-013",
@@ -415,7 +415,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać przesadnej miny jak z kreskówki`,
-    thumbnail: "/images/foto-pro/ugc13.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc13.webp",
   },
   {
     id: "img-ugc-mano-014",
@@ -445,7 +445,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Utrzymać pastel czysty i równy`,
-    thumbnail: "/images/foto-pro/ugc14.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc14.webp",
   },
   {
     id: "img-ugc-mano-015",
@@ -476,7 +476,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać zdeformowanych dłoni`,
-    thumbnail: "/images/foto-pro/ugc15.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc15.webp",
   },
 
   // =========================
@@ -511,7 +511,7 @@ KOMPOZYCJA:
 KRYTYCZNE OGRANICZENIA:
 - 5 palców na dłoń, realne proporcje
 - Bez tekstu/logo/watermarku`,
-    thumbnail: "/images/foto-pro/ugc16.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc16.webp",
   },
   {
     id: "img-ugc-mano-017",
@@ -541,7 +541,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać dodatkowych palców lub zdeformowanego produktu`,
-    thumbnail: "/images/foto-pro/ugc17.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc17.webp",
   },
   {
     id: "img-ugc-mano-018",
@@ -571,7 +571,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo/watermarku
 - 5 palców, perfekcyjna anatomia`,
-    thumbnail: "/images/foto-pro/ugc18.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc18.webp",
   },
   {
     id: "img-ugc-mano-019",
@@ -600,7 +600,7 @@ KOMPOZYCJA:
 KRYTYCZNE OGRANICZENIA:
 - Perfekcyjna anatomia (poprawne palce, realistyczne stawy)
 - Bez tekstu/logo/watermarku`,
-    thumbnail: "/images/foto-pro/ugc19.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc19.webp",
   },
   {
     id: "img-ugc-mano-020",
@@ -630,6 +630,6 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Realistyczna dłoń (5 palców), bez deformacji`,
-    thumbnail: "/images/foto-pro/ugc20.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/ugc20.webp",
   },
 ];

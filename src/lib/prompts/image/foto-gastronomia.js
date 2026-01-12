@@ -33,7 +33,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarków
 - Unikać „plastikowego” lub nierealnego jedzenia`,
-    thumbnail: "/images/foto-pro/food1.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food1.webp",
   },
   {
     id: "img-food-002",
@@ -64,7 +64,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać „zalanych” cieni (chcę detal)`,
-    thumbnail: "/images/foto-pro/food2.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food2.webp",
   },
   {
     id: "img-food-003",
@@ -95,7 +95,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarków
 - Unikać nierealnych lub zdeformowanych składników`,
-    thumbnail: "/images/foto-pro/food3.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food3.webp",
   },
   {
     id: "img-food-004",
@@ -126,7 +126,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać „lewitujących” składników lub niemożliwych kształtów`,
-    thumbnail: "/images/foto-pro/food4.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food4.webp",
   },
   {
     id: "img-food-005",
@@ -156,7 +156,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać „plastikowej” czekolady`,
-    thumbnail: "/images/foto-pro/food5.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food5.webp",
   },
 
   // =========================
@@ -189,7 +189,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać zdublowanych lub zdeformowanych obiektów`,
-    thumbnail: "/images/foto-pro/food6.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food6.webp",
   },
   {
     id: "img-food-007",
@@ -219,7 +219,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać „plastikowego” sera lub lewitujących dodatków`,
-    thumbnail: "/images/foto-pro/food7.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food7.webp",
   },
   {
     id: "img-food-008",
@@ -248,7 +248,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać nierealnej pianki w kawie`,
-    thumbnail: "/images/foto-pro/food8.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food8.webp",
   },
   {
     id: "img-food-009",
@@ -277,7 +277,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać zdeformowanych lub powtórzonych składników`,
-    thumbnail: "/images/foto-pro/food9.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food9.webp",
   },
   {
     id: "img-food-010",
@@ -307,7 +307,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać „plastikowej” ryby lub powtarzania elementów`,
-    thumbnail: "/images/foto-pro/food10.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food10.webp",
   },
 
   // =========================
@@ -341,7 +341,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać „idealnie nierealnego” latte art`,
-    thumbnail: "/images/foto-pro/food11.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food11.webp",
   },
   {
     id: "img-food-012",
@@ -371,7 +371,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać nierealnej „galaretowatej” tekstury płynu`,
-    thumbnail: "/images/foto-pro/food12.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food12.webp",
   },
   {
     id: "img-food-013",
@@ -401,7 +401,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać niemożliwego lodu lub garnish`,
-    thumbnail: "/images/foto-pro/food13.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food13.webp",
   },
   {
     id: "img-food-014",
@@ -431,7 +431,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać przesadzonej lub sztucznej pary`,
-    thumbnail: "/images/foto-pro/food14.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food14.webp",
   },
   {
     id: "img-food-015",
@@ -461,7 +461,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać nierealnego lodu lub zdeformowanych owoców`,
-    thumbnail: "/images/foto-pro/food15.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food15.webp",
   },
 
   // =========================
@@ -497,7 +497,7 @@ KOMPOZYCJA:
 KRYTYCZNE OGRANICZENIA:
 - Dłonie anatomicznie idealne (5 palców, bez deformacji)
 - Bez tekstu/logo/watermarku`,
-    thumbnail: "/images/foto-pro/food16.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food16.webp",
   },
   {
     id: "img-food-017",
@@ -528,7 +528,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Idealne dłonie (bez dodatkowych palców)
 - Bez tekstu/logo`,
-    thumbnail: "/images/foto-pro/food17.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food17.webp",
   },
   {
     id: "img-food-018",
@@ -558,7 +558,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Dłoń anatomicznie poprawna
 - Bez tekstu/watermarku`,
-    thumbnail: "/images/foto-pro/food18.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food18.webp",
   },
   {
     id: "img-food-019",
@@ -589,7 +589,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez logo/tekstu
 - Unikać nadmiernego dymu lub nierealnego jedzenia`,
-    thumbnail: "/images/foto-pro/food19.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food19.webp",
   },
   {
     id: "img-food-020",
@@ -620,6 +620,6 @@ KOMPOZYCJA:
 KRYTYCZNE OGRANICZENIA:
 - Idealna dłoń (5 palców, realistyczne stawy)
 - Bez tekstu/watermarku`,
-    thumbnail: "/images/foto-pro/food20.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/food20.webp",
   },
 ];

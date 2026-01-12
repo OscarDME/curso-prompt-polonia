@@ -32,7 +32,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu, bez watermarku, bez deformacji
 - Unikać dodatkowych dłoni, dziwnych zębów, asymetrycznych oczu, sztucznej skóry`,
-    thumbnail: "/images/foto-pro/estudio1.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio1.webp",
   },
   {
     id: "img-foto-retrato-est-002",
@@ -64,7 +64,7 @@ OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać nadmiernego połysku skóry, nie prześwietlać twarzy
 - Realistyczne proporcje twarzy, naturalne spojrzenie`,
-    thumbnail: "/images/foto-pro/estudio2.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio2.webp",
   },
   {
     id: "img-foto-retrato-est-003",
@@ -96,7 +96,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu, bez watermarku
 - Unikać sztucznie świecących oczu lub zdeformowanych rysów`,
-    thumbnail: "/images/foto-pro/estudio3.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio3.webp",
   },
   {
     id: "img-foto-retrato-est-004",
@@ -126,7 +126,7 @@ KOMPOZYCJA:
 
 OGRANICZENIA:
 - Bez tekstu, bez artefaktów, bez dodatkowych dłoni`,
-    thumbnail: "/images/foto-pro/estudio4.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio4.webp",
   },
   {
     id: "img-foto-retrato-est-005",
@@ -157,7 +157,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać sztucznych „halo”, rim light ma być realistyczny`,
-    thumbnail: "/images/foto-pro/estudio5.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio5.webp",
   },
 
   // =========================
@@ -192,7 +192,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu, bez logo, bez przesadzonych filtrów
 - Naturalne proporcje twarzy`,
-    thumbnail: "/images/foto-pro/estudio6.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio6.webp",
   },
   {
     id: "img-foto-retrato-est-007",
@@ -224,7 +224,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu, bez znaków wodnych
 - Nie deformować dłoni/twarzy`,
-    thumbnail: "/images/foto-pro/estudio7.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio7.webp",
   },
   {
     id: "img-foto-retrato-est-008",
@@ -256,7 +256,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu ani logo
 - Realistyczne proporcje ciała (dłonie poprawne)`,
-    thumbnail: "/images/foto-pro/estudio8.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio8.webp",
   },
   {
     id: "img-foto-retrato-est-009",
@@ -287,7 +287,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać plastikowej skóry lub przesady w rysach`,
-    thumbnail: "/images/foto-pro/estudio9.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio9.webp",
   },
   {
     id: "img-foto-retrato-est-010",
@@ -318,7 +318,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać sztucznego uśmiechu, dziwnych oczu`,
-    thumbnail: "/images/foto-pro/estudio10.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio10.webp",
   },
 
   // =========================
@@ -353,7 +353,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać rozjechanych oczu, dziwnych źrenic, zdeformowanych zębów`,
-    thumbnail: "/images/foto-pro/estudio11.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio11.webp",
   },
   {
     id: "img-foto-retrato-est-012",
@@ -383,7 +383,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Utrzymać wierny kolor tła, bez gradientów`,
-    thumbnail: "/images/foto-pro/estudio12.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio12.webp",
   },
   {
     id: "img-foto-retrato-est-013",
@@ -413,7 +413,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu, bez watermarku
 - Unikać plastikowego retuszu`,
-    thumbnail: "/images/foto-pro/estudio13.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio13.webp",
   },
   {
     id: "img-foto-retrato-est-014",
@@ -444,7 +444,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać halo, przesadnego ziarna, zniekształceń twarzy`,
-    thumbnail: "/images/foto-pro/estudio14.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio14.webp",
   },
   {
     id: "img-foto-retrato-est-015",
@@ -474,7 +474,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu
 - Unikać zdeformowanych okularów, odbić zasłaniających oczy`,
-    thumbnail: "/images/foto-pro/estudio15.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio15.webp",
   },
 
   // =========================
@@ -509,7 +509,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu, bez produktów z widocznymi prawdziwymi markami
 - Unikać plastikowej lub zbyt wygładzonej skóry`,
-    thumbnail: "/images/foto-pro/estudio16.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio16.webp",
   },
   {
     id: "img-foto-retrato-est-017",
@@ -540,7 +540,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać dziwnych oczu, zdeformowanych ust, dziwnych zębów`,
-    thumbnail: "/images/foto-pro/estudio17.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio17.webp",
   },
   {
     id: "img-foto-retrato-est-018",
@@ -571,7 +571,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu
 - Unikać dziwnego zlewania się włosów z tłem`,
-    thumbnail: "/images/foto-pro/estudio18.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio18.webp",
   },
   {
     id: "img-foto-retrato-est-019",
@@ -601,7 +601,7 @@ KOMPOZYCJA:
 WAŻNE OGRANICZENIA:
 - Poprawna anatomia: 5 palców na dłoń, realne proporcje
 - Bez dodatkowych palców, bez zdeformowanych dłoni, bez tekstu`,
-    thumbnail: "/images/foto-pro/estudio19.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio19.webp",
   },
   {
     id: "img-foto-retrato-est-020",
@@ -632,6 +632,6 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać agresywnych blików, zdeformowanych rysów`,
-    thumbnail: "/images/foto-pro/estudio20.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/estudio20.webp",
   },
 ];

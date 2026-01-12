@@ -35,7 +35,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu, bez logo, bez czytelnych tablic
 - Unikaj deformacji auta (owalne koła, dziwna karoseria)`,
-    thumbnail: "/images/foto-pro/auto1.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto1.webp",
   },
   {
     id: "img-foto-auto-002",
@@ -67,7 +67,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Bez czytelnych tablic, bez rozpoznawalnych marek`,
-    thumbnail: "/images/foto-pro/auto2.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto2.webp",
   },
   {
     id: "img-foto-auto-003",
@@ -99,7 +99,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo/czytelnych tablic
 - Unikać zdeformowanych kół lub niespójnej karoserii`,
-    thumbnail: "/images/foto-pro/auto3.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto3.webp",
   },
   {
     id: "img-foto-auto-004",
@@ -130,7 +130,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez logo, bez tekstu, bez tablic
 - Unikać zniekształceń twarzy oraz dodatkowych dłoni`,
-    thumbnail: "/images/foto-pro/auto4.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto4.webp",
   },
   {
     id: "img-foto-auto-005",
@@ -162,7 +162,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo/czytelnych tablic
 - Unikać deformacji auta i kół`,
-    thumbnail: "/images/foto-pro/auto5.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto5.webp",
   },
 
   // =========================
@@ -198,7 +198,7 @@ OGRANICZENIA:
 - Bez tekstu/watermarku
 - Bez logo/czytelnych tablic
 - Koła idealnie okrągłe, realne proporcje`,
-    thumbnail: "/images/foto-pro/auto6.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto6.webp",
   },
   {
     id: "img-foto-auto-007",
@@ -229,7 +229,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo/czytelnych tablic
 - Unikać dystorsji karoserii i kół`,
-    thumbnail: "/images/foto-pro/auto7.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto7.webp",
   },
   {
     id: "img-foto-auto-008",
@@ -260,7 +260,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Bez czytelnych tablic, unikać zdeformowanych kół`,
-    thumbnail: "/images/foto-pro/auto8.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto8.webp",
   },
   {
     id: "img-foto-auto-009",
@@ -289,7 +289,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo/czytelnych tablic
 - Unikać dziwnych odbić, owalnych kół`,
-    thumbnail: "/images/foto-pro/auto9.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto9.webp",
   },
   {
     id: "img-foto-auto-010",
@@ -320,7 +320,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać zdeformowanych reflektorów lub niemożliwych odbić`,
-    thumbnail: "/images/foto-pro/auto10.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto10.webp",
   },
 
   // =========================
@@ -356,7 +356,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo/tablic
 - Unikać owalnych kół i niespójnych elementów`,
-    thumbnail: "/images/foto-pro/auto11.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto11.webp",
   },
   {
     id: "img-foto-auto-012",
@@ -387,7 +387,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać zdublowanych części lub zdeformowanego koła`,
-    thumbnail: "/images/foto-pro/auto12.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto12.webp",
   },
   {
     id: "img-foto-auto-013",
@@ -418,7 +418,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/tablic
 - Unikać zdeformowanego motocykla, owalnych kół`,
-    thumbnail: "/images/foto-pro/auto13.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto13.webp",
   },
   {
     id: "img-foto-auto-014",
@@ -449,7 +449,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać duplikacji, „pływających” części`,
-    thumbnail: "/images/foto-pro/auto14.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto14.webp",
   },
   {
     id: "img-foto-auto-015",
@@ -480,7 +480,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo/tablic
 - Unikać zdeformowanych dłoni, zdublowanych elementów`,
-    thumbnail: "/images/foto-pro/auto15.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto15.webp",
   },
 
   // =========================
@@ -515,7 +515,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać dziwnych wzorów lub „roztopionego” metalu`,
-    thumbnail: "/images/foto-pro/auto16.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto16.webp",
   },
   {
     id: "img-foto-auto-017",
@@ -546,7 +546,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez czytelnego tekstu na ekranach
 - Bez logo/marek`,
-    thumbnail: "/images/foto-pro/auto17.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto17.webp",
   },
   {
     id: "img-foto-auto-018",
@@ -576,7 +576,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez logo/tablic
 - Unikać zdeformowanych reflektorów lub niemożliwych kształtów`,
-    thumbnail: "/images/foto-pro/auto18.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto18.webp",
   },
   {
     id: "img-foto-auto-019",
@@ -606,7 +606,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać „niemożliwych” odbić lub artefaktów`,
-    thumbnail: "/images/foto-pro/auto19.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto19.webp",
   },
   {
     id: "img-foto-auto-020",
@@ -636,6 +636,6 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać zdublowanych elementów lub „roztopionego” metalu`,
-    thumbnail: "/images/foto-pro/auto20.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/auto20.webp",
   },
 ];

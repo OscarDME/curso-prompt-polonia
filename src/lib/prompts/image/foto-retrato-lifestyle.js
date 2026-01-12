@@ -34,7 +34,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Realistyczne proporcje twarzy, unikać dodatkowych dłoni`,
-    thumbnail: "/images/foto-pro/life1.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life1.webp",
   },
   {
     id: "img-foto-life-002",
@@ -66,7 +66,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać „chemicznych” nierealnych kolorów na skórze`,
-    thumbnail: "/images/foto-pro/life2.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life2.webp",
   },
   {
     id: "img-foto-life-003",
@@ -97,7 +97,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać deformacji twarzy i proporcji`,
-    thumbnail: "/images/foto-pro/life3.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life3.webp",
   },
   {
     id: "img-foto-life-004",
@@ -128,7 +128,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać dziwnych dłoni i zdeformowanych stóp`,
-    thumbnail: "/images/foto-pro/life4.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life4.webp",
   },
   {
     id: "img-foto-life-005",
@@ -160,7 +160,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać przesadnych lub „fake” kropel`,
-    thumbnail: "/images/foto-pro/life5.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life5.webp",
   },
 
   // =========================
@@ -196,7 +196,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez prawdziwych logotypów na laptopie/kubku
 - Bez tekstu ani znaków wodnych`,
-    thumbnail: "/images/foto-pro/life6.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life6.webp",
   },
   {
     id: "img-foto-life-007",
@@ -228,7 +228,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez czytelnego tekstu na stronach
 - Unikać zdeformowanych dłoni lub dodatkowych palców`,
-    thumbnail: "/images/foto-pro/life7.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life7.webp",
   },
   {
     id: "img-foto-life-008",
@@ -259,7 +259,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać plastikowej skóry i przepalonego flesza`,
-    thumbnail: "/images/foto-pro/life8.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life8.webp",
   },
   {
     id: "img-foto-life-009",
@@ -289,7 +289,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Realistyczne dłonie (bez dodatkowych palców)`,
-    thumbnail: "/images/foto-pro/life9.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life9.webp",
   },
   {
     id: "img-foto-life-010",
@@ -320,7 +320,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać skrajnej dystorsji obiektywu`,
-    thumbnail: "/images/foto-pro/life10.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life10.webp",
   },
 
   // =========================
@@ -355,7 +355,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/logo
 - Unikać dziwnych obiektów i deformacji`,
-    thumbnail: "/images/foto-pro/life11.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life11.webp",
   },
   {
     id: "img-foto-life-012",
@@ -386,7 +386,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez marek/logo na opakowaniach
 - Poprawne dłonie (bez dodatkowych palców)`,
-    thumbnail: "/images/foto-pro/life12.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life12.webp",
   },
   {
     id: "img-foto-life-013",
@@ -417,7 +417,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez prawdziwych logotypów na laptopie
 - Bez czytelnego tekstu na ekranie/papierach`,
-    thumbnail: "/images/foto-pro/life13.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life13.webp",
   },
   {
     id: "img-foto-life-014",
@@ -447,7 +447,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać deformacji oczu/dłoni`,
-    thumbnail: "/images/foto-pro/life14.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life14.webp",
   },
   {
     id: "img-foto-life-015",
@@ -477,7 +477,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez czytelnego tekstu w książce
 - Unikać zdeformowanych dłoni`,
-    thumbnail: "/images/foto-pro/life15.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life15.webp",
   },
 
   // =========================
@@ -512,7 +512,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarków
 - Unikać „porcelanowej skóry” i nienaturalnych oczu`,
-    thumbnail: "/images/foto-pro/life16.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life16.webp",
   },
   {
     id: "img-foto-life-017",
@@ -544,7 +544,7 @@ KOMPOZYCJA:
 WAŻNE OGRANICZENIA:
 - Poprawne dłonie (5 palców), realistyczny telefon
 - Unikać niemożliwych podwójnych odbić, bez tekstu/logo`,
-    thumbnail: "/images/foto-pro/life17.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life17.webp",
   },
   {
     id: "img-foto-life-018",
@@ -576,7 +576,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez tekstu/watermarku
 - Unikać ultra-retuszowanej skóry`,
-    thumbnail: "/images/foto-pro/life18.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life18.webp",
   },
   {
     id: "img-foto-life-019",
@@ -607,7 +607,7 @@ KOMPOZYCJA:
 OGRANICZENIA:
 - Bez rozpoznawalnych marek auta
 - Unikać deformacji twarzy i dodatkowych dłoni`,
-    thumbnail: "/images/foto-pro/life19.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life19.webp",
   },
   {
     id: "img-foto-life-020",
@@ -639,6 +639,6 @@ KOMPOZYCJA:
 KLUCZOWE OGRANICZENIA:
 - Realistyczna dłoń: 5 palców, poprawne proporcje
 - Bez tekstu, bez logo, bez watermarku`,
-    thumbnail: "/images/foto-pro/life20.webp",
+    thumbnail: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/images/foto-pro/life20.webp",
   },
 ];
