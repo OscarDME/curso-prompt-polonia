@@ -32,7 +32,7 @@ export default function LoginPage() {
 
       if (!res.ok) {
         const data = await res.json().catch(() => null);
-        setError(data?.message || "Nieprawidłowy kod.");
+        setError(data?.message || "Nieprawidłowy klucz.");
         setLoading(false);
         return;
       }
@@ -60,7 +60,7 @@ export default function LoginPage() {
             {/* Badge */}
             <div className="mb-6 inline-flex items-center justify-center rounded-full border border-white/20 bg-white/5 px-5 py-1.5 text-sm font-medium text-sky-100">
               <span className="mr-2 h-2 w-2 rounded-full bg-emerald-400" />
-              Prywatny dostęp do kursu
+              Prywatny dostęp — wymagany KLUCZ
             </div>
 
             {/* Title */}
@@ -73,8 +73,10 @@ export default function LoginPage() {
 
             {/* Subtitle */}
             <p className="mx-auto mb-10 max-w-md text-base leading-relaxed text-slate-200 sm:text-lg">
-              Wpisz kod zakupu, który otrzymałeś(-aś) w Hotmart. Znajdziesz go w
-              kursie, do którego link przyszedł na Twój e-mail.
+              Wklej swój <span className="font-semibold text-white">UNIKALNY KLUCZ</span>{" "}
+              otrzymany po płatności w e-mailu z <span className="font-semibold text-white">OrioPay</span>.
+              Skopiuj go <span className="font-semibold text-white">dokładnie</span> i wklej poniżej (razem z prefiksem{" "}
+              <span className="font-semibold text-white">„MOJ_KOD…”</span>).
             </p>
 
             {/* Form */}
@@ -85,7 +87,7 @@ export default function LoginPage() {
                   className="flex items-center gap-2 text-base text-slate-100"
                 >
                   <Lock className="h-5 w-5" />
-                  Kod zakupu
+                  UNIKALNY KLUCZ
                 </Label>
 
                 {/* Input + eye toggle */}
@@ -97,7 +99,7 @@ export default function LoginPage() {
                     value={code}
                     onChange={(e) => setCode(e.target.value)}
                     className="h-14 rounded-xl border-white/20 bg-black/30 pr-12 text-lg text-slate-100 placeholder:text-slate-500 focus-visible:ring-[#36C5FF]"
-                    placeholder="Wklej tutaj swój kod..."
+                    placeholder="Wklej tutaj swój KLUCZ (np. MOJ_KOD_...)"
                     required
                   />
 
@@ -105,7 +107,7 @@ export default function LoginPage() {
                     type="button"
                     onClick={() => setShowCode((v) => !v)}
                     className="absolute right-3 top-1/2 -translate-y-1/2 rounded-md p-2 text-slate-300 transition hover:bg-white/5 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-[#36C5FF]"
-                    aria-label={showCode ? "Ukryj kod" : "Pokaż kod"}
+                    aria-label={showCode ? "Ukryj klucz" : "Pokaż klucz"}
                     title={showCode ? "Ukryj" : "Pokaż"}
                   >
                     {showCode ? (
@@ -115,6 +117,15 @@ export default function LoginPage() {
                     )}
                   </button>
                 </div>
+
+                {/* helper */}
+                <p className="mt-3 text-xs text-slate-400">
+                  🚨 KLUCZ musi być wklejony{" "}
+                  <span className="text-slate-200 font-semibold">dokładnie</span>{" "}
+                  (łącznie z „MOJ_KOD…”). Najlepiej:{" "}
+                  <span className="text-slate-200 font-semibold">skopiuj i wklej</span>
+                  , bez ręcznego przepisywania.
+                </p>
               </div>
 
               {error && (
@@ -128,14 +139,16 @@ export default function LoginPage() {
                 disabled={loading || !code}
                 className="group mx-auto flex w-full max-w-md justify-center rounded-full bg-gradient-to-r from-[#00E7FF] via-[#36C5FF] to-[#A855FF] py-6 text-lg text-white shadow-[0_0_40px_rgba(88,28,135,0.5)] transition-all hover:brightness-110 disabled:opacity-60"
               >
-                {loading ? "Sprawdzam..." : "WEJDŹ DO KURSU"}
+                {loading ? "Sprawdzam..." : "PRZEJDŹ DO KURSU"}
                 <ArrowRight className="ml-3 h-6 w-6 transition-transform group-hover:translate-x-1" />
               </Button>
 
               <p className="mx-auto mt-4 max-w-md text-sm text-slate-400">
-                Jeśli nie możesz znaleźć kodu, sprawdź folder Spam lub
-                Oferty/Promocje w skrzynce e-mail, na którą otrzymałeś(-aś)
-                dostęp do kursu w Hotmart.
+                Nie możesz znaleźć e-maila z KLUCZEM? Sprawdź folder{" "}
+                <span className="text-slate-200 font-medium">Spam</span> oraz zakładki{" "}
+                <span className="text-slate-200 font-medium">Oferty/Promocje</span>.
+                Wiadomość została wysłana przez checkout{" "}
+                <span className="text-slate-200 font-medium">OrioPay</span> po dokonaniu płatności.
               </p>
             </form>
           </CardContent>
