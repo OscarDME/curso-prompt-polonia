@@ -48,7 +48,7 @@ export const textPromptGuide = {
 
     {
       type: "image",
-      src: "/guide/guide-search-chatgpt.png",
+      src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/guide-search-chatgpt.webp",
       alt: "Wyszukiwanie ChatGPT w Google",
       caption:
         "Wpisz „ChatGPT” w wyszukiwarce lub skorzystaj z bezpośredniego linku.",
@@ -73,7 +73,7 @@ export const textPromptGuide = {
 
     {
       type: "image",
-      src: "/guide/guide-search-gemini.png",
+      src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/guide-search-gemini.webp",
       alt: "Wyszukiwanie Gemini w Google",
       caption:
         "Wpisz „Gemini” w wyszukiwarce lub skorzystaj z bezpośredniego linku.",
@@ -99,7 +99,7 @@ export const textPromptGuide = {
 
     {
       type: "image",
-      src: "/guide/guide-login.png",
+      src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/guide-login.webp",
       alt: "Tworzenie konta w ChatGPT lub Gemini",
       caption: "Konto pozwala zapisywać historię i wracać do rozmów.",
     },
@@ -118,7 +118,7 @@ export const textPromptGuide = {
 
     {
       type: "image",
-      src: "/guide/guide-copy-prompt.png",
+      src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/guide-copy-prompt.webp",
       alt: "Kopiowanie promptu z biblioteki",
       caption: "Otwórz prompt i kliknij Kopiuj.",
     },
@@ -138,7 +138,7 @@ export const textPromptGuide = {
 
     {
       type: "image",
-      src: "/guide/guide-paste-brackets.png",
+      src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/guide-paste-brackets.webp",
       alt: "Wklejony prompt z zaznaczonymi nawiasami",
       caption: "Zmień tekst w nawiasach [ ] na swoje dane.",
     },

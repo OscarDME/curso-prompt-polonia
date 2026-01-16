@@ -50,7 +50,7 @@ export const imagePromptGuide = {
 
     {
       type: "image",
-      src: "/guide/guide-login.png",
+      src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/guide-login.webp",
       alt: "Ekran główny ChatGPT",
       caption:
         "Ekran główny ChatGPT — gotowy do wpisywania promptów."
@@ -68,7 +68,7 @@ export const imagePromptGuide = {
 
     {
       type: "image",
-      src: "/guide/guide-chatgpt-create-image.png",
+      src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/guide-chatgpt-create-image.webp",
       alt: "ChatGPT tworzenie obrazów",
       caption:
         "ChatGPT potrafi automatycznie rozpoznać, że chcesz wygenerować obraz."
@@ -93,7 +93,7 @@ export const imagePromptGuide = {
 
     {
       type: "image",
-      src: "/guide/guide-main-search-gemini.png",
+      src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/guide-main-search-gemini.webp",
       alt: "Ekran główny Gemini",
       caption:
         "Ekran główny Gemini."
@@ -111,7 +111,7 @@ export const imagePromptGuide = {
 
     {
       type: "image",
-      src: "/guide/guide-gemini-create-image.png",
+      src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/guide-gemini-create-image.webp",
       alt: "Gemini tworzenie obrazów",
       caption:
         "W Gemini należy wybrać opcję „Twórz obrazy”."
@@ -131,7 +131,7 @@ export const imagePromptGuide = {
 
     {
       type: "image",
-      src: "/guide/guide-copy-prompt-image.png",
+      src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/guide-copy-prompt-image.webp",
       alt: "Kopiowanie promptu obrazu",
       caption:
         "Prompty zawierają styl, światło, kompozycję i ograniczenia."
@@ -151,7 +151,7 @@ export const imagePromptGuide = {
 
     {
       type: "image",
-      src: "/guide/guide-paste-image-brackets.png",
+      src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/guide-paste-image-brackets.webp",
       alt: "Prompt z nawiasami",
       caption:
         "Zmieniaj tylko to, co znajduje się w nawiasach [ ]."

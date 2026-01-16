@@ -50,7 +50,7 @@ export const videoPromptGuide = {
 
     {
       type: "image",
-      src: "/guide/guide-sora-main.png",
+      src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/guide-sora-main.webp",
       alt: "Interfejs Sora 2",
       caption:
         "Główny interfejs Sora 2 — tutaj wklejasz prompt i generujesz wideo."
@@ -81,7 +81,7 @@ export const videoPromptGuide = {
 
     {
       type: "image",
-      src: "/guide/guide-flow-main.png",
+      src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/guide-flow-main.webp",
       alt: "Interfejs Flow",
       caption:
         "Główny interfejs Flow do generowania wideo z AI."
@@ -106,7 +106,7 @@ export const videoPromptGuide = {
 
     {
       type: "image",
-      src: "/guide/guide-copy-prompt-video.png",
+      src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/guide-copy-prompt-video.webp",
       alt: "Kopiowanie promptu do wideo",
       caption:
         "Skopiuj prompt z Tajnego Banku Promptów."
@@ -125,7 +125,7 @@ export const videoPromptGuide = {
 
     {
       type: "image",
-      src: "/guide/guide-paste-brackets-video.png",
+      src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/guide-paste-brackets-video.webp",
       alt: "Edycja promptu wideo",
       caption:
         "Zmieniaj wyłącznie elementy w nawiasach [ ]."
