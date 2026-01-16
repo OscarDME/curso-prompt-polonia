@@ -2,31 +2,129 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
+import Image from "next/image";
+import { ArrowLeft, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { cn } from "@/lib/utils";
 import { bonus04EbooksPresentaciones } from "@/lib/bonus-04-ebooks-presentaciones-content";
 
-// Helper para formato simple (negritas + saltos de línea)
-function formatRichText(text) {
-  if (!text) return "";
-  return text
-    .replace(/\n/g, "<br />")
-    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+function renderInlineBold(text = "") {
+  // Convierte **texto** -> <strong>texto</strong>
+  const parts = text.split(/(\*\*.*?\*\*)/g);
+  return parts.map((part, idx) => {
+    const match = part.match(/^\*\*(.*?)\*\*$/);
+    if (match) return <strong key={idx}>{match[1]}</strong>;
+    return <span key={idx}>{part}</span>;
+  });
+}
+
+function RenderBlock({ block }) {
+  if (!block) return null;
+
+  // Texto simple
+  if (block.type === "paragraph") {
+    return (
+      <p className="text-xs md:text-sm text-slate-300">
+        {renderInlineBold(block.text)}
+      </p>
+    );
+  }
+
+  // Lista
+  if (block.type === "list") {
+    return (
+      <ul className="space-y-2 text-xs md:text-sm text-slate-300">
+        {block.items?.map((item, idx) => (
+          <li key={idx}>• {renderInlineBold(item)}</li>
+        ))}
+      </ul>
+    );
+  }
+
+  // Link clicable (botón)
+  if (block.type === "link") {
+    return (
+      <div>
+        <a
+          href={block.href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 rounded-full border border-teal-400/40 bg-teal-400/10 px-4 py-2 text-xs font-medium text-teal-200 transition hover:bg-teal-400/20 hover:text-teal-100"
+        >
+          <ExternalLink className="h-3 w-3" />
+          {block.label}
+        </a>
+      </div>
+    );
+  }
+
+  // Imagen (referencia visual)
+  if (block.type === "image") {
+    return (
+      <div className="space-y-2">
+        <div className="relative w-full overflow-hidden rounded-xl border border-white/10 bg-black/40">
+          <Image
+            src={block.src}
+            alt={block.alt || "Imagen"}
+            width={1400}
+            height={700}
+            className="h-auto w-full object-contain"
+          />
+        </div>
+        {block.caption && (
+          <p className="text-xs text-slate-400">{renderInlineBold(block.caption)}</p>
+        )}
+      </div>
+    );
+  }
+
+  // Sección (título + bullets)
+  if (block.type === "section") {
+    return (
+      <div className="space-y-2">
+        <h3 className="text-sm md:text-base font-semibold text-slate-50">
+          {block.heading}
+        </h3>
+        <ul className="space-y-2 text-xs md:text-sm text-slate-300">
+          {block.content?.map((line, idx) => (
+            <li key={idx}>• {renderInlineBold(line)}</li>
+          ))}
+        </ul>
+      </div>
+    );
+  }
+
+  // Código / prompt
+  if (block.type === "code") {
+    return (
+      <div className="rounded-2xl border border-white/10 bg-black/60 p-3 md:p-4">
+        {block.label && (
+          <p className="mb-2 text-[11px] md:text-xs font-semibold text-teal-200">
+            {block.label}
+          </p>
+        )}
+        <pre className="whitespace-pre-wrap text-[11px] md:text-xs text-slate-100">
+          {block.text}
+        </pre>
+      </div>
+    );
+  }
+
+  return null;
 }
 
 export default function BonusEbooksPresentacionesPage() {
   const {
-    title,
-    subtitle,
-    heroText,
+    backToCourseLabel,
     gammaUrl,
     gammaButtonLabel,
     gammaButtonSecondaryLabel,
-    backToCourseLabel,
-    videoBlock,
-    stepByStep,
   } = bonus04EbooksPresentaciones;
+
+  const hero = bonus04EbooksPresentaciones.hero;
+  const outcomes = bonus04EbooksPresentaciones.outcomes;
+  const stepByStep = bonus04EbooksPresentaciones.stepByStep;
 
   return (
     <div className="space-y-6 py-6">
@@ -45,15 +143,19 @@ export default function BonusEbooksPresentacionesPage() {
         </Button>
       </div>
 
-      {/* Tytuł + podtytuł */}
+      {/* HERO: título + subtítulo */}
       <div className="space-y-2">
-        <h1 className="text-2xl md:text-3xl font-bold text-slate-50">{title}</h1>
-        {subtitle && (
-          <p className="text-sm md:text-base text-slate-300">{subtitle}</p>
+        <h1 className="text-2xl md:text-3xl font-bold text-slate-50">
+          {hero?.title}
+        </h1>
+        {hero?.subtitle && (
+          <p className="text-sm md:text-base text-slate-300">
+            {hero.subtitle}
+          </p>
         )}
       </div>
 
-      {/* Link do Gamma + krótki opis */}
+      {/* Botón principal Gamma */}
       <div className="space-y-3">
         <Button
           asChild
@@ -69,34 +171,38 @@ export default function BonusEbooksPresentacionesPage() {
           </a>
         </Button>
 
-        {heroText && (
-          <p
-            className="text-xs md:text-sm text-slate-300 max-w-2xl"
-            dangerouslySetInnerHTML={{ __html: formatRichText(heroText) }}
-          />
+        {/* HERO blocks */}
+        {Array.isArray(hero?.blocks) && hero.blocks.length > 0 && (
+          <Card className="border-white/10 bg-slate-950/80 px-4 py-4 md:px-6 md:py-5">
+            <div className="space-y-4">
+              {hero.blocks.map((block, idx) => (
+                <RenderBlock key={idx} block={block} />
+              ))}
+            </div>
+          </Card>
         )}
       </div>
 
-      {/* Blok: co umiesz po wdrożeniu */}
-      {videoBlock && (
+      {/* Outcomes */}
+      {outcomes && (
         <Card className="border-white/10 bg-slate-950/80 px-4 py-4 md:px-6 md:py-5">
-          {videoBlock.title && (
-            <h2 className="text-sm md:text-base font-semibold text-slate-50 mb-2">
-              {videoBlock.title}
+          {outcomes.title && (
+            <h2 className="text-sm md:text-base font-semibold text-slate-50 mb-3">
+              {outcomes.title}
             </h2>
           )}
 
-          {Array.isArray(videoBlock.bullets) && videoBlock.bullets.length > 0 && (
-            <ul className="space-y-2 text-xs md:text-sm text-slate-300">
-              {videoBlock.bullets.map((item, idx) => (
-                <li key={idx}>• {item}</li>
+          {Array.isArray(outcomes.blocks) && outcomes.blocks.length > 0 && (
+            <div className="space-y-4">
+              {outcomes.blocks.map((block, idx) => (
+                <RenderBlock key={idx} block={block} />
               ))}
-            </ul>
+            </div>
           )}
         </Card>
       )}
 
-      {/* Instrukcja krok po kroku */}
+      {/* Step by step */}
       {stepByStep && (
         <Card className="border-white/10 bg-slate-950/80 px-4 py-4 md:px-6 md:py-5">
           {stepByStep.title && (
@@ -105,50 +211,17 @@ export default function BonusEbooksPresentacionesPage() {
             </h2>
           )}
 
-          {/* Intro (whitespace-pre-line, bo to jest zwykły tekst) */}
           {stepByStep.intro && (
             <p className="mb-4 text-xs md:text-sm text-slate-300 whitespace-pre-line">
-              {stepByStep.intro}
+              {renderInlineBold(stepByStep.intro)}
             </p>
           )}
 
-          {Array.isArray(stepByStep.steps) && stepByStep.steps.length > 0 && (
-            <ol className="space-y-3 text-xs md:text-sm text-slate-300 list-decimal pl-5">
-              {stepByStep.steps.map((s, idx) => (
-                <li key={idx}>
-                  <p className="font-semibold text-slate-100">{s.title}</p>
-                  {s.body && (
-                    <p className="mt-1 text-slate-300 whitespace-pre-line">
-                      {s.body}
-                    </p>
-                  )}
-                </li>
+          {Array.isArray(stepByStep.blocks) && stepByStep.blocks.length > 0 && (
+            <div className={cn("space-y-5")}>
+              {stepByStep.blocks.map((block, idx) => (
+                <RenderBlock key={idx} block={block} />
               ))}
-            </ol>
-          )}
-
-          {/* Prompt box */}
-          {stepByStep.prompt && (
-            <div className="mt-5 rounded-2xl border border-white/10 bg-black/60 p-3 md:p-4">
-              <p className="mb-2 text-[11px] md:text-xs font-semibold text-teal-200">
-                {stepByStep.promptTitle || "Prompt"}
-              </p>
-              <pre className="whitespace-pre-wrap text-[11px] md:text-xs text-slate-100">
-                {stepByStep.prompt}
-              </pre>
-            </div>
-          )}
-
-          {Array.isArray(stepByStep.tips) && stepByStep.tips.length > 0 && (
-            <div className="mt-5 rounded-xl border border-teal-500/30 bg-teal-500/5 px-3 py-3">
-              <p className="text-[11px] md:text-xs font-semibold text-teal-100 mb-2">
-                {stepByStep.tipsTitle || "Wskazówki"}
-              </p>
-              <ul className="space-y-1 text-[11px] md:text-xs text-slate-200">
-                {stepByStep.tips.map((tip, idx) => (
-                  <li key={idx}>• {tip}</li>
-                ))}
-              </ul>
             </div>
           )}
         </Card>

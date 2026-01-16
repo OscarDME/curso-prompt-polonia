@@ -3,194 +3,359 @@
 export const bonus04EbooksPresentaciones = {
   id: "bonus-04",
 
-  // HERO
-  title: "Generator e-booków i prezentacji (Gamma + AI)",
-  subtitle:
-    "Naucz się tworzyć dopracowane materiały z Gamma + AI: prosto, szybko i bez umiejętności graficznych.",
-  heroText: `W tym bonusie dostajesz gotowy proces, dzięki któremu zrobisz **prezentację albo e-book** szybciej niż większość ludzi zdąży otworzyć Canvę.
+  // UI
+  backToCourseLabel: "Wróć do strony głównej kursu",
 
-Gamma to narzędzie, które świetnie łączy się z AI — ale najlepsze efekty wychodzą wtedy, gdy **nie prosisz o „ładny dokument”**, tylko dostarczasz:
-- jasny konspekt (outline),
-- konkretne sekcje/slajdy,
-- krótkie bloki tekstu,
-- oraz prosty cel: *dla kogo to jest i co ma dać*.
-
-Ten proces jest zaprojektowany tak, żeby:
-1) najpierw wygenerować logiczną strukturę w ChatGPT (z promptów z kursu),  
-2) a potem użyć Gamma jako **silnika składu i designu**, który nada całości formę premium w kilka minut.
-
-Najważniejsze: nie musisz być perfekcjonistą. Twój cel to „solidna wersja 1.0”, którą potem dopracujesz w 10–20 minut, zamiast dłubać 6 godzin od zera.`,
-
-  // GAMMA
+  // LINKS
   gammaUrl: "https://gamma.app",
   gammaButtonLabel: "Otwórz Gamma",
   gammaButtonSecondaryLabel: "gamma.app",
 
-  // UI
-  backToCourseLabel: "Wróć do strony głównej kursu",
-
-  // BLOK: co umiesz po wdrożeniu
-  videoBlock: {
-    title: "Co będziesz umieć po wdrożeniu tego procesu",
-    bullets: [
-      "Tworzyć prezentacje i e-booki w 30–60 minut: od zera do wersji gotowej do wysłania.",
-      "Składać materiały wizualnie bez designu: układ, typografia i hierarchia robią się automatycznie.",
-      "Wyciągać z jednego pomysłu kilka formatów: e-book → prezentacja → mini lead magnet → posty.",
-      "Budować biblioteczkę szablonów: raz tworzysz styl, potem tylko podmieniasz treść.",
-      "Oszczędzać czas na formatowaniu: skupiasz się na treści, a Gamma ogarnia resztę."
-    ]
-  },
-
-  // STEP BY STEP (DŁUŻSZE)
-  stepByStep: {
-    title: "Instrukcja krok po kroku: jak używać Gamma z AI (wersja praktyczna)",
-    intro: `Traktuj ten proces jak „taśmę produkcyjną”: najpierw treść, potem skład.  
-Jeśli chcesz efekt premium — **nie zaczynaj od designu**. Zacznij od struktury.`,
-
-    steps: [
+  // HERO (dinamiczny układ bloków)
+  hero: {
+    title: "Generator e-booków i prezentacji (Gamma + AI)",
+    subtitle:
+      "Naucz się tworzyć materiały premium z Gamma + AI: szybko, prosto i bez umiejętności graficznych.",
+    blocks: [
       {
-        title: "1) Ustal cel i format (2 minuty, ale ratuje godzinę pracy)",
-        body: `Zanim cokolwiek wygenerujesz, odpowiedz sobie na 3 pytania:
-- **Dla kogo** jest ten materiał? (1 zdanie)
-- **Jaki efekt** ma dać? (np. zrozumienie, decyzja, zapis, zakup, wdrożenie)
-- **Jaki format** jest najlepszy?  
-  - Prezentacja: gdy chcesz „przeprowadzić” kogoś przez temat szybko.  
-  - E-book/dokument: gdy chcesz dać materiał do czytania i zapisania (PDF).
-
-✅ Mini-checklista:  
-- Temat w 1 zdaniu  
-- Grupa docelowa w 1 zdaniu  
-- Jedno CTA na końcu (co ma zrobić odbiorca)`
+        type: "paragraph",
+        text:
+          "W tym bonusie dostajesz gotowy proces, dzięki któremu stworzysz **prezentację lub e-book** szybciej, niż większość ludzi zdąży otworzyć Canvę.",
       },
-
       {
-        title: "2) Wygeneruj konspekt (outline) w ChatGPT – to jest Twój „szkielet”",
-        body: `Najlepsze wyniki w Gamma wychodzą z konspektu, nie z lania wody.
-
-Poproś AI o:
-- tytuł,
-- krótki opis (2–3 zdania),
-- 8–14 sekcji (dla e-booka) lub 6–12 slajdów (dla prezentacji),
-- do każdej sekcji: 3–6 punktów,
-- na końcu: podsumowanie + CTA.
-
-Ważne: **krótkie bloki** → lepszy layout. Jeśli AI daje długie akapity, poproś o skrócenie i rozbicie na punkty.`
+        type: "paragraph",
+        text:
+          "Gamma działa najlepiej, gdy NIE prosisz „zrób to ładnie”, tylko dajesz:",
       },
-
       {
-        title: "3) Otwórz Gamma i wybierz sposób tworzenia",
-        body: `W Gamma utwórz nowy projekt i wybierz tworzenie na bazie treści:
-- jeśli masz konspekt → wklej tekst,
-- jeśli masz tylko temat → poproś Gamma o szkic, a potem i tak go popraw.
-
-Pro tip: jeżeli robisz e-book do PDF, często lepiej działa tryb dokumentu (dłuższa forma), a prezentacja sprawdzi się jako wersja skrócona.`
+        type: "list",
+        items: [
+          "jasny zarys (outline),",
+          "konkretne sekcje lub slajdy,",
+          "krótkie bloki tekstu,",
+          "oraz prosty cel: dla kogo to jest i jaki ma dać efekt.",
+        ],
       },
-
       {
-        title: "4) Wklej konspekt i dopilnuj „higieny treści”",
-        body: `Po wklejeniu konspektu sprawdź:
-- czy nagłówki są jasne i krótkie,
-- czy nie ma ścian tekstu,
-- czy każda sekcja ma sensowne 3–6 punktów.
-
-Jeśli coś jest za długie:
-- rozbij na 2 slajdy/sekcje,
-- przerób akapit na checklistę,
-- usuń powtórzenia.
-
-✅ Zasada premium: 1 główna myśl na slajd/sekcję.`
+        type: "paragraph",
+        text: "Ten proces jest zaprojektowany tak, żeby:",
       },
-
       {
-        title: "5) Ustaw styl: motyw, klimat, typografia (bez perfekcjonizmu)",
-        body: `Wybierz motyw i styl pasujący do Twojej marki:
-- minimal/premium (czysto i jasno),
-- tech/nowocześnie,
-- edukacyjnie (czytelne nagłówki, dużo oddechu).
-
-Nie spędzaj tu 30 minut. Cel na tym etapie: „wygląda dobrze i równo”.  
-Dopiero później robisz polishing.`
+        type: "list",
+        items: [
+          "1) najpierw wygenerować strukturę w ChatGPT (z promptów z kursu),",
+          "2) a potem użyć Gamma jako **silnika składu i designu**, żeby całość wyglądała premium w kilka minut.",
+        ],
       },
-
       {
-        title: "6) Zmień treści w „bardziej użyteczne”: przykłady, ramki, mini-ćwiczenia",
-        body: `To krok, który odróżnia „ładny PDF” od materiału, który ludzie zapisują.
-
-Dodaj (tam gdzie pasuje):
-- mini przykład (1–2 linie),
-- ramkę „Najczęstszy błąd”,
-- checklistę „Zrób teraz”,
-- krótkie ćwiczenie (pytania do odbiorcy),
-- proste podsumowanie po większej sekcji.
-
-Jeśli robisz e-book: dodaj stronę „Szybki start” na początku i „Plan wdrożenia” na końcu.`
+        type: "paragraph",
+        text:
+          "Twoim celem nie jest perfekcja: to **solidna wersja 1.0**, którą potem dopracujesz w 10–20 minut, zamiast dłubać 6 godzin od zera.",
       },
-
       {
-        title: "7) Grafiki i elementy wizualne: tylko gdy wspierają przekaz",
-        body: `Grafiki są po to, żeby **pomagały zrozumieć**, a nie „żeby było ładnie”.
-
-Najlepsze elementy:
-- proste diagramy,
-- schemat procesu,
-- tabelka porównawcza,
-- wykres/ramka „3 kroki”.
-
-Unikaj przesytu stockami. Jedna sensowna grafika jest lepsza niż pięć przypadkowych.`
+        type: "paragraph",
+        text:
+          "Dzięki temu flow możesz mieć prezentację gotową w **10–15 minut** (wersja 1.0), a potem tylko dopracować detale.",
       },
-
       {
-        title: "8) Polishing: spójność, skracanie, rytm (10–15 minut)",
-        body: `Zrób szybki przegląd i:
-- skróć zbyt długie punkty,
-- ujednolić styl nagłówków (czasownik albo rzeczownik),
-- popraw CTA na końcu,
-- dodaj sekcję: „Dla kogo to jest” i „Co zrobisz po przeczytaniu”.
-
-✅ Test jakości:  
-Jeśli ktoś przewinie całość w 30 sekund — czy nadal zrozumie główne tezy?`
+        type: "link",
+        href: "https://gamma.app",
+        label: "Otwórz Gamma (gamma.app)",
       },
-
-      {
-        title: "9) Eksport i „multiplikacja” (największy zysk czasu)",
-        body: `Wyeksportuj materiał do PDF albo linku. Następnie zrób multiplikację:
-- E-book → wersja skrócona jako lead magnet (5–7 stron),
-- Prezentacja → skrypt do wideo,
-- Każda sekcja → 1 post lub 1 mail.
-
-To jest moment, kiedy 1 temat zamienia się w tygodnie treści.`
-      }
     ],
-
-    promptTitle: "Prompt (PL) do wygenerowania idealnego konspektu pod Gamma",
-    prompt: `Działaj jak ekspert od tworzenia e-booków i prezentacji.  
-Chcę przygotować materiał do złożenia w Gamma.
-
-Temat: [WSTAW TEMAT]  
-Odbiorca: [KTO?]  
-Cel: [EDUKACJA / LEADY / SPRZEDAŻ / WDROŻENIE]  
-Format: [PREZENTACJA lub E-BOOK]  
-Ton: [PRO / PRZYJAZNY / PREMIUM / BEZPOŚREDNI]  
-Poziom: [PODSTAWOWY / ŚREDNI / ZAAWANSOWANY]
-
-Wygeneruj:
-1) Tytuł + podtytuł (krótkie, konkretne).  
-2) Spis treści: 8–14 sekcji (e-book) lub 6–12 slajdów (prezentacja).  
-3) Dla każdej sekcji/slajdu: 3–6 punktów w formie krótkich zdań (bez długich akapitów).  
-4) Co najmniej 2 ramki: „Najczęstszy błąd” i „Zrób teraz”.  
-5) Podsumowanie + 1 jasne CTA na końcu.
-
-Ważne: maksymalna czytelność, krótko, bez lania wody.`,
-
-    tipsTitle: "Wskazówki, które robią efekt „premium”",
-    tips: [
-      "Mniej tekstu = lepszy design. Zawsze tnij o 20–30%.",
-      "Nagłówki: krótkie, mocne, jednoznaczne.",
-      "Używaj ramek: „Błąd”, „Zasada”, „Przykład”, „Zrób teraz”.",
-      "Zostaw dużo „oddechu” (puste miejsce). To wygląda drożej.",
-      "Na końcu dodaj: podsumowanie + następny krok. Bez tego materiał traci moc."
-    ]
   },
 
-  sections: []
+  // BLOK: co osiągniesz
+  outcomes: {
+    title: "Co będziesz umieć po wdrożeniu tego procesu",
+    blocks: [
+      {
+        type: "list",
+        items: [
+          "Tworzyć prezentacje w 10–15 minut (wersja 1.0) i e-booki w 30–60 minut.",
+          "Składać materiały bez designu: układ, typografia i hierarchia robią się praktycznie same.",
+          "Multiplikować jeden temat na formaty: prezentacja → e-book → lead magnet → posty.",
+          "Wykorzystywać style i szablony: raz ustawiasz wygląd, potem tylko podmieniasz treść.",
+          "Oszczędzać godziny na formatowaniu: skupiasz się na treści i przekazie.",
+        ],
+      },
+    ],
+  },
+
+  // KROK PO KROKU (bloki)
+  stepByStep: {
+    title: "Instrukcja krok po kroku: Gamma + AI (wersja ultra praktyczna)",
+    intro:
+      "Potraktuj to jak linię produkcyjną: najpierw treść, potem design. Jeśli chcesz efekt premium, **nie zaczynaj od wyglądu**. Zacznij od struktury.",
+    blocks: [
+      /* ---------- KROK 1: KONTO ---------- */
+      {
+        type: "section",
+        heading: "1) Załóż darmowe konto w Gamma (1 minuta)",
+        content: [
+          "Wejdź do Gamma z przycisku powyżej (gamma.app).",
+          "Załóż darmowe konto przez e-mail lub Google.",
+          "Po zalogowaniu zobaczysz ekran główny Gamma.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/guide/gamma/gamma-home.png",
+        alt: "Gamma - ekran główny",
+        caption: "To jest ekran główny Gamma (start).",
+      },
+
+      /* ---------- KROK 2: NOWY PROJEKT ---------- */
+      {
+        type: "section",
+        heading: "2) Zacznij nowy projekt (wybierz, co tworzysz)",
+        content: [
+          "Na ekranie startowym zobaczysz kilka opcji rozpoczęcia.",
+          "W tym procesie użyjemy opcji tworzenia z AI (Generuj).",
+          "To najszybszy sposób, żeby zrobić wersję 1.0 w kilka minut.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/guide/gamma/gamma-start-options.png",
+        alt: "Gamma - opcje startu",
+        caption:
+          "Wybierz tworzenie z AI: (Generuj / Generować).",
+      },
+
+      /* ---------- KROK 3: GENERUJ ---------- */
+      {
+        type: "section",
+        heading: "3) Kliknij „Generuj” (AI), żeby zacząć szybko",
+        content: [
+          "Wybierz opcję Generuj (tworzenie z AI).",
+          "Otworzy się panel, gdzie wybierasz format (prezentacja/dokument) i język.",
+          "W tym bonusie priorytetem jest PREZENTACJA, bo Gamma zwykle daje tu najlepsze efekty wizualne.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/guide/gamma/gamma-generate-screen.png",
+        alt: "Gamma - ekran generowania",
+        caption:
+          "Ekran „Generuj”: tutaj wybierasz rodzaj materiału, który tworzysz.",
+      },
+
+      /* ---------- KROK 4: PREZENTACJA (NIE ZMIENIAĆ) ---------- */
+      {
+        type: "section",
+        heading: "4) Wybierz „Prezentacja” i wygeneruj treść",
+        content: [
+          "Na ekranie generowania wybierz: Prezentacja.",
+          "W polu tekstowym wklej prosty prompt, taki jak poniżej.",
+          "Im bardziej konkretny temat, tym lepszy efekt (możesz dopisać tyle szczegółów, ile chcesz).",
+        ],
+      },
+      {
+        type: "image",
+        src: "/guide/gamma/gamma-generate-presentation.png",
+        alt: "Gamma - wybór prezentacji",
+        caption: "Wybierz „Prezentacja” i wpisz prompt w tym polu.",
+      },
+
+      /* --- PROSTY PROMPT (PL) (NIE ZMIENIAĆ) --- */
+      {
+        type: "section",
+        heading: "Prompt prosty (PL) – skopiuj i wklej",
+        content: [
+          "Użyj tego prostego promptu. Zmień tylko temat — resztę możesz zostawić tak jak jest.",
+        ],
+      },
+      {
+        type: "code",
+        language: "text",
+        text: `Wygeneruj prezentację na temat: [TEMAT PREZENTACJI].`,
+      },
+
+      /* =========================================================
+         OD TEGO MOMENTU: CO DALEJ (KROK 5+)
+         ========================================================= */
+
+      /* ---------- KROK 5: SEKCJE / MODUŁY ---------- */
+      {
+        type: "section",
+        heading:
+          "5) Gamma automatycznie tworzy sekcje (a Ty możesz je zmienić w kilka sekund)",
+        content: [
+          "Po wygenerowaniu Gamma pokaże **szkic z sekcjami/modułami** (outline).",
+          "To świetne, bo masz gotową strukturę bez długiego myślenia.",
+          "Jeśli nie pasuje Ci tytuł lub kolejność: możesz to **szybko edytować, przenieść albo podmienić**.",
+          "Tip: jeśli coś wygląda na zbędne albo powtarzalne — usuń i jedziesz dalej.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/guide/gamma/gamma-outline.png",
+        alt: "Gamma - struktura i sekcje",
+        caption:
+          "Gamma tworzy outline automatycznie. Możesz edytować tytuły, kolejność i sekcje w kilka sekund.",
+      },
+
+      /* ---------- KROK 6: LICZBA MODUŁÓW (DARMOWY PLAN) ---------- */
+      {
+        type: "section",
+        heading: "6) Liczba modułów: plan darmowy vs płatny",
+        content: [
+          "W darmowym planie zwykle wygenerujesz maksymalnie **10 modułów**.",
+          "Jeśli potrzebujesz więcej modułów (dłuższa prezentacja), zazwyczaj wymaga to planu płatnego.",
+          "Dobra wiadomość: możesz też iść w drugą stronę — jeśli modułów jest za dużo, po prostu usuń część.",
+          "Prosta zasada: więcej modułów = dłużej; mniej modułów = bardziej konkretnie.",
+        ],
+      },
+
+      /* ---------- KROK 7: DŁUGOŚĆ TEKSTU ---------- */
+      {
+        type: "section",
+        heading: "7) Ustaw długość tekstu (krótko vs szczegółowo)",
+        content: [
+          "Gamma pozwala kontrolować, ile tekstu pojawi się na każdej karcie/slajdzie.",
+          "Jeśli chcesz wersję wizualną i szybką: wybierz **Minimalny / Zwięzły**.",
+          "Jeśli chcesz bardziej „lekcję”: wybierz **Szczegółowy**.",
+          "Rekomendacja: zacznij od **Zwięzły** i rozbuduj tylko te sekcje, które są kluczowe.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/guide/gamma/gamma-text-length.png",
+        alt: "Gamma - długość tekstu",
+        caption:
+          "Możesz wybrać, czy tekst ma być minimalny, zwięzły czy szczegółowy na slajd.",
+      },
+
+      /* ---------- KROK 8: MOTYW + STYL OBRAZÓW ---------- */
+      {
+        type: "section",
+        heading: "8) Wybierz motyw i ustaw styl obrazów",
+        content: [
+          "To moment, w którym Twoja prezentacja zaczyna wyglądać „pro”.",
+          "Wybierz **motyw** (Theme) zgodnie z klimatem: ciemny, jasny, nowoczesny itd.",
+          "Następnie ustaw **styl obrazów** (zdjęcie, ilustracja, 3D, line art…).",
+          "Tip premium: trzymaj **jeden styl** w całej prezentacji (spójność = wygląda drożej).",
+        ],
+      },
+      {
+        type: "image",
+        src: "/guide/gamma/gamma-themes.png",
+        alt: "Gamma - motywy",
+        caption:
+          "Wybierz motyw, żeby całość była spójna (typografia + kolory + układ).",
+      },
+      {
+        type: "image",
+        src: "/guide/gamma/gamma-image-style.png",
+        alt: "Gamma - styl obrazów",
+        caption:
+          "Ustaw styl obrazów (zdjęcie/ilustracja/3D). Jeden styl = premium efekt.",
+      },
+
+      /* ---------- KROK 9: E-BOOK ---------- */
+      {
+        type: "section",
+        heading: "9) A jeśli chcę e-book? (gdzie kliknąć)",
+        content: [
+          "Jeśli chcesz zrobić e-book bezpośrednio, w tym samym miejscu wybierz: Dokument.",
+          "Dokument jest lepszy pod dłuższy PDF i czytanie.",
+          "Rekomendacja: jeśli dopiero zaczynasz, zacznij od Prezentacji (prościej), a potem przerób/rozszerz do Dokumentu.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/guide/gamma/gamma-generate-document.png",
+        alt: "Gamma - wybór Dokumentu",
+        caption:
+          "Do e-booka: wybierz „Dokument”. Dla szybkiego efektu: „Prezentacja”.",
+      },
+
+      /* ===========================
+         KONTYNUACJA (CO JESZCZE)
+         =========================== */
+
+      /* ---------- KROK 10: GENERUJ + CZEKAJ ---------- */
+      {
+        type: "section",
+        heading: "10) Teraz: kliknij „Generuj” i poczekaj",
+        content: [
+          "Gdy wszystko jest gotowe (temat, moduły, styl), kliknij **Generować / Generuj**.",
+          "Gamma może generować przez kilka minut — to normalne.",
+          "Ważne: nie zamykaj zakładki podczas generowania.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/guide/gamma/gamma-generate-button.png",
+        alt: "Gamma - przycisk generowania",
+        caption: "Tutaj widzisz „10 kart ogółem” oraz przycisk „Generować”.",
+      },
+      {
+        type: "image",
+        src: "/guide/gamma/gamma-generating.png",
+        alt: "Gamma - generowanie",
+        caption: "Podczas generowania Gamma informuje, aby nie zamykać zakładki.",
+      },
+
+      /* ---------- KROK 11: GOTOWE (EDYTOR) ---------- */
+      {
+        type: "section",
+        heading: "11) Gotowe: przejrzyj prezentację w edytorze",
+        content: [
+          "Gdy Gamma skończy, zobaczysz gotową prezentację.",
+          "Po lewej masz listę slajdów/kart: przechodź i poprawiaj szybko.",
+          "Jeśli coś nie pasuje, zmień tytuły lub usuń fragmenty. Nie komplikuj: najpierw wersja 1.0.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/guide/gamma/gamma-editor.png",
+        alt: "Gamma - edytor",
+        caption: "To jest edytor Gamma z gotową prezentacją.",
+      },
+
+      /* ---------- KROK 12: EKSPORT (UDZIAŁ → EKSPORT) ---------- */
+      {
+        type: "section",
+        heading: "12) Wyeksportuj prezentację (Udział → Eksport)",
+        content: [
+          "Żeby eksportować lub udostępnić, kliknij **Udział**.",
+          "Następnie wybierz **Eksport**.",
+          "Tam wybierasz format, jaki chcesz.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/guide/gamma/gamma-share-menu.png",
+        alt: "Gamma - Udział",
+        caption: "Kliknij „Udział”, a potem wybierz „Eksport”.",
+      },
+      {
+        type: "image",
+        src: "/guide/gamma/gamma-export-options.png",
+        alt: "Gamma - eksport",
+        caption: "Eksport do PDF, PowerPoint, Google Slides lub PNG.",
+      },
+
+      /* ---------- KROK 13: ZNAK WODNY (DARMOWE KONTO) ---------- */
+      {
+        type: "section",
+        heading: "13) Ważne: znak wodny w darmowym planie",
+        content: [
+          "W darmowym planie może pojawić się etykieta **„Made with Gamma”**.",
+          "To zależy od planu.",
+          "Jeśli chcesz ją usunąć do użytku profesjonalnego, zwykle potrzebujesz planu płatnego.",
+        ],
+      },
+      {
+        type: "image",
+        src: "/guide/gamma/gamma-watermark.png",
+        alt: "Made with Gamma",
+        caption: "W darmowym planie może pojawić się „Made with Gamma”.",
+      },
+    ],
+  },
+
+  sections: [],
 };
