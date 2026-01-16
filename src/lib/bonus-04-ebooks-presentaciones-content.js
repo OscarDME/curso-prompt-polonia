@@ -100,7 +100,7 @@ export const bonus04EbooksPresentaciones = {
       },
       {
         type: "image",
-        src: "/guide/gamma/gamma-home.png",
+        src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/gamma/gamma-home.webp",
         alt: "Gamma - ekran główny",
         caption: "To jest ekran główny Gamma (start).",
       },
@@ -117,7 +117,7 @@ export const bonus04EbooksPresentaciones = {
       },
       {
         type: "image",
-        src: "/guide/gamma/gamma-start-options.png",
+        src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/gamma/gamma-start-options.webp",
         alt: "Gamma - opcje startu",
         caption:
           "Wybierz tworzenie z AI: (Generuj / Generować).",
@@ -135,7 +135,7 @@ export const bonus04EbooksPresentaciones = {
       },
       {
         type: "image",
-        src: "/guide/gamma/gamma-generate-screen.png",
+        src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/gamma/gamma-generate-screen.webp",
         alt: "Gamma - ekran generowania",
         caption:
           "Ekran „Generuj”: tutaj wybierasz rodzaj materiału, który tworzysz.",
@@ -153,7 +153,7 @@ export const bonus04EbooksPresentaciones = {
       },
       {
         type: "image",
-        src: "/guide/gamma/gamma-generate-presentation.png",
+        src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/gamma/gamma-generate-presentation.webp",
         alt: "Gamma - wybór prezentacji",
         caption: "Wybierz „Prezentacja” i wpisz prompt w tym polu.",
       },
@@ -190,7 +190,7 @@ export const bonus04EbooksPresentaciones = {
       },
       {
         type: "image",
-        src: "/guide/gamma/gamma-outline.png",
+        src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/gamma/gamma-outline.webp",
         alt: "Gamma - struktura i sekcje",
         caption:
           "Gamma tworzy outline automatycznie. Możesz edytować tytuły, kolejność i sekcje w kilka sekund.",
@@ -221,7 +221,7 @@ export const bonus04EbooksPresentaciones = {
       },
       {
         type: "image",
-        src: "/guide/gamma/gamma-text-length.png",
+        src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/gamma/gamma-text-length.webp",
         alt: "Gamma - długość tekstu",
         caption:
           "Możesz wybrać, czy tekst ma być minimalny, zwięzły czy szczegółowy na slajd.",
@@ -240,14 +240,14 @@ export const bonus04EbooksPresentaciones = {
       },
       {
         type: "image",
-        src: "/guide/gamma/gamma-themes.png",
+        src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/gamma/gamma-themes.webp",
         alt: "Gamma - motywy",
         caption:
           "Wybierz motyw, żeby całość była spójna (typografia + kolory + układ).",
       },
       {
         type: "image",
-        src: "/guide/gamma/gamma-image-style.png",
+        src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/gamma/gamma-image-style.webp",
         alt: "Gamma - styl obrazów",
         caption:
           "Ustaw styl obrazów (zdjęcie/ilustracja/3D). Jeden styl = premium efekt.",
@@ -265,7 +265,7 @@ export const bonus04EbooksPresentaciones = {
       },
       {
         type: "image",
-        src: "/guide/gamma/gamma-generate-document.png",
+        src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/gamma/gamma-generate-document.webp",
         alt: "Gamma - wybór Dokumentu",
         caption:
           "Do e-booka: wybierz „Dokument”. Dla szybkiego efektu: „Prezentacja”.",
@@ -287,13 +287,13 @@ export const bonus04EbooksPresentaciones = {
       },
       {
         type: "image",
-        src: "/guide/gamma/gamma-generate-button.png",
+        src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/gamma/gamma-generate-button.webp",
         alt: "Gamma - przycisk generowania",
         caption: "Tutaj widzisz „10 kart ogółem” oraz przycisk „Generować”.",
       },
       {
         type: "image",
-        src: "/guide/gamma/gamma-generating.png",
+        src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/gamma/gamma-generating.webp",
         alt: "Gamma - generowanie",
         caption: "Podczas generowania Gamma informuje, aby nie zamykać zakładki.",
       },
@@ -310,7 +310,7 @@ export const bonus04EbooksPresentaciones = {
       },
       {
         type: "image",
-        src: "/guide/gamma/gamma-editor.png",
+        src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/gamma/gamma-editor.webp",
         alt: "Gamma - edytor",
         caption: "To jest edytor Gamma z gotową prezentacją.",
       },
@@ -327,15 +327,15 @@ export const bonus04EbooksPresentaciones = {
       },
       {
         type: "image",
-        src: "/guide/gamma/gamma-share-menu.png",
+        src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/gamma/gamma-share-menu.webp",
         alt: "Gamma - Udział",
         caption: "Kliknij „Udział”, a potem wybierz „Eksport”.",
       },
       {
         type: "image",
-        src: "/guide/gamma/gamma-export-options.png",
+        src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/gamma/gamma-export-options.webp",
         alt: "Gamma - eksport",
-        caption: "Eksport do PDF, PowerPoint, Google Slides lub PNG.",
+        caption: "Eksport do PDF, PowerPoint, Google Slides lub webp.",
       },
 
       /* ---------- KROK 13: ZNAK WODNY (DARMOWE KONTO) ---------- */
@@ -350,7 +350,7 @@ export const bonus04EbooksPresentaciones = {
       },
       {
         type: "image",
-        src: "/guide/gamma/gamma-watermark.png",
+        src: "https://pub-fc7bc8001c00468599d59941325319d4.r2.dev/poland-guides/gamma/gamma-watermark.webp",
         alt: "Made with Gamma",
         caption: "W darmowym planie może pojawić się „Made with Gamma”.",
       },
