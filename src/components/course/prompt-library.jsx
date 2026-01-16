@@ -19,6 +19,12 @@ import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { cn } from "@/lib/utils";
 
+// ✅ NUEVO: guía desplegable arriba de la librería
+import { PromptGuide } from "@/components/course/prompt-guide";
+import { textPromptGuide } from "@/lib/guides/text-guide";
+import { imagePromptGuide } from "@/lib/guides/image-guide";
+import { videoPromptGuide } from "@/lib/guides/video-guide";
+
 function getIconForType(type) {
   if (type === "image") return ImageIcon;
   if (type === "video") return Clapperboard;
@@ -38,7 +44,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
   const Icon = getIconForType(type);
   const isVideo = type === "video";
 
-  // 👇 NOWE: w tekście/obrazie pokazujemy kategorie dopiero po wybraniu konkretnego obszaru
+  // 👇 w tekście/obrazie pokazujemy kategorie dopiero po wybraniu konkretnego obszaru
   const showCategories = isVideo ? true : area !== "Wszystkie";
 
   // OBSZARY (makrokategorie) — tylko dla text/image
@@ -104,7 +110,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
     if (page > totalPages) setPage(totalPages);
   }, [page, totalPages]);
 
-  // 👇 NOWE: gdy wracasz do "Wszystkie" w obszarze, resetujemy też kategorię
+  // 👇 gdy wracasz do "Wszystkie" w obszarze, resetujemy też kategorię
   useEffect(() => {
     if (!isVideo && area === "Wszystkie" && category !== "Wszystkie") {
       setCategory("Wszystkie");
@@ -121,8 +127,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
     }
   };
 
-  const showingFrom =
-    filtered.length === 0 ? 0 : (page - 1) * pageSize + 1;
+  const showingFrom = filtered.length === 0 ? 0 : (page - 1) * pageSize + 1;
   const showingTo = Math.min(page * pageSize, filtered.length);
 
   return (
@@ -141,6 +146,18 @@ export function PromptLibrary({ title, subtitle, items, type }) {
           </Link>
         </Button>
       </div>
+
+      {/* ✅ GUÍA DESPLEGABLE (arriba de todo) */}
+      {type === "text" && (
+        <PromptGuide guide={textPromptGuide} storageKey="guide:text" />
+      )}
+      {type === "image" && (
+        <PromptGuide guide={imagePromptGuide} storageKey="guide:image" />
+      )}
+
+      {type === "video" && (
+        <PromptGuide guide={videoPromptGuide} storageKey="guide:video" />
+      )}
 
       {/* nagłówek */}
       <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
@@ -181,7 +198,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                   ))}
                 </div>
 
-                {/* 👇 NOWE: kategorie pokazujemy dopiero po wybraniu obszaru */}
+                {/* kategorie pokazujemy dopiero po wybraniu obszaru */}
                 {showCategories && (
                   <div className="flex flex-wrap gap-2">
                     {categories.map((cat) => (
@@ -202,7 +219,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                   </div>
                 )}
 
-                {/* (Opcjonalnie) podpowiedź, gdy nie wybrano obszaru */}
+                {/* podpowiedź, gdy nie wybrano obszaru */}
                 {!showCategories && (
                   <p className="text-[11px] text-slate-400">
                     Wybierz obszar, aby zobaczyć jego kategorie.
@@ -340,6 +357,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                         >
                           {isExpanded ? "Ukryj prompt" : "Zobacz prompt"}
                         </Button>
+
                         <Button
                           size="sm"
                           variant="ghost"
@@ -386,6 +404,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                 >
                   Poprzednia
                 </Button>
+
                 <span className="text-[11px] text-slate-400">
                   Strona{" "}
                   <span className="font-semibold text-teal-200">{page}</span> z{" "}
@@ -393,6 +412,7 @@ export function PromptLibrary({ title, subtitle, items, type }) {
                     {totalPages}
                   </span>
                 </span>
+
                 <Button
                   size="sm"
                   variant="ghost"
