@@ -1,5 +1,8 @@
-// src/lib/course-data.js
 import { heroCopy, bonusesSectionCopy } from "./copy";
+
+/* =========================
+   HERO
+========================= */
 
 export const courseHero = {
   title: "Kompletny Arsenał AI",
@@ -9,7 +12,14 @@ export const courseHero = {
   ctaLabel: "ZACZNIJ TERAZ",
 };
 
+/* =========================
+   ROWS (NETFLIX STYLE)
+========================= */
+
 export const courseModuleRows = [
+  /* ---------------------------------
+     GŁÓWNA ŚCIEŻKA
+  ---------------------------------- */
   {
     id: "main",
     title: "Główna ścieżka — Tajna Baza Promptów",
@@ -37,21 +47,19 @@ export const courseModuleRows = [
         title: "Virale — prompty",
         subtitle:
           "Gotowe prompty na hooki, scenariusze, viralowe struktury, CTA, nagłówki i treści zwiększające retencję.",
-        image: "/modules/prompts-virales.png", // crea esta imagen o cambia la ruta
-        href: "/curso/prompts/virales", // crea esta ruta luego
+        image: "/modules/prompts-virales.png",
+        href: "/curso/prompts/virales",
         tag: "AI • Tekst",
       },
-
       {
         id: "hyperrealism-pack-text",
         title: "Pakiet hiperrealizmu",
         subtitle:
           "Prompty i frameworki do ultra-realistycznych opisów, spójności, detali i kontroli stylu (wersja tekstowa).",
-        image: "/modules/hiperrealismo-pro.png", // crea esta imagen o cambia la ruta
-        href: "/curso/prompts/hiperrealismo", // crea esta ruta luego
+        image: "/modules/hiperrealismo-pro.png",
+        href: "/curso/prompts/hiperrealismo",
         tag: "AI • Tekst",
       },
-
       {
         id: "image-prompts",
         title: "Prompty do obrazów",
@@ -100,7 +108,30 @@ export const courseModuleRows = [
     ],
   },
 
-  // Bonos bloqueados por ahora
+  /* ---------------------------------
+     ⭐ KURSY PRO (OSOBNA SEKCJA)
+  ---------------------------------- */
+  {
+    id: "pro-courses",
+    title: "Kursy PRO",
+    variant: "pro", // 👈 kluczowe: render premium w UI
+    modules: [
+      {
+        id: "prompt-engineering-pro",
+        title: "AI Prompt Engineering PRO",
+        subtitle:
+          "Profesjonalny kurs od fundamentów do workflow. Nauczysz się myśleć jak ekspert, tworzyć skuteczne prompty i pracować w sposób powtarzalny.",
+        image: "/modules/prompt-engineering-pro.png",
+        href: "/curso/prompt-engineering-pro",
+        tag: "PRO • Kurs",
+        locked: false,
+      },
+    ],
+  },
+
+  /* ---------------------------------
+     BONUSY
+  ---------------------------------- */
   {
     id: "bonuses",
     title: bonusesSectionCopy.title,
@@ -111,10 +142,16 @@ export const courseModuleRows = [
       image: bonus.imageSrc || "/modules/bonus-placeholder.jpg",
       href: bonus.href || "/curso/bonos",
       tag: bonus.label,
-      locked: false, // 👈 IMPORTANTE
+      locked: false,
     })),
   },
 ];
+
+/* =========================
+   (OPCJONALNE) LEGACY COPY
+   możesz to potem usunąć,
+   jeśli już nie używasz
+========================= */
 
 export const promptEngineeringCourseCopy = {
   rowId: "prompt-engineering",
@@ -125,7 +162,7 @@ export const promptEngineeringCourseCopy = {
     title: "Kurs Inżynierii Promptów",
     description:
       "Opanuj, jak dopasowywać, optymalizować i tworzyć prompty, aby uzyskiwać profesjonalne rezultaty.",
-    imageSrc: "/modules/ingenieria-prompts.png", // cambia por tu imagen
+    imageSrc: "/modules/ingenieria-prompts.png",
     href: "/curso/ingenieria-de-prompts",
     locked: false,
   },
